@@ -16,3 +16,4 @@
 //= require_tree .
 //= require nouislider.min
 //= require main
+//= require jquery_extensions

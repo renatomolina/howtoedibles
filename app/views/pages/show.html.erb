@@ -1,20 +1,77 @@
-<div class="row">
-  <div class="col-sm-3">
-    <input id="grams" data-slider-id='slider' type="text" data-slider-min="1" data-slider-max="28" data-slider-step="1" data-slider-value="6"/>
-    <br>
-    <span id="grams-quantity"></span>
+<div class="row attribute-container">
+  <div class="row">
+    <div class="col-sm-12">
+      <span class="pull-center">How much weed you have?</span>
+    </div>
   </div>
-  <div class="col-sm-3">
-    <input id="strength" data-slider-id='slider' type="text" data-slider-min="1" data-slider-max="30" data-slider-step="1" data-slider-value="15"/>
-    <span id="strength-quantity"></span>
-  </div>
-  <div class="col-sm-3">
-    <input id="number-of-servings" data-slider-id='slider' type="text" data-slider-min="1" data-slider-max="30" data-slider-step="1" data-slider-value="10"/>
-    <span id="servings-quantity"></span>
+  <div class="row">
+    <div class="col-sm-6">
+      <input id="grams"
+        type="text"
+        data-slider-id="slider"
+        data-slider-min="1"
+        data-slider-max="28"
+        data-slider-step="0.1"
+        data-slider-value="3.5"/>
+    </div>
+    <div class="col-sm-6">
+      <span class="pull-left" id="grams-quantity"></span>
+    </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-sm-8">
-    <span id="potency-result">0</span>
+
+<div class="row attribute-container">
+  <div class="row">
+    <div class="col-sm-12">
+      <span class="pull-center">How strong is your weed? (10% average)</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <input id="strength"
+        type="text"
+        data-slider-id="slider"
+        data-slider-min="1"
+        data-slider-max="30"
+        data-slider-step="1"
+        data-slider-value="10"/>
+    </div>
+    <div class="col-sm-6">
+      <span id="strength-quantity"></span>
+    </div>
+  </div>
+</div>
+
+<div class="row attribute-container">
+  <div class="row">
+    <div class="col-sm-12">
+      <span class="pull-center">How many portions you want?</span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <input id="number-of-servings"
+        type="text"
+        data-slider-id="slider"
+        data-slider-min="1"
+        data-slider-max="30"
+        data-slider-step="1"
+        data-slider-value="25"/>
+    </div>
+    <div class="col-sm-6">
+      <span id="servings-quantity"></span>
+    </div>
+  </div>
+</div>
+
+<div class="row attribute-container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h4 id="potency-result">0</h4>
+
+    </div>
+    <div class="col-sm-4">
+      <h4 id="high-level"></h4>
+    </div>
   </div>
 </div>
