@@ -11,6 +11,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'pg'
 gem 'font-awesome-rails'
+gem 'newrelic_rpm'
 
 
 group :development, :test do
