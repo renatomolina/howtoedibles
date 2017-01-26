@@ -13,13 +13,16 @@ html, body { width: 100%; min-width: 100%; overflow-x: hidden; }
   background: green;
 }
 
-#grams, #strength, #number-of-servings {
-  width: 50px;
-}
-
 .attribute-container {
   height: 70px;
+  width: 100%;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 0px;
 }
 
+.card, .card-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+*{font-family:Open Sans, sans-serif;}

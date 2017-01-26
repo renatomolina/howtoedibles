@@ -1,77 +1,87 @@
-<div class="row attribute-container">
-  <div class="row">
-    <div class="col-sm-12">
-      <span class="pull-center">How much weed you have?</span>
+<div class="row">
+  <div class="col-sm-8">
+    <div class="row attribute-container">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="pull-center">How much weed you have?</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10">
+          <input id="grams"
+            type="text"
+            data-slider-id="slider"
+            data-slider-min="1"
+            data-slider-max="28"
+            data-slider-step="0.1"
+            data-slider-value="3.5"/>
+        </div>
+        <div class="col-sm-2">
+          <span class="pull-left" id="grams-quantity"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row attribute-container">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="pull-center">How strong is your weed? (10% average)</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10">
+          <input id="strength"
+            type="text"
+            data-slider-id="slider"
+            data-slider-min="1"
+            data-slider-max="80"
+            data-slider-step="1"
+            data-slider-value="10"/>
+        </div>
+        <div class="col-sm-2">
+          <span id="strength-quantity"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row attribute-container">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="pull-center">How many portions you want?</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10">
+          <input id="number-of-servings"
+            type="text"
+            data-slider-id="slider"
+            data-slider-min="1"
+            data-slider-max="80"
+            data-slider-step="1"
+            data-slider-value="40"/>
+        </div>
+        <div class="col-sm-2">
+          <span id="servings-quantity"></span>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <input id="grams"
-        type="text"
-        data-slider-id="slider"
-        data-slider-min="1"
-        data-slider-max="28"
-        data-slider-step="0.1"
-        data-slider-value="3.5"/>
-    </div>
-    <div class="col-sm-6">
-      <span class="pull-left" id="grams-quantity"></span>
+  <div class="col-sm-4">
+    <div class="row attribute-container">
+      <div class="row">
+        <div class="col-sm-12 text-center card">
+          <h3 id="potency-result">0</h3><h4>each portion</h4>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-sm-12 text-center card">
+          <div class="card-block box">
+            <h4 id="high-level" class="card-title"></h4>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="row attribute-container">
-  <div class="row">
-    <div class="col-sm-12">
-      <span class="pull-center">How strong is your weed? (10% average)</span>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <input id="strength"
-        type="text"
-        data-slider-id="slider"
-        data-slider-min="1"
-        data-slider-max="80"
-        data-slider-step="1"
-        data-slider-value="10"/>
-    </div>
-    <div class="col-sm-6">
-      <span id="strength-quantity"></span>
-    </div>
-  </div>
-</div>
-
-<div class="row attribute-container">
-  <div class="row">
-    <div class="col-sm-12">
-      <span class="pull-center">How many portions you want?</span>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <input id="number-of-servings"
-        type="text"
-        data-slider-id="slider"
-        data-slider-min="1"
-        data-slider-max="80"
-        data-slider-step="1"
-        data-slider-value="40"/>
-    </div>
-    <div class="col-sm-6">
-      <span id="servings-quantity"></span>
-    </div>
-  </div>
-</div>
-
-<div class="row attribute-container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h4 id="potency-result">0</h4>
-
-    </div>
-    <div class="col-sm-4">
-      <h4 id="high-level"></h4>
-    </div>
-  </div>
-</div>

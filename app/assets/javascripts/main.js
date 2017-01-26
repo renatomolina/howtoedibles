@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     var result = ((10 * (grams * strength)) / numberOfServings);
     $("#potency-result").animateCss('flash');
-    $("#potency-result").text(Number(result).toFixed(2) + " mg each portion");
+    $("#potency-result").text(Number(result).toFixed(2) + " mg");
 
     $("#high-level").animateCss('flash');
     $("#high-level").text(getHighLevel(result));
