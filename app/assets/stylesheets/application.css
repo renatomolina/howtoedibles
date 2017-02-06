@@ -14,8 +14,9 @@
  *= require_self
  *= require bootstrap.min
  *= require bootstrap-theme.min
+ *= require bootstrap-slider.min
  *= require nouislider.min
  *= require animate
  *= require font-awesome
- *= require main
+ *= require custom-container
  */
