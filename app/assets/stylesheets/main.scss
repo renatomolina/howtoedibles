@@ -1,3 +1,5 @@
+*{font-family:Open Sans, sans-serif;}
+
 html { position: relative; min-height: 100%; overflow-x: hidden; }
 html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
 
@@ -20,4 +22,11 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
   padding-right: 0px;
 }
 
-*{font-family:Open Sans, sans-serif;}
+.right-container {
+  height:auto;
+}
+
+.page-header-custom {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
