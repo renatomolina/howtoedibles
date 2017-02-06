@@ -16,6 +16,5 @@
 //= require_tree .
 //= require bootstrap.min
 //= require bootstrap-slider.min
-//= require nouislider.min
 //= require pluralize
 //= require jquery_extensions
