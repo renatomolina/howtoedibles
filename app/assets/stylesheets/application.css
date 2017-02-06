@@ -12,7 +12,10 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap.min
+ *= require bootstrap-theme.min
  *= require nouislider.min
+ *= require animate
  *= require font-awesome
  *= require main
  */

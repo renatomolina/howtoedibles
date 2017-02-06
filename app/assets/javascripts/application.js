@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require bootstrap.min
+//= require bootstrap-slider.min
 //= require nouislider.min
-//= require main
+//= require pluralize
 //= require jquery_extensions
