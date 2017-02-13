@@ -1,10 +1,10 @@
 class PagesController < ApplicationController
   def butter
-    @recipe = 'Cannabis Butter'
+    @recipe = 'Butter'
   end
 
   def coconut_oil
-    @recipe = 'Cannabis Coconut oil'
+    @recipe = 'Coconut oil'
   end
 
   def brownie
