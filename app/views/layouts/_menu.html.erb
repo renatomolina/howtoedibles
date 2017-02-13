@@ -1,17 +1,38 @@
-<nav class="public-nav navbar page-header-custom text-center">
-  <div class="container">
-    <div class="clear">
-      <div class="container-fluid">
-        <div class="branding">
-           <%= image_tag('howtoedibles.png', :alt => 'How to Edibles', :size => "283x40")%>
-        </div>
-        <div class="navbar-collapse collapse pull-right" id="navbar">
-          <ul class="nav navbar-nav">
-          </ul>
-        </div>
-      </div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header navbar-logo">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div style="padding-left:20px;"><a href="#"><%= image_tag('howtoedibles.png', :alt => 'How to Edibles', :size => "283x40")%></a></div>
     </div>
-  </div>
-</nav>
 
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <%= link_to "Butter", butter_path %>
+        </li>
+        <li>
+          <%= link_to "Coconut oil", "#" %>
+        </li>
+        <li>
+          <%= link_to "Brownie", "#" %>
+        </li>
+        <li>
+          <%= link_to "Pizza", "#" %>
+        </li>
+        <li>
+          <%= link_to "Crackers", "#" %>
+        </li>
+        <li>
+          <%= link_to "Cookies", "#" %>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
