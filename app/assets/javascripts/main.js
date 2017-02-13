@@ -10,7 +10,7 @@ $(document).on('turbolinks:load', function(){
     $("#potency-result").text(Number(result).toFixed(2) + " mg");
 
     $("#potency-result-total").animateCss('flash');
-    $("#potency-result-total").text(Number(result * numberOfServings).toFixed(0) + " mg");
+    $("#potency-result-total").text(Number(result * 48).toFixed(0) + " mg");
 
     //$("#high-level").animateCss('flash');
     $("#high-level").text(getHighLevel(result));
