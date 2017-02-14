@@ -32,7 +32,7 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
 
 .absolute-center { padding-top: 3%; }
 
-.top-buffer { margin-top:10%; }
+.top-buffer { margin-top:5%; }
 
 .container-title { padding-bottom:10px; }
 
@@ -40,3 +40,5 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
 .recipe-li { display: table-cell; padding: 2px; }
 
 .meter-container { padding:0px 30px 0px 30px; }
+
+.steps { font-size: 1em; font-weight: bolder; color: #fff; }

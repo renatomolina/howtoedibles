@@ -1,0 +1,42 @@
+<div class="col-sm-12 ui-item padding-continaer">
+  <h4 class="col-sm-12 container-title">
+    <i class="fa fa-flask fa-lg" aria-hidden="true"></i> Dosage - <%= @recipe %>
+  </h4>
+  <div class="row top-buffer meter-container">
+    <div class="col-sm-12 container pull-left">
+      <h5 class="text-left">This recipe will give your butter <strong><span id="potency-result-total">0</span></strong> of THC</h5>
+    </div>
+    <div class="col-sm-12 container pull-left">
+      <h5 class="text-left">Each portion has approximately <strong><span id="potency-result">0</span></strong></h5>
+    </div>
+  </div>
+
+  <div class="row pull-center meter-container">
+    <div class="col-sm-12 container top-buffer text-left">
+      <strong><h3 id="high-level"></h3></strong>
+    </div>
+  </div>
+  <div class="row top-buffer meter-container">
+    <div class="col-sm-12">
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 container">
+          <i class="fa fa-thumbs-o-up fa-2x green" aria-hidden="true"></i>
+        </div>
+        <div class="col-sm-10 container pull-left">
+          <h4>Positive Effects</h4>
+        </div>
+      </div>
+      <h5 id="positive-effect-details"></h5>
+      <br/></p>
+      <div class="row">
+        <div class="col-xs-2 col-sm-1 container">
+          <i class="fa fa-thumbs-o-down fa-2x red" aria-hidden="true"></i>
+        </div>
+        <div class="col-sm-10 container text-left">
+          <h4>Negative Effects</h4>
+        </div>
+      </div>
+      <h5 id="negative-effect-details"></h5>
+    </div>
+  </div>
+</div>

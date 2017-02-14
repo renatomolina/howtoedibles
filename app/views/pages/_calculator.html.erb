@@ -1,0 +1,74 @@
+<div class="col-sm-12 padding-container ui-item">
+  <h4 class="col-sm-12">
+    <i class="fa fa-calculator fa-lg" aria-hidden="true"></i> Calculator - <%= @recipe %>
+  </h4>
+  <div class="row top-buffer meter-container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h5 class="pull-center">How much weed do you have?</h5>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <input id="grams"
+          type="text"
+          data-slider-id="slider"
+          data-slider-min="1"
+          data-slider-max="28"
+          data-slider-step="0.1"
+          data-slider-value="7"
+          data-slider-tooltip="hide"/>
+      </div>
+      <div class="col-sm-3">
+        <h5 class="pull-left" id="grams-quantity"></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="row top-buffer meter-container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h5 class="pull-center">How strong is your weed? (10% average)</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <input id="strength"
+          type="text"
+          data-slider-id="slider"
+          data-slider-min="1"
+          data-slider-max="80"
+          data-slider-step="1"
+          data-slider-value="10"
+          data-slider-tooltip="hide"/>
+      </div>
+      <div class="col-sm-6">
+        <h5 id="strength-quantity"></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="row top-buffer meter-container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h5 class="pull-center">How many portions you want?</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <input id="number-of-servings"
+          type="text"
+          data-slider-id="slider"
+          data-slider-min="1"
+          data-slider-max="80"
+          data-slider-step="1"
+          data-slider-value="48"
+          data-slider-tooltip="hide"/>
+      </div>
+      <div class="col-sm-3">
+        <h5 id="servings-quantity"></h5>
+      </div>
+    </div>
+  </div>
+</div>
