@@ -12,14 +12,14 @@ $(document).on('turbolinks:load', function(){
     $("#potency-result-total").animateCss('flash');
     $("#potency-result-total").text(Number(result * 48).toFixed(0) + " mg");
 
-    $("#high-level").animateCss('flash');
+    //$("#high-level").animateCss('flash');
     $("#high-level").html(getHighLevel(result));
 
-    $("#positive-effect-details").animateCss('flash');
-    $("#positive-effect-details").text(getHighPositiveDescription(result));
+    //$("#positive-effect-details").animateCss('flash');
+    $("#positive-effect-details").html(getHighPositiveDescription(result));
 
-    $("#negative-effect-details").animateCss('flash');
-    $("#negative-effect-details").text(getHighNegativeDescription(result));
+    //$("#negative-effect-details").animateCss('flash');
+    $("#negative-effect-details").html(getHighNegativeDescription(result));
   };
 
   getHighLevel = function(value) {
@@ -34,26 +34,47 @@ $(document).on('turbolinks:load', function(){
   }
 
   getHighPositiveDescription = function(value) {
-    if (value < 10)
-      return "Relaxation, stress reduction, mood lift, increased giggling and laughing.";
-    else if (value < 20)
-      return "Relaxation, pain releaf, stress reduction, mood lift, giggling and laughing, creative, boring tasks become more interesting or funny, reduced nausea and increased appetite.";
-    else if (value > 20)
-      return "Relaxation, pain releaf, stress reduction, mood lift, giggling and laughing, creative, philosophical, ideas flow more easily, boring tasks can become more interesting, reduced nausea, increased awareness of senses, change in experience of muscle fatigue and increase in body/mind connection.";
+    var effects = [];
+    var result = "";
+
+    effects = effects.concat(["relaxation", "stress reduction", "mood lift", "giggling", "laughing"]);
+
+    if (value > 10)
+       effects = effects.concat(["creative", "reduced nausea", "euphoria", "increased appetite", "tasks become more interesting"]);
+    if (value > 20)
+      effects = effects.concat(["philosophical", "increased awareness of senses", "ideas flow easily", "increase in body/mind connection"]);
+
+    for(effect of effects) {
+      result += "<span class='label label-success'>" + effect + "</span> ";
+    }
+    return result;
   }
 
   getHighNegativeDescription = function(value) {
-    if (value < 10)
-      return "Difficulty with short-term memory during effects.";
-    else if (value < 20)
-      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoia.";
-    else if (value < 30)
-      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoia, time sense altered, mild to high anxiety, nausea and agitation.";
-    else
-      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoia, time sense altered, racing heart, loss of coordination, severe anxiety or panic attacks, nausea and agitation.";
+    var effects = [];
+    var result = "";
+
+    effects = effects.concat(["difficulty with short-term memory"]);
+
+    if (value > 10)
+      effects = effects.concat(["headaches", "lightheadedness", "paranoia"]);
+    if (value > 20)
+      effects = effects.concat(["time sense altered", "anxiety", "nausea", "agitation"]);
+    if(value > 30)
+      effects = effects.concat(["racing heart", "loss of coordination", "panic attacks"]);
+
+    return getLabelTags(effects, 'danger');;
   }
 
-  initializeQuantities = function (){
+  getLabelTags = function(effects, type) {
+    var result = "";
+    for(effect of effects) {
+      result = "<span class='label label-" + type +"'>" + effect + "</span> " + result;
+    }
+    return result;
+  }
+
+  initializeQuantities = function() {
     $("#grams-quantity-recipe").text(pluralize('gram', $('#grams')[0].value, true));
     $("#grams-quantity").text(pluralize('gram', $('#grams')[0].value, true));
     $("#strength-quantity").text('THC: ' + $('#strength')[0].value + " %");
