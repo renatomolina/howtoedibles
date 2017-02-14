@@ -27,9 +27,7 @@
       <%= render 'layouts/menu' %>
     </header>
     <div class='main ui-139'>
-      <div class='col-sm-12'>
-        <%= yield %>
-      </div>
+      <%= yield %>
     </div>
     <% if !Rails.env.development? %>
       <%= render 'analytics' %>
