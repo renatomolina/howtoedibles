@@ -18,15 +18,13 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
   padding-right: 10px;
 }
 
-.right-container {
-  height:auto;
-}
+.right-container { height:auto; }
 
 .navbar-logo { padding: 5px 20px 5px 5px; }
 
 .absolute-center { padding-top: 3%; }
 
-.top-buffer { margin-top:5%; }
+.top-buffer { margin-top:6%; }
 
 .container-title { padding-bottom:10px; }
 
@@ -34,6 +32,7 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
 .recipe-li { display: table-cell; padding: 2px; }
 
 .meter-container { padding:0px 30px 0px 30px; }
+.effects-container { padding:0px 10px 0px 10px; }
 
 .steps { font-size: 1em; font-weight: bolder; color: #fff; }
 .logo-margin { padding-left:10px; padding-top:5px; }
