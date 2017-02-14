@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'pg'
 gem 'font-awesome-rails'
 gem 'newrelic_rpm'
+gem 'sprockets-es6'
 
 
 group :development, :test do
