@@ -44,8 +44,8 @@ $(document).on('turbolinks:load', function(){
     if (value > 20)
       effects = effects.concat(["philosophical", "increased awareness of senses", "ideas flow easily", "increase in body/mind connection"]);
 
-    for(effect of effects) {
-      result += "<span class='label label-success'>" + effect + "</span> ";
+    for(var i = 0 in effects) {
+      result += "<span class='label label-success'>" + effects[i] + "</span> ";
     }
     return result;
   }
@@ -68,8 +68,8 @@ $(document).on('turbolinks:load', function(){
 
   getLabelTags = function(effects, type) {
     var result = "";
-    for(effect of effects) {
-      result = "<span class='label label-" + type +"'>" + effect + "</span> " + result;
+    for(var i = 0 in effects) {
+      result = "<span class='label label-" + type +"'>" + effects[i] + "</span> " + result;
     }
     return result;
   }
