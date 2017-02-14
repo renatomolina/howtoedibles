@@ -7,13 +7,9 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
   width: 100%;
 }
 
-#green-bar .slider-selection {
-  background: #428041;
-}
+#green-bar .slider-selection { background: #428041; }
 
-#green-bar .slider-handle {
-  background: green;
-}
+#green-bar .slider-handle { background: green; }
 
 .attribute-container {
   height: 70px;
@@ -26,9 +22,7 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
   height:auto;
 }
 
-.navbar-logo {
-  padding: 5px 20px 5px 5px;
-}
+.navbar-logo { padding: 5px 20px 5px 5px; }
 
 .absolute-center { padding-top: 3%; }
 
@@ -42,3 +36,6 @@ html, body { height:100%; width: 100%; min-width: 100%; overflow-x: hidden; }
 .meter-container { padding:0px 30px 0px 30px; }
 
 .steps { font-size: 1em; font-weight: bolder; color: #fff; }
+.logo-margin { padding-left:10px; padding-top:5px; }
+
+.text-justify { text-align: justify; }
