@@ -12,25 +12,25 @@ $(document).on('turbolinks:load', function(){
     $("#potency-result-total").animateCss('flash');
     $("#potency-result-total").text(Number(result * 48).toFixed(0) + " mg");
 
-    //$("#high-level").animateCss('flash');
-    $("#high-level").text(getHighLevel(result));
+    $("#high-level").animateCss('flash');
+    $("#high-level").html(getHighLevel(result));
 
-    //$("#positive-effect-details").animateCss('flash');
+    $("#positive-effect-details").animateCss('flash');
     $("#positive-effect-details").text(getHighPositiveDescription(result));
 
-    //$("#negative-effect-details").animateCss('flash');
+    $("#negative-effect-details").animateCss('flash');
     $("#negative-effect-details").text(getHighNegativeDescription(result));
   };
 
   getHighLevel = function(value) {
     if (value < 10)
-      return "Low dose";
+      return "<i class='fa fa-check-circle fa-lg green' aria-hidden='true'></i> Low dose";
     else if (value < 20)
-      return "Medium dose";
+      return "<i class='fa fa-exclamation-circle fa-lg yellow' aria-hidden='true'></i> Medium dose";
     else if (value < 30)
-      return "Strong dose";
+      return "<i class='fa fa-exclamation-circle fa-lg orange' aria-hidden='true'></i> Strong dose";
     else
-      return "Very Strong dose";
+      return "<i class='fa fa-exclamation-circle fa-lg red' aria-hidden='true'></i> Very Strong dose";
   }
 
   getHighPositiveDescription = function(value) {
@@ -44,13 +44,13 @@ $(document).on('turbolinks:load', function(){
 
   getHighNegativeDescription = function(value) {
     if (value < 10)
-      return "Difficulty with short-term memory during effects";
+      return "Difficulty with short-term memory during effects.";
     else if (value < 20)
-      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoid.";
+      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoia.";
     else if (value < 30)
-      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoid, time sense altered, mild to high anxiety, nausea and agitation.";
+      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoia, time sense altered, mild to high anxiety, nausea and agitation.";
     else
-      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoid, time sense altered, racing heart, loss of coordination, severe anxiety or panic attacks, nausea and agitation.";
+      return "Difficulty with short-term memory during effects, headaches, lightheadedness, paranoia, time sense altered, racing heart, loss of coordination, severe anxiety or panic attacks, nausea and agitation.";
   }
 
   initializeQuantities = function (){
