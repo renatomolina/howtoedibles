@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  ActiveAdmin.routes(self)
   root 'pages#butter'
   get '/butter', to: 'pages#butter', as: 'butter'
   get '/coconut-oil', to: 'pages#coconut_oil', as: 'coconut_oil'
