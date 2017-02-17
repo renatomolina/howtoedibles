@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'pg'
 gem 'font-awesome-rails'
 gem 'newrelic_rpm'
+gem 'coffee-rails'
 
 
 group :development, :test do
