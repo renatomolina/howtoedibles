@@ -4,7 +4,7 @@
       <i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> Step 3 - Let's cook! <br/>
     </h4>
     <h4>
-      Cannabis <%= @recipe.name %>
+      Cannabis <%= @recipe.name.capitalize %>
     </h4>
     <%= @recipe.ingredients.html_safe %>
   </div>
