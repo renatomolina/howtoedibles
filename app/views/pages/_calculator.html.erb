@@ -1,6 +1,6 @@
 <div class="col-sm-12 padding-container ui-item">
   <h4 class="col-sm-12">
-    <i class="fa fa-calculator fa-lg" aria-hidden="true"></i> Step 1 - Choose your quantities - <%= @recipe %>
+    <i class="fa fa-calculator fa-lg" aria-hidden="true"></i> Step 1 - Choose your quantities - <%= @recipe.name %>
   </h4>
   <div class="row top-buffer meter-container">
     <div class="row">
@@ -17,7 +17,7 @@
           data-slider-min="1"
           data-slider-max="28"
           data-slider-step="0.1"
-          data-slider-value="7"
+          data-slider-value="<%= @recipe.suggested_weed %>"
           data-slider-tooltip="hide"/>
       </div>
       <div class="col-sm-3">
@@ -63,7 +63,7 @@
           data-slider-min="1"
           data-slider-max="80"
           data-slider-step="1"
-          data-slider-value="48"
+          data-slider-value="<%= @recipe.suggested_portion %>"
           data-slider-tooltip="hide"/>
       </div>
       <div class="col-sm-3">
