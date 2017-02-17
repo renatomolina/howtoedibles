@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  ingredients: MyText
+  instructions: MyText
+  suggested_weed: 1.5
+  suggested_portion: 1.5
+  video: MyString
+
+two:
+  name: MyString
+  ingredients: MyText
+  instructions: MyText
+  suggested_weed: 1.5
+  suggested_portion: 1.5
+  video: MyString
