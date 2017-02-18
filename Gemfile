@@ -15,7 +15,6 @@ gem 'newrelic_rpm'
 gem 'coffee-rails'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 
-
 group :development, :test do
   gem 'byebug', platform: :mri
 end

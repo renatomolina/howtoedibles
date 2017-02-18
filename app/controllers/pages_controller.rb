@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def show
-    @recipe = Recipe.find_by(name: params[:recipe_name] || 'butter')
+    @recipe = Recipe.find_by(slug: params[:recipe_slug] || 'butter')
   end
 end
