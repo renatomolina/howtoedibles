@@ -13,9 +13,11 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active">
-          <%= link_to "Butter", butter_path %>
-        </li>
+        <% @recipes.each do |recipe| %>
+          <li class="<%= tab_highlight?(params[:recipe_slug], recipe) %>">
+            <%= link_to recipe.name, recipe.slug %>
+          </li>
+        <% end %>
         <!-- <li>
           <%= link_to "Coconut oil", "#" %>
         </li>

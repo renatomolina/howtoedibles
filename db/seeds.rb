@@ -13,3 +13,10 @@ Recipe.create(name: 'Butter',
               suggested_weed:7,
               suggested_portion:48,
               video: 'https://www.youtube.com/embed/hxUbe0GeL_k')
+Recipe.create(name: 'Coconut oil',
+              slug: 'coconut-oil',
+              ingredients: '<strong>Ingredients</strong> <p>1/2 cup of coconut oil <br /><span id="grams-quantity-recipe">3.5</span> ground weed </p>',
+              instructions: "<strong>Step 1: </strong>Grind your weed fine, you want to make a good surface area of exposure. <br/> <strong>Step 2: </strong>Add the grinded weed to a canning jar with 1/2 cup of coconut oil. <br/> <strong>Step 3: </strong>Seal the canning jar very tightly. <br/> <strong>Step 4: </strong>Add the canning jar in boiling water using low-medium (240 C) heat for over 2 hours. <br/> <strong>Step 5: </strong>Put all the jar's content into a cheesecloth over a metal strainer. <br/> <strong>Step 6: </strong>Gather the cheesecloth and squeese all the remaining liquid out. <br/> </p>",
+              suggested_weed:3.5,
+              suggested_portion:20,
+              video: 'https://www.youtube.com/embed/x5HrIKDiPH4')
