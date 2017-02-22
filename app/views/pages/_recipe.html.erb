@@ -12,7 +12,7 @@
     <h4><i class="fa fa-list-ol fa-lg" aria-hidden="true"></i>  Step by step</h4>
     <%= @recipe.instructions.html_safe %>
   </div>
-  <div class="col-sm-12">
+  <div class="col-sm-12 video-container">
     <a href="#" class="thumbnail">
       <iframe width="100%" height="300px" src="<%= @recipe.video %>" frameborder="0" allowfullscreen></iframe>
     </a>
