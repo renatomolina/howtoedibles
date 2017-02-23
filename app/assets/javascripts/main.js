@@ -83,21 +83,21 @@ $(document).on('ready', function(){
 
   initializeViews = function(){
     $('#grams').slider({ id: 'green-bar'});
-    $('#grams').on('slide',function (slider){
-      $("#grams-quantity").text(pluralize('gram', slider.value, true));
-      $("#grams-quantity-recipe").text(pluralize('gram', slider.value, true));
+    $('#grams').on('change',function (slider){
+      $("#grams-quantity").text(pluralize('gram', slider.value.newValue, true));
+      $("#grams-quantity-recipe").text(pluralize('gram', slider.value.newValue, true));
       updatePotency();
     });
 
     $('#strength').slider({ id: 'green-bar'});
-    $('#strength').on('slide',function (slider){
-      $("#strength-quantity").text("THC: " + slider.value + " %");
+    $('#strength').on('change',function (slider){
+      $("#strength-quantity").text("THC: " + slider.value.newValue + " %");
       updatePotency();
     });
 
     $('#number-of-servings').slider({ id: 'green-bar'});
-    $('#number-of-servings').on('slide',function (slider){
-      $("#servings-quantity").text(pluralize('portion', slider.value, true));
+    $('#number-of-servings').on('change',function (slider){
+      $("#servings-quantity").text(pluralize('portion', slider.value.newValue, true));
       updatePotency();
     });
   };
