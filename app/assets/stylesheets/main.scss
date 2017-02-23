@@ -2,7 +2,7 @@ body { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
 #green-bar { width: 100%; }
 #green-bar .slider-selection { background: #428041; }
-#green-bar .slider-handle { background: green; }
+#green-bar .slider-handle { background: green; top: -5px; width:30px; height:30px;}
 
 .attribute-container {
   height: 70px;
@@ -49,3 +49,4 @@ body { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
   width:100%;
   height:100%;
 }
+
