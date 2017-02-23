@@ -2,7 +2,7 @@ body { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
 #green-bar { width: 100%; }
 #green-bar .slider-selection { background: #428041; }
-#green-bar .slider-handle { background: green; top: -5px; width:30px; height:30px;}
+#green-bar .slider-handle { background: green; top: -3px; width:25px; height:25px;}
 
 .attribute-container {
   height: 70px;
@@ -22,7 +22,7 @@ body { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
 .container-title { padding-bottom:10px; }
 
-.recipe-ul { display: table; width: 100%;}
+.recipe-ul { display: table; width: 100%; }
 .recipe-li { display: table-cell; padding: 2px; }
 
 .meter-container { padding:0px 30px 0px 30px; }
