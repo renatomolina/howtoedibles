@@ -1,4 +1,4 @@
-$(document).on('turbolinks:load', function(){
+$(document).on('ready', function(){
 
   updatePotency = function (){
     var grams = $('#grams')[0].value;
