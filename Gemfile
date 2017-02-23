@@ -14,6 +14,7 @@ gem 'font-awesome-rails'
 gem 'newrelic_rpm'
 gem 'coffee-rails'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
+gem 'sitemap_generator'
 
 group :development, :test do
   gem 'byebug', platform: :mri
