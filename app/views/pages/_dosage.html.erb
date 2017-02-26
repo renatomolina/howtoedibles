@@ -1,13 +1,13 @@
 <div class="col-sm-12 ui-item">
   <h4 class="col-sm-12 container-title">
-    <i class="fa fa-flask fa-lg" aria-hidden="true"></i> Step 2 - Be aware of your dosage - <%= @recipe.name.capitalize %>
+    <i class="fa fa-flask fa-lg" aria-hidden="true"></i> <%= t :step2_title %> <%= @recipe.name.capitalize %>
   </h4>
   <div class="row top-buffer effects-container">
     <div class="col-sm-12 container pull-left">
-      <h5 class="text-left"><i class="fa fa-circle fa-lg" aria-hidden="true"></i> Your recipe will have <strong><span id="potency-result-total">0</span></strong> of THC</h5>
+      <h5 class="text-left"><i class="fa fa-circle fa-lg" aria-hidden="true"></i> <%= t :step2_full_portion_title %> <strong><span id="potency-result-total">0</span></strong> <%= t :step2_full_portion_title_end %></h5>
     </div>
     <div class="col-sm-12 container pull-left">
-      <h5 class="text-left"><i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i> Each portion has <strong><span id="potency-result">0</span></strong></h5>
+      <h5 class="text-left"><i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i> <%= t :step2_half_portion_title %> <strong><span id="potency-result">0</span></strong></h5>
     </div>
   </div>
 
@@ -23,7 +23,7 @@
           <i class="fa fa-thumbs-o-up fa-2x green" aria-hidden="true"></i>
         </div>
         <div class="col-sm-10 container text-left">
-          <h4>Positive Effects</h4>
+          <h4><%= t :step2_positive_effects_title %></h4>
         </div>
       </div>
       <h5 id="positive-effect-details"></h5>
@@ -33,14 +33,14 @@
           <i class="fa fa-thumbs-o-down fa-2x red" aria-hidden="true"></i>
         </div>
         <div class="col-sm-10 container text-left">
-          <h4>Negative Effects</h4>
+          <h4><%= t :step2_negative_effects_title %></h4>
         </div>
       </div>
       <h5 id="negative-effect-details"></h5>
     </div>
     <div class="col-sm-12">
       <br/>
-      <span class="pull-right">You may or may not feel all the effects listed*</span>
+      <span class="pull-right"><%= t :step2_observation %></span>
     </div>
   </div>
 </div>

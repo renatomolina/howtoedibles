@@ -1,7 +1,7 @@
 <div class="col-sm-12 ui-item">
   <div class="col-sm-12">
     <h4 class="text-left container-title">
-      <i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> Step 3 - Let's cook! <br/>
+      <i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> <%= t I18n.step3_title %> <br/>
     </h4>
     <h4>
       Cannabis <%= @recipe.name.capitalize %>
@@ -9,7 +9,7 @@
     <%= @recipe.ingredients.html_safe %>
   </div>
   <div class="col-sm-12 text-justify">
-    <h4><i class="fa fa-list-ol fa-lg" aria-hidden="true"></i>  Step by step</h4>
+    <h4><i class="fa fa-list-ol fa-lg" aria-hidden="true"></i>  <%= t I18n.step3_step_by_step %></h4>
     <%= @recipe.instructions.html_safe %>
   </div>
   <div class="col-sm-12 video-container">

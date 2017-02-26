@@ -1,4 +1,4 @@
-$(document).on('ready', function(){
+  $(document).on('ready', function(){
 
   updatePotency = function (){
     var grams = $('#grams')[0].value;
@@ -24,25 +24,25 @@ $(document).on('ready', function(){
 
   getHighLevel = function(value) {
     if (value < 10)
-      return "<i class='fa fa-check-circle fa-lg green' aria-hidden='true'></i> Low dose";
+      return "<i class='fa fa-check-circle fa-lg green' aria-hidden='true'></i> " + I18n.step2_low_dose;
     else if (value < 20)
-      return "<i class='fa fa-exclamation-circle fa-lg yellow' aria-hidden='true'></i> Medium dose";
+      return "<i class='fa fa-exclamation-circle fa-lg yellow' aria-hidden='true'></i> " + I18n.step2_medium_dose;
     else if (value < 30)
-      return "<i class='fa fa-exclamation-circle fa-lg orange' aria-hidden='true'></i> Strong dose";
+      return "<i class='fa fa-exclamation-circle fa-lg orange' aria-hidden='true'></i> " + I18n.step2_strong_dose;
     else
-      return "<i class='fa fa-exclamation-circle fa-lg red' aria-hidden='true'></i> Very Strong dose";
+      return "<i class='fa fa-exclamation-circle fa-lg red' aria-hidden='true'></i> " + I18n.step2_very_strong_dose;
   }
 
   getHighPositiveDescription = function(value) {
     var effects = [];
     var result = "";
 
-    effects = effects.concat(["relaxation", "stress reduction", "mood lift", "giggling", "laughing"]);
+    effects = effects.concat([I18n.relaxation_label, I18n.stress_reduction_label, I18n.mood_lift_label, I18n.giggling_label, I18n.laughing_label]);
 
     if (value > 10)
-       effects = effects.concat(["creative", "reduced nausea", "euphoria", "increased appetite", "tasks become more interesting"]);
+       effects = effects.concat([I18n.creative_label, I18n.reduced_nausea_label, I18n.euphoria_label, I18n.increased_appetite_label, I18n.tasks_label]);
     if (value > 20)
-      effects = effects.concat(["philosophical", "increased awareness of senses", "ideas flow easily", "increase in body/mind connection"]);
+      effects = effects.concat([I18n.philosophical_label, I18n.senses_label, I18n.ideas_label, I18n.mind_body_label]);
 
     for(var i = 0 in effects) {
       result += "<span class='label label-success'>" + effects[i] + "</span> ";
@@ -54,14 +54,14 @@ $(document).on('ready', function(){
     var effects = [];
     var result = "";
 
-    effects = effects.concat(["difficulty with short-term memory"]);
+    effects = effects.concat([I18n.memory_label]);
 
     if (value > 10)
-      effects = effects.concat(["headaches", "lightheadedness", "paranoia"]);
+      effects = effects.concat([I18n.headaches_label, I18n.lightheadedness_label, I18n.paranoia_label]);
     if (value > 20)
-      effects = effects.concat(["time sense altered", "anxiety", "nausea", "agitation"]);
+      effects = effects.concat([I18n.time_sense_label, I18n.anxiety_label, I18n.nausea_label, I18n.agitation_label]);
     if(value > 30)
-      effects = effects.concat(["racing heart", "loss of coordination", "panic attacks"]);
+      effects = effects.concat([I18n.racing_heart_label, I18n.coordination_label, I18n.panic_attacks_label]);
 
     return getLabelTags(effects, 'danger');;
   }
@@ -78,14 +78,14 @@ $(document).on('ready', function(){
     $("#grams-quantity-recipe").text(pluralize('gram', $('#grams')[0].value, true));
     $("#grams-quantity").text(pluralize('gram', $('#grams')[0].value, true));
     $("#strength-quantity").text('THC: ' + $('#strength')[0].value + " %");
-    $("#servings-quantity").text(pluralize('portion', parseInt($('#number-of-servings')[0].value) , true));
+    $("#servings-quantity").text(pluralize(I18n.portion_label, parseInt($('#number-of-servings')[0].value) , true));
   };
 
   initializeViews = function(){
     $('#grams').slider({ id: 'green-bar'});
     $('#grams').on('change',function (slider){
-      $("#grams-quantity").text(pluralize('gram', slider.value.newValue, true));
-      $("#grams-quantity-recipe").text(pluralize('gram', slider.value.newValue, true));
+      $("#grams-quantity").text(pluralize(I18n.gram_label, slider.value.newValue, true));
+      $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, slider.value.newValue, true));
       updatePotency();
     });
 
@@ -97,7 +97,7 @@ $(document).on('ready', function(){
 
     $('#number-of-servings').slider({ id: 'green-bar'});
     $('#number-of-servings').on('change',function (slider){
-      $("#servings-quantity").text(pluralize('portion', slider.value.newValue, true));
+      $("#servings-quantity").text(pluralize(I18n.portion_label, slider.value.newValue, true));
       updatePotency();
     });
   };

@@ -1,11 +1,11 @@
 <div class="col-sm-12 padding-container ui-item">
   <h4 class="col-sm-12">
-    <i class="fa fa-calculator fa-lg" aria-hidden="true"></i> Step 1 - Choose your quantities - <%= @recipe.name.capitalize %>
+    <i class="fa fa-calculator fa-lg" aria-hidden="true"></i> <%= t :step1_title %> <%= @recipe.name.capitalize %>
   </h4>
   <div class="row top-buffer meter-container">
     <div class="row">
       <div class="col-sm-12">
-        <h5 class="pull-center">How much weed do you have?</h5>
+        <h5 class="pull-center"><%= t :step1_weed_quantity %></h5>
       </div>
     </div>
 
@@ -29,7 +29,7 @@
   <div class="row top-buffer meter-container">
     <div class="row">
       <div class="col-sm-12">
-        <h5 class="pull-center">How strong is your weed? (10% average)</h5>
+        <h5 class="pull-center"><%= t :step1_weed_intensity %></h5>
       </div>
     </div>
     <div class="row">
@@ -52,7 +52,7 @@
   <div class="row top-buffer meter-container">
     <div class="row">
       <div class="col-sm-12">
-        <h5 class="pull-center">How many portions you want?</h5>
+        <h5 class="pull-center"><%= t :step1_weed_portions %></h5>
       </div>
     </div>
     <div class="row">
