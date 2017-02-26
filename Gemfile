@@ -14,6 +14,7 @@ gem 'newrelic_rpm'
 gem 'coffee-rails'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'sitemap_generator'
+gem 'rails-i18n', '~> 5.0.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
