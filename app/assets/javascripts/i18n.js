@@ -1,3 +1,0 @@
-<script type="text/javascript">
-  window.I18n = <%= @current_translations.to_json.html_safe %>
-</script>
