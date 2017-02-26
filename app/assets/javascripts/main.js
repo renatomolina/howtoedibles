@@ -1,5 +1,4 @@
-  $(document).on('ready', function(){
-
+$(document).on('ready', function(){
   updatePotency = function (){
     var grams = $('#grams')[0].value;
     var strength = $('#strength')[0].value;
@@ -12,13 +11,8 @@
     $("#potency-result-total").animateCss('flash');
     $("#potency-result-total").text(Number(result * numberOfServings).toFixed(0) + " mg");
 
-    //$("#high-level").animateCss('flash');
     $("#high-level").html(getHighLevel(result));
-
-    //$("#positive-effect-details").animateCss('flash');
     $("#positive-effect-details").html(getHighPositiveDescription(result));
-
-    //$("#negative-effect-details").animateCss('flash');
     $("#negative-effect-details").html(getHighNegativeDescription(result));
   };
 
@@ -75,8 +69,8 @@
   }
 
   initializeQuantities = function() {
-    $("#grams-quantity-recipe").text(pluralize('gram', $('#grams')[0].value, true));
-    $("#grams-quantity").text(pluralize('gram', $('#grams')[0].value, true));
+    $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, $('#grams')[0].value, true));
+    $("#grams-quantity").text(pluralize(I18n.gram_label, $('#grams')[0].value, true));
     $("#strength-quantity").text('THC: ' + $('#strength')[0].value + " %");
     $("#servings-quantity").text(pluralize(I18n.portion_label, parseInt($('#number-of-servings')[0].value) , true));
   };
