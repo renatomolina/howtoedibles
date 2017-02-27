@@ -50,7 +50,7 @@ pt-BR:
   lightheadedness_label: "chapado"
   paranoia_label: "paranóia"
   time_sense_label: "senso de tempo alterado"
-  anxiety_label: "anxiety"
+  anxiety_label: "ansiedade"
   nausea_label: "nauseas"
   agitation_label: "agitação"
   racing_heart_label: "coração acelerado"
@@ -59,4 +59,5 @@ pt-BR:
   memory_label: "dificuldade com memória de curto prazo"
   portion_label: "porção"
   gram_label: "grama"
+  ga_id: "UA-90858722-1"
 
