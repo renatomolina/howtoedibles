@@ -1,6 +1,6 @@
 body { overflow-y: scroll; -webkit-overflow-scrolling: touch; }
 
-a, u { text-decoration: none; }
+a, u { text-decoration: none !important;}
 
 #green-bar { width: 100%; }
 #green-bar .slider-selection { background: #428041; }
