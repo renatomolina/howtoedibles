@@ -12,12 +12,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <meta charset='utf-8' />
-    <meta name='description' content="This is a website to help you with your dosage in marijuana edibles. We show all the steps how to do edibles." />
+    <meta name='description' content="<%= t :meta_description %>" />
 
-    <meta property='og:site_name' content='How to Cannabis Edibles' />
-    <meta property='og:title' content='Dose your Cannabis edibles' />
-    <meta property='og:description' content="This is a website to help you with your dosage in marijuana edibles. We show all the steps how to do edibles." />
-    <meta name="keywords" content="edibles,cannabis,marijuana,weed,dose,dosage,pot,overdose,how,to,edibles,howtoedibles">
+    <meta property='og:site_name' content="<%= t :meta_og_site_name %>" />
+    <meta property='og:title' content="<%= t :meta_og_title %>" />
+    <meta property='og:description' content="<%= t :meta_og_description %>" />
+    <meta name="keywords" content="<%= t :meta_tags %>">
 
     <%= yield(:head) %>
   </head>
