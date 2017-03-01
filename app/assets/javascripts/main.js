@@ -94,6 +94,13 @@ $(document).on('ready', function(){
       $("#servings-quantity").text(pluralize(I18n.portion_label, slider.value.newValue, true));
       updatePotency();
     });
+
+    $('.close-harm-warning').click(function(event){
+      event.preventDefault();
+      $('.harm-reduction-warning').fadeOut( "slow", function() {
+        this.hide();
+      });
+    });
   };
 
   initialize = function(){
