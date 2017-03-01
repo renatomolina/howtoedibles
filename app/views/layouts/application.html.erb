@@ -30,7 +30,6 @@
       <%= yield %>
     </div>
     <% if !Rails.env.development? %>
-
       <%= render 'feedback_widget' %>
     <% end %>
     <%= render 'analytics' %>
