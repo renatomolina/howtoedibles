@@ -30,7 +30,7 @@
     <div class='main ui-139'>
       <%= yield %>
     </div>
-    <% if Rails.env.development? %>
+    <% if !Rails.env.development? %>
       <%= render 'feedback_widget' %>
     <% end %>
     <%= render 'analytics' %>
