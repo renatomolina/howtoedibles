@@ -9,4 +9,36 @@ ActiveAdmin.register Recipe do
     column :video
     actions
   end
+
+  form do |f|
+    f.inputs "Recipe" do
+      tabs do
+        tab 'Basic' do
+          f.inputs "Basic" do
+            f.input :name
+            f.input :slug
+            f.input :video
+          end
+        end
+
+        tab 'Maths' do
+          f.inputs 'Maths' do
+            f.input :suggested_weed
+            f.input :suggested_portion
+          end
+        end
+
+        tab 'Ingredients & Instructions' do
+          f.inputs 'Ingredients & Instructions' do
+            f.label "Ingredients"
+            f.cktext_area :ingredients, label: "Ingredients"
+
+            f.label  "Instructions"
+            f.cktext_area :instructions, label: "Instructions"
+          end
+        end
+      end
+      f.actions
+    end
+  end
 end
