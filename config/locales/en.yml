@@ -2,6 +2,7 @@ en:
   logo: "howtoedibles.png"
   logo_size: "230x33"
   page_title: "How to Edibles - The app to help you dose your weed edibles"
+  modal_close: "Close"
   step1_title: "Step 1 - Choose your quantities -"
   step1_weed_quantity: "How much weed do you have?"
   step1_weed_intensity: "How strong is your weed? (10% average)"

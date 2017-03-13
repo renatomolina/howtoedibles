@@ -2,6 +2,7 @@ pt-BR:
   logo: "laricando.png"
   logo_size: "172x33"
   page_title: "Laricando - Para te ajudar a não passar da dose"
+  modal_close: "Fechar"
   step1_title: "Passo 1 - Escolha a sua quantidade -"
   step1_weed_quantity: "Quanto de maconha você tem?"
   step1_weed_intensity: "Quão forte é sua maconha? (10% média)"
