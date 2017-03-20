@@ -45,7 +45,11 @@
           data-slider-tooltip="hide"/>
       </div>
       <div class="col-sm-12">
-        <a class="label label-warning pull-left label-calculator" data-toggle="modal" data-target="#myModal"><%= t :step1_potency_dont_know %></a>
+        <a class="pull-left label-calculator" data-toggle="modal" data-target="#myModal">
+          <span class="label label-warning">
+            <%= t :step1_potency_dont_know %>
+          </span>
+        </a>
         <h5 class="pull-right" id="strength-quantity"></h5>
       </div>
       <%= render "modal_potency" %>
