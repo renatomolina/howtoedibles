@@ -28,8 +28,10 @@
     <header>
       <%= render 'layouts/menu' %>
     </header>
-    <div class='main ui-139'>
-      <%= yield %>
+    <div class="main ui-139">
+      <div class="container clear">
+        <%= yield %>
+      </div>
     </div>
     <% if !Rails.env.development? %>
       <%= render 'feedback_widget' %>
