@@ -18,13 +18,15 @@
             <%= link_to recipe.name, recipe.slug %>
           </li>
         <% end %>
-        <li>
-          <a href="http://bit.ly/sendhowtoedibles" target="_blank">
-            <span class="label label-success send-menu-btn">
-              Send your recipe
-            </span>
-          </a>
-        </li>
+        <% if I18n.locale != :en %>
+          <li>
+            <a href="http://bit.ly/sendhowtoedibles" target="_blank">
+              <span class="label label-success send-menu-btn">
+                Send your recipe
+              </span>
+            </a>
+          </li>
+        <% end %>
         <!-- <li>
           <%= link_to "Coconut oil", "#" %>
         </li>
