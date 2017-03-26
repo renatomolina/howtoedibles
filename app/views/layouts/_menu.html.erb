@@ -18,7 +18,7 @@
             <%= link_to recipe.name, recipe.slug %>
           </li>
         <% end %>
-        <% if I18n.locale != :en %>
+        <% if I18n.locale == :en %>
           <li>
             <a href="http://bit.ly/sendhowtoedibles" target="_blank">
               <span class="label label-success send-menu-btn">
