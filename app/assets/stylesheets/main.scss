@@ -58,6 +58,12 @@ thead th { background: #428041; color: #fff }
   margin-top:5px;
 }
 
+.send-menu-btn {
+  font-size: 14px;
+  margin: auto;
+  font-weight: bold;
+}
+
 @media only screen and (max-device-width: 480px) {
   .slider-handle { top: 0px; width:25px; height:25px; }
   .slider.slider-horizontal .slider-track { height:15px;}
