@@ -4,7 +4,7 @@ development:
   username: postgres
   database: laricando-production
   username: stoneroot
-  password: L0nd0n&weed420
+  password: "L0nd0n&weed420"
   port: 5432
 
 production:
