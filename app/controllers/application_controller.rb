@@ -12,11 +12,11 @@ class ApplicationController < ActionController::Base
 
   def select_shard(&block)
     domain = request.domain.to_s
-    db_config = YAML.load_file('config/database.yml')
+    db_config = Rails.application.config.database_configuration
     if domain["laricando"]
-      Recipe.establish_connection(:laricando)
+      Recipe.establish_connection(db_config['laricando'])
     else
-      Recipe.establish_connection(:production)
+      Recipe.establish_connection(db_config['production'])
     end
   end
 
