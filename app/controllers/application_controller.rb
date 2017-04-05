@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   helper_method :current_translations
 
-  #around_filter :select_shard
+  around_filter :select_shard
   before_action :set_locale
 
   def current_translations
@@ -12,7 +12,12 @@ class ApplicationController < ActionController::Base
 
   def select_shard(&block)
     domain = request.domain.to_s
-    domain["laricando"] ? Octopus.using(:laricando, &block) : Octopus.using(:howtoedibles, &block)
+    db_config = YAML.load_file('config/database.yml')
+    if domain["laricando"]
+      ActiveRecord::Base.establish_connection(db_config['laricando'])
+    else
+      ActiveRecord::Base.establish_connection(db_config['production'])
+    end
   end
 
   def set_locale
