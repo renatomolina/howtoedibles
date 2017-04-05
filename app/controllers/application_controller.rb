@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   helper_method :current_translations
 
-  around_filter :select_shard
+  #around_filter :select_shard
   before_action :set_locale
 
   def current_translations

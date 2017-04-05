@@ -9,7 +9,7 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'pg'
-gem 'ar-octopus'
+#gem 'ar-octopus'
 gem 'font-awesome-rails'
 gem 'newrelic_rpm'
 gem 'coffee-rails'
