@@ -11,7 +11,16 @@ production:
   adapter: postgresql
   host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
   username: postgres
-  database: laricando-production
+  database: howtoedibles-production
+  username: stoneroot
+  password: "L0nd0n&weed420"
+  port: 5432
+
+laricando:
+  adapter: postgresql
+  host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
+  username: postgres
+  database: howtoedibles-production
   username: stoneroot
   password: "L0nd0n&weed420"
   port: 5432
