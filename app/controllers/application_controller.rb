@@ -14,9 +14,9 @@ class ApplicationController < ActionController::Base
     domain = request.domain.to_s
     db_config = Rails.application.config.database_configuration
     if domain["laricando"]
-      Recipe.establish_connection(:laricando'])
+      Recipe.establish_connection(:laricando)
     else
-      Recipe.establish_connection(db_config['production'])
+      Recipe.establish_connection(:production)
     end
   end
 
