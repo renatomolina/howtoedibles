@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_translations
 
   around_filter :select_shard
+  before_action :set_locale
 
   def current_translations
     @translations ||= I18n.backend.send(:translations)
@@ -12,5 +13,10 @@ class ApplicationController < ActionController::Base
   def select_shard(&block)
     domain = request.domain.to_s
     domain["laricando"] ? Octopus.using(:laricando, &block) : Octopus.using(:howtoedibles, &block)
+  end
+
+  def set_locale
+    domain = request.domain.to_s
+    I18n.locale = domain["laricando"] ? 'pt-BR' : 'en'
   end
 end
