@@ -8,11 +8,11 @@ octopus:
       adapter: postgresql
       database: howtoedibles-production
       username: stoneroot
-      password: L0nd0n&weed420
+      password:
     laricando:
       host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
       adapter: postgresql
       database: laricando-production
       username: stoneroot
-      password: L0nd0n&weed420
+      password:
 
