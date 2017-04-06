@@ -10,15 +10,15 @@ class ApplicationController < ActionController::Base
     @translations[I18n.locale].with_indifferent_access
   end
 
-  # def select_shard(&block)
-  #   domain = request.domain.to_s
-  #   db_config = Rails.application.config.database_configuration
-  #   if domain["laricando"]
-  #     Octopus.using('laricando', &block)
-  #   else
-  #     Octopus.using('howtoedibles', &block)
-  #   end
-  # end
+  def select_shard(&block)
+    domain = request.domain.to_s
+    db_config = Rails.application.config.database_configuration
+    if domain["laricando"]
+      Octopus.using('laricando', &block)
+    else
+      Octopus.using('howtoedibles', &block)
+    end
+  end
 
   def set_locale
     domain = request.domain.to_s
