@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   helper_method :current_translations
 
-  around_action :select_shard
+  #around_action :select_shard
   before_action :set_locale
 
   def current_translations
@@ -14,9 +14,9 @@ class ApplicationController < ActionController::Base
     domain = request.domain.to_s
     db_config = Rails.application.config.database_configuration
     if domain["laricando"]
-      Octopus.using('laricando', &block)
+      ActiveRecord::Base.establish_connection(db_config['laricando'])
     else
-      Octopus.using('howtoedibles', &block)
+      ActiveRecord::Base.establish_connection(db_config['production'])
     end
   end
 
