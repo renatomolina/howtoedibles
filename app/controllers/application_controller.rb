@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   helper_method :current_translations
 
-  #around_action :select_shard
+  around_action :select_shard
   before_action :set_locale
 
   def current_translations
@@ -11,12 +11,29 @@ class ApplicationController < ActionController::Base
   end
 
   def select_shard(&block)
-    domain = request.domain.to_s
-    db_config = Rails.application.config.database_configuration
-    if domain["laricando"]
-      ActiveRecord::Base.establish_connection(db_config['laricando'])
-    else
-      ActiveRecord::Base.establish_connection(db_config['production'])
+    begin
+      domain = request.domain.to_s
+      db_config = Rails.application.config.database_configuration
+      if domain["laricando"]
+        Octopus.using(:laricando, &block)
+      else
+        Octopus.using(:howtoedibles, &block)
+      end
+    rescue => exp
+      begin
+          ActiveRecord::Base.connection.reconnect!
+        rescue
+          sleep 10
+          retry
+        else
+          retry
+        end
+      ensure
+      if domain["laricando"]
+        Octopus.using(:laricando, &block)
+      else
+        Octopus.using(:howtoedibles, &block)
+      end
     end
   end
 
