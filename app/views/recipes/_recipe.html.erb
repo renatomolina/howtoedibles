@@ -1,7 +1,7 @@
 <div class="col-sm-12 ui-item">
   <div class="col-sm-12">
     <h4 class="text-left container-title">
-      <i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> <%= t :step3_title %> <br/>
+      <i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> <%= t :step3_title %>
     </h4>
     <h4>
       <%= @recipe.name.capitalize %>
@@ -18,8 +18,15 @@
     </a>
   </div>
   <br/>
-  <div class="col-sm-12">
-    <br/>
-    <div class='oss-widget-interface'></div>
+  <div class="col-sm-12 text-right">
+    <% if I18n.locale == :en %>
+      <h5>Do you like to see your recipes here?</h5>
+      <a href="http://bit.ly/sendhowtoedibles" target="_blank">
+        <span class="label label-success send-menu-btn">
+          <i class="fa fa-send-o white" aria-hidden="true"></i>
+          Send your recipe
+        </span>
+      </a>
+    <% end %>
   </div>
 </div>
