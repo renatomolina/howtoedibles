@@ -1,7 +1,7 @@
 en:
   logo: "howtoedibles.png"
   logo_size: "230x33"
-  page_title: "How to Edibles - The app to help you dose your weed edibles"
+  page_title: "How to Edibles - Know your dose"
   modal_close: "Close"
   step1_title: "Step 1 - Choose your quantities -"
   step1_weed_quantity: "How much weed do you have?"
@@ -73,7 +73,7 @@ en:
   portion_label: "portion"
   gram_label: "gram"
   ga_id: "UA-90858722-1"
-  meta_description: "This is a website to help you with measuring dosage in marijuana edibles. We show you all of the steps to make your favorite cannabis treats."
+  meta_description: "Website to help you with measuring dosage in marijuana edibles. We show you all of the steps to make your favorite cannabis treats."
   meta_og_site_name: "How to make Cannabis Edibles"
   meta_og_title: "Dose your Cannabis edibles"
   meta_og_description: "This is a website to help you with measuring dosage in marijuana edibles. We show you all of the steps to make your favorite cannabis treats."
