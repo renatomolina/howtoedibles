@@ -18,7 +18,7 @@ gem 'sitemap_generator'
 gem 'rails-i18n', '~> 5.0.0'
 gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'rollbar'
-gem 'rack-cors'
+gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
   gem 'byebug', platform: :mri
