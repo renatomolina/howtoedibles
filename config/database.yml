@@ -1,7 +1,6 @@
 development:
   adapter: postgresql
   host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
-  username: postgres
   database: laricando-production
   username: stoneroot
   password: "L0nd0n&weed420"
@@ -10,7 +9,6 @@ development:
 production:
   adapter: postgresql
   host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
-  username: postgres
   database: howtoedibles-production
   username: stoneroot
   password: "L0nd0n&weed420"
@@ -19,7 +17,6 @@ production:
 laricando:
   adapter: postgresql
   host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
-  username: postgres
   database: laricando-production
   username: stoneroot
   password: "L0nd0n&weed420"

@@ -2,7 +2,7 @@ octopus:
   environments:
     - production
     - development
-  production:
+  development:
     howtoedibles:
       host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
       adapter: postgresql

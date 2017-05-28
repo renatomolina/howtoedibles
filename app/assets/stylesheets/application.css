@@ -11,13 +11,14 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_self
- *= require active_admin
  *= require bootstrap.min
- *= require bootstrap-theme.min
  *= require bootstrap-slider.min
  *= require animate
  *= require font-awesome
  *= require custom-container
+ *= require catslider
+ *= require ionicons.min
+ *= require style
  *= require_tree .
  *= main
  */

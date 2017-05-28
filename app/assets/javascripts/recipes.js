@@ -10,20 +10,20 @@ $(document).on('ready', function(){
     var that = this;
     $('#grams').slider({ id: 'green-bar'});
     $('#grams').on('change', function (slider){
-      $("#grams-quantity").text(pluralize(I18n.gram_label, slider.value.newValue, true));
+      $("#grams-quantity").html(that._makeBold(pluralize(I18n.gram_label, slider.value.newValue, true)));
       $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, slider.value.newValue, true));
       that._updatePotency();
     });
 
     $('#strength').slider({ id: 'green-bar'});
     $('#strength').on('change', function (slider){
-      $("#strength-quantity").text("THC: " + slider.value.newValue + " %");
+      $("#strength-quantity").html(that._makeBold("THC: " + slider.value.newValue + " %"));
       that._updatePotency();
     });
 
     $('#number-of-servings').slider({ id: 'green-bar'});
     $('#number-of-servings').on('change', function (slider){
-      $("#servings-quantity").text(pluralize(I18n.portion_label, slider.value.newValue, true));
+      $("#servings-quantity").html(that._makeBold(pluralize(I18n.portion_label, slider.value.newValue, true)));
       that._updatePotency();
     });
 
@@ -35,11 +35,15 @@ $(document).on('ready', function(){
     });
   };
 
+  _makeBold = function(text) {
+    return "<strong>" + text + "</strong>";
+  }
+
   _initializeQuantities = function() {
     $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, $('#grams')[0].value, true));
-    $("#grams-quantity").text(pluralize(I18n.gram_label, $('#grams')[0].value, true));
-    $("#strength-quantity").text('THC: ' + $('#strength')[0].value + " %");
-    $("#servings-quantity").text(pluralize(I18n.portion_label, parseInt($('#number-of-servings')[0].value) , true));
+    $("#grams-quantity").html(this._makeBold(pluralize(I18n.gram_label, $('#grams')[0].value, true)));
+    $("#strength-quantity").html(this._makeBold('THC: ' + $('#strength')[0].value + " %"));
+    $("#servings-quantity").html(this._makeBold(pluralize(I18n.portion_label, parseInt($('#number-of-servings')[0].value) , true)));
   };
 
   _updatePotency = function (){
@@ -71,7 +75,7 @@ $(document).on('ready', function(){
       effects = effects.concat([I18n.philosophical_label, I18n.senses_label, I18n.ideas_label, I18n.mind_body_label]);
 
     for(var i = 0 in effects) {
-      result += "<span class='label label-success'>" + effects[i] + "</span> ";
+      result += "<p class='label label-success'>" + effects[i] + "</p> ";
     }
     return result;
   };
@@ -108,7 +112,7 @@ $(document).on('ready', function(){
   _getLabelTags = function(effects, type) {
     var result = "";
     for(var i = 0 in effects) {
-      result = "<span class='label label-" + type +"'>" + effects[i] + "</span> " + result;
+      result = "<p class='label label-" + type +"'>" + effects[i] + "</p> " + result;
     }
     return result;
   }

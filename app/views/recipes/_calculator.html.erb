@@ -1,11 +1,11 @@
-<div class="col-sm-12 padding-container ui-item">
-  <h4 class="col-sm-12">
-    <i class="fa fa-calculator fa-lg" aria-hidden="true"></i> <%= t :step1_title %> <%= @recipe.name.capitalize %>
-  </h4>
+<div class="col-sm-12 padding-container">
+  <h5 class="col-sm-12">
+    <i class="fa fa-calculator fa-lg og" aria-hidden="true"></i> <%= t :step1_title %> <%= @recipe.name.upcase %>
+  </h5>
   <div class="row top-buffer meter-container">
     <div class="row">
       <div class="col-sm-12">
-        <h5 class="pull-center"><%= t :step1_weed_quantity %></h5>
+        <p class="pull-center"><strong><%= t :step1_weed_quantity %></strong></p>
       </div>
     </div>
 
@@ -21,7 +21,7 @@
           data-slider-tooltip="hide"/>
       </div>
       <div class="col-sm-12">
-        <h5 class="pull-right" id="grams-quantity"></h5>
+        <strong><p class="pull-right" id="grams-quantity"></span></strong>
       </div>
     </div>
   </div>
@@ -29,8 +29,8 @@
   <div class="row top-buffer meter-container">
     <div class="row">
       <div class="col-sm-12">
-        <h5 class="pull-center"><%= t :step1_weed_intensity %>
-        </h5>
+        <strong><p class="pull-center"><%= t :step1_weed_intensity %></strong>
+        </p>
       </div>
     </div>
     <div class="row">
@@ -50,7 +50,7 @@
             <%= t :step1_potency_dont_know %>
           </span>
         </a>
-        <h5 class="pull-right" id="strength-quantity"></h5>
+        <p class="pull-right" id="strength-quantity"></p>
       </div>
       <%= render "modal_potency" %>
     </div>
@@ -59,7 +59,7 @@
   <div class="row top-buffer meter-container">
     <div class="row">
       <div class="col-sm-12">
-        <h5 class="pull-center"><%= t :step1_weed_portions %></h5>
+        <p class="pull-center"><strong><%= t :step1_weed_portions %></strong></p>
       </div>
     </div>
     <div class="row">
@@ -74,7 +74,7 @@
           data-slider-tooltip="hide"/>
       </div>
       <div class="col-sm-12">
-        <h5 class="pull-right" id="servings-quantity"></h5>
+        <p class="pull-right" id="servings-quantity"></p>
       </div>
     </div>
   </div>

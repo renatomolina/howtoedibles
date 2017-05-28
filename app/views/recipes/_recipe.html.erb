@@ -1,15 +1,13 @@
-<div class="col-sm-12 ui-item">
+<div class="col-sm-12">
   <div class="col-sm-12">
-    <h4 class="text-left container-title">
-      <i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> <%= t :step3_title %>
-    </h4>
-    <h4>
+    <h4 class="text-left">
+      <i class="fa fa-cutlery fa-lg og" aria-hidden="true"></i> <%= t :step3_title %>-
       <%= @recipe.name.capitalize %>
     </h4>
     <%= @recipe.ingredients.html_safe %>
   </div>
   <div class="col-sm-12 text-justify">
-    <h4><i class="fa fa-list-ol fa-lg" aria-hidden="true"></i>  <%= t :step3_step_by_step %></h4>
+    <h4><i class="fa fa-list-ol fa-lg og" aria-hidden="true"></i>  <%= t :step3_step_by_step %></h4>
     <%= @recipe.instructions.html_safe %>
   </div>
   <div class="col-sm-12 video-container">
@@ -18,15 +16,4 @@
     </a>
   </div>
   <br/>
-  <div class="col-sm-12 text-right">
-    <% if I18n.locale == :en %>
-      <h5>Do you like to see your recipes here?</h5>
-      <a href="http://bit.ly/sendhowtoedibles" target="_blank">
-        <span class="label label-success send-menu-btn">
-          <i class="fa fa-send-o white" aria-hidden="true"></i>
-          Send your recipe
-        </span>
-      </a>
-    <% end %>
-  </div>
 </div>
