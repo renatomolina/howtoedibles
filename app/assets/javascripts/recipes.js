@@ -91,8 +91,6 @@ $(document).on('ready', function(){
       return "<i class='fa fa-exclamation-circle fa-lg red' aria-hidden='true'></i> " + I18n.step2_very_strong_dose;
   }
 
-
-
   _getHighNegativeDescription = function(value) {
     var effects = [];
     var result = "";
@@ -117,7 +115,13 @@ $(document).on('ready', function(){
     return result;
   }
 
-
-
   initialize();
+});
+
+$(document).on('click','.navbar-collapse.in',function(e) {
+
+    if( $(e.target).is('a') && ( $(e.target).attr('class') != 'dropdown-toggle' ) ) {
+        $(this).collapse('hide');
+    }
+
 });
