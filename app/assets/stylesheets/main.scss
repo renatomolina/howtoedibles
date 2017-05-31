@@ -56,9 +56,14 @@ h5 {
   padding:0px 40px 40px 40px;
 }
 
-@media (max-width: 993px) {
-}
-
 .navbar {
   margin-bottom: 0px;
+}
+
+.fa-chevron-circle-down:hover {
+    color: darkorange;
+}
+
+.fa-chevron-circle-up:hover {
+    color: darkgreen;
 }

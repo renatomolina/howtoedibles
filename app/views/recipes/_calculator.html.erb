@@ -20,8 +20,16 @@
           data-slider-value="<%= @recipe.suggested_weed %>"
           data-slider-tooltip="hide"/>
       </div>
-      <div class="col-sm-12">
-        <strong><p class="pull-right" id="grams-quantity"></span></strong>
+      <div class="col-sm-12 text-right">
+        <p>
+          <a href="#" id="decrease-quantity">
+            <i class="fa fa-chevron-circle-down fa-lg yellow" aria-hidden="true"></i>
+          </a>
+          <strong><span id="grams-quantity"></span></strong>
+          <a href="#" id="increase-quantity">
+            <i class="fa fa-chevron-circle-up fa-lg green" aria-hidden="true"></i>
+          </a>
+        </p>
       </div>
     </div>
   </div>
@@ -50,7 +58,17 @@
             <%= t :step1_potency_dont_know %>
           </span>
         </a>
-        <p class="pull-right" id="strength-quantity"></p>
+      </div>
+      <div class="col-sm-12 text-right">
+        <p>
+          <a href="#" id="decrease-strength">
+            <i class="fa fa-chevron-circle-down fa-lg yellow" aria-hidden="true"></i>
+          </a>
+          <strong><span id="strength-quantity"></span></strong>
+          <a href="#" id="increase-strength">
+            <i class="fa fa-chevron-circle-up fa-lg green" aria-hidden="true"></i>
+          </a>
+        </p>
       </div>
       <%= render "modal_potency" %>
     </div>
@@ -73,8 +91,16 @@
           data-slider-value="<%= @recipe.suggested_portion %>"
           data-slider-tooltip="hide"/>
       </div>
-      <div class="col-sm-12">
-        <p class="pull-right" id="servings-quantity"></p>
+      <div class="col-sm-12 text-right">
+        <p>
+          <a href="#" id="decrease-servings">
+            <i class="fa fa-chevron-circle-down fa-lg yellow" aria-hidden="true"></i>
+          </a>
+          <strong><span id="servings-quantity"></span></strong>
+          <a href="#" id="increase-servings">
+            <i class="fa fa-chevron-circle-up fa-lg green" aria-hidden="true"></i>
+          </a>
+        </p>
       </div>
     </div>
   </div>
