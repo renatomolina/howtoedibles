@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background: #fff;
+	margin: 0;
+	color: #42413e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	margin-bottom: 12px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #42413e;
+	margin-top: 10px;
+	color: #666666;
+}
+
+.mtb {margin-top: 20px; margin-bottom: 50px;}
+
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	-webkit-transition: background-color .4s linear, color .4s linear;
+	-moz-transition: background-color .4s linear, color .4s linear;
+	-o-transition: background-color .4s linear, color .4s linear;
+	-ms-transition: background-color .4s linear, color .4s linear;
+	transition: background-color .4s linear, color .4s linear;
+	color: #f27242;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#e16a3e;
+}
+
+/* BOOTSTRAP MODIFICATION */
+.navbar-brand {
+	height: 90px;
+	padding: 10px 15px;
+	font-size: 30px;
+	line-height: 22px;
+	font-weight: 700;
+}
+
+.navbar-default {
+	background-color: #ffffff;
+	border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .active > a {
+	color: #f27242;
+	padding-top: 30px;
+	background-color: transparent;
+	height: 90px;
+	font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	padding-top: 30px;
+	color: #aaa;
+	font-size: 16px;
+}
+
+/* Modal Modification */
+.modal-content {
+	border-radius: 0px;
+}
+
+.modal-body {
+	padding: 0px;
+}
+
+
+/* FORM CONFIGURATION */
+#footer {
+	background: #f3f3f3;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	margin-top: 25px;
+}
+
+/* White Section Overall Configuration */
+.text-p {
+	font-size: 14px;
+	line-height: 24px;
+	color: #6b6b6b;
+}
+
+.orange {
+	color: #f27242;
+}
+
+.darkorange {
+	color: #d1400c;
+}
+
+.yellow {
+	color: #f0aa41;
+}
+
+.green {
+	color: #5CB85C;
+}
+
+.darkgreen {
+	color: #72ff72;
+}
+
+.red {
+	color: #ff0000;
+}
+
+.white {
+	color: #fff;
+}

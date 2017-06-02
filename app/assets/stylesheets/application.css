@@ -15,10 +15,7 @@
  *= require bootstrap-slider.min
  *= require animate
  *= require font-awesome
- *= require custom-container
- *= require catslider
- *= require ionicons.min
- *= require style
+ *= require theme
  *= require_tree .
  *= main
  */

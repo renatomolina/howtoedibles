@@ -1,13 +1,13 @@
 <div class="col-sm-12">
   <div class="">
     <h5 class="text-left">
-      <i class="fa fa-cutlery fa-lg og" aria-hidden="true"></i> <%= t :step3_title %>-
+      <i class="fa fa-cutlery fa-lg orange" aria-hidden="true"></i> <%= t :step3_title %>-
       <%= @recipe.name.capitalize.upcase %>
     </h5>
     <%= @recipe.ingredients.html_safe %>
   </div>
   <div class="text-justify">
-    <h5><i class="fa fa-list-ol fa-lg og" aria-hidden="true"></i>  <%= t :step3_step_by_step %></h5>
+    <h5><i class="fa fa-list-ol fa-lg orange" aria-hidden="true"></i>  <%= t :step3_step_by_step %></h5>
     <%= @recipe.instructions.html_safe %>
   </div>
   <div class="video-container">

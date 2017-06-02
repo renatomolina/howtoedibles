@@ -15,11 +15,6 @@
 //= require_tree .
 //= require bootstrap.min
 //= require bootstrap-slider.min
-//= require ie10-viewport-bug-workaround
 //= require pluralize
 //= require jquery_extensions
-//= require jquery.catslider
-//= require jquery.stellar.min
-//= require retina-1.1.0
-//= require modernizr.custom.63321
 //= require ckeditor/init
