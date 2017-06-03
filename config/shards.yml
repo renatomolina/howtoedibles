@@ -16,13 +16,13 @@ octopus:
       username: stoneroot
       password: "L0nd0n&weed420"
   production:
-    howtoedibles:
+    laricando:
       host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
       adapter: postgresql
       database: howtoedibles-production
       username: stoneroot
       password: "L0nd0n&weed420"
-    laricando:
+    howtoedibles:
       host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
       adapter: postgresql
       database: laricando-production
