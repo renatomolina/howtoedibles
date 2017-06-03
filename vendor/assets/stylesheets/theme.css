@@ -43,15 +43,15 @@ a:focus {
   color:#e16a3e;
 }
 
-/* BOOTSTRAP MODIFICATION */
-.navbar-brand {
-	height: 90px;
-	padding: 10px 15px;
-	font-size: 30px;
-	line-height: 22px;
-	font-weight: 700;
+.navbar-header {
+	padding-left:30px;
 }
 
+.image-logo img {
+	margin-top: 5px;
+}
+
+/* BOOTSTRAP MODIFICATION */
 .navbar-default {
 	background-color: #ffffff;
 	border-color: #e7e7e7;
