@@ -1,19 +1,11 @@
-<div class="">
+<div class="col-sm-12">
   <h5>
     <i class="fa fa-flask fa-lg orange" aria-hidden="true"></i> <%= t :step2_title %> <%= @recipe.name.upcase %>
   </h5>
-  <div class="row top-buffer effects-container ">
-    <div class="col-sm-12">
-      <p class="text-left"><i class="fa fa-circle fa-lg" aria-hidden="true"></i><strong> <%= t :step2_full_portion_title %> <span class="label label-success white" id="potency-result-total">0</span><strong> <%= t :step2_full_portion_title_end %></strong></p>
-    </div>
-    <div class="col-sm-12 container pull-left">
-      <p class="text-left"><i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i><strong> <%= t :step2_half_portion_title %> <span class="label label-success white" id="potency-result">0</span></strong></p>
-    </div>
-  </div>
-  <div class="row pull-center meter-container top-buffer">
-    <div class="col-sm-12 container top-buffer text-center">
-      <p><strong><h5 id="high-level"></h5></strong></p>
-    </div>
+  <p class="text-left"><i class="fa fa-circle fa-lg" aria-hidden="true"></i><strong> <%= t :step2_full_portion_title %> <span class="label label-success white" id="potency-result-total">0</span><strong> <%= t :step2_full_portion_title_end %></strong></p>
+  <p class="text-left"><i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i><strong> <%= t :step2_half_portion_title %> <span class="label label-success white" id="potency-result">0</span></strong></p>
+  <div class="col-sm-12 text-center">
+    <p><strong><h5 id="high-level"></h5></strong></p>
   </div>
   <div class="row top-buffer effects-container">
     <div class="col-sm-12">

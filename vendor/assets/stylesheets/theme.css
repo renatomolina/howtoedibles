@@ -89,13 +89,6 @@ a:focus {
 	margin-top: 25px;
 }
 
-/* White Section Overall Configuration */
-.text-p {
-	font-size: 14px;
-	line-height: 24px;
-	color: #6b6b6b;
-}
-
 .orange {
 	color: #f27242;
 }
@@ -122,4 +115,8 @@ a:focus {
 
 .white {
 	color: #fff;
+}
+
+.text-center {
+	text-align:center;
 }

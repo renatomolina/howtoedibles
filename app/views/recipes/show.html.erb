@@ -1,18 +1,10 @@
-<div class="col-sm-12 container">
-  <% if I18n.locale != :en %>
-    <div class="col-sm-12 harm-reduction-box">
-      <%= render 'harm_reduction' %>
-    </div>
-  <% end %>
-  <div class="row mtb">
-    <div class="col-sm-6">
-      <%= render 'calculator' %>
-      <%= render 'dosage' %>
-    </div>
-    <div class="col-sm-6">
-      <%= render 'recipe' %>
-    </div>
+<%= render 'harm_reduction' %>
+<div class="row mtb">
+  <div class="col-sm-6">
+    <%= render 'calculator' %>
+    <%= render 'dosage' %>
   </div>
-  <%= render 'layouts/warning' %>
+  <div class="col-sm-6">
+    <%= render 'recipe' %>
+  </div>
 </div>
-<%= render 'i18n' %>
