@@ -42,7 +42,6 @@ a:focus {
   text-decoration: none;
   color:#e16a3e;
 }
-
 .navbar-header {
 	padding-left:30px;
 }
@@ -54,19 +53,18 @@ a:focus {
 /* BOOTSTRAP MODIFICATION */
 .navbar-default {
 	background-color: #ffffff;
-	border-color: #e7e7e7;
 }
 
 .navbar-default .navbar-nav > .active > a {
 	color: #f27242;
-	padding-top: 30px;
+	padding-top: 40px;
 	background-color: transparent;
 	height: 90px;
 	font-size: 16px;
 }
 
 .navbar-default .navbar-nav > li > a {
-	padding-top: 30px;
+	padding-top: 40px;
 	color: #aaa;
 	font-size: 16px;
 }
