@@ -16,6 +16,5 @@
  *= require animate
  *= require font-awesome
  *= require theme
- *= require_tree .
- *= main
+ *= require main
  */

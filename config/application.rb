@@ -12,5 +12,6 @@ module Howtoedibles
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.autoload_paths += %w(#{config.root}/app/models/ckeditor)
+    config.assets.precompile += %w[admin/active_admin.css]
   end
 end
