@@ -19,6 +19,7 @@ gem 'rails-i18n', '~> 5.0.0'
 gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'rollbar'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'friendly_id', '~> 5.1.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri

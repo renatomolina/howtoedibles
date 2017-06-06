@@ -6,6 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+categories = ['Deserts', 'Cooking Essentials', 'Snacks', 'Health Food']
+
+categories.each{ |category| Category.create(name: category) }
+
+
 Recipe.create(name: 'Butter',
               slug: 'butter',
               ingredients: '<strong>Ingredients</strong> <p>1 cup unsalted butter (2 sticks) <br /> ½ cup water (add more water at any time if needed)<br /> <span id="grams-quantity-recipe">7</span> ground weed </p>',
@@ -13,6 +18,7 @@ Recipe.create(name: 'Butter',
               suggested_weed:7,
               suggested_portion:48,
               video: 'https://www.youtube.com/embed/hxUbe0GeL_k')
+
 Recipe.create(name: 'Coconut oil',
               slug: 'coconut-oil',
               ingredients: '<strong>Ingredients</strong> <p>1/2 cup of coconut oil <br /><span id="grams-quantity-recipe">3.5</span> ground weed </p>',
