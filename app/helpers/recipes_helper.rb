@@ -1,5 +1,5 @@
 module RecipesHelper
-  def tab_highlight?(recipe_slug, recipe)
-    'active' if recipe_slug == recipe.slug || recipe_slug.nil? && recipe.slug == t(:first_recipe)
+  def tab_highlight?(slug, category)
+    'active' if slug == category.slug || slug.nil? && category.slug == t(:first_recipe)
   end
 end

@@ -30,12 +30,10 @@
     <header>
       <%= render 'layouts/menu' %>
     </header>
-    <div class="main ui-139">
-      <div class="container clear">
-        <%= yield %>
-      </div>
-      <%= render 'recipes/warning' %>
+    <div class="container clear">
+      <%= yield %>
     </div>
+    <%= render 'recipes/warning' %>
     <%= render 'util/analytics' %>
     <%= render 'i18n' %>
   </body>

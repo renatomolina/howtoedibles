@@ -4,5 +4,5 @@
   mount Ckeditor::Engine => '/ckeditor'
 
   root 'recipes#show'
-  get '/:recipe_slug', to: 'recipes#show', as: 'recipe'
+  get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
 end

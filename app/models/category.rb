@@ -1,4 +1,5 @@
 class Category < ApplicationRecord
+  has_many :recipes
   extend FriendlyId
   friendly_id :name, use: [:slugged, :history]
 
