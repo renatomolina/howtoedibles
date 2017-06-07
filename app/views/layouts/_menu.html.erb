@@ -10,7 +10,7 @@
       <a class="image-logo" href="#"><%= image_tag(t(:logo), alt: 'How to Edibles', width: "47%", height:"55%")%></a>
     </div>
     <div id="navbar6" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav pull-right">
+      <ul class="nav navbar-nav">
         <% @categories.each do |category| %>
           <li class="dropdown <%= tab_highlight?(params[:category_slug], category) %>">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= category.name %> <span class="caret"></span></a>
