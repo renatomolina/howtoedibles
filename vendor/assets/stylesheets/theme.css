@@ -50,6 +50,11 @@ a:focus {
 	text-align: center;
 }
 
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -35px;
+}
+
 /* BOOTSTRAP MODIFICATION */
 .navbar-default {
 	background-color: #ffffff;
