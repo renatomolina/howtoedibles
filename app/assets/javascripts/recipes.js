@@ -51,8 +51,8 @@ $(document).on('ready', function(){
   }
 
   _initializeQuantities = function() {
-    $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, parseInt($('#grams')[0].value).toFixed(1), true));
-    $("#grams-quantity").html(this._makeBold(pluralize(I18n.gram_label, parseInt($('#grams')[0].value).toFixed(1), true)));
+    $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, parseFloat($('#grams')[0].value).toFixed(1), true));
+    $("#grams-quantity").html(this._makeBold(pluralize(I18n.gram_label, parseFloat($('#grams')[0].value).toFixed(1), true)));
     $("#strength-quantity").html(this._makeBold('THC: ' + $('#strength')[0].value + " %"));
     $("#servings-quantity").html(this._makeBold(pluralize(I18n.portion_label, parseInt($('#number-of-servings')[0].value) , true)));
   };
