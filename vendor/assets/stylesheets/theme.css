@@ -84,15 +84,6 @@ a:focus {
 	margin-bottom: 10px;
 }
 
-/* Modal Modification */
-.modal-content {
-	border-radius: 0px;
-}
-
-.modal-body {
-	padding: 0px;
-}
-
 /* FORM CONFIGURATION */
 #footer {
 	background: #f3f3f3;
