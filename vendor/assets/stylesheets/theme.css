@@ -59,17 +59,24 @@ a:focus {
 	padding-top: 30px;
 }
 
+.dropdown-menu {
+	font-size: 14px;
+}
+
 .navbar-default .navbar-nav > .active > a {
 	color: #f27242;
-	padding-top: 0px;
 	background-color: transparent;
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .navbar-default .navbar-nav > li > a {
-	padding-top: 0px;
-	font-size: 16px;
+	font-size: 17px;
 	background-color: transparent;
+}
+
+.navbar-nav {
+	margin: 0px;
+	margin-bottom: 10px;
 }
 
 /* Modal Modification */
