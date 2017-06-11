@@ -20,7 +20,8 @@ ActiveAdmin.register Recipe do
             f.input :slug
             f.input :video
             f.input :category_id, as: :select, collection: Category.all
-            f.input :photo
+            f.input :photo, as: :file, :hint => image_tag(f.object.photo.url)
+            f.input :photo_cache, :as => :hidden
           end
         end
 
