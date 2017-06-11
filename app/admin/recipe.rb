@@ -1,6 +1,6 @@
 ActiveAdmin.register Recipe do
   permit_params :name, :ingredients, :instructions, :category_id,
-                :suggested_weed, :suggested_portion, :video, :slug
+                :suggested_weed, :suggested_portion, :video, :slug, :photo
   index do
     column :slug
     column :name
@@ -20,6 +20,7 @@ ActiveAdmin.register Recipe do
             f.input :slug
             f.input :video
             f.input :category_id, as: :select, collection: Category.all
+            f.input :photo
           end
         end
 
