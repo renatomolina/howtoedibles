@@ -113,4 +113,47 @@ h5 {
   padding-top: 5px;
 }
 
+/* / End Shopping Cart Table */
+/* / End Tables */
+/* Cards */
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  background-color: #f7f7f7;
+  border-radius: 0;
+  border: 0;
+  width: 100%;
+}
+
+.card-img-top {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.card-img-inside {
+  margin-bottom: 15px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-block {
+  padding: 15px;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-btn {
+  margin-top: 5px;
+}
+
 

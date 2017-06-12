@@ -1,6 +1,7 @@
 ActiveAdmin.register Recipe do
   permit_params :name, :ingredients, :instructions, :category_id,
-                :suggested_weed, :suggested_portion, :video, :slug, :photo
+                :suggested_weed, :suggested_portion, :video, :slug,
+                :photo, :description
   index do
     column :slug
     column :name
@@ -17,6 +18,7 @@ ActiveAdmin.register Recipe do
         tab 'Basic' do
           f.inputs "Basic" do
             f.input :name
+            f.input :description
             f.input :slug
             f.input :video
             f.input :category_id, as: :select, collection: Category.all
