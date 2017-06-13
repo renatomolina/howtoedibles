@@ -3,6 +3,7 @@ class RecipesController < ApplicationController
 
   def show
     @recipe = Recipe.find_by(slug: params[:recipe_slug]) || Recipe.first
+    impressionist(@recipe)
   end
 
   def index
