@@ -1,4 +1,5 @@
 class Recipe < ApplicationRecord
+  is_impressionable
   extend FriendlyId
   friendly_id :name, use: [:slugged, :history]
 
