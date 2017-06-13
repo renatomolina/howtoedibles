@@ -11,7 +11,7 @@
             <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
             <div class="card-block text-right">
                 <h3 class="card-title"><%= recipe.name %></h3>
-                <p class="card-text"><%= recipe.description %></p>
+                <p class="card-text"><%= truncate(recipe.description, length: 94) %></p>
             </div>
         </div>
       </div>
