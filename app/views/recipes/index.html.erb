@@ -1,20 +1,22 @@
-<div class="mtb col-sm-12">
-  <h4 class="container">
-    Popular recipes
-    <i class="fa fa-arrow-up green" aria-hidden="true"></i>
-  </h4>
-  <hr>
-  <% @recipes.each do |recipe| %>
-    <%= link_to recipe_path(recipe.category.slug, recipe.slug) do %>
-      <div class="col-sm-3 col-md-3">
-        <div class="card">
-            <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
-            <div class="card-block text-right">
-                <h3 class="card-title"><%= recipe.name %></h3>
-                <p class="card-text"><%= recipe.description %></p>
-            </div>
+<div class="mtb">
+  <div class="mtb">
+    <h5 class="container">
+      Popular recipes
+      <i class="fa fa-arrow-up green" aria-hidden="true"></i>
+    </h5>
+    <hr>
+    <% @recipes.each do |recipe| %>
+      <%= link_to recipe_path(recipe.category.slug, recipe.slug) do %>
+        <div class="col-sm-3 col-md-3">
+          <div class="card">
+              <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
+              <div class="card-block text-right">
+                  <h3 class="card-title"><%= recipe.name %></h3>
+                  <p class="card-text"><%= recipe.description %></p>
+              </div>
+          </div>
         </div>
-      </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 </div>
