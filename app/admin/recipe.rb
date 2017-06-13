@@ -5,6 +5,7 @@ ActiveAdmin.register Recipe do
   index do
     column :slug
     column :name
+    column :description
     column :suggested_weed
     column :suggested_portion
     column :video
@@ -18,7 +19,7 @@ ActiveAdmin.register Recipe do
         tab 'Basic' do
           f.inputs "Basic" do
             f.input :name
-            f.input :description
+            f.input :description, as: :string
             f.input :slug
             f.input :video
             f.input :category_id, as: :select, collection: Category.all
