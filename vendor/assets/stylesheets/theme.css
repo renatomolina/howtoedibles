@@ -23,7 +23,7 @@ p {
 	color: #666666;
 }
 
-.mtb {margin-top: 20px; margin-bottom: 50px;}
+.mtb { margin-top: 20px; margin-bottom: 0px; }
 
 .harm-reduction-box {margin-top: 20px; margin-bottom: 20px;}
 
