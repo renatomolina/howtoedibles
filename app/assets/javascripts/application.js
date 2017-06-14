@@ -12,9 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
 //= require bootstrap.min
 //= require bootstrap-slider.min
 //= require pluralize
 //= require jquery_extensions
 //= require ckeditor/init
+//
+//= require pluralize-custom
+//= require calculator
