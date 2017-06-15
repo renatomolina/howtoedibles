@@ -1,24 +1,23 @@
-<div class="main-container clearfix">
-  <h5 class="container">
-    Popular recipes
-    <i class="fa fa-arrow-up green" aria-hidden="true"></i>
-  </h5>
-  <hr>
-  <% @recipes.each_slice(4) do |recipes| %>
-    <div class="row">
-      <% recipes.each do |recipe| %>
-        <%= link_to recipe_path(recipe.category.slug, recipe.slug) do %>
-          <div class="col-sm-3 col-md-3">
-            <div class="card">
-                <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
-                <div class="card-block text-left">
-                  <h3 class="card-title"><%= recipe.name %></h3>
-                  <p class="card-text"><%= recipe.description %></p>
-                </div>
-            </div>
+<h5>
+  Popular recipes
+  <i class="fa fa-arrow-up green" aria-hidden="true"></i>
+</h5>
+<hr>
+<% @recipes.each_slice(4) do |recipes| %>
+  <div class="row">
+    <% recipes.each do |recipe| %>
+      <%= link_to recipe_path(recipe.category.slug, recipe.slug) do %>
+        <div class="col-sm-3 col-md-3">
+          <div class="card">
+              <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
+              <div class="card-block text-left">
+                <h3 class="card-title"><%= recipe.name %></h3>
+                <p class="card-text"><%= recipe.description %></p>
+              </div>
           </div>
-        <% end %>
+        </div>
       <% end %>
-    </div>
-  <% end %>
-</div>
+    <% end %>
+  </div>
+<% end %>
+
