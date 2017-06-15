@@ -1,4 +1,6 @@
 ActiveAdmin.register Recipe do
+  config.filters = false
+
   permit_params :name, :ingredients, :instructions, :category_id,
                 :suggested_weed, :suggested_portion, :video, :slug,
                 :photo, :description
