@@ -13,6 +13,10 @@
  *= require_self
  *= require bootstrap.min
  *= require bootstrap-slider.min
+ *= require colors
+ *= require nav-custom
+ *= require card
+ *= require calculator
  *= require animate
  *= require font-awesome
  *= require theme

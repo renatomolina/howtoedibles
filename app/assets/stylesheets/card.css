@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  border: 1px;
+  width: 100%;
+}
+
+.card-img-top {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-img-inside { margin-bottom: 15px; }
+
+.card img { width: 100%;}
+
+.card-block { padding: 15px; }
+
+.card-title {
+  margin-top: 0 0 15px 0;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-btn {
+  margin-top: 5px;
+}

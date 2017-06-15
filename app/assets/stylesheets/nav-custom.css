@@ -1,0 +1,23 @@
+.navbar-header, .text-center { text-align:center; }
+
+.navbar-default .navbar-nav > li > a { font-size: 16px; }
+
+.navbar-toggle {
+  padding-left:15px;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-right:15px;
+  margin-top:15px;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #f8f8f8;
+    border-color: #337ab7;
+}
+
+.dropdown { padding-top: 20px; }
