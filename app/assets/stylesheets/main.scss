@@ -30,7 +30,10 @@ body p {
 html, body { -webkit-overflow-scrolling: touch; }
 
 a { color: #f27242; }
-a:hover, a:focus { color:#e16a3e; }
+a:hover, a:focus {
+  color:#e16a3e;
+  text-decoration: none;
+}
 
 .main-container { margin: 13px }
 .padding-container { padding:0px 40px 40px 40px; }
