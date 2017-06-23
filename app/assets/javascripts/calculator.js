@@ -1,5 +1,5 @@
 $(document).on('ready', function(){
-  if($("#recipe_description").length !== 0) {
+  if($("#calculator-widget").length !== 0) {
     var DELTA_QUANTITY = MINIMUM_QUANTITY = 0.5;
     var MAXIMUM_QUANTITY = 28;
     var DELTA_STRENGTH = DELTA_SERVINGS = 1;
