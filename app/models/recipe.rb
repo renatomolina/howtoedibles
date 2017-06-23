@@ -13,4 +13,12 @@ class Recipe < ApplicationRecord
   def should_generate_new_friendly_id?
     name_changed? || super
   end
+
+  def suggestion_portion_default
+    self.suggestion_portion || '20'
+  end
+
+  def suggestion_weed_default
+    self.suggestion_portion || '3'
+  end
 end

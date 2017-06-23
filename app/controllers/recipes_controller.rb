@@ -8,6 +8,8 @@ class RecipesController < ApplicationController
 
   def index
     @recipes = Recipe.all.order(impressions_count: :desc)
+    @suggested_portion = '20'
+    @suggested_weed = '3'
   end
 
   private
