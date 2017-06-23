@@ -168,7 +168,7 @@ $(document).on('ready', function(){
       if (value > 10)
          effects = effects.concat([I18n.creative_label, I18n.reduced_nausea_label, I18n.euphoria_label, I18n.increased_appetite_label, I18n.tasks_label]);
       if (value > 20)
-        effects = effects.concat([I18n.philosophical_label, I18n.senses_label, I18n.ideas_label, I18n.mind_body_label]);
+        effects = effects.concat([I18n.senses_label, I18n.philosophical_label, I18n.ideas_label, I18n.mind_body_label]);
 
       for(var i = 0 in effects) {
         result += "<p class='label label-success'>" + effects[i] + "</p> ";
