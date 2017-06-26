@@ -15,7 +15,7 @@ ActiveAdmin.register Recipe do
     actions
   end
 
-  form do |f|
+  form :html => { :enctype => "multipart/form-data" } do |f|
     f.inputs "Recipe" do
       tabs do
         tab 'Basic' do
