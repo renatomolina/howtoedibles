@@ -22,6 +22,7 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'friendly_id', '~> 5.1.0'
 gem "paperclip", "~> 5.0.0"
 gem 'impressionist'
+gem 'aws-sdk'
 
 # increase server memory consumption
 gem 'puma_worker_killer'
