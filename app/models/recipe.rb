@@ -4,8 +4,7 @@ class Recipe < ApplicationRecord
   friendly_id :name, use: [:slugged, :history]
 
   validates_attachment_content_type :photo, content_type: /\Aimage\/.*\z/
-  has_attached_file :photo, :styles => { :large => "600x600>", :medium => "300x300>", :thumb => "100x100#" },
-    :default_url => "/images/missing.png"
+  has_attached_file :photo, :default_url => "/images/missing.png"
 
   belongs_to :category
 
