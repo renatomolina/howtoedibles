@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
 
   around_action :select_shard
   before_action :set_locale
+  before_action :set_raven_context
 
   def current_translations
     @translations ||= I18n.backend.send(:translations)
@@ -40,5 +41,12 @@ class ApplicationController < ActionController::Base
   def set_locale
     domain = request.domain.to_s
     I18n.locale = domain["laricando"] ? 'pt-BR' : 'en'
+  end
+
+  private
+
+  def set_raven_context
+    Raven.user_context(id: session[:current_user_id]) # or anything else in session
+    Raven.extra_context(params: params.to_unsafe_h, url: request.url)
   end
 end

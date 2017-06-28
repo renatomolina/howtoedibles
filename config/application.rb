@@ -12,5 +12,10 @@ module Howtoedibles
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.autoload_paths += %w(#{config.root}/app/models/ckeditor)
+    config.filter_parameters << :password
+
+    Raven.configure do |config|
+      config.dsn = 'https://e7b972887d144366944c9cebc5b33017:97693379b36e45b690fde7998ad30da7@sentry.io/185276'
+    end
   end
 end
