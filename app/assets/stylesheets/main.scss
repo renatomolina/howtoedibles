@@ -61,11 +61,9 @@ a:hover, a:focus {
   .container {
     width:93%;
   }
-}
 
-@media (min-width: 768px){
-.navbar-nav {
+  .navbar-nav {
     float: left;
     margin: 0px;
+  }
 }
-
