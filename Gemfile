@@ -17,7 +17,6 @@ gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 gem 'sitemap_generator'
 gem 'rails-i18n', '~> 5.0.0'
 gem 'ckeditor', github: 'galetahub/ckeditor'
-gem 'rollbar'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'friendly_id', '~> 5.1.0'
 gem "paperclip", "~> 5.0.0"
