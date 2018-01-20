@@ -7,9 +7,11 @@
 <%= @recipe.ingredients.html_safe %>
 <h5><i class="fa fa-list-ol fa-lg orange" aria-hidden="true"></i>  <%= t :step3_step_by_step %></h5>
 <%= @recipe.instructions.html_safe %>
-<div class="video-container">
-  <a href="#" class="thumbnail">
-    <iframe width="100%" height="300px" src="<%= @recipe.video %>" frameborder="0" allowfullscreen></iframe>
-  </a>
-</div>
+<% if @recipe.video? %>
+  <div class="video-container">
+    <a href="#" class="thumbnail">
+      <iframe width="100%" height="300px" src="<%= @recipe.video %>" frameborder="0" allowfullscreen></iframe>
+    </a>
+  </div>
+<% end %>
 

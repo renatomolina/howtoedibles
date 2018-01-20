@@ -1,9 +1,9 @@
 development:
   adapter: postgresql
-  host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
-  database: laricando-production
-  username: stoneroot
-  password: "L0nd0n&weed420"
+  host: localhost
+  database: howtoedibles
+  username: renatototh
+  password:
   port: 5432
 
 production:
