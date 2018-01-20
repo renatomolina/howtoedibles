@@ -7,7 +7,7 @@ class RecipesController < ApplicationController
   end
 
   def index
-    @recipes = Recipe.all
+    @recipes = Recipe.all.shuffle
     @suggested_portion = '20'
     @suggested_weed = '3'
   end
