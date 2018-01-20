@@ -193,11 +193,11 @@ $(document).on('ready', function(){
 
       effects = effects.concat([I18n.memory_label]);
 
-      if (value > 10)
+      if (value >= 10)
         effects = effects.concat([I18n.headaches_label, I18n.lightheadedness_label, I18n.paranoia_label]);
-      if (value > 20)
+      if (value >= 20)
         effects = effects.concat([I18n.time_sense_label, I18n.anxiety_label, I18n.nausea_label, I18n.agitation_label]);
-      if(value > 30)
+      if(value >= 30)
         effects = effects.concat([I18n.racing_heart_label, I18n.coordination_label, I18n.panic_attacks_label]);
 
       return this._getLabelTags(effects, 'danger');;
