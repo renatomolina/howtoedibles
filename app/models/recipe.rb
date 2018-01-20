@@ -1,5 +1,4 @@
 class Recipe < ApplicationRecord
-  is_impressionable counter_cache: true
   extend FriendlyId
   friendly_id :name, use: [:slugged, :history]
 

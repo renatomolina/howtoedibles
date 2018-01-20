@@ -4,11 +4,10 @@ class RecipesController < ApplicationController
   def show
     @recipe = Recipe.find_by(slug: params[:recipe_slug]) || Recipe.first
     @suggested_weed = @suggested_portion = nil
-    impressionist(@recipe)
   end
 
   def index
-    @recipes = Recipe.all.order(impressions_count: :desc)
+    @recipes = Recipe.all
     @suggested_portion = '20'
     @suggested_weed = '3'
   end
