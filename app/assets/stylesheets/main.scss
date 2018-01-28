@@ -1,12 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
-
-* { font-family: 'Open Sans', sans-serif; }
-
-h1, h2, h3, h4, h5, h6 { font-weight: 600; }
-
 h4 {
   color: #666666;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 h5 {
@@ -15,15 +9,33 @@ h5 {
   line-height: 35px;
 }
 
+ul li {
+  margin: 10px 0px 5px 0px;
+  font-weight: 400;
+  color: #666666;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+}
+
 p {
   margin: 10px 0px 5px 0px;
-  font-weight: 100;
+  font-weight: 400;
+  color: #666666;
+}
+
+p.bottomtip {
+  line-height: 18px;
+}
+
+span {
+  font-weight: 400;
   color: #666666;
 }
 
 body p {
-  font-size: 15px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 33px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -52,7 +64,7 @@ a:hover, a:focus {
 
 .label {
   font-size: 100%;
-  line-height: 2;
+  line-height: 2.2;
 }
 
 .center {
@@ -62,7 +74,7 @@ a:hover, a:focus {
 
 @media (min-width: 768px) {
   .container {
-    width:93%;
+    width:90%;
   }
 
   .navbar-nav {

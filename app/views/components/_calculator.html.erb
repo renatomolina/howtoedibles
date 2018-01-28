@@ -1,98 +1,76 @@
-<div class="col-sm-12 row top-buffer meter-container" id="calculator-widget">
-  <div class="row">
-    <div class="col-sm-12">
-      <p class="pull-center"><strong><%= t :step1_weed_quantity %></strong></p>
-    </div>
+<div id="calculator-widget">
+  <div class="calculator-item">
+    <p><%= t :step1_weed_quantity %></p>
+    <input id="grams"
+      type="text"
+      data-slider-id="slider"
+      data-slider-min="1"
+      data-slider-max="28"
+      data-slider-step="0.1"
+      data-slider-value="<%= @suggested_weed || @recipe&.suggested_weed %>"
+      data-slider-tooltip="hide"/>
+
+      <div class="text-right">
+        <p>
+          <a href="#" id="decrease-quantity">
+            <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
+          </a>
+          <span id="grams-quantity"></span>
+          <a href="#" id="increase-quantity">
+            <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
+          </a>
+        </p>
+      </div>
   </div>
 
-  <div class="row">
-    <div class="col-sm-12">
-      <input id="grams"
-        type="text"
-        data-slider-id="slider"
-        data-slider-min="1"
-        data-slider-max="28"
-        data-slider-step="0.1"
-        data-slider-value="<%= @suggested_weed.present? ? @suggested_weed : @recipe.try(:suggested_weed) %>"
-        data-slider-tooltip="hide"/>
-    </div>
-    <div class="col-sm-12 text-right">
-      <p>
-        <a href="#" id="decrease-quantity">
-          <i class="fa fa-chevron-circle-down fa-lg yellow" aria-hidden="true"></i>
-        </a>
-        <strong><span id="grams-quantity"></span></strong>
-        <a href="#" id="increase-quantity">
-          <i class="fa fa-chevron-circle-up fa-lg green" aria-hidden="true"></i>
-        </a>
-      </p>
-    </div>
-  </div>
-</div>
+  <div class="calculator-item">
+    <p class="bottomtip"><%= t :step1_weed_intensity %></p>
+    <span><%= t :step1_weed_intensity_avarage %></span>
+    <input id="strength"
+          type="text"
+          data-slider-id="slider"
+          data-slider-min="1"
+          data-slider-max="95"
+          data-slider-step="1"
+          data-slider-value="14"
+          data-slider-tooltip="hide"/>
 
-<div class="col-sm-12 row top-buffer meter-container">
-  <div class="row">
-    <div class="col-sm-12">
-      <strong><p class="pull-center"><%= t :step1_weed_intensity %></strong>
+    <a class="pull-left label-calculator" data-toggle="modal" href="#" data-target="#myModal">
+      <p class="label label-warning">
+        <%= t :step1_potency_dont_know %>
       </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <input id="strength"
-        type="text"
-        data-slider-id="slider"
-        data-slider-min="1"
-        data-slider-max="95"
-        data-slider-step="1"
-        data-slider-value="14"
-        data-slider-tooltip="hide"/>
-    </div>
-    <div class="col-sm-12">
-      <a class="pull-left label-calculator" data-toggle="modal" href="#" data-target="#myModal">
-        <span class="label label-warning">
-          <%= t :step1_potency_dont_know %>
-        </span>
-      </a>
-      <p class="pull-right">
-        <a href="#" id="decrease-strength">
-          <i class="fa fa-chevron-circle-down fa-lg yellow" aria-hidden="true"></i>
-        </a>
-        <strong><span id="strength-quantity"></span></strong>
-        <a href="#" id="increase-strength">
-          <i class="fa fa-chevron-circle-up fa-lg green" aria-hidden="true"></i>
-        </a>
-      </p>
-    </div>
+    </a>
     <%= render "modal_potency" %>
+    <p class="text-right">
+      <a href="#" id="decrease-strength">
+        <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
+      </a>
+      <span id="strength-quantity"></span>
+      <a href="#" id="increase-strength">
+        <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
+      </a>
+    </p>
   </div>
-</div>
 
-<div class="col-sm-12 row top-buffer meter-container">
-  <div class="row">
-    <div class="col-sm-12">
-      <p class="pull-center"><strong><%= t :step1_weed_portions %></strong></p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <input id="number-of-servings"
+  <div class="calculator-item">
+    <p><%= t :step1_weed_portions %></p>
+    <input id="number-of-servings"
         type="text"
         data-slider-id="slider"
         data-slider-min="1"
         data-slider-max="200"
         data-slider-step="1"
-        data-slider-value="<%= @suggested_portion.present? ? @suggested_portion : @recipe.try(:suggested_portion) %>"
+        data-slider-value="<%= @suggested_portion || @recipe&.suggested_portion %>"
         data-slider-tooltip="hide"/>
-    </div>
-    <div class="col-sm-12 text-right">
+
+    <div class="text-right">
       <p>
         <a href="#" id="decrease-servings">
-          <i class="fa fa-chevron-circle-down fa-lg yellow" aria-hidden="true"></i>
+          <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
         </a>
-        <strong><span id="servings-quantity"></span></strong>
+        <span id="servings-quantity"></span>
         <a href="#" id="increase-servings">
-          <i class="fa fa-chevron-circle-up fa-lg green" aria-hidden="true"></i>
+          <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
         </a>
       </p>
     </div>

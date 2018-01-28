@@ -5,7 +5,8 @@ pt-BR:
   modal_close: "Fechar"
   step1_title: "PASSO 1 - ESCOLHA A QUANTIDADE -"
   step1_weed_quantity: "Quanto de maconha você tem?"
-  step1_weed_intensity: "Quão forte é sua maconha? (14% média)"
+  step1_weed_intensity: "Quão forte é sua maconha?"
+  step1_weed_intensity_avarage: "(14% média)"
   step1_weed_portions: "Quantas porções você vai dividir sua receita?"
   step1_potency_dont_know: "Não sabe?"
   step1_potency_modal_low_quality: "Prensado ou baixa qualidade"
@@ -83,6 +84,7 @@ pt-BR:
   share_label: "Compartilhar"
   contact_widget_id: "104991"
   calculator_title: "Calculadora rápida"
+  dosage_title: "Dosagem"
   popular_recipes: "Receitas mais populares"
 
 

@@ -47,7 +47,7 @@ $(document).on('ready', function(){
     };
 
     _makeBold = function(text) {
-      return "<strong>" + text + "</strong>";
+      return "" + text + "";
     }
 
     _initializeQuantities = function() {
@@ -166,7 +166,7 @@ $(document).on('ready', function(){
       effects = effects.concat([I18n.relaxation_label, I18n.stress_reduction_label, I18n.mood_lift_label, I18n.giggling_label, I18n.laughing_label]);
 
       if (value > 10)
-         effects = effects.concat([I18n.creative_label, I18n.reduced_nausea_label, I18n.euphoria_label, I18n.increased_appetite_label, I18n.tasks_label]);
+         effects = effects.concat([I18n.creative_label, I18n.euphoria_label, I18n.reduced_nausea_label, I18n.increased_appetite_label, I18n.tasks_label]);
       if (value > 20)
         effects = effects.concat([I18n.senses_label, I18n.philosophical_label, I18n.ideas_label, I18n.mind_body_label]);
 
@@ -196,7 +196,7 @@ $(document).on('ready', function(){
       if (value >= 10)
         effects = effects.concat([I18n.headaches_label, I18n.lightheadedness_label, I18n.paranoia_label]);
       if (value >= 20)
-        effects = effects.concat([I18n.time_sense_label, I18n.anxiety_label, I18n.nausea_label, I18n.agitation_label]);
+        effects = effects.concat([I18n.anxiety_label, I18n.time_sense_label, I18n.nausea_label, I18n.agitation_label]);
       if(value >= 30)
         effects = effects.concat([I18n.racing_heart_label, I18n.coordination_label, I18n.panic_attacks_label]);
 

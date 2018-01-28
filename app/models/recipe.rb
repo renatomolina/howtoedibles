@@ -7,17 +7,8 @@ class Recipe < ApplicationRecord
 
   belongs_to :category
 
-  private
-
-  def should_generate_new_friendly_id?
-    name_changed? || super
-  end
-
-  def suggestion_portion_default
-    self.suggestion_portion || '20'
-  end
-
-  def suggestion_weed_default
-    self.suggestion_portion || '3'
+  def increment_impressions_count
+    self.impressions_count += 1
+    save!
   end
 end

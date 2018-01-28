@@ -1,28 +1,37 @@
-<div class="col-sm-12">
-  <p class="text-left"><i class="fa fa-circle fa-lg" aria-hidden="true"></i><strong> <%= t :step2_full_portion_title %> <span class="label label-success white" id="potency-result-total">0</span><strong> <%= t :step2_full_portion_title_end %></strong></p>
+<p>
+  <i class="fa fa-circle fa-lg" aria-hidden="true"></i>
+    <%= t :step2_full_portion_title %>
+    <span class="label label-success white" id="potency-result-total">0</span>
+    <%= t :step2_full_portion_title_end %>
+</p>
 
-  <p class="text-left"><i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i><strong> <%= t :step2_half_portion_title %> <span class="label label-success white" id="potency-result">0</span></strong></p>
-</div>
-<div class="col-sm-12 text-center">
+<p>
+  <i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i>
+  <%= t :step2_half_portion_title %>
+  <span class="label label-success white" id="potency-result">0</span>
+</p>
+
+
+</br/>
+<div class="text-center">
   <p><strong><h5 id="high-level"></h5></strong></p>
 </div>
-<div class="row top-buffer effects-container">
-  <div class="col-sm-12">
-    <h5 class="col-sm-12">
-        <i class="fa fa-thumbs-o-up fa-lg green" aria-hidden="true"></i> <%= t :step2_positive_effects_title %>
-    </h5>
-    <p id="positive-effect-details"></p>
-    <div class="row col-sm-12">
-      <h5 class="col-sm-12">
-        <i class="fa fa-thumbs-o-down fa-lg red" aria-hidden="true"></i>
-        <%= t :step2_negative_effects_title %>
-      </h5>
-    </div>
-    <p id="negative-effect-details"></p>
-  </div>
-  <div class="col-sm-12 container">
-    <h6 class="pull-right"><%= t :step2_observation %></h6> <span><%= render 'share_widget' %></span>
-  </div>
-  <div class="col-sm-12">
-  </div>
+<br/>
+
+<div>
+  <h5>
+      <i class="fa fa-thumbs-o-up fa-lg green" aria-hidden="true"></i>
+      <%= t :step2_positive_effects_title %>
+  </h5>
+  <p id="positive-effect-details"></p>
+
+  </br/>
+
+  <h5>
+    <i class="fa fa-thumbs-o-down fa-lg red" aria-hidden="true"></i>
+    <%= t :step2_negative_effects_title %>
+  </h5>
+
+  <p id="negative-effect-details"></p>
+  <h6 class="pull-left"><%= t :step2_observation %></h6>
 </div>
