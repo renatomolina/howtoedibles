@@ -3,7 +3,9 @@ class RecipesController < ApplicationController
 
   def show
     @recipe = Recipe.find_by(slug: params[:recipe_slug])
-    @recipe.increment_impressions_count if @recipe
+    @recipe.increment_impressions_count
+    @suggested_portion = @recipe.suggested_portion
+    @suggested_weed = @recipe.suggested_weed
   end
 
   def index
