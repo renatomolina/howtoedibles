@@ -3,12 +3,12 @@
   <%= @recipe.name.capitalize.upcase %>
 </h5>
 <%= @recipe.ingredients.html_safe %>
-<div class="col-sm-12 text-right">
-  <p><%= render 'share_widget' %></p>
-</div>
 <br />
 <h5><i class="fa fa-list-ol fa-lg orange" aria-hidden="true"></i>  <%= t :step3_step_by_step %></h5>
 <%= @recipe.instructions.html_safe %>
+<div class="text-right">
+  <p><%= render 'share_widget' %></p>
+</div>
 <% if @recipe.video? %>
   <div class="video-container">
     <a href="#" class="thumbnail">
