@@ -1,7 +1,12 @@
-h4 {
-  color: #666666;
-  font-size: 23px;
+html, body { -webkit-overflow-scrolling: touch; }
+
+body p {
+  font-size: 18px;
+  line-height: 33px;
+  -webkit-font-smoothing: antialiased;
 }
+
+h4 { color: #666666; font-size: 23px; }
 
 h5 {
   color: #666666;
@@ -24,31 +29,18 @@ p {
   color: #666666;
 }
 
-p.bottomtip {
-  line-height: 18px;
-}
+p.bottomtip { line-height: 18px; }
 
 span {
   font-weight: 400;
   color: #666666;
 }
 
-body p {
-  font-size: 18px;
-  line-height: 33px;
-  -webkit-font-smoothing: antialiased;
-}
-
-html, body { -webkit-overflow-scrolling: touch; }
-
 a { color: #f27242; }
 a:hover, a:focus {
   color:#e16a3e;
   text-decoration: none;
 }
-
-.navbar-logo { padding: 5px 20px 5px 5px; }
-.navbar-custom { margin-bottom: 0px; }
 
 .main-container { margin: 13px }
 .padding-container { padding:0px 40px 40px 40px; }
@@ -62,23 +54,12 @@ a:hover, a:focus {
   margin-top: 25px;
 }
 
-.label {
-  font-size: 100%;
-  line-height: 2.2;
-}
-
-.center {
-  margin: auto;
-  width: 80%;
-}
+.label { font-size: 100%; line-height: 2.2; }
+.center { margin: auto; width: 80%; }
+.text-center { text-align:center; }
 
 @media (min-width: 768px) {
   .container {
-    width: 90%;
-  }
-
-  .navbar-nav {
-    float: left;
-    margin: 0px;
+    width: 95%;
   }
 }

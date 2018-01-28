@@ -17,6 +17,6 @@ class RecipesController < ApplicationController
   private
 
   def load_categories
-    @categories = Category.select(:name).all
+    @categories = Category.all
   end
 end

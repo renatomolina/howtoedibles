@@ -1,15 +1,15 @@
 <nav class="navbar navbar-default main-center">
   <div class="container">
     <div class="navbar-header">
+      <a class="image-logo" href="/"><%= image_tag(t(:logo), alt: 'How to Edibles', width: "60%")%></a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar_main">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="image-logo" href="/"><%= image_tag(t(:logo), alt: 'How to Edibles', width: "53%", height:"55%")%></a>
     </div>
-    <div id="navbar_main" class="navbar-collapse collapse center">
+    <div id="navbar_main" class="navbar-collapse collapse">
       <ul class="nav navbar-nav ">
         <% @categories.each do |category| %>
           <li class="dropdown">
