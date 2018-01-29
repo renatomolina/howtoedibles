@@ -1,6 +1,6 @@
 <h5>
   <i class="fa fa-cutlery fa-lg orange" aria-hidden="true"></i> <%= t :step3_title %>-
-  <%= @recipe.name.capitalize.upcase %>
+  <%= @recipe.name.capitalize.camelcase %>
 </h5>
 <%= @recipe.ingredients.html_safe %>
 <br />
