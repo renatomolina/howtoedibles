@@ -2,7 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   helper_method :current_translations
 
-  around_action :select_shard
+  around_action :select_shard, unless: :development?
   before_action :set_locale
   before_action :set_raven_context
 
@@ -48,5 +48,9 @@ class ApplicationController < ActionController::Base
   def set_raven_context
     Raven.user_context(id: session[:current_user_id]) # or anything else in session
     Raven.extra_context(params: params.to_unsafe_h, url: request.url)
+  end
+
+  def development?
+    Rails.env == 'development'
   end
 end
