@@ -1,3 +1,4 @@
+/* Common */
 html, body { -webkit-overflow-scrolling: touch; }
 
 body p {
@@ -28,10 +29,6 @@ p {
   color: #666666;
 }
 
-p.bottomtip { line-height: 18px; }
-
-p.warning-item { line-height: 25px; }
-
 span {
   font-weight: 400;
   color: #666666;
@@ -43,19 +40,16 @@ a:hover, a:focus {
   text-decoration: none;
 }
 
-.main-container { margin: 13px }
-.padding-container { padding:0px 40px 40px 40px; }
+
+/* Misc Customizations */
+p.bottomtip { line-height: 18px; }
+
+p.warning-item { line-height: 25px; }
+
 .harm-reduction-box { margin: 20px 0px 20px 0px; }
 .padding-space { padding:0px 30px 30px 0px; }
 
-.footer {
-  background: #f3f3f3;
-  border-color: #337ab7;
-  padding: 25px 0px 55px 0px;
-  margin-top: 25px;
-}
-
-.label { font-size: 100%; line-height: 2.2; }
+.label { font-size: 87%; line-height: 2.0; }
 .center { margin: auto; width: 80%; }
 .text-center { text-align:center; }
 
@@ -63,4 +57,11 @@ a:hover, a:focus {
   .container {
     width: 95%;
   }
+}
+
+.footer {
+  background: #f3f3f3;
+  border-color: #337ab7;
+  padding: 25px 0px 55px 0px;
+  margin-top: 25px;
 }

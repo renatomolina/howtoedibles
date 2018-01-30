@@ -1,8 +1,8 @@
 .fa-chevron-circle-down:hover { color: darkorange; }
 .fa-chevron-circle-up:hover { color: darkgreen; }
 
-#green-bar { width: 100%; }
-#green-bar .slider-selection, #green-bar .slider-handle { background: #5cb85c; }
-
 .calculator-item { padding-bottom: 10px; }
 .calculator-item-show { margin-right: 20px; }
+
+#green-bar { width: 100%; }
+#green-bar .slider-selection, #green-bar .slider-handle { background: #5cb85c; }
