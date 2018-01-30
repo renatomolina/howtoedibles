@@ -26,8 +26,7 @@
   height: auto;
   padding-top: 10px;
   width: 280px;
-  min-height: 100px;
-  max-height: auto;
+  min-height: 80px;
 }
 
 @media (max-width: 768px) {
@@ -47,7 +46,7 @@
   }
 
   .navbar-toggle {
-    margin-top: 23px;
+    margin-top: 25px;
     padding: 13px;
   }
 
