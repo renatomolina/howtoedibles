@@ -4,7 +4,7 @@ $(document).on('ready', function(){
     var MAXIMUM_QUANTITY = 28;
     var DELTA_STRENGTH = DELTA_SERVINGS = 1;
     var MAXIMUM_STRENGTH = 95;
-    var MAXIMUM_SERVINGS = 80;
+    var MAXIMUM_SERVINGS = 200;
     var MINIMUM_STRENGTH = 1;
     var MINIMUM_SERVINGS = 1;
 
