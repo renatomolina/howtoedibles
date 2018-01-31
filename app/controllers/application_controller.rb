@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
   end
 
   def domain_name
-    request.domain.to_s
+    request.domain.to_s.sub! '.com', ''
   end
 
   def not_found
