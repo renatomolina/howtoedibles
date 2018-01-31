@@ -43,6 +43,10 @@ class ApplicationController < ActionController::Base
     I18n.locale = domain["laricando"] ? 'pt-BR' : 'en'
   end
 
+  def not_found
+    raise ActionController::RoutingError.new('Not Found')
+  end
+
   private
 
   def set_raven_context
