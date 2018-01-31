@@ -1,7 +1,7 @@
 octopus:
   environments:
-    - production
     - development
+    - production
   development:
     howtoedibles:
       host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
@@ -15,6 +15,13 @@ octopus:
       database: laricando-production
       username: stoneroot
       password: "L0nd0n&weed420"
+    localhost:
+      adapter: postgresql
+      host: localhost
+      database: howtoedibles
+      username: renatototh
+      password:
+      port: 5432
   production:
     howtoedibles:
       host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
