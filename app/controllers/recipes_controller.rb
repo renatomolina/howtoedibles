@@ -12,8 +12,8 @@ class RecipesController < ApplicationController
 
   def index
     @recipes = Recipe.using(domain_name).all.order(impressions_count: :desc)
-    @suggested_portion = 15
-    @suggested_weed = 1.5
+    @suggested_portion = 50
+    @suggested_weed = 4
   end
 
   private
