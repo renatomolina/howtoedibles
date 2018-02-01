@@ -6,29 +6,77 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>http://www.howtoedibles.com/</loc>
-  <changefreq>weekly</changefreq>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/butter</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://www.howtoedibles.com/healthy/trail-mix</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/coconut-oil</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://www.howtoedibles.com/drinks/whiskey</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/honey</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://www.howtoedibles.com/drinks/chai</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/crackers</loc>
-  <changefreq>weekly</changefreq>
+  <loc>http://www.howtoedibles.com/desserts/honey</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>http://www.howtoedibles.com/desserts/gummy-bears</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/desserts/crackers</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/desserts/cookie</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/essentials/coconut-oil</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/essentials/butter</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/essentials/olive-oil</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/snacks/popcorn</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/recipes/coconut-oil</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.howtoedibles.com/recipes/butter</loc>
+  <lastmod>2018-02-01T19:02:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
