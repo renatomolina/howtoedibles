@@ -10,10 +10,6 @@ class ApplicationController < ActionController::Base
     @translations[I18n.locale].with_indifferent_access
   end
 
-  def domain_name
-    request.domain.to_s.sub! '.com', ''
-  end
-
   def not_found
     raise ActionController::RoutingError.new('Not Found')
   end
@@ -21,8 +17,7 @@ class ApplicationController < ActionController::Base
   private
 
   def set_locale
-    domain = request.domain.to_s
-    I18n.locale = domain["laricando"] ? 'pt-BR' : 'en'
+    I18n.locale = APP_ENV["laricando"] ? 'pt-BR' : 'en'
   end
 
   # Sentry
