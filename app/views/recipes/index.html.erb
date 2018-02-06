@@ -5,21 +5,13 @@
   </h5>
   <hr>
   <%= render "components/calculator" %>
-
-  <div class="padding-space col-sm-12"></div>
   <h5>
     <%= t :dosage_title %>
     <i class="fa fa-flask fa-lg green" aria-hidden="true"></i>
   </h5>
   <hr>
   <%= render "components/dosage" %>
-  <div class="padding-space col-sm-12">
-    <div class="fb-page"
-  data-href="https://www.facebook.com/howtoedibles"
-  data-width="380"
-  data-hide-cover="false"
-  data-show-facepile="false"></div>
-  </div>
+  <%= render "social_networks/facebook_like_page" %>
   <div class="padding-space col-sm-12"></div>
 </div>
 <div class="col-sm-8">
@@ -46,6 +38,7 @@
     </div>
   <% end %>
   <% if I18n.locale == :en %>
+    <%= render 'share_widget' %>
     <p class="suggest-recipes">
       Any suggestions for new recipes? <br/>
       <%= link_to 'Click here', 'http://bit.ly/sendhowtoedibles' %> to share your recipes
