@@ -39,5 +39,11 @@
       <% end %>
     </div>
   <% end %>
+  <% if I18n.locale != :en %>
+    <p class="suggest-recipes">
+      Any suggestions for new recipes? <br/>
+      <%= link_to 'Click here', 'http://bit.ly/sendhowtoedibles' %> to share your recipes
+    </p>
+  <% end %>
 </div>
 
