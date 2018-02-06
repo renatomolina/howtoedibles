@@ -15,7 +15,7 @@
           <a href="#" id="decrease-quantity">
             <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
           </a>
-          <span id="grams-quantity"></span>
+          <input id="grams-quantity" step="any" class="calculator-input" size="4" onchange="updateQuantityLabel(this.value, false)"> </input><span id="grams-quantity-label"></span>
           <a href="#" id="increase-quantity">
             <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
           </a>
@@ -45,7 +45,7 @@
       <a href="#" id="decrease-strength">
         <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
       </a>
-      <span id="strength-quantity"></span>
+      THC: <input id="strength-quantity" step="any" class="calculator-input" size="4" onchange="updateStrengthLabel(this.value, false)"></input> %
       <a href="#" id="increase-strength">
         <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
       </a>
@@ -68,7 +68,7 @@
         <a href="#" id="decrease-servings">
           <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
         </a>
-        <span id="servings-quantity"></span>
+        <input id="servings-quantity" step="any" class="calculator-input" size="4" onchange="updatePortionLabel(this.value, false)"></input><span id="servings-label"></span>
         <a href="#" id="increase-servings">
           <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
         </a>

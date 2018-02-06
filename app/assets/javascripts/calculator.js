@@ -2,14 +2,12 @@ $(document).on('ready', function(){
   if($("#calculator-widget").length !== 0) {
     var DELTA_QUANTITY = MINIMUM_QUANTITY = 0.5;
     var MAXIMUM_QUANTITY = 28;
-    var DELTA_STRENGTH = DELTA_SERVINGS = 1;
+    var DELTA_STRENGTH = DELTA_SERVINGS = MINIMUM_STRENGTH = MINIMUM_SERVINGS = 1;
     var MAXIMUM_STRENGTH = 95;
     var MAXIMUM_SERVINGS = 200;
-    var MINIMUM_STRENGTH = 1;
-    var MINIMUM_SERVINGS = 1;
 
     initialize = function(){
-      this._initializeViews();
+      this._initializeListeners();
       this._initializeQuantities();
       this._updatePotency();
       this._initializeUpDownQuantityButtons();
@@ -17,44 +15,74 @@ $(document).on('ready', function(){
       this._initializeUpDownServingsButtons();
     };
 
-    _initializeViews = function(){
+    _initializeListeners = function() {
+      _initializeQuantitiesSlider();
+      _initializeStrengthSlider();
+      _initializePortionSlider();
+    };
+
+    _initializeQuantitiesSlider = function() {
       var that = this;
+
       $('#grams').slider({ id: 'green-bar'});
       $('#grams').on('change', function (slider){
-        $("#grams-quantity").html(that._makeBold(pluralize(I18n.gram_label, slider.value.newValue.toFixed(1), true)));
-        $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, slider.value.newValue.toFixed(1), true));
+        var quantity = slider.value.newValue.toFixed(1);
+
+        that.updateQuantityLabel(quantity);
         that._updatePotency();
       });
+    };
+
+    _initializeStrengthSlider = function() {
+      var that = this;
 
       $('#strength').slider({ id: 'green-bar'});
       $('#strength').on('change', function (slider){
-        $("#strength-quantity").html(that._makeBold("THC: " + slider.value.newValue + " %"));
-        that._updatePotency();
+        that.updateStrengthLabel(slider.value.newValue);
       });
+    };
+
+    _initializePortionSlider = function() {
+      var that = this;
 
       $('#number-of-servings').slider({ id: 'green-bar'});
       $('#number-of-servings').on('change', function (slider){
-        $("#servings-quantity").html(that._makeBold(pluralize(I18n.portion_label, slider.value.newValue, true)));
-        that._updatePotency();
-      });
-
-      $('.close-harm-warning').click(function(event){
-        event.preventDefault();
-        $('.harm-reduction-warning').fadeOut('slow', function() {
-          this.hide();
-        });
+        that.updatePortionLabel(slider.value.newValue);
       });
     };
+
+    updateStrengthLabel = function(quantity, updateInput = true, updateSlider = false) {
+      if(updateInput) $("#strength-quantity").val(quantity);
+      if(updateSlider) $('#strength').slider('setValue', quantity);
+      $("#strength-quantity").html(parseInt(quantity));
+      _updatePotency();
+    };
+
+    updateQuantityLabel = function(quantity, updateInput = true, updateSlider = false) {
+      if(updateInput) $("#grams-quantity").val(quantity);
+      if(updateSlider) $('#grams').slider('setValue', quantity);
+      $("#grams-quantity-label").text(pluralize(I18n.gram_label, quantity));
+      $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, quantity, true));
+      _updatePotency();
+    };
+
+    updatePortionLabel = function(quantity, updateInput = true, updateSlider = false) {
+      if(updateInput) $("#servings-quantity").val(quantity);
+      if(updateSlider) $('#number-of-servings').slider('setValue', quantity);
+
+      $("#servings-quantity").val(quantity);
+      $("#servings-label").html(pluralize(I18n.portion_label, quantity));
+      _updatePotency();
+    }
 
     _makeBold = function(text) {
       return "" + text + "";
     }
 
     _initializeQuantities = function() {
-      $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, parseFloat($('#grams')[0].value).toFixed(1), true));
-      $("#grams-quantity").html(this._makeBold(pluralize(I18n.gram_label, parseFloat($('#grams')[0].value).toFixed(1), true)));
-      $("#strength-quantity").html(this._makeBold('THC: ' + $('#strength')[0].value + " %"));
-      $("#servings-quantity").html(this._makeBold(pluralize(I18n.portion_label, parseInt($('#number-of-servings')[0].value) , true)));
+      updateQuantityLabel(parseFloat($('#grams')[0].value).toFixed(1));
+      updateStrengthLabel($('#strength')[0].value);
+      updatePortionLabel($('#number-of-servings')[0].value)
     };
 
     _initializeUpDownQuantityButtons = function() {
@@ -64,25 +92,14 @@ $(document).on('ready', function(){
         event.preventDefault();
 
         var grams = parseFloat($('#grams')[0].value);
-        if(grams > MINIMUM_QUANTITY) {
-          $('#grams').slider('setValue', grams - DELTA_QUANTITY);
-          $("#grams-quantity").html(that._makeBold(pluralize(I18n.gram_label, (grams - DELTA_QUANTITY).toFixed(1), true)));
-          $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, (grams - DELTA_QUANTITY).toFixed(1), true));
-          that._updatePotency();
-        }
+        if(grams > MINIMUM_QUANTITY) that.updateQuantityLabel(grams - DELTA_QUANTITY, true, true);
       });
 
       $("#increase-quantity").click(function(event){
         event.preventDefault();
 
         var grams = parseFloat($('#grams')[0].value);
-
-        if(grams < MAXIMUM_QUANTITY) {
-          $('#grams').slider('setValue', grams + DELTA_QUANTITY);
-          $("#grams-quantity").html(that._makeBold(pluralize(I18n.gram_label, (grams + DELTA_QUANTITY).toFixed(1), true)));
-          $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, (grams + DELTA_QUANTITY).toFixed(1), true));
-          that._updatePotency();
-        }
+        if(grams < MAXIMUM_QUANTITY) that.updateQuantityLabel(grams + DELTA_QUANTITY, true, true);
       });
     };
 
@@ -93,24 +110,14 @@ $(document).on('ready', function(){
         event.preventDefault();
 
         var strength = parseInt($('#strength')[0].value);
-
-        if(strength > MINIMUM_STRENGTH) {
-          $('#strength').slider('setValue', parseInt(strength - DELTA_QUANTITY));
-          $("#strength-quantity").html(that._makeBold("THC: " + parseInt(strength - DELTA_STRENGTH) + " %"));
-          that._updatePotency();
-        }
+        if(strength > MINIMUM_STRENGTH) that.updateStrengthLabel(parseInt(strength - DELTA_STRENGTH), true, true);
       });
 
       $("#increase-strength").click(function(event){
         event.preventDefault();
 
         var strength = parseInt($('#strength')[0].value);
-
-        if(strength < MAXIMUM_STRENGTH) {
-          $('#strength').slider('setValue', parseInt(strength + DELTA_STRENGTH));
-          $("#strength-quantity").html(that._makeBold("THC: " + parseInt(strength + DELTA_STRENGTH) + " %"));
-          that._updatePotency();
-        }
+        if(strength < MAXIMUM_STRENGTH) that.updateStrengthLabel(parseInt(strength + DELTA_STRENGTH), true, true);
       });
     };
 
