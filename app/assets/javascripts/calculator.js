@@ -28,7 +28,7 @@ $(document).on('ready', function(){
       $('#grams').on('change', function (slider){
         var quantity = slider.value.newValue.toFixed(1);
 
-        that.updateQuantityLabel(quantity);
+        that.updateQuantityLabel(quantity, true, false);
         that._updatePotency();
       });
     };
@@ -38,7 +38,7 @@ $(document).on('ready', function(){
 
       $('#strength').slider({ id: 'green-bar'});
       $('#strength').on('change', function (slider){
-        that.updateStrengthLabel(slider.value.newValue);
+        that.updateStrengthLabel(slider.value.newValue, true, false);
       });
     };
 
@@ -47,37 +47,37 @@ $(document).on('ready', function(){
 
       $('#number-of-servings').slider({ id: 'green-bar'});
       $('#number-of-servings').on('change', function (slider){
-        that.updatePortionLabel(slider.value.newValue);
+        that.updatePortionLabel(slider.value.newValue, true, false);
       });
     };
 
     updateQuantityLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if(updateInput) $("#grams-quantity").val(quantity);
-      if(updateSlider) $('#grams').slider('setValue', quantity);
+      if(updateInput) { $("#grams-quantity").val(quantity); }
+      if(updateSlider) { $('#grams').slider('setValue', quantity); }
       $("#grams-quantity-label").text(pluralize(I18n.gram_label, quantity));
       $("#grams-quantity-recipe").text(pluralize(I18n.gram_label, quantity, true));
       _updatePotency();
     };
 
     updateStrengthLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if(updateInput) $("#strength-quantity").val(quantity);
-      if(updateSlider) $('#strength').slider('setValue', quantity);
+      if(updateInput) { $("#strength-quantity").val(quantity); }
+      if(updateSlider) { $('#strength').slider('setValue', quantity); }
       $("#strength-quantity").html(parseInt(quantity));
       _updatePotency();
     };
 
     updatePortionLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if(updateInput) $("#servings-quantity").val(quantity);
-      if(updateSlider) $('#number-of-servings').slider('setValue', quantity);
+      if(updateInput) { $("#servings-quantity").val(quantity); }
+      if(updateSlider) { $('#number-of-servings').slider('setValue', quantity); }
 
       $("#servings-label").html(pluralize(I18n.portion_label, quantity));
       _updatePotency();
     };
 
     _initializeQuantities = function() {
-      updateQuantityLabel(parseFloat($('#grams')[0].value).toFixed(1));
-      updateStrengthLabel($('#strength')[0].value);
-      updatePortionLabel($('#number-of-servings')[0].value)
+      updateQuantityLabel(parseFloat($('#grams')[0].value).toFixed(1), true, false);
+      updateStrengthLabel($('#strength')[0].value, true, false);
+      updatePortionLabel($('#number-of-servings')[0].value, true, false);
     };
 
     _initializeUpDownQuantityButtons = function() {
