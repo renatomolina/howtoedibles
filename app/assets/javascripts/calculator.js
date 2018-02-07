@@ -51,7 +51,7 @@ $(document).on('ready', function(){
       });
     };
 
-    updateQuantityLabel = function(quantity, updateInput = true, updateSlider = false) {
+    updateQuantityLabel = function(quantity, updateInput, updateSlider) {
       if(updateInput) { $("#grams-quantity").val(quantity); }
       if(updateSlider) { $('#grams').slider('setValue', quantity); }
       $("#grams-quantity-label").text(pluralize(I18n.gram_label, quantity));
@@ -59,14 +59,14 @@ $(document).on('ready', function(){
       _updatePotency();
     };
 
-    updateStrengthLabel = function(quantity, updateInput = true, updateSlider = false) {
+    updateStrengthLabel = function(quantity, updateInput, updateSlider) {
       if(updateInput) { $("#strength-quantity").val(quantity); }
       if(updateSlider) { $('#strength').slider('setValue', quantity); }
       $("#strength-quantity").html(parseInt(quantity));
       _updatePotency();
     };
 
-    updatePortionLabel = function(quantity, updateInput = true, updateSlider = false) {
+    updatePortionLabel = function(quantity, updateInput, updateSlider) {
       if(updateInput) { $("#servings-quantity").val(quantity); }
       if(updateSlider) { $('#number-of-servings').slider('setValue', quantity); }
 
