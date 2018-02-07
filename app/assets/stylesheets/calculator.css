@@ -6,3 +6,5 @@
 
 #green-bar { width: 100%; }
 #green-bar .slider-selection, #green-bar .slider-handle { background: #5cb85c; }
+
+.calculator-input { text-align: center; }
