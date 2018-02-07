@@ -52,6 +52,8 @@ $(document).on('ready', function(){
     };
 
     updateQuantityLabel = function(quantity, updateInput = true, updateSlider = false) {
+      if (quantity < MINIMUM_QUANTITY) quantity = MINIMUM_QUANTITY;
+      if (quantity > MAXIMUM_QUANTITY) quantity = MAXIMUM_QUANTITY;
       if(updateInput) $("#grams-quantity").val(quantity);
       if(updateSlider) $('#grams').slider('setValue', quantity);
       $("#grams-quantity-label").text(pluralize(I18n.gram_label, quantity));
@@ -60,6 +62,8 @@ $(document).on('ready', function(){
     };
 
     updateStrengthLabel = function(quantity, updateInput = true, updateSlider = false) {
+      if (quantity < MINIMUM_STRENGTH) quantity = MINIMUM_STRENGTH;
+      if (quantity > MAXIMUM_STRENGTH) quantity = MAXIMUM_STRENGTH;
       if(updateInput) $("#strength-quantity").val(quantity);
       if(updateSlider) $('#strength').slider('setValue', quantity);
       $("#strength-quantity").html(parseInt(quantity));
@@ -67,16 +71,14 @@ $(document).on('ready', function(){
     };
 
     updatePortionLabel = function(quantity, updateInput = true, updateSlider = false) {
+      if (quantity < MINIMUM_SERVINGS) quantity = MINIMUM_SERVINGS;
+      if (quantity > MAXIMUM_SERVINGS) quantity = MAXIMUM_SERVINGS;
       if(updateInput) $("#servings-quantity").val(quantity);
       if(updateSlider) $('#number-of-servings').slider('setValue', quantity);
 
       $("#servings-label").html(pluralize(I18n.portion_label, quantity));
       _updatePotency();
-    }
-
-    _makeBold = function(text) {
-      return "" + text + "";
-    }
+    };
 
     _initializeQuantities = function() {
       updateQuantityLabel(parseFloat($('#grams')[0].value).toFixed(1));
