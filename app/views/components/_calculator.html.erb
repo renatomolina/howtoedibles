@@ -15,7 +15,7 @@
           <a href="#" id="decrease-quantity">
             <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
           </a>
-          <input id="grams-quantity" step="any" class="calculator-input" size="4" onchange="updateQuantityLabel(this.value, true, true)"> </input><span id="grams-quantity-label"></span>
+          <input id="grams-quantity" type="number" step="any" class="calculator-input" onchange="updateQuantityLabel(this.value, true, true)"> </input><span id="grams-quantity-label"></span>
           <a href="#" id="increase-quantity">
             <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
           </a>
@@ -45,7 +45,7 @@
       <a href="#" id="decrease-strength">
         <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
       </a>
-      THC: <input id="strength-quantity" step="any" class="calculator-input" size="4" onchange="updateStrengthLabel(this.value, true, true)"></input> %
+      THC: <input id="strength-quantity" type="number" step="any" class="calculator-input" onchange="updateStrengthLabel(this.value, true, true)"></input> %
       <a href="#" id="increase-strength">
         <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
       </a>
@@ -68,7 +68,7 @@
         <a href="#" id="decrease-servings">
           <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
         </a>
-        <input id="servings-quantity" step="any" class="calculator-input" size="4" onchange="updatePortionLabel(this.value, true, true)"></input> <span id="servings-label"></span>
+        <input id="servings-quantity" type="number" step="any" class="calculator-input" onchange="updatePortionLabel(this.value, true, true)"></input> <span id="servings-label"></span>
         <a href="#" id="increase-servings">
           <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
         </a>
