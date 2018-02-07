@@ -52,8 +52,6 @@ $(document).on('ready', function(){
     };
 
     updateQuantityLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if (quantity < 0.5) quantity = 0.5;
-      if (quantity > 28) quantity = 28;
       if(updateInput) $("#grams-quantity").val(quantity);
       if(updateSlider) $('#grams').slider('setValue', quantity);
       $("#grams-quantity-label").text(pluralize(I18n.gram_label, quantity));
@@ -62,8 +60,6 @@ $(document).on('ready', function(){
     };
 
     updateStrengthLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if (quantity < 1) quantity = 1;
-      if (quantity > 95) quantity = 95;
       if(updateInput) $("#strength-quantity").val(quantity);
       if(updateSlider) $('#strength').slider('setValue', quantity);
       $("#strength-quantity").html(parseInt(quantity));
@@ -71,8 +67,6 @@ $(document).on('ready', function(){
     };
 
     updatePortionLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if (quantity < 1) quantity = 1;
-      if (quantity > 200) quantity = 200;
       if(updateInput) $("#servings-quantity").val(quantity);
       if(updateSlider) $('#number-of-servings').slider('setValue', quantity);
 
