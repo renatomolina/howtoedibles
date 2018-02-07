@@ -11,7 +11,7 @@
   </h5>
   <hr>
   <%= render "components/dosage" %>
-  <%= render "social_networks/facebook_like_page" %>
+  <%= render "commons/facebook_like_page" %>
   <div class="padding-space col-sm-12"></div>
 </div>
 <div class="col-sm-8">
@@ -41,7 +41,7 @@
     <%= render 'share_widget' %>
     <p class="suggest-recipes">
       Any suggestions for new recipes? <br/>
-      <%= link_to 'Click here', 'http://bit.ly/sendhowtoedibles' %> to share your recipes
+      <%= link_to 'Click here', 'http://bit.ly/sendhowtoedibles', target: "_blank" %> to share your recipes
     </p>
   <% end %>
 </div>
