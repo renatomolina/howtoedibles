@@ -52,6 +52,12 @@ $(document).on('ready', function(){
     };
 
     updateQuantityLabel = function(quantity, updateInput, updateSlider) {
+      if(quantity < MINIMUM_QUANTITY) {
+        quantity = MINIMUM_QUANTITY;
+      } else if(quantity > MAXIMUM_QUANTITY) {
+        quantity = MAXIMUM_QUANTITY;
+      }
+
       if(updateInput) { $("#grams-quantity").val(quantity); }
       if(updateSlider) { $('#grams').slider('setValue', quantity); }
       $("#grams-quantity-label").text(pluralize(I18n.gram_label, quantity));
@@ -60,6 +66,12 @@ $(document).on('ready', function(){
     };
 
     updateStrengthLabel = function(quantity, updateInput, updateSlider) {
+      if(quantity < MINIMUM_STRENGTH) {
+        quantity = MINIMUM_STRENGTH;
+      } else if(quantity > MAXIMUM_STRENGTH) {
+        quantity = MAXIMUM_STRENGTH;
+      }
+
       if(updateInput) { $("#strength-quantity").val(quantity); }
       if(updateSlider) { $('#strength').slider('setValue', quantity); }
       $("#strength-quantity").html(parseInt(quantity));
@@ -67,6 +79,12 @@ $(document).on('ready', function(){
     };
 
     updatePortionLabel = function(quantity, updateInput, updateSlider) {
+      if(quantity < MINIMUM_SERVINGS) {
+        quantity = MINIMUM_SERVINGS;
+      } else if(quantity > MAXIMUM_SERVINGS) {
+        quantity = MAXIMUM_SERVINGS;
+      }
+
       if(updateInput) { $("#servings-quantity").val(quantity); }
       if(updateSlider) { $('#number-of-servings').slider('setValue', quantity); }
 
