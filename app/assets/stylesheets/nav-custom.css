@@ -21,6 +21,8 @@
   padding: 20px;
 }
 
+.navbar-nav>li>.dropdown-menu { margin-top: -30px; }
+
 .logo img {
   max-width: 100%;
   height: auto;
