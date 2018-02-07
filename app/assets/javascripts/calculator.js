@@ -52,8 +52,8 @@ $(document).on('ready', function(){
     };
 
     updateQuantityLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if (quantity < MINIMUM_QUANTITY) quantity = MINIMUM_QUANTITY;
-      if (quantity > MAXIMUM_QUANTITY) quantity = MAXIMUM_QUANTITY;
+      if (quantity < 0.5) quantity = 0.5;
+      if (quantity > 28) quantity = 28;
       if(updateInput) $("#grams-quantity").val(quantity);
       if(updateSlider) $('#grams').slider('setValue', quantity);
       $("#grams-quantity-label").text(pluralize(I18n.gram_label, quantity));
@@ -62,8 +62,8 @@ $(document).on('ready', function(){
     };
 
     updateStrengthLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if (quantity < MINIMUM_STRENGTH) quantity = MINIMUM_STRENGTH;
-      if (quantity > MAXIMUM_STRENGTH) quantity = MAXIMUM_STRENGTH;
+      if (quantity < 1) quantity = 1;
+      if (quantity > 95) quantity = 95;
       if(updateInput) $("#strength-quantity").val(quantity);
       if(updateSlider) $('#strength').slider('setValue', quantity);
       $("#strength-quantity").html(parseInt(quantity));
@@ -71,8 +71,8 @@ $(document).on('ready', function(){
     };
 
     updatePortionLabel = function(quantity, updateInput = true, updateSlider = false) {
-      if (quantity < MINIMUM_SERVINGS) quantity = MINIMUM_SERVINGS;
-      if (quantity > MAXIMUM_SERVINGS) quantity = MAXIMUM_SERVINGS;
+      if (quantity < 1) quantity = 1;
+      if (quantity > 200) quantity = 200;
       if(updateInput) $("#servings-quantity").val(quantity);
       if(updateSlider) $('#number-of-servings').slider('setValue', quantity);
 
@@ -140,7 +140,7 @@ $(document).on('ready', function(){
       });
     };
 
-    _updatePotency = function (){
+    _updatePotency = function() {
       var grams = $('#grams')[0].value;
       var strength = $('#strength')[0].value;
       var numberOfServings = $('#number-of-servings')[0].value;
@@ -183,7 +183,7 @@ $(document).on('ready', function(){
         return "<i class='fa fa-exclamation-circle fa-lg orange' aria-hidden='true'></i> " + I18n.step2_strong_dose;
       else
         return "<i class='fa fa-exclamation-circle fa-lg red' aria-hidden='true'></i> " + I18n.step2_very_strong_dose;
-    }
+    };
 
     _getHighNegativeDescription = function(value) {
       var effects = [];
@@ -199,7 +199,7 @@ $(document).on('ready', function(){
         effects = effects.concat([I18n.racing_heart_label, I18n.coordination_label, I18n.panic_attacks_label]);
 
       return this._getLabelTags(effects, 'danger');;
-    }
+    };
 
     _getLabelTags = function(effects, type) {
       var result = "";
@@ -207,7 +207,7 @@ $(document).on('ready', function(){
         result = "<p class='label label-" + type +"'>" + effects[i] + "</p> " + result;
       }
       return result;
-    }
+    };
 
     initialize();
   }
