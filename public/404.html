@@ -2,6 +2,24 @@
   <body>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 
+    <script>
+      var domain = window.location.hostname;
+
+      var not_found_message = "";
+      var error_message = "";
+      var back_to_homepage = "";
+      if(domain === "laricando.com") {
+        not_found_message = "<h2>404 Site não encontrado</h2>";
+        error_message = "Desculpe, sua página não existe ou não foi encontrada.";
+        back_to_homepage = "Voltar para página principal";
+      } else {
+        not_found_message = "<h2>404 Not Found</h2>";
+        error_message = "Sorry, requested page not found!";
+        back_to_homepage = "Go to the homepage";
+      }
+
+    </script>
+
     <style type="text/css">
       .error-template {padding: 40px 15px;text-align: center;}
       .error-actions {margin-top:15px;margin-bottom:15px;}
@@ -12,16 +30,21 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="error-template">
-                    <h1>
-                        Oops!</h1>
-                    <h2>
-                        404 Not Found</h2>
+                    <script></script>
+                    <h1>Oops!</h1>
+                    <script type="text/javascript">
+                      document.write(not_found_message);
+                    </script>
                     <div class="error-details">
-                        Sorry, an error has occured, Requested page not found!
+                      <script type="text/javascript">
+                        document.write(error_message);
+                      </script>
                     </div>
                     <div class="error-actions">
                         <a href="/" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                            Go to the homepage </a>
+                          <script type="text/javascript">
+                            document.write(back_to_homepage);
+                          </script> </a>
                     </div>
                 </div>
             </div>
