@@ -6,9 +6,4 @@ class Recipe < ApplicationRecord
   validates_attachment_content_type :photo, content_type: /\Aimage\/.*\z/
 
   belongs_to :category
-
-  def increment_impressions_count
-    self.impressions_count += 1
-    save!
-  end
 end

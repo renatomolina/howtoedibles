@@ -1,18 +1,29 @@
-development:
-  adapter: postgresql
-  host: localhost
-  database: howtoedibles
-  username: renatototh
-  password:
-  port: 5432
+# development:
+#   adapter: postgresql
+#   host: ec2-54-204-18-53.compute-1.amazonaws.com
+#   database: d9ijhhcjksanhd
+#   username: aaiprfriukjmyq
+#   password: fd8676b9d0133904e49562cd9a7a4bd76b18840fe7c63510eb539eb007e7006c
+#   port: 5432
+# development:
+#   adapter: postgresql
+#   host: localhost
+#   database: howtoedibles
+#   username: renatototh
+#   password:
+#   port: 5432
+
+# production:
+#   adapter: postgresql
+#   host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
+#   database: howtoedibles-production
+#   username: stoneroot
+#   password: "L0nd0n&weed420"
+#   port: 5432
 
 production:
-  adapter: postgresql
-  host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
-  database: howtoedibles-production
-  username: stoneroot
-  password: "L0nd0n&weed420"
-  port: 5432
+  encoding: utf8
+  pool: 15
 
 laricando:
   adapter: postgresql
