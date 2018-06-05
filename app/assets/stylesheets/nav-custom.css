@@ -71,9 +71,9 @@
         display:block !important;
     }
     .navbar-header {
-        float:none;
+        float:none !important;
     }
     .navbar-toggle {
-      line-height: 100px;
+      line-height: 100px !important;
     }
 }
