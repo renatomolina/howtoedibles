@@ -6,6 +6,14 @@ development:
   password:
   port: 5432
 
+# development:
+#   adapter: postgresql
+#   host: ec2-107-21-255-2.compute-1.amazonaws.com
+#   database: d40m8atcdop9bc
+#   username: epupzauexpqvkn
+#   password: ed37bddca20f20ccb1bb31988a15fc45c2f61e512fae0005d6409c4ef79d8d44
+#   port: 5432
+
 # AWS
 # production:
 #   adapter: postgresql
@@ -18,6 +26,8 @@ development:
 production:
   encoding: utf8
   pool: 15
+
+
 
 laricando:
   adapter: postgresql
