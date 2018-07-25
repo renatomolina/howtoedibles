@@ -18,8 +18,7 @@ categories.each{ |category| Category.create(name: category) }
                             suggested_weed: 7,
                             suggested_portion:48,
                             video: 'https://www.youtube.com/embed/hxUbe0GeL_k',
-                            category: Category.find(2),
-                            impressions_count: 0)
+                            category: Category.find(2))
 end
 
 5.times do |index|
@@ -31,6 +30,5 @@ end
                             suggested_weed: 3.5,
                             suggested_portion:20,
                             video: 'https://www.youtube.com/embed/x5HrIKDiPH4',
-                            category: Category.find(2),
-                            impressions_count: 0)
+                            category: Category.find(2))
 end

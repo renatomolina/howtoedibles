@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 5.2.0'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -20,7 +20,7 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'friendly_id', '~> 5.1.0'
 gem "paperclip", "~> 5.0.0"
 gem 'impressionist'
-gem 'aws-sdk'
+gem 'aws-sdk', '~> 2.5.11'
 gem 'sentry-raven'
 
 # increase server memory consumption
