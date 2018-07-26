@@ -9,7 +9,7 @@
 categories = ['Deserts', 'Cooking Essentials', 'Snacks', 'Health Food']
 categories.each{ |category| Category.create(name: category) }
 
-5.times do |index|
+2.times do |index|
               Recipe.create(name: 'Butter',
                             slug: "butter-#{index}",
                             description: 'This a very delicious recipe. You can use with as medium for any recipe.',
@@ -18,10 +18,10 @@ categories.each{ |category| Category.create(name: category) }
                             suggested_weed: 7,
                             suggested_portion:48,
                             video: 'https://www.youtube.com/embed/hxUbe0GeL_k',
-                            category: Category.find(2))
+                            category: Category.find_by(name: 'Cooking Essentials'))
 end
 
-5.times do |index|
+2.times do |index|
               Recipe.create(name: 'Coconut oil',
                             slug: "coconut-oil-#{index}",
                                           description: 'This a very delicious recipe. You can use with as medium for any recipe.',
@@ -30,5 +30,5 @@ end
                             suggested_weed: 3.5,
                             suggested_portion:20,
                             video: 'https://www.youtube.com/embed/x5HrIKDiPH4',
-                            category: Category.find(2))
+                            category: Category.find_by(name: 'Desserts'))
 end
