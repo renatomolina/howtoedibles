@@ -12,7 +12,6 @@
   <hr>
   <%= render "components/dosage" %>
   <%= render "commons/facebook_like_page" %>
-  <%= render "commons/ad_left_side" %>
   <div class="padding-space col-sm-12"></div>
 </div>
 <div class="col-sm-8">
@@ -24,7 +23,7 @@
   <% @recipes.each_slice(3) do |recipes| %>
     <div class="row">
       <% recipes.each do |recipe| %>
-        <%= link_to recipe_path(recipe.category.slug, recipe.slug) do %>
+        <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
           <div class="col-sm-4 col-md-4">
             <div class="card">
                 <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
@@ -42,7 +41,7 @@
     </div>
   <% end %>
   <% if I18n.locale == :en %>
-    <%= render 'share_widget' %>
+    <%= render 'commons/facebook_share_widget' %>
     <p class="suggest-recipes">
       Any suggestions for new recipes? <br/>
       <%= link_to 'Click here', 'http://bit.ly/sendhowtoedibles', target: "_blank" %> to share your recipes

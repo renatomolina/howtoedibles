@@ -19,14 +19,6 @@
     <meta property="og:type"  content="website" />
     <meta property="og:image" content="<%= image_url('pot-brownies.jpg') %>" />
     <meta name="keywords" content="<%= t :meta_tags %>">
-
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-6354522716906819",
-        enable_page_level_ads: true
-      });
-    </script>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= yield(:head) %>
@@ -39,11 +31,10 @@
     <div class="container clear">
       <%= yield %>
     </div>
-    <%= render "commons/ad_left_side" %>
     <%= render "commons/get_site_control_widget" %>
     <%= render 'recipes/warning' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%= render 'util/analytics' %>
-    <%= render 'i18n' %>
+    <%= render 'commons/analytics' %>
+    <%= render 'commons/i18n' %>
   </body>
 </html>

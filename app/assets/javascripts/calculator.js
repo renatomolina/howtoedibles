@@ -99,7 +99,6 @@ $(document).on('ready', function(){
     };
 
     _initializeUpDownQuantityButtons = function() {
-
       var that = this;
       $("#decrease-quantity").click(function(event){
         event.preventDefault();
@@ -117,7 +116,6 @@ $(document).on('ready', function(){
     };
 
     _initializeUpDownStrengthButtons = function() {
-
       var that = this;
       $("#decrease-strength").click(function(event){
         event.preventDefault();
@@ -135,7 +133,6 @@ $(document).on('ready', function(){
     };
 
     _initializeUpDownServingsButtons = function() {
-
       var that = this;
       $("#decrease-servings").click(function(event){
         event.preventDefault();
