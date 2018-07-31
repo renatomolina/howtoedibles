@@ -3,26 +3,27 @@ source 'https://rubygems.org'
 ruby '2.4.0'
 
 gem 'rails', '~> 5.2.0'
-gem 'puma', '~> 3.0'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'therubyracer', platforms: :ruby
-gem 'jquery-rails'
-gem 'jbuilder', '~> 2.5'
 gem 'pg', '~> 0.21.0'
-gem 'font-awesome-rails'
-gem 'newrelic_rpm'
-gem 'coffee-rails'
+gem 'puma', '~> 3.0'
+gem 'therubyracer', platforms: :ruby
+gem 'jbuilder', '~> 2.5'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
+
+gem 'newrelic_rpm'
 gem 'sitemap_generator'
 gem 'rails-i18n', '~> 5.0.0'
-gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'friendly_id', '~> 5.1.0'
 gem "paperclip", "~> 5.0.0"
-gem 'impressionist'
 gem 'aws-sdk', '~> 2.5.11'
 gem 'sentry-raven'
+
+# Assets
+gem 'jquery-rails'
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'ckeditor', github: 'galetahub/ckeditor'
+gem 'font-awesome-rails'
 
 # increase server memory consumption
 gem 'puma_worker_killer'

@@ -1,24 +1,9 @@
-# README
+# How to edibles
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Install
+run `bundle install`
 
-Things you may want to cover:
+## Deploy
+production env [http://www.howtoedibles.com] - `git push heroku master`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+staging env [http://www.howtoedibles-staging.herokuapp.com/] - `git push staging master`
