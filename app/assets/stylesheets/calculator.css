@@ -2,7 +2,6 @@
 .fa-chevron-circle-up:hover { color: darkgreen; }
 
 .calculator-item { padding-bottom: 10px; }
-.calculator-item-component { margin-right: 20px; }
 
 #green-bar { width: 100%; }
 #green-bar .slider-selection, #green-bar .slider-handle { background: #5cb85c; }
