@@ -1,0 +1,26 @@
+<!-- Locals: recipes -->
+
+<h5 class="widget-title">
+  <%= t :popular_recipes %>
+  <i class="fa fa-caret-up fa-lg green" aria-hidden="true"></i>
+</h5>
+<% recipes.each_slice(3) do |recipes| %>
+  <div class="row">
+    <% recipes.each do |recipe| %>
+      <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+        <div class="col-sm-4 col-md-4">
+          <div class="card">
+              <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
+              <div class="card-block text-left">
+                <h3 class="card-title"><%= recipe.name %></h3>
+                <p class="card-text"><%= recipe.description %></p>
+                <h6 class="text-right">
+                  <%= t :gotorecipe %> <i class="fa fa-lg fa-caret-right"></i>
+                </h6>
+              </div>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

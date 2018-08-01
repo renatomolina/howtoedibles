@@ -1,51 +1,17 @@
-<div class="col-sm-4">
-  <h5>
-    <%= t :calculator_title %>
-    <i class="fa fa-calculator fa-lg green" aria-hidden="true"></i>
-  </h5>
-  <hr>
-  <%= render "components/calculator" %>
-  <h5>
-    <%= t :dosage_title %>
-    <i class="fa fa-flask fa-lg green" aria-hidden="true"></i>
-  </h5>
-  <hr>
-  <%= render "components/dosage" %>
-  <%= render "commons/facebook_like_page" %>
-  <div class="padding-space col-sm-12"></div>
-</div>
-<div class="col-sm-8">
-  <h5>
-    <%= t :popular_recipes %>
-    <i class="fa fa-caret-up fa-lg green" aria-hidden="true"></i>
-  </h5>
-  <hr>
-  <% @recipes.each_slice(3) do |recipes| %>
-    <div class="row">
-      <% recipes.each do |recipe| %>
-        <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
-          <div class="col-sm-4 col-md-4">
-            <div class="card">
-                <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
-                <div class="card-block text-left">
-                  <h3 class="card-title"><%= recipe.name %></h3>
-                  <p class="card-text"><%= recipe.description %></p>
-                  <h6 class="text-right">
-                    <%= t :gotorecipe %> <i class="fa fa-lg fa-caret-right"></i>
-                  </h6>
-                </div>
-            </div>
-          </div>
-        <% end %>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5 padding-bottom">
+      <%= render 'calculator_widget', title: t(:calculator_title), suggested_weed: @suggested_weed, suggested_portion: @suggested_portion %>
+      <%= render "dosage_widget", title: t(:dosage_title) %>
+      <%= render "commons/facebook_like_page" %>
+    </div>
+
+    <div class="col-sm-7">
+      <%= render 'recipes', recipes: @recipes %>
+      <% if I18n.locale == :en %>
+        <%= render 'commons/facebook_share_widget' %>
+        <%= render 'suggest_recipe_button' %>
       <% end %>
     </div>
-  <% end %>
-  <% if I18n.locale == :en %>
-    <%= render 'commons/facebook_share_widget' %>
-    <p class="suggest-recipes">
-      Any suggestions for new recipes? <br/>
-      <%= link_to 'Click here', 'http://bit.ly/sendhowtoedibles', target: "_blank" %> to share your recipes
-    </p>
-  <% end %>
+  </div>
 </div>
-

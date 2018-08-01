@@ -1,6 +1,5 @@
-<div>
-  <h5>
-    <i class="fa fa-calculator fa-lg orange" aria-hidden="true"></i> <%= t :step1_title %> <%= @recipe.name.camelcase %>
-  </h5>
-</div>
-<%= render "components/calculator" %>
+<!-- Locals: title, suggested_weed, suggested_portion -->
+<h5 class="widget-title">
+  <i class="fa fa-calculator fa-lg orange" aria-hidden="true"></i> <%= title %>
+</h5>
+<%= render "components/calculator", suggested_weed: suggested_weed, suggested_portion: suggested_portion %>

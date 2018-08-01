@@ -1,13 +1,12 @@
 <%= render 'harm_reduction' %>
-<div id="recipe_description">
-  <div class="col-sm-5 calculator-item-show">
-    <%= render 'calculator_widget' %>
-    <div class="padding-space col-sm-12"></div>
-    <%= render 'dosage_widget' %>
-    <div class="padding-space col-sm-12"></div>
-  </div>
-  <div class="col-sm-6">
-    <%= render 'recipe' %>
-    <div class="padding-space col-sm-12"></div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5 calculator-item-component padding-bottom">
+      <%= render 'calculator_widget', title: t(:step1_title) + @recipe.name, suggested_weed: @suggested_weed, suggested_portion: @suggested_portion %>
+      <%= render 'dosage_widget', title: t(:step2_title) + @recipe.name %>
+    </div>
+    <div class="col-sm-7">
+      <%= render 'recipe_content', recipe: @recipe %>
+    </div>
   </div>
 </div>
