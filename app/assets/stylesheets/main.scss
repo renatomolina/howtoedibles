@@ -57,6 +57,10 @@ input[type=number]{
     text-align: center;
 }
 
+@media (min-width: 768px) {
+  .container { width: 95%; }
+}
+
 /* Remove up and down arrows from type number input */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -93,10 +97,6 @@ p.warning-item { line-height: 25px; }
 .fb-page-widget {
   margin-top: 70px;
   text-align: left;
-}
-
-@media (min-width: 768px) {
-  .container { width: 95%; }
 }
 
 .footer {
