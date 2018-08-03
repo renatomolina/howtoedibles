@@ -2,8 +2,8 @@ class RecipesController < ApplicationController
   before_action :load_categories
 
   def show
-    @category = Category.find_by(slug: params[:category_id])
-    @recipe = Recipe.find_by(slug: params[:id])
+    @category = Category.find_by(slug: params[:category_slug])
+    @recipe = Recipe.find_by(slug: params[:recipe_slug])
     not_found unless @recipe && @category
 
     @suggested_portion = @recipe.suggested_portion
