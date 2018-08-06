@@ -5,5 +5,9 @@
 
   root 'recipes#index'
 
+  resources :categories do
+   resources :recipes
+  end
+ 
   get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
 end

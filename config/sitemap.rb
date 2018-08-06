@@ -22,7 +22,7 @@ SitemapGenerator::Sitemap.create do
   # Add all articles:
   #
   Recipe.find_each do |recipe|
-    add recipe_path(recipe.slug), :lastmod => recipe.updated_at
+    add category_recipe_path(recipe.category, recipe.slug), :lastmod => recipe.updated_at
   end
 end
 
