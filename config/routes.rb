@@ -10,4 +10,6 @@
   end
  
   get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
+
+  get '/robots.txt' => 'home#robots'
 end
