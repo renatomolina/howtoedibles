@@ -6,6 +6,13 @@ development:
   password:
   port: 5432
 
+test:
+  adapter: postgresql
+  host: localhost
+  database: howtoedibles-test
+  username: renatototh
+  password:
+  port: 5432
 # development:
 #   adapter: postgresql
 #   host: ec2-107-21-255-2.compute-1.amazonaws.com
@@ -26,8 +33,6 @@ development:
 production:
   encoding: utf8
   pool: 15
-
-
 
 laricando:
   adapter: postgresql

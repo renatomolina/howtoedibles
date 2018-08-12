@@ -6,8 +6,6 @@ ActiveAdmin.setup do |config|
   #
   config.site_title = "How to edibles"
   config.comments = false
-  config.register_javascript 'ckeditor/init.js'
-  config.register_stylesheet 'active_admin'
 
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.

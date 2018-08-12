@@ -13,7 +13,7 @@ gem 'newrelic_rpm'
 gem 'sitemap_generator'
 gem 'rails-i18n', '~> 5.0.0'
 gem 'rack-cors', :require => 'rack/cors'
-gem 'friendly_id', '~> 5.1.0'
+gem 'friendly_id', '~> 5.2.0'
 gem "paperclip", "~> 5.0.0"
 gem 'aws-sdk', '~> 2.5.11'
 gem 'sentry-raven'
@@ -30,6 +30,11 @@ gem 'puma_worker_killer'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rspec-rails', '~> 3.7'
+  gem 'factory_bot_rails'
+  gem 'shoulda-matchers', '~> 3.1', require: false
+  gem 'database_cleaner', '~> 1.7'
+  gem 'faker'
 end
 
 group :development do
