@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-5 padding-bottom">
-      <%= render 'calculator_widget', title: t(:step1_title) + @recipe.name, suggested_weed: @suggested_weed, suggested_portion: @suggested_portion %>
+      <%= render 'calculator_widget', title: t(:step1_title) + @recipe.name, suggested_weed: @recipe.suggested_weed, suggested_portion: @recipe.suggested_portion %>
       <%= render 'dosage_widget', title: t(:step2_title) + @recipe.name %>
     </div>
     <div class="col-sm-7">
