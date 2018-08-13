@@ -14,5 +14,6 @@ RSpec.describe Recipe, type: :model do
     subject { build(:recipe) }
 
     it { is_expected.to belong_to(:category) }
+    it { is_expected.to have_attached_file(:photo) }
   end
 end

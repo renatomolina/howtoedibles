@@ -4,5 +4,8 @@ FactoryBot.define do
     ingredients { Faker::Lorem.paragraphs }
     instructions { Faker::Lorem.paragraphs }
     description { Faker::Lorem.sentence }
+    photo_file_name { 'photo.jpg' }
+    photo_content_type { 'image/jpg' }
+    photo_file_size { 1024 }
   end
 end
