@@ -9,7 +9,7 @@ class RecipesController < ApplicationController
   end
 
   def index
-    @recipes = Recipe.all
+    @recipes = Recipe.all.includes(:category)
     @suggested_portion = 50
     @suggested_weed = 4
   end
@@ -17,6 +17,6 @@ class RecipesController < ApplicationController
   private
 
   def load_categories
-    @categories = Category.all
+    @categories = Category.all.includes(:recipes)
   end
 end
