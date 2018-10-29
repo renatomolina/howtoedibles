@@ -1,9 +1,9 @@
 <div id="calculator-widget">
   <div class="calculator-item">
     <p><%= t :step1_weed_quantity %></p>
-    <input id="grams"
+    <input id="grams-slider"
       type="text"
-      data-slider-id="slider"
+      data-slider-id="green-bar"
       data-slider-min="1"
       data-slider-max="28"
       data-slider-step="0.1"
@@ -15,7 +15,7 @@
           <a href="#" id="decrease-quantity">
             <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
           </a>
-          <input id="grams-quantity" type="number" step="any" class="calculator-input" onchange="updateQuantityLabel(this.value, true, true)"> </input><span id="grams-quantity-label"></span>
+          <input id="grams-input" type="number" step="any" class="calculator-input" onchange="updateQuantity(this.value)"> </input><span id="grams-quantity-label"></span>
           <a href="#" id="increase-quantity">
             <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
           </a>
@@ -26,9 +26,9 @@
   <div class="calculator-item">
     <p class="bottomtip"><%= t :step1_weed_intensity %></p>
     <span><%= t :step1_weed_intensity_avarage %></span>
-    <input id="strength"
+    <input id="strength-slider"
           type="text"
-          data-slider-id="slider"
+          data-slider-id="green-bar"
           data-slider-min="1"
           data-slider-max="95"
           data-slider-step="1"
@@ -45,7 +45,7 @@
       <a href="#" id="decrease-strength">
         <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
       </a>
-      THC: <input id="strength-quantity" type="number" step="any" class="calculator-input" onchange="updateStrengthLabel(this.value, true, true)"></input> %
+      THC: <input id="strength-input" type="number" step="any" class="calculator-input" onchange="updateStrength(this.value)"></input> %
       <a href="#" id="increase-strength">
         <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
       </a>
@@ -54,9 +54,9 @@
 
   <div class="calculator-item">
     <p><%= t :step1_weed_portions %></p>
-    <input id="number-of-servings"
+    <input id="portion-slider"
         type="text"
-        data-slider-id="slider"
+        data-slider-id="green-bar"
         data-slider-min="1"
         data-slider-max="200"
         data-slider-step="1"
@@ -68,7 +68,7 @@
         <a href="#" id="decrease-servings">
           <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
         </a>
-        <input id="servings-quantity" type="number" step="any" class="calculator-input" onchange="updatePortionLabel(this.value, true, true)"></input> <span id="servings-label"></span>
+        <input id="portion-input" type="number" step="any" class="calculator-input" onchange="updatePortion(this.value)"></input> <span id="portion-label"></span>
         <a href="#" id="increase-servings">
           <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
         </a>
