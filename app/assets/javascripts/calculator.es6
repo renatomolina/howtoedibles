@@ -17,6 +17,7 @@ $(document).on('ready', function() {
 
     function initialize() {
       initializeSliders()
+
       setState({
         grams: parseFloat($('#grams-slider')[0].value).toFixed(1),
         strength: parseInt($('#strength-slider')[0].value),
