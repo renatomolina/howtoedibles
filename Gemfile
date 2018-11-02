@@ -25,6 +25,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'ckeditor', github: 'galetahub/ckeditor'
 gem 'font-awesome-rails'
 gem 'sprockets-es6'
+gem 'heroku-deflater', :group => :production
 
 # increase server memory consumption
 gem 'puma_worker_killer'
