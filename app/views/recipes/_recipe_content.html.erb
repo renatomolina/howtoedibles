@@ -1,14 +1,13 @@
 <!-- Locals: recipe -->
-
-<h5>
+<p class="section-title">
   <i class="fa fa-cutlery fa-lg orange" aria-hidden="true"></i> <%= t :step3_title %>-
   <%= recipe.name.capitalize.camelcase %>
-</h5>
+</p>
 <%= recipe.ingredients.html_safe %>
 <br />
-<h5>
+<p class="section-title">
   <i class="fa fa-list-ol fa-lg orange" aria-hidden="true"></i>  <%= t :step3_step_by_step %>
-</h5>
+</p>
 <%= recipe.instructions.html_safe %>
 <p><%= render 'commons/facebook_share_widget' %></p>
 

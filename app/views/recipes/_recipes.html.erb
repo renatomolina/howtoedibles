@@ -1,9 +1,8 @@
 <!-- Locals: recipes -->
-
-<h5 class="widget-title">
+<p class="section-title">
   <%= t :popular_recipes %>
   <i class="fa fa-caret-up fa-lg green" aria-hidden="true"></i>
-</h5>
+</p>
 <% recipes.each_slice(3) do |recipes| %>
   <div class="row">
     <% recipes.each do |recipe| %>
@@ -14,9 +13,6 @@
               <div class="card-block text-left">
                 <p class="card-title"><%= recipe.name %></p>
                 <p class="card-text"><%= recipe.description %></p>
-                <p class="go-to-recipe text-right">
-                  <%= t :gotorecipe %> <i class="fa fa-lg fa-caret-right"></i>
-                </p>
               </div>
           </div>
         </div>

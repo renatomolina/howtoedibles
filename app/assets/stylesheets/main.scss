@@ -9,34 +9,35 @@ body p {
 
 h4 { color: #666666; font-size: 23px; }
 
-h5 {
+p.section-title {
   color: #666666;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 35px;
+  font-weight: 500;
 }
 
-.widget-title h1 {
+p.guide-title {
+  color: #666666;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+h1 {
   display: inline;
   color: #666666;
   font-size: 21px;
   line-height: 50px;
 }
 
-.widget-title {
+div.section-title {
   color: #666666;
   font-size: 20px;
   line-height: 35px;
 }
 
-h6 {
+.sidenote {
   font-size: 14px;
   line-height: 20px;
-}
-
-.go-to-recipe {
-  color: #f27242;
-  font-size: 14px;
-  font-weight: 500;
 }
 
 ul li {
@@ -70,7 +71,7 @@ input[type=number]{
 }
 
 @media (min-width: 768px) {
-  .container { width: 95%; }
+  .container { width: 90%; }
 }
 
 /* Remove up and down arrows from type number input */
