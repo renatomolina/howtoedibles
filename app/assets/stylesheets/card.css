@@ -12,6 +12,12 @@
 .card-img-inside { margin-bottom: 15px; }
 .card img { width: 100%;}
 .card-block { padding: 15px; }
-.card-title { margin-top: 0 0 15px 0; }
+.card-title {
+  font-size: 26px;
+  line-height: 20px;
+  font-weight: 500;
+  color:#e16a3e;
+  margin-top: 0 0 15px 0;
+}
 .card-text { font-size: 16px; }
 .card-btn { margin-top: 5px; }

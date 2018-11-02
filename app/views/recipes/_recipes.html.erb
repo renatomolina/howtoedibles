@@ -10,13 +10,13 @@
       <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
         <div class="col-sm-4 col-md-4">
           <div class="card">
-              <%= image_tag(recipe.photo.url,  class: 'card-img-top') %>
+              <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
               <div class="card-block text-left">
-                <h3 class="card-title"><%= recipe.name %></h3>
+                <p class="card-title"><%= recipe.name %></p>
                 <p class="card-text"><%= recipe.description %></p>
-                <h6 class="text-right">
+                <p class="go-to-recipe text-right">
                   <%= t :gotorecipe %> <i class="fa fa-lg fa-caret-right"></i>
-                </h6>
+                </p>
               </div>
           </div>
         </div>
