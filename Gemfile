@@ -17,6 +17,7 @@ gem 'friendly_id', '~> 5.2.0'
 gem "paperclip", "~> 5.0.0"
 gem 'aws-sdk', '~> 2.5.11'
 gem 'sentry-raven'
+gem 'rubocop', '~> 0.60.0', require: false
 
 # Assets
 gem 'jquery-rails'

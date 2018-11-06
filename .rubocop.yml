@@ -1,0 +1,69 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  TargetRubyVersion: 2.4.4
+
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+    - 'db/migrate/**/*'
+    - 'local/**/*'
+    - 'Vagrantfile'
+    - 'db/seeds.rb'
+
+Rails:
+  Enabled: true
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# We occasionally need to use html_safe, and this
+# cop doesn't let us
+Rails/OutputSafety:
+  Enabled: false
+
+Style/CommandLiteral:
+  EnforcedStyle: mixed
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
+    - 'config/routes.rb'
+    - 'config/environments/*.rb'
+    - 'app/admin/*.rb'
+
+# Temporary - since auto-gen-config didn't include these
+Style/GuardClause:
+  Exclude:
+    - 'app/controllers/devise/passwords_controller.rb'
+    - 'app/controllers/devise/registrations_controller.rb'
+    - 'app/controllers/devise/sessions_controller.rb'
+
+# Temporary - since auto-gen-config didn't include these
+Style/WordArray:
+  Exclude:
+    - 'app/controllers/users_controller.rb'
+
+Style/IndentArray:
+  Enabled: false
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Rails/DynamicFindBy:
+  Enabled: false
