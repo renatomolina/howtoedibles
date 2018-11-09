@@ -8,8 +8,11 @@
   resources :categories do
    resources :recipes
   end
- 
   get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
+
+  controller :public_pages do
+    get '/calculator', action: 'calculator', as: 'public_page_calculator'
+  end
 
   get '/robots.txt' => 'home#robots'
 end

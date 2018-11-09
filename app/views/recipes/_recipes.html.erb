@@ -3,11 +3,11 @@
   <%= t :popular_recipes %>
   <i class="fa fa-caret-up fa-lg green" aria-hidden="true"></i>
 </p>
-<% recipes.each_slice(3) do |recipes| %>
+<% recipes.each_slice(4) do |recipes| %>
   <div class="row">
     <% recipes.each do |recipe| %>
       <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
-        <div class="col-sm-4 col-md-4">
+        <div class="col-sm-3 col-md-3">
           <div class="card">
               <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
               <div class="card-block text-left">
