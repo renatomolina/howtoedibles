@@ -49,7 +49,7 @@ $(document).on('ready', function() {
       increaseButton.on('click', (event) => {
         event.preventDefault()
         let newState = {}
-        newState[attribute] = state[attribute] + delta
+        newState[attribute] = parseFloat(state[attribute]) + delta
         setState(newState)
       })
     }
