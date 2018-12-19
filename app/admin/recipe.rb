@@ -1,12 +1,13 @@
 ActiveAdmin.register Recipe do
   config.filters = false
 
-  permit_params :name, :ingredients, :instructions, :category_id,
+  permit_params :name, :ingredients, :position, :instructions, :category_id,
                 :suggested_weed, :suggested_portion, :video, :slug,
                 :photo, :description
   index do
     column :slug
     column :name
+    column :position
     column :description
     column :suggested_weed
     column :suggested_portion
@@ -21,6 +22,7 @@ ActiveAdmin.register Recipe do
         tab 'Basic' do
           f.inputs "Basic" do
             f.input :name
+            f.input :position
             f.input :description, as: :string
             f.input :slug
             f.input :video

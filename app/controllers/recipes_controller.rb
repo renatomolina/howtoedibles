@@ -9,7 +9,7 @@ class RecipesController < ApplicationController
   end
 
   def index
-    @recipes = Recipe.all.includes(:category)
+    @recipes = Recipe.all.order(position: :asc).includes(:category)
     @suggested_portion = 50
     @suggested_weed = 4
   end
