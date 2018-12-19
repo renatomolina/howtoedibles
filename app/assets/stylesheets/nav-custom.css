@@ -13,7 +13,7 @@
     line-height: 80px;
 }
 
-.navbar-nav { padding-left: 150px; }
+.navbar-nav { margin-right: 100px; float: right; }
 .navbar-nav li a { line-height: 35px; }
 
 .navbar-toggle {
@@ -32,7 +32,7 @@
 }
 
 @media (max-width: 768px) {
-  .navbar-nav { padding-left: 10px; }
+  .navbar-nav { padding-left: 10px; float: left;}
   .navbar-nav li a { line-height: 10px; }
   .navbar-header { padding-left: 10px; }
   .navbar-default .navbar-nav > li > a { font-size: 16px; line-height: 10px; }
