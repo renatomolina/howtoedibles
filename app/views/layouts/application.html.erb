@@ -20,7 +20,6 @@
     <meta property="og:image" content="<%= image_url('pot-brownies.jpg') %>" />
     <meta name="keywords" content="<%= t :meta_tags %>">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-
     <%= yield(:head) %>
   </head>
 
@@ -31,6 +30,7 @@
     <div class="container">
       <%= yield %>
     </div>
+    <%= render 'commons/adsense' if ENV['ENV_NAME'] != 'development' %>
     <%= render 'recipes/warning' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <% if ENV['ENV_NAME'] != 'development' %>
