@@ -1,0 +1,17 @@
+
+<div class="row">
+  <p class="section-title text-center">Recommended recipes</p>
+  <br/>
+  <% recipes.each do |recipe| %>
+    <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+      <div class="pull-left col-sm-3 col-md-3 col-xs-6">
+        <div class="card">
+            <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
+            <div class="card-block text-center">
+              <p class="card-recommended-title"><%= recipe.name %></p>
+            </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>

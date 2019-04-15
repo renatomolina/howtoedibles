@@ -104,6 +104,7 @@ input::-webkit-inner-spin-button {
   font-size: 1.66em;
 }
 
+<<<<<<< HEAD
 .badge-label {
   font-size: 16px;
   padding: .2em .6em .3em; 
@@ -124,3 +125,12 @@ p.badge-label {
 .dosage-item {
   line-height: 80px;
 }
+=======
+.card-recommended-title {
+  font-size: 18px;
+  line-height: 2px;
+  font-weight: 500;
+  color:#e16a3e;
+  margin-top: 0 0 15px 0;
+}
+>>>>>>> 79e4be70047a112b3b72545835d4713c71d537af
