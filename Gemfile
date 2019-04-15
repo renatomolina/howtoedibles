@@ -23,7 +23,7 @@ gem 'rubocop', '~> 0.60.0', require: false
 gem 'jquery-rails', '4.3.3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'ckeditor', github: 'galetahub/ckeditor'
+gem 'ckeditor', '4.2.4'
 gem 'font-awesome-rails', '4.7.0.4'
 gem 'bootstrap', '~> 4.3.1'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'

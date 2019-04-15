@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/galetahub/ckeditor.git
-  revision: f6ce3a98b29efec16fcff7bcf34b1e4e6827d835
-  specs:
-    ckeditor (5.0.0)
-      orm_adapter (~> 0.5.0)
-
-GIT
   remote: https://github.com/activeadmin/activeadmin
   revision: 4cb92d319f9f93974fe533439d3631c5a0ec97e7
   specs:
@@ -89,6 +82,9 @@ GEM
       sassc-rails (>= 2.0.0)
     builder (3.2.3)
     byebug (11.0.1)
+    ckeditor (4.2.4)
+      cocaine
+      orm_adapter (~> 0.5.0)
     climate_control (0.2.0)
     cocaine (0.5.8)
       climate_control (>= 0.0.3, < 1.0)
@@ -362,7 +358,7 @@ DEPENDENCIES
   aws-sdk (~> 2.5.11)
   bootstrap (~> 4.3.1)
   byebug
-  ckeditor!
+  ckeditor (= 4.2.4)
   database_cleaner (~> 1.7)
   factory_bot_rails
   faker
