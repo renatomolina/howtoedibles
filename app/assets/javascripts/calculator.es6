@@ -1,5 +1,4 @@
 $(document).on('ready', function() {
-  console.log('renato');
   if($("#calculator-widget").length !== 0) {
     const DELTA_QUANTITY = 0.5, DELTA_STRENGTH = 1, DELTA_SERVINGS = 1
     const MINIMUM_QUANTITY = 0.5, MAXIMUM_QUANTITY = 28
