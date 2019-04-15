@@ -1,35 +1,40 @@
 <div class="footer">
   <div class="container">
-    <div class="col-sm-6">
-      <ul class="fa-ul">
-        <p class="guide-title"><%= t :do_title %></p>
-        <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_1 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_2 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_3 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_4 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_5 %></p></li>
-      </ul>
+    <div class="row">
+      <div class="col-sm-6">
+        <ul class="fa-ul">
+          <h2><%= t :do_title %></h2>
+          <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_1 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_2 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_3 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_4 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-check fa-lg green"></i><%= t :do_content_5 %></p></li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <ul class="fa-ul">
+          <h2><%= t :dont_title %></h2>
+          <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_1 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_2 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_3 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_4 %></p></li>
+          <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_5 %></p></li>
+        </ul>
+      </div>
     </div>
-    <div class="col-sm-6">
-      <ul class="fa-ul">
-        <p class="guide-title"><%= t :dont_title %></p>
-        <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_1 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_2 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_3 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_4 %></p></li>
-        <li><p class="warning-item"><i class="fa-li fa fa-ban fa-lg red"></i><%= t :dont_content_5 %></p></li>
-      </ul>
-    </div>
+
     <% if I18n.locale == :en %>
-      <p class="having-bad-time-warning">
-        <%= t 'having_a_bad_time' %>
-        <a href="http://bit.ly/helpbadtrip" target="_blank">
-          <span class="label label-custom label-danger">
-            <i class="fa fa-exclamation-triangle white" aria-hidden="true"></i>
-            <%= t 'panic_button' %>
-          </span>
-        </a>
-      </p>
-    <% end %>
+        <div class="text-right">
+          <p>
+            <%= t 'having_a_bad_time' %>
+            <a href="http://bit.ly/helpbadtrip" target="_blank">
+              <span class="badge badge-danger badge-label">
+                <i class="fa fa-exclamation-triangle white" aria-hidden="true"></i>
+                <%= t 'panic_button' %>
+              </span>
+            </a>
+          </p>
+        </div>
+      <% end %>
   </div>
 </div>

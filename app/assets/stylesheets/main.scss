@@ -1,25 +1,16 @@
 /* Common */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
 html, body { -webkit-overflow-scrolling: touch; }
 
 body p {
   font-size: 18px;
   line-height: 33px;
   -webkit-font-smoothing: antialiased;
-}
-
-h4 { color: #666666; font-size: 23px; }
-
-p.section-title {
-  color: #666666;
-  font-size: 21px;
-  line-height: 35px;
-  font-weight: 500;
-}
-
-p.guide-title {
-  color: #666666;
-  font-size: 23px;
-  font-weight: 600;
 }
 
 h1 {
@@ -29,11 +20,14 @@ h1 {
   line-height: 50px;
 }
 
-div.section-title {
+h2 {
   color: #666666;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 35px;
+  font-weight: 450;
 }
+
+h4 { color: #666666; font-size: 23px; }
 
 .sidenote {
   font-size: 14px;
@@ -70,10 +64,6 @@ input[type=number]{
     text-align: center;
 }
 
-@media (min-width: 768px) {
-  .container { width: 90%; }
-}
-
 /* Remove up and down arrows from type number input */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -83,12 +73,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Misc Customizations */
-p.bottomtip { line-height: 18px; }
-
-p.warning-item { line-height: 25px; }
-
 .harm-reduction-box { margin: 20px 30px 60px 20px; }
-.padding-space { padding:0px 30px 30px 0px; }
 .padding-bottom { padding-bottom: 50px; }
 
 .label { font-size: 87%; line-height: 2.0; }
@@ -100,11 +85,6 @@ p.warning-item { line-height: 25px; }
   font-size: 17px;
   text-align: right;
   line-height: 23px;
-}
-
-.having-bad-time-warning {
-  text-align: right;
-  padding-top: 50px;
 }
 
 .fb-page-widget {
@@ -121,4 +101,25 @@ p.warning-item { line-height: 25px; }
 
 .fa-lg {
   font-size: 1.66em;
+}
+
+.badge-label {
+  font-size: 16px;
+  padding: .2em .6em .3em; 
+}
+
+.badge-success {
+  background-color: #5cb85c;
+}
+
+p.badge-label {
+  margin: 0px;
+}
+
+.bottomtip {
+  font-size: 14px;
+}
+
+.dosage-item {
+  line-height: 80px;
 }

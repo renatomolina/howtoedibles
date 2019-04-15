@@ -1,4 +1,5 @@
 $(document).on('ready', function() {
+  console.log('renato');
   if($("#calculator-widget").length !== 0) {
     const DELTA_QUANTITY = 0.5, DELTA_STRENGTH = 1, DELTA_SERVINGS = 1
     const MINIMUM_QUANTITY = 0.5, MAXIMUM_QUANTITY = 28
@@ -89,12 +90,12 @@ $(document).on('ready', function() {
       if (value > 10) effects = [...effects, ...LEVEL_TWO_POSITIVE_EFFECTS]
       if (value > 20) effects = [...effects, ...LEVEL_THREE_POSITIVE_EFFECTS]
 
-      return effects.map(effect => "<p class='label label-success'>" + effect + "</p> ").join('')
+      return effects.map(effect => "<p class='badge badge-success badge-label'>" + effect + "</p> ").join('')
     }
 
     function renderNegativeEffects(value) {
-      const LEVEL_ONE_NEGATIVE_EFFECTS = [I18n.memory_label]
-      const LEVEL_TWO_NEGATIVE_EFFECTS = [I18n.headaches_label, I18n.lightheadedness_label, I18n.paranoia_label]
+      const LEVEL_ONE_NEGATIVE_EFFECTS = [I18n.lightheadedness_label]
+      const LEVEL_TWO_NEGATIVE_EFFECTS = [I18n.headaches_label, I18n.memory_label, I18n.paranoia_label]
       const LEVEL_THREE_NEGATIVE_EFFECTS = [I18n.anxiety_label, I18n.time_sense_label, I18n.nausea_label, I18n.agitation_label]
       const LEVEL_FOUR_NEGATIVE_EFFECTS = [I18n.racing_heart_label, I18n.coordination_label, I18n.panic_attacks_label]
 
@@ -105,7 +106,7 @@ $(document).on('ready', function() {
       if (value >= 20) effects = [...effects, ...LEVEL_THREE_NEGATIVE_EFFECTS]
       if (value >= 30) effects = [...effects, ...LEVEL_FOUR_NEGATIVE_EFFECTS]
 
-      return effects.map(effect => "<p class='label label-danger'>" + effect + "</p> ").join('')
+      return effects.map(effect => "<p class='badge badge-danger badge-label'>" + effect + "</p> ").join('')
     }
 
     function render() {
