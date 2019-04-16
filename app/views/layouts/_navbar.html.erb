@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    
+    <a href="/" class="logo"><%= image_tag(t(:logo), alt: 'How to Edibles')%></a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarMain" class="navbar-collapse collapse">
+      <ul id="nav" class="navbar-nav ml-auto">
+        <% @categories.each do |category| %>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= category.name %></a>
+            <div class="dropdown-menu" role="menu">
+              <% category.recipes.each do |recipe| %>
+                <%= link_to recipe.name, category_recipe_path(category.slug, recipe.slug), class: 'dropdown-item' %>
+              <% end %>
+            </div>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>

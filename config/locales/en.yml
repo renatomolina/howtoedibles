@@ -6,7 +6,7 @@ en:
   step1_title: "Step 1 - Edible dosage calculator"
   step1_weed_quantity: "How much weed do you have?"
   step1_weed_intensity: "How strong is your weed?"
-  step1_weed_intensity_avarage: "(14% average)"
+  step1_weed_intensity_average: "(14% average)"
   step1_weed_portions: "How many portions you want?"
   step1_potency_dont_know: "NOT SURE?"
   step1_potency_modal_low_quality: "Low quality"

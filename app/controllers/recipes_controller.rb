@@ -1,6 +1,4 @@
 class RecipesController < ApplicationController
-  before_action :load_categories
-
   def show
     category = Category.friendly.find(params[:category_slug] || params[:category_id])
     @recipe = category.recipes.friendly.find(params[:recipe_slug] || params[:id])
@@ -12,11 +10,5 @@ class RecipesController < ApplicationController
     @recipes = Recipe.all.order(position: :asc).includes(:category)
     @suggested_portion = 50
     @suggested_weed = 4
-  end
-
-  private
-
-  def load_categories
-    @categories = Category.all.includes(:recipes)
   end
 end

@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 
 ruby '2.4.4'
 
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 5.2.3'
 gem 'pg', '~> 0.21.0'
 gem 'puma', '~> 3.0'
-gem 'therubyracer', platforms: :ruby
+gem 'mini_racer', '0.2.4'
 gem 'jbuilder', '~> 2.5'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 
@@ -20,16 +20,15 @@ gem 'sentry-raven'
 gem 'rubocop', '~> 0.60.0', require: false
 
 # Assets
-gem 'jquery-rails'
+gem 'jquery-rails', '4.3.3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'ckeditor', github: 'galetahub/ckeditor'
-gem 'font-awesome-rails'
+gem 'ckeditor', '4.2.4'
+gem 'font-awesome-rails', '4.7.0.4'
+gem 'bootstrap', '~> 4.3.1'
+gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 gem 'sprockets-es6'
-gem 'heroku-deflater', :group => :production
 
-# increase server memory consumption
-gem 'puma_worker_killer'
 
 group :development, :test do
   gem 'byebug', platform: :mri

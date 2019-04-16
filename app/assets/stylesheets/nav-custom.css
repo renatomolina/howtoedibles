@@ -1,79 +1,17 @@
-.navbar-header { padding: 0px 0px 0px 90px; }
-
-.navbar-default .navbar-nav > li > a { font-size: 17px; line-height: 80px; }
-
-.nav .open>a,
-.nav .open>a:focus,
-.nav .open>a:hover,
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:focus,
-.navbar-default .navbar-nav>.open>a:hover {
-    background-color: #f8f8f8;
-    border-color: #337ab7;
-    line-height: 80px;
+.navbar {
+  background-color: #f8f8f8;
+  border:1px solid #e7e7e7;
+  margin-bottom: 20px;
 }
 
-.navbar-nav { margin-right: 100px; float: right; }
-.navbar-nav li a { line-height: 35px; }
-
-.navbar-toggle {
-  margin-top: 30px;
-  padding: 20px;
-}
-
-.navbar-nav>li>.dropdown-menu { margin-top: -30px; }
+.logo { width: 260px; }
 
 .logo img {
-  max-width: 100%;
-  height: auto;
-  padding-top: 10px;
-  width: 280px;
-  min-height: 80px;
+  width: 100%;
 }
 
-@media (max-width: 768px) {
-  .navbar-nav { padding-left: 10px; float: left;}
-  .navbar-nav li a { line-height: 10px; }
-  .navbar-header { padding-left: 10px; }
-  .navbar-default .navbar-nav > li > a { font-size: 16px; line-height: 10px; }
-  .nav .open>a,
-  .nav .open>a:focus,
-  .nav .open>a:hover,
-  .navbar-default .navbar-nav>.open>a,
-  .navbar-default .navbar-nav>.open>a:focus,
-  .navbar-default .navbar-nav>.open>a:hover {
-      background-color: #f8f8f8;
-      border-color: #337ab7;
-      line-height: 20px;
-  }
-
-  .navbar-toggle {
-    margin-top: 25px;
-    padding: 13px;
-  }
-
-  .logo {
-    padding-left: 10px;
-    width: 230px;
-    min-height: 80px;
-  }
-}
-
-/* Bring navbar-toggle earlier (fix for iPads and tablets)*/
-@media (min-width: 768px) and (max-width: 1100px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none !important;
-    }
-    .navbar-toggle {
-      line-height: 100px !important;
-    }
+.navbar-light .navbar-nav .nav-link {
+  color: #616161;
+  margin-right: 5px;
+  font-size: 16px;
 }

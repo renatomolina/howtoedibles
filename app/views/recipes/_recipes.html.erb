@@ -1,22 +1,22 @@
 <%# Locals: recipes %>
-<p class="section-title">
+<h2>
   <%= t :popular_recipes %>
   <i class="fa fa-caret-up fa-lg green" aria-hidden="true"></i>
-</p>
+</h2>
 <% recipes.each_slice(3) do |recipes| %>
   <div class="row">
     <% recipes.each do |recipe| %>
-      <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
-        <div class="col-sm-4 col-md-4">
-          <div class="card">
-              <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
-              <div class="card-block">
-                <p class="card-title"><%= recipe.name %></p>
-                <p class="card-text"><%= recipe.description %></p>
-              </div>
-          </div>
+        <div class="col-sm-4">
+          <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+            <div class="card">
+                <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
+                <div class="card-block">
+                  <p class="card-title"><%= recipe.name %></p>
+                  <p class="card-text"><%= recipe.description %></p>
+                </div>
+            </div>
+          <% end %>
         </div>
-      <% end %>
     <% end %>
   </div>
 <% end %>
