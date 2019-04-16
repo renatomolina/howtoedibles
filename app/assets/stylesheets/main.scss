@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width: 736px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
 html, body { -webkit-overflow-scrolling: touch; }
 
 p {
