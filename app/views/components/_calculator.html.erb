@@ -26,6 +26,11 @@
   <div class="calculator-item">
     <p><%= t :step1_weed_intensity %></p>
     <span class="bottomtip"><%= t :step1_weed_intensity_average %></span>
+    <a class="label-calculator" data-toggle="modal" href="#" data-target="#myModal">
+      <span class="badge badge-success">
+        <%= t :step1_potency_dont_know %>
+      </span>
+    </a>
     <input id="strength-slider"
           type="text"
           data-slider-id="green-bar"
@@ -35,11 +40,6 @@
           data-slider-value="14"
           data-slider-tooltip="hide"/>
 
-    <a class="pull-left label-calculator" data-toggle="modal" href="#" data-target="#myModal">
-      <p class="badge badge-success">
-        <%= t :step1_potency_dont_know %>
-      </p>
-    </a>
     <%= render "recipes/modal_potency" %>
     <p class="text-right">
       <a href="#" id="decrease-strength">
