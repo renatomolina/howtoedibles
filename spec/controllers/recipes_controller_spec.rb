@@ -1,7 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe RecipesController, type: :controller do
-  let(:category) { create(:category) }
+  let!(:category) { create(:category) }
+  let!(:recipe) { create(:recipe) }
 
   shared_examples 'loads categories' do
     it 'loads and assigns all categories to @categories' do
@@ -19,7 +20,7 @@ RSpec.describe RecipesController, type: :controller do
 
     it 'loads and assigns all recipes to @recipes' do
       send_request
-      expect(assigns(:recipes)).to eq(Recipe.all)
+      expect(assigns(:recipes).map(&:id)).to eq(Recipe.all.map(&:id))
     end
 
     it 'assigns a default value to @suggested_weed' do
