@@ -10,6 +10,12 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 320px) {
+	.logo {
+		width: 200px;
+	}
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: #616161;
   margin-right: 5px;
