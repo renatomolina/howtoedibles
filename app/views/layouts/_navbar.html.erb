@@ -8,7 +8,7 @@
     </button>
     <div id="navbarMain" class="navbar-collapse collapse">
       <ul id="nav" class="navbar-nav ml-auto">
-        <% @categories.each do |category| %>
+        <% @category_list.each do |category| %>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= category.name %></a>
             <div class="dropdown-menu" role="menu">

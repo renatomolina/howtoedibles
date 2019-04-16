@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
   before_action :set_raven_context
-  before_action :load_categories
+  before_action :load_category_list
 
   def current_translations
     @translations ||= I18n.backend.send(:translations)
@@ -27,7 +27,7 @@ class ApplicationController < ActionController::Base
     Raven.extra_context(params: params.to_unsafe_h, url: request.url)
   end
 
-  def load_categories
-    @categories = Category.all.includes(:recipes)
+  def load_category_list
+    @category_list = Category.all.includes(:recipes)
   end
 end
