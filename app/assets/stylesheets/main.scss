@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 991px) {
   .container {
     max-width: 100%;
   }
@@ -19,6 +19,13 @@ p {
   font-size: 18px;
   line-height: 33px;
   -webkit-font-smoothing: antialiased;
+}
+
+p.title {
+  color: #666666;
+  font-size: 21px;
+  line-height: 35px;
+  font-weight: 450;
 }
 
 h1 {
