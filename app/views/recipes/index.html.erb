@@ -1,10 +1,10 @@
 <div class="row">
-  <div class="col-sm-5 col-md-4 padding-bottom">
+  <div class="col-sm-5 col-md-4 order-1 order-md-2 padding-bottom">
     <%= render 'calculator_widget', title: t(:calculator_title), suggested_weed: @suggested_weed, suggested_portion: @suggested_portion %>
     <%= render "dosage_widget", title: t(:dosage_title) %>
   </div>
 
-  <div class="col-sm-7 col-md-8">
+  <div class="col-sm-7 col-md-8 order-2 order-md-1">
     <%= render 'recipes', recipes: @recipes %>
     <% if I18n.locale == :en %>
       <%= render 'suggest_recipe_button' %>
