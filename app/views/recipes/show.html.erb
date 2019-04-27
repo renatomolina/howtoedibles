@@ -1,7 +1,7 @@
 <%= render 'harm_reduction' %>
 <div class="row">
   <div class="col-sm-5 order-1 order-md-2 padding-bottom">
-    <%= render 'calculator_widget', title: t(:step1_title), suggested_weed: @recipe.suggested_weed, suggested_portion: @recipe.suggested_portion %>
+    <%= render 'calculator_widget', title: t(:step1_title), suggested_weed: @suggested_weed, suggested_portion: @suggested_portion, suggested_potency: @suggested_potency %>
     <%= render 'dosage_widget', title: t(:step2_title) %>
   </div>
   <div class="col-sm-7 order-2 order-md-1">

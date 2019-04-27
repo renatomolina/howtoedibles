@@ -1,3 +1,6 @@
+<%
+  # Locals: suggested_weed, suggested_portion, suggested_potency
+%>
 <div id="calculator-widget">
   <div class="calculator-item">
     <p><%= t :step1_weed_quantity %></p>
@@ -37,7 +40,7 @@
           data-slider-min="1"
           data-slider-max="95"
           data-slider-step="1"
-          data-slider-value="14"
+          data-slider-value="<%= suggested_potency %>"
           data-slider-tooltip="hide"/>
 
     <%= render "recipes/modal_potency" %>

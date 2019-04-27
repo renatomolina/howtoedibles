@@ -7,7 +7,7 @@ RSpec.describe RecipesController, type: :controller do
   shared_examples 'loads categories' do
     it 'loads and assigns all categories to @categories' do
       send_request
-      expect(assigns(:categories)).to eq(Category.all)
+      expect(assigns(:category_list)).to eq(Category.all)
     end
   end
 
@@ -32,13 +32,18 @@ RSpec.describe RecipesController, type: :controller do
       send_request
       expect(assigns(:suggested_portion)).to eq(50)
     end
+
+    it 'assigns a default value to @suggested_potency' do
+      send_request
+      expect(assigns(:suggested_potency)).to eq(14)
+    end
   end
 
   describe 'GET show' do
     let(:recipe) { create(:recipe, category: category, suggested_weed: 4, suggested_portion: 50) }
-
+    let(:params) { { category_id: recipe.category.slug, id: recipe.slug } }
     def send_request
-      get :show, params: { category_id: recipe.category.slug, id: recipe.slug }
+      get :show, params: params
     end
 
     include_examples 'loads categories'
@@ -48,14 +53,48 @@ RSpec.describe RecipesController, type: :controller do
       expect(assigns(:recipe)).to eq(recipe)
     end
 
-    it 'assigns a default value to @suggested_weed' do
-      send_request
-      expect(assigns(:suggested_weed)).to eq(recipe.suggested_weed)
+    context 'params are nil' do
+      it 'assigns a default value to @suggested_weed' do
+        send_request
+        expect(assigns(:suggested_weed)).to eq(recipe.suggested_weed)
+      end
+  
+      it 'assigns a default value to @suggested_portion' do
+        send_request
+        expect(assigns(:suggested_portion)).to eq(recipe.suggested_portion)
+      end
+  
+      it 'assigns a default value to @suggested_potency' do
+        send_request
+        expect(assigns(:suggested_potency)).to eq(14)
+      end
     end
 
-    it 'assigns a default value to @suggested_portion' do
-      send_request
-      expect(assigns(:suggested_portion)).to eq(recipe.suggested_portion)
+    context 'weed param is setted' do
+      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, weed: 1 } }
+
+      it 'assigns the param value to @suggested_weed' do
+        send_request
+        expect(assigns(:suggested_weed)).to eq("1")
+      end
+    end
+
+    context 'portion param is setted' do
+      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, portion: 1 } }
+
+      it 'assigns the param value to @suggested_portion' do
+        send_request
+        expect(assigns(:suggested_portion)).to eq("1")
+      end
+    end
+
+    context 'potency param is setted' do
+      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, potency: 1 } }
+
+      it 'assigns the param value to @suggested_potency' do
+        send_request
+        expect(assigns(:suggested_potency)).to eq("1")
+      end
     end
   end
 end
