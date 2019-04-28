@@ -1,0 +1,11 @@
+$(document).on('ready', function() {
+  if($(".recipe-reference").length !== 0) {
+    $('.recipe-reference').each(function(){
+      var link = $(this).attr("href");
+      var quantity = parseFloat($('#grams-slider')[0].value).toFixed(1);
+      var potency = parseInt($('#strength-slider')[0].value);
+      link += "?weed=" + quantity + "&potency=" + potency + "&portion=" + 1;
+      $(this).attr('href', link);
+    });
+  }
+});

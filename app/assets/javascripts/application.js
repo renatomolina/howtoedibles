@@ -17,5 +17,6 @@
 //= require bootstrap-slider.min
 //= require pluralize
 //= require jquery_extensions
-//= require pluralize-custom
+//= require pluralize_custom
 //= require calculator
+//= require recipe_reference
