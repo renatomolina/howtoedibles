@@ -186,7 +186,7 @@ $(document).on('ready', function() {
 
     function updateReferenceRecipes() {
       $('.recipe-reference').each(function() {
-        var link = window.location.href.split('?')[0] + "?weed=" + state['grams'] + "&potency=" + state['strength'] + "&portion=" + 1;
+        var link = window.location.href.split('?')[0] + "?quantity=" + state['grams'] + "&potency=" + state['strength'] + "&portion=" + 1;
         $(this).attr('href', link);
       });
     }
