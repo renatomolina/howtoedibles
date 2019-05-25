@@ -115,6 +115,7 @@ $(document).on('ready', function() {
       renderQuantityLabels()
       renderPotency()
       renderEffects()
+      updateReferenceRecipes()
     }
 
     function renderInputComponents(attribute, input, slider) {
@@ -181,6 +182,13 @@ $(document).on('ready', function() {
 
     function getCurrentDosage() {
       return (10 * (state['grams'] * state['strength'])) / state['portions']
+    }
+
+    function updateReferenceRecipes() {
+      $('.recipe-reference').each(function() {
+        var link = window.location.href.split('?')[0] + "?weed=" + state['grams'] + "&potency=" + state['strength'] + "&portion=" + 1;
+        $(this).attr('href', link);
+      });
     }
 
     initialize()
