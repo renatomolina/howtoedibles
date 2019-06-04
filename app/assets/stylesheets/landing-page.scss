@@ -171,7 +171,7 @@ a:focus {
 	z-index: 1;
 	color: #fff;
 	padding-top: 3%;
-	background: url(../assets/landing_page_top.jpg) no-repeat center top;
+	background: url(asset_path('landing_page_top.jpg')) no-repeat center top;
 }
 
 #top-banner h1 {
@@ -193,68 +193,29 @@ a:focus {
 }
 
 /* Grey Section */
-
 #bundle-details {
 	background-color: #f2f2f2;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
-/* Mint Section */
-#mint {
-	background: url(../img/mint.jpg) no-repeat center top;
-	padding-top: 50px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 400px;
-	width: 100%;
-
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#mint h4 {
-	font-weight: 300;
-	color: white;
-}
-
 /* Footer Section */
 .form {
-	background: url(../img/footer.jpg) no-repeat center top;
 	padding-top: 50px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 600px;
 	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.form h2 {
-	color: white
-}
-
-.form h5 {
-	color: white;
-	text-transform: uppercase;
-	font-weight: 400;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .form input {
@@ -282,22 +243,6 @@ a:focus {
 	padding-left: 28px;
 }
 
-.form .social-icons {
-	margin-top: 80px;
-}
-
-.form .social-icons i {
-	font-size: 25px;
-	margin-right: 20px;
-}
-
-.form .social-icons a {
-	color: white;
-}
-
-.form .social-icons a:hover {
-	color: #ccc;
-}
-
 .book-description { text-align: justify; }
+
 .book-item { margin: 10px; }
