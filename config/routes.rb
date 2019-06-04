@@ -12,6 +12,7 @@
 
   controller :public_pages do
     get '/calculator', action: 'calculator', as: 'public_page_calculator'
+    get '/ebook', action: 'ebook'
   end
 
   get '/robots.txt' => 'home#robots'
