@@ -1,7 +1,7 @@
 en:
   logo: "howtoedibleslogo.png"
   logo_size: "230x33"
-  page_title: "Edible dosage calculator - Cannabis Edibles"
+  page_title: "Edible dosage calculator"
   modal_close: "Close"
   step1_title: "Step 1 - Edible dosage calculator"
   step1_weed_quantity: "How much weed do you have?"
@@ -80,7 +80,7 @@ en:
   meta_og_description: "How to make edibles? This edible dosage calculator will help you to cook and dose cannabis edibles. We show you all of the steps to make your edibles."
   meta_tags: "edible dosage calculator,edible,dosage, calculator,cannabis,marijuana,weed,dose,dosage,calculator,pot,overdose,how,to,edibles,howtoedibles"
   first_recipe: "cooking-essentials"
-  website_url: "https://howtoedibles.com"
+  website_url: "http://howtoedibles.com"
   website_url_http: "http://howtoedibles.com"
   share_label: "Share"
   contact_widget_id: "104991"
