@@ -7,7 +7,7 @@
 				<div class="col-sm-6 aligncenter form">
 					<form role="form" action="/" method="post" enctype="plain">
 						<input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
-						<button class='btn btn-green subscribe-submit' type="submit">Join the Waiting List</button>
+						<button class='btn btn-green subscribe-submit' type="submit">NOTIFIED ME!</button>
 					</form>
 				</div>
 			</div>
@@ -17,8 +17,8 @@
 
 <div class="col-sm-12 centered">
 	<div class="row mtb">
-		<div class="col-md-6">
-			<%= image_tag('landing_page_book.jpg', width: '600') %>
+		<div class="col-md-6 book-cover-thumb">
+			<%= image_tag('landing_page_book.jpg') %>
 		</div>
 
 		<div class="col-md-6">
@@ -66,11 +66,11 @@
 		<h2>Featured on</h2>
 		<div class="row icons-white-bg mt">
 			<div class="col-md-6">
-				<%= link_to image_tag('landing_page_civilized_logo.png'), 'https://www.civilized.life/articles/this-website-is-designed-to-help-you-not-overdo-it-on-edibles/' %>
+				<%= link_to image_tag('landing_page_greenseal_logo.png'), 'https://www.greensealcannabis.ca/diy-cannabis-edibles/' %>
 			</div>
 
-			<div class="col-md-6">
-				<%= link_to image_tag('landing_page_greenseal_logo.png'), 'https://www.greensealcannabis.ca/diy-cannabis-edibles/' %>
+			<div class="col-md-6 strip-logo">
+				<%= link_to image_tag('landing_page_civilized_logo.jpg'), 'https://www.civilized.life/articles/this-website-is-designed-to-help-you-not-overdo-it-on-edibles/' %>
 			</div>
 		</div>
 	</div>
