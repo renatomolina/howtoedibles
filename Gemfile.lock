@@ -369,7 +369,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails (= 4.3.3)
   listen (~> 3.0.5)
-  mini_racer
+  mini_racer (= 0.2.6)
   newrelic_rpm
   paperclip (~> 5.0.0)
   pg (~> 0.21.0)
