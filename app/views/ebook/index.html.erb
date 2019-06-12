@@ -5,9 +5,14 @@
 				<h1>WE ARE BAKING SOMETHING NEW FOR YOU!</h1>
 				<p>This bundle will teach you to cook delicious, quick and easy cannabis edibles recipes. The collection is composed by a complete guide of extraction, a quick dosage guide and an amazing recipe book.</p>
 				<div class="col-sm-6 aligncenter form">
-					<form role="form" action="/" method="post" enctype="plain">
-						<input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address" required>
-						<button class='btn btn-green subscribe-submit' type="submit"><strong>JOIN WAITING LIST</strong></button>
+					<% flash.each do |key, value| %>
+						<div class="alert alert-<%= key %> centered">
+							<%= value %>
+						</div>
+					<% end %>
+					<form role="form" action="/signup-for-ebook" method="post">
+						<%= text_field_tag :email, '', class: 'subscribe-input', placeholder: 'Enter your email address' %>
+						<%= button_tag 'JOIN WAITING LIST', class: 'btn btn-green subscribe-submit', type: 'submit' %>
 					</form>
 				</div>
 			</div>

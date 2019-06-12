@@ -42,7 +42,7 @@ p {
 	color: #fff;
 	font-size: 18px;
 	min-height: 60px;
-	border-radius: 20px;
+	border-radius: 2px;
 	text-decoration: none;
 	display: inline-block;
 	line-height: 24px;
@@ -117,7 +117,7 @@ p {
 .form input {
 	font-size: 18px;
 	min-height: 60px;
-	border-radius: 20px;
+	border-radius: 0px;
 	line-height: 12px;
 	padding: 16px 30px 20px;
 	border: none;
@@ -128,5 +128,7 @@ p {
 }
 
 .form .subscribe-input { width: 100%; }
-.form .subscribe-submit { width: 90%; }
+.form .subscribe-submit { width: 90%; font-weight: 700; }
 .strip-logo { padding-top: 90px; }
+
+.alert { border-radius: 0px; }
