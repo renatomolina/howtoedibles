@@ -2,7 +2,7 @@ development:
   adapter: postgresql
   host: localhost
   database: howtoedibles
-  username: renatototh
+  username: renato
   password:
   port: 5432
 
@@ -10,7 +10,7 @@ test:
   adapter: postgresql
   host: localhost
   database: howtoedibles-test
-  username: renatototh
+  username: renato
   password:
   port: 5432
 # development:
