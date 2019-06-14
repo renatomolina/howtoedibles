@@ -8,6 +8,7 @@
   resources :categories do
    resources :recipes
   end
+
   get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
 
   controller :public_pages do

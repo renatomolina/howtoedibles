@@ -1,4 +1,8 @@
 class Recipe < ApplicationRecord
+  DEFAULT_POTENCY = 14
+  DEFAULT_QUANTITY = 3.5
+  DEFAULT_PORTION = 50
+
   extend FriendlyId
   friendly_id :name, use: [:slugged, :history]
 
