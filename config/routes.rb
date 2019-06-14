@@ -15,6 +15,7 @@
   end
 
   get '/robots.txt' => 'home#robots'
-  get '/ebook', to: 'ebook#index', as: :ebook
-  post '/signup-for-ebook', to: 'ebook#signup'
+
+  get '/ebook', to: 'ebook_signups#index'
+  resources :ebook_signups
 end

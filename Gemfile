@@ -29,7 +29,6 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 gem 'sprockets-es6'
 
-
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails', '~> 3.7'

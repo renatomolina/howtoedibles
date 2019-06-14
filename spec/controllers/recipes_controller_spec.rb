@@ -58,12 +58,12 @@ RSpec.describe RecipesController, type: :controller do
         send_request
         expect(assigns(:suggested_quantity)).to eq(recipe.suggested_quantity)
       end
-  
+
       it 'assigns a default value to @suggested_portion' do
         send_request
         expect(assigns(:suggested_portion)).to eq(recipe.suggested_portion)
       end
-  
+
       it 'assigns a default value to @suggested_potency' do
         send_request
         expect(assigns(:suggested_potency)).to eq(14)
@@ -75,7 +75,7 @@ RSpec.describe RecipesController, type: :controller do
 
       it 'assigns the param value to @suggested_quantity' do
         send_request
-        expect(assigns(:suggested_quantity)).to eq("1")
+        expect(assigns(:suggested_quantity)).to eq('1')
       end
     end
 
@@ -84,7 +84,7 @@ RSpec.describe RecipesController, type: :controller do
 
       it 'assigns the param value to @suggested_portion' do
         send_request
-        expect(assigns(:suggested_portion)).to eq("1")
+        expect(assigns(:suggested_portion)).to eq('1')
       end
     end
 
@@ -93,7 +93,7 @@ RSpec.describe RecipesController, type: :controller do
 
       it 'assigns the param value to @suggested_potency' do
         send_request
-        expect(assigns(:suggested_potency)).to eq("1")
+        expect(assigns(:suggested_potency)).to eq('1')
       end
     end
   end

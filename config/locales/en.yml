@@ -1,4 +1,14 @@
 en:
+  activerecord:
+    attributes:
+      ebook_signup:
+        email: "E-mail address"
+    errors:
+      models:
+        ebook_signup:
+          attributes:
+            email:
+              unique: "already registered. We will get in touch soon!"
   logo: "howtoedibleslogo.png"
   logo_size: "230x33"
   page_title: "Edible dosage calculator"

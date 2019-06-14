@@ -23,5 +23,7 @@ module Howtoedibles
         config.dsn = 'https://e7b972887d144366944c9cebc5b33017:97693379b36e45b690fde7998ad30da7@sentry.io/185276'
       end
     end
+
+    config.action_view.automatically_disable_submit_tag = false
   end
 end

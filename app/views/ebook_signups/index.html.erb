@@ -10,10 +10,10 @@
 							<%= value %>
 						</div>
 					<% end %>
-					<form role="form" action="/signup-for-ebook" method="post">
-						<%= text_field_tag :email, '', class: 'subscribe-input', placeholder: 'Enter your email address' %>
-						<%= button_tag 'JOIN WAITING LIST', class: 'btn btn-green subscribe-submit', type: 'submit' %>
-					</form>
+					<%= form_for @ebook_signup do |f| %>
+						<%= f.email_field :email, class: 'subscribe-input', placeholder: 'Enter your email address' %>
+						<%= f.submit 'JOIN WAITING LIST', class: 'btn btn-green subscribe-submit' %>
+					<% end %>
 				</div>
 			</div>
 		</div>
