@@ -1,7 +1,17 @@
 en:
+  activerecord:
+    attributes:
+      ebook_signup:
+        email: "E-mail address"
+    errors:
+      models:
+        ebook_signup:
+          attributes:
+            email:
+              unique: "already registered. We will get in touch soon!"
   logo: "howtoedibleslogo.png"
   logo_size: "230x33"
-  page_title: "Edible dosage calculator"
+  page_title: "Edible dosage calculator | Potency | Firecrackers"
   modal_close: "Close"
   step1_title: "Step 1 - Edible dosage calculator"
   step1_weed_quantity: "How much weed do you have?"
@@ -77,8 +87,8 @@ en:
   meta_description: "The edible dosage calculator will help you to make and dose weed edibles"
   meta_og_site_name: "Edibles Dosage Calculator"
   meta_og_title: "Edible Dosage Calculator"
-  meta_og_description: "Not sure how to make edibles? This edible dosage calculator shows all the steps to cook and dose cannabis edibles"
-  meta_tags: "edible dosage calculator,edible,dosage, calculator,cannabis,marijuana,weed,dose,dosage,calculator,pot,overdose,how,to,edibles,howtoedibles"
+  meta_og_description: "How to make edibles? This edible dosage calculator will help you to cook and dose cannabis edibles. We show you all of the steps to make your edibles."
+  meta_tags: "edible dosage calculator, thc calculator, edible, edible potency calculator, edible dosage, cannabutter, pot calculator, cannabis, marijuana, weed, dose, dosage, calculator, pot, overdose, howtoedibles"
   first_recipe: "cooking-essentials"
   website_url: "http://howtoedibles.com"
   website_url_http: "http://howtoedibles.com"
