@@ -6,67 +6,67 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://www.howtoedibles.com/</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://www.howtoedibles.com/categories/desserts/recipes/gummy-bears</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/categories/desserts/recipes/honey</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <loc>http://www.howtoedibles.com/categories/desserts/recipes/infused-honey</loc>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/categories/desserts/recipes/crackers</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <loc>http://www.howtoedibles.com/categories/desserts/recipes/firecrackers</loc>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/categories/desserts/recipes/cookie</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <loc>http://www.howtoedibles.com/categories/desserts/recipes/pot-cookies</loc>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/categories/desserts/recipes/brownies</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <loc>http://www.howtoedibles.com/categories/desserts/recipes/pot-brownies</loc>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.howtoedibles.com/categories/healthy/recipes/trail-mix</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.howtoedibles.com/categories/drinks/recipes/chai</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.howtoedibles.com/categories/drinks/recipes/whiskey</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.howtoedibles.com/categories/snacks/recipes/popcorn</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.howtoedibles.com/categories/essentials/recipes/olive-oil</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.howtoedibles.com/categories/essentials/recipes/coconut-oil</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <loc>http://www.howtoedibles.com/categories/essentials/recipes/infused-coconut-oil</loc>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://www.howtoedibles.com/categories/essentials/recipes/cannabutter</loc>
-  <lastmod>2018-08-06T04:33:12+00:00</lastmod>
+  <lastmod>2019-06-06T04:33:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>
