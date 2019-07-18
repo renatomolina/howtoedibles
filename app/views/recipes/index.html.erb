@@ -2,7 +2,7 @@
   <div class="col-sm-5 col-md-4 order-1 order-md-2 padding-bottom">
     <i class="fa fa-calculator fa-lg orange" aria-hidden="true"></i>
     <h1><%= t(:calculator_title) %></h1>
-    <%= render "components/calculator", suggested_weed: @suggested_weed, suggested_portion: @suggested_portion, suggested_potency: @suggested_potency %>
+    <%= render "components/calculator", suggested_quantity: @suggested_quantity, suggested_portion: @suggested_portion, suggested_potency: @suggested_potency %>
 
     <%= render "dosage_widget", title: t(:dosage_title) %>
   </div>
