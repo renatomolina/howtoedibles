@@ -1,0 +1,133 @@
+@import 'bootstrap';
+@import 'font-awesome';
+
+body {
+	background: #fff;
+	margin: 0;
+	color: #696E74;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h5 {
+	font-weight: 400;
+	margin-top: 40px;
+}
+
+p {
+	padding: 0;
+	margin-bottom: 12px;
+  font-family: Arial, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 26px;
+	color: #696E74;
+	margin-top: 10px;
+}
+
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered { text-align: center }
+.mt { margin-top: 50px; }
+.mb { margin-bottom: 50px; }
+.mtb { margin-top: 50px; margin-bottom: 50px; }
+
+.btn-green {
+	color: #fff;
+	font-size: 18px;
+	min-height: 60px;
+	border-radius: 2px;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 24px;
+	padding: 16px 0px 20px;
+	z-index: 1;
+	position: relative;
+	border: none;
+	background: #1da083;
+}
+
+.btn-green:hover {
+	background: #21b191;
+	color: white;
+}
+
+#top-banner {
+	width: 100%;
+	max-height: 600px;
+	min-height: 600px;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	background: url(asset_path('landing_page_top.jpg')) no-repeat center top;
+}
+
+#top-banner h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 40px;
+	padding-top: 10%;
+}
+
+#top-banner p {
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+/* Font Icons Styling for White Sections */
+.icons-white-bg i { font-size: 30px; }
+
+#bundle-details {
+	background-color: #f2f2f2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.book-cover-thumb { 
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-bottom: 20px;
+}
+
+.book-cover-thumb img { width: 400px; }
+
+.book-title { vertical-align: middle; }
+.book-description { text-align: justify; }
+.book-item { margin: 10px; }
+
+
+.form {
+	padding-top: 20px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+
+}
+
+.form input {
+	font-size: 18px;
+	min-height: 60px;
+	border-radius: 0px;
+	line-height: 12px;
+	padding: 16px 30px 20px;
+	border: none;
+	margin-bottom: 10px;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+
+.form .subscribe-input { width: 100%; }
+.form .subscribe-submit { width: 90%; font-weight: 700; }
+.strip-logo { padding-top: 90px; }
+
+.alert { border-radius: 0px; }

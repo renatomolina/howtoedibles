@@ -1,0 +1,84 @@
+<div class="col-sm-12" id="top-banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 centered">
+				<h1>WE ARE BAKING SOMETHING NEW FOR YOU!</h1>
+				<p>This bundle will teach you to cook delicious, quick and easy cannabis edibles recipes. The collection is composed by a complete guide of extraction, a quick dosage guide and an amazing recipe book.</p>
+				<div class="col-sm-6 aligncenter form">
+					<% flash.each do |key, value| %>
+						<div class="alert alert-<%= key %> centered">
+							<%= value %>
+						</div>
+					<% end %>
+					<%= form_for @ebook_signup do |f| %>
+						<%= f.email_field :email, class: 'subscribe-input', placeholder: 'Enter your email address' %>
+						<%= f.submit 'JOIN WAITING LIST', class: 'btn btn-green subscribe-submit' %>
+					<% end %>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-sm-12 centered">
+	<div class="container">
+		<div class="row mtb centered">
+			<div class="col-md-6 justify-content-center align-items-center book-cover-thumb">
+				<%= image_tag('landing_page_book.jpg') %>
+			</div>
+
+			<div class="col-md-6">
+				<h2 class="mb">You Will Learn How To</h2>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/5VN8NemLWfI?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="bundle-details">
+	<div class="row mtb centered aligncenter container">
+		<h2>What comes on the bundle?</h2>
+		<div class="row icons-white-bg mtb">
+			<div class="col-md-4">
+				<div class="book-item">
+					<i class="fa fa-tint book-title"></i>
+					<strong>Extraction Guide</strong>
+					<p class="book-description">This ultimate guide of THC and CBD extraction will make you master the technique of making oils, tinctures and capsules from whole cannabis flower.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="book-item">
+					<i class="fa fa-cutlery book-title"></i>
+					<strong>Quick and easy pot cookbook</strong>
+					<p class="book-description">Learn the best way to incorporate cannabis taste to your recipes. From breakfast to supper, these classic delicious recipes will bring your edible experience to the next level.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="book-item">
+					<i class="fa fa-flask book-title"></i>
+					<strong>Complete guide of edible dosage</strong>
+					<p class="book-description">Edibles are tricky to dose! This guide will teach you how to dose with edibles properly to make your experience be exactly what you are looking for.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row mtb centered aligncenter">
+		<h2>Featured on</h2>
+		<div class="row icons-white-bg mt">
+			<div class="col-md-6">
+				<%= link_to image_tag('landing_page_greenseal_logo.png'), 'https://www.greensealcannabis.ca/diy-cannabis-edibles/' %>
+			</div>
+
+			<div class="col-md-6 strip-logo">
+				<%= link_to image_tag('landing_page_civilized_logo.jpg'), 'https://www.civilized.life/articles/this-website-is-designed-to-help-you-not-overdo-it-on-edibles/' %>
+			</div>
+		</div>
+	</div>
+</div>

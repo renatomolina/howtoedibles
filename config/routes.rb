@@ -8,6 +8,7 @@
   resources :categories do
    resources :recipes
   end
+
   get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
 
   controller :public_pages do
@@ -15,4 +16,7 @@
   end
 
   get '/robots.txt' => 'home#robots'
+
+  get '/ebook', to: 'ebook_signups#index'
+  resources :ebook_signups
 end

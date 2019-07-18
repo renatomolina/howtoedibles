@@ -9,7 +9,6 @@
 
   <div class="col-sm-7 col-md-8 order-2 order-md-1">
     <%= render 'recipes', recipes: @recipes %>
-
     <% if I18n.locale == :en %>
       <%= render 'suggest_recipe_button' %>
     <% end %>

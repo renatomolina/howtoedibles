@@ -1,4 +1,3 @@
 class PublicPagesController < ApplicationController
-  def calculator
-  end
+  def calculator; end
 end

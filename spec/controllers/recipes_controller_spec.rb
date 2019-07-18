@@ -23,9 +23,9 @@ RSpec.describe RecipesController, type: :controller do
       expect(assigns(:recipes).map(&:id)).to eq(Recipe.all.map(&:id))
     end
 
-    it 'assigns a default value to @suggested_weed' do
+    it 'assigns a default value to @suggested_quantity' do
       send_request
-      expect(assigns(:suggested_weed)).to eq(4)
+      expect(assigns(:suggested_quantity)).to eq(4)
     end
 
     it 'assigns a default value to @suggested_portion' do
@@ -40,7 +40,7 @@ RSpec.describe RecipesController, type: :controller do
   end
 
   describe 'GET show' do
-    let(:recipe) { create(:recipe, category: category, suggested_weed: 4, suggested_portion: 50) }
+    let(:recipe) { create(:recipe, category: category, suggested_quantity: 4, suggested_portion: 50) }
     let(:params) { { category_id: recipe.category.slug, id: recipe.slug } }
     def send_request
       get :show, params: params
@@ -54,28 +54,28 @@ RSpec.describe RecipesController, type: :controller do
     end
 
     context 'params are nil' do
-      it 'assigns a default value to @suggested_weed' do
+      it 'assigns a default value to @suggested_quantity' do
         send_request
-        expect(assigns(:suggested_weed)).to eq(recipe.suggested_weed)
+        expect(assigns(:suggested_quantity)).to eq(recipe.suggested_quantity)
       end
-  
+
       it 'assigns a default value to @suggested_portion' do
         send_request
         expect(assigns(:suggested_portion)).to eq(recipe.suggested_portion)
       end
-  
+
       it 'assigns a default value to @suggested_potency' do
         send_request
         expect(assigns(:suggested_potency)).to eq(14)
       end
     end
 
-    context 'weed param is setted' do
-      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, weed: 1 } }
+    context 'quantity param is setted' do
+      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, quantity: 1 } }
 
-      it 'assigns the param value to @suggested_weed' do
+      it 'assigns the param value to @suggested_quantity' do
         send_request
-        expect(assigns(:suggested_weed)).to eq("1")
+        expect(assigns(:suggested_quantity)).to eq('1')
       end
     end
 
@@ -84,7 +84,7 @@ RSpec.describe RecipesController, type: :controller do
 
       it 'assigns the param value to @suggested_portion' do
         send_request
-        expect(assigns(:suggested_portion)).to eq("1")
+        expect(assigns(:suggested_portion)).to eq('1')
       end
     end
 
@@ -93,7 +93,7 @@ RSpec.describe RecipesController, type: :controller do
 
       it 'assigns the param value to @suggested_potency' do
         send_request
-        expect(assigns(:suggested_potency)).to eq("1")
+        expect(assigns(:suggested_potency)).to eq('1')
       end
     end
   end

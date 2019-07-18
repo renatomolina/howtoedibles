@@ -2,14 +2,14 @@ ActiveAdmin.register Recipe do
   config.filters = false
 
   permit_params :name, :ingredients, :position, :instructions, :category_id,
-                :suggested_weed, :suggested_portion, :video, :slug,
+                :suggested_quantity, :suggested_portion, :video, :slug,
                 :photo, :description
   index do
     column :slug
     column :name
     column :position
     column :description
-    column :suggested_weed
+    column :suggested_quantity
     column :suggested_portion
     column :video
     column :category_id
@@ -33,7 +33,7 @@ ActiveAdmin.register Recipe do
 
         tab 'Maths' do
           f.inputs 'Maths' do
-            f.input :suggested_weed
+            f.input :suggested_quantity
             f.input :suggested_portion
           end
         end

@@ -37,7 +37,13 @@ ActiveRecord::Schema.define(version: 2019_06_21_135800) do
     t.index ["slug"], name: "index_categories_on_slug", unique: true
   end
 
-  create_table "friendly_id_slugs", force: :cascade do |t|
+  create_table "ebook_signups", force: :cascade do |t|
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "friendly_id_slugs", id: :serial, force: :cascade do |t|
     t.string "slug", null: false
     t.integer "sluggable_id", null: false
     t.string "sluggable_type", limit: 50
