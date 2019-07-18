@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= t :page_title %></title>
+    <%= favicon_link_tag 'favicon.ico' %>
+    <link rel="canonical" href="<%= t :website_url_http %>" />
+    <%= csrf_meta_tags %>
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <meta charset='utf-8' />
+    <meta name='description' content="<%= t :meta_og_description %>" />
+    <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="<%= t :meta_og_site_name %>" />
+    <meta itemprop="description" content="<%= t :meta_og_description %>" />
+    <meta itemprop="image" content="<%= image_url('pot-brownies.jpg') %>" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="<%= t :website_url %>" />
+    <meta property="og:type" content="website">
+    <meta property='og:site_name' content="<%= t :meta_og_site_name %>" />
+    <meta property='og:title' content="<%= t :meta_og_title %>" />
+    <meta property='og:description' content="<%= t :meta_og_description %>" />
+    <meta property="og:image" content="<%= image_url('pot-brownies.jpg') %>" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= t :meta_og_title %>">
+    <meta name="twitter:description" content="<%= t :meta_og_description %>">
+    <meta name="twitter:image" content="<%= image_url('pot-brownies.jpg') %>">
+
+    <meta name="keywords" content="<%= t :meta_tags %>">
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= yield(:head) %>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container img-navbar-center">
+        <a href="/" class="logo"><%= image_tag(t(:logo), alt: 'How to Edibles')%></a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <%= render 'recipes/warning' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <% if ENV['ENV_NAME'] != 'development' %>
+      <%= render 'commons/analytics' %>
+      <%= render 'commons/mouseflow' %>
+    <% end %>
+    <%= render 'commons/i18n' %>
+  </body>
+</html>
