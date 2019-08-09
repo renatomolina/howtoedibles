@@ -13,6 +13,7 @@
 
   controller :public_pages do
     get '/calculator', action: 'calculator', as: 'public_page_calculator'
+    get '/about', action: 'about', as: 'public_page_about'
   end
 
   get '/robots.txt' => 'home#robots'
