@@ -3,5 +3,7 @@ class PublicPagesController < ApplicationController
 
   def calculator; end
 
-  def about; end
+  def about
+    render layout: 'application'
+  end
 end
