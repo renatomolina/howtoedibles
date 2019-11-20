@@ -3,7 +3,7 @@
     <i class="fa fa-calculator fa-lg orange" aria-hidden="true"></i>
     <h1><%= t(:calculator_title) %></h1>
     <%= render "components/calculator", suggested_quantity: @suggested_quantity, suggested_portion: @suggested_portion, suggested_potency: @suggested_potency %>
-    <div class='puffad-zone ads d-lg-none d-xl-block' ad-w='300' ad-h='250'></div>
+    <div class='puffad-zone ads d-block d-sm-none' ad-w='300' ad-h='250'></div>
     <%= render "dosage_widget", title: t(:dosage_title) %>
     <div class='puffad-zone ads d-none d-sm-block' ad-w='300' ad-h='250'></div>
   </div>
