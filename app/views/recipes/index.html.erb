@@ -3,11 +3,12 @@
     <i class="fa fa-calculator fa-lg orange" aria-hidden="true"></i>
     <h1><%= t(:calculator_title) %></h1>
     <%= render "components/calculator", suggested_quantity: @suggested_quantity, suggested_portion: @suggested_portion, suggested_potency: @suggested_potency %>
-
+    <div class='puffad-zone' ad-w='300' ad-h='250'></div>
     <%= render "dosage_widget", title: t(:dosage_title) %>
   </div>
 
   <div class="col-sm-7 col-md-8 order-2 order-md-1">
+    <div class='puffad-zone d-none d-sm-block' ad-w='728' ad-h='90'></div>
     <%= render 'recipes', recipes: @recipes %>
     <% if I18n.locale == :en %>
       <%= render 'suggest_recipe_button' %>
