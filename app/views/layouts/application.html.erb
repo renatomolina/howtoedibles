@@ -48,6 +48,7 @@
     <%= render 'recipes/warning' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <% if ENV['ENV_NAME'] != 'development' %>
+      <%= render 'commons/adsense' %>
       <%= render 'commons/analytics' %>
       <%= render 'commons/mouseflow' %>
     <% end %>
