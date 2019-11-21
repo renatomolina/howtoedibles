@@ -1,6 +1,6 @@
 # How to edibles
 
-Building status: [![Build Status](https://semaphoreci.com/api/v1/projects/a880db0a-8ffa-439e-ba61-ffd73b6bf093/3027883/badge.svg)](https://semaphoreci.com/howtoedibles/howtoedibles-2)
+Building status: [![Build Status](https://semaphoreci.com/api/v1/projects/5d6e4692-9253-46dd-8e8b-850e21b112c1/3028026/badge.svg)](https://semaphoreci.com/renatomolina-1/howtoedibles)
 
 ## Install
 run `bundle install`
