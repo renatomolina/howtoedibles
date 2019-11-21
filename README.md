@@ -6,6 +6,6 @@ Building status: [![Build Status](https://semaphoreci.com/api/v1/projects/a880db
 run `bundle install`
 
 ## Deploy
-production env [http://www.howtoedibles.com] - `git push heroku master`
+production env [http://www.howtoedibles.com]
 
-staging env [http://www.howtoedibles-staging.herokuapp.com/] - `git push staging master`
+staging env [http://www.howtoedibles-staging.herokuapp.com/]
