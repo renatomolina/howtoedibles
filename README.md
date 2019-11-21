@@ -1,6 +1,6 @@
 # How to edibles
 
-Building status: [![Build Status](https://semaphoreci.com/api/v1/projects/511ea8ca-85ff-4334-9d7a-5f47e4809ed9/2308430/badge.svg)](https://semaphoreci.com/howtoedibles/howtoedibles)
+Building status: [![Build Status](https://semaphoreci.com/api/v1/projects/a880db0a-8ffa-439e-ba61-ffd73b6bf093/3027883/badge.svg)](https://semaphoreci.com/howtoedibles/howtoedibles-2)
 
 ## Install
 run `bundle install`
