@@ -1,5 +1,5 @@
 class EbookSignup < ApplicationRecord
   validates :email, presence: true,
-                    uniqueness: { case_sensitive: false, message: :unique },
+                    uniqueness: true,
                     format: { with: /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/ }
 end

@@ -25,7 +25,7 @@ RSpec.describe RecipesController, type: :controller do
 
     it 'assigns a default value to @suggested_quantity' do
       send_request
-      expect(assigns(:suggested_quantity)).to eq(4)
+      expect(assigns(:suggested_quantity)).to eq(3.5)
     end
 
     it 'assigns a default value to @suggested_portion' do
