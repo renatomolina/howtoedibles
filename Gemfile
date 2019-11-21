@@ -3,9 +3,9 @@ source 'https://rubygems.org'
 ruby '2.4.4'
 
 gem 'rails', '~> 5.2.3'
-gem 'pg', '~> 0.21.0'
-gem 'puma', '~> 3.0'
-gem 'mini_racer', '0.2.6'
+gem 'pg', '~> 1.1.4'
+gem 'puma', '~> 4.3.0'
+gem 'mini_racer', '0.2.8'
 gem 'jbuilder', '~> 2.5'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 
@@ -13,11 +13,11 @@ gem 'newrelic_rpm'
 gem 'sitemap_generator'
 gem 'rails-i18n', '~> 5.0.0'
 gem 'rack-cors', :require => 'rack/cors'
-gem 'friendly_id', '~> 5.2.0'
+gem 'friendly_id', '~> 5.3.0'
 gem "paperclip", "~> 5.0.0"
 gem 'aws-sdk', '~> 2.5.11'
 gem 'sentry-raven'
-gem 'rubocop', '~> 0.60.0', require: false
+gem 'rubocop', '~> 0.76.0', require: false
 
 # Assets
 gem 'jquery-rails', '4.3.3'
