@@ -6,8 +6,4 @@ module EnvironmentHelper
   def laricando?
     ENV['APP_ENV'] == 'laricando'
   end
-
-  def development?
-    Rails.env.development?
-  end
 end
