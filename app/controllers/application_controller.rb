@@ -18,7 +18,7 @@ class ApplicationController < ActionController::Base
   private
 
   def set_locale
-    I18n.locale = ENV["APP_ENV"] == "laricando" ? 'pt-BR' : 'en'
+    I18n.locale = ENV["APP_ENV"] == 'laricando' ? 'pt-BR' : 'en'
   end
 
   # Sentry

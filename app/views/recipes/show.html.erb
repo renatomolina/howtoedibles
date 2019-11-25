@@ -3,12 +3,18 @@
   <div class="col-sm-5 order-1 order-md-2 padding-bottom">
     <i class="fa fa-calculator fa-lg orange" aria-hidden="true"></i>
     <h2><%= t(:step1_title) %></h2>
-    <%= render "components/calculator", suggested_quantity: @suggested_quantity, suggested_portion: @suggested_portion, suggested_potency: @suggested_potency %>
-    <div class='puffad-zone ads d-block d-sm-none' ad-w='300' ad-h='250'></div>
+    
+    <%=
+      render 'components/calculator',
+      suggested_quantity: @suggested_quantity,
+      suggested_portion: @suggested_portion,
+      suggested_potency: @suggested_potency
+    %>
+    <%= render 'ads/medium' %>
     <%= render 'dosage_widget', title: t(:step2_title) %>
   </div>
   <div class="col-sm-7 order-2 order-md-1">
-    <div class='puffad-zone ads d-none d-sm-block' ad-w='728' ad-h='90'></div>
+    <%= render 'ads/leaderboard' %>
     <%= render 'recipe_content', recipe: @recipe %>
   </div>
 </div>
