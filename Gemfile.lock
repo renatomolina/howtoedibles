@@ -81,8 +81,7 @@ GEM
       sassc-rails (>= 2.0.0)
     builder (3.2.3)
     byebug (11.0.1)
-    ckeditor (4.2.4)
-      cocaine
+    ckeditor (5.0.0)
       orm_adapter (~> 0.5.0)
     climate_control (0.2.0)
     cocaine (0.5.8)
@@ -356,7 +355,7 @@ DEPENDENCIES
   aws-sdk (~> 2.5.11)
   bootstrap (~> 4.3.1)
   byebug
-  ckeditor (= 4.2.4)
+  ckeditor (= 5.0.0)
   database_cleaner (~> 1.7)
   factory_bot_rails
   faker
