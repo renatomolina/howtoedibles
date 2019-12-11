@@ -1,0 +1,14 @@
+<h1><center>Contact</center></h1>
+<%= form_for @message, url: create_message_url do |f| %>
+  <%= notice %>
+  <%= @message.errors.full_messages.join(', ') %>
+  <div class='grid-container'>
+    <div class='grid-item'><%= f.text_field :name, placeholder: 'Your Name' %></div>
+
+    <div class='grid-item'><%= f.email_field :email, placeholder: 'youremail@domain.com' %></div>
+
+    <div class='grid-item message'><%= f.text_area :body, placeholder: 'Your message...' %></div>
+
+    <div class='grid-item'><%= f.submit 'Send' %></div>
+  </div>
+<% end %>

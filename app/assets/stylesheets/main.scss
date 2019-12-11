@@ -144,7 +144,8 @@ p.warning-item {
 form {
   text-align: center;
 }
-  .grid-container {
+
+.grid-container {
   display: grid;
   grid-column-gap: 50px;
   padding: 10px;
@@ -155,6 +156,7 @@ form {
   font-size: 20px;
   text-align: center;
 }
+
 .message {
   grid-column: auto;
 }

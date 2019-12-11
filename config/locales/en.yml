@@ -1,6 +1,6 @@
 en:
   message_mailer:
-    contact_me:
+    contact:
       subject: "Message from www.howtoedibles.com"
   activerecord:
     attributes:
