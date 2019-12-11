@@ -1,4 +1,7 @@
 en:
+  message_mailer:
+    contact_me:
+      subject: "Message from www.howtoedibles.com"
   activerecord:
     attributes:
       ebook_signup:
