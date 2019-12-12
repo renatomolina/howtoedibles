@@ -9,8 +9,18 @@
 }
 
 .card-img-top { border-top-right-radius: 10px; border-top-left-radius: 10px; }
+.card-img-left {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: block;
+  max-width: 120px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+  border-radius: 0px 0px 0px 0px;
+}
 .card-img-inside { margin-bottom: 15px; }
-.card img { width: 100%;}
+.card img { width: 100%; }
 .card-block { padding: 0px 8px 5px 12px; }
 .card-title {
   font-size: 24px;
@@ -22,3 +32,12 @@
   line-height: 22px;
 }
 .card-btn { margin-top: 5px; }
+
+.card-center {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
