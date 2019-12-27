@@ -42,7 +42,7 @@
     <%= yield(:head) %>
   </head>
 
-  <body>
+  <body data-locale="<%= I18n.locale %>">
     <%= render 'layouts/navbar' %>
 
     <div class="container">
