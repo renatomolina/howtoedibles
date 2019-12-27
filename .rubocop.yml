@@ -12,21 +12,13 @@ AllCops:
     - 'Vagrantfile'
     - 'db/seeds.rb'
 
-Rails:
-  Enabled: true
-
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
 Style/FrozenStringLiteralComment:
-  Enabled: false
-
-# We occasionally need to use html_safe, and this
-# cop doesn't let us
-Rails/OutputSafety:
   Enabled: false
 
 Style/CommandLiteral:
@@ -59,11 +51,5 @@ Style/WordArray:
   Exclude:
     - 'app/controllers/users_controller.rb'
 
-Style/IndentArray:
-  Enabled: false
-
-Style/AccessorMethodName:
-  Enabled: false
-
-Rails/DynamicFindBy:
+Naming/AccessorMethodName:
   Enabled: false
