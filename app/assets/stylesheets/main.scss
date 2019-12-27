@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1300px;
@@ -10,28 +12,34 @@
   }
 }
 
-html, body { -webkit-overflow-scrolling: touch; }
+html, body {
+  -webkit-overflow-scrolling: touch;
+  width: 100%; min-width: 100%;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 400;
+}
 
 p {
-  margin: 10px 0px 5px 0px;
-  font-weight: 400;
   color: #666666;
-  font-size: 18px;
-  line-height: 33px;
   -webkit-font-smoothing: antialiased;
 }
 
 p.title {
-  color: #666666;
   font-size: 21px;
-  line-height: 35px;
   font-weight: 450;
+}
+
+p.subtitle {
+  font-size: 18px;
+  font-weight: 450;
+  margin: 10px 0 0 0;
 }
 
 h1 {
   display: inline;
   color: #666666;
   font-size: 21px;
+  font-weight: 600;
   line-height: 30px;
 }
 
@@ -40,25 +48,15 @@ h2 {
   color: #666666;
   font-size: 21px;
   line-height: 35px;
-  font-weight: 450;
-}
-
-h4 { 
-  color: #666666;
-  font-size: 23px
+  font-weight: 600;
 }
 
 ul li {
   margin: 5px 0px 5px 0px;
   font-weight: 400;
   color: #666666;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
-}
-
-span {
-  font-weight: 400;
-  color: #666666;
 }
 
 a { color: #f27242; }
@@ -84,16 +82,13 @@ input::-webkit-inner-spin-button {
 
 /* Misc Customizations */
 .badge-label {
+  margin: 0px;
   font-size: 16px;
-  padding: .2em .6em .3em; 
+  padding: 2px 7px 4px; 
 }
 
 .badge-success {
   background-color: #5cb85c;
-}
-
-p.badge-label {
-  margin: 0px;
 }
 
 .harm-reduction-box { margin: 20px 30px 60px 20px; }
@@ -117,26 +112,12 @@ p.badge-label {
   font-size: 1.66em;
 }
 
-span.bottomtip {
+p.bottomtip {
+  display: inline;
   font-size: 14px;
 }
 
-p.dosage-item {
-  line-height: 80px;
-}
 
-p.warning-item {
-  line-height: 27px;
-}
+.sidenote { font-size: 14px; }
 
-.sidenote {
-  font-size: 14px;
-}
-
-.ads {
-  margin: 10px auto 30px auto;
-}
-
-.span-block {
-  display: block;
-}
+.ads { margin: 10px auto 30px auto; }

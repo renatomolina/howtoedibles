@@ -30,7 +30,7 @@
         <div class="col-sm-6">
           <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
             <div class="card">
-                <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
+                <%= image_tag(recipe.photo.url, alt: recipe.name) %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
                   <p class="card-text"><%= recipe.description %></p>
@@ -50,7 +50,7 @@
         <div class="col-sm-6">
           <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
             <div class="card">
-                <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
+                <%= image_tag(recipe.photo.url, alt: recipe.name) %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
                   <p class="card-text"><%= recipe.description %></p>

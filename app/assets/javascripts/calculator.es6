@@ -133,7 +133,7 @@ $(document).on('ready', function() {
 
       $("#potency-result").text(Number(currentDosage).toFixed(2) + " mg").animateCss('flash')
       $("#potency-result-total").text(Number(currentDosage * state['portions']).toFixed(0) + " mg").animateCss('flash')
-      $("#high-level").html(getDosageLevelLabel(currentDosage))
+      $("#highness-level").html(getDosageLevelLabel(currentDosage))
     }
 
     function renderEffects() {

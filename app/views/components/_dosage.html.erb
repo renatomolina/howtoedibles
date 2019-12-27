@@ -1,32 +1,33 @@
-<p>
+<p class="subtitle">
   <i class="fa fa-circle fa-lg" aria-hidden="true"></i>
   <%= t :step2_full_portion_title %>
   <span class="badge badge-success badge-label" id="potency-result-total">0</span>
   <%= t :step2_full_portion_title_end %>
 </p>
 
-<p>
+<p class="subtitle">
   <i class="fa fa-pie-chart fa-lg" aria-hidden="true"></i>
   <%= t :step2_half_portion_title %>
   <span class="badge badge-success badge-label" id="potency-result">0</span>
 </p>
 
-<div class="text-center">
-  <p class="dosage-item"><strong><span id="high-level" class="dosage-item"></span></strong></p>
-</div>
+<br/>
+<p id="highness-level" class="subtitle text-center"></p>
+
+<br/>
+<br/>
 
 <h2>
   <i class="fa fa-thumbs-o-up fa-lg green" aria-hidden="true"></i>
   <%= t :step2_positive_effects_title %>
 </h2>
-<p id="positive-effect-details"></p>
+<p class="subtitle" id="positive-effect-details"></p>
 
 <br/>
-
 <h2>
   <i class="fa fa-thumbs-o-down fa-lg red" aria-hidden="true"></i>
   <%= t :step2_negative_effects_title %>
 </h2>
-<p id="negative-effect-details"></p>
+<p class="subtitle" id="negative-effect-details"></p>
 
 <p class="sidenote"><%= t :step2_observation %></p>
