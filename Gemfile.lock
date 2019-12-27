@@ -136,6 +136,8 @@ GEM
       activesupport (>= 4.1)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
+    i18n-js (3.5.1)
+      i18n (>= 0.6.6)
     inherited_resources (1.11.0)
       actionpack (>= 5.0, < 6.1)
       has_scope (~> 0.6)
@@ -364,6 +366,7 @@ DEPENDENCIES
   friendly_id (~> 5.3.0)
   guard-rspec
   guard-shell
+  i18n-js
   jbuilder (~> 2.5)
   jquery-rails (= 4.3.3)
   listen (~> 3.0.5)

@@ -25,5 +25,7 @@ module Howtoedibles
     end
 
     config.action_view.automatically_disable_submit_tag = false
+    config.i18n.available_locales = [:en, :'pt-BR']
+    config.i18n.default_locale = :en
   end
 end
