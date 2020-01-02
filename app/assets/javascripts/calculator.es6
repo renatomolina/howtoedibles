@@ -86,8 +86,8 @@ $(document).on('ready', function() {
 
       let effects = []
       if (value > 0 ) effects = [...LEVEL_ONE_POSITIVE_EFFECTS]
-      if (value > 10) effects = [...effects, ...LEVEL_TWO_POSITIVE_EFFECTS]
-      if (value > 20) effects = [...effects, ...LEVEL_THREE_POSITIVE_EFFECTS]
+      if (value >= 10) effects = [...effects, ...LEVEL_TWO_POSITIVE_EFFECTS]
+      if (value >= 20) effects = [...effects, ...LEVEL_THREE_POSITIVE_EFFECTS]
 
       return effects.map(effect => "<p class='badge badge-success badge-label'>" + effect + "</p> ").join('')
     }
