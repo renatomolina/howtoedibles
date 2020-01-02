@@ -18,8 +18,7 @@ pt-BR:
     step1_potency_modal_column_two: "% (potência)"
     step1_potency_modal_concentrates_quantity: "35%-95%"
     step2_title: "Passo 2 - Fica ligado na dose"
-    step2_full_portion_title: "Sua receita terá"
-    step2_full_portion_title_end: "de THC"
+    step2_full_portion_title: 'Sua receita terá <span class="badge badge-success badge-label" id="potency-result-total">0</span> de THC'
     step2_half_portion_title: "Cada porção terá"
     step2_low_dose: "Dose baixa"
     step2_medium_dose: "Dose média"
