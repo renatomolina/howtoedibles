@@ -20,7 +20,7 @@ pt-BR:
     step2_title: "Passo 2 - Fica ligado na dose"
     step2_full_portion_title: 'Sua receita terá <span class="badge badge-success badge-label" id="potency-result-total">0</span> de THC'
     step2_half_portion_title: "Cada porção terá"
-    step2_low_dose: "Dose baixa"
+    step2_low_dose: "Dose leve"
     step2_medium_dose: "Dose média"
     step2_strong_dose: "Dose forte"
     step2_very_strong_dose: "Dose muito forte"
