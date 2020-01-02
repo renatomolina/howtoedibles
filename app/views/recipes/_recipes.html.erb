@@ -1,7 +1,8 @@
 <%# Locals: recipes %>
+
+<i class="fa fa-fire-alt orange popular-recipe-title icon-medium" aria-hidden="true"></i>
 <h2>
   <%= t :popular_recipes %>
-  <i class="fa fa-caret-up fa-lg green" aria-hidden="true"></i>
 </h2>
 <% recipes.each_slice(3) do |recipes| %>
   <div class="d-none d-md-block">
@@ -30,7 +31,7 @@
         <div class="col-sm-6">
           <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
             <div class="card">
-                <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
+                <%= image_tag(recipe.photo.url, alt: recipe.name) %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
                   <p class="card-text"><%= recipe.description %></p>
@@ -50,7 +51,7 @@
         <div class="col-sm-6">
           <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
             <div class="card">
-                <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
+                <%= image_tag(recipe.photo.url, alt: recipe.name) %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
                   <p class="card-text"><%= recipe.description %></p>

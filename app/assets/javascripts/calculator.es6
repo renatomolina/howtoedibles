@@ -56,13 +56,13 @@ $(document).on('ready', function() {
 
     function getDosageLevelLabel(value) {
       if (value < 10)
-        return "<i class='fa fa-check-circle fa-lg green' aria-hidden='true'></i> " + I18n.t('calculator.step2_low_dose')
+        return "<i class='far fa-smile fa-lg green icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_low_dose')
       else if (value < 20)
-        return "<i class='fa fa-exclamation-circle fa-lg yellow' aria-hidden='true'></i> " + I18n.t('calculator.step2_medium_dose')
+        return "<i class='far fa-surprise fa-lg yellow icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_medium_dose')
       else if (value < 30)
-        return "<i class='fa fa-exclamation-circle fa-lg orange' aria-hidden='true'></i> " + I18n.t('calculator.step2_strong_dose')
+        return "<i class='far fa-grimace fa-lg orange icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_strong_dose')
       else
-        return "<i class='fa fa-exclamation-circle fa-lg red' aria-hidden='true'></i> " + I18n.t('calculator.step2_very_strong_dose')
+        return "<i class='far fa-flushed fa-lg red icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_very_strong_dose')
     }
 
     function renderPositiveEffects(value) {
@@ -133,7 +133,7 @@ $(document).on('ready', function() {
 
       $("#potency-result").text(Number(currentDosage).toFixed(2) + " mg").animateCss('flash')
       $("#potency-result-total").text(Number(currentDosage * state['portions']).toFixed(0) + " mg").animateCss('flash')
-      $("#high-level").html(getDosageLevelLabel(currentDosage))
+      $("#highness-level").html(getDosageLevelLabel(currentDosage))
     }
 
     function renderEffects() {

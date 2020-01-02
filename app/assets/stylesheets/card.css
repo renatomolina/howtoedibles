@@ -1,24 +1,16 @@
 .card {
-  position: relative;
-  display: block;
   margin-bottom: 20px;
-  background-color: #f7f7f7;
+  background-color: #fafafa;
   border-radius: 10px;
-  border: 1px;
   width: 100%;
 }
 
-.card-img-top { border-top-right-radius: 10px; border-top-left-radius: 10px; }
-.card-img-inside { margin-bottom: 15px; }
-.card img { width: 100%;}
+
+.card img { width: 100%; }
 .card-block { padding: 0px 8px 5px 12px; }
 .card-title {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   color:#e16a3e;
 }
-.card-text {
-  font-size: 16px;
-  line-height: 22px;
-}
-.card-btn { margin-top: 5px; }
+.card-text { font-weight: 400; }

@@ -1,8 +1,8 @@
 <%= render 'harm_reduction' %>
 <div class="row">
   <div class="col-sm-5 order-1 order-md-2 padding-bottom">
-    <i class="fa fa-calculator fa-lg orange" aria-hidden="true"></i>
-    <h2><%= t(:step1_title) %></h2>
+    <i class="fa fa-calculator fa-lg orange icon-medium" aria-hidden="true"></i>
+    <h2><%= t('calculator.step1_title') %></h2>
     
     <%=
       render 'components/calculator',
@@ -11,7 +11,7 @@
       suggested_potency: @suggested_potency
     %>
     <%= render 'ads/medium' %>
-    <%= render 'dosage_widget', title: t(:step2_title) %>
+    <%= render 'dosage_widget', title: t('calculator.step2_title') %>
   </div>
   <div class="col-sm-7 order-2 order-md-1">
     <%= render 'ads/leaderboard' %>
