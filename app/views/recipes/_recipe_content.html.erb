@@ -1,18 +1,21 @@
 <%# Locals: recipe %>
-<h1>
-  <i class="fa fa-cutlery fa-lg orange" aria-hidden="true"></i>  <%= t :step3_title %>
-  <%= recipe.name.capitalize.camelcase %>
-</h1>
+<div class="recipe-title">
+  <h1>
+    <%= recipe.name.capitalize.camelcase %>
+  </h1>
+</div>
 
-<p class="ingredients-title"><strong><%= t :step3_ingredients_title %></strong></p>
-<%= recipe.ingredients.html_safe %>
+<div class="recipe-content">
+  <i class="fa fa-utensils fa-lg orange icon-medium" aria-hidden="true"></i>
+  <h2><%= t('calculator.step3_ingredients_title') %></h2>
+  <%= recipe.ingredients.html_safe %>
 
-<br />
+  <br />
 
-<h2>
-  <i class="fa fa-list-ol fa-lg orange" aria-hidden="true"></i>  <%= t :step3_step_by_step %>
-</h2>
-<%= recipe.instructions.html_safe %>
+  <i class="fa fa-list-ol fa-lg orange icon-medium" aria-hidden="true"></i>
+  <h2><%= t('calculator.step3_step_by_step') %></h2>
+  <%= recipe.instructions.html_safe %>
+</div>
 
 <p><%= render 'commons/facebook_share_widget' %></p>
 

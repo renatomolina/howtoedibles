@@ -14,14 +14,14 @@
 
 html, body {
   -webkit-overflow-scrolling: touch;
-  width: 100%; min-width: 100%;
+  width: 100%;
+  min-width: 100%;
   font-family: 'Lato', Arial, sans-serif;
   font-weight: 400;
 }
 
 p {
   color: #666666;
-  -webkit-font-smoothing: antialiased;
 }
 
 p.title {
@@ -32,7 +32,13 @@ p.title {
 p.subtitle {
   font-size: 18px;
   font-weight: 450;
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0;
+}
+
+p.spaced-subtitle {
+  font-size: 18px;
+  font-weight: 450;
+  margin: 20px 0 20px 0;
 }
 
 h1 {
@@ -54,12 +60,12 @@ h2 {
 ul li {
   margin: 5px 0px 5px 0px;
   font-weight: 400;
-  color: #666666;
-  font-size: 18px;
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: #f27242; }
+a { 
+  color: #f27242;
+}
 
 a:hover, a:focus {
   color:#e16a3e;
@@ -82,7 +88,7 @@ input::-webkit-inner-spin-button {
 
 /* Misc Customizations */
 .badge-label {
-  margin: 0px;
+  margin: 3px;
   font-size: 16px;
   padding: 2px 7px 4px; 
 }
@@ -91,10 +97,17 @@ input::-webkit-inner-spin-button {
   background-color: #5cb85c;
 }
 
-.harm-reduction-box { margin: 20px 30px 60px 20px; }
-.padding-bottom { padding-bottom: 50px; }
+.harm-reduction-box { 
+  margin: 20px 30px 60px 20px;
+}
 
-.text-center { text-align: center; }
+.padding-bottom {
+  padding-bottom: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
 
 .fb-page-widget {
   margin-top: 70px;
@@ -112,12 +125,51 @@ input::-webkit-inner-spin-button {
   font-size: 1.66em;
 }
 
-p.bottomtip {
+span.bottomtip {
   display: inline;
+  font-size: 14px;
+  color: #666;
+}
+
+.sidenote { 
   font-size: 14px;
 }
 
+.ads { 
+  margin: 10px auto 30px auto;
+}
 
-.sidenote { font-size: 14px; }
+.popular-recipe-title {
+  padding-bottom: 25px;
+}
 
-.ads { margin: 10px auto 30px auto; }
+.recipe-title {
+  margin-bottom: 25px;
+}
+
+.recipe-title h1 {
+  font-size: 32px;
+}
+
+.recipe-content h2 {
+  font-size: 19px;
+}
+
+i.icon-medium {
+  position: relative;
+  margin-right: 6px;
+}
+
+i.icon-large {
+  position: relative;
+  margin-right: 6px;
+  top: 3px;
+}
+
+p.warning-item {
+  padding-top: 10px;
+}
+
+p.spaced-content {
+  padding-top: 10px;
+}
