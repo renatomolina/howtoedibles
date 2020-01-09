@@ -11,10 +11,7 @@
 
   get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
 
-  controller :public_pages do
-    get '/calculator', action: 'calculator', as: 'public_page_calculator'
-    get '/about', action: 'about', as: 'public_page_about'
-  end
+  get '*public_page' => 'public_pages#show', as: 'public_pages'
 
   get '/robots.txt' => 'home#robots'
 

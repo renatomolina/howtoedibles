@@ -34,11 +34,15 @@
 
     <meta name="keywords" content="<%= t :meta_tags %>">
 
+    <% unless Rails.env.development? %>
+      <%= render 'ads/ads' %>
+    <% end %>
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= yield(:head) %>
   </head>
 
-  <body>
+  <body data-locale="<%= I18n.locale %>">
     <%= render 'layouts/navbar' %>
 
     <div class="container">
@@ -49,10 +53,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <% unless Rails.env.development? %>
-      <%= render 'ads/ads' %>
       <%= render 'commons/analytics' %>
       <%= render 'commons/mouseflow' %>
     <% end %>
-    <%= render 'commons/i18n' %>
   </body>
 </html>

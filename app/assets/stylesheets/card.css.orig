@@ -1,24 +1,26 @@
 .card {
-  position: relative;
-  display: block;
   margin-bottom: 20px;
   background-color: #fafafa;
   border-radius: 10px;
   width: 100%;
 }
 
+<<<<<<< HEAD
 .card-img-top { border-top-right-radius: 10px; border-top-left-radius: 10px; }
 .card-img-left {
-  margin-top: 7px;
+  margin-top: 10px;
   margin-left: 10px;
   display: block;
   max-width: 120px;
   max-height: 120px;
   width: auto;
   height: auto;
-  border-radius: 5px;
+  border-radius: 0px 0px 0px 0px;
 }
 .card-img-inside { margin-bottom: 15px; }
+=======
+
+>>>>>>> a5d2845f453e1099b3261aa6ea7ffa3771091e26
 .card img { width: 100%; }
 .card-block { padding: 0px 8px 5px 12px; }
 .card-title {
@@ -26,8 +28,8 @@
   font-weight: 600;
   color:#e16a3e;
 }
+<<<<<<< HEAD
 .card-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
 }
@@ -41,3 +43,6 @@
   justify-content: center;
   align-items: center;
  }
+=======
+.card-text { font-weight: 400; }
+>>>>>>> a5d2845f453e1099b3261aa6ea7ffa3771091e26

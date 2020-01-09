@@ -3,7 +3,7 @@
 %>
 <div id="calculator-widget">
   <div class="calculator-item">
-    <p><%= t :step1_weed_quantity %></p>
+    <p class="subtitle"><%= t('calculator.step1_weed_quantity') %></p>
     <input id="grams-slider"
       type="text"
       data-slider-id="green-bar"
@@ -27,11 +27,11 @@
   </div>
 
   <div class="calculator-item">
-    <p><%= t :step1_weed_intensity %></p>
-    <span class="bottomtip"><%= t :step1_weed_intensity_average %></span>
+    <p class="subtitle"><%= t('calculator.step1_weed_intensity') %></p>
+    <span class="bottomtip"><%= t('calculator.step1_weed_intensity_average') %></span>
     <a class="label-calculator" data-toggle="modal" href="#" data-target="#myModal">
       <span class="badge badge-success">
-        <%= t :step1_potency_dont_know %>
+        <%= t('calculator.step1_potency_dont_know') %>
       </span>
     </a>
     <input id="strength-slider"
@@ -56,7 +56,7 @@
   </div>
 
   <div class="calculator-item">
-    <p><%= t :step1_weed_portions %></p>
+    <p class="subtitle"><%= t('calculator.step1_weed_portions') %></p>
     <input id="portion-slider"
         type="text"
         data-slider-id="green-bar"

@@ -19,7 +19,10 @@
           </li>
         <% end %>
         <li class="nav-item dropdown">
-          <%= link_to 'About', public_page_about_path, class: 'nav-link' %>
+          <%= link_to 'About', public_pages_path('about'), class: 'nav-link' %>
+        </li>
+        <li class="nav-item dropdown">
+          <%= link_to 'We are hiring', public_pages_path('hiring'), class: 'nav-link highlighted-nav-link' %>
         </li>
       </ul>
     </div>

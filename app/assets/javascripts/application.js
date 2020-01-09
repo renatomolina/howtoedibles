@@ -17,5 +17,11 @@
 //= require bootstrap-slider.min
 //= require pluralize
 //= require jquery_extensions
+
+// I18n
+//= require i18n
+//= require i18n/translations
+//= require localization
+
 //= require pluralize_custom
 //= require calculator

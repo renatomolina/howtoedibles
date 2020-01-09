@@ -25,6 +25,22 @@
 <% end %>
 
 <% recipes.each_slice(2) do |recipes| %>
+<<<<<<< HEAD
+  <div class="d-block d-sm-none d-sm-block d-md-none">
+    <% recipes.each do |recipe| %>
+      <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-auto">
+              <%= image_tag(recipe.photo.url, class: 'img-fluid card-img-left', alt: recipe.name) %>
+            </div>
+            <div class="col card-center">
+              <div class="card-block">
+                <h4 class="card-title"><%= recipe.name %></h4>
+                <p class="card-text"><%= recipe.description %></p>
+                <p class="card-text"><small class="text-muted"><%= recipe.category.name %></small></p>
+              </div>
+=======
   <div class="d-none d-sm-block d-md-none">
     <div class="row">
       <% recipes.each do |recipe| %>
@@ -45,20 +61,18 @@
 <% end %>
 
 <% recipes.each_slice(2) do |recipes| %>
-  <div class="d-block d-sm-none d-sm-block d-md-none">
-    <% recipes.each do |recipe| %>
-      <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
-        <div class="card">
-          <div class="row no-gutters">
-            <div class="col-auto">
-              <%= image_tag(recipe.photo.url, class: 'img-fluid card-img-left', alt: recipe.name) %>
-            </div>
-            <div class="col card-center">
-              <div class="card-block">
-                <h4 class="card-title"><%= recipe.name %></h4>
-                <p class="card-text"><%= recipe.description %></p>
-                <p class="card-text"><small class="text-muted"><%= recipe.category.name %></small></p>
-              </div>
+  <div class="d-block d-sm-none">
+    <div class="row">
+      <% recipes.each do |recipe| %>
+        <div class="col-sm-6">
+          <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+            <div class="card">
+                <%= image_tag(recipe.photo.url, alt: recipe.name) %>
+                <div class="card-block">
+                  <p class="card-title"><%= recipe.name %></p>
+                  <p class="card-text"><%= recipe.description %></p>
+                </div>
+>>>>>>> a5d2845f453e1099b3261aa6ea7ffa3771091e26
             </div>
           </div>
         </div>
@@ -66,4 +80,3 @@
     <% end %>
   </div>
 <% end %>
-
