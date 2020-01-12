@@ -1,13 +1,15 @@
 .card {
-  position: relative;
-  display: block;
   margin-bottom: 20px;
   background-color: #fafafa;
   border-radius: 10px;
   width: 100%;
 }
 
-.card-img-top { border-top-right-radius: 10px; border-top-left-radius: 10px; }
+.card-img-top { 
+  border-top-right-radius: 10px; 
+  border-top-left-radius: 10px;
+}
+
 .card-img-left {
   margin-top: 10px;
   margin-left: 10px;
