@@ -53,11 +53,11 @@
             <div class="col-auto">
               <%= image_tag(recipe.photo.url, class: 'img-fluid card-img-left', alt: recipe.name) %>
             </div>
-            <div class="col card-center">
+            <div class="col">
               <div class="card-block">
-                <h4 class="card-title"><%= recipe.name %></h4>
-                <p class="card-text"><%= recipe.description %></p>
-                <p class="card-text"><small class="text-muted"><%= recipe.category.name %></small></p>
+                <h4 class="card-title-small"><%= recipe.name %></h4>
+                <p class="card-text-small"><%= recipe.description %></p>
+                <p class="card-text-small"><small class="category-text"><%= recipe.category.name %></small></p>
               </div>
             </div>
           </div>
