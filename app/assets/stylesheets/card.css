@@ -5,6 +5,21 @@
   width: 100%;
 }
 
+.card-img-top { 
+  border-top-right-radius: 10px; 
+  border-top-left-radius: 10px;
+}
+
+.card-img-left {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: block;
+  max-width: 130px;
+  max-height: 130px;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
 
 .card img { width: 100%; }
 .card-block { padding: 0px 8px 5px 12px; }
@@ -12,5 +27,40 @@
   font-size: 24px;
   font-weight: 600;
   color:#e16a3e;
+  margin-top: 10px;
 }
-.card-text { font-weight: 400; }
+
+.card-title-small {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e16a3e;
+  margin-top: 11px;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.card-text-small {
+  font-size: 15px;
+}
+
+.category-text {
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  color: #717171;
+  margin-bottom:10px;
+}
+
+.card-btn { margin-top: 5px; }
+
+.card-center {
+  margin-top: 5px;
+  max-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }

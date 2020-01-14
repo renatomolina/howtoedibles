@@ -45,21 +45,25 @@
 <% end %>
 
 <% recipes.each_slice(2) do |recipes| %>
-  <div class="d-block d-sm-none">
-    <div class="row">
-      <% recipes.each do |recipe| %>
-        <div class="col-sm-6">
-          <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
-            <div class="card">
-                <%= image_tag(recipe.photo.url, alt: recipe.name) %>
-                <div class="card-block">
-                  <p class="card-title"><%= recipe.name %></p>
-                  <p class="card-text"><%= recipe.description %></p>
-                </div>
+  <div class="d-block d-sm-none d-sm-block d-md-none">
+    <% recipes.each do |recipe| %>
+      <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-auto">
+              <%= image_tag(recipe.photo.url, class: 'img-fluid card-img-left', alt: recipe.name) %>
             </div>
-          <% end %>
+            <div class="col">
+              <div class="card-block">
+                <h4 class="card-title-small"><%= recipe.name %></h4>
+                <p class="card-text-small"><%= recipe.description %></p>
+                <p class="card-text-small"><small class="category-text"><%= recipe.category.name %></small></p>
+              </div>
+            </div>
+          </div>
         </div>
       <% end %>
-    </div>
+    <% end %>
   </div>
 <% end %>
+
