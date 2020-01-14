@@ -18,12 +18,14 @@
             </div>
           </li>
         <% end %>
-        <li class="nav-item dropdown">
-          <%= link_to 'About', public_pages_path('about'), class: 'nav-link' %>
-        </li>
-        <li class="nav-item dropdown">
-          <%= link_to 'We are hiring', public_pages_path('hiring'), class: 'nav-link highlighted-nav-link' %>
-        </li>
+        <% if I18n.locale == :en %>
+          <li class="nav-item dropdown">
+            <%= link_to 'About', public_pages_path('about'), class: 'nav-link' %>
+          </li>
+          <li class="nav-item dropdown">
+            <%= link_to 'We are hiring', public_pages_path('hiring'), class: 'nav-link highlighted-nav-link' %>
+          </li>
+        <% end %>
       </ul>
     </div>
   </div>
