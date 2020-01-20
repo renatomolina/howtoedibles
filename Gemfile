@@ -19,6 +19,8 @@ gem 'aws-sdk', '~> 2.5.11'
 gem 'sentry-raven'
 gem 'rubocop', '~> 0.76.0', require: false
 gem 'i18n-js'
+gem 'will_paginate', '~> 3.1.0'
+gem 'will_paginate-bootstrap4'
 
 # Assets
 gem 'jquery-rails', '4.3.3'
