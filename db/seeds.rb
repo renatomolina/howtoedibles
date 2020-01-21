@@ -1,7 +1,7 @@
 categories = ['Desserts', 'Cooking Essentials', 'Snacks', 'Health Food']
 categories.each{ |category| Category.create(name: category, slug: category.downcase.gsub!(' ','-')) }
 
-2.times do |index|
+10.times do |index|
   Recipe.create(name: 'Butter',
                 slug: "butter-#{index}",
                 description: 'This a very delicious recipe. You can use with as medium for any recipe.',
@@ -13,7 +13,7 @@ categories.each{ |category| Category.create(name: category, slug: category.downc
                 category: Category.find_by(name: 'Cooking Essentials'))
 end
 
-2.times do |index|
+10.times do |index|
   Recipe.create(name: 'Coconut oil',
                 slug: "coconut-oil-#{index}",
                 description: 'This a very delicious recipe. You can use with as medium for any recipe.',

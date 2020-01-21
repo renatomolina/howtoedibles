@@ -10,13 +10,16 @@
     %>
     <%= render 'ads/medium' %>
     <%= render 'dosage_widget', title: t(:dosage_title) %>
+    <% if I18n.locale == :en %>
+      <%= render 'suggest_recipe_button' %>
+    <% end %>
   </div>
 
   <div class="col-sm-7 col-md-8 order-2 order-md-1">
     <%= render 'ads/leaderboard' %>
     <%= render 'recipes', recipes: @recipes %>
-    <% if I18n.locale == :en %>
-      <%= render 'suggest_recipe_button' %>
-    <% end %>
+    <div class="pagination">
+      <%= will_paginate @recipes, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+    </div>
   </div>
 </div>
