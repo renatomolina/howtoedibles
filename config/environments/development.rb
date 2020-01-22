@@ -51,16 +51,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  #Gmail settings for action_mailer
-
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    address:              'smtp.gmail.com',
-    port:                 587,
-    domain:               'howtoedibles.com',
-    user_name:            ENV["GMAIL_EMAIL"],
-    password:             ENV["GMAIL_PASSWORD"],
-    authentication:       'plain',
-    enable_starttls_auto: true
-  }
+  #Email settings for letter_opener (Preview email in the default browser instead of sending it.)
+  config.action_mailer.delivery_method = :letter_opener
+  config.action_mailer.perform_deliveries = true
 end

@@ -16,8 +16,8 @@
     get '/about', action: 'about', as: 'public_page_about'
   end
 
-  get 'contact', to: 'messages#new', as: 'new_message'
-  post 'contact', to: 'messages#create', as: 'create_message'
+  get '/contact', to: 'messages#new', as: 'new_message'
+  post '/contact', to: 'messages#create', as: 'create_message'
 
   get '/robots.txt' => 'home#robots'
 

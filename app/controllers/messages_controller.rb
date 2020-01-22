@@ -9,7 +9,7 @@ class MessagesController < ApplicationController
 
     if @message.valid?
       MessageMailer.contact(@message).deliver_now
-      redirect_to new_message_url, notice: "Message received"
+      redirect_to new_message_url, notice: t('.success')
     else
       render :new
     end
@@ -20,5 +20,4 @@ class MessagesController < ApplicationController
   def message_params
     params.require(:message).permit(:name, :email, :body)
   end
-
 end

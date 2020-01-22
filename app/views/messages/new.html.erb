@@ -1,14 +1,18 @@
-<h1><center>Contact</center></h1>
-<%= form_for @message, url: create_message_url do |f| %>
-  <%= notice %>
-  <%= @message.errors.full_messages.join(', ') %>
-  <div class='grid-container'>
-    <div class='grid-item'><%= f.text_field :name, placeholder: 'Your Name' %></div>
+<h3 class="text-center">Contact us</h3><br/>
 
-    <div class='grid-item'><%= f.email_field :email, placeholder: 'youremail@domain.com' %></div>
+<div class="row justify-content-md-center">
+  <div class="col-md-8">
+    <%= form_for @message, url: create_message_url do |f| %>
+      <%= notice %>
+      <%= render 'shared/error_messages' %>
 
-    <div class='grid-item message'><%= f.text_area :body, placeholder: 'Your message...' %></div>
+      <%= f.text_field :name, class:'form-control', placeholder:t('.name_placeholder') %><br />
 
-    <div class='grid-item'><%= f.submit 'Send' %></div>
+      <%= f.email_field :email, class:'form-control', placeholder:t('.email_placeholder') %><br />
+
+      <%= f.text_area :body, class:'form-control', placeholder:t('.body_placeholder'), style:'height:150px' %><br />
+
+      <%= f.submit 'Send', class:'btn btn-primary contact-btn' %>
+      <% end %>
   </div>
-<% end %>
+</div>

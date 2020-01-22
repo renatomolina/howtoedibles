@@ -58,6 +58,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
     arbre (1.2.1)
       activesupport (>= 3.0.0)
     arel (9.0.0)
@@ -161,6 +163,10 @@ GEM
       activerecord
       kaminari-core (= 1.1.1)
     kaminari-core (1.1.1)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    letter_opener (1.7.0)
+      launchy (~> 2.2)
     libv8 (7.3.492.27.1)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -209,6 +215,7 @@ GEM
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
+    public_suffix (4.0.3)
     puma (4.3.0)
       nio4r (~> 2.0)
     rack (2.0.7)
@@ -366,6 +373,7 @@ DEPENDENCIES
   guard-shell
   jbuilder (~> 2.5)
   jquery-rails (= 4.3.3)
+  letter_opener
   listen (~> 3.0.5)
   mini_racer (= 0.2.8)
   newrelic_rpm
@@ -394,4 +402,4 @@ RUBY VERSION
    ruby 2.4.4p296
 
 BUNDLED WITH
-   2.0.2
+   2.1.4

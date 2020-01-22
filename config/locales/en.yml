@@ -2,6 +2,13 @@ en:
   message_mailer:
     contact:
       subject: "Message from www.howtoedibles.com"
+  messages:
+    new:
+      name_placeholder: 'Name...'
+      email_placeholder: 'Email...'
+      body_placeholder: 'How can we help you?'  
+    create:
+      success: 'Message received'
   activerecord:
     attributes:
       ebook_signup:
