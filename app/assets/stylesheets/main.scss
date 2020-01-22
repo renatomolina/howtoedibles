@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1300px;
@@ -10,28 +12,40 @@
   }
 }
 
-html, body { -webkit-overflow-scrolling: touch; }
+html, body {
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  min-width: 100%;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 400;
+}
 
 p {
-  margin: 10px 0px 5px 0px;
-  font-weight: 400;
   color: #666666;
-  font-size: 18px;
-  line-height: 33px;
-  -webkit-font-smoothing: antialiased;
 }
 
 p.title {
-  color: #666666;
   font-size: 21px;
-  line-height: 35px;
   font-weight: 450;
+}
+
+p.subtitle {
+  font-size: 18px;
+  font-weight: 450;
+  margin: 10px 0 10px 0;
+}
+
+p.spaced-subtitle {
+  font-size: 18px;
+  font-weight: 450;
+  margin: 20px 0 20px 0;
 }
 
 h1 {
   display: inline;
   color: #666666;
   font-size: 21px;
+  font-weight: 600;
   line-height: 30px;
 }
 
@@ -40,28 +54,27 @@ h2 {
   color: #666666;
   font-size: 21px;
   line-height: 35px;
+<<<<<<< HEAD
   font-weight: 450;
 }
 
 h4 {
   color: #666666;
   font-size: 23px
+=======
+  font-weight: 600;
+>>>>>>> 84fe65943d46f1b8885e35231c377ec09d91c4dd
 }
 
 ul li {
   margin: 5px 0px 5px 0px;
   font-weight: 400;
-  color: #666666;
-  font-size: 16px;
   -webkit-font-smoothing: antialiased;
 }
 
-span {
-  font-weight: 400;
-  color: #666666;
+a { 
+  color: #f27242;
 }
-
-a { color: #f27242; }
 
 a:hover, a:focus {
   color:#e16a3e;
@@ -84,22 +97,30 @@ input::-webkit-inner-spin-button {
 
 /* Misc Customizations */
 .badge-label {
+  margin: 3px;
   font-size: 16px;
+<<<<<<< HEAD
   padding: .2em .6em .3em;
+=======
+  padding: 2px 7px 4px; 
+>>>>>>> 84fe65943d46f1b8885e35231c377ec09d91c4dd
 }
 
 .badge-success {
   background-color: #5cb85c;
 }
 
-p.badge-label {
-  margin: 0px;
+.harm-reduction-box { 
+  margin: 20px 30px 60px 20px;
 }
 
-.harm-reduction-box { margin: 20px 30px 60px 20px; }
-.padding-bottom { padding-bottom: 50px; }
+.padding-bottom {
+  padding-bottom: 50px;
+}
 
-.text-center { text-align: center; }
+.text-center {
+  text-align: center;
+}
 
 .fb-page-widget {
   margin-top: 70px;
@@ -118,25 +139,60 @@ p.badge-label {
 }
 
 span.bottomtip {
+  display: inline;
+  font-size: 14px;
+  color: #666;
+}
+
+.sidenote { 
   font-size: 14px;
 }
 
-p.dosage-item {
-  line-height: 80px;
-}
-
-p.warning-item {
-  line-height: 27px;
-}
-
-.sidenote {
-  font-size: 14px;
-}
-
-.ads {
+.ads { 
   margin: 10px auto 30px auto;
 }
 
+.popular-recipe-title {
+  padding-bottom: 25px;
+}
+
+.recipe-title {
+  margin-bottom: 25px;
+}
+
+.recipe-title h1 {
+  font-size: 28px;
+}
+
+.recipe-content h2 {
+  font-size: 19px;
+}
+
+i.icon-medium {
+  position: relative;
+  margin-right: 6px;
+}
+
+i.icon-large {
+  position: relative;
+  margin-right: 6px;
+  top: 3px;
+}
+
+p.warning-item {
+  padding-top: 10px;
+}
+
+p.spaced-content {
+  padding-top: 10px;
+}
+
+<<<<<<< HEAD
 .span-block {
   display: block;
+=======
+.suggest-recipes {
+  padding-top: 10px;
+  text-align: left;
+>>>>>>> 84fe65943d46f1b8885e35231c377ec09d91c4dd
 }
