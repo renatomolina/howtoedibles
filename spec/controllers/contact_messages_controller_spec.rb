@@ -34,7 +34,7 @@ RSpec.describe ContactMessagesController, type: :controller do
 
       it 'shows success message' do
         send_request
-        expect(flash[:notice]).to eq('Message received')
+        expect(flash[:notice]).to eq('Your message was sent successfully.')
       end
 
       it 'calls message mailer' do

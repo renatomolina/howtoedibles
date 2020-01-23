@@ -8,7 +8,8 @@ class ContactMessagesController < ApplicationController
 
     if @contact_message.valid?
       ContactMessageMailer.contact(@contact_message).deliver_now
-      redirect_to new_contact_message_url, notice: t('.success')
+      flash[:notice] = t('.success')
+      redirect_to new_contact_message_url
     else
       render :new
     end

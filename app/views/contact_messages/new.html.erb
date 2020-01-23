@@ -3,7 +3,11 @@
 <div class="row justify-content-md-center">
   <div class="col-md-8">
     <%= form_for @contact_message, url: create_contact_message_url do |f| %>
-      <%= notice %>
+      <% flash.each do |message_type, message| %>
+        <div class="alert alert-success">
+          <%= message %>
+        </div>
+      <% end %>
       <%= render 'shared/error_messages' %>
 
       <%= f.text_field :name, class:'form-control', placeholder:t('.name_placeholder') %><br />

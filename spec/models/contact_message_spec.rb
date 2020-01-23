@@ -8,6 +8,6 @@ RSpec.describe ContactMessage, type: :model do
     it { is_expected.to validate_presence_of(:name) }
     it { is_expected.to validate_presence_of(:email) }
     it { is_expected.to validate_presence_of(:body) }
-    it { should validate_email_format_of(:email).with_message('Please enter a valid email address.') }
+    it { should validate_email_format_of(:email).with_message('is not valid') }
   end
 end
