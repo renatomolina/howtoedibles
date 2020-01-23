@@ -11,10 +11,10 @@
 
   get '/:category_slug/:recipe_slug/', to: 'recipes#show', as: 'recipe'
 
-  get '*public_page' => 'public_pages#show', as: 'public_pages'
+  get '/contact', to: 'contact_messages#new', as: 'new_contact_message'
+  post '/contact', to: 'contact_messages#create', as: 'create_contact_message'
 
-  get '/contact', to: 'messages#new', as: 'new_message'
-  post '/contact', to: 'messages#create', as: 'create_message'
+  get '*public_page' => 'public_pages#show', as: 'public_pages'
 
   get '/robots.txt' => 'home#robots'
 

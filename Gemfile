@@ -21,6 +21,7 @@ gem 'rubocop', '~> 0.76.0', require: false
 gem 'i18n-js'
 gem 'will_paginate', '~> 3.1.0'
 gem 'will_paginate-bootstrap4'
+gem 'validates_email_format_of'
 
 # Assets
 gem 'jquery-rails', '4.3.3'
