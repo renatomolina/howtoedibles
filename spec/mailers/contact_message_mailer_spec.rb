@@ -7,7 +7,7 @@ RSpec.describe ContactMessageMailer, type: :mailer do
     let(:mail) { ContactMessageMailer.contact(contact_message) }
 
     it 'renders the headers' do
-      expect(mail.subject).to eq('Contact')
+      expect(mail.subject).to eq('Contact message from www.howtoedibles.com')
       expect(mail.to).to eq(['howtoedibles@gmail.com'])
       expect(mail.from).to eq([contact_message.email])
     end
