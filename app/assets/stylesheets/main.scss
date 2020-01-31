@@ -54,6 +54,12 @@ h2 {
   color: #666666;
   font-size: 21px;
   line-height: 35px;
+  font-weight: 450;
+}
+
+h4 {
+  color: #666666;
+  font-size: 23px;
   font-weight: 600;
 }
 
@@ -63,7 +69,7 @@ ul li {
   -webkit-font-smoothing: antialiased;
 }
 
-a { 
+a {
   color: #f27242;
 }
 
@@ -90,14 +96,14 @@ input::-webkit-inner-spin-button {
 .badge-label {
   margin: 3px;
   font-size: 16px;
-  padding: 2px 7px 4px; 
+  padding: 2px 7px 4px;
 }
 
 .badge-success {
   background-color: #5cb85c;
 }
 
-.harm-reduction-box { 
+.harm-reduction-box {
   margin: 20px 30px 60px 20px;
 }
 
@@ -131,11 +137,11 @@ span.bottomtip {
   color: #666;
 }
 
-.sidenote { 
+.sidenote {
   font-size: 14px;
 }
 
-.ads { 
+.ads {
   margin: 10px auto 30px auto;
 }
 
@@ -172,6 +178,10 @@ p.warning-item {
 
 p.spaced-content {
   padding-top: 10px;
+}
+
+.span-block {
+  display: block;
 }
 
 .suggest-recipes {

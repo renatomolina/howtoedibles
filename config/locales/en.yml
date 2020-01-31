@@ -1,4 +1,15 @@
 en:
+  contact_message_mailer:
+    contact:
+      subject: "Contact message from www.howtoedibles.com"
+  contact_messages:
+    new:
+      name_placeholder: 'Name...'
+      email_placeholder: 'Email...'
+      body_placeholder: 'How can we help you?'
+      send_button_label: 'Send'
+    create:
+      success: 'Your message was sent successfully.'
   activerecord:
     attributes:
       ebook_signup:
