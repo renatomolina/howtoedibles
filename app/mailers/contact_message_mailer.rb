@@ -3,6 +3,6 @@ class ContactMessageMailer < ApplicationMailer
     @name = contact_message.name
     @email = contact_message.email
     @body = contact_message.body
-    mail to: 'howtoedibles@gmail.com', from: @email, subject: 'Contact'
+    mail to: 'howtoedibles@gmail.com', from: @email, subject: t('.subject')
   end
 end

@@ -1,4 +1,15 @@
 pt-BR:
+  contact_message_mailer:
+    contact:
+      subject: "Mensagem de contato do www.laricando.com"
+  contact_messages:
+    new:
+      name_placeholder: 'Nome...'
+      email_placeholder: 'Email...'
+      body_placeholder: 'Como podemos te ajudar?'
+      send_button_label: 'Enviar'
+    create:
+      success: 'Sua mensagem foi enviada com sucesso.'
   logo: "laricando.png"
   logo_size: "172x33"
   page_title: "Laricando - Para te ajudar a não passar da dose"
@@ -32,7 +43,3 @@ pt-BR:
   having_a_bad_time: "Passando mal?"
   panic_button: "CLICA AQUI!"
   spread_the_word: "Compartilhe para ajudar mais pessoas"
-
-
-
-
