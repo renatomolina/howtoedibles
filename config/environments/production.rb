@@ -101,4 +101,16 @@ Rails.application.configure do
     'Cache-Control' => 'public, s-maxage=31536000, maxage=15552000',
     'Expires' => "#{1.year.from_now.to_formatted_s(:rfc822)}"
   }
+  #Gmail settings for action_mailer
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.gmail.com',
+    port:                 587,
+    domain:               'howtoedibles.com',
+    user_name:            ENV["GMAIL_EMAIL"],
+    password:             ENV["GMAIL_PASSWORD"],
+    authentication:       'plain',
+    enable_starttls_auto: true
+  }
 end
