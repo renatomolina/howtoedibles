@@ -4,8 +4,8 @@ en:
       subject: "Contact message from www.howtoedibles.com"
   contact_messages:
     new:
-      name_placeholder: 'Name...'
-      email_placeholder: 'Email...'
+      name_placeholder: 'Your Name'
+      email_placeholder: 'Your Email'
       body_placeholder: 'How can we help you?'
       send_button_label: 'Send'
     create:

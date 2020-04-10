@@ -41,7 +41,7 @@ RSpec.describe RecipesController, type: :controller do
 
   describe 'GET show' do
     let(:recipe) { create(:recipe, category: category, suggested_quantity: 4, suggested_portion: 50) }
-    let(:params) { { category_id: recipe.category.slug, id: recipe.slug } }
+    let(:params) { { recipe_slug: recipe.slug } }
     def send_request
       get :show, params: params
     end
@@ -71,7 +71,7 @@ RSpec.describe RecipesController, type: :controller do
     end
 
     context 'quantity param is setted' do
-      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, quantity: 1 } }
+      let(:params) { { recipe_slug: recipe.slug, quantity: 1 } }
 
       it 'assigns the param value to @suggested_quantity' do
         send_request
@@ -80,7 +80,7 @@ RSpec.describe RecipesController, type: :controller do
     end
 
     context 'portion param is setted' do
-      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, portion: 1 } }
+      let(:params) { { recipe_slug: recipe.slug, portion: 1 } }
 
       it 'assigns the param value to @suggested_portion' do
         send_request
@@ -89,7 +89,7 @@ RSpec.describe RecipesController, type: :controller do
     end
 
     context 'potency param is setted' do
-      let(:params) { { category_id: recipe.category.slug, id: recipe.slug, potency: 1 } }
+      let(:params) { { recipe_slug: recipe.slug, potency: 1 } }
 
       it 'assigns the param value to @suggested_potency' do
         send_request

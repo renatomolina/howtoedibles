@@ -16,8 +16,7 @@ class RecipesController < ApplicationController
   private
 
   def load_recipe
-    category = Category.friendly.find(params[:category_slug] || params[:category_id])
-    @recipe = category.recipes.friendly.find(params[:recipe_slug] || params[:id])
+    @recipe = Recipe.friendly.find(params[:recipe_slug])
   end
 
   def load_suggested_portion

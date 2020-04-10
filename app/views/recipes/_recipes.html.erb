@@ -9,7 +9,7 @@
     <div class="row">
       <% recipes.each do |recipe| %>
         <div class="col-sm-4">
-          <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+          <%= link_to recipe_path(recipe.slug) do %>
             <div class="card">
                 <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
                 <div class="card-block">
@@ -29,7 +29,7 @@
     <div class="row">
       <% recipes.each do |recipe| %>
         <div class="col-sm-6">
-          <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+          <%= link_to recipe_path(recipe.slug) do %>
             <div class="card">
                 <%= image_tag(recipe.photo.url, alt: recipe.name) %>
                 <div class="card-block">
@@ -47,7 +47,7 @@
 <% recipes.each_slice(2) do |recipes| %>
   <div class="d-block d-sm-none d-sm-block d-md-none">
     <% recipes.each do |recipe| %>
-      <%= link_to category_recipe_path(recipe.category.slug, recipe.slug) do %>
+      <%= link_to recipe_path(recipe.slug) do %>
         <div class="card">
           <div class="row no-gutters">
             <div class="col-auto">
