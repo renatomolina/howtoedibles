@@ -13,7 +13,7 @@
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= category.name %></a>
             <div class="dropdown-menu" role="menu">
               <% category.recipes.each do |recipe| %>
-                <%= link_to recipe.name, category_recipe_path(category.slug, recipe.slug), class: 'dropdown-item' %>
+                <%= link_to recipe.name, recipe_path(recipe.slug), class: 'dropdown-item' %>
               <% end %>
             </div>
           </li>
