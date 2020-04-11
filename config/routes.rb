@@ -7,6 +7,7 @@
 
   resources :recipes, only: :index
 
+  get 'categories/:category_slug/recipes/:recipe_slug/', to: 'recipes#show', as: 'recipe_old' # remove this eventually
   get '/recipes/:recipe_slug/', to: 'recipes#show', as: 'recipe'
 
   get '/contact', to: 'contact_messages#new', as: 'new_contact_message'
