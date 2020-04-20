@@ -1,5 +1,4 @@
 <div class="row">
-  <%= render 'ads/donate' %>
   <div class="col-sm-5 col-md-4 order-1 order-md-2 padding-bottom">
     <i class="fa fa-calculator fa-lg orange icon-medium" aria-hidden="true"></i>
     <h1><%= t(:calculator_title) %></h1>
@@ -16,9 +15,12 @@
   </div>
 
   <div class="col-sm-7 col-md-8 order-2 order-md-1">
+    <%= render 'ads/leaderboard' %>
+    <%= render 'ads/medium' %>
     <%= render 'recipes', recipes: @recipes %>
     <div class="pagination">
       <%= will_paginate @recipes, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
     </div>
+    <%= render 'ads/donate' %>
   </div>
 </div>
