@@ -10,11 +10,11 @@
       suggested_portion: @suggested_portion,
       suggested_potency: @suggested_potency
     %>
+    <%= render 'ads/medium' %>
     <%= render 'dosage_widget', title: t('calculator.step2_title') %>
   </div>
   <div class="col-sm-7 order-2 order-md-1">
-    <%= render 'ads/leaderboard' %>
-    <%= render 'ads/medium' %>	
+    <%= render 'ads/leaderboard' %>	
     <%= render 'recipe_content', recipe: @recipe %>
     <%= render 'ads/donate' %>
   </div>

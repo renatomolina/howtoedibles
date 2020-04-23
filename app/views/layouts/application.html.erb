@@ -34,11 +34,8 @@
 
     <meta name="keywords" content="<%= t :meta_tags %>">
 
-    <% unless Rails.env.development? %>
-      <%= render 'ads/ads' %>
-    <% end %>
-
-    <%= render 'ads/adsense'%>
+    <%= render 'ads/ads' if howtoedibles? %>
+    <%= render 'ads/adsense' if laricando? %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= yield(:head) %>
   </head>
