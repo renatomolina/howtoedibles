@@ -12,16 +12,10 @@
     %>
     <%= render 'ads/medium' %>
     <%= render 'dosage_widget', title: t('calculator.step2_title') %>
-    <div class="d-none d-sm-block">
-      <%= render 'commons/poll' %>
-    </div>
   </div>
   <div class="col-sm-7 order-2 order-md-1">
     <%= render 'ads/leaderboard' %>	
     <%= render 'recipe_content', recipe: @recipe %>
-    <div class="d-sm-none">
-      <%= render 'commons/poll' %>
-    </div>
     <%= render 'ads/donate' %>
   </div>
 </div>
