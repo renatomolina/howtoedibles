@@ -5,6 +5,15 @@ $(document).on('ready', function() {
     const MINIMUM_STRENGTH = 1, MAXIMUM_STRENGTH = 95
     const MINIMUM_PORTIONS = 1, MAXIMUM_PORTIONS = 200
 
+    const decreaseQuantityButton = $("#decrease-quantity")
+    const increaseQuantityButton = $("#increase-quantity")
+
+    const decreaseStrengthButton = $("#decrease-strength")
+    const increaseStrengthButton = $("#increase-strength")
+
+    const decreaseServingsButton = $("#decrease-servings")
+    const increaseServingsButton = $("#increase-servings")
+
     let state = {
       grams: null,
       strength: null,
@@ -17,16 +26,15 @@ $(document).on('ready', function() {
 
     function initialize() {
       initializeSliders()
-
       setState({
         grams: parseFloat($('#grams-slider')[0].value).toFixed(1),
         strength: parseInt($('#strength-slider')[0].value),
         portions: parseInt($('#portion-slider')[0].value)
       })
 
-      setListenerUpDownButton('grams', $("#decrease-quantity"), $("#increase-quantity"), DELTA_QUANTITY)
-      setListenerUpDownButton('strength', $("#decrease-strength"), $("#increase-strength"), DELTA_STRENGTH)
-      setListenerUpDownButton('portions', $("#decrease-servings"), $("#increase-servings"), DELTA_SERVINGS)
+      setListenerUpDownButton('grams', decreaseQuantityButton, increaseQuantityButton, DELTA_QUANTITY)
+      setListenerUpDownButton('strength', decreaseStrengthButton, increaseStrengthButton, DELTA_STRENGTH)
+      setListenerUpDownButton('portions', decreaseServingsButton, increaseServingsButton, DELTA_SERVINGS)
     }
 
     function initializeSliders() {
@@ -132,7 +140,7 @@ $(document).on('ready', function() {
       const currentDosage = getCurrentDosage()
 
       $("#potency-result").text(Number(currentDosage).toFixed(2) + " mg").animateCss('flash')
-      $("#potency-result-total").text(Number(currentDosage * state['portions']).toFixed(0) + " mg").animateCss('flash')
+      $("#potency-result-total").text(Number(currentDosage * state['portions']).toFixed(1) + " mg").animateCss('flash')
       $("#highness-level").html(getDosageLevelLabel(currentDosage))
     }
 
