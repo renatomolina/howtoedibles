@@ -1,0 +1,9 @@
+test:
+  features:
+    ads: false
+production:
+  features:
+    ads: false
+development:
+  features:
+    ads: false
