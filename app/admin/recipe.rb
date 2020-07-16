@@ -3,7 +3,7 @@ ActiveAdmin.register Recipe do
 
   permit_params :name, :ingredients, :position, :instructions, :category_id,
                 :suggested_quantity, :suggested_portion, :video, :slug,
-                :photo, :description
+                :photo, :description, :published
   index do
     column :slug
     column :name
@@ -22,6 +22,7 @@ ActiveAdmin.register Recipe do
         tab 'Basic' do
           f.inputs "Basic" do
             f.input :name
+            f.input :published
             f.input :position
             f.input :description, as: :string
             f.input :slug
