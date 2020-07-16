@@ -319,6 +319,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    seed_dump (3.3.1)
+      activerecord (>= 4)
+      activesupport (>= 4)
     sentry-raven (2.12.3)
       faraday (>= 0.7.6, < 1.0)
     shellany (0.0.1)
@@ -397,6 +400,7 @@ DEPENDENCIES
   rspec-rails (~> 3.7)
   rubocop (~> 0.76.0)
   sass-rails (~> 5.0)
+  seed_dump
   sentry-raven
   shoulda-matchers (~> 3.1)
   sitemap_generator
