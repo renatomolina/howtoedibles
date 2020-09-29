@@ -44,6 +44,7 @@ pt-BR:
   panic_button: "CLICA AQUI!"
   spread_the_word: "Compartilhe para ajudar mais pessoas"
   click_donate: 'clicando aqui'
+  please_donate: 'Faça uma doação!'
   donate_message: 'Nós tornamos a experiência com comestíveis segura e do seu jeito que você gosta. Nos ajude a manter o site vivo, ele depende de você! Se você acredita no projeto, considere fazer uma doação %{donate_link}.'
   url_donate: 'https://bit.ly/donatelaricando'
 
