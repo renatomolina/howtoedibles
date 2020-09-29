@@ -54,5 +54,6 @@ en:
   panic_button: "CLICK HERE!"
   spread_the_word: "Help us spread the word"
   click_donate: 'clicking here'
+  please_donate: 'Please, consider donating'
   donate_message: 'We make edible experiences great and simple. Help us stay alive and expand! This free website is dependent on you. If you believe in this project, please donate by %{donate_link}.'
   url_donate: 'https://bit.ly/donateht'
