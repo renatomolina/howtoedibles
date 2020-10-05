@@ -1,4 +1,4 @@
-<% if laricando?  %>
+<% if Feature.active?(:ads_adsense) %>
   <div class="row d-none d-md-block text-center">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Leaderboard -->
@@ -10,6 +10,7 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
   </div>
-<% elsif howtoedibles? %>
+<% end %>
+<% if Feature.active?(:ads_puffnetwork) %>
   <div class="puffad-zone ads d-none d-sm-block" ad-w="728" ad-h="90"></div>
 <% end %>

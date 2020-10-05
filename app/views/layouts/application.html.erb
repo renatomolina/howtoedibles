@@ -33,9 +33,9 @@
     <meta name="twitter:image" content="<%= image_url('pot-brownies.jpg') %>">
 
     <meta name="keywords" content="<%= t :meta_tags %>">
-
-    <%= render 'ads/ads' if howtoedibles? %>
-    <%= render 'ads/adsense' if laricando? %>
+ 
+    <%= render 'ads/ads_puffnetwork' if Feature.active?(:ads_puffnetwork) %>
+    <%= render 'ads/ads_adsense' if if Feature.active?(:ads_adsense) %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= yield(:head) %>
   </head>

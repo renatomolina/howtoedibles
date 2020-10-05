@@ -1,9 +1,12 @@
 test:
   features:
-    ads: false
+    ads_puffnetwork: false
+    ads_adsense: true
 production:
   features:
-    ads: false
+    ads_puffnetwork: false
+    ads_adsense: true
 development:
   features:
-    ads: false
+    ads_puffnetwork: false
+    ads_adsense: true
