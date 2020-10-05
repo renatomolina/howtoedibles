@@ -17,7 +17,6 @@
 
   <div class="col-sm-7 col-md-8 order-2 order-md-1">
     <%= render 'ads/donate' %>
-    <%= render 'ads/leaderboard' %>
     <%= render 'recipes', recipes: @recipes %>
     <div class="pagination">
       <%= will_paginate @recipes, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
