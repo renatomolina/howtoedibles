@@ -1,0 +1,7 @@
+#ad-medium-top, #ad-medium-bottom {
+  min-height: 320px;
+}
+
+#ad-leaderboard-top, #ad-leaderboard-bottom {
+  min-height: 90px;
+}

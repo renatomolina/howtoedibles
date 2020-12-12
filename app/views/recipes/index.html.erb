@@ -8,7 +8,9 @@
       suggested_portion: @suggested_portion,
       suggested_potency: @suggested_potency
     %>
-    <%= render 'ads/medium' %>
+    <div id="ad-medium-top">
+      <%= render 'ads/medium' %>
+    </div>
     <%= render 'dosage_widget', title: t(:dosage_title) %>
     <% if I18n.locale == :en %>
       <%= render 'suggest_recipe_button' %>
@@ -17,12 +19,18 @@
 
   <div class="col-sm-7 col-md-8 order-2 order-md-1">
     <%= render 'ads/donate' %>
-    <%= render 'ads/leaderboard' %>	
+    <div id="ad-leaderboard-top">
+      <%= render 'ads/leaderboard' %>
+    </div>
     <%= render 'recipes', recipes: @recipes %>
     <div class="pagination">
       <%= will_paginate @recipes, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
     </div>
-    <%= render 'ads/leaderboard' %>
-    <%= render 'ads/medium' %>
+    <div id="ad-leaderboard-bottom">
+      <%= render 'ads/leaderboard' %>
+    </div>
+    <div id="ad-medium-bottom">
+      <%= render 'ads/medium' %>
+    </div>
   </div>
 </div>
