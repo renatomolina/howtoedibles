@@ -295,5 +295,5 @@ ActiveAdmin.setup do |config|
 end
 
 class ActiveAdmin::BaseController
-  http_basic_authenticate_with :name => "admin", :password => "992200"
+  http_basic_authenticate_with :name => "admin", :password => "#992200#MangaVerde"
 end
