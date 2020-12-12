@@ -1,7 +1,11 @@
-#ad-medium-top, #ad-medium-bottom {
-  min-height: 320px;
+@media (max-width: 991px) {
+  #ad-medium-top, #ad-medium-bottom {
+    min-height: 320px;
+  }
 }
 
-#ad-leaderboard-top, #ad-leaderboard-bottom {
-  min-height: 90px;
+@media (min-width: 1200px) {
+  #ad-leaderboard-top, #ad-leaderboard-bottom {
+    min-height: 90px;
+  }
 }
