@@ -16,6 +16,7 @@
 //= require bootstrap-slider.min
 //= require pluralize
 //= require jquery_extensions
+//= require jquery.lazyload
 
 // I18n
 //= require i18n
@@ -24,3 +25,5 @@
 
 //= require pluralize_custom
 //= require calculator
+
+$("img").lazyload();

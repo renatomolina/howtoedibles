@@ -32,6 +32,7 @@ gem 'ckeditor', '4.2.4'
 gem 'bootstrap', '~> 4.3.1'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
 gem 'sprockets-es6'
+gem 'lazyload-rails', '~> 0.5.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
