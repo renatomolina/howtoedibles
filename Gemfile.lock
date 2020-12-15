@@ -107,8 +107,6 @@ GEM
       multipart-post (>= 1.2, < 3)
     feature (1.4.0)
     ffi (1.11.2)
-    font_awesome5_rails (1.0.0)
-      railties (>= 4.2)
     formatador (0.2.5)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
@@ -376,7 +374,6 @@ DEPENDENCIES
   factory_bot_rails
   faker
   feature
-  font_awesome5_rails
   friendly_id (~> 5.3.0)
   guard-rspec
   guard-shell
