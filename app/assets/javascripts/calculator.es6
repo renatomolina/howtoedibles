@@ -139,8 +139,8 @@ $(document).on('ready', function() {
     function renderPotency() {
       const currentDosage = getCurrentDosage()
 
-      $("#potency-result").text(Number(currentDosage).toFixed(2) + " mg").animateCss('flash')
-      $("#potency-result-total").text(Number(currentDosage * state['portions']).toFixed(1) + " mg").animateCss('flash')
+      $("#potency-result").text(Number(currentDosage).toFixed(2) + " mg")
+      $("#potency-result-total").text(Number(currentDosage * state['portions']).toFixed(1) + " mg")
       $("#highness-level").html(getDosageLevelLabel(currentDosage))
     }
 
