@@ -1,15 +1,13 @@
-<% if Feature.active?(:ads_adsense) %>
-  <div class="d-sm-none">
-    <!-- Medium -->
-    <ins class="adsbygoogle"
-        style="display:inline-block;width:320px;height:320px"
-        data-ad-client="ca-pub-6354522716906819"
-        data-ad-slot="5475295879"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-  </div>
-<% end %>
+<div class="d-sm-none">
+  <!-- Medium -->
+  <ins class="adsbygoogle"
+      style="display:inline-block;width:320px;height:320px"
+      data-ad-client="ca-pub-6354522716906819"
+      data-ad-slot="5475295879"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 
 <% if Feature.active?(:ads_puffnetwork) %>
   <div class="puffad-zone ads d-block d-sm-none" ad-w="300" ad-h="250"></div>

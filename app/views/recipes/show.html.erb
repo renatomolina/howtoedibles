@@ -10,22 +10,30 @@
       suggested_portion: @suggested_portion,
       suggested_potency: @suggested_potency
     %>
-    <div id="ad-medium-top">
-      <%= render 'ads/medium' %>
-    </div>
+    <% if Feature.active?(:ads_adsense) %>
+      <div id="ad-medium-top">
+        <%= render 'ads/medium' %>
+      </div>
+    <% end %>
     <%= render 'dosage_widget', title: t('calculator.step2_title') %>
   </div>
   <div class="col-sm-7 order-2 order-md-1">
     <%= render 'ads/donate' %>
-    <div id="ad-leaderboard-top">
-      <%= render 'ads/leaderboard' %>
-    </div>
+    <% if Feature.active?(:ads_adsense) %>
+      <div id="ad-leaderboard-top">
+        <%= render 'ads/leaderboard' %>
+      </div>
+    <% end %>
     <%= render 'recipe_content', recipe: @recipe %>
-    <div id="ad-leaderboard-bottom">
-      <%= render 'ads/leaderboard' %>
-    </div>
-    <div id="ad-medium-bottom">
-      <%= render 'ads/medium' %>
-    </div>
+    <% if Feature.active?(:ads_adsense) %>
+      <div id="ad-leaderboard-bottom">
+        <%= render 'ads/leaderboard' %>
+      </div>
+    <% end %>
+    <% if Feature.active?(:ads_adsense) %>
+      <div id="ad-medium-bottom">
+        <%= render 'ads/medium' %>
+      </div>
+    <% end %>
   </div>
 </div>
