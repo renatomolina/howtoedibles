@@ -1,4 +1,4 @@
-$(document).on('ready', function() {
+jQuery(document).ready(function(){
   if($("#calculator-widget").length !== 0) {
     const DELTA_QUANTITY = 0.5, DELTA_STRENGTH = 1, DELTA_SERVINGS = 1
     const MINIMUM_QUANTITY = 0.5, MAXIMUM_QUANTITY = 28
@@ -38,9 +38,9 @@ $(document).on('ready', function() {
     }
 
     function initializeSliders() {
-      $('#grams-slider').slider().on('change', (slider) => setState({ grams: slider.value.newValue }))
-      $('#strength-slider').slider().on('change', (slider) => setState({ strength: slider.value.newValue }))
-      $('#portion-slider').slider().on('change', (slider) => setState({ portions: slider.value.newValue }))
+      $('#grams-slider').bootstrapSlider().on('change', (slider) => setState({ grams: slider.value.newValue }))
+      $('#strength-slider').bootstrapSlider().on('change', (slider) => setState({ strength: slider.value.newValue }))
+      $('#portion-slider').bootstrapSlider().on('change', (slider) => setState({ portions: slider.value.newValue }))
     }
 
     function setListenerUpDownButton(attribute, decreaseButton, increaseButton, delta) {
@@ -128,7 +128,7 @@ $(document).on('ready', function() {
 
     function renderInputComponents(attribute, input, slider) {
       if(input.val() !== state[attribute]) input.val(state[attribute]) // update input if slider has changed
-      if(slider.val() !== state[attribute]) slider.slider('setValue', state[attribute]) // update slider if input has changed
+      if(slider.val() !== state[attribute]) slider.bootstrapSlider ('setValue', state[attribute]) // update slider if input has changed
     }
 
     function renderQuantityLabels() {

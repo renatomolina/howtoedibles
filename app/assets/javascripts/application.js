@@ -10,9 +10,10 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery2
+//= require jquery3
 //= require bootstrap-sprockets
 //= require jquery_ujs
+//= require jquery-ui
 //= require bootstrap-slider.min
 //= require pluralize
 //= require jquery_extensions
