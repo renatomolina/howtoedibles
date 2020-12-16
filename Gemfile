@@ -25,7 +25,7 @@ gem 'validates_email_format_of'
 gem 'feature'
 
 # Assets
-gem 'jquery-rails', '4.3.3'
+gem 'jquery-rails', '4.4.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'ckeditor', '4.2.4'
