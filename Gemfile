@@ -26,7 +26,6 @@ gem 'feature'
 
 # Assets
 gem 'jquery-rails', '4.4.0'
-gem 'jquery-ui-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'ckeditor', '4.2.4'
