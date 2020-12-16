@@ -5,7 +5,7 @@
     </div>
     <div class="col-sm-11 col-md-10 col-11">
       <h5><%= t('please_donate') %></h5>
-      <%= t('donate_message', donate_link: link_to(t('click_donate'), t('url_donate'), target: '_blank')).html_safe %>
+      <%= t('donate_message', donate_link: link_to(t('click_donate'), t('url_donate'), target: '_blank', rel: 'noopener noreferrer')).html_safe %>
     </div>
   </div>
 </div>
