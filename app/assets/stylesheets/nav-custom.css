@@ -43,3 +43,14 @@
   color: #fff !important;
 }
 
+@media (max-width: 360px) {
+  .logo-regular {
+    display: none;
+  }
+}
+
+@media (min-width: 361px) {
+  .logo-small {
+    display: none;
+  }
+}
