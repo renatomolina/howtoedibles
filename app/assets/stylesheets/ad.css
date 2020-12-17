@@ -4,7 +4,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   #ad-leaderboard-top, #ad-leaderboard-bottom {
     min-height: 90px;
   }
