@@ -98,8 +98,8 @@ Rails.application.configure do
 
   # Cache expiration - Leverage browser caching
   config.public_file_server.headers = {
-    'Cache-Control' => 'public, s-maxage=31536000, maxage=15552000',
-    'Expires' => "#{1.year.from_now.to_formatted_s(:rfc822)}"
+    'Cache-Control' => 'public, max-age=172800',
+    'Expires' => 1.year.from_now.to_formatted_s(:rfc822)
   }
   #Gmail settings for action_mailer
 
