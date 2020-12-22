@@ -102,7 +102,7 @@ $(document).on('ready', function() {
 
     function renderNegativeEffects(value) {
       const LEVEL_ONE_NEGATIVE_EFFECTS = [I18n.t('calculator.lightheadedness_label')]
-      const LEVEL_TWO_NEGATIVE_EFFECTS = [I18n.t('calculator.headaches_label'), I18n.t('calculator.memory_label'), I18n.t('calculator.paranoia_label')]
+      const LEVEL_TWO_NEGATIVE_EFFECTS = [I18n.t('calculator.headaches_label'), I18n.t('calculator.paranoia_label'), I18n.t('calculator.memory_label')]
       const LEVEL_THREE_NEGATIVE_EFFECTS = [I18n.t('calculator.anxiety_label'), I18n.t('calculator.time_sense_label'), I18n.t('calculator.nausea_label'), I18n.t('calculator.agitation_label')]
       const LEVEL_FOUR_NEGATIVE_EFFECTS = [I18n.t('calculator.racing_heart_label'), I18n.t('calculator.coordination_label'), I18n.t('calculator.panic_attacks_label')]
 
