@@ -17,8 +17,11 @@ html, body {
   width: 100%;
   min-width: 100%;
   font-family: 'Lato', Arial, sans-serif;
+  font-display: swap;
   font-weight: 400;
 }
+
+img { aspect-ratio: attr(width) / attr(height); }
 
 p {
   color: #666666;
