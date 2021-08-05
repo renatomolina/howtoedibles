@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.7.1'
 
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 5.2.5'
 gem 'pg', '~> 1.1.4'
 gem 'puma', '~> 4.3.0'
 gem 'mini_racer', '0.2.8'
