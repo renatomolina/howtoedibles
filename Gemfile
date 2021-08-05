@@ -5,7 +5,7 @@ ruby '2.7.1'
 gem 'rails', '~> 5.2.5'
 gem 'pg', '~> 1.1.4'
 gem 'puma', '~> 4.3.0'
-gem 'mini_racer', '0.2.8'
+gem 'mini_racer', '0.4.0'
 gem 'jbuilder', '~> 2.5'
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 
