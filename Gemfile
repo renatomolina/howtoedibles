@@ -15,7 +15,7 @@ gem 'rails-i18n', '~> 5.0.0'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'friendly_id', '~> 5.3.0'
 gem "paperclip", "~> 5.3.0"
-gem 'aws-sdk', '~> 2.5.11'
+gem 'aws-sdk', '~> 3.0.2'
 gem 'sentry-raven'
 gem 'rubocop', '~> 0.76.0', require: false
 gem 'i18n-js'
