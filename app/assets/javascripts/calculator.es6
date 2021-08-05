@@ -1,8 +1,8 @@
 $(document).on('ready', function() {
   if($("#calculator-widget").length !== 0) {
     const DELTA_QUANTITY = 0.5, DELTA_STRENGTH = 1, DELTA_SERVINGS = 1
-    const MINIMUM_QUANTITY = 0.5, MAXIMUM_QUANTITY = 28
-    const MINIMUM_STRENGTH = 1, MAXIMUM_STRENGTH = 95
+    const MINIMUM_QUANTITY = 0.01, MAXIMUM_QUANTITY = 28
+    const MINIMUM_STRENGTH = 1, MAXIMUM_STRENGTH = 99
     const MINIMUM_PORTIONS = 1, MAXIMUM_PORTIONS = 200
 
     const decreaseQuantityButton = $("#decrease-quantity")
