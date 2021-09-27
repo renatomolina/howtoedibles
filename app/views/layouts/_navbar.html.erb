@@ -1,14 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <a href="/" class="logo">
       <%= image_tag(t(:logo), alt: 'How to Edibles', width: 200, height: 72, class:'logo-small') %>
       <%= image_tag(t(:logo), alt: 'How to Edibles', width: 260, height: 93, class:'logo-regular') %>
     </a>
+    <div class="nav-spacer">
+    </div>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div id="navbarMain" class="navbar-collapse collapse">
       <ul id="nav" class="navbar-nav ml-auto">
         <% @category_list.each do |category| %>
