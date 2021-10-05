@@ -9,8 +9,8 @@
       suggested_potency: @suggested_potency
     %>
 
-    <%= render 'dosage_widget', title: t(:dosage_title) %>
     <%= render 'ads/medium', component_id: 'ad-medium-top' %>
+    <%= render 'dosage_widget', title: t(:dosage_title) %>
     <% if I18n.locale == :en %>
       <%= render 'suggest_recipe_button' %>
     <% end %>
