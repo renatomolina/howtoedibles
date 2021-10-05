@@ -56,7 +56,7 @@
 
     <% unless Rails.env.development? %>
       <%= render 'commons/analytics' %>
-      <%= render 'commons/mouseflow' %>
+      <%= render 'commons/mouseflow' if Feature.active?(:mouseflow) %>
     <% end %>
   </body>
 </html>
