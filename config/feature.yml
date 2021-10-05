@@ -1,15 +1,15 @@
 test:
   features:
     ads_puffnetwork: false
-    ads_adsense: false
+    ads_adsense: true
     mouseflow: false
 production:
   features:
     ads_puffnetwork: false
-    ads_adsense: false
+    ads_adsense: true
     mouseflow: false
 development:
   features:
     ads_puffnetwork: false
-    ads_adsense: false
+    ads_adsense: true
     mouseflow: false
