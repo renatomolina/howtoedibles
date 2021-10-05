@@ -130,8 +130,13 @@ input::-webkit-inner-spin-button {
   margin-top: 25px;
 }
 
+.far {
+  font-display: swap;
+}
+
 .fa-lg {
   font-size: 1.66em;
+  font-display: swap;
 }
 
 span.bottomtip {
