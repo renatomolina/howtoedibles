@@ -286,7 +286,7 @@ ActiveAdmin.setup do |config|
   # config.order_clause = MyOrderClause
   config.namespace :admin do |admin|
     admin.build_menu :utility_navigation do |menu|
-      menu.add label: "howtoedibles.com", url: "http://www.howtoedibles.com",
+      menu.add label: "howtoedibles.com", url: "https://www.howtoedibles.com",
                                           html_options: { target: :blank }
       admin.add_current_user_to_menu  menu
       admin.add_logout_button_to_menu menu
