@@ -37,7 +37,9 @@
  
     <%= render 'ads/ads_puffnetwork' if Feature.active?(:ads_puffnetwork) %>
     <%= render 'ads/ads_adsense' if Feature.active?(:ads_adsense) %>
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= RailsCriticalCssServer::Rewrite.call self do %>
+      <%= stylesheet_link_tag 'application', media: 'all' %>
+    <% end %>
     <%= yield(:head) %>
   </head>
 
