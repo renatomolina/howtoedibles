@@ -11,10 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= require popper
 //= require bootstrap-sprockets
 //= require jquery_ujs
-//= require pluralize
+//= require pluralize.min
 //= require jquery_extensions
 
 // I18n
