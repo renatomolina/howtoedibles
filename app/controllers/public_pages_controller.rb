@@ -1,7 +1,7 @@
 class PublicPagesController < ApplicationController
   layout 'layouts/application_mobile'
 
-  def calculator; end
+  def edible_dosage_calulator; end
 
   def show
     raise ActionController::RoutingError.new('Not Found') unless pages_allowed.include?(template_name)
@@ -15,6 +15,6 @@ class PublicPagesController < ApplicationController
   end
 
   def pages_allowed
-    ['about', 'calculator', 'hiring']
+    ['about', 'edible_dosage_calculator', 'hiring']
   end
 end

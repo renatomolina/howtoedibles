@@ -12,6 +12,9 @@
 
     <div id="navbarMain" class="navbar-collapse collapse">
       <ul id="nav" class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <%= link_to 'Calculator', '/edible-dosage-calculator', class: 'nav-link' %>
+        </li>
         <% @category_list.each do |category| %>
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= category.name %></a>
