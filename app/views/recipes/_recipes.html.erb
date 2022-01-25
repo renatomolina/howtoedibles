@@ -4,11 +4,11 @@
 <h2>
   <%= t :popular_recipes %>
 </h2>
-<% recipes.each_slice(3) do |recipes| %>
+<% recipes.each_slice(4) do |recipes| %>
   <div class="d-none d-md-block">
     <div class="row">
       <% recipes.each do |recipe| %>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
           <%= link_to recipe_path(recipe.slug) do %>
             <div class="card">
                 <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name, width: 260, height: 173) %>
@@ -24,11 +24,11 @@
   </div>
 <% end %>
 
-<% recipes.each_slice(2) do |recipes| %>
+<% recipes.each_slice(4) do |recipes| %>
   <div class="d-none d-sm-block d-md-none">
     <div class="row">
       <% recipes.each do |recipe| %>
-        <div class="col-sm-6">
+        <div class="col-sm-3">
           <%= link_to recipe_path(recipe.slug) do %>
             <div class="card">
                 <%= image_tag(recipe.photo.url, alt: recipe.name, width: 260, height: 173) %>

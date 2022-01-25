@@ -1,23 +1,6 @@
 <div class="row">
-  <div class="col-sm-5 col-md-4 order-1 order-md-2">
-    <i class="fa fa-calculator fa-lg orange icon-medium" aria-hidden="true"></i>
-    <h1><%= t(:calculator_title) %></h1>
-    <%= 
-      render 'components/calculator',
-      suggested_quantity: @suggested_quantity,
-      suggested_portion: @suggested_portion,
-      suggested_potency: @suggested_potency
-    %>
 
-    <%= render 'ads/medium', component_id: 'ad-medium-top' %>
-    <%= render 'dosage_widget', title: t(:dosage_title) %>
-
-    <% if I18n.locale == :en %>
-      <%= render 'suggest_recipe_button' %>
-    <% end %>
-  </div>
-
-  <div class="col-sm-7 col-md-8 order-2 order-md-1">
+  <div class="col-sm-12 col-md-12 order-2 order-md-1">
     <%= render 'ads/donate' %>
     <%= render 'ads/leaderboard', component_id: 'ad-leaderboard-top mb-1' %>
     <%= render 'recipes', recipes: @recipes %>
