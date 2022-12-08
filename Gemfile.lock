@@ -1287,7 +1287,7 @@ GEM
       addressable (~> 2.7)
     letter_opener (1.7.0)
       launchy (~> 2.2)
-    libv8-node (15.14.0.1)
+    libv8-node (16.10.0.0)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -1307,8 +1307,8 @@ GEM
       rake
     mini_mime (1.1.0)
     mini_portile2 (2.6.1)
-    mini_racer (0.4.0)
-      libv8-node (~> 15.14.0.0)
+    mini_racer (0.6.2)
+      libv8-node (~> 16.10.0.0)
     minitest (5.14.4)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
@@ -1507,7 +1507,7 @@ DEPENDENCIES
   jquery-rails (= 4.3.3)
   letter_opener
   listen (~> 3.0.5)
-  mini_racer (= 0.4.0)
+  mini_racer (= 0.6.2)
   newrelic_rpm
   paperclip (~> 5.3.0)
   pg (~> 1.1.4)
