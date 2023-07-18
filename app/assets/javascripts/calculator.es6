@@ -64,33 +64,38 @@ $(document).on('ready', function() {
 
     function getDosageLevelLabel(value) {
       if (value < 10)
-        return "<i class='far fa-smile fa-lg green icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_low_dose')
+        return "<i class='far fa-smile fa-lg green icon-large' aria-hidden='true'></i> " + "THRESHOLD DOSE"
       else if (value < 20)
-        return "<i class='far fa-surprise fa-lg yellow icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_medium_dose')
+        return "<i class='far fa-surprise fa-lg yellow icon-large' aria-hidden='true'></i> " + "COMMON DOSE"
       else if (value < 30)
-        return "<i class='far fa-grimace fa-lg orange icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_strong_dose')
+        return "<i class='far fa-grimace fa-lg orange icon-large' aria-hidden='true'></i> " + "STRONG DOSE"
       else
-        return "<i class='far fa-flushed fa-lg red icon-large' aria-hidden='true'></i> " + I18n.t('calculator.step2_very_strong_dose')
+        return "<i class='far fa-flushed fa-lg red icon-large' aria-hidden='true'></i> " + "HEAVY DOSE"
     }
 
     function renderPositiveEffects(value) {
       const LEVEL_ONE_POSITIVE_EFFECTS = [
-        I18n.t('calculator.relaxation_label'),
-        I18n.t('calculator.stress_reduction_label'),
-        I18n.t('calculator.mood_lift_label'),
-        I18n.t('calculator.giggling_label'),
-        I18n.t('calculator.laughing_label')
+        "relaxation",
+        "stress reduction",
+        "mood lift",
+        "giggling",
+        "laughing"
       ]
 
       const LEVEL_TWO_POSITIVE_EFFECTS = [
-        I18n.t('calculator.creative_label'),
-        I18n.t('calculator.euphoria_label'),
-        I18n.t('calculator.reduced_nausea_label'),
-        I18n.t('calculator.increased_appetite_label'),
-        I18n.t('calculator.tasks_label')
+        "creative",
+        "reduced nausea",
+        "euphoria",
+        "increased appetite",
+        "tasks become more interesting"
       ]
 
-      const LEVEL_THREE_POSITIVE_EFFECTS = [I18n.t('calculator.senses_label'), I18n.t('calculator.philosophical_label'), I18n.t('calculator.ideas_label'), I18n.t('calculator.mind_body_label')]
+      const LEVEL_THREE_POSITIVE_EFFECTS = [
+        "increased awareness of senses",
+        "philosophical",
+        "ideas flow easily",
+        "increase in body/mind connection"
+      ]
 
       let effects = []
       if (value > 0 ) effects = [...LEVEL_ONE_POSITIVE_EFFECTS]
@@ -101,10 +106,23 @@ $(document).on('ready', function() {
     }
 
     function renderNegativeEffects(value) {
-      const LEVEL_ONE_NEGATIVE_EFFECTS = [I18n.t('calculator.lightheadedness_label')]
-      const LEVEL_TWO_NEGATIVE_EFFECTS = [I18n.t('calculator.headaches_label'), I18n.t('calculator.paranoia_label'), I18n.t('calculator.memory_label')]
-      const LEVEL_THREE_NEGATIVE_EFFECTS = [I18n.t('calculator.anxiety_label'), I18n.t('calculator.time_sense_label'), I18n.t('calculator.nausea_label'), I18n.t('calculator.agitation_label')]
-      const LEVEL_FOUR_NEGATIVE_EFFECTS = [I18n.t('calculator.racing_heart_label'), I18n.t('calculator.coordination_label'), I18n.t('calculator.panic_attacks_label')]
+      const LEVEL_ONE_NEGATIVE_EFFECTS = ["lightheadedness"]
+      const LEVEL_TWO_NEGATIVE_EFFECTS = [
+        "headaches",
+        "paranoia",
+        "short-term memory impairment"
+      ]
+      const LEVEL_THREE_NEGATIVE_EFFECTS = [
+        "anxiety",
+        "time perception altered",
+        "nausea",
+        "agitation"
+      ]
+      const LEVEL_FOUR_NEGATIVE_EFFECTS = [
+        "racing heart",
+        "loss of coordination",
+        "panic attacks"
+      ]
 
       let effects = [];
 
@@ -132,8 +150,8 @@ $(document).on('ready', function() {
     }
 
     function renderQuantityLabels() {
-      $("#grams-quantity-label").text(pluralize(I18n.t('calculator.gram_label'), state['grams']))
-      $("#grams-quantity-recipe").text(pluralize(I18n.t('calculator.gram_label'), state['grams'], true))
+      $("#grams-quantity-label").text(pluralize("gram", state['grams']))
+      $("#grams-quantity-recipe").text(pluralize("gram", state['grams'], true))
     }
 
     function renderPotency() {
@@ -199,6 +217,6 @@ $(document).on('ready', function() {
       });
     }
 
-    initialize()
+    initialize();
   }
 })

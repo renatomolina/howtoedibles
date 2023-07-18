@@ -18,7 +18,6 @@ gem "paperclip", "~> 5.3.0"
 gem 'aws-sdk', '~> 3.0.2'
 gem 'sentry-raven'
 gem 'rubocop', '~> 0.76.0', require: false
-gem 'i18n-js'
 gem 'will_paginate', '~> 3.1.0'
 gem 'will_paginate-bootstrap4'
 gem 'validates_email_format_of'
@@ -30,7 +29,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'ckeditor', '4.2.4'
 gem 'bootstrap', '~> 4.3.1'
-gem 'sprockets-rails', '~> 3.2', '>= 3.2.1'
+gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'sprockets-es6'
 gem 'rails_critical_css_server'
 

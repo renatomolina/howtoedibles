@@ -16,10 +16,4 @@
 //= require pluralize.min
 //= require jquery_extensions
 
-// I18n
-//= require i18n
-//= require i18n/translations
-//= require localization
-
-//= require pluralize_custom
 //= require calculator
