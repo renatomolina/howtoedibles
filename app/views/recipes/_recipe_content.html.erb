@@ -1,20 +1,26 @@
 <%# Locals: recipe %>
-<div class="recipe-title pt-4 pb-2">
+<div class="recipe-title pt-4 pb-4">
   <h1>
-    <%= t('calculator.step3_title') %> <%= recipe.name.capitalize.camelcase %>
+    <%= recipe.name.capitalize.camelcase %>
   </h1>
 </div>
 
 <div class="recipe-content">
-  <i class="fa fa-utensils fa-lg orange icon-medium" aria-hidden="true"></i>
-  <h2><%= t('calculator.step3_ingredients_title') %></h2>
-  <%= recipe.ingredients.html_safe %>
+  <div class="ingredients-container mb-4">
+    <div class="mb-2">
+      <i class="fa fa-utensils fa-lg orange icon-medium" aria-hidden="true"></i>
+      <h2 class><%= t('calculator.step3_ingredients_title') %></h2>
+    </div>
+    <%= recipe.ingredients.html_safe %>
+  </div>
 
-  <br />
-
-  <i class="fa fa-list-ol fa-lg orange icon-medium" aria-hidden="true"></i>
-  <h2><%= t('calculator.step3_step_by_step') %></h2>
-  <%= recipe.instructions.html_safe %>
+  <div class="directions-container mb-1">
+    <div class="mt-2 mb-2">
+      <i class="fa fa-list-ol fa-lg orange icon-medium" aria-hidden="true"></i>
+      <h2><%= t('calculator.step3_step_by_step') %></h2>
+    </div>
+    <%= recipe.instructions.html_safe %>
+  </div>
 </div>
 
 <p><%= render 'commons/facebook_share_widget' %></p>

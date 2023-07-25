@@ -91,7 +91,7 @@ $(document).on('ready', function() {
       ]
 
       const LEVEL_THREE_POSITIVE_EFFECTS = [
-        "increased awareness of senses",
+        "enhanced senses",
         "philosophical",
         "ideas flow easily",
         "increase in body/mind connection"

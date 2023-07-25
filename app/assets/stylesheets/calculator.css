@@ -1,8 +1,8 @@
 .fa-chevron-circle-down:hover { color: darkorange; }
 .fa-chevron-circle-up:hover { color: darkgreen; }
 
-.calculator-item { min-height: 117px; }
-.calculator-item- { min-height: 141px !important; }
+.calculator-item { min-height: 117px; margin-top: 20px; }
+.calculator-item-large { min-height: 141px !important; }
 
 #green-bar { width: 100%; }
 #green-bar .slider-selection, #green-bar .slider-handle { background: #5cb85c; }
@@ -10,6 +10,6 @@
 .calculator-input { text-align: center; }
 
 .slider-track {
-  background-image: linear-gradient(to bottom, #f5f5f5 0, #f5f5f5 100%);
+  background-image: linear-gradient(to bottom, #e3e3e3 0, #e3e3e3 100%);
   box-shadow: inset 0px 0px 0px #999;
 }

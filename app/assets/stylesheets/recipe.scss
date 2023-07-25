@@ -1,0 +1,24 @@
+.directions-container ul {
+  counter-reset: none;
+  margin-top: 10px;
+  list-style-position:inside;
+}
+
+.directions-container ul li {
+  list-style: none;
+  counter-increment: number;
+  margin-bottom: 18px;
+}
+
+.directions-container ul li::before {
+  content: "Step " counter(number) ": ";
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+.directions-container ul li {
+  margin: 5px 0px 5px 0px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+

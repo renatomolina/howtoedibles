@@ -1,9 +1,10 @@
 <%# Locals: recipes %>
 
-<i class="fa fa-fire-alt orange popular-recipe-title icon-medium" aria-hidden="true"></i>
-<h2>
-  <%= t :popular_recipes %>
-</h2>
+<div class="popular-recipes pt-2">
+  <i class="fa fa-fire-alt fa-lg orange popular-recipe-title icon-medium" aria-hidden="true"></i>
+  <h2> <%= t :popular_recipes %></h2>
+</div>
+
 <% recipes.each_slice(4) do |recipes| %>
   <div class="d-none d-md-block">
     <div class="row">
@@ -55,7 +56,7 @@
             </div>
             <div class="col">
               <div class="card-block">
-                <h4 class="card-title-small"><%= recipe.name %></h4>
+                <p class="card-title-small"><%= recipe.name %></p>
                 <p class="card-text-small"><%= recipe.description %></p>
                 <p class="card-text-small"><small class="category-text"><%= recipe.category.name %></small></p>
               </div>

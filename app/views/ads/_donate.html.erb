@@ -1,11 +1,13 @@
 <div class="alert alert-warning" role="alert">
-  <div class="row">
-    <div class="col-sm-1 col-md-1 col-1 fa-left-head">
+  <div class="row ">
+    <div class="col-sm-1 col-md-1 col-2 p-1 fa-left-head text-center">
       <i class="fas fa-donate fa-lg"></i>
     </div>
-    <div class="col-sm-11 col-md-10 col-11">
-      <h5><%= t('please_donate') %></h5>
-      <%= t('donate_message', donate_link: link_to(t('click_donate'), t('url_donate'), target: '_blank', rel: 'noopener noreferrer')).html_safe %>
+    <div class="col-sm-11 col-md-11 col-10">
+      <p class="donating-title"><%= t('please_donate') %></p>
+      <p>
+        <%= t('donate_message', donate_link: link_to(t('click_donate'), t('url_donate'), target: '_blank', rel: 'noopener noreferrer')).html_safe %>
+      </p>
     </div>
   </div>
 </div>

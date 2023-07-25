@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
 
 @media (min-width: 1200px) {
   .container {
@@ -16,60 +16,51 @@ html, body {
   -webkit-overflow-scrolling: touch;
   width: 100%;
   min-width: 100%;
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-display: swap;
-  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
 img { aspect-ratio: attr(width) / attr(height); }
 
-p {
-  color: #666666;
-}
-
 p.title {
-  font-size: 21px;
-  font-weight: 450;
-}
-
-p.subtitle {
-  font-size: 18px;
-  font-weight: 450;
-  margin: 10px 0 10px 0;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 p.spaced-subtitle {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 450;
   margin: 20px 0 20px 0;
 }
 
 h1 {
   display: inline;
-  color: #666666;
-  font-size: 21px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 30px;
 }
 
 h2 {
   display: inline;
-  color: #666666;
-  font-size: 21px;
+  font-size: 23px;
   line-height: 35px;
   font-weight: 450;
+  margin-bottom: 10px;
 }
 
-h4 {
-  color: #666666;
-  font-size: 23px;
+.popular-recipes h2 {
+  display: inline;
+  font-size: 30px;
   font-weight: 600;
+  line-height: 30px;
 }
 
-ul li {
-  margin: 5px 0px 5px 0px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
+h3 {
+  display: inline;
+  font-size: 20px;
 }
 
 a {
@@ -84,21 +75,26 @@ a:hover, a:focus {
 input[type=number]{
   width: 50px;
   text-align: center;
-  color: #666666;
+  transition: background-color 5000s ease-in-out 0s;
 }
 
 /* Remove up and down arrows from type number input */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
-    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    margin: 0; 
 }
 
 /* Misc Customizations */
 .badge-label {
   margin: 3px;
-  font-size: 16px;
+  font-size: 18px;
+  padding: 2px 7px 4px;
+}
+
+.badge-label-large {
+  margin: 3px;
+  font-size: 20px;
   padding: 2px 7px 4px;
 }
 
@@ -157,14 +153,6 @@ span.bottomtip {
   padding-bottom: 25px;
 }
 
-.recipe-title h1 {
-  font-size: 25px;
-}
-
-.recipe-content h2 {
-  font-size: 19px;
-}
-
 i.icon-medium {
   position: relative;
   margin-right: 6px;
@@ -196,4 +184,9 @@ p.spaced-content {
 .fa-left-head {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.donating-title {
+  font-size: 26px;
+  font-weight: 500;
 }

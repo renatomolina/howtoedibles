@@ -1,5 +1,5 @@
 .card {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: #fafafa;
   border-radius: 10px;
   width: 100%;
@@ -34,7 +34,7 @@
 }
 
 .card-title-small {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   color: #e16a3e;
   margin-top: 13px;
@@ -43,11 +43,14 @@
 .card-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
+  color: #4b4b4b;
+  padding-bottom: 10px;
 }
 
 .card-text-small {
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4b4b4b;
 }
 
 .category-text {

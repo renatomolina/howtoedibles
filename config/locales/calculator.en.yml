@@ -18,7 +18,7 @@ en:
     step1_potency_modal_column_two: "% (potency)"
     step1_potency_modal_concentrates_quantity: "35%-95%"
     step2_title: "Step 2 - Check your dose"
-    step2_full_portion_title: 'Full recipe will have <span class="badge badge-success badge-label" id="potency-result-total">0</span> of THC'
+    step2_full_portion_title: 'Full recipe will have <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span> of THC'
     step2_half_portion_title: "Each portion will have"
     step2_low_dose: "THRESHOLD DOSE"
     step2_medium_dose: "COMMON DOSE"
@@ -27,9 +27,8 @@ en:
     step2_positive_effects_title: "Positive Effects"
     step2_negative_effects_title: "Negative Effects"
     step2_observation: "You may or may not feel all the effects listed*"
-    step3_title: "How to make "
     step3_ingredients_title: "Ingredients"
-    step3_step_by_step: "Step by step"
+    step3_step_by_step: "Directions"
     relaxation_label: "relaxation"
     stress_reduction_label: "stress reduction"
     mood_lift_label: "mood lift"
