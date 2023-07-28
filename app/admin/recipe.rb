@@ -42,10 +42,10 @@ ActiveAdmin.register Recipe do
         tab 'Ingredients & Instructions' do
           f.inputs 'Ingredients & Instructions' do
             f.label "Ingredients"
-            f.cktext_area :ingredients, label: "Ingredients"
+            f.input :ingredients, label: "Ingredients", as: :text
 
             f.label  "Instructions"
-            f.cktext_area :instructions, label: "Instructions"
+            f.input :instructions, label: "Instructions", as: :text
           end
         end
       end
