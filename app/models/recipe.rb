@@ -8,7 +8,7 @@ class Recipe < ApplicationRecord
 
   belongs_to :category
 
-  has_attached_file :photo, s3_protocol: :https, :url => "/system/documents/recipes/:id/:basename.:extension"
+  has_attached_file :photo, s3_protocol: :https
   validates_attachment_content_type :photo, content_type: /\Aimage\/.*\z/
   validates :name, :description, :ingredients, :instructions, presence: true
 
