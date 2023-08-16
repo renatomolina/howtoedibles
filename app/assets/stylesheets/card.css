@@ -37,7 +37,7 @@
 
 .card-text {
   font-weight: 400;
-  font-size: 1.3vmax;
+  font-size: 1.2vmax;
   color: #4b4b4b;
   padding: 0 0.5vmax 1vmax 0;
   text-align: left;
@@ -63,7 +63,7 @@
   font-weight: 650;
   letter-spacing: 0.1px;
   margin-top: 0.5vmax;
-  font-size: 1.7vmax;
+  font-size: 1.5vmax;
 }
 
 .card-internal {
