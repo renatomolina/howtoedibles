@@ -4,6 +4,10 @@
   .container {
     max-width: 1300px;
   }
+
+  .donating-title {
+    font-size: 1.6vmax !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -12,7 +16,7 @@
   }
 
   .donating-title {
-    font-size: 2.7vmax !important;
+    font-size: 2vmax !important;
   }
 }
 
@@ -191,7 +195,7 @@ p.spaced-content {
 }
 
 .donating-title {
-  font-size: 1.5vmax;
+  font-size: 1.8vmin;
   color: #000;
   font-weight: 600;
 }
