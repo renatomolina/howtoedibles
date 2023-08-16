@@ -12,7 +12,7 @@
         <div class="col-sm-3">
           <%= link_to recipe_path(recipe.slug) do %>
             <div class="card">
-                <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name, width: 260, height: 173) %>
+                <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
                   <p class="card-text"><%= recipe.description %></p>
@@ -32,7 +32,7 @@
         <div class="col-sm-3">
           <%= link_to recipe_path(recipe.slug) do %>
             <div class="card">
-                <%= image_tag(recipe.photo.url, alt: recipe.name, width: 260, height: 173) %>
+                <%= image_tag(recipe.photo.url, alt: recipe.name, class: 'card-img-top') %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
                   <p class="card-text"><%= recipe.description %></p>
@@ -50,16 +50,14 @@
     <% recipes.each do |recipe| %>
       <%= link_to recipe_path(recipe.slug) do %>
         <div class="card">
-          <div class="row no-gutters">
-            <div class="col-auto">
-              <%= image_tag(recipe.photo.url, class: 'img-fluid card-img-left', alt: recipe.name, width: 260, height: 173) %>
+          <div class="card-internal mb-2">
+            <div class="ml-2 mt-2">
+              <%= image_tag(recipe.photo.url, class: 'card-img-left', alt: recipe.name, width: 260, height: 260) %>
             </div>
-            <div class="col">
-              <div class="card-block">
-                <p class="card-title-small"><%= recipe.name %></p>
-                <p class="card-text-small"><%= recipe.description %></p>
-                <p class="card-text-small"><small class="category-text"><%= recipe.category.name %></small></p>
-              </div>
+
+            <div class="card-block ml-2 mr-1">
+              <p class="card-category pt-2"><%= recipe.category.name %></p>
+              <p class="card-title"><%= recipe.name %></p>
             </div>
           </div>
         </div>
