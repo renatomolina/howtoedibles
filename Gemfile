@@ -22,6 +22,7 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'will_paginate-bootstrap4'
 gem 'validates_email_format_of'
 gem 'feature'
+gem "recaptcha", require: "recaptcha/rails"
 
 # Assets
 gem 'jquery-rails', '4.3.3'

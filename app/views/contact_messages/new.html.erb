@@ -16,7 +16,8 @@
 
       <%= f.text_area :body, class:'form-control', placeholder:t('.body_placeholder'), style:'height:150px' %><br />
 
+      <%= recaptcha_tags %>
       <%= f.submit t('.send_button_label'), class:'btn btn-primary contact-btn' %>
-      <% end %>
+    <% end %>
   </div>
 </div>
