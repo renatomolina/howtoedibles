@@ -22,4 +22,6 @@
 
 .DS_Store
 
-.env 
+.env
+
+public/system

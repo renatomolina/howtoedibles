@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+@import url('https://fonts.cdnfonts.com/css/poppins');
 
 @media (min-width: 1200px) {
   .container {
@@ -24,13 +24,11 @@
 
 html, body {
   -webkit-overflow-scrolling: touch;
-  width: 100%;
-  min-width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 img { aspect-ratio: attr(width) / attr(height); }
@@ -57,7 +55,7 @@ h2 {
   display: inline;
   font-size: 23px;
   line-height: 35px;
-  font-weight: 450;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -69,8 +67,8 @@ h2 {
 }
 
 h3 {
-  display: inline;
-  font-size: 20px;
+  font-size: 1.15rem;
+  font-weight: 500;
 }
 
 a {
@@ -98,14 +96,8 @@ input::-webkit-inner-spin-button {
 /* Misc Customizations */
 .badge-label {
   margin: 3px;
-  font-size: 18px;
-  padding: 2px 7px 4px;
-}
-
-.badge-label-large {
-  margin: 3px;
-  font-size: 20px;
-  padding: 2px 7px 4px;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .badge-success {
@@ -114,10 +106,6 @@ input::-webkit-inner-spin-button {
 
 .harm-reduction-box {
   margin: 20px 30px 60px 20px;
-}
-
-.padding-bottom {
-  padding-bottom: 50px;
 }
 
 .text-center {
@@ -157,10 +145,6 @@ span.bottomtip {
 
 .ads {
   margin: 10px auto 30px auto;
-}
-
-.popular-recipe-title {
-  padding-bottom: 25px;
 }
 
 i.icon-medium {

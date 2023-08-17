@@ -1,15 +1,37 @@
-.fa-chevron-circle-down:hover { color: darkorange; }
-.fa-chevron-circle-up:hover { color: darkgreen; }
+.fa-minus-circle:hover { color: darkorange; }
+.fa-plus-circle:hover { color: darkgreen; }
 
-.calculator-item { min-height: 117px; margin-top: 20px; }
-.calculator-item-large { min-height: 141px !important; }
+.calculator-item { margin-top: 1vmax; }
 
-#green-bar { width: 100%; }
+#green-bar { 
+  display: flex;
+  width: 100%;
+}
+
 #green-bar .slider-selection, #green-bar .slider-handle { background: #5cb85c; }
 
-.calculator-input { text-align: center; }
+.calculator-control {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: end;
+}
+
+.calculator-input { 
+  display: flex;
+  align-items: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
 
 .slider-track {
-  background-image: linear-gradient(to bottom, #e3e3e3 0, #e3e3e3 100%);
+  background-image: linear-gradient(to bottom, #e8e8e8 0, #e3e3e3 100%);
   box-shadow: inset 0px 0px 0px #999;
+}
+
+.average-tip {
+  display: flex;
+  align-items: center;
 }

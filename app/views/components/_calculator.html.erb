@@ -2,8 +2,10 @@
   # Locals: suggested_quantity, suggested_portion, suggested_potency
 %>
 <div id="calculator-widget">
-  <div class="calculator-item">
-    <h3><%= t('calculator.step1_weed_quantity') %></h3>
+  <div class="calculator-item pt-1">
+    <div class="pb-1">
+      <h3><%= t('calculator.step1_weed_quantity') %></h3>
+    </div>
     <input id="grams-slider"
       type="text"
       data-slider-id="green-bar"
@@ -11,31 +13,30 @@
       data-slider-max="28"
       data-slider-step="0.1"
       data-slider-value="<%= suggested_quantity %>"
-      data-slider-tooltip="hide"/>
+      data-slider-tooltip="hide" />
 
-      <div class="text-right">
-        <p>
-          <a href="#" id="decrease-quantity">
-            <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
-          </a>
-          <input id="grams-input" type="number" step="any" class="calculator-input" onchange="updateQuantity(this.value)"> </input><span id="grams-quantity-label"></span>
-          <a href="#" id="increase-quantity">
-            <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
-          </a>
-        </p>
-      </div>
+    <div class="calculator-control mt-2 mb-3">
+      <a href="#" id="decrease-quantity">
+        <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
+      </a>
+      <input id="grams-input" type="number" step="any" class="calculator-input mr-1 ml-1" onchange="updateQuantity(this.value)"> </input><span id="grams-quantity-label" class="mr-1"></span>
+      <a href="#" id="increase-quantity">
+        <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
+      </a>
+    </div>
   </div>
 
-  <div class="calculator-item-large">
+  <div class="calculator-item-large pt-1">
     <h3><%= t('calculator.step1_weed_intensity') %></h3>
-    <p>
+    <div class="average-tip mb-2">
       <span class="bottomtip"><%= t('calculator.step1_weed_intensity_average') %></span>
-      <a class="label-calculator" data-toggle="modal" href="#" data-target="#myModal">
+      <a class="label-calculator ml-1 mb-1" data-toggle="modal" href="#" data-target="#myModal">
         <span class="badge badge-success">
           <%= t('calculator.step1_potency_dont_know') %>
         </span>
       </a>
-    </p>
+    </div>
+
     <input id="strength-slider"
           type="text"
           data-slider-id="green-bar"
@@ -46,19 +47,21 @@
           data-slider-tooltip="hide"/>
 
     <%= render "recipes/modal_potency" %>
-    <p class="text-right">
+    <div class="calculator-control mt-1 mb-3">
       <a href="#" id="decrease-strength">
         <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
       </a>
-      <input id="strength-input" type="number" step="any" class="calculator-input" onchange="updateStrength(this.value)"></input> % THC
-      <a href="#" id="increase-strength">
+      <input id="strength-input" type="number" step="any" class="calculator-input mr-1 ml-1" onchange="updateStrength(this.value)"></input> % THC 
+      <a href="#" id="increase-strength" class="ml-1">
         <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
       </a>
-    </p>
+    </div>
   </div>
 
-  <div class="calculator-item">
-    <h3><%= t('calculator.step1_weed_portions') %></h3>
+  <div class="calculator-item pt-1">
+    <div class="pb-1">
+      <h3><%= t('calculator.step1_weed_portions') %></h3>
+    </div>
     <input id="portion-slider"
         type="text"
         data-slider-id="green-bar"
@@ -68,16 +71,14 @@
         data-slider-value="<%= suggested_portion %>"
         data-slider-tooltip="hide"/>
 
-    <div class="text-right">
-      <p>
-        <a href="#" id="decrease-servings">
-          <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
-        </a>
-        <input id="portion-input" type="number" step="any" class="calculator-input" onchange="updatePortion(this.value)"></input> <span id="portion-label">portions</span>
-        <a href="#" id="increase-servings">
-          <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
-        </a>
-      </p>
+    <div class="calculator-control mt-1">
+      <a href="#" id="decrease-servings">
+        <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
+      </a>
+      <input id="portion-input" type="number" step="any" class="calculator-input mr-1 ml-1" onchange="updatePortion(this.value)"></input> <span id="portion-label" class="mr-1">portions</span>
+      <a href="#" id="increase-servings">
+        <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
+      </a>
     </div>
   </div>
 </div>

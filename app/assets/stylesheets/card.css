@@ -7,7 +7,7 @@
 
   .card-title {
     margin-top: 0vmax;
-    font-size: 2.5vmax !important;
+    font-size: 1.2rem !important;
   }
 
   .card-category {
@@ -37,7 +37,6 @@
 
 .card-text {
   font-weight: 400;
-  font-size: 1.4vh;
   color: #4b4b4b;
   padding: 0 0.5vmax 1vmax 0;
   text-align: left;
@@ -60,10 +59,10 @@
 
 .card-title {
   text-transform: capitalize;
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: 0.1px;
   margin-top: 0.5vmax;
-  font-size: 1.5vmax;
+  font-size: 1.3rem;
 }
 
 .card-internal {
