@@ -1,8 +1,6 @@
 .fa-minus-circle:hover { color: darkorange; }
 .fa-plus-circle:hover { color: darkgreen; }
 
-.calculator-item { margin-top: 1vmax; }
-
 #green-bar { 
   display: flex;
   width: 100%;

@@ -2,9 +2,7 @@
   <h1><%= t(:calculator_title) %></h1>
   <div class="row">
     <div class="col-sm-6 pb-3">
-      <div>
-        <%= render 'components/calculator', { suggested_quantity: 4, suggested_portion: 10, suggested_potency: 14 } %>
-      </div>
+      <%= render 'components/calculator', { suggested_quantity: 4, suggested_portion: 10, suggested_potency: 14 } %>
     </div>
     <div class="col-sm-6">
       <%= render 'components/dosage' %>

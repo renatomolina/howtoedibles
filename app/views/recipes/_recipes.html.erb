@@ -11,7 +11,7 @@
       <% recipes.each do |recipe| %>
         <div class="col-sm-3">
           <%= link_to recipe_path(recipe.slug) do %>
-            <div class="card">
+            <div class="card mb-2">
                 <%= image_tag(recipe.photo.url,  class: 'card-img-top', alt: recipe.name) %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
@@ -31,7 +31,7 @@
       <% recipes.each do |recipe| %>
         <div class="col-sm-3">
           <%= link_to recipe_path(recipe.slug) do %>
-            <div class="card">
+            <div class="card mb-2">
                 <%= image_tag(recipe.photo.url, alt: recipe.name, class: 'card-img-top') %>
                 <div class="card-block">
                   <p class="card-title"><%= recipe.name %></p>
@@ -49,7 +49,7 @@
   <div class="d-block d-sm-none d-sm-block d-md-none">
     <% recipes.each do |recipe| %>
       <%= link_to recipe_path(recipe.slug) do %>
-        <div class="card">
+        <div class="card mb-2">
           <div class="card-internal mb-2">
             <div class="ml-2 mt-2">
               <%= image_tag(recipe.photo.url, class: 'card-img-left', alt: recipe.name, width: 260, height: 260) %>

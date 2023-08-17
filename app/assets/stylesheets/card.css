@@ -6,17 +6,15 @@
   }
 
   .card-title {
-    margin-top: 0vmax;
     font-size: 1.2rem !important;
   }
 
   .card-category {
-    font-size: 1.7vmax !important;
+    font-size: 0.9rem !important;
   }
 }
 
 .card {
-  margin-bottom: 1vmax;
   background-color: #fafafa;
   border-radius: 10px;
 }
