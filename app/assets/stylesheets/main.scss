@@ -29,6 +29,9 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1rem;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 img { aspect-ratio: attr(width) / attr(height); }

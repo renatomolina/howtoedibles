@@ -5,6 +5,7 @@ class PublicPagesController < ApplicationController
 
   def show
     raise ActionController::RoutingError.new('Not Found') unless pages_allowed.include?(template_name)
+
     render template: "public_pages/#{template_name}", layout: 'application'
   end
 
@@ -15,6 +16,6 @@ class PublicPagesController < ApplicationController
   end
 
   def pages_allowed
-    ['about', 'edible_dosage_calculator', 'hiring']
+    ['about', 'edible_dosage_calculator', 'hiring', 'how_to_prevent_a_bad_trip', 'how_a_cannabis_calculator_works']
   end
 end

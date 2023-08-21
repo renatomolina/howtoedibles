@@ -1,0 +1,62 @@
+<footer class="footer">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6 col-lg-1 mb-md-0">
+            <h2 class="footer-heading d-flex">
+               <span class="icon d-flex align-items-center justify-content-center"> <i class="fa fa-adjusts" aria-hidden="true"></i></span>
+            </h2>
+            <div class="block-23 mb-3">
+            </div>
+         </div>
+         <div class="col-md-6 col-lg-5 mb-md-0">
+            <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-ios-list-box"></i></span>Latest News</h2>
+            <div class="block-21 mb-4 d-flex highlighted-articles">
+              <%= link_to '/how-a-cannabis-calculator-works', class: 'highlight-news-date-icon' do %>              
+                <i class="mr-3 mt-3 fa fa-lg fa-calculator" aria-hidden="true"></i>
+              <% end %>
+              <div class="text">
+                <h3 class="heading"><%= link_to 'How a cannabis calculator works?', '/how-a-cannabis-calculator-works', class: 'hightlight-news-link' %></h3>
+                <div class="meta">
+                    <div>
+                      <%= link_to '/how-a-cannabis-calculator-works', class: 'highlight-news-date' do %>
+                        <i class="fa-regular fa-calendar"></i> Aug. 20, 2023</a>
+                      <% end %>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="block-21 mb-4 d-flex">
+              <%= link_to '/how-to-prevent-a-bad-trip', class: 'highlight-news-date-icon' do %>              
+                <i class="mr-3 mt-3 fa-solid fa-lg fa-square-person-confined"></i>
+              <% end %>
+              <div class="text">
+                <h3 class="heading"><%= link_to 'How to prevent a bad trip?', '/how-to-prevent-a-bad-trip', class: 'hightlight-news-link' %></h3>
+                <div class="meta">
+                    <div>
+                      <%= link_to '/how-to-prevent-a-bad-trip', class: 'highlight-news-date highlight-news-date-icon' do %>
+                        <i class="fa-regular fa-calendar"></i> Aug. 20, 2023</a>
+                      <% end %>
+                    </div>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+            <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"><i class="ion-ios-document"></i></span>Resources</h2>
+            <ul class="list-unstyled">
+               <li><%= link_to 'About', '#', class: 'footer-link-section' %></li>
+               <li class="mt-2"><%= link_to 'Contact', '#', class: 'footer-link-section' %></li>
+               <li class="mt-2"><%= link_to 'Bad trip chat', 'https://bit.ly/helpimhavingabadtrip', class: 'footer-link-section' %></li>
+            </ul>
+         </div>
+         <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+            <h2 class="footer-heading d-flex align-items-center"><span class="icon d-flex align-items-center justify-content-center"></span> Get in touch</h2>
+            <ul class="list-unstyled">
+               <li><i class="fa-brands fa-instagram"></i> <%= link_to 'Instagram', 'https://instagram.com/howtoedibles', target: '_blank', class: 'footer-link-section' %></li>
+               <li class="mt-2"><i class="fa-brands fa-facebook"></i> <%= link_to 'Facebook', 'https://facebook.com/howtoedibles', target: '_blank', class: 'footer-link-section' %></li>
+               <li class="mt-2"><i class="fa-solid fa-message"></i></i> <%= link_to 'Contact', new_contact_message_path, target: '_blank', class: 'footer-link-section' %></li>
+            </ul>
+         </div>
+      </div>  
+   </div>
+</footer>

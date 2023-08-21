@@ -25,14 +25,6 @@
             </div>
           </li>
         <% end %>
-        <% if I18n.locale == :en %>
-          <li class="nav-item dropdown">
-            <%= link_to 'About', public_pages_path('about'), class: 'nav-link' %>
-          </li>
-        <% end %>
-        <li class="nav-item dropdown">
-          <%= link_to 'Contact', new_contact_message_path, class: 'nav-link' %>
-        </li>
       </ul>
     </div>
   </div>

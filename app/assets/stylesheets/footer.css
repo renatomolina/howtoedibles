@@ -1,0 +1,21 @@
+footer {
+  background-color: #f8f9fa !important;
+  border:1px solid #dbdbdb !important;
+  padding: 25px 0 0 0;
+}
+
+.hightlight-news-link {
+  color: #000 !important;
+}
+
+.highlight-news-date {
+  color: #5a5a5a !important;
+}
+
+.highlight-news-date-icon {
+  color: #323232 !important;
+}
+
+.footer-link-section {
+  color: #323232;
+}
