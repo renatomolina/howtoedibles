@@ -1,5 +1,5 @@
 <%# Locals: recipe %>
-<div class="recipe-title pt-4 pb-4">
+<div class="recipe-title pb-4">
   <h1>
     How to make <%= recipe.name.capitalize.camelcase %>
   </h1>
@@ -22,8 +22,6 @@
     <%= recipe.instructions.html_safe %>
   </div>
 </div>
-
-<p><%= render 'commons/facebook_share_widget' %></p>
 
 <% if recipe.video? %>
   <div class="video-container">
