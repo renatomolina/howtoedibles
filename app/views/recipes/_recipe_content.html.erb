@@ -1,33 +1,34 @@
 <%# Locals: recipe %>
-<div class="recipe-title pb-4">
-  <h1>
-    How to make <%= recipe.name.capitalize.camelcase %>
-  </h1>
-</div>
+<div class="pb-4">
+  <div class="recipe-title pb-4">
+    <h1>
+      How to make <%= recipe.name.capitalize.camelcase %>
+    </h1>
+  </div>
 
-<div class="recipe-content">
-  <div class="ingredients-container mb-4">
-    <div class="mb-2">
-      <i class="fa fa-utensils fa-lg orange icon-medium" aria-hidden="true"></i>
-      <h2 class><%= t('calculator.step3_ingredients_title') %></h2>
+  <div class="recipe-content">
+    <div class="ingredients-container mb-4">
+      <div class="mb-2">
+        <i class="fa fa-utensils fa-lg orange icon-medium" aria-hidden="true"></i>
+        <h2 class><%= t('calculator.step3_ingredients_title') %></h2>
+      </div>
+      <%= recipe.ingredients.html_safe %>
     </div>
-    <%= recipe.ingredients.html_safe %>
-  </div>
 
-  <div class="directions-container mb-1">
-    <div class="mt-2 mb-2">
-      <i class="fa fa-list-ol fa-lg orange icon-medium" aria-hidden="true"></i>
-      <h2><%= t('calculator.step3_step_by_step') %></h2>
+    <div class="directions-container mb-1">
+      <div class="mt-2 mb-2">
+        <i class="fa fa-list-ol fa-lg orange icon-medium" aria-hidden="true"></i>
+        <h2><%= t('calculator.step3_step_by_step') %></h2>
+      </div>
+      <%= recipe.instructions.html_safe %>
     </div>
-    <%= recipe.instructions.html_safe %>
   </div>
+
+  <% if recipe.video? %>
+    <div class="video-container">
+      <a href="#" class="thumbnail">
+        <iframe width="100%" height="300px" src="<%= recipe.video %>" frameborder="0" allowfullscreen></iframe>
+      </a>
+    </div>
+  <% end %>
 </div>
-
-<% if recipe.video? %>
-  <div class="video-container">
-    <a href="#" class="thumbnail">
-      <iframe width="100%" height="300px" src="<%= recipe.video %>" frameborder="0" allowfullscreen></iframe>
-    </a>
-  </div>
-<% end %>
-
