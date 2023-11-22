@@ -18,8 +18,8 @@ gem "paperclip", "~> 5.3.0"
 gem 'aws-sdk', '~> 3.0.2'
 gem 'sentry-raven'
 gem 'rubocop', '~> 0.76.0', require: false
-gem 'will_paginate', '~> 3.1.0'
-gem 'will_paginate-bootstrap4'
+gem 'will_paginate', '~> 4.0'
+gem 'will_paginate-bootstrap-style'
 gem 'validates_email_format_of'
 gem 'feature'
 gem "recaptcha", require: "recaptcha/rails"

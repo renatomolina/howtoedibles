@@ -7,7 +7,7 @@ class RecipesController < ApplicationController
   end
 
   def index
-    @recipes = Recipe.published.order(position: :asc).includes(:category).paginate(page: params[:page], per_page: 12)
+    @recipes = Recipe.published.order(position: :asc).includes(:category).paginate(page: params[:page], per_page: 12).group(:id)
     @suggested_portion = Recipe::DEFAULT_PORTION
     @suggested_quantity = Recipe::DEFAULT_QUANTITY
     @suggested_potency = Recipe::DEFAULT_POTENCY
