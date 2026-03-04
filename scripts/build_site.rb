@@ -25,10 +25,16 @@ puts "Building site from #{RECIPES.count} recipes across #{CATEGORIES.count} cat
 # Helpers
 # ─────────────────────────────────────────────
 
+SITE_URL  = "https://www.howtoedibles.com"
 GA_ID = "UA-90858722-1"
 ADSENSE_PUBLISHER = "ca-pub-6354522716906819"
 SLOT_LEADERBOARD  = "4353785890"
 SLOT_MEDIUM       = "5475295879"
+
+# Strip HTML tags and return array of plain-text list items
+def extract_li_texts(html)
+  html.scan(/<li[^>]*>(.*?)<\/li>/mi).map { |m| m[0].gsub(/<[^>]+>/, "").strip }.reject(&:empty?)
+end
 
 def adsense_loader_script
   <<~HTML
@@ -62,7 +68,11 @@ def analytics_script
   HTML
 end
 
-def html_head(title:, description:, canonical:, og_image: "https://www.howtoedibles.com/images/pot-brownies.jpg")
+def html_head(title:, description:, canonical:, og_image: "#{SITE_URL}/images/pot-brownies.jpg",
+              og_type: "website", schema_json: nil, keywords: nil)
+  default_keywords = "edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles"
+  kw = keywords ? "#{keywords}, #{default_keywords}" : default_keywords
+  schema_tag = schema_json ? "<script type=\"application/ld+json\">\n#{schema_json}\n</script>" : ""
   <<~HTML
     <head>
       <meta charset="utf-8" />
@@ -73,8 +83,8 @@ def html_head(title:, description:, canonical:, og_image: "https://www.howtoedib
       <link rel="icon" type="image/x-icon" href="/favicon_385_icon.ico" />
 
       <!-- Open Graph -->
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Edibles Dosage Calculator" />
+      <meta property="og:type" content="#{og_type}" />
+      <meta property="og:site_name" content="HowToEdibles" />
       <meta property="og:title" content="#{CGI.escapeHTML(title)}" />
       <meta property="og:description" content="#{CGI.escapeHTML(description)}" />
       <meta property="og:image" content="#{og_image}" />
@@ -86,8 +96,11 @@ def html_head(title:, description:, canonical:, og_image: "https://www.howtoedib
       <meta name="twitter:description" content="#{CGI.escapeHTML(description)}" />
       <meta name="twitter:image" content="#{og_image}" />
 
-      <meta name="keywords" content="edible dosage calculator, how much weed for edibles, thc calculator, edible, edible potency calculator, edible dosage, cannabutter, pot calculator, cannabis, marijuana, weed, dose, dosage, calculator" />
+      <meta name="keywords" content="#{CGI.escapeHTML(kw)}" />
       <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
+
+      <!-- Structured Data -->
+      #{schema_tag}
 
       <!-- Bootstrap 4 -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
@@ -479,7 +492,48 @@ def build_recipe_page(recipe)
   canonical   = "https://www.howtoedibles.com/recipes/#{slug}/"
   og_image    = "https://www.howtoedibles.com#{img_src}"
 
-  title = "#{CGI.escapeHTML(name)} Recipe | HowToEdibles"
+  title       = "#{name} Cannabis Edibles Recipe | HowToEdibles"
+  title       = title[0, 60] + "…" if title.length > 62  # keep under 62 chars
+
+  # ── Structured data ──────────────────────────────────────
+  ingredients_list = extract_li_texts(recipe["ingredients"] || "")
+  instructions_list = extract_li_texts(recipe["instructions"] || "")
+  how_to_steps = instructions_list.map.with_index(1) do |text, i|
+    { "@type" => "HowToStep", "position" => i, "text" => text }
+  end
+
+  recipe_schema = {
+    "@context"         => "https://schema.org",
+    "@type"            => "Recipe",
+    "name"             => name,
+    "description"      => description,
+    "image"            => "#{SITE_URL}#{img_src}",
+    "author"           => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE_URL },
+    "publisher"        => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE_URL },
+    "datePublished"    => "2024-01-01",
+    "dateModified"     => Time.now.strftime("%Y-%m-%d"),
+    "recipeCategory"   => category,
+    "keywords"         => "cannabis #{name.downcase}, weed #{name.downcase}, infused #{name.downcase}, THC edible",
+    "recipeYield"      => "#{portion.to_i} serving#{portion.to_i == 1 ? "" : "s"}",
+    "recipeIngredient" => ingredients_list,
+    "recipeInstructions" => how_to_steps,
+    "url"              => canonical
+  }
+  recipe_schema.delete("recipeIngredient")  if ingredients_list.empty?
+  recipe_schema.delete("recipeInstructions") if how_to_steps.empty?
+
+  breadcrumb_schema = {
+    "@context" => "https://schema.org",
+    "@type"    => "BreadcrumbList",
+    "itemListElement" => [
+      { "@type" => "ListItem", "position" => 1, "name" => "Home",     "item" => "#{SITE_URL}/" },
+      { "@type" => "ListItem", "position" => 2, "name" => category,   "item" => "#{SITE_URL}/" },
+      { "@type" => "ListItem", "position" => 3, "name" => name }
+    ]
+  }
+
+  schema_json = JSON.generate([recipe_schema, breadcrumb_schema])
+  keywords    = "#{name}, #{category} cannabis recipe, how to make #{name.downcase}, cannabis #{name.downcase} recipe"
 
   video_html = ""
   if recipe["video"] && !recipe["video"].empty?
@@ -573,9 +627,12 @@ def build_recipe_page(recipe)
 
   head = html_head(
     title:       title,
-    description: description,
+    description: description.empty? ? "Learn how to make cannabis #{name} with our step-by-step recipe and built-in THC dosage calculator." : description,
     canonical:   canonical,
-    og_image:    og_image
+    og_image:    og_image,
+    og_type:     "article",
+    schema_json: schema_json,
+    keywords:    keywords
   )
 
   page = wrap_page(
@@ -588,33 +645,190 @@ def build_recipe_page(recipe)
 end
 
 def build_calculator_page
-  title       = "Edible Dosage Calculator - How Potent Are Your Edibles?"
-  description = "Free edible dosage calculator. Find out exactly how many mg of THC are in each portion of your cannabis edibles."
-  canonical   = "https://www.howtoedibles.com/calculator.html"
+  title       = "Edible Dosage Calculator — Calculate THC mg Per Serving | HowToEdibles"
+  description = "Free cannabis edible dosage calculator. Enter your weed amount, potency %, and number of servings to instantly find mg of THC per portion. Start low, go slow."
+  canonical   = "#{SITE_URL}/calculator.html"
+
+  # ── FAQ data (also powers FAQPage schema) ────────────────
+  faqs = [
+    {
+      q: "How many mg of THC should a beginner take in an edible?",
+      a: "Beginners should start with 2.5–5 mg of THC. This is a microdose that produces mild effects without overwhelming anxiety. Wait at least 2 hours before taking more, as edibles take longer to kick in than smoking."
+    },
+    {
+      q: "How long do edibles take to kick in?",
+      a: "Cannabis edibles typically take 30 minutes to 2 hours to kick in, depending on your metabolism, body weight, and whether you've eaten recently. The effects can last 4–8 hours, much longer than smoking."
+    },
+    {
+      q: "How do you calculate the dosage of cannabis edibles?",
+      a: "Use the formula: P = 10 × (G × S) / N, where G = grams of cannabis, S = potency percentage, N = number of servings, and P = mg of THC per serving. For example, 3.5g of 20% cannabis divided into 20 servings = 35 mg each."
+    },
+    {
+      q: "Why are edibles stronger than smoking weed?",
+      a: "When you eat cannabis, your liver converts THC into 11-hydroxy-THC, a more potent compound that crosses the blood-brain barrier more effectively. This makes edibles significantly stronger and longer-lasting than inhaled THC."
+    },
+    {
+      q: "What happens if you eat too many edibles?",
+      a: "Overconsumption of cannabis edibles can cause intense anxiety, paranoia, rapid heartbeat, and disorientation. These effects are temporary and not life-threatening. If this happens: stay calm, drink water, lie down in a comfortable place, and remember the feeling will pass. Use our calculator before consuming to avoid this."
+    },
+    {
+      q: "Does the amount of butter or oil matter for edible potency?",
+      a: "No. The potency of your edibles depends only on the amount of cannabis used, its THC percentage, and the number of servings. The quantity of butter or oil you use affects texture, not potency. Our calculator reflects this exactly."
+    }
+  ]
+
+  # ── WebApplication + FAQPage schemas ─────────────────────
+  webapp_schema = {
+    "@context"            => "https://schema.org",
+    "@type"               => "WebApplication",
+    "name"                => "Cannabis Edible Dosage Calculator",
+    "url"                 => canonical,
+    "description"         => description,
+    "applicationCategory" => "HealthApplication",
+    "operatingSystem"     => "Any",
+    "browserRequirements" => "Requires JavaScript",
+    "offers"              => { "@type" => "Offer", "price" => "0", "priceCurrency" => "USD" },
+    "creator"             => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE_URL }
+  }
+
+  faq_schema = {
+    "@context"   => "https://schema.org",
+    "@type"      => "FAQPage",
+    "mainEntity" => faqs.map do |f|
+      {
+        "@type"          => "Question",
+        "name"           => f[:q],
+        "acceptedAnswer" => { "@type" => "Answer", "text" => f[:a] }
+      }
+    end
+  }
+
+  schema_json = JSON.generate([webapp_schema, faq_schema])
+
+  # ── Popular recipes for internal linking ──────────────────
+  featured_slugs = %w[cannabutter pot-brownies pot-cookies gummy-bears infused-coconut-oil infused-lemonade]
+  featured = RECIPES.select { |r| featured_slugs.include?(r["slug"]) }
+  recipe_links = featured.map do |r|
+    "<a href=\"/recipes/#{r["slug"]}/\" class=\"calc-recipe-chip\">#{CGI.escapeHTML(r["name"])}</a>"
+  end.join("\n")
+
+  # ── Dosage guide rows ─────────────────────────────────────
+  dosage_rows = [
+    ["Microdose",    "1–2.5 mg",   "No or barely noticeable effect. Good for first-timers.",           "table-success"],
+    ["Beginner",     "2.5–5 mg",   "Mild relaxation, light euphoria. Ideal starting dose.",            "table-success"],
+    ["Casual",       "5–15 mg",    "Clear euphoria, altered perception. Common recreational dose.",     ""],
+    ["Experienced",  "15–30 mg",   "Strong effects, may cause anxiety in low-tolerance users.",         "table-warning"],
+    ["High dose",    "30–50 mg",   "Very intense. Recommended only for high-tolerance users.",          "table-warning"],
+    ["Extreme",      "50+ mg",     "Overwhelming for most people. Medical patients only.",              "table-danger"],
+  ]
+
+  dosage_table_rows = dosage_rows.map do |level, dose, effect, cls|
+    "<tr class=\"#{cls}\"><td><strong>#{level}</strong></td><td>#{dose}</td><td>#{effect}</td></tr>"
+  end.join("\n")
+
+  # ── FAQ HTML ──────────────────────────────────────────────
+  faq_items = faqs.map.with_index do |f, i|
+    <<~HTML
+      <div class="calc-faq-item">
+        <button class="calc-faq-question" data-target="faq-#{i}" aria-expanded="false">
+          #{CGI.escapeHTML(f[:q])}
+          <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+        </button>
+        <div class="calc-faq-answer" id="faq-#{i}">
+          <p>#{CGI.escapeHTML(f[:a])}</p>
+        </div>
+      </div>
+    HTML
+  end.join("\n")
+
+  faq_toggle_script = <<~JS
+    <script>
+      document.querySelectorAll('.calc-faq-question').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var target = document.getElementById(this.dataset.target);
+          var open = target.classList.toggle('open');
+          this.setAttribute('aria-expanded', open);
+          this.querySelector('.calc-faq-chevron').style.transform = open ? 'rotate(180deg)' : '';
+        });
+      });
+    </script>
+  JS
+
+  # ── Right column rich content ─────────────────────────────
+  content_col = <<~HTML
+    <article class="calc-info-col">
+      <h1 class="calc-page-title">Cannabis Edible Dosage Calculator</h1>
+      <p class="calc-page-intro">
+        Use this free calculator to find out exactly how many <strong>milligrams of THC</strong> are in each portion of your cannabis edibles — before you cook. Enter your cannabis amount, strength, and number of servings. Instant, accurate results.
+      </p>
+
+      <h2 class="calc-section-title mt-4">THC Dosage Guide</h2>
+      <p class="calc-section-sub">How many mg is the right dose for you?</p>
+      <div class="table-responsive mb-4">
+        <table class="table table-sm calc-dosage-table">
+          <thead>
+            <tr><th>Level</th><th>THC per serving</th><th>Expected effects</th></tr>
+          </thead>
+          <tbody>
+            #{dosage_table_rows}
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="calc-section-title">How to Use the Calculator</h2>
+      <ol class="calc-steps-list">
+        <li>Enter the <strong>grams of cannabis</strong> you plan to use.</li>
+        <li>Set the <strong>THC percentage</strong> (check your dispensary label, or use the "Not sure?" guide).</li>
+        <li>Enter the <strong>number of servings</strong> your recipe makes.</li>
+        <li>The calculator instantly shows <strong>mg THC per serving</strong> and total potency.</li>
+      </ol>
+      <p class="mt-2"><a href="/how-a-cannabis-calculator-works.html">How does the math work? →</a></p>
+
+      <h2 class="calc-section-title mt-4">Try It With a Recipe</h2>
+      <p class="calc-section-sub">Open any recipe to pre-fill the calculator with suggested amounts:</p>
+      <div class="calc-recipe-chips mb-4">
+        #{recipe_links}
+        <a href="/" class="calc-recipe-chip calc-recipe-chip--more">All recipes →</a>
+      </div>
+
+      <h2 class="calc-section-title mt-4">Frequently Asked Questions</h2>
+      <div class="calc-faq">
+        #{faq_items}
+      </div>
+
+      <p class="sidenote mt-4">
+        <i class="fa fa-shield-alt orange mr-1"></i>
+        Always start low and go slow. Wait at least 2 hours before taking more. This calculator is for educational purposes only.
+      </p>
+    </article>
+  HTML
 
   body = <<~HTML
     #{html_leaderboard_ad}
     <div class="row mt-3">
-      <div class="col-sm-5">
-        <i class="fa fa-calculator fa-lg orange icon-medium" aria-hidden="true"></i>
-        <h2>Step 1 - Calculate</h2>
-        #{html_calculator_widget(quantity: 3.5, portion: 50, potency: 14)}
-        #{html_medium_ad}
-        #{html_dosage_widget}
-      </div>
-      <div class="col-sm-7">
-        <div class="mt-4">
-          <h1>Edible Dosage Calculator</h1>
-          <p class="mt-3">Use this calculator to find out how potent your cannabis edibles will be. Enter the amount of cannabis, its strength, and the number of portions you plan to make.</p>
-          <p>The formula: <strong>P = 10 × (G × S) / N</strong></p>
-          <ul>
-            <li><strong>G</strong> = grams of cannabis</li>
-            <li><strong>S</strong> = strength of cannabis (%)</li>
-            <li><strong>N</strong> = number of servings</li>
-            <li><strong>P</strong> = potency per serving (mg THC)</li>
-          </ul>
-          <p><a href="/how-a-cannabis-calculator-works.html">Learn more about how this calculator works →</a></p>
+      <div class="col-md-5">
+        <div class="calculator-panel mb-3">
+          <div class="calculator-panel-header">
+            <i class="fa fa-calculator" aria-hidden="true"></i>
+            <span>Calculate Your Dose</span>
+          </div>
+          <div class="calculator-panel-body">
+            #{html_calculator_widget(quantity: 3.5, portion: 50, potency: 14)}
+          </div>
         </div>
+        #{html_medium_ad}
+        <div class="dosage-panel">
+          <div class="dosage-panel-header">
+            <i class="fa fa-flask" aria-hidden="true"></i>
+            <span>Check Your Dose</span>
+          </div>
+          <div class="dosage-panel-body">
+            #{html_dosage_widget_content}
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 recipe-left-col">
+        #{content_col}
       </div>
     </div>
   HTML
@@ -624,9 +838,16 @@ def build_calculator_page
       window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 50, potency: 14 };
     </script>
     <script src="/js/calculator.js"></script>
+    #{faq_toggle_script}
   JS
 
-  head = html_head(title: title, description: description, canonical: canonical)
+  head = html_head(
+    title:       title,
+    description: description,
+    canonical:   canonical,
+    keywords:    "edible dosage calculator, THC mg calculator, cannabis edible potency, how to dose edibles, weed edible calculator, marijuana edibles calculator",
+    schema_json: schema_json
+  )
 
   page = wrap_page(
     head_content:  head,

@@ -1072,3 +1072,112 @@ input[type="range"]::-moz-range-thumb {
   color: #333;
 }
 
+/* 13. Calculator Page */
+.calc-info-col { padding-left: 8px; }
+@media (max-width: 767px) { .calc-info-col { padding-left: 0; margin-top: 24px; } }
+
+.calc-page-title {
+  display: block !important;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+.calc-page-intro {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 4px;
+}
+.calc-section-title {
+  display: block !important;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+.calc-section-sub {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Dosage guide table */
+.calc-dosage-table { font-size: 0.88rem; border-radius: 8px; overflow: hidden; }
+.calc-dosage-table thead th {
+  background: #f27242;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: none;
+  padding: 10px 12px;
+}
+.calc-dosage-table td { padding: 9px 12px; vertical-align: middle; border-color: #f0f0f0; }
+.calc-dosage-table tr.table-success td { background: #f0fff0; }
+.calc-dosage-table tr.table-warning td { background: #fffbe6; }
+.calc-dosage-table tr.table-danger  td { background: #fff0f0; }
+
+/* How-to steps */
+.calc-steps-list {
+  padding-left: 20px;
+  font-size: 0.93rem;
+  line-height: 1.75;
+  color: #333;
+}
+.calc-steps-list li { margin-bottom: 4px; }
+
+/* Recipe chips */
+.calc-recipe-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.calc-recipe-chip {
+  display: inline-block;
+  background: #fff3ee;
+  color: #f27242 !important;
+  border: 1px solid #fce0d4;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 0.83rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.calc-recipe-chip:hover { background: #f27242; color: #fff !important; text-decoration: none; }
+.calc-recipe-chip--more { background: #f8f8f8; color: #555 !important; border-color: #ddd; }
+.calc-recipe-chip--more:hover { background: #f27242; color: #fff !important; }
+
+/* FAQ accordion */
+.calc-faq { border: 1px solid #e8e8e8; border-radius: 12px; overflow: hidden; }
+.calc-faq-item { border-bottom: 1px solid #eee; }
+.calc-faq-item:last-child { border-bottom: none; }
+.calc-faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #fafafa;
+  border: none;
+  padding: 14px 18px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-family: inherit;
+}
+.calc-faq-question:hover { background: #fff5f0; color: #f27242; }
+.calc-faq-chevron { font-size: 0.75rem; color: #aaa; flex-shrink: 0; margin-left: 10px; transition: transform 0.2s; }
+.calc-faq-answer {
+  display: none;
+  padding: 0 18px 14px;
+  font-size: 0.91rem;
+  color: #555;
+  line-height: 1.7;
+  background: #fff;
+}
+.calc-faq-answer.open { display: block; }
+.calc-faq-answer p { margin: 10px 0 0; }
+
