@@ -99,6 +99,15 @@ document.addEventListener('DOMContentLoaded', function () {
     var display = fixed ? parseFloat(value).toFixed(1) : parseInt(value);
     if (input  && String(input.value)  !== String(display)) input.value  = display;
     if (slider && parseFloat(slider.value) !== parseFloat(value)) slider.value = value;
+    if (slider) updateSliderFill(slider);
+  }
+
+  function updateSliderFill(slider) {
+    var min = parseFloat(slider.min) || 0;
+    var max = parseFloat(slider.max) || 100;
+    var val = parseFloat(slider.value) || 0;
+    var pct = ((val - min) / (max - min)) * 100;
+    slider.style.background = 'linear-gradient(to right, #f27242 ' + pct + '%, #e8e8e8 ' + pct + '%)';
   }
 
   function renderQuantityLabels() {

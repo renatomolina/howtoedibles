@@ -429,23 +429,25 @@
 
 <div class="dosage-panel">
   <div class="dosage-panel-header">
-    <i class="fa fa-flask" aria-hidden="true"></i>
-    <span>Check Your Dose</span>
+    <i class="fa fa-leaf" aria-hidden="true"></i>
+    <span>Your Dose</span>
   </div>
   <div class="dosage-panel-body">
-    <p class="mb-2 mt-2">
-  <i class="fa fa-cookie fa-lg green icon-large" aria-hidden="true"></i>
-  Full recipe: <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span>
-</p>
+    <div class="dose-cards">
+      <div class="dose-card">
+        <i class="fa fa-cookie" aria-hidden="true"></i>
+        <div class="dose-card-value" id="potency-result-total">—</div>
+        <div class="dose-card-label">Full Recipe</div>
+      </div>
+      <div class="dose-card dose-card--highlight">
+        <i class="fa fa-cookie-bite" aria-hidden="true"></i>
+        <div class="dose-card-value" id="potency-result">—</div>
+        <div class="dose-card-label">Per Portion</div>
+      </div>
+    </div>
+    <p id="highness-level" class="mb-3"></p>
 
-<p class="mb-2 mt-3">
-  <i class="fa fa-cookie-bite fa-lg green icon-large" aria-hidden="true"></i>
-  Per portion: <span class="badge badge-success badge-label" id="potency-result">0</span>
-</p>
-
-<p id="highness-level" class="mb-2 mt-3"></p>
-
-<h3 class="dosage-effects-title mt-4">
+<h3 class="dosage-effects-title mt-3">
   <i class="far fa-laugh green mr-1" aria-hidden="true"></i> Positive Effects
 </h3>
 <p class="spaced-content mt-1 pb-2" id="positive-effect-details"></p>
