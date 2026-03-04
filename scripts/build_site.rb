@@ -105,34 +105,37 @@ end
 def html_navbar
   dropdown_items = CATEGORIES.map do |cat|
     recipe_links = cat["recipes"].map do |r|
-      "          <a class=\"dropdown-item\" href=\"/recipes/#{r["slug"]}/\">#{CGI.escapeHTML(r["name"])}</a>"
+      "            <a class=\"dropdown-item\" href=\"/recipes/#{r["slug"]}/\">#{CGI.escapeHTML(r["name"])}</a>"
     end.join("\n")
 
     <<~HTML.chomp
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">#{CGI.escapeHTML(cat["name"])}</a>
-              <div class="dropdown-menu" role="menu">
-      #{recipe_links}
-              </div>
-            </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">#{CGI.escapeHTML(cat["name"])}</a>
+            <div class="dropdown-menu shadow-sm" role="menu">
+    #{recipe_links}
+            </div>
+          </li>
     HTML
   end.join("\n")
 
   <<~HTML
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fa fa-bars navbar-icon"></span>
         </button>
-        <a href="/" class="logo">
-          <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="200" height="72" class="logo-small" />
-          <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="260" height="93" class="logo-regular" />
+        <a href="/" class="navbar-brand logo-link">
+          <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="180" height="65" />
         </a>
-        <div class="nav-spacer"></div>
-        <div id="navbarMain" class="navbar-collapse collapse">
-          <ul id="nav" class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="/calculator.html" class="nav-link">Calculator</a>
+        <!-- Search — always visible, outside collapse -->
+        <div class="nav-search-wrapper mx-2">
+          <i class="fa fa-search nav-search-icon"></i>
+          <input type="search" id="recipe-search" class="nav-search-input" placeholder="Search recipes…" autocomplete="off" />
+        </div>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav ml-auto align-items-lg-center">
+            <li class="nav-item mr-lg-2">
+              <a href="/calculator.html" class="btn btn-nav-calculator">Calculator</a>
             </li>
     #{dropdown_items}
           </ul>
@@ -372,6 +375,16 @@ def wrap_page(head_content:, body_content:, extra_scripts: "")
         <!-- jQuery + Bootstrap 4 bundle -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <!-- Search redirect for non-homepage pages -->
+        <script>
+          (function(){
+            var inp = document.getElementById('recipe-search');
+            if (!inp || document.getElementById('pagination-controls')) return;
+            inp.addEventListener('keydown', function(e){
+              if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/?search=' + encodeURIComponent(q); }
+            });
+          })();
+        </script>
         #{extra_scripts}
       </body>
     </html>
@@ -396,8 +409,9 @@ def build_homepage
   # Build all recipe cards — single responsive set (works on both desktop and mobile)
   all_cards = RECIPES.map do |r|
     img_src = "#{IMAGE_BASE}/#{r["slug"]}.jpg"
+    search_data = CGI.escapeHTML("#{r["name"]} #{r["category_name"]} #{r["description"]}".downcase)
     <<~HTML.strip
-      <div class="col-12 col-sm-3 recipe-card-item">
+      <div class="col-12 col-sm-3 recipe-card-item" data-search="#{search_data}">
         <a href="/recipes/#{r["slug"]}/">
           <div class="card mb-2">
             <img src="#{img_src}" class="card-img-top" alt="#{CGI.escapeHTML(r["name"])}" loading="lazy" />
@@ -424,6 +438,7 @@ def build_homepage
       #{all_cards}
     </div>
 
+    <div id="search-no-results">No recipes found. Try a different search.</div>
     <div id="pagination-controls" class="mt-3 mb-4"></div>
   HTML
 
