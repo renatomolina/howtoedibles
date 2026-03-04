@@ -213,6 +213,10 @@ p.spaced-content {
   margin-bottom: 24px;
 }
 
+.logo-link {
+  flex-shrink: 0;
+}
+
 .logo-link img {
   height: 52px;
   width: auto;
@@ -382,7 +386,7 @@ p.spaced-content {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1.2px;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   margin: 0 0 5px;
 }
 
