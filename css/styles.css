@@ -208,9 +208,13 @@ p.spaced-content {
 /* 4. Navbar */
 .navbar {
   background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  padding: 0.6rem 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+  border-top: 3px solid #f27242;
+  padding: 0.5rem 0;
   margin-bottom: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
 }
 
 .logo-link {
@@ -230,58 +234,121 @@ p.spaced-content {
   box-shadow: none;
 }
 
-.navbar-icon { color: #333; }
+.navbar-icon { color: #555; font-size: 1.1rem; }
 
 .nav-link {
-  color: #333 !important;
+  color: #444 !important;
   font-weight: 500;
-  padding: 0.4rem 0.75rem !important;
-  border-radius: 6px;
-  transition: background 0.15s, color 0.15s;
+  font-size: 0.88rem;
+  padding: 0.45rem 0.7rem !important;
+  border-radius: 0;
+  position: relative;
+  transition: color 0.15s;
+  letter-spacing: 0.01em;
 }
 
-.nav-link:hover {
-  background: #f5f5f5;
+.nav-link::after {
+  content: none !important; /* suppress Bootstrap caret override */
+}
+
+/* animated underline on hover — skip the dropdown caret pseudo */
+.nav-item:not(.dropdown) .nav-link::before,
+.nav-item.dropdown .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0.7rem;
+  right: 0.7rem;
+  height: 2px;
+  background: #f27242;
+  border-radius: 2px;
+  transform: scaleX(0);
+  transition: transform 0.18s ease;
+}
+
+.nav-link:hover::before,
+.nav-link:focus::before {
+  transform: scaleX(1);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background: none !important;
   color: #f27242 !important;
+  text-decoration: none;
+}
+
+/* Bootstrap dropdown caret — keep it */
+.nav-link.dropdown-toggle::after {
+  content: '' !important;
+  display: inline-block !important;
+  border-top: 0.3em solid !important;
+  border-right: 0.3em solid transparent !important;
+  border-bottom: 0 !important;
+  border-left: 0.3em solid transparent !important;
+  vertical-align: 0.15em;
+  margin-left: 0.3em;
+  opacity: 0.6;
 }
 
 /* Calculator CTA button */
 .btn-nav-calculator {
-  background: #f27242;
+  background: linear-gradient(135deg, #f27242 0%, #e05a28 100%);
   color: #fff !important;
   font-weight: 600;
-  padding: 0.35rem 1rem;
+  padding: 0.38rem 1.1rem;
   border-radius: 20px;
-  font-size: 0.9rem;
-  transition: background 0.15s;
+  font-size: 0.88rem;
+  transition: opacity 0.15s, transform 0.1s;
   white-space: nowrap;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 6px rgba(242,114,66,0.35);
 }
 
 .btn-nav-calculator:hover {
-  background: #e16a3e;
+  opacity: 0.9;
+  transform: translateY(-1px);
   color: #fff !important;
   text-decoration: none;
+  box-shadow: 0 4px 10px rgba(242,114,66,0.4);
 }
 
 /* Dropdown */
 .dropdown-menu {
   border: none;
   border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
-  padding: 0.5rem 0;
-  min-width: 180px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.13);
+  padding: 0.4rem 0;
+  min-width: 200px;
+  max-height: 340px;
+  overflow-y: auto;
+  border-top: 2px solid #f27242;
+  animation: dropdownFadeIn 0.15s ease;
 }
 
+@keyframes dropdownFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Scrollbar styling for dropdowns */
+.dropdown-menu::-webkit-scrollbar { width: 4px; }
+.dropdown-menu::-webkit-scrollbar-track { background: transparent; }
+.dropdown-menu::-webkit-scrollbar-thumb { background: #e0d0c8; border-radius: 4px; }
+
 .dropdown-item {
-  font-size: 0.9rem;
-  padding: 0.45rem 1.25rem;
-  color: #333;
-  transition: background 0.12s;
+  font-size: 0.875rem;
+  padding: 0.42rem 1.1rem 0.42rem 1.3rem;
+  color: #444;
+  transition: background 0.1s, border-color 0.1s, padding-left 0.1s;
+  border-left: 3px solid transparent;
 }
 
 .dropdown-item:hover {
-  background: #fff5f0;
+  background: #fff8f5;
   color: #f27242;
+  border-left-color: #f27242;
+  padding-left: 1.5rem;
 }
 
 /* Search bar */
@@ -353,6 +420,19 @@ p.spaced-content {
   .btn-nav-calculator {
     margin: 0.5rem 0;
     display: inline-block;
+  }
+  /* On mobile, dropdowns are full-width inline — remove max-height scroll */
+  .dropdown-menu {
+    max-height: none;
+    overflow-y: visible;
+    box-shadow: none;
+    border-top: none;
+    border-left: 3px solid #f27242;
+    border-radius: 0 6px 6px 0;
+    animation: none;
+  }
+  .nav-link::before {
+    display: none;
   }
 }
 
