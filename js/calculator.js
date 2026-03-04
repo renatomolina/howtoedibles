@@ -161,7 +161,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function badge(text, type) {
-    return "<p class='badge badge-" + type + " badge-label'>" + text + "</p> ";
+    var cls = type === 'success' ? 'effect-tag effect-tag--positive' : 'effect-tag effect-tag--negative';
+    return "<span class='" + cls + "'>" + text + "</span>";
   }
 
   function renderPositiveEffects(value) {

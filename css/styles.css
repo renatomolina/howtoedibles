@@ -172,10 +172,6 @@ p.warning-item {
   padding-top: 10px;
 }
 
-p.spaced-content {
-  padding-top: 10px;
-}
-
 .span-block {
   display: block;
 }
@@ -1453,9 +1449,43 @@ a.recipe-reference:hover {
 /* Effects titles inside dosage panel */
 .dosage-effects-title {
   display: block !important;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #333;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #bbb;
+  margin-bottom: 8px;
+}
+
+/* Effect tags */
+p.spaced-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 0;
+  margin-bottom: 14px;
+}
+
+.effect-tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 4px 11px;
+  border-radius: 20px;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.effect-tag--positive {
+  background: #edfaf0;
+  color: #2d7a47;
+  border: 1px solid #c3ebd0;
+}
+
+.effect-tag--negative {
+  background: #fdf1f1;
+  color: #b03030;
+  border: 1px solid #f0c8c8;
 }
 
 /* 13. Calculator Page */
