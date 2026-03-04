@@ -1416,8 +1416,9 @@ input[type="range"]::-moz-range-thumb {
   padding-left: 56px;
   position: relative;
   min-height: 44px;
-  display: flex;
-  align-items: center;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .recipe-steps .list-group-item::before {
   counter-increment: step-counter;
