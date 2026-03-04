@@ -1,0 +1,543 @@
+/* ============================================================
+   HowToEdibles Static Site Stylesheet
+   Consolidated from Rails asset pipeline
+   ============================================================ */
+
+/* 1. CSS Variables */
+:root {
+  --color-orange: #f27242;
+  --color-orange-dark: #e16a3e;
+  --color-green: #5cb85c;
+  --color-yellow: #f0aa41;
+  --color-red: #ff0000;
+  --color-bg-light: #f8f9fa;
+}
+
+/* 2. Base / Typography (from main.scss) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+  .donating-title {
+    font-size: 1.5vmax !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .donating-title {
+    font-size: 20px !important;
+  }
+}
+
+html, body {
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Poppins', sans-serif;
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+img { max-width: 100%; height: auto; }
+
+p.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+p.spaced-subtitle {
+  font-size: 20px;
+  font-weight: 450;
+  margin: 20px 0 20px 0;
+}
+
+h1 {
+  display: inline;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+h2 {
+  display: inline;
+  font-size: 23px;
+  line-height: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.popular-recipes h2 {
+  display: inline;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+a {
+  color: #f27242;
+}
+
+a:hover, a:focus {
+  color: #e16a3e;
+  text-decoration: none;
+}
+
+input[type=number] {
+  width: 50px;
+  text-align: center;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Remove up/down arrows from number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.badge-label {
+  margin: 3px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.badge-success {
+  background-color: #5cb85c;
+}
+
+.harm-reduction-box {
+  margin: 20px 30px 60px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fb-page-widget {
+  margin-top: 70px;
+  text-align: left;
+}
+
+.far {
+  font-display: swap;
+}
+
+.fa-lg {
+  font-size: 1.66em;
+  font-display: swap;
+}
+
+span.bottomtip {
+  display: inline;
+  font-size: 14px;
+  color: #666;
+}
+
+.sidenote {
+  font-size: 14px;
+}
+
+.ads {
+  margin: 10px auto 30px auto;
+}
+
+i.icon-medium {
+  position: relative;
+  margin-right: 6px;
+}
+
+i.icon-large {
+  position: relative;
+  margin-right: 6px;
+  top: 3px;
+}
+
+p.warning-item {
+  padding-top: 10px;
+}
+
+p.spaced-content {
+  padding-top: 10px;
+}
+
+.span-block {
+  display: block;
+}
+
+.suggest-recipes {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.fa-left-head {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.donating-title {
+  font-size: 1.8vmax;
+  color: #000;
+  font-weight: 600;
+}
+
+/* 3. Color Utilities (from colors.css) */
+.orange { color: #f27242; }
+.darkorange { color: #d1400c; }
+.yellow { color: #f0aa41; }
+.green { color: #5CB85C; }
+.darkgreen { color: #72ff72; }
+.red { color: #ff0000; }
+.white { color: #fff; }
+
+/* 4. Navbar (from nav-custom.css) */
+.navbar {
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.highlighted-nav-link {
+  font-weight: 700;
+}
+
+.nav-highlight {
+  color: #fff !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-icon {
+  color: #000;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+@media (max-width: 500px) {
+  .logo-regular {
+    display: none;
+  }
+}
+
+@media (min-width: 501px) {
+  .logo-small {
+    display: none;
+  }
+}
+
+/* 5. Cards (from card.css) */
+@media (max-width: 575px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0vmax;
+    align-items: center;
+  }
+  .card-title {
+    font-size: 1rem !important;
+    margin-top: 0.25rem;
+  }
+  .card-category {
+    font-size: 0.75rem !important;
+    display: block !important;
+  }
+  .card-text {
+    display: none !important;
+  }
+  .card-img-top {
+    width: 90px !important;
+    height: 90px !important;
+    object-fit: cover;
+    border-radius: 8px !important;
+    flex-shrink: 0;
+    margin: 8px;
+  }
+}
+
+.card {
+  background-color: #fafafa;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.card-img-left {
+  max-width: 30vw;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-text {
+  font-weight: 400;
+  color: #4b4b4b;
+  padding: 0 0.5vmax 1vmax 0;
+  text-align: left;
+}
+
+.card-block {
+  width: fit-content;
+  margin: 0vmax 0.1vmax 0 0.5vmax;
+}
+
+.card-category {
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1vmax;
+  margin: 0px;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  margin-top: 0.5vmax;
+  font-size: 1.3rem;
+}
+
+.card-internal {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 6. Calculator (from calculator.css + native range slider) */
+.fa-minus-circle:hover { color: darkorange; }
+.fa-plus-circle:hover { color: darkgreen; }
+
+.calculator-control {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.calculator-input {
+  display: flex;
+  align-items: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid grey;
+}
+
+.calculator-item {
+  margin-bottom: 12px;
+}
+
+.calculator-item-large {
+  margin-bottom: 12px;
+}
+
+.average-tip {
+  display: flex;
+  align-items: center;
+}
+
+/* Native range slider (replaces bootstrap-slider) */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 18px;        /* match thumb height — keeps thumb fully inside the element */
+  background: transparent;
+  outline: none;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #e3e3e3;
+  border-radius: 3px;
+  height: 6px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #5cb85c;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+input[type="range"]::-moz-range-track {
+  background: #e3e3e3;
+  border-radius: 3px;
+  height: 6px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #5cb85c;
+  cursor: pointer;
+  border: none;
+}
+
+/* Potency modal */
+.modal-potency-table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.modal-potency-table td {
+  padding: 6px 10px;
+}
+
+/* 7. Recipe content (from recipe.scss) */
+.directions-container ul {
+  counter-reset: number;
+  margin-top: 10px;
+  list-style-position: inside;
+}
+
+.directions-container ul li {
+  list-style: none;
+  counter-increment: number;
+  margin-bottom: 18px;
+}
+
+.directions-container ul li::before {
+  content: "Step " counter(number) ": ";
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+.directions-container ul li {
+  margin: 5px 0px 5px 0px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.recipe-title {
+  margin-bottom: 10px;
+}
+
+.recipe-content {
+  margin-top: 10px;
+}
+
+/* 8. Ads (from ad.css) */
+@media (max-width: 991px) {
+  #ad-medium-top, #ad-medium-bottom {
+    min-height: 320px;
+  }
+}
+
+@media (min-width: 992px) {
+  #ad-leaderboard-top, #ad-leaderboard-bottom {
+    min-height: 90px;
+  }
+}
+
+/* 9. Pagination (from pagination.css) */
+.pagination {
+  margin: 0 auto;
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.page-item.active .page-link {
+  background-color: #e16a3e;
+  border-color: #e16a3e;
+}
+
+.page-item a:hover {
+  color: #e16a3e;
+}
+
+.page-link {
+  color: #414141;
+}
+
+/* Client-side pagination hidden state */
+.recipe-card-item.hidden {
+  display: none !important;
+}
+
+/* 10. Footer (from footer.css) */
+footer {
+  background-color: #f8f9fa !important;
+  border: 1px solid #dbdbdb !important;
+  padding: 25px 0 0 0;
+}
+
+.hightlight-news-link {
+  color: #000 !important;
+}
+
+.highlight-news-date {
+  color: #5a5a5a !important;
+}
+
+.highlight-news-date-icon {
+  color: #323232 !important;
+}
+
+.footer-link-section {
+  color: #323232;
+}
+
+/* 11. Flash animation (from animate.css) */
+@keyframes flash {
+  from, 50%, to {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation-name: flash;
+  animation-duration: 0.4s;
+}
+
+/* Badge large variant */
+.badge-label-large {
+  font-size: 18px;
+  padding: 6px 12px;
+}
+
+/* Utility: push footer to bottom */
+.page-content {
+  flex: 1;
+}
