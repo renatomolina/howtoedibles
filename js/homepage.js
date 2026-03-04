@@ -1,27 +1,62 @@
-/* homepage.js — Client-side pagination for the recipe grid
-   Shows 12 cards per page; all cards are pre-rendered in HTML */
+/* homepage.js — Search + client-side pagination for the recipe grid */
 
 document.addEventListener('DOMContentLoaded', function () {
   var ITEMS_PER_PAGE = 12;
   var currentPage = 1;
-
   var allCards = Array.from(document.querySelectorAll('.recipe-card-item'));
-  var totalPages = Math.ceil(allCards.length / ITEMS_PER_PAGE);
+  var visibleCards = allCards; // subset after search filter
   var controls = document.getElementById('pagination-controls');
+  var noResults = document.getElementById('search-no-results');
+  var searchInput = document.getElementById('recipe-search');
 
   if (allCards.length === 0) return;
 
+  /* ── Search ────────────────────────────────────────────────── */
+  function getSearchTerm() {
+    return searchInput ? searchInput.value.trim().toLowerCase() : '';
+  }
+
+  function filterCards() {
+    var term = getSearchTerm();
+    if (!term) {
+      visibleCards = allCards;
+    } else {
+      visibleCards = allCards.filter(function (card) {
+        var text = (card.getAttribute('data-search') || card.textContent).toLowerCase();
+        return text.indexOf(term) !== -1;
+      });
+    }
+    currentPage = 1;
+    showPage(1);
+    if (noResults) noResults.style.display = visibleCards.length === 0 ? 'block' : 'none';
+  }
+
+  if (searchInput) {
+    /* Pre-fill from ?search= URL param */
+    var urlTerm = new URLSearchParams(window.location.search).get('search');
+    if (urlTerm) { searchInput.value = urlTerm; }
+
+    searchInput.addEventListener('input', filterCards);
+
+    /* On non-homepage pages, pressing Enter redirects to /?search=... */
+    searchInput.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        var q = searchInput.value.trim();
+        if (q) window.location.href = '/?search=' + encodeURIComponent(q);
+      }
+    });
+  }
+
+  /* ── Pagination ─────────────────────────────────────────────── */
   function showPage(page) {
     currentPage = page;
     var start = (page - 1) * ITEMS_PER_PAGE;
     var end   = start + ITEMS_PER_PAGE;
 
-    allCards.forEach(function (card, i) {
-      if (i >= start && i < end) {
-        card.classList.remove('hidden');
-      } else {
-        card.classList.add('hidden');
-      }
+    allCards.forEach(function (card) { card.classList.add('hidden'); });
+    visibleCards.forEach(function (card, i) {
+      if (i >= start && i < end) card.classList.remove('hidden');
     });
 
     renderControls();
@@ -29,38 +64,35 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function renderControls() {
-    if (!controls || totalPages <= 1) return;
+    if (!controls) return;
+    var totalPages = Math.ceil(visibleCards.length / ITEMS_PER_PAGE);
+    if (totalPages <= 1) { controls.innerHTML = ''; return; }
 
     var html = '<ul class="pagination justify-content-center">';
 
-    /* Previous */
     html += '<li class="page-item' + (currentPage === 1 ? ' disabled' : '') + '">';
     html += '<a class="page-link" href="#" data-page="' + (currentPage - 1) + '">&laquo;</a></li>';
 
-    /* Page numbers */
     for (var p = 1; p <= totalPages; p++) {
       html += '<li class="page-item' + (p === currentPage ? ' active' : '') + '">';
       html += '<a class="page-link" href="#" data-page="' + p + '">' + p + '</a></li>';
     }
 
-    /* Next */
     html += '<li class="page-item' + (currentPage === totalPages ? ' disabled' : '') + '">';
     html += '<a class="page-link" href="#" data-page="' + (currentPage + 1) + '">&raquo;</a></li>';
 
     html += '</ul>';
     controls.innerHTML = html;
 
-    /* Wire click events */
     controls.querySelectorAll('.page-link').forEach(function (link) {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         var page = parseInt(this.getAttribute('data-page'));
-        if (page >= 1 && page <= totalPages && page !== currentPage) {
-          showPage(page);
-        }
+        if (page >= 1 && page <= totalPages && page !== currentPage) showPage(page);
       });
     });
   }
 
-  showPage(1);
+  /* Initial render (respects ?search= param) */
+  filterCards();
 });

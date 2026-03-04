@@ -51,90 +51,92 @@
 </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-bars navbar-icon"></span>
     </button>
-    <a href="/" class="logo">
-      <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="200" height="72" class="logo-small" />
-      <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="260" height="93" class="logo-regular" />
+    <a href="/" class="navbar-brand logo-link">
+      <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="180" height="65" />
     </a>
-    <div class="nav-spacer"></div>
-    <div id="navbarMain" class="navbar-collapse collapse">
-      <ul id="nav" class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a href="/calculator.html" class="nav-link">Calculator</a>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <div class="nav-search-wrapper mx-lg-3 my-2 my-lg-0">
+        <i class="fa fa-search nav-search-icon"></i>
+        <input type="search" id="recipe-search" class="nav-search-input" placeholder="Search recipes…" autocomplete="off" />
+      </div>
+      <ul class="navbar-nav ml-auto align-items-lg-center">
+        <li class="nav-item mr-lg-2">
+          <a href="/calculator.html" class="btn btn-nav-calculator">Calculator</a>
         </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Desserts</a>
-        <div class="dropdown-menu" role="menu">
-          <a class="dropdown-item" href="/recipes/infused-banana-bread/">Infused Banana Bread</a>
-          <a class="dropdown-item" href="/recipes/infused-chocolate-truffles/">Infused Chocolate Truffles</a>
-          <a class="dropdown-item" href="/recipes/pot-cookies/">Pot Cookies</a>
-          <a class="dropdown-item" href="/recipes/pot-brownies/">Pot Brownies</a>
-          <a class="dropdown-item" href="/recipes/gummy-bears/">Gummy Bears</a>
-          <a class="dropdown-item" href="/recipes/gingerbread-cookies/">Gingerbread Cookies</a>
-          <a class="dropdown-item" href="/recipes/infused-honey/">Infused Honey</a>
-          <a class="dropdown-item" href="/recipes/weed-rice-krispie-treats/">Weed Rice Krispie Treats</a>
-          <a class="dropdown-item" href="/recipes/cannabis-caramel-sauce/">Cannabis Caramel Sauce</a>
+        <div class="dropdown-menu shadow-sm" role="menu">
+            <a class="dropdown-item" href="/recipes/infused-banana-bread/">Infused Banana Bread</a>
+            <a class="dropdown-item" href="/recipes/infused-chocolate-truffles/">Infused Chocolate Truffles</a>
+            <a class="dropdown-item" href="/recipes/pot-cookies/">Pot Cookies</a>
+            <a class="dropdown-item" href="/recipes/pot-brownies/">Pot Brownies</a>
+            <a class="dropdown-item" href="/recipes/gummy-bears/">Gummy Bears</a>
+            <a class="dropdown-item" href="/recipes/gingerbread-cookies/">Gingerbread Cookies</a>
+            <a class="dropdown-item" href="/recipes/infused-honey/">Infused Honey</a>
+            <a class="dropdown-item" href="/recipes/weed-rice-krispie-treats/">Weed Rice Krispie Treats</a>
+            <a class="dropdown-item" href="/recipes/cannabis-caramel-sauce/">Cannabis Caramel Sauce</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Drinks</a>
-        <div class="dropdown-menu" role="menu">
-          <a class="dropdown-item" href="/recipes/infused-berry-smoothie/">Infused Berry Smoothie</a>
-          <a class="dropdown-item" href="/recipes/infused-lemonade/">Infused Lemonade</a>
-          <a class="dropdown-item" href="/recipes/infused-whiskey/">Infused Whiskey</a>
-          <a class="dropdown-item" href="/recipes/infused-chai/">Infused Chai</a>
-          <a class="dropdown-item" href="/recipes/infused-eggnog/">Infused Eggnog</a>
-          <a class="dropdown-item" href="/recipes/cannabis-hot-chocolate/">Cannabis Hot Chocolate</a>
-          <a class="dropdown-item" href="/recipes/infused-cold-brew/">Infused Cold Brew</a>
+        <div class="dropdown-menu shadow-sm" role="menu">
+            <a class="dropdown-item" href="/recipes/infused-berry-smoothie/">Infused Berry Smoothie</a>
+            <a class="dropdown-item" href="/recipes/infused-lemonade/">Infused Lemonade</a>
+            <a class="dropdown-item" href="/recipes/infused-whiskey/">Infused Whiskey</a>
+            <a class="dropdown-item" href="/recipes/infused-chai/">Infused Chai</a>
+            <a class="dropdown-item" href="/recipes/infused-eggnog/">Infused Eggnog</a>
+            <a class="dropdown-item" href="/recipes/cannabis-hot-chocolate/">Cannabis Hot Chocolate</a>
+            <a class="dropdown-item" href="/recipes/infused-cold-brew/">Infused Cold Brew</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Snacks</a>
-        <div class="dropdown-menu" role="menu">
-          <a class="dropdown-item" href="/recipes/firecrackers/">Fire Crackers</a>
-          <a class="dropdown-item" href="/recipes/infused-guacamole/">Infused Guacamole</a>
-          <a class="dropdown-item" href="/recipes/infused-energy-bites/">Infused Energy Bites</a>
-          <a class="dropdown-item" href="/recipes/infused-grilled-cheese/">Infused Grilled Cheese</a>
-          <a class="dropdown-item" href="/recipes/trail-mix/">Trail Mix</a>
-          <a class="dropdown-item" href="/recipes/weed-infused-popcorn/">Infused Popcorn</a>
-          <a class="dropdown-item" href="/recipes/infused-hummus/">Infused Hummus</a>
-          <a class="dropdown-item" href="/recipes/infused-granola/">Infused Granola</a>
+        <div class="dropdown-menu shadow-sm" role="menu">
+            <a class="dropdown-item" href="/recipes/firecrackers/">Fire Crackers</a>
+            <a class="dropdown-item" href="/recipes/infused-guacamole/">Infused Guacamole</a>
+            <a class="dropdown-item" href="/recipes/infused-energy-bites/">Infused Energy Bites</a>
+            <a class="dropdown-item" href="/recipes/infused-grilled-cheese/">Infused Grilled Cheese</a>
+            <a class="dropdown-item" href="/recipes/trail-mix/">Trail Mix</a>
+            <a class="dropdown-item" href="/recipes/weed-infused-popcorn/">Infused Popcorn</a>
+            <a class="dropdown-item" href="/recipes/infused-hummus/">Infused Hummus</a>
+            <a class="dropdown-item" href="/recipes/infused-granola/">Infused Granola</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Essentials</a>
-        <div class="dropdown-menu" role="menu">
-          <a class="dropdown-item" href="/recipes/cannabutter/">Cannabutter</a>
-          <a class="dropdown-item" href="/recipes/infused-olive-oil/">Infused Olive oil</a>
-          <a class="dropdown-item" href="/recipes/infused-coconut-oil/">Infused Coconut oil</a>
-          <a class="dropdown-item" href="/recipes/infused-milk/">Infused Milk</a>
-          <a class="dropdown-item" href="/recipes/infused-ghee/">Infused Ghee</a>
+        <div class="dropdown-menu shadow-sm" role="menu">
+            <a class="dropdown-item" href="/recipes/cannabutter/">Cannabutter</a>
+            <a class="dropdown-item" href="/recipes/infused-olive-oil/">Infused Olive oil</a>
+            <a class="dropdown-item" href="/recipes/infused-coconut-oil/">Infused Coconut oil</a>
+            <a class="dropdown-item" href="/recipes/infused-milk/">Infused Milk</a>
+            <a class="dropdown-item" href="/recipes/infused-ghee/">Infused Ghee</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Lunch</a>
-        <div class="dropdown-menu" role="menu">
-          <a class="dropdown-item" href="/recipes/infused-pesto-pasta/">Infused Pesto Pasta</a>
-          <a class="dropdown-item" href="/recipes/infused-coconut-curry/">Infused Coconut Curry</a>
-          <a class="dropdown-item" href="/recipes/infused-spaghetti-bolognese/">Infused Spaghetti Bolognese</a>
-          <a class="dropdown-item" href="/recipes/cannabis-avocado-toast/">Cannabis Avocado Toast</a>
-          <a class="dropdown-item" href="/recipes/cannabis-salad-dressing/">Cannabis Salad Dressing</a>
+        <div class="dropdown-menu shadow-sm" role="menu">
+            <a class="dropdown-item" href="/recipes/infused-pesto-pasta/">Infused Pesto Pasta</a>
+            <a class="dropdown-item" href="/recipes/infused-coconut-curry/">Infused Coconut Curry</a>
+            <a class="dropdown-item" href="/recipes/infused-spaghetti-bolognese/">Infused Spaghetti Bolognese</a>
+            <a class="dropdown-item" href="/recipes/cannabis-avocado-toast/">Cannabis Avocado Toast</a>
+            <a class="dropdown-item" href="/recipes/cannabis-salad-dressing/">Cannabis Salad Dressing</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Keto</a>
-        <div class="dropdown-menu" role="menu">
-          <a class="dropdown-item" href="/recipes/infused-bulletproof-coffee/">Infused Bulletproof Coffee</a>
-          <a class="dropdown-item" href="/recipes/infused-coconut-fat-bombs/">Infused Coconut Fat Bombs</a>
-          <a class="dropdown-item" href="/recipes/infused-keto-peanut-butter-cookies/">Infused Keto Peanut Butter Cookies</a>
-          <a class="dropdown-item" href="/recipes/infused-keto-cheesecake-bites/">Infused Keto Cheesecake Bites</a>
-          <a class="dropdown-item" href="/recipes/infused-keto-chocolate-avocado-mousse/">Infused Keto Chocolate Avocado Mousse</a>
-          <a class="dropdown-item" href="/recipes/infused-keto-cauliflower-pizza-crust/">Infused Keto Cauliflower Pizza Crust</a>
-          <a class="dropdown-item" href="/recipes/infused-chocolate-bark/">Infused Chocolate Bark</a>
+        <div class="dropdown-menu shadow-sm" role="menu">
+            <a class="dropdown-item" href="/recipes/infused-bulletproof-coffee/">Infused Bulletproof Coffee</a>
+            <a class="dropdown-item" href="/recipes/infused-coconut-fat-bombs/">Infused Coconut Fat Bombs</a>
+            <a class="dropdown-item" href="/recipes/infused-keto-peanut-butter-cookies/">Infused Keto Peanut Butter Cookies</a>
+            <a class="dropdown-item" href="/recipes/infused-keto-cheesecake-bites/">Infused Keto Cheesecake Bites</a>
+            <a class="dropdown-item" href="/recipes/infused-keto-chocolate-avocado-mousse/">Infused Keto Chocolate Avocado Mousse</a>
+            <a class="dropdown-item" href="/recipes/infused-keto-cauliflower-pizza-crust/">Infused Keto Cauliflower Pizza Crust</a>
+            <a class="dropdown-item" href="/recipes/infused-chocolate-bark/">Infused Chocolate Bark</a>
         </div>
       </li>
       </ul>
@@ -159,7 +161,7 @@
 </div>
 
 <div class="row">
-  <div class="col-12 col-sm-3 recipe-card-item">
+  <div class="col-12 col-sm-3 recipe-card-item" data-search="cannabutter essentials elevate your culinary creations with the magic of cannabutter. infuse dishes with a touch of euphoria for a truly unique dining experience.">
   <a href="/recipes/cannabutter/">
     <div class="card mb-2">
       <img src="/images/recipes/cannabutter.jpg" class="card-img-top" alt="Cannabutter" loading="lazy" />
@@ -171,7 +173,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused coconut oil essentials with its rich, tropical flavor and the delightful infusion of cannabis, this versatile oil elevates your cooking to new heights.">
   <a href="/recipes/infused-coconut-oil/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-coconut-oil.jpg" class="card-img-top" alt="Infused Coconut oil" loading="lazy" />
@@ -183,7 +185,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused olive oil essentials probably the most versatile medium and a great place to start cooking with cannabis.">
   <a href="/recipes/infused-olive-oil/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-olive-oil.jpg" class="card-img-top" alt="Infused Olive oil" loading="lazy" />
@@ -195,7 +197,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused bulletproof coffee keto ignite your senses and fuel your day with focus and balance, all in a single cup.">
   <a href="/recipes/infused-bulletproof-coffee/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-bulletproof-coffee.jpg" class="card-img-top" alt="Infused Bulletproof Coffee" loading="lazy" />
@@ -207,7 +209,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused keto peanut butter cookies keto elevate your cookie game with our keto creation. enjoy the nutty perfection of peanut butter cookies, guilt-free and tailored for your low-carb lifestyle.">
   <a href="/recipes/infused-keto-peanut-butter-cookies/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-keto-peanut-butter-cookies.jpg" class="card-img-top" alt="Infused Keto Peanut Butter Cookies" loading="lazy" />
@@ -219,7 +221,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused coconut fat bombs keto elevate snacking with nature-infused coconut bliss. nourish body and mind with each bite-sized gem, crafted for balanced indulgence.">
   <a href="/recipes/infused-coconut-fat-bombs/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-coconut-fat-bombs.jpg" class="card-img-top" alt="Infused Coconut Fat Bombs" loading="lazy" />
@@ -231,7 +233,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused pesto pasta lunch perfectly cooked spirals coated in aromatic basil pesto, crowned with a delicate sprinkle of parmesan heaven.">
   <a href="/recipes/infused-pesto-pasta/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-pesto-pasta.jpg" class="card-img-top" alt="Infused Pesto Pasta" loading="lazy" />
@@ -243,7 +245,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused berry smoothie drinks a tantalizing fusion of frozen berries, fruit and greek yogurt. refreshing, flavorful, and oh-so-delicious.">
   <a href="/recipes/infused-berry-smoothie/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-berry-smoothie.jpg" class="card-img-top" alt="Infused Berry Smoothie" loading="lazy" />
@@ -255,7 +257,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused energy bites snacks each bite is a heavenly blend of wholesome ingredients, delivering a blissful and invigorating experience for your taste buds and mind.">
   <a href="/recipes/infused-energy-bites/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-energy-bites.jpg" class="card-img-top" alt="Infused Energy Bites" loading="lazy" />
@@ -267,7 +269,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="fire crackers snacks easy to make, delicious and extremely potent this recipe is one of the most popular.">
   <a href="/recipes/firecrackers/">
     <div class="card mb-2">
       <img src="/images/recipes/firecrackers.jpg" class="card-img-top" alt="Fire Crackers" loading="lazy" />
@@ -279,7 +281,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused lemonade drinks sip on this invigorating beverage to experience a harmonious balance of tangy citrus notes and the relaxing effects of cannabis">
   <a href="/recipes/infused-lemonade/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-lemonade.jpg" class="card-img-top" alt="Infused Lemonade" loading="lazy" />
@@ -291,7 +293,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused keto chocolate avocado mousse keto transform dessert time with our avocado-based indulgence. savor the richness of chocolate-infused bliss, while embracing the natural touch for a truly delectable treat.">
   <a href="/recipes/infused-keto-chocolate-avocado-mousse/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-keto-chocolate-avocado-mousse.jpg" class="card-img-top" alt="Infused Keto Chocolate Avocado Mousse" loading="lazy" />
@@ -303,7 +305,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused guacamole snacks this irresistible guacamole combines creamy avocados, zesty lime juice, diced tomatoes, onions and a delightful herbal twist.">
   <a href="/recipes/infused-guacamole/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-guacamole.jpg" class="card-img-top" alt="Infused Guacamole" loading="lazy" />
@@ -315,7 +317,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused chocolate truffles desserts experience pure decadence with these luscious chocolate truffles. a euphoric journey through rich, velvety flavors awaits.">
   <a href="/recipes/infused-chocolate-truffles/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-chocolate-truffles.jpg" class="card-img-top" alt="Infused Chocolate Truffles" loading="lazy" />
@@ -327,7 +329,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused banana bread desserts savor a blend of ripe bananas, expertly selected ingredients, and a special infusion that transforms a classic into a delightful, elevated treat.">
   <a href="/recipes/infused-banana-bread/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-banana-bread.jpg" class="card-img-top" alt="Infused Banana Bread" loading="lazy" />
@@ -339,7 +341,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused keto cheesecake bites keto delight in our infused cheesecake bites, a perfect balance of flavor and mindful indulgence.">
   <a href="/recipes/infused-keto-cheesecake-bites/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-keto-cheesecake-bites.jpg" class="card-img-top" alt="Infused Keto Cheesecake Bites" loading="lazy" />
@@ -351,7 +353,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused keto cauliflower pizza crust keto revolutionize pizza night with a plant-infused cauliflower crust. delight in nature&#39;s goodness, balanced and flavorful in every bite.">
   <a href="/recipes/infused-keto-cauliflower-pizza-crust/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-keto-cauliflower-pizza-crust.jpg" class="card-img-top" alt="Infused Keto Cauliflower Pizza Crust" loading="lazy" />
@@ -363,7 +365,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused milk essentials what about an ice-cold milkshake? or a whipped topping on some pie? cannabis-infused milk is a great for these recipes.">
   <a href="/recipes/infused-milk/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-milk.jpg" class="card-img-top" alt="Infused Milk" loading="lazy" />
@@ -375,7 +377,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused coconut curry lunch a delightful fusion of aromatic spices, creamy coconut, and infused cannabis. elevate your senses with tender veggies and protein in a dish that&#39;s truly unforgettable.">
   <a href="/recipes/infused-coconut-curry/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-coconut-curry.jpg" class="card-img-top" alt="Infused Coconut Curry" loading="lazy" />
@@ -387,7 +389,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="gummy bears desserts if you&#39;re a big gummy bear fan, you&#39;re in luck!">
   <a href="/recipes/gummy-bears/">
     <div class="card mb-2">
       <img src="/images/recipes/gummy-bears.jpg" class="card-img-top" alt="Gummy Bears" loading="lazy" />
@@ -399,7 +401,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused spaghetti bolognese lunch this culinary creation takes your taste buds on a euphoric journey, delivering a symphony of taste.">
   <a href="/recipes/infused-spaghetti-bolognese/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-spaghetti-bolognese.jpg" class="card-img-top" alt="Infused Spaghetti Bolognese" loading="lazy" />
@@ -411,7 +413,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="pot cookies desserts cookies with crisp edges, a rich, buttery, toffee-like flavor, big chocolate chunks.">
   <a href="/recipes/pot-cookies/">
     <div class="card mb-2">
       <img src="/images/recipes/pot-cookies.jpg" class="card-img-top" alt="Pot Cookies" loading="lazy" />
@@ -423,7 +425,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="pot brownies desserts behold! the perfect combination of deliciousness and dopeness">
   <a href="/recipes/pot-brownies/">
     <div class="card mb-2">
       <img src="/images/recipes/pot-brownies.jpg" class="card-img-top" alt="Pot Brownies" loading="lazy" />
@@ -435,7 +437,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused grilled cheese snacks quick and easy cannabis-infused grilled cheese recipe">
   <a href="/recipes/infused-grilled-cheese/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-grilled-cheese.jpg" class="card-img-top" alt="Infused Grilled Cheese" loading="lazy" />
@@ -447,7 +449,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="gingerbread cookies desserts make your holidays special with this delicious cookies!">
   <a href="/recipes/gingerbread-cookies/">
     <div class="card mb-2">
       <img src="/images/recipes/gingerbread-cookies.jpg" class="card-img-top" alt="Gingerbread Cookies" loading="lazy" />
@@ -459,7 +461,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="trail mix snacks a delicious combination of seeds and nuts infused with cannabis oil.">
   <a href="/recipes/trail-mix/">
     <div class="card mb-2">
       <img src="/images/recipes/trail-mix.jpg" class="card-img-top" alt="Trail Mix" loading="lazy" />
@@ -471,7 +473,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused honey desserts infused honey is a great way to get cannabis into your favourite beverages or desserts.">
   <a href="/recipes/infused-honey/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-honey.jpg" class="card-img-top" alt="Infused Honey" loading="lazy" />
@@ -483,7 +485,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused whiskey drinks explore the flavour of the best whiskies with the glorious cannabis aroma.">
   <a href="/recipes/infused-whiskey/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-whiskey.jpg" class="card-img-top" alt="Infused Whiskey" loading="lazy" />
@@ -495,7 +497,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused chai drinks this warming, potent, cannabis chai tea recipe is a great way to enjoy your tea with an extra kick.">
   <a href="/recipes/infused-chai/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-chai.jpg" class="card-img-top" alt="Infused Chai" loading="lazy" />
@@ -507,7 +509,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused popcorn snacks the perfect salty snack to eat while watching your favorite movies">
   <a href="/recipes/weed-infused-popcorn/">
     <div class="card mb-2">
       <img src="/images/recipes/weed-infused-popcorn.jpg" class="card-img-top" alt="Infused Popcorn" loading="lazy" />
@@ -519,7 +521,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused eggnog drinks it&#39;s time for that holiday cheer! why not make it extra special?">
   <a href="/recipes/infused-eggnog/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-eggnog.jpg" class="card-img-top" alt="Infused Eggnog" loading="lazy" />
@@ -531,7 +533,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused ghee essentials cannabis-infused ghee (clarified butter) is a versatile cooking fat with a high smoke point. perfect for sauteing, spreading on toast, or adding to your morning coffee. it stores longer than regular cannabutter and has a rich, nutty flavor.">
   <a href="/recipes/infused-ghee/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-ghee.jpg" class="card-img-top" alt="Infused Ghee" loading="lazy" />
@@ -543,7 +545,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis hot chocolate drinks a rich, warming cannabis hot chocolate made with infused milk or coconut oil. perfect for cold nights or winding down after a long day. use your favorite hot cocoa recipe and simply swap in your infused base.">
   <a href="/recipes/cannabis-hot-chocolate/">
     <div class="card mb-2">
       <img src="/images/recipes/cannabis-hot-chocolate.jpg" class="card-img-top" alt="Cannabis Hot Chocolate" loading="lazy" />
@@ -555,7 +557,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused cold brew drinks cannabis cold brew coffee is smooth, low-acid, and hits differently. pair caffeine and thc for a productive morning or a creative afternoon session. use your infused coconut oil to bind the thc since cold brew is water-based.">
   <a href="/recipes/infused-cold-brew/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-cold-brew.jpg" class="card-img-top" alt="Infused Cold Brew" loading="lazy" />
@@ -567,7 +569,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="weed rice krispie treats desserts a classic cannabis edible that is easy to make, easy to dose, and loved by all. rice krispie treats are simple, no-bake, and can be cut into precise portions for consistent dosing. a great beginner edible recipe.">
   <a href="/recipes/weed-rice-krispie-treats/">
     <div class="card mb-2">
       <img src="/images/recipes/weed-rice-krispie-treats.jpg" class="card-img-top" alt="Weed Rice Krispie Treats" loading="lazy" />
@@ -579,7 +581,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis caramel sauce desserts a silky, golden cannabis caramel sauce you can drizzle on ice cream, brownies, pancakes, or eat straight from the spoon. made with cannabutter for easy infusion and rich flavor. makes about 12 servings.">
   <a href="/recipes/cannabis-caramel-sauce/">
     <div class="card mb-2">
       <img src="/images/recipes/cannabis-caramel-sauce.jpg" class="card-img-top" alt="Cannabis Caramel Sauce" loading="lazy" />
@@ -591,7 +593,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused hummus snacks creamy, smooth cannabis-infused hummus made with infused olive oil. a healthy, savory snack you can serve with pita, veggies, or crackers. easy to make in a blender and easy to dose per serving.">
   <a href="/recipes/infused-hummus/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-hummus.jpg" class="card-img-top" alt="Infused Hummus" loading="lazy" />
@@ -603,7 +605,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused granola snacks crunchy, golden cannabis-infused granola made with cannabutter or infused coconut oil. perfect on yogurt, with milk, or as a trail mix-style snack. bake a big batch and divide into portions for easy, consistent dosing throughout the week.">
   <a href="/recipes/infused-granola/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-granola.jpg" class="card-img-top" alt="Infused Granola" loading="lazy" />
@@ -615,7 +617,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis avocado toast lunch elevate your avocado toast game with a drizzle of infused olive oil. simple, quick, and delicious. the healthy fats in avocado also help your body absorb thc more efficiently, making this one of the most bioavailable edible options.">
   <a href="/recipes/cannabis-avocado-toast/">
     <div class="card mb-2">
       <img src="/images/recipes/cannabis-avocado-toast.jpg" class="card-img-top" alt="Cannabis Avocado Toast" loading="lazy" />
@@ -627,7 +629,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis salad dressing lunch a simple cannabis vinaigrette that turns any salad into an infused meal. made with infused olive oil and a few pantry staples. shake it up, drizzle it on, and you have a healthy, delicious cannabis edible with precise portion control.">
   <a href="/recipes/cannabis-salad-dressing/">
     <div class="card mb-2">
       <img src="/images/recipes/cannabis-salad-dressing.jpg" class="card-img-top" alt="Cannabis Salad Dressing" loading="lazy" />
@@ -639,7 +641,7 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item">
+<div class="col-12 col-sm-3 recipe-card-item" data-search="infused chocolate bark keto dark chocolate bark infused with cannabutter and topped with your favorite mix-ins. keto-friendly, easy to make, and beautiful as a gift or treat. chocolate is an ideal edible vehicle — it masks the cannabis flavor and is easy to portion precisely.">
   <a href="/recipes/infused-chocolate-bark/">
     <div class="card mb-2">
       <img src="/images/recipes/infused-chocolate-bark.jpg" class="card-img-top" alt="Infused Chocolate Bark" loading="lazy" />
@@ -653,6 +655,7 @@
 </div>
 </div>
 
+<div id="search-no-results">No recipes found. Try a different search.</div>
 <div id="pagination-controls" class="mt-3 mb-4"></div>
 
     </div>
@@ -720,6 +723,16 @@
     <!-- jQuery + Bootstrap 4 bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <!-- Search redirect for non-homepage pages -->
+    <script>
+      (function(){
+        var inp = document.getElementById('recipe-search');
+        if (!inp || document.getElementById('pagination-controls')) return;
+        inp.addEventListener('keydown', function(e){
+          if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/?search=' + encodeURIComponent(q); }
+        });
+      })();
+    </script>
     <script src="/js/homepage.js"></script>
   </body>
 </html>
