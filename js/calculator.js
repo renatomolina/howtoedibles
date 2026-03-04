@@ -144,8 +144,14 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* --- Dosage formula --------------------------------------- */
+  /* THC (mg) = grams × (strength/100) × 1000 mg/g × 0.80 cooking efficiency
+     Simplified: 10 × grams × strength × 0.80 = 8 × grams × strength
+     We apply a 20% cooking loss to account for decarboxylation and
+     extraction inefficiencies typical in home cooking.                    */
+  var COOKING_EFFICIENCY = 0.80;
+
   function getCurrentDosage() {
-    return (10 * (state.grams * state.strength)) / state.portions;
+    return (10 * state.grams * state.strength * COOKING_EFFICIENCY) / state.portions;
   }
 
   /* --- Labels / Effects ------------------------------------- */
