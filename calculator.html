@@ -3,27 +3,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Edible Dosage Calculator - How Potent Are Your Edibles?</title>
-  <meta name="description" content="Free edible dosage calculator. Find out exactly how many mg of THC are in each portion of your cannabis edibles." />
+  <title>Edible Dosage Calculator — Calculate THC mg Per Serving | HowToEdibles</title>
+  <meta name="description" content="Free cannabis edible dosage calculator. Enter your weed amount, potency %, and number of servings to instantly find mg of THC per portion. Start low, go slow." />
   <link rel="canonical" href="https://www.howtoedibles.com/calculator.html" />
   <link rel="icon" type="image/x-icon" href="/favicon_385_icon.ico" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Edibles Dosage Calculator" />
-  <meta property="og:title" content="Edible Dosage Calculator - How Potent Are Your Edibles?" />
-  <meta property="og:description" content="Free edible dosage calculator. Find out exactly how many mg of THC are in each portion of your cannabis edibles." />
+  <meta property="og:site_name" content="HowToEdibles" />
+  <meta property="og:title" content="Edible Dosage Calculator — Calculate THC mg Per Serving | HowToEdibles" />
+  <meta property="og:description" content="Free cannabis edible dosage calculator. Enter your weed amount, potency %, and number of servings to instantly find mg of THC per portion. Start low, go slow." />
   <meta property="og:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
   <meta property="og:url" content="https://www.howtoedibles.com/calculator.html" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Edible Dosage Calculator - How Potent Are Your Edibles?" />
-  <meta name="twitter:description" content="Free edible dosage calculator. Find out exactly how many mg of THC are in each portion of your cannabis edibles." />
+  <meta name="twitter:title" content="Edible Dosage Calculator — Calculate THC mg Per Serving | HowToEdibles" />
+  <meta name="twitter:description" content="Free cannabis edible dosage calculator. Enter your weed amount, potency %, and number of servings to instantly find mg of THC per portion. Start low, go slow." />
   <meta name="twitter:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
 
-  <meta name="keywords" content="edible dosage calculator, how much weed for edibles, thc calculator, edible, edible potency calculator, edible dosage, cannabutter, pot calculator, cannabis, marijuana, weed, dose, dosage, calculator" />
+  <meta name="keywords" content="edible dosage calculator, THC mg calculator, cannabis edible potency, how to dose edibles, weed edible calculator, marijuana edibles calculator, edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles" />
   <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+[{"@context":"https://schema.org","@type":"WebApplication","name":"Cannabis Edible Dosage Calculator","url":"https://www.howtoedibles.com/calculator.html","description":"Free cannabis edible dosage calculator. Enter your weed amount, potency %, and number of servings to instantly find mg of THC per portion. Start low, go slow.","applicationCategory":"HealthApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"creator":{"@type":"Organization","name":"HowToEdibles","url":"https://www.howtoedibles.com"}},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many mg of THC should a beginner take in an edible?","acceptedAnswer":{"@type":"Answer","text":"Beginners should start with 2.5–5 mg of THC. This is a microdose that produces mild effects without overwhelming anxiety. Wait at least 2 hours before taking more, as edibles take longer to kick in than smoking."}},{"@type":"Question","name":"How long do edibles take to kick in?","acceptedAnswer":{"@type":"Answer","text":"Cannabis edibles typically take 30 minutes to 2 hours to kick in, depending on your metabolism, body weight, and whether you've eaten recently. The effects can last 4–8 hours, much longer than smoking."}},{"@type":"Question","name":"How do you calculate the dosage of cannabis edibles?","acceptedAnswer":{"@type":"Answer","text":"Use the formula: P = 10 × (G × S) / N, where G = grams of cannabis, S = potency percentage, N = number of servings, and P = mg of THC per serving. For example, 3.5g of 20% cannabis divided into 20 servings = 35 mg each."}},{"@type":"Question","name":"Why are edibles stronger than smoking weed?","acceptedAnswer":{"@type":"Answer","text":"When you eat cannabis, your liver converts THC into 11-hydroxy-THC, a more potent compound that crosses the blood-brain barrier more effectively. This makes edibles significantly stronger and longer-lasting than inhaled THC."}},{"@type":"Question","name":"What happens if you eat too many edibles?","acceptedAnswer":{"@type":"Answer","text":"Overconsumption of cannabis edibles can cause intense anxiety, paranoia, rapid heartbeat, and disorientation. These effects are temporary and not life-threatening. If this happens: stay calm, drink water, lie down in a comfortable place, and remember the feeling will pass. Use our calculator before consuming to avoid this."}},{"@type":"Question","name":"Does the amount of butter or oil matter for edible potency?","acceptedAnswer":{"@type":"Answer","text":"No. The potency of your edibles depends only on the amount of cannabis used, its THC percentage, and the number of servings. The quantity of butter or oil you use affects texture, not potency. Our calculator reflects this exactly."}}]}]
+</script>
 
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
@@ -251,10 +256,14 @@
 </div>
 
 <div class="row mt-3">
-  <div class="col-sm-5">
-    <i class="fa fa-calculator fa-lg orange icon-medium" aria-hidden="true"></i>
-    <h2>Step 1 - Calculate</h2>
-    <div id="calculator-widget">
+  <div class="col-md-5">
+    <div class="calculator-panel mb-3">
+      <div class="calculator-panel-header">
+        <i class="fa fa-calculator" aria-hidden="true"></i>
+        <span>Calculate Your Dose</span>
+      </div>
+      <div class="calculator-panel-body">
+        <div id="calculator-widget">
   <div class="calculator-item pt-1">
     <div class="pb-1">
       <h3>How much weed do you have?</h3>
@@ -342,6 +351,8 @@
   </div>
 </div>
 
+      </div>
+    </div>
     <div class="mt-2 mb-3 d-sm-none">
   <!-- Medium Rectangle -->
   <ins class="adsbygoogle"
@@ -352,11 +363,13 @@
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 
-    <div class="row mt-3">
-  <div class="col-sm-12">
-    <i class="fa fa-flask fa-lg orange icon-medium" aria-hidden="true"></i>
-    <h2>Step 2 - Check your dose</h2>
-    <div class="mt-2"><p class="mb-2 mt-2">
+    <div class="dosage-panel">
+      <div class="dosage-panel-header">
+        <i class="fa fa-flask" aria-hidden="true"></i>
+        <span>Check Your Dose</span>
+      </div>
+      <div class="dosage-panel-body">
+        <p class="mb-2 mt-2">
   <i class="fa fa-cookie fa-lg green icon-large" aria-hidden="true"></i>
   Full recipe: <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span>
 </p>
@@ -379,24 +392,126 @@
 <p class="spaced-content mt-1 pb-2" id="negative-effect-details"></p>
 
 <p class="sidenote mt-2">You may or may not feel all the effects listed*</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7 recipe-left-col">
+    <article class="calc-info-col">
+  <h1 class="calc-page-title">Cannabis Edible Dosage Calculator</h1>
+  <p class="calc-page-intro">
+    Use this free calculator to find out exactly how many <strong>milligrams of THC</strong> are in each portion of your cannabis edibles — before you cook. Enter your cannabis amount, strength, and number of servings. Instant, accurate results.
+  </p>
+
+  <h2 class="calc-section-title mt-4">THC Dosage Guide</h2>
+  <p class="calc-section-sub">How many mg is the right dose for you?</p>
+  <div class="table-responsive mb-4">
+    <table class="table table-sm calc-dosage-table">
+      <thead>
+        <tr><th>Level</th><th>THC per serving</th><th>Expected effects</th></tr>
+      </thead>
+      <tbody>
+        <tr class="table-success"><td><strong>Microdose</strong></td><td>1–2.5 mg</td><td>No or barely noticeable effect. Good for first-timers.</td></tr>
+<tr class="table-success"><td><strong>Beginner</strong></td><td>2.5–5 mg</td><td>Mild relaxation, light euphoria. Ideal starting dose.</td></tr>
+<tr class=""><td><strong>Casual</strong></td><td>5–15 mg</td><td>Clear euphoria, altered perception. Common recreational dose.</td></tr>
+<tr class="table-warning"><td><strong>Experienced</strong></td><td>15–30 mg</td><td>Strong effects, may cause anxiety in low-tolerance users.</td></tr>
+<tr class="table-warning"><td><strong>High dose</strong></td><td>30–50 mg</td><td>Very intense. Recommended only for high-tolerance users.</td></tr>
+<tr class="table-danger"><td><strong>Extreme</strong></td><td>50+ mg</td><td>Overwhelming for most people. Medical patients only.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="calc-section-title">How to Use the Calculator</h2>
+  <ol class="calc-steps-list">
+    <li>Enter the <strong>grams of cannabis</strong> you plan to use.</li>
+    <li>Set the <strong>THC percentage</strong> (check your dispensary label, or use the "Not sure?" guide).</li>
+    <li>Enter the <strong>number of servings</strong> your recipe makes.</li>
+    <li>The calculator instantly shows <strong>mg THC per serving</strong> and total potency.</li>
+  </ol>
+  <p class="mt-2"><a href="/how-a-cannabis-calculator-works.html">How does the math work? →</a></p>
+
+  <h2 class="calc-section-title mt-4">Try It With a Recipe</h2>
+  <p class="calc-section-sub">Open any recipe to pre-fill the calculator with suggested amounts:</p>
+  <div class="calc-recipe-chips mb-4">
+    <a href="/recipes/cannabutter/" class="calc-recipe-chip">Cannabutter</a>
+<a href="/recipes/infused-coconut-oil/" class="calc-recipe-chip">Infused Coconut oil</a>
+<a href="/recipes/infused-lemonade/" class="calc-recipe-chip">Infused Lemonade</a>
+<a href="/recipes/gummy-bears/" class="calc-recipe-chip">Gummy Bears</a>
+<a href="/recipes/pot-cookies/" class="calc-recipe-chip">Pot Cookies</a>
+<a href="/recipes/pot-brownies/" class="calc-recipe-chip">Pot Brownies</a>
+    <a href="/" class="calc-recipe-chip calc-recipe-chip--more">All recipes →</a>
+  </div>
+
+  <h2 class="calc-section-title mt-4">Frequently Asked Questions</h2>
+  <div class="calc-faq">
+    <div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-0" aria-expanded="false">
+    How many mg of THC should a beginner take in an edible?
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-0">
+    <p>Beginners should start with 2.5–5 mg of THC. This is a microdose that produces mild effects without overwhelming anxiety. Wait at least 2 hours before taking more, as edibles take longer to kick in than smoking.</p>
+  </div>
 </div>
+
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-1" aria-expanded="false">
+    How long do edibles take to kick in?
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-1">
+    <p>Cannabis edibles typically take 30 minutes to 2 hours to kick in, depending on your metabolism, body weight, and whether you&#39;ve eaten recently. The effects can last 4–8 hours, much longer than smoking.</p>
+  </div>
+</div>
+
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-2" aria-expanded="false">
+    How do you calculate the dosage of cannabis edibles?
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-2">
+    <p>Use the formula: P = 10 × (G × S) / N, where G = grams of cannabis, S = potency percentage, N = number of servings, and P = mg of THC per serving. For example, 3.5g of 20% cannabis divided into 20 servings = 35 mg each.</p>
+  </div>
+</div>
+
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-3" aria-expanded="false">
+    Why are edibles stronger than smoking weed?
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-3">
+    <p>When you eat cannabis, your liver converts THC into 11-hydroxy-THC, a more potent compound that crosses the blood-brain barrier more effectively. This makes edibles significantly stronger and longer-lasting than inhaled THC.</p>
+  </div>
+</div>
+
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-4" aria-expanded="false">
+    What happens if you eat too many edibles?
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-4">
+    <p>Overconsumption of cannabis edibles can cause intense anxiety, paranoia, rapid heartbeat, and disorientation. These effects are temporary and not life-threatening. If this happens: stay calm, drink water, lie down in a comfortable place, and remember the feeling will pass. Use our calculator before consuming to avoid this.</p>
+  </div>
+</div>
+
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-5" aria-expanded="false">
+    Does the amount of butter or oil matter for edible potency?
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-5">
+    <p>No. The potency of your edibles depends only on the amount of cannabis used, its THC percentage, and the number of servings. The quantity of butter or oil you use affects texture, not potency. Our calculator reflects this exactly.</p>
   </div>
 </div>
 
   </div>
-  <div class="col-sm-7">
-    <div class="mt-4">
-      <h1>Edible Dosage Calculator</h1>
-      <p class="mt-3">Use this calculator to find out how potent your cannabis edibles will be. Enter the amount of cannabis, its strength, and the number of portions you plan to make.</p>
-      <p>The formula: <strong>P = 10 × (G × S) / N</strong></p>
-      <ul>
-        <li><strong>G</strong> = grams of cannabis</li>
-        <li><strong>S</strong> = strength of cannabis (%)</li>
-        <li><strong>N</strong> = number of servings</li>
-        <li><strong>P</strong> = potency per serving (mg THC)</li>
-      </ul>
-      <p><a href="/how-a-cannabis-calculator-works.html">Learn more about how this calculator works →</a></p>
-    </div>
+
+  <p class="sidenote mt-4">
+    <i class="fa fa-shield-alt orange mr-1"></i>
+    Always start low and go slow. Wait at least 2 hours before taking more. This calculator is for educational purposes only.
+  </p>
+</article>
+
   </div>
 </div>
 
@@ -473,6 +588,17 @@
   window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 50, potency: 14 };
 </script>
 <script src="/js/calculator.js"></script>
+<script>
+  document.querySelectorAll('.calc-faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = document.getElementById(this.dataset.target);
+      var open = target.classList.toggle('open');
+      this.setAttribute('aria-expanded', open);
+      this.querySelector('.calc-faq-chevron').style.transform = open ? 'rotate(180deg)' : '';
+    });
+  });
+</script>
+
 
   </body>
 </html>
