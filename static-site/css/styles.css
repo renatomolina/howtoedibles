@@ -575,27 +575,94 @@ input[type="range"]::-moz-range-thumb {
   display: none !important;
 }
 
-/* 10. Footer (from footer.css) */
-footer {
-  background-color: #f8f9fa !important;
-  border: 1px solid #dbdbdb !important;
-  padding: 25px 0 0 0;
+/* 10. Footer */
+.site-footer {
+  background-color: #1c1c1c;
+  color: #aaa;
+  padding: 48px 0 0 0;
+  margin-top: 48px;
 }
 
-.hightlight-news-link {
-  color: #000 !important;
+.footer-brand img {
+  filter: brightness(0) invert(1);
+  opacity: 0.85;
 }
 
-.highlight-news-date {
-  color: #5a5a5a !important;
+.footer-tagline {
+  font-size: 0.88rem;
+  color: #888;
+  line-height: 1.6;
+  max-width: 280px;
 }
 
-.highlight-news-date-icon {
-  color: #323232 !important;
+.footer-social {
+  display: flex;
+  gap: 12px;
 }
 
-.footer-link-section {
-  color: #323232;
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #2e2e2e;
+  color: #bbb !important;
+  font-size: 1rem;
+  transition: background 0.15s, color 0.15s;
+  text-decoration: none;
+}
+
+.footer-social-link:hover {
+  background: #f27242;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.footer-col-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #888;
+  font-size: 0.88rem;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-links a:hover {
+  color: #f27242;
+}
+
+.footer-tip {
+  font-size: 0.85rem;
+  color: #777;
+  line-height: 1.6;
+}
+
+.footer-bottom {
+  border-top: 1px solid #2e2e2e;
+  margin-top: 32px;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 0.78rem;
+  color: #555;
 }
 
 /* 11. Flash animation (from animate.css) */
@@ -622,4 +689,56 @@ footer {
 /* Utility: push footer to bottom */
 .page-content {
   flex: 1;
+}
+
+/* Homepage hero */
+.homepage-hero {
+  background: linear-gradient(135deg, #fff8f5 0%, #fff3ec 100%);
+  border-radius: 16px;
+  padding: 32px 36px;
+  border-left: 4px solid #f27242;
+}
+
+.hero-title {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.hero-sub {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+  max-width: 540px;
+}
+
+@media (max-width: 575px) {
+  .homepage-hero {
+    padding: 20px 18px;
+    border-radius: 10px;
+  }
+  .hero-title { font-size: 1.35rem; }
+  .hero-sub { font-size: 0.9rem; }
+}
+
+/* Section header */
+.section-header {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  display: flex;
+  align-items: center;
+}
+
+/* Card hover effect */
+.recipe-card-item .card {
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.recipe-card-item .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
 }
