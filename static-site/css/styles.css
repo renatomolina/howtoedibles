@@ -333,6 +333,9 @@ p.spaced-content {
     min-width: 320px;
     max-width: 520px;
   }
+  .card-category {
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
