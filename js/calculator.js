@@ -156,14 +156,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* --- Labels / Effects ------------------------------------- */
   function getDosageLevelLabel(value) {
-    if (value < 10)
-      return "<i class='far fa-smile fa-lg green icon-large' aria-hidden='true'></i> THRESHOLD DOSE";
-    else if (value < 20)
-      return "<i class='far fa-surprise fa-lg yellow icon-large' aria-hidden='true'></i> COMMON DOSE";
-    else if (value < 30)
-      return "<i class='far fa-grimace fa-lg orange icon-large' aria-hidden='true'></i> STRONG DOSE";
-    else
-      return "<i class='far fa-flushed fa-lg red icon-large' aria-hidden='true'></i> HEAVY DOSE";
+    var levels = [
+      { max: 10,  mod: 'threshold', icon: 'fa-face-smile',     label: 'Threshold Dose', desc: 'Subtle effects — great for first-timers' },
+      { max: 20,  mod: 'common',    icon: 'fa-face-surprise',   label: 'Common Dose',    desc: 'Relaxed, pleasant high for most people' },
+      { max: 30,  mod: 'strong',    icon: 'fa-face-grimace',    label: 'Strong Dose',    desc: 'Intense — best for experienced users' },
+      { max: Infinity, mod: 'heavy',icon: 'fa-face-flushed',    label: 'Heavy Dose',     desc: 'Very potent — proceed with caution' },
+    ];
+    var l = levels.find(function(x) { return value < x.max; });
+    return '<div class="dose-level dose-level--' + l.mod + '">' +
+             '<i class="far ' + l.icon + ' dose-level-icon" aria-hidden="true"></i>' +
+             '<div class="dose-level-text">' +
+               '<span class="dose-level-name">' + l.label + '</span>' +
+               '<span class="dose-level-desc">' + l.desc + '</span>' +
+             '</div>' +
+           '</div>';
   }
 
   function badge(text, type) {

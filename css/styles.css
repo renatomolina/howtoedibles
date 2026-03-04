@@ -839,6 +839,49 @@ input[type="range"]::-moz-range-thumb {
 .potency-row--high   .potency-row-range { background: #fff5f0; color: #c05020; }
 .potency-row--conc   .potency-row-range { background: #fff0f0; color: #c02020; }
 
+/* Dose level pill */
+.dose-level {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 11px 16px;
+  border-radius: 14px;
+  margin: 4px 0 10px;
+  border: 1.5px solid transparent;
+}
+
+.dose-level-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.dose-level-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dose-level-name {
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+
+.dose-level-desc {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.75;
+  line-height: 1.3;
+}
+
+.dose-level--threshold { background: #edfaf1; border-color: #b8e8c8; color: #1e6e3a; }
+.dose-level--common    { background: #fffbe6; border-color: #f5d87a; color: #8a6800; }
+.dose-level--strong    { background: #fff5f0; border-color: #f8c4a8; color: #c04a10; }
+.dose-level--heavy     { background: #fff0f0; border-color: #f0b0b0; color: #b02020; }
+
 .potency-avg-note {
   font-size: 0.77rem;
   color: #aaa;
