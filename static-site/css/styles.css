@@ -284,7 +284,6 @@ p.spaced-content {
 .nav-search-wrapper {
   position: relative;
   flex: 1;
-  max-width: 520px;
 }
 
 .nav-search-icon {
