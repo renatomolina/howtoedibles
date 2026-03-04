@@ -93,12 +93,6 @@ def make_svg(recipe_name, category_slug, viewbox, icon_path):
   <!-- Top gradient strip -->
   <rect width="800" height="160" fill="url(#topGrad)"/>
 
-  <!-- Category badge -->
-  <rect x="20" y="20" width="{len(cat_label)*9 + 24}" height="28" rx="14" fill="{accent}"/>
-  <text x="{20 + len(cat_label)*4.5 + 12}" y="39" text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700"
-        fill="white" letter-spacing="1">{cat_label}</text>
-
   <!-- FA Icon (circle bg + icon) -->
   <circle cx="{icon_cx}" cy="{icon_cy}" r="70" fill="{accent}" fill-opacity="0.12"/>
   <g transform="translate({tx:.2f},{ty:.2f}) scale({scale:.4f})" fill="{accent}" filter="url(#iconShadow)">
