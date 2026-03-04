@@ -147,52 +147,46 @@ end
 
 def html_footer
   <<~HTML
-    <footer class="footer mt-auto">
+    <footer class="site-footer mt-auto">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-5 mb-md-0">
-            <h2 class="footer-heading d-flex align-items-center">Latest News</h2>
-            <div class="block-21 mb-4 d-flex highlighted-articles">
-              <a href="/how-a-cannabis-calculator-works.html" class="highlight-news-date-icon">
-                <i class="mr-3 mt-3 fa fa-lg fa-calculator" aria-hidden="true"></i>
+        <div class="row footer-main">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <a href="/" class="footer-brand">
+              <img src="/images/howtoedibleslogo.png" alt="How to Edibles" />
+            </a>
+            <p class="footer-tagline mt-3">Cannabis edibles made easy. Recipes, dosing calculator, and harm reduction tips.</p>
+            <div class="footer-social mt-3">
+              <a href="https://instagram.com/howtoedibles" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
               </a>
-              <div class="text">
-                <h3 class="heading"><a href="/how-a-cannabis-calculator-works.html" class="hightlight-news-link">How a cannabis calculator works?</a></h3>
-                <div class="meta">
-                  <a href="/how-a-cannabis-calculator-works.html" class="highlight-news-date">
-                    <i class="fa-regular fa-calendar"></i> Aug. 20, 2023
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="block-21 mb-4 d-flex">
-              <a href="/how-to-prevent-a-bad-trip.html" class="highlight-news-date-icon">
-                <i class="mr-3 mt-3 fa-solid fa-lg fa-square-person-confined"></i>
+              <a href="https://facebook.com/howtoedibles" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
               </a>
-              <div class="text">
-                <h3 class="heading"><a href="/how-to-prevent-a-bad-trip.html" class="hightlight-news-link">How to prevent a bad trip?</a></h3>
-                <div class="meta">
-                  <a href="/how-to-prevent-a-bad-trip.html" class="highlight-news-date highlight-news-date-icon">
-                    <i class="fa-regular fa-calendar"></i> Aug. 20, 2023
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
-            <h2 class="footer-heading d-flex align-items-center">Resources</h2>
-            <ul class="list-unstyled">
-              <li><a href="/how-a-cannabis-calculator-works.html" class="footer-link-section">About</a></li>
-              <li class="mt-2"><a href="https://bit.ly/helpimhavingabadtrip" class="footer-link-section">Bad trip chat</a></li>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="footer-col-title">Recipes</h5>
+            <ul class="footer-links">
+              <li><a href="/">All recipes</a></li>
+              <li><a href="/calculator.html">Calculator</a></li>
             </ul>
           </div>
-          <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
-            <h2 class="footer-heading d-flex align-items-center">Get in touch</h2>
-            <ul class="list-unstyled">
-              <li><i class="fa-brands fa-instagram"></i> <a href="https://instagram.com/howtoedibles" target="_blank" rel="noopener noreferrer" class="footer-link-section">Instagram</a></li>
-              <li class="mt-2"><i class="fa-brands fa-facebook"></i> <a href="https://facebook.com/howtoedibles" target="_blank" rel="noopener noreferrer" class="footer-link-section">Facebook</a></li>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="footer-col-title">Learn</h5>
+            <ul class="footer-links">
+              <li><a href="/how-a-cannabis-calculator-works.html">How the calculator works</a></li>
+              <li><a href="/how-to-prevent-a-bad-trip.html">How to prevent a bad trip</a></li>
+              <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">Bad trip support chat</a></li>
+              <li><a href="/donate.html">Support us</a></li>
             </ul>
           </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="footer-col-title">Dosage tip</h5>
+            <p class="footer-tip"><i class="fa fa-leaf orange mr-2"></i>Start low, go slow. Wait at least 2 hours before taking more.</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; #{Time.now.year} HowToEdibles &mdash; For educational purposes only. Always consume responsibly.</p>
         </div>
       </div>
     </footer>
@@ -318,41 +312,41 @@ def html_calculator_widget(quantity:, portion:, potency:)
   HTML
 end
 
+def html_dosage_widget_content
+  <<~HTML
+    <p class="mb-2 mt-2">
+      <i class="fa fa-cookie fa-lg green icon-large" aria-hidden="true"></i>
+      Full recipe: <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span>
+    </p>
+
+    <p class="mb-2 mt-3">
+      <i class="fa fa-cookie-bite fa-lg green icon-large" aria-hidden="true"></i>
+      Per portion: <span class="badge badge-success badge-label" id="potency-result">0</span>
+    </p>
+
+    <p id="highness-level" class="mb-2 mt-3"></p>
+
+    <h3 class="dosage-effects-title mt-4">
+      <i class="far fa-laugh green mr-1" aria-hidden="true"></i> Positive Effects
+    </h3>
+    <p class="spaced-content mt-1 pb-2" id="positive-effect-details"></p>
+
+    <h3 class="dosage-effects-title mt-3">
+      <i class="far fa-frown red mr-1" aria-hidden="true"></i> Negative Effects
+    </h3>
+    <p class="spaced-content mt-1 pb-2" id="negative-effect-details"></p>
+
+    <p class="sidenote mt-2">You may or may not feel all the effects listed*</p>
+  HTML
+end
+
 def html_dosage_widget
   <<~HTML
     <div class="row mt-3">
       <div class="col-sm-12">
         <i class="fa fa-flask fa-lg orange icon-medium" aria-hidden="true"></i>
         <h2>Step 2 - Check your dose</h2>
-
-        <p class="mb-2 mt-3">
-          <i class="fa fa-cookie fa-lg green icon-large" aria-hidden="true"></i>
-          Full Recipe will have <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span>
-        </p>
-
-        <p class="mb-2 mt-3">
-          <i class="fa fa-cookie-bite fa-lg green icon-large" aria-hidden="true"></i>
-          Each portion will have
-          <span class="badge badge-success badge-label" id="potency-result">0</span>
-        </p>
-
-        <p id="highness-level" class="mb-2 mt-3"></p>
-
-        <div class="mb-2 mt-5">
-          <h2>
-            <i class="far fa-laugh fa-lg green icon icon-large" aria-hidden="true"></i>
-            Positive Effects
-          </h2>
-        </div>
-        <p class="spaced-content mt-2 pl-2 pb-2" id="positive-effect-details"></p>
-
-        <h2 class="mt-3">
-          <i class="far fa-frown fa-lg red icon-large" aria-hidden="true"></i>
-          Negative Effects
-        </h2>
-        <p class="spaced-content mt-3 pl-2 pb-2" id="negative-effect-details"></p>
-
-        <p class="sidenote">You may or may not feel all the effects listed*</p>
+        <div class="mt-2">#{html_dosage_widget_content}</div>
       </div>
     </div>
   HTML
@@ -429,13 +423,28 @@ def build_homepage
   body = <<~HTML
     #{html_leaderboard_ad}
 
-    <div class="popular-recipes pt-2 pb-2">
-      <i class="fa fa-fire-alt fa-lg orange popular-recipe-title icon-medium" aria-hidden="true"></i>
-      <h2>Popular recipes</h2>
+    <div class="homepage-hero mb-4">
+      <div class="hero-text">
+        <h1 class="hero-title">Cannabis Edibles Recipes</h1>
+        <p class="hero-sub">Delicious recipes with a built-in dosage calculator so you always know what's in your food.</p>
+      </div>
+    </div>
+
+    <div class="section-header mb-3">
+      <i class="fa fa-fire-alt orange mr-2" aria-hidden="true"></i>
+      <span>Popular recipes</span>
     </div>
 
     <div class="row">
       #{all_cards}
+    </div>
+
+    <div class="donate-cta">
+      <i class="fas fa-heart donate-cta-icon"></i>
+      <div class="donate-cta-text">
+        <strong>Enjoying the recipes?</strong> This site is free and ad-light — help us keep it that way.
+      </div>
+      <a href="/donate.html" class="donate-cta-btn">Support us</a>
     </div>
 
     <div id="search-no-results">No recipes found. Try a different search.</div>
@@ -465,58 +474,91 @@ def build_recipe_page(recipe)
   portion     = recipe["suggested_portion"]   || 50
   potency     = 14
   description = recipe["description"] || ""
+  category    = recipe["category_name"] || ""
   img_src     = "#{IMAGE_BASE}/#{slug}.jpg"
   canonical   = "https://www.howtoedibles.com/recipes/#{slug}/"
   og_image    = "https://www.howtoedibles.com#{img_src}"
 
-  title = "How to make #{name} | Edible Dosage Calculator"
+  title = "#{CGI.escapeHTML(name)} Recipe | HowToEdibles"
 
   video_html = ""
   if recipe["video"] && !recipe["video"].empty?
     video_html = <<~HTML
-      <div class="video-container mt-3">
+      <div class="video-container mt-4 mb-2">
         <iframe width="100%" height="300px" src="#{recipe["video"]}" frameborder="0" allowfullscreen></iframe>
       </div>
     HTML
   end
 
-  recipe_content = <<~HTML
-    <div class="pb-4">
-      <div class="recipe-title pb-4">
-        <h1>How to make #{CGI.escapeHTML(name)}</h1>
+  desc_html = description.empty? ? "" : "<p class=\"recipe-page-description\">#{CGI.escapeHTML(description)}</p>"
+
+  recipe_col = <<~HTML
+    #{html_leaderboard_ad}
+
+    <div class="recipe-hero-img-wrap">
+      <img src="#{img_src}" alt="#{CGI.escapeHTML(name)}" class="recipe-hero-img" />
+    </div>
+
+    <div class="recipe-header">
+      <span class="recipe-category-badge">#{CGI.escapeHTML(category)}</span>
+      <h1 class="recipe-page-title">#{CGI.escapeHTML(name)}</h1>
+      #{desc_html}
+    </div>
+
+    <div class="recipe-section-card mb-4">
+      <div class="recipe-section-header">
+        <i class="fa fa-utensils" aria-hidden="true"></i>
+        <span>Ingredients</span>
       </div>
-      <div class="recipe-content">
-        <div class="ingredients-container mb-4">
-          <div class="mb-2">
-            <i class="fa fa-utensils fa-lg orange icon-medium" aria-hidden="true"></i>
-            <h2>Ingredients</h2>
-          </div>
-          #{recipe["ingredients"]}
-        </div>
-        <div class="directions-container mb-1">
-          <div class="mt-2 mb-2">
-            <i class="fa fa-list-ol fa-lg orange icon-medium" aria-hidden="true"></i>
-            <h2>Directions</h2>
-          </div>
-          #{recipe["instructions"]}
-        </div>
+      <div class="recipe-section-body">
+        #{recipe["ingredients"]}
       </div>
-      #{video_html}
+    </div>
+
+    <div class="recipe-section-card mb-4">
+      <div class="recipe-section-header">
+        <i class="fa fa-list-ol" aria-hidden="true"></i>
+        <span>Directions</span>
+      </div>
+      <div class="recipe-section-body recipe-steps">
+        #{recipe["instructions"]}
+      </div>
+    </div>
+
+    #{video_html}
+  HTML
+
+  calculator_col = <<~HTML
+    <div class="calculator-panel mb-3">
+      <div class="calculator-panel-header">
+        <i class="fa fa-calculator" aria-hidden="true"></i>
+        <span>Calculate Your Dose</span>
+      </div>
+      <div class="calculator-panel-body">
+        #{html_calculator_widget(quantity: quantity, portion: portion, potency: potency)}
+      </div>
+    </div>
+
+    #{html_medium_ad}
+
+    <div class="dosage-panel">
+      <div class="dosage-panel-header">
+        <i class="fa fa-flask" aria-hidden="true"></i>
+        <span>Check Your Dose</span>
+      </div>
+      <div class="dosage-panel-body">
+        #{html_dosage_widget_content}
+      </div>
     </div>
   HTML
 
   body = <<~HTML
     <div class="row">
-      <div class="col-sm-5 order-2 order-md-2">
-        <i class="fa fa-calculator fa-lg orange icon-medium" aria-hidden="true"></i>
-        <h2>Step 1 - Calculate</h2>
-        #{html_calculator_widget(quantity: quantity, portion: portion, potency: potency)}
-        #{html_medium_ad}
-        #{html_dosage_widget}
+      <div class="col-md-7 order-1 order-md-1 recipe-left-col">
+        #{recipe_col}
       </div>
-      <div class="col-sm-7 order-1 order-md-1">
-        #{html_leaderboard_ad}
-        #{recipe_content}
+      <div class="col-md-5 order-2 order-md-2 recipe-right-col">
+        #{calculator_col}
       </div>
     </div>
   HTML
@@ -614,6 +656,63 @@ def build_404_page
   write_file(File.join(SITE_DIR, "404.html"), page)
 end
 
+def build_donate_page
+  head = html_head(
+    title:       "Support HowToEdibles | Donate",
+    description: "Help us keep HowToEdibles free. If this site has been useful, consider making a small donation.",
+    canonical:   "https://www.howtoedibles.com/donate.html"
+  )
+
+  body = <<~HTML
+    <div class="donate-page">
+      <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-6">
+
+          <div class="donate-hero text-center">
+            <div class="donate-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h1 class="donate-title">Support HowToEdibles</h1>
+            <p class="donate-subtitle">This website is free and always will be. If it has helped you, consider buying us a coffee.</p>
+          </div>
+
+          <div class="donate-card">
+            <p>We put a lot of work into making cannabis edibles safe, fun and accessible. The dosage calculator, the recipes, the harm reduction guides — everything is free and ad-light.</p>
+            <p>Running a website has costs. If you've found value here, even a small contribution helps us keep the lights on and add new content.</p>
+
+            <div class="text-center mt-4 mb-3">
+              <a href="https://bit.ly/donateht" target="_blank" rel="noopener noreferrer" class="btn-donate">
+                <i class="fas fa-heart mr-2"></i> Donate via PayPal
+              </a>
+            </div>
+
+            <p class="donate-note">Every contribution, big or small, is genuinely appreciated. Thank you for being part of this community.</p>
+          </div>
+
+          <div class="donate-features">
+            <div class="donate-feature">
+              <i class="fas fa-calculator orange"></i>
+              <span>Free dosage calculator for everyone</span>
+            </div>
+            <div class="donate-feature">
+              <i class="fas fa-book-open orange"></i>
+              <span>41+ tested cannabis recipes</span>
+            </div>
+            <div class="donate-feature">
+              <i class="fas fa-shield-alt orange"></i>
+              <span>Harm reduction guides &amp; safety tips</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  HTML
+
+  page = wrap_page(head_content: head, body_content: body)
+  write_file(File.join(SITE_DIR, "donate.html"), page)
+end
+
 # ─────────────────────────────────────────────
 # Main Build
 # ─────────────────────────────────────────────
@@ -629,6 +728,9 @@ build_calculator_page
 
 puts "\n--- Building 404 page ---"
 build_404_page
+
+puts "\n--- Building donation page ---"
+build_donate_page
 
 puts "\nDone! #{RECIPES.count} recipe pages generated."
 puts "Serve with: cd static-site && python3 -m http.server 8080"
