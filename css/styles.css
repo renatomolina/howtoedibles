@@ -584,7 +584,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .footer-brand img {
-  max-height: 52px;
+  height: 80px;
   width: auto;
 }
 
