@@ -1081,6 +1081,18 @@ input[type="range"]::-moz-range-thumb {
   flex-shrink: 0;
 }
 
+/* Recipe cross-reference links */
+a.recipe-reference {
+  color: #e06020;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+a.recipe-reference:hover {
+  color: #c04d10;
+  text-decoration-style: solid;
+}
+
 /* Calculator sidebar panel */
 .calculator-panel {
   background: #fff;
