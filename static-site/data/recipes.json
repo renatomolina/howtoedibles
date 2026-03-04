@@ -49,6 +49,106 @@
           "id": 39,
           "slug": "cannabis-caramel-sauce",
           "name": "Cannabis Caramel Sauce"
+        },
+        {
+          "id": 90,
+          "slug": "cannabis-cheesecake",
+          "name": "Cannabis Cheesecake"
+        },
+        {
+          "id": 91,
+          "slug": "infused-tiramisu",
+          "name": "Infused Tiramisu"
+        },
+        {
+          "id": 92,
+          "slug": "cannabis-apple-pie",
+          "name": "Cannabis Apple Pie"
+        },
+        {
+          "id": 93,
+          "slug": "infused-chocolate-lava-cake",
+          "name": "Infused Chocolate Lava Cake"
+        },
+        {
+          "id": 94,
+          "slug": "cannabis-lemon-bars",
+          "name": "Cannabis Lemon Bars"
+        },
+        {
+          "id": 95,
+          "slug": "infused-carrot-cake",
+          "name": "Infused Carrot Cake"
+        },
+        {
+          "id": 96,
+          "slug": "cannabis-coconut-macaroons",
+          "name": "Cannabis Coconut Macaroons"
+        },
+        {
+          "id": 97,
+          "slug": "infused-fudge",
+          "name": "Infused Fudge"
+        },
+        {
+          "id": 98,
+          "slug": "cannabis-blondies",
+          "name": "Cannabis Blondies"
+        },
+        {
+          "id": 99,
+          "slug": "infused-donut-holes",
+          "name": "Infused Donut Holes"
+        },
+        {
+          "id": 100,
+          "slug": "cannabis-peach-cobbler",
+          "name": "Cannabis Peach Cobbler"
+        },
+        {
+          "id": 101,
+          "slug": "infused-baklava",
+          "name": "Infused Baklava"
+        },
+        {
+          "id": 102,
+          "slug": "cannabis-chocolate-fondue",
+          "name": "Cannabis Chocolate Fondue"
+        },
+        {
+          "id": 103,
+          "slug": "infused-strawberry-shortcake",
+          "name": "Infused Strawberry Shortcake"
+        },
+        {
+          "id": 104,
+          "slug": "cannabis-panna-cotta",
+          "name": "Cannabis Panna Cotta"
+        },
+        {
+          "id": 105,
+          "slug": "infused-churros",
+          "name": "Infused Churros"
+        },
+        {
+          "id": 106,
+          "slug": "cannabis-crepes",
+          "name": "Cannabis Crepes"
+        },
+        {
+          "id": 107,
+          "slug": "infused-mango-sorbet",
+          "name": "Infused Mango Sorbet"
+        },
+        {
+          "id": 108,
+          "slug": "cannabis-cinnamon-rolls",
+          "name": "Cannabis Cinnamon Rolls"
+        },
+        {
+          "id": 109,
+          "slug": "infused-coconut-pudding",
+          "name": "Infused Coconut Pudding"
         }
       ]
     },
@@ -202,6 +302,106 @@
           "id": 43,
           "slug": "cannabis-salad-dressing",
           "name": "Cannabis Salad Dressing"
+        },
+        {
+          "id": 110,
+          "slug": "cannabis-shakshuka",
+          "name": "Cannabis Shakshuka"
+        },
+        {
+          "id": 111,
+          "slug": "infused-mushroom-risotto",
+          "name": "Infused Mushroom Risotto"
+        },
+        {
+          "id": 112,
+          "slug": "cannabis-thai-basil-chicken",
+          "name": "Cannabis Thai Basil Chicken"
+        },
+        {
+          "id": 113,
+          "slug": "infused-beef-tacos",
+          "name": "Infused Beef Tacos"
+        },
+        {
+          "id": 114,
+          "slug": "cannabis-chicken-caesar-salad",
+          "name": "Cannabis Chicken Caesar Salad"
+        },
+        {
+          "id": 115,
+          "slug": "infused-cauliflower-fried-rice",
+          "name": "Infused Cauliflower Fried Rice"
+        },
+        {
+          "id": 116,
+          "slug": "cannabis-minestrone-soup",
+          "name": "Cannabis Minestrone Soup"
+        },
+        {
+          "id": 117,
+          "slug": "infused-pulled-pork-sliders",
+          "name": "Infused Pulled Pork Sliders"
+        },
+        {
+          "id": 118,
+          "slug": "cannabis-greek-salad",
+          "name": "Cannabis Greek Salad"
+        },
+        {
+          "id": 119,
+          "slug": "infused-tomato-bisque",
+          "name": "Infused Tomato Bisque"
+        },
+        {
+          "id": 120,
+          "slug": "cannabis-chicken-burrito-bowl",
+          "name": "Cannabis Chicken Burrito Bowl"
+        },
+        {
+          "id": 121,
+          "slug": "infused-falafel-wrap",
+          "name": "Infused Falafel Wrap"
+        },
+        {
+          "id": 122,
+          "slug": "cannabis-butternut-squash-soup",
+          "name": "Cannabis Butternut Squash Soup"
+        },
+        {
+          "id": 123,
+          "slug": "infused-egg-fried-rice",
+          "name": "Infused Egg Fried Rice"
+        },
+        {
+          "id": 124,
+          "slug": "cannabis-grilled-salmon",
+          "name": "Cannabis Grilled Salmon"
+        },
+        {
+          "id": 125,
+          "slug": "infused-caprese-salad",
+          "name": "Infused Caprese Salad"
+        },
+        {
+          "id": 126,
+          "slug": "cannabis-quesadilla",
+          "name": "Cannabis Quesadilla"
+        },
+        {
+          "id": 127,
+          "slug": "infused-pad-thai",
+          "name": "Infused Pad Thai"
+        },
+        {
+          "id": 128,
+          "slug": "cannabis-pizza",
+          "name": "Cannabis Pizza"
+        },
+        {
+          "id": 129,
+          "slug": "infused-lentil-dal",
+          "name": "Infused Lentil Dal"
         }
       ]
     },
@@ -244,6 +444,245 @@
           "id": 44,
           "slug": "infused-chocolate-bark",
           "name": "Infused Chocolate Bark"
+        },
+        {
+          "id": 60,
+          "slug": "cannabis-keto-bacon-bites",
+          "name": "Cannabis Keto Bacon Bites"
+        },
+        {
+          "id": 61,
+          "slug": "infused-keto-chicken-wings",
+          "name": "Infused Keto Chicken Wings"
+        },
+        {
+          "id": 62,
+          "slug": "cannabis-keto-deviled-eggs",
+          "name": "Cannabis Keto Deviled Eggs"
+        },
+        {
+          "id": 63,
+          "slug": "infused-keto-stuffed-mushrooms",
+          "name": "Infused Keto Stuffed Mushrooms"
+        },
+        {
+          "id": 64,
+          "slug": "cannabis-keto-beef-chili",
+          "name": "Cannabis Keto Beef Chili"
+        },
+        {
+          "id": 65,
+          "slug": "infused-keto-zucchini-chips",
+          "name": "Infused Keto Zucchini Chips"
+        },
+        {
+          "id": 66,
+          "slug": "cannabis-keto-waffles",
+          "name": "Cannabis Keto Waffles"
+        },
+        {
+          "id": 67,
+          "slug": "infused-keto-salmon-patties",
+          "name": "Infused Keto Salmon Patties"
+        },
+        {
+          "id": 68,
+          "slug": "cannabis-keto-spinach-dip",
+          "name": "Cannabis Keto Spinach Dip"
+        },
+        {
+          "id": 69,
+          "slug": "infused-keto-almond-flour-cake",
+          "name": "Infused Keto Almond Flour Cake"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Vegan",
+      "slug": "vegan",
+      "recipes": [
+        {
+          "id": 45,
+          "slug": "cannabis-vegan-brownies",
+          "name": "Cannabis Vegan Brownies"
+        },
+        {
+          "id": 46,
+          "slug": "infused-vegan-cheese-sauce",
+          "name": "Infused Vegan Cheese Sauce"
+        },
+        {
+          "id": 47,
+          "slug": "cannabis-lentil-soup",
+          "name": "Cannabis Lentil Soup"
+        },
+        {
+          "id": 48,
+          "slug": "infused-vegan-pancakes",
+          "name": "Infused Vegan Pancakes"
+        },
+        {
+          "id": 49,
+          "slug": "cannabis-sweet-potato-curry",
+          "name": "Cannabis Sweet Potato Curry"
+        },
+        {
+          "id": 50,
+          "slug": "infused-jackfruit-tacos",
+          "name": "Infused Jackfruit Tacos"
+        },
+        {
+          "id": 51,
+          "slug": "cannabis-vegan-chocolate-mousse",
+          "name": "Cannabis Vegan Chocolate Mousse"
+        },
+        {
+          "id": 52,
+          "slug": "infused-vegan-mac-and-cheese",
+          "name": "Infused Vegan Mac and Cheese"
+        },
+        {
+          "id": 53,
+          "slug": "cannabis-coconut-milk-ice-cream",
+          "name": "Cannabis Coconut Milk Ice Cream"
+        },
+        {
+          "id": 54,
+          "slug": "infused-chickpea-stew",
+          "name": "Infused Chickpea Stew"
+        },
+        {
+          "id": 55,
+          "slug": "cannabis-vegan-protein-balls",
+          "name": "Cannabis Vegan Protein Balls"
+        },
+        {
+          "id": 56,
+          "slug": "infused-vegan-pesto-zoodles",
+          "name": "Infused Vegan Pesto Zoodles"
+        },
+        {
+          "id": 57,
+          "slug": "cannabis-black-bean-soup",
+          "name": "Cannabis Black Bean Soup"
+        },
+        {
+          "id": 58,
+          "slug": "infused-vegan-banana-ice-cream",
+          "name": "Infused Vegan Banana Ice Cream"
+        },
+        {
+          "id": 59,
+          "slug": "cannabis-roasted-vegetable-medley",
+          "name": "Cannabis Roasted Vegetable Medley"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mocktails",
+      "slug": "mocktails",
+      "recipes": [
+        {
+          "id": 70,
+          "slug": "cannabis-sparkling-lemonade",
+          "name": "Cannabis Sparkling Lemonade"
+        },
+        {
+          "id": 71,
+          "slug": "infused-virgin-mojito",
+          "name": "Infused Virgin Mojito"
+        },
+        {
+          "id": 72,
+          "slug": "cannabis-cucumber-mint-cooler",
+          "name": "Cannabis Cucumber Mint Cooler"
+        },
+        {
+          "id": 73,
+          "slug": "infused-watermelon-slush",
+          "name": "Infused Watermelon Slush"
+        },
+        {
+          "id": 74,
+          "slug": "cannabis-lavender-lemonade",
+          "name": "Cannabis Lavender Lemonade"
+        },
+        {
+          "id": 75,
+          "slug": "infused-tropical-punch",
+          "name": "Infused Tropical Punch"
+        },
+        {
+          "id": 76,
+          "slug": "cannabis-strawberry-basil-smash",
+          "name": "Cannabis Strawberry Basil Smash"
+        },
+        {
+          "id": 77,
+          "slug": "infused-hibiscus-tea",
+          "name": "Infused Hibiscus Tea"
+        },
+        {
+          "id": 78,
+          "slug": "cannabis-peach-iced-tea",
+          "name": "Cannabis Peach Iced Tea"
+        },
+        {
+          "id": 79,
+          "slug": "infused-mango-lassi",
+          "name": "Infused Mango Lassi"
+        },
+        {
+          "id": 80,
+          "slug": "cannabis-rose-lemonade",
+          "name": "Cannabis Rose Lemonade"
+        },
+        {
+          "id": 81,
+          "slug": "infused-pineapple-ginger-fizz",
+          "name": "Infused Pineapple Ginger Fizz"
+        },
+        {
+          "id": 82,
+          "slug": "cannabis-cranberry-spritzer",
+          "name": "Cannabis Cranberry Spritzer"
+        },
+        {
+          "id": 83,
+          "slug": "infused-matcha-cooler",
+          "name": "Infused Matcha Cooler"
+        },
+        {
+          "id": 84,
+          "slug": "cannabis-passion-fruit-lemonade",
+          "name": "Cannabis Passion Fruit Lemonade"
+        },
+        {
+          "id": 85,
+          "slug": "infused-cherry-limeade",
+          "name": "Infused Cherry Limeade"
+        },
+        {
+          "id": 86,
+          "slug": "cannabis-mint-green-tea",
+          "name": "Cannabis Mint Green Tea"
+        },
+        {
+          "id": 87,
+          "slug": "infused-blueberry-lemonade",
+          "name": "Infused Blueberry Lemonade"
+        },
+        {
+          "id": 88,
+          "slug": "cannabis-ginger-turmeric-tonic",
+          "name": "Cannabis Ginger Turmeric Tonic"
+        },
+        {
+          "id": 89,
+          "slug": "infused-coconut-lime-agua-fresca",
+          "name": "Infused Coconut Lime Agua Fresca"
         }
       ]
     }
@@ -863,6 +1302,1281 @@
       "category_name": "Keto",
       "category_slug": "keto",
       "position": 22
+    },
+    {
+      "id": 45,
+      "name": "Cannabis Vegan Brownies",
+      "slug": "cannabis-vegan-brownies",
+      "description": "Rich fudgy brownies made with cannabis coconut oil \u2014 100% plant-based.",
+      "ingredients": "<ul><li>1 cup cannabis-infused coconut oil</li><li>1\u00bd cups cane sugar</li><li>2 flax eggs (2 tbsp flax + 6 tbsp water)</li><li>1 tsp vanilla</li><li>1 cup flour</li><li>\u00bd cup cocoa powder</li><li>\u00bd tsp salt</li><li>\u00bd tsp baking powder</li><li>\u00bd cup vegan chocolate chips</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 350\u00b0F. Make flax eggs; rest 5 min.</li><li>Whisk cannabis oil, sugar, flax eggs and vanilla.</li><li>Fold in flour, cocoa, salt and baking powder.</li><li>Stir in chips. Pour into greased 8x8 pan.</li><li>Bake 25-30 min. Cool before cutting.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-vegan-brownies.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 45
+    },
+    {
+      "id": 46,
+      "name": "Infused Vegan Cheese Sauce",
+      "slug": "infused-vegan-cheese-sauce",
+      "description": "Creamy cashew cheese sauce with cannabis olive oil \u2014 great on pasta or nachos.",
+      "ingredients": "<ul><li>1 cup raw cashews soaked 4h</li><li>2 tbsp cannabis olive oil</li><li>3 tbsp nutritional yeast</li><li>\u00bd tsp garlic powder</li><li>\u00bd tsp smoked paprika</li><li>1 tsp lemon juice</li><li>\u00bd cup water</li><li>Salt</li></ul>",
+      "instructions": "<ul><li>Drain cashews and blend with all ingredients until silky.</li><li>Warm in a saucepan over low heat.</li><li>Adjust seasoning and serve.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-vegan-cheese-sauce.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 46
+    },
+    {
+      "id": 47,
+      "name": "Cannabis Lentil Soup",
+      "slug": "cannabis-lentil-soup",
+      "description": "Hearty red lentil soup finished with cannabis olive oil.",
+      "ingredients": "<ul><li>1 cup red lentils</li><li>1 onion diced</li><li>3 garlic cloves</li><li>2 carrots diced</li><li>1 tsp cumin</li><li>1 tsp coriander</li><li>\u00bd tsp turmeric</li><li>4 cups vegetable broth</li><li>2 tbsp cannabis olive oil</li><li>Salt, lemon</li></ul>",
+      "instructions": "<ul><li>Saut\u00e9 onion and garlic. Add carrots and spices.</li><li>Add lentils and broth. Simmer 25 min.</li><li>Blend half for creamier texture.</li><li>Off heat: stir in cannabis olive oil and lemon.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-lentil-soup.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 47
+    },
+    {
+      "id": 48,
+      "name": "Infused Vegan Pancakes",
+      "slug": "infused-vegan-pancakes",
+      "description": "Fluffy weekend pancakes with cannabis coconut oil.",
+      "ingredients": "<ul><li>1 cup flour</li><li>1 tbsp sugar</li><li>1 tsp baking powder</li><li>\u00bd tsp baking soda</li><li>Pinch salt</li><li>1 cup oat milk</li><li>1 tsp apple cider vinegar</li><li>2 tbsp cannabis coconut oil</li><li>1 tsp vanilla</li></ul>",
+      "instructions": "<ul><li>Mix oat milk and vinegar; rest 5 min.</li><li>Combine dry ingredients.</li><li>Add cannabis oil and vanilla to oat milk mixture.</li><li>Combine wet and dry until just mixed.</li><li>Cook 2-3 min per side on non-stick pan.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-vegan-pancakes.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 48
+    },
+    {
+      "id": 49,
+      "name": "Cannabis Sweet Potato Curry",
+      "slug": "cannabis-sweet-potato-curry",
+      "description": "Warming coconut sweet potato and chickpea curry with cannabis coconut oil.",
+      "ingredients": "<ul><li>2 tbsp cannabis coconut oil</li><li>1 onion</li><li>3 garlic cloves</li><li>1 tbsp ginger</li><li>2 tbsp curry powder</li><li>2 sweet potatoes cubed</li><li>400ml coconut milk</li><li>1 can chickpeas</li><li>1 cup vegetable broth</li><li>Salt, lime, cilantro</li></ul>",
+      "instructions": "<ul><li>Saut\u00e9 onion, garlic, ginger. Add curry powder.</li><li>Add sweet potatoes, coconut milk and broth. Simmer 20 min.</li><li>Add chickpeas; cook 5 min more.</li><li>Off heat: stir in cannabis coconut oil, lime and cilantro.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-sweet-potato-curry.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 49
+    },
+    {
+      "id": 50,
+      "name": "Infused Jackfruit Tacos",
+      "slug": "infused-jackfruit-tacos",
+      "description": "Pulled jackfruit tacos with smoky spices and cannabis olive oil.",
+      "ingredients": "<ul><li>2 cans young jackfruit drained</li><li>2 tbsp cannabis olive oil</li><li>1 tsp smoked paprika</li><li>1 tsp cumin</li><li>1 tsp garlic powder</li><li>\u00bd tsp chili powder</li><li>8 corn tortillas</li><li>Avocado, salsa, lime</li></ul>",
+      "instructions": "<ul><li>Shred jackfruit with a fork.</li><li>Season and pan-fry until edges caramelise.</li><li>Off heat: stir through cannabis olive oil.</li><li>Serve in warm tortillas with avocado and salsa.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-jackfruit-tacos.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 50
+    },
+    {
+      "id": 51,
+      "name": "Cannabis Vegan Chocolate Mousse",
+      "slug": "cannabis-vegan-chocolate-mousse",
+      "description": "Silky avocado chocolate mousse with cannabis coconut oil.",
+      "ingredients": "<ul><li>2 ripe avocados</li><li>\u00bc cup cocoa powder</li><li>\u00bc cup maple syrup</li><li>2 tbsp cannabis coconut oil</li><li>1 tsp vanilla</li><li>Pinch salt</li></ul>",
+      "instructions": "<ul><li>Blend all ingredients until smooth.</li><li>Taste and adjust sweetness.</li><li>Chill 1 hour before serving.</li><li>Top with berries or coconut cream.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-vegan-chocolate-mousse.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 51
+    },
+    {
+      "id": 52,
+      "name": "Infused Vegan Mac and Cheese",
+      "slug": "infused-vegan-mac-and-cheese",
+      "description": "Comforting plant-based mac with cashew-cannabis sauce.",
+      "ingredients": "<ul><li>300g macaroni</li><li>1 cup soaked cashews</li><li>2 tbsp cannabis olive oil</li><li>3 tbsp nutritional yeast</li><li>1 tsp garlic powder</li><li>1 tsp onion powder</li><li>\u00bd tsp turmeric</li><li>1 cup pasta water</li><li>Salt</li></ul>",
+      "instructions": "<ul><li>Cook pasta; reserve 1 cup water.</li><li>Blend cashews, cannabis oil, nutritional yeast, spices and \u00bd cup water until smooth.</li><li>Toss drained pasta with sauce over low heat, adding water as needed.</li><li>Season and serve.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-vegan-mac-and-cheese.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 52
+    },
+    {
+      "id": 53,
+      "name": "Cannabis Coconut Milk Ice Cream",
+      "slug": "cannabis-coconut-milk-ice-cream",
+      "description": "Creamy 3-ingredient vegan ice cream with cannabis coconut oil.",
+      "ingredients": "<ul><li>2 cans full-fat coconut milk chilled overnight</li><li>3 tbsp cannabis coconut oil</li><li>\u00bd cup maple syrup</li><li>1 tsp vanilla</li><li>Pinch salt</li></ul>",
+      "instructions": "<ul><li>Scoop solid cream from top of cans and beat until fluffy.</li><li>Fold in cannabis oil, maple syrup, vanilla and salt.</li><li>Freeze 4-6 hours. Let sit 5 min before scooping.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-coconut-milk-ice-cream.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 53
+    },
+    {
+      "id": 54,
+      "name": "Infused Chickpea Stew",
+      "slug": "infused-chickpea-stew",
+      "description": "Tomato-based chickpea stew finished with cannabis olive oil.",
+      "ingredients": "<ul><li>2 cans chickpeas</li><li>2 tbsp cannabis olive oil</li><li>1 onion</li><li>4 garlic cloves</li><li>1 tsp smoked paprika</li><li>1 tsp cumin</li><li>\u00bd tsp cayenne</li><li>1 can crushed tomatoes</li><li>1 cup vegetable broth</li><li>Parsley</li></ul>",
+      "instructions": "<ul><li>Saut\u00e9 onion and garlic. Add spices.</li><li>Add chickpeas, tomatoes and broth. Simmer 20 min.</li><li>Off heat: stir in cannabis olive oil. Season and garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-chickpea-stew.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 54
+    },
+    {
+      "id": 55,
+      "name": "Cannabis Vegan Protein Balls",
+      "slug": "cannabis-vegan-protein-balls",
+      "description": "No-bake energy balls with peanut butter and cannabis coconut oil.",
+      "ingredients": "<ul><li>1 cup oats</li><li>\u00bd cup peanut butter</li><li>3 tbsp cannabis coconut oil</li><li>3 tbsp maple syrup</li><li>2 tbsp flaxseed</li><li>2 tbsp vegan protein powder</li><li>\u00bd cup vegan chocolate chips</li><li>1 tsp vanilla</li></ul>",
+      "instructions": "<ul><li>Mix all ingredients until combined. Chill 15 min if sticky.</li><li>Roll into tablespoon-sized balls.</li><li>Refrigerate 30 min before serving. Keeps 1 week chilled.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-vegan-protein-balls.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 55
+    },
+    {
+      "id": 56,
+      "name": "Infused Vegan Pesto Zoodles",
+      "slug": "infused-vegan-pesto-zoodles",
+      "description": "Spiralized zucchini with basil pesto made with cannabis olive oil.",
+      "ingredients": "<ul><li>4 zucchinis spiralized</li><li>2 cups fresh basil</li><li>3 tbsp cannabis olive oil</li><li>\u00bc cup pine nuts</li><li>3 garlic cloves</li><li>1 tbsp lemon juice</li><li>Salt, pepper</li><li>Cherry tomatoes</li></ul>",
+      "instructions": "<ul><li>Blend basil, nuts, garlic, lemon and cannabis oil. Season.</li><li>Briefly saut\u00e9 zucchini noodles 1-2 min (or serve raw).</li><li>Toss with pesto and top with cherry tomatoes.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-vegan-pesto-zoodles.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 56
+    },
+    {
+      "id": 57,
+      "name": "Cannabis Black Bean Soup",
+      "slug": "cannabis-black-bean-soup",
+      "description": "Smoky black bean soup finished with cannabis olive oil.",
+      "ingredients": "<ul><li>2 cans black beans</li><li>2 tbsp cannabis olive oil</li><li>1 onion</li><li>4 garlic cloves</li><li>1 jalape\u00f1o</li><li>2 tsp cumin</li><li>1 tsp smoked paprika</li><li>3 cups vegetable broth</li><li>Lime, cilantro</li></ul>",
+      "instructions": "<ul><li>Saut\u00e9 onion, garlic, jalape\u00f1o. Add spices.</li><li>Add beans and broth. Simmer 20 min.</li><li>Blend half, stir back in.</li><li>Off heat: stir in cannabis oil and lime. Serve with cilantro.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-black-bean-soup.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 57
+    },
+    {
+      "id": 58,
+      "name": "Infused Vegan Banana Ice Cream",
+      "slug": "infused-vegan-banana-ice-cream",
+      "description": "One-ingredient nice cream with cannabis coconut oil.",
+      "ingredients": "<ul><li>4 very ripe bananas frozen</li><li>2 tbsp cannabis coconut oil</li><li>1 tsp vanilla</li><li>Optional: peanut butter or cocoa</li></ul>",
+      "instructions": "<ul><li>Blend frozen banana until smooth and creamy.</li><li>Add cannabis oil and vanilla; blend again.</li><li>Add optional mix-ins and pulse.</li><li>Serve as soft-serve or freeze 1h for scoopable texture.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-vegan-banana-ice-cream.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 58
+    },
+    {
+      "id": 59,
+      "name": "Cannabis Roasted Vegetable Medley",
+      "slug": "cannabis-roasted-vegetable-medley",
+      "description": "Colourful sheet-pan vegetables drizzled with cannabis olive oil after roasting.",
+      "ingredients": "<ul><li>1 red pepper cubed</li><li>1 zucchini cubed</li><li>1 red onion wedged</li><li>1 cup cherry tomatoes</li><li>200g broccoli florets</li><li>2 tbsp olive oil</li><li>1 tsp Italian seasoning</li><li>2 tbsp cannabis olive oil to finish</li><li>Fresh basil</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 425\u00b0F.</li><li>Toss veg with regular olive oil, seasoning, salt and pepper.</li><li>Roast 25-30 min tossing halfway.</li><li>Drizzle with cannabis olive oil and scatter basil.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-roasted-vegetable-medley.jpg",
+      "category_name": "Vegan",
+      "category_slug": "vegan",
+      "position": 59
+    },
+    {
+      "id": 60,
+      "name": "Cannabis Keto Bacon Bites",
+      "slug": "cannabis-keto-bacon-bites",
+      "description": "Crispy bacon-wrapped bites with cream cheese and cannabis butter.",
+      "ingredients": "<ul><li>12 bacon strips</li><li>100g cream cheese softened</li><li>2 tbsp cannabis butter</li><li>1 tsp garlic powder</li><li>\u00bd tsp smoked paprika</li><li>12 jalape\u00f1o slices</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 400\u00b0F.</li><li>Mix cream cheese, cannabis butter, garlic and paprika.</li><li>Spread on bacon, top with jalape\u00f1o, roll and secure.</li><li>Bake 20-25 min until crispy.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-keto-bacon-bites.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 60
+    },
+    {
+      "id": 61,
+      "name": "Infused Keto Chicken Wings",
+      "slug": "infused-keto-chicken-wings",
+      "description": "Crispy baked wings tossed in cannabis butter hot sauce.",
+      "ingredients": "<ul><li>1kg chicken wings</li><li>1 tsp baking powder</li><li>1 tsp garlic powder</li><li>Salt and pepper</li><li>3 tbsp cannabis butter melted</li><li>3 tbsp hot sauce</li><li>1 tsp apple cider vinegar</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 425\u00b0F. Toss wings with baking powder and spices.</li><li>Bake on a rack 45-50 min flipping halfway.</li><li>Whisk cannabis butter, hot sauce and vinegar.</li><li>Toss hot wings in sauce.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-keto-chicken-wings.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 61
+    },
+    {
+      "id": 62,
+      "name": "Cannabis Keto Deviled Eggs",
+      "slug": "cannabis-keto-deviled-eggs",
+      "description": "Classic deviled eggs with cannabis butter yolk filling.",
+      "ingredients": "<ul><li>6 hard-boiled eggs</li><li>2 tbsp cannabis butter softened</li><li>2 tbsp mayonnaise</li><li>1 tsp Dijon mustard</li><li>1 tsp apple cider vinegar</li><li>Salt, pepper</li><li>Paprika and chives</li></ul>",
+      "instructions": "<ul><li>Halve eggs; scoop yolks.</li><li>Mash yolks with cannabis butter, mayo, mustard, vinegar, salt and pepper.</li><li>Pipe back into whites.</li><li>Sprinkle with paprika and chives.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-keto-deviled-eggs.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 62
+    },
+    {
+      "id": 63,
+      "name": "Infused Keto Stuffed Mushrooms",
+      "slug": "infused-keto-stuffed-mushrooms",
+      "description": "Mushrooms filled with cream cheese and cannabis butter.",
+      "ingredients": "<ul><li>12 large mushrooms stems removed</li><li>100g cream cheese</li><li>2 tbsp cannabis butter</li><li>3 garlic cloves minced</li><li>50g parmesan grated</li><li>2 tbsp parsley</li><li>Salt, pepper</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 375\u00b0F.</li><li>Saut\u00e9 garlic in cannabis butter 1 min.</li><li>Mix with cream cheese, parmesan, parsley, salt and pepper.</li><li>Spoon into caps. Bake 20-25 min.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-keto-stuffed-mushrooms.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 63
+    },
+    {
+      "id": 64,
+      "name": "Cannabis Keto Beef Chili",
+      "slug": "cannabis-keto-beef-chili",
+      "description": "Low-carb beef chili spiked with cannabis olive oil.",
+      "ingredients": "<ul><li>500g ground beef</li><li>2 tbsp cannabis olive oil</li><li>1 onion</li><li>4 garlic cloves</li><li>1 tbsp chili powder</li><li>1 tsp cumin</li><li>1 tsp smoked paprika</li><li>1 can crushed tomatoes</li><li>1 cup beef broth</li><li>Sour cream to serve</li></ul>",
+      "instructions": "<ul><li>Brown beef; drain fat.</li><li>Add onion and garlic; cook until soft.</li><li>Add spices, tomatoes and broth. Simmer 30 min.</li><li>Off heat: stir in cannabis oil. Serve with sour cream.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-keto-beef-chili.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 64
+    },
+    {
+      "id": 65,
+      "name": "Infused Keto Zucchini Chips",
+      "slug": "infused-keto-zucchini-chips",
+      "description": "Thin crispy baked zucchini chips with cannabis olive oil.",
+      "ingredients": "<ul><li>2 zucchinis very thinly sliced</li><li>2 tbsp cannabis olive oil</li><li>\u00bd tsp garlic powder</li><li>\u00bd tsp onion powder</li><li>Salt, pepper</li><li>\u00bc cup parmesan grated</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 225\u00b0F.</li><li>Toss zucchini with cannabis oil and seasoning.</li><li>Arrange in single layer; sprinkle parmesan.</li><li>Bake 2-2.5h until crispy. Cool on pan.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-keto-zucchini-chips.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 65
+    },
+    {
+      "id": 66,
+      "name": "Cannabis Keto Waffles",
+      "slug": "cannabis-keto-waffles",
+      "description": "Fluffy almond flour waffles with cannabis butter.",
+      "ingredients": "<ul><li>1 cup almond flour</li><li>2 tbsp coconut flour</li><li>2 eggs</li><li>2 tbsp cannabis butter melted</li><li>\u00bc cup almond milk</li><li>1 tsp baking powder</li><li>Pinch salt</li><li>1 tsp vanilla</li></ul>",
+      "instructions": "<ul><li>Preheat waffle iron.</li><li>Whisk eggs, cannabis butter, milk and vanilla.</li><li>Add flours, baking powder and salt.</li><li>Cook in waffle iron until golden. Serve with sugar-free syrup.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-keto-waffles.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 66
+    },
+    {
+      "id": 67,
+      "name": "Infused Keto Salmon Patties",
+      "slug": "infused-keto-salmon-patties",
+      "description": "Pan-fried salmon patties with cannabis butter.",
+      "ingredients": "<ul><li>400g cooked salmon flaked</li><li>1 egg</li><li>3 tbsp almond flour</li><li>2 tbsp cannabis butter</li><li>2 tbsp mayonnaise</li><li>1 tbsp Dijon mustard</li><li>2 spring onions</li><li>Salt, pepper, lemon</li></ul>",
+      "instructions": "<ul><li>Mix salmon, egg, almond flour, mayo, mustard and spring onions.</li><li>Form 6 patties.</li><li>Melt cannabis butter in skillet.</li><li>Cook 3-4 min per side until golden. Serve with lemon.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-keto-salmon-patties.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 67
+    },
+    {
+      "id": 68,
+      "name": "Cannabis Keto Spinach Dip",
+      "slug": "cannabis-keto-spinach-dip",
+      "description": "Warm cheesy spinach dip with cannabis butter.",
+      "ingredients": "<ul><li>2 tbsp cannabis butter</li><li>300g frozen spinach thawed and squeezed</li><li>200g cream cheese</li><li>\u00bd cup sour cream</li><li>\u00bd cup mozzarella shredded</li><li>\u00bc cup parmesan</li><li>2 garlic cloves</li><li>Salt, pepper</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 375\u00b0F.</li><li>Saut\u00e9 garlic in cannabis butter. Add spinach.</li><li>Stir in cream cheese, sour cream and half the mozzarella.</li><li>Transfer to baking dish, top with remaining cheese.</li><li>Bake 20-25 min until bubbling.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-keto-spinach-dip.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 68
+    },
+    {
+      "id": 69,
+      "name": "Infused Keto Almond Flour Cake",
+      "slug": "infused-keto-almond-flour-cake",
+      "description": "Moist keto cake with almond flour and cannabis butter.",
+      "ingredients": "<ul><li>2 cups almond flour</li><li>3 eggs</li><li>\u00bd cup cannabis butter melted</li><li>\u00bd cup erythritol</li><li>1 tsp vanilla</li><li>1 tsp baking powder</li><li>Pinch salt</li><li>Zest of 1 lemon</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 350\u00b0F. Grease 8-inch pan.</li><li>Beat eggs, cannabis butter, sweetener and vanilla.</li><li>Stir in almond flour, baking powder, salt and lemon zest.</li><li>Bake 30-35 min. Cool completely.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-keto-almond-flour-cake.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 69
+    },
+    {
+      "id": 70,
+      "name": "Cannabis Sparkling Lemonade",
+      "slug": "cannabis-sparkling-lemonade",
+      "description": "Fizzy lemonade with cannabis simple syrup.",
+      "ingredients": "<ul><li>Juice of 4 lemons</li><li>2 tbsp cannabis simple syrup</li><li>1 cup sparkling water</li><li>Ice</li><li>Lemon and mint to garnish</li></ul>",
+      "instructions": "<ul><li>Make cannabis syrup: dissolve sugar in water over heat, cool, stir in cannabis tincture.</li><li>Combine lemon juice and cannabis syrup.</li><li>Add ice, top with sparkling water. Garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-sparkling-lemonade.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 70
+    },
+    {
+      "id": 71,
+      "name": "Infused Virgin Mojito",
+      "slug": "infused-virgin-mojito",
+      "description": "Minty lime mocktail with cannabis simple syrup.",
+      "ingredients": "<ul><li>Juice of 2 limes</li><li>2 tbsp cannabis simple syrup</li><li>10 fresh mint leaves</li><li>\u00bd cup sparkling water</li><li>Ice</li><li>Lime wedge</li></ul>",
+      "instructions": "<ul><li>Muddle mint in a glass.</li><li>Add ice, lime juice and cannabis syrup.</li><li>Top with sparkling water. Garnish with lime.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-virgin-mojito.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 71
+    },
+    {
+      "id": 72,
+      "name": "Cannabis Cucumber Mint Cooler",
+      "slug": "cannabis-cucumber-mint-cooler",
+      "description": "Refreshing cucumber mint mocktail with cannabis syrup.",
+      "ingredients": "<ul><li>\u00bd cucumber sliced</li><li>10 mint leaves</li><li>2 tbsp cannabis simple syrup</li><li>Juice of 1 lime</li><li>1 cup sparkling water</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Muddle cucumber and mint with syrup and lime.</li><li>Shake with ice and strain.</li><li>Top with sparkling water.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-cucumber-mint-cooler.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 72
+    },
+    {
+      "id": 73,
+      "name": "Infused Watermelon Slush",
+      "slug": "infused-watermelon-slush",
+      "description": "Blended watermelon slush with cannabis honey.",
+      "ingredients": "<ul><li>4 cups frozen watermelon</li><li>2 tbsp cannabis honey</li><li>Juice of 1 lime</li><li>Pinch salt</li><li>Fresh mint</li></ul>",
+      "instructions": "<ul><li>Blend watermelon, cannabis honey, lime and salt until smooth.</li><li>Pour into glasses and top with mint.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-watermelon-slush.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 73
+    },
+    {
+      "id": 74,
+      "name": "Cannabis Lavender Lemonade",
+      "slug": "cannabis-lavender-lemonade",
+      "description": "Floral lemonade with cannabis lavender syrup.",
+      "ingredients": "<ul><li>Juice of 4 lemons</li><li>2 tbsp cannabis lavender syrup</li><li>2 cups cold water</li><li>Ice</li><li>Dried lavender</li></ul>",
+      "instructions": "<ul><li>Simmer water, sugar and lavender 10 min; strain; add cannabis tincture.</li><li>Mix lemon juice, syrup and water. Pour over ice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-lavender-lemonade.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 74
+    },
+    {
+      "id": 75,
+      "name": "Infused Tropical Punch",
+      "slug": "infused-tropical-punch",
+      "description": "Mango, pineapple and passion fruit punch with cannabis syrup.",
+      "ingredients": "<ul><li>1 cup mango juice</li><li>1 cup pineapple juice</li><li>\u00bd cup passion fruit juice</li><li>2 tbsp cannabis simple syrup</li><li>Juice of 1 lime</li><li>Sparkling water</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Mix juices, cannabis syrup and lime in a pitcher.</li><li>Pour over ice and top with sparkling water.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-tropical-punch.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 75
+    },
+    {
+      "id": 76,
+      "name": "Cannabis Strawberry Basil Smash",
+      "slug": "cannabis-strawberry-basil-smash",
+      "description": "Summery strawberry and basil mocktail with cannabis honey.",
+      "ingredients": "<ul><li>6 strawberries hulled</li><li>6 basil leaves</li><li>2 tbsp cannabis honey</li><li>Juice of 1 lemon</li><li>Sparkling water</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Muddle strawberries and basil with cannabis honey and lemon.</li><li>Strain over ice. Top with sparkling water.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-strawberry-basil-smash.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 76
+    },
+    {
+      "id": 77,
+      "name": "Infused Hibiscus Tea",
+      "slug": "infused-hibiscus-tea",
+      "description": "Deep ruby hibiscus iced tea with cannabis honey.",
+      "ingredients": "<ul><li>3 tbsp dried hibiscus</li><li>4 cups boiling water</li><li>2 tbsp cannabis honey</li><li>Juice of 1 lime</li><li>Ice</li><li>Orange slices</li></ul>",
+      "instructions": "<ul><li>Steep hibiscus 10 min. Strain and cool.</li><li>Stir in cannabis honey and lime. Serve over ice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-hibiscus-tea.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 77
+    },
+    {
+      "id": 78,
+      "name": "Cannabis Peach Iced Tea",
+      "slug": "cannabis-peach-iced-tea",
+      "description": "Southern peach iced tea with cannabis simple syrup.",
+      "ingredients": "<ul><li>4 black tea bags</li><li>4 cups hot water</li><li>2 ripe peaches sliced</li><li>2 tbsp cannabis simple syrup</li><li>Juice of \u00bd lemon</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Brew tea 5 min. Add peaches; cool and refrigerate 1h.</li><li>Strain; stir in cannabis syrup and lemon. Serve over ice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-peach-iced-tea.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 78
+    },
+    {
+      "id": 79,
+      "name": "Infused Mango Lassi",
+      "slug": "infused-mango-lassi",
+      "description": "Creamy mango lassi with cannabis honey.",
+      "ingredients": "<ul><li>2 cups ripe mango</li><li>1 cup yoghurt</li><li>\u00bd cup milk</li><li>2 tbsp cannabis honey</li><li>\u00bd tsp cardamom</li><li>Pinch salt</li></ul>",
+      "instructions": "<ul><li>Blend all ingredients until smooth.</li><li>Taste and adjust. Pour into glasses.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-mango-lassi.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 79
+    },
+    {
+      "id": 80,
+      "name": "Cannabis Rose Lemonade",
+      "slug": "cannabis-rose-lemonade",
+      "description": "Elegant floral lemonade with cannabis tincture.",
+      "ingredients": "<ul><li>Juice of 4 lemons</li><li>2 tbsp rose syrup</li><li>1 tsp cannabis tincture</li><li>2 cups sparkling water</li><li>Ice</li><li>Dried rose petals</li></ul>",
+      "instructions": "<ul><li>Mix lemon juice, rose syrup and cannabis tincture.</li><li>Add sparkling water over ice. Garnish with rose petals.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-rose-lemonade.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 80
+    },
+    {
+      "id": 81,
+      "name": "Infused Pineapple Ginger Fizz",
+      "slug": "infused-pineapple-ginger-fizz",
+      "description": "Tropical pineapple ginger fizz with cannabis honey.",
+      "ingredients": "<ul><li>1 cup fresh pineapple juice</li><li>1 inch ginger grated</li><li>2 tbsp cannabis honey</li><li>Juice of 1 lime</li><li>Sparkling water</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Mix pineapple juice, ginger, cannabis honey and lime. Strain.</li><li>Pour over ice and top with sparkling water.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-pineapple-ginger-fizz.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 81
+    },
+    {
+      "id": 82,
+      "name": "Cannabis Cranberry Spritzer",
+      "slug": "cannabis-cranberry-spritzer",
+      "description": "Festive cranberry spritzer with cannabis simple syrup.",
+      "ingredients": "<ul><li>1 cup cranberry juice</li><li>2 tbsp cannabis simple syrup</li><li>Juice of \u00bd orange</li><li>Sparkling water</li><li>Ice</li><li>Cranberries, rosemary</li></ul>",
+      "instructions": "<ul><li>Mix cranberry juice, cannabis syrup and orange juice.</li><li>Add ice and sparkling water. Garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-cranberry-spritzer.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 82
+    },
+    {
+      "id": 83,
+      "name": "Infused Matcha Cooler",
+      "slug": "infused-matcha-cooler",
+      "description": "Cold matcha with cannabis honey and oat milk.",
+      "ingredients": "<ul><li>1 tsp matcha powder</li><li>2 tbsp hot water</li><li>1 cup cold oat milk</li><li>2 tbsp cannabis honey</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Whisk matcha with hot water until smooth. Add cannabis honey.</li><li>Fill glass with ice and oat milk. Pour matcha over top.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-matcha-cooler.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 83
+    },
+    {
+      "id": 84,
+      "name": "Cannabis Passion Fruit Lemonade",
+      "slug": "cannabis-passion-fruit-lemonade",
+      "description": "Tropical lemonade with passion fruit and cannabis honey.",
+      "ingredients": "<ul><li>Pulp of 4 passion fruits</li><li>Juice of 3 lemons</li><li>2 tbsp cannabis honey</li><li>1\u00bd cups sparkling water</li><li>Ice</li><li>Mint</li></ul>",
+      "instructions": "<ul><li>Mix passion fruit, lemon and cannabis honey until dissolved.</li><li>Pour over ice and top with sparkling water. Garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-passion-fruit-lemonade.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 84
+    },
+    {
+      "id": 85,
+      "name": "Infused Cherry Limeade",
+      "slug": "infused-cherry-limeade",
+      "description": "Cherry and lime mocktail with cannabis simple syrup.",
+      "ingredients": "<ul><li>1 cup tart cherry juice</li><li>Juice of 3 limes</li><li>2 tbsp cannabis simple syrup</li><li>Sparkling water</li><li>Ice</li><li>Lime, cherries</li></ul>",
+      "instructions": "<ul><li>Mix cherry juice, lime and cannabis syrup.</li><li>Pour over ice and top with sparkling water. Garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-cherry-limeade.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 85
+    },
+    {
+      "id": 86,
+      "name": "Cannabis Mint Green Tea",
+      "slug": "cannabis-mint-green-tea",
+      "description": "Cool mint green tea with cannabis honey.",
+      "ingredients": "<ul><li>3 green tea bags</li><li>4 cups hot water</li><li>2 tbsp cannabis honey</li><li>10 mint leaves</li><li>Juice of 1 lemon</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Brew green tea 3 min. Stir in cannabis honey while warm.</li><li>Add mint and lemon. Cool, refrigerate. Serve over ice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-mint-green-tea.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 86
+    },
+    {
+      "id": 87,
+      "name": "Infused Blueberry Lemonade",
+      "slug": "infused-blueberry-lemonade",
+      "description": "Purple blueberry lemonade with cannabis syrup.",
+      "ingredients": "<ul><li>1 cup blueberries</li><li>Juice of 4 lemons</li><li>2 tbsp cannabis simple syrup</li><li>2 cups cold water</li><li>Ice</li></ul>",
+      "instructions": "<ul><li>Simmer blueberries with \u00bc cup water; strain.</li><li>Mix blueberry juice, lemon, cannabis syrup and water. Serve over ice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-blueberry-lemonade.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 87
+    },
+    {
+      "id": 88,
+      "name": "Cannabis Ginger Turmeric Tonic",
+      "slug": "cannabis-ginger-turmeric-tonic",
+      "description": "Wellness tonic with ginger, turmeric and cannabis honey.",
+      "ingredients": "<ul><li>1 inch ginger grated</li><li>\u00bd tsp turmeric</li><li>Juice of 1 lemon</li><li>2 tbsp cannabis honey</li><li>1 cup warm water</li><li>Pinch black pepper</li><li>Sparkling water</li></ul>",
+      "instructions": "<ul><li>Combine ginger, turmeric, lemon and cannabis honey in warm water.</li><li>Cool, add ice, top with sparkling water. Add black pepper.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-ginger-turmeric-tonic.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 88
+    },
+    {
+      "id": 89,
+      "name": "Infused Coconut Lime Agua Fresca",
+      "slug": "infused-coconut-lime-agua-fresca",
+      "description": "Light coconut lime agua fresca with cannabis honey.",
+      "ingredients": "<ul><li>1 cup coconut water</li><li>Juice of 3 limes</li><li>1 cup sparkling water</li><li>2 tbsp cannabis honey</li><li>Ice</li><li>Lime zest, coconut flakes</li></ul>",
+      "instructions": "<ul><li>Mix coconut water, lime and cannabis honey until dissolved.</li><li>Add sparkling water over ice. Garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-coconut-lime-agua-fresca.jpg",
+      "category_name": "Mocktails",
+      "category_slug": "mocktails",
+      "position": 89
+    },
+    {
+      "id": 90,
+      "name": "Cannabis Cheesecake",
+      "slug": "cannabis-cheesecake",
+      "description": "Creamy baked cheesecake with cannabis butter crust.",
+      "ingredients": "<ul><li>Crust: 200g digestive biscuits crushed</li><li>80g cannabis butter melted</li><li>Filling: 600g cream cheese</li><li>\u00be cup caster sugar</li><li>3 eggs</li><li>1 tsp vanilla</li><li>200ml sour cream</li><li>2 tbsp flour</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 325\u00b0F. Mix biscuits and cannabis butter; press into 9-inch springform.</li><li>Beat cream cheese and sugar. Add eggs one at a time.</li><li>Mix in vanilla, sour cream and flour. Pour over crust.</li><li>Bake in water bath 55-60 min. Cool in oven 1h.</li><li>Refrigerate 4h before serving.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-cheesecake.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 90
+    },
+    {
+      "id": 91,
+      "name": "Infused Tiramisu",
+      "slug": "infused-tiramisu",
+      "description": "Classic tiramisu with cannabis mascarpone cream.",
+      "ingredients": "<ul><li>3 egg yolks</li><li>75g sugar</li><li>250g mascarpone</li><li>2 tbsp cannabis butter softened</li><li>200ml strong espresso cooled</li><li>200g ladyfingers</li><li>2 tbsp cocoa powder</li><li>1 tsp vanilla</li></ul>",
+      "instructions": "<ul><li>Beat yolks and sugar until pale. Beat in mascarpone, cannabis butter and vanilla.</li><li>Dip ladyfingers in espresso; layer in dish.</li><li>Spread half the cream. Repeat layers.</li><li>Dust with cocoa. Refrigerate 4h+</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-tiramisu.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 91
+    },
+    {
+      "id": 92,
+      "name": "Cannabis Apple Pie",
+      "slug": "cannabis-apple-pie",
+      "description": "Classic double-crust apple pie with cannabis butter pastry.",
+      "ingredients": "<ul><li>Pastry: 2\u00bd cups flour</li><li>200g cannabis butter cold cubed</li><li>6-8 tbsp ice water</li><li>\u00bd tsp salt</li><li>Filling: 6 apples peeled sliced</li><li>\u00be cup sugar</li><li>2 tsp cinnamon</li><li>\u00bc tsp nutmeg</li><li>2 tbsp cornstarch</li></ul>",
+      "instructions": "<ul><li>Make pastry; chill 1h. Preheat oven to 375\u00b0F.</li><li>Mix apple filling.</li><li>Line pan with half the dough. Add filling.</li><li>Top with second dough sheet; seal and crimp.</li><li>Bake 50-60 min until golden.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-apple-pie.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 92
+    },
+    {
+      "id": 93,
+      "name": "Infused Chocolate Lava Cake",
+      "slug": "infused-chocolate-lava-cake",
+      "description": "Molten chocolate cakes with cannabis butter centre.",
+      "ingredients": "<ul><li>100g dark chocolate</li><li>100g cannabis butter</li><li>2 eggs + 2 yolks</li><li>80g icing sugar</li><li>40g flour</li><li>Pinch salt</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 425\u00b0F. Grease 4 ramekins.</li><li>Melt chocolate and cannabis butter. Cool slightly.</li><li>Whisk in eggs, yolks and icing sugar. Fold in flour and salt.</li><li>Fill ramekins. Chill 30 min.</li><li>Bake 12-13 min. Rest 1 min then invert.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-chocolate-lava-cake.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 93
+    },
+    {
+      "id": 94,
+      "name": "Cannabis Lemon Bars",
+      "slug": "cannabis-lemon-bars",
+      "description": "Tangy lemon curd on cannabis shortbread.",
+      "ingredients": "<ul><li>Base: 1 cup flour</li><li>115g cannabis butter</li><li>\u00bc cup icing sugar</li><li>Pinch salt</li><li>Filling: 3 eggs</li><li>1 cup caster sugar</li><li>Juice and zest of 3 lemons</li><li>3 tbsp flour</li><li>Icing sugar to dust</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 350\u00b0F. Press base into 8x8 pan. Bake 18 min.</li><li>Whisk filling ingredients. Pour over hot base.</li><li>Bake 20-22 min until set. Cool and refrigerate.</li><li>Dust with icing sugar and cut into bars.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-lemon-bars.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 94
+    },
+    {
+      "id": 95,
+      "name": "Infused Carrot Cake",
+      "slug": "infused-carrot-cake",
+      "description": "Spiced moist carrot cake with cannabis oil.",
+      "ingredients": "<ul><li>2 cups flour</li><li>3 eggs</li><li>1\u00bd cups sugar</li><li>1 cup cannabis vegetable oil</li><li>2 tsp vanilla</li><li>3 cups grated carrot</li><li>1\u00bd tsp baking powder</li><li>1 tsp cinnamon</li><li>\u00bd tsp nutmeg</li><li>Frosting: 250g cream cheese, 1 cup icing sugar, 1 tsp vanilla</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 350\u00b0F. Whisk eggs, sugar, cannabis oil and vanilla.</li><li>Fold in flour, spices and grated carrot.</li><li>Bake in two 8-inch pans 30-35 min. Cool completely.</li><li>Beat frosting; fill and cover cake.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-carrot-cake.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 95
+    },
+    {
+      "id": 96,
+      "name": "Cannabis Coconut Macaroons",
+      "slug": "cannabis-coconut-macaroons",
+      "description": "Chewy coconut macaroons with cannabis condensed milk.",
+      "ingredients": "<ul><li>3 cups desiccated coconut</li><li>\u00bd cup cannabis condensed milk</li><li>2 egg whites</li><li>1 tsp vanilla</li><li>Pinch salt</li><li>100g dark chocolate for dipping</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 325\u00b0F.</li><li>Mix coconut, cannabis condensed milk, vanilla and salt.</li><li>Fold in stiff egg whites.</li><li>Scoop onto lined tray. Bake 18-20 min.</li><li>Dip bases in melted chocolate when cool.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-coconut-macaroons.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 96
+    },
+    {
+      "id": 97,
+      "name": "Infused Fudge",
+      "slug": "infused-fudge",
+      "description": "Melt-in-your-mouth fudge with cannabis condensed milk.",
+      "ingredients": "<ul><li>400g dark chocolate chopped</li><li>400g cannabis condensed milk</li><li>2 tbsp butter</li><li>1 tsp vanilla</li><li>Pinch sea salt</li></ul>",
+      "instructions": "<ul><li>Melt chocolate, cannabis condensed milk and butter over low heat.</li><li>Stir in vanilla.</li><li>Pour into lined 8x8 pan. Sprinkle sea salt.</li><li>Refrigerate 3-4h. Cut into squares.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-fudge.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 97
+    },
+    {
+      "id": 98,
+      "name": "Cannabis Blondies",
+      "slug": "cannabis-blondies",
+      "description": "Butterscotch blondies with cannabis brown butter.",
+      "ingredients": "<ul><li>\u00bd cup cannabis butter browned</li><li>1 cup brown sugar</li><li>1 egg + 1 yolk</li><li>1 tsp vanilla</li><li>1 cup flour</li><li>\u00bd tsp baking powder</li><li>\u00bc tsp salt</li><li>\u00be cup white chocolate chips</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 350\u00b0F. Whisk cannabis brown butter and brown sugar.</li><li>Add egg, yolk and vanilla. Fold in flour, baking powder, salt and chips.</li><li>Bake in lined 8x8 pan 22-25 min. Do not overbake.</li><li>Cool completely before cutting.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-blondies.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 98
+    },
+    {
+      "id": 99,
+      "name": "Infused Donut Holes",
+      "slug": "infused-donut-holes",
+      "description": "Fluffy fried donut holes with cannabis cinnamon sugar coating.",
+      "ingredients": "<ul><li>1 cup flour</li><li>1\u00bd tsp baking powder</li><li>3 tbsp sugar</li><li>Pinch salt</li><li>\u00bd cup milk</li><li>1 egg</li><li>1 tbsp cannabis butter melted</li><li>Oil for frying</li><li>Coating: \u00bd cup sugar, 1 tsp cinnamon, 1 tbsp cannabis butter melted</li></ul>",
+      "instructions": "<ul><li>Mix dry ingredients. Whisk milk, egg and cannabis butter; add to dry.</li><li>Heat oil to 350\u00b0F. Drop tablespoons of batter; fry 2-3 min until golden.</li><li>Drain, brush with cannabis butter, roll in cinnamon sugar.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-donut-holes.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 99
+    },
+    {
+      "id": 100,
+      "name": "Cannabis Peach Cobbler",
+      "slug": "cannabis-peach-cobbler",
+      "description": "Southern peach cobbler with cannabis butter biscuit topping.",
+      "ingredients": "<ul><li>5 peaches sliced</li><li>\u00bc cup sugar</li><li>1 tsp lemon juice</li><li>\u00bd tsp cinnamon</li><li>Topping: 1 cup flour</li><li>\u00bc cup sugar</li><li>1\u00bd tsp baking powder</li><li>\u00bc tsp salt</li><li>\u00bd cup milk</li><li>4 tbsp cannabis butter melted</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 375\u00b0F. Toss peaches with sugar, lemon and cinnamon in a baking dish.</li><li>Mix topping into a thick batter. Drop spoonfuls over peaches.</li><li>Bake 40-45 min until golden. Serve warm.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-peach-cobbler.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 100
+    },
+    {
+      "id": 101,
+      "name": "Infused Baklava",
+      "slug": "infused-baklava",
+      "description": "Flaky phyllo layered with spiced nuts and cannabis honey syrup.",
+      "ingredients": "<ul><li>400g phyllo dough</li><li>200g cannabis butter melted</li><li>300g mixed walnuts and pistachios chopped</li><li>1 tsp cinnamon</li><li>Syrup: 1 cup sugar, 1 cup water, \u00bd cup honey, 1 tsp rose water</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 350\u00b0F. Layer phyllo sheets brushing each with cannabis butter and nut mixture.</li><li>Score into diamonds. Bake 45-50 min until deep golden.</li><li>Simmer syrup 10 min; pour hot over hot baklava. Cool fully.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-baklava.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 101
+    },
+    {
+      "id": 102,
+      "name": "Cannabis Chocolate Fondue",
+      "slug": "cannabis-chocolate-fondue",
+      "description": "Smooth chocolate fondue with cannabis cream.",
+      "ingredients": "<ul><li>300g dark chocolate chopped</li><li>1 cup cannabis heavy cream</li><li>2 tbsp butter</li><li>1 tsp vanilla</li><li>Pinch salt</li><li>Dippers: strawberries, banana, marshmallows, pretzels</li></ul>",
+      "instructions": "<ul><li>Heat cannabis cream until steaming. Remove from heat; add chocolate.</li><li>Rest 2 min then stir until smooth. Add butter, vanilla and salt.</li><li>Transfer to fondue pot and serve with dippers.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-chocolate-fondue.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 102
+    },
+    {
+      "id": 103,
+      "name": "Infused Strawberry Shortcake",
+      "slug": "infused-strawberry-shortcake",
+      "description": "Fluffy shortcake biscuits with cannabis butter and fresh strawberries.",
+      "ingredients": "<ul><li>Shortcakes: 2 cups flour</li><li>115g cannabis butter cold</li><li>2 tbsp sugar</li><li>1 tbsp baking powder</li><li>\u00bd tsp salt</li><li>\u00be cup cream</li><li>1 egg</li><li>Topping: 500g strawberries with 2 tbsp sugar</li><li>1 cup whipped cream</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 425\u00b0F. Cut cannabis butter into dry ingredients.</li><li>Add cream and egg until just combined. Drop onto baking sheet.</li><li>Bake 15 min. Split and fill with strawberries and whipped cream.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-strawberry-shortcake.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 103
+    },
+    {
+      "id": 104,
+      "name": "Cannabis Panna Cotta",
+      "slug": "cannabis-panna-cotta",
+      "description": "Silky Italian cream pudding with cannabis cream.",
+      "ingredients": "<ul><li>2 cups cannabis heavy cream</li><li>\u00bc cup sugar</li><li>2 tsp vanilla</li><li>2\u00bd tsp gelatine powder</li><li>3 tbsp cold water</li><li>Berry coulis to serve</li></ul>",
+      "instructions": "<ul><li>Bloom gelatine in cold water 5 min.</li><li>Heat cannabis cream and sugar until dissolved. Off heat: stir in vanilla and gelatine.</li><li>Pour into ramekins. Refrigerate 4h+.</li><li>Invert onto plates and serve with berry coulis.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-panna-cotta.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 104
+    },
+    {
+      "id": 105,
+      "name": "Infused Churros",
+      "slug": "infused-churros",
+      "description": "Crispy Spanish churros with cannabis butter dough.",
+      "ingredients": "<ul><li>1 cup water</li><li>115g cannabis butter</li><li>1 tbsp sugar</li><li>\u00bd tsp salt</li><li>1 cup flour</li><li>3 eggs</li><li>Oil for frying</li><li>Coating: \u00bd cup sugar, 1 tsp cinnamon</li><li>Chocolate sauce to serve</li></ul>",
+      "instructions": "<ul><li>Boil water, cannabis butter, sugar and salt. Add flour; stir until dough forms.</li><li>Cool 5 min then beat in eggs.</li><li>Pipe into hot oil (350\u00b0F). Fry 3-4 min until golden.</li><li>Roll in cinnamon sugar. Serve with chocolate sauce.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-churros.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 105
+    },
+    {
+      "id": 106,
+      "name": "Cannabis Crepes",
+      "slug": "cannabis-crepes",
+      "description": "Thin French crepes with cannabis butter.",
+      "ingredients": "<ul><li>1 cup flour</li><li>2 eggs</li><li>1\u00bd cups milk</li><li>2 tbsp cannabis butter melted</li><li>1 tbsp sugar</li><li>1 tsp vanilla</li><li>Pinch salt</li><li>Fillings: Nutella, jam, fruit, cream</li></ul>",
+      "instructions": "<ul><li>Blend all batter ingredients. Rest 30 min.</li><li>Cook thin layers in buttered non-stick pan 1-2 min per side.</li><li>Fill and fold as desired.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-crepes.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 106
+    },
+    {
+      "id": 107,
+      "name": "Infused Mango Sorbet",
+      "slug": "infused-mango-sorbet",
+      "description": "Vibrant dairy-free mango sorbet with cannabis syrup.",
+      "ingredients": "<ul><li>4 cups frozen mango</li><li>2 tbsp cannabis simple syrup</li><li>Juice of 1 lime</li><li>Pinch salt</li></ul>",
+      "instructions": "<ul><li>Blend frozen mango, cannabis syrup, lime and salt until smooth.</li><li>Serve as soft-serve or freeze 1h for scoopable texture.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-mango-sorbet.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 107
+    },
+    {
+      "id": 108,
+      "name": "Cannabis Cinnamon Rolls",
+      "slug": "cannabis-cinnamon-rolls",
+      "description": "Pillowy cinnamon rolls with cannabis butter filling and icing.",
+      "ingredients": "<ul><li>Dough: 3 cups flour, 2\u00bc tsp yeast, \u00bc cup sugar, 1 tsp salt, \u00be cup warm milk, 2 eggs, \u00bc cup cannabis butter</li><li>Filling: 4 tbsp cannabis butter, \u00bd cup brown sugar, 2 tbsp cinnamon</li><li>Icing: 1 cup icing sugar, 2 tbsp cannabis butter, 2 tbsp milk</li></ul>",
+      "instructions": "<ul><li>Mix and knead dough 8 min. Rise 1h.</li><li>Roll out, spread with cannabis butter, brown sugar and cinnamon.</li><li>Roll tightly, cut into 12. Rise 30 min. Bake at 375\u00b0F 20-25 min.</li><li>Drizzle with cannabis icing while warm.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-cinnamon-rolls.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 108
+    },
+    {
+      "id": 109,
+      "name": "Infused Coconut Pudding",
+      "slug": "infused-coconut-pudding",
+      "description": "Creamy coconut pudding with cannabis coconut milk.",
+      "ingredients": "<ul><li>2 cups cannabis coconut milk</li><li>\u00bc cup sugar</li><li>3 tbsp cornstarch</li><li>\u00bd tsp vanilla</li><li>Pinch salt</li><li>Toasted coconut and mango to serve</li></ul>",
+      "instructions": "<ul><li>Whisk all ingredients in a saucepan. Cook over medium heat stirring until thick (8-10 min).</li><li>Pour into bowls. Refrigerate 2h+.</li><li>Top with toasted coconut and mango.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-coconut-pudding.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 109
+    },
+    {
+      "id": 110,
+      "name": "Cannabis Shakshuka",
+      "slug": "cannabis-shakshuka",
+      "description": "Eggs poached in cannabis tomato sauce.",
+      "ingredients": "<ul><li>2 tbsp cannabis olive oil</li><li>1 onion</li><li>1 red pepper</li><li>4 garlic cloves</li><li>1 tsp cumin</li><li>1 tsp paprika</li><li>\u00bd tsp chili flakes</li><li>2 cans crushed tomatoes</li><li>4-6 eggs</li><li>Parsley and feta</li></ul>",
+      "instructions": "<ul><li>Saut\u00e9 onion and pepper in cannabis oil. Add garlic and spices.</li><li>Add tomatoes. Simmer 15 min. Season.</li><li>Make wells; crack eggs in. Cover and cook 6-8 min.</li><li>Top with parsley and feta. Serve with bread.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-shakshuka.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 110
+    },
+    {
+      "id": 111,
+      "name": "Infused Mushroom Risotto",
+      "slug": "infused-mushroom-risotto",
+      "description": "Creamy mushroom risotto with cannabis olive oil.",
+      "ingredients": "<ul><li>1\u00bd cups arborio rice</li><li>2 tbsp cannabis olive oil</li><li>1 onion</li><li>3 garlic cloves</li><li>400g mixed mushrooms</li><li>\u00bd cup non-alcoholic white grape juice</li><li>1L warm vegetable broth</li><li>50g parmesan</li><li>2 tbsp butter</li><li>Salt, pepper, thyme</li></ul>",
+      "instructions": "<ul><li>Saut\u00e9 onion in regular oil. Add garlic and mushrooms until golden.</li><li>Add rice; stir to coat. Add grape juice; cook until absorbed.</li><li>Add broth one ladle at a time stirring until each is absorbed (20 min).</li><li>Off heat: stir in parmesan, butter and cannabis olive oil.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-mushroom-risotto.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 111
+    },
+    {
+      "id": 112,
+      "name": "Cannabis Thai Basil Chicken",
+      "slug": "cannabis-thai-basil-chicken",
+      "description": "Quick Thai basil stir-fry with cannabis sesame oil.",
+      "ingredients": "<ul><li>500g ground chicken</li><li>2 tbsp cannabis sesame oil</li><li>4 garlic cloves</li><li>2 bird's eye chillies</li><li>2 tbsp soy sauce</li><li>1 tbsp oyster sauce</li><li>1 tsp fish sauce</li><li>1 tsp sugar</li><li>1 cup Thai basil</li><li>Steamed rice</li></ul>",
+      "instructions": "<ul><li>Brown ground chicken in regular oil.</li><li>Add garlic and chillies. Add sauces and sugar.</li><li>Off heat: drizzle cannabis sesame oil, toss through basil. Serve over rice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-thai-basil-chicken.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 112
+    },
+    {
+      "id": 113,
+      "name": "Infused Beef Tacos",
+      "slug": "infused-beef-tacos",
+      "description": "Spiced beef tacos with cannabis butter.",
+      "ingredients": "<ul><li>500g ground beef</li><li>2 tbsp cannabis butter</li><li>1 onion</li><li>3 garlic cloves</li><li>1 tsp cumin</li><li>1 tsp smoked paprika</li><li>\u00bd tsp chili powder</li><li>8 corn tortillas</li><li>Shredded cabbage, salsa, lime, sour cream</li></ul>",
+      "instructions": "<ul><li>Brown beef; drain fat. Add cannabis butter, onion and garlic.</li><li>Stir in spices. Cook 2 min.</li><li>Serve in warm tortillas with toppings.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-beef-tacos.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 113
+    },
+    {
+      "id": 114,
+      "name": "Cannabis Chicken Caesar Salad",
+      "slug": "cannabis-chicken-caesar-salad",
+      "description": "Restaurant-quality Caesar with cannabis dressing.",
+      "ingredients": "<ul><li>2 chicken breasts grilled and sliced</li><li>1 large romaine lettuce</li><li>\u00bd cup parmesan shaved</li><li>Croutons</li><li>Dressing: 2 tbsp cannabis olive oil, 1 tbsp lemon juice, 1 tsp Dijon, 1 tsp Worcestershire, 1 garlic clove, 3 tbsp mayo, salt</li></ul>",
+      "instructions": "<ul><li>Whisk all dressing ingredients.</li><li>Toss romaine with dressing.</li><li>Top with chicken, parmesan and croutons.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-chicken-caesar-salad.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 114
+    },
+    {
+      "id": 115,
+      "name": "Infused Cauliflower Fried Rice",
+      "slug": "infused-cauliflower-fried-rice",
+      "description": "Low-carb cauliflower fried rice with cannabis sesame oil.",
+      "ingredients": "<ul><li>1 large cauliflower riced</li><li>2 tbsp cannabis sesame oil</li><li>3 eggs beaten</li><li>1 cup frozen peas and corn</li><li>3 garlic cloves</li><li>3 tbsp soy sauce</li><li>Spring onions, sesame seeds</li></ul>",
+      "instructions": "<ul><li>Stir-fry cauliflower rice 5 min. Set aside.</li><li>Scramble eggs in same pan. Add garlic and veg.</li><li>Return cauliflower; add soy sauce. Toss.</li><li>Off heat: drizzle cannabis sesame oil. Garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-cauliflower-fried-rice.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 115
+    },
+    {
+      "id": 116,
+      "name": "Cannabis Minestrone Soup",
+      "slug": "cannabis-minestrone-soup",
+      "description": "Hearty Italian vegetable soup with cannabis olive oil.",
+      "ingredients": "<ul><li>2 tbsp cannabis olive oil</li><li>1 onion</li><li>2 carrots</li><li>2 celery stalks</li><li>3 garlic cloves</li><li>1 zucchini</li><li>1 can cannellini beans</li><li>1 can crushed tomatoes</li><li>1L vegetable broth</li><li>1 cup small pasta</li><li>2 cups spinach</li><li>Parmesan rind</li></ul>",
+      "instructions": "<ul><li>Saut\u00e9 onion, carrot and celery in regular oil.</li><li>Add garlic, zucchini and tomatoes. Add broth, beans and parmesan rind. Simmer 20 min.</li><li>Add pasta; cook al dente. Stir in spinach.</li><li>Off heat: drizzle cannabis olive oil.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-minestrone-soup.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 116
+    },
+    {
+      "id": 117,
+      "name": "Infused Pulled Pork Sliders",
+      "slug": "infused-pulled-pork-sliders",
+      "description": "Slow-cooked pulled pork in cannabis BBQ sauce.",
+      "ingredients": "<ul><li>1kg pork shoulder</li><li>1 tsp each smoked paprika, cumin, garlic powder, salt</li><li>Cannabis BBQ sauce: 1 cup BBQ sauce + 2 tbsp cannabis butter</li><li>Slider buns, coleslaw</li></ul>",
+      "instructions": "<ul><li>Rub pork with spices; slow cook on low 8h or oven at 300\u00b0F 4-5h.</li><li>Shred pork with forks.</li><li>Warm BBQ sauce with cannabis butter. Toss shredded pork in sauce.</li><li>Pile onto slider buns with coleslaw.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-pulled-pork-sliders.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 117
+    },
+    {
+      "id": 118,
+      "name": "Cannabis Greek Salad",
+      "slug": "cannabis-greek-salad",
+      "description": "Fresh Greek salad with cannabis olive oil dressing.",
+      "ingredients": "<ul><li>2 tomatoes wedged</li><li>1 cucumber chunked</li><li>\u00bd red onion sliced</li><li>\u00bd cup Kalamata olives</li><li>150g feta cubed</li><li>Dressing: 3 tbsp cannabis olive oil, 1 tbsp red wine vinegar, 1 tsp oregano, salt</li></ul>",
+      "instructions": "<ul><li>Combine vegetables and olives.</li><li>Whisk dressing and pour over. Toss.</li><li>Top with feta. Serve with crusty bread.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-greek-salad.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 118
+    },
+    {
+      "id": 119,
+      "name": "Infused Tomato Bisque",
+      "slug": "infused-tomato-bisque",
+      "description": "Silky roasted tomato soup with cannabis cream.",
+      "ingredients": "<ul><li>1kg roma tomatoes halved</li><li>1 onion quartered</li><li>6 garlic cloves</li><li>2 tbsp olive oil</li><li>1 cup vegetable broth</li><li>\u00bd cup cannabis cream</li><li>1 tsp sugar</li><li>Salt, pepper, basil</li></ul>",
+      "instructions": "<ul><li>Roast tomatoes, onion and garlic at 400\u00b0F for 40 min.</li><li>Blend with broth until smooth.</li><li>Stir in cannabis cream and sugar; warm over low heat.</li><li>Season and top with fresh basil.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-tomato-bisque.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 119
+    },
+    {
+      "id": 120,
+      "name": "Cannabis Chicken Burrito Bowl",
+      "slug": "cannabis-chicken-burrito-bowl",
+      "description": "Customisable burrito bowl with cannabis lime dressing.",
+      "ingredients": "<ul><li>2 chicken breasts</li><li>1 tsp each cumin, chili powder, garlic powder</li><li>2 cups cooked rice</li><li>1 can black beans</li><li>1 cup corn</li><li>Cannabis-lime dressing: juice of 2 limes + 2 tbsp cannabis olive oil</li><li>Avocado, salsa, sour cream, coriander</li></ul>",
+      "instructions": "<ul><li>Season and grill chicken. Slice.</li><li>Build bowls: rice, beans, corn, chicken.</li><li>Drizzle with cannabis-lime dressing. Add toppings.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-chicken-burrito-bowl.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 120
+    },
+    {
+      "id": 121,
+      "name": "Infused Falafel Wrap",
+      "slug": "infused-falafel-wrap",
+      "description": "Crispy falafel with cannabis tahini dressing.",
+      "ingredients": "<ul><li>2 cans chickpeas</li><li>\u00bd onion</li><li>3 garlic cloves</li><li>1 tsp cumin</li><li>1 tsp coriander</li><li>2 tbsp flour</li><li>Oil for frying</li><li>Cannabis tahini: 3 tbsp tahini + 2 tbsp cannabis olive oil + lemon + water</li><li>Flatbreads, lettuce, tomato, cucumber</li></ul>",
+      "instructions": "<ul><li>Pulse chickpeas, onion, garlic, spices and flour. Refrigerate 30 min.</li><li>Form balls; fry at 350\u00b0F 3-4 min.</li><li>Make cannabis tahini dressing.</li><li>Fill flatbreads with falafel, salad and dressing.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-falafel-wrap.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 121
+    },
+    {
+      "id": 122,
+      "name": "Cannabis Butternut Squash Soup",
+      "slug": "cannabis-butternut-squash-soup",
+      "description": "Velvety butternut squash soup with cannabis cream.",
+      "ingredients": "<ul><li>1 large butternut squash halved</li><li>1 onion quartered</li><li>4 garlic cloves</li><li>2 tbsp olive oil</li><li>3 cups vegetable broth</li><li>\u00bd cup cannabis cream</li><li>1 tsp nutmeg</li><li>Salt, pepper</li><li>Toasted pumpkin seeds</li></ul>",
+      "instructions": "<ul><li>Roast squash, onion and garlic at 400\u00b0F for 45 min.</li><li>Blend with broth until smooth.</li><li>Stir in cannabis cream and nutmeg; warm gently.</li><li>Season and top with pumpkin seeds.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-butternut-squash-soup.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 122
+    },
+    {
+      "id": 123,
+      "name": "Infused Egg Fried Rice",
+      "slug": "infused-egg-fried-rice",
+      "description": "Quick egg fried rice with cannabis sesame oil.",
+      "ingredients": "<ul><li>3 cups day-old cooked rice</li><li>3 eggs beaten</li><li>2 tbsp cannabis sesame oil</li><li>3 garlic cloves</li><li>1 cup frozen peas</li><li>4 tbsp soy sauce</li><li>Spring onions, sesame seeds</li></ul>",
+      "instructions": "<ul><li>Stir-fry rice in regular oil until slightly crispy.</li><li>Push aside; scramble eggs.</li><li>Add garlic and peas; toss everything. Add soy sauce.</li><li>Off heat: drizzle cannabis sesame oil. Garnish.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-egg-fried-rice.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 123
+    },
+    {
+      "id": 124,
+      "name": "Cannabis Grilled Salmon",
+      "slug": "cannabis-grilled-salmon",
+      "description": "Pan-seared salmon with cannabis herb butter.",
+      "ingredients": "<ul><li>4 salmon fillets</li><li>2 tbsp cannabis butter</li><li>2 garlic cloves minced</li><li>1 tbsp fresh dill</li><li>Zest and juice of 1 lemon</li><li>Salt, pepper</li><li>Capers and lemon to serve</li></ul>",
+      "instructions": "<ul><li>Season salmon and sear skin-side down 4 min until crispy.</li><li>Flip; cook 3 more min.</li><li>Melt cannabis butter with garlic and dill; spoon over fish.</li><li>Serve with capers and lemon.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-grilled-salmon.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 124
+    },
+    {
+      "id": 125,
+      "name": "Infused Caprese Salad",
+      "slug": "infused-caprese-salad",
+      "description": "Classic caprese with cannabis extra virgin olive oil.",
+      "ingredients": "<ul><li>3 large ripe tomatoes sliced</li><li>250g fresh mozzarella sliced</li><li>1 bunch fresh basil</li><li>3 tbsp cannabis extra virgin olive oil</li><li>1 tbsp balsamic glaze</li><li>Flaky sea salt, black pepper</li></ul>",
+      "instructions": "<ul><li>Arrange alternating tomato and mozzarella slices.</li><li>Tuck basil leaves between.</li><li>Drizzle with cannabis olive oil and balsamic.</li><li>Finish with sea salt and pepper.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-caprese-salad.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 125
+    },
+    {
+      "id": 126,
+      "name": "Cannabis Quesadilla",
+      "slug": "cannabis-quesadilla",
+      "description": "Crispy quesadilla cooked in cannabis butter.",
+      "ingredients": "<ul><li>4 large flour tortillas</li><li>2 tbsp cannabis butter</li><li>2 cups shredded cheddar</li><li>1 cup cooked chicken or black beans</li><li>\u00bd red onion diced</li><li>1 jalape\u00f1o sliced</li><li>Sour cream and guacamole</li></ul>",
+      "instructions": "<ul><li>Melt cannabis butter in a large pan.</li><li>Place tortilla; scatter cheese, filling and jalape\u00f1o over half.</li><li>Fold and cook 3 min per side until golden.</li><li>Cut into wedges and serve.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-quesadilla.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 126
+    },
+    {
+      "id": 127,
+      "name": "Infused Pad Thai",
+      "slug": "infused-pad-thai",
+      "description": "Classic Pad Thai with cannabis sesame oil.",
+      "ingredients": "<ul><li>200g flat rice noodles soaked</li><li>2 eggs</li><li>150g shrimp or tofu</li><li>2 tbsp cannabis sesame oil</li><li>3 tbsp soy sauce</li><li>2 tbsp tamarind paste</li><li>1 tbsp sugar</li><li>Spring onions, bean sprouts, peanuts, lime</li></ul>",
+      "instructions": "<ul><li>Stir-fry shrimp or tofu. Scramble eggs in same pan.</li><li>Add noodles, soy sauce, tamarind and sugar. Toss 2 min.</li><li>Add spring onions and bean sprouts.</li><li>Off heat: drizzle cannabis sesame oil. Serve with peanuts and lime.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-pad-thai.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 127
+    },
+    {
+      "id": 128,
+      "name": "Cannabis Pizza",
+      "slug": "cannabis-pizza",
+      "description": "Homemade pizza with cannabis olive oil in the dough and drizzled on top.",
+      "ingredients": "<ul><li>2 cups flour</li><li>1 tsp instant yeast</li><li>\u00bd tsp salt</li><li>\u00be cup warm water</li><li>2 tbsp cannabis olive oil</li><li>Toppings: \u00bd cup tomato sauce, 150g mozzarella, toppings of choice</li><li>Extra cannabis olive oil to finish</li></ul>",
+      "instructions": "<ul><li>Mix dough; knead 8 min. Rise 1h.</li><li>Preheat oven to 475\u00b0F.</li><li>Stretch dough; add sauce, cheese and toppings.</li><li>Bake 10-12 min until golden.</li><li>Drizzle with cannabis olive oil before slicing.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-pizza.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 128
+    },
+    {
+      "id": 129,
+      "name": "Infused Lentil Dal",
+      "slug": "infused-lentil-dal",
+      "description": "Fragrant Indian dal finished with cannabis ghee.",
+      "ingredients": "<ul><li>1\u00bd cups red lentils</li><li>1 onion</li><li>4 garlic cloves</li><li>1 inch ginger</li><li>1 can crushed tomatoes</li><li>1 tsp cumin seeds</li><li>1 tsp turmeric</li><li>1 tsp garam masala</li><li>3 cups water</li><li>2 tbsp cannabis ghee</li><li>Salt, coriander</li></ul>",
+      "instructions": "<ul><li>Fry cumin seeds until they pop. Add onion, garlic and ginger.</li><li>Add tomatoes and spices. Add lentils and water; simmer 20-25 min.</li><li>Off heat: stir in cannabis ghee.</li><li>Season and garnish with coriander. Serve over rice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-lentil-dal.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 129
     }
   ]
 }
