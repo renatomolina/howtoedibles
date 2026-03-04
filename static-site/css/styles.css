@@ -333,6 +333,9 @@ p.spaced-content {
     min-width: 320px;
     max-width: 520px;
   }
+  .navbar {
+    margin-bottom: 10px;
+  }
 }
 
 /* Hide category label on desktop — image color/icon is sufficient */
