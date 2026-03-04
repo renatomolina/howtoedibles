@@ -333,8 +333,12 @@ p.spaced-content {
     min-width: 320px;
     max-width: 520px;
   }
+}
+
+/* Hide category label on desktop — image color/icon is sufficient */
+@media (min-width: 768px) {
   .card-category {
-    display: none;
+    display: none !important;
   }
 }
 
