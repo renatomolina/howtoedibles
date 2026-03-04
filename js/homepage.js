@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
     currentPage = 1;
-    showPage(1);
+    showPage(1, false);
     if (noResults) noResults.style.display = visibleCards.length === 0 ? 'block' : 'none';
   }
 
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* ── Pagination ─────────────────────────────────────────────── */
-  function showPage(page) {
+  function showPage(page, scroll) {
     currentPage = page;
     var start = (page - 1) * ITEMS_PER_PAGE;
     var end   = start + ITEMS_PER_PAGE;
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     renderControls();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (scroll) window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function renderControls() {
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         var page = parseInt(this.getAttribute('data-page'));
-        if (page >= 1 && page <= totalPages && page !== currentPage) showPage(page);
+        if (page >= 1 && page <= totalPages && page !== currentPage) showPage(page, true);
       });
     });
   }
