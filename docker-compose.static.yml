@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: renato
+      POSTGRES_PASSWORD: ""
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_DB: howtoedibles
+    volumes:
+      - /Users/renato/Downloads/latest.dump:/tmp/latest.dump
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U renato -d howtoedibles"]
+      interval: 3s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.static
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      RAILS_ENV: production
+      SECRET_KEY_BASE: "0000000000000000000000000000000000000000000000000000000000000000"
+      DATABASE_URL: "postgresql://renato@db/howtoedibles"
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_REGION: ${AWS_REGION:-us-east-1}
+      S3_BUCKET_NAME: ${S3_BUCKET_NAME}
+    volumes:
+      - ./static-site:/app/static-site
+      - ./scripts:/app/scripts
+      - ./lib/tasks:/app/lib/tasks
+    command: tail -f /dev/null

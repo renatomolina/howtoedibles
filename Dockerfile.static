@@ -1,0 +1,26 @@
+FROM ruby:2.7.6-slim
+
+# System dependencies needed to compile native gems
+RUN apt-get update -qq && apt-get install -y \
+    build-essential \
+    libpq-dev \
+    libxml2-dev \
+    libxslt1-dev \
+    curl \
+    git \
+    shared-mime-info \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV USE_FREEDESKTOP_PLACEHOLDER=true
+
+WORKDIR /app
+
+# Install gems
+COPY Gemfile Gemfile.lock ./
+RUN bundle install --jobs 4 --retry 3
+
+# Copy app
+COPY . .
+
+# Default command
+CMD ["bash"]

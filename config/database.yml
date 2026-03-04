@@ -21,14 +21,9 @@ test:
 #   password: ed37bddca20f20ccb1bb31988a15fc45c2f61e512fae0005d6409c4ef79d8d44
 #   port: 5432
 
-# AWS
+# AWS (or override with DATABASE_URL env var)
 production:
-  adapter: postgresql
-  host: howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com
-  database: howtoedibles-production
-  username: stoneroot
-  password: "L0nd0n&weed420"
-  port: 5432
+  url: <%= ENV['DATABASE_URL'] || 'postgresql://stoneroot:L0nd0n%26weed420@howtoedibles.c3yz5xc5lumn.us-east-1.rds.amazonaws.com/howtoedibles-production' %>
 
 # production:
 #   encoding: utf8

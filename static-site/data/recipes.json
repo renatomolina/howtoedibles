@@ -1,0 +1,868 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Desserts",
+      "slug": "desserts",
+      "recipes": [
+        {
+          "id": 28,
+          "slug": "infused-banana-bread",
+          "name": "Infused Banana Bread"
+        },
+        {
+          "id": 27,
+          "slug": "infused-chocolate-truffles",
+          "name": "Infused Chocolate Truffles"
+        },
+        {
+          "id": 3,
+          "slug": "pot-cookies",
+          "name": "Pot Cookies"
+        },
+        {
+          "id": 6,
+          "slug": "pot-brownies",
+          "name": "Pot Brownies"
+        },
+        {
+          "id": 13,
+          "slug": "gummy-bears",
+          "name": "Gummy Bears"
+        },
+        {
+          "id": 16,
+          "slug": "gingerbread-cookies",
+          "name": "Gingerbread Cookies"
+        },
+        {
+          "id": 8,
+          "slug": "infused-honey",
+          "name": "Infused Honey"
+        },
+        {
+          "id": 38,
+          "slug": "weed-rice-krispie-treats",
+          "name": "Weed Rice Krispie Treats"
+        },
+        {
+          "id": 39,
+          "slug": "cannabis-caramel-sauce",
+          "name": "Cannabis Caramel Sauce"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Drinks",
+      "slug": "drinks",
+      "recipes": [
+        {
+          "id": 21,
+          "slug": "infused-berry-smoothie",
+          "name": "Infused Berry Smoothie"
+        },
+        {
+          "id": 24,
+          "slug": "infused-lemonade",
+          "name": "Infused Lemonade"
+        },
+        {
+          "id": 2,
+          "slug": "infused-whiskey",
+          "name": "Infused Whiskey"
+        },
+        {
+          "id": 10,
+          "slug": "infused-chai",
+          "name": "Infused Chai"
+        },
+        {
+          "id": 15,
+          "slug": "infused-eggnog",
+          "name": "Infused Eggnog"
+        },
+        {
+          "id": 36,
+          "slug": "cannabis-hot-chocolate",
+          "name": "Cannabis Hot Chocolate"
+        },
+        {
+          "id": 37,
+          "slug": "infused-cold-brew",
+          "name": "Infused Cold Brew"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Snacks",
+      "slug": "snacks",
+      "recipes": [
+        {
+          "id": 4,
+          "slug": "firecrackers",
+          "name": "Fire Crackers"
+        },
+        {
+          "id": 20,
+          "slug": "infused-guacamole",
+          "name": "Infused Guacamole"
+        },
+        {
+          "id": 23,
+          "slug": "infused-energy-bites",
+          "name": "Infused Energy Bites"
+        },
+        {
+          "id": 11,
+          "slug": "infused-grilled-cheese",
+          "name": "Infused Grilled Cheese"
+        },
+        {
+          "id": 7,
+          "slug": "trail-mix",
+          "name": "Trail Mix"
+        },
+        {
+          "id": 12,
+          "slug": "weed-infused-popcorn",
+          "name": "Infused Popcorn"
+        },
+        {
+          "id": 40,
+          "slug": "infused-hummus",
+          "name": "Infused Hummus"
+        },
+        {
+          "id": 41,
+          "slug": "infused-granola",
+          "name": "Infused Granola"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Essentials",
+      "slug": "essentials",
+      "recipes": [
+        {
+          "id": 1,
+          "slug": "cannabutter",
+          "name": "Cannabutter"
+        },
+        {
+          "id": 5,
+          "slug": "infused-olive-oil",
+          "name": "Infused Olive oil"
+        },
+        {
+          "id": 9,
+          "slug": "infused-coconut-oil",
+          "name": "Infused Coconut oil"
+        },
+        {
+          "id": 14,
+          "slug": "infused-milk",
+          "name": "Infused Milk"
+        },
+        {
+          "id": 35,
+          "slug": "infused-ghee",
+          "name": "Infused Ghee"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lunch",
+      "slug": "lunch",
+      "recipes": [
+        {
+          "id": 26,
+          "slug": "infused-pesto-pasta",
+          "name": "Infused Pesto Pasta"
+        },
+        {
+          "id": 22,
+          "slug": "infused-coconut-curry",
+          "name": "Infused Coconut Curry"
+        },
+        {
+          "id": 25,
+          "slug": "infused-spaghetti-bolognese",
+          "name": "Infused Spaghetti Bolognese"
+        },
+        {
+          "id": 42,
+          "slug": "cannabis-avocado-toast",
+          "name": "Cannabis Avocado Toast"
+        },
+        {
+          "id": 43,
+          "slug": "cannabis-salad-dressing",
+          "name": "Cannabis Salad Dressing"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Keto",
+      "slug": "keto",
+      "recipes": [
+        {
+          "id": 29,
+          "slug": "infused-bulletproof-coffee",
+          "name": "Infused Bulletproof Coffee"
+        },
+        {
+          "id": 30,
+          "slug": "infused-coconut-fat-bombs",
+          "name": "Infused Coconut Fat Bombs"
+        },
+        {
+          "id": 33,
+          "slug": "infused-keto-peanut-butter-cookies",
+          "name": "Infused Keto Peanut Butter Cookies"
+        },
+        {
+          "id": 34,
+          "slug": "infused-keto-cheesecake-bites",
+          "name": "Infused Keto Cheesecake Bites"
+        },
+        {
+          "id": 32,
+          "slug": "infused-keto-chocolate-avocado-mousse",
+          "name": "Infused Keto Chocolate Avocado Mousse"
+        },
+        {
+          "id": 31,
+          "slug": "infused-keto-cauliflower-pizza-crust",
+          "name": "Infused Keto Cauliflower Pizza Crust"
+        },
+        {
+          "id": 44,
+          "slug": "infused-chocolate-bark",
+          "name": "Infused Chocolate Bark"
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Cannabutter",
+      "slug": "cannabutter",
+      "description": "Elevate your culinary creations with the magic of cannabutter. Infuse dishes with a touch of euphoria for a truly unique dining experience.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1 cup unsalted butter (2 sticks)</li>\r\n\t<li class=\"list-group-item\">&frac12; cup water (add more water at any time if needed)</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">7</span> ground&nbsp;weed</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how</a></li>\r\n\t<li class=\"list-group-item\">Add &frac12; cup of water and 2 sticks (&frac12; lb) of butter in a saucepan and bring to a simmer on low to medium heat. Adding water helps to regulate the temperature and prevents the butter from scorching. As butter begins to melt, add in ground weed.</li>\r\n\t<li class=\"list-group-item\">Maintain low heat and let the mixture simmer for 2-3 hours, stirring occasionally. Make sure the mixture never comes to a full boil.</li>\r\n\t<li class=\"list-group-item\">Pour the hot mixture into a glass container, using a cheesecloth to strain out all ground weed from the butter mixture. Squeeze or press the plant material to get as much liquid out of the weed as possible. Discard leftover weed.</li>\r\n\t<li class=\"list-group-item\">Cover and refrigerate remaining liquid overnight or until the butter is fully hardened. Once hardened, the butter will separate from the water, allowing you to lift the cannabutter out of the container. Discard remaining water after removing the hardened cannabutter.</li>\r\n\t<li class=\"list-group-item\">Note that the cannabutter in the container should have a slightly green tinge from the cannabis. Now you are ready to make some cannabis-infused meals!</li>\r\n</ul>\r\n",
+      "suggested_quantity": 7.0,
+      "suggested_portion": 48.0,
+      "video": null,
+      "photo_file_name": "cannabutter.jpg",
+      "category_name": "Essentials",
+      "category_slug": "essentials",
+      "position": 1
+    },
+    {
+      "id": 9,
+      "name": "Infused Coconut oil",
+      "slug": "infused-coconut-oil",
+      "description": "With its rich, tropical flavor and the delightful infusion of cannabis, this versatile oil elevates your cooking to new heights.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac12; cup of coconut oil</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">3.5 </span> ground weed</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how to do</a></li>\r\n\t<li class=\"list-group-item\">Add the weed to a canning jar with &frac12; cup of coconut oil.</li>\r\n\t<li class=\"list-group-item\">Seal the canning jar very tightly.</li>\r\n\t<li class=\"list-group-item\">Add the canning jar in boiling water using low-medium (240&deg; F - 115&deg; C) heat for over 2 hours.</li>\r\n\t<li class=\"list-group-item\">Put all the jar&#39;s content into a cheesecloth over a metal strainer.</li>\r\n\t<li class=\"list-group-item\">Gather the cheesecloth and squeeze all the remaining liquid out.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 20.0,
+      "video": null,
+      "photo_file_name": "coconut.jpg",
+      "category_name": "Essentials",
+      "category_slug": "essentials",
+      "position": 2
+    },
+    {
+      "id": 5,
+      "name": "Infused Olive oil",
+      "slug": "infused-olive-oil",
+      "description": "Probably the most versatile medium and a great place to start cooking with cannabis.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">300 ml of olive oil</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">8 </span> ground weed</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how to do</a></li>\r\n\t<li class=\"list-group-item\">Grind your weed fine, you want to make a good surface area of exposure.</li>\r\n\t<li class=\"list-group-item\">Add the ground weed to a canning jar with 300 ml of olive oil.</li>\r\n\t<li class=\"list-group-item\">Seal the canning jar very tightly.</li>\r\n\t<li class=\"list-group-item\">Add the canning jar in boiling water using low-medium (240&deg; F - 115&deg; C)&nbsp;heat for over 2 hours.</li>\r\n\t<li class=\"list-group-item\">Put all the jar&#39;s content into a cheesecloth over a metal strainer.</li>\r\n\t<li class=\"list-group-item\">Gather the cheesecloth and squeeze all the remaining liquid out.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 20.0,
+      "video": null,
+      "photo_file_name": "olive.jpg",
+      "category_name": "Essentials",
+      "category_slug": "essentials",
+      "position": 2
+    },
+    {
+      "id": 29,
+      "name": "Infused Bulletproof Coffee",
+      "slug": "infused-bulletproof-coffee",
+      "description": "Ignite your senses and fuel your day with focus and balance, all in a single cup.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1 cup brewed coffee</li>\r\n  <li class=\"list-group-item\">1 tablespoon <a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">infused coconut oil</a></li>\r\n  <li class=\"list-group-item\">1 tablespoon unsalted butter</li>\r\n  <li class=\"list-group-item\">Sweetener of choice (optional)</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">Brew a cup of coffee using your preferred method.</li>\r\n  <li class=\"list-group-item\">In a blender, combine the brewed coffee, unsalted butter, coconut oil, and cannabis-infused coconut oil.</li>\r\n  <li class=\"list-group-item\">Blend on high speed until the mixture is creamy and frothy.</li>\r\n  <li class=\"list-group-item\">Taste and add sweetener if desired.</li>\r\n  <li class=\"list-group-item\">Pour into a mug and enjoy your keto-friendly cannabis-infused bulletproof coffee!</li>\r\n</ul>",
+      "suggested_quantity": 0.25,
+      "suggested_portion": 1.0,
+      "video": null,
+      "photo_file_name": "Keto-Bullet-Proof-Coffee-2-750x1050.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 2
+    },
+    {
+      "id": 33,
+      "name": "Infused Keto Peanut Butter Cookies",
+      "slug": "infused-keto-peanut-butter-cookies",
+      "description": "Elevate your cookie game with our keto creation. Enjoy the nutty perfection of peanut butter cookies, guilt-free and tailored for your low-carb lifestyle.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1 cup natural peanut butter (sugar-free)</li>\r\n  <li class=\"list-group-item\">1/2 cup powdered erythritol or low-carb sweetener of choice</li>\r\n  <li class=\"list-group-item\">1 large egg</li>\r\n  <li class=\"list-group-item\">1/2 tsp vanilla extract</li>\r\n  <li class=\"list-group-item\">2 tbsp <a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">infused coconut oil melted</a></li>\r\n  <li class=\"list-group-item\">1/4 teaspoon salt</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">Preheat the oven to 350\u00b0F (175\u00b0C) and line a baking sheet with parchment paper.</li>\r\n  <li class=\"list-group-item\">In a mixing bowl, combine the natural peanut butter, powdered erythritol, egg, vanilla extract, cannabis-infused coconut oil, and salt.</li>\r\n  <li class=\"list-group-item\">Mix until well combined and a dough forms.</li>\r\n  <li class=\"list-group-item\">Scoop tablespoon-sized portions of the dough and roll them into balls.</li>\r\n  <li class=\"list-group-item\">Place the dough balls onto the prepared baking sheet and flatten them with a fork, making a crisscross pattern.</li>\r\n  <li class=\"list-group-item\">Bake in the preheated oven for 10-12 minutes or until the cookies are golden around the edges.</li>\r\n  <li class=\"list-group-item\">Remove from the oven and let the cookies cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.</li>\r\n  <li class=\"list-group-item\">Enjoy your delicious cannabis-infused keto peanut butter cookies!</li>\r\n</ul>",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 10.0,
+      "video": null,
+      "photo_file_name": "Keto-Peanut-Butter-Cookies-NEW-1-1.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 3
+    },
+    {
+      "id": 30,
+      "name": "Infused Coconut Fat Bombs",
+      "slug": "infused-coconut-fat-bombs",
+      "description": "Elevate snacking with nature-infused coconut bliss. Nourish body and mind with each bite-sized gem, crafted for balanced indulgence.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1/2 cup coconut oil, melted</li>\r\n  <li class=\"list-group-item\">1/2 cup coconut butter</li>\r\n  <li class=\"list-group-item\">2 tbsp <a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">infused coconut oil</a></li>\r\n  <li class=\"list-group-item\">2 tbsp unsweetened cocoa powder</li>\r\n  <li class=\"list-group-item\">1/4 cup powdered erythritol or sweetener of choice</li>\r\n  <li class=\"list-group-item\">1/2 tsp vanilla extract</li>\r\n  <li class=\"list-group-item\">1/2 tsp salt</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">In a mixing bowl, combine the melted coconut oil, coconut butter, cannabis-infused coconut oil, unsweetened cocoa powder, powdered erythritol, vanilla extract, and salt.</li>\r\n  <li class=\"list-group-item\">Stir until well combined and smooth.</li>\r\n  <li class=\"list-group-item\">Pour the mixture into silicone molds or an ice cube tray.</li>\r\n  <li class=\"list-group-item\">Place in the refrigerator or freezer to solidify for at least 1 hour.</li>\r\n  <li class=\"list-group-item\">Pop the coconut fat bombs out of the molds or ice cube tray.</li>\r\n  <li class=\"list-group-item\">Store the cannabis-infused coconut fat bombs in an airtight container in the refrigerator or freezer.</li>\r\n  <li class=\"list-group-item\">Enjoy one or two fat bombs as a keto-friendly and cannabis-infused snack!</li>\r\n</ul>",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 12.0,
+      "video": null,
+      "photo_file_name": "CoconutFatBombs8--kd3-1200w.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 3
+    },
+    {
+      "id": 26,
+      "name": "Infused Pesto Pasta",
+      "slug": "infused-pesto-pasta",
+      "description": "Perfectly cooked spirals coated in aromatic basil pesto, crowned with a delicate sprinkle of Parmesan heaven.",
+      "ingredients": "<ul class=\"list-group\">\r\n    <li class=\"list-group-item\">2 cups fresh basil leaves</li>\r\n    <li class=\"list-group-item\">1/2 cup pine nuts</li>\r\n    <li class=\"list-group-item\">1/2 cup grated Parmesan cheese</li>\r\n    <li class=\"list-group-item\">2 cloves garlic, minced</li>\r\n    <li class=\"list-group-item\">1/2 cup <a href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">infused olive oil</a></li></li>\r\n    <li class=\"list-group-item\">Salt and pepper to taste</li>\r\n    <li class=\"list-group-item\">1 pound pasta (e.g., spaghetti, penne, or fusilli)</li>\r\n    <li class=\"list-group-item\">Grated Parmesan cheese for garnish</li>\r\n  </ul>",
+      "instructions": "<ul class=\"list-group\">\r\n    <li class=\"list-group-item\">In a food processor, combine the fresh basil leaves, pine nuts, grated Parmesan cheese, and minced garlic.</li>\r\n    <li class=\"list-group-item\">Pulse the mixture until it forms a coarse paste.</li>\r\n    <li class=\"list-group-item\">With the food processor running, slowly drizzle in the cannabis-infused olive oil until the pesto becomes smooth and well combined.</li>\r\n    <li class=\"list-group-item\">Season the pesto with salt and pepper to taste. Adjust the seasoning as needed.</li>\r\n    <li class=\"list-group-item\">Cook the pasta according to the package list-group-items until al dente.</li>\r\n    <li class=\"list-group-item\">Drain the cooked pasta, reserving a small amount of the cooking water.</li>\r\n    <li class=\"list-group-item\">In a large mixing bowl, toss the cooked pasta with the cannabis-infused pesto. If needed, add a splash of the reserved cooking water to loosen the sauce.</li>\r\n    <li class=\"list-group-item\">Serve the cannabis-infused pesto pasta with a sprinkle of grated Parmesan cheese on top.</li>\r\n    <li class=\"list-group-item\">Enjoy the flavorful and cannabis-infused pasta dish!</li>\r\n  </ul>",
+      "suggested_quantity": 1.5,
+      "suggested_portion": 4.0,
+      "video": null,
+      "photo_file_name": "New_Project_(1).jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 3
+    },
+    {
+      "id": 21,
+      "name": "Infused Berry Smoothie",
+      "slug": "infused-berry-smoothie",
+      "description": "A tantalizing fusion of frozen berries, fruit and greek yogurt. Refreshing, flavorful, and oh-so-delicious.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1-2 teaspoons <a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">infused coconut oil</a></li>\r\n\t<li class=\"list-group-item\">1 cup frozen mixed berries (strawberries, blueberries, raspberries)</li>\r\n\t<li class=\"list-group-item\">1 ripe banana</li>\r\n\t<li class=\"list-group-item\">1 cup milk (dairy or non-dairy)</li>\r\n\t<li class=\"list-group-item\">1/2 cup plain Greek yogurt</li>\r\n\t<li class=\"list-group-item\">1 tablespoon honey or maple syrup</li>\r\n\t<li class=\"list-group-item\">Optional: a handful of kale for added nutrients</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Place all the ingredients in a blender.</li>\r\n\t<li class=\"list-group-item\">Blend on high speed until smooth and creamy.</li>\r\n\t<li class=\"list-group-item\">Taste and adjust the sweetness by adding more honey or maple syrup if desired.</li>\r\n\t<li class=\"list-group-item\">If the smoothie is too thick, add a little more milk and blend again until desired consistency is reached.</li>\r\n\t<li class=\"list-group-item\">Pour the cannabis-infused berry smoothie into glasses and serve immediately.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 0.5,
+      "suggested_portion": 2.0,
+      "video": null,
+      "photo_file_name": "berry-smoothie.jpg",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
+      "position": 3
+    },
+    {
+      "id": 23,
+      "name": "Infused Energy Bites",
+      "slug": "infused-energy-bites",
+      "description": "Each bite is a heavenly blend of wholesome ingredients, delivering a blissful and invigorating experience for your taste buds and mind.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1 cup rolled oats</li>\r\n\t<li class=\"list-group-item\">1/2 cup nut butter (such as almond butter or peanut butter)</li>\r\n\t<li class=\"list-group-item\">1/3 cup honey or maple syrup</li>\r\n\t<li class=\"list-group-item\">1/4 cup ground flaxseed</li>\r\n\t<li class=\"list-group-item\">1/4 cup mini chocolate chips</li>\r\n\t<li class=\"list-group-item\">1/4 cup shredded coconut</li>\r\n\t<li class=\"list-group-item\">1 teaspoon vanilla extract</li>\r\n\t<li class=\"list-group-item\">1 tbsp <a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">infused coconut oil</a></li>\r\n\t<li class=\"list-group-item\">Pinch of salt</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">In a large mixing bowl, combine all the ingredients: rolled oats, nut butter, honey or maple syrup, ground flaxseed, mini chocolate chips, shredded coconut, vanilla extract, cannabis-infused coconut oil, and a pinch of salt.</li>\r\n\t<li class=\"list-group-item\">Stir well until all the ingredients are evenly combined.</li>\r\n\t<li class=\"list-group-item\">Cover the bowl and place it in the refrigerator for 30 minutes to allow the mixture to firm up.</li>\r\n\t<li class=\"list-group-item\">After chilling, remove the mixture from the refrigerator and roll it into small bite-sized balls using your hands.</li>\r\n\t<li class=\"list-group-item\">Place the cannabis-infused energy bites on a baking sheet lined with parchment paper.</li>\r\n\t<li class=\"list-group-item\">Refrigerate the energy bites for another 1-2 hours to set and firm up.</li>\r\n\t<li class=\"list-group-item\">Once firm, transfer the energy bites to an airtight container and store them in the refrigerator.</li>\r\n\t<li class=\"list-group-item\">Enjoy the cannabis-infused energy bites as a nutritious and tasty snack!</li>\r\n</ul>\r\n",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 10.0,
+      "video": null,
+      "photo_file_name": "energybites.jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 3
+    },
+    {
+      "id": 4,
+      "name": "Fire Crackers",
+      "slug": "firecrackers",
+      "description": "Easy to make, delicious and extremely potent this recipe is one of the most popular.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Graham cracker</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">3.5</span> ground weed</li>\r\n\t<li class=\"list-group-item\">Hazelnut spread</li>\r\n\t<li class=\"list-group-item\">Tin foil</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Place your weed on the foil.</li>\r\n\t<li class=\"list-group-item\">Preheat your oven to 250&deg; F.</li>\r\n\t<li class=\"list-group-item\">Toast your weed for 10 minutes at 250&deg; F.</li>\r\n\t<li class=\"list-group-item\">Cover graham crackers with hazelnut spread.</li>\r\n\t<li class=\"list-group-item\">Remove your weed from the oven and sprinkle over the hazelnut spread.</li>\r\n\t<li class=\"list-group-item\">Mix weed into the spread and sandwich graham crackers together.</li>\r\n\t<li class=\"list-group-item\">Wrap and seal the firecracker in foil.</li>\r\n\t<li class=\"list-group-item\">Toast in the oven for 15 minutes at 300&deg; F.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 1.5,
+      "suggested_portion": 6.0,
+      "video": null,
+      "photo_file_name": "firecracker.jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 3
+    },
+    {
+      "id": 24,
+      "name": "Infused Lemonade",
+      "slug": "infused-lemonade",
+      "description": "Sip on this invigorating beverage to experience a harmonious balance of tangy citrus notes and the relaxing effects of cannabis",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1 cup freshly squeezed lemon juice</li>\r\n    <li class=\"list-group-item\">4 cups cold water</li>\r\n    <li class=\"list-group-item\">1/2 cup granulated sugar</li>\r\n    <li class=\"list-group-item\">1-2 tsp <a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-honey\" target=\"_blank\">infused honey</a></li>\r\n    <li class=\"list-group-item\">Ice cubes</li>\r\n    <li class=\"list-group-item\">Lemon slices for garnish</li>\r\n  </ul>",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">In a pitcher, combine the freshly squeezed lemon juice, cold water, granulated sugar, and cannabis-infused honey.</li>\r\n    <li class=\"list-group-item\">Stir well until the sugar is dissolved.</li>\r\n    <li class=\"list-group-item\">Taste the lemonade and adjust the sweetness by adding more sugar or cannabis-infused honey if desired.</li>\r\n    <li class=\"list-group-item\">Add ice cubes to the pitcher to chill the lemonade.</li>\r\n    <li class=\"list-group-item\">Stir again before serving.</li>\r\n    <li class=\"list-group-item\">Pour the cannabis-infused lemonade into glasses and garnish with lemon slices.</li>\r\n    <li class=\"list-group-item\">Sip and enjoy the refreshing and uplifting effects of the cannabis-infused lemonade!</li>\r\n  </ul>",
+      "suggested_quantity": 0.5,
+      "suggested_portion": 2.0,
+      "video": null,
+      "photo_file_name": "lemon.jpg",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
+      "position": 3
+    },
+    {
+      "id": 32,
+      "name": "Infused Keto Chocolate Avocado Mousse",
+      "slug": "infused-keto-chocolate-avocado-mousse",
+      "description": "Transform dessert time with our avocado-based indulgence. Savor the richness of chocolate-infused bliss, while embracing the natural touch for a truly delectable treat.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">2 ripe avocados</li>\r\n  <li class=\"list-group-item\">1/4 cup unsweetened cocoa powder</li>\r\n  <li class=\"list-group-item\">3 tbsp <a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">infused coconut oil</a></li>\r\n  <li class=\"list-group-item\">3 tbsp powdered erythritol or sweetener of choice</li>\r\n  <li class=\"list-group-item\">1/2 tsp vanilla extract</li>\r\n  <li class=\"list-group-item\">Pinch of salt</li>\r\n  <li class=\"list-group-item\">Optional toppings: whipped cream, berries, chopped nuts</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">Cut the avocados in half and remove the pits.</li>\r\n  <li class=\"list-group-item\">Scoop the flesh into a blender or food processor.</li>\r\n  <li class=\"list-group-item\">Add the unsweetened cocoa powder, cannabis-infused coconut oil, powdered erythritol, vanilla extract, and salt.</li>\r\n  <li class=\"list-group-item\">Blend until smooth and creamy.</li>\r\n  <li class=\"list-group-item\">Taste and adjust the sweetness if needed.</li>\r\n  <li class=\"list-group-item\">Divide the cannabis-infused chocolate avocado mousse into serving bowls or glasses.</li>\r\n  <li class=\"list-group-item\">Refrigerate for at least 30 minutes to chill and set.</li>\r\n  <li class=\"list-group-item\">Before serving, you can top the mousse with whipped cream, berries, or chopped nuts if desired.</li>\r\n  <li class=\"list-group-item\">Enjoy your keto-friendly infused chocolate avocado mousse!</li>\r\n</ul>",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 6.0,
+      "video": null,
+      "photo_file_name": "CroppedFocusedImage192072050-50-Chocolate-and-avocado-mousse.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 3
+    },
+    {
+      "id": 20,
+      "name": "Infused Guacamole",
+      "slug": "infused-guacamole",
+      "description": "This irresistible guacamole combines creamy avocados, zesty lime juice, diced tomatoes, onions and a delightful herbal twist.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">2 tbsp <a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">infused olive oil</a></li>\r\n\t<li class=\"list-group-item\">2 ripe avocados</li>\r\n\t<li class=\"list-group-item\">1 tbsp lime juice</li>\r\n\t<li class=\"list-group-item\">1/4 cup finely chopped onion</li>\r\n\t<li class=\"list-group-item\">1/4 cup diced tomatoes</li>\r\n\t<li class=\"list-group-item\">1 clove garlic, minced</li>\r\n\t<li class=\"list-group-item\">Salt and pepper to taste</li>\r\n\t<li class=\"list-group-item\">Optional: chopped cilantro, diced jalapenos</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Cut the avocados in half, remove the pits, and scoop out the flesh into a bowl.</li>\r\n\t<li class=\"list-group-item\">Mash the avocado with a fork until it reaches your desired consistency.</li>\r\n\t<li class=\"list-group-item\">Add the lime juice, onion, tomatoes, garlic, cannabis-infused olive oil, salt, and pepper to the bowl. Mix well.</li>\r\n\t<li class=\"list-group-item\">Taste and adjust the seasonings as needed.</li>\r\n\t<li class=\"list-group-item\">Optional: Stir in chopped cilantro and diced jalapenos for added flavor and heat</li>\r\n\t<li class=\"list-group-item\">Serve immediately with tortilla chips or as a topping for tacos, burritos, or sandwiches.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 10.0,
+      "video": null,
+      "photo_file_name": "guacamole_(1).jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 3
+    },
+    {
+      "id": 27,
+      "name": "Infused Chocolate Truffles",
+      "slug": "infused-chocolate-truffles",
+      "description": "Experience pure decadence with these luscious chocolate truffles. A euphoric journey through rich, velvety flavors awaits.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1/2 cup <a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">cannabis-infused coconut oil</a></li>\r\n  <li class=\"list-group-item\">1/2 cup unsweetened cocoa powder</li>\r\n  <li class=\"list-group-item\">1/4 cup maple syrup</li>\r\n  <li class=\"list-group-item\">1 teaspoon vanilla extract</li>\r\n  <li class=\"list-group-item\">1/4 teaspoon salt</li>\r\n  <li class=\"list-group-item\">Optional coatings: chopped nuts, cocoa powder, shredded coconut</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">In a microwave-safe bowl, melt the cannabis-infused coconut oil.</li>\r\n    <li class=\"list-group-item\">Add the unsweetened cocoa powder, maple syrup, vanilla extract, and salt to the melted coconut oil. Stir well until smooth and combined.</li>\r\n    <li class=\"list-group-item\">Place the mixture in the refrigerator for about 1 hour or until firm enough to handle.</li>\r\n    <li class=\"list-group-item\">Scoop small portions of the mixture and roll them into bite-sized truffles using your hands.</li>\r\n    <li class=\"list-group-item\">Roll the truffles in your desired coatings, such as chopped nuts, cocoa powder, or shredded coconut.</li>\r\n    <li class=\"list-group-item\">Place the coated truffles on a baking sheet lined with parchment paper.</li>\r\n    <li class=\"list-group-item\">Refrigerate the truffles for at least 1 hour to set.</li>\r\n    <li class=\"list-group-item\">Serve the cannabis-infused chocolate truffles chilled and enjoy!</li>\r\n  </ul>",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 12.0,
+      "video": null,
+      "photo_file_name": "Cocoa-Powder-Coconut-Milk-Chocolate-Truffles.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 3
+    },
+    {
+      "id": 28,
+      "name": "Infused Banana Bread",
+      "slug": "infused-banana-bread",
+      "description": "Savor a blend of ripe bananas, expertly selected ingredients, and a special infusion that transforms a classic into a delightful, elevated treat.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1/2 cup <a href=\"https://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">cannabis-infused butter, melted</a></li>\r\n  <li class=\"list-group-item\">1 cup granulated sugar</li>\r\n  <li class=\"list-group-item\">2 large eggs</li>\r\n  <li class=\"list-group-item\">3 ripe bananas, mashed</li>\r\n  <li class=\"list-group-item\">1 teaspoon vanilla extract</li>\r\n  <li class=\"list-group-item\">1 1/2 cups all-purpose flour</li>\r\n  <li class=\"list-group-item\">1 teaspoon baking soda</li>\r\n  <li class=\"list-group-item\">1/2 teaspoon salt</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">Preheat your oven to 350\u00b0F (175\u00b0C). Grease a 9x5-inch loaf pan.</li>\r\n  <li class=\"list-group-item\">In a large mixing bowl, combine the melted cannabis-infused butter and granulated sugar.</li>\r\n  <li class=\"list-group-item\">Add the eggs, mashed bananas, and vanilla extract. Stir well to combine.</li>\r\n  <li class=\"list-group-item\">In a separate bowl, whisk together the all-purpose flour, baking soda, and salt.</li>\r\n  <li class=\"list-group-item\">Gradually add the dry ingredients to the banana mixture, stirring until just combined. Be careful not to overmix.</li>\r\n  <li class=\"list-group-item\">Pour the batter into the greased loaf pan, spreading it out evenly.</li>\r\n  <li class=\"list-group-item\">Bake in the preheated oven for 50-60 minutes, or until a toothpick inserted into the center comes out clean.</li>\r\n  <li class=\"list-group-item\">Remove the banana bread from the oven and let it cool in the pan for 10 minutes. Then transfer it to a wire rack to cool completely.</li>\r\n  <li class=\"list-group-item\">Slice and enjoy the cannabis-infused banana bread as a delightful and comforting treat!</li>\r\n</ul>",
+      "suggested_quantity": 3.0,
+      "suggested_portion": 12.0,
+      "video": null,
+      "photo_file_name": "nature-zen-sQVvrsnfrN8-unsplash_(1).jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 3
+    },
+    {
+      "id": 34,
+      "name": "Infused Keto Cheesecake Bites",
+      "slug": "infused-keto-cheesecake-bites",
+      "description": "Delight in our infused cheesecake bites, a perfect balance of flavor and mindful indulgence.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1 1/2 cups almond flour</li>\r\n  <li class=\"list-group-item\">1/4 cup powdered erythritol or low-carb sweetener of choice</li>\r\n  <li class=\"list-group-item\">1/4 cup cannabis-infused butter, melted</li>\r\n  <li class=\"list-group-item\">16 ounces cream cheese, softened</li>\r\n  <li class=\"list-group-item\">1/2 cup powdered erythritol or low-carb sweetener of choice</li>\r\n  <li class=\"list-group-item\">2 teaspoons vanilla extract</li>\r\n  <li class=\"list-group-item\">2 large eggs</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">Preheat the oven to 325\u00b0F (165\u00b0C).</li>\r\n  <li class=\"list-group-item\">In a bowl, combine the almond flour, powdered erythritol, and melted cannabis-infused butter.</li>\r\n  <li class=\"list-group-item\">Press the mixture into the bottom of a greased square baking pan.</li>\r\n  <li class=\"list-group-item\">Bake the crust in the preheated oven for 10 minutes, then remove from the oven and set aside.</li>\r\n  <li class=\"list-group-item\">In a mixing bowl, beat the softened cream cheese, powdered erythritol, and vanilla extract until smooth and creamy.</li>\r\n  <li class=\"list-group-item\">Add the eggs one at a time, beating well after each addition.</li>\r\n  <li class=\"list-group-item\">Pour the cream cheese mixture over the baked crust in the baking pan.</li>\r\n  <li class=\"list-group-item\">Bake for 25-30 minutes or until the cheesecake is set and slightly golden.</li>\r\n  <li class=\"list-group-item\">Remove from the oven and let the cheesecake cool to room temperature.</li>\r\n  <li class=\"list-group-item\">Refrigerate the cheesecake for at least 4 hours or overnight to firm up.</li>\r\n  <li class=\"list-group-item\">Cut the chilled cheesecake into bite-sized squares and serve your cannabis-infused keto cheesecake bites.</li>\r\n  <li class=\"list-group-item\">Enjoy these creamy and indulgent treats while sticking to your keto diet!</li>\r\n</ul>",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 10.0,
+      "video": null,
+      "photo_file_name": "cheesecake-bites2.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 3
+    },
+    {
+      "id": 31,
+      "name": "Infused Keto Cauliflower Pizza Crust",
+      "slug": "infused-keto-cauliflower-pizza-crust",
+      "description": "Revolutionize pizza night with a plant-infused cauliflower crust. Delight in nature's goodness, balanced and flavorful in every bite.",
+      "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1 small head cauliflower, riced</li>\r\n  <li class=\"list-group-item\">1/2 cup shredded mozzarella cheese</li>\r\n  <li class=\"list-group-item\">2 tbsp almond flour</li>\r\n  <li class=\"list-group-item\">1 tbsp <a href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">infused olive oil</a></li>\r\n  <li class=\"list-group-item\">1 egg</li>\r\n  <li class=\"list-group-item\">1/2 tsp dried oregano</li>\r\n  <li class=\"list-group-item\">1/2 tsp garlic powder</li>\r\n  <li class=\"list-group-item\">1/4 tsp salt</li>\r\n</ul>",
+      "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">Preheat your oven to 425\u00b0F (220\u00b0C) and line a baking sheet with parchment paper.</li>\r\n  <li class=\"list-group-item\">Place the riced cauliflower in a microwave-safe bowl and microwave for 5-6 minutes until tender.</li>\r\n  <li class=\"list-group-item\">Allow the cauliflower to cool slightly, then transfer it to a clean kitchen towel.</li>\r\n  <li class=\"list-group-item\">Wrap the cauliflower in the towel and squeeze out as much liquid as possible.</li>\r\n  <li class=\"list-group-item\">In a mixing bowl, combine the cauliflower, shredded mozzarella cheese, almond flour, cannabis-infused olive oil, egg, dried oregano, garlic powder, and salt.</li>\r\n  <li class=\"list-group-item\">Mix until well combined.</li>\r\n  <li class=\"list-group-item\">Transfer the cauliflower mixture to the prepared baking sheet and shape it into a pizza crust shape.</li>\r\n  <li class=\"list-group-item\">Bake in the preheated oven for 12-15 minutes or until the crust is golden and firm.</li>\r\n  <li class=\"list-group-item\">Remove from the oven and add your desired toppings.</li>\r\n  <li class=\"list-group-item\">Return the pizza to the oven and bake for an additional 8-10 minutes until the cheese is melted and bubbly.</li>\r\n  <li class=\"list-group-item\">Slice and enjoy your keto-friendly cannabis-infused cauliflower pizza!</li>\r\n</ul>",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 8.0,
+      "video": null,
+      "photo_file_name": "cauliflower-pizza-crust-keto-9.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 4
+    },
+    {
+      "id": 14,
+      "name": "Infused Milk",
+      "slug": "infused-milk",
+      "description": "What about an ice-cold milkshake? Or a whipped topping on some pie? Cannabis-infused milk is a great for these recipes.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Milk, Cream, Coconut Milk or Other Milk Substitute</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">1 </span> ground weed per liter of milk</li>\r\n\t<li class=\"list-group-item\">Sauce Pan</li>\r\n\t<li class=\"list-group-item\">Whisk</li>\r\n\t<li class=\"list-group-item\">Cheesecloth</li>\r\n\t<li class=\"list-group-item\">Mason Jar</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how to do</a></li>\r\n\t<li class=\"list-group-item\">Grind your weed fine, you want to make a good surface area of exposure.</li>\r\n\t<li class=\"list-group-item\">Next, add your finely ground cannabis directly to your milk, place over low heat and whisk to combine. Be careful not to let the mixture boil over!</li>\r\n\t<li class=\"list-group-item\">Stir the milk mixture frequently to prevent scorching and allow the cannabis and milk to simmer for 30 minutes to an hour depending on your preferred potency.</li>\r\n\t<li class=\"list-group-item\">After 30 minutes to an hour, remove from heat and let sit for 5-10 minutes to help the cannabinoids set into the fat cells.</li>\r\n\t<li class=\"list-group-item\">Place cheesecloth over the top of a large mason jar or other air-tight liquid storage container then pour the mixture over the cheesecloth to strain out all plant matter.</li>\r\n\t<li class=\"list-group-item\">When it&rsquo;s cool enough to handle, squeeze all excess liquid from the cheesecloth into your storage container.</li>\r\n\t<li class=\"list-group-item\">Tightly seal your container, label with its contents and expiration date (the same date that was listed on the milk container) or freeze in ice cube trays for later use.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 12.0,
+      "video": null,
+      "photo_file_name": "milk.jpg",
+      "category_name": "Essentials",
+      "category_slug": "essentials",
+      "position": 4
+    },
+    {
+      "id": 22,
+      "name": "Infused Coconut Curry",
+      "slug": "infused-coconut-curry",
+      "description": "A delightful fusion of aromatic spices, creamy coconut, and infused cannabis. Elevate your senses with tender veggies and protein in a dish that's truly unforgettable.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">2 tbsp&nbsp;<a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">cannabis-infused coconut oil</a></li>\r\n\t<li class=\"list-group-item\">1 onion, finely chopped</li>\r\n\t<li class=\"list-group-item\">3 cloves garlic, minced</li>\r\n\t<li class=\"list-group-item\">1 tablespoon grated fresh ginger</li>\r\n\t<li class=\"list-group-item\">2 tablespoons curry powder</li>\r\n\t<li class=\"list-group-item\">1 can (14 ounces) coconut milk</li>\r\n\t<li class=\"list-group-item\">1 cup vegetable broth</li>\r\n\t<li class=\"list-group-item\">1 cup diced potatoes</li>\r\n\t<li class=\"list-group-item\">2 carrots, sliced</li>\r\n\t<li class=\"list-group-item\">1 red bell pepper, sliced</li>\r\n\t<li class=\"list-group-item\">1 cup cauliflower florets</li>\r\n\t<li class=\"list-group-item\">Salt and pepper to taste</li>\r\n\t<li class=\"list-group-item\">Fresh cilantro for garnish</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">In a large skillet or pot, heat the cannabis-infused coconut oil over medium heat.</li>\r\n\t<li class=\"list-group-item\">Add the chopped onion, minced garlic, and grated ginger. Saut&eacute; until the onion becomes translucent and the garlic is fragrant.</li>\r\n\t<li class=\"list-group-item\">Stir in the curry powder and cook for an additional minute to toast the spices.</li>\r\n\t<li class=\"list-group-item\">Pour in the coconut milk and vegetable broth. Stir well to combine.</li>\r\n\t<li class=\"list-group-item\">Add the diced potatoes, sliced carrots, red bell pepper, and cauliflower florets to the pot. Season with salt and pepper to taste.</li>\r\n\t<li class=\"list-group-item\">Cover the pot and simmer for 15-20 minutes, or until the vegetables are tender.</li>\r\n\t<li class=\"list-group-item\">Serve the cannabis-infused coconut curry over cooked rice or with naan bread. Garnish with fresh cilantro.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 4.0,
+      "video": null,
+      "photo_file_name": "editCurriedCauliflowerSoup-sized-1440x480_(2).jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 4
+    },
+    {
+      "id": 13,
+      "name": "Gummy Bears",
+      "slug": "gummy-bears",
+      "description": "If you're a big gummy bear fan, you're in luck!",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac14; cup of infused coconut oil with <span id=\"grams-quantity-recipe\">3.5 grams</span>&nbsp;weed - <a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">See the recipe</a></li>\r\n\t<li class=\"list-group-item\">&frac12;&nbsp;tsp&nbsp;Sunflower/Soy Lecithin</li>\r\n\t<li class=\"list-group-item\">1&nbsp;oz&nbsp;Unflavored Gelatin</li>\r\n\t<li class=\"list-group-item\">&frac12;&nbsp;cup&nbsp;Water</li>\r\n\t<li class=\"list-group-item\">1 pack 6 oz Jello (any flavor)</li>\r\n\t<li class=\"list-group-item\">Gummy Bear mold</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">In a small saucepan over medium heat combine the water and the infused oil and whisk together as you bring it to a boil.</li>\r\n\t<li class=\"list-group-item\">Whisk in each container of the unflavored gelatin one at a time while continuing to whisk.</li>\r\n\t<li class=\"list-group-item\">Whisk in the flavored gelatin and keep stirring for about 5 minutes and bring to a rolling boil.</li>\r\n\t<li class=\"list-group-item\">Reduce heat to low, spray molds with cooking spray. Fill each mold to the top with a dropper or spoon. Keep stirring your mix periodically.</li>\r\n\t<li class=\"list-group-item\">Place molds in freezer for 20 minutes or fridge for an hour to firm up.</li>\r\n\t<li class=\"list-group-item\">Unmold the candies to enjoy right away or store in airtight containers for 2 &ndash; 3 days at room temperature. Freeze for extended storage.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 5.0,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "gummy.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 4
+    },
+    {
+      "id": 25,
+      "name": "Infused Spaghetti Bolognese",
+      "slug": "infused-spaghetti-bolognese",
+      "description": "This culinary creation takes your taste buds on a euphoric journey, delivering a symphony of taste.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1 tbsp <a href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">infused olive oil</a></li>\r\n\t<li class=\"list-group-item\">1 onion, finely chopped</li>\r\n\t<li class=\"list-group-item\">2 cloves garlic, minced</li>\r\n\t<li class=\"list-group-item\">1 carrot, finely chopped</li>\r\n\t<li class=\"list-group-item\">1 celery stalk, finely chopped</li>\r\n\t<li class=\"list-group-item\">1 pound ground beef</li>\r\n\t<li class=\"list-group-item\">1 can (14 ounces) diced tomatoes</li>\r\n\t<li class=\"list-group-item\">1 can (6 ounces) tomato paste</li>\r\n\t<li class=\"list-group-item\">1/2 cup red wine</li>\r\n\t<li class=\"list-group-item\">1 teaspoon dried oregano</li>\r\n\t<li class=\"list-group-item\">1 teaspoon dried basil</li>\r\n\t<li class=\"list-group-item\">Salt and pepper to taste</li>\r\n\t<li class=\"list-group-item\">Cooked spaghetti noodles</li>\r\n\t<li class=\"list-group-item\">Grated Parmesan cheese for garnish</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">In a large skillet or pot, heat the cannabis-infused olive oil over medium heat.</li>\r\n\t<li class=\"list-group-item\">Add the chopped onion, minced garlic, carrot, and celery to the pot. Saut&eacute; until the vegetables are softened.</li>\r\n\t<li class=\"list-group-item\">Add the ground beef to the pot and cook until browned, breaking it up with a spoon as it cooks.</li>\r\n\t<li class=\"list-group-item\">Stir in the diced tomatoes, tomato paste, red wine, dried oregano, dried basil, salt, and pepper.</li>\r\n\t<li class=\"list-group-item\">Simmer the sauce on low heat for about 30 minutes, stirring occasionally.</li>\r\n\t<li class=\"list-group-item\">Meanwhile, cook the spaghetti noodles according to the package list-group-items until al dente.</li>\r\n\t<li class=\"list-group-item\">Once the sauce is ready, taste and adjust the seasoning if needed.</li>\r\n\t<li class=\"list-group-item\">Serve the cannabis-infused Bolognese sauce over the cooked spaghetti noodles.</li>\r\n\t<li class=\"list-group-item\">Garnish with grated Parmesan cheese and enjoy a comforting and cannabis-infused meal!</li>\r\n</ul>\r\n",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 2.0,
+      "video": null,
+      "photo_file_name": "spaghetti_bolognese.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 4
+    },
+    {
+      "id": 3,
+      "name": "Pot Cookies",
+      "slug": "pot-cookies",
+      "description": "Cookies with crisp edges, a rich, buttery, toffee-like flavor, big chocolate chunks.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1/2 cup <a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">cannabutter</a></li>\r\n\t<li class=\"list-group-item\">1/2 cup granulated sugar</li>\r\n\t<li class=\"list-group-item\">1/4 cup brown sugar</li>\r\n\t<li class=\"list-group-item\">2 teaspoons vanilla extract</li>\r\n\t<li class=\"list-group-item\">1 large egg</li>\r\n\t<li class=\"list-group-item\">1 3/4 cups all-purpose flour</li>\r\n\t<li class=\"list-group-item\">1/2 teaspoon baking soda</li>\r\n\t<li class=\"list-group-item\">pinch of salt</li>\r\n\t<li class=\"list-group-item\">1 cup chocolate chips</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Preheat the oven to 350 F.</li>\r\n\t<li class=\"list-group-item\">Microwave the cannabutter for about 40 seconds. Butter should be completely melted but shouldn&#39;t be hot.</li>\r\n\t<li class=\"list-group-item\">In a large bowl, mix the cannabutter with the sugars until well-combined.</li>\r\n\t<li class=\"list-group-item\">Stir in vanilla and egg until incorporated.</li>\r\n\t<li class=\"list-group-item\">Add the flour, baking soda, and salt. Please read the recipe note about properly measuring flour.</li>\r\n\t<li class=\"list-group-item\">Mix the dough until just combined. The dough should be soft and a little sticky but not overly sticky.</li>\r\n\t<li class=\"list-group-item\">Stir in chocolate chips.</li>\r\n\t<li class=\"list-group-item\">Scoop out 1.5 tablespoons of dough (medium cookie scoop) and place 2 inches apart on the baking sheet.</li>\r\n\t<li class=\"list-group-item\">Bake for 7-10 minutes, or until cookies are set. They will be puffy and still look a little underbaked in the middle.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 24.0,
+      "video": null,
+      "photo_file_name": "cookies.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 4
+    },
+    {
+      "id": 6,
+      "name": "Pot Brownies",
+      "slug": "pot-brownies",
+      "description": "Behold! The perfect combination of deliciousness and dopeness",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac12; cup<a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">cannabutter</a></li>\r\n\t<li class=\"list-group-item\">1 cup sugar (or any sweetener)</li>\r\n\t<li class=\"list-group-item\">2 eggs</li>\r\n\t<li class=\"list-group-item\">1 teaspoon vanilla extract</li>\r\n\t<li class=\"list-group-item\">&frac14; teaspoon baking powder</li>\r\n\t<li class=\"list-group-item\">\u2153 cup cocoa powder</li>\r\n\t<li class=\"list-group-item\">&frac14; teaspoon salt</li>\r\n\t<li class=\"list-group-item\">&frac12; cup of flour (or almond flour)</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Preheat oven to 350&deg; F&nbsp;or 180&deg; C.</li>\r\n\t<li class=\"list-group-item\">Mix the melted butter and sugar until well blended.</li>\r\n\t<li class=\"list-group-item\">Add eggs and vanilla; stir just until blended.</li>\r\n\t<li class=\"list-group-item\">Mix all dry ingredients in a separate bowl.</li>\r\n\t<li class=\"list-group-item\">Stir dry ingredients into the butter/sugar mixture.</li>\r\n\t<li class=\"list-group-item\">Pour into greased 9 x 9 square pan.</li>\r\n\t<li class=\"list-group-item\">Bake for 20 minutes or until sides just start to pull away from the pan.</li>\r\n\t<li class=\"list-group-item\">Cool completely before cutting.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 30.0,
+      "video": null,
+      "photo_file_name": "brownie.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 4
+    },
+    {
+      "id": 11,
+      "name": "Infused Grilled Cheese",
+      "slug": "infused-grilled-cheese",
+      "description": "Quick and easy cannabis-infused grilled cheese recipe",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">2 slices bread</li>\r\n\t<li class=\"list-group-item\">2 slices cheddar cheese</li>\r\n\t<li class=\"list-group-item\">2 tsp <a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">cannabutter</a></li>\r\n\t<li class=\"list-group-item\">1 tbsp butter</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Evenly spread the regular&nbsp;butter on one side of both pieces of bread. Next, spread the cannabis butter on the other side of the bread.</li>\r\n\t<li class=\"list-group-item\">Place the slice of cheddar cheese on the canna-butter side of the bread. Put the two slices of bread together with the canna-butter side in the middle.</li>\r\n\t<li class=\"list-group-item\">On medium heat, fry the grilled cheese until the cheese has melted and both sides are golden brown, about 3 minutes per side.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 0.5,
+      "suggested_portion": 4.0,
+      "video": null,
+      "photo_file_name": "grilled.jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 5
+    },
+    {
+      "id": 16,
+      "name": "Gingerbread Cookies",
+      "slug": "gingerbread-cookies",
+      "description": "Make your holidays special with this delicious cookies!",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\"><strong>Cookie</strong></li>\r\n\t<li class=\"list-group-item\">1/2 cup <a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">cannabutter</a></li>\r\n\t<li class=\"list-group-item\">2 and 1/4 cups flour</li>\r\n\t<li class=\"list-group-item\">1/2 cup sugar</li>\r\n\t<li class=\"list-group-item\">1 Egg</li>\r\n\t<li class=\"list-group-item\">1/2 cup Molasses</li>\r\n\t<li class=\"list-group-item\">1 tsp Ground Cinammon</li>\r\n\t<li class=\"list-group-item\">1 tsp Ground Ginger</li>\r\n\t<li class=\"list-group-item\">1 tsp Ground Cloves</li>\r\n\t<li class=\"list-group-item\">1 tsp Ground Nutmeg</li>\r\n\t<li class=\"list-group-item\">1 tsp Baking Powder</li>\r\n\t<li class=\"list-group-item\">1/2 tsp Baking Soda</li>\r\n\t<li class=\"list-group-item\">1/2 tsp Salt</li>\r\n\t<br />\r\n\t<li class=\"list-group-item\"><strong>Icing</strong></li>\r\n\t<li class=\"list-group-item\">2 and 1/4 cup finely powdered Sugar</li>\r\n\t<li class=\"list-group-item\">1/3 cup Milk</li>\r\n\t<li class=\"list-group-item\">2 large Egg Whites</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">In a large bowl, with a hand mixer at slow speed, mix the butter, flour, sugar, egg, molasses, cinnamon, ginger, cloves, nutmeg, baking powder, baking soda, and salt until well mixed.</li>\r\n\t<li class=\"list-group-item\">Cover and refrigerate for 1 hour.</li>\r\n\t<li class=\"list-group-item\">Preheat oven to 350&deg;F.</li>\r\n\t<li class=\"list-group-item\">On a lightly floured surface, working with half of the dough at a time, roll 1/8 inch thick. With floured cookie cutters, cut dough into shapes. Using a metal spatula or pancake turner, place cookies 1/2 inch apart on greased cookie sheets. Re-roll trimmings and continue to cut shapes. Remember to cut <!-- <span id=\"portion-quantity-recipe\">24 cookies</span> --> the right amount of cookies to keep your dose consistent to what you set in the calculator.&nbsp;&nbsp;</li>\r\n\t<li class=\"list-group-item\">Bake for 8 minutes, or until lightly browned. Transfer cookies to racks to cool completely.</li>\r\n\t<li class=\"list-group-item\">To make the icing take the sugar, milk and egg whites and beat it until thick but able to pass through a piping bag or squirt bottle. If it is too thick add more milk gradually.</li>\r\n\t<li class=\"list-group-item\">Have fun decorating the cookies however you want!</li>\r\n</ul>\r\n",
+      "suggested_quantity": 3.0,
+      "suggested_portion": 24.0,
+      "video": null,
+      "photo_file_name": "gingerbread.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 6
+    },
+    {
+      "id": 7,
+      "name": "Trail Mix",
+      "slug": "trail-mix",
+      "description": "A delicious combination of seeds and nuts infused with cannabis oil.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac18; cup <a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">infused coconut oil</a></li>\r\n\t<li class=\"list-group-item\">Nuts of your preference</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how</a></li>\r\n\t<li class=\"list-group-item\">Grind your weed fine, you want to make a good surface area of exposure.</li>\r\n\t<li class=\"list-group-item\">Add the ground weed to a canning jar with &frac14; cup of coconut oil.</li>\r\n\t<li class=\"list-group-item\">Seal the canning jar very tightly.</li>\r\n\t<li class=\"list-group-item\">Add the canning jar in boiling water using low-medium (240&deg; F - 115&deg; C) heat for over 2 hours.</li>\r\n\t<li class=\"list-group-item\">Put all the jar&#39;s content into a cheesecloth over a metal strainer.</li>\r\n\t<li class=\"list-group-item\">Gather the cheesecloth and squeeze all the remaining liquid out.</li>\r\n\t<li class=\"list-group-item\">Mix the coconut oil with some nuts.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 10.0,
+      "video": null,
+      "photo_file_name": "nuts.jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 7
+    },
+    {
+      "id": 8,
+      "name": "Infused Honey",
+      "slug": "infused-honey",
+      "description": "Infused honey is a great way to get cannabis into your favourite beverages or desserts.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac12; cup of coconut oil</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">3.5</span> ground weed</li>\r\n\t<li class=\"list-group-item\">300 g honey</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how to do</a></li>\r\n\t<li class=\"list-group-item\">Grind your weed fine, you want to make a good surface area of exposure.</li>\r\n\t<li class=\"list-group-item\">Add the ground weed to a canning jar with &frac12; cup of coconut oil.</li>\r\n\t<li class=\"list-group-item\">Seal the canning jar very tightly.</li>\r\n\t<li class=\"list-group-item\">Add the canning jar in boiling water using low-medium heat&nbsp;(240&deg; F - 115&deg; C) for over 2 hours.</li>\r\n\t<li class=\"list-group-item\">Put all the jar&#39;s content into a cheesecloth over a metal strainer.</li>\r\n\t<li class=\"list-group-item\">Gather the cheesecloth and squeeze all the remaining liquid out.</li>\r\n\t<li class=\"list-group-item\">Add the coconut oil and the honey in the blend</li>\r\n\t<li class=\"list-group-item\">Put and store all the mixture in a canning jar or mason jar</li>\r\n</ul>\r\n",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 30.0,
+      "video": null,
+      "photo_file_name": "honey.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 7
+    },
+    {
+      "id": 2,
+      "name": "Infused Whiskey",
+      "slug": "infused-whiskey",
+      "description": "Explore the flavour of the best whiskies with the glorious cannabis aroma.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">750 ml bottle of bourbon whiskey</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">7 g</span> ground weed</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how to do</a></li>\r\n\t<li class=\"list-group-item\">Pour the bottle of whiskey into a sealable jar (or pour out a little bit of whiskey to make up for the added volume of the weed) and add the ground weed.</li>\r\n\t<li class=\"list-group-item\">Shake the bottle and let it sit, out of the sun, for at least 48 hours. Shake it up at least once a day until it has reached your desired potency - up to one month if possible. The longer it sits, the more potent it will be.</li>\r\n\t<li class=\"list-group-item\">Pour the whiskey mixture into a glass container, using a cheesecloth to strain out all ground weed from the whiskey. Repeat this step as necessary to strain all of the whiskey from the ground weed, and discard the remaining weed.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 7.0,
+      "suggested_portion": 20.0,
+      "video": null,
+      "photo_file_name": "whiskey.jpg",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
+      "position": 8
+    },
+    {
+      "id": 10,
+      "name": "Infused Chai",
+      "slug": "infused-chai",
+      "description": "This warming, potent, cannabis chai tea recipe is a great way to enjoy your tea with an extra kick.",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Tea Bag</li>\r\n\t<li class=\"list-group-item\">Milk</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">0.5 </span> ground weed</li>\r\n\t<li class=\"list-group-item\">Ginger</li>\r\n\t<li class=\"list-group-item\">Cardamom</li>\r\n\t<li class=\"list-group-item\">Sugar or any sweetiner</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Decarb your weed - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">Learn how</a></li>\r\n\t<li class=\"list-group-item\">Start boiling some milk in a pot.</li>\r\n\t<li class=\"list-group-item\">Lay out some cheesecloth</li>\r\n\t<li class=\"list-group-item\">Mash up your ginger and spices</li>\r\n\t<li class=\"list-group-item\">Put the cannabis with all your mashed spices in a cheesecloth and close it as a tea bag.</li>\r\n\t<li class=\"list-group-item\">Steep the tea bag in the milk for two hours.</li>\r\n\t<li class=\"list-group-item\">Pour the milk in a jug.</li>\r\n\t<li class=\"list-group-item\">Now, it&#39;s time to prepare your mug, mix the milk with a black tea bag and add some sugar.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 4.0,
+      "video": null,
+      "photo_file_name": "chai.jpg",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
+      "position": 10
+    },
+    {
+      "id": 12,
+      "name": "Infused Popcorn",
+      "slug": "weed-infused-popcorn",
+      "description": "The perfect salty snack to eat while watching your favorite movies",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac14; cup <a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/butter\" target=\"_blank\">cannabutter</a></li>\r\n\t<li class=\"list-group-item\">\u2153 - \u2154 cups of Popcorn Kernels</li>\r\n\t<li class=\"list-group-item\">Salt to taste</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Heat the butter in a 2 to 3-quart saucepan or pot with a lid set over medium-high heat. Pour in popcorn kernels and sprinkle enough salt to lightly cover the layer of kernels. Remember, you can always add more salt later. Add the butter to the pot and cover with the lid.</li>\r\n\t<li class=\"list-group-item\">As soon as the kernels start to pop, shake the pan back and forth across the burner constantly until the popping slows down. As soon as the pops are about 2 seconds apart, remove from the heat and pour it into a serving bowl. Taste, and season with additional salt if desired.</li>\r\n</ul>\r\n",
+      "suggested_quantity": 2.0,
+      "suggested_portion": 10.0,
+      "video": null,
+      "photo_file_name": "popcorn.jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 11
+    },
+    {
+      "id": 15,
+      "name": "Infused Eggnog",
+      "slug": "infused-eggnog",
+      "description": "It's time for that holiday cheer! Why not make it extra special?",
+      "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1 cup <a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/infused-milk\" target=\"_blank\">Infused Milk</a></li>\r\n\t<li class=\"list-group-item\">4 Eggs</li>\r\n\t<li class=\"list-group-item\">6 tbsp Sugar</li>\r\n\t<li class=\"list-group-item\">1 cup Heavy Cream</li>\r\n\t<li class=\"list-group-item\">1 tsp Grated Nutmeg</li>\r\n\t<li class=\"list-group-item\">6 tbsp Bourbon (Optional)</li>\r\n\t<li class=\"list-group-item\">Cinnamon for garnish</li>\r\n</ul>\r\n",
+      "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">Separate the egg yolks from the egg whites.</li>\r\n\t<li class=\"list-group-item\"><strong>&nbsp;</strong>In a bowl, beat the egg yolks with the sugar until they look pale and the sugar&nbsp;is completely dissolved.</li>\r\n\t<li class=\"list-group-item\">In a medium saucepan, over high heat, combine the milk, heavy cream and nutmeg and bring just to a boil, stirring occasionally. Remove from the heat and slowly temper the hot mixture into the yolks and sugar mixture. Then return everything to the pan and heat it until the mixture reaches 160 degrees F. Remove from the heat, stir in the bourbon/whiskey, pour into a medium mixing bowl, and set in the refrigerator to chill</li>\r\n\t<li class=\"list-group-item\">In a medium mixing bowl, beat the egg whites to soft peaks. With the mixer running gradually add the 1 tablespoon of sugar and beat until stiff peaks form. Whisk the egg whites into the chilled mixture.</li>\r\n\t<li class=\"list-group-item\">Serve in how many cups you defined as portions in the calculator to keep your dose consistent, and garnish it with cinnamon!&nbsp;</li>\r\n</ul>\r\n",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 6.0,
+      "video": null,
+      "photo_file_name": "eggnog.jpg",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
+      "position": 12
+    },
+    {
+      "id": 35,
+      "name": "Infused Ghee",
+      "slug": "infused-ghee",
+      "description": "Cannabis-infused ghee (clarified butter) is a versatile cooking fat with a high smoke point. Perfect for sauteing, spreading on toast, or adding to your morning coffee. It stores longer than regular cannabutter and has a rich, nutty flavor.",
+      "ingredients": "<ul><li>1 cup (2 sticks) unsalted butter</li><li>3.5g cannabis, decarboxylated and ground</li><li>Cheesecloth for straining</li><li>Mason jar for storage</li></ul>",
+      "instructions": "<ul><li>Melt butter in a saucepan over medium-low heat. It will begin to foam and crackle \u2014 that is the water evaporating.</li><li>Once the crackling subsides and the milk solids settle to the bottom and turn golden, add your decarboxylated cannabis.</li><li>Simmer on the lowest heat for 45 minutes, stirring occasionally. Do not let it burn.</li><li>Strain through cheesecloth into a mason jar, squeezing out all the fat.</li><li>Let cool at room temperature, then refrigerate. Ghee will solidify and keep for up to 3 months.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "infused-ghee.jpg",
+      "category_name": "Essentials",
+      "category_slug": "essentials",
+      "position": 13
+    },
+    {
+      "id": 36,
+      "name": "Cannabis Hot Chocolate",
+      "slug": "cannabis-hot-chocolate",
+      "description": "A rich, warming cannabis hot chocolate made with infused milk or coconut oil. Perfect for cold nights or winding down after a long day. Use your favorite hot cocoa recipe and simply swap in your infused base.",
+      "ingredients": "<ul><li>2 cups infused milk (see Infused Milk recipe)</li><li>3 tbsp unsweetened cocoa powder</li><li>2 tbsp sugar or sweetener of choice</li><li>Pinch of salt</li><li>1/4 tsp vanilla extract</li><li>Whipped cream for topping (optional)</li></ul>",
+      "instructions": "<ul><li>Warm the infused milk in a small saucepan over medium-low heat. Do not boil.</li><li>Whisk in cocoa powder, sugar, and salt until fully dissolved and smooth.</li><li>Add vanilla extract and stir to combine.</li><li>Pour into mugs and top with whipped cream if desired.</li><li>Serve immediately and enjoy slowly \u2014 edibles take time to kick in.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "cannabis-hot-chocolate.jpg",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
+      "position": 14
+    },
+    {
+      "id": 37,
+      "name": "Infused Cold Brew",
+      "slug": "infused-cold-brew",
+      "description": "Cannabis cold brew coffee is smooth, low-acid, and hits differently. Pair caffeine and THC for a productive morning or a creative afternoon session. Use your infused coconut oil to bind the THC since cold brew is water-based.",
+      "ingredients": "<ul><li>1 cup coarse-ground coffee</li><li>4 cups cold filtered water</li><li>1 tsp infused coconut oil (see Infused Coconut Oil recipe)</li><li>Ice cubes</li><li>Milk or cream to taste</li></ul>",
+      "instructions": "<ul><li>Combine ground coffee and cold water in a large jar. Stir to fully saturate the grounds.</li><li>Cover and refrigerate for 12-24 hours.</li><li>Strain through a fine mesh strainer or cheesecloth into a clean jar. Discard grounds.</li><li>To serve, fill a glass with ice and pour cold brew to taste (usually diluted 1:1 with water or milk).</li><li>Stir in 1 tsp of infused coconut oil until emulsified. You can use a small frother to blend it thoroughly.</li><li>Enjoy slowly \u2014 the effects combine with caffeine for a unique experience.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "infused-cold-brew.jpg",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
+      "position": 15
+    },
+    {
+      "id": 38,
+      "name": "Weed Rice Krispie Treats",
+      "slug": "weed-rice-krispie-treats",
+      "description": "A classic cannabis edible that is easy to make, easy to dose, and loved by all. Rice Krispie treats are simple, no-bake, and can be cut into precise portions for consistent dosing. A great beginner edible recipe.",
+      "ingredients": "<ul><li>3 tbsp cannabutter (see Cannabutter recipe)</li><li>1 bag (10 oz) marshmallows</li><li>6 cups rice cereal (Rice Krispies or similar)</li><li>Pinch of salt</li><li>Non-stick cooking spray</li></ul>",
+      "instructions": "<ul><li>Grease a 9x13-inch pan with cooking spray and set aside.</li><li>Melt cannabutter in a large pot over low heat. Keep the heat low to preserve THC.</li><li>Add marshmallows and stir constantly until fully melted and smooth. Remove from heat.</li><li>Quickly stir in the rice cereal and salt, mixing until fully coated.</li><li>Pour into the prepared pan and press flat with a greased spatula or your hands.</li><li>Let cool completely (about 30 minutes), then cut into 12 equal squares.</li><li>Store in an airtight container at room temperature for up to 3 days.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "weed-rice-krispie-treats.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 16
+    },
+    {
+      "id": 39,
+      "name": "Cannabis Caramel Sauce",
+      "slug": "cannabis-caramel-sauce",
+      "description": "A silky, golden cannabis caramel sauce you can drizzle on ice cream, brownies, pancakes, or eat straight from the spoon. Made with cannabutter for easy infusion and rich flavor. Makes about 12 servings.",
+      "ingredients": "<ul><li>1 cup granulated sugar</li><li>6 tbsp cannabutter (see Cannabutter recipe)</li><li>1/2 cup heavy cream, at room temperature</li><li>1 tsp vanilla extract</li><li>1/2 tsp sea salt</li></ul>",
+      "instructions": "<ul><li>Heat sugar in a heavy-bottomed saucepan over medium heat, stirring constantly with a wooden spoon until it melts and turns amber in color.</li><li>Once fully melted, add cannabutter all at once. The mixture will bubble vigorously \u2014 keep stirring.</li><li>Stir in the heavy cream slowly. Mixture will bubble again. Keep stirring until smooth.</li><li>Remove from heat and stir in vanilla extract and sea salt.</li><li>Let cool for 10 minutes before using. Store in a jar in the refrigerator for up to 2 weeks.</li><li>Reheat gently before serving. Divide into 12 portions and drizzle as a topping.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "cannabis-caramel-sauce.jpg",
+      "category_name": "Desserts",
+      "category_slug": "desserts",
+      "position": 17
+    },
+    {
+      "id": 40,
+      "name": "Infused Hummus",
+      "slug": "infused-hummus",
+      "description": "Creamy, smooth cannabis-infused hummus made with infused olive oil. A healthy, savory snack you can serve with pita, veggies, or crackers. Easy to make in a blender and easy to dose per serving.",
+      "ingredients": "<ul><li>1 can (15 oz) chickpeas, drained and rinsed</li><li>3 tbsp infused olive oil (see Infused Olive Oil recipe)</li><li>3 tbsp tahini</li><li>2 tbsp lemon juice</li><li>1 clove garlic</li><li>1/2 tsp salt</li><li>1/4 tsp cumin</li><li>2-3 tbsp cold water</li><li>Paprika and regular olive oil to garnish</li></ul>",
+      "instructions": "<ul><li>Add chickpeas, tahini, lemon juice, garlic, salt, and cumin to a food processor.</li><li>Blend for about 1 minute until roughly combined.</li><li>With the processor running, drizzle in the infused olive oil and cold water.</li><li>Blend for another 2-3 minutes until very smooth and creamy.</li><li>Taste and adjust salt or lemon to preference.</li><li>Transfer to a serving bowl, drizzle with regular olive oil, and dust with paprika.</li><li>Divide into 8 portions for accurate dosing. Store refrigerated for up to 5 days.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "infused-hummus.jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 18
+    },
+    {
+      "id": 41,
+      "name": "Infused Granola",
+      "slug": "infused-granola",
+      "description": "Crunchy, golden cannabis-infused granola made with cannabutter or infused coconut oil. Perfect on yogurt, with milk, or as a trail mix-style snack. Bake a big batch and divide into portions for easy, consistent dosing throughout the week.",
+      "ingredients": "<ul><li>3 cups rolled oats</li><li>1/2 cup nuts (almonds, pecans, or walnuts)</li><li>1/4 cup seeds (pumpkin or sunflower)</li><li>3 tbsp cannabutter or infused coconut oil, melted</li><li>3 tbsp honey or maple syrup</li><li>1 tsp vanilla extract</li><li>1/2 tsp cinnamon</li><li>Pinch of salt</li><li>1/2 cup dried fruit (optional, add after baking)</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 300\u00b0F (150\u00b0C) \u2014 lower temperature preserves THC.</li><li>In a large bowl, mix oats, nuts, seeds, cinnamon, and salt.</li><li>In a small bowl, whisk together melted cannabutter, honey, and vanilla.</li><li>Pour wet ingredients over dry and toss until fully coated.</li><li>Spread on a parchment-lined baking sheet in a thin, even layer.</li><li>Bake for 30-35 minutes, stirring every 10 minutes, until golden and fragrant.</li><li>Remove and let cool completely \u2014 it will crisp up as it cools.</li><li>Stir in dried fruit if using. Divide into 12 portions for accurate dosing.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "infused-granola.jpg",
+      "category_name": "Snacks",
+      "category_slug": "snacks",
+      "position": 19
+    },
+    {
+      "id": 42,
+      "name": "Cannabis Avocado Toast",
+      "slug": "cannabis-avocado-toast",
+      "description": "Elevate your avocado toast game with a drizzle of infused olive oil. Simple, quick, and delicious. The healthy fats in avocado also help your body absorb THC more efficiently, making this one of the most bioavailable edible options.",
+      "ingredients": "<ul><li>2 slices of thick bread (sourdough or whole grain)</li><li>1 ripe avocado</li><li>1 tbsp infused olive oil (see Infused Olive Oil recipe)</li><li>Juice of half a lemon</li><li>Salt and pepper to taste</li><li>Chili flakes, everything bagel seasoning, or fresh herbs to garnish</li><li>Optional: poached egg on top</li></ul>",
+      "instructions": "<ul><li>Toast your bread to your preferred doneness.</li><li>Halve the avocado, remove the pit, and scoop the flesh into a bowl.</li><li>Mash with a fork. Add lemon juice, salt, and pepper. Mix briefly \u2014 keep it chunky.</li><li>Spread avocado mixture generously over toasted bread.</li><li>Drizzle infused olive oil over the top.</li><li>Garnish with chili flakes, seasoning, or herbs. Add a poached egg if desired.</li><li>Serves 2. Eat mindfully and wait at least an hour before considering another portion.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "cannabis-avocado-toast.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 20
+    },
+    {
+      "id": 43,
+      "name": "Cannabis Salad Dressing",
+      "slug": "cannabis-salad-dressing",
+      "description": "A simple cannabis vinaigrette that turns any salad into an infused meal. Made with infused olive oil and a few pantry staples. Shake it up, drizzle it on, and you have a healthy, delicious cannabis edible with precise portion control.",
+      "ingredients": "<ul><li>3 tbsp infused olive oil (see Infused Olive Oil recipe)</li><li>1 tbsp regular olive oil</li><li>2 tbsp apple cider vinegar or red wine vinegar</li><li>1 tsp Dijon mustard</li><li>1 tsp honey</li><li>1 small clove garlic, minced</li><li>Salt and pepper to taste</li></ul>",
+      "instructions": "<ul><li>Combine all ingredients in a small jar with a lid.</li><li>Shake vigorously until emulsified and well combined.</li><li>Taste and adjust acid or sweetness to your preference.</li><li>Drizzle over salad right before serving \u2014 do not dress salad ahead of time.</li><li>This recipe makes 4 portions. Keep the dressing jar in the fridge for up to 1 week.</li><li>Shake before each use as the oil and vinegar will separate.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "cannabis-salad-dressing.jpg",
+      "category_name": "Lunch",
+      "category_slug": "lunch",
+      "position": 21
+    },
+    {
+      "id": 44,
+      "name": "Infused Chocolate Bark",
+      "slug": "infused-chocolate-bark",
+      "description": "Dark chocolate bark infused with cannabutter and topped with your favorite mix-ins. Keto-friendly, easy to make, and beautiful as a gift or treat. Chocolate is an ideal edible vehicle \u2014 it masks the cannabis flavor and is easy to portion precisely.",
+      "ingredients": "<ul><li>200g dark chocolate (85% cacao or higher for keto)</li><li>1 tbsp cannabutter, softened (see Cannabutter recipe)</li><li>1/4 cup toppings: sea salt flakes, chopped nuts, dried cranberries, or cacao nibs</li></ul>",
+      "instructions": "<ul><li>Melt dark chocolate in a heatproof bowl set over a pot of simmering water (double boiler), stirring until smooth.</li><li>Remove from heat and stir in softened cannabutter until fully incorporated.</li><li>Line a baking sheet with parchment paper. Pour the chocolate mixture and spread into an even layer about 1/4 inch thick.</li><li>Quickly sprinkle your chosen toppings over the surface.</li><li>Refrigerate for at least 30 minutes until completely set and firm.</li><li>Break into 12 roughly equal pieces. Store in the refrigerator in an airtight container for up to 2 weeks.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50.0,
+      "video": null,
+      "photo_file_name": "infused-chocolate-bark.jpg",
+      "category_name": "Keto",
+      "category_slug": "keto",
+      "position": 22
+    }
+  ]
+}
