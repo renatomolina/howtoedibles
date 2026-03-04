@@ -700,16 +700,6 @@ input[type="range"]::-moz-range-thumb {
   border-bottom-color: #f27242;
 }
 
-/* Potency modal */
-.modal-potency-table {
-  width: 100%;
-  margin-top: 10px;
-}
-
-.modal-potency-table td {
-  padding: 6px 10px;
-}
-
 /* Dose result cards */
 .dose-cards {
   display: grid;
@@ -767,15 +757,121 @@ input[type="range"]::-moz-range-thumb {
   color: #c97050;
 }
 
-/* Potency modal */
-.modal-potency-table {
-  width: 100%;
-  margin-top: 10px;
+/* "Not sure?" trigger button */
+.potency-help-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #f27242;
+  border: 1.5px solid #f8c4a8;
+  border-radius: 20px;
+  padding: 2px 10px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+.potency-help-btn:hover {
+  background: #f27242;
+  color: #fff !important;
+  border-color: #f27242;
+  text-decoration: none;
 }
 
-.modal-potency-table td {
-  padding: 6px 10px;
+/* Potency modal */
+.potency-modal-content {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
 }
+.potency-modal-header {
+  background: linear-gradient(135deg, #f27242 0%, #e05a28 100%);
+  border-bottom: none;
+  padding: 16px 20px;
+}
+.potency-modal-header .modal-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+.potency-modal-header .close {
+  color: rgba(255,255,255,0.85);
+  text-shadow: none;
+  opacity: 1;
+}
+.potency-modal-header .close:hover { color: #fff; opacity: 1; }
+
+.potency-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.potency-row:last-child { border-bottom: none; }
+
+.potency-row-label {
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.potency-row-label::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.potency-row--low    .potency-row-label::before { background: #5cb85c; }
+.potency-row--medium .potency-row-label::before { background: #f0c040; }
+.potency-row--high   .potency-row-label::before { background: #f27242; }
+.potency-row--conc   .potency-row-label::before { background: #e02020; }
+
+.potency-row-range {
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.potency-row--low    .potency-row-range { background: #f0fff0; color: #3a8a3a; }
+.potency-row--medium .potency-row-range { background: #fffbe6; color: #a08010; }
+.potency-row--high   .potency-row-range { background: #fff5f0; color: #c05020; }
+.potency-row--conc   .potency-row-range { background: #fff0f0; color: #c02020; }
+
+.potency-avg-note {
+  font-size: 0.77rem;
+  color: #aaa;
+  text-align: center;
+  padding: 8px 20px 12px;
+  margin: 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.potency-modal-footer {
+  border-top: none;
+  padding: 10px 20px 16px;
+  justify-content: center;
+}
+.btn-potency-close {
+  background: linear-gradient(135deg, #f27242 0%, #e05a28 100%);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 32px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: opacity 0.15s;
+}
+.btn-potency-close:hover { opacity: 0.88; color: #fff; }
+
+/* Legacy table fallback */
+.modal-potency-table { width: 100%; margin-top: 10px; }
+.modal-potency-table td { padding: 6px 10px; }
 
 /* 7. Recipe content (from recipe.scss) */
 .directions-container ul {

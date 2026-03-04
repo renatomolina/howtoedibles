@@ -341,9 +341,9 @@
   <div class="calculator-item-large pt-1">
     <h3>How strong is your weed?</h3>
     <div class="average-tip mb-2">
-      <span class="bottomtip">(14% average)</span>
-      <a class="label-calculator ml-1 mb-1" data-toggle="modal" href="#" data-target="#myModal">
-        <span class="badge badge-success">NOT SURE?</span>
+      <span class="bottomtip">14% average</span>
+      <a class="potency-help-btn ml-2" data-toggle="modal" href="#" data-target="#myModal">
+        <i class="fa fa-circle-question fa-xs" aria-hidden="true"></i> Not sure?
       </a>
     </div>
     <input id="strength-slider" type="range"
@@ -351,27 +351,39 @@
 
     <!-- Potency reference modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Reference for weed potency</h4>
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content potency-modal-content">
+          <div class="modal-header potency-modal-header">
+            <h5 class="modal-title" id="myModalLabel">
+              <i class="fa fa-leaf mr-2" aria-hidden="true"></i>Potency Guide
+            </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            <table class="modal-potency-table table table-bordered">
-              <thead><tr><th>WEED TYPE</th><th>% (potency)</th></tr></thead>
-              <tbody>
-                <tr><td>Low quality</td><td>5%–10%</td></tr>
-                <tr><td>Medium quality</td><td>10%–15%</td></tr>
-                <tr><td>Top Shelf</td><td>15%–40%</td></tr>
-                <tr><td>Concentrates</td><td>35%–95%</td></tr>
-              </tbody>
-            </table>
+          <div class="modal-body p-0">
+            <div class="potency-rows">
+              <div class="potency-row potency-row--low">
+                <div class="potency-row-label">Low Quality</div>
+                <div class="potency-row-range">5% – 10%</div>
+              </div>
+              <div class="potency-row potency-row--medium">
+                <div class="potency-row-label">Medium Quality</div>
+                <div class="potency-row-range">10% – 15%</div>
+              </div>
+              <div class="potency-row potency-row--high">
+                <div class="potency-row-label">Top Shelf</div>
+                <div class="potency-row-range">15% – 40%</div>
+              </div>
+              <div class="potency-row potency-row--conc">
+                <div class="potency-row-label">Concentrates</div>
+                <div class="potency-row-range">35% – 95%</div>
+              </div>
+            </div>
+            <p class="potency-avg-note">Street weed averages ~14% THC</p>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <div class="modal-footer potency-modal-footer">
+            <button type="button" class="btn btn-potency-close" data-dismiss="modal">Got it</button>
           </div>
         </div>
       </div>
