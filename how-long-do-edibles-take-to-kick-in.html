@@ -25,6 +25,7 @@
   <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.rel='stylesheet'" />
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /></noscript>
   <link rel="stylesheet" href="/css/styles.css" />
+  <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
   <script type="application/ld+json">
   {
@@ -132,6 +133,9 @@
       <ul class="navbar-nav ml-auto align-items-lg-center">
         <li class="nav-item mr-lg-2">
           <a href="/calculator.html" class="btn btn-nav-calculator">Calculator</a>
+        </li>
+        <li class="nav-item">
+          <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa fa-moon"></i><i class="fa fa-sun"></i></button>
         </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Desserts</a>
@@ -477,5 +481,6 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <script src="/js/homepage.js"></script>
-</body>
+    <script src="/js/dark-mode.js"></script>
+  </body>
 </html>
