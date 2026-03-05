@@ -434,22 +434,90 @@ p.warning-item {
 }
 
 @media (max-width: 991px) {
-  .btn-nav-calculator {
-    margin: 0.5rem 0;
-    display: inline-block;
+  /* Mobile nav panel */
+  .navbar-collapse {
+    background: #fff;
+    border-top: 1px solid #f0ebe8;
+    margin: 0 -15px;
+    padding: 12px 20px 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
   }
-  /* On mobile, dropdowns are full-width inline — remove max-height scroll */
+
+  .navbar-nav {
+    gap: 2px;
+  }
+
+  /* Top-level nav links */
+  .nav-link {
+    padding: 0.6rem 0.5rem !important;
+    font-size: 0.95rem !important;
+    border-radius: 8px;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    background: #fff8f5 !important;
+  }
+
+  .nav-link::before {
+    display: none;
+  }
+
+  /* Dropdowns on mobile — styled as indented list */
   .dropdown-menu {
     max-height: none;
     overflow-y: visible;
     box-shadow: none;
+    border: none;
     border-top: none;
-    border-left: 3px solid #f27242;
-    border-radius: 0 6px 6px 0;
+    border-radius: 8px;
+    background: #fafafa;
+    margin: 4px 0 8px 8px;
+    padding: 6px 0;
     animation: none;
   }
-  .nav-link::before {
-    display: none;
+
+  .dropdown-item {
+    border-radius: 6px;
+    font-size: 0.88rem;
+    border-left: none;
+    padding: 0.45rem 1rem !important;
+    color: #555;
+  }
+
+  .dropdown-item:hover {
+    background: #fff2ec;
+    color: #f27242;
+    border-left: none;
+    padding-left: 1rem !important;
+  }
+
+  /* Calculator button */
+  .btn-nav-calculator {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 12px 0 4px;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    border-radius: 10px;
+  }
+
+  /* Burger icon styling */
+  .navbar-toggler {
+    padding: 6px 10px;
+    border-radius: 8px;
+    background: #fff8f5;
+    border: 1px solid rgba(242,114,66,0.25) !important;
+  }
+
+  .navbar-toggler:hover {
+    background: #fff0e8;
+  }
+
+  .navbar-icon {
+    color: #f27242;
+    font-size: 1.1rem;
   }
 }
 
