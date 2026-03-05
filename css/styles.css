@@ -210,10 +210,10 @@ p.warning-item {
 /* 4. Navbar */
 .navbar {
   background-color: #fff;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.09);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   border-top: 3px solid #f27242;
   padding: 0.5rem 0;
-  margin-bottom: 24px;
+  margin-bottom: 0;
   position: sticky;
   top: 0;
   z-index: 1030;
@@ -353,40 +353,49 @@ p.warning-item {
   padding-left: 1.5rem;
 }
 
-/* Search bar */
-.nav-search-wrapper {
-  position: relative;
-  flex: 1;
+/* Search bar (below navbar) */
+.site-search-bar {
+  background: #f8f8f8;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  margin-bottom: 24px;
+  position: sticky;
+  top: 67px;
+  z-index: 1020;
 }
 
-.nav-search-icon {
+.site-search-bar .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.site-search-icon {
   position: absolute;
-  left: 14px;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 26px;
   color: #aaa;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   pointer-events: none;
 }
 
-.nav-search-input {
+.site-search-input {
   width: 100%;
-  padding: 0.6rem 1.2rem 0.6rem 2.5rem;
+  padding: 0.55rem 1.2rem 0.55rem 2.5rem;
   border: 1.5px solid #e0e0e0;
   border-radius: 24px;
-  font-size: 1rem;
+  font-size: 0.95rem;
   outline: none;
-  background: #f8f8f8;
-  transition: border-color 0.15s, background 0.15s;
+  background: #fff;
+  transition: border-color 0.15s, box-shadow 0.15s;
   font-family: inherit;
 }
 
-.nav-search-input:focus {
+.site-search-input:focus {
   border-color: #f27242;
-  background: #fff;
+  box-shadow: 0 0 0 3px rgba(242,114,66,0.12);
 }
 
-.nav-search-input::placeholder { color: #bbb; }
+.site-search-input::placeholder { color: #bbb; }
 
 /* No results message */
 #search-no-results {
@@ -398,12 +407,8 @@ p.warning-item {
 }
 
 @media (min-width: 992px) {
-  .nav-search-wrapper {
-    min-width: 320px;
-    max-width: 520px;
-  }
-  .navbar {
-    margin-bottom: 10px;
+  .site-search-bar .container {
+    max-width: 680px;
   }
 }
 
@@ -415,10 +420,6 @@ p.warning-item {
 }
 
 @media (max-width: 991px) {
-  .nav-search-wrapper {
-    max-width: 100%;
-    margin-bottom: 0.5rem;
-  }
   .btn-nav-calculator {
     margin: 0.5rem 0;
     display: inline-block;
