@@ -506,21 +506,24 @@ p.warning-item {
 @media (max-width: 991px) {
   /* Fullscreen mobile nav overlay */
   .navbar-collapse {
-    position: fixed;
+    position: fixed !important;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-height: none !important;
     background: #fff;
     z-index: 1050;
-    padding: 0;
-    margin: 0;
+    padding: 0 !important;
+    margin: 0 !important;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     display: none !important;
+    flex-basis: auto !important;
   }
 
-  .navbar-collapse.show {
+  .navbar-collapse.show,
+  .navbar-collapse.collapsing {
     display: flex !important;
     flex-direction: column;
   }
@@ -549,6 +552,7 @@ p.warning-item {
     gap: 0;
     padding: 12px 20px 100px;
     flex: 1;
+    width: 100%;
   }
 
   /* Top-level nav links */
