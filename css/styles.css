@@ -509,7 +509,7 @@ p.warning-item {
     background: #fff;
     border-top: 1px solid #f0ebe8;
     margin: 0 -15px;
-    padding: 8px 8px 16px;
+    padding: 12px 20px 16px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.10);
   }
 
@@ -519,7 +519,7 @@ p.warning-item {
 
   /* Top-level nav links */
   .nav-link {
-    padding: 0.75rem 0.75rem !important;
+    padding: 0.75rem 1.1rem !important;
     font-size: 1rem !important;
     border-radius: 6px;
   }
@@ -550,7 +550,7 @@ p.warning-item {
     border-radius: 6px;
     font-size: 0.95rem;
     border-left: none;
-    padding: 0.6rem 0.75rem !important;
+    padding: 0.6rem 1.5rem !important;
     color: #555;
   }
 
@@ -558,7 +558,7 @@ p.warning-item {
     background: #fff8f5;
     color: #f27242;
     border-left: none;
-    padding-left: 0.75rem !important;
+    padding-left: 1.5rem !important;
   }
 
   /* Calculator button */
@@ -1129,24 +1129,51 @@ input[type="range"]::-moz-range-thumb {
   }
 }
 
-/* 9. Pagination (from pagination.css) */
+/* 9. Pagination */
 .pagination {
   margin: 0 auto;
-  width: 200px;
   padding-bottom: 20px;
-}
-
-.page-item.active .page-link {
-  background-color: #e16a3e;
-  border-color: #e16a3e;
-}
-
-.page-item a:hover {
-  color: #e16a3e;
+  gap: 6px;
 }
 
 .page-link {
   color: #414141;
+  border: 1px solid #e8ddd7;
+  border-radius: 10px !important;
+  padding: 0.45rem 0.85rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+}
+
+.page-item.active .page-link {
+  background: linear-gradient(135deg, #f27242 0%, #e05a28 100%);
+  border-color: transparent;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(242,114,66,0.35);
+  font-weight: 600;
+}
+
+.page-item:not(.active):not(.disabled) .page-link:hover {
+  background: #fff8f5;
+  color: #f27242;
+  border-color: rgba(242,114,66,0.4);
+}
+
+.page-item {
+  margin-left: 0 !important;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  border-radius: 10px !important;
+}
+
+.page-item.disabled .page-link {
+  color: #c5b8b0;
+  border-color: #f0ebe8;
+  background: #faf8f7;
 }
 
 /* Client-side pagination hidden state */
@@ -1161,33 +1188,12 @@ input[type="range"]::-moz-range-thumb {
 .error-illustration {
   margin-bottom: 8px;
 }
-.error-illustration svg {
-  filter: drop-shadow(0 6px 18px rgba(92,184,92,0.25));
-  animation: leafFloat 4s ease-in-out infinite;
-}
-@keyframes leafFloat {
-  0%, 100% { transform: translateY(0); }
-  50%       { transform: translateY(-10px); }
-}
-.error-code {
-  font-size: 6rem;
-  font-weight: 800;
-  color: #f27242;
-  line-height: 1;
-  letter-spacing: -4px;
-  margin-bottom: 12px;
-}
-.error-title {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 10px;
-}
-.error-subtitle {
-  font-size: 0.95rem;
-  color: #666;
-  line-height: 1.7;
-  margin-bottom: 28px;
+.error-img {
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.10);
 }
 .error-actions {
   display: flex;
@@ -1222,10 +1228,6 @@ input[type="range"]::-moz-range-thumb {
   background: #f27242;
   color: #fff;
   text-decoration: none;
-}
-@media (max-width: 576px) {
-  .error-code { font-size: 4.5rem; }
-  .error-title { font-size: 1.15rem; }
 }
 
 /* 10. Footer */
