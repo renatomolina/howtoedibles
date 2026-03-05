@@ -685,6 +685,63 @@
           "name": "Infused Coconut Lime Agua Fresca"
         }
       ]
+    },
+    {
+      "id": 10,
+      "name": "International",
+      "slug": "international",
+      "recipes": [
+        {
+          "id": 130,
+          "slug": "cannabis-feijoada",
+          "name": "Cannabis Feijoada"
+        },
+        {
+          "id": 131,
+          "slug": "infused-brigadeiro",
+          "name": "Infused Brigadeiro"
+        },
+        {
+          "id": 132,
+          "slug": "cannabis-pacoca",
+          "name": "Cannabis Pa\u00e7oca"
+        },
+        {
+          "id": 133,
+          "slug": "infused-coxinha",
+          "name": "Infused Coxinha"
+        },
+        {
+          "id": 134,
+          "slug": "cannabis-pao-de-queijo",
+          "name": "Cannabis P\u00e3o de Queijo"
+        },
+        {
+          "id": 135,
+          "slug": "infused-acai-bowl",
+          "name": "Infused A\u00e7a\u00ed Bowl"
+        },
+        {
+          "id": 136,
+          "slug": "cannabis-moqueca",
+          "name": "Cannabis Moqueca"
+        },
+        {
+          "id": 137,
+          "slug": "infused-tapioca-crepe",
+          "name": "Infused Tapioca Crepe"
+        },
+        {
+          "id": 138,
+          "slug": "cannabis-beijinho",
+          "name": "Cannabis Beijinho"
+        },
+        {
+          "id": 139,
+          "slug": "infused-empadao",
+          "name": "Infused Empad\u00e3o"
+        }
+      ]
     }
   ],
   "recipes": [
@@ -2577,6 +2634,156 @@
       "category_name": "Lunch",
       "category_slug": "lunch",
       "position": 129
+    },
+    {
+      "id": 130,
+      "name": "Cannabis Feijoada",
+      "slug": "cannabis-feijoada",
+      "description": "Brazil\u2019s beloved black bean and pork stew, slow-cooked and finished with cannabis olive oil for a hearty, infused twist on the national dish.",
+      "ingredients": "<ul><li>2 cups dried black beans, soaked overnight</li><li>200g smoked pork ribs</li><li>150g dried beef (carne seca), soaked and diced</li><li>150g pork sausage (linguica), sliced</li><li>100g bacon, diced</li><li>1 large onion, chopped</li><li>6 garlic cloves, minced</li><li>3 bay leaves</li><li>Salt and black pepper to taste</li><li>3 tbsp cannabis olive oil</li><li>Orange slices for garnish</li></ul>",
+      "instructions": "<ul><li>Drain beans, cover with fresh water, add smoked ribs and bay leaves. Simmer 1.5\u20132 hours until beans are tender.</li><li>In a skillet, cook bacon until crispy. Add sausage, dried beef, onion and garlic; saut\u00e9 5 min.</li><li>Transfer skillet contents to bean pot. Simmer 30 min more.</li><li>Remove from heat and stir in cannabis olive oil.</li><li>Serve over white rice with saut\u00e9ed collard greens, farofa and orange slices.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-feijoada.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 130
+    },
+    {
+      "id": 131,
+      "name": "Infused Brigadeiro",
+      "slug": "infused-brigadeiro",
+      "description": "Classic Brazilian chocolate truffles made with condensed milk, cocoa and cannabutter \u2014 rolled in chocolate sprinkles for a sweet, potent treat.",
+      "ingredients": "<ul><li>1 can (14 oz) sweetened condensed milk</li><li>2 tbsp unsweetened cocoa powder</li><li>1 tbsp cannabutter</li><li>Pinch of salt</li><li>Chocolate sprinkles for rolling</li></ul>",
+      "instructions": "<ul><li>Combine condensed milk, cocoa powder and cannabutter in a saucepan over medium-low heat.</li><li>Stir constantly until the mixture thickens and pulls away from the sides of the pan, about 10\u201315 min.</li><li>Transfer to a greased plate and let cool to room temperature.</li><li>Grease your hands with butter, roll into small balls and coat in chocolate sprinkles.</li><li>Place in mini cupcake liners and refrigerate until firm.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-brigadeiro.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 131
+    },
+    {
+      "id": 132,
+      "name": "Cannabis Pa\u00e7oca",
+      "slug": "cannabis-pacoca",
+      "description": "Crumbly Brazilian peanut candy infused with cannabutter \u2014 a sweet and nutty edible that melts in your mouth.",
+      "ingredients": "<ul><li>2 cups roasted unsalted peanuts</li><li>1 cup sugar</li><li>1 tbsp cannabutter, melted</li><li>Pinch of salt</li></ul>",
+      "instructions": "<ul><li>Pulse peanuts in a food processor until you get a fine, slightly oily crumb.</li><li>Add sugar, melted cannabutter and salt. Pulse a few more times until combined.</li><li>Press mixture firmly into small cylindrical molds or a lined baking pan.</li><li>Refrigerate 1 hour until set, then unmold.</li><li>Store in an airtight container at room temperature.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-pacoca.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 132
+    },
+    {
+      "id": 133,
+      "name": "Infused Coxinha",
+      "slug": "infused-coxinha",
+      "description": "Brazil\u2019s iconic teardrop-shaped chicken croquettes, made with cannabis-infused dough for a savory, crispy edible.",
+      "ingredients": "<ul><li>2 cups shredded cooked chicken</li><li>1 tbsp cream cheese</li><li>2 cups chicken broth</li><li>2 tbsp cannabutter</li><li>2 cups all-purpose flour</li><li>Salt and pepper to taste</li><li>2 eggs, beaten</li><li>Breadcrumbs for coating</li><li>Oil for deep frying</li></ul>",
+      "instructions": "<ul><li>Season shredded chicken with cream cheese, salt and pepper. Set aside.</li><li>In a saucepan, bring broth and cannabutter to a boil. Add flour all at once, stirring vigorously until dough forms a ball. Let cool.</li><li>Take a portion of dough, flatten in your palm, add chicken filling, and shape into a teardrop.</li><li>Dip in beaten egg, then roll in breadcrumbs.</li><li>Deep fry at 350\u00b0F until golden brown, about 3\u20134 min. Drain on paper towels.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-coxinha.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 133
+    },
+    {
+      "id": 134,
+      "name": "Cannabis P\u00e3o de Queijo",
+      "slug": "cannabis-pao-de-queijo",
+      "description": "Chewy, cheesy Brazilian bread rolls made with tapioca flour and cannabis olive oil \u2014 naturally gluten-free and irresistibly good.",
+      "ingredients": "<ul><li>2 cups tapioca flour (polvilho azedo)</li><li>\u00bd cup milk</li><li>\u00bc cup cannabis olive oil</li><li>1 egg</li><li>1 cup grated Parmesan or Minas cheese</li><li>\u00bd tsp salt</li></ul>",
+      "instructions": "<ul><li>Preheat oven to 375\u00b0F.</li><li>Heat milk, cannabis olive oil and salt until just simmering. Pour over tapioca flour and stir until combined.</li><li>Let cool slightly, then mix in egg and cheese until smooth.</li><li>Roll into small balls and place on a lined baking sheet.</li><li>Bake 20\u201325 min until puffed and golden.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-pao-de-queijo.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 134
+    },
+    {
+      "id": 135,
+      "name": "Infused A\u00e7a\u00ed Bowl",
+      "slug": "infused-acai-bowl",
+      "description": "A refreshing Brazilian a\u00e7a\u00ed bowl blended with cannabis coconut oil and topped with granola, banana and honey.",
+      "ingredients": "<ul><li>2 packs (200g) frozen a\u00e7a\u00ed puree</li><li>1 frozen banana</li><li>\u00bd cup almond milk</li><li>1 tbsp cannabis coconut oil, melted</li><li>Toppings: granola, sliced banana, strawberries, honey, shredded coconut</li></ul>",
+      "instructions": "<ul><li>Blend frozen a\u00e7a\u00ed puree, frozen banana, almond milk and cannabis coconut oil until thick and smooth.</li><li>Pour into a bowl.</li><li>Top with granola, sliced banana, strawberries, shredded coconut and a drizzle of honey.</li><li>Serve immediately.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-acai-bowl.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 135
+    },
+    {
+      "id": 136,
+      "name": "Cannabis Moqueca",
+      "slug": "cannabis-moqueca",
+      "description": "A rich Brazilian fish stew with coconut milk, tomatoes, peppers and dend\u00ea oil, finished with cannabis olive oil.",
+      "ingredients": "<ul><li>500g firm white fish (cod or halibut), cut into chunks</li><li>Juice of 2 limes</li><li>1 onion, sliced into rings</li><li>1 bell pepper, sliced</li><li>2 tomatoes, chopped</li><li>1 can (400ml) coconut milk</li><li>2 tbsp dend\u00ea (palm) oil</li><li>2 tbsp cannabis olive oil</li><li>Fresh cilantro, salt and pepper</li></ul>",
+      "instructions": "<ul><li>Marinate fish in lime juice, salt and pepper for 30 min.</li><li>In a clay pot or deep pan, layer onion, peppers, tomatoes and fish.</li><li>Pour coconut milk and dend\u00ea oil over the top. Cover and simmer 20 min without stirring.</li><li>Remove from heat and gently stir in cannabis olive oil.</li><li>Garnish with cilantro. Serve over white rice.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-moqueca.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 136
+    },
+    {
+      "id": 137,
+      "name": "Infused Tapioca Crepe",
+      "slug": "infused-tapioca-crepe",
+      "description": "A popular Brazilian street food \u2014 crispy tapioca crepes filled with cheese and coconut, drizzled with cannabis coconut oil.",
+      "ingredients": "<ul><li>1 cup hydrated tapioca starch (goma de tapioca)</li><li>Pinch of salt</li><li>Filling: shredded coconut, mozzarella or coalho cheese</li><li>1 tbsp cannabis coconut oil</li><li>Sweetened condensed milk (optional)</li></ul>",
+      "instructions": "<ul><li>Sift tapioca starch through a fine sieve to remove lumps.</li><li>Heat a non-stick pan over medium heat. Spread a thin layer of tapioca starch evenly across the pan.</li><li>When it turns translucent and holds together (about 1 min), add cheese and coconut to one half.</li><li>Fold and cook 1 min more until cheese melts.</li><li>Drizzle cannabis coconut oil and condensed milk on top. Serve immediately.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-tapioca-crepe.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 137
+    },
+    {
+      "id": 138,
+      "name": "Cannabis Beijinho",
+      "slug": "cannabis-beijinho",
+      "description": "Sweet Brazilian coconut truffles made with condensed milk and cannabutter, rolled in shredded coconut \u2014 brigadeiro\u2019s coconut cousin.",
+      "ingredients": "<ul><li>1 can (14 oz) sweetened condensed milk</li><li>1 tbsp cannabutter</li><li>\u00bd cup shredded coconut, plus more for rolling</li><li>Pinch of salt</li><li>Whole cloves for decoration</li></ul>",
+      "instructions": "<ul><li>Combine condensed milk, cannabutter and shredded coconut in a saucepan over medium-low heat.</li><li>Stir constantly until mixture thickens and pulls away from the sides, about 10\u201312 min.</li><li>Transfer to a greased plate and cool to room temperature.</li><li>Roll into small balls and coat in shredded coconut. Top each with a clove.</li><li>Place in mini cupcake liners and refrigerate until ready to serve.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "cannabis-beijinho.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 138
+    },
+    {
+      "id": 139,
+      "name": "Infused Empad\u00e3o",
+      "slug": "infused-empadao",
+      "description": "A large Brazilian savory pie with a cannabis-infused buttery crust, filled with seasoned chicken, olives and hearts of palm.",
+      "ingredients": "<ul><li>3 cups all-purpose flour</li><li>\u00bd cup cannabutter, cold and cubed</li><li>\u00bd cup regular butter, cold and cubed</li><li>2 egg yolks</li><li>3\u20134 tbsp ice water</li><li>Filling: 2 cups shredded chicken, 1 onion, 2 garlic cloves, \u00bd cup green olives, \u00bd cup hearts of palm, 2 tbsp tomato paste, salt, pepper, parsley</li><li>1 egg for egg wash</li></ul>",
+      "instructions": "<ul><li>Make dough: pulse flour, cannabutter, regular butter and egg yolks in a food processor. Add ice water until dough comes together. Wrap and refrigerate 30 min.</li><li>Make filling: saut\u00e9 onion and garlic, add chicken, tomato paste, olives, hearts of palm, salt, pepper and parsley. Cook 5 min. Let cool.</li><li>Press \u2154 of dough into a greased pie dish. Add filling.</li><li>Roll remaining dough for top crust. Seal edges and brush with egg wash.</li><li>Bake at 375\u00b0F for 35\u201340 min until golden.</li></ul>",
+      "suggested_quantity": 3.5,
+      "suggested_portion": 50,
+      "video": null,
+      "photo_file_name": "infused-empadao.jpg",
+      "category_name": "International",
+      "category_slug": "international",
+      "position": 139
     }
   ]
 }
