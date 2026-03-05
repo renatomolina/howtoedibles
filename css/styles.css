@@ -509,19 +509,19 @@ p.warning-item {
     background: #fff;
     border-top: 1px solid #f0ebe8;
     margin: 0 -15px;
-    padding: 12px 20px 20px;
+    padding: 8px 8px 16px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.10);
   }
 
   .navbar-nav {
-    gap: 2px;
+    gap: 0;
   }
 
   /* Top-level nav links */
   .nav-link {
-    padding: 0.6rem 0.5rem !important;
-    font-size: 0.95rem !important;
-    border-radius: 8px;
+    padding: 0.75rem 0.75rem !important;
+    font-size: 1rem !important;
+    border-radius: 6px;
   }
 
   .nav-link:hover,
@@ -533,33 +533,32 @@ p.warning-item {
     display: none;
   }
 
-  /* Dropdowns on mobile — styled as indented list */
+  /* Dropdowns on mobile — plain indented list, no background box */
   .dropdown-menu {
     max-height: none;
     overflow-y: visible;
     box-shadow: none;
     border: none;
-    border-top: none;
-    border-radius: 8px;
-    background: #fafafa;
-    margin: 4px 0 8px 8px;
-    padding: 6px 0;
+    border-radius: 0;
+    background: transparent;
+    margin: 0 0 4px 0;
+    padding: 0 0 4px 0;
     animation: none;
   }
 
   .dropdown-item {
     border-radius: 6px;
-    font-size: 0.88rem;
+    font-size: 0.95rem;
     border-left: none;
-    padding: 0.45rem 1rem !important;
+    padding: 0.6rem 0.75rem !important;
     color: #555;
   }
 
   .dropdown-item:hover {
-    background: #fff2ec;
+    background: #fff8f5;
     color: #f27242;
     border-left: none;
-    padding-left: 1rem !important;
+    padding-left: 0.75rem !important;
   }
 
   /* Calculator button */
@@ -567,9 +566,9 @@ p.warning-item {
     display: block;
     width: 100%;
     text-align: center;
-    margin: 12px 0 4px;
-    padding: 0.6rem 1rem;
-    font-size: 0.95rem;
+    margin: 10px 0 4px;
+    padding: 0.65rem 1rem;
+    font-size: 1rem;
     border-radius: 10px;
   }
 
