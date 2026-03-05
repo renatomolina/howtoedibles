@@ -9,11 +9,9 @@
       suggested_portion: @suggested_portion,
       suggested_potency: @suggested_potency
     %>
-    <%= render 'ads/medium', component_id: 'ad-medium-top' %>
     <%= render 'dosage_widget', title: t('calculator.step2_title') %>
   </div>
   <div class="col-sm-7 order-1 order-md-1">
-    <%= render 'ads/donate' %>
     <%= render 'ads/leaderboard', component_id: 'ad-leaderboard-top' %>
     <%= render 'recipe_content', recipe: @recipe %>
   </div>

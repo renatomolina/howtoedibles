@@ -434,8 +434,6 @@ def build_homepage
   end.join("\n")
 
   body = <<~HTML
-    #{html_leaderboard_ad}
-
     <div class="homepage-hero mb-4">
       <div class="hero-text">
         <h1 class="hero-title">Cannabis Edibles Recipes</h1>
@@ -592,8 +590,6 @@ def build_recipe_page(recipe)
         #{html_calculator_widget(quantity: quantity, portion: portion, potency: potency)}
       </div>
     </div>
-
-    #{html_medium_ad}
 
     <div class="dosage-panel">
       <div class="dosage-panel-header">
@@ -816,7 +812,6 @@ def build_calculator_page
             #{html_calculator_widget(quantity: 3.5, portion: 50, potency: 14)}
           </div>
         </div>
-        #{html_medium_ad}
         <div class="dosage-panel">
           <div class="dosage-panel-header">
             <i class="fa fa-flask" aria-hidden="true"></i>
