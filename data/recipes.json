@@ -267,6 +267,11 @@
           "name": "Infused Milk"
         },
         {
+          "id": 140,
+          "slug": "infused-condensed-milk",
+          "name": "Infused Condensed Milk"
+        },
+        {
           "id": 35,
           "slug": "infused-ghee",
           "name": "Infused Ghee"
@@ -1224,6 +1229,21 @@
       "category_name": "Essentials",
       "category_slug": "essentials",
       "position": 13
+    },
+    {
+      "id": 140,
+      "name": "Infused Condensed Milk",
+      "slug": "infused-condensed-milk",
+      "description": "Rich, sweet cannabis-infused condensed milk perfect for fudge, macaroons, and other desserts. A must-have essential for your edible kitchen.",
+      "ingredients": "<ul><li>1 can (14 oz) sweetened condensed milk</li><li>1 tbsp cannabutter or infused coconut oil</li><li>Sauce pan</li><li>Whisk</li><li>Mason jar</li></ul>",
+      "instructions": "<ul><li>Make sure your cannabutter or infused coconut oil is ready. If not, prepare it first.</li><li>Pour the condensed milk into a saucepan over low heat.</li><li>Add the cannabutter or infused coconut oil and whisk until fully combined.</li><li>Keep stirring on low heat for 10-15 minutes. Do not let it boil.</li><li>Remove from heat and let cool slightly.</li><li>Transfer to a mason jar or airtight container. Store in the fridge for up to 2 weeks.</li></ul>",
+      "suggested_quantity": 1.0,
+      "suggested_portion": 14,
+      "video": null,
+      "photo_file_name": "infused-condensed-milk.jpg",
+      "category_name": "Essentials",
+      "category_slug": "essentials",
+      "position": 14
     },
     {
       "id": 36,
