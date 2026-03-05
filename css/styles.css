@@ -574,19 +574,32 @@ p.warning-item {
 
   /* Burger icon styling */
   .navbar-toggler {
-    padding: 6px 10px;
-    border-radius: 8px;
-    background: #fff8f5;
-    border: 1px solid rgba(242,114,66,0.25) !important;
+    padding: 10px 14px 10px 16px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #fff8f5 0%, #ffe8dd 100%);
+    border: 1.5px solid rgba(242,114,66,0.3) !important;
+    box-shadow: 0 2px 8px rgba(242,114,66,0.12);
+    transition: all 0.25s ease;
+    margin-left: 4px;
   }
 
   .navbar-toggler:hover {
-    background: #fff0e8;
+    background: linear-gradient(135deg, #fff0e8 0%, #ffd9c7 100%);
+    box-shadow: 0 4px 12px rgba(242,114,66,0.2);
+    transform: scale(1.05);
+  }
+
+  .navbar-toggler:active {
+    transform: scale(0.97);
+    box-shadow: 0 1px 4px rgba(242,114,66,0.15);
   }
 
   .navbar-icon {
     color: #f27242;
-    font-size: 1.1rem;
+    font-size: 1.45rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
