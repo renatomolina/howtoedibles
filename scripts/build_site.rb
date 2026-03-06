@@ -1,10 +1,9 @@
 #!/usr/bin/env ruby
 # scripts/build_site.rb
-# Standalone i18n-aware build script — no Rails required.
-# Run: ruby scripts/build_site.rb
+# i18n build script — generates /pt/, /es/, /de/ pages from English originals.
+# NEVER overwrites English root files — those are hand-maintained.
 #
-# Reads data/recipes.json and i18n/*.json, generates all HTML pages
-# in English (root) + /pt/, /es/, /de/ subdirectories.
+# Run: ruby scripts/build_site.rb
 
 require "json"
 require "fileutils"
@@ -25,10 +24,11 @@ RECIPES    = data["recipes"]
 # i18n Loading
 # ─────────────────────────────────────────────
 
-LANGS = %w[en pt es de]
+LANGS = %w[pt es de]  # non-English only — English is hand-maintained
+ALL_LANGS = %w[en pt es de]  # for hreflang tags
 
 I18N = {}
-LANGS.each do |lang|
+ALL_LANGS.each do |lang|
   path = File.join(I18N_DIR, "#{lang}.json")
   if File.exist?(path)
     I18N[lang] = JSON.parse(File.read(path))
@@ -38,10 +38,8 @@ LANGS.each do |lang|
   end
 end
 
-# Recipe translations
 RECIPE_I18N = {}
 LANGS.each do |lang|
-  next if lang == "en"
   path = File.join(I18N_DIR, "recipes_#{lang}.json")
   if File.exist?(path)
     RECIPE_I18N[lang] = JSON.parse(File.read(path))
@@ -51,64 +49,152 @@ LANGS.each do |lang|
   end
 end
 
-puts "Building site from #{RECIPES.count} recipes across #{CATEGORIES.count} categories in #{LANGS.count} languages..."
+puts "Building site from #{RECIPES.count} recipes across #{CATEGORIES.count} categories in #{LANGS.count} languages (pt, es, de)..."
+puts "English files are NOT touched — they are hand-maintained."
 
 # ─────────────────────────────────────────────
 # Translation Helpers
 # ─────────────────────────────────────────────
 
 def t(lang, *keys)
-  val = I18N[lang]
-  keys.each do |key|
-    val = val.is_a?(Hash) ? val[key] : nil
-    break if val.nil?
+  result = I18N[lang]
+  keys.each { |k| result = result.is_a?(Hash) ? result[k.to_s] : nil }
+  if result.nil?
+    result = I18N["en"]
+    keys.each { |k| result = result.is_a?(Hash) ? result[k.to_s] : nil }
   end
-  # Fallback to English
-  if val.nil? && lang != "en"
-    val = I18N["en"]
-    keys.each do |key|
-      val = val.is_a?(Hash) ? val[key] : nil
-      break if val.nil?
-    end
-  end
-  val
+  result || keys.last.to_s
+end
+
+def recipe_t(lang, slug, field)
+  RECIPE_I18N.dig(lang, slug, field)
+end
+
+def category_t(lang, cat_name)
+  t(lang, "categories", cat_name) || cat_name
+end
+
+def h(text)
+  CGI.escapeHTML(text.to_s)
 end
 
 def lang_prefix(lang)
   lang == "en" ? "" : "/#{lang}"
 end
 
-def recipe_t(lang, slug, field)
-  return nil if lang == "en"
-  tr = RECIPE_I18N.dig(lang, slug)
-  tr ? tr[field] : nil
+def extract_list_items(html_str)
+  return [] unless html_str.is_a?(String)
+  html_str.scan(/<li[^>]*>(.*?)<\/li>/m).map { |m| m[0].gsub(/<[^>]+>/, "").strip }
 end
 
-def translate_category(lang, english_name)
-  t(lang, "categories", english_name) || english_name
+def lang_html(lang)
+  case lang
+  when "pt" then "pt-BR"
+  else lang
+  end
 end
 
 # ─────────────────────────────────────────────
-# Constants
+# Output Helpers
 # ─────────────────────────────────────────────
 
-SITE_URL  = "https://www.howtoedibles.com"
-GA_ID = "UA-90858722-1"
-ADSENSE_PUBLISHER = "ca-pub-6354522716906819"
-SLOT_LEADERBOARD  = "4353785890"
-SLOT_MEDIUM       = "5475295879"
-
-# Strip HTML tags and return array of plain-text list items
-def extract_li_texts(html)
-  html.scan(/<li[^>]*>(.*?)<\/li>/mi).map { |m| m[0].gsub(/<[^>]+>/, "").strip }.reject(&:empty?)
+def output_path(lang, *segments)
+  File.join(ROOT_DIR, lang, *segments)
 end
 
-def adsense_loader_script
+def write_file(path, content)
+  FileUtils.mkdir_p(File.dirname(path))
+  File.write(path, content)
+end
+
+# ─────────────────────────────────────────────
+# hreflang tags for all pages
+# ─────────────────────────────────────────────
+
+def hreflang_tags(page_path)
+  # page_path is the language-neutral path like "" (homepage), "calculator.html", "recipes/cannabutter/"
+  # Strip any leading lang prefix if accidentally included
+  page_path = page_path.sub(%r{^(pt|es|de)/}, "")
+  tags = []
+  ALL_LANGS.each do |l|
+    prefix = l == "en" ? "" : "/#{l}"
+    href = "https://www.howtoedibles.com#{prefix}/#{page_path}"
+    # Normalize: no double slashes, root ends with /
+    href = href.gsub("//", "/").sub("https:/", "https://")
+    href = href.sub(/\/?$/, "/") if page_path.empty? || page_path.end_with?("/")
+    html_lang = lang_html(l)
+    tags << %(<link rel="alternate" hreflang="#{html_lang}" href="#{href}" />)
+  end
+  xdef = "https://www.howtoedibles.com/#{page_path}"
+  xdef = xdef.sub(/\/?$/, "/") if page_path.empty? || page_path.end_with?("/")
+  tags << %(<link rel="alternate" hreflang="x-default" href="#{xdef}" />)
+  tags.join("\n  ")
+end
+
+# ─────────────────────────────────────────────
+# Shared HTML Components (matching English site exactly)
+# ─────────────────────────────────────────────
+
+def build_head(lang, title:, description:, canonical:, keywords: nil, structured_data: nil, extra_head: "")
+  html_lang = lang_html(lang)
+  prefix = lang_prefix(lang)
+  # Extract language-neutral page path for hreflang
+  page_path = canonical.sub("https://www.howtoedibles.com", "").sub(/^\//, "")
+  page_path = page_path.sub(%r{^(pt|es|de)/}, "")
+
+  kw = keywords || "edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles"
+
+  sd_block = if structured_data && !structured_data.empty?
+    "\n  <!-- Structured Data -->\n  <script type=\"application/ld+json\">\n#{structured_data}\n</script>"
+  else
+    "\n  <!-- Structured Data -->\n  "
+  end
+
   <<~HTML
-    <script>
+    <!DOCTYPE html>
+    <html lang="#{html_lang}">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <title>#{h(title)}</title>
+      <meta name="description" content="#{h(description)}" />
+      <link rel="canonical" href="#{canonical}" />
+      <link rel="icon" type="image/x-icon" href="/favicon_385_icon.ico" />
+
+      <!-- Open Graph -->
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="HowToEdibles" />
+      <meta property="og:title" content="#{h(title)}" />
+      <meta property="og:description" content="#{h(description)}" />
+      <meta property="og:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
+      <meta property="og:url" content="#{canonical}" />
+
+      <!-- Twitter -->
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="#{h(title)}" />
+      <meta name="twitter:description" content="#{h(description)}" />
+      <meta name="twitter:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
+
+      <meta name="keywords" content="#{h(kw)}" />
+      <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
+
+      <!-- hreflang -->
+      #{hreflang_tags(page_path)}
+    #{sd_block}
+
+      <!-- Bootstrap 4 -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
+      <!-- Font Awesome -->
+      <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.rel='stylesheet'" />
+      <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /></noscript>
+      <!-- Site CSS -->
+      <link rel="stylesheet" href="/css/styles.css" />
+      <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
+
+      <script>
       function downloadJSAtOnload() {
         var el = document.createElement("script");
-        el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=#{ADSENSE_PUBLISHER}";
+        el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819";
         el.async = true;
         el.setAttribute('crossorigin', 'anonymous');
         document.body.appendChild(el);
@@ -119,139 +205,50 @@ def adsense_loader_script
         window.attachEvent("onload", downloadJSAtOnload);
       else window.onload = downloadJSAtOnload;
     </script>
-  HTML
-end
-
-def analytics_script
-  <<~HTML
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=#{GA_ID}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '#{GA_ID}');
-    </script>
-  HTML
-end
-
-# ─────────────────────────────────────────────
-# Hreflang Tags
-# ─────────────────────────────────────────────
-
-def hreflang_tags(page_path)
-  tags = LANGS.map do |l|
-    prefix = lang_prefix(l)
-    href = "#{SITE_URL}#{prefix}#{page_path}"
-    hreflang = l == "en" ? "en" : (l == "pt" ? "pt-BR" : l)
-    "  <link rel=\"alternate\" hreflang=\"#{hreflang}\" href=\"#{href}\" />"
-  end
-  tags << "  <link rel=\"alternate\" hreflang=\"x-default\" href=\"#{SITE_URL}#{page_path}\" />"
-  tags.join("\n")
-end
-
-# ─────────────────────────────────────────────
-# HTML Components
-# ─────────────────────────────────────────────
-
-def html_head(lang:, title:, description:, canonical:, page_path:, og_image: "#{SITE_URL}/images/pot-brownies.jpg",
-              og_type: "website", schema_json: nil, keywords: nil)
-  default_keywords = "edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles"
-  kw = keywords ? "#{keywords}, #{default_keywords}" : default_keywords
-  schema_tag = schema_json ? "<script type=\"application/ld+json\">\n#{schema_json}\n</script>" : ""
-  html_lang = lang == "pt" ? "pt-BR" : lang
-  <<~HTML
-    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <title>#{CGI.escapeHTML(title)}</title>
-      <meta name="description" content="#{CGI.escapeHTML(description)}" />
-      <link rel="canonical" href="#{canonical}" />
-      <link rel="icon" type="image/x-icon" href="/favicon_385_icon.ico" />
-
-      <!-- Hreflang -->
-    #{hreflang_tags(page_path)}
-
-      <!-- Open Graph -->
-      <meta property="og:type" content="#{og_type}" />
-      <meta property="og:site_name" content="HowToEdibles" />
-      <meta property="og:title" content="#{CGI.escapeHTML(title)}" />
-      <meta property="og:description" content="#{CGI.escapeHTML(description)}" />
-      <meta property="og:image" content="#{og_image}" />
-      <meta property="og:url" content="#{canonical}" />
-      <meta property="og:locale" content="#{html_lang.tr("-", "_")}" />
-
-      <!-- Twitter -->
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="#{CGI.escapeHTML(title)}" />
-      <meta name="twitter:description" content="#{CGI.escapeHTML(description)}" />
-      <meta name="twitter:image" content="#{og_image}" />
-
-      <meta name="keywords" content="#{CGI.escapeHTML(kw)}" />
-      <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
-
-      <!-- Structured Data -->
-      #{schema_tag}
-
-      <!-- Bootstrap 4 -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
-      <!-- Font Awesome -->
-      <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.rel='stylesheet'" />
-      <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /></noscript>
-      <!-- Site CSS -->
-      <link rel="stylesheet" href="/css/styles.css" />
-
-      #{adsense_loader_script}
+    #{extra_head}
     </head>
   HTML
 end
 
-def html_language_switcher(lang, page_path)
-  current_name = t(lang, "lang_name") || lang.upcase
-  links = LANGS.map do |l|
-    prefix = lang_prefix(l)
-    name = t(l, "lang_name") || l.upcase
-    active = l == lang ? " active" : ""
-    "              <a class=\"dropdown-item lang-item#{active}\" href=\"#{prefix}#{page_path}\">#{name}</a>"
-  end.join("\n")
-
-  <<~HTML.chomp
-        <li class="nav-item dropdown lang-dropdown">
-          <a href="#" class="nav-link dropdown-toggle lang-toggle" data-toggle="dropdown" aria-label="#{t(lang, "language_switcher", "label") || "Language"}">
-            <i class="fa fa-globe mr-1"></i> #{current_name}
-          </a>
-          <div class="dropdown-menu dropdown-menu-right shadow-sm">
-  #{links}
-          </div>
-        </li>
-  HTML
-end
-
-def html_navbar(lang, page_path)
+def build_navbar(lang)
   prefix = lang_prefix(lang)
+  search_placeholder = t(lang, "navbar", "search_placeholder")
+  calculator_label = t(lang, "navbar", "calculator")
 
-  dropdown_items = CATEGORIES.map do |cat|
-    cat_name = translate_category(lang, cat["name"])
-    recipe_links = cat["recipes"].map do |r|
-      r_name = recipe_t(lang, r["slug"], "name") || r["name"]
-      "            <a class=\"dropdown-item\" href=\"#{prefix}/recipes/#{r["slug"]}/\">#{CGI.escapeHTML(r_name)}</a>"
-    end.join("\n")
+  # Build category dropdowns with translated recipe names
+  cats_by_name = {}
+  CATEGORIES.each { |c| cats_by_name[c["name"]] = c }
 
-    <<~HTML.chomp
+  category_order = %w[Desserts Drinks Snacks Essentials Lunch Keto Vegan Mocktails International]
+
+  dropdowns = category_order.map do |cat_name|
+    cat = cats_by_name[cat_name]
+    next unless cat
+    cat_recipes = RECIPES.select { |r| r["category_id"] == cat["id"] }
+    next if cat_recipes.empty?
+
+    translated_cat = category_t(lang, cat_name)
+    items = cat_recipes.map do |r|
+      name = recipe_t(lang, r["slug"], "name") || r["name"]
+      %(<a class="dropdown-item" href="#{prefix}/recipes/#{r["slug"]}/">#{h(name)}</a>)
+    end.join("\n            ")
+
+    <<~DD
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">#{CGI.escapeHTML(cat_name)}</a>
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">#{h(translated_cat)}</a>
             <div class="dropdown-menu shadow-sm" role="menu">
-    #{recipe_links}
+                #{items}
             </div>
           </li>
-    HTML
-  end.join("\n")
+    DD
+  end.compact.join("")
 
-  search_placeholder = t(lang, "navbar", "search_placeholder") || "Search recipes…"
-  calculator_label = t(lang, "navbar", "calculator") || "Calculator"
+  # Language switcher
+  lang_switcher = build_language_switcher(lang)
 
   <<~HTML
-    <nav class="navbar navbar-expand-lg navbar-light">
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fa fa-bars navbar-icon"></span>
@@ -259,36 +256,72 @@ def html_navbar(lang, page_path)
         <a href="#{prefix}/" class="navbar-brand logo-link">
           <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="180" height="65" />
         </a>
-        <!-- Search — always visible, outside collapse -->
-        <div class="nav-search-wrapper mx-2">
-          <i class="fa fa-search nav-search-icon"></i>
-          <input type="search" id="recipe-search" class="nav-search-input" placeholder="#{CGI.escapeHTML(search_placeholder)}" autocomplete="off" />
-        </div>
         <div class="collapse navbar-collapse" id="navbarMain">
           <ul class="navbar-nav ml-auto align-items-lg-center">
             <li class="nav-item mr-lg-2">
-              <a href="#{prefix}/calculator.html" class="btn btn-nav-calculator">#{CGI.escapeHTML(calculator_label)}</a>
+              <a href="#{prefix}/calculator.html" class="btn btn-nav-calculator">#{h(calculator_label)}</a>
             </li>
-    #{dropdown_items}
-    #{html_language_switcher(lang, page_path)}
-          </ul>
+            <li class="nav-item">
+              <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa fa-moon"></i><i class="fa fa-sun"></i></button>
+            </li>
+    #{dropdowns}      </ul>
         </div>
       </div>
     </nav>
+
+    <div class="site-search-bar">
+      <div class="container">
+        <i class="fa fa-search site-search-icon"></i>
+        <input type="search" id="recipe-search" class="site-search-input" placeholder="#{h(search_placeholder)}" autocomplete="off" />
+      </div>
+    </div>
+
   HTML
 end
 
-def html_footer(lang)
+def build_language_switcher(lang)
+  # Simple language links in the footer for now — clean and SEO-friendly
+  ""
+end
+
+def build_footer(lang)
   prefix = lang_prefix(lang)
+
+  tagline = t(lang, "footer", "tagline")
+  recipes_title = t(lang, "footer", "recipes_title")
+  all_recipes = t(lang, "footer", "all_recipes")
+  calculator = t(lang, "footer", "calculator")
+  learn_title = t(lang, "footer", "learn_title")
+  articles_label = t(lang, "articles", "title")
+  how_calc = t(lang, "footer", "how_calculator")
+  prevent_trip = t(lang, "footer", "prevent_bad_trip")
+  bad_trip_chat = t(lang, "footer", "bad_trip_chat")
+  support_us = t(lang, "footer", "support_us")
+  tip_title = t(lang, "footer", "dosage_tip_title")
+  tip_text = t(lang, "footer", "dosage_tip")
+  copyright = t(lang, "footer", "copyright")
+
+  # Language switcher links
+  lang_links = ALL_LANGS.map do |l|
+    lname = I18N[l]["lang_name"] || l.upcase
+    lflag = I18N[l]["lang_flag"] || ""
+    lprefix = lang_prefix(l)
+    if l == lang
+      %(<span class="footer-lang-current">#{lflag} #{lname}</span>)
+    else
+      %(<a href="#{lprefix}/" class="footer-lang-link">#{lflag} #{lname}</a>)
+    end
+  end.join(" · ")
+
   <<~HTML
-    <footer class="site-footer mt-auto">
+        <footer class="site-footer mt-auto">
       <div class="container">
         <div class="row footer-main">
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <a href="#{prefix}/" class="footer-brand">
               <img src="/images/howtoedibleslogo.png" alt="How to Edibles" />
             </a>
-            <p class="footer-tagline mt-3">#{t(lang, "footer", "tagline") || "Cannabis edibles made easy. Recipes, dosing calculator, and harm reduction tips."}</p>
+            <p class="footer-tagline mt-3">#{h(tagline)}</p>
             <div class="footer-social mt-3">
               <a href="https://instagram.com/howtoedibles" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
@@ -299,70 +332,139 @@ def html_footer(lang)
             </div>
           </div>
           <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 class="footer-col-title">#{t(lang, "footer", "recipes_title") || "Recipes"}</h5>
+            <h5 class="footer-col-title">#{h(recipes_title)}</h5>
             <ul class="footer-links">
-              <li><a href="#{prefix}/">#{t(lang, "footer", "all_recipes") || "All recipes"}</a></li>
-              <li><a href="#{prefix}/calculator.html">#{t(lang, "footer", "calculator") || "Calculator"}</a></li>
+              <li><a href="#{prefix}/">#{h(all_recipes)}</a></li>
+              <li><a href="#{prefix}/calculator.html">#{h(calculator)}</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="footer-col-title">#{t(lang, "footer", "learn_title") || "Learn"}</h5>
+            <h5 class="footer-col-title">#{h(learn_title)}</h5>
             <ul class="footer-links">
-              <li><a href="#{prefix}/how-a-cannabis-calculator-works.html">#{t(lang, "footer", "how_calculator") || "How the calculator works"}</a></li>
-              <li><a href="#{prefix}/how-to-prevent-a-bad-trip.html">#{t(lang, "footer", "prevent_bad_trip") || "How to prevent a bad trip"}</a></li>
-              <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">#{t(lang, "footer", "bad_trip_chat") || "Bad trip support chat"}</a></li>
-              <li><a href="#{prefix}/donate.html">#{t(lang, "footer", "support_us") || "Support us"}</a></li>
+              <li><a href="/articles.html">#{h(articles_label)}</a></li>
+              <li><a href="/how-a-cannabis-calculator-works.html">#{h(how_calc)}</a></li>
+              <li><a href="/how-to-prevent-a-bad-trip.html">#{h(prevent_trip)}</a></li>
+              <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">#{h(bad_trip_chat)}</a></li>
+              <li><a href="#{prefix}/donate.html">#{h(support_us)}</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="footer-col-title">#{t(lang, "footer", "dosage_tip_title") || "Dosage tip"}</h5>
-            <p class="footer-tip"><i class="fa fa-leaf orange mr-2"></i>#{t(lang, "footer", "dosage_tip") || "Start low, go slow. Wait at least 2 hours before taking more."}</p>
+            <h5 class="footer-col-title">#{h(tip_title)}</h5>
+            <p class="footer-tip"><i class="fa fa-leaf orange mr-2"></i>#{h(tip_text)}</p>
+            <div class="footer-lang-switcher mt-3">
+              #{lang_links}
+            </div>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; #{Time.now.year} HowToEdibles &mdash; #{t(lang, "footer", "copyright") || "For educational purposes only. Always consume responsibly."}</p>
+          <p>&copy; 2026 HowToEdibles &mdash; #{h(copyright)}</p>
         </div>
       </div>
     </footer>
   HTML
 end
 
-def html_leaderboard_ad
+def build_scripts(lang, extra_scripts: "")
+  prefix = lang_prefix(lang)
+
   <<~HTML
-    <div class="row d-none d-md-block text-center">
-      <!-- Leaderboard -->
-      <ins class="adsbygoogle"
-           style="display:inline-block;width:750px;height:90px"
-           data-ad-client="#{ADSENSE_PUBLISHER}"
-           data-ad-slot="#{SLOT_LEADERBOARD}"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
+
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-90858722-1');
+    </script>
+
+
+        <script src="/js/search-autocomplete.js"></script>
+        <!-- jQuery + Bootstrap 4 bundle -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="/js/mobile-menu.js"></script>
+        <!-- Search redirect for non-homepage pages -->
+        <script>
+          (function(){
+            var inp = document.getElementById('recipe-search');
+            if (!inp || document.getElementById('pagination-controls')) return;
+            inp.addEventListener('keydown', function(e){
+              if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '#{prefix}/?search=' + encodeURIComponent(q); }
+            });
+          })();
+        </script>
+    #{extra_scripts}
+          <script src="/js/dark-mode.js"></script>
+      </body>
+    </html>
   HTML
 end
 
-def html_medium_ad
-  <<~HTML
-    <div class="mt-2 mb-3 d-sm-none">
-      <!-- Medium Rectangle -->
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="#{ADSENSE_PUBLISHER}"
-           data-ad-slot="#{SLOT_MEDIUM}"
-           data-ad-format="auto"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
-  HTML
+def build_i18n_script(lang)
+  js_i18n = t(lang, "calculator_js")
+  return "" unless js_i18n.is_a?(Hash)
+  "<script>window.I18N = #{JSON.generate(js_i18n)};</script>\n"
 end
 
-def html_calculator_widget(lang, quantity:, portion:, potency:)
+# ─────────────────────────────────────────────
+# Ad blocks
+# ─────────────────────────────────────────────
+
+LEADERBOARD_AD = <<~HTML
+  <div class="row d-none d-md-block text-center">
+    <!-- Leaderboard -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:750px;height:90px"
+         data-ad-client="ca-pub-6354522716906819"
+         data-ad-slot="4353785890"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+HTML
+
+MOBILE_AD = <<~HTML
+  <div class="mt-2 mb-3 d-sm-none">
+    <!-- Medium Rectangle -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6354522716906819"
+         data-ad-slot="5475295879"
+         data-ad-format="auto"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+HTML
+
+# ─────────────────────────────────────────────
+# Calculator widget (shared between homepage calculator page and recipe pages)
+# ─────────────────────────────────────────────
+
+def build_calculator_widget(lang, defaults: { quantity: 3.5, potency: 14, portion: 50 })
+  prefix = lang_prefix(lang)
+  weed_q = t(lang, "calculator", "weed_quantity")
+  weed_s = t(lang, "calculator", "weed_strength")
+  avg_tip = t(lang, "calculator", "average_tip")
+  not_sure = t(lang, "calculator", "not_sure")
+  portions_q = t(lang, "calculator", "portions_question")
+  portions_l = t(lang, "calculator", "portions_label")
+  potency_title = t(lang, "calculator", "potency_modal_title")
+  potency_low = t(lang, "calculator", "potency_low")
+  potency_med = t(lang, "calculator", "potency_medium")
+  potency_high = t(lang, "calculator", "potency_high")
+  potency_conc = t(lang, "calculator", "potency_concentrates")
+  modal_close = t(lang, "calculator", "modal_close")
+
+  qty_val = defaults[:quantity]
+  str_val = defaults[:potency]
+  por_val = defaults[:portion]
+
   <<~HTML
     <div id="calculator-widget">
       <div class="calculator-item pt-1">
         <div class="pb-1">
-          <h3>#{t(lang, "calculator", "weed_quantity") || "How much weed do you have?"}</h3>
+          <h3>#{h(weed_q)}</h3>
         </div>
         <input id="grams-slider" type="range"
-               min="0.01" max="28" step="0.1" value="#{quantity}" />
+               min="0.01" max="28" step="0.1" value="#{qty_val}" />
         <div class="calculator-control mt-2 mb-3">
           <a href="#" id="decrease-quantity">
             <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
@@ -376,39 +478,51 @@ def html_calculator_widget(lang, quantity:, portion:, potency:)
       </div>
 
       <div class="calculator-item-large pt-1">
-        <h3>#{t(lang, "calculator", "weed_strength") || "How strong is your weed?"}</h3>
+        <h3>#{h(weed_s)}</h3>
         <div class="average-tip mb-2">
-          <span class="bottomtip">#{t(lang, "calculator", "average_tip") || "(14% average)"}</span>
-          <a class="label-calculator ml-1 mb-1" data-toggle="modal" href="#" data-target="#myModal">
-            <span class="badge badge-success">#{t(lang, "calculator", "not_sure") || "NOT SURE?"}</span>
+          <span class="bottomtip">#{h(avg_tip)}</span>
+          <a class="potency-help-btn ml-2" data-toggle="modal" href="#" data-target="#myModal">
+            <i class="fa fa-circle-question fa-xs" aria-hidden="true"></i> #{h(not_sure)}
           </a>
         </div>
         <input id="strength-slider" type="range"
-               min="1" max="99" step="1" value="#{potency}" />
+               min="1" max="99" step="1" value="#{str_val}" />
 
         <!-- Potency reference modal -->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">#{t(lang, "calculator", "potency_modal_title") || "Reference for weed potency"}</h4>
+          <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content potency-modal-content">
+              <div class="modal-header potency-modal-header">
+                <h5 class="modal-title" id="myModalLabel">
+                  <i class="fa fa-leaf mr-2" aria-hidden="true"></i>Potency Guide
+                </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <div class="modal-body">
-                <table class="modal-potency-table table table-bordered">
-                  <thead><tr><th>#{t(lang, "calculator", "potency_modal_weed_type") || "WEED TYPE"}</th><th>#{t(lang, "calculator", "potency_modal_potency") || "% (potency)"}</th></tr></thead>
-                  <tbody>
-                    <tr><td>#{t(lang, "calculator", "potency_low") || "Low quality"}</td><td>5%–10%</td></tr>
-                    <tr><td>#{t(lang, "calculator", "potency_medium") || "Medium quality"}</td><td>10%–15%</td></tr>
-                    <tr><td>#{t(lang, "calculator", "potency_high") || "Top Shelf"}</td><td>15%–40%</td></tr>
-                    <tr><td>#{t(lang, "calculator", "potency_concentrates") || "Concentrates"}</td><td>35%–95%</td></tr>
-                  </tbody>
-                </table>
+              <div class="modal-body p-0">
+                <div class="potency-rows">
+                  <div class="potency-row potency-row--low">
+                    <div class="potency-row-label">#{h(potency_low)}</div>
+                    <div class="potency-row-range">5% &ndash; 10%</div>
+                  </div>
+                  <div class="potency-row potency-row--medium">
+                    <div class="potency-row-label">#{h(potency_med)}</div>
+                    <div class="potency-row-range">10% &ndash; 15%</div>
+                  </div>
+                  <div class="potency-row potency-row--high">
+                    <div class="potency-row-label">#{h(potency_high)}</div>
+                    <div class="potency-row-range">15% &ndash; 40%</div>
+                  </div>
+                  <div class="potency-row potency-row--conc">
+                    <div class="potency-row-label">#{h(potency_conc)}</div>
+                    <div class="potency-row-range">35% &ndash; 95%</div>
+                  </div>
+                </div>
+                <p class="potency-avg-note">Street weed averages ~14% THC</p>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">#{t(lang, "calculator", "modal_close") || "Close"}</button>
+              <div class="modal-footer potency-modal-footer">
+                <button type="button" class="btn btn-potency-close" data-dismiss="modal">#{h(modal_close)}</button>
               </div>
             </div>
           </div>
@@ -427,16 +541,16 @@ def html_calculator_widget(lang, quantity:, portion:, potency:)
 
       <div class="calculator-item pt-1">
         <div class="pb-1">
-          <h3>#{t(lang, "calculator", "portions_question") || "How many portions you want?"}</h3>
+          <h3>#{h(portions_q)}</h3>
         </div>
         <input id="portion-slider" type="range"
-               min="1" max="200" step="1" value="#{portion}" />
+               min="1" max="200" step="1" value="#{por_val}" />
         <div class="calculator-control mt-1">
           <a href="#" id="decrease-servings">
             <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
           </a>
           <input id="portion-input" type="number" step="any" class="calculator-input mr-1 ml-1" onchange="updatePortion(this.value)" />
-          <span id="portion-label" class="mr-1">#{t(lang, "calculator", "portions_label") || "portions"}</span>
+          <span id="portion-label" class="mr-1">#{h(portions_l)}</span>
           <a href="#" id="increase-servings">
             <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
           </a>
@@ -446,442 +560,338 @@ def html_calculator_widget(lang, quantity:, portion:, potency:)
   HTML
 end
 
-def html_dosage_widget_content(lang)
-  <<~HTML
-    <p class="mb-2 mt-2">
-      <i class="fa fa-cookie fa-lg green icon-large" aria-hidden="true"></i>
-      #{t(lang, "calculator", "full_recipe") || "Full recipe:"} <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span>
-    </p>
+def build_dosage_panel(lang, style: :recipe)
+  full_recipe = t(lang, "calculator", "full_recipe")
+  per_portion = t(lang, "calculator", "per_portion")
+  pos_effects = t(lang, "calculator", "positive_effects")
+  neg_effects = t(lang, "calculator", "negative_effects")
+  side_note = "Effects vary by person, tolerance, and method of consumption."
 
-    <p class="mb-2 mt-3">
-      <i class="fa fa-cookie-bite fa-lg green icon-large" aria-hidden="true"></i>
-      #{t(lang, "calculator", "per_portion") || "Per portion:"} <span class="badge badge-success badge-label" id="potency-result">0</span>
-    </p>
-
-    <p id="highness-level" class="mb-2 mt-3"></p>
-
-    <h3 class="dosage-effects-title mt-4">
-      <i class="far fa-laugh green mr-1" aria-hidden="true"></i> #{t(lang, "calculator", "positive_effects") || "Positive Effects"}
-    </h3>
-    <p class="spaced-content mt-1 pb-2" id="positive-effect-details"></p>
-
-    <h3 class="dosage-effects-title mt-3">
-      <i class="far fa-frown red mr-1" aria-hidden="true"></i> #{t(lang, "calculator", "negative_effects") || "Negative Effects"}
-    </h3>
-    <p class="spaced-content mt-1 pb-2" id="negative-effect-details"></p>
-
-    <p class="sidenote mt-2">#{t(lang, "calculator", "side_note") || "You may or may not feel all the effects listed*"}</p>
-  HTML
-end
-
-def i18n_script(lang)
-  js_data = t(lang, "calculator_js")
-  return "" unless js_data && lang != "en"
-  "<script>window.I18N = #{JSON.generate(js_data)};</script>"
-end
-
-def wrap_page(lang:, page_path:, head_content:, body_content:, extra_scripts: "")
-  html_lang = lang == "pt" ? "pt-BR" : lang
-  prefix = lang_prefix(lang)
-  search_redirect = "#{prefix}/"
-
-  <<~HTML
-    <!DOCTYPE html>
-    <html lang="#{html_lang}">
-    #{head_content}
-      <body>
-        #{html_navbar(lang, page_path)}
-        <div class="container page-content">
-          #{body_content}
+  if style == :calculator
+    <<~HTML
+      <div class="dosage-panel">
+        <div class="dosage-panel-header">
+          <i class="fa fa-flask" aria-hidden="true"></i>
+          <span>#{h(t(lang, "calculator", "check_your_dose"))}</span>
         </div>
-        #{html_footer(lang)}
+        <div class="dosage-panel-body">
+          <p class="mb-2 mt-2">
+        <i class="fa fa-cookie fa-lg green icon-large" aria-hidden="true"></i>
+        #{h(full_recipe)} <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span>
+      </p>
 
-        #{analytics_script}
+      <p class="mb-2 mt-3">
+        <i class="fa fa-cookie-bite fa-lg green icon-large" aria-hidden="true"></i>
+        #{h(per_portion)} <span class="badge badge-success badge-label" id="potency-result">0</span>
+      </p>
 
-        <!-- jQuery + Bootstrap 4 bundle -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <!-- Search redirect for non-homepage pages -->
-        <script>
-          (function(){
-            var inp = document.getElementById('recipe-search');
-            if (!inp || document.getElementById('pagination-controls')) return;
-            inp.addEventListener('keydown', function(e){
-              if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '#{search_redirect}?search=' + encodeURIComponent(q); }
-            });
-          })();
-        </script>
-        #{extra_scripts}
-      </body>
-    </html>
-  HTML
-end
+      <p id="highness-level" class="mb-2 mt-3"></p>
 
-def write_file(path, content)
-  FileUtils.mkdir_p(File.dirname(path))
-  File.write(path, content)
-  puts "  wrote: #{path.sub(ROOT_DIR + "/", "")}"
-end
+      <h3 class="dosage-effects-title mt-4">
+        <i class="far fa-laugh green mr-1" aria-hidden="true"></i> #{h(pos_effects)}
+      </h3>
+      <p class="spaced-content mt-1 pb-2" id="positive-effect-details"></p>
 
-def output_path(lang, *parts)
-  if lang == "en"
-    File.join(ROOT_DIR, *parts)
+      <h3 class="dosage-effects-title mt-3">
+        <i class="far fa-frown red mr-1" aria-hidden="true"></i> #{h(neg_effects)}
+      </h3>
+      <p class="spaced-content mt-1 pb-2" id="negative-effect-details"></p>
+
+      <p class="sidenote">#{h(side_note)}</p>
+
+        </div>
+      </div>
+    HTML
   else
-    File.join(ROOT_DIR, lang, *parts)
+    <<~HTML
+      <div class="dosage-panel">
+        <div class="dosage-panel-header">
+          <i class="fa fa-leaf" aria-hidden="true"></i>
+          <span>Your Dose</span>
+        </div>
+        <div class="dosage-panel-body">
+          <div class="dose-cards">
+            <div class="dose-card">
+              <i class="fa fa-cookie" aria-hidden="true"></i>
+              <div class="dose-card-value" id="potency-result-total">&mdash;</div>
+              <div class="dose-card-label">#{h(full_recipe).sub(/:$/, "")}</div>
+            </div>
+            <div class="dose-card dose-card--highlight">
+              <i class="fa fa-cookie-bite" aria-hidden="true"></i>
+              <div class="dose-card-value" id="potency-result">&mdash;</div>
+              <div class="dose-card-label">#{h(per_portion).sub(/:$/, "")}</div>
+            </div>
+          </div>
+          <p id="highness-level" class="mb-3"></p>
+
+      <h3 class="dosage-effects-title mt-3">
+        <i class="far fa-laugh green mr-1" aria-hidden="true"></i> #{h(pos_effects)}
+      </h3>
+      <p class="spaced-content mt-1 pb-2" id="positive-effect-details"></p>
+
+      <h3 class="dosage-effects-title mt-3">
+        <i class="far fa-frown red mr-1" aria-hidden="true"></i> #{h(neg_effects)}
+      </h3>
+      <p class="spaced-content mt-1 pb-2" id="negative-effect-details"></p>
+
+      <p class="sidenote">#{h(side_note)}</p>
+
+        </div>
+      </div>
+    HTML
   end
 end
 
+
+# ═════════════════════════════════════════════
+# PAGE BUILDERS
+# ═════════════════════════════════════════════
+
 # ─────────────────────────────────────────────
-# Page Generators
+# Homepage
 # ─────────────────────────────────────────────
 
 def build_homepage(lang)
   prefix = lang_prefix(lang)
-  title       = t(lang, "homepage", "title") || "Edible Dosage Calculator | Cannabutter & Cannabis Recipes"
-  description = t(lang, "homepage", "description") || "Find out how potent your edibles are! This edible dosage calculator helps you cook and dose cannabis edibles responsibly."
-  canonical   = "#{SITE_URL}#{prefix}/"
+  title = t(lang, "homepage", "title")
+  description = t(lang, "homepage", "description")
+  hero_title = t(lang, "homepage", "hero_title")
+  hero_sub = t(lang, "homepage", "hero_sub")
+  popular = t(lang, "homepage", "popular_recipes")
+  no_results = t(lang, "homepage", "no_results")
+  donate_title = t(lang, "homepage", "donate_cta_title")
+  donate_text = t(lang, "homepage", "donate_cta_text")
+  donate_btn = t(lang, "homepage", "donate_cta_btn")
 
-  all_cards = RECIPES.map do |r|
-    img_src = "#{IMAGE_BASE}/#{r["slug"]}.jpg"
-    r_name = recipe_t(lang, r["slug"], "name") || r["name"]
-    r_desc = recipe_t(lang, r["slug"], "description") || r["description"] || ""
-    r_cat  = recipe_t(lang, r["slug"], "category_name") || r["category_name"]
-    search_data = CGI.escapeHTML("#{r_name} #{r_cat} #{r_desc}".downcase)
-    <<~HTML.strip
-      <div class="col-12 col-sm-3 recipe-card-item" data-search="#{search_data}">
+  canonical = "https://www.howtoedibles.com#{prefix}/"
+
+  # Recipe cards
+  cards = RECIPES.map do |r|
+    name = recipe_t(lang, r["slug"], "name") || r["name"]
+    desc = recipe_t(lang, r["slug"], "description") || r["description"]
+    cat = recipe_t(lang, r["slug"], "category_name") || r["category_name"]
+    search_data = "#{name} #{cat} #{desc}".downcase
+
+    <<~CARD
+      <div class="col-12 col-sm-3 recipe-card-item" data-search="#{h(search_data)}">
         <a href="#{prefix}/recipes/#{r["slug"]}/">
           <div class="card mb-2">
-            <img src="#{img_src}" class="card-img-top" alt="#{CGI.escapeHTML(r_name)}" loading="lazy" />
+            <img src="#{IMAGE_BASE}/#{r["slug"]}.jpg" class="card-img-top" alt="#{h(name)}" loading="lazy" />
             <div class="card-block">
-              <p class="card-category">#{CGI.escapeHTML(r_cat)}</p>
-              <p class="card-title">#{CGI.escapeHTML(r_name)}</p>
-              <p class="card-text">#{CGI.escapeHTML(r_desc)}</p>
+              <p class="card-category">#{h(cat)}</p>
+              <p class="card-title">#{h(name)}</p>
+              <p class="card-text">#{h(desc)}</p>
             </div>
           </div>
         </a>
       </div>
-    HTML
-  end.join("\n")
+    CARD
+  end.join("")
 
-  hero_title = t(lang, "homepage", "hero_title") || "Cannabis Edibles Recipes"
-  hero_sub = t(lang, "homepage", "hero_sub") || "Delicious recipes with a built-in dosage calculator so you always know what's in your food."
-  popular = t(lang, "homepage", "popular_recipes") || "Popular recipes"
-  no_results = t(lang, "homepage", "no_results") || "No recipes found. Try a different search."
-  donate_title = t(lang, "homepage", "donate_cta_title") || "Enjoying the recipes?"
-  donate_text = t(lang, "homepage", "donate_cta_text") || "This site is free and ad-light — help us keep it that way."
-  donate_btn = t(lang, "homepage", "donate_cta_btn") || "Support us"
+  structured = JSON.generate({
+    "@context" => "https://schema.org",
+    "@type" => "WebSite",
+    "name" => "HowToEdibles",
+    "url" => canonical,
+    "description" => description
+  })
 
-  body = <<~HTML
-    <div class="homepage-hero mb-4">
-      <div class="hero-text">
-        <h1 class="hero-title">#{hero_title}</h1>
-        <p class="hero-sub">#{hero_sub}</p>
+  page = build_head(lang, title: title, description: description, canonical: canonical, structured_data: structured)
+  page << build_navbar(lang)
+  page << <<~HTML
+        <div class="container page-content">
+    #{LEADERBOARD_AD}
+
+    <div class="homepage-hero">
+      <h1 class="homepage-h1">#{hero_title}</h1>
+      <p class="homepage-intro">#{hero_sub}</p>
+      <div class="hero-stats">
+        <span class="hero-stat"><i class="fa fa-book-open"></i> 420+ recipes</span>
+        <span class="hero-stat"><i class="fa fa-calculator"></i> Free calculator</span>
+        <span class="hero-stat"><i class="fa fa-shield-halved"></i> Dose responsibly</span>
       </div>
     </div>
 
     <div class="section-header mb-3">
       <i class="fa fa-fire-alt orange mr-2" aria-hidden="true"></i>
-      <span>#{popular}</span>
+      <span>#{h(popular)}</span>
     </div>
 
     <div class="row">
-      #{all_cards}
+    #{cards}
     </div>
 
     <div class="donate-cta">
       <i class="fas fa-heart donate-cta-icon"></i>
       <div class="donate-cta-text">
-        <strong>#{donate_title}</strong> #{donate_text}
+        <strong>#{h(donate_title)}</strong> #{h(donate_text)}
       </div>
-      <a href="#{prefix}/donate.html" class="donate-cta-btn">#{donate_btn}</a>
+      <a href="#{prefix}/donate.html" class="donate-cta-btn">#{h(donate_btn)}</a>
     </div>
 
-    <div id="search-no-results">#{no_results}</div>
+    <div id="search-no-results">#{h(no_results)}</div>
     <div id="pagination-controls" class="mt-3 mb-4"></div>
+
+        </div>
   HTML
-
-  head = html_head(
-    lang:        lang,
-    title:       title,
-    description: description,
-    canonical:   canonical,
-    page_path:   "/",
-    og_image:    "#{SITE_URL}/images/pot-brownies.jpg"
-  )
-
-  page = wrap_page(
-    lang:          lang,
-    page_path:     "/",
-    head_content:  head,
-    body_content:  body,
-    extra_scripts: '<script src="/js/homepage.js"></script>'
-  )
+  page << build_footer(lang)
+  page << build_scripts(lang, extra_scripts: "<script src=\"/js/homepage.js\"></script>\n")
 
   write_file(output_path(lang, "index.html"), page)
 end
 
-def build_recipe_page(recipe, lang)
-  prefix      = lang_prefix(lang)
-  slug        = recipe["slug"]
-  name        = recipe_t(lang, slug, "name") || recipe["name"]
-  quantity    = recipe["suggested_quantity"]  || 3.5
-  portion     = recipe["suggested_portion"]   || 50
-  potency     = 14
-  description = recipe_t(lang, slug, "description") || recipe["description"] || ""
-  category    = recipe_t(lang, slug, "category_name") || recipe["category_name"] || ""
-  img_src     = "#{IMAGE_BASE}/#{slug}.jpg"
-  page_path   = "/recipes/#{slug}/"
-  canonical   = "#{SITE_URL}#{prefix}#{page_path}"
-  og_image    = "#{SITE_URL}#{img_src}"
-
-  title_suffix = t(lang, "recipe_page", "title_suffix") || "Cannabis Edibles Recipe | HowToEdibles"
-  title       = "#{name} #{title_suffix}"
-  title       = title[0, 60] + "…" if title.length > 62
-
-  ingredients_html = recipe["ingredients"] || ""
-  instructions_html = recipe["instructions"] || ""
-
-  # ── Structured data ──────────────────────────────────────
-  ingredients_list = extract_li_texts(ingredients_html)
-  instructions_list = extract_li_texts(instructions_html)
-  how_to_steps = instructions_list.map.with_index(1) do |text, i|
-    { "@type" => "HowToStep", "position" => i, "text" => text }
-  end
-
-  recipe_schema = {
-    "@context"         => "https://schema.org",
-    "@type"            => "Recipe",
-    "name"             => name,
-    "description"      => description,
-    "image"            => "#{SITE_URL}#{img_src}",
-    "author"           => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE_URL },
-    "publisher"        => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE_URL },
-    "datePublished"    => "2024-01-01",
-    "dateModified"     => Time.now.strftime("%Y-%m-%d"),
-    "recipeCategory"   => category,
-    "inLanguage"       => (lang == "pt" ? "pt-BR" : lang),
-    "keywords"         => "cannabis #{name.downcase}, weed #{name.downcase}, infused #{name.downcase}, THC edible",
-    "recipeYield"      => "#{portion.to_i} serving#{portion.to_i == 1 ? "" : "s"}",
-    "recipeIngredient" => ingredients_list,
-    "recipeInstructions" => how_to_steps,
-    "url"              => canonical
-  }
-  recipe_schema.delete("recipeIngredient")  if ingredients_list.empty?
-  recipe_schema.delete("recipeInstructions") if how_to_steps.empty?
-
-  breadcrumb_schema = {
-    "@context" => "https://schema.org",
-    "@type"    => "BreadcrumbList",
-    "itemListElement" => [
-      { "@type" => "ListItem", "position" => 1, "name" => "Home",     "item" => "#{SITE_URL}#{prefix}/" },
-      { "@type" => "ListItem", "position" => 2, "name" => category,   "item" => "#{SITE_URL}#{prefix}/" },
-      { "@type" => "ListItem", "position" => 3, "name" => name }
-    ]
-  }
-
-  schema_json = JSON.generate([recipe_schema, breadcrumb_schema])
-  keywords    = "#{name}, #{category} cannabis recipe, how to make #{name.downcase}, cannabis #{name.downcase} recipe"
-
-  video_html = ""
-  if recipe["video"] && !recipe["video"].empty?
-    video_html = <<~HTML
-      <div class="video-container mt-4 mb-2">
-        <iframe width="100%" height="300px" src="#{recipe["video"]}" frameborder="0" allowfullscreen></iframe>
-      </div>
-    HTML
-  end
-
-  desc_html = description.empty? ? "" : "<p class=\"recipe-page-description\">#{CGI.escapeHTML(description)}</p>"
-
-  ingredients_label = t(lang, "recipe_page", "ingredients") || "Ingredients"
-  directions_label = t(lang, "recipe_page", "directions") || "Directions"
-  calc_label = t(lang, "calculator", "calculate_your_dose") || "Calculate Your Dose"
-  check_label = t(lang, "calculator", "check_your_dose") || "Check Your Dose"
-
-  recipe_col = <<~HTML
-    #{html_leaderboard_ad}
-
-    <div class="recipe-hero-img-wrap">
-      <img src="#{img_src}" alt="#{CGI.escapeHTML(name)}" class="recipe-hero-img" />
-    </div>
-
-    <div class="recipe-header">
-      <span class="recipe-category-badge">#{CGI.escapeHTML(category)}</span>
-      <h1 class="recipe-page-title">#{CGI.escapeHTML(name)}</h1>
-      #{desc_html}
-    </div>
-
-    <div class="recipe-section-card mb-4">
-      <div class="recipe-section-header">
-        <i class="fa fa-utensils" aria-hidden="true"></i>
-        <span>#{ingredients_label}</span>
-      </div>
-      <div class="recipe-section-body">
-        #{ingredients_html}
-      </div>
-    </div>
-
-    <div class="recipe-section-card mb-4">
-      <div class="recipe-section-header">
-        <i class="fa fa-list-ol" aria-hidden="true"></i>
-        <span>#{directions_label}</span>
-      </div>
-      <div class="recipe-section-body recipe-steps">
-        #{instructions_html}
-      </div>
-    </div>
-
-    #{video_html}
-  HTML
-
-  calculator_col = <<~HTML
-    <div class="calculator-panel mb-3">
-      <div class="calculator-panel-header">
-        <i class="fa fa-calculator" aria-hidden="true"></i>
-        <span>#{calc_label}</span>
-      </div>
-      <div class="calculator-panel-body">
-        #{html_calculator_widget(lang, quantity: quantity, portion: portion, potency: potency)}
-      </div>
-    </div>
-
-    <div class="dosage-panel">
-      <div class="dosage-panel-header">
-        <i class="fa fa-flask" aria-hidden="true"></i>
-        <span>#{check_label}</span>
-      </div>
-      <div class="dosage-panel-body">
-        #{html_dosage_widget_content(lang)}
-      </div>
-    </div>
-  HTML
-
-  body = <<~HTML
-    <div class="row">
-      <div class="col-md-7 order-1 order-md-1 recipe-left-col">
-        #{recipe_col}
-      </div>
-      <div class="col-md-5 order-2 order-md-2 recipe-right-col">
-        #{calculator_col}
-      </div>
-    </div>
-  HTML
-
-  default_desc = (t(lang, "recipe_page", "default_description_template") || "Learn how to make cannabis %{name} with our step-by-step recipe and built-in THC dosage calculator.").gsub("%{name}", name)
-
-  recipe_defaults_script = <<~JS
-    #{i18n_script(lang)}
-    <script>
-      window.RECIPE_DEFAULTS = { quantity: #{quantity}, portion: #{portion}, potency: #{potency} };
-    </script>
-    <script src="/js/calculator.js"></script>
-  JS
-
-  head = html_head(
-    lang:        lang,
-    title:       title,
-    description: description.empty? ? default_desc : description,
-    canonical:   canonical,
-    page_path:   page_path,
-    og_image:    og_image,
-    og_type:     "article",
-    schema_json: schema_json,
-    keywords:    keywords
-  )
-
-  page = wrap_page(
-    lang:          lang,
-    page_path:     page_path,
-    head_content:  head,
-    body_content:  body,
-    extra_scripts: recipe_defaults_script
-  )
-
-  write_file(output_path(lang, "recipes", slug, "index.html"), page)
-end
+# ─────────────────────────────────────────────
+# Calculator page
+# ─────────────────────────────────────────────
 
 def build_calculator_page(lang)
   prefix = lang_prefix(lang)
-  title       = t(lang, "calculator", "page_title") || "Edible Dosage Calculator — Calculate THC mg Per Serving | HowToEdibles"
-  description = t(lang, "calculator", "page_description") || "Free cannabis edible dosage calculator. Enter your weed amount, potency %, and number of servings to instantly find mg of THC per portion. Start low, go slow."
-  page_path   = "/calculator.html"
-  canonical   = "#{SITE_URL}#{prefix}#{page_path}"
+  title = t(lang, "calculator", "page_title")
+  description = t(lang, "calculator", "page_description")
+  canonical = "https://www.howtoedibles.com#{prefix}/calculator.html"
 
-  calc_label = t(lang, "calculator", "calculate_your_dose") || "Calculate Your Dose"
-  check_label = t(lang, "calculator", "check_your_dose") || "Check Your Dose"
+  calc_title_label = t(lang, "calculator", "calculate_your_dose")
+  calc_page_title = t(lang, "calculator", "calc_page_title")
+  calc_page_intro = t(lang, "calculator", "calc_page_intro")
+  dosage_guide = t(lang, "calculator", "dosage_guide_title")
+  dosage_guide_sub = t(lang, "calculator", "dosage_guide_sub")
+  how_to_use = t(lang, "calculator", "how_to_use_title")
+  try_recipe = t(lang, "calculator", "try_recipe_title")
+  try_recipe_sub = t(lang, "calculator", "try_recipe_sub")
+  all_recipes_label = t(lang, "calculator", "all_recipes")
+  faq_title = t(lang, "calculator", "faq_title")
+  safety = t(lang, "calculator", "safety_note")
+  how_math = t(lang, "calculator", "how_math_works")
 
-  # ── FAQ data ────────────────
-  faqs = (1..6).map do |i|
-    { q: t(lang, "faq", "q#{i}") || "", a: t(lang, "faq", "a#{i}") || "" }
-  end.reject { |f| f[:q].empty? }
-
-  # ── Schemas ─────────────────
-  webapp_schema = {
-    "@context"            => "https://schema.org",
-    "@type"               => "WebApplication",
-    "name"                => t(lang, "calculator", "calc_page_title") || "Cannabis Edible Dosage Calculator",
-    "url"                 => canonical,
-    "description"         => description,
-    "applicationCategory" => "HealthApplication",
-    "operatingSystem"     => "Any",
-    "browserRequirements" => "Requires JavaScript",
-    "inLanguage"          => (lang == "pt" ? "pt-BR" : lang),
-    "offers"              => { "@type" => "Offer", "price" => "0", "priceCurrency" => "USD" },
-    "creator"             => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE_URL }
-  }
-
-  faq_schema = {
-    "@context"   => "https://schema.org",
-    "@type"      => "FAQPage",
-    "mainEntity" => faqs.map do |f|
-      {
-        "@type"          => "Question",
-        "name"           => f[:q],
-        "acceptedAnswer" => { "@type" => "Answer", "text" => f[:a] }
-      }
-    end
-  }
-
-  schema_json = JSON.generate([webapp_schema, faq_schema])
-
-  # ── Popular recipes ──────────
-  featured_slugs = %w[cannabutter pot-brownies pot-cookies gummy-bears infused-coconut-oil infused-lemonade]
-  featured = RECIPES.select { |r| featured_slugs.include?(r["slug"]) }
-  recipe_links = featured.map do |r|
-    r_name = recipe_t(lang, r["slug"], "name") || r["name"]
-    "<a href=\"#{prefix}/recipes/#{r["slug"]}/\" class=\"calc-recipe-chip\">#{CGI.escapeHTML(r_name)}</a>"
-  end.join("\n")
-
-  # ── Dosage guide rows ───────
-  dosage_rows = [
-    [t(lang, "calculator", "dosage_microdose") || "Microdose",    "1–2.5 mg",   t(lang, "calculator", "dosage_microdose_desc") || "No or barely noticeable effect. Good for first-timers.", "table-success"],
-    [t(lang, "calculator", "dosage_beginner") || "Beginner",     "2.5–5 mg",   t(lang, "calculator", "dosage_beginner_desc") || "Mild relaxation, light euphoria. Ideal starting dose.", "table-success"],
-    [t(lang, "calculator", "dosage_casual") || "Casual",       "5–15 mg",    t(lang, "calculator", "dosage_casual_desc") || "Clear euphoria, altered perception. Common recreational dose.", ""],
-    [t(lang, "calculator", "dosage_experienced") || "Experienced",  "15–30 mg",   t(lang, "calculator", "dosage_experienced_desc") || "Strong effects, may cause anxiety in low-tolerance users.", "table-warning"],
-    [t(lang, "calculator", "dosage_high") || "High dose",    "30–50 mg",   t(lang, "calculator", "dosage_high_desc") || "Very intense. Recommended only for high-tolerance users.", "table-warning"],
-    [t(lang, "calculator", "dosage_extreme") || "Extreme",      "50+ mg",     t(lang, "calculator", "dosage_extreme_desc") || "Overwhelming for most people. Medical patients only.", "table-danger"],
+  # Dosage table
+  levels = [
+    ["table-success", t(lang, "calculator", "dosage_microdose"), "1&ndash;2.5 mg", t(lang, "calculator", "dosage_microdose_desc")],
+    ["table-success", t(lang, "calculator", "dosage_beginner"), "2.5&ndash;5 mg", t(lang, "calculator", "dosage_beginner_desc")],
+    ["", t(lang, "calculator", "dosage_casual"), "5&ndash;15 mg", t(lang, "calculator", "dosage_casual_desc")],
+    ["table-warning", t(lang, "calculator", "dosage_experienced"), "15&ndash;30 mg", t(lang, "calculator", "dosage_experienced_desc")],
+    ["table-warning", t(lang, "calculator", "dosage_high"), "30&ndash;50 mg", t(lang, "calculator", "dosage_high_desc")],
+    ["table-danger", t(lang, "calculator", "dosage_extreme"), "50+ mg", t(lang, "calculator", "dosage_extreme_desc")],
   ]
 
-  dosage_table_rows = dosage_rows.map do |level, dose, effect, cls|
-    "<tr class=\"#{cls}\"><td><strong>#{level}</strong></td><td>#{dose}</td><td>#{effect}</td></tr>"
+  table_rows = levels.map do |cls, name, range, desc|
+    %(<tr class="#{cls}"><td><strong>#{h(name)}</strong></td><td>#{range}</td><td>#{h(desc)}</td></tr>)
   end.join("\n")
 
-  # ── FAQ HTML ────────────────
-  faq_items = faqs.map.with_index do |f, i|
-    <<~HTML
+  # How to use steps
+  steps = (1..4).map { |i| "<li>#{t(lang, "calculator", "how_to_step_#{i}")}</li>" }.join("\n    ")
+
+  # Recipe chips
+  chip_recipes = %w[cannabutter infused-coconut-oil infused-lemonade gummy-bears pot-cookies pot-brownies]
+  chips = chip_recipes.map do |slug|
+    r = RECIPES.find { |rx| rx["slug"] == slug }
+    next unless r
+    name = recipe_t(lang, slug, "name") || r["name"]
+    %(<a href="#{prefix}/recipes/#{slug}/" class="calc-recipe-chip">#{h(name)}</a>)
+  end.compact.join("\n")
+
+  # FAQ
+  faq_items = (1..6).map do |i|
+    q = t(lang, "faq", "q#{i}")
+    a = t(lang, "faq", "a#{i}")
+    <<~FAQ
       <div class="calc-faq-item">
-        <button class="calc-faq-question" data-target="faq-#{i}" aria-expanded="false">
-          #{CGI.escapeHTML(f[:q])}
+        <button class="calc-faq-question" data-target="faq-#{i - 1}" aria-expanded="false">
+          #{h(q)}
           <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
         </button>
-        <div class="calc-faq-answer" id="faq-#{i}">
-          <p>#{CGI.escapeHTML(f[:a])}</p>
+        <div class="calc-faq-answer" id="faq-#{i - 1}">
+          <p>#{h(a)}</p>
         </div>
       </div>
-    HTML
-  end.join("\n")
+    FAQ
+  end.join("")
 
-  faq_toggle_script = <<~JS
+  # Structured data (FAQ + WebApp)
+  faq_sd = (1..6).map do |i|
+    { "@type" => "Question", "name" => t(lang, "faq", "q#{i}"), "acceptedAnswer" => { "@type" => "Answer", "text" => t(lang, "faq", "a#{i}") } }
+  end
+
+  structured = JSON.generate([
+    { "@context" => "https://schema.org", "@type" => "WebApplication", "name" => calc_page_title, "url" => canonical, "description" => description, "applicationCategory" => "HealthApplication", "operatingSystem" => "Any" },
+    { "@context" => "https://schema.org", "@type" => "FAQPage", "mainEntity" => faq_sd }
+  ])
+
+  i18n_script = build_i18n_script(lang)
+
+  page = build_head(lang, title: title, description: description, canonical: canonical, structured_data: structured)
+  page << build_navbar(lang)
+  page << <<~HTML
+        <div class="container page-content">
+    #{LEADERBOARD_AD}
+
+    <div class="row mt-3">
+      <div class="col-md-5">
+        <div class="calculator-panel mb-3">
+          <div class="calculator-panel-header">
+            <i class="fa fa-calculator" aria-hidden="true"></i>
+            <span>#{h(calc_title_label)}</span>
+          </div>
+          <div class="calculator-panel-body">
+    #{build_calculator_widget(lang)}
+          </div>
+        </div>
+    #{MOBILE_AD}
+    #{build_dosage_panel(lang, style: :calculator)}
+      </div>
+      <div class="col-md-7 recipe-left-col">
+        <article class="calc-info-col">
+      <h1 class="calc-page-title">#{h(calc_page_title)}</h1>
+      <p class="calc-page-meta"><time datetime="2026-03-04">Updated March 2026</time></p>
+      <p class="calc-page-intro">#{calc_page_intro}</p>
+
+      <h2 class="calc-section-title mt-4">#{h(dosage_guide)}</h2>
+      <p class="calc-section-sub">#{h(dosage_guide_sub)}</p>
+      <div class="table-responsive mb-4">
+        <table class="table table-sm calc-dosage-table">
+          <thead>
+            <tr><th>#{t(lang, "calculator", "dosage_level")}</th><th>#{t(lang, "calculator", "dosage_per_serving")}</th><th>#{t(lang, "calculator", "dosage_effects")}</th></tr>
+          </thead>
+          <tbody>
+    #{table_rows}
+          </tbody>
+        </table>
+      </div>
+
+      <h2 class="calc-section-title">#{h(how_to_use)}</h2>
+      <ol class="calc-steps-list">
+        #{steps}
+      </ol>
+      <p class="mt-2"><a href="/how-a-cannabis-calculator-works.html">#{how_math}</a></p>
+
+      <h2 class="calc-section-title mt-4">#{h(try_recipe)}</h2>
+      <p class="calc-section-sub">#{h(try_recipe_sub)}</p>
+      <div class="calc-recipe-chips mb-4">
+    #{chips}
+        <a href="#{prefix}/" class="calc-recipe-chip calc-recipe-chip--more">#{all_recipes_label}</a>
+      </div>
+
+      <h2 class="calc-section-title mt-4">#{h(faq_title)}</h2>
+      <div class="calc-faq">
+    #{faq_items}
+      </div>
+
+      <p class="sidenote mt-4">
+        <i class="fa fa-shield-alt orange mr-1"></i>
+        #{h(safety)}
+      </p>
+    </article>
+      </div>
+    </div>
+
+        </div>
+  HTML
+  page << build_footer(lang)
+
+  extra = <<~JS
+    #{i18n_script}<script>
+      window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 50, potency: 14 };
+    </script>
+    <script src="/js/calculator.js"></script>
     <script>
       document.querySelectorAll('.calc-faq-question').forEach(function(btn) {
         btn.addEventListener('click', function() {
@@ -894,150 +904,168 @@ def build_calculator_page(lang)
     </script>
   JS
 
-  # ── Right column content ────
-  content_col = <<~HTML
-    <article class="calc-info-col">
-      <h1 class="calc-page-title">#{t(lang, "calculator", "calc_page_title") || "Cannabis Edible Dosage Calculator"}</h1>
-      <p class="calc-page-intro">
-        #{t(lang, "calculator", "calc_page_intro") || 'Use this free calculator to find out exactly how many <strong>milligrams of THC</strong> are in each portion of your cannabis edibles — before you cook. Enter your cannabis amount, strength, and number of servings. Instant, accurate results.'}
-      </p>
-
-      <h2 class="calc-section-title mt-4">#{t(lang, "calculator", "dosage_guide_title") || "THC Dosage Guide"}</h2>
-      <p class="calc-section-sub">#{t(lang, "calculator", "dosage_guide_sub") || "How many mg is the right dose for you?"}</p>
-      <div class="table-responsive mb-4">
-        <table class="table table-sm calc-dosage-table">
-          <thead>
-            <tr><th>#{t(lang, "calculator", "dosage_level") || "Level"}</th><th>#{t(lang, "calculator", "dosage_per_serving") || "THC per serving"}</th><th>#{t(lang, "calculator", "dosage_effects") || "Expected effects"}</th></tr>
-          </thead>
-          <tbody>
-            #{dosage_table_rows}
-          </tbody>
-        </table>
-      </div>
-
-      <h2 class="calc-section-title">#{t(lang, "calculator", "how_to_use_title") || "How to Use the Calculator"}</h2>
-      <ol class="calc-steps-list">
-        <li>#{t(lang, "calculator", "how_to_step_1") || 'Enter the <strong>grams of cannabis</strong> you plan to use.'}</li>
-        <li>#{t(lang, "calculator", "how_to_step_2") || 'Set the <strong>THC percentage</strong> (check your dispensary label, or use the "Not sure?" guide).'}</li>
-        <li>#{t(lang, "calculator", "how_to_step_3") || 'Enter the <strong>number of servings</strong> your recipe makes.'}</li>
-        <li>#{t(lang, "calculator", "how_to_step_4") || 'The calculator instantly shows <strong>mg THC per serving</strong> and total potency.'}</li>
-      </ol>
-      <p class="mt-2"><a href="#{prefix}/how-a-cannabis-calculator-works.html">#{t(lang, "calculator", "how_math_works") || "How does the math work? →"}</a></p>
-
-      <h2 class="calc-section-title mt-4">#{t(lang, "calculator", "try_recipe_title") || "Try It With a Recipe"}</h2>
-      <p class="calc-section-sub">#{t(lang, "calculator", "try_recipe_sub") || "Open any recipe to pre-fill the calculator with suggested amounts:"}</p>
-      <div class="calc-recipe-chips mb-4">
-        #{recipe_links}
-        <a href="#{prefix}/" class="calc-recipe-chip calc-recipe-chip--more">#{t(lang, "calculator", "all_recipes") || "All recipes →"}</a>
-      </div>
-
-      <h2 class="calc-section-title mt-4">#{t(lang, "calculator", "faq_title") || "Frequently Asked Questions"}</h2>
-      <div class="calc-faq">
-        #{faq_items}
-      </div>
-
-      <p class="sidenote mt-4">
-        <i class="fa fa-shield-alt orange mr-1"></i>
-        #{t(lang, "calculator", "safety_note") || "Always start low and go slow. Wait at least 2 hours before taking more. This calculator is for educational purposes only."}
-      </p>
-    </article>
-  HTML
-
-  body = <<~HTML
-    #{html_leaderboard_ad}
-    <div class="row mt-3">
-      <div class="col-md-5">
-        <div class="calculator-panel mb-3">
-          <div class="calculator-panel-header">
-            <i class="fa fa-calculator" aria-hidden="true"></i>
-            <span>#{calc_label}</span>
-          </div>
-          <div class="calculator-panel-body">
-            #{html_calculator_widget(lang, quantity: 3.5, portion: 50, potency: 14)}
-          </div>
-        </div>
-        <div class="dosage-panel">
-          <div class="dosage-panel-header">
-            <i class="fa fa-flask" aria-hidden="true"></i>
-            <span>#{check_label}</span>
-          </div>
-          <div class="dosage-panel-body">
-            #{html_dosage_widget_content(lang)}
-          </div>
-        </div>
-      </div>
-      <div class="col-md-7 recipe-left-col">
-        #{content_col}
-      </div>
-    </div>
-  HTML
-
-  recipe_defaults_script = <<~JS
-    #{i18n_script(lang)}
-    <script>
-      window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 50, potency: 14 };
-    </script>
-    <script src="/js/calculator.js"></script>
-    #{faq_toggle_script}
-  JS
-
-  head = html_head(
-    lang:        lang,
-    title:       title,
-    description: description,
-    canonical:   canonical,
-    page_path:   page_path,
-    keywords:    "edible dosage calculator, THC mg calculator, cannabis edible potency, how to dose edibles, weed edible calculator, marijuana edibles calculator",
-    schema_json: schema_json
-  )
-
-  page = wrap_page(
-    lang:          lang,
-    page_path:     page_path,
-    head_content:  head,
-    body_content:  body,
-    extra_scripts: recipe_defaults_script
-  )
-
+  page << build_scripts(lang, extra_scripts: extra)
   write_file(output_path(lang, "calculator.html"), page)
 end
 
-def build_404_page(lang)
+# ─────────────────────────────────────────────
+# Recipe pages
+# ─────────────────────────────────────────────
+
+def build_recipe_page(recipe, lang)
   prefix = lang_prefix(lang)
-  page_path = "/404.html"
-  head = html_head(
-    lang:        lang,
-    title:       t(lang, "page_404", "title") || "Page Not Found | HowToEdibles",
-    description: t(lang, "page_404", "description") || "Sorry, that page could not be found.",
-    canonical:   "#{SITE_URL}#{prefix}#{page_path}",
-    page_path:   page_path
-  )
+  slug = recipe["slug"]
+  name = recipe_t(lang, slug, "name") || recipe["name"]
+  desc = recipe_t(lang, slug, "description") || recipe["description"]
+  cat = recipe_t(lang, slug, "category_name") || recipe["category_name"]
 
-  body = <<~HTML
-    <div class="text-center mt-5 mb-5">
-      <h1>#{t(lang, "page_404", "heading") || "404"}</h1>
-      <p class="spaced-subtitle">#{t(lang, "page_404", "message") || "Sorry, that page could not be found."}</p>
-      <a href="#{prefix}/" class="btn btn-success">#{t(lang, "page_404", "go_home") || "Go to Home"}</a>
+  title_suffix = t(lang, "recipe_page", "title_suffix")
+  title = "#{name} #{title_suffix}"
+  canonical = "https://www.howtoedibles.com#{prefix}/recipes/#{slug}/"
+  ingredients_label = t(lang, "recipe_page", "ingredients")
+  directions_label = t(lang, "recipe_page", "directions")
+
+  # Recipe defaults
+  qty = recipe["quantity"] || 3.5
+  por = recipe["portion"] || 12
+  pot = recipe["potency"] || 14
+
+  # Ingredients & Directions are pre-rendered HTML strings from recipes.json
+  ingredients_html = recipe["ingredients"] || ""
+  steps_html = recipe["instructions"] || ""
+
+  # Structured data
+  structured = JSON.generate([
+    {
+      "@context" => "https://schema.org", "@type" => "Recipe",
+      "name" => name, "description" => desc,
+      "image" => "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg",
+      "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
+      "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
+      "datePublished" => "2024-01-01", "dateModified" => "2026-03-04",
+      "recipeCategory" => cat,
+      "recipeYield" => "#{por} servings",
+      "recipeIngredient" => extract_list_items(recipe["ingredients"]),
+      "recipeInstructions" => extract_list_items(recipe["instructions"]).each_with_index.map { |s, i| { "@type" => "HowToStep", "position" => i + 1, "text" => s } },
+      "url" => canonical
+    },
+    {
+      "@context" => "https://schema.org", "@type" => "BreadcrumbList",
+      "itemListElement" => [
+        { "@type" => "ListItem", "position" => 1, "name" => "Home", "item" => "https://www.howtoedibles.com#{prefix}/" },
+        { "@type" => "ListItem", "position" => 2, "name" => cat, "item" => "https://www.howtoedibles.com#{prefix}/" },
+        { "@type" => "ListItem", "position" => 3, "name" => name }
+      ]
+    }
+  ])
+
+  og_image = "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg"
+
+  i18n_script = build_i18n_script(lang)
+
+  page = build_head(lang, title: title, description: desc, canonical: canonical,
+                    keywords: "#{name}, #{cat} cannabis recipe, how to make #{name.downcase}, cannabis #{name.downcase} recipe",
+                    structured_data: structured,
+                    extra_head: "")
+  # Override OG image for recipe
+  page.gsub!(%r{<meta property="og:image" content="[^"]*" />}, %(<meta property="og:image" content="#{og_image}" />))
+  page.gsub!(%r{<meta name="twitter:image" content="[^"]*" />}, %(<meta name="twitter:image" content="#{og_image}" />))
+  page.gsub!(%r{<meta property="og:type" content="website" />}, %(<meta property="og:type" content="article" />))
+
+  page << build_navbar(lang)
+  page << <<~HTML
+        <div class="container page-content">
+          <div class="row">
+      <div class="col-md-7 order-1 order-md-1 recipe-left-col">
+    #{LEADERBOARD_AD}
+
+    <div class="recipe-hero-img-wrap">
+      <img src="#{IMAGE_BASE}/#{slug}.jpg" alt="#{h(name)}" class="recipe-hero-img" />
     </div>
-  HTML
 
-  page = wrap_page(lang: lang, page_path: page_path, head_content: head, body_content: body)
-  write_file(output_path(lang, "404.html"), page)
+    <div class="recipe-header">
+      <span class="recipe-category-badge">#{h(cat)}</span>
+      <h1 class="recipe-page-title">#{h(name)}</h1>
+      <p class="recipe-page-description">#{h(desc)}</p>
+    </div>
+
+    <div class="recipe-section-card mb-4">
+      <div class="recipe-section-header">
+        <i class="fa fa-utensils" aria-hidden="true"></i>
+        <span>#{h(ingredients_label)}</span>
+      </div>
+      <div class="recipe-section-body">
+        #{ingredients_html}
+      </div>
+    </div>
+
+    <div class="recipe-section-card mb-4">
+      <div class="recipe-section-header">
+        <i class="fa fa-list-ol" aria-hidden="true"></i>
+        <span>#{h(directions_label)}</span>
+      </div>
+      <div class="recipe-section-body recipe-steps">
+        #{steps_html}
+      </div>
+    </div>
+
+      </div>
+      <div class="col-md-5 order-2 order-md-2 recipe-right-col">
+        <div class="calculator-panel mb-3">
+      <div class="calculator-panel-header">
+        <i class="fa fa-calculator" aria-hidden="true"></i>
+        <span>#{h(t(lang, "calculator", "calculate_your_dose"))}</span>
+      </div>
+      <div class="calculator-panel-body">
+    #{build_calculator_widget(lang, defaults: { quantity: qty, potency: pot, portion: por })}
+      </div>
+    </div>
+
+    #{build_dosage_panel(lang, style: :recipe)}
+
+      </div>
+    </div>
+
+        </div>
+  HTML
+  page << build_footer(lang)
+
+  extra = <<~JS
+    #{i18n_script}<script>
+      window.RECIPE_DEFAULTS = { quantity: #{qty}, portion: #{por.is_a?(Float) ? por : "#{por}.0"}, potency: #{pot} };
+    </script>
+    <script src="/js/calculator.js"></script>
+  JS
+
+  page << build_scripts(lang, extra_scripts: extra)
+  write_file(output_path(lang, "recipes", slug, "index.html"), page)
 end
+
+# ─────────────────────────────────────────────
+# Donate page
+# ─────────────────────────────────────────────
 
 def build_donate_page(lang)
   prefix = lang_prefix(lang)
-  page_path = "/donate.html"
-  head = html_head(
-    lang:        lang,
-    title:       t(lang, "donate", "title") || "Support HowToEdibles | Donate",
-    description: t(lang, "donate", "description") || "Help us keep HowToEdibles free. If this site has been useful, consider making a small donation.",
-    canonical:   "#{SITE_URL}#{prefix}#{page_path}",
-    page_path:   page_path
-  )
+  title = t(lang, "donate", "title")
+  description = t(lang, "donate", "description")
+  canonical = "https://www.howtoedibles.com#{prefix}/donate.html"
 
-  body = <<~HTML
-    <div class="donate-page">
+  heading = t(lang, "donate", "heading")
+  subtitle = t(lang, "donate", "subtitle")
+  p1 = t(lang, "donate", "paragraph_1")
+  p2 = t(lang, "donate", "paragraph_2")
+  btn = t(lang, "donate", "donate_btn")
+  thanks = t(lang, "donate", "thank_you")
+  f_calc = t(lang, "donate", "feature_calculator")
+  f_recipes = t(lang, "donate", "feature_recipes")
+  f_safety = t(lang, "donate", "feature_safety")
+
+  page = build_head(lang, title: title, description: description, canonical: canonical)
+  page << build_navbar(lang)
+  page << <<~HTML
+        <div class="container page-content">
+          <div class="donate-page">
       <div class="row justify-content-center">
         <div class="col-md-7 col-lg-6">
 
@@ -1045,132 +1073,216 @@ def build_donate_page(lang)
             <div class="donate-icon">
               <i class="fas fa-heart"></i>
             </div>
-            <h1 class="donate-title">#{t(lang, "donate", "heading") || "Support HowToEdibles"}</h1>
-            <p class="donate-subtitle">#{t(lang, "donate", "subtitle") || "This website is free and always will be. If it has helped you, consider buying us a coffee."}</p>
+            <h1 class="donate-title">#{h(heading)}</h1>
+            <p class="donate-subtitle">#{h(subtitle)}</p>
           </div>
 
           <div class="donate-card">
-            <p>#{t(lang, "donate", "paragraph_1") || "We put a lot of work into making cannabis edibles safe, fun and accessible. The dosage calculator, the recipes, the harm reduction guides — everything is free and ad-light."}</p>
-            <p>#{t(lang, "donate", "paragraph_2") || "Running a website has costs. If you've found value here, even a small contribution helps us keep the lights on and add new content."}</p>
+            <p>#{h(p1)}</p>
+            <p>#{h(p2)}</p>
 
             <div class="text-center mt-4 mb-3">
               <a href="https://bit.ly/donateht" target="_blank" rel="noopener noreferrer" class="btn-donate">
-                <i class="fas fa-heart mr-2"></i> #{t(lang, "donate", "donate_btn") || "Donate via PayPal"}
+                <i class="fas fa-heart mr-2"></i> #{h(btn)}
               </a>
             </div>
 
-            <p class="donate-note">#{t(lang, "donate", "thank_you") || "Every contribution, big or small, is genuinely appreciated. Thank you for being part of this community."}</p>
+            <p class="donate-note">#{h(thanks)}</p>
           </div>
 
           <div class="donate-features">
             <div class="donate-feature">
               <i class="fas fa-calculator orange"></i>
-              <span>#{t(lang, "donate", "feature_calculator") || "Free dosage calculator for everyone"}</span>
+              <span>#{h(f_calc)}</span>
             </div>
             <div class="donate-feature">
               <i class="fas fa-book-open orange"></i>
-              <span>#{t(lang, "donate", "feature_recipes") || "41+ tested cannabis recipes"}</span>
+              <span>#{h(f_recipes)}</span>
             </div>
             <div class="donate-feature">
               <i class="fas fa-shield-alt orange"></i>
-              <span>#{t(lang, "donate", "feature_safety") || "Harm reduction guides & safety tips"}</span>
+              <span>#{h(f_safety)}</span>
             </div>
           </div>
 
         </div>
       </div>
     </div>
-  HTML
 
-  page = wrap_page(lang: lang, page_path: page_path, head_content: head, body_content: body)
+        </div>
+  HTML
+  page << build_footer(lang)
+  page << build_scripts(lang)
   write_file(output_path(lang, "donate.html"), page)
 end
 
 # ─────────────────────────────────────────────
-# Sitemap Generator
+# 404 page
+# ─────────────────────────────────────────────
+
+def build_404_page(lang)
+  prefix = lang_prefix(lang)
+  title = t(lang, "page_404", "title")
+  description = t(lang, "page_404", "description")
+  canonical = "https://www.howtoedibles.com#{prefix}/404.html"
+  go_home = t(lang, "page_404", "go_home")
+  calculator_label = t(lang, "navbar", "calculator")
+
+  page = build_head(lang, title: title, description: description, canonical: canonical)
+  page << build_navbar(lang)
+  page << <<~HTML
+        <div class="container page-content">
+          <div class="error-page text-center">
+
+      <div class="error-illustration">
+        <img src="/images/404.png" alt="404" class="error-img" />
+      </div>
+
+      <div class="error-actions mt-4">
+        <a href="#{prefix}/" class="btn error-btn-primary">#{h(go_home)}</a>
+        <a href="#{prefix}/calculator.html" class="btn error-btn-secondary">#{h(calculator_label)}</a>
+      </div>
+
+    </div>
+
+        </div>
+  HTML
+  page << build_footer(lang)
+  page << build_scripts(lang)
+  write_file(output_path(lang, "404.html"), page)
+end
+
+# ─────────────────────────────────────────────
+# Sitemap (with hreflang)
 # ─────────────────────────────────────────────
 
 def build_sitemap
-  today = Time.now.strftime("%Y-%m-%d")
+  urls = []
 
-  # Collect all page paths with their priorities
-  pages = []
-  pages << { path: "/", priority: "1.0", changefreq: "weekly" }
-  pages << { path: "/calculator.html", priority: "0.9", changefreq: "monthly" }
-  pages << { path: "/donate.html", priority: "0.3", changefreq: "yearly" }
+  # Static pages
+  static_pages = ["", "calculator.html", "donate.html", "articles.html"]
 
-  RECIPES.each do |r|
-    priority = %w[cannabutter infused-coconut-oil infused-olive-oil pot-brownies pot-cookies].include?(r["slug"]) ? "0.9" : "0.8"
-    pages << { path: "/recipes/#{r["slug"]}/", priority: priority, changefreq: "monthly" }
-  end
+  static_pages.each do |page|
+    # All language versions
+    xhtml_links = ALL_LANGS.map do |l|
+      prefix = lang_prefix(l)
+      href = "https://www.howtoedibles.com#{prefix}/#{page}".gsub("//", "/").sub(/\/$/, "/").sub("com//", "com/")
+      html_lang = lang_html(l)
+      %(    <xhtml:link rel="alternate" hreflang="#{html_lang}" href="#{href}" />)
+    end
+    xhtml_links << %(    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/#{page}" />)
 
-  # Check for article HTML files in root
-  Dir.glob(File.join(ROOT_DIR, "*.html")).each do |f|
-    basename = File.basename(f)
-    next if %w[index.html calculator.html donate.html 404.html articles.html].include?(basename)
-    pages << { path: "/#{basename}", priority: "0.7", changefreq: "monthly" }
-  end
-
-  # articles.html
-  if File.exist?(File.join(ROOT_DIR, "articles.html"))
-    pages << { path: "/articles.html", priority: "0.8", changefreq: "weekly" }
-  end
-
-  xml = '<?xml version="1.0" encoding="UTF-8"?>' + "\n"
-  xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">' + "\n"
-
-  pages.each do |pg|
-    LANGS.each do |lang|
-      prefix = lang_prefix(lang)
-      loc = "#{SITE_URL}#{prefix}#{pg[:path]}"
-
-      xml += "  <url>\n"
-      xml += "    <loc>#{loc}</loc>\n"
-      xml += "    <lastmod>#{today}</lastmod>\n"
-      xml += "    <changefreq>#{pg[:changefreq]}</changefreq>\n"
-      xml += "    <priority>#{pg[:priority]}</priority>\n"
-
-      # Add hreflang xhtml:link for all language versions
-      LANGS.each do |l|
-        l_prefix = lang_prefix(l)
-        hreflang = l == "en" ? "en" : (l == "pt" ? "pt-BR" : l)
-        xml += "    <xhtml:link rel=\"alternate\" hreflang=\"#{hreflang}\" href=\"#{SITE_URL}#{l_prefix}#{pg[:path]}\" />\n"
-      end
-      xml += "    <xhtml:link rel=\"alternate\" hreflang=\"x-default\" href=\"#{SITE_URL}#{pg[:path]}\" />\n"
-
-      xml += "  </url>\n"
+    ALL_LANGS.each do |l|
+      prefix = lang_prefix(l)
+      loc = "https://www.howtoedibles.com#{prefix}/#{page}".gsub("//", "/").sub(/\/$/, "/").sub("com//", "com/")
+      urls << "  <url>\n    <loc>#{loc}</loc>\n#{xhtml_links.join("\n")}\n  </url>"
     end
   end
 
-  xml += "</urlset>\n"
+  # Article pages (English only)
+  article_files = Dir.glob(File.join(ROOT_DIR, "*.html")).map { |f| File.basename(f) }
+  article_files -= %w[index.html calculator.html donate.html 404.html articles.html]
+  article_files.sort.each do |f|
+    urls << "  <url>\n    <loc>https://www.howtoedibles.com/#{f}</loc>\n  </url>"
+  end
 
-  write_file(File.join(ROOT_DIR, "sitemap.xml"), xml)
+  # Recipe pages
+  RECIPES.each do |r|
+    xhtml_links = ALL_LANGS.map do |l|
+      prefix = lang_prefix(l)
+      href = "https://www.howtoedibles.com#{prefix}/recipes/#{r["slug"]}/"
+      html_lang = lang_html(l)
+      %(    <xhtml:link rel="alternate" hreflang="#{html_lang}" href="#{href}" />)
+    end
+    xhtml_links << %(    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/recipes/#{r["slug"]}/" />)
+
+    ALL_LANGS.each do |l|
+      prefix = lang_prefix(l)
+      loc = "https://www.howtoedibles.com#{prefix}/recipes/#{r["slug"]}/"
+      urls << "  <url>\n    <loc>#{loc}</loc>\n#{xhtml_links.join("\n")}\n  </url>"
+    end
+  end
+
+  sitemap = <<~XML
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+            xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    #{urls.join("\n")}
+    </urlset>
+  XML
+
+  write_file(File.join(ROOT_DIR, "sitemap.xml"), sitemap)
+  puts "  sitemap.xml (#{urls.count} URLs)"
 end
 
-# ─────────────────────────────────────────────
-# Main Build
-# ─────────────────────────────────────────────
+# ═════════════════════════════════════════════
+# BUILD
+# ═════════════════════════════════════════════
 
 LANGS.each do |lang|
-  puts "\n=== Building #{lang.upcase} ==="
+  puts "\nBuilding #{lang.upcase}..."
 
-  puts "  --- Homepage ---"
   build_homepage(lang)
+  puts "  #{lang}/index.html"
 
-  puts "  --- Recipe pages ---"
-  RECIPES.each { |r| build_recipe_page(r, lang) }
-
-  puts "  --- Calculator page ---"
   build_calculator_page(lang)
+  puts "  #{lang}/calculator.html"
 
-  puts "  --- 404 page ---"
-  build_404_page(lang)
-
-  puts "  --- Donation page ---"
   build_donate_page(lang)
+  puts "  #{lang}/donate.html"
+
+  build_404_page(lang)
+  puts "  #{lang}/404.html"
+
+  RECIPES.each do |recipe|
+    build_recipe_page(recipe, lang)
+  end
+  puts "  #{lang}/recipes/ (#{RECIPES.count} pages)"
 end
 
-puts "\n=== Building sitemap ==="
+puts "\nBuilding sitemap..."
 build_sitemap
 
-puts "\nDone! #{RECIPES.count} recipe pages × #{LANGS.count} languages = #{RECIPES.count * LANGS.count} pages generated."
+# Add hreflang tags to English pages (without overwriting content)
+puts "\nAdding hreflang tags to English pages..."
+english_files = {
+  "index.html" => "",
+  "calculator.html" => "calculator.html",
+  "donate.html" => "donate.html",
+  "404.html" => "404.html"
+}
+
+english_files.each do |file, page_path|
+  filepath = File.join(ROOT_DIR, file)
+  next unless File.exist?(filepath)
+  content = File.read(filepath)
+
+  # Skip if already has hreflang
+  next if content.include?("hreflang")
+
+  tags = hreflang_tags(page_path)
+  # Insert after google-site-verification meta tag
+  if content.include?("google-site-verification")
+    content.sub!(/(<meta name="google-site-verification"[^>]*\/>)/, "\\1\n\n  <!-- hreflang -->\n  #{tags}")
+    File.write(filepath, content)
+    puts "  Added hreflang to #{file}"
+  end
+end
+
+# Add hreflang to English recipe pages
+Dir.glob(File.join(ROOT_DIR, "recipes", "*", "index.html")).each do |filepath|
+  content = File.read(filepath)
+  next if content.include?("hreflang")
+
+  slug = File.basename(File.dirname(filepath))
+  page_path = "recipes/#{slug}/"
+  tags = hreflang_tags(page_path)
+
+  if content.include?("google-site-verification")
+    content.sub!(/(<meta name="google-site-verification"[^>]*\/>)/, "\\1\n\n  <!-- hreflang -->\n  #{tags}")
+    File.write(filepath, content)
+  end
+end
+puts "  Added hreflang to #{Dir.glob(File.join(ROOT_DIR, "recipes", "*", "index.html")).count} recipe pages"
+
+puts "\nDone! English files preserved. Only /pt/, /es/, /de/ were generated."
