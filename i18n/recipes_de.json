@@ -2,686 +2,2818 @@
   "cannabutter": {
     "name": "Cannabutter",
     "description": "Heb deine kulinarischen Kreationen mit der Magie von Cannabutter auf ein neues Level. Verleihe deinen Gerichten einen Hauch von Euphorie für ein einzigartiges Esserlebnis.",
-    "category_name": "Grundlagen"
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "1 cup ungesalzene Butter (2 Stangen)",
+      "1/2 cup Wasser (bei Bedarf jederzeit mehr Wasser hinzufügen)",
+      "7 gemahlenes Cannabis"
+    ],
+    "instructions": [
+      "Decarboxyliere dein Cannabis – Hier erfährst du wie",
+      "Gib &frac12; cup Wasser und 2 Stangen (&frac12; lb) Butter in einen Kochtopf und bringe es bei niedriger bis mittlerer Hitze zum Köcheln. Das Wasser hilft, die Temperatur zu regulieren und verhindert, dass die Butter anbrennt. Sobald die Butter zu schmelzen beginnt, gib das gemahlene Cannabis hinzu.",
+      "Halte die Hitze niedrig und lass die Mischung 2–3 Stunden köcheln, dabei gelegentlich umrühren. Achte darauf, dass die Mischung niemals richtig kocht.",
+      "Gieße die heiße Mischung in einen Glasbehälter und verwende ein Käsetuch, um das gesamte gemahlene Cannabis aus der Buttermischung zu filtern. Drücke oder presse das Pflanzenmaterial aus, um so viel Flüssigkeit wie möglich aus dem Cannabis zu gewinnen. Entsorge das übrige Cannabis.",
+      "Decke den Behälter ab und stelle ihn über Nacht in den Kühlschrank oder bis die Butter vollständig ausgehärtet ist. Sobald sie fest ist, trennt sich die Butter vom Wasser, sodass du die Cannabutter aus dem Behälter heben kannst. Entsorge das restliche Wasser nach dem Entnehmen der gehärteten Cannabutter.",
+      "Beachte, dass die Cannabutter im Behälter einen leicht grünen Schimmer vom Cannabis haben sollte. Jetzt bist du bereit, einige mit Cannabis angereicherte Gerichte zuzubereiten!"
+    ]
   },
   "infused-coconut-oil": {
     "name": "Infundiertes Kokosöl",
     "description": "Mit seinem reichhaltigen, tropischen Geschmack und der wunderbaren Cannabis-Infusion bringt dieses vielseitige Öl deine Küche auf ein neues Niveau.",
-    "category_name": "Grundlagen"
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "1/2 cup Kokosöl",
+      "3.5 gemahlenes Cannabis"
+    ],
+    "instructions": [
+      "Decarboxyliere dein Cannabis – Hier erfährst du wie",
+      "Gib das Cannabis zusammen mit &frac12; cup Kokosöl in ein Einmachglas.",
+      "Verschließe das Einmachglas sehr fest.",
+      "Stelle das Einmachglas in kochendes Wasser bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) für über 2 Stunden.",
+      "Gib den gesamten Inhalt des Glases in ein Käsetuch über einem Metallsieb.",
+      "Fasse das Käsetuch zusammen und drücke die gesamte restliche Flüssigkeit aus."
+    ]
   },
   "infused-olive-oil": {
     "name": "Infundiertes Olivenöl",
     "description": "Wahrscheinlich das vielseitigste Medium und ein großartiger Einstieg ins Kochen mit Cannabis.",
-    "category_name": "Grundlagen"
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "300 ml Olivenöl",
+      "8 gemahlenes Cannabis"
+    ],
+    "instructions": [
+      "Decarboxyliere dein Cannabis – Hier erfährst du wie",
+      "Mahle dein Cannabis fein – du möchtest eine gute Oberfläche für die Extraktion schaffen.",
+      "Gib das gemahlene Cannabis zusammen mit 300 ml Olivenöl in ein Einmachglas.",
+      "Verschließe das Einmachglas sehr fest.",
+      "Stelle das Einmachglas in kochendes Wasser bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) für über 2 Stunden.",
+      "Gib den gesamten Inhalt des Glases in ein Käsetuch über einem Metallsieb.",
+      "Fasse das Käsetuch zusammen und drücke die gesamte restliche Flüssigkeit aus."
+    ]
   },
   "infused-bulletproof-coffee": {
     "name": "Infundierter Bulletproof-Kaffee",
     "description": "Weck deine Sinne und starte energiegeladen in den Tag – mit Fokus und Balance in einer einzigen Tasse.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 cup aufgebrühter Kaffee",
+      "1 tablespoon infundiertes Kokosöl",
+      "1 tablespoon ungesalzene Butter",
+      "Süßungsmittel nach Wahl (optional)"
+    ],
+    "instructions": [
+      "Brühe eine Tasse Kaffee mit deiner bevorzugten Methode auf.",
+      "Gib den aufgebrühten Kaffee, die ungesalzene Butter, das Kokosöl und das infundierte Kokosöl in einen Mixer.",
+      "Mixe auf höchster Stufe, bis die Mischung cremig und schaumig ist.",
+      "Probiere und füge bei Bedarf Süßungsmittel hinzu.",
+      "Gieße den ketofreundlichen, mit Cannabis angereicherten Bulletproof-Kaffee in eine Tasse und genieße ihn!"
+    ]
   },
   "infused-keto-peanut-butter-cookies": {
     "name": "Infundierte Keto-Erdnussbutter-Cookies",
     "description": "Bring dein Cookie-Game auf das nächste Level mit unserer Keto-Kreation. Genieße die nussige Perfektion von Erdnussbutter-Cookies – ohne schlechtes Gewissen und perfekt für deinen Low-Carb-Lifestyle.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 cup natürliche Erdnussbutter (zuckerfrei)",
+      "1/2 cup gemahlenes Erythrit oder kohlenhydratarmes Süßungsmittel nach Wahl",
+      "1 großes Ei",
+      "1/2 tsp Vanilleextrakt",
+      "2 tbsp infundiertes Kokosöl, geschmolzen",
+      "1/4 teaspoon Salz"
+    ],
+    "instructions": [
+      "Heize den Ofen auf 350°F (175°C) vor und lege ein Backblech mit Backpapier aus.",
+      "Vermische in einer Rührschüssel die natürliche Erdnussbutter, das gemahlene Erythrit, das Ei, den Vanilleextrakt, das infundierte Kokosöl und das Salz.",
+      "Rühre alles gut durch, bis ein Teig entsteht.",
+      "Nimm jeweils einen Esslöffel Teig und rolle ihn zu Kugeln.",
+      "Lege die Teigkugeln auf das vorbereitete Backblech und drücke sie mit einer Gabel flach, sodass ein Kreuzmuster entsteht.",
+      "Backe im vorgeheizten Ofen 10–12 Minuten oder bis die Kekse am Rand goldbraun sind.",
+      "Nimm sie aus dem Ofen und lass die Kekse einige Minuten auf dem Backblech abkühlen, bevor du sie zum vollständigen Auskühlen auf ein Kuchengitter legst.",
+      "Genieße deine köstlichen, mit Cannabis angereicherten Keto-Erdnussbutter-Kekse!"
+    ]
   },
   "infused-coconut-fat-bombs": {
     "name": "Infundierte Kokos-Fat-Bombs",
     "description": "Heb dein Snack-Erlebnis mit naturinfundierten Kokos-Häppchen auf ein neues Level. Nähre Körper und Geist mit jedem kleinen Bissen – für ausgewogenen Genuss.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1/2 cup Kokosöl, geschmolzen",
+      "1/2 cup Kokosbutter",
+      "2 tbsp infundiertes Kokosöl",
+      "2 tbsp ungesüßtes Kakaopulver",
+      "1/4 cup gemahlenes Erythrit oder Süßungsmittel nach Wahl",
+      "1/2 tsp Vanilleextrakt",
+      "1/2 tsp Salz"
+    ],
+    "instructions": [
+      "Vermische in einer Rührschüssel das geschmolzene Kokosöl, die Kokosbutter, das infundierte Kokosöl, das ungesüßte Kakaopulver, das gemahlene Erythrit, den Vanilleextrakt und das Salz.",
+      "Rühre alles gut durch, bis die Mischung glatt ist.",
+      "Gieße die Mischung in Silikonformen oder eine Eiswürfelform.",
+      "Stelle sie für mindestens 1 Stunde in den Kühlschrank oder das Gefrierfach, bis sie fest sind.",
+      "Löse die Kokos-Fat-Bombs aus den Formen oder der Eiswürfelform.",
+      "Bewahre die mit Cannabis angereicherten Kokos-Fat-Bombs in einem luftdichten Behälter im Kühlschrank oder Gefrierfach auf.",
+      "Genieße ein oder zwei Fat Bombs als ketofreundlichen, mit Cannabis angereicherten Snack!"
+    ]
   },
   "infused-pesto-pasta": {
     "name": "Infundierte Pesto-Pasta",
     "description": "Perfekt gekochte Spiralnudeln, umhüllt von aromatischem Basilikum-Pesto und gekrönt mit einer feinen Prise Parmesan.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 cups frische Basilikumblätter",
+      "1/2 cup Pinienkerne",
+      "1/2 cup geriebener Parmesan",
+      "2 Knoblauchzehen, fein gehackt",
+      "1/2 cup infundiertes Olivenöl",
+      "Salz und Pfeffer nach Geschmack",
+      "1 pound Pasta (z. B. Spaghetti, Penne oder Fusilli)",
+      "Geriebener Parmesan zum Garnieren"
+    ],
+    "instructions": [
+      "Gib die frischen Basilikumblätter, Pinienkerne, den geriebenen Parmesan und den fein gehackten Knoblauch in eine Küchenmaschine.",
+      "Pulsiere die Mischung, bis eine grobe Paste entsteht.",
+      "Während die Küchenmaschine läuft, gieße langsam das infundierte Olivenöl hinein, bis das Pesto glatt und gut vermischt ist.",
+      "Würze das Pesto mit Salz und Pfeffer nach Geschmack. Passe die Würzung nach Bedarf an.",
+      "Koche die Pasta nach Packungsanleitung al dente.",
+      "Gieße die gekochte Pasta ab und behalte eine kleine Menge Kochwasser zurück.",
+      "Vermische in einer großen Schüssel die gekochte Pasta mit dem mit Cannabis angereicherten Pesto. Bei Bedarf einen Schuss des zurückbehaltenen Kochwassers hinzufügen, um die Soße zu verdünnen.",
+      "Serviere die mit Cannabis angereicherte Pesto-Pasta mit einer Prise geriebenem Parmesan darüber.",
+      "Genieße das aromatische, mit Cannabis angereicherte Pastagericht!"
+    ]
   },
   "infused-berry-smoothie": {
     "name": "Infundierter Beeren-Smoothie",
     "description": "Eine verlockende Mischung aus gefrorenen Beeren, Obst und griechischem Joghurt. Erfrischend, aromatisch und einfach köstlich.",
-    "category_name": "Getränke"
+    "category_name": "Getränke",
+    "ingredients": [
+      "1-2 teaspoons infundiertes Kokosöl",
+      "1 cup gefrorene Beerenmischung (Erdbeeren, Blaubeeren, Himbeeren)",
+      "1 reife Banane",
+      "1 cup Milch (Kuhmilch oder pflanzliche Alternative)",
+      "1/2 cup griechischer Naturjoghurt",
+      "1 tablespoon Honig oder Ahornsirup",
+      "Optional: eine Handvoll Grünkohl für zusätzliche Nährstoffe"
+    ],
+    "instructions": [
+      "Gib alle Zutaten in einen Mixer.",
+      "Mixe auf höchster Stufe, bis alles glatt und cremig ist.",
+      "Probiere und passe die Süße an, indem du bei Bedarf mehr Honig oder Ahornsirup hinzufügst.",
+      "Wenn der Smoothie zu dickflüssig ist, gib etwas mehr Milch hinzu und mixe erneut, bis die gewünschte Konsistenz erreicht ist.",
+      "Gieße den mit Cannabis angereicherten Beeren-Smoothie in Gläser und serviere ihn sofort."
+    ]
   },
   "infused-energy-bites": {
     "name": "Infundierte Energy Bites",
     "description": "Jeder Bissen ist eine himmlische Mischung aus gesunden Zutaten – für ein beglückendes und belebendes Erlebnis für Geschmacksknospen und Geist.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "1 cup Haferflocken",
+      "1/2 cup Nussbutter (z. B. Mandelbutter oder Erdnussbutter)",
+      "1/3 cup Honig oder Ahornsirup",
+      "1/4 cup gemahlene Leinsamen",
+      "1/4 cup Mini-Schokotropfen",
+      "1/4 cup Kokosraspel",
+      "1 teaspoon Vanilleextrakt",
+      "1 tbsp infundiertes Kokosöl",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Vermische in einer großen Rührschüssel alle Zutaten: Haferflocken, Nussbutter, Honig oder Ahornsirup, gemahlene Leinsamen, Mini-Schokotropfen, Kokosraspel, Vanilleextrakt, infundiertes Kokosöl und eine Prise Salz.",
+      "Rühre gut um, bis alle Zutaten gleichmäßig vermengt sind.",
+      "Decke die Schüssel ab und stelle sie für 30 Minuten in den Kühlschrank, damit die Mischung fest wird.",
+      "Nimm die Mischung nach dem Kühlen aus dem Kühlschrank und forme mit den Händen kleine, mundgerechte Kugeln.",
+      "Lege die mit Cannabis angereicherten Energy Bites auf ein mit Backpapier ausgelegtes Backblech.",
+      "Stelle die Energy Bites für weitere 1–2 Stunden in den Kühlschrank, damit sie fest werden.",
+      "Sobald sie fest sind, gib die Energy Bites in einen luftdichten Behälter und bewahre sie im Kühlschrank auf.",
+      "Genieße die mit Cannabis angereicherten Energy Bites als nahrhaften und leckeren Snack!"
+    ]
   },
   "firecrackers": {
     "name": "Firecrackers",
     "description": "Einfach zu machen, lecker und extrem potent – dieses Rezept gehört zu den beliebtesten.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "Graham Cracker",
+      "3.5 gemahlenes Cannabis",
+      "Haselnussaufstrich",
+      "Alufolie"
+    ],
+    "instructions": [
+      "Lege dein Cannabis auf die Alufolie.",
+      "Heize den Ofen auf 250&deg; F vor.",
+      "Röste dein Cannabis 10 Minuten bei 250&deg; F.",
+      "Bestreiche die Graham Cracker mit Haselnussaufstrich.",
+      "Nimm dein Cannabis aus dem Ofen und streue es über den Haselnussaufstrich.",
+      "Mische das Cannabis in den Aufstrich und setze die Graham Cracker als Sandwich zusammen.",
+      "Wickle den Firecracker in Alufolie ein und verschließe ihn.",
+      "Backe ihn 15 Minuten bei 300&deg; F im Ofen."
+    ]
   },
   "infused-lemonade": {
     "name": "Infundierte Limonade",
     "description": "Genieße dieses belebende Getränk und erlebe eine harmonische Balance aus spritzigen Zitrusnoten und der entspannenden Wirkung von Cannabis.",
-    "category_name": "Getränke"
+    "category_name": "Getränke",
+    "ingredients": [
+      "1 cup frisch gepresster Zitronensaft",
+      "4 cups kaltes Wasser",
+      "1/2 cup Kristallzucker",
+      "1-2 tsp infundierter Honig",
+      "Eiswürfel",
+      "Zitronenscheiben zum Garnieren"
+    ],
+    "instructions": [
+      "Vermische in einem Krug den frisch gepressten Zitronensaft, das kalte Wasser, den Kristallzucker und den mit Cannabis angereicherten Honig.",
+      "Rühre gut um, bis sich der Zucker aufgelöst hat.",
+      "Probiere die Limonade und passe die Süße an, indem du bei Bedarf mehr Zucker oder infundierten Honig hinzufügst.",
+      "Gib Eiswürfel in den Krug, um die Limonade zu kühlen.",
+      "Rühre vor dem Servieren nochmals um.",
+      "Gieße die mit Cannabis angereicherte Limonade in Gläser und garniere sie mit Zitronenscheiben.",
+      "Genieße die erfrischende und belebende Wirkung der mit Cannabis angereicherten Limonade!"
+    ]
   },
   "infused-keto-chocolate-avocado-mousse": {
     "name": "Infundiertes Keto-Schokoladen-Avocado-Mousse",
     "description": "Verwandle deine Dessertzeit mit unserem Avocado-basierten Genuss. Genieße die Reichhaltigkeit von schokoladigem Glück und lass dich von diesem wahrhaft köstlichen Erlebnis verführen.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 reife Avocados",
+      "1/4 cup ungesüßtes Kakaopulver",
+      "3 tbsp infundiertes Kokosöl",
+      "3 tbsp gemahlenes Erythrit oder Süßungsmittel nach Wahl",
+      "1/2 tsp Vanilleextrakt",
+      "Prise Salz",
+      "Optionale Toppings: Schlagsahne, Beeren, gehackte Nüsse"
+    ],
+    "instructions": [
+      "Schneide die Avocados in Hälften und entferne die Kerne.",
+      "Löffle das Fruchtfleisch in einen Mixer oder eine Küchenmaschine.",
+      "Gib das ungesüßte Kakaopulver, das infundierte Kokosöl, das gemahlene Erythrit, den Vanilleextrakt und das Salz hinzu.",
+      "Mixe alles, bis es glatt und cremig ist.",
+      "Probiere und passe die Süße bei Bedarf an.",
+      "Verteile das mit Cannabis angereicherte Schokoladen-Avocado-Mousse in Servierschälchen oder Gläser.",
+      "Stelle es für mindestens 30 Minuten in den Kühlschrank, damit es fest wird.",
+      "Vor dem Servieren kannst du das Mousse nach Belieben mit Schlagsahne, Beeren oder gehackten Nüssen garnieren.",
+      "Genieße dein ketofreundliches, infundiertes Schokoladen-Avocado-Mousse!"
+    ]
   },
   "infused-guacamole": {
     "name": "Infundierte Guacamole",
     "description": "Diese unwiderstehliche Guacamole vereint cremige Avocados, spritzigen Limettensaft, gewürfelte Tomaten, Zwiebeln und einen wunderbaren Kräuter-Twist.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "2 tbsp infundiertes Olivenöl",
+      "2 reife Avocados",
+      "1 tbsp Limettensaft",
+      "1/4 cup fein gehackte Zwiebel",
+      "1/4 cup gewürfelte Tomaten",
+      "1 Knoblauchzehe, fein gehackt",
+      "Salz und Pfeffer nach Geschmack",
+      "Optional: gehackter Koriander, gewürfelte Jalapeños"
+    ],
+    "instructions": [
+      "Schneide die Avocados in Hälften, entferne die Kerne und löffle das Fruchtfleisch in eine Schüssel.",
+      "Zerdrücke die Avocado mit einer Gabel, bis die gewünschte Konsistenz erreicht ist.",
+      "Gib den Limettensaft, die Zwiebel, die Tomaten, den Knoblauch, das infundierte Olivenöl, Salz und Pfeffer in die Schüssel. Gut vermischen.",
+      "Probiere und passe die Würzung nach Bedarf an.",
+      "Optional: Rühre gehackten Koriander und gewürfelte Jalapeños für zusätzlichen Geschmack und Schärfe unter.",
+      "Sofort mit Tortilla-Chips servieren oder als Topping für Tacos, Burritos oder Sandwiches verwenden."
+    ]
   },
   "infused-chocolate-truffles": {
     "name": "Infundierte Schokoladentrüffel",
     "description": "Erlebe pure Dekadenz mit diesen köstlichen Schokoladentrüffeln. Eine euphorische Reise durch reichhaltige, samtige Aromen erwartet dich.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1/2 cup infundiertes Kokosöl",
+      "1/2 cup ungesüßtes Kakaopulver",
+      "1/4 cup Ahornsirup",
+      "1 teaspoon Vanilleextrakt",
+      "1/4 teaspoon Salz",
+      "Optionale Ummantelungen: gehackte Nüsse, Kakaopulver, Kokosraspel"
+    ],
+    "instructions": [
+      "Schmelze das infundierte Kokosöl in einer mikrowellengeeigneten Schüssel.",
+      "Gib das ungesüßte Kakaopulver, den Ahornsirup, den Vanilleextrakt und das Salz zum geschmolzenen Kokosöl. Gut umrühren, bis alles glatt und vermischt ist.",
+      "Stelle die Mischung für etwa 1 Stunde in den Kühlschrank oder bis sie fest genug zum Verarbeiten ist.",
+      "Nimm kleine Portionen der Mischung und rolle sie mit den Händen zu mundgerechten Trüffeln.",
+      "Wälze die Trüffel in der gewünschten Ummantelung, wie gehackten Nüssen, Kakaopulver oder Kokosraspeln.",
+      "Lege die ummantelten Trüffel auf ein mit Backpapier ausgelegtes Backblech.",
+      "Stelle die Trüffel für mindestens 1 Stunde in den Kühlschrank, damit sie fest werden.",
+      "Serviere die mit Cannabis angereicherten Schokoladentrüffel gekühlt und genieße sie!"
+    ]
   },
   "infused-banana-bread": {
     "name": "Infundiertes Bananenbrot",
     "description": "Genieße eine Mischung aus reifen Bananen, sorgfältig ausgewählten Zutaten und einer besonderen Infusion, die einen Klassiker in einen köstlichen Genuss verwandelt.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1/2 cup Cannabutter, geschmolzen",
+      "1 cup Kristallzucker",
+      "2 große Eier",
+      "3 reife Bananen, zerdrückt",
+      "1 teaspoon Vanilleextrakt",
+      "1 1/2 cups Allzweckmehl",
+      "1 teaspoon Natron",
+      "1/2 teaspoon Salz"
+    ],
+    "instructions": [
+      "Heize den Ofen auf 350°F (175°C) vor. Fette eine 9x5-Inch-Kastenform ein.",
+      "Vermische in einer großen Rührschüssel die geschmolzene Cannabutter und den Kristallzucker.",
+      "Gib die Eier, die zerdrückten Bananen und den Vanilleextrakt hinzu. Gut umrühren.",
+      "Verquirle in einer separaten Schüssel das Allzweckmehl, das Natron und das Salz.",
+      "Gib die trockenen Zutaten nach und nach zur Bananenmischung und rühre, bis alles gerade eben vermengt ist. Achte darauf, nicht zu viel zu rühren.",
+      "Gieße den Teig in die gefettete Kastenform und verteile ihn gleichmäßig.",
+      "Backe im vorgeheizten Ofen 50–60 Minuten oder bis ein Zahnstocher, der in die Mitte gesteckt wird, sauber herauskommt.",
+      "Nimm das Bananenbrot aus dem Ofen und lass es 10 Minuten in der Form abkühlen. Stürze es dann auf ein Kuchengitter zum vollständigen Auskühlen.",
+      "Schneide es in Scheiben und genieße das mit Cannabis angereicherte Bananenbrot als köstlichen und wohltuenden Genuss!"
+    ]
   },
   "infused-keto-cheesecake-bites": {
     "name": "Infundierte Keto-Cheesecake-Häppchen",
     "description": "Freu dich auf unsere infundierten Cheesecake-Häppchen – eine perfekte Balance aus Geschmack und bewusstem Genuss.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 1/2 cups Mandelmehl",
+      "1/4 cup gemahlenes Erythrit oder kohlenhydratarmes Süßungsmittel nach Wahl",
+      "1/4 cup Cannabutter, geschmolzen",
+      "16 ounces Frischkäse, zimmerwarm",
+      "1/2 cup gemahlenes Erythrit oder kohlenhydratarmes Süßungsmittel nach Wahl",
+      "2 teaspoons Vanilleextrakt",
+      "2 große Eier"
+    ],
+    "instructions": [
+      "Heize den Ofen auf 325°F (165°C) vor.",
+      "Vermische in einer Schüssel das Mandelmehl, das gemahlene Erythrit und die geschmolzene Cannabutter.",
+      "Drücke die Mischung als Boden in eine gefettete quadratische Backform.",
+      "Backe den Boden im vorgeheizten Ofen 10 Minuten, nimm ihn dann heraus und stelle ihn beiseite.",
+      "Schlage in einer Rührschüssel den weichen Frischkäse, das gemahlene Erythrit und den Vanilleextrakt glatt und cremig.",
+      "Gib die Eier einzeln hinzu und rühre nach jedem Ei gut um.",
+      "Gieße die Frischkäsemischung über den gebackenen Boden in der Backform.",
+      "Backe 25–30 Minuten oder bis der Käsekuchen fest und leicht goldbraun ist.",
+      "Nimm ihn aus dem Ofen und lass den Käsekuchen auf Zimmertemperatur abkühlen.",
+      "Stelle den Käsekuchen für mindestens 4 Stunden oder über Nacht in den Kühlschrank, damit er fest wird.",
+      "Schneide den gekühlten Käsekuchen in mundgerechte Quadrate und serviere deine mit Cannabis angereicherten Keto-Käsekuchen-Häppchen.",
+      "Genieße diese cremigen und verführerischen Häppchen und bleib dabei deiner Keto-Diät treu!"
+    ]
   },
   "infused-keto-cauliflower-pizza-crust": {
     "name": "Infundierter Keto-Blumenkohl-Pizzaboden",
     "description": "Revolutioniere deinen Pizza-Abend mit einem pflanzeninfundierten Blumenkohlboden. Genieße die Güte der Natur – ausgewogen und lecker in jedem Bissen.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 kleiner Blumenkohlkopf, geraspelt",
+      "1/2 cup geriebener Mozzarella",
+      "2 tbsp Mandelmehl",
+      "1 tbsp infundiertes Olivenöl",
+      "1 Ei",
+      "1/2 tsp getrockneter Oregano",
+      "1/2 tsp Knoblauchpulver",
+      "1/4 tsp Salz"
+    ],
+    "instructions": [
+      "Heize den Ofen auf 425°F (220°C) vor und lege ein Backblech mit Backpapier aus.",
+      "Gib den geraspelten Blumenkohl in eine mikrowellengeeignete Schüssel und erhitze ihn 5–6 Minuten, bis er weich ist.",
+      "Lass den Blumenkohl etwas abkühlen und gib ihn dann in ein sauberes Küchentuch.",
+      "Wickle den Blumenkohl in das Tuch und drücke so viel Flüssigkeit wie möglich heraus.",
+      "Vermische in einer Rührschüssel den Blumenkohl, den geriebenen Mozzarella, das Mandelmehl, das infundierte Olivenöl, das Ei, den getrockneten Oregano, das Knoblauchpulver und das Salz.",
+      "Rühre alles gut durch.",
+      "Gib die Blumenkohlmischung auf das vorbereitete Backblech und forme sie zu einem Pizzaboden.",
+      "Backe im vorgeheizten Ofen 12–15 Minuten oder bis der Boden goldbraun und fest ist.",
+      "Nimm ihn aus dem Ofen und belege ihn nach Belieben.",
+      "Schiebe die Pizza zurück in den Ofen und backe weitere 8–10 Minuten, bis der Käse geschmolzen und leicht gebräunt ist.",
+      "Schneide die Pizza und genieße deine ketofreundliche, mit Cannabis angereicherte Blumenkohlpizza!"
+    ]
   },
   "infused-milk": {
     "name": "Infundierte Milch",
     "description": "Wie wäre es mit einem eiskalten Milchshake? Oder einem Sahnetopping auf einem Kuchen? Cannabis-infundierte Milch eignet sich hervorragend für diese Rezepte.",
-    "category_name": "Grundlagen"
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "Milch, Sahne, Kokosmilch oder andere Milchalternative",
+      "1 gemahlenes Cannabis pro Liter Milch",
+      "Kochtopf",
+      "Schneebesen",
+      "Käsetuch",
+      "Einmachglas"
+    ],
+    "instructions": [
+      "Decarboxyliere dein Cannabis – Hier erfährst du wie",
+      "Mahle dein Cannabis fein – du möchtest eine gute Oberfläche für die Extraktion schaffen.",
+      "Gib das fein gemahlene Cannabis direkt in die Milch, stelle sie auf niedrige Hitze und verrühre alles mit einem Schneebesen. Achte darauf, dass die Mischung nicht überkocht!",
+      "Rühre die Milchmischung regelmäßig um, damit nichts anbrennt, und lass das Cannabis und die Milch je nach gewünschter Stärke 30 Minuten bis eine Stunde köcheln.",
+      "Nimm die Mischung nach 30 Minuten bis einer Stunde vom Herd und lass sie 5–10 Minuten ruhen, damit sich die Cannabinoide in den Fettzellen absetzen können.",
+      "Lege ein Käsetuch über ein großes Einmachglas oder einen anderen luftdichten Flüssigkeitsbehälter und gieße die Mischung durch das Käsetuch, um alle Pflanzenreste herauszufiltern.",
+      "Wenn es kühl genug zum Anfassen ist, drücke die gesamte überschüssige Flüssigkeit aus dem Käsetuch in den Behälter.",
+      "Verschließe den Behälter fest, beschrifte ihn mit dem Inhalt und dem Verfallsdatum (dasselbe Datum wie auf der Milchverpackung) oder friere ihn in Eiswürfelformen für die spätere Verwendung ein."
+    ]
   },
   "infused-coconut-curry": {
     "name": "Infundiertes Kokos-Curry",
     "description": "Eine wunderbare Fusion aus aromatischen Gewürzen, cremiger Kokosmilch und infundiertem Cannabis. Heb deine Sinne mit zartem Gemüse und Protein in einem wirklich unvergesslichen Gericht.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 tbsp infundiertes Kokosöl",
+      "1 Zwiebel, fein gehackt",
+      "3 Knoblauchzehen, fein gehackt",
+      "1 tablespoon frisch geriebener Ingwer",
+      "2 tablespoons Currypulver",
+      "1 Dose (14 ounces) Kokosmilch",
+      "1 cup Gemüsebrühe",
+      "1 cup gewürfelte Kartoffeln",
+      "2 Karotten, in Scheiben geschnitten",
+      "1 rote Paprika, in Streifen geschnitten",
+      "1 cup Blumenkohlröschen",
+      "Salz und Pfeffer nach Geschmack",
+      "Frischer Koriander zum Garnieren"
+    ],
+    "instructions": [
+      "Erhitze das infundierte Kokosöl bei mittlerer Hitze in einer großen Pfanne oder einem Topf.",
+      "Gib die gehackte Zwiebel, den fein gehackten Knoblauch und den geriebenen Ingwer hinzu. Brate alles an, bis die Zwiebel glasig und der Knoblauch duftend ist.",
+      "Rühre das Currypulver ein und röste die Gewürze eine weitere Minute.",
+      "Gieße die Kokosmilch und die Gemüsebrühe hinzu. Gut umrühren.",
+      "Gib die gewürfelten Kartoffeln, die Karottenscheiben, die rote Paprika und die Blumenkohlröschen in den Topf. Mit Salz und Pfeffer nach Geschmack würzen.",
+      "Decke den Topf ab und lass alles 15–20 Minuten köcheln oder bis das Gemüse gar ist.",
+      "Serviere das mit Cannabis angereicherte Kokosnuss-Curry über gekochtem Reis oder mit Naan-Brot. Mit frischem Koriander garnieren."
+    ]
   },
   "gummy-bears": {
     "name": "Gummibärchen",
     "description": "Wenn du ein großer Gummibärchen-Fan bist, hast du Glück!",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1/4 cup infundiertes Kokosöl mit 3.5 Gramm Cannabis – Siehe das Rezept",
+      "1/2 tsp Sonnenblumen-/Sojalecithin",
+      "1 oz geschmacksneutrale Gelatine",
+      "1/2 cup Wasser",
+      "1 Packung 6 oz Götterspeise (beliebige Geschmacksrichtung)",
+      "Gummibärchenform"
+    ],
+    "instructions": [
+      "Kombiniere in einem kleinen Topf bei mittlerer Hitze das Wasser und das infundierte Öl und verrühre beides mit einem Schneebesen, während du es zum Kochen bringst.",
+      "Rühre die geschmacksneutrale Gelatine portionsweise unter ständigem Rühren ein.",
+      "Rühre die aromatisierte Götterspeise ein und rühre etwa 5 Minuten weiter, bis die Mischung sprudelnd kocht.",
+      "Reduziere die Hitze auf niedrig, besprühe die Formen mit Kochspray. Fülle jede Form mit einem Tropfer oder Löffel bis zum Rand. Rühre die Mischung zwischendurch immer wieder um.",
+      "Stelle die Formen für 20 Minuten ins Gefrierfach oder für eine Stunde in den Kühlschrank, bis sie fest sind.",
+      "Löse die Gummibärchen aus den Formen und genieße sie sofort oder bewahre sie in luftdichten Behältern 2–3 Tage bei Zimmertemperatur auf. Zum längeren Aufbewahren einfrieren."
+    ]
   },
   "infused-spaghetti-bolognese": {
     "name": "Infundierte Spaghetti Bolognese",
     "description": "Diese kulinarische Kreation nimmt deine Geschmacksknospen auf eine euphorische Reise mit und liefert eine Symphonie des Geschmacks.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "1 tbsp infundiertes Olivenöl",
+      "1 Zwiebel, fein gehackt",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 Karotte, fein gehackt",
+      "1 Stange Sellerie, fein gehackt",
+      "1 pound Rinderhackfleisch",
+      "1 Dose (14 ounces) gewürfelte Tomaten",
+      "1 Dose (6 ounces) Tomatenmark",
+      "1/2 cup Rotwein",
+      "1 teaspoon getrockneter Oregano",
+      "1 teaspoon getrocknetes Basilikum",
+      "Salz und Pfeffer nach Geschmack",
+      "Gekochte Spaghetti",
+      "Geriebener Parmesan zum Garnieren"
+    ],
+    "instructions": [
+      "Erhitze das infundierte Olivenöl bei mittlerer Hitze in einer großen Pfanne oder einem Topf.",
+      "Gib die gehackte Zwiebel, den Knoblauch, die Karotte und den Sellerie in den Topf. Brate alles an, bis das Gemüse weich ist.",
+      "Gib das Rinderhackfleisch in den Topf und brate es braun an, wobei du es beim Braten mit einem Löffel zerkleinerst.",
+      "Rühre die gewürfelten Tomaten, das Tomatenmark, den Rotwein, den getrockneten Oregano, das getrocknete Basilikum, Salz und Pfeffer ein.",
+      "Lass die Soße bei niedriger Hitze etwa 30 Minuten köcheln und rühre gelegentlich um.",
+      "Koche in der Zwischenzeit die Spaghetti nach Packungsanleitung al dente.",
+      "Wenn die Soße fertig ist, probiere sie und passe die Würzung bei Bedarf an.",
+      "Serviere die mit Cannabis angereicherte Bolognese-Soße über den gekochten Spaghetti.",
+      "Garniere mit geriebenem Parmesan und genieße eine wohlige, mit Cannabis angereicherte Mahlzeit!"
+    ]
   },
   "pot-cookies": {
     "name": "Hasch-Cookies",
     "description": "Cookies mit knusprigen Rändern, einem reichhaltigen, buttrigen Toffee-Geschmack und großen Schokoladenstücken.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1/2 cup Cannabutter",
+      "1/2 cup Kristallzucker",
+      "1/4 cup brauner Zucker",
+      "2 teaspoons Vanilleextrakt",
+      "1 großes Ei",
+      "1 3/4 cups Allzweckmehl",
+      "1/2 teaspoon Natron",
+      "Prise Salz",
+      "1 cup Schokotropfen"
+    ],
+    "instructions": [
+      "Heize den Ofen auf 350 F vor.",
+      "Erhitze die Cannabutter etwa 40 Sekunden in der Mikrowelle. Die Butter sollte vollständig geschmolzen, aber nicht heiß sein.",
+      "Vermische in einer großen Schüssel die Cannabutter mit dem Zucker, bis alles gut verbunden ist.",
+      "Rühre den Vanilleextrakt und das Ei unter, bis alles eingearbeitet ist.",
+      "Gib das Mehl, das Natron und das Salz hinzu. Bitte beachte den Rezepthinweis zum korrekten Abmessen von Mehl.",
+      "Rühre den Teig, bis er gerade eben vermengt ist. Der Teig sollte weich und leicht klebrig sein, aber nicht übermäßig klebrig.",
+      "Hebe die Schokotropfen unter.",
+      "Nimm jeweils 1.5 tablespoons Teig (mittlerer Keksportionierer) und setze sie mit 2 Inch Abstand auf das Backblech.",
+      "Backe 7–10 Minuten oder bis die Kekse fest sind. Sie werden aufgegangen sein und in der Mitte noch leicht unfertig aussehen."
+    ]
   },
   "pot-brownies": {
     "name": "Hasch-Brownies",
     "description": "Seht her! Die perfekte Kombination aus Köstlichkeit und Highsein.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1/2 cup Cannabutter",
+      "1 cup Zucker (oder ein beliebiges Süßungsmittel)",
+      "2 Eier",
+      "1 teaspoon Vanilleextrakt",
+      "1/4 teaspoon Backpulver",
+      "⅓ cup Kakaopulver",
+      "1/4 teaspoon Salz",
+      "1/2 cup Mehl (oder Mandelmehl)"
+    ],
+    "instructions": [
+      "Heize den Ofen auf 350&deg; F oder 180&deg; C vor.",
+      "Vermische die geschmolzene Butter und den Zucker, bis alles gut vermengt ist.",
+      "Gib die Eier und den Vanilleextrakt hinzu; nur kurz unterrühren.",
+      "Vermische alle trockenen Zutaten in einer separaten Schüssel.",
+      "Rühre die trockenen Zutaten in die Butter-Zucker-Mischung ein.",
+      "Gieße den Teig in eine gefettete 9 x 9 quadratische Backform.",
+      "Backe 20 Minuten oder bis sich die Seiten gerade vom Rand der Form zu lösen beginnen.",
+      "Vollständig abkühlen lassen, bevor du die Brownies schneidest."
+    ]
   },
   "infused-grilled-cheese": {
     "name": "Infundiertes Grilled-Cheese-Sandwich",
     "description": "Schnelles und einfaches Cannabis-infundiertes Käsesandwich-Rezept.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "2 Scheiben Brot",
+      "2 Scheiben Cheddar-Käse",
+      "2 TL Cannabutter",
+      "1 EL Butter"
+    ],
+    "instructions": [
+      "Die normale Butter gleichmäßig auf einer Seite beider Brotscheiben verteilen. Dann die Cannabutter auf der anderen Seite des Brotes verteilen.",
+      "Die Scheibe Cheddar-Käse auf die Cannabutter-Seite des Brotes legen. Die beiden Brotscheiben mit der Cannabutter-Seite in der Mitte zusammenlegen.",
+      "Bei mittlerer Hitze das Grilled-Cheese-Sandwich braten, bis der Käse geschmolzen und beide Seiten goldbraun sind, etwa 3 Minuten pro Seite."
+    ]
   },
   "gingerbread-cookies": {
     "name": "Lebkuchen-Cookies",
     "description": "Mach deine Feiertage besonders mit diesen leckeren Keksen!",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "Keks",
+      "1/2 Tasse Cannabutter",
+      "2 und 1/4 Tassen Mehl",
+      "1/2 Tasse Zucker",
+      "1 Ei",
+      "1/2 Tasse Melasse",
+      "1 TL gemahlener Zimt",
+      "1 TL gemahlener Ingwer",
+      "1 TL gemahlene Nelken",
+      "1 TL gemahlene Muskatnuss",
+      "1 TL Backpulver",
+      "1/2 TL Natron",
+      "1/2 TL Salz",
+      "Glasur",
+      "2 und 1/4 Tassen fein gemahlener Puderzucker",
+      "1/3 Tasse Milch",
+      "2 große Eiweiß"
+    ],
+    "instructions": [
+      "In einer großen Schüssel mit einem Handmixer auf niedriger Stufe die Butter, Mehl, Zucker, Ei, Melasse, Zimt, Ingwer, Nelken, Muskatnuss, Backpulver, Natron und Salz gut vermischen.",
+      "Abdecken und 1 Stunde im Kühlschrank ruhen lassen.",
+      "Den Ofen auf 350&deg;F vorheizen.",
+      "Auf einer leicht bemehlten Arbeitsfläche jeweils die Hälfte des Teigs 1/8 Zoll dick ausrollen. Mit bemehlten Ausstechformen den Teig in Formen ausstechen. Mit einem Metallspatel die Kekse mit 1/2 Zoll Abstand auf gefettete Backbleche legen. Teigreste erneut ausrollen und weiter Formen ausstechen. Denke daran, 24 Kekse auszustechen --> die richtige Anzahl an Keksen, um deine Dosierung konsistent mit dem im Rechner eingestellten Wert zu halten.",
+      "8 Minuten backen, oder bis sie leicht gebräunt sind. Kekse auf ein Gitter legen und vollständig abkühlen lassen.",
+      "Für die Glasur den Zucker, die Milch und das Eiweiß schlagen, bis die Masse dickflüssig ist, aber noch durch einen Spritzbeutel oder eine Quetschflasche passt. Falls sie zu dick ist, nach und nach mehr Milch hinzufügen.",
+      "Viel Spaß beim Dekorieren der Kekse nach Belieben!"
+    ]
   },
   "trail-mix": {
     "name": "Studentenfutter",
     "description": "Eine leckere Kombination aus Samen und Nüssen, infundiert mit Cannabisöl.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "&frac18; Tasse infundiertes Kokosöl",
+      "Nüsse nach Vorliebe"
+    ],
+    "instructions": [
+      "Dein Gras decarboxylieren – So geht's",
+      "Das Gras fein mahlen, du möchtest eine gute Oberfläche für die Extraktion schaffen.",
+      "Das gemahlene Cannabis zusammen mit &frac14; Tasse Kokosöl in ein Einmachglas geben.",
+      "Das Einmachglas sehr fest verschließen.",
+      "Das Einmachglas in kochendes Wasser stellen und bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) über 2 Stunden erhitzen.",
+      "Den gesamten Inhalt des Glases durch ein Seihtuch über einem Metallsieb gießen.",
+      "Das Seihtuch zusammennehmen und die restliche Flüssigkeit vollständig auspressen.",
+      "Das Kokosöl mit einigen Nüssen vermischen."
+    ]
   },
   "infused-honey": {
     "name": "Infundierter Honig",
     "description": "Infundierter Honig ist eine tolle Möglichkeit, Cannabis in deine Lieblingsgetränke oder Desserts zu bringen.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1/2 Tasse Kokosöl",
+      "3.5 gemahlenes Cannabis",
+      "300 g Honig"
+    ],
+    "instructions": [
+      "Dein Gras decarboxylieren – So geht's",
+      "Das Gras fein mahlen, du möchtest eine gute Oberfläche für die Extraktion schaffen.",
+      "Das gemahlene Cannabis zusammen mit &frac12; Tasse Kokosöl in ein Einmachglas geben.",
+      "Das Einmachglas sehr fest verschließen.",
+      "Das Einmachglas in kochendes Wasser stellen und bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) über 2 Stunden erhitzen.",
+      "Den gesamten Inhalt des Glases durch ein Seihtuch über einem Metallsieb gießen.",
+      "Das Seihtuch zusammennehmen und die restliche Flüssigkeit vollständig auspressen.",
+      "Das Kokosöl und den Honig im Mixer vermengen.",
+      "Die gesamte Mischung in ein Einmachglas oder Mason Jar füllen und aufbewahren."
+    ]
   },
   "infused-whiskey": {
     "name": "Infundierter Whiskey",
     "description": "Entdecke den Geschmack der besten Whiskys zusammen mit dem wunderbaren Cannabis-Aroma.",
-    "category_name": "Getränke"
+    "category_name": "Getränke",
+    "ingredients": [
+      "750 ml Flasche Bourbon-Whiskey",
+      "7 g gemahlenes Cannabis"
+    ],
+    "instructions": [
+      "Dein Gras decarboxylieren – So geht's",
+      "Den Whiskey in ein verschließbares Glas gießen (oder etwas Whiskey abgießen, um das zusätzliche Volumen des Grases auszugleichen) und das gemahlene Cannabis hinzufügen.",
+      "Die Flasche schütteln und mindestens 48 Stunden an einem sonnengeschützten Ort stehen lassen. Mindestens einmal täglich schütteln, bis die gewünschte Stärke erreicht ist – idealerweise bis zu einem Monat. Je länger es zieht, desto stärker wird es.",
+      "Die Whiskey-Mischung durch ein Seihtuch in ein Glasgefäß abseihen, um das gesamte gemahlene Cannabis aus dem Whiskey zu filtern. Diesen Schritt bei Bedarf wiederholen, um den gesamten Whiskey vom gemahlenen Cannabis zu trennen, und das restliche Gras entsorgen."
+    ]
   },
   "infused-chai": {
     "name": "Infundierter Chai",
     "description": "Dieses wärmende, potente Cannabis-Chai-Tee-Rezept ist eine großartige Art, deinen Tee mit einem extra Kick zu genießen.",
-    "category_name": "Getränke"
+    "category_name": "Getränke",
+    "ingredients": [
+      "Teebeutel",
+      "Milch",
+      "0.5 gemahlenes Cannabis",
+      "Ingwer",
+      "Kardamom",
+      "Zucker oder ein beliebiges Süßungsmittel"
+    ],
+    "instructions": [
+      "Dein Gras decarboxylieren – So geht's",
+      "Etwas Milch in einem Topf zum Kochen bringen.",
+      "Ein Seihtuch auslegen.",
+      "Den Ingwer und die Gewürze zerstoßen.",
+      "Das Cannabis zusammen mit den zerstoßenen Gewürzen in ein Seihtuch geben und wie einen Teebeutel verschließen.",
+      "Den Teebeutel zwei Stunden in der Milch ziehen lassen.",
+      "Die Milch in einen Krug gießen.",
+      "Jetzt ist es Zeit, deine Tasse zuzubereiten: Die Milch mit einem Schwarzteebeutel mischen und etwas Zucker hinzufügen."
+    ]
   },
   "weed-infused-popcorn": {
     "name": "Infundiertes Popcorn",
     "description": "Der perfekte salzige Snack zum Filme schauen.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "1/4 Tasse Cannabutter",
+      "⅓ – ⅔ Tassen Popcorn-Maiskörner",
+      "Salz nach Geschmack"
+    ],
+    "instructions": [
+      "Die Butter in einem 2- bis 3-Liter-Topf mit Deckel bei mittlerer bis hoher Hitze erhitzen. Die Popcorn-Maiskörner hineingeben und genug Salz darüber streuen, um die Körnerschicht leicht zu bedecken. Du kannst später immer noch mehr Salz hinzufügen. Die Butter in den Topf geben und den Deckel aufsetzen.",
+      "Sobald die Körner anfangen zu poppen, den Topf ständig hin und her über der Flamme bewegen, bis das Poppen nachlässt. Sobald die Pops etwa 2 Sekunden auseinanderliegen, vom Herd nehmen und in eine Servierschüssel umfüllen. Abschmecken und bei Bedarf mit zusätzlichem Salz würzen."
+    ]
   },
   "infused-eggnog": {
     "name": "Infundierter Eierlikör",
     "description": "Es ist Zeit für festliche Stimmung! Warum nicht besonders feierlich?",
-    "category_name": "Getränke"
+    "category_name": "Getränke",
+    "ingredients": [
+      "1 Tasse infundierte Milch",
+      "4 Eier",
+      "6 EL Zucker",
+      "1 Tasse Schlagsahne",
+      "1 TL geriebene Muskatnuss",
+      "6 EL Bourbon (optional)",
+      "Zimt zum Garnieren"
+    ],
+    "instructions": [
+      "Das Eigelb vom Eiweiß trennen.",
+      "In einer Schüssel das Eigelb mit dem Zucker schlagen, bis es blass aussieht und der Zucker vollständig aufgelöst ist.",
+      "In einem mittelgroßen Topf bei starker Hitze die Milch, Schlagsahne und Muskatnuss kombinieren und unter gelegentlichem Rühren gerade zum Kochen bringen. Vom Herd nehmen und die heiße Mischung langsam in die Eigelb-Zucker-Mischung einrühren. Dann alles zurück in den Topf geben und erhitzen, bis die Mischung 160 Grad F erreicht. Vom Herd nehmen, den Bourbon/Whiskey einrühren, in eine mittelgroße Rührschüssel gießen und zum Abkühlen in den Kühlschrank stellen.",
+      "In einer mittelgroßen Rührschüssel das Eiweiß zu weichen Spitzen schlagen. Bei laufendem Mixer nach und nach 1 Esslöffel Zucker hinzufügen und zu steifen Spitzen schlagen. Das Eiweiß in die gekühlte Mischung einrühren.",
+      "In so viele Tassen servieren, wie du im Rechner als Portionen festgelegt hast, um die Dosierung konsistent zu halten, und mit Zimt garnieren!"
+    ]
   },
   "infused-ghee": {
     "name": "Infundiertes Ghee",
     "description": "Cannabis-infundiertes Ghee (geklärte Butter) ist ein vielseitiges Kochfett mit hohem Rauchpunkt. Perfekt zum Anbraten, als Aufstrich oder für deinen Morgenkaffee.",
-    "category_name": "Grundlagen"
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "1 Tasse (2 Stangen) ungesalzene Butter",
+      "3.5g Cannabis, decarboxyliert und gemahlen",
+      "Seihtuch zum Abseihen",
+      "Einmachglas zur Aufbewahrung"
+    ],
+    "instructions": [
+      "Butter in einem Topf bei mittlerer bis niedriger Hitze schmelzen. Sie wird anfangen zu schäumen und zu knistern – das ist das Wasser, das verdampft.",
+      "Sobald das Knistern nachlässt und sich die Milchfeststoffe am Boden absetzen und goldbraun werden, das decarboxylierte Cannabis hinzufügen.",
+      "Auf niedrigster Hitze 45 Minuten köcheln lassen und gelegentlich umrühren. Nicht anbrennen lassen.",
+      "Durch ein Seihtuch in ein Einmachglas abseihen und das gesamte Fett herauspressen.",
+      "Bei Raumtemperatur abkühlen lassen und dann in den Kühlschrank stellen. Das Ghee wird fest und hält sich bis zu 3 Monate."
+    ]
   },
   "infused-condensed-milk": {
     "name": "Infundierte Kondensmilch",
     "description": "Reichhaltige, süße Cannabis-infundierte Kondensmilch – perfekt für Fudge, Makronen und andere Desserts.",
-    "category_name": "Grundlagen"
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "1 Dose (14 oz) gesüßte Kondensmilch",
+      "1 EL Cannabutter oder infundiertes Kokosöl",
+      "Kochtopf",
+      "Schneebesen",
+      "Einmachglas"
+    ],
+    "instructions": [
+      "Stelle sicher, dass deine Cannabutter oder dein infundiertes Kokosöl fertig ist. Falls nicht, bereite es zuerst vor.",
+      "Die Kondensmilch in einen Kochtopf bei niedriger Hitze gießen.",
+      "Die Cannabutter oder das infundierte Kokosöl hinzufügen und mit dem Schneebesen verrühren, bis alles vollständig verbunden ist.",
+      "Bei niedriger Hitze 10–15 Minuten weiterrühren. Nicht kochen lassen.",
+      "Vom Herd nehmen und etwas abkühlen lassen.",
+      "In ein Einmachglas oder einen luftdichten Behälter umfüllen. Im Kühlschrank bis zu 2 Wochen aufbewahren."
+    ]
   },
   "cannabis-hot-chocolate": {
     "name": "Cannabis-Heiße-Schokolade",
     "description": "Eine reichhaltige, wärmende Cannabis-Heiße-Schokolade mit infundierter Milch oder Kokosöl.",
-    "category_name": "Getränke"
+    "category_name": "Getränke",
+    "ingredients": [
+      "2 Tassen infundierte Milch (siehe Rezept für infundierte Milch)",
+      "3 EL ungesüßtes Kakaopulver",
+      "2 EL Zucker oder Süßungsmittel nach Wahl",
+      "Prise Salz",
+      "1/4 TL Vanilleextrakt",
+      "Schlagsahne als Topping (optional)"
+    ],
+    "instructions": [
+      "Die infundierte Milch in einem kleinen Topf bei mittlerer bis niedriger Hitze erwärmen. Nicht kochen lassen.",
+      "Kakaopulver, Zucker und Salz einrühren, bis alles vollständig aufgelöst und glatt ist.",
+      "Vanilleextrakt hinzufügen und umrühren.",
+      "In Tassen gießen und bei Bedarf mit Schlagsahne toppen.",
+      "Sofort servieren und langsam genießen – Edibles brauchen Zeit, um zu wirken."
+    ]
   },
   "infused-cold-brew": {
     "name": "Infundierter Cold Brew",
     "description": "Cannabis-Cold-Brew-Kaffee ist sanft, säurearm und wirkt auf eine ganz besondere Weise.",
-    "category_name": "Getränke"
+    "category_name": "Getränke",
+    "ingredients": [
+      "1 Tasse grob gemahlener Kaffee",
+      "4 Tassen kaltes gefiltertes Wasser",
+      "1 TL infundiertes Kokosöl (siehe Rezept für infundiertes Kokosöl)",
+      "Eiswürfel",
+      "Milch oder Sahne nach Geschmack"
+    ],
+    "instructions": [
+      "Gemahlenen Kaffee und kaltes Wasser in einem großen Glas kombinieren. Umrühren, um den Kaffeesatz vollständig zu benetzen.",
+      "Abdecken und 12–24 Stunden im Kühlschrank ziehen lassen.",
+      "Durch ein feines Sieb oder Seihtuch in ein sauberes Glas abseihen. Den Kaffeesatz entsorgen.",
+      "Zum Servieren ein Glas mit Eis füllen und Cold Brew nach Geschmack eingießen (normalerweise 1:1 mit Wasser oder Milch verdünnt).",
+      "1 TL infundiertes Kokosöl einrühren, bis es emulgiert ist. Du kannst einen kleinen Milchaufschäumer verwenden, um es gründlich zu vermischen.",
+      "Langsam genießen – die Wirkung kombiniert sich mit Koffein für ein einzigartiges Erlebnis."
+    ]
   },
   "weed-rice-krispie-treats": {
     "name": "Cannabis-Reiswaffeln",
     "description": "Ein klassisches Cannabis-Edible, das einfach zu machen und leicht zu dosieren ist – bei allen beliebt.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "3 EL Cannabutter (siehe Cannabutter-Rezept)",
+      "1 Beutel (10 oz) Marshmallows",
+      "6 Tassen Reispuffs (Rice Krispies oder ähnlich)",
+      "Prise Salz",
+      "Antihaft-Kochspray"
+    ],
+    "instructions": [
+      "Eine 9x13-Zoll-Form mit Kochspray einfetten und beiseitestellen.",
+      "Cannabutter in einem großen Topf bei niedriger Hitze schmelzen. Die Hitze niedrig halten, um das THC zu bewahren.",
+      "Marshmallows hinzufügen und ständig rühren, bis sie vollständig geschmolzen und glatt sind. Vom Herd nehmen.",
+      "Schnell die Reispuffs und das Salz einrühren, bis alles gleichmäßig bedeckt ist.",
+      "In die vorbereitete Form gießen und mit einem gefetteten Spatel oder den Händen flach drücken.",
+      "Vollständig abkühlen lassen (ca. 30 Minuten), dann in 12 gleich große Stücke schneiden.",
+      "In einem luftdichten Behälter bei Raumtemperatur bis zu 3 Tage aufbewahren."
+    ]
   },
   "cannabis-caramel-sauce": {
     "name": "Cannabis-Karamellsauce",
     "description": "Eine seidig-goldene Cannabis-Karamellsauce zum Darüberträufeln auf Eis, Brownies, Pfannkuchen – oder direkt vom Löffel.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1 Tasse Kristallzucker",
+      "6 EL Cannabutter (siehe Cannabutter-Rezept)",
+      "1/2 Tasse Schlagsahne, zimmerwarm",
+      "1 TL Vanilleextrakt",
+      "1/2 TL Meersalz"
+    ],
+    "instructions": [
+      "Zucker in einem schweren Topf bei mittlerer Hitze erhitzen und ständig mit einem Holzlöffel rühren, bis er schmilzt und bernsteinfarben wird.",
+      "Sobald er vollständig geschmolzen ist, die Cannabutter auf einmal hinzufügen. Die Mischung wird stark aufschäumen – weiterrühren.",
+      "Die Schlagsahne langsam einrühren. Die Mischung wird erneut aufschäumen. Weiterrühren, bis alles glatt ist.",
+      "Vom Herd nehmen und Vanilleextrakt sowie Meersalz einrühren.",
+      "10 Minuten abkühlen lassen, bevor es verwendet wird. In einem Glas im Kühlschrank bis zu 2 Wochen aufbewahren.",
+      "Vor dem Servieren vorsichtig erwärmen. In 12 Portionen aufteilen und als Topping darüber träufeln."
+    ]
   },
   "infused-hummus": {
     "name": "Infundierter Hummus",
     "description": "Cremiger, glatter Cannabis-infundierter Hummus mit infundiertem Olivenöl.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "1 Dose (15 oz) Kichererbsen, abgetropft und abgespült",
+      "3 EL infundiertes Olivenöl (siehe Rezept für infundiertes Olivenöl)",
+      "3 EL Tahini",
+      "2 EL Zitronensaft",
+      "1 Knoblauchzehe",
+      "1/2 TL Salz",
+      "1/4 TL Kreuzkümmel",
+      "2–3 EL kaltes Wasser",
+      "Paprika und normales Olivenöl zum Garnieren"
+    ],
+    "instructions": [
+      "Kichererbsen, Tahini, Zitronensaft, Knoblauch, Salz und Kreuzkümmel in eine Küchenmaschine geben.",
+      "Etwa 1 Minute mixen, bis alles grob vermischt ist.",
+      "Bei laufender Maschine das infundierte Olivenöl und kaltes Wasser einträufeln.",
+      "Weitere 2–3 Minuten mixen, bis alles sehr glatt und cremig ist.",
+      "Abschmecken und Salz oder Zitrone nach Belieben anpassen.",
+      "In eine Servierschüssel umfüllen, mit normalem Olivenöl beträufeln und mit Paprika bestäuben.",
+      "In 8 Portionen aufteilen für eine genaue Dosierung. Im Kühlschrank bis zu 5 Tage aufbewahren."
+    ]
   },
   "infused-granola": {
     "name": "Infundiertes Granola",
     "description": "Knuspriges, goldenes Cannabis-infundiertes Granola mit Cannabutter oder infundiertem Kokosöl.",
-    "category_name": "Snacks"
+    "category_name": "Snacks",
+    "ingredients": [
+      "3 Tassen Haferflocken",
+      "1/2 Tasse Nüsse (Mandeln, Pekannüsse oder Walnüsse)",
+      "1/4 Tasse Kerne (Kürbis- oder Sonnenblumenkerne)",
+      "3 EL Cannabutter oder infundiertes Kokosöl, geschmolzen",
+      "3 EL Honig oder Ahornsirup",
+      "1 TL Vanilleextrakt",
+      "1/2 TL Zimt",
+      "Prise Salz",
+      "1/2 Tasse Trockenfrüchte (optional, nach dem Backen hinzufügen)"
+    ],
+    "instructions": [
+      "Ofen auf 300°F (150°C) vorheizen – niedrigere Temperatur bewahrt das THC.",
+      "In einer großen Schüssel Haferflocken, Nüsse, Kerne, Zimt und Salz vermischen.",
+      "In einer kleinen Schüssel geschmolzene Cannabutter, Honig und Vanille verrühren.",
+      "Die feuchten Zutaten über die trockenen gießen und alles gut vermengen.",
+      "Auf einem mit Backpapier ausgelegten Backblech dünn und gleichmäßig verteilen.",
+      "30–35 Minuten backen, alle 10 Minuten umrühren, bis es goldbraun und duftend ist.",
+      "Herausnehmen und vollständig abkühlen lassen – es wird beim Abkühlen knusprig.",
+      "Bei Bedarf Trockenfrüchte unterrühren. In 12 Portionen aufteilen für eine genaue Dosierung."
+    ]
   },
   "cannabis-avocado-toast": {
     "name": "Cannabis-Avocado-Toast",
     "description": "Bring dein Avocado-Toast-Game auf ein neues Level mit einem Schuss infundiertem Olivenöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 Scheiben dickes Brot (Sauerteig oder Vollkorn)",
+      "1 reife Avocado",
+      "1 EL infundiertes Olivenöl (siehe Rezept für infundiertes Olivenöl)",
+      "Saft einer halben Zitrone",
+      "Salz und Pfeffer nach Geschmack",
+      "Chiliflocken, Everything-Bagel-Gewürz oder frische Kräuter zum Garnieren",
+      "Optional: pochiertes Ei obenauf"
+    ],
+    "instructions": [
+      "Das Brot nach gewünschtem Bräunungsgrad toasten.",
+      "Die Avocado halbieren, den Kern entfernen und das Fruchtfleisch in eine Schüssel löffeln.",
+      "Mit einer Gabel zerdrücken. Zitronensaft, Salz und Pfeffer hinzufügen. Kurz vermischen – stückig lassen.",
+      "Die Avocado-Mischung großzügig auf dem getoasteten Brot verteilen.",
+      "Infundiertes Olivenöl darüber träufeln.",
+      "Mit Chiliflocken, Gewürzen oder Kräutern garnieren. Bei Bedarf ein pochiertes Ei dazugeben.",
+      "Ergibt 2 Portionen. Achtsam essen und mindestens eine Stunde warten, bevor du eine weitere Portion in Betracht ziehst."
+    ]
   },
   "cannabis-salad-dressing": {
     "name": "Cannabis-Salatdressing",
     "description": "Eine einfache Cannabis-Vinaigrette, die jeden Salat in eine infundierte Mahlzeit verwandelt.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3 EL infundiertes Olivenöl (siehe Rezept für infundiertes Olivenöl)",
+      "1 EL normales Olivenöl",
+      "2 EL Apfelessig oder Rotweinessig",
+      "1 TL Dijon-Senf",
+      "1 TL Honig",
+      "1 kleine Knoblauchzehe, fein gehackt",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Alle Zutaten in ein kleines Glas mit Deckel geben.",
+      "Kräftig schütteln, bis alles emulgiert und gut vermischt ist.",
+      "Abschmecken und Säure oder Süße nach Belieben anpassen.",
+      "Das Dressing direkt vor dem Servieren über den Salat träufeln – den Salat nicht im Voraus anmachen.",
+      "Dieses Rezept ergibt 4 Portionen. Das Dressing-Glas bis zu 1 Woche im Kühlschrank aufbewahren.",
+      "Vor jeder Verwendung schütteln, da sich Öl und Essig trennen."
+    ]
   },
   "infused-chocolate-bark": {
     "name": "Infundierte Schokoladenbruchstücke",
     "description": "Zartbitterschokoladen-Bruch mit Cannabutter und deinen Lieblingstoppings.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "200g Zartbitterschokolade (85% Kakao oder höher für Keto)",
+      "1 EL Cannabutter, weich (siehe Cannabutter-Rezept)",
+      "1/4 Tasse Toppings: Meersalzflocken, gehackte Nüsse, getrocknete Cranberries oder Kakaonibs"
+    ],
+    "instructions": [
+      "Zartbitterschokolade in einer hitzebeständigen Schüssel über einem Topf mit köchelndem Wasser (Wasserbad) schmelzen und rühren, bis sie glatt ist.",
+      "Vom Herd nehmen und die weiche Cannabutter einrühren, bis sie vollständig eingearbeitet ist.",
+      "Ein Backblech mit Backpapier auslegen. Die Schokoladenmischung ausgießen und zu einer gleichmäßigen Schicht von etwa 1/4 Zoll Dicke verteilen.",
+      "Schnell die gewählten Toppings über die Oberfläche streuen.",
+      "Mindestens 30 Minuten im Kühlschrank fest werden lassen, bis die Schokolade vollständig ausgehärtet ist.",
+      "In 12 etwa gleich große Stücke brechen. Im Kühlschrank in einem luftdichten Behälter bis zu 2 Wochen aufbewahren."
+    ]
   },
   "cannabis-vegan-brownies": {
     "name": "Vegane Cannabis-Brownies",
     "description": "Reichhaltige, fudgy Brownies mit Cannabis-Kokosöl – 100% pflanzlich.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "1 Tasse Cannabis-infundiertes Kokosöl",
+      "1½ Tassen Rohrzucker",
+      "2 Leinsamen-Eier (2 EL Leinsamen + 6 EL Wasser)",
+      "1 TL Vanille",
+      "1 Tasse Mehl",
+      "½ Tasse Kakaopulver",
+      "½ TL Salz",
+      "½ TL Backpulver",
+      "½ Tasse vegane Schokoladenstückchen"
+    ],
+    "instructions": [
+      "Ofen auf 350°F vorheizen. Leinsamen-Eier anrühren; 5 Min. ruhen lassen.",
+      "Cannabis-Öl, Zucker, Leinsamen-Eier und Vanille verquirlen.",
+      "Mehl, Kakao, Salz und Backpulver unterheben.",
+      "Schokoladenstückchen unterrühren. In eine gefettete 8x8-Form gießen.",
+      "25–30 Min. backen. Vor dem Schneiden abkühlen lassen."
+    ]
   },
   "infused-vegan-cheese-sauce": {
     "name": "Infundierte vegane Käsesauce",
     "description": "Cremige Cashew-Käsesauce mit Cannabis-Olivenöl – toll zu Pasta oder Nachos.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "1 Tasse rohe Cashewkerne, 4 Std. eingeweicht",
+      "2 EL Cannabis-Olivenöl",
+      "3 EL Hefeflocken",
+      "½ TL Knoblauchpulver",
+      "½ TL geräuchertes Paprikapulver",
+      "1 TL Zitronensaft",
+      "½ Tasse Wasser",
+      "Salz"
+    ],
+    "instructions": [
+      "Cashewkerne abtropfen lassen und mit allen Zutaten seidig pürieren.",
+      "In einem Topf bei niedriger Hitze erwärmen.",
+      "Abschmecken und servieren."
+    ]
   },
   "cannabis-lentil-soup": {
     "name": "Cannabis-Linsensuppe",
     "description": "Herzhafte rote Linsensuppe, verfeinert mit Cannabis-Olivenöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "1 Tasse rote Linsen",
+      "1 Zwiebel, gewürfelt",
+      "3 Knoblauchzehen",
+      "2 Karotten, gewürfelt",
+      "1 TL Kreuzkümmel",
+      "1 TL Koriander",
+      "½ TL Kurkuma",
+      "4 Tassen Gemüsebrühe",
+      "2 EL Cannabis-Olivenöl",
+      "Salz, Zitrone"
+    ],
+    "instructions": [
+      "Zwiebel und Knoblauch anbraten. Karotten und Gewürze hinzufügen.",
+      "Linsen und Brühe hinzufügen. 25 Min. köcheln lassen.",
+      "Die Hälfte pürieren für eine cremigere Konsistenz.",
+      "Vom Herd nehmen: Cannabis-Olivenöl und Zitrone einrühren."
+    ]
   },
   "infused-vegan-pancakes": {
     "name": "Infundierte vegane Pfannkuchen",
     "description": "Fluffige Wochenend-Pfannkuchen mit Cannabis-Kokosöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "1 Tasse Mehl",
+      "1 EL Zucker",
+      "1 TL Backpulver",
+      "½ TL Natron",
+      "Prise Salz",
+      "1 Tasse Hafermilch",
+      "1 TL Apfelessig",
+      "2 EL Cannabis-Kokosöl",
+      "1 TL Vanille"
+    ],
+    "instructions": [
+      "Hafermilch und Essig mischen; 5 Min. ruhen lassen.",
+      "Trockene Zutaten vermengen.",
+      "Cannabis-Öl und Vanille zur Hafermilch-Mischung geben.",
+      "Nasse und trockene Zutaten nur kurz verrühren.",
+      "2–3 Min. pro Seite in einer beschichteten Pfanne backen."
+    ]
   },
   "cannabis-sweet-potato-curry": {
     "name": "Cannabis-Süßkartoffel-Curry",
     "description": "Wärmendes Kokos-Süßkartoffel-Curry mit Kichererbsen und Cannabis-Kokosöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "2 EL Cannabis-Kokosöl",
+      "1 Zwiebel",
+      "3 Knoblauchzehen",
+      "1 EL Ingwer",
+      "2 EL Currypulver",
+      "2 Süßkartoffeln, gewürfelt",
+      "400ml Kokosmilch",
+      "1 Dose Kichererbsen",
+      "1 Tasse Gemüsebrühe",
+      "Salz, Limette, Koriander"
+    ],
+    "instructions": [
+      "Zwiebel, Knoblauch und Ingwer anbraten. Currypulver hinzufügen.",
+      "Süßkartoffeln, Kokosmilch und Brühe hinzufügen. 20 Min. köcheln lassen.",
+      "Kichererbsen hinzufügen; weitere 5 Min. kochen.",
+      "Vom Herd nehmen: Cannabis-Kokosöl, Limette und Koriander unterrühren."
+    ]
   },
   "infused-jackfruit-tacos": {
     "name": "Infundierte Jackfruit-Tacos",
     "description": "Gezupfte Jackfruit-Tacos mit rauchigen Gewürzen und Cannabis-Olivenöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "2 Dosen junge Jackfruit, abgetropft",
+      "2 EL Cannabis-Olivenöl",
+      "1 TL geräuchertes Paprikapulver",
+      "1 TL Kreuzkümmel",
+      "1 TL Knoblauchpulver",
+      "½ TL Chilipulver",
+      "8 Maistortillas",
+      "Avocado, Salsa, Limette"
+    ],
+    "instructions": [
+      "Jackfruit mit einer Gabel zerrupfen.",
+      "Würzen und in der Pfanne braten, bis die Ränder karamellisieren.",
+      "Vom Herd nehmen: Cannabis-Olivenöl unterrühren.",
+      "In warmen Tortillas mit Avocado und Salsa servieren."
+    ]
   },
   "cannabis-vegan-chocolate-mousse": {
     "name": "Veganes Cannabis-Schokomousse",
     "description": "Seidiges Avocado-Schokomousse mit Cannabis-Kokosöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "2 reife Avocados",
+      "¼ Tasse Kakaopulver",
+      "¼ Tasse Ahornsirup",
+      "2 EL Cannabis-Kokosöl",
+      "1 TL Vanille",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Alle Zutaten glatt pürieren.",
+      "Abschmecken und Süße nach Bedarf anpassen.",
+      "1 Stunde vor dem Servieren kalt stellen.",
+      "Mit Beeren oder Kokossahne garnieren."
+    ]
   },
   "infused-vegan-mac-and-cheese": {
     "name": "Infundierte vegane Mac and Cheese",
     "description": "Wohliges pflanzliches Mac and Cheese mit Cashew-Cannabis-Sauce.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "300g Makkaroni",
+      "1 Tasse eingeweichte Cashewkerne",
+      "2 EL Cannabis-Olivenöl",
+      "3 EL Hefeflocken",
+      "1 TL Knoblauchpulver",
+      "1 TL Zwiebelpulver",
+      "½ TL Kurkuma",
+      "1 Tasse Nudelwasser",
+      "Salz"
+    ],
+    "instructions": [
+      "Nudeln kochen; 1 Tasse Wasser aufheben.",
+      "Cashewkerne, Cannabis-Öl, Hefeflocken, Gewürze und ½ Tasse Wasser glatt pürieren.",
+      "Abgetropfte Nudeln bei niedriger Hitze mit der Soße schwenken, bei Bedarf Wasser hinzufügen.",
+      "Abschmecken und servieren."
+    ]
   },
   "cannabis-coconut-milk-ice-cream": {
     "name": "Cannabis-Kokosmilch-Eis",
     "description": "Cremiges veganes 3-Zutaten-Eis mit Cannabis-Kokosöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "2 Dosen Kokosmilch (vollfett), über Nacht gekühlt",
+      "3 EL Cannabis-Kokosöl",
+      "½ Tasse Ahornsirup",
+      "1 TL Vanille",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Die feste Sahne von der Oberseite der Dosen abschöpfen und cremig schlagen.",
+      "Cannabis-Öl, Ahornsirup, Vanille und Salz unterheben.",
+      "4-6 Stunden einfrieren. Vor dem Portionieren 5 Min. antauen lassen."
+    ]
   },
   "infused-chickpea-stew": {
     "name": "Infundierter Kichererbseneintopf",
     "description": "Tomatenbasierter Kichererbseneintopf, verfeinert mit Cannabis-Olivenöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "2 Dosen Kichererbsen",
+      "2 EL Cannabis-Olivenöl",
+      "1 Zwiebel",
+      "4 Knoblauchzehen",
+      "1 TL geräuchertes Paprikapulver",
+      "1 TL Kreuzkümmel",
+      "½ TL Cayennepfeffer",
+      "1 Dose stückige Tomaten",
+      "1 Tasse Gemüsebrühe",
+      "Petersilie"
+    ],
+    "instructions": [
+      "Zwiebel und Knoblauch anbraten. Gewürze hinzufügen.",
+      "Kichererbsen, Tomaten und Brühe hinzufügen. 20 Min. köcheln lassen.",
+      "Vom Herd nehmen: Cannabis-Olivenöl unterrühren. Abschmecken und garnieren."
+    ]
   },
   "cannabis-vegan-protein-balls": {
     "name": "Vegane Cannabis-Proteinbällchen",
     "description": "Energy Balls ohne Backen mit Erdnussbutter und Cannabis-Kokosöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "1 Tasse Haferflocken",
+      "½ Tasse Erdnussbutter",
+      "3 EL Cannabis-Kokosöl",
+      "3 EL Ahornsirup",
+      "2 EL Leinsamen",
+      "2 EL veganes Proteinpulver",
+      "½ Tasse vegane Schokoladenstückchen",
+      "1 TL Vanille"
+    ],
+    "instructions": [
+      "Alle Zutaten vermengen. Bei Bedarf 15 Min. kalt stellen, falls zu klebrig.",
+      "Zu esslöffelgroßen Kugeln rollen.",
+      "30 Min. vor dem Servieren kalt stellen. Hält sich 1 Woche im Kühlschrank."
+    ]
   },
   "infused-vegan-pesto-zoodles": {
     "name": "Infundierte vegane Pesto-Zoodles",
     "description": "Spiralisierte Zucchini mit Basilikum-Pesto aus Cannabis-Olivenöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "4 Zucchini, spiralisiert",
+      "2 Tassen frisches Basilikum",
+      "3 EL Cannabis-Olivenöl",
+      "¼ Tasse Pinienkerne",
+      "3 Knoblauchzehen",
+      "1 EL Zitronensaft",
+      "Salz, Pfeffer",
+      "Kirschtomaten"
+    ],
+    "instructions": [
+      "Basilikum, Pinienkerne, Knoblauch, Zitrone und Cannabis-Öl pürieren. Abschmecken.",
+      "Zucchininudeln kurz 1-2 Min. anbraten (oder roh servieren).",
+      "Mit Pesto vermengen und mit Kirschtomaten garnieren."
+    ]
   },
   "cannabis-black-bean-soup": {
     "name": "Cannabis-Schwarze-Bohnen-Suppe",
     "description": "Rauchige Schwarze-Bohnen-Suppe, verfeinert mit Cannabis-Olivenöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "2 Dosen schwarze Bohnen",
+      "2 EL Cannabis-Olivenöl",
+      "1 Zwiebel",
+      "4 Knoblauchzehen",
+      "1 Jalapeño",
+      "2 TL Kreuzkümmel",
+      "1 TL geräuchertes Paprikapulver",
+      "3 Tassen Gemüsebrühe",
+      "Limette, Koriander"
+    ],
+    "instructions": [
+      "Zwiebel, Knoblauch und Jalapeño anbraten. Gewürze hinzufügen.",
+      "Bohnen und Brühe hinzufügen. 20 Min. köcheln lassen.",
+      "Die Hälfte pürieren und wieder unterrühren.",
+      "Vom Herd nehmen: Cannabis-Öl und Limette unterrühren. Mit Koriander servieren."
+    ]
   },
   "infused-vegan-banana-ice-cream": {
     "name": "Infundiertes veganes Bananeneis",
     "description": "Nice Cream aus nur einer Zutat mit Cannabis-Kokosöl.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "4 sehr reife Bananen, gefroren",
+      "2 EL Cannabis-Kokosöl",
+      "1 TL Vanille",
+      "Optional: Erdnussbutter oder Kakao"
+    ],
+    "instructions": [
+      "Gefrorene Bananen glatt und cremig pürieren.",
+      "Cannabis-Öl und Vanille hinzufügen; nochmals pürieren.",
+      "Optionale Zutaten hinzufügen und kurz mixen.",
+      "Als Softeis servieren oder 1 Std. einfrieren für eine löffelbare Konsistenz."
+    ]
   },
   "cannabis-roasted-vegetable-medley": {
     "name": "Cannabis-Ofengemüse",
     "description": "Buntes Blech-Ofengemüse, nach dem Rösten mit Cannabis-Olivenöl beträufelt.",
-    "category_name": "Vegan"
+    "category_name": "Vegan",
+    "ingredients": [
+      "1 rote Paprika, gewürfelt",
+      "1 Zucchini, gewürfelt",
+      "1 rote Zwiebel, in Spalten",
+      "1 Tasse Kirschtomaten",
+      "200g Brokkoliröschen",
+      "2 EL Olivenöl",
+      "1 TL italienische Kräutermischung",
+      "2 EL Cannabis-Olivenöl zum Fertigstellen",
+      "Frisches Basilikum"
+    ],
+    "instructions": [
+      "Ofen auf 425°F vorheizen.",
+      "Gemüse mit normalem Olivenöl, Gewürzen, Salz und Pfeffer vermengen.",
+      "25-30 Min. rösten, zwischendurch wenden.",
+      "Mit Cannabis-Olivenöl beträufeln und Basilikum darüberstreuen."
+    ]
   },
   "cannabis-keto-bacon-bites": {
     "name": "Cannabis-Keto-Speck-Häppchen",
     "description": "Knusprige, in Speck gewickelte Häppchen mit Frischkäse und Cannabutter.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "12 Baconstreifen",
+      "100g Frischkäse, zimmerwarm",
+      "2 EL Cannabutter",
+      "1 TL Knoblauchpulver",
+      "½ TL geräuchertes Paprikapulver",
+      "12 Jalapeño-Scheiben"
+    ],
+    "instructions": [
+      "Ofen auf 400°F vorheizen.",
+      "Frischkäse, Cannabutter, Knoblauch und Paprikapulver verrühren.",
+      "Auf Baconstreifen verteilen, Jalapeño darauflegen, aufrollen und fixieren.",
+      "20-25 Min. backen, bis sie knusprig sind."
+    ]
   },
   "infused-keto-chicken-wings": {
     "name": "Infundierte Keto-Chicken-Wings",
     "description": "Knusprig gebackene Wings in Cannabutter-Hot-Sauce geschwenkt.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1kg Hähnchenflügel",
+      "1 TL Backpulver",
+      "1 TL Knoblauchpulver",
+      "Salz und Pfeffer",
+      "3 EL Cannabutter, geschmolzen",
+      "3 EL scharfe Soße",
+      "1 TL Apfelessig"
+    ],
+    "instructions": [
+      "Ofen auf 425°F vorheizen. Flügel mit Backpulver und Gewürzen vermengen.",
+      "Auf einem Rost 45-50 Min. backen, zwischendurch wenden.",
+      "Cannabutter, scharfe Soße und Essig verrühren.",
+      "Heiße Flügel in der Soße schwenken."
+    ]
   },
   "cannabis-keto-deviled-eggs": {
     "name": "Cannabis-Keto-Gefüllte-Eier",
     "description": "Klassische gefüllte Eier mit Cannabutter-Eigelb-Füllung.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "6 hartgekochte Eier",
+      "2 EL Cannabutter, zimmerwarm",
+      "2 EL Mayonnaise",
+      "1 TL Dijon-Senf",
+      "1 TL Apfelessig",
+      "Salz, Pfeffer",
+      "Paprikapulver und Schnittlauch"
+    ],
+    "instructions": [
+      "Eier halbieren; Eigelb herauslösen.",
+      "Eigelb mit Cannabutter, Mayonnaise, Senf, Essig, Salz und Pfeffer zerdrücken.",
+      "Zurück in die Eiweißhälften spritzen.",
+      "Mit Paprikapulver und Schnittlauch bestreuen."
+    ]
   },
   "infused-keto-stuffed-mushrooms": {
     "name": "Infundierte Keto-Gefüllte-Champignons",
     "description": "Champignons gefüllt mit Frischkäse und Cannabutter.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "12 große Pilze, Stiele entfernt",
+      "100g Frischkäse",
+      "2 EL Cannabutter",
+      "3 Knoblauchzehen, fein gehackt",
+      "50g Parmesan, gerieben",
+      "2 EL Petersilie",
+      "Salz, Pfeffer"
+    ],
+    "instructions": [
+      "Ofen auf 375°F vorheizen.",
+      "Knoblauch 1 Min. in Cannabutter anbraten.",
+      "Mit Frischkäse, Parmesan, Petersilie, Salz und Pfeffer verrühren.",
+      "In die Pilzkappen füllen. 20-25 Min. backen."
+    ]
   },
   "cannabis-keto-beef-chili": {
     "name": "Cannabis-Keto-Rindfleisch-Chili",
     "description": "Low-Carb-Rindfleisch-Chili mit Cannabis-Olivenöl.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "500g Rinderhackfleisch",
+      "2 EL Cannabis-Olivenöl",
+      "1 Zwiebel",
+      "4 Knoblauchzehen",
+      "1 EL Chilipulver",
+      "1 TL Kreuzkümmel",
+      "1 TL geräuchertes Paprikapulver",
+      "1 Dose stückige Tomaten",
+      "1 Tasse Rinderbrühe",
+      "Sauerrahm zum Servieren"
+    ],
+    "instructions": [
+      "Hackfleisch anbraten; Fett abgießen.",
+      "Zwiebel und Knoblauch hinzufügen; weich dünsten.",
+      "Gewürze, Tomaten und Brühe hinzufügen. 30 Min. köcheln lassen.",
+      "Vom Herd nehmen: Cannabis-Öl unterrühren. Mit Sauerrahm servieren."
+    ]
   },
   "infused-keto-zucchini-chips": {
     "name": "Infundierte Keto-Zucchini-Chips",
     "description": "Dünn geschnittene, knusprig gebackene Zucchini-Chips mit Cannabis-Olivenöl.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 Zucchini, sehr dünn geschnitten",
+      "2 EL Cannabis-Olivenöl",
+      "½ TL Knoblauchpulver",
+      "½ TL Zwiebelpulver",
+      "Salz, Pfeffer",
+      "¼ Tasse Parmesan, gerieben"
+    ],
+    "instructions": [
+      "Ofen auf 225°F vorheizen.",
+      "Zucchini mit Cannabis-Öl und Gewürzen vermengen.",
+      "In einer Schicht auslegen; Parmesan darüberstreuen.",
+      "2-2,5 Std. backen, bis sie knusprig sind. Auf dem Blech abkühlen lassen."
+    ]
   },
   "cannabis-keto-waffles": {
     "name": "Cannabis-Keto-Waffeln",
     "description": "Fluffige Mandelmehl-Waffeln mit Cannabutter.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 Tasse Mandelmehl",
+      "2 EL Kokosmehl",
+      "2 Eier",
+      "2 EL Cannabutter, geschmolzen",
+      "¼ Tasse Mandelmilch",
+      "1 TL Backpulver",
+      "Prise Salz",
+      "1 TL Vanille"
+    ],
+    "instructions": [
+      "Waffeleisen vorheizen.",
+      "Eier, Cannabutter, Milch und Vanille verquirlen.",
+      "Mehl, Backpulver und Salz hinzufügen.",
+      "Im Waffeleisen goldbraun backen. Mit zuckerfreiem Sirup servieren."
+    ]
   },
   "infused-keto-salmon-patties": {
     "name": "Infundierte Keto-Lachs-Patties",
     "description": "Gebratene Lachs-Patties mit Cannabutter.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "400g gekochter Lachs, zerkleinert",
+      "1 Ei",
+      "3 EL Mandelmehl",
+      "2 EL Cannabutter",
+      "2 EL Mayonnaise",
+      "1 EL Dijon-Senf",
+      "2 Frühlingszwiebeln",
+      "Salz, Pfeffer, Zitrone"
+    ],
+    "instructions": [
+      "Lachs, Ei, Mandelmehl, Mayonnaise, Senf und Frühlingszwiebeln vermengen.",
+      "6 Bratlinge formen.",
+      "Cannabutter in einer Pfanne schmelzen.",
+      "Pro Seite 3-4 Min. goldbraun braten. Mit Zitrone servieren."
+    ]
   },
   "cannabis-keto-spinach-dip": {
     "name": "Cannabis-Keto-Spinat-Dip",
     "description": "Warmer, käsiger Spinat-Dip mit Cannabutter.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 EL Cannabutter",
+      "300g Tiefkühlspinat, aufgetaut und ausgedrückt",
+      "200g Frischkäse",
+      "½ Tasse Sauerrahm",
+      "½ Tasse Mozzarella, gerieben",
+      "¼ Tasse Parmesan",
+      "2 Knoblauchzehen",
+      "Salz, Pfeffer"
+    ],
+    "instructions": [
+      "Ofen auf 375°F vorheizen.",
+      "Knoblauch in Cannabutter anbraten. Spinat hinzufügen.",
+      "Frischkäse, Sauerrahm und die Hälfte des Mozzarellas unterrühren.",
+      "In eine Auflaufform geben, restlichen Käse darüberstreuen.",
+      "20-25 Min. backen, bis es blubbert."
+    ]
   },
   "infused-keto-almond-flour-cake": {
     "name": "Infundierter Keto-Mandelmehl-Kuchen",
     "description": "Saftiger Keto-Kuchen mit Mandelmehl und Cannabutter.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 Tassen Mandelmehl",
+      "3 Eier",
+      "½ Tasse Cannabutter, geschmolzen",
+      "½ Tasse Erythrit",
+      "1 TL Vanille",
+      "1 TL Backpulver",
+      "Prise Salz",
+      "Abrieb von 1 Zitrone"
+    ],
+    "instructions": [
+      "Ofen auf 350°F vorheizen. Eine 20-cm-Form einfetten.",
+      "Eier, Cannabutter, Süßungsmittel und Vanille schaumig schlagen.",
+      "Mandelmehl, Backpulver, Salz und Zitronenabrieb unterrühren.",
+      "30-35 Min. backen. Vollständig abkühlen lassen."
+    ]
   },
   "cannabis-sparkling-lemonade": {
     "name": "Cannabis-Sprudel-Limonade",
     "description": "Prickelnde Limonade mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Saft von 4 Zitronen",
+      "2 EL Cannabis-Zuckersirup",
+      "1 Tasse Sprudelwasser",
+      "Eis",
+      "Zitrone und Minze zum Garnieren"
+    ],
+    "instructions": [
+      "Cannabis-Sirup herstellen: Zucker in Wasser bei Hitze auflösen, abkühlen lassen, Cannabis-Tinktur einrühren.",
+      "Zitronensaft und Cannabis-Sirup vermischen.",
+      "Eis hinzufügen, mit Sprudelwasser auffüllen. Garnieren."
+    ]
   },
   "infused-virgin-mojito": {
     "name": "Infundierter Virgin Mojito",
     "description": "Minziger Limetten-Mocktail mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Saft von 2 Limetten",
+      "2 EL Cannabis-Zuckersirup",
+      "10 frische Minzblätter",
+      "½ Tasse Sprudelwasser",
+      "Eis",
+      "Limettenspalte"
+    ],
+    "instructions": [
+      "Minze in einem Glas zerdrücken.",
+      "Eis, Limettensaft und Cannabis-Sirup hinzufügen.",
+      "Mit Sprudelwasser auffüllen. Mit Limette garnieren."
+    ]
   },
   "cannabis-cucumber-mint-cooler": {
     "name": "Cannabis-Gurken-Minz-Cooler",
     "description": "Erfrischender Gurken-Minz-Mocktail mit Cannabis-Sirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "½ Gurke, in Scheiben geschnitten",
+      "10 Minzblätter",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von 1 Limette",
+      "1 cup Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Gurke und Minze mit Sirup und Limettensaft zerdrücken.",
+      "Mit Eis schütteln und abseihen.",
+      "Mit Sprudelwasser auffüllen."
+    ]
   },
   "infused-watermelon-slush": {
     "name": "Infundierter Wassermelonen-Slush",
     "description": "Gemixter Wassermelonen-Slush mit Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "4 cups gefrorene Wassermelone",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Limette",
+      "Prise Salz",
+      "Frische Minze"
+    ],
+    "instructions": [
+      "Wassermelone, Cannabis-Honig, Limette und Salz glatt pürieren.",
+      "In Gläser füllen und mit Minze garnieren."
+    ]
   },
   "cannabis-lavender-lemonade": {
     "name": "Cannabis-Lavendel-Limonade",
     "description": "Blumige Limonade mit Cannabis-Lavendel-Sirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Saft von 4 Zitronen",
+      "2 tbsp Cannabis-Lavendelsirup",
+      "2 cups kaltes Wasser",
+      "Eis",
+      "Getrockneter Lavendel"
+    ],
+    "instructions": [
+      "Wasser, Zucker und Lavendel 10 Min. köcheln; abseihen; Cannabis-Tinktur hinzufügen.",
+      "Zitronensaft, Sirup und Wasser mischen. Über Eis gießen."
+    ]
   },
   "infused-tropical-punch": {
     "name": "Infundierter Tropischer Punsch",
     "description": "Mango-, Ananas- und Maracuja-Punsch mit Cannabis-Sirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup Mangosaft",
+      "1 cup Ananassaft",
+      "½ cup Maracujasaft",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von 1 Limette",
+      "Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Säfte, Cannabis-Sirup und Limette in einem Krug mischen.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen."
+    ]
   },
   "cannabis-strawberry-basil-smash": {
     "name": "Cannabis-Erdbeer-Basilikum-Smash",
     "description": "Sommerlicher Erdbeer-Basilikum-Mocktail mit Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "6 Erdbeeren, Stielansatz entfernt",
+      "6 Basilikumblätter",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Zitrone",
+      "Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Erdbeeren und Basilikum mit Cannabis-Honig und Zitrone zerdrücken.",
+      "Über Eis abseihen. Mit Sprudelwasser auffüllen."
+    ]
   },
   "infused-hibiscus-tea": {
     "name": "Infundierter Hibiskustee",
     "description": "Tiefroter Hibiskus-Eistee mit Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "3 tbsp getrockneter Hibiskus",
+      "4 cups kochendes Wasser",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Limette",
+      "Eis",
+      "Orangenscheiben"
+    ],
+    "instructions": [
+      "Hibiskus 10 Min. ziehen lassen. Abseihen und abkühlen lassen.",
+      "Cannabis-Honig und Limette einrühren. Über Eis servieren."
+    ]
   },
   "cannabis-peach-iced-tea": {
     "name": "Cannabis-Pfirsich-Eistee",
     "description": "Südstaaten-Pfirsich-Eistee mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "4 Schwarzteebeutel",
+      "4 cups heißes Wasser",
+      "2 reife Pfirsiche, in Scheiben geschnitten",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von ½ Zitrone",
+      "Eis"
+    ],
+    "instructions": [
+      "Tee 5 Min. ziehen lassen. Pfirsiche hinzufügen; abkühlen lassen und 1 Stunde kalt stellen.",
+      "Abseihen; Cannabis-Sirup und Zitrone einrühren. Über Eis servieren."
+    ]
   },
   "infused-mango-lassi": {
     "name": "Infundierter Mango-Lassi",
     "description": "Cremiger Mango-Lassi mit Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "2 cups reife Mango",
+      "1 cup Joghurt",
+      "½ cup Milch",
+      "2 tbsp Cannabis-Honig",
+      "½ tsp Kardamom",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Alle Zutaten glatt pürieren.",
+      "Abschmecken und anpassen. In Gläser füllen."
+    ]
   },
   "cannabis-rose-lemonade": {
     "name": "Cannabis-Rosen-Limonade",
     "description": "Elegante, blumige Limonade mit Cannabis-Tinktur.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Saft von 4 Zitronen",
+      "2 tbsp Rosensirup",
+      "1 tsp Cannabis-Tinktur",
+      "2 cups Sprudelwasser",
+      "Eis",
+      "Getrocknete Rosenblütenblätter"
+    ],
+    "instructions": [
+      "Zitronensaft, Rosensirup und Cannabis-Tinktur mischen.",
+      "Sprudelwasser über Eis hinzufügen. Mit Rosenblütenblättern garnieren."
+    ]
   },
   "infused-pineapple-ginger-fizz": {
     "name": "Infundierter Ananas-Ingwer-Fizz",
     "description": "Tropischer Ananas-Ingwer-Fizz mit Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup frischer Ananassaft",
+      "1 inch Ingwer, gerieben",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Limette",
+      "Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Ananassaft, Ingwer, Cannabis-Honig und Limette mischen. Abseihen.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen."
+    ]
   },
   "cannabis-cranberry-spritzer": {
     "name": "Cannabis-Cranberry-Spritzer",
     "description": "Festlicher Cranberry-Spritzer mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup Cranberrysaft",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von ½ Orange",
+      "Sprudelwasser",
+      "Eis",
+      "Cranberries, Rosmarin"
+    ],
+    "instructions": [
+      "Cranberrysaft, Cannabis-Sirup und Orangensaft mischen.",
+      "Eis und Sprudelwasser hinzufügen. Garnieren."
+    ]
   },
   "infused-matcha-cooler": {
     "name": "Infundierter Matcha-Cooler",
     "description": "Kalter Matcha mit Cannabis-Honig und Hafermilch.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 tsp Matchapulver",
+      "2 tbsp heißes Wasser",
+      "1 cup kalte Hafermilch",
+      "2 tbsp Cannabis-Honig",
+      "Eis"
+    ],
+    "instructions": [
+      "Matcha mit heißem Wasser glatt rühren. Cannabis-Honig hinzufügen.",
+      "Glas mit Eis und Hafermilch füllen. Matcha darüber gießen."
+    ]
   },
   "cannabis-passion-fruit-lemonade": {
     "name": "Cannabis-Maracuja-Limonade",
     "description": "Tropische Limonade mit Maracuja und Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Fruchtfleisch von 4 Maracujas",
+      "Saft von 3 Zitronen",
+      "2 tbsp Cannabis-Honig",
+      "1½ cups Sprudelwasser",
+      "Eis",
+      "Minze"
+    ],
+    "instructions": [
+      "Maracuja, Zitrone und Cannabis-Honig verrühren, bis sich alles aufgelöst hat.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen. Garnieren."
+    ]
   },
   "infused-cherry-limeade": {
     "name": "Infundierte Kirsch-Limeade",
     "description": "Kirsch-Limetten-Mocktail mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup herber Kirschsaft",
+      "Saft von 3 Limetten",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Sprudelwasser",
+      "Eis",
+      "Limette, Kirschen"
+    ],
+    "instructions": [
+      "Kirschsaft, Limette und Cannabis-Sirup mischen.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen. Garnieren."
+    ]
   },
   "cannabis-mint-green-tea": {
     "name": "Cannabis-Minz-Grüntee",
     "description": "Kühler Minz-Grüntee mit Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "3 Grünteebeutel",
+      "4 cups heißes Wasser",
+      "2 tbsp Cannabis-Honig",
+      "10 Minzblätter",
+      "Saft von 1 Zitrone",
+      "Eis"
+    ],
+    "instructions": [
+      "Grünen Tee 3 Min. ziehen lassen. Cannabis-Honig warm einrühren.",
+      "Minze und Zitrone hinzufügen. Abkühlen lassen, kalt stellen. Über Eis servieren."
+    ]
   },
   "infused-blueberry-lemonade": {
     "name": "Infundierte Blaubeer-Limonade",
     "description": "Lila Blaubeer-Limonade mit Cannabis-Sirup.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup Blaubeeren",
+      "Saft von 4 Zitronen",
+      "2 tbsp Cannabis-Zuckersirup",
+      "2 cups kaltes Wasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Blaubeeren mit ¼ cup Wasser aufkochen; abseihen.",
+      "Blaubeersaft, Zitrone, Cannabis-Sirup und Wasser mischen. Über Eis servieren."
+    ]
   },
   "cannabis-ginger-turmeric-tonic": {
     "name": "Cannabis-Ingwer-Kurkuma-Tonic",
     "description": "Wellness-Tonic mit Ingwer, Kurkuma und Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 inch Ingwer, gerieben",
+      "½ tsp Kurkuma",
+      "Saft von 1 Zitrone",
+      "2 tbsp Cannabis-Honig",
+      "1 cup warmes Wasser",
+      "Prise schwarzer Pfeffer",
+      "Sprudelwasser"
+    ],
+    "instructions": [
+      "Ingwer, Kurkuma, Zitrone und Cannabis-Honig in warmem Wasser verrühren.",
+      "Abkühlen lassen, Eis hinzufügen, mit Sprudelwasser auffüllen. Schwarzen Pfeffer hinzufügen."
+    ]
   },
   "infused-coconut-lime-agua-fresca": {
     "name": "Infundierte Kokos-Limetten-Agua-Fresca",
     "description": "Leichte Kokos-Limetten-Agua-Fresca mit Cannabis-Honig.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup Kokoswasser",
+      "Saft von 3 Limetten",
+      "1 cup Sprudelwasser",
+      "2 tbsp Cannabis-Honig",
+      "Eis",
+      "Limettenabrieb, Kokosflocken"
+    ],
+    "instructions": [
+      "Kokoswasser, Limette und Cannabis-Honig verrühren, bis sich alles aufgelöst hat.",
+      "Sprudelwasser über Eis hinzufügen. Garnieren."
+    ]
   },
   "cannabis-cheesecake": {
     "name": "Cannabis-Käsekuchen",
     "description": "Cremiger gebackener Käsekuchen mit Cannabutter-Krustenboden.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "Boden: 200g Butterkekse, zerbröselt",
+      "80g Cannabutter, geschmolzen",
+      "Füllung: 600g Frischkäse",
+      "¾ cup feiner Zucker",
+      "3 Eier",
+      "1 tsp Vanille",
+      "200ml saure Sahne",
+      "2 tbsp Mehl"
+    ],
+    "instructions": [
+      "Ofen auf 325°F vorheizen. Kekse und Cannabutter mischen; in eine 9-Zoll-Springform drücken.",
+      "Frischkäse und Zucker cremig rühren. Eier einzeln hinzufügen.",
+      "Vanille, saure Sahne und Mehl unterrühren. Über den Boden gießen.",
+      "Im Wasserbad 55-60 Min. backen. Im Ofen 1 Stunde abkühlen lassen.",
+      "Vor dem Servieren 4 Stunden kalt stellen."
+    ]
   },
   "infused-tiramisu": {
     "name": "Infundiertes Tiramisu",
     "description": "Klassisches Tiramisu mit Cannabis-Mascarpone-Creme.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "3 Eigelb",
+      "75g Zucker",
+      "250g Mascarpone",
+      "2 tbsp Cannabutter, weich",
+      "200ml starker Espresso, abgekühlt",
+      "200g Löffelbiskuits",
+      "2 tbsp Kakaopulver",
+      "1 tsp Vanille"
+    ],
+    "instructions": [
+      "Eigelb und Zucker schaumig schlagen. Mascarpone, Cannabutter und Vanille unterrühren.",
+      "Löffelbiskuits in Espresso tauchen; in eine Form schichten.",
+      "Die Hälfte der Creme darauf verteilen. Schichten wiederholen.",
+      "Mit Kakao bestäuben. Mindestens 4 Stunden kalt stellen."
+    ]
   },
   "cannabis-apple-pie": {
     "name": "Cannabis-Apfelkuchen",
     "description": "Klassischer Apfelkuchen mit doppeltem Boden aus Cannabutter-Mürbeteig.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "Teig: 2½ cups Mehl",
+      "200g Cannabutter, kalt, gewürfelt",
+      "6-8 tbsp Eiswasser",
+      "½ tsp Salz",
+      "Füllung: 6 Äpfel, geschält und in Scheiben geschnitten",
+      "¾ cup Zucker",
+      "2 tsp Zimt",
+      "¼ tsp Muskatnuss",
+      "2 tbsp Speisestärke"
+    ],
+    "instructions": [
+      "Teig zubereiten; 1 Stunde kalt stellen. Ofen auf 375°F vorheizen.",
+      "Apfelfüllung mischen.",
+      "Form mit der Hälfte des Teigs auslegen. Füllung einfüllen.",
+      "Mit der zweiten Teigplatte bedecken; Ränder verschließen und wellenförmig andrücken.",
+      "50-60 Min. backen, bis der Teig goldbraun ist."
+    ]
   },
   "infused-chocolate-lava-cake": {
     "name": "Infundierter Schokoladen-Lavakuchen",
     "description": "Schmelzende Schokoladenküchlein mit flüssigem Cannabutter-Kern.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "100g Zartbitterschokolade",
+      "100g Cannabutter",
+      "2 Eier + 2 Eigelb",
+      "80g Puderzucker",
+      "40g Mehl",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Ofen auf 425°F vorheizen. 4 Förmchen einfetten.",
+      "Schokolade und Cannabutter schmelzen. Leicht abkühlen lassen.",
+      "Eier, Eigelb und Puderzucker einrühren. Mehl und Salz unterheben.",
+      "Förmchen füllen. 30 Min. kalt stellen.",
+      "12-13 Min. backen. 1 Min. ruhen lassen, dann stürzen."
+    ]
   },
   "cannabis-lemon-bars": {
     "name": "Cannabis-Zitronenschnitten",
     "description": "Frische Zitronencreme auf Cannabis-Mürbeteig.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "Boden: 1 cup Mehl",
+      "115g Cannabutter",
+      "¼ cup Puderzucker",
+      "Prise Salz",
+      "Füllung: 3 Eier",
+      "1 cup feiner Zucker",
+      "Saft und Abrieb von 3 Zitronen",
+      "3 tbsp Mehl",
+      "Puderzucker zum Bestäuben"
+    ],
+    "instructions": [
+      "Ofen auf 350°F vorheizen. Boden in eine 8x8-Form drücken. 18 Min. backen.",
+      "Füllungszutaten verquirlen. Über den heißen Boden gießen.",
+      "20-22 Min. backen, bis die Füllung fest ist. Abkühlen lassen und kalt stellen.",
+      "Mit Puderzucker bestäuben und in Riegel schneiden."
+    ]
   },
   "infused-carrot-cake": {
     "name": "Infundierter Karottenkuchen",
     "description": "Würziger, saftiger Karottenkuchen mit Cannabisöl.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "2 cups Mehl",
+      "3 Eier",
+      "1½ cups Zucker",
+      "1 cup Cannabis-Pflanzenöl",
+      "2 tsp Vanille",
+      "3 cups geriebene Karotten",
+      "1½ tsp Backpulver",
+      "1 tsp Zimt",
+      "½ tsp Muskatnuss",
+      "Glasur: 250g Frischkäse, 1 cup Puderzucker, 1 tsp Vanille"
+    ],
+    "instructions": [
+      "Ofen auf 350°F vorheizen. Eier, Zucker, Cannabis-Öl und Vanille verquirlen.",
+      "Mehl, Gewürze und geriebene Karotten unterheben.",
+      "In zwei 8-Zoll-Formen 30-35 Min. backen. Vollständig abkühlen lassen.",
+      "Glasur aufschlagen; Kuchen füllen und überziehen."
+    ]
   },
   "cannabis-coconut-macaroons": {
     "name": "Cannabis-Kokosmakronen",
     "description": "Zähe Kokosmakronen mit Cannabis-Kondensmilch.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "3 cups Kokosraspeln",
+      "½ cup Cannabis-Kondensmilch",
+      "2 Eiweiß",
+      "1 tsp Vanille",
+      "Prise Salz",
+      "100g Zartbitterschokolade zum Eintauchen"
+    ],
+    "instructions": [
+      "Ofen auf 325°F vorheizen.",
+      "Kokos, Cannabis-Kondensmilch, Vanille und Salz mischen.",
+      "Steif geschlagenes Eiweiß unterheben.",
+      "Portionen auf ein ausgelegtes Blech setzen. 18-20 Min. backen.",
+      "Nach dem Abkühlen die Unterseiten in geschmolzene Schokolade tauchen."
+    ]
   },
   "infused-fudge": {
     "name": "Infundiertes Fudge",
     "description": "Auf der Zunge zergehendes Fudge mit Cannabis-Kondensmilch.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "400g Zartbitterschokolade, gehackt",
+      "400g Cannabis-Kondensmilch",
+      "2 tbsp Butter",
+      "1 tsp Vanille",
+      "Prise Meersalz"
+    ],
+    "instructions": [
+      "Schokolade, Cannabis-Kondensmilch und Butter bei niedriger Hitze schmelzen.",
+      "Vanille einrühren.",
+      "In eine ausgelegte 8x8-Form gießen. Meersalz darüber streuen.",
+      "3-4 Stunden kalt stellen. In Würfel schneiden."
+    ]
   },
   "cannabis-blondies": {
     "name": "Cannabis-Blondies",
     "description": "Butterscotch-Blondies mit Cannabis-Braunbutter.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "½ cup Cannabutter, gebräunt",
+      "1 cup brauner Zucker",
+      "1 Ei + 1 Eigelb",
+      "1 tsp Vanille",
+      "1 cup Mehl",
+      "½ tsp Backpulver",
+      "¼ tsp Salz",
+      "¾ cup weiße Schokoladenstückchen"
+    ],
+    "instructions": [
+      "Ofen auf 350°F vorheizen. Gebräunte Cannabutter und braunen Zucker verrühren.",
+      "Ei, Eigelb und Vanille hinzufügen. Mehl, Backpulver, Salz und Schokoladenstückchen unterheben.",
+      "In einer ausgelegten 8x8-Form 22-25 Min. backen. Nicht zu lange backen.",
+      "Vor dem Schneiden vollständig abkühlen lassen."
+    ]
   },
   "infused-donut-holes": {
     "name": "Infundierte Donut-Löcher",
     "description": "Fluffige, frittierte Donut-Kugeln mit Cannabis-Zimtzucker-Beschichtung.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1 cup Mehl",
+      "1½ tsp Backpulver",
+      "3 tbsp Zucker",
+      "Prise Salz",
+      "½ cup Milch",
+      "1 Ei",
+      "1 tbsp Cannabutter, geschmolzen",
+      "Öl zum Frittieren",
+      "Hülle: ½ cup Zucker, 1 tsp Zimt, 1 tbsp Cannabutter, geschmolzen"
+    ],
+    "instructions": [
+      "Trockene Zutaten mischen. Milch, Ei und Cannabutter verquirlen; zu den trockenen Zutaten geben.",
+      "Öl auf 350°F erhitzen. Esslöffelweise Teig hineingeben; 2-3 Min. goldbraun frittieren.",
+      "Abtropfen lassen, mit Cannabutter bestreichen, in Zimtzucker wälzen."
+    ]
   },
   "cannabis-peach-cobbler": {
     "name": "Cannabis-Pfirsich-Cobbler",
     "description": "Südstaaten-Pfirsich-Cobbler mit Cannabutter-Keksteig-Topping.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "5 Pfirsiche, in Scheiben geschnitten",
+      "¼ cup Zucker",
+      "1 tsp Zitronensaft",
+      "½ tsp Zimt",
+      "Streusel: 1 cup Mehl",
+      "¼ cup Zucker",
+      "1½ tsp Backpulver",
+      "¼ tsp Salz",
+      "½ cup Milch",
+      "4 tbsp Cannabutter, geschmolzen"
+    ],
+    "instructions": [
+      "Ofen auf 375°F vorheizen. Pfirsiche mit Zucker, Zitrone und Zimt in einer Auflaufform vermengen.",
+      "Teig für den Belag zu einem dicken Teig verrühren. Löffelweise über die Pfirsiche geben.",
+      "40-45 Min. goldbraun backen. Warm servieren."
+    ]
   },
   "infused-baklava": {
     "name": "Infundiertes Baklava",
     "description": "Blättriger Filoteig, geschichtet mit gewürzten Nüssen und Cannabis-Honigsirup.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "400g Filoteig",
+      "200g Cannabutter, geschmolzen",
+      "300g gemischte Walnüsse und Pistazien, gehackt",
+      "1 tsp Zimt",
+      "Sirup: 1 cup Zucker, 1 cup Wasser, ½ cup Honig, 1 tsp Rosenwasser"
+    ],
+    "instructions": [
+      "Ofen auf 350°F vorheizen. Filoteigblätter schichten, jedes mit Cannabutter bestreichen und Nussmischung dazwischen verteilen.",
+      "In Rautenform einschneiden. 45-50 Min. tiefgoldbraun backen.",
+      "Sirup 10 Min. köcheln; heiß über das heiße Baklava gießen. Vollständig abkühlen lassen."
+    ]
   },
   "cannabis-chocolate-fondue": {
     "name": "Cannabis-Schokoladenfondue",
     "description": "Samtiges Schokoladenfondue mit Cannabis-Sahne.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "300g Zartbitterschokolade, gehackt",
+      "1 cup Cannabis-Sahne",
+      "2 tbsp Butter",
+      "1 tsp Vanille",
+      "Prise Salz",
+      "Zum Eintauchen: Erdbeeren, Banane, Marshmallows, Brezeln"
+    ],
+    "instructions": [
+      "Cannabis-Sahne erhitzen, bis sie dampft. Vom Herd nehmen; Schokolade hinzufügen.",
+      "2 Min. ruhen lassen, dann glatt rühren. Butter, Vanille und Salz hinzufügen.",
+      "In einen Fonduetopf umfüllen und mit den Beilagen servieren."
+    ]
   },
   "infused-strawberry-shortcake": {
     "name": "Infundierter Erdbeer-Shortcake",
     "description": "Fluffige Shortcake-Kekse mit Cannabutter und frischen Erdbeeren.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "Biskuits: 2 cups Mehl",
+      "115g Cannabutter, kalt",
+      "2 tbsp Zucker",
+      "1 tbsp Backpulver",
+      "½ tsp Salz",
+      "¾ cup Sahne",
+      "1 Ei",
+      "Belag: 500g Erdbeeren mit 2 tbsp Zucker",
+      "1 cup Schlagsahne"
+    ],
+    "instructions": [
+      "Ofen auf 425°F vorheizen. Cannabutter in die trockenen Zutaten einarbeiten.",
+      "Sahne und Ei hinzufügen, bis der Teig gerade zusammenhält. Auf ein Backblech setzen.",
+      "15 Min. backen. Aufschneiden und mit Erdbeeren und Schlagsahne füllen."
+    ]
   },
   "cannabis-panna-cotta": {
     "name": "Cannabis-Panna-Cotta",
     "description": "Seidiger italienischer Sahnepudding mit Cannabis-Sahne.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "2 cups Cannabis-Sahne",
+      "¼ cup Zucker",
+      "2 tsp Vanille",
+      "2½ tsp Gelatinepulver",
+      "3 tbsp kaltes Wasser",
+      "Beerencoulis zum Servieren"
+    ],
+    "instructions": [
+      "Gelatine in kaltem Wasser 5 Min. quellen lassen.",
+      "Cannabis-Sahne und Zucker erhitzen, bis sich der Zucker aufgelöst hat. Vom Herd nehmen: Vanille und Gelatine einrühren.",
+      "In Förmchen füllen. Mindestens 4 Stunden kalt stellen.",
+      "Auf Teller stürzen und mit Beerencoulis servieren."
+    ]
   },
   "infused-churros": {
     "name": "Infundierte Churros",
     "description": "Knusprige spanische Churros mit Cannabutter-Teig.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1 cup Wasser",
+      "115g Cannabutter",
+      "1 tbsp Zucker",
+      "½ tsp Salz",
+      "1 cup Mehl",
+      "3 Eier",
+      "Öl zum Frittieren",
+      "Hülle: ½ cup Zucker, 1 tsp Zimt",
+      "Schokoladensauce zum Servieren"
+    ],
+    "instructions": [
+      "Wasser, Cannabutter, Zucker und Salz aufkochen. Mehl hinzufügen; rühren, bis ein Teig entsteht.",
+      "5 Min. abkühlen lassen, dann die Eier einrühren.",
+      "In heißes Öl (350°F) spritzen. 3-4 Min. goldbraun frittieren.",
+      "In Zimtzucker wälzen. Mit Schokoladensauce servieren."
+    ]
   },
   "cannabis-crepes": {
     "name": "Cannabis-Crêpes",
     "description": "Dünne französische Crêpes mit Cannabutter.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "1 cup Mehl",
+      "2 Eier",
+      "1½ cups Milch",
+      "2 tbsp Cannabutter, geschmolzen",
+      "1 tbsp Zucker",
+      "1 tsp Vanille",
+      "Prise Salz",
+      "Füllungen: Nutella, Marmelade, Obst, Sahne"
+    ],
+    "instructions": [
+      "Alle Teigzutaten pürieren. 30 Min. ruhen lassen.",
+      "Dünne Schichten in einer gebutterten beschichteten Pfanne 1-2 Min. pro Seite backen.",
+      "Nach Belieben füllen und falten."
+    ]
   },
   "infused-mango-sorbet": {
     "name": "Infundiertes Mango-Sorbet",
     "description": "Leuchtendes, milchfreies Mango-Sorbet mit Cannabis-Sirup.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "4 cups gefrorene Mango",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von 1 Limette",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Gefrorene Mango, Cannabis-Sirup, Limette und Salz glatt pürieren.",
+      "Sofort als Softeis servieren oder 1 Stunde einfrieren für eine festere Konsistenz."
+    ]
   },
   "cannabis-cinnamon-rolls": {
     "name": "Cannabis-Zimtschnecken",
     "description": "Fluffige Zimtschnecken mit Cannabutter-Füllung und Zuckerguss.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "Teig: 3 cups Mehl, 2¼ tsp Hefe, ¼ cup Zucker, 1 tsp Salz, ¾ cup warme Milch, 2 Eier, ¼ cup Cannabutter",
+      "Füllung: 4 tbsp Cannabutter, ½ cup brauner Zucker, 2 tbsp Zimt",
+      "Glasur: 1 cup Puderzucker, 2 tbsp Cannabutter, 2 tbsp Milch"
+    ],
+    "instructions": [
+      "Teig 8 Min. kneten. 1 Stunde gehen lassen.",
+      "Ausrollen, mit Cannabutter, braunem Zucker und Zimt bestreichen.",
+      "Fest aufrollen, in 12 Stücke schneiden. 30 Min. gehen lassen. Bei 375°F 20-25 Min. backen.",
+      "Warm mit Cannabis-Glasur beträufeln."
+    ]
   },
   "infused-coconut-pudding": {
     "name": "Infundierter Kokospudding",
     "description": "Cremiger Kokospudding mit Cannabis-Kokosmilch.",
-    "category_name": "Desserts"
+    "category_name": "Desserts",
+    "ingredients": [
+      "2 cups Cannabis-Kokosmilch",
+      "¼ cup Zucker",
+      "3 tbsp Speisestärke",
+      "½ tsp Vanille",
+      "Prise Salz",
+      "Geröstete Kokosflocken und Mango zum Servieren"
+    ],
+    "instructions": [
+      "Alle Zutaten in einem Topf verrühren. Bei mittlerer Hitze unter Rühren eindicken lassen (8-10 Min.).",
+      "In Schälchen füllen. Mindestens 2 Stunden kalt stellen.",
+      "Mit gerösteten Kokosflocken und Mango garnieren."
+    ]
   },
   "cannabis-shakshuka": {
     "name": "Cannabis-Shakshuka",
     "description": "Eier pochiert in Cannabis-Tomatensauce.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 tbsp Cannabis-Olivenöl",
+      "1 Zwiebel",
+      "1 rote Paprika",
+      "4 Knoblauchzehen",
+      "1 tsp Kreuzkümmel",
+      "1 tsp Paprikapulver",
+      "½ tsp Chiliflocken",
+      "2 Dosen stückige Tomaten",
+      "4-6 Eier",
+      "Petersilie und Feta"
+    ],
+    "instructions": [
+      "Zwiebel und Paprika in Cannabis-Öl anbraten. Knoblauch und Gewürze hinzufügen.",
+      "Tomaten hinzufügen. 15 Min. köcheln lassen. Abschmecken.",
+      "Mulden formen; Eier hineinschlagen. Zugedeckt 6-8 Min. garen.",
+      "Mit Petersilie und Feta garnieren. Mit Brot servieren."
+    ]
   },
   "infused-mushroom-risotto": {
     "name": "Infundiertes Pilzrisotto",
     "description": "Cremiges Pilzrisotto mit Cannabis-Olivenöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "1½ cups Arborio-Reis",
+      "2 tbsp Cannabis-Olivenöl",
+      "1 Zwiebel",
+      "3 Knoblauchzehen",
+      "400g gemischte Pilze",
+      "½ cup alkoholfreier weißer Traubensaft",
+      "1L warme Gemüsebrühe",
+      "50g Parmesan",
+      "2 tbsp Butter",
+      "Salz, Pfeffer, Thymian"
+    ],
+    "instructions": [
+      "Zwiebel in normalem Öl anbraten. Knoblauch und Pilze goldbraun anbraten.",
+      "Reis hinzufügen; umrühren, bis er glasig ist. Traubensaft hinzufügen; einkochen lassen.",
+      "Brühe kellenweise unter ständigem Rühren hinzufügen, bis sie jeweils aufgesogen ist (20 Min.).",
+      "Vom Herd nehmen: Parmesan, Butter und Cannabis-Olivenöl einrühren."
+    ]
   },
   "cannabis-thai-basil-chicken": {
     "name": "Cannabis-Thai-Basilikum-Hähnchen",
     "description": "Schnelles Thai-Basilikum-Pfannengericht mit Cannabis-Sesamöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "500g Hähnchenhackfleisch",
+      "2 tbsp Cannabis-Sesamöl",
+      "4 Knoblauchzehen",
+      "2 Vogelaugenchilis",
+      "2 tbsp Sojasauce",
+      "1 tbsp Austernsauce",
+      "1 tsp Fischsauce",
+      "1 tsp Zucker",
+      "1 cup Thai-Basilikum",
+      "Gedämpfter Reis"
+    ],
+    "instructions": [
+      "Hähnchenhackfleisch in normalem Öl anbraten.",
+      "Knoblauch und Chilis hinzufügen. Saucen und Zucker einrühren.",
+      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln, Basilikum unterheben. Über Reis servieren."
+    ]
   },
   "infused-beef-tacos": {
     "name": "Infundierte Rindfleisch-Tacos",
     "description": "Gewürzte Rindfleisch-Tacos mit Cannabutter.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "500g Rinderhackfleisch",
+      "2 tbsp Cannabutter",
+      "1 Zwiebel",
+      "3 Knoblauchzehen",
+      "1 tsp Kreuzkümmel",
+      "1 tsp geräuchertes Paprikapulver",
+      "½ tsp Chilipulver",
+      "8 Maistortillas",
+      "Krautsalat, Salsa, Limette, saure Sahne"
+    ],
+    "instructions": [
+      "Hackfleisch anbraten; Fett abgießen. Cannabutter, Zwiebel und Knoblauch hinzufügen.",
+      "Gewürze einrühren. 2 Min. kochen.",
+      "In warmen Tortillas mit Beilagen servieren."
+    ]
   },
   "cannabis-chicken-caesar-salad": {
     "name": "Cannabis-Hähnchen-Caesar-Salat",
     "description": "Caesar-Salat in Restaurantqualität mit Cannabis-Dressing.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 Hähnchenbrust, gegrillt und in Scheiben geschnitten",
+      "1 großer Romanasalat",
+      "½ cup Parmesan, gehobelt",
+      "Croutons",
+      "Dressing: 2 tbsp Cannabis-Olivenöl, 1 tbsp Zitronensaft, 1 tsp Dijon-Senf, 1 tsp Worcestersauce, 1 Knoblauchzehe, 3 tbsp Mayonnaise, Salz"
+    ],
+    "instructions": [
+      "Alle Dressingzutaten verquirlen.",
+      "Romanasalat mit Dressing vermengen.",
+      "Mit Hähnchen, Parmesan und Croutons garnieren."
+    ]
   },
   "infused-cauliflower-fried-rice": {
     "name": "Infundierter Blumenkohl-Bratreis",
     "description": "Low-Carb-Blumenkohl-Bratreis mit Cannabis-Sesamöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "1 großer Blumenkohl, geraspelt",
+      "2 tbsp Cannabis-Sesamöl",
+      "3 Eier, verquirlt",
+      "1 cup tiefgefrorene Erbsen und Mais",
+      "3 Knoblauchzehen",
+      "3 tbsp Sojasauce",
+      "Frühlingszwiebeln, Sesamsamen"
+    ],
+    "instructions": [
+      "Blumenkohlreis 5 Min. anbraten. Beiseite stellen.",
+      "Eier in der gleichen Pfanne als Rührei braten. Knoblauch und Gemüse hinzufügen.",
+      "Blumenkohl zurück in die Pfanne geben; Sojasauce hinzufügen. Vermengen.",
+      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln. Garnieren."
+    ]
   },
   "cannabis-minestrone-soup": {
     "name": "Cannabis-Minestrone-Suppe",
     "description": "Herzhafte italienische Gemüsesuppe mit Cannabis-Olivenöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 tbsp Cannabis-Olivenöl",
+      "1 Zwiebel",
+      "2 Karotten",
+      "2 Stangen Sellerie",
+      "3 Knoblauchzehen",
+      "1 Zucchini",
+      "1 Dose weiße Bohnen",
+      "1 Dose stückige Tomaten",
+      "1L Gemüsebrühe",
+      "1 cup kleine Nudeln",
+      "2 cups Spinat",
+      "Parmesanrinde"
+    ],
+    "instructions": [
+      "Zwiebel, Karotte und Sellerie in normalem Öl anbraten.",
+      "Knoblauch, Zucchini und Tomaten hinzufügen. Brühe, Bohnen und Parmesanrinde hinzufügen. 20 Min. köcheln lassen.",
+      "Nudeln hinzufügen; al dente kochen. Spinat einrühren.",
+      "Vom Herd nehmen: Cannabis-Olivenöl darüber träufeln."
+    ]
   },
   "infused-pulled-pork-sliders": {
     "name": "Infundierte Pulled-Pork-Slider",
     "description": "Langsam gegartes Pulled Pork in Cannabis-BBQ-Sauce.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "1kg Schweineschulter",
+      "Je 1 tsp geräuchertes Paprikapulver, Kreuzkümmel, Knoblauchpulver, Salz",
+      "Cannabis-BBQ-Sauce: 1 cup BBQ-Sauce + 2 tbsp Cannabutter",
+      "Brötchen für Slider, Krautsalat"
+    ],
+    "instructions": [
+      "Schweinefleisch mit Gewürzen einreiben; auf niedriger Stufe 8 Stunden im Slow Cooker oder bei 300°F 4-5 Stunden im Ofen garen.",
+      "Fleisch mit zwei Gabeln zerrupfen.",
+      "BBQ-Sauce mit Cannabutter erwärmen. Zerrupftes Fleisch in der Sauce schwenken.",
+      "Auf Brötchen mit Krautsalat anrichten."
+    ]
   },
   "cannabis-greek-salad": {
     "name": "Cannabis-Griechischer-Salat",
     "description": "Frischer griechischer Salat mit Cannabis-Olivenöl-Dressing.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 Tomaten, in Spalten geschnitten",
+      "1 Gurke, grob gewürfelt",
+      "½ rote Zwiebel, in Ringe geschnitten",
+      "½ Tasse Kalamata-Oliven",
+      "150g Feta, gewürfelt",
+      "Dressing: 3 EL Cannabis-Olivenöl, 1 EL Rotweinessig, 1 TL Oregano, Salz"
+    ],
+    "instructions": [
+      "Gemüse und Oliven vermengen.",
+      "Dressing verrühren und darüber gießen. Durchschwenken.",
+      "Mit Feta belegen. Mit knusprigem Brot servieren."
+    ]
   },
   "infused-tomato-bisque": {
     "name": "Infundierte Tomaten-Bisque",
     "description": "Seidig-geröstete Tomatensuppe mit Cannabis-Sahne.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "1kg Roma-Tomaten, halbiert",
+      "1 Zwiebel, geviertelt",
+      "6 Knoblauchzehen",
+      "2 EL Olivenöl",
+      "1 Tasse Gemüsebrühe",
+      "½ Tasse Cannabis-Sahne",
+      "1 TL Zucker",
+      "Salz, Pfeffer, Basilikum"
+    ],
+    "instructions": [
+      "Tomaten, Zwiebel und Knoblauch bei 400°F 40 Min. rösten.",
+      "Mit Brühe glatt pürieren.",
+      "Cannabis-Sahne und Zucker einrühren; bei niedriger Hitze erwärmen.",
+      "Würzen und mit frischem Basilikum garnieren."
+    ]
   },
   "cannabis-chicken-burrito-bowl": {
     "name": "Cannabis-Hähnchen-Burrito-Bowl",
     "description": "Individuell zusammenstellbare Burrito-Bowl mit Cannabis-Limetten-Dressing.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 Hühnerbrüste",
+      "Je 1 TL Kreuzkümmel, Chilipulver, Knoblauchpulver",
+      "2 Tassen gekochter Reis",
+      "1 Dose schwarze Bohnen",
+      "1 Tasse Mais",
+      "Cannabis-Limetten-Dressing: Saft von 2 Limetten + 2 EL Cannabis-Olivenöl",
+      "Avocado, Salsa, Sauerrahm, Koriander"
+    ],
+    "instructions": [
+      "Hähnchen würzen und grillen. In Scheiben schneiden.",
+      "Bowls zusammenstellen: Reis, Bohnen, Mais, Hähnchen.",
+      "Mit Cannabis-Limetten-Dressing beträufeln. Toppings hinzufügen."
+    ]
   },
   "infused-falafel-wrap": {
     "name": "Infundierter Falafel-Wrap",
     "description": "Knusprige Falafel mit Cannabis-Tahini-Dressing.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 Dosen Kichererbsen",
+      "½ Zwiebel",
+      "3 Knoblauchzehen",
+      "1 TL Kreuzkümmel",
+      "1 TL Koriander",
+      "2 EL Mehl",
+      "Öl zum Frittieren",
+      "Cannabis-Tahini: 3 EL Tahini + 2 EL Cannabis-Olivenöl + Zitrone + Wasser",
+      "Fladenbrote, Salat, Tomate, Gurke"
+    ],
+    "instructions": [
+      "Kichererbsen, Zwiebel, Knoblauch, Gewürze und Mehl im Mixer zerkleinern. 30 Min. kalt stellen.",
+      "Bällchen formen; bei 350°F 3-4 Min. frittieren.",
+      "Cannabis-Tahini-Dressing zubereiten.",
+      "Fladenbrote mit Falafel, Salat und Dressing füllen."
+    ]
   },
   "cannabis-butternut-squash-soup": {
     "name": "Cannabis-Butternut-Kürbissuppe",
     "description": "Samtige Butternut-Kürbissuppe mit Cannabis-Sahne.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "1 großer Butternut-Kürbis, halbiert",
+      "1 Zwiebel, geviertelt",
+      "4 Knoblauchzehen",
+      "2 EL Olivenöl",
+      "3 Tassen Gemüsebrühe",
+      "½ Tasse Cannabis-Sahne",
+      "1 TL Muskatnuss",
+      "Salz, Pfeffer",
+      "Geröstete Kürbiskerne"
+    ],
+    "instructions": [
+      "Kürbis, Zwiebel und Knoblauch bei 400°F 45 Min. rösten.",
+      "Mit Brühe glatt pürieren.",
+      "Cannabis-Sahne und Muskatnuss einrühren; sanft erwärmen.",
+      "Würzen und mit Kürbiskernen garnieren."
+    ]
   },
   "infused-egg-fried-rice": {
     "name": "Infundierter Ei-Bratreis",
     "description": "Schneller Ei-Bratreis mit Cannabis-Sesamöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3 Tassen Reis vom Vortag",
+      "3 Eier, verquirlt",
+      "2 EL Cannabis-Sesamöl",
+      "3 Knoblauchzehen",
+      "1 Tasse tiefgekühlte Erbsen",
+      "4 EL Sojasauce",
+      "Frühlingszwiebeln, Sesamsamen"
+    ],
+    "instructions": [
+      "Reis in normalem Öl anbraten, bis er leicht knusprig ist.",
+      "Zur Seite schieben; Eier darin verrühren.",
+      "Knoblauch und Erbsen hinzufügen; alles durchschwenken. Sojasauce hinzugeben.",
+      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln. Garnieren."
+    ]
   },
   "cannabis-grilled-salmon": {
     "name": "Cannabis-Gegrillter-Lachs",
     "description": "Gebratener Lachs mit Cannabis-Kräuterbutter.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "4 Lachsfilets",
+      "2 EL Cannabutter",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 EL frischer Dill",
+      "Abrieb und Saft von 1 Zitrone",
+      "Salz, Pfeffer",
+      "Kapern und Zitrone zum Servieren"
+    ],
+    "instructions": [
+      "Lachs würzen und mit der Hautseite nach unten 4 Min. scharf anbraten, bis die Haut knusprig ist.",
+      "Wenden; 3 weitere Min. garen.",
+      "Cannabutter mit Knoblauch und Dill schmelzen; über den Fisch löffeln.",
+      "Mit Kapern und Zitrone servieren."
+    ]
   },
   "infused-caprese-salad": {
     "name": "Infundierter Caprese-Salat",
     "description": "Klassischer Caprese mit Cannabis-nativem-Olivenöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3 große reife Tomaten, in Scheiben geschnitten",
+      "250g frischer Mozzarella, in Scheiben geschnitten",
+      "1 Bund frisches Basilikum",
+      "3 EL Cannabis-Olivenöl extra vergine",
+      "1 EL Balsamico-Glasur",
+      "Grobes Meersalz, schwarzer Pfeffer"
+    ],
+    "instructions": [
+      "Tomaten- und Mozzarellascheiben abwechselnd anrichten.",
+      "Basilikumblätter dazwischen stecken.",
+      "Mit Cannabis-Olivenöl und Balsamico beträufeln.",
+      "Mit Meersalz und Pfeffer abschließen."
+    ]
   },
   "cannabis-quesadilla": {
     "name": "Cannabis-Quesadilla",
     "description": "Knusprige Quesadilla, gebraten in Cannabutter.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "4 große Weizen-Tortillas",
+      "2 EL Cannabutter",
+      "2 Tassen geriebener Cheddar",
+      "1 Tasse gekochtes Hähnchen oder schwarze Bohnen",
+      "½ rote Zwiebel, gewürfelt",
+      "1 Jalapeño, in Scheiben geschnitten",
+      "Sauerrahm und Guacamole"
+    ],
+    "instructions": [
+      "Cannabutter in einer großen Pfanne schmelzen.",
+      "Tortilla hineinlegen; Käse, Füllung und Jalapeño auf eine Hälfte verteilen.",
+      "Zusammenklappen und pro Seite 3 Min. goldbraun braten.",
+      "In Stücke schneiden und servieren."
+    ]
   },
   "infused-pad-thai": {
     "name": "Infundiertes Pad Thai",
     "description": "Klassisches Pad Thai mit Cannabis-Sesamöl.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "200g breite Reisnudeln, eingeweicht",
+      "2 Eier",
+      "150g Garnelen oder Tofu",
+      "2 EL Cannabis-Sesamöl",
+      "3 EL Sojasauce",
+      "2 EL Tamarindenpaste",
+      "1 EL Zucker",
+      "Frühlingszwiebeln, Sojasprossen, Erdnüsse, Limette"
+    ],
+    "instructions": [
+      "Garnelen oder Tofu anbraten. Eier in derselben Pfanne verrühren.",
+      "Nudeln, Sojasauce, Tamarinde und Zucker hinzufügen. 2 Min. schwenken.",
+      "Frühlingszwiebeln und Sojasprossen hinzufügen.",
+      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln. Mit Erdnüssen und Limette servieren."
+    ]
   },
   "cannabis-pizza": {
     "name": "Cannabis-Pizza",
     "description": "Selbstgemachte Pizza mit Cannabis-Olivenöl im Teig und obendrauf.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "2 Tassen Mehl",
+      "1 TL Trockenhefe",
+      "½ TL Salz",
+      "¾ Tasse warmes Wasser",
+      "2 EL Cannabis-Olivenöl",
+      "Belag: ½ Tasse Tomatensauce, 150g Mozzarella, Belag nach Wahl",
+      "Zum Abschluss etwas Cannabis-Olivenöl"
+    ],
+    "instructions": [
+      "Teig mischen; 8 Min. kneten. 1 Stunde gehen lassen.",
+      "Ofen auf 475°F vorheizen.",
+      "Teig ausziehen; Sauce, Käse und Belag verteilen.",
+      "10-12 Min. backen, bis der Rand goldbraun ist.",
+      "Vor dem Schneiden mit Cannabis-Olivenöl beträufeln."
+    ]
   },
   "infused-lentil-dal": {
     "name": "Infundiertes Linsen-Dal",
     "description": "Aromatisches indisches Dal, verfeinert mit Cannabis-Ghee.",
-    "category_name": "Mittagessen"
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "1½ Tassen rote Linsen",
+      "1 Zwiebel",
+      "4 Knoblauchzehen",
+      "1 Stück Ingwer (ca. 2,5 cm)",
+      "1 Dose stückige Tomaten",
+      "1 TL Kreuzkümmel (ganz)",
+      "1 TL Kurkuma",
+      "1 TL Garam Masala",
+      "3 Tassen Wasser",
+      "2 EL Cannabis-Ghee",
+      "Salz, Koriander"
+    ],
+    "instructions": [
+      "Kreuzkümmelsamen rösten, bis sie aufplatzen. Zwiebel, Knoblauch und Ingwer hinzufügen.",
+      "Tomaten und Gewürze hinzufügen. Linsen und Wasser dazugeben; 20-25 Min. köcheln lassen.",
+      "Vom Herd nehmen: Cannabis-Ghee einrühren.",
+      "Würzen und mit Koriander garnieren. Über Reis servieren."
+    ]
   },
   "cannabis-feijoada": {
     "name": "Cannabis-Feijoada",
     "description": "Brasiliens beliebter Schwarze-Bohnen-Schweinefleisch-Eintopf, langsam gegart und mit Cannabis-Olivenöl verfeinert.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "2 Tassen getrocknete schwarze Bohnen, über Nacht eingeweicht",
+      "200g geräucherte Schweinerippchen",
+      "150g Dörrfleisch (Carne Seca), eingeweicht und gewürfelt",
+      "150g Schweinswurst (Linguiça), in Scheiben geschnitten",
+      "100g Speck, gewürfelt",
+      "1 große Zwiebel, gehackt",
+      "6 Knoblauchzehen, fein gehackt",
+      "3 Lorbeerblätter",
+      "Salz und schwarzer Pfeffer nach Geschmack",
+      "3 EL Cannabis-Olivenöl",
+      "Orangenscheiben zum Garnieren"
+    ],
+    "instructions": [
+      "Bohnen abgießen, mit frischem Wasser bedecken, geräucherte Rippchen und Lorbeerblätter hinzufügen. 1,5–2 Stunden köcheln lassen, bis die Bohnen weich sind.",
+      "In einer Pfanne Speck knusprig braten. Wurst, Dörrfleisch, Zwiebel und Knoblauch hinzufügen; 5 Min. anbraten.",
+      "Pfanneninhalt in den Bohnentopf geben. Weitere 30 Min. köcheln lassen.",
+      "Vom Herd nehmen und Cannabis-Olivenöl einrühren.",
+      "Über weißem Reis mit gebratenen Kohlblättern, Farofa und Orangenscheiben servieren."
+    ]
   },
   "infused-brigadeiro": {
     "name": "Infundierter Brigadeiro",
     "description": "Klassische brasilianische Schokoladentrüffel aus Kondensmilch, Kakao und Cannabutter.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "1 Dose (14 oz) gezuckerte Kondensmilch",
+      "2 EL ungesüßtes Kakaopulver",
+      "1 EL Cannabutter",
+      "1 Prise Salz",
+      "Schokoladenstreusel zum Wälzen"
+    ],
+    "instructions": [
+      "Kondensmilch, Kakaopulver und Cannabutter in einem Topf bei mittlerer bis niedriger Hitze verrühren.",
+      "Ständig rühren, bis die Masse eindickt und sich vom Topfrand löst, ca. 10–15 Min.",
+      "Auf einen eingefetteten Teller geben und auf Raumtemperatur abkühlen lassen.",
+      "Hände mit Butter einfetten, kleine Kugeln rollen und in Schokoladenstreuseln wälzen.",
+      "In Mini-Pralinenförmchen setzen und bis zum Festwerden kalt stellen."
+    ]
   },
   "cannabis-pacoca": {
     "name": "Cannabis-Paçoca",
     "description": "Krümeliges brasilianisches Erdnusskonfekt mit Cannabutter.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "2 Tassen geröstete ungesalzene Erdnüsse",
+      "1 Tasse Zucker",
+      "1 EL Cannabutter, geschmolzen",
+      "1 Prise Salz"
+    ],
+    "instructions": [
+      "Erdnüsse in einer Küchenmaschine zu feinen, leicht öligen Bröseln zerkleinern.",
+      "Zucker, geschmolzene Cannabutter und Salz hinzufügen. Noch einige Male pulsieren, bis alles vermischt ist.",
+      "Masse fest in kleine zylindrische Formen oder eine ausgelegte Backform drücken.",
+      "1 Stunde kalt stellen, bis die Masse fest ist, dann aus der Form lösen.",
+      "In einem luftdichten Behälter bei Raumtemperatur aufbewahren."
+    ]
   },
   "infused-coxinha": {
     "name": "Infundierte Coxinha",
     "description": "Brasiliens ikonische tropfenförmige Hähnchenkroketten mit Cannabis-infundiertem Teig.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "2 Tassen gekochtes, zerzupftes Hähnchenfleisch",
+      "1 EL Frischkäse",
+      "2 Tassen Hühnerbrühe",
+      "2 EL Cannabutter",
+      "2 Tassen Allzweckmehl",
+      "Salz und Pfeffer nach Geschmack",
+      "2 Eier, verquirlt",
+      "Paniermehl zum Wälzen",
+      "Öl zum Frittieren"
+    ],
+    "instructions": [
+      "Zerzupftes Hähnchen mit Frischkäse, Salz und Pfeffer würzen. Beiseitestellen.",
+      "In einem Topf Brühe und Cannabutter zum Kochen bringen. Mehl auf einmal hinzufügen und kräftig rühren, bis sich ein Teigkloß bildet. Abkühlen lassen.",
+      "Eine Portion Teig nehmen, in der Handfläche flach drücken, Hähnchenfüllung hineingeben und zu einer Tropfenform modellieren.",
+      "In verquirltem Ei wenden, dann in Paniermehl wälzen.",
+      "Bei 350°F goldbraun frittieren, ca. 3–4 Min. Auf Küchenpapier abtropfen lassen."
+    ]
   },
   "cannabis-pao-de-queijo": {
     "name": "Cannabis-Pão-de-Queijo",
     "description": "Zähe, käsige brasilianische Brötchen aus Tapiokamehl und Cannabis-Olivenöl.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "2 Tassen Tapiokamehl (Polvilho Azedo)",
+      "½ Tasse Milch",
+      "¼ Tasse Cannabis-Olivenöl",
+      "1 Ei",
+      "1 Tasse geriebener Parmesan oder Minas-Käse",
+      "½ TL Salz"
+    ],
+    "instructions": [
+      "Ofen auf 375°F vorheizen.",
+      "Milch, Cannabis-Olivenöl und Salz erhitzen, bis es leicht köchelt. Über das Tapiokamehl gießen und verrühren.",
+      "Etwas abkühlen lassen, dann Ei und Käse unterrühren, bis ein glatter Teig entsteht.",
+      "Zu kleinen Kugeln formen und auf ein mit Backpapier ausgelegtes Blech setzen.",
+      "20–25 Min. backen, bis sie aufgegangen und goldbraun sind."
+    ]
   },
   "infused-acai-bowl": {
     "name": "Infundierte Açaí-Bowl",
     "description": "Eine erfrischende brasilianische Açaí-Bowl mit Cannabis-Kokosöl, getoppt mit Granola, Banane und Honig.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "2 Packungen (200g) gefrorenes Açaí-Püree",
+      "1 gefrorene Banane",
+      "½ Tasse Mandelmilch",
+      "1 EL infundiertes Kokosöl, geschmolzen",
+      "Toppings: Granola, Bananenscheiben, Erdbeeren, Honig, Kokosraspeln"
+    ],
+    "instructions": [
+      "Gefrorenes Açaí-Püree, gefrorene Banane, Mandelmilch und infundiertes Kokosöl dickflüssig und glatt pürieren.",
+      "In eine Schüssel gießen.",
+      "Mit Granola, Bananenscheiben, Erdbeeren, Kokosraspeln und einem Spritzer Honig belegen.",
+      "Sofort servieren."
+    ]
   },
   "cannabis-moqueca": {
     "name": "Cannabis-Moqueca",
     "description": "Ein reichhaltiger brasilianischer Fischeintopf mit Kokosmilch, Tomaten, Paprika und Dendê-Öl, verfeinert mit Cannabis-Olivenöl.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "500g fester weißer Fisch (Kabeljau oder Heilbutt), in Stücke geschnitten",
+      "Saft von 2 Limetten",
+      "1 Zwiebel, in Ringe geschnitten",
+      "1 Paprikaschote, in Streifen geschnitten",
+      "2 Tomaten, gehackt",
+      "1 Dose (400ml) Kokosmilch",
+      "2 EL Dendê-Öl (Palmöl)",
+      "2 EL Cannabis-Olivenöl",
+      "Frischer Koriander, Salz und Pfeffer"
+    ],
+    "instructions": [
+      "Fisch 30 Min. in Limettensaft, Salz und Pfeffer marinieren.",
+      "In einem Tontopf oder tiefen Topf Zwiebel, Paprika, Tomaten und Fisch schichten.",
+      "Kokosmilch und Dendê-Öl darüber gießen. Zugedeckt 20 Min. köcheln lassen, ohne umzurühren.",
+      "Vom Herd nehmen und Cannabis-Olivenöl vorsichtig unterrühren.",
+      "Mit Koriander garnieren. Über weißem Reis servieren."
+    ]
   },
   "infused-tapioca-crepe": {
     "name": "Infundierter Tapioka-Crêpe",
     "description": "Beliebtes brasilianisches Streetfood – knusprige Tapioka-Crêpes gefüllt mit Käse und Kokos, beträufelt mit Cannabis-Kokosöl.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "1 Tasse hydratisierte Tapiokastärke (Goma de Tapioca)",
+      "1 Prise Salz",
+      "Füllung: Kokosraspeln, Mozzarella oder Coalho-Käse",
+      "1 EL infundiertes Kokosöl",
+      "Gezuckerte Kondensmilch (optional)"
+    ],
+    "instructions": [
+      "Tapiokastärke durch ein feines Sieb streichen, um Klümpchen zu entfernen.",
+      "Eine beschichtete Pfanne bei mittlerer Hitze erhitzen. Eine dünne Schicht Tapiokastärke gleichmäßig in der Pfanne verteilen.",
+      "Wenn sie durchsichtig wird und zusammenhält (ca. 1 Min.), Käse und Kokos auf eine Hälfte geben.",
+      "Zusammenklappen und 1 weitere Min. garen, bis der Käse geschmolzen ist.",
+      "Infundiertes Kokosöl und Kondensmilch darüber träufeln. Sofort servieren."
+    ]
   },
   "cannabis-beijinho": {
     "name": "Cannabis-Beijinho",
     "description": "Süße brasilianische Kokostrüffel aus Kondensmilch und Cannabutter, gewälzt in Kokosraspeln.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "1 Dose (14 oz) gezuckerte Kondensmilch",
+      "1 EL Cannabutter",
+      "½ Tasse Kokosraspeln, plus mehr zum Wälzen",
+      "1 Prise Salz",
+      "Ganze Gewürznelken zur Dekoration"
+    ],
+    "instructions": [
+      "Kondensmilch, Cannabutter und Kokosraspeln in einem Topf bei mittlerer bis niedriger Hitze verrühren.",
+      "Ständig rühren, bis die Masse eindickt und sich vom Topfrand löst, ca. 10–12 Min.",
+      "Auf einen eingefetteten Teller geben und auf Raumtemperatur abkühlen lassen.",
+      "Zu kleinen Kugeln rollen und in Kokosraspeln wälzen. Jede Kugel mit einer Nelke verzieren.",
+      "In Mini-Pralinenförmchen setzen und bis zum Servieren kalt stellen."
+    ]
   },
   "infused-empadao": {
     "name": "Infundierter Empadão",
     "description": "Eine große brasilianische herzhafte Pastete mit Cannabis-infundiertem Butterteig, gefüllt mit gewürztem Hähnchen, Oliven und Palmherzen.",
-    "category_name": "International"
+    "category_name": "International",
+    "ingredients": [
+      "3 Tassen Allzweckmehl",
+      "½ Tasse Cannabutter, kalt und gewürfelt",
+      "½ Tasse normale Butter, kalt und gewürfelt",
+      "2 Eigelb",
+      "3–4 EL Eiswasser",
+      "Füllung: 2 Tassen zerzupftes Hähnchen, 1 Zwiebel, 2 Knoblauchzehen, ½ Tasse grüne Oliven, ½ Tasse Palmherzen, 2 EL Tomatenmark, Salz, Pfeffer, Petersilie",
+      "1 Ei zum Bestreichen"
+    ],
+    "instructions": [
+      "Teig zubereiten: Mehl, Cannabutter, normale Butter und Eigelb in einer Küchenmaschine pulsieren. Eiswasser hinzufügen, bis der Teig zusammenhält. Einwickeln und 30 Min. kalt stellen.",
+      "Füllung zubereiten: Zwiebel und Knoblauch anbraten, Hähnchen, Tomatenmark, Oliven, Palmherzen, Salz, Pfeffer und Petersilie hinzufügen. 5 Min. kochen. Abkühlen lassen.",
+      "⅔ des Teigs in eine gefettete Pieform drücken. Füllung hineingeben.",
+      "Restlichen Teig für den Deckel ausrollen. Ränder verschließen und mit verquirltem Ei bestreichen.",
+      "Bei 375°F 35–40 Min. goldbraun backen."
+    ]
   }
 }

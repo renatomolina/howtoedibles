@@ -1,0 +1,346 @@
+{
+  "cannabis-cucumber-mint-cooler": {
+    "ingredients": [
+      "½ Gurke, in Scheiben geschnitten",
+      "10 Minzblätter",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von 1 Limette",
+      "1 cup Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Gurke und Minze mit Sirup und Limettensaft zerdrücken.",
+      "Mit Eis schütteln und abseihen.",
+      "Mit Sprudelwasser auffüllen."
+    ]
+  },
+  "infused-watermelon-slush": {
+    "ingredients": [
+      "4 cups gefrorene Wassermelone",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Limette",
+      "Prise Salz",
+      "Frische Minze"
+    ],
+    "instructions": [
+      "Wassermelone, Cannabis-Honig, Limette und Salz glatt pürieren.",
+      "In Gläser füllen und mit Minze garnieren."
+    ]
+  },
+  "cannabis-lavender-lemonade": {
+    "ingredients": [
+      "Saft von 4 Zitronen",
+      "2 tbsp Cannabis-Lavendelsirup",
+      "2 cups kaltes Wasser",
+      "Eis",
+      "Getrockneter Lavendel"
+    ],
+    "instructions": [
+      "Wasser, Zucker und Lavendel 10 Min. köcheln; abseihen; Cannabis-Tinktur hinzufügen.",
+      "Zitronensaft, Sirup und Wasser mischen. Über Eis gießen."
+    ]
+  },
+  "infused-tropical-punch": {
+    "ingredients": [
+      "1 cup Mangosaft",
+      "1 cup Ananassaft",
+      "½ cup Maracujasaft",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von 1 Limette",
+      "Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Säfte, Cannabis-Sirup und Limette in einem Krug mischen.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen."
+    ]
+  },
+  "cannabis-strawberry-basil-smash": {
+    "ingredients": [
+      "6 Erdbeeren, Stielansatz entfernt",
+      "6 Basilikumblätter",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Zitrone",
+      "Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Erdbeeren und Basilikum mit Cannabis-Honig und Zitrone zerdrücken.",
+      "Über Eis abseihen. Mit Sprudelwasser auffüllen."
+    ]
+  },
+  "infused-hibiscus-tea": {
+    "ingredients": [
+      "3 tbsp getrockneter Hibiskus",
+      "4 cups kochendes Wasser",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Limette",
+      "Eis",
+      "Orangenscheiben"
+    ],
+    "instructions": [
+      "Hibiskus 10 Min. ziehen lassen. Abseihen und abkühlen lassen.",
+      "Cannabis-Honig und Limette einrühren. Über Eis servieren."
+    ]
+  },
+  "cannabis-peach-iced-tea": {
+    "ingredients": [
+      "4 Schwarzteebeutel",
+      "4 cups heißes Wasser",
+      "2 reife Pfirsiche, in Scheiben geschnitten",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von ½ Zitrone",
+      "Eis"
+    ],
+    "instructions": [
+      "Tee 5 Min. ziehen lassen. Pfirsiche hinzufügen; abkühlen lassen und 1 Stunde kalt stellen.",
+      "Abseihen; Cannabis-Sirup und Zitrone einrühren. Über Eis servieren."
+    ]
+  },
+  "infused-mango-lassi": {
+    "ingredients": [
+      "2 cups reife Mango",
+      "1 cup Joghurt",
+      "½ cup Milch",
+      "2 tbsp Cannabis-Honig",
+      "½ tsp Kardamom",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Alle Zutaten glatt pürieren.",
+      "Abschmecken und anpassen. In Gläser füllen."
+    ]
+  },
+  "cannabis-rose-lemonade": {
+    "ingredients": [
+      "Saft von 4 Zitronen",
+      "2 tbsp Rosensirup",
+      "1 tsp Cannabis-Tinktur",
+      "2 cups Sprudelwasser",
+      "Eis",
+      "Getrocknete Rosenblütenblätter"
+    ],
+    "instructions": [
+      "Zitronensaft, Rosensirup und Cannabis-Tinktur mischen.",
+      "Sprudelwasser über Eis hinzufügen. Mit Rosenblütenblättern garnieren."
+    ]
+  },
+  "infused-pineapple-ginger-fizz": {
+    "ingredients": [
+      "1 cup frischer Ananassaft",
+      "1 inch Ingwer, gerieben",
+      "2 tbsp Cannabis-Honig",
+      "Saft von 1 Limette",
+      "Sprudelwasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Ananassaft, Ingwer, Cannabis-Honig und Limette mischen. Abseihen.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen."
+    ]
+  },
+  "cannabis-cranberry-spritzer": {
+    "ingredients": [
+      "1 cup Cranberrysaft",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Saft von ½ Orange",
+      "Sprudelwasser",
+      "Eis",
+      "Cranberries, Rosmarin"
+    ],
+    "instructions": [
+      "Cranberrysaft, Cannabis-Sirup und Orangensaft mischen.",
+      "Eis und Sprudelwasser hinzufügen. Garnieren."
+    ]
+  },
+  "infused-matcha-cooler": {
+    "ingredients": [
+      "1 tsp Matchapulver",
+      "2 tbsp heißes Wasser",
+      "1 cup kalte Hafermilch",
+      "2 tbsp Cannabis-Honig",
+      "Eis"
+    ],
+    "instructions": [
+      "Matcha mit heißem Wasser glatt rühren. Cannabis-Honig hinzufügen.",
+      "Glas mit Eis und Hafermilch füllen. Matcha darüber gießen."
+    ]
+  },
+  "cannabis-passion-fruit-lemonade": {
+    "ingredients": [
+      "Fruchtfleisch von 4 Maracujas",
+      "Saft von 3 Zitronen",
+      "2 tbsp Cannabis-Honig",
+      "1½ cups Sprudelwasser",
+      "Eis",
+      "Minze"
+    ],
+    "instructions": [
+      "Maracuja, Zitrone und Cannabis-Honig verrühren, bis sich alles aufgelöst hat.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen. Garnieren."
+    ]
+  },
+  "infused-cherry-limeade": {
+    "ingredients": [
+      "1 cup herber Kirschsaft",
+      "Saft von 3 Limetten",
+      "2 tbsp Cannabis-Zuckersirup",
+      "Sprudelwasser",
+      "Eis",
+      "Limette, Kirschen"
+    ],
+    "instructions": [
+      "Kirschsaft, Limette und Cannabis-Sirup mischen.",
+      "Über Eis gießen und mit Sprudelwasser auffüllen. Garnieren."
+    ]
+  },
+  "cannabis-mint-green-tea": {
+    "ingredients": [
+      "3 Grünteebeutel",
+      "4 cups heißes Wasser",
+      "2 tbsp Cannabis-Honig",
+      "10 Minzblätter",
+      "Saft von 1 Zitrone",
+      "Eis"
+    ],
+    "instructions": [
+      "Grünen Tee 3 Min. ziehen lassen. Cannabis-Honig warm einrühren.",
+      "Minze und Zitrone hinzufügen. Abkühlen lassen, kalt stellen. Über Eis servieren."
+    ]
+  },
+  "infused-blueberry-lemonade": {
+    "ingredients": [
+      "1 cup Blaubeeren",
+      "Saft von 4 Zitronen",
+      "2 tbsp Cannabis-Zuckersirup",
+      "2 cups kaltes Wasser",
+      "Eis"
+    ],
+    "instructions": [
+      "Blaubeeren mit ¼ cup Wasser aufkochen; abseihen.",
+      "Blaubeersaft, Zitrone, Cannabis-Sirup und Wasser mischen. Über Eis servieren."
+    ]
+  },
+  "cannabis-ginger-turmeric-tonic": {
+    "ingredients": [
+      "1 inch Ingwer, gerieben",
+      "½ tsp Kurkuma",
+      "Saft von 1 Zitrone",
+      "2 tbsp Cannabis-Honig",
+      "1 cup warmes Wasser",
+      "Prise schwarzer Pfeffer",
+      "Sprudelwasser"
+    ],
+    "instructions": [
+      "Ingwer, Kurkuma, Zitrone und Cannabis-Honig in warmem Wasser verrühren.",
+      "Abkühlen lassen, Eis hinzufügen, mit Sprudelwasser auffüllen. Schwarzen Pfeffer hinzufügen."
+    ]
+  },
+  "infused-coconut-lime-agua-fresca": {
+    "ingredients": [
+      "1 cup Kokoswasser",
+      "Saft von 3 Limetten",
+      "1 cup Sprudelwasser",
+      "2 tbsp Cannabis-Honig",
+      "Eis",
+      "Limettenabrieb, Kokosflocken"
+    ],
+    "instructions": [
+      "Kokoswasser, Limette und Cannabis-Honig verrühren, bis sich alles aufgelöst hat.",
+      "Sprudelwasser über Eis hinzufügen. Garnieren."
+    ]
+  },
+  "cannabis-cheesecake": {
+    "ingredients": [
+      "Boden: 200g Butterkekse, zerbröselt",
+      "80g Cannabutter, geschmolzen",
+      "Füllung: 600g Frischkäse",
+      "¾ cup feiner Zucker",
+      "3 Eier",
+      "1 tsp Vanille",
+      "200ml saure Sahne",
+      "2 tbsp Mehl"
+    ],
+    "instructions": [
+      "Ofen auf 325°F vorheizen. Kekse und Cannabutter mischen; in eine 9-Zoll-Springform drücken.",
+      "Frischkäse und Zucker cremig rühren. Eier einzeln hinzufügen.",
+      "Vanille, saure Sahne und Mehl unterrühren. Über den Boden gießen.",
+      "Im Wasserbad 55-60 Min. backen. Im Ofen 1 Stunde abkühlen lassen.",
+      "Vor dem Servieren 4 Stunden kalt stellen."
+    ]
+  },
+  "infused-tiramisu": {
+    "ingredients": [
+      "3 Eigelb",
+      "75g Zucker",
+      "250g Mascarpone",
+      "2 tbsp Cannabutter, weich",
+      "200ml starker Espresso, abgekühlt",
+      "200g Löffelbiskuits",
+      "2 tbsp Kakaopulver",
+      "1 tsp Vanille"
+    ],
+    "instructions": [
+      "Eigelb und Zucker schaumig schlagen. Mascarpone, Cannabutter und Vanille unterrühren.",
+      "Löffelbiskuits in Espresso tauchen; in eine Form schichten.",
+      "Die Hälfte der Creme darauf verteilen. Schichten wiederholen.",
+      "Mit Kakao bestäuben. Mindestens 4 Stunden kalt stellen."
+    ]
+  },
+  "cannabis-apple-pie": {
+    "ingredients": [
+      "Teig: 2½ cups Mehl",
+      "200g Cannabutter, kalt, gewürfelt",
+      "6-8 tbsp Eiswasser",
+      "½ tsp Salz",
+      "Füllung: 6 Äpfel, geschält und in Scheiben geschnitten",
+      "¾ cup Zucker",
+      "2 tsp Zimt",
+      "¼ tsp Muskatnuss",
+      "2 tbsp Speisestärke"
+    ],
+    "instructions": [
+      "Teig zubereiten; 1 Stunde kalt stellen. Ofen auf 375°F vorheizen.",
+      "Apfelfüllung mischen.",
+      "Form mit der Hälfte des Teigs auslegen. Füllung einfüllen.",
+      "Mit der zweiten Teigplatte bedecken; Ränder verschließen und wellenförmig andrücken.",
+      "50-60 Min. backen, bis der Teig goldbraun ist."
+    ]
+  },
+  "infused-chocolate-lava-cake": {
+    "ingredients": [
+      "100g Zartbitterschokolade",
+      "100g Cannabutter",
+      "2 Eier + 2 Eigelb",
+      "80g Puderzucker",
+      "40g Mehl",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Ofen auf 425°F vorheizen. 4 Förmchen einfetten.",
+      "Schokolade und Cannabutter schmelzen. Leicht abkühlen lassen.",
+      "Eier, Eigelb und Puderzucker einrühren. Mehl und Salz unterheben.",
+      "Förmchen füllen. 30 Min. kalt stellen.",
+      "12-13 Min. backen. 1 Min. ruhen lassen, dann stürzen."
+    ]
+  },
+  "cannabis-lemon-bars": {
+    "ingredients": [
+      "Boden: 1 cup Mehl",
+      "115g Cannabutter",
+      "¼ cup Puderzucker",
+      "Prise Salz",
+      "Füllung: 3 Eier",
+      "1 cup feiner Zucker",
+      "Saft und Abrieb von 3 Zitronen",
+      "3 tbsp Mehl",
+      "Puderzucker zum Bestäuben"
+    ],
+    "instructions": [
+      "Ofen auf 350°F vorheizen. Boden in eine 8x8-Form drücken. 18 Min. backen.",
+      "Füllungszutaten verquirlen. Über den heißen Boden gießen.",
+      "20-22 Min. backen, bis die Füllung fest ist. Abkühlen lassen und kalt stellen.",
+      "Mit Puderzucker bestäuben und in Riegel schneiden."
+    ]
+  }
+}

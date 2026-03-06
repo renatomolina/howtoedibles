@@ -1,0 +1,388 @@
+{
+  "cannabis-greek-salad": {
+    "ingredients": [
+      "2 tomates en gajos",
+      "1 pepino en trozos",
+      "½ cebolla morada en rodajas",
+      "½ cup de aceitunas Kalamata",
+      "150g de queso feta en cubos",
+      "Aderezo: 3 tbsp de aceite de oliva de cannabis, 1 tbsp de vinagre de vino tinto, 1 tsp de orégano, sal"
+    ],
+    "instructions": [
+      "Combinar las verduras y las aceitunas.",
+      "Batir el aderezo y verter encima. Mezclar.",
+      "Cubrir con el feta. Servir con pan crujiente."
+    ]
+  },
+  "infused-tomato-bisque": {
+    "ingredients": [
+      "1kg de tomates roma cortados por la mitad",
+      "1 cebolla en cuartos",
+      "6 dientes de ajo",
+      "2 tbsp de aceite de oliva",
+      "1 cup de caldo de verduras",
+      "½ cup de crema de cannabis",
+      "1 tsp de azúcar",
+      "Sal, pimienta, albahaca"
+    ],
+    "instructions": [
+      "Asar los tomates, la cebolla y el ajo a 400°F por 40 min.",
+      "Licuar con el caldo hasta obtener una mezcla suave.",
+      "Incorporar la crema de cannabis y el azúcar; calentar a fuego bajo.",
+      "Sazonar y decorar con albahaca fresca."
+    ]
+  },
+  "cannabis-chicken-burrito-bowl": {
+    "ingredients": [
+      "2 pechugas de pollo",
+      "1 tsp de cada uno: comino, chile en polvo, ajo en polvo",
+      "2 cups de arroz cocido",
+      "1 lata de frijoles negros",
+      "1 cup de maíz",
+      "Aderezo de cannabis y limón: jugo de 2 limones + 2 tbsp de aceite de oliva de cannabis",
+      "Aguacate, salsa, crema agria, cilantro"
+    ],
+    "instructions": [
+      "Sazonar y asar el pollo a la parrilla. Rebanar.",
+      "Armar los bowls: arroz, frijoles, maíz, pollo.",
+      "Rociar con el aderezo de cannabis y limón. Agregar los toppings."
+    ]
+  },
+  "infused-falafel-wrap": {
+    "ingredients": [
+      "2 latas de garbanzos",
+      "½ cebolla",
+      "3 dientes de ajo",
+      "1 tsp de comino",
+      "1 tsp de cilantro",
+      "2 tbsp de harina",
+      "Aceite para freír",
+      "Tahini de cannabis: 3 tbsp de tahini + 2 tbsp de aceite de oliva de cannabis + limón + agua",
+      "Pan plano, lechuga, tomate, pepino"
+    ],
+    "instructions": [
+      "Procesar los garbanzos, la cebolla, el ajo, las especias y la harina. Refrigerar 30 min.",
+      "Formar bolitas; freír a 350°F por 3-4 min.",
+      "Preparar el aderezo de tahini de cannabis.",
+      "Rellenar el pan plano con falafel, ensalada y aderezo."
+    ]
+  },
+  "cannabis-butternut-squash-soup": {
+    "ingredients": [
+      "1 calabaza butternut grande cortada por la mitad",
+      "1 cebolla en cuartos",
+      "4 dientes de ajo",
+      "2 tbsp de aceite de oliva",
+      "3 cups de caldo de verduras",
+      "½ cup de crema de cannabis",
+      "1 tsp de nuez moscada",
+      "Sal, pimienta",
+      "Semillas de calabaza tostadas"
+    ],
+    "instructions": [
+      "Asar la calabaza, la cebolla y el ajo a 400°F por 45 min.",
+      "Licuar con el caldo hasta obtener una mezcla suave.",
+      "Incorporar la crema de cannabis y la nuez moscada; calentar suavemente.",
+      "Sazonar y decorar con semillas de calabaza."
+    ]
+  },
+  "infused-egg-fried-rice": {
+    "ingredients": [
+      "3 cups de arroz cocido del día anterior",
+      "3 huevos batidos",
+      "2 tbsp de aceite de sésamo de cannabis",
+      "3 dientes de ajo",
+      "1 cup de arvejas congeladas",
+      "4 tbsp de salsa de soya",
+      "Cebollín, semillas de sésamo"
+    ],
+    "instructions": [
+      "Saltear el arroz en aceite regular hasta que quede ligeramente crujiente.",
+      "Apartar a un lado; revolver los huevos.",
+      "Agregar el ajo y las arvejas; mezclar todo. Agregar la salsa de soya.",
+      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Decorar."
+    ]
+  },
+  "cannabis-grilled-salmon": {
+    "ingredients": [
+      "4 filetes de salmón",
+      "2 tbsp de mantequilla de cannabis",
+      "2 dientes de ajo picados",
+      "1 tbsp de eneldo fresco",
+      "Ralladura y jugo de 1 limón",
+      "Sal, pimienta",
+      "Alcaparras y limón para servir"
+    ],
+    "instructions": [
+      "Sazonar el salmón y sellar con la piel hacia abajo por 4 min hasta que quede crujiente.",
+      "Voltear; cocinar 3 min más.",
+      "Derretir la mantequilla de cannabis con el ajo y el eneldo; verter sobre el pescado con una cuchara.",
+      "Servir con alcaparras y limón."
+    ]
+  },
+  "infused-caprese-salad": {
+    "ingredients": [
+      "3 tomates grandes maduros en rodajas",
+      "250g de mozzarella fresca en rodajas",
+      "1 manojo de albahaca fresca",
+      "3 tbsp de aceite de oliva extra virgen de cannabis",
+      "1 tbsp de reducción de balsámico",
+      "Sal de mar en escamas, pimienta negra"
+    ],
+    "instructions": [
+      "Disponer las rodajas de tomate y mozzarella de forma alternada.",
+      "Colocar hojas de albahaca entre cada una.",
+      "Rociar con el aceite de oliva de cannabis y el balsámico.",
+      "Terminar con sal de mar y pimienta."
+    ]
+  },
+  "cannabis-quesadilla": {
+    "ingredients": [
+      "4 tortillas de harina grandes",
+      "2 tbsp de mantequilla de cannabis",
+      "2 cups de queso cheddar rallado",
+      "1 cup de pollo cocido o frijoles negros",
+      "½ cebolla morada en cubitos",
+      "1 jalapeño en rodajas",
+      "Crema agria y guacamole"
+    ],
+    "instructions": [
+      "Derretir la mantequilla de cannabis en un sartén grande.",
+      "Colocar una tortilla; esparcir queso, relleno y jalapeño sobre la mitad.",
+      "Doblar y cocinar 3 min por lado hasta dorar.",
+      "Cortar en triángulos y servir."
+    ]
+  },
+  "infused-pad-thai": {
+    "ingredients": [
+      "200g de fideos de arroz planos remojados",
+      "2 huevos",
+      "150g de camarones o tofu",
+      "2 tbsp de aceite de sésamo de cannabis",
+      "3 tbsp de salsa de soya",
+      "2 tbsp de pasta de tamarindo",
+      "1 tbsp de azúcar",
+      "Cebollín, brotes de soya, maní, limón"
+    ],
+    "instructions": [
+      "Saltear los camarones o el tofu. Revolver los huevos en el mismo sartén.",
+      "Agregar los fideos, la salsa de soya, el tamarindo y el azúcar. Mezclar 2 min.",
+      "Agregar el cebollín y los brotes de soya.",
+      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Servir con maní y limón."
+    ]
+  },
+  "cannabis-pizza": {
+    "ingredients": [
+      "2 cups de harina",
+      "1 tsp de levadura instantánea",
+      "½ tsp de sal",
+      "¾ cup de agua tibia",
+      "2 tbsp de aceite de oliva de cannabis",
+      "Toppings: ½ cup de salsa de tomate, 150g de mozzarella, ingredientes al gusto",
+      "Aceite de oliva de cannabis extra para terminar"
+    ],
+    "instructions": [
+      "Mezclar la masa; amasar 8 min. Dejar levar 1h.",
+      "Precalentar el horno a 475°F.",
+      "Estirar la masa; agregar salsa, queso e ingredientes.",
+      "Hornear 10-12 min hasta dorar.",
+      "Rociar con aceite de oliva de cannabis antes de cortar."
+    ]
+  },
+  "infused-lentil-dal": {
+    "ingredients": [
+      "1½ cups de lentejas rojas",
+      "1 cebolla",
+      "4 dientes de ajo",
+      "1 inch de jengibre",
+      "1 lata de tomate triturado",
+      "1 tsp de semillas de comino",
+      "1 tsp de cúrcuma",
+      "1 tsp de garam masala",
+      "3 cups de agua",
+      "2 tbsp de ghee de cannabis",
+      "Sal, cilantro"
+    ],
+    "instructions": [
+      "Freír las semillas de comino hasta que revienten. Agregar la cebolla, el ajo y el jengibre.",
+      "Agregar los tomates y las especias. Agregar las lentejas y el agua; cocinar a fuego lento 20-25 min.",
+      "Fuera del fuego: incorporar el ghee de cannabis.",
+      "Sazonar y decorar con cilantro. Servir sobre arroz."
+    ]
+  },
+  "cannabis-feijoada": {
+    "ingredients": [
+      "2 cups de frijoles negros secos, remojados toda la noche",
+      "200g de costillas de cerdo ahumadas",
+      "150g de carne seca, remojada y en cubos",
+      "150g de salchicha de cerdo (linguiça), en rodajas",
+      "100g de tocino en cubos",
+      "1 cebolla grande picada",
+      "6 dientes de ajo picados",
+      "3 hojas de laurel",
+      "Sal y pimienta negra al gusto",
+      "3 tbsp de aceite de oliva de cannabis",
+      "Rodajas de naranja para decorar"
+    ],
+    "instructions": [
+      "Escurrir los frijoles, cubrir con agua fresca, agregar las costillas ahumadas y las hojas de laurel. Cocinar a fuego lento 1.5-2 horas hasta que los frijoles estén tiernos.",
+      "En un sartén, cocinar el tocino hasta que esté crujiente. Agregar la salchicha, la carne seca, la cebolla y el ajo; saltear 5 min.",
+      "Transferir el contenido del sartén a la olla de frijoles. Cocinar a fuego lento 30 min más.",
+      "Retirar del fuego e incorporar el aceite de oliva de cannabis.",
+      "Servir sobre arroz blanco con berza salteada, farofa y rodajas de naranja."
+    ]
+  },
+  "infused-brigadeiro": {
+    "ingredients": [
+      "1 lata (14 oz) de leche condensada",
+      "2 tbsp de cacao en polvo sin azúcar",
+      "1 tbsp de mantequilla de cannabis",
+      "Pizca de sal",
+      "Chispas de chocolate para decorar"
+    ],
+    "instructions": [
+      "Combinar la leche condensada, el cacao en polvo y la mantequilla de cannabis en una olla a fuego medio-bajo.",
+      "Revolver constantemente hasta que la mezcla espese y se despegue de los lados de la olla, aproximadamente 10-15 min.",
+      "Transferir a un plato engrasado y dejar enfriar a temperatura ambiente.",
+      "Engrasar las manos con mantequilla, formar bolitas y cubrir con chispas de chocolate.",
+      "Colocar en capacillos de mini cupcake y refrigerar hasta que estén firmes."
+    ]
+  },
+  "cannabis-pacoca": {
+    "ingredients": [
+      "2 cups de maní tostado sin sal",
+      "1 cup de azúcar",
+      "1 tbsp de mantequilla de cannabis derretida",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "Procesar el maní en un procesador de alimentos hasta obtener una textura fina y ligeramente aceitosa.",
+      "Agregar el azúcar, la mantequilla de cannabis derretida y la sal. Pulsar unas veces más hasta integrar.",
+      "Presionar la mezcla firmemente en moldes cilíndricos pequeños o en un molde forrado.",
+      "Refrigerar 1 hora hasta que endurezca, luego desmoldar.",
+      "Guardar en un recipiente hermético a temperatura ambiente."
+    ]
+  },
+  "infused-coxinha": {
+    "ingredients": [
+      "2 cups de pollo cocido desmenuzado",
+      "1 tbsp de queso crema",
+      "2 cups de caldo de pollo",
+      "2 tbsp de mantequilla de cannabis",
+      "2 cups de harina de trigo",
+      "Sal y pimienta al gusto",
+      "2 huevos batidos",
+      "Pan rallado para empanizar",
+      "Aceite para freír"
+    ],
+    "instructions": [
+      "Sazonar el pollo desmenuzado con queso crema, sal y pimienta. Reservar.",
+      "En una olla, hervir el caldo y la mantequilla de cannabis. Agregar la harina de golpe, revolviendo vigorosamente hasta que la masa forme una bola. Dejar enfriar.",
+      "Tomar una porción de masa, aplanar en la palma, agregar el relleno de pollo y dar forma de gota.",
+      "Pasar por huevo batido y luego por pan rallado.",
+      "Freír a 350°F hasta dorar, aproximadamente 3-4 min. Escurrir sobre papel absorbente."
+    ]
+  },
+  "cannabis-pao-de-queijo": {
+    "ingredients": [
+      "2 cups de harina de tapioca (polvilho azedo)",
+      "½ cup de leche",
+      "¼ cup de aceite de oliva de cannabis",
+      "1 huevo",
+      "1 cup de queso parmesano o queso Minas rallado",
+      "½ tsp de sal"
+    ],
+    "instructions": [
+      "Precalentar el horno a 375°F.",
+      "Calentar la leche, el aceite de oliva de cannabis y la sal hasta que apenas hierva. Verter sobre la harina de tapioca y mezclar hasta integrar.",
+      "Dejar enfriar un poco, luego incorporar el huevo y el queso hasta obtener una masa suave.",
+      "Formar bolitas y colocar en una bandeja con papel para hornear.",
+      "Hornear 20-25 min hasta que estén inflados y dorados."
+    ]
+  },
+  "infused-acai-bowl": {
+    "ingredients": [
+      "2 paquetes (200g) de pulpa de açaí congelada",
+      "1 plátano congelado",
+      "½ cup de leche de almendras",
+      "1 tbsp de aceite de coco infusionado derretido",
+      "Toppings: granola, plátano en rodajas, fresas, miel, coco rallado"
+    ],
+    "instructions": [
+      "Licuar la pulpa de açaí congelada, el plátano congelado, la leche de almendras y el aceite de coco infusionado hasta obtener una mezcla espesa y suave.",
+      "Verter en un bowl.",
+      "Decorar con granola, plátano en rodajas, fresas, coco rallado y un chorrito de miel.",
+      "Servir de inmediato."
+    ]
+  },
+  "cannabis-moqueca": {
+    "ingredients": [
+      "500g de pescado blanco firme (bacalao o halibut), cortado en trozos",
+      "Jugo de 2 limones",
+      "1 cebolla en aros",
+      "1 pimiento en rodajas",
+      "2 tomates picados",
+      "1 lata (400ml) de leche de coco",
+      "2 tbsp de aceite de dendé (palma)",
+      "2 tbsp de aceite de oliva de cannabis",
+      "Cilantro fresco, sal y pimienta"
+    ],
+    "instructions": [
+      "Marinar el pescado en jugo de limón, sal y pimienta por 30 min.",
+      "En una olla de barro o sartén hondo, hacer capas con cebolla, pimientos, tomates y pescado.",
+      "Verter la leche de coco y el aceite de dendé encima. Tapar y cocinar a fuego lento 20 min sin revolver.",
+      "Retirar del fuego e incorporar suavemente el aceite de oliva de cannabis.",
+      "Decorar con cilantro. Servir sobre arroz blanco."
+    ]
+  },
+  "infused-tapioca-crepe": {
+    "ingredients": [
+      "1 cup de almidón de tapioca hidratado (goma de tapioca)",
+      "Pizca de sal",
+      "Relleno: coco rallado, mozzarella o queso coalho",
+      "1 tbsp de aceite de coco infusionado",
+      "Leche condensada (opcional)"
+    ],
+    "instructions": [
+      "Tamizar el almidón de tapioca con un colador fino para eliminar grumos.",
+      "Calentar un sartén antiadherente a fuego medio. Esparcir una capa fina y uniforme de almidón de tapioca sobre el sartén.",
+      "Cuando se vuelva translúcida y se mantenga unida (aproximadamente 1 min), agregar queso y coco en una mitad.",
+      "Doblar y cocinar 1 min más hasta que el queso se derrita.",
+      "Rociar aceite de coco infusionado y leche condensada encima. Servir de inmediato."
+    ]
+  },
+  "cannabis-beijinho": {
+    "ingredients": [
+      "1 lata (14 oz) de leche condensada",
+      "1 tbsp de mantequilla de cannabis",
+      "½ cup de coco rallado, más extra para cubrir",
+      "Pizca de sal",
+      "Clavos de olor enteros para decorar"
+    ],
+    "instructions": [
+      "Combinar la leche condensada, la mantequilla de cannabis y el coco rallado en una olla a fuego medio-bajo.",
+      "Revolver constantemente hasta que la mezcla espese y se despegue de los lados, aproximadamente 10-12 min.",
+      "Transferir a un plato engrasado y dejar enfriar a temperatura ambiente.",
+      "Formar bolitas y cubrir con coco rallado. Colocar un clavo de olor en la punta de cada una.",
+      "Colocar en capacillos de mini cupcake y refrigerar hasta el momento de servir."
+    ]
+  },
+  "infused-empadao": {
+    "ingredients": [
+      "3 cups de harina de trigo",
+      "½ cup de mantequilla de cannabis fría en cubos",
+      "½ cup de mantequilla regular fría en cubos",
+      "2 yemas de huevo",
+      "3-4 tbsp de agua helada",
+      "Relleno: 2 cups de pollo desmenuzado, 1 cebolla, 2 dientes de ajo, ½ cup de aceitunas verdes, ½ cup de palmitos, 2 tbsp de pasta de tomate, sal, pimienta, perejil",
+      "1 huevo para barnizar"
+    ],
+    "instructions": [
+      "Preparar la masa: procesar la harina, la mantequilla de cannabis, la mantequilla regular y las yemas en un procesador de alimentos. Agregar agua helada hasta que la masa se integre. Envolver y refrigerar 30 min.",
+      "Preparar el relleno: saltear la cebolla y el ajo, agregar el pollo, la pasta de tomate, las aceitunas, los palmitos, sal, pimienta y perejil. Cocinar 5 min. Dejar enfriar.",
+      "Presionar ⅔ de la masa en un molde engrasado. Agregar el relleno.",
+      "Estirar la masa restante para la tapa. Sellar los bordes y barnizar con huevo.",
+      "Hornear a 375°F por 35-40 min hasta dorar."
+    ]
+  }
+}

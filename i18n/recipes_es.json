@@ -2,686 +2,2818 @@
   "cannabutter": {
     "name": "Mantequilla de Cannabis",
     "description": "Eleva tus creaciones culinarias con la magia de la mantequilla de cannabis. Infunde tus platos con un toque de euforia para una experiencia gastronómica verdaderamente única.",
-    "category_name": "Esenciales"
+    "category_name": "Esenciales",
+    "ingredients": [
+      "1 cup de mantequilla sin sal (2 barras)",
+      "1/2 cup de agua (agrega mas agua en cualquier momento si es necesario)",
+      "7 de hierba molida"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende como",
+      "Agrega &frac12; cup de agua y 2 barras (&frac12; lb) de mantequilla en una olla y lleva a fuego lento a bajo-medio. Agregar agua ayuda a regular la temperatura y evita que la mantequilla se queme. Cuando la mantequilla comience a derretirse, agrega la hierba molida.",
+      "Mantén el fuego bajo y deja que la mezcla hierva a fuego lento por 2-3 horas, revolviendo ocasionalmente. Asegurate de que la mezcla nunca llegue a hervir completamente.",
+      "Vierte la mezcla caliente en un recipiente de vidrio, usando una manta de cielo para colar toda la hierba molida de la mezcla de mantequilla. Exprime o presiona el material vegetal para sacar la mayor cantidad de liquido posible de la hierba. Desecha la hierba sobrante.",
+      "Tapa y refrigera el liquido restante durante la noche o hasta que la mantequilla este completamente endurecida. Una vez endurecida, la mantequilla se separara del agua, permitiendote levantar la mantequilla de cannabis del recipiente. Desecha el agua restante despues de retirar la mantequilla de cannabis endurecida.",
+      "Ten en cuenta que la mantequilla de cannabis en el recipiente deberia tener un ligero tono verdoso por el cannabis. Ahora estas listo para preparar algunas comidas infusionadas con cannabis!"
+    ]
   },
   "infused-coconut-oil": {
     "name": "Aceite de Coco Infusionado",
     "description": "Con su rico sabor tropical y la deliciosa infusión de cannabis, este aceite versátil eleva tu cocina a nuevas alturas.",
-    "category_name": "Esenciales"
+    "category_name": "Esenciales",
+    "ingredients": [
+      "1/2 cup de aceite de coco",
+      "3.5 de hierba molida"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende como hacerlo",
+      "Agrega la hierba a un frasco de conserva con &frac12; cup de aceite de coco.",
+      "Sella el frasco de conserva muy bien.",
+      "Coloca el frasco de conserva en agua hirviendo a fuego bajo-medio (240&deg; F - 115&deg; C) por mas de 2 horas.",
+      "Vierte todo el contenido del frasco en una manta de cielo sobre un colador metalico.",
+      "Junta la manta de cielo y exprime todo el liquido restante."
+    ]
   },
   "infused-olive-oil": {
     "name": "Aceite de Oliva Infusionado",
     "description": "Probablemente el medio más versátil y un excelente punto de partida para cocinar con cannabis.",
-    "category_name": "Esenciales"
+    "category_name": "Esenciales",
+    "ingredients": [
+      "300 ml de aceite de oliva",
+      "8 de hierba molida"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende como hacerlo",
+      "Muele tu hierba finamente, quieres lograr una buena area de superficie de exposicion.",
+      "Agrega la hierba molida a un frasco de conserva con 300 ml de aceite de oliva.",
+      "Sella el frasco de conserva muy bien.",
+      "Coloca el frasco de conserva en agua hirviendo a fuego bajo-medio (240&deg; F - 115&deg; C) por mas de 2 horas.",
+      "Vierte todo el contenido del frasco en una manta de cielo sobre un colador metalico.",
+      "Junta la manta de cielo y exprime todo el liquido restante."
+    ]
   },
   "infused-bulletproof-coffee": {
     "name": "Café Bulletproof Infusionado",
     "description": "Enciende tus sentidos y potencia tu día con enfoque y equilibrio, todo en una sola taza.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 cup de cafe preparado",
+      "1 tablespoon de aceite de coco infusionado",
+      "1 tablespoon de mantequilla sin sal",
+      "Endulzante de tu preferencia (opcional)"
+    ],
+    "instructions": [
+      "Prepara una taza de cafe usando tu metodo preferido.",
+      "En una licuadora, combina el cafe preparado, la mantequilla sin sal, el aceite de coco y el aceite de coco infusionado con cannabis.",
+      "Licua a alta velocidad hasta que la mezcla este cremosa y espumosa.",
+      "Prueba y agrega endulzante si lo deseas.",
+      "Sirve en una taza y disfruta tu cafe bulletproof infusionado con cannabis, apto para dieta keto!"
+    ]
   },
   "infused-keto-peanut-butter-cookies": {
     "name": "Galletas Keto de Mantequilla de Maní Infusionadas",
     "description": "Eleva tu juego de galletas con nuestra creación keto. Disfruta la perfección de las galletas de mantequilla de maní, sin culpa y adaptadas a tu estilo de vida bajo en carbohidratos.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 cup de mantequilla de mani natural (sin azucar)",
+      "1/2 cup de eritritol en polvo o endulzante bajo en carbohidratos de tu preferencia",
+      "1 huevo grande",
+      "1/2 tsp de extracto de vainilla",
+      "2 tbsp de aceite de coco infusionado, derretido",
+      "1/4 teaspoon de sal"
+    ],
+    "instructions": [
+      "Precalienta el horno a 350°F (175°C) y cubre una bandeja para hornear con papel pergamino.",
+      "En un tazon, combina la mantequilla de mani natural, el eritritol en polvo, el huevo, el extracto de vainilla, el aceite de coco infusionado con cannabis y la sal.",
+      "Mezcla hasta que este bien combinado y se forme una masa.",
+      "Toma porciones del tamano de una cucharada y forma bolitas con la masa.",
+      "Coloca las bolitas de masa en la bandeja preparada y aplanalas con un tenedor, haciendo un patron entrecruzado.",
+      "Hornea en el horno precalentado por 10-12 minutos o hasta que las galletas esten doradas en los bordes.",
+      "Retira del horno y deja que las galletas se enfrien en la bandeja por unos minutos antes de transferirlas a una rejilla para que se enfrien completamente.",
+      "Disfruta tus deliciosas galletas keto de mantequilla de mani infusionadas con cannabis!"
+    ]
   },
   "infused-coconut-fat-bombs": {
     "name": "Bombas de Grasa de Coco Infusionadas",
     "description": "Eleva tus snacks con la dicha del coco infusionado con la naturaleza. Nutre cuerpo y mente con cada bocadito, elaborado para una indulgencia equilibrada.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1/2 cup de aceite de coco, derretido",
+      "1/2 cup de mantequilla de coco",
+      "2 tbsp de aceite de coco infusionado",
+      "2 tbsp de cacao en polvo sin azucar",
+      "1/4 cup de eritritol en polvo o endulzante de tu preferencia",
+      "1/2 tsp de extracto de vainilla",
+      "1/2 tsp de sal"
+    ],
+    "instructions": [
+      "En un tazon, combina el aceite de coco derretido, la mantequilla de coco, el aceite de coco infusionado con cannabis, el cacao en polvo sin azucar, el eritritol en polvo, el extracto de vainilla y la sal.",
+      "Revuelve hasta que este bien combinado y suave.",
+      "Vierte la mezcla en moldes de silicona o en una cubetera de hielo.",
+      "Coloca en el refrigerador o congelador para que solidifique por al menos 1 hora.",
+      "Desmolda las bombas de grasa de coco.",
+      "Guarda las bombas de grasa de coco infusionadas con cannabis en un recipiente hermetico en el refrigerador o congelador.",
+      "Disfruta una o dos bombas de grasa como snack apto para keto e infusionado con cannabis!"
+    ]
   },
   "infused-pesto-pasta": {
     "name": "Pasta al Pesto Infusionada",
     "description": "Espirales perfectamente cocidas bañadas en aromático pesto de albahaca, coronadas con una delicada lluvia de parmesano celestial.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 cups de hojas frescas de albahaca",
+      "1/2 cup de pinones",
+      "1/2 cup de queso parmesano rallado",
+      "2 dientes de ajo, picados",
+      "1/2 cup de aceite de oliva infusionado",
+      "Sal y pimienta al gusto",
+      "1 pound de pasta (por ejemplo, espagueti, penne o fusilli)",
+      "Queso parmesano rallado para decorar"
+    ],
+    "instructions": [
+      "En un procesador de alimentos, combina las hojas frescas de albahaca, los pinones, el queso parmesano rallado y el ajo picado.",
+      "Pulsa la mezcla hasta que forme una pasta gruesa.",
+      "Con el procesador encendido, vierte lentamente el aceite de oliva infusionado con cannabis hasta que el pesto quede suave y bien combinado.",
+      "Sazona el pesto con sal y pimienta al gusto. Ajusta el sazon segun sea necesario.",
+      "Cocina la pasta siguiendo las instrucciones del paquete hasta que este al dente.",
+      "Escurre la pasta cocida, reservando una pequena cantidad del agua de coccion.",
+      "En un tazon grande, mezcla la pasta cocida con el pesto infusionado con cannabis. Si es necesario, agrega un poco del agua de coccion reservada para aflojar la salsa.",
+      "Sirve la pasta al pesto infusionada con cannabis con un poco de queso parmesano rallado encima.",
+      "Disfruta este sabroso platillo de pasta infusionado con cannabis!"
+    ]
   },
   "infused-berry-smoothie": {
     "name": "Smoothie de Frutos Rojos Infusionado",
     "description": "Una tentadora fusión de frutos rojos congelados, frutas y yogur griego. Refrescante, sabroso e increíblemente delicioso.",
-    "category_name": "Bebidas"
+    "category_name": "Bebidas",
+    "ingredients": [
+      "1-2 teaspoons de aceite de coco infusionado",
+      "1 cup de mezcla de moras congeladas (fresas, arandanos, frambuesas)",
+      "1 platano maduro",
+      "1 cup de leche (de vaca o vegetal)",
+      "1/2 cup de yogur griego natural",
+      "1 tablespoon de miel o jarabe de maple",
+      "Opcional: un punado de kale para nutrientes adicionales"
+    ],
+    "instructions": [
+      "Coloca todos los ingredientes en una licuadora.",
+      "Licua a alta velocidad hasta que quede suave y cremoso.",
+      "Prueba y ajusta el dulzor agregando mas miel o jarabe de maple si lo deseas.",
+      "Si el smoothie queda muy espeso, agrega un poco mas de leche y licua de nuevo hasta alcanzar la consistencia deseada.",
+      "Sirve el smoothie de moras infusionado con cannabis en vasos y disfruta de inmediato."
+    ]
   },
   "infused-energy-bites": {
     "name": "Bocaditos de Energía Infusionados",
     "description": "Cada bocado es una mezcla celestial de ingredientes saludables, ofreciendo una experiencia dichosa y vigorizante para tu paladar y tu mente.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "1 cup de avena en hojuelas",
+      "1/2 cup de mantequilla de nuez (como mantequilla de almendra o de mani)",
+      "1/3 cup de miel o jarabe de maple",
+      "1/4 cup de linaza molida",
+      "1/4 cup de mini chispas de chocolate",
+      "1/4 cup de coco rallado",
+      "1 teaspoon de extracto de vainilla",
+      "1 tbsp de aceite de coco infusionado",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "En un tazon grande, combina todos los ingredientes: avena en hojuelas, mantequilla de nuez, miel o jarabe de maple, linaza molida, mini chispas de chocolate, coco rallado, extracto de vainilla, aceite de coco infusionado con cannabis y una pizca de sal.",
+      "Revuelve bien hasta que todos los ingredientes esten uniformemente combinados.",
+      "Tapa el tazon y coloca en el refrigerador por 30 minutos para que la mezcla se endurezca.",
+      "Despues de enfriar, saca la mezcla del refrigerador y forma pequenas bolitas del tamano de un bocado con las manos.",
+      "Coloca las bolitas de energia infusionadas con cannabis en una bandeja cubierta con papel pergamino.",
+      "Refrigera las bolitas de energia por 1-2 horas mas para que se asienten y endurezcan.",
+      "Una vez firmes, transfiere las bolitas de energia a un recipiente hermetico y guardalas en el refrigerador.",
+      "Disfruta las bolitas de energia infusionadas con cannabis como un snack nutritivo y delicioso!"
+    ]
   },
   "firecrackers": {
     "name": "Fire Crackers",
     "description": "Fáciles de preparar, deliciosos y extremadamente potentes, esta receta es una de las más populares.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "Galleta graham",
+      "3.5 de hierba molida",
+      "Crema de avellanas",
+      "Papel aluminio"
+    ],
+    "instructions": [
+      "Coloca tu hierba sobre el papel aluminio.",
+      "Precalienta tu horno a 250&deg; F.",
+      "Tuesta tu hierba por 10 minutos a 250&deg; F.",
+      "Cubre las galletas graham con crema de avellanas.",
+      "Retira tu hierba del horno y espolvorea sobre la crema de avellanas.",
+      "Mezcla la hierba en la crema y junta las galletas graham como sandwich.",
+      "Envuelve y sella el firecracker en papel aluminio.",
+      "Tuesta en el horno por 15 minutos a 300&deg; F."
+    ]
   },
   "infused-lemonade": {
     "name": "Limonada Infusionada",
     "description": "Sorbe esta vigorizante bebida para experimentar un equilibrio armonioso entre notas cítricas y los efectos relajantes del cannabis.",
-    "category_name": "Bebidas"
+    "category_name": "Bebidas",
+    "ingredients": [
+      "1 cup de jugo de limon recien exprimido",
+      "4 cups de agua fria",
+      "1/2 cup de azucar granulada",
+      "1-2 tsp de miel infusionada",
+      "Cubos de hielo",
+      "Rodajas de limon para decorar"
+    ],
+    "instructions": [
+      "En una jarra, combina el jugo de limon recien exprimido, el agua fria, el azucar granulada y la miel infusionada con cannabis.",
+      "Revuelve bien hasta que el azucar se disuelva.",
+      "Prueba la limonada y ajusta el dulzor agregando mas azucar o miel infusionada con cannabis si lo deseas.",
+      "Agrega cubos de hielo a la jarra para enfriar la limonada.",
+      "Revuelve de nuevo antes de servir.",
+      "Sirve la limonada infusionada con cannabis en vasos y decora con rodajas de limon.",
+      "Disfruta sorbiendo los efectos refrescantes y estimulantes de la limonada infusionada con cannabis!"
+    ]
   },
   "infused-keto-chocolate-avocado-mousse": {
     "name": "Mousse Keto de Chocolate y Aguacate Infusionado",
     "description": "Transforma la hora del postre con nuestra indulgencia a base de aguacate. Saborea la riqueza de la dicha infusionada con chocolate, mientras abrazas el toque natural para un placer verdaderamente delectable.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 aguacates maduros",
+      "1/4 cup de cacao en polvo sin azucar",
+      "3 tbsp de aceite de coco infusionado",
+      "3 tbsp de eritritol en polvo o endulzante de tu preferencia",
+      "1/2 tsp de extracto de vainilla",
+      "Pizca de sal",
+      "Toppings opcionales: crema batida, moras, nueces picadas"
+    ],
+    "instructions": [
+      "Corta los aguacates por la mitad y retira las semillas.",
+      "Saca la pulpa con una cuchara y colocala en una licuadora o procesador de alimentos.",
+      "Agrega el cacao en polvo sin azucar, el aceite de coco infusionado con cannabis, el eritritol en polvo, el extracto de vainilla y la sal.",
+      "Licua hasta que quede suave y cremoso.",
+      "Prueba y ajusta el dulzor si es necesario.",
+      "Divide el mousse de chocolate y aguacate infusionado con cannabis en tazones o vasos para servir.",
+      "Refrigera por al menos 30 minutos para que se enfrie y se asiente.",
+      "Antes de servir, puedes decorar el mousse con crema batida, moras o nueces picadas si lo deseas.",
+      "Disfruta tu mousse de chocolate y aguacate infusionado, apto para keto!"
+    ]
   },
   "infused-guacamole": {
     "name": "Guacamole Infusionado",
     "description": "Este irresistible guacamole combina aguacates cremosos, jugo de limón, tomates en cubos, cebollas y un delicioso toque herbal.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "2 tbsp de aceite de oliva infusionado",
+      "2 aguacates maduros",
+      "1 tbsp de jugo de limon",
+      "1/4 cup de cebolla finamente picada",
+      "1/4 cup de tomate en cubitos",
+      "1 diente de ajo, picado",
+      "Sal y pimienta al gusto",
+      "Opcional: cilantro picado, jalapenos en cubitos"
+    ],
+    "instructions": [
+      "Corta los aguacates por la mitad, retira las semillas y saca la pulpa con una cuchara en un tazon.",
+      "Machaca el aguacate con un tenedor hasta alcanzar la consistencia deseada.",
+      "Agrega el jugo de limon, la cebolla, el tomate, el ajo, el aceite de oliva infusionado con cannabis, la sal y la pimienta al tazon. Mezcla bien.",
+      "Prueba y ajusta el sazon segun sea necesario.",
+      "Opcional: incorpora cilantro picado y jalapenos en cubitos para mas sabor y picante.",
+      "Sirve de inmediato con totopos o como topping para tacos, burritos o sandwiches."
+    ]
   },
   "infused-chocolate-truffles": {
     "name": "Trufas de Chocolate Infusionadas",
     "description": "Experimenta pura decadencia con estas exquisitas trufas de chocolate. Un viaje eufórico a través de sabores ricos y aterciopelados te espera.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1/2 cup de aceite de coco infusionado con cannabis",
+      "1/2 cup de cacao en polvo sin azucar",
+      "1/4 cup de jarabe de maple",
+      "1 teaspoon de extracto de vainilla",
+      "1/4 teaspoon de sal",
+      "Coberturas opcionales: nueces picadas, cacao en polvo, coco rallado"
+    ],
+    "instructions": [
+      "En un tazon apto para microondas, derrite el aceite de coco infusionado con cannabis.",
+      "Agrega el cacao en polvo sin azucar, el jarabe de maple, el extracto de vainilla y la sal al aceite de coco derretido. Revuelve bien hasta que quede suave y combinado.",
+      "Coloca la mezcla en el refrigerador por aproximadamente 1 hora o hasta que este lo suficientemente firme para manipular.",
+      "Toma pequenas porciones de la mezcla y forma trufas del tamano de un bocado con las manos.",
+      "Rueda las trufas en la cobertura que prefieras, como nueces picadas, cacao en polvo o coco rallado.",
+      "Coloca las trufas cubiertas en una bandeja forrada con papel pergamino.",
+      "Refrigera las trufas por al menos 1 hora para que se asienten.",
+      "Sirve las trufas de chocolate infusionadas con cannabis frias y disfruta!"
+    ]
   },
   "infused-banana-bread": {
     "name": "Pan de Banana Infusionado",
     "description": "Saborea una mezcla de bananas maduras, ingredientes cuidadosamente seleccionados y una infusión especial que transforma un clásico en un placer elevado y delicioso.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1/2 cup de mantequilla de cannabis, derretida",
+      "1 cup de azucar granulada",
+      "2 huevos grandes",
+      "3 platanos maduros, machacados",
+      "1 teaspoon de extracto de vainilla",
+      "1 1/2 cups de harina para todo uso",
+      "1 teaspoon de bicarbonato de sodio",
+      "1/2 teaspoon de sal"
+    ],
+    "instructions": [
+      "Precalienta tu horno a 350°F (175°C). Engrasa un molde para pan de 9x5 pulgadas.",
+      "En un tazon grande, combina la mantequilla de cannabis derretida y el azucar granulada.",
+      "Agrega los huevos, los platanos machacados y el extracto de vainilla. Revuelve bien para combinar.",
+      "En un tazon aparte, mezcla la harina para todo uso, el bicarbonato de sodio y la sal.",
+      "Agrega gradualmente los ingredientes secos a la mezcla de platano, revolviendo hasta que apenas se combinen. Ten cuidado de no mezclar demasiado.",
+      "Vierte la masa en el molde engrasado, distribuyendola uniformemente.",
+      "Hornea en el horno precalentado por 50-60 minutos, o hasta que un palillo insertado en el centro salga limpio.",
+      "Retira el pan de platano del horno y deja enfriar en el molde por 10 minutos. Luego transfierelo a una rejilla para que se enfrie completamente.",
+      "Rebana y disfruta el pan de platano infusionado con cannabis como un delicioso y reconfortante bocadillo!"
+    ]
   },
   "infused-keto-cheesecake-bites": {
     "name": "Bocaditos de Cheesecake Keto Infusionados",
     "description": "Deléitate con nuestros bocaditos de cheesecake infusionados, un equilibrio perfecto entre sabor e indulgencia consciente.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 1/2 cups de harina de almendra",
+      "1/4 cup de eritritol en polvo o endulzante bajo en carbohidratos de tu preferencia",
+      "1/4 cup de mantequilla de cannabis, derretida",
+      "16 ounces de queso crema, a temperatura ambiente",
+      "1/2 cup de eritritol en polvo o endulzante bajo en carbohidratos de tu preferencia",
+      "2 teaspoons de extracto de vainilla",
+      "2 huevos grandes"
+    ],
+    "instructions": [
+      "Precalienta el horno a 325°F (165°C).",
+      "En un tazon, combina la harina de almendra, el eritritol en polvo y la mantequilla de cannabis derretida.",
+      "Presiona la mezcla en el fondo de un molde cuadrado engrasado.",
+      "Hornea la base en el horno precalentado por 10 minutos, luego retira del horno y reserva.",
+      "En un tazon, bate el queso crema suavizado, el eritritol en polvo y el extracto de vainilla hasta que quede suave y cremoso.",
+      "Agrega los huevos uno a la vez, batiendo bien despues de cada adicion.",
+      "Vierte la mezcla de queso crema sobre la base horneada en el molde.",
+      "Hornea por 25-30 minutos o hasta que el cheesecake este firme y ligeramente dorado.",
+      "Retira del horno y deja que el cheesecake se enfrie a temperatura ambiente.",
+      "Refrigera el cheesecake por al menos 4 horas o durante la noche para que se endurezca.",
+      "Corta el cheesecake frio en cuadros pequenos y sirve tus bocaditos de cheesecake keto infusionados con cannabis.",
+      "Disfruta estos cremosos e indulgentes bocaditos mientras sigues tu dieta keto!"
+    ]
   },
   "infused-keto-cauliflower-pizza-crust": {
     "name": "Masa de Pizza Keto de Coliflor Infusionada",
     "description": "Revoluciona la noche de pizza con una masa de coliflor infusionada. Disfruta de la bondad de la naturaleza, equilibrada y sabrosa en cada bocado.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 cabeza pequena de coliflor, rallada",
+      "1/2 cup de queso mozzarella rallado",
+      "2 tbsp de harina de almendra",
+      "1 tbsp de aceite de oliva infusionado",
+      "1 huevo",
+      "1/2 tsp de oregano seco",
+      "1/2 tsp de ajo en polvo",
+      "1/4 tsp de sal"
+    ],
+    "instructions": [
+      "Precalienta tu horno a 425°F (220°C) y cubre una bandeja para hornear con papel pergamino.",
+      "Coloca la coliflor rallada en un tazon apto para microondas y cocina en el microondas por 5-6 minutos hasta que este tierna.",
+      "Deja que la coliflor se enfrie un poco, luego transfierela a un trapo de cocina limpio.",
+      "Envuelve la coliflor en el trapo y exprime la mayor cantidad de liquido posible.",
+      "En un tazon, combina la coliflor, el queso mozzarella rallado, la harina de almendra, el aceite de oliva infusionado con cannabis, el huevo, el oregano seco, el ajo en polvo y la sal.",
+      "Mezcla hasta que este bien combinado.",
+      "Transfiere la mezcla de coliflor a la bandeja preparada y dale forma de base de pizza.",
+      "Hornea en el horno precalentado por 12-15 minutos o hasta que la base este dorada y firme.",
+      "Retira del horno y agrega los toppings que desees.",
+      "Regresa la pizza al horno y hornea por 8-10 minutos mas hasta que el queso este derretido y burbujeante.",
+      "Rebana y disfruta tu pizza de coliflor keto infusionada con cannabis!"
+    ]
   },
   "infused-milk": {
     "name": "Leche Infusionada",
     "description": "¿Qué tal una malteada bien fría? ¿O una crema batida sobre un pastel? La leche infusionada con cannabis es ideal para estas recetas.",
-    "category_name": "Esenciales"
+    "category_name": "Esenciales",
+    "ingredients": [
+      "Leche, crema, leche de coco u otro sustituto de leche",
+      "1 de hierba molida por litro de leche",
+      "Olla",
+      "Batidor",
+      "Manta de cielo",
+      "Frasco mason"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende como hacerlo",
+      "Muele tu hierba finamente, quieres lograr una buena area de superficie de exposicion.",
+      "Luego, agrega tu cannabis finamente molido directamente a la leche, coloca a fuego bajo y bate para combinar. Ten cuidado de que la mezcla no hierva!",
+      "Revuelve la mezcla de leche frecuentemente para evitar que se queme y deja que el cannabis y la leche hiervan a fuego lento por 30 minutos a una hora dependiendo de la potencia que prefieras.",
+      "Despues de 30 minutos a una hora, retira del fuego y deja reposar por 5-10 minutos para ayudar a que los cannabinoides se asienten en las celulas de grasa.",
+      "Coloca la manta de cielo sobre la parte superior de un frasco mason grande u otro recipiente hermetico para liquidos, luego vierte la mezcla sobre la manta de cielo para colar todo el material vegetal.",
+      "Cuando este lo suficientemente frio para manipular, exprime todo el liquido excedente de la manta de cielo en tu recipiente de almacenamiento.",
+      "Sella bien tu recipiente, etiqueta con su contenido y fecha de vencimiento (la misma fecha que aparecia en el envase de leche) o congela en cubeteras de hielo para usar despues."
+    ]
   },
   "infused-coconut-curry": {
     "name": "Curry de Coco Infusionado",
     "description": "Una deliciosa fusión de especias aromáticas, coco cremoso y cannabis infusionado. Eleva tus sentidos con vegetales tiernos y proteína en un plato verdaderamente inolvidable.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 tbsp de aceite de coco infusionado con cannabis",
+      "1 cebolla, finamente picada",
+      "3 dientes de ajo, picados",
+      "1 tablespoon de jengibre fresco rallado",
+      "2 tablespoons de curry en polvo",
+      "1 lata (14 ounces) de leche de coco",
+      "1 cup de caldo de verduras",
+      "1 cup de papas en cubitos",
+      "2 zanahorias, rebanadas",
+      "1 pimiento rojo, rebanado",
+      "1 cup de floretes de coliflor",
+      "Sal y pimienta al gusto",
+      "Cilantro fresco para decorar"
+    ],
+    "instructions": [
+      "En una sarten grande u olla, calienta el aceite de coco infusionado con cannabis a fuego medio.",
+      "Agrega la cebolla picada, el ajo picado y el jengibre rallado. Saltea hasta que la cebolla este translucida y el ajo este fragante.",
+      "Incorpora el curry en polvo y cocina por un minuto mas para tostar las especias.",
+      "Vierte la leche de coco y el caldo de verduras. Revuelve bien para combinar.",
+      "Agrega las papas en cubitos, las zanahorias rebanadas, el pimiento rojo y los floretes de coliflor a la olla. Sazona con sal y pimienta al gusto.",
+      "Tapa la olla y deja hervir a fuego lento por 15-20 minutos, o hasta que las verduras esten tiernas.",
+      "Sirve el curry de coco infusionado con cannabis sobre arroz cocido o con pan naan. Decora con cilantro fresco."
+    ]
   },
   "gummy-bears": {
     "name": "Ositos de Goma",
     "description": "Si eres fanático de los ositos de goma, ¡estás de suerte!",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1/4 cup de aceite de coco infusionado con 3.5 gramos de hierba - Ver la receta",
+      "1/2 tsp de lecitina de girasol/soya",
+      "1 oz de gelatina sin sabor",
+      "1/2 cup de agua",
+      "1 paquete de 6 oz de gelatina con sabor (cualquier sabor)",
+      "Molde de ositos de goma"
+    ],
+    "instructions": [
+      "En una olla pequena a fuego medio, combina el agua y el aceite infusionado y bate mientras lo llevas a ebullicion.",
+      "Incorpora cada paquete de gelatina sin sabor uno a la vez mientras continuas batiendo.",
+      "Incorpora la gelatina con sabor y sigue revolviendo por unos 5 minutos y lleva a ebullicion constante.",
+      "Reduce el fuego a bajo, rocía los moldes con aceite en aerosol. Llena cada molde hasta arriba con un gotero o cuchara. Sigue revolviendo tu mezcla periodicamente.",
+      "Coloca los moldes en el congelador por 20 minutos o en el refrigerador por una hora para que se endurezcan.",
+      "Desmolda los dulces para disfrutar de inmediato o guarda en recipientes hermeticos por 2 &ndash; 3 dias a temperatura ambiente. Congela para almacenamiento prolongado."
+    ]
   },
   "infused-spaghetti-bolognese": {
     "name": "Espagueti a la Boloñesa Infusionado",
     "description": "Esta creación culinaria lleva tus papilas gustativas en un viaje eufórico, ofreciendo una sinfonía de sabor.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "1 tbsp de aceite de oliva infusionado",
+      "1 cebolla, finamente picada",
+      "2 dientes de ajo, picados",
+      "1 zanahoria, finamente picada",
+      "1 tallo de apio, finamente picado",
+      "1 pound de carne molida de res",
+      "1 lata (14 ounces) de tomates en cubitos",
+      "1 lata (6 ounces) de pasta de tomate",
+      "1/2 cup de vino tinto",
+      "1 teaspoon de oregano seco",
+      "1 teaspoon de albahaca seca",
+      "Sal y pimienta al gusto",
+      "Espagueti cocido",
+      "Queso parmesano rallado para decorar"
+    ],
+    "instructions": [
+      "En una sarten grande u olla, calienta el aceite de oliva infusionado con cannabis a fuego medio.",
+      "Agrega la cebolla picada, el ajo picado, la zanahoria y el apio a la olla. Saltea hasta que las verduras esten suaves.",
+      "Agrega la carne molida de res a la olla y cocina hasta que se dore, desmenuzandola con una cuchara mientras se cocina.",
+      "Incorpora los tomates en cubitos, la pasta de tomate, el vino tinto, el oregano seco, la albahaca seca, la sal y la pimienta.",
+      "Deja hervir la salsa a fuego lento por unos 30 minutos, revolviendo ocasionalmente.",
+      "Mientras tanto, cocina el espagueti siguiendo las instrucciones del paquete hasta que este al dente.",
+      "Una vez que la salsa este lista, prueba y ajusta el sazon si es necesario.",
+      "Sirve la salsa bolonesa infusionada con cannabis sobre el espagueti cocido.",
+      "Decora con queso parmesano rallado y disfruta de una comida reconfortante e infusionada con cannabis!"
+    ]
   },
   "pot-cookies": {
     "name": "Galletas de Cannabis",
     "description": "Galletas con bordes crujientes, un sabor rico, mantecoso y acaramelado, con grandes trozos de chocolate.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1/2 cup de mantequilla de cannabis",
+      "1/2 cup de azucar granulada",
+      "1/4 cup de azucar morena",
+      "2 teaspoons de extracto de vainilla",
+      "1 huevo grande",
+      "1 3/4 cups de harina para todo uso",
+      "1/2 teaspoon de bicarbonato de sodio",
+      "Pizca de sal",
+      "1 cup de chispas de chocolate"
+    ],
+    "instructions": [
+      "Precalienta el horno a 350 F.",
+      "Calienta la mantequilla de cannabis en el microondas por unos 40 segundos. La mantequilla debe estar completamente derretida pero no caliente.",
+      "En un tazon grande, mezcla la mantequilla de cannabis con los azucares hasta que esten bien combinados.",
+      "Incorpora la vainilla y el huevo hasta que esten integrados.",
+      "Agrega la harina, el bicarbonato de sodio y la sal. Por favor lee la nota de la receta sobre como medir la harina correctamente.",
+      "Mezcla la masa hasta que apenas se combine. La masa debe quedar suave y un poco pegajosa pero no demasiado.",
+      "Incorpora las chispas de chocolate.",
+      "Toma 1.5 tablespoons de masa (con una cuchara mediana para galletas) y coloca a 2 pulgadas de distancia en la bandeja para hornear.",
+      "Hornea por 7-10 minutos, o hasta que las galletas esten firmes. Quedaran infladas y todavia se veran un poco crudas en el centro."
+    ]
   },
   "pot-brownies": {
     "name": "Brownies de Cannabis",
     "description": "¡Contempla! La combinación perfecta de delicia y diversión.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1/2 cup de mantequilla de cannabis",
+      "1 cup de azucar (o cualquier endulzante)",
+      "2 huevos",
+      "1 teaspoon de extracto de vainilla",
+      "1/4 teaspoon de polvo para hornear",
+      "⅓ cup de cacao en polvo",
+      "1/4 teaspoon de sal",
+      "1/2 cup de harina (o harina de almendra)"
+    ],
+    "instructions": [
+      "Precalienta el horno a 350&deg; F o 180&deg; C.",
+      "Mezcla la mantequilla derretida y el azucar hasta que esten bien combinados.",
+      "Agrega los huevos y la vainilla; revuelve hasta que apenas se combinen.",
+      "Mezcla todos los ingredientes secos en un tazon aparte.",
+      "Incorpora los ingredientes secos a la mezcla de mantequilla y azucar.",
+      "Vierte en un molde cuadrado engrasado de 9 x 9.",
+      "Hornea por 20 minutos o hasta que los bordes apenas comiencen a separarse del molde.",
+      "Deja enfriar completamente antes de cortar."
+    ]
   },
   "infused-grilled-cheese": {
     "name": "Sándwich de Queso a la Plancha Infusionado",
     "description": "Receta rápida y fácil de sándwich de queso a la plancha infusionado con cannabis.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "2 rebanadas de pan",
+      "2 rebanadas de queso cheddar",
+      "2 cdtas de mantequilla de cannabis",
+      "1 cda de mantequilla"
+    ],
+    "instructions": [
+      "Unta la mantequilla regular de manera uniforme en un lado de ambas rebanadas de pan. Luego, unta la mantequilla de cannabis en el otro lado del pan.",
+      "Coloca la rebanada de queso cheddar sobre el lado con mantequilla de cannabis del pan. Junta las dos rebanadas de pan con el lado de la mantequilla de cannabis en el medio.",
+      "A fuego medio, fríe el sándwich de queso hasta que el queso se haya derretido y ambos lados estén dorados, aproximadamente 3 minutos por lado."
+    ]
   },
   "gingerbread-cookies": {
     "name": "Galletas de Jengibre",
     "description": "¡Haz tus fiestas especiales con estas deliciosas galletas!",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "Galleta",
+      "1/2 taza de mantequilla de cannabis",
+      "2 y 1/4 tazas de harina",
+      "1/2 taza de azúcar",
+      "1 huevo",
+      "1/2 taza de melaza",
+      "1 cdta de canela molida",
+      "1 cdta de jengibre molido",
+      "1 cdta de clavo molido",
+      "1 cdta de nuez moscada molida",
+      "1 cdta de polvo para hornear",
+      "1/2 cdta de bicarbonato de sodio",
+      "1/2 cdta de sal",
+      "Glaseado",
+      "2 y 1/4 tazas de azúcar glass finamente molida",
+      "1/3 taza de leche",
+      "2 claras de huevo grandes"
+    ],
+    "instructions": [
+      "En un tazón grande, con una batidora de mano a velocidad baja, mezcla la mantequilla, la harina, el azúcar, el huevo, la melaza, la canela, el jengibre, el clavo, la nuez moscada, el polvo para hornear, el bicarbonato y la sal hasta que estén bien combinados.",
+      "Cubre y refrigera durante 1 hora.",
+      "Precalienta el horno a 350&deg;F.",
+      "Sobre una superficie ligeramente enharinada, trabajando con la mitad de la masa a la vez, estírala hasta un grosor de 1/8 de pulgada. Con cortadores de galletas enharinados, corta la masa en formas. Con una espátula de metal, coloca las galletas separadas 1/2 pulgada entre sí en bandejas para hornear engrasadas. Vuelve a estirar los recortes y sigue cortando formas. Recuerda cortar 24 galletas --> la cantidad correcta para mantener tu dosis consistente con lo que configuraste en la calculadora.",
+      "Hornea durante 8 minutos, o hasta que estén ligeramente doradas. Transfiere las galletas a una rejilla para que se enfríen completamente.",
+      "Para hacer el glaseado, toma el azúcar, la leche y las claras de huevo y bátelos hasta que estén espesos pero puedan pasar por una manga pastelera o botella dispensadora. Si queda muy espeso, agrega más leche gradualmente.",
+      "¡Diviértete decorando las galletas como quieras!"
+    ]
   },
   "trail-mix": {
     "name": "Mix de Frutos Secos",
     "description": "Una deliciosa combinación de semillas y nueces infusionadas con aceite de cannabis.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "&frac18; taza de aceite de coco infusionado",
+      "Nueces de tu preferencia"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende cómo",
+      "Muele tu hierba finamente, quieres lograr una buena superficie de exposición.",
+      "Agrega la hierba molida a un frasco hermético con &frac14; taza de aceite de coco.",
+      "Sella el frasco herméticamente.",
+      "Coloca el frasco en agua hirviendo a fuego medio-bajo (240&deg; F - 115&deg; C) durante más de 2 horas.",
+      "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
+      "Aprieta la manta de cielo y exprime todo el líquido restante.",
+      "Mezcla el aceite de coco con algunas nueces."
+    ]
   },
   "infused-honey": {
     "name": "Miel Infusionada",
     "description": "La miel infusionada es una excelente manera de incorporar cannabis en tus bebidas o postres favoritos.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1/2 taza de aceite de coco",
+      "3.5 de hierba molida",
+      "300 g de miel"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende cómo hacerlo",
+      "Muele tu hierba finamente, quieres lograr una buena superficie de exposición.",
+      "Agrega la hierba molida a un frasco hermético con &frac12; taza de aceite de coco.",
+      "Sella el frasco herméticamente.",
+      "Coloca el frasco en agua hirviendo a fuego medio-bajo (240&deg; F - 115&deg; C) durante más de 2 horas.",
+      "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
+      "Aprieta la manta de cielo y exprime todo el líquido restante.",
+      "Agrega el aceite de coco y la miel en la licuadora.",
+      "Vierte y almacena toda la mezcla en un frasco hermético o frasco mason."
+    ]
   },
   "infused-whiskey": {
     "name": "Whiskey Infusionado",
     "description": "Explora el sabor de los mejores whiskies con el glorioso aroma del cannabis.",
-    "category_name": "Bebidas"
+    "category_name": "Bebidas",
+    "ingredients": [
+      "1 botella de 750 ml de whiskey bourbon",
+      "7 g de hierba molida"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende cómo hacerlo",
+      "Vierte la botella de whiskey en un frasco sellable (o saca un poco de whiskey para compensar el volumen agregado de la hierba) y agrega la hierba molida.",
+      "Agita la botella y déjala reposar, lejos del sol, durante al menos 48 horas. Agítala al menos una vez al día hasta que alcance la potencia deseada - hasta un mes si es posible. Mientras más tiempo repose, más potente será.",
+      "Vierte la mezcla de whiskey en un recipiente de vidrio, usando una manta de cielo para colar toda la hierba molida del whiskey. Repite este paso si es necesario para colar todo el whiskey de la hierba molida, y desecha la hierba restante."
+    ]
   },
   "infused-chai": {
     "name": "Chai Infusionado",
     "description": "Esta reconfortante y potente receta de té chai con cannabis es una excelente manera de disfrutar tu té con un toque extra.",
-    "category_name": "Bebidas"
+    "category_name": "Bebidas",
+    "ingredients": [
+      "Bolsa de té",
+      "Leche",
+      "0.5 de hierba molida",
+      "Jengibre",
+      "Cardamomo",
+      "Azúcar o cualquier endulzante"
+    ],
+    "instructions": [
+      "Descarboxila tu hierba - Aprende cómo",
+      "Comienza a hervir leche en una olla.",
+      "Extiende una manta de cielo.",
+      "Machaca tu jengibre y especias.",
+      "Coloca el cannabis con todas tus especias machacadas en una manta de cielo y ciérrala como una bolsa de té.",
+      "Infusiona la bolsa de té en la leche durante dos horas.",
+      "Vierte la leche en una jarra.",
+      "Ahora es hora de preparar tu taza, mezcla la leche con una bolsa de té negro y agrega algo de azúcar."
+    ]
   },
   "weed-infused-popcorn": {
     "name": "Palomitas Infusionadas",
     "description": "El snack salado perfecto para comer mientras ves tus películas favoritas.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "1/4 taza de mantequilla de cannabis",
+      "⅓ - ⅔ tazas de granos de palomitas",
+      "Sal al gusto"
+    ],
+    "instructions": [
+      "Calienta la mantequilla en una olla de 2 a 3 cuartos de galón con tapa a fuego medio-alto. Vierte los granos de palomitas y espolvorea suficiente sal para cubrir ligeramente la capa de granos. Recuerda, siempre puedes agregar más sal después. Agrega la mantequilla a la olla y tapa.",
+      "Tan pronto como los granos comiencen a reventar, sacude la olla de un lado a otro sobre la hornilla constantemente hasta que el ritmo de las explosiones disminuya. Cuando las explosiones estén separadas por unos 2 segundos, retira del fuego y vierte en un tazón para servir. Prueba y sazona con sal adicional si lo deseas."
+    ]
   },
   "infused-eggnog": {
     "name": "Ponche de Huevo Infusionado",
     "description": "¡Es hora de la alegría navideña! ¿Por qué no hacerla extra especial?",
-    "category_name": "Bebidas"
+    "category_name": "Bebidas",
+    "ingredients": [
+      "1 taza de leche infusionada",
+      "4 huevos",
+      "6 cdas de azúcar",
+      "1 taza de crema para batir",
+      "1 cdta de nuez moscada rallada",
+      "6 cdas de bourbon (opcional)",
+      "Canela para decorar"
+    ],
+    "instructions": [
+      "Separa las yemas de las claras de huevo.",
+      "En un tazón, bate las yemas con el azúcar hasta que se vean pálidas y el azúcar esté completamente disuelto.",
+      "En una olla mediana, a fuego alto, combina la leche, la crema para batir y la nuez moscada y lleva justo a ebullición, revolviendo ocasionalmente. Retira del fuego y lentamente tempera la mezcla caliente con la mezcla de yemas y azúcar. Luego regresa todo a la olla y calienta hasta que la mezcla alcance los 160 grados F. Retira del fuego, agrega el bourbon/whiskey, vierte en un tazón mediano y refrigera.",
+      "En un tazón mediano, bate las claras de huevo hasta formar picos suaves. Con la batidora funcionando, agrega gradualmente 1 cucharada de azúcar y bate hasta formar picos firmes. Incorpora las claras batidas a la mezcla refrigerada.",
+      "Sirve en la cantidad de tazas que definiste como porciones en la calculadora para mantener tu dosis consistente, ¡y decora con canela!"
+    ]
   },
   "infused-ghee": {
     "name": "Ghee Infusionado",
     "description": "El ghee infusionado con cannabis (mantequilla clarificada) es una grasa de cocina versátil con un alto punto de humo. Perfecto para saltear, untar en tostadas o agregar a tu café matutino.",
-    "category_name": "Esenciales"
+    "category_name": "Esenciales",
+    "ingredients": [
+      "1 taza (2 barras) de mantequilla sin sal",
+      "3.5g de cannabis, descarboxilado y molido",
+      "Manta de cielo para colar",
+      "Frasco mason para almacenar"
+    ],
+    "instructions": [
+      "Derrite la mantequilla en una olla a fuego medio-bajo. Comenzará a hacer espuma y crepitar — eso es el agua evaporándose.",
+      "Una vez que el crepitar disminuya y los sólidos de la leche se asienten en el fondo y se pongan dorados, agrega tu cannabis descarboxilado.",
+      "Cocina a fuego lento al mínimo durante 45 minutos, revolviendo ocasionalmente. No dejes que se queme.",
+      "Cuela a través de una manta de cielo hacia un frasco mason, exprimiendo toda la grasa.",
+      "Deja enfriar a temperatura ambiente, luego refrigera. El ghee se solidificará y se conserva hasta por 3 meses."
+    ]
   },
   "infused-condensed-milk": {
     "name": "Leche Condensada Infusionada",
     "description": "Rica y dulce leche condensada infusionada con cannabis, perfecta para fudge, macarrones y otros postres.",
-    "category_name": "Esenciales"
+    "category_name": "Esenciales",
+    "ingredients": [
+      "1 lata (14 oz) de leche condensada azucarada",
+      "1 cda de mantequilla de cannabis o aceite de coco infusionado",
+      "Olla",
+      "Batidor",
+      "Frasco mason"
+    ],
+    "instructions": [
+      "Asegúrate de que tu mantequilla de cannabis o aceite de coco infusionado esté listo. Si no, prepáralo primero.",
+      "Vierte la leche condensada en una olla a fuego bajo.",
+      "Agrega la mantequilla de cannabis o el aceite de coco infusionado y bate hasta que estén completamente combinados.",
+      "Sigue revolviendo a fuego bajo durante 10-15 minutos. No dejes que hierva.",
+      "Retira del fuego y deja enfriar un poco.",
+      "Transfiere a un frasco mason o recipiente hermético. Almacena en el refrigerador hasta por 2 semanas."
+    ]
   },
   "cannabis-hot-chocolate": {
     "name": "Chocolate Caliente de Cannabis",
     "description": "Un rico y reconfortante chocolate caliente de cannabis hecho con leche infusionada o aceite de coco.",
-    "category_name": "Bebidas"
+    "category_name": "Bebidas",
+    "ingredients": [
+      "2 tazas de leche infusionada (ver receta de Leche Infusionada)",
+      "3 cdas de cacao en polvo sin azúcar",
+      "2 cdas de azúcar o endulzante de tu preferencia",
+      "Pizca de sal",
+      "1/4 cdta de extracto de vainilla",
+      "Crema batida para decorar (opcional)"
+    ],
+    "instructions": [
+      "Calienta la leche infusionada en una olla pequeña a fuego medio-bajo. No dejes que hierva.",
+      "Incorpora batiendo el cacao en polvo, el azúcar y la sal hasta que estén completamente disueltos y la mezcla esté suave.",
+      "Agrega el extracto de vainilla y revuelve para combinar.",
+      "Vierte en tazas y decora con crema batida si lo deseas.",
+      "Sirve inmediatamente y disfruta despacio — los comestibles tardan en hacer efecto."
+    ]
   },
   "infused-cold-brew": {
     "name": "Cold Brew Infusionado",
     "description": "El café cold brew de cannabis es suave, bajo en acidez y pega diferente.",
-    "category_name": "Bebidas"
+    "category_name": "Bebidas",
+    "ingredients": [
+      "1 taza de café molido grueso",
+      "4 tazas de agua fría filtrada",
+      "1 cdta de aceite de coco infusionado (ver receta de Aceite de Coco Infusionado)",
+      "Cubos de hielo",
+      "Leche o crema al gusto"
+    ],
+    "instructions": [
+      "Combina el café molido y el agua fría en un frasco grande. Revuelve para saturar completamente el café.",
+      "Tapa y refrigera durante 12-24 horas.",
+      "Cuela a través de un colador fino o manta de cielo hacia un frasco limpio. Desecha los residuos de café.",
+      "Para servir, llena un vaso con hielo y vierte el cold brew al gusto (generalmente diluido 1:1 con agua o leche).",
+      "Agrega 1 cdta de aceite de coco infusionado y revuelve hasta que se emulsione. Puedes usar un mini espumador para mezclarlo bien.",
+      "Disfruta despacio — los efectos se combinan con la cafeína para una experiencia única."
+    ]
   },
   "weed-rice-krispie-treats": {
     "name": "Barras de Arroz Inflado con Cannabis",
     "description": "Un clásico comestible de cannabis que es fácil de hacer, fácil de dosificar y adorado por todos.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "3 cdas de mantequilla de cannabis (ver receta de Mantequilla de Cannabis)",
+      "1 bolsa (10 oz) de malvaviscos",
+      "6 tazas de cereal de arroz (Rice Krispies o similar)",
+      "Pizca de sal",
+      "Spray antiadherente para cocinar"
+    ],
+    "instructions": [
+      "Engrasa un molde de 9x13 pulgadas con spray antiadherente y reserva.",
+      "Derrite la mantequilla de cannabis en una olla grande a fuego bajo. Mantén el fuego bajo para preservar el THC.",
+      "Agrega los malvaviscos y revuelve constantemente hasta que estén completamente derretidos y suaves. Retira del fuego.",
+      "Rápidamente incorpora el cereal de arroz y la sal, mezclando hasta que todo esté cubierto.",
+      "Vierte en el molde preparado y presiona con una espátula engrasada o con tus manos.",
+      "Deja enfriar completamente (aproximadamente 30 minutos), luego corta en 12 cuadros iguales.",
+      "Almacena en un recipiente hermético a temperatura ambiente hasta por 3 días."
+    ]
   },
   "cannabis-caramel-sauce": {
     "name": "Salsa de Caramelo de Cannabis",
     "description": "Una sedosa y dorada salsa de caramelo de cannabis que puedes rociar sobre helado, brownies, panqueques o comer directo de la cuchara.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1 taza de azúcar granulada",
+      "6 cdas de mantequilla de cannabis (ver receta de Mantequilla de Cannabis)",
+      "1/2 taza de crema para batir, a temperatura ambiente",
+      "1 cdta de extracto de vainilla",
+      "1/2 cdta de sal de mar"
+    ],
+    "instructions": [
+      "Calienta el azúcar en una olla de fondo grueso a fuego medio, revolviendo constantemente con una cuchara de madera hasta que se derrita y tome un color ámbar.",
+      "Una vez completamente derretida, agrega toda la mantequilla de cannabis de una vez. La mezcla burbujeará vigorosamente — sigue revolviendo.",
+      "Incorpora la crema para batir lentamente. La mezcla burbujeará de nuevo. Sigue revolviendo hasta que esté suave.",
+      "Retira del fuego y agrega el extracto de vainilla y la sal de mar.",
+      "Deja enfriar durante 10 minutos antes de usar. Almacena en un frasco en el refrigerador hasta por 2 semanas.",
+      "Recalienta suavemente antes de servir. Divide en 12 porciones y úsala como topping."
+    ]
   },
   "infused-hummus": {
     "name": "Hummus Infusionado",
     "description": "Hummus cremoso y suave infusionado con cannabis, hecho con aceite de oliva infusionado.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "1 lata (15 oz) de garbanzos, escurridos y enjuagados",
+      "3 cdas de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
+      "3 cdas de tahini",
+      "2 cdas de jugo de limón",
+      "1 diente de ajo",
+      "1/2 cdta de sal",
+      "1/4 cdta de comino",
+      "2-3 cdas de agua fría",
+      "Pimentón y aceite de oliva regular para decorar"
+    ],
+    "instructions": [
+      "Agrega los garbanzos, el tahini, el jugo de limón, el ajo, la sal y el comino a un procesador de alimentos.",
+      "Procesa durante aproximadamente 1 minuto hasta que esté más o menos combinado.",
+      "Con el procesador funcionando, vierte en hilo el aceite de oliva infusionado y el agua fría.",
+      "Procesa durante 2-3 minutos más hasta que esté muy suave y cremoso.",
+      "Prueba y ajusta la sal o el limón a tu preferencia.",
+      "Transfiere a un tazón para servir, rocía con aceite de oliva regular y espolvorea con pimentón.",
+      "Divide en 8 porciones para una dosificación precisa. Almacena refrigerado hasta por 5 días."
+    ]
   },
   "infused-granola": {
     "name": "Granola Infusionada",
     "description": "Granola crocante y dorada infusionada con cannabis, hecha con mantequilla de cannabis o aceite de coco infusionado.",
-    "category_name": "Bocadillos"
+    "category_name": "Bocadillos",
+    "ingredients": [
+      "3 tazas de avena en hojuelas",
+      "1/2 taza de nueces (almendras, pecanas o nueces de Castilla)",
+      "1/4 taza de semillas (de calabaza o de girasol)",
+      "3 cdas de mantequilla de cannabis o aceite de coco infusionado, derretido",
+      "3 cdas de miel o jarabe de maple",
+      "1 cdta de extracto de vainilla",
+      "1/2 cdta de canela",
+      "Pizca de sal",
+      "1/2 taza de fruta deshidratada (opcional, agregar después de hornear)"
+    ],
+    "instructions": [
+      "Precalienta el horno a 300°F (150°C) — la temperatura baja preserva el THC.",
+      "En un tazón grande, mezcla la avena, las nueces, las semillas, la canela y la sal.",
+      "En un tazón pequeño, bate la mantequilla de cannabis derretida, la miel y la vainilla.",
+      "Vierte los ingredientes húmedos sobre los secos y revuelve hasta que todo esté cubierto.",
+      "Extiende sobre una bandeja para hornear con papel pergamino en una capa delgada y uniforme.",
+      "Hornea durante 30-35 minutos, revolviendo cada 10 minutos, hasta que esté dorada y fragante.",
+      "Retira y deja enfriar completamente — se pondrá crujiente al enfriarse.",
+      "Agrega la fruta deshidratada si la usas. Divide en 12 porciones para una dosificación precisa."
+    ]
   },
   "cannabis-avocado-toast": {
     "name": "Tostada de Aguacate con Cannabis",
     "description": "Eleva tu tostada de aguacate con un chorrito de aceite de oliva infusionado.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 rebanadas de pan grueso (masa madre o integral)",
+      "1 aguacate maduro",
+      "1 cda de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
+      "Jugo de medio limón",
+      "Sal y pimienta al gusto",
+      "Hojuelas de chile, condimento everything bagel o hierbas frescas para decorar",
+      "Opcional: huevo pochado encima"
+    ],
+    "instructions": [
+      "Tuesta tu pan al punto que prefieras.",
+      "Corta el aguacate por la mitad, retira la semilla y saca la pulpa en un tazón.",
+      "Machaca con un tenedor. Agrega el jugo de limón, sal y pimienta. Mezcla brevemente — déjalo con trozos.",
+      "Unta generosamente la mezcla de aguacate sobre el pan tostado.",
+      "Rocía el aceite de oliva infusionado por encima.",
+      "Decora con hojuelas de chile, condimento o hierbas. Agrega un huevo pochado si lo deseas.",
+      "Rinde 2 porciones. Come con calma y espera al menos una hora antes de considerar otra porción."
+    ]
   },
   "cannabis-salad-dressing": {
     "name": "Aderezo de Ensalada con Cannabis",
     "description": "Una simple vinagreta de cannabis que convierte cualquier ensalada en una comida infusionada.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "3 cdas de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
+      "1 cda de aceite de oliva regular",
+      "2 cdas de vinagre de manzana o vinagre de vino tinto",
+      "1 cdta de mostaza Dijon",
+      "1 cdta de miel",
+      "1 diente de ajo pequeño, picado finamente",
+      "Sal y pimienta al gusto"
+    ],
+    "instructions": [
+      "Combina todos los ingredientes en un frasco pequeño con tapa.",
+      "Agita vigorosamente hasta que se emulsione y esté bien combinado.",
+      "Prueba y ajusta la acidez o el dulzor a tu preferencia.",
+      "Rocía sobre la ensalada justo antes de servir — no adereces la ensalada con anticipación.",
+      "Esta receta rinde 4 porciones. Guarda el frasco del aderezo en el refrigerador hasta por 1 semana.",
+      "Agita antes de cada uso ya que el aceite y el vinagre se separarán."
+    ]
   },
   "infused-chocolate-bark": {
     "name": "Corteza de Chocolate Infusionada",
     "description": "Corteza de chocolate oscuro infusionada con mantequilla de cannabis y cubierta con tus toppings favoritos.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "200g de chocolate oscuro (85% cacao o más para keto)",
+      "1 cda de mantequilla de cannabis, suavizada (ver receta de Mantequilla de Cannabis)",
+      "1/4 taza de toppings: hojuelas de sal de mar, nueces picadas, arándanos deshidratados o nibs de cacao"
+    ],
+    "instructions": [
+      "Derrite el chocolate oscuro en un tazón resistente al calor sobre una olla con agua hirviendo a fuego lento (baño maría), revolviendo hasta que esté suave.",
+      "Retira del fuego e incorpora la mantequilla de cannabis suavizada hasta que esté completamente integrada.",
+      "Forra una bandeja para hornear con papel pergamino. Vierte la mezcla de chocolate y extiéndela en una capa uniforme de aproximadamente 1/4 de pulgada de grosor.",
+      "Rápidamente espolvorea los toppings elegidos sobre la superficie.",
+      "Refrigera durante al menos 30 minutos hasta que esté completamente firme.",
+      "Rompe en 12 pedazos aproximadamente iguales. Almacena en el refrigerador en un recipiente hermético hasta por 2 semanas."
+    ]
   },
   "cannabis-vegan-brownies": {
     "name": "Brownies Veganos de Cannabis",
     "description": "Brownies ricos y densos hechos con aceite de coco de cannabis — 100% a base de plantas.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "1 taza de aceite de coco infusionado con cannabis",
+      "1½ tazas de azúcar de caña",
+      "2 huevos de linaza (2 cdas de linaza + 6 cdas de agua)",
+      "1 cdta de vainilla",
+      "1 taza de harina",
+      "½ taza de cacao en polvo",
+      "½ cdta de sal",
+      "½ cdta de polvo para hornear",
+      "½ taza de chispas de chocolate veganas"
+    ],
+    "instructions": [
+      "Precalienta el horno a 350°F. Prepara los huevos de linaza; deja reposar 5 min.",
+      "Bate el aceite de cannabis, el azúcar, los huevos de linaza y la vainilla.",
+      "Incorpora la harina, el cacao, la sal y el polvo para hornear.",
+      "Agrega las chispas de chocolate. Vierte en un molde engrasado de 8x8.",
+      "Hornea 25-30 min. Deja enfriar antes de cortar."
+    ]
   },
   "infused-vegan-cheese-sauce": {
     "name": "Salsa de Queso Vegano Infusionada",
     "description": "Cremosa salsa de queso de marañón con aceite de oliva de cannabis — ideal para pasta o nachos.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "1 taza de anacardos crudos remojados 4h",
+      "2 cdas de aceite de oliva con cannabis",
+      "3 cdas de levadura nutricional",
+      "½ cdta de ajo en polvo",
+      "½ cdta de pimentón ahumado",
+      "1 cdta de jugo de limón",
+      "½ taza de agua",
+      "Sal"
+    ],
+    "instructions": [
+      "Escurre los anacardos y licúa con todos los ingredientes hasta que quede sedoso.",
+      "Calienta en una olla a fuego bajo.",
+      "Ajusta el sazón y sirve."
+    ]
   },
   "cannabis-lentil-soup": {
     "name": "Sopa de Lentejas con Cannabis",
     "description": "Reconfortante sopa de lentejas rojas terminada con aceite de oliva de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "1 taza de lentejas rojas",
+      "1 cebolla picada",
+      "3 dientes de ajo",
+      "2 zanahorias picadas",
+      "1 cdta de comino",
+      "1 cdta de cilantro",
+      "½ cdta de cúrcuma",
+      "4 tazas de caldo de verduras",
+      "2 cdas de aceite de oliva con cannabis",
+      "Sal, limón"
+    ],
+    "instructions": [
+      "Sofríe la cebolla y el ajo. Agrega las zanahorias y las especias.",
+      "Agrega las lentejas y el caldo. Cocina a fuego lento 25 min.",
+      "Licúa la mitad para una textura más cremosa.",
+      "Fuera del fuego: incorpora el aceite de oliva con cannabis y el limón."
+    ]
   },
   "infused-vegan-pancakes": {
     "name": "Panqueques Veganos Infusionados",
     "description": "Panqueques esponjosos de fin de semana con aceite de coco de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "1 taza de harina",
+      "1 cda de azúcar",
+      "1 cdta de polvo para hornear",
+      "½ cdta de bicarbonato de sodio",
+      "Pizca de sal",
+      "1 taza de leche de avena",
+      "1 cdta de vinagre de manzana",
+      "2 cdas de aceite de coco con cannabis",
+      "1 cdta de vainilla"
+    ],
+    "instructions": [
+      "Mezcla la leche de avena y el vinagre; deja reposar 5 min.",
+      "Combina los ingredientes secos.",
+      "Agrega el aceite de cannabis y la vainilla a la mezcla de leche de avena.",
+      "Combina los ingredientes húmedos y secos hasta apenas mezclar.",
+      "Cocina 2-3 min por lado en un sartén antiadherente."
+    ]
   },
   "cannabis-sweet-potato-curry": {
     "name": "Curry de Camote con Cannabis",
     "description": "Reconfortante curry de camote, coco y garbanzos con aceite de coco de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "2 cucharadas de aceite de coco de cannabis",
+      "1 cebolla",
+      "3 dientes de ajo",
+      "1 cucharada de jengibre",
+      "2 cucharadas de curry en polvo",
+      "2 camotes en cubos",
+      "400ml de leche de coco",
+      "1 lata de garbanzos",
+      "1 taza de caldo de verduras",
+      "Sal, limón, cilantro"
+    ],
+    "instructions": [
+      "Saltea la cebolla, el ajo y el jengibre. Agrega el curry en polvo.",
+      "Agrega los camotes, la leche de coco y el caldo. Cocina a fuego lento 20 min.",
+      "Agrega los garbanzos; cocina 5 min más.",
+      "Fuera del fuego: incorpora el aceite de coco de cannabis, el limón y el cilantro."
+    ]
   },
   "infused-jackfruit-tacos": {
     "name": "Tacos de Jackfruit Infusionados",
     "description": "Tacos de jackfruit deshilachado con especias ahumadas y aceite de oliva de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "2 latas de jaca tierna escurrida",
+      "2 cucharadas de aceite de oliva de cannabis",
+      "1 cucharadita de pimentón ahumado",
+      "1 cucharadita de comino",
+      "1 cucharadita de ajo en polvo",
+      "½ cucharadita de chile en polvo",
+      "8 tortillas de maíz",
+      "Aguacate, salsa, limón"
+    ],
+    "instructions": [
+      "Deshebra la jaca con un tenedor.",
+      "Sazona y fríe en sartén hasta que los bordes se caramelicen.",
+      "Fuera del fuego: incorpora el aceite de oliva de cannabis.",
+      "Sirve en tortillas calientes con aguacate y salsa."
+    ]
   },
   "cannabis-vegan-chocolate-mousse": {
     "name": "Mousse de Chocolate Vegano de Cannabis",
     "description": "Sedoso mousse de chocolate con aguacate y aceite de coco de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "2 aguacates maduros",
+      "¼ taza de cacao en polvo",
+      "¼ taza de jarabe de maple",
+      "2 cucharadas de aceite de coco de cannabis",
+      "1 cucharadita de vainilla",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "Licúa todos los ingredientes hasta obtener una mezcla suave.",
+      "Prueba y ajusta el dulzor.",
+      "Refrigera 1 hora antes de servir.",
+      "Decora con frutos rojos o crema de coco."
+    ]
   },
   "infused-vegan-mac-and-cheese": {
     "name": "Mac and Cheese Vegano Infusionado",
     "description": "Reconfortante mac and cheese a base de plantas con salsa de marañón y cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "300g de macarrones",
+      "1 taza de anacardos remojados",
+      "2 cucharadas de aceite de oliva de cannabis",
+      "3 cucharadas de levadura nutricional",
+      "1 cucharadita de ajo en polvo",
+      "1 cucharadita de cebolla en polvo",
+      "½ cucharadita de cúrcuma",
+      "1 taza de agua de la pasta",
+      "Sal"
+    ],
+    "instructions": [
+      "Cocina la pasta; reserva 1 taza de agua.",
+      "Licúa los anacardos, el aceite de cannabis, la levadura nutricional, las especias y ½ taza de agua hasta obtener una mezcla suave.",
+      "Mezcla la pasta escurrida con la salsa a fuego bajo, agregando agua según sea necesario.",
+      "Sazona y sirve."
+    ]
   },
   "cannabis-coconut-milk-ice-cream": {
     "name": "Helado de Leche de Coco con Cannabis",
     "description": "Cremoso helado vegano de 3 ingredientes con aceite de coco de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "2 latas de leche de coco entera refrigerada toda la noche",
+      "3 cucharadas de aceite de coco de cannabis",
+      "½ taza de jarabe de maple",
+      "1 cucharadita de vainilla",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "Saca la crema sólida de la parte superior de las latas y bate hasta que esté esponjosa.",
+      "Incorpora el aceite de cannabis, el jarabe de maple, la vainilla y la sal.",
+      "Congela 4-6 horas. Deja reposar 5 min antes de servir."
+    ]
   },
   "infused-chickpea-stew": {
     "name": "Guiso de Garbanzos Infusionado",
     "description": "Guiso de garbanzos en salsa de tomate terminado con aceite de oliva de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "2 latas de garbanzos",
+      "2 cucharadas de aceite de oliva de cannabis",
+      "1 cebolla",
+      "4 dientes de ajo",
+      "1 cucharadita de pimentón ahumado",
+      "1 cucharadita de comino",
+      "½ cucharadita de cayena",
+      "1 lata de tomates triturados",
+      "1 taza de caldo de verduras",
+      "Perejil"
+    ],
+    "instructions": [
+      "Saltea la cebolla y el ajo. Agrega las especias.",
+      "Agrega los garbanzos, los tomates y el caldo. Cocina a fuego lento 20 min.",
+      "Fuera del fuego: incorpora el aceite de oliva de cannabis. Sazona y decora."
+    ]
   },
   "cannabis-vegan-protein-balls": {
     "name": "Bolitas de Proteína Veganas de Cannabis",
     "description": "Bolitas energéticas sin horno con mantequilla de maní y aceite de coco de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "1 taza de avena",
+      "½ taza de mantequilla de maní",
+      "3 cucharadas de aceite de coco de cannabis",
+      "3 cucharadas de jarabe de maple",
+      "2 cucharadas de linaza",
+      "2 cucharadas de proteína vegana en polvo",
+      "½ taza de chispas de chocolate vegano",
+      "1 cucharadita de vainilla"
+    ],
+    "instructions": [
+      "Mezcla todos los ingredientes hasta integrar. Refrigera 15 min si la mezcla está pegajosa.",
+      "Forma bolitas del tamaño de una cucharada.",
+      "Refrigera 30 min antes de servir. Se conservan 1 semana refrigeradas."
+    ]
   },
   "infused-vegan-pesto-zoodles": {
     "name": "Zoodles al Pesto Vegano Infusionados",
     "description": "Zucchini en espiral con pesto de albahaca hecho con aceite de oliva de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "4 calabacitas en espiral",
+      "2 tazas de albahaca fresca",
+      "3 cucharadas de aceite de oliva de cannabis",
+      "¼ taza de piñones",
+      "3 dientes de ajo",
+      "1 cucharada de jugo de limón",
+      "Sal, pimienta",
+      "Tomates cherry"
+    ],
+    "instructions": [
+      "Licúa la albahaca, los piñones, el ajo, el limón y el aceite de cannabis. Sazona.",
+      "Saltea brevemente los fideos de calabacita 1-2 min (o sirve crudos).",
+      "Mezcla con el pesto y decora con tomates cherry."
+    ]
   },
   "cannabis-black-bean-soup": {
     "name": "Sopa de Frijoles Negros con Cannabis",
     "description": "Sopa ahumada de frijoles negros terminada con aceite de oliva de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "2 latas de frijoles negros",
+      "2 cucharadas de aceite de oliva de cannabis",
+      "1 cebolla",
+      "4 dientes de ajo",
+      "1 jalapeño",
+      "2 cucharaditas de comino",
+      "1 cucharadita de pimentón ahumado",
+      "3 tazas de caldo de verduras",
+      "Limón, cilantro"
+    ],
+    "instructions": [
+      "Saltea la cebolla, el ajo y el jalapeño. Agrega las especias.",
+      "Agrega los frijoles y el caldo. Cocina a fuego lento 20 min.",
+      "Licúa la mitad e incorpórala de nuevo.",
+      "Fuera del fuego: incorpora el aceite de cannabis y el limón. Sirve con cilantro."
+    ]
   },
   "infused-vegan-banana-ice-cream": {
     "name": "Helado Vegano de Banana Infusionado",
     "description": "Helado de un solo ingrediente a base de banana con aceite de coco de cannabis.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "4 plátanos muy maduros congelados",
+      "2 cucharadas de aceite de coco de cannabis",
+      "1 cucharadita de vainilla",
+      "Opcional: mantequilla de maní o cacao"
+    ],
+    "instructions": [
+      "Licúa el plátano congelado hasta obtener una mezcla suave y cremosa.",
+      "Agrega el aceite de cannabis y la vainilla; licúa de nuevo.",
+      "Agrega los ingredientes opcionales y pulsa.",
+      "Sirve como helado suave o congela 1h para una textura más firme."
+    ]
   },
   "cannabis-roasted-vegetable-medley": {
     "name": "Surtido de Vegetales Asados con Cannabis",
     "description": "Coloridos vegetales asados en bandeja, rociados con aceite de oliva de cannabis después de hornear.",
-    "category_name": "Vegano"
+    "category_name": "Vegano",
+    "ingredients": [
+      "1 pimiento rojo en cubos",
+      "1 calabacita en cubos",
+      "1 cebolla morada en gajos",
+      "1 taza de tomates cherry",
+      "200g de floretes de brócoli",
+      "2 cucharadas de aceite de oliva",
+      "1 cucharadita de sazonador italiano",
+      "2 cucharadas de aceite de oliva de cannabis para finalizar",
+      "Albahaca fresca"
+    ],
+    "instructions": [
+      "Precalienta el horno a 425°F.",
+      "Mezcla las verduras con aceite de oliva regular, sazonador, sal y pimienta.",
+      "Hornea 25-30 min, revolviendo a la mitad.",
+      "Rocía con el aceite de oliva de cannabis y esparce albahaca."
+    ]
   },
   "cannabis-keto-bacon-bites": {
     "name": "Bocaditos Keto de Tocino con Cannabis",
     "description": "Crujientes bocaditos envueltos en tocino con queso crema y mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "12 tiras de tocino",
+      "100g de queso crema ablandado",
+      "2 cucharadas de mantequilla de cannabis",
+      "1 cucharadita de ajo en polvo",
+      "½ cucharadita de pimentón ahumado",
+      "12 rodajas de jalapeño"
+    ],
+    "instructions": [
+      "Precalienta el horno a 400°F.",
+      "Mezcla el queso crema, la mantequilla de cannabis, el ajo y el pimentón.",
+      "Unta sobre el tocino, coloca un jalapeño encima, enrolla y asegura.",
+      "Hornea 20-25 min hasta que estén crujientes."
+    ]
   },
   "infused-keto-chicken-wings": {
     "name": "Alitas de Pollo Keto Infusionadas",
     "description": "Alitas crujientes al horno bañadas en salsa picante con mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1kg de alitas de pollo",
+      "1 cucharadita de polvo para hornear",
+      "1 cucharadita de ajo en polvo",
+      "Sal y pimienta",
+      "3 cucharadas de mantequilla de cannabis derretida",
+      "3 cucharadas de salsa picante",
+      "1 cucharadita de vinagre de manzana"
+    ],
+    "instructions": [
+      "Precalienta el horno a 425°F. Mezcla las alitas con el polvo para hornear y las especias.",
+      "Hornea sobre una rejilla 45-50 min, volteando a la mitad.",
+      "Bate la mantequilla de cannabis, la salsa picante y el vinagre.",
+      "Revuelca las alitas calientes en la salsa."
+    ]
   },
   "cannabis-keto-deviled-eggs": {
     "name": "Huevos Rellenos Keto de Cannabis",
     "description": "Clásicos huevos rellenos con relleno de yema y mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "6 huevos duros",
+      "2 cucharadas de mantequilla de cannabis ablandada",
+      "2 cucharadas de mayonesa",
+      "1 cucharadita de mostaza Dijon",
+      "1 cucharadita de vinagre de manzana",
+      "Sal, pimienta",
+      "Pimentón y cebollín"
+    ],
+    "instructions": [
+      "Corta los huevos a la mitad; retira las yemas.",
+      "Aplasta las yemas con la mantequilla de cannabis, la mayonesa, la mostaza, el vinagre, la sal y la pimienta.",
+      "Rellena las claras con la mezcla usando una manga o cuchara.",
+      "Espolvorea con pimentón y cebollín."
+    ]
   },
   "infused-keto-stuffed-mushrooms": {
     "name": "Champiñones Rellenos Keto Infusionados",
     "description": "Champiñones rellenos de queso crema y mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "12 champiñones grandes sin tallo",
+      "100g de queso crema",
+      "2 cucharadas de mantequilla de cannabis",
+      "3 dientes de ajo picados",
+      "50g de parmesano rallado",
+      "2 cucharadas de perejil",
+      "Sal, pimienta"
+    ],
+    "instructions": [
+      "Precalienta el horno a 375°F.",
+      "Saltea el ajo en mantequilla de cannabis 1 min.",
+      "Mezcla con el queso crema, el parmesano, el perejil, la sal y la pimienta.",
+      "Rellena los champiñones. Hornea 20-25 min."
+    ]
   },
   "cannabis-keto-beef-chili": {
     "name": "Chili de Carne Keto con Cannabis",
     "description": "Chili de carne bajo en carbohidratos con aceite de oliva de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "500g de carne molida de res",
+      "2 cucharadas de aceite de oliva de cannabis",
+      "1 cebolla",
+      "4 dientes de ajo",
+      "1 cucharada de chile en polvo",
+      "1 cucharadita de comino",
+      "1 cucharadita de pimentón ahumado",
+      "1 lata de tomates triturados",
+      "1 taza de caldo de res",
+      "Crema agria para servir"
+    ],
+    "instructions": [
+      "Dora la carne; escurre la grasa.",
+      "Agrega la cebolla y el ajo; cocina hasta que estén suaves.",
+      "Agrega las especias, los tomates y el caldo. Cocina a fuego lento 30 min.",
+      "Fuera del fuego: incorpora el aceite de cannabis. Sirve con crema agria."
+    ]
   },
   "infused-keto-zucchini-chips": {
     "name": "Chips de Zucchini Keto Infusionados",
     "description": "Finas y crujientes chips de zucchini al horno con aceite de oliva de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 calabacitas en rodajas muy finas",
+      "2 cucharadas de aceite de oliva de cannabis",
+      "½ cucharadita de ajo en polvo",
+      "½ cucharadita de cebolla en polvo",
+      "Sal, pimienta",
+      "¼ taza de parmesano rallado"
+    ],
+    "instructions": [
+      "Precalienta el horno a 225°F.",
+      "Mezcla la calabacita con el aceite de cannabis y los condimentos.",
+      "Distribuye en una sola capa; espolvorea parmesano.",
+      "Hornea 2-2.5h hasta que estén crujientes. Deja enfriar en la bandeja."
+    ]
   },
   "cannabis-keto-waffles": {
     "name": "Waffles Keto de Cannabis",
     "description": "Esponjosos waffles de harina de almendra con mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "1 taza de harina de almendras",
+      "2 cucharadas de harina de coco",
+      "2 huevos",
+      "2 cucharadas de mantequilla de cannabis derretida",
+      "¼ taza de leche de almendras",
+      "1 cucharadita de polvo para hornear",
+      "Pizca de sal",
+      "1 cucharadita de vainilla"
+    ],
+    "instructions": [
+      "Precalienta la wafflera.",
+      "Bate los huevos, la mantequilla de cannabis, la leche y la vainilla.",
+      "Agrega las harinas, el polvo para hornear y la sal.",
+      "Cocina en la wafflera hasta que estén dorados. Sirve con jarabe sin azúcar."
+    ]
   },
   "infused-keto-salmon-patties": {
     "name": "Tortitas de Salmón Keto Infusionadas",
     "description": "Tortitas de salmón a la sartén con mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "400g de salmón cocido desmenuzado",
+      "1 huevo",
+      "3 cucharadas de harina de almendras",
+      "2 cucharadas de mantequilla de cannabis",
+      "2 cucharadas de mayonesa",
+      "1 cucharada de mostaza Dijon",
+      "2 cebollitas de cambray",
+      "Sal, pimienta, limón"
+    ],
+    "instructions": [
+      "Mezcla el salmón, el huevo, la harina de almendras, la mayonesa, la mostaza y las cebollitas.",
+      "Forma 6 tortitas.",
+      "Derrite la mantequilla de cannabis en un sartén.",
+      "Cocina 3-4 min por lado hasta que estén doradas. Sirve con limón."
+    ]
   },
   "cannabis-keto-spinach-dip": {
     "name": "Dip de Espinaca Keto con Cannabis",
     "description": "Dip caliente de espinaca con queso y mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 cucharadas de mantequilla de cannabis",
+      "300g de espinacas congeladas descongeladas y escurridas",
+      "200g de queso crema",
+      "½ taza de crema agria",
+      "½ taza de mozzarella rallada",
+      "¼ taza de parmesano",
+      "2 dientes de ajo",
+      "Sal, pimienta"
+    ],
+    "instructions": [
+      "Precalienta el horno a 375°F.",
+      "Saltea el ajo en mantequilla de cannabis. Agrega las espinacas.",
+      "Incorpora el queso crema, la crema agria y la mitad de la mozzarella.",
+      "Transfiere a un refractario, cubre con el queso restante.",
+      "Hornea 20-25 min hasta que burbujee."
+    ]
   },
   "infused-keto-almond-flour-cake": {
     "name": "Pastel Keto de Harina de Almendra Infusionado",
     "description": "Húmedo pastel keto con harina de almendra y mantequilla de cannabis.",
-    "category_name": "Keto"
+    "category_name": "Keto",
+    "ingredients": [
+      "2 tazas de harina de almendras",
+      "3 huevos",
+      "½ taza de mantequilla de cannabis derretida",
+      "½ taza de eritritol",
+      "1 cucharadita de vainilla",
+      "1 cucharadita de polvo para hornear",
+      "Pizca de sal",
+      "Ralladura de 1 limón"
+    ],
+    "instructions": [
+      "Precalienta el horno a 350°F. Engrasa un molde de 8 pulgadas.",
+      "Bate los huevos, la mantequilla de cannabis, el endulzante y la vainilla.",
+      "Incorpora la harina de almendras, el polvo para hornear, la sal y la ralladura de limón.",
+      "Hornea 30-35 min. Deja enfriar completamente."
+    ]
   },
   "cannabis-sparkling-lemonade": {
     "name": "Limonada con Gas de Cannabis",
     "description": "Limonada con gas y jarabe simple de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Jugo de 4 limones",
+      "2 cucharadas de jarabe simple de cannabis",
+      "1 taza de agua mineral con gas",
+      "Hielo",
+      "Limón y menta para decorar"
+    ],
+    "instructions": [
+      "Prepara el jarabe de cannabis: disuelve azúcar en agua a fuego medio, deja enfriar e incorpora la tintura de cannabis.",
+      "Combina el jugo de limón y el jarabe de cannabis.",
+      "Agrega hielo, completa con agua mineral. Decora."
+    ]
   },
   "infused-virgin-mojito": {
     "name": "Mojito Virgen Infusionado",
     "description": "Mocktail de menta y limón con jarabe simple de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Jugo de 2 limas",
+      "2 cucharadas de jarabe simple de cannabis",
+      "10 hojas de menta fresca",
+      "½ taza de agua mineral con gas",
+      "Hielo",
+      "Rodaja de lima"
+    ],
+    "instructions": [
+      "Machaca la menta en un vaso.",
+      "Agrega hielo, jugo de lima y jarabe de cannabis.",
+      "Completa con agua mineral. Decora con lima."
+    ]
   },
   "cannabis-cucumber-mint-cooler": {
     "name": "Refresco de Pepino y Menta con Cannabis",
     "description": "Refrescante mocktail de pepino y menta con jarabe de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "½ pepino en rodajas",
+      "10 hojas de menta",
+      "2 tbsp de jarabe simple de cannabis",
+      "Jugo de 1 limón",
+      "1 cup de agua con gas",
+      "Hielo"
+    ],
+    "instructions": [
+      "Machacar el pepino y la menta con el jarabe y el limón.",
+      "Agitar con hielo y colar.",
+      "Completar con agua con gas."
+    ]
   },
   "infused-watermelon-slush": {
     "name": "Granizado de Sandía Infusionado",
     "description": "Granizado de sandía licuada con miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "4 cups de sandía congelada",
+      "2 tbsp de miel de cannabis",
+      "Jugo de 1 limón",
+      "Pizca de sal",
+      "Menta fresca"
+    ],
+    "instructions": [
+      "Licuar la sandía, la miel de cannabis, el limón y la sal hasta obtener una mezcla suave.",
+      "Servir en vasos y decorar con menta."
+    ]
   },
   "cannabis-lavender-lemonade": {
     "name": "Limonada de Lavanda con Cannabis",
     "description": "Limonada floral con jarabe de lavanda y cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Jugo de 4 limones",
+      "2 tbsp de jarabe de lavanda con cannabis",
+      "2 cups de agua fría",
+      "Hielo",
+      "Lavanda seca"
+    ],
+    "instructions": [
+      "Hervir a fuego lento agua, azúcar y lavanda por 10 min; colar; agregar tintura de cannabis.",
+      "Mezclar el jugo de limón, el jarabe y el agua. Servir sobre hielo."
+    ]
   },
   "infused-tropical-punch": {
     "name": "Ponche Tropical Infusionado",
     "description": "Ponche de mango, piña y maracuyá con jarabe de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup de jugo de mango",
+      "1 cup de jugo de piña",
+      "½ cup de jugo de maracuyá",
+      "2 tbsp de jarabe simple de cannabis",
+      "Jugo de 1 limón",
+      "Agua con gas",
+      "Hielo"
+    ],
+    "instructions": [
+      "Mezclar los jugos, el jarabe de cannabis y el limón en una jarra.",
+      "Servir sobre hielo y completar con agua con gas."
+    ]
   },
   "cannabis-strawberry-basil-smash": {
     "name": "Smash de Fresa y Albahaca con Cannabis",
     "description": "Mocktail veraniego de fresa y albahaca con miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "6 fresas sin tallo",
+      "6 hojas de albahaca",
+      "2 tbsp de miel de cannabis",
+      "Jugo de 1 limón",
+      "Agua con gas",
+      "Hielo"
+    ],
+    "instructions": [
+      "Machacar las fresas y la albahaca con la miel de cannabis y el limón.",
+      "Colar sobre hielo. Completar con agua con gas."
+    ]
   },
   "infused-hibiscus-tea": {
     "name": "Té de Hibisco Infusionado",
     "description": "Té helado de hibisco color rubí intenso con miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "3 tbsp de hibisco seco",
+      "4 cups de agua hirviendo",
+      "2 tbsp de miel de cannabis",
+      "Jugo de 1 limón",
+      "Hielo",
+      "Rodajas de naranja"
+    ],
+    "instructions": [
+      "Infusionar el hibisco por 10 min. Colar y dejar enfriar.",
+      "Incorporar la miel de cannabis y el limón. Servir sobre hielo."
+    ]
   },
   "cannabis-peach-iced-tea": {
     "name": "Té Helado de Durazno con Cannabis",
     "description": "Té helado de durazno estilo sureño con jarabe simple de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "4 bolsitas de té negro",
+      "4 cups de agua caliente",
+      "2 duraznos maduros en rodajas",
+      "2 tbsp de jarabe simple de cannabis",
+      "Jugo de ½ limón",
+      "Hielo"
+    ],
+    "instructions": [
+      "Preparar el té por 5 min. Agregar los duraznos; enfriar y refrigerar 1h.",
+      "Colar; incorporar el jarabe de cannabis y el limón. Servir sobre hielo."
+    ]
   },
   "infused-mango-lassi": {
     "name": "Mango Lassi Infusionado",
     "description": "Cremoso mango lassi con miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "2 cups de mango maduro",
+      "1 cup de yogur",
+      "½ cup de leche",
+      "2 tbsp de miel de cannabis",
+      "½ tsp de cardamomo",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "Licuar todos los ingredientes hasta obtener una mezcla suave.",
+      "Probar y ajustar. Servir en vasos."
+    ]
   },
   "cannabis-rose-lemonade": {
     "name": "Limonada de Rosas con Cannabis",
     "description": "Elegante limonada floral con tintura de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Jugo de 4 limones",
+      "2 tbsp de jarabe de rosas",
+      "1 tsp de tintura de cannabis",
+      "2 cups de agua con gas",
+      "Hielo",
+      "Pétalos de rosa secos"
+    ],
+    "instructions": [
+      "Mezclar el jugo de limón, el jarabe de rosas y la tintura de cannabis.",
+      "Agregar agua con gas sobre hielo. Decorar con pétalos de rosa."
+    ]
   },
   "infused-pineapple-ginger-fizz": {
     "name": "Fizz de Piña y Jengibre Infusionado",
     "description": "Tropical fizz de piña y jengibre con miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup de jugo de piña fresco",
+      "1 inch de jengibre rallado",
+      "2 tbsp de miel de cannabis",
+      "Jugo de 1 limón",
+      "Agua con gas",
+      "Hielo"
+    ],
+    "instructions": [
+      "Mezclar el jugo de piña, el jengibre, la miel de cannabis y el limón. Colar.",
+      "Servir sobre hielo y completar con agua con gas."
+    ]
   },
   "cannabis-cranberry-spritzer": {
     "name": "Spritzer de Arándano con Cannabis",
     "description": "Festivo spritzer de arándano con jarabe simple de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup de jugo de arándano",
+      "2 tbsp de jarabe simple de cannabis",
+      "Jugo de ½ naranja",
+      "Agua con gas",
+      "Hielo",
+      "Arándanos, romero"
+    ],
+    "instructions": [
+      "Mezclar el jugo de arándano, el jarabe de cannabis y el jugo de naranja.",
+      "Agregar hielo y agua con gas. Decorar."
+    ]
   },
   "infused-matcha-cooler": {
     "name": "Matcha Frío Infusionado",
     "description": "Matcha frío con miel de cannabis y leche de avena.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 tsp de matcha en polvo",
+      "2 tbsp de agua caliente",
+      "1 cup de leche de avena fría",
+      "2 tbsp de miel de cannabis",
+      "Hielo"
+    ],
+    "instructions": [
+      "Batir el matcha con agua caliente hasta que quede suave. Agregar la miel de cannabis.",
+      "Llenar el vaso con hielo y leche de avena. Verter el matcha encima."
+    ]
   },
   "cannabis-passion-fruit-lemonade": {
     "name": "Limonada de Maracuyá con Cannabis",
     "description": "Limonada tropical con maracuyá y miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "Pulpa de 4 maracuyás",
+      "Jugo de 3 limones",
+      "2 tbsp de miel de cannabis",
+      "1½ cups de agua con gas",
+      "Hielo",
+      "Menta"
+    ],
+    "instructions": [
+      "Mezclar el maracuyá, el limón y la miel de cannabis hasta disolver.",
+      "Servir sobre hielo y completar con agua con gas. Decorar."
+    ]
   },
   "infused-cherry-limeade": {
     "name": "Limonada de Cereza Infusionada",
     "description": "Mocktail de cereza y limón con jarabe simple de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup de jugo de cereza ácida",
+      "Jugo de 3 limones",
+      "2 tbsp de jarabe simple de cannabis",
+      "Agua con gas",
+      "Hielo",
+      "Limón, cerezas"
+    ],
+    "instructions": [
+      "Mezclar el jugo de cereza, el limón y el jarabe de cannabis.",
+      "Servir sobre hielo y completar con agua con gas. Decorar."
+    ]
   },
   "cannabis-mint-green-tea": {
     "name": "Té Verde con Menta de Cannabis",
     "description": "Refrescante té verde con menta y miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "3 bolsitas de té verde",
+      "4 cups de agua caliente",
+      "2 tbsp de miel de cannabis",
+      "10 hojas de menta",
+      "Jugo de 1 limón",
+      "Hielo"
+    ],
+    "instructions": [
+      "Preparar el té verde por 3 min. Incorporar la miel de cannabis mientras está tibio.",
+      "Agregar la menta y el limón. Enfriar, refrigerar. Servir sobre hielo."
+    ]
   },
   "infused-blueberry-lemonade": {
     "name": "Limonada de Arándanos Azules Infusionada",
     "description": "Limonada morada de arándanos azules con jarabe de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup de arándanos azules",
+      "Jugo de 4 limones",
+      "2 tbsp de jarabe simple de cannabis",
+      "2 cups de agua fría",
+      "Hielo"
+    ],
+    "instructions": [
+      "Cocinar los arándanos a fuego lento con ¼ cup de agua; colar.",
+      "Mezclar el jugo de arándano, el limón, el jarabe de cannabis y el agua. Servir sobre hielo."
+    ]
   },
   "cannabis-ginger-turmeric-tonic": {
     "name": "Tónico de Jengibre y Cúrcuma con Cannabis",
     "description": "Tónico de bienestar con jengibre, cúrcuma y miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 inch de jengibre rallado",
+      "½ tsp de cúrcuma",
+      "Jugo de 1 limón",
+      "2 tbsp de miel de cannabis",
+      "1 cup de agua tibia",
+      "Pizca de pimienta negra",
+      "Agua con gas"
+    ],
+    "instructions": [
+      "Combinar el jengibre, la cúrcuma, el limón y la miel de cannabis en agua tibia.",
+      "Enfriar, agregar hielo y completar con agua con gas. Agregar pimienta negra."
+    ]
   },
   "infused-coconut-lime-agua-fresca": {
     "name": "Agua Fresca de Coco y Limón Infusionada",
     "description": "Ligera agua fresca de coco y limón con miel de cannabis.",
-    "category_name": "Mocktails"
+    "category_name": "Mocktails",
+    "ingredients": [
+      "1 cup de agua de coco",
+      "Jugo de 3 limones",
+      "1 cup de agua con gas",
+      "2 tbsp de miel de cannabis",
+      "Hielo",
+      "Ralladura de limón, hojuelas de coco"
+    ],
+    "instructions": [
+      "Mezclar el agua de coco, el limón y la miel de cannabis hasta disolver.",
+      "Agregar agua con gas sobre hielo. Decorar."
+    ]
   },
   "cannabis-cheesecake": {
     "name": "Cheesecake de Cannabis",
     "description": "Cremoso cheesecake horneado con base de mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "Base: 200g de galletas digestivas trituradas",
+      "80g de mantequilla de cannabis derretida",
+      "Relleno: 600g de queso crema",
+      "¾ cup de azúcar",
+      "3 huevos",
+      "1 tsp de vainilla",
+      "200ml de crema agria",
+      "2 tbsp de harina"
+    ],
+    "instructions": [
+      "Precalentar el horno a 325°F. Mezclar las galletas y la mantequilla de cannabis; presionar en un molde desmontable de 9 pulgadas.",
+      "Batir el queso crema con el azúcar. Agregar los huevos uno a la vez.",
+      "Incorporar la vainilla, la crema agria y la harina. Verter sobre la base.",
+      "Hornear en baño maría por 55-60 min. Dejar enfriar en el horno 1h.",
+      "Refrigerar 4h antes de servir."
+    ]
   },
   "infused-tiramisu": {
     "name": "Tiramisú Infusionado",
     "description": "Clásico tiramisú con crema de mascarpone de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "3 yemas de huevo",
+      "75g de azúcar",
+      "250g de mascarpone",
+      "2 tbsp de mantequilla de cannabis ablandada",
+      "200ml de espresso fuerte frío",
+      "200g de bizcochos (ladyfingers)",
+      "2 tbsp de cacao en polvo",
+      "1 tsp de vainilla"
+    ],
+    "instructions": [
+      "Batir las yemas con el azúcar hasta que estén pálidas. Incorporar el mascarpone, la mantequilla de cannabis y la vainilla.",
+      "Remojar los bizcochos en el espresso; colocar una capa en el molde.",
+      "Esparcir la mitad de la crema. Repetir las capas.",
+      "Espolvorear con cacao. Refrigerar 4h o más."
+    ]
   },
   "cannabis-apple-pie": {
     "name": "Pie de Manzana de Cannabis",
     "description": "Clásico pie de manzana con doble masa de mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "Masa: 2½ cups de harina",
+      "200g de mantequilla de cannabis fría en cubos",
+      "6-8 tbsp de agua helada",
+      "½ tsp de sal",
+      "Relleno: 6 manzanas peladas y en rodajas",
+      "¾ cup de azúcar",
+      "2 tsp de canela",
+      "¼ tsp de nuez moscada",
+      "2 tbsp de maicena"
+    ],
+    "instructions": [
+      "Preparar la masa; refrigerar 1h. Precalentar el horno a 375°F.",
+      "Mezclar el relleno de manzana.",
+      "Forrar el molde con la mitad de la masa. Agregar el relleno.",
+      "Cubrir con la segunda lámina de masa; sellar y ondular los bordes.",
+      "Hornear 50-60 min hasta que esté dorado."
+    ]
   },
   "infused-chocolate-lava-cake": {
     "name": "Volcán de Chocolate Infusionado",
     "description": "Pasteles de chocolate con centro fundido de mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "100g de chocolate amargo",
+      "100g de mantequilla de cannabis",
+      "2 huevos + 2 yemas",
+      "80g de azúcar glass",
+      "40g de harina",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "Precalentar el horno a 425°F. Engrasar 4 ramequines.",
+      "Derretir el chocolate y la mantequilla de cannabis. Dejar enfriar un poco.",
+      "Incorporar los huevos, las yemas y el azúcar glass. Agregar la harina y la sal envolviendo.",
+      "Llenar los ramequines. Refrigerar 30 min.",
+      "Hornear 12-13 min. Reposar 1 min y desmoldar."
+    ]
   },
   "cannabis-lemon-bars": {
     "name": "Barras de Limón de Cannabis",
     "description": "Crema de limón sobre base de galleta con mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "Base: 1 cup de harina",
+      "115g de mantequilla de cannabis",
+      "¼ cup de azúcar glass",
+      "Pizca de sal",
+      "Relleno: 3 huevos",
+      "1 cup de azúcar",
+      "Jugo y ralladura de 3 limones",
+      "3 tbsp de harina",
+      "Azúcar glass para espolvorear"
+    ],
+    "instructions": [
+      "Precalentar el horno a 350°F. Presionar la base en un molde de 8x8. Hornear 18 min.",
+      "Batir los ingredientes del relleno. Verter sobre la base caliente.",
+      "Hornear 20-22 min hasta que cuaje. Enfriar y refrigerar.",
+      "Espolvorear con azúcar glass y cortar en barras."
+    ]
   },
   "infused-carrot-cake": {
     "name": "Pastel de Zanahoria Infusionado",
     "description": "Húmedo pastel de zanahoria especiado con aceite de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "2 cups de harina",
+      "3 huevos",
+      "1½ cups de azúcar",
+      "1 cup de aceite vegetal de cannabis",
+      "2 tsp de vainilla",
+      "3 cups de zanahoria rallada",
+      "1½ tsp de polvo para hornear",
+      "1 tsp de canela",
+      "½ tsp de nuez moscada",
+      "Glaseado: 250g de queso crema, 1 cup de azúcar glass, 1 tsp de vainilla"
+    ],
+    "instructions": [
+      "Precalentar el horno a 350°F. Batir los huevos, el azúcar, el aceite de cannabis y la vainilla.",
+      "Incorporar la harina, las especias y la zanahoria rallada envolviendo.",
+      "Hornear en dos moldes de 8 pulgadas por 30-35 min. Dejar enfriar completamente.",
+      "Batir el glaseado; rellenar y cubrir el pastel."
+    ]
   },
   "cannabis-coconut-macaroons": {
     "name": "Macarrones de Coco de Cannabis",
     "description": "Macarrones de coco masticables con leche condensada de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "3 cups de coco rallado",
+      "½ cup de leche condensada de cannabis",
+      "2 claras de huevo",
+      "1 tsp de vainilla",
+      "Pizca de sal",
+      "100g de chocolate amargo para bañar"
+    ],
+    "instructions": [
+      "Precalentar el horno a 325°F.",
+      "Mezclar el coco, la leche condensada de cannabis, la vainilla y la sal.",
+      "Incorporar las claras batidas a punto de nieve envolviendo.",
+      "Colocar cucharadas en una bandeja con papel. Hornear 18-20 min.",
+      "Sumergir las bases en chocolate derretido una vez fríos."
+    ]
   },
   "infused-fudge": {
     "name": "Fudge Infusionado",
     "description": "Fudge que se derrite en la boca con leche condensada de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "400g de chocolate amargo picado",
+      "400g de leche condensada de cannabis",
+      "2 tbsp de mantequilla",
+      "1 tsp de vainilla",
+      "Pizca de sal de mar"
+    ],
+    "instructions": [
+      "Derretir el chocolate, la leche condensada de cannabis y la mantequilla a fuego bajo.",
+      "Incorporar la vainilla.",
+      "Verter en un molde de 8x8 forrado. Espolvorear sal de mar.",
+      "Refrigerar 3-4h. Cortar en cuadros."
+    ]
   },
   "cannabis-blondies": {
     "name": "Blondies de Cannabis",
     "description": "Blondies con sabor a caramelo con mantequilla dorada de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "½ cup de mantequilla de cannabis dorada",
+      "1 cup de azúcar morena",
+      "1 huevo + 1 yema",
+      "1 tsp de vainilla",
+      "1 cup de harina",
+      "½ tsp de polvo para hornear",
+      "¼ tsp de sal",
+      "¾ cup de chispas de chocolate blanco"
+    ],
+    "instructions": [
+      "Precalentar el horno a 350°F. Batir la mantequilla de cannabis dorada con el azúcar morena.",
+      "Agregar el huevo, la yema y la vainilla. Incorporar la harina, el polvo para hornear, la sal y las chispas envolviendo.",
+      "Hornear en un molde de 8x8 forrado por 22-25 min. No sobrecocinar.",
+      "Dejar enfriar completamente antes de cortar."
+    ]
   },
   "infused-donut-holes": {
     "name": "Bolitas de Dona Infusionadas",
     "description": "Esponjosas bolitas de dona fritas con cobertura de canela y azúcar de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1 cup de harina",
+      "1½ tsp de polvo para hornear",
+      "3 tbsp de azúcar",
+      "Pizca de sal",
+      "½ cup de leche",
+      "1 huevo",
+      "1 tbsp de mantequilla de cannabis derretida",
+      "Aceite para freír",
+      "Cobertura: ½ cup de azúcar, 1 tsp de canela, 1 tbsp de mantequilla de cannabis derretida"
+    ],
+    "instructions": [
+      "Mezclar los ingredientes secos. Batir la leche, el huevo y la mantequilla de cannabis; agregar a los secos.",
+      "Calentar el aceite a 350°F. Echar cucharadas de masa; freír 2-3 min hasta dorar.",
+      "Escurrir, pincelar con mantequilla de cannabis y revolcar en azúcar con canela."
+    ]
   },
   "cannabis-peach-cobbler": {
     "name": "Cobbler de Durazno de Cannabis",
     "description": "Cobbler de durazno sureño con cobertura de galleta con mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "5 duraznos en rodajas",
+      "¼ cup de azúcar",
+      "1 tsp de jugo de limón",
+      "½ tsp de canela",
+      "Cubierta: 1 cup de harina",
+      "¼ cup de azúcar",
+      "1½ tsp de polvo para hornear",
+      "¼ tsp de sal",
+      "½ cup de leche",
+      "4 tbsp de mantequilla de cannabis derretida"
+    ],
+    "instructions": [
+      "Precalentar el horno a 375°F. Mezclar los duraznos con el azúcar, el limón y la canela en un molde para hornear.",
+      "Mezclar la cubierta hasta obtener una masa espesa. Poner cucharadas sobre los duraznos.",
+      "Hornear 40-45 min hasta dorar. Servir caliente."
+    ]
   },
   "infused-baklava": {
     "name": "Baklava Infusionado",
     "description": "Crujiente masa filo en capas con nueces especiadas y jarabe de miel de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "400g de masa filo",
+      "200g de mantequilla de cannabis derretida",
+      "300g de nueces y pistachos picados",
+      "1 tsp de canela",
+      "Almíbar: 1 cup de azúcar, 1 cup de agua, ½ cup de miel, 1 tsp de agua de rosas"
+    ],
+    "instructions": [
+      "Precalentar el horno a 350°F. Colocar capas de masa filo pincelando cada una con mantequilla de cannabis y la mezcla de nueces.",
+      "Cortar en forma de diamantes. Hornear 45-50 min hasta obtener un dorado intenso.",
+      "Hervir el almíbar a fuego lento por 10 min; verter caliente sobre el baklava caliente. Dejar enfriar completamente."
+    ]
   },
   "cannabis-chocolate-fondue": {
     "name": "Fondue de Chocolate de Cannabis",
     "description": "Suave fondue de chocolate con crema de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "300g de chocolate amargo picado",
+      "1 cup de crema de cannabis",
+      "2 tbsp de mantequilla",
+      "1 tsp de vainilla",
+      "Pizca de sal",
+      "Para mojar: fresas, plátano, malvaviscos, pretzels"
+    ],
+    "instructions": [
+      "Calentar la crema de cannabis hasta que humee. Retirar del fuego; agregar el chocolate.",
+      "Reposar 2 min y revolver hasta que quede suave. Agregar la mantequilla, la vainilla y la sal.",
+      "Transferir a una olla de fondue y servir con los acompañamientos."
+    ]
   },
   "infused-strawberry-shortcake": {
     "name": "Shortcake de Fresa Infusionado",
     "description": "Esponjosos bizcochos con mantequilla de cannabis y fresas frescas.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "Bizcochos: 2 cups de harina",
+      "115g de mantequilla de cannabis fría",
+      "2 tbsp de azúcar",
+      "1 tbsp de polvo para hornear",
+      "½ tsp de sal",
+      "¾ cup de crema",
+      "1 huevo",
+      "Cobertura: 500g de fresas con 2 tbsp de azúcar",
+      "1 cup de crema batida"
+    ],
+    "instructions": [
+      "Precalentar el horno a 425°F. Cortar la mantequilla de cannabis dentro de los ingredientes secos.",
+      "Agregar la crema y el huevo hasta que apenas se integre. Colocar porciones en una bandeja para hornear.",
+      "Hornear 15 min. Partir por la mitad y rellenar con fresas y crema batida."
+    ]
   },
   "cannabis-panna-cotta": {
     "name": "Panna Cotta de Cannabis",
     "description": "Sedoso pudín de crema italiano con crema de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "2 cups de crema de cannabis",
+      "¼ cup de azúcar",
+      "2 tsp de vainilla",
+      "2½ tsp de gelatina en polvo",
+      "3 tbsp de agua fría",
+      "Coulis de frutos rojos para servir"
+    ],
+    "instructions": [
+      "Hidratar la gelatina en agua fría por 5 min.",
+      "Calentar la crema de cannabis con el azúcar hasta disolver. Fuera del fuego: incorporar la vainilla y la gelatina.",
+      "Verter en ramequines. Refrigerar 4h o más.",
+      "Desmoldar en platos y servir con coulis de frutos rojos."
+    ]
   },
   "infused-churros": {
     "name": "Churros Infusionados",
     "description": "Crujientes churros con masa de mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1 cup de agua",
+      "115g de mantequilla de cannabis",
+      "1 tbsp de azúcar",
+      "½ tsp de sal",
+      "1 cup de harina",
+      "3 huevos",
+      "Aceite para freír",
+      "Cobertura: ½ cup de azúcar, 1 tsp de canela",
+      "Salsa de chocolate para servir"
+    ],
+    "instructions": [
+      "Hervir el agua, la mantequilla de cannabis, el azúcar y la sal. Agregar la harina; revolver hasta que se forme una masa.",
+      "Enfriar 5 min y luego batir los huevos uno a uno.",
+      "Usar una manga para verter en aceite caliente (350°F). Freír 3-4 min hasta dorar.",
+      "Revolcar en azúcar con canela. Servir con salsa de chocolate."
+    ]
   },
   "cannabis-crepes": {
     "name": "Crepas de Cannabis",
     "description": "Finas crepas francesas con mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "1 cup de harina",
+      "2 huevos",
+      "1½ cups de leche",
+      "2 tbsp de mantequilla de cannabis derretida",
+      "1 tbsp de azúcar",
+      "1 tsp de vainilla",
+      "Pizca de sal",
+      "Rellenos: Nutella, mermelada, fruta, crema"
+    ],
+    "instructions": [
+      "Licuar todos los ingredientes de la masa. Reposar 30 min.",
+      "Cocinar capas finas en un sartén antiadherente con mantequilla, 1-2 min por lado.",
+      "Rellenar y doblar al gusto."
+    ]
   },
   "infused-mango-sorbet": {
     "name": "Sorbete de Mango Infusionado",
     "description": "Vibrante sorbete de mango sin lácteos con jarabe de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "4 cups de mango congelado",
+      "2 tbsp de jarabe simple de cannabis",
+      "Jugo de 1 limón",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "Licuar el mango congelado, el jarabe de cannabis, el limón y la sal hasta obtener una mezcla suave.",
+      "Servir como helado suave o congelar 1h para una textura más firme."
+    ]
   },
   "cannabis-cinnamon-rolls": {
     "name": "Roles de Canela de Cannabis",
     "description": "Esponjosos roles de canela con relleno y glaseado de mantequilla de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "Masa: 3 cups de harina, 2¼ tsp de levadura, ¼ cup de azúcar, 1 tsp de sal, ¾ cup de leche tibia, 2 huevos, ¼ cup de mantequilla de cannabis",
+      "Relleno: 4 tbsp de mantequilla de cannabis, ½ cup de azúcar morena, 2 tbsp de canela",
+      "Glaseado: 1 cup de azúcar glass, 2 tbsp de mantequilla de cannabis, 2 tbsp de leche"
+    ],
+    "instructions": [
+      "Mezclar y amasar la masa por 8 min. Dejar levar 1h.",
+      "Estirar, untar con mantequilla de cannabis, azúcar morena y canela.",
+      "Enrollar bien apretado, cortar en 12 piezas. Dejar levar 30 min. Hornear a 375°F por 20-25 min.",
+      "Glasear con el glaseado de cannabis mientras están calientes."
+    ]
   },
   "infused-coconut-pudding": {
     "name": "Pudín de Coco Infusionado",
     "description": "Cremoso pudín de coco con leche de coco de cannabis.",
-    "category_name": "Postres"
+    "category_name": "Postres",
+    "ingredients": [
+      "2 cups de leche de coco de cannabis",
+      "¼ cup de azúcar",
+      "3 tbsp de maicena",
+      "½ tsp de vainilla",
+      "Pizca de sal",
+      "Coco tostado y mango para servir"
+    ],
+    "instructions": [
+      "Batir todos los ingredientes en una olla. Cocinar a fuego medio revolviendo hasta que espese (8-10 min).",
+      "Verter en tazones. Refrigerar 2h o más.",
+      "Decorar con coco tostado y mango."
+    ]
   },
   "cannabis-shakshuka": {
     "name": "Shakshuka de Cannabis",
     "description": "Huevos escalfados en salsa de tomate de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 tbsp de aceite de oliva de cannabis",
+      "1 cebolla",
+      "1 pimiento rojo",
+      "4 dientes de ajo",
+      "1 tsp de comino",
+      "1 tsp de pimentón",
+      "½ tsp de hojuelas de chile",
+      "2 latas de tomate triturado",
+      "4-6 huevos",
+      "Perejil y queso feta"
+    ],
+    "instructions": [
+      "Saltear la cebolla y el pimiento en el aceite de cannabis. Agregar el ajo y las especias.",
+      "Agregar los tomates. Cocinar a fuego lento 15 min. Sazonar.",
+      "Hacer huecos; romper los huevos dentro. Tapar y cocinar 6-8 min.",
+      "Cubrir con perejil y feta. Servir con pan."
+    ]
   },
   "infused-mushroom-risotto": {
     "name": "Risotto de Champiñones Infusionado",
     "description": "Cremoso risotto de champiñones con aceite de oliva de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "1½ cups de arroz arborio",
+      "2 tbsp de aceite de oliva de cannabis",
+      "1 cebolla",
+      "3 dientes de ajo",
+      "400g de hongos variados",
+      "½ cup de jugo de uva blanca sin alcohol",
+      "1L de caldo de verduras caliente",
+      "50g de parmesano",
+      "2 tbsp de mantequilla",
+      "Sal, pimienta, tomillo"
+    ],
+    "instructions": [
+      "Saltear la cebolla en aceite regular. Agregar el ajo y los hongos hasta dorar.",
+      "Agregar el arroz; revolver para cubrir. Agregar el jugo de uva; cocinar hasta que se absorba.",
+      "Agregar el caldo un cucharón a la vez, revolviendo hasta que se absorba cada uno (20 min).",
+      "Fuera del fuego: incorporar el parmesano, la mantequilla y el aceite de oliva de cannabis."
+    ]
   },
   "cannabis-thai-basil-chicken": {
     "name": "Pollo con Albahaca Tailandesa de Cannabis",
     "description": "Rápido salteado tailandés de albahaca con aceite de sésamo de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "500g de pollo molido",
+      "2 tbsp de aceite de sésamo de cannabis",
+      "4 dientes de ajo",
+      "2 chiles ojo de pájaro",
+      "2 tbsp de salsa de soya",
+      "1 tbsp de salsa de ostión",
+      "1 tsp de salsa de pescado",
+      "1 tsp de azúcar",
+      "1 cup de albahaca tailandesa",
+      "Arroz al vapor"
+    ],
+    "instructions": [
+      "Dorar el pollo molido en aceite regular.",
+      "Agregar el ajo y los chiles. Agregar las salsas y el azúcar.",
+      "Fuera del fuego: rociar el aceite de sésamo de cannabis, mezclar con la albahaca. Servir sobre arroz."
+    ]
   },
   "infused-beef-tacos": {
     "name": "Tacos de Carne Infusionados",
     "description": "Tacos de carne especiada con mantequilla de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "500g de carne de res molida",
+      "2 tbsp de mantequilla de cannabis",
+      "1 cebolla",
+      "3 dientes de ajo",
+      "1 tsp de comino",
+      "1 tsp de pimentón ahumado",
+      "½ tsp de chile en polvo",
+      "8 tortillas de maíz",
+      "Repollo rallado, salsa, limón, crema agria"
+    ],
+    "instructions": [
+      "Dorar la carne; escurrir la grasa. Agregar la mantequilla de cannabis, la cebolla y el ajo.",
+      "Incorporar las especias. Cocinar 2 min.",
+      "Servir en tortillas calientes con los toppings."
+    ]
   },
   "cannabis-chicken-caesar-salad": {
     "name": "Ensalada César de Pollo con Cannabis",
     "description": "Ensalada César de calidad de restaurante con aderezo de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 pechugas de pollo a la parrilla y en rodajas",
+      "1 lechuga romana grande",
+      "½ cup de parmesano en láminas",
+      "Crutones",
+      "Aderezo: 2 tbsp de aceite de oliva de cannabis, 1 tbsp de jugo de limón, 1 tsp de mostaza Dijon, 1 tsp de salsa Worcestershire, 1 diente de ajo, 3 tbsp de mayonesa, sal"
+    ],
+    "instructions": [
+      "Batir todos los ingredientes del aderezo.",
+      "Mezclar la lechuga romana con el aderezo.",
+      "Cubrir con el pollo, el parmesano y los crutones."
+    ]
   },
   "infused-cauliflower-fried-rice": {
     "name": "Arroz Frito de Coliflor Infusionado",
     "description": "Arroz frito de coliflor bajo en carbohidratos con aceite de sésamo de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "1 coliflor grande procesada en arroz",
+      "2 tbsp de aceite de sésamo de cannabis",
+      "3 huevos batidos",
+      "1 cup de arvejas y maíz congelados",
+      "3 dientes de ajo",
+      "3 tbsp de salsa de soya",
+      "Cebollín, semillas de sésamo"
+    ],
+    "instructions": [
+      "Saltear el arroz de coliflor 5 min. Reservar.",
+      "Revolver los huevos en el mismo sartén. Agregar el ajo y las verduras.",
+      "Regresar la coliflor; agregar la salsa de soya. Mezclar.",
+      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Decorar."
+    ]
   },
   "cannabis-minestrone-soup": {
     "name": "Sopa Minestrone de Cannabis",
     "description": "Abundante sopa italiana de vegetales con aceite de oliva de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 tbsp de aceite de oliva de cannabis",
+      "1 cebolla",
+      "2 zanahorias",
+      "2 tallos de apio",
+      "3 dientes de ajo",
+      "1 calabacín",
+      "1 lata de frijoles blancos",
+      "1 lata de tomate triturado",
+      "1L de caldo de verduras",
+      "1 cup de pasta pequeña",
+      "2 cups de espinaca",
+      "Cáscara de parmesano"
+    ],
+    "instructions": [
+      "Saltear la cebolla, la zanahoria y el apio en aceite regular.",
+      "Agregar el ajo, el calabacín y los tomates. Agregar el caldo, los frijoles y la cáscara de parmesano. Cocinar a fuego lento 20 min.",
+      "Agregar la pasta; cocinar al dente. Incorporar la espinaca.",
+      "Fuera del fuego: rociar el aceite de oliva de cannabis."
+    ]
   },
   "infused-pulled-pork-sliders": {
     "name": "Sliders de Cerdo Deshilachado Infusionados",
     "description": "Cerdo deshilachado de cocción lenta en salsa BBQ de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "1kg de paleta de cerdo",
+      "1 tsp de cada uno: pimentón ahumado, comino, ajo en polvo, sal",
+      "Salsa BBQ de cannabis: 1 cup de salsa BBQ + 2 tbsp de mantequilla de cannabis",
+      "Pancitos para sliders, ensalada de repollo"
+    ],
+    "instructions": [
+      "Frotar el cerdo con las especias; cocinar a fuego lento por 8h o en el horno a 300°F por 4-5h.",
+      "Desmenuzar el cerdo con dos tenedores.",
+      "Calentar la salsa BBQ con la mantequilla de cannabis. Mezclar el cerdo desmenuzado con la salsa.",
+      "Servir en los pancitos con ensalada de repollo."
+    ]
   },
   "cannabis-greek-salad": {
     "name": "Ensalada Griega de Cannabis",
     "description": "Fresca ensalada griega con aderezo de aceite de oliva de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 tomates en gajos",
+      "1 pepino en trozos",
+      "½ cebolla morada en rodajas",
+      "½ cup de aceitunas Kalamata",
+      "150g de queso feta en cubos",
+      "Aderezo: 3 tbsp de aceite de oliva de cannabis, 1 tbsp de vinagre de vino tinto, 1 tsp de orégano, sal"
+    ],
+    "instructions": [
+      "Combinar las verduras y las aceitunas.",
+      "Batir el aderezo y verter encima. Mezclar.",
+      "Cubrir con el feta. Servir con pan crujiente."
+    ]
   },
   "infused-tomato-bisque": {
     "name": "Bisque de Tomate Infusionado",
     "description": "Sedosa sopa de tomate asado con crema de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "1kg de tomates roma cortados por la mitad",
+      "1 cebolla en cuartos",
+      "6 dientes de ajo",
+      "2 tbsp de aceite de oliva",
+      "1 cup de caldo de verduras",
+      "½ cup de crema de cannabis",
+      "1 tsp de azúcar",
+      "Sal, pimienta, albahaca"
+    ],
+    "instructions": [
+      "Asar los tomates, la cebolla y el ajo a 400°F por 40 min.",
+      "Licuar con el caldo hasta obtener una mezcla suave.",
+      "Incorporar la crema de cannabis y el azúcar; calentar a fuego bajo.",
+      "Sazonar y decorar con albahaca fresca."
+    ]
   },
   "cannabis-chicken-burrito-bowl": {
     "name": "Bowl de Burrito de Pollo con Cannabis",
     "description": "Bowl de burrito personalizable con aderezo de limón y cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 pechugas de pollo",
+      "1 tsp de cada uno: comino, chile en polvo, ajo en polvo",
+      "2 cups de arroz cocido",
+      "1 lata de frijoles negros",
+      "1 cup de maíz",
+      "Aderezo de cannabis y limón: jugo de 2 limones + 2 tbsp de aceite de oliva de cannabis",
+      "Aguacate, salsa, crema agria, cilantro"
+    ],
+    "instructions": [
+      "Sazonar y asar el pollo a la parrilla. Rebanar.",
+      "Armar los bowls: arroz, frijoles, maíz, pollo.",
+      "Rociar con el aderezo de cannabis y limón. Agregar los toppings."
+    ]
   },
   "infused-falafel-wrap": {
     "name": "Wrap de Falafel Infusionado",
     "description": "Falafel crujiente con aderezo de tahini y cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 latas de garbanzos",
+      "½ cebolla",
+      "3 dientes de ajo",
+      "1 tsp de comino",
+      "1 tsp de cilantro",
+      "2 tbsp de harina",
+      "Aceite para freír",
+      "Tahini de cannabis: 3 tbsp de tahini + 2 tbsp de aceite de oliva de cannabis + limón + agua",
+      "Pan plano, lechuga, tomate, pepino"
+    ],
+    "instructions": [
+      "Procesar los garbanzos, la cebolla, el ajo, las especias y la harina. Refrigerar 30 min.",
+      "Formar bolitas; freír a 350°F por 3-4 min.",
+      "Preparar el aderezo de tahini de cannabis.",
+      "Rellenar el pan plano con falafel, ensalada y aderezo."
+    ]
   },
   "cannabis-butternut-squash-soup": {
     "name": "Sopa de Calabaza Butternut de Cannabis",
     "description": "Aterciopelada sopa de calabaza butternut con crema de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "1 calabaza butternut grande cortada por la mitad",
+      "1 cebolla en cuartos",
+      "4 dientes de ajo",
+      "2 tbsp de aceite de oliva",
+      "3 cups de caldo de verduras",
+      "½ cup de crema de cannabis",
+      "1 tsp de nuez moscada",
+      "Sal, pimienta",
+      "Semillas de calabaza tostadas"
+    ],
+    "instructions": [
+      "Asar la calabaza, la cebolla y el ajo a 400°F por 45 min.",
+      "Licuar con el caldo hasta obtener una mezcla suave.",
+      "Incorporar la crema de cannabis y la nuez moscada; calentar suavemente.",
+      "Sazonar y decorar con semillas de calabaza."
+    ]
   },
   "infused-egg-fried-rice": {
     "name": "Arroz Frito con Huevo Infusionado",
     "description": "Rápido arroz frito con huevo y aceite de sésamo de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "3 cups de arroz cocido del día anterior",
+      "3 huevos batidos",
+      "2 tbsp de aceite de sésamo de cannabis",
+      "3 dientes de ajo",
+      "1 cup de arvejas congeladas",
+      "4 tbsp de salsa de soya",
+      "Cebollín, semillas de sésamo"
+    ],
+    "instructions": [
+      "Saltear el arroz en aceite regular hasta que quede ligeramente crujiente.",
+      "Apartar a un lado; revolver los huevos.",
+      "Agregar el ajo y las arvejas; mezclar todo. Agregar la salsa de soya.",
+      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Decorar."
+    ]
   },
   "cannabis-grilled-salmon": {
     "name": "Salmón a la Plancha con Cannabis",
     "description": "Salmón sellado con mantequilla de hierbas y cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "4 filetes de salmón",
+      "2 tbsp de mantequilla de cannabis",
+      "2 dientes de ajo picados",
+      "1 tbsp de eneldo fresco",
+      "Ralladura y jugo de 1 limón",
+      "Sal, pimienta",
+      "Alcaparras y limón para servir"
+    ],
+    "instructions": [
+      "Sazonar el salmón y sellar con la piel hacia abajo por 4 min hasta que quede crujiente.",
+      "Voltear; cocinar 3 min más.",
+      "Derretir la mantequilla de cannabis con el ajo y el eneldo; verter sobre el pescado con una cuchara.",
+      "Servir con alcaparras y limón."
+    ]
   },
   "infused-caprese-salad": {
     "name": "Ensalada Caprese Infusionada",
     "description": "Clásica ensalada caprese con aceite de oliva extra virgen de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "3 tomates grandes maduros en rodajas",
+      "250g de mozzarella fresca en rodajas",
+      "1 manojo de albahaca fresca",
+      "3 tbsp de aceite de oliva extra virgen de cannabis",
+      "1 tbsp de reducción de balsámico",
+      "Sal de mar en escamas, pimienta negra"
+    ],
+    "instructions": [
+      "Disponer las rodajas de tomate y mozzarella de forma alternada.",
+      "Colocar hojas de albahaca entre cada una.",
+      "Rociar con el aceite de oliva de cannabis y el balsámico.",
+      "Terminar con sal de mar y pimienta."
+    ]
   },
   "cannabis-quesadilla": {
     "name": "Quesadilla de Cannabis",
     "description": "Quesadilla crujiente cocinada en mantequilla de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "4 tortillas de harina grandes",
+      "2 tbsp de mantequilla de cannabis",
+      "2 cups de queso cheddar rallado",
+      "1 cup de pollo cocido o frijoles negros",
+      "½ cebolla morada en cubitos",
+      "1 jalapeño en rodajas",
+      "Crema agria y guacamole"
+    ],
+    "instructions": [
+      "Derretir la mantequilla de cannabis en un sartén grande.",
+      "Colocar una tortilla; esparcir queso, relleno y jalapeño sobre la mitad.",
+      "Doblar y cocinar 3 min por lado hasta dorar.",
+      "Cortar en triángulos y servir."
+    ]
   },
   "infused-pad-thai": {
     "name": "Pad Thai Infusionado",
     "description": "Clásico Pad Thai con aceite de sésamo de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "200g de fideos de arroz planos remojados",
+      "2 huevos",
+      "150g de camarones o tofu",
+      "2 tbsp de aceite de sésamo de cannabis",
+      "3 tbsp de salsa de soya",
+      "2 tbsp de pasta de tamarindo",
+      "1 tbsp de azúcar",
+      "Cebollín, brotes de soya, maní, limón"
+    ],
+    "instructions": [
+      "Saltear los camarones o el tofu. Revolver los huevos en el mismo sartén.",
+      "Agregar los fideos, la salsa de soya, el tamarindo y el azúcar. Mezclar 2 min.",
+      "Agregar el cebollín y los brotes de soya.",
+      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Servir con maní y limón."
+    ]
   },
   "cannabis-pizza": {
     "name": "Pizza de Cannabis",
     "description": "Pizza casera con aceite de oliva de cannabis en la masa y rociado por encima.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "2 cups de harina",
+      "1 tsp de levadura instantánea",
+      "½ tsp de sal",
+      "¾ cup de agua tibia",
+      "2 tbsp de aceite de oliva de cannabis",
+      "Toppings: ½ cup de salsa de tomate, 150g de mozzarella, ingredientes al gusto",
+      "Aceite de oliva de cannabis extra para terminar"
+    ],
+    "instructions": [
+      "Mezclar la masa; amasar 8 min. Dejar levar 1h.",
+      "Precalentar el horno a 475°F.",
+      "Estirar la masa; agregar salsa, queso e ingredientes.",
+      "Hornear 10-12 min hasta dorar.",
+      "Rociar con aceite de oliva de cannabis antes de cortar."
+    ]
   },
   "infused-lentil-dal": {
     "name": "Dal de Lentejas Infusionado",
     "description": "Fragante dal indio terminado con ghee de cannabis.",
-    "category_name": "Almuerzo"
+    "category_name": "Almuerzo",
+    "ingredients": [
+      "1½ cups de lentejas rojas",
+      "1 cebolla",
+      "4 dientes de ajo",
+      "1 inch de jengibre",
+      "1 lata de tomate triturado",
+      "1 tsp de semillas de comino",
+      "1 tsp de cúrcuma",
+      "1 tsp de garam masala",
+      "3 cups de agua",
+      "2 tbsp de ghee de cannabis",
+      "Sal, cilantro"
+    ],
+    "instructions": [
+      "Freír las semillas de comino hasta que revienten. Agregar la cebolla, el ajo y el jengibre.",
+      "Agregar los tomates y las especias. Agregar las lentejas y el agua; cocinar a fuego lento 20-25 min.",
+      "Fuera del fuego: incorporar el ghee de cannabis.",
+      "Sazonar y decorar con cilantro. Servir sobre arroz."
+    ]
   },
   "cannabis-feijoada": {
     "name": "Feijoada de Cannabis",
     "description": "El querido guiso brasileño de frijoles negros y cerdo, cocinado a fuego lento y terminado con aceite de oliva de cannabis.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "2 cups de frijoles negros secos, remojados toda la noche",
+      "200g de costillas de cerdo ahumadas",
+      "150g de carne seca, remojada y en cubos",
+      "150g de salchicha de cerdo (linguiça), en rodajas",
+      "100g de tocino en cubos",
+      "1 cebolla grande picada",
+      "6 dientes de ajo picados",
+      "3 hojas de laurel",
+      "Sal y pimienta negra al gusto",
+      "3 tbsp de aceite de oliva de cannabis",
+      "Rodajas de naranja para decorar"
+    ],
+    "instructions": [
+      "Escurrir los frijoles, cubrir con agua fresca, agregar las costillas ahumadas y las hojas de laurel. Cocinar a fuego lento 1.5-2 horas hasta que los frijoles estén tiernos.",
+      "En un sartén, cocinar el tocino hasta que esté crujiente. Agregar la salchicha, la carne seca, la cebolla y el ajo; saltear 5 min.",
+      "Transferir el contenido del sartén a la olla de frijoles. Cocinar a fuego lento 30 min más.",
+      "Retirar del fuego e incorporar el aceite de oliva de cannabis.",
+      "Servir sobre arroz blanco con berza salteada, farofa y rodajas de naranja."
+    ]
   },
   "infused-brigadeiro": {
     "name": "Brigadeiro Infusionado",
     "description": "Clásicas trufas brasileñas de chocolate hechas con leche condensada, cacao y mantequilla de cannabis.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "1 lata (14 oz) de leche condensada",
+      "2 tbsp de cacao en polvo sin azúcar",
+      "1 tbsp de mantequilla de cannabis",
+      "Pizca de sal",
+      "Chispas de chocolate para decorar"
+    ],
+    "instructions": [
+      "Combinar la leche condensada, el cacao en polvo y la mantequilla de cannabis en una olla a fuego medio-bajo.",
+      "Revolver constantemente hasta que la mezcla espese y se despegue de los lados de la olla, aproximadamente 10-15 min.",
+      "Transferir a un plato engrasado y dejar enfriar a temperatura ambiente.",
+      "Engrasar las manos con mantequilla, formar bolitas y cubrir con chispas de chocolate.",
+      "Colocar en capacillos de mini cupcake y refrigerar hasta que estén firmes."
+    ]
   },
   "cannabis-pacoca": {
     "name": "Paçoca de Cannabis",
     "description": "Dulce brasileño de maní desmenuzable infusionado con mantequilla de cannabis.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "2 cups de maní tostado sin sal",
+      "1 cup de azúcar",
+      "1 tbsp de mantequilla de cannabis derretida",
+      "Pizca de sal"
+    ],
+    "instructions": [
+      "Procesar el maní en un procesador de alimentos hasta obtener una textura fina y ligeramente aceitosa.",
+      "Agregar el azúcar, la mantequilla de cannabis derretida y la sal. Pulsar unas veces más hasta integrar.",
+      "Presionar la mezcla firmemente en moldes cilíndricos pequeños o en un molde forrado.",
+      "Refrigerar 1 hora hasta que endurezca, luego desmoldar.",
+      "Guardar en un recipiente hermético a temperatura ambiente."
+    ]
   },
   "infused-coxinha": {
     "name": "Coxinha Infusionada",
     "description": "Las icónicas croquetas brasileñas de pollo en forma de gota, hechas con masa infusionada con cannabis.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "2 cups de pollo cocido desmenuzado",
+      "1 tbsp de queso crema",
+      "2 cups de caldo de pollo",
+      "2 tbsp de mantequilla de cannabis",
+      "2 cups de harina de trigo",
+      "Sal y pimienta al gusto",
+      "2 huevos batidos",
+      "Pan rallado para empanizar",
+      "Aceite para freír"
+    ],
+    "instructions": [
+      "Sazonar el pollo desmenuzado con queso crema, sal y pimienta. Reservar.",
+      "En una olla, hervir el caldo y la mantequilla de cannabis. Agregar la harina de golpe, revolviendo vigorosamente hasta que la masa forme una bola. Dejar enfriar.",
+      "Tomar una porción de masa, aplanar en la palma, agregar el relleno de pollo y dar forma de gota.",
+      "Pasar por huevo batido y luego por pan rallado.",
+      "Freír a 350°F hasta dorar, aproximadamente 3-4 min. Escurrir sobre papel absorbente."
+    ]
   },
   "cannabis-pao-de-queijo": {
     "name": "Pão de Queijo de Cannabis",
     "description": "Masticables panecillos brasileños de queso hechos con harina de tapioca y aceite de oliva de cannabis.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "2 cups de harina de tapioca (polvilho azedo)",
+      "½ cup de leche",
+      "¼ cup de aceite de oliva de cannabis",
+      "1 huevo",
+      "1 cup de queso parmesano o queso Minas rallado",
+      "½ tsp de sal"
+    ],
+    "instructions": [
+      "Precalentar el horno a 375°F.",
+      "Calentar la leche, el aceite de oliva de cannabis y la sal hasta que apenas hierva. Verter sobre la harina de tapioca y mezclar hasta integrar.",
+      "Dejar enfriar un poco, luego incorporar el huevo y el queso hasta obtener una masa suave.",
+      "Formar bolitas y colocar en una bandeja con papel para hornear.",
+      "Hornear 20-25 min hasta que estén inflados y dorados."
+    ]
   },
   "infused-acai-bowl": {
     "name": "Bowl de Açaí Infusionado",
     "description": "Un refrescante bowl brasileño de açaí licuado con aceite de coco de cannabis y cubierto con granola, banana y miel.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "2 paquetes (200g) de pulpa de açaí congelada",
+      "1 plátano congelado",
+      "½ cup de leche de almendras",
+      "1 tbsp de aceite de coco infusionado derretido",
+      "Toppings: granola, plátano en rodajas, fresas, miel, coco rallado"
+    ],
+    "instructions": [
+      "Licuar la pulpa de açaí congelada, el plátano congelado, la leche de almendras y el aceite de coco infusionado hasta obtener una mezcla espesa y suave.",
+      "Verter en un bowl.",
+      "Decorar con granola, plátano en rodajas, fresas, coco rallado y un chorrito de miel.",
+      "Servir de inmediato."
+    ]
   },
   "cannabis-moqueca": {
     "name": "Moqueca de Cannabis",
     "description": "Un rico guiso brasileño de pescado con leche de coco, tomates, pimientos y aceite de dendé, terminado con aceite de oliva de cannabis.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "500g de pescado blanco firme (bacalao o halibut), cortado en trozos",
+      "Jugo de 2 limones",
+      "1 cebolla en aros",
+      "1 pimiento en rodajas",
+      "2 tomates picados",
+      "1 lata (400ml) de leche de coco",
+      "2 tbsp de aceite de dendé (palma)",
+      "2 tbsp de aceite de oliva de cannabis",
+      "Cilantro fresco, sal y pimienta"
+    ],
+    "instructions": [
+      "Marinar el pescado en jugo de limón, sal y pimienta por 30 min.",
+      "En una olla de barro o sartén hondo, hacer capas con cebolla, pimientos, tomates y pescado.",
+      "Verter la leche de coco y el aceite de dendé encima. Tapar y cocinar a fuego lento 20 min sin revolver.",
+      "Retirar del fuego e incorporar suavemente el aceite de oliva de cannabis.",
+      "Decorar con cilantro. Servir sobre arroz blanco."
+    ]
   },
   "infused-tapioca-crepe": {
     "name": "Crepa de Tapioca Infusionada",
     "description": "Una popular comida callejera brasileña — crepas crujientes de tapioca rellenas de queso y coco, rociadas con aceite de coco de cannabis.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "1 cup de almidón de tapioca hidratado (goma de tapioca)",
+      "Pizca de sal",
+      "Relleno: coco rallado, mozzarella o queso coalho",
+      "1 tbsp de aceite de coco infusionado",
+      "Leche condensada (opcional)"
+    ],
+    "instructions": [
+      "Tamizar el almidón de tapioca con un colador fino para eliminar grumos.",
+      "Calentar un sartén antiadherente a fuego medio. Esparcir una capa fina y uniforme de almidón de tapioca sobre el sartén.",
+      "Cuando se vuelva translúcida y se mantenga unida (aproximadamente 1 min), agregar queso y coco en una mitad.",
+      "Doblar y cocinar 1 min más hasta que el queso se derrita.",
+      "Rociar aceite de coco infusionado y leche condensada encima. Servir de inmediato."
+    ]
   },
   "cannabis-beijinho": {
     "name": "Beijinho de Cannabis",
     "description": "Dulces trufas brasileñas de coco hechas con leche condensada y mantequilla de cannabis, enrolladas en coco rallado.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "1 lata (14 oz) de leche condensada",
+      "1 tbsp de mantequilla de cannabis",
+      "½ cup de coco rallado, más extra para cubrir",
+      "Pizca de sal",
+      "Clavos de olor enteros para decorar"
+    ],
+    "instructions": [
+      "Combinar la leche condensada, la mantequilla de cannabis y el coco rallado en una olla a fuego medio-bajo.",
+      "Revolver constantemente hasta que la mezcla espese y se despegue de los lados, aproximadamente 10-12 min.",
+      "Transferir a un plato engrasado y dejar enfriar a temperatura ambiente.",
+      "Formar bolitas y cubrir con coco rallado. Colocar un clavo de olor en la punta de cada una.",
+      "Colocar en capacillos de mini cupcake y refrigerar hasta el momento de servir."
+    ]
   },
   "infused-empadao": {
     "name": "Empadão Infusionado",
     "description": "Un gran pastel salado brasileño con masa mantecosa infusionada con cannabis, relleno de pollo sazonado, aceitunas y palmitos.",
-    "category_name": "Internacional"
+    "category_name": "Internacional",
+    "ingredients": [
+      "3 cups de harina de trigo",
+      "½ cup de mantequilla de cannabis fría en cubos",
+      "½ cup de mantequilla regular fría en cubos",
+      "2 yemas de huevo",
+      "3-4 tbsp de agua helada",
+      "Relleno: 2 cups de pollo desmenuzado, 1 cebolla, 2 dientes de ajo, ½ cup de aceitunas verdes, ½ cup de palmitos, 2 tbsp de pasta de tomate, sal, pimienta, perejil",
+      "1 huevo para barnizar"
+    ],
+    "instructions": [
+      "Preparar la masa: procesar la harina, la mantequilla de cannabis, la mantequilla regular y las yemas en un procesador de alimentos. Agregar agua helada hasta que la masa se integre. Envolver y refrigerar 30 min.",
+      "Preparar el relleno: saltear la cebolla y el ajo, agregar el pollo, la pasta de tomate, las aceitunas, los palmitos, sal, pimienta y perejil. Cocinar 5 min. Dejar enfriar.",
+      "Presionar ⅔ de la masa en un molde engrasado. Agregar el relleno.",
+      "Estirar la masa restante para la tapa. Sellar los bordes y barnizar con huevo.",
+      "Hornear a 375°F por 35-40 min hasta dorar."
+    ]
   }
 }

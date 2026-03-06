@@ -1,0 +1,346 @@
+{
+  "cannabis-cucumber-mint-cooler": {
+    "ingredients": [
+      "½ cucumber sliced",
+      "10 mint leaves",
+      "2 tbsp cannabis simple syrup",
+      "Juice of 1 lime",
+      "1 cup sparkling water",
+      "Ice"
+    ],
+    "instructions": [
+      "Muddle cucumber and mint with syrup and lime.",
+      "Shake with ice and strain.",
+      "Top with sparkling water."
+    ]
+  },
+  "infused-watermelon-slush": {
+    "ingredients": [
+      "4 cups frozen watermelon",
+      "2 tbsp cannabis honey",
+      "Juice of 1 lime",
+      "Pinch salt",
+      "Fresh mint"
+    ],
+    "instructions": [
+      "Blend watermelon, cannabis honey, lime and salt until smooth.",
+      "Pour into glasses and top with mint."
+    ]
+  },
+  "cannabis-lavender-lemonade": {
+    "ingredients": [
+      "Juice of 4 lemons",
+      "2 tbsp cannabis lavender syrup",
+      "2 cups cold water",
+      "Ice",
+      "Dried lavender"
+    ],
+    "instructions": [
+      "Simmer water, sugar and lavender 10 min; strain; add cannabis tincture.",
+      "Mix lemon juice, syrup and water. Pour over ice."
+    ]
+  },
+  "infused-tropical-punch": {
+    "ingredients": [
+      "1 cup mango juice",
+      "1 cup pineapple juice",
+      "½ cup passion fruit juice",
+      "2 tbsp cannabis simple syrup",
+      "Juice of 1 lime",
+      "Sparkling water",
+      "Ice"
+    ],
+    "instructions": [
+      "Mix juices, cannabis syrup and lime in a pitcher.",
+      "Pour over ice and top with sparkling water."
+    ]
+  },
+  "cannabis-strawberry-basil-smash": {
+    "ingredients": [
+      "6 strawberries hulled",
+      "6 basil leaves",
+      "2 tbsp cannabis honey",
+      "Juice of 1 lemon",
+      "Sparkling water",
+      "Ice"
+    ],
+    "instructions": [
+      "Muddle strawberries and basil with cannabis honey and lemon.",
+      "Strain over ice. Top with sparkling water."
+    ]
+  },
+  "infused-hibiscus-tea": {
+    "ingredients": [
+      "3 tbsp dried hibiscus",
+      "4 cups boiling water",
+      "2 tbsp cannabis honey",
+      "Juice of 1 lime",
+      "Ice",
+      "Orange slices"
+    ],
+    "instructions": [
+      "Steep hibiscus 10 min. Strain and cool.",
+      "Stir in cannabis honey and lime. Serve over ice."
+    ]
+  },
+  "cannabis-peach-iced-tea": {
+    "ingredients": [
+      "4 black tea bags",
+      "4 cups hot water",
+      "2 ripe peaches sliced",
+      "2 tbsp cannabis simple syrup",
+      "Juice of ½ lemon",
+      "Ice"
+    ],
+    "instructions": [
+      "Brew tea 5 min. Add peaches; cool and refrigerate 1h.",
+      "Strain; stir in cannabis syrup and lemon. Serve over ice."
+    ]
+  },
+  "infused-mango-lassi": {
+    "ingredients": [
+      "2 cups ripe mango",
+      "1 cup yoghurt",
+      "½ cup milk",
+      "2 tbsp cannabis honey",
+      "½ tsp cardamom",
+      "Pinch salt"
+    ],
+    "instructions": [
+      "Blend all ingredients until smooth.",
+      "Taste and adjust. Pour into glasses."
+    ]
+  },
+  "cannabis-rose-lemonade": {
+    "ingredients": [
+      "Juice of 4 lemons",
+      "2 tbsp rose syrup",
+      "1 tsp cannabis tincture",
+      "2 cups sparkling water",
+      "Ice",
+      "Dried rose petals"
+    ],
+    "instructions": [
+      "Mix lemon juice, rose syrup and cannabis tincture.",
+      "Add sparkling water over ice. Garnish with rose petals."
+    ]
+  },
+  "infused-pineapple-ginger-fizz": {
+    "ingredients": [
+      "1 cup fresh pineapple juice",
+      "1 inch ginger grated",
+      "2 tbsp cannabis honey",
+      "Juice of 1 lime",
+      "Sparkling water",
+      "Ice"
+    ],
+    "instructions": [
+      "Mix pineapple juice, ginger, cannabis honey and lime. Strain.",
+      "Pour over ice and top with sparkling water."
+    ]
+  },
+  "cannabis-cranberry-spritzer": {
+    "ingredients": [
+      "1 cup cranberry juice",
+      "2 tbsp cannabis simple syrup",
+      "Juice of ½ orange",
+      "Sparkling water",
+      "Ice",
+      "Cranberries, rosemary"
+    ],
+    "instructions": [
+      "Mix cranberry juice, cannabis syrup and orange juice.",
+      "Add ice and sparkling water. Garnish."
+    ]
+  },
+  "infused-matcha-cooler": {
+    "ingredients": [
+      "1 tsp matcha powder",
+      "2 tbsp hot water",
+      "1 cup cold oat milk",
+      "2 tbsp cannabis honey",
+      "Ice"
+    ],
+    "instructions": [
+      "Whisk matcha with hot water until smooth. Add cannabis honey.",
+      "Fill glass with ice and oat milk. Pour matcha over top."
+    ]
+  },
+  "cannabis-passion-fruit-lemonade": {
+    "ingredients": [
+      "Pulp of 4 passion fruits",
+      "Juice of 3 lemons",
+      "2 tbsp cannabis honey",
+      "1½ cups sparkling water",
+      "Ice",
+      "Mint"
+    ],
+    "instructions": [
+      "Mix passion fruit, lemon and cannabis honey until dissolved.",
+      "Pour over ice and top with sparkling water. Garnish."
+    ]
+  },
+  "infused-cherry-limeade": {
+    "ingredients": [
+      "1 cup tart cherry juice",
+      "Juice of 3 limes",
+      "2 tbsp cannabis simple syrup",
+      "Sparkling water",
+      "Ice",
+      "Lime, cherries"
+    ],
+    "instructions": [
+      "Mix cherry juice, lime and cannabis syrup.",
+      "Pour over ice and top with sparkling water. Garnish."
+    ]
+  },
+  "cannabis-mint-green-tea": {
+    "ingredients": [
+      "3 green tea bags",
+      "4 cups hot water",
+      "2 tbsp cannabis honey",
+      "10 mint leaves",
+      "Juice of 1 lemon",
+      "Ice"
+    ],
+    "instructions": [
+      "Brew green tea 3 min. Stir in cannabis honey while warm.",
+      "Add mint and lemon. Cool, refrigerate. Serve over ice."
+    ]
+  },
+  "infused-blueberry-lemonade": {
+    "ingredients": [
+      "1 cup blueberries",
+      "Juice of 4 lemons",
+      "2 tbsp cannabis simple syrup",
+      "2 cups cold water",
+      "Ice"
+    ],
+    "instructions": [
+      "Simmer blueberries with ¼ cup water; strain.",
+      "Mix blueberry juice, lemon, cannabis syrup and water. Serve over ice."
+    ]
+  },
+  "cannabis-ginger-turmeric-tonic": {
+    "ingredients": [
+      "1 inch ginger grated",
+      "½ tsp turmeric",
+      "Juice of 1 lemon",
+      "2 tbsp cannabis honey",
+      "1 cup warm water",
+      "Pinch black pepper",
+      "Sparkling water"
+    ],
+    "instructions": [
+      "Combine ginger, turmeric, lemon and cannabis honey in warm water.",
+      "Cool, add ice, top with sparkling water. Add black pepper."
+    ]
+  },
+  "infused-coconut-lime-agua-fresca": {
+    "ingredients": [
+      "1 cup coconut water",
+      "Juice of 3 limes",
+      "1 cup sparkling water",
+      "2 tbsp cannabis honey",
+      "Ice",
+      "Lime zest, coconut flakes"
+    ],
+    "instructions": [
+      "Mix coconut water, lime and cannabis honey until dissolved.",
+      "Add sparkling water over ice. Garnish."
+    ]
+  },
+  "cannabis-cheesecake": {
+    "ingredients": [
+      "Crust: 200g digestive biscuits crushed",
+      "80g cannabis butter melted",
+      "Filling: 600g cream cheese",
+      "¾ cup caster sugar",
+      "3 eggs",
+      "1 tsp vanilla",
+      "200ml sour cream",
+      "2 tbsp flour"
+    ],
+    "instructions": [
+      "Preheat oven to 325°F. Mix biscuits and cannabis butter; press into 9-inch springform.",
+      "Beat cream cheese and sugar. Add eggs one at a time.",
+      "Mix in vanilla, sour cream and flour. Pour over crust.",
+      "Bake in water bath 55-60 min. Cool in oven 1h.",
+      "Refrigerate 4h before serving."
+    ]
+  },
+  "infused-tiramisu": {
+    "ingredients": [
+      "3 egg yolks",
+      "75g sugar",
+      "250g mascarpone",
+      "2 tbsp cannabis butter softened",
+      "200ml strong espresso cooled",
+      "200g ladyfingers",
+      "2 tbsp cocoa powder",
+      "1 tsp vanilla"
+    ],
+    "instructions": [
+      "Beat yolks and sugar until pale. Beat in mascarpone, cannabis butter and vanilla.",
+      "Dip ladyfingers in espresso; layer in dish.",
+      "Spread half the cream. Repeat layers.",
+      "Dust with cocoa. Refrigerate 4h+"
+    ]
+  },
+  "cannabis-apple-pie": {
+    "ingredients": [
+      "Pastry: 2½ cups flour",
+      "200g cannabis butter cold cubed",
+      "6-8 tbsp ice water",
+      "½ tsp salt",
+      "Filling: 6 apples peeled sliced",
+      "¾ cup sugar",
+      "2 tsp cinnamon",
+      "¼ tsp nutmeg",
+      "2 tbsp cornstarch"
+    ],
+    "instructions": [
+      "Make pastry; chill 1h. Preheat oven to 375°F.",
+      "Mix apple filling.",
+      "Line pan with half the dough. Add filling.",
+      "Top with second dough sheet; seal and crimp.",
+      "Bake 50-60 min until golden."
+    ]
+  },
+  "infused-chocolate-lava-cake": {
+    "ingredients": [
+      "100g dark chocolate",
+      "100g cannabis butter",
+      "2 eggs + 2 yolks",
+      "80g icing sugar",
+      "40g flour",
+      "Pinch salt"
+    ],
+    "instructions": [
+      "Preheat oven to 425°F. Grease 4 ramekins.",
+      "Melt chocolate and cannabis butter. Cool slightly.",
+      "Whisk in eggs, yolks and icing sugar. Fold in flour and salt.",
+      "Fill ramekins. Chill 30 min.",
+      "Bake 12-13 min. Rest 1 min then invert."
+    ]
+  },
+  "cannabis-lemon-bars": {
+    "ingredients": [
+      "Base: 1 cup flour",
+      "115g cannabis butter",
+      "¼ cup icing sugar",
+      "Pinch salt",
+      "Filling: 3 eggs",
+      "1 cup caster sugar",
+      "Juice and zest of 3 lemons",
+      "3 tbsp flour",
+      "Icing sugar to dust"
+    ],
+    "instructions": [
+      "Preheat oven to 350°F. Press base into 8x8 pan. Bake 18 min.",
+      "Whisk filling ingredients. Pour over hot base.",
+      "Bake 20-22 min until set. Cool and refrigerate.",
+      "Dust with icing sugar and cut into bars."
+    ]
+  }
+}
