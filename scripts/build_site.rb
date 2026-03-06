@@ -264,7 +264,7 @@ def build_navbar(lang)
             <li class="nav-item">
               <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa fa-moon"></i><i class="fa fa-sun"></i></button>
             </li>
-    #{dropdowns}      </ul>
+    #{dropdowns}#{lang_switcher}      </ul>
         </div>
       </div>
     </nav>
@@ -280,8 +280,24 @@ def build_navbar(lang)
 end
 
 def build_language_switcher(lang)
-  # Simple language links in the footer for now — clean and SEO-friendly
-  ""
+  labels = { "en" => "EN", "pt" => "PT", "es" => "ES", "de" => "DE" }
+  names = { "en" => "English", "pt" => "Portugues", "es" => "Espanol", "de" => "Deutsch" }
+  current_label = labels[lang] || lang.upcase
+
+  items = ALL_LANGS.map do |l|
+    lprefix = lang_prefix(l)
+    active = l == lang ? " active" : ""
+    %(<a class="dropdown-item lang-item#{active}" href="#{lprefix}/">#{names[l]}</a>)
+  end.join("\n          ")
+
+  <<~HTML
+        <li class="nav-item dropdown lang-dropdown ml-lg-2">
+          <a href="#" class="nav-link lang-toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-globe"></i> #{current_label}</a>
+          <div class="dropdown-menu dropdown-menu-right shadow-sm" role="menu">
+            #{items}
+          </div>
+        </li>
+  HTML
 end
 
 def build_footer(lang)
@@ -930,9 +946,28 @@ def build_recipe_page(recipe, lang)
   por = recipe["portion"] || 12
   pot = recipe["potency"] || 14
 
-  # Ingredients & Directions are pre-rendered HTML strings from recipes.json
-  ingredients_html = recipe["ingredients"] || ""
-  steps_html = recipe["instructions"] || ""
+  # Ingredients & Directions — use translations if available, otherwise English HTML
+  translated_ings = recipe_t(lang, slug, "ingredients")
+  translated_ins = recipe_t(lang, slug, "instructions")
+
+  if translated_ings.is_a?(Array) && !translated_ings.empty?
+    items = translated_ings.map do |ing|
+      ing_html = ing.gsub(/(\d+(\.\d+)?)\s*(ground\s*weed|maconha triturada|erva moída|marihuana molida|hierba molida|gemahlenes Gras|gemahlenes Cannabis)/i) do
+        "<span id=\"grams-quantity-recipe\">#{$1}</span> #{$3.gsub(' ', '&nbsp;')}"
+      end
+      "<li class=\"list-group-item\">#{ing_html}</li>"
+    end
+    ingredients_html = "<ul class=\"list-group\">\n\t#{items.join("\n\t")}\n</ul>\n"
+  else
+    ingredients_html = recipe["ingredients"] || ""
+  end
+
+  if translated_ins.is_a?(Array) && !translated_ins.empty?
+    items = translated_ins.map { |step| "<li class=\"list-group-item\">#{step}</li>" }
+    steps_html = "<ul class=\"list-group\">\n\t#{items.join("\n\t")}\n</ul>\n"
+  else
+    steps_html = recipe["instructions"] || ""
+  end
 
   # Structured data
   structured = JSON.generate([
@@ -945,8 +980,8 @@ def build_recipe_page(recipe, lang)
       "datePublished" => "2024-01-01", "dateModified" => "2026-03-04",
       "recipeCategory" => cat,
       "recipeYield" => "#{por} servings",
-      "recipeIngredient" => extract_list_items(recipe["ingredients"]),
-      "recipeInstructions" => extract_list_items(recipe["instructions"]).each_with_index.map { |s, i| { "@type" => "HowToStep", "position" => i + 1, "text" => s } },
+      "recipeIngredient" => translated_ings.is_a?(Array) ? translated_ings : extract_list_items(recipe["ingredients"]),
+      "recipeInstructions" => (translated_ins.is_a?(Array) ? translated_ins : extract_list_items(recipe["instructions"])).each_with_index.map { |s, i| { "@type" => "HowToStep", "position" => i + 1, "text" => s } },
       "url" => canonical
     },
     {

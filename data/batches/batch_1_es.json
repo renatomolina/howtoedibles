@@ -3,8 +3,8 @@
     "ingredients": [
       "2 rebanadas de pan",
       "2 rebanadas de queso cheddar",
-      "2 cdtas de mantequilla de cannabis",
-      "1 cda de mantequilla"
+      "2 tsp de mantequilla cannábica",
+      "1 tbsp de mantequilla"
     ],
     "instructions": [
       "Unta la mantequilla regular de manera uniforme en un lado de ambas rebanadas de pan. Luego, unta la mantequilla de cannabis en el otro lado del pan.",
@@ -15,28 +15,28 @@
   "gingerbread-cookies": {
     "ingredients": [
       "Galleta",
-      "1/2 taza de mantequilla de cannabis",
-      "2 y 1/4 tazas de harina",
-      "1/2 taza de azúcar",
+      "1/2 cup de mantequilla cannábica",
+      "2 and 1/4 cups de harina",
+      "1/2 cup de azúcar",
       "1 huevo",
-      "1/2 taza de melaza",
-      "1 cdta de canela molida",
-      "1 cdta de jengibre molido",
-      "1 cdta de clavo molido",
-      "1 cdta de nuez moscada molida",
-      "1 cdta de polvo para hornear",
-      "1/2 cdta de bicarbonato de sodio",
-      "1/2 cdta de sal",
+      "1/2 cup de melaza",
+      "1 tsp de canela molida",
+      "1 tsp de jengibre molido",
+      "1 tsp de clavo molido",
+      "1 tsp de nuez moscada molida",
+      "1 tsp de polvo para hornear",
+      "1/2 tsp de bicarbonato de sodio",
+      "1/2 tsp de sal",
       "Glaseado",
-      "2 y 1/4 tazas de azúcar glass finamente molida",
-      "1/3 taza de leche",
+      "2 and 1/4 cup de azúcar glass finamente molida",
+      "1/3 cup de leche",
       "2 claras de huevo grandes"
     ],
     "instructions": [
       "En un tazón grande, con una batidora de mano a velocidad baja, mezcla la mantequilla, la harina, el azúcar, el huevo, la melaza, la canela, el jengibre, el clavo, la nuez moscada, el polvo para hornear, el bicarbonato y la sal hasta que estén bien combinados.",
       "Cubre y refrigera durante 1 hora.",
       "Precalienta el horno a 350&deg;F.",
-      "Sobre una superficie ligeramente enharinada, trabajando con la mitad de la masa a la vez, estírala hasta un grosor de 1/8 de pulgada. Con cortadores de galletas enharinados, corta la masa en formas. Con una espátula de metal, coloca las galletas separadas 1/2 pulgada entre sí en bandejas para hornear engrasadas. Vuelve a estirar los recortes y sigue cortando formas. Recuerda cortar 24 galletas --> la cantidad correcta para mantener tu dosis consistente con lo que configuraste en la calculadora.",
+      "Sobre una superficie ligeramente enharinada, trabajando con la mitad de la masa a la vez, estírala hasta un grosor de 1/8 inch. Con cortadores de galletas enharinados, corta la masa en formas. Con una espátula de metal o volteador de panqueques, coloca las galletas separadas 1/2 inch entre sí en bandejas para hornear engrasadas. Vuelve a estirar los recortes y sigue cortando formas. Recuerda cortar 24 galletas --> la cantidad correcta de galletas para mantener tu dosis consistente con lo que configuraste en la calculadora.",
       "Hornea durante 8 minutos, o hasta que estén ligeramente doradas. Transfiere las galletas a una rejilla para que se enfríen completamente.",
       "Para hacer el glaseado, toma el azúcar, la leche y las claras de huevo y bátelos hasta que estén espesos pero puedan pasar por una manga pastelera o botella dispensadora. Si queda muy espeso, agrega más leche gradualmente.",
       "¡Diviértete decorando las galletas como quieras!"
@@ -44,30 +44,30 @@
   },
   "trail-mix": {
     "ingredients": [
-      "&frac18; taza de aceite de coco infusionado",
-      "Nueces de tu preferencia"
+      "&frac18; cup de aceite de coco infusionado",
+      "Frutos secos de tu preferencia"
     ],
     "instructions": [
       "Descarboxila tu hierba - Aprende cómo",
       "Muele tu hierba finamente, quieres lograr una buena superficie de exposición.",
-      "Agrega la hierba molida a un frasco hermético con &frac14; taza de aceite de coco.",
+      "Agrega la hierba molida a un frasco hermético con &frac14; cup de aceite de coco.",
       "Sella el frasco herméticamente.",
       "Coloca el frasco en agua hirviendo a fuego medio-bajo (240&deg; F - 115&deg; C) durante más de 2 horas.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
       "Aprieta la manta de cielo y exprime todo el líquido restante.",
-      "Mezcla el aceite de coco con algunas nueces."
+      "Mezcla el aceite de coco con algunos frutos secos."
     ]
   },
   "infused-honey": {
     "ingredients": [
-      "1/2 taza de aceite de coco",
+      "1/2 cup de aceite de coco",
       "3.5 de hierba molida",
       "300 g de miel"
     ],
     "instructions": [
       "Descarboxila tu hierba - Aprende cómo hacerlo",
       "Muele tu hierba finamente, quieres lograr una buena superficie de exposición.",
-      "Agrega la hierba molida a un frasco hermético con &frac12; taza de aceite de coco.",
+      "Agrega la hierba molida a un frasco hermético con &frac12; cup de aceite de coco.",
       "Sella el frasco herméticamente.",
       "Coloca el frasco en agua hirviendo a fuego medio-bajo (240&deg; F - 115&deg; C) durante más de 2 horas.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
@@ -78,7 +78,7 @@
   },
   "infused-whiskey": {
     "ingredients": [
-      "1 botella de 750 ml de whiskey bourbon",
+      "750 ml de botella de bourbon whiskey",
       "7 g de hierba molida"
     ],
     "instructions": [
@@ -110,8 +110,8 @@
   },
   "weed-infused-popcorn": {
     "ingredients": [
-      "1/4 taza de mantequilla de cannabis",
-      "⅓ - ⅔ tazas de granos de palomitas",
+      "1/4 cup de mantequilla cannábica",
+      "⅓ - ⅔ cups de granos de palomitas de maíz",
       "Sal al gusto"
     ],
     "instructions": [
@@ -121,25 +121,25 @@
   },
   "infused-eggnog": {
     "ingredients": [
-      "1 taza de leche infusionada",
+      "1 cup de leche infusionada",
       "4 huevos",
-      "6 cdas de azúcar",
-      "1 taza de crema para batir",
-      "1 cdta de nuez moscada rallada",
-      "6 cdas de bourbon (opcional)",
+      "6 tbsp de azúcar",
+      "1 cup de crema espesa",
+      "1 tsp de nuez moscada rallada",
+      "6 tbsp de Bourbon (Opcional)",
       "Canela para decorar"
     ],
     "instructions": [
       "Separa las yemas de las claras de huevo.",
       "En un tazón, bate las yemas con el azúcar hasta que se vean pálidas y el azúcar esté completamente disuelto.",
-      "En una olla mediana, a fuego alto, combina la leche, la crema para batir y la nuez moscada y lleva justo a ebullición, revolviendo ocasionalmente. Retira del fuego y lentamente tempera la mezcla caliente con la mezcla de yemas y azúcar. Luego regresa todo a la olla y calienta hasta que la mezcla alcance los 160 grados F. Retira del fuego, agrega el bourbon/whiskey, vierte en un tazón mediano y refrigera.",
-      "En un tazón mediano, bate las claras de huevo hasta formar picos suaves. Con la batidora funcionando, agrega gradualmente 1 cucharada de azúcar y bate hasta formar picos firmes. Incorpora las claras batidas a la mezcla refrigerada.",
-      "Sirve en la cantidad de tazas que definiste como porciones en la calculadora para mantener tu dosis consistente, ¡y decora con canela!"
+      "En una olla mediana, a fuego alto, combina la leche, la crema espesa y la nuez moscada y lleva justo a ebullición, revolviendo ocasionalmente. Retira del fuego y lentamente tempera la mezcla caliente con la mezcla de yemas y azúcar. Luego regresa todo a la olla y calienta hasta que la mezcla alcance los 160 degrees F. Retira del fuego, agrega el bourbon/whiskey, vierte en un tazón mediano y refrigera.",
+      "En un tazón mediano, bate las claras de huevo hasta formar picos suaves. Con la batidora funcionando, agrega gradualmente 1 tbsp de azúcar y bate hasta formar picos firmes. Incorpora las claras batidas a la mezcla refrigerada.",
+      "¡Sirve en la cantidad de tazas que definiste como porciones en la calculadora para mantener tu dosis consistente, y decora con canela!"
     ]
   },
   "infused-ghee": {
     "ingredients": [
-      "1 taza (2 barras) de mantequilla sin sal",
+      "1 cup (2 barras) de mantequilla sin sal",
       "3.5g de cannabis, descarboxilado y molido",
       "Manta de cielo para colar",
       "Frasco mason para almacenar"
@@ -155,15 +155,15 @@
   "infused-condensed-milk": {
     "ingredients": [
       "1 lata (14 oz) de leche condensada azucarada",
-      "1 cda de mantequilla de cannabis o aceite de coco infusionado",
+      "1 tbsp de mantequilla cannábica o aceite de coco infusionado",
       "Olla",
       "Batidor",
       "Frasco mason"
     ],
     "instructions": [
-      "Asegúrate de que tu mantequilla de cannabis o aceite de coco infusionado esté listo. Si no, prepáralo primero.",
+      "Asegúrate de que tu mantequilla cannábica o aceite de coco infusionado esté listo. Si no, prepáralo primero.",
       "Vierte la leche condensada en una olla a fuego bajo.",
-      "Agrega la mantequilla de cannabis o el aceite de coco infusionado y bate hasta que estén completamente combinados.",
+      "Agrega la mantequilla cannábica o el aceite de coco infusionado y bate hasta que estén completamente combinados.",
       "Sigue revolviendo a fuego bajo durante 10-15 minutos. No dejes que hierva.",
       "Retira del fuego y deja enfriar un poco.",
       "Transfiere a un frasco mason o recipiente hermético. Almacena en el refrigerador hasta por 2 semanas."
@@ -171,11 +171,11 @@
   },
   "cannabis-hot-chocolate": {
     "ingredients": [
-      "2 tazas de leche infusionada (ver receta de Leche Infusionada)",
-      "3 cdas de cacao en polvo sin azúcar",
-      "2 cdas de azúcar o endulzante de tu preferencia",
+      "2 cups de leche infusionada (ver receta de Leche Infusionada)",
+      "3 tbsp de cacao en polvo sin azúcar",
+      "2 tbsp de azúcar o endulzante de tu preferencia",
       "Pizca de sal",
-      "1/4 cdta de extracto de vainilla",
+      "1/4 tsp de extracto de vainilla",
       "Crema batida para decorar (opcional)"
     ],
     "instructions": [
@@ -188,9 +188,9 @@
   },
   "infused-cold-brew": {
     "ingredients": [
-      "1 taza de café molido grueso",
-      "4 tazas de agua fría filtrada",
-      "1 cdta de aceite de coco infusionado (ver receta de Aceite de Coco Infusionado)",
+      "1 cup de café molido grueso",
+      "4 cups de agua fría filtrada",
+      "1 tsp de aceite de coco infusionado (ver receta de Aceite de Coco Infusionado)",
       "Cubos de hielo",
       "Leche o crema al gusto"
     ],
@@ -199,21 +199,21 @@
       "Tapa y refrigera durante 12-24 horas.",
       "Cuela a través de un colador fino o manta de cielo hacia un frasco limpio. Desecha los residuos de café.",
       "Para servir, llena un vaso con hielo y vierte el cold brew al gusto (generalmente diluido 1:1 con agua o leche).",
-      "Agrega 1 cdta de aceite de coco infusionado y revuelve hasta que se emulsione. Puedes usar un mini espumador para mezclarlo bien.",
+      "Agrega 1 tsp de aceite de coco infusionado y revuelve hasta que se emulsione. Puedes usar un mini espumador para mezclarlo bien.",
       "Disfruta despacio — los efectos se combinan con la cafeína para una experiencia única."
     ]
   },
   "weed-rice-krispie-treats": {
     "ingredients": [
-      "3 cdas de mantequilla de cannabis (ver receta de Mantequilla de Cannabis)",
+      "3 tbsp de mantequilla cannábica (ver receta de Mantequilla Cannábica)",
       "1 bolsa (10 oz) de malvaviscos",
-      "6 tazas de cereal de arroz (Rice Krispies o similar)",
+      "6 cups de cereal de arroz (Rice Krispies o similar)",
       "Pizca de sal",
       "Spray antiadherente para cocinar"
     ],
     "instructions": [
-      "Engrasa un molde de 9x13 pulgadas con spray antiadherente y reserva.",
-      "Derrite la mantequilla de cannabis en una olla grande a fuego bajo. Mantén el fuego bajo para preservar el THC.",
+      "Engrasa un molde de 9x13-inch con spray antiadherente y reserva.",
+      "Derrite la mantequilla cannábica en una olla grande a fuego bajo. Mantén el fuego bajo para preservar el THC.",
       "Agrega los malvaviscos y revuelve constantemente hasta que estén completamente derretidos y suaves. Retira del fuego.",
       "Rápidamente incorpora el cereal de arroz y la sal, mezclando hasta que todo esté cubierto.",
       "Vierte en el molde preparado y presiona con una espátula engrasada o con tus manos.",
@@ -223,31 +223,31 @@
   },
   "cannabis-caramel-sauce": {
     "ingredients": [
-      "1 taza de azúcar granulada",
-      "6 cdas de mantequilla de cannabis (ver receta de Mantequilla de Cannabis)",
-      "1/2 taza de crema para batir, a temperatura ambiente",
-      "1 cdta de extracto de vainilla",
-      "1/2 cdta de sal de mar"
+      "1 cup de azúcar granulada",
+      "6 tbsp de mantequilla cannábica (ver receta de Mantequilla Cannábica)",
+      "1/2 cup de crema espesa, a temperatura ambiente",
+      "1 tsp de extracto de vainilla",
+      "1/2 tsp de sal de mar"
     ],
     "instructions": [
       "Calienta el azúcar en una olla de fondo grueso a fuego medio, revolviendo constantemente con una cuchara de madera hasta que se derrita y tome un color ámbar.",
-      "Una vez completamente derretida, agrega toda la mantequilla de cannabis de una vez. La mezcla burbujeará vigorosamente — sigue revolviendo.",
-      "Incorpora la crema para batir lentamente. La mezcla burbujeará de nuevo. Sigue revolviendo hasta que esté suave.",
+      "Una vez completamente derretida, agrega toda la mantequilla cannábica de una vez. La mezcla burbujeará vigorosamente — sigue revolviendo.",
+      "Incorpora la crema espesa lentamente. La mezcla burbujeará de nuevo. Sigue revolviendo hasta que esté suave.",
       "Retira del fuego y agrega el extracto de vainilla y la sal de mar.",
       "Deja enfriar durante 10 minutos antes de usar. Almacena en un frasco en el refrigerador hasta por 2 semanas.",
-      "Recalienta suavemente antes de servir. Divide en 12 porciones y úsala como topping."
+      "Recalienta suavemente antes de servir. Divide en 12 porciones y rocía como cobertura."
     ]
   },
   "infused-hummus": {
     "ingredients": [
       "1 lata (15 oz) de garbanzos, escurridos y enjuagados",
-      "3 cdas de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
-      "3 cdas de tahini",
-      "2 cdas de jugo de limón",
+      "3 tbsp de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
+      "3 tbsp de tahini",
+      "2 tbsp de jugo de limón",
       "1 diente de ajo",
-      "1/2 cdta de sal",
-      "1/4 cdta de comino",
-      "2-3 cdas de agua fría",
+      "1/2 tsp de sal",
+      "1/4 tsp de comino",
+      "2-3 tbsp de agua fría",
       "Pimentón y aceite de oliva regular para decorar"
     ],
     "instructions": [
@@ -262,20 +262,20 @@
   },
   "infused-granola": {
     "ingredients": [
-      "3 tazas de avena en hojuelas",
-      "1/2 taza de nueces (almendras, pecanas o nueces de Castilla)",
-      "1/4 taza de semillas (de calabaza o de girasol)",
-      "3 cdas de mantequilla de cannabis o aceite de coco infusionado, derretido",
-      "3 cdas de miel o jarabe de maple",
-      "1 cdta de extracto de vainilla",
-      "1/2 cdta de canela",
+      "3 cups de avena en hojuelas",
+      "1/2 cup de frutos secos (almendras, nueces pecanas o nueces)",
+      "1/4 cup de semillas (de calabaza o de girasol)",
+      "3 tbsp de mantequilla cannábica o aceite de coco infusionado, derretido",
+      "3 tbsp de miel o jarabe de maple",
+      "1 tsp de extracto de vainilla",
+      "1/2 tsp de canela",
       "Pizca de sal",
-      "1/2 taza de fruta deshidratada (opcional, agregar después de hornear)"
+      "1/2 cup de fruta deshidratada (opcional, agregar después de hornear)"
     ],
     "instructions": [
       "Precalienta el horno a 300°F (150°C) — la temperatura baja preserva el THC.",
-      "En un tazón grande, mezcla la avena, las nueces, las semillas, la canela y la sal.",
-      "En un tazón pequeño, bate la mantequilla de cannabis derretida, la miel y la vainilla.",
+      "En un tazón grande, mezcla la avena, los frutos secos, las semillas, la canela y la sal.",
+      "En un tazón pequeño, bate la mantequilla cannábica derretida, la miel y la vainilla.",
       "Vierte los ingredientes húmedos sobre los secos y revuelve hasta que todo esté cubierto.",
       "Extiende sobre una bandeja para hornear con papel pergamino en una capa delgada y uniforme.",
       "Hornea durante 30-35 minutos, revolviendo cada 10 minutos, hasta que esté dorada y fragante.",
@@ -287,7 +287,7 @@
     "ingredients": [
       "2 rebanadas de pan grueso (masa madre o integral)",
       "1 aguacate maduro",
-      "1 cda de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
+      "1 tbsp de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
       "Jugo de medio limón",
       "Sal y pimienta al gusto",
       "Hojuelas de chile, condimento everything bagel o hierbas frescas para decorar",
@@ -305,11 +305,11 @@
   },
   "cannabis-salad-dressing": {
     "ingredients": [
-      "3 cdas de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
-      "1 cda de aceite de oliva regular",
-      "2 cdas de vinagre de manzana o vinagre de vino tinto",
-      "1 cdta de mostaza Dijon",
-      "1 cdta de miel",
+      "3 tbsp de aceite de oliva infusionado (ver receta de Aceite de Oliva Infusionado)",
+      "1 tbsp de aceite de oliva regular",
+      "2 tbsp de vinagre de sidra de manzana o vinagre de vino tinto",
+      "1 tsp de mostaza Dijon",
+      "1 tsp de miel",
       "1 diente de ajo pequeño, picado finamente",
       "Sal y pimienta al gusto"
     ],
@@ -325,29 +325,29 @@
   "infused-chocolate-bark": {
     "ingredients": [
       "200g de chocolate oscuro (85% cacao o más para keto)",
-      "1 cda de mantequilla de cannabis, suavizada (ver receta de Mantequilla de Cannabis)",
-      "1/4 taza de toppings: hojuelas de sal de mar, nueces picadas, arándanos deshidratados o nibs de cacao"
+      "1 tbsp de mantequilla cannábica, ablandada (ver receta de Mantequilla Cannábica)",
+      "1/4 cup de coberturas: hojuelas de sal de mar, frutos secos picados, arándanos deshidratados o nibs de cacao"
     ],
     "instructions": [
       "Derrite el chocolate oscuro en un tazón resistente al calor sobre una olla con agua hirviendo a fuego lento (baño maría), revolviendo hasta que esté suave.",
-      "Retira del fuego e incorpora la mantequilla de cannabis suavizada hasta que esté completamente integrada.",
-      "Forra una bandeja para hornear con papel pergamino. Vierte la mezcla de chocolate y extiéndela en una capa uniforme de aproximadamente 1/4 de pulgada de grosor.",
-      "Rápidamente espolvorea los toppings elegidos sobre la superficie.",
+      "Retira del fuego e incorpora la mantequilla cannábica ablandada hasta que esté completamente integrada.",
+      "Forra una bandeja para hornear con papel pergamino. Vierte la mezcla de chocolate y extiéndela en una capa uniforme de aproximadamente 1/4 inch de grosor.",
+      "Rápidamente espolvorea las coberturas elegidas sobre la superficie.",
       "Refrigera durante al menos 30 minutos hasta que esté completamente firme.",
       "Rompe en 12 pedazos aproximadamente iguales. Almacena en el refrigerador en un recipiente hermético hasta por 2 semanas."
     ]
   },
   "cannabis-vegan-brownies": {
     "ingredients": [
-      "1 taza de aceite de coco infusionado con cannabis",
-      "1½ tazas de azúcar de caña",
-      "2 huevos de linaza (2 cdas de linaza + 6 cdas de agua)",
-      "1 cdta de vainilla",
-      "1 taza de harina",
-      "½ taza de cacao en polvo",
-      "½ cdta de sal",
-      "½ cdta de polvo para hornear",
-      "½ taza de chispas de chocolate veganas"
+      "1 cup de aceite de coco infusionado con cannabis",
+      "1½ cups de azúcar de caña",
+      "2 huevos de linaza (2 tbsp de linaza + 6 tbsp de agua)",
+      "1 tsp de vainilla",
+      "1 cup de harina",
+      "½ cup de cacao en polvo",
+      "½ tsp de sal",
+      "½ tsp de polvo para hornear",
+      "½ cup de chispas de chocolate veganas"
     ],
     "instructions": [
       "Precalienta el horno a 350°F. Prepara los huevos de linaza; deja reposar 5 min.",
@@ -359,13 +359,13 @@
   },
   "infused-vegan-cheese-sauce": {
     "ingredients": [
-      "1 taza de anacardos crudos remojados 4h",
-      "2 cdas de aceite de oliva con cannabis",
-      "3 cdas de levadura nutricional",
-      "½ cdta de ajo en polvo",
-      "½ cdta de pimentón ahumado",
-      "1 cdta de jugo de limón",
-      "½ taza de agua",
+      "1 cup de anacardos crudos remojados 4h",
+      "2 tbsp de aceite de oliva cannábico",
+      "3 tbsp de levadura nutricional",
+      "½ tsp de ajo en polvo",
+      "½ tsp de pimentón ahumado",
+      "1 tsp de jugo de limón",
+      "½ cup de agua",
       "Sal"
     ],
     "instructions": [
@@ -376,35 +376,35 @@
   },
   "cannabis-lentil-soup": {
     "ingredients": [
-      "1 taza de lentejas rojas",
+      "1 cup de lentejas rojas",
       "1 cebolla picada",
       "3 dientes de ajo",
       "2 zanahorias picadas",
-      "1 cdta de comino",
-      "1 cdta de cilantro",
-      "½ cdta de cúrcuma",
-      "4 tazas de caldo de verduras",
-      "2 cdas de aceite de oliva con cannabis",
+      "1 tsp de comino",
+      "1 tsp de cilantro",
+      "½ tsp de cúrcuma",
+      "4 cups de caldo de verduras",
+      "2 tbsp de aceite de oliva cannábico",
       "Sal, limón"
     ],
     "instructions": [
       "Sofríe la cebolla y el ajo. Agrega las zanahorias y las especias.",
       "Agrega las lentejas y el caldo. Cocina a fuego lento 25 min.",
       "Licúa la mitad para una textura más cremosa.",
-      "Fuera del fuego: incorpora el aceite de oliva con cannabis y el limón."
+      "Fuera del fuego: incorpora el aceite de oliva cannábico y el limón."
     ]
   },
   "infused-vegan-pancakes": {
     "ingredients": [
-      "1 taza de harina",
-      "1 cda de azúcar",
-      "1 cdta de polvo para hornear",
-      "½ cdta de bicarbonato de sodio",
+      "1 cup de harina",
+      "1 tbsp de azúcar",
+      "1 tsp de polvo para hornear",
+      "½ tsp de bicarbonato de sodio",
       "Pizca de sal",
-      "1 taza de leche de avena",
-      "1 cdta de vinagre de manzana",
-      "2 cdas de aceite de coco con cannabis",
-      "1 cdta de vainilla"
+      "1 cup de leche de avena",
+      "1 tsp de vinagre de sidra de manzana",
+      "2 tbsp de aceite de coco cannábico",
+      "1 tsp de vainilla"
     ],
     "instructions": [
       "Mezcla la leche de avena y el vinagre; deja reposar 5 min.",
