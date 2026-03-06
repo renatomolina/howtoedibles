@@ -355,7 +355,33 @@
     </div>
   </section>
 
-  <div class="container page-content">
+  <div class="container page-content articles-page">
+
+    <!-- Search & Filter Controls -->
+    <div class="articles-controls">
+      <div class="articles-search-wrap">
+        <i class="fa fa-search articles-search-icon"></i>
+        <input type="search" id="articles-search" class="articles-search-input" placeholder="Search articles..." autocomplete="off" />
+      </div>
+      <div class="articles-filters">
+        <button class="articles-filter-btn active" data-category="all">All</button>
+        <button class="articles-filter-btn" data-category="Edibles">Edibles</button>
+        <button class="articles-filter-btn" data-category="Health">Health</button>
+        <button class="articles-filter-btn" data-category="Wellness">Wellness</button>
+        <button class="articles-filter-btn" data-category="Topicals">Topicals</button>
+        <button class="articles-filter-btn" data-category="Culture">Culture</button>
+        <button class="articles-filter-btn" data-category="Legalization">Legalization</button>
+        <button class="articles-filter-btn" data-category="Industry">Industry</button>
+        <button class="articles-filter-btn" data-category="Guides">Guides</button>
+      </div>
+      <div class="articles-count"><span id="articles-count-num">28</span> articles</div>
+    </div>
+
+    <div id="articles-no-results" class="articles-no-results" style="display:none;">
+      <i class="fa fa-search"></i>
+      <p>No articles found. Try a different search or category.</p>
+    </div>
+
     <div class="articles-grid">
 
       <!-- EDIBLES -->
@@ -565,7 +591,7 @@
     </div>
   </div>
 
-  <footer class="site-footer mt-auto">
+  <footer class="site-footer">
   <div class="container">
     <div class="row footer-main">
       <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
@@ -622,7 +648,48 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
-  <script src="/js/homepage.js"></script>
-    <script src="/js/dark-mode.js"></script>
-  </body>
+  <script src="/js/dark-mode.js"></script>
+  <script>
+  (function(){
+    var search = document.getElementById('articles-search');
+    var cards = document.querySelectorAll('.article-card');
+    var filters = document.querySelectorAll('.articles-filter-btn');
+    var countEl = document.getElementById('articles-count-num');
+    var noResults = document.getElementById('articles-no-results');
+    var activeCategory = 'all';
+
+    function update() {
+      var query = (search.value || '').toLowerCase().trim();
+      var visible = 0;
+      cards.forEach(function(card) {
+        var cat = (card.querySelector('.card-category') || {}).textContent || '';
+        var title = (card.querySelector('h2') || {}).textContent || '';
+        var desc = (card.querySelector('p') || {}).textContent || '';
+        var text = (title + ' ' + desc + ' ' + cat).toLowerCase();
+        var matchCat = activeCategory === 'all' || cat.trim() === activeCategory;
+        var matchSearch = !query || text.indexOf(query) !== -1;
+        if (matchCat && matchSearch) {
+          card.style.display = '';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      countEl.textContent = visible;
+      noResults.style.display = visible === 0 ? '' : 'none';
+    }
+
+    search.addEventListener('input', update);
+
+    filters.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        filters.forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeCategory = btn.getAttribute('data-category');
+        update();
+      });
+    });
+  })();
+  </script>
+</body>
 </html>
