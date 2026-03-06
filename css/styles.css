@@ -2554,6 +2554,8 @@ p.spaced-content {
   font-size: 1.05rem;
   line-height: 1.6;
   max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Responsive adjustments for blog */
