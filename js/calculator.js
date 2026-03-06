@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
   var MINIMUM_PORTIONS = 1, MAXIMUM_PORTIONS = 200;
 
   var state = { grams: null, strength: null, portions: null };
+  var i18n = window.I18N || {};
+  function t(key, fallback) { return i18n[key] || fallback; }
 
   /* --- Exposed globals (used by inline onchange handlers) --- */
   window.updateQuantity = function (v) { setState({ grams: parseFloat(v) }); };
@@ -157,10 +159,10 @@ document.addEventListener('DOMContentLoaded', function () {
   /* --- Labels / Effects ------------------------------------- */
   function getDosageLevelLabel(value) {
     var levels = [
-      { max: 10,  mod: 'threshold', icon: 'fa-face-smile',     label: 'Threshold Dose', desc: 'Subtle effects — great for first-timers' },
-      { max: 20,  mod: 'common',    icon: 'fa-face-surprise',   label: 'Common Dose',    desc: 'Relaxed, pleasant high for most people' },
-      { max: 30,  mod: 'strong',    icon: 'fa-face-grimace',    label: 'Strong Dose',    desc: 'Intense — best for experienced users' },
-      { max: Infinity, mod: 'heavy',icon: 'fa-face-flushed',    label: 'Heavy Dose',     desc: 'Very potent — proceed with caution' },
+      { max: 10,  mod: 'threshold', icon: 'fa-face-smile',     label: t('threshold_label', 'Threshold Dose'), desc: t('threshold_desc', 'Subtle effects — great for first-timers') },
+      { max: 20,  mod: 'common',    icon: 'fa-face-surprise',   label: t('common_label', 'Common Dose'),    desc: t('common_desc', 'Relaxed, pleasant high for most people') },
+      { max: 30,  mod: 'strong',    icon: 'fa-face-grimace',    label: t('strong_label', 'Strong Dose'),    desc: t('strong_desc', 'Intense — best for experienced users') },
+      { max: Infinity, mod: 'heavy',icon: 'fa-face-flushed',    label: t('heavy_label', 'Heavy Dose'),     desc: t('heavy_desc', 'Very potent — proceed with caution') },
     ];
     var l = levels.find(function(x) { return value < x.max; });
     return '<div class="dose-level dose-level--' + l.mod + '">' +
@@ -178,9 +180,9 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function renderPositiveEffects(value) {
-    var L1 = ['relaxation','stress reduction','mood lift','giggling','laughing'];
-    var L2 = ['creative','reduced nausea','euphoria','increased appetite','tasks become more interesting'];
-    var L3 = ['enhanced senses','philosophical','ideas flow easily','increase in body/mind connection'];
+    var L1 = i18n.positive_L1 || ['relaxation','stress reduction','mood lift','giggling','laughing'];
+    var L2 = i18n.positive_L2 || ['creative','reduced nausea','euphoria','increased appetite','tasks become more interesting'];
+    var L3 = i18n.positive_L3 || ['enhanced senses','philosophical','ideas flow easily','increase in body/mind connection'];
     var effects = [];
     if (value > 0)  effects = effects.concat(L1);
     if (value >= 10) effects = effects.concat(L2);
@@ -189,10 +191,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function renderNegativeEffects(value) {
-    var L1 = ['lightheadedness'];
-    var L2 = ['headaches','paranoia','short-term memory impairment'];
-    var L3 = ['anxiety','time perception altered','nausea','agitation'];
-    var L4 = ['racing heart','loss of coordination','panic attacks'];
+    var L1 = i18n.negative_L1 || ['lightheadedness'];
+    var L2 = i18n.negative_L2 || ['headaches','paranoia','short-term memory impairment'];
+    var L3 = i18n.negative_L3 || ['anxiety','time perception altered','nausea','agitation'];
+    var L4 = i18n.negative_L4 || ['racing heart','loss of coordination','panic attacks'];
     var effects = [];
     if (value > 0)  effects = effects.concat(L1);
     if (value >= 10) effects = effects.concat(L2);
@@ -204,8 +206,10 @@ document.addEventListener('DOMContentLoaded', function () {
   /* --- Utilities -------------------------------------------- */
   function pluralize(word, count, withCount) {
     var n = parseFloat(count);
-    var plural = Math.abs(n) !== 1 ? word + 's' : word;
-    return withCount ? n.toFixed(1) + ' ' + plural : plural;
+    var singular = t('gram', word);
+    var pluralWord = t('grams', singular + 's');
+    var form = Math.abs(n) !== 1 ? pluralWord : singular;
+    return withCount ? n.toFixed(1) + ' ' + form : form;
   }
 
   function animateFlash(el) {

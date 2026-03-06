@@ -1,0 +1,687 @@
+{
+  "cannabutter": {
+    "name": "Manteiga de Cannabis",
+    "description": "Eleve suas criações culinárias com a magia da manteiga de cannabis. Adicione um toque de euforia aos seus pratos para uma experiência gastronômica verdadeiramente única.",
+    "category_name": "Essenciais"
+  },
+  "infused-coconut-oil": {
+    "name": "Óleo de Coco Infusionado",
+    "description": "Com seu sabor rico e tropical e a deliciosa infusão de cannabis, este óleo versátil eleva sua culinária a novos patamares.",
+    "category_name": "Essenciais"
+  },
+  "infused-olive-oil": {
+    "name": "Azeite de Oliva Infusionado",
+    "description": "Provavelmente o meio mais versátil e um ótimo ponto de partida para cozinhar com cannabis.",
+    "category_name": "Essenciais"
+  },
+  "infused-bulletproof-coffee": {
+    "name": "Café Bulletproof Infusionado",
+    "description": "Desperte seus sentidos e abasteça seu dia com foco e equilíbrio, tudo em uma única xícara.",
+    "category_name": "Keto"
+  },
+  "infused-keto-peanut-butter-cookies": {
+    "name": "Cookies Keto de Amendoim Infusionados",
+    "description": "Eleve seu jogo de biscoitos com nossa criação keto. Aproveite a perfeição do sabor de amendoim, sem culpa e feito sob medida para seu estilo de vida low-carb.",
+    "category_name": "Keto"
+  },
+  "infused-coconut-fat-bombs": {
+    "name": "Fat Bombs de Coco Infusionadas",
+    "description": "Eleve seus lanches com a felicidade do coco infusionado com cannabis. Nutra corpo e mente com cada pequena porção, feita para uma indulgência equilibrada.",
+    "category_name": "Keto"
+  },
+  "infused-pesto-pasta": {
+    "name": "Macarrão ao Pesto Infusionado",
+    "description": "Espirais perfeitamente cozidas cobertas com pesto aromático de manjericão, coroadas com uma delicada pitada de parmesão celestial.",
+    "category_name": "Almoço"
+  },
+  "infused-berry-smoothie": {
+    "name": "Smoothie de Frutas Vermelhas Infusionado",
+    "description": "Uma fusão tentadora de frutas vermelhas congeladas, frutas frescas e iogurte grego. Refrescante, saboroso e absolutamente delicioso.",
+    "category_name": "Bebidas"
+  },
+  "infused-energy-bites": {
+    "name": "Bolinhas Energéticas Infusionadas",
+    "description": "Cada mordida é uma mistura celestial de ingredientes saudáveis, proporcionando uma experiência revigorante para seu paladar e sua mente.",
+    "category_name": "Petiscos"
+  },
+  "firecrackers": {
+    "name": "Fire Crackers",
+    "description": "Fácil de fazer, delicioso e extremamente potente — esta receita é uma das mais populares.",
+    "category_name": "Petiscos"
+  },
+  "infused-lemonade": {
+    "name": "Limonada Infusionada",
+    "description": "Saboreie esta bebida revigorante para experimentar um equilíbrio harmonioso entre notas cítricas e os efeitos relaxantes da cannabis.",
+    "category_name": "Bebidas"
+  },
+  "infused-keto-chocolate-avocado-mousse": {
+    "name": "Mousse Keto de Chocolate com Abacate Infusionado",
+    "description": "Transforme a hora da sobremesa com nossa indulgência à base de abacate. Saboreie a riqueza do chocolate infusionado, enquanto abraça o toque natural para um deleite verdadeiramente delicioso.",
+    "category_name": "Keto"
+  },
+  "infused-guacamole": {
+    "name": "Guacamole Infusionado",
+    "description": "Este guacamole irresistível combina abacates cremosos, suco de limão, tomates picados, cebolas e um delicioso toque herbáceo.",
+    "category_name": "Petiscos"
+  },
+  "infused-chocolate-truffles": {
+    "name": "Trufas de Chocolate Infusionadas",
+    "description": "Experimente pura decadência com estas deliciosas trufas de chocolate. Uma jornada eufórica através de sabores ricos e aveludados te espera.",
+    "category_name": "Sobremesas"
+  },
+  "infused-banana-bread": {
+    "name": "Pão de Banana Infusionado",
+    "description": "Saboreie uma combinação de bananas maduras, ingredientes selecionados e uma infusão especial que transforma um clássico em um deleite elevado e irresistível.",
+    "category_name": "Sobremesas"
+  },
+  "infused-keto-cheesecake-bites": {
+    "name": "Mini Cheesecakes Keto Infusionados",
+    "description": "Delicie-se com nossos mini cheesecakes infusionados, um equilíbrio perfeito entre sabor e indulgência consciente.",
+    "category_name": "Keto"
+  },
+  "infused-keto-cauliflower-pizza-crust": {
+    "name": "Massa de Pizza Keto de Couve-Flor Infusionada",
+    "description": "Revolucione a noite da pizza com uma massa de couve-flor infusionada. Delicie-se com a bondade da natureza, equilibrada e saborosa em cada mordida.",
+    "category_name": "Keto"
+  },
+  "infused-milk": {
+    "name": "Leite Infusionado",
+    "description": "Que tal um milkshake gelado? Ou uma cobertura de chantilly na torta? O leite infusionado com cannabis é ótimo para essas receitas.",
+    "category_name": "Essenciais"
+  },
+  "infused-coconut-curry": {
+    "name": "Curry de Coco Infusionado",
+    "description": "Uma fusão encantadora de especiarias aromáticas, coco cremoso e cannabis infusionada. Eleve seus sentidos com legumes macios e proteína em um prato verdadeiramente inesquecível.",
+    "category_name": "Almoço"
+  },
+  "gummy-bears": {
+    "name": "Ursinhos de Goma",
+    "description": "Se você é um grande fã de ursinhos de goma, você está com sorte!",
+    "category_name": "Sobremesas"
+  },
+  "infused-spaghetti-bolognese": {
+    "name": "Espaguete à Bolonhesa Infusionado",
+    "description": "Esta criação culinária leva seu paladar a uma jornada eufórica, entregando uma sinfonia de sabores.",
+    "category_name": "Almoço"
+  },
+  "pot-cookies": {
+    "name": "Cookies de Cannabis",
+    "description": "Biscoitos com bordas crocantes, sabor rico e amanteigado de caramelo e grandes pedaços de chocolate.",
+    "category_name": "Sobremesas"
+  },
+  "pot-brownies": {
+    "name": "Brownies de Cannabis",
+    "description": "Contemple! A combinação perfeita de delícia e diversão.",
+    "category_name": "Sobremesas"
+  },
+  "infused-grilled-cheese": {
+    "name": "Queijo Quente Infusionado",
+    "description": "Receita rápida e fácil de queijo quente infusionado com cannabis.",
+    "category_name": "Petiscos"
+  },
+  "gingerbread-cookies": {
+    "name": "Biscoitos de Gengibre",
+    "description": "Torne suas festas especiais com estes deliciosos biscoitos!",
+    "category_name": "Sobremesas"
+  },
+  "trail-mix": {
+    "name": "Mix de Castanhas e Sementes",
+    "description": "Uma deliciosa combinação de sementes e castanhas infusionadas com óleo de cannabis.",
+    "category_name": "Petiscos"
+  },
+  "infused-honey": {
+    "name": "Mel Infusionado",
+    "description": "O mel infusionado é uma ótima maneira de adicionar cannabis às suas bebidas ou sobremesas favoritas.",
+    "category_name": "Sobremesas"
+  },
+  "infused-whiskey": {
+    "name": "Whiskey Infusionado",
+    "description": "Explore o sabor dos melhores whiskies com o glorioso aroma da cannabis.",
+    "category_name": "Bebidas"
+  },
+  "infused-chai": {
+    "name": "Chai Infusionado",
+    "description": "Esta receita quente e potente de chá chai com cannabis é uma ótima maneira de curtir seu chá com um toque a mais.",
+    "category_name": "Bebidas"
+  },
+  "weed-infused-popcorn": {
+    "name": "Pipoca Infusionada",
+    "description": "O petisco salgado perfeito para comer enquanto assiste seus filmes favoritos.",
+    "category_name": "Petiscos"
+  },
+  "infused-eggnog": {
+    "name": "Eggnog Infusionado",
+    "description": "Chegou a hora da alegria natalina! Por que não torná-la ainda mais especial?",
+    "category_name": "Bebidas"
+  },
+  "infused-ghee": {
+    "name": "Ghee Infusionado",
+    "description": "O ghee (manteiga clarificada) infusionado com cannabis é uma gordura versátil com alto ponto de fumaça. Perfeito para saltear, passar no pão ou adicionar ao café da manhã. Conserva por mais tempo que a manteiga de cannabis comum e tem um sabor rico e acastanhado.",
+    "category_name": "Essenciais"
+  },
+  "infused-condensed-milk": {
+    "name": "Leite Condensado Infusionado",
+    "description": "Leite condensado infusionado com cannabis, rico e doce, perfeito para brigadeiros, cocadas e outras sobremesas. Um essencial indispensável na sua cozinha de edibles.",
+    "category_name": "Essenciais"
+  },
+  "cannabis-hot-chocolate": {
+    "name": "Chocolate Quente de Cannabis",
+    "description": "Um chocolate quente rico e reconfortante feito com leite infusionado ou óleo de coco. Perfeito para noites frias ou para relaxar depois de um longo dia.",
+    "category_name": "Bebidas"
+  },
+  "infused-cold-brew": {
+    "name": "Cold Brew Infusionado",
+    "description": "O cold brew de cannabis é suave, pouco ácido e bate diferente. Combine cafeína e THC para uma manhã produtiva ou uma tarde criativa.",
+    "category_name": "Bebidas"
+  },
+  "weed-rice-krispie-treats": {
+    "name": "Rice Krispie Treats de Cannabis",
+    "description": "Um clássico dos edibles que é fácil de fazer, fácil de dosar e amado por todos.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-caramel-sauce": {
+    "name": "Calda de Caramelo de Cannabis",
+    "description": "Uma calda de caramelo sedosa e dourada com cannabis que você pode regar sobre sorvete, brownies, panquecas ou comer direto da colher.",
+    "category_name": "Sobremesas"
+  },
+  "infused-hummus": {
+    "name": "Homus Infusionado",
+    "description": "Homus cremoso e suave infusionado com cannabis, feito com azeite de oliva infusionado.",
+    "category_name": "Petiscos"
+  },
+  "infused-granola": {
+    "name": "Granola Infusionada",
+    "description": "Granola crocante e dourada infusionada com cannabis, feita com manteiga de cannabis ou óleo de coco infusionado.",
+    "category_name": "Petiscos"
+  },
+  "cannabis-avocado-toast": {
+    "name": "Torrada de Abacate com Cannabis",
+    "description": "Eleve sua torrada de abacate com um fio de azeite de oliva infusionado.",
+    "category_name": "Almoço"
+  },
+  "cannabis-salad-dressing": {
+    "name": "Molho de Salada de Cannabis",
+    "description": "Um simples vinagrete de cannabis que transforma qualquer salada em uma refeição infusionada.",
+    "category_name": "Almoço"
+  },
+  "infused-chocolate-bark": {
+    "name": "Casca de Chocolate Infusionada",
+    "description": "Casca de chocolate amargo infusionada com manteiga de cannabis e coberta com seus toppings favoritos.",
+    "category_name": "Keto"
+  },
+  "cannabis-vegan-brownies": {
+    "name": "Brownies Veganos de Cannabis",
+    "description": "Brownies fudge ricos feitos com óleo de coco de cannabis — 100% à base de plantas.",
+    "category_name": "Vegano"
+  },
+  "infused-vegan-cheese-sauce": {
+    "name": "Molho de Queijo Vegano Infusionado",
+    "description": "Molho cremoso de castanha de caju com azeite de cannabis — ótimo com macarrão ou nachos.",
+    "category_name": "Vegano"
+  },
+  "cannabis-lentil-soup": {
+    "name": "Sopa de Lentilha com Cannabis",
+    "description": "Sopa reconfortante de lentilha vermelha finalizada com azeite de cannabis.",
+    "category_name": "Vegano"
+  },
+  "infused-vegan-pancakes": {
+    "name": "Panquecas Veganas Infusionadas",
+    "description": "Panquecas fofinhas de fim de semana com óleo de coco de cannabis.",
+    "category_name": "Vegano"
+  },
+  "cannabis-sweet-potato-curry": {
+    "name": "Curry de Batata Doce com Cannabis",
+    "description": "Curry reconfortante de coco com batata doce e grão-de-bico, feito com óleo de coco de cannabis.",
+    "category_name": "Vegano"
+  },
+  "infused-jackfruit-tacos": {
+    "name": "Tacos de Jaca Infusionados",
+    "description": "Tacos de jaca desfiada com especiarias defumadas e azeite de cannabis.",
+    "category_name": "Vegano"
+  },
+  "cannabis-vegan-chocolate-mousse": {
+    "name": "Mousse de Chocolate Vegano com Cannabis",
+    "description": "Mousse sedosa de chocolate com abacate e óleo de coco de cannabis.",
+    "category_name": "Vegano"
+  },
+  "infused-vegan-mac-and-cheese": {
+    "name": "Mac and Cheese Vegano Infusionado",
+    "description": "Mac and cheese reconfortante à base de plantas com molho de castanha e cannabis.",
+    "category_name": "Vegano"
+  },
+  "cannabis-coconut-milk-ice-cream": {
+    "name": "Sorvete de Leite de Coco com Cannabis",
+    "description": "Sorvete vegano cremoso de 3 ingredientes com óleo de coco de cannabis.",
+    "category_name": "Vegano"
+  },
+  "infused-chickpea-stew": {
+    "name": "Ensopado de Grão-de-Bico Infusionado",
+    "description": "Ensopado de grão-de-bico ao molho de tomate finalizado com azeite de cannabis.",
+    "category_name": "Vegano"
+  },
+  "cannabis-vegan-protein-balls": {
+    "name": "Bolinhas de Proteína Veganas com Cannabis",
+    "description": "Bolinhas energéticas sem forno com pasta de amendoim e óleo de coco de cannabis.",
+    "category_name": "Vegano"
+  },
+  "infused-vegan-pesto-zoodles": {
+    "name": "Zoodles ao Pesto Vegano Infusionado",
+    "description": "Abobrinha espiralizada com pesto de manjericão feito com azeite de cannabis.",
+    "category_name": "Vegano"
+  },
+  "cannabis-black-bean-soup": {
+    "name": "Sopa de Feijão Preto com Cannabis",
+    "description": "Sopa defumada de feijão preto finalizada com azeite de cannabis.",
+    "category_name": "Vegano"
+  },
+  "infused-vegan-banana-ice-cream": {
+    "name": "Sorvete Vegano de Banana Infusionado",
+    "description": "Nice cream de um ingrediente só com óleo de coco de cannabis.",
+    "category_name": "Vegano"
+  },
+  "cannabis-roasted-vegetable-medley": {
+    "name": "Mix de Vegetais Assados com Cannabis",
+    "description": "Vegetais coloridos assados na assadeira, regados com azeite de cannabis após o preparo.",
+    "category_name": "Vegano"
+  },
+  "cannabis-keto-bacon-bites": {
+    "name": "Petiscos Keto de Bacon com Cannabis",
+    "description": "Petiscos crocantes de bacon recheados com cream cheese e manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "infused-keto-chicken-wings": {
+    "name": "Asinhas de Frango Keto Infusionadas",
+    "description": "Asinhas crocantes assadas no forno com molho de pimenta e manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "cannabis-keto-deviled-eggs": {
+    "name": "Ovos Recheados Keto com Cannabis",
+    "description": "Ovos recheados clássicos com recheio de gema e manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "infused-keto-stuffed-mushrooms": {
+    "name": "Cogumelos Recheados Keto Infusionados",
+    "description": "Cogumelos recheados com cream cheese e manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "cannabis-keto-beef-chili": {
+    "name": "Chili de Carne Keto com Cannabis",
+    "description": "Chili de carne low-carb temperado com azeite de cannabis.",
+    "category_name": "Keto"
+  },
+  "infused-keto-zucchini-chips": {
+    "name": "Chips de Abobrinha Keto Infusionados",
+    "description": "Chips finos e crocantes de abobrinha assados com azeite de cannabis.",
+    "category_name": "Keto"
+  },
+  "cannabis-keto-waffles": {
+    "name": "Waffles Keto de Cannabis",
+    "description": "Waffles fofinhos de farinha de amêndoa com manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "infused-keto-salmon-patties": {
+    "name": "Hambúrgueres de Salmão Keto Infusionados",
+    "description": "Hambúrgueres de salmão grelhados na frigideira com manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "cannabis-keto-spinach-dip": {
+    "name": "Dip de Espinafre Keto com Cannabis",
+    "description": "Dip quente e cremoso de espinafre com queijo e manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "infused-keto-almond-flour-cake": {
+    "name": "Bolo Keto de Farinha de Amêndoa Infusionado",
+    "description": "Bolo keto úmido com farinha de amêndoa e manteiga de cannabis.",
+    "category_name": "Keto"
+  },
+  "cannabis-sparkling-lemonade": {
+    "name": "Limonada com Gás de Cannabis",
+    "description": "Limonada gaseificada com xarope simples de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-virgin-mojito": {
+    "name": "Mojito Virgem Infusionado",
+    "description": "Mocktail de menta e limão com xarope simples de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-cucumber-mint-cooler": {
+    "name": "Cooler de Pepino e Menta com Cannabis",
+    "description": "Mocktail refrescante de pepino e menta com xarope de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-watermelon-slush": {
+    "name": "Raspadinha de Melancia Infusionada",
+    "description": "Raspadinha de melancia batida com mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-lavender-lemonade": {
+    "name": "Limonada de Lavanda com Cannabis",
+    "description": "Limonada floral com xarope de lavanda e cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-tropical-punch": {
+    "name": "Ponche Tropical Infusionado",
+    "description": "Ponche de manga, abacaxi e maracujá com xarope de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-strawberry-basil-smash": {
+    "name": "Smash de Morango e Manjericão com Cannabis",
+    "description": "Mocktail refrescante de verão com morango e manjericão com mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-hibiscus-tea": {
+    "name": "Chá de Hibisco Infusionado",
+    "description": "Chá gelado de hibisco rubi intenso com mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-peach-iced-tea": {
+    "name": "Chá Gelado de Pêssego com Cannabis",
+    "description": "Chá gelado de pêssego estilo sulista com xarope simples de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-mango-lassi": {
+    "name": "Mango Lassi Infusionado",
+    "description": "Lassi cremoso de manga com mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-rose-lemonade": {
+    "name": "Limonada de Rosas com Cannabis",
+    "description": "Limonada floral elegante com tintura de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-pineapple-ginger-fizz": {
+    "name": "Fizz de Abacaxi e Gengibre Infusionado",
+    "description": "Fizz tropical de abacaxi e gengibre com mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-cranberry-spritzer": {
+    "name": "Spritzer de Cranberry com Cannabis",
+    "description": "Spritzer festivo de cranberry com xarope simples de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-matcha-cooler": {
+    "name": "Matcha Gelado Infusionado",
+    "description": "Matcha gelado com mel de cannabis e leite de aveia.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-passion-fruit-lemonade": {
+    "name": "Limonada de Maracujá com Cannabis",
+    "description": "Limonada tropical com maracujá e mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-cherry-limeade": {
+    "name": "Limeade de Cereja Infusionado",
+    "description": "Mocktail de cereja e limão com xarope simples de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-mint-green-tea": {
+    "name": "Chá Verde de Menta com Cannabis",
+    "description": "Chá verde gelado de menta com mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-blueberry-lemonade": {
+    "name": "Limonada de Mirtilo Infusionada",
+    "description": "Limonada roxa de mirtilo com xarope de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-ginger-turmeric-tonic": {
+    "name": "Tônico de Gengibre e Cúrcuma com Cannabis",
+    "description": "Tônico de bem-estar com gengibre, cúrcuma e mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "infused-coconut-lime-agua-fresca": {
+    "name": "Água Fresca de Coco e Limão Infusionada",
+    "description": "Água fresca leve de coco e limão com mel de cannabis.",
+    "category_name": "Mocktails"
+  },
+  "cannabis-cheesecake": {
+    "name": "Cheesecake de Cannabis",
+    "description": "Cheesecake cremoso assado com base de manteiga de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-tiramisu": {
+    "name": "Tiramisù Infusionado",
+    "description": "Tiramisù clássico com creme de mascarpone infusionado com cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-apple-pie": {
+    "name": "Torta de Maçã de Cannabis",
+    "description": "Clássica torta de maçã com massa folhada de manteiga de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-chocolate-lava-cake": {
+    "name": "Petit Gâteau Infusionado",
+    "description": "Bolinhos de chocolate com centro derretido de manteiga de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-lemon-bars": {
+    "name": "Barrinhas de Limão com Cannabis",
+    "description": "Curd de limão sobre base amanteigada de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-carrot-cake": {
+    "name": "Bolo de Cenoura Infusionado",
+    "description": "Bolo de cenoura úmido e especiado com óleo de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-coconut-macaroons": {
+    "name": "Cocadas de Cannabis",
+    "description": "Cocadas mastigáveis feitas com leite condensado infusionado com cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-fudge": {
+    "name": "Fudge Infusionado",
+    "description": "Fudge que derrete na boca feito com leite condensado infusionado com cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-blondies": {
+    "name": "Blondies de Cannabis",
+    "description": "Blondies com sabor de caramelo feitos com manteiga dourada de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-donut-holes": {
+    "name": "Bolinhos de Berlim Infusionados",
+    "description": "Bolinhos fritos fofinhos com cobertura de açúcar e canela de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-peach-cobbler": {
+    "name": "Cobbler de Pêssego de Cannabis",
+    "description": "Cobbler de pêssego estilo sulista com cobertura de biscoito de manteiga de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-baklava": {
+    "name": "Baklava Infusionada",
+    "description": "Camadas crocantes de massa filo com castanhas temperadas e calda de mel de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-chocolate-fondue": {
+    "name": "Fondue de Chocolate de Cannabis",
+    "description": "Fondue de chocolate suave com creme de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-strawberry-shortcake": {
+    "name": "Shortcake de Morango Infusionado",
+    "description": "Biscoitos fofinhos de shortcake com manteiga de cannabis e morangos frescos.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-panna-cotta": {
+    "name": "Panna Cotta de Cannabis",
+    "description": "Pudim italiano sedoso de creme com cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-churros": {
+    "name": "Churros Infusionados",
+    "description": "Churros crocantes espanhóis com massa de manteiga de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-crepes": {
+    "name": "Crepes de Cannabis",
+    "description": "Crepes finos franceses com manteiga de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-mango-sorbet": {
+    "name": "Sorbet de Manga Infusionado",
+    "description": "Sorbet vibrante de manga sem lactose com xarope de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-cinnamon-rolls": {
+    "name": "Cinnamon Rolls de Cannabis",
+    "description": "Rolinhos de canela fofinhos com recheio e glacê de manteiga de cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "infused-coconut-pudding": {
+    "name": "Pudim de Coco Infusionado",
+    "description": "Pudim cremoso de coco com leite de coco infusionado com cannabis.",
+    "category_name": "Sobremesas"
+  },
+  "cannabis-shakshuka": {
+    "name": "Shakshuka de Cannabis",
+    "description": "Ovos cozidos em molho de tomate com cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-mushroom-risotto": {
+    "name": "Risoto de Cogumelos Infusionado",
+    "description": "Risoto cremoso de cogumelos com azeite de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-thai-basil-chicken": {
+    "name": "Frango Thai com Manjericão e Cannabis",
+    "description": "Frango salteado rápido com manjericão thai e óleo de gergelim de cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-beef-tacos": {
+    "name": "Tacos de Carne Infusionados",
+    "description": "Tacos de carne temperados com manteiga de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-chicken-caesar-salad": {
+    "name": "Salada Caesar de Frango com Cannabis",
+    "description": "Salada Caesar de restaurante com molho de cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-cauliflower-fried-rice": {
+    "name": "Arroz Frito de Couve-Flor Infusionado",
+    "description": "Arroz frito de couve-flor low-carb com óleo de gergelim de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-minestrone-soup": {
+    "name": "Sopa Minestrone de Cannabis",
+    "description": "Sopa italiana de legumes reconfortante com azeite de cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-pulled-pork-sliders": {
+    "name": "Mini Sanduíches de Pulled Pork Infusionados",
+    "description": "Pulled pork cozido lentamente em molho barbecue de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-greek-salad": {
+    "name": "Salada Grega de Cannabis",
+    "description": "Salada grega fresca com molho de azeite de cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-tomato-bisque": {
+    "name": "Bisque de Tomate Infusionado",
+    "description": "Sopa sedosa de tomate assado com creme de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-chicken-burrito-bowl": {
+    "name": "Burrito Bowl de Frango com Cannabis",
+    "description": "Burrito bowl personalizável com molho de limão e cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-falafel-wrap": {
+    "name": "Wrap de Falafel Infusionado",
+    "description": "Falafel crocante com molho tahine de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-butternut-squash-soup": {
+    "name": "Sopa de Abóbora com Cannabis",
+    "description": "Sopa aveludada de abóbora com creme de cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-egg-fried-rice": {
+    "name": "Arroz Frito com Ovo Infusionado",
+    "description": "Arroz frito rápido com ovo e óleo de gergelim de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-grilled-salmon": {
+    "name": "Salmão Grelhado com Cannabis",
+    "description": "Salmão selado na frigideira com manteiga de ervas de cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-caprese-salad": {
+    "name": "Salada Caprese Infusionada",
+    "description": "Caprese clássica com azeite extra virgem de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-quesadilla": {
+    "name": "Quesadilla de Cannabis",
+    "description": "Quesadilla crocante feita na manteiga de cannabis.",
+    "category_name": "Almoço"
+  },
+  "infused-pad-thai": {
+    "name": "Pad Thai Infusionado",
+    "description": "Pad Thai clássico com óleo de gergelim de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-pizza": {
+    "name": "Pizza de Cannabis",
+    "description": "Pizza caseira com azeite de cannabis na massa e regada por cima.",
+    "category_name": "Almoço"
+  },
+  "infused-lentil-dal": {
+    "name": "Dal de Lentilha Infusionado",
+    "description": "Dal indiano aromático finalizado com ghee de cannabis.",
+    "category_name": "Almoço"
+  },
+  "cannabis-feijoada": {
+    "name": "Feijoada de Cannabis",
+    "description": "A amada feijoada brasileira de feijão preto com carnes, cozida lentamente e finalizada com azeite de cannabis para um toque infusionado no prato nacional.",
+    "category_name": "Internacional"
+  },
+  "infused-brigadeiro": {
+    "name": "Brigadeiro Infusionado",
+    "description": "Clássicas trufas brasileiras de chocolate feitas com leite condensado, cacau e manteiga de cannabis — enroladas em granulado de chocolate para um doce potente e irresistível.",
+    "category_name": "Internacional"
+  },
+  "cannabis-pacoca": {
+    "name": "Paçoca de Cannabis",
+    "description": "Paçoca de amendoim esfarelenta infusionada com manteiga de cannabis — um doce e amendoado edible que derrete na boca.",
+    "category_name": "Internacional"
+  },
+  "infused-coxinha": {
+    "name": "Coxinha Infusionada",
+    "description": "A icônica coxinha brasileira em formato de gota, feita com massa infusionada com cannabis para um salgado crocante e especial.",
+    "category_name": "Internacional"
+  },
+  "cannabis-pao-de-queijo": {
+    "name": "Pão de Queijo de Cannabis",
+    "description": "Pãezinhos de queijo macios e elásticos feitos com polvilho e azeite de cannabis — naturalmente sem glúten e irresistivelmente gostosos.",
+    "category_name": "Internacional"
+  },
+  "infused-acai-bowl": {
+    "name": "Açaí Bowl Infusionado",
+    "description": "Um refrescante açaí bowl brasileiro batido com óleo de coco de cannabis e coberto com granola, banana e mel.",
+    "category_name": "Internacional"
+  },
+  "cannabis-moqueca": {
+    "name": "Moqueca de Cannabis",
+    "description": "Uma rica moqueca brasileira de peixe com leite de coco, tomates, pimentões e azeite de dendê, finalizada com azeite de cannabis.",
+    "category_name": "Internacional"
+  },
+  "infused-tapioca-crepe": {
+    "name": "Tapioca Infusionada",
+    "description": "Um popular lanche de rua brasileiro — tapiocas crocantes recheadas com queijo e coco, regadas com óleo de coco de cannabis.",
+    "category_name": "Internacional"
+  },
+  "cannabis-beijinho": {
+    "name": "Beijinho de Cannabis",
+    "description": "Docinhos brasileiros de coco feitos com leite condensado e manteiga de cannabis, enrolados em coco ralado — o primo de coco do brigadeiro.",
+    "category_name": "Internacional"
+  },
+  "infused-empadao": {
+    "name": "Empadão Infusionado",
+    "description": "Uma torta salgada brasileira com massa amanteigada de cannabis, recheada com frango temperado, azeitonas e palmito.",
+    "category_name": "Internacional"
+  }
+}

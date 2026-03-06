@@ -3197,3 +3197,44 @@ html[data-theme="dark"] body {
   border-color: #f27242;
 }
 
+/* ── Language Switcher ─────────────────────── */
+.lang-dropdown .lang-toggle {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.6rem;
+  color: #555;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+.lang-dropdown .lang-toggle:hover {
+  color: var(--color-orange);
+  border-color: var(--color-orange);
+}
+.lang-dropdown .dropdown-menu {
+  min-width: 140px;
+}
+.lang-dropdown .lang-item {
+  font-size: 0.85rem;
+  padding: 0.4rem 1rem;
+}
+.lang-dropdown .lang-item.active {
+  font-weight: 600;
+  color: var(--color-orange);
+  background: transparent;
+}
+.lang-dropdown .lang-item:hover {
+  background: var(--color-bg-light);
+}
+
+[data-theme="dark"] .lang-dropdown .lang-toggle {
+  color: #ccc;
+  border-color: #555;
+}
+[data-theme="dark"] .lang-dropdown .lang-toggle:hover {
+  color: var(--color-orange);
+  border-color: var(--color-orange);
+}
+[data-theme="dark"] .lang-dropdown .lang-item:hover {
+  background: #333;
+}
+

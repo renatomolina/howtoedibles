@@ -8,6 +8,13 @@
   <link rel="canonical" href="https://www.howtoedibles.com/donate.html" />
   <link rel="icon" type="image/x-icon" href="/favicon_385_icon.ico" />
 
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="en" href="https://www.howtoedibles.com/donate.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://www.howtoedibles.com/pt/donate.html" />
+  <link rel="alternate" hreflang="es" href="https://www.howtoedibles.com/es/donate.html" />
+  <link rel="alternate" hreflang="de" href="https://www.howtoedibles.com/de/donate.html" />
+  <link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/donate.html" />
+
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="HowToEdibles" />
@@ -15,6 +22,7 @@
   <meta property="og:description" content="Help us keep HowToEdibles free. If this site has been useful, consider making a small donation." />
   <meta property="og:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
   <meta property="og:url" content="https://www.howtoedibles.com/donate.html" />
+  <meta property="og:locale" content="en" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -35,7 +43,6 @@
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /></noscript>
   <!-- Site CSS -->
   <link rel="stylesheet" href="/css/styles.css" />
-  <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
   <script>
   function downloadJSAtOnload() {
@@ -63,13 +70,15 @@
     <a href="/" class="navbar-brand logo-link">
       <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="180" height="65" />
     </a>
+    <!-- Search — always visible, outside collapse -->
+    <div class="nav-search-wrapper mx-2">
+      <i class="fa fa-search nav-search-icon"></i>
+      <input type="search" id="recipe-search" class="nav-search-input" placeholder="Search recipes…" autocomplete="off" />
+    </div>
     <div class="collapse navbar-collapse" id="navbarMain">
       <ul class="navbar-nav ml-auto align-items-lg-center">
         <li class="nav-item mr-lg-2">
           <a href="/calculator.html" class="btn btn-nav-calculator">Calculator</a>
-        </li>
-        <li class="nav-item">
-          <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa fa-moon"></i><i class="fa fa-sun"></i></button>
         </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Desserts</a>
@@ -253,18 +262,21 @@
             <a class="dropdown-item" href="/recipes/infused-empadao/">Infused Empadão</a>
         </div>
       </li>
+      <li class="nav-item dropdown lang-dropdown">
+        <a href="#" class="nav-link dropdown-toggle lang-toggle" data-toggle="dropdown" aria-label="Language">
+          <i class="fa fa-globe mr-1"></i> English
+        </a>
+        <div class="dropdown-menu dropdown-menu-right shadow-sm">
+              <a class="dropdown-item lang-item active" href="/donate.html">English</a>
+              <a class="dropdown-item lang-item" href="/pt/donate.html">Português</a>
+              <a class="dropdown-item lang-item" href="/es/donate.html">Español</a>
+              <a class="dropdown-item lang-item" href="/de/donate.html">Deutsch</a>
+        </div>
+      </li>
       </ul>
     </div>
   </div>
 </nav>
-
-<div class="site-search-bar">
-  <div class="container">
-    <i class="fa fa-search site-search-icon"></i>
-    <input type="search" id="recipe-search" class="site-search-input" placeholder="Search 420+ cannabis recipes…" autocomplete="off" />
-  </div>
-</div>
-
 
     <div class="container page-content">
       <div class="donate-page">
@@ -303,7 +315,7 @@
         </div>
         <div class="donate-feature">
           <i class="fas fa-shield-alt orange"></i>
-          <span>Harm reduction guides &amp; safety tips</span>
+          <span>Harm reduction guides & safety tips</span>
         </div>
       </div>
 
@@ -339,7 +351,6 @@
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
         <h5 class="footer-col-title">Learn</h5>
         <ul class="footer-links">
-          <li><a href="/articles.html">Articles</a></li>
           <li><a href="/how-a-cannabis-calculator-works.html">How the calculator works</a></li>
           <li><a href="/how-to-prevent-a-bad-trip.html">How to prevent a bad trip</a></li>
           <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">Bad trip support chat</a></li>
@@ -368,11 +379,9 @@
 </script>
 
 
-    <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
     <script>
       (function(){
@@ -384,6 +393,5 @@
       })();
     </script>
     
-      <script src="/js/dark-mode.js"></script>
   </body>
 </html>
