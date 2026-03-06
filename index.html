@@ -8,13 +8,6 @@
   <link rel="canonical" href="https://www.howtoedibles.com/" />
   <link rel="icon" type="image/x-icon" href="/favicon_385_icon.ico" />
 
-  <!-- Hreflang -->
-  <link rel="alternate" hreflang="en" href="https://www.howtoedibles.com/" />
-  <link rel="alternate" hreflang="pt-BR" href="https://www.howtoedibles.com/pt/" />
-  <link rel="alternate" hreflang="es" href="https://www.howtoedibles.com/es/" />
-  <link rel="alternate" hreflang="de" href="https://www.howtoedibles.com/de/" />
-  <link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/" />
-
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="HowToEdibles" />
@@ -22,7 +15,6 @@
   <meta property="og:description" content="Find out how potent your edibles are! This edible dosage calculator helps you cook and dose cannabis edibles responsibly." />
   <meta property="og:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
   <meta property="og:url" content="https://www.howtoedibles.com/" />
-  <meta property="og:locale" content="en" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -34,7 +26,9 @@
   <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
 
   <!-- Structured Data -->
-  
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"HowToEdibles","url":"https://www.howtoedibles.com","description":"Cannabis edible recipes and dosage calculator. Learn how to cook with cannabis and dose edibles safely.","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.howtoedibles.com/?q={search_term_string}"},"query-input":"required name=search_term_string"}}
+</script>
 
   <!-- Bootstrap 4 -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
@@ -43,6 +37,7 @@
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /></noscript>
   <!-- Site CSS -->
   <link rel="stylesheet" href="/css/styles.css" />
+  <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
   <script>
   function downloadJSAtOnload() {
@@ -70,15 +65,13 @@
     <a href="/" class="navbar-brand logo-link">
       <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="180" height="65" />
     </a>
-    <!-- Search — always visible, outside collapse -->
-    <div class="nav-search-wrapper mx-2">
-      <i class="fa fa-search nav-search-icon"></i>
-      <input type="search" id="recipe-search" class="nav-search-input" placeholder="Search recipes…" autocomplete="off" />
-    </div>
     <div class="collapse navbar-collapse" id="navbarMain">
       <ul class="navbar-nav ml-auto align-items-lg-center">
         <li class="nav-item mr-lg-2">
           <a href="/calculator.html" class="btn btn-nav-calculator">Calculator</a>
+        </li>
+        <li class="nav-item">
+          <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa fa-moon"></i><i class="fa fa-sun"></i></button>
         </li>
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Desserts</a>
@@ -262,27 +255,38 @@
             <a class="dropdown-item" href="/recipes/infused-empadao/">Infused Empadão</a>
         </div>
       </li>
-      <li class="nav-item dropdown lang-dropdown">
-        <a href="#" class="nav-link dropdown-toggle lang-toggle" data-toggle="dropdown" aria-label="Language">
-          <i class="fa fa-globe mr-1"></i> English
-        </a>
-        <div class="dropdown-menu dropdown-menu-right shadow-sm">
-              <a class="dropdown-item lang-item active" href="/">English</a>
-              <a class="dropdown-item lang-item" href="/pt/">Português</a>
-              <a class="dropdown-item lang-item" href="/es/">Español</a>
-              <a class="dropdown-item lang-item" href="/de/">Deutsch</a>
-        </div>
-      </li>
       </ul>
     </div>
   </div>
 </nav>
 
+<div class="site-search-bar">
+  <div class="container">
+    <i class="fa fa-search site-search-icon"></i>
+    <input type="search" id="recipe-search" class="site-search-input" placeholder="Search 420+ cannabis recipes…" autocomplete="off" />
+  </div>
+</div>
+
+
     <div class="container page-content">
-      <div class="homepage-hero mb-4">
-  <div class="hero-text">
-    <h1 class="hero-title">Cannabis Edibles Recipes</h1>
-    <p class="hero-sub">Delicious recipes with a built-in dosage calculator so you always know what's in your food.</p>
+      <div class="row d-none d-md-block text-center">
+  <!-- Leaderboard -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:750px;height:90px"
+       data-ad-client="ca-pub-6354522716906819"
+       data-ad-slot="4353785890"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+
+
+<div class="homepage-hero">
+  <h1 class="homepage-h1">Cannabis Edible Recipes &amp; <span class="hero-accent">Dosage Calculator</span></h1>
+  <p class="homepage-intro">Discover 420+ cannabis recipes — cannabutter, infused oils, desserts, mocktails &amp; more. Use the free <a href="/calculator.html">edible dosage calculator</a> to know exactly how many mg of THC are in each serving before you cook.</p>
+  <div class="hero-stats">
+    <span class="hero-stat"><i class="fa fa-book-open"></i> 420+ recipes</span>
+    <span class="hero-stat"><i class="fa fa-calculator"></i> Free calculator</span>
+    <span class="hero-stat"><i class="fa fa-shield-halved"></i> Dose responsibly</span>
   </div>
 </div>
 
@@ -1816,126 +1820,6 @@
     </div>
   </a>
 </div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis feijoada international brazil’s beloved black bean and pork stew, slow-cooked and finished with cannabis olive oil for a hearty, infused twist on the national dish.">
-  <a href="/recipes/cannabis-feijoada/">
-    <div class="card mb-2">
-      <img src="/images/recipes/cannabis-feijoada.jpg" class="card-img-top" alt="Cannabis Feijoada" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Cannabis Feijoada</p>
-        <p class="card-text">Brazil’s beloved black bean and pork stew, slow-cooked and finished with cannabis olive oil for a hearty, infused twist on the national dish.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="infused brigadeiro international classic brazilian chocolate truffles made with condensed milk, cocoa and cannabutter — rolled in chocolate sprinkles for a sweet, potent treat.">
-  <a href="/recipes/infused-brigadeiro/">
-    <div class="card mb-2">
-      <img src="/images/recipes/infused-brigadeiro.jpg" class="card-img-top" alt="Infused Brigadeiro" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Infused Brigadeiro</p>
-        <p class="card-text">Classic Brazilian chocolate truffles made with condensed milk, cocoa and cannabutter — rolled in chocolate sprinkles for a sweet, potent treat.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis paçoca international crumbly brazilian peanut candy infused with cannabutter — a sweet and nutty edible that melts in your mouth.">
-  <a href="/recipes/cannabis-pacoca/">
-    <div class="card mb-2">
-      <img src="/images/recipes/cannabis-pacoca.jpg" class="card-img-top" alt="Cannabis Paçoca" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Cannabis Paçoca</p>
-        <p class="card-text">Crumbly Brazilian peanut candy infused with cannabutter — a sweet and nutty edible that melts in your mouth.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="infused coxinha international brazil’s iconic teardrop-shaped chicken croquettes, made with cannabis-infused dough for a savory, crispy edible.">
-  <a href="/recipes/infused-coxinha/">
-    <div class="card mb-2">
-      <img src="/images/recipes/infused-coxinha.jpg" class="card-img-top" alt="Infused Coxinha" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Infused Coxinha</p>
-        <p class="card-text">Brazil’s iconic teardrop-shaped chicken croquettes, made with cannabis-infused dough for a savory, crispy edible.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis pão de queijo international chewy, cheesy brazilian bread rolls made with tapioca flour and cannabis olive oil — naturally gluten-free and irresistibly good.">
-  <a href="/recipes/cannabis-pao-de-queijo/">
-    <div class="card mb-2">
-      <img src="/images/recipes/cannabis-pao-de-queijo.jpg" class="card-img-top" alt="Cannabis Pão de Queijo" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Cannabis Pão de Queijo</p>
-        <p class="card-text">Chewy, cheesy Brazilian bread rolls made with tapioca flour and cannabis olive oil — naturally gluten-free and irresistibly good.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="infused açaí bowl international a refreshing brazilian açaí bowl blended with cannabis coconut oil and topped with granola, banana and honey.">
-  <a href="/recipes/infused-acai-bowl/">
-    <div class="card mb-2">
-      <img src="/images/recipes/infused-acai-bowl.jpg" class="card-img-top" alt="Infused Açaí Bowl" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Infused Açaí Bowl</p>
-        <p class="card-text">A refreshing Brazilian açaí bowl blended with cannabis coconut oil and topped with granola, banana and honey.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis moqueca international a rich brazilian fish stew with coconut milk, tomatoes, peppers and dendê oil, finished with cannabis olive oil.">
-  <a href="/recipes/cannabis-moqueca/">
-    <div class="card mb-2">
-      <img src="/images/recipes/cannabis-moqueca.jpg" class="card-img-top" alt="Cannabis Moqueca" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Cannabis Moqueca</p>
-        <p class="card-text">A rich Brazilian fish stew with coconut milk, tomatoes, peppers and dendê oil, finished with cannabis olive oil.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="infused tapioca crepe international a popular brazilian street food — crispy tapioca crepes filled with cheese and coconut, drizzled with cannabis coconut oil.">
-  <a href="/recipes/infused-tapioca-crepe/">
-    <div class="card mb-2">
-      <img src="/images/recipes/infused-tapioca-crepe.jpg" class="card-img-top" alt="Infused Tapioca Crepe" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Infused Tapioca Crepe</p>
-        <p class="card-text">A popular Brazilian street food — crispy tapioca crepes filled with cheese and coconut, drizzled with cannabis coconut oil.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="cannabis beijinho international sweet brazilian coconut truffles made with condensed milk and cannabutter, rolled in shredded coconut — brigadeiro’s coconut cousin.">
-  <a href="/recipes/cannabis-beijinho/">
-    <div class="card mb-2">
-      <img src="/images/recipes/cannabis-beijinho.jpg" class="card-img-top" alt="Cannabis Beijinho" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Cannabis Beijinho</p>
-        <p class="card-text">Sweet Brazilian coconut truffles made with condensed milk and cannabutter, rolled in shredded coconut — brigadeiro’s coconut cousin.</p>
-      </div>
-    </div>
-  </a>
-</div>
-<div class="col-12 col-sm-3 recipe-card-item" data-search="infused empadão international a large brazilian savory pie with a cannabis-infused buttery crust, filled with seasoned chicken, olives and hearts of palm.">
-  <a href="/recipes/infused-empadao/">
-    <div class="card mb-2">
-      <img src="/images/recipes/infused-empadao.jpg" class="card-img-top" alt="Infused Empadão" loading="lazy" />
-      <div class="card-block">
-        <p class="card-category">International</p>
-        <p class="card-title">Infused Empadão</p>
-        <p class="card-text">A large Brazilian savory pie with a cannabis-infused buttery crust, filled with seasoned chicken, olives and hearts of palm.</p>
-      </div>
-    </div>
-  </a>
-</div>
 </div>
 
 <div class="donate-cta">
@@ -1977,6 +1861,7 @@
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
         <h5 class="footer-col-title">Learn</h5>
         <ul class="footer-links">
+          <li><a href="/articles.html">Articles</a></li>
           <li><a href="/how-a-cannabis-calculator-works.html">How the calculator works</a></li>
           <li><a href="/how-to-prevent-a-bad-trip.html">How to prevent a bad trip</a></li>
           <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">Bad trip support chat</a></li>
@@ -2005,9 +1890,11 @@
 </script>
 
 
+    <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
     <script>
       (function(){
@@ -2019,5 +1906,6 @@
       })();
     </script>
     <script src="/js/homepage.js"></script>
+      <script src="/js/dark-mode.js"></script>
   </body>
 </html>
