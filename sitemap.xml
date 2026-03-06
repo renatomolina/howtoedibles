@@ -4,783 +4,1025 @@
   <!-- Core pages -->
   <url>
     <loc>https://www.howtoedibles.com/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/calculator.html</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.howtoedibles.com/edible-dosage-calculator/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/articles.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/donate.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Articles -->
+  <url>
     <loc>https://www.howtoedibles.com/how-a-cannabis-calculator-works.html</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/how-to-prevent-a-bad-trip.html</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/benefits-of-edibles-compared-to-smoking.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-and-anxiety.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-and-creativity.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-and-inflammation.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-and-sleep.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-edible-etiquette.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-legalization-and-crime.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-legalization-guide.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-metabolism-and-appetite.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cannabis-stocks-beginners-guide.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/cbd-vs-thc.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/decriminalization-vs-legalization.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/edibles-vs-tinctures.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/future-of-cannabis-industry.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/global-cannabis-legalization.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/history-of-cannabis-edibles.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/how-420-became-symbol-for-cannabis.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/how-edibles-can-help-with-pain.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/how-long-do-edibles-take-to-kick-in.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/how-to-make-cannabis-topicals.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/how-to-store-cannabis-edibles.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/is-cannabis-an-aphrodisiac.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/microdosing-edibles.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/science-of-decarboxylation.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/why-flower-infusion-is-superior-to-extracts.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/why-use-cannabis-topicals.html</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Recipe pages -->
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-apple-pie/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-avocado-toast/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/cannabis-beijinho/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-black-bean-soup/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-blondies/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-butternut-squash-soup/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-caramel-sauce/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-cheesecake/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-chicken-burrito-bowl/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-chicken-caesar-salad/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-chocolate-fondue/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-cinnamon-rolls/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-coconut-macaroons/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-coconut-milk-ice-cream/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-cranberry-spritzer/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-crepes/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-cucumber-mint-cooler/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/cannabis-feijoada/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-ginger-turmeric-tonic/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-greek-salad/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-grilled-salmon/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-hot-chocolate/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-keto-bacon-bites/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-keto-beef-chili/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-keto-deviled-eggs/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-keto-spinach-dip/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-keto-waffles/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-lavender-lemonade/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-lemon-bars/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-lentil-soup/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-minestrone-soup/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-mint-green-tea/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/cannabis-moqueca/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/cannabis-pacoca/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-panna-cotta/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/cannabis-pao-de-queijo/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-passion-fruit-lemonade/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-peach-cobbler/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-peach-iced-tea/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-pizza/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-quesadilla/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-roasted-vegetable-medley/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-rose-lemonade/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-salad-dressing/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-shakshuka/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-sparkling-lemonade/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-strawberry-basil-smash/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-sweet-potato-curry/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-thai-basil-chicken/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-vegan-brownies/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-vegan-chocolate-mousse/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabis-vegan-protein-balls/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/cannabutter/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/firecrackers/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/gingerbread-cookies/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/gummy-bears/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/infused-acai-bowl/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-baklava/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-banana-bread/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-beef-tacos/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-berry-smoothie/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-blueberry-lemonade/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/infused-brigadeiro/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-bulletproof-coffee/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-caprese-salad/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-carrot-cake/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-cauliflower-fried-rice/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-chai/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-cherry-limeade/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-chickpea-stew/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-chocolate-bark/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-chocolate-lava-cake/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-chocolate-truffles/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-churros/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-coconut-curry/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-coconut-fat-bombs/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-coconut-lime-agua-fresca/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-coconut-oil/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-coconut-pudding/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-cold-brew/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/infused-condensed-milk/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/infused-coxinha/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-donut-holes/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-egg-fried-rice/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-eggnog/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/infused-empadao/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-energy-bites/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-falafel-wrap/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-fudge/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-ghee/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-granola/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-grilled-cheese/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-guacamole/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-hibiscus-tea/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-honey/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-hummus/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-jackfruit-tacos/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-almond-flour-cake/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-cauliflower-pizza-crust/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-cheesecake-bites/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-chicken-wings/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-chocolate-avocado-mousse/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-peanut-butter-cookies/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-salmon-patties/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-stuffed-mushrooms/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-keto-zucchini-chips/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-lemonade/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-lentil-dal/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-mango-lassi/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-mango-sorbet/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-matcha-cooler/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-milk/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-mushroom-risotto/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-olive-oil/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-pad-thai/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-pesto-pasta/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-pineapple-ginger-fizz/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-pulled-pork-sliders/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-spaghetti-bolognese/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-strawberry-shortcake/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.howtoedibles.com/recipes/infused-tapioca-crepe/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-tiramisu/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-tomato-bisque/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-tropical-punch/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-vegan-banana-ice-cream/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-vegan-cheese-sauce/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-vegan-mac-and-cheese/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-vegan-pancakes/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-vegan-pesto-zoodles/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-virgin-mojito/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-watermelon-slush/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/infused-whiskey/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/pot-brownies/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/pot-cookies/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/trail-mix/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/weed-infused-popcorn/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.howtoedibles.com/recipes/weed-rice-krispie-treats/</loc>
-    <lastmod>2026-03-04</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
