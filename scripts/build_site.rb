@@ -49,6 +49,17 @@ LANGS.each do |lang|
   end
 end
 
+ARTICLE_I18N = {}
+LANGS.each do |lang|
+  path = File.join(I18N_DIR, "articles_#{lang}.json")
+  if File.exist?(path)
+    ARTICLE_I18N[lang] = JSON.parse(File.read(path))
+  else
+    warn "WARNING: #{path} not found, articles will use English for '#{lang}'"
+    ARTICLE_I18N[lang] = {}
+  end
+end
+
 puts "Building site from #{RECIPES.count} recipes across #{CATEGORIES.count} categories in #{LANGS.count} languages (pt, es, de)..."
 puts "English files are NOT touched — they are hand-maintained."
 
@@ -357,9 +368,9 @@ def build_footer(lang)
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="footer-col-title">#{h(learn_title)}</h5>
             <ul class="footer-links">
-              <li><a href="/articles.html">#{h(articles_label)}</a></li>
-              <li><a href="/how-a-cannabis-calculator-works.html">#{h(how_calc)}</a></li>
-              <li><a href="/how-to-prevent-a-bad-trip.html">#{h(prevent_trip)}</a></li>
+              <li><a href="#{prefix}/articles.html">#{h(articles_label)}</a></li>
+              <li><a href="#{prefix}/how-a-cannabis-calculator-works.html">#{h(how_calc)}</a></li>
+              <li><a href="#{prefix}/how-to-prevent-a-bad-trip.html">#{h(prevent_trip)}</a></li>
               <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">#{h(bad_trip_chat)}</a></li>
               <li><a href="#{prefix}/donate.html">#{h(support_us)}</a></li>
             </ul>
@@ -1188,6 +1199,297 @@ def build_404_page(lang)
 end
 
 # ─────────────────────────────────────────────
+# Articles index page
+# ─────────────────────────────────────────────
+
+def build_articles_index_page(lang)
+  prefix = lang_prefix(lang)
+  ai = ARTICLE_I18N.dig(lang, "articles_index") || {}
+  articles = ARTICLE_I18N.dig(lang, "articles") || {}
+  return if ai.empty? || articles.empty?
+
+  page_title = ai["page_title"] || "Articles | HowToEdibles"
+  page_desc = ai["page_description"] || ""
+  canonical = "https://www.howtoedibles.com#{prefix}/articles.html"
+
+  cats = ai["categories"] || {}
+  cat_order = %w[Edibles Health Wellness Topicals Culture Legalization Industry Guides]
+  article_order = ai["article_order"] || articles.keys
+
+  filter_buttons = cat_order.map do |en_cat|
+    translated = cats[en_cat] || en_cat
+    %(<button class="articles-filter-btn" data-category="#{h(translated)}">#{h(translated)}</button>)
+  end.join("\n        ")
+
+  cards = article_order.map do |slug|
+    a = articles[slug]
+    next unless a
+    cat_translated = a["category"] || ""
+    <<~CARD
+      <a href="#{prefix}/#{slug}.html" class="article-card">
+        <span class="card-category">#{h(cat_translated)}</span>
+        <h2>#{h(a["title"])}</h2>
+        <p>#{h(a["description"])}</p>
+        <span class="card-read-more">#{h(ai["read_more"] || "Read article")} <i class="fa fa-arrow-right"></i></span>
+      </a>
+    CARD
+  end.compact.join("\n")
+
+  count = articles.size
+
+  page = build_head(lang, title: page_title, description: page_desc, canonical: canonical)
+  page << build_navbar(lang)
+  page << <<~HTML
+    <section class="articles-hero">
+      <div class="container text-center">
+        <h1>#{h(ai["hero_title"] || "Articles")}</h1>
+        <p>#{h(ai["hero_subtitle"] || "")}</p>
+      </div>
+    </section>
+
+    <div class="container page-content articles-page">
+      <div class="articles-controls">
+        <div class="articles-search-wrap">
+          <i class="fa fa-search articles-search-icon"></i>
+          <input type="search" id="articles-search" class="articles-search-input" placeholder="#{h(ai["search_placeholder"] || "Search articles...")}" autocomplete="off" />
+        </div>
+        <div class="articles-filters">
+          <button class="articles-filter-btn active" data-category="all">#{h(ai["filter_all"] || "All")}</button>
+          #{filter_buttons}
+        </div>
+        <div class="articles-count"><span id="articles-count-num">#{count}</span> #{h(ai["articles_count_label"] || "articles")}</div>
+      </div>
+
+      <div id="articles-no-results" class="articles-no-results" style="display:none;">
+        <i class="fa fa-search"></i>
+        <p>#{h(ai["no_results_text"] || "No articles found.")}</p>
+      </div>
+
+      <div class="articles-grid">
+        #{cards}
+      </div>
+    </div>
+  HTML
+  page << build_footer(lang)
+
+  articles_js = <<~JS
+    <script>
+    (function(){
+      var search = document.getElementById('articles-search');
+      var cards = document.querySelectorAll('.article-card');
+      var filters = document.querySelectorAll('.articles-filter-btn');
+      var countEl = document.getElementById('articles-count-num');
+      var noResults = document.getElementById('articles-no-results');
+      var activeCategory = 'all';
+
+      function update() {
+        var query = (search.value || '').toLowerCase().trim();
+        var visible = 0;
+        cards.forEach(function(card) {
+          var cat = (card.querySelector('.card-category') || {}).textContent || '';
+          var title = (card.querySelector('h2') || {}).textContent || '';
+          var desc = (card.querySelector('p') || {}).textContent || '';
+          var text = (title + ' ' + desc + ' ' + cat).toLowerCase();
+          var matchCat = activeCategory === 'all' || cat.trim() === activeCategory;
+          var matchSearch = !query || text.indexOf(query) !== -1;
+          if (matchCat && matchSearch) {
+            card.style.display = '';
+            visible++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        countEl.textContent = visible;
+        noResults.style.display = visible === 0 ? '' : 'none';
+      }
+
+      search.addEventListener('input', update);
+
+      filters.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          filters.forEach(function(b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          activeCategory = btn.getAttribute('data-category');
+          update();
+        });
+      });
+    })();
+    </script>
+  JS
+
+  page << build_scripts(lang, extra_scripts: articles_js)
+  write_file(output_path(lang, "articles.html"), page)
+end
+
+# ─────────────────────────────────────────────
+# Individual article pages
+# ─────────────────────────────────────────────
+
+def build_article_page(slug, lang)
+  prefix = lang_prefix(lang)
+  ai = ARTICLE_I18N.dig(lang, "articles_index") || {}
+  a = ARTICLE_I18N.dig(lang, "articles", slug)
+  return unless a
+
+  title = a["title"] || slug
+  description = a["description"] || ""
+  keywords = a["keywords"] || ""
+  category = a["category"] || ""
+  excerpt = a["excerpt"] || ""
+  date_pub = a["date_published"] || "2026-03-05"
+  date_mod = a["date_modified"] || date_pub
+  read_time = a["read_time"] || ""
+  toc = a["toc"] || []
+  body_html = a["body_html"] || ""
+  faq = a["faq"] || []
+  related = a["related"] || []
+
+  canonical = "https://www.howtoedibles.com#{prefix}/#{slug}.html"
+  page_title = "#{h(title)} | HowToEdibles"
+
+  # Structured data
+  article_sd = {
+    "@context" => "https://schema.org",
+    "@type" => "Article",
+    "headline" => title,
+    "description" => description,
+    "datePublished" => date_pub,
+    "dateModified" => date_mod,
+    "author" => { "@type" => "Organization", "name" => "HowToEdibles" },
+    "publisher" => { "@type" => "Organization", "name" => "HowToEdibles" }
+  }
+
+  breadcrumb_sd = {
+    "@context" => "https://schema.org",
+    "@type" => "BreadcrumbList",
+    "itemListElement" => [
+      { "@type" => "ListItem", "position" => 1, "name" => ai["breadcrumb_home"] || "Home", "item" => "https://www.howtoedibles.com#{prefix}/" },
+      { "@type" => "ListItem", "position" => 2, "name" => ai["breadcrumb_articles"] || "Articles", "item" => "https://www.howtoedibles.com#{prefix}/articles.html" },
+      { "@type" => "ListItem", "position" => 3, "name" => title }
+    ]
+  }
+
+  sd_parts = [article_sd, breadcrumb_sd]
+
+  if faq && !faq.empty?
+    faq_sd = {
+      "@context" => "https://schema.org",
+      "@type" => "FAQPage",
+      "mainEntity" => faq.map do |f|
+        {
+          "@type" => "Question",
+          "name" => f["question"],
+          "acceptedAnswer" => { "@type" => "Answer", "text" => f["answer"] }
+        }
+      end
+    }
+    sd_parts << faq_sd
+  end
+
+  structured_data = JSON.generate(sd_parts)
+
+  # Build TOC
+  toc_html = ""
+  unless toc.empty?
+    toc_items = toc.map { |t_item| %(<li><a href="##{t_item["id"]}">#{h(t_item["text"])}</a></li>) }.join("\n              ")
+    toc_html = <<~TOC
+      <div class="article-toc">
+        <h4>#{h(ai["toc_title"] || "Table of Contents")}</h4>
+        <ul>
+              #{toc_items}
+        </ul>
+      </div>
+    TOC
+  end
+
+  # Related articles
+  related_html = ""
+  unless related.empty?
+    related_cards = related.map do |r|
+      <<~RC
+        <div class="col-md-4 mb-3">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title"><a href="#{prefix}/#{r["slug"]}.html">#{h(r["title"])}</a></h5>
+              <p class="card-text">#{h(r["description"])}</p>
+            </div>
+          </div>
+        </div>
+      RC
+    end.join("")
+
+    related_html = <<~REL
+      <div class="related-articles mt-4 mb-5">
+        <h3>#{h(ai["related_title"] || "Related Articles")}</h3>
+        <div class="row">
+          #{related_cards}
+        </div>
+      </div>
+    REL
+  end
+
+  # Prefix internal article links in body_html
+  prefixed_body = body_html.gsub(/href="\/([^"]*\.html)"/) do |match|
+    path = $1
+    # Don't prefix external or already-prefixed links
+    if path.start_with?("pt/") || path.start_with?("es/") || path.start_with?("de/")
+      match
+    else
+      "href=\"#{prefix}/#{path}\""
+    end
+  end
+
+  page = build_head(lang, title: page_title, description: description, canonical: canonical, keywords: keywords, structured_data: structured_data)
+  page << build_navbar(lang)
+  page << <<~HTML
+    <section class="article-hero">
+      <div class="container">
+        <span class="article-category">#{h(category)}</span>
+        <h1>#{title}</h1>
+        <div class="article-meta">
+          <span><i class="fa fa-calendar"></i> #{date_pub}</span>
+          <span><i class="fa fa-clock"></i> #{h(read_time)}</span>
+        </div>
+        <p class="article-excerpt">#{h(excerpt)}</p>
+      </div>
+    </section>
+
+    <div class="article-breadcrumbs">
+      <div class="container">
+        <a href="#{prefix}/">#{h(ai["breadcrumb_home"] || "Home")}</a>
+        <span class="separator">/</span>
+        <a href="#{prefix}/articles.html">#{h(ai["breadcrumb_articles"] || "Articles")}</a>
+        <span class="separator">/</span>
+        #{h(title)}
+      </div>
+    </div>
+
+    <article class="article-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+
+            #{toc_html}
+
+            #{prefixed_body}
+
+            <div class="text-center mt-5 mb-5">
+              <a href="#{prefix}/articles.html" class="btn btn-success btn-lg">#{h(ai["read_more_articles"] || "Read more articles")}</a>
+            </div>
+
+            #{related_html}
+
+          </div>
+        </div>
+      </div>
+    </article>
+  HTML
+  page << build_footer(lang)
+  page << build_scripts(lang)
+  write_file(output_path(lang, "#{slug}.html"), page)
+end
+
+# ─────────────────────────────────────────────
 # Sitemap (with hreflang)
 # ─────────────────────────────────────────────
 
@@ -1214,11 +1516,29 @@ def build_sitemap
     end
   end
 
-  # Article pages (English only)
+  # Article pages (with hreflang for translated versions)
   article_files = Dir.glob(File.join(ROOT_DIR, "*.html")).map { |f| File.basename(f) }
   article_files -= %w[index.html calculator.html donate.html 404.html articles.html]
   article_files.sort.each do |f|
-    urls << "  <url>\n    <loc>https://www.howtoedibles.com/#{f}</loc>\n  </url>"
+    slug = f.sub(/\.html$/, "")
+    # Check which languages have this article translated
+    available_langs = ["en"] + LANGS.select { |l| ARTICLE_I18N.dig(l, "articles", slug) }
+    if available_langs.size > 1
+      xhtml_links = available_langs.map do |l|
+        prefix = lang_prefix(l)
+        href = "https://www.howtoedibles.com#{prefix}/#{f}"
+        html_lang = lang_html(l)
+        %(    <xhtml:link rel="alternate" hreflang="#{html_lang}" href="#{href}" />)
+      end
+      xhtml_links << %(    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/#{f}" />)
+      available_langs.each do |l|
+        prefix = lang_prefix(l)
+        loc = "https://www.howtoedibles.com#{prefix}/#{f}"
+        urls << "  <url>\n    <loc>#{loc}</loc>\n#{xhtml_links.join("\n")}\n  </url>"
+      end
+    else
+      urls << "  <url>\n    <loc>https://www.howtoedibles.com/#{f}</loc>\n  </url>"
+    end
   end
 
   # Recipe pages
@@ -1273,6 +1593,25 @@ LANGS.each do |lang|
     build_recipe_page(recipe, lang)
   end
   puts "  #{lang}/recipes/ (#{RECIPES.count} pages)"
+
+  # Articles index page
+  if ARTICLE_I18N.dig(lang, "articles_index")
+    build_articles_index_page(lang)
+    puts "  #{lang}/articles.html"
+  end
+
+  # Individual article pages
+  article_count = 0
+  article_files = Dir.glob(File.join(ROOT_DIR, "*.html")).map { |f| File.basename(f) }
+  article_files -= %w[index.html calculator.html donate.html 404.html articles.html]
+  article_files.sort.each do |f|
+    slug = f.sub(/\.html$/, "")
+    if ARTICLE_I18N.dig(lang, "articles", slug)
+      build_article_page(slug, lang)
+      article_count += 1
+    end
+  end
+  puts "  #{lang}/ articles (#{article_count} pages)" if article_count > 0
 end
 
 puts "\nBuilding sitemap..."
@@ -1319,5 +1658,28 @@ Dir.glob(File.join(ROOT_DIR, "recipes", "*", "index.html")).each do |filepath|
   end
 end
 puts "  Added hreflang to #{Dir.glob(File.join(ROOT_DIR, "recipes", "*", "index.html")).count} recipe pages"
+
+# Add hreflang to English article pages
+article_hreflang_count = 0
+article_html_files = Dir.glob(File.join(ROOT_DIR, "*.html")).map { |f| File.basename(f) }
+article_html_files -= %w[index.html calculator.html donate.html 404.html articles.html]
+article_html_files.sort.each do |f|
+  filepath = File.join(ROOT_DIR, f)
+  content = File.read(filepath)
+  next if content.include?("hreflang")
+
+  slug = f.sub(/\.html$/, "")
+  # Only add hreflang if at least one translation exists
+  has_translations = LANGS.any? { |l| ARTICLE_I18N.dig(l, "articles", slug) }
+  next unless has_translations
+
+  tags = hreflang_tags(f)
+  if content.include?("google-site-verification")
+    content.sub!(/(<meta name="google-site-verification"[^>]*\/>)/, "\\1\n\n  <!-- hreflang -->\n  #{tags}")
+    File.write(filepath, content)
+    article_hreflang_count += 1
+  end
+end
+puts "  Added hreflang to #{article_hreflang_count} article pages"
 
 puts "\nDone! English files preserved. Only /pt/, /es/, /de/ were generated."
