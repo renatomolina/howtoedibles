@@ -224,7 +224,7 @@ def build_navbar(lang)
   dropdowns = category_order.map do |cat_name|
     cat = cats_by_name[cat_name]
     next unless cat
-    cat_recipes = RECIPES.select { |r| r["category_id"] == cat["id"] }
+    cat_recipes = RECIPES.select { |r| r["category_name"] == cat_name }
     next if cat_recipes.empty?
 
     translated_cat = category_t(lang, cat_name)

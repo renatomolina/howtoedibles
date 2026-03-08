@@ -1222,6 +1222,20 @@ input[type="range"]::-moz-range-thumb {
   background: #faf8f7;
 }
 
+/* Pagination mobile */
+@media (max-width: 575px) {
+  .pagination {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .page-link {
+    padding: 0.35rem 0.65rem;
+    font-size: 0.85rem;
+    min-width: 36px;
+    text-align: center;
+  }
+}
+
 /* Client-side pagination hidden state */
 .recipe-card-item.hidden {
   display: none !important;
