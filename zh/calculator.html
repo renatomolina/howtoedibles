@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>大麻食品剂量计算器——计算每份THC毫克数 | HowToEdibles</title>
+  <meta name="description" content="免费大麻食品剂量计算器。输入大麻重量、效力百分比和份数，即可计算每份THC毫克数。慢慢来。" />
+  <link rel="canonical" href="https://www.howtoedibles.com/zh/calculator.html" />
+  <link rel="icon" type="image/x-icon" href="/favicon_385_icon.ico" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="HowToEdibles" />
+  <meta property="og:title" content="大麻食品剂量计算器——计算每份THC毫克数 | HowToEdibles" />
+  <meta property="og:description" content="免费大麻食品剂量计算器。输入大麻重量、效力百分比和份数，即可计算每份THC毫克数。慢慢来。" />
+  <meta property="og:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
+  <meta property="og:url" content="https://www.howtoedibles.com/zh/calculator.html" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="大麻食品剂量计算器——计算每份THC毫克数 | HowToEdibles" />
+  <meta name="twitter:description" content="免费大麻食品剂量计算器。输入大麻重量、效力百分比和份数，即可计算每份THC毫克数。慢慢来。" />
+  <meta name="twitter:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
+
+  <meta name="keywords" content="edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles" />
+  <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en" href="https://www.howtoedibles.com/calculator.html" />
+  <link rel="alternate" hreflang="pt-BR" href="https://www.howtoedibles.com/pt/calculator.html" />
+  <link rel="alternate" hreflang="es" href="https://www.howtoedibles.com/es/calculator.html" />
+  <link rel="alternate" hreflang="de" href="https://www.howtoedibles.com/de/calculator.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://www.howtoedibles.com/zh/calculator.html" />
+  <link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/calculator.html" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+[{"@context":"https://schema.org","@type":"WebApplication","name":"大麻食品剂量计算器","url":"https://www.howtoedibles.com/zh/calculator.html","description":"免费大麻食品剂量计算器。输入大麻重量、效力百分比和份数，即可计算每份THC毫克数。慢慢来。","applicationCategory":"HealthApplication","operatingSystem":"Any"},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"初学者应该在大麻食品中摄入多少毫克THC？","acceptedAnswer":{"@type":"Answer","text":"初学者应从2.5-5毫克THC开始。这是一个微量剂量，产生温和效果而不会引起过度焦虑。在食用更多之前至少等待2小时，因为食品比吸食需要更长时间才能生效。"}},{"@type":"Question","name":"大麻食品需要多长时间才能生效？","acceptedAnswer":{"@type":"Answer","text":"大麻食品通常需要30分钟到2小时才能生效，具体取决于您的新陈代谢、体重以及最近是否进食。效果可持续4到8小时，比吸食持续时间长得多。"}},{"@type":"Question","name":"如何计算大麻食品的剂量？","acceptedAnswer":{"@type":"Answer","text":"使用公式：P = 10 ×（G × S）/ N，其中 G = 大麻克数，S = 效力百分比，N = 份数，P = 每份THC毫克数。例如，3.5克效力20%的大麻分成20份 = 每份35毫克。"}},{"@type":"Question","name":"为什么大麻食品比吸食大麻更强？","acceptedAnswer":{"@type":"Answer","text":"当您摄入大麻时，肝脏会将THC转化为11-羟基-THC，这是一种更强效的化合物，能更有效地穿过血脑屏障。这使得食品比吸入的THC效果显著更强、持续更久。"}},{"@type":"Question","name":"如果食用过多大麻食品会怎样？","acceptedAnswer":{"@type":"Answer","text":"过量食用大麻食品可能导致严重焦虑、偏执、心跳加速和迷失方向。这些效果是暂时的，不会危及生命。如果发生：保持冷静，喝水，躺在舒适的地方，记住这种感觉会过去。食用前使用我们的计算器来避免这种情况。"}},{"@type":"Question","name":"黄油或油的用量会影响食品效力吗？","acceptedAnswer":{"@type":"Answer","text":"不会。食品的效力仅取决于使用的大麻量、其THC百分比和份数。黄油或油的用量影响口感，而非效力。我们的计算器正是反映了这一点。"}}]}]
+</script>
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /></noscript>
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="/css/styles.css" />
+  <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
+
+  <script>
+  function downloadJSAtOnload() {
+    var el = document.createElement("script");
+    el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819";
+    el.async = true;
+    el.setAttribute('crossorigin', 'anonymous');
+    document.body.appendChild(el);
+  }
+  if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+  else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+  else window.onload = downloadJSAtOnload;
+</script>
+
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa fa-bars navbar-icon"></span>
+    </button>
+    <a href="/zh/" class="navbar-brand logo-link">
+      <img src="/images/howtoedibleslogo.png" alt="How to Edibles" width="180" height="65" />
+    </a>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav ml-auto align-items-lg-center">
+        <li class="nav-item mr-lg-2">
+          <a href="/zh/calculator.html" class="btn btn-nav-calculator">计算器</a>
+        </li>
+        <li class="nav-item">
+          <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa fa-moon"></i><i class="fa fa-sun"></i></button>
+        </li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">甜点</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/infused-chocolate-truffles/">注入大麻的巧克力松露</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-banana-bread/">注入大麻的香蕉面包</a>
+            <a class="dropdown-item" href="/zh/recipes/gummy-bears/">小熊软糖</a>
+            <a class="dropdown-item" href="/zh/recipes/pot-cookies/">大麻饼干</a>
+            <a class="dropdown-item" href="/zh/recipes/pot-brownies/">大麻布朗尼</a>
+            <a class="dropdown-item" href="/zh/recipes/gingerbread-cookies/">姜饼饼干</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-honey/">注入大麻的蜂蜜</a>
+            <a class="dropdown-item" href="/zh/recipes/weed-rice-krispie-treats/">大麻米花糖</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-caramel-sauce/">大麻焦糖酱</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-cheesecake/">大麻芝士蛋糕</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-tiramisu/">注入大麻的提拉米苏</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-apple-pie/">大麻苹果派</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-chocolate-lava-cake/">注入大麻的巧克力熔岩蛋糕</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-lemon-bars/">大麻柠檬条</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-carrot-cake/">大麻胡萝卜蛋糕</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-coconut-macaroons/">大麻椰丝球</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-fudge/">大麻软糖</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-blondies/">大麻焦糖金砖饼</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-donut-holes/">大麻甜甜圈球</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-peach-cobbler/">大麻蜜桃酥</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-baklava/">大麻果仁蜜饼</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-chocolate-fondue/">大麻巧克力火锅</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-strawberry-shortcake/">大麻草莓酥饼</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-panna-cotta/">大麻意式奶冻</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-churros/">大麻吉事果</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-crepes/">大麻法式薄饼</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-mango-sorbet/">大麻芒果冰沙</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-cinnamon-rolls/">大麻肉桂卷</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-coconut-pudding/">大麻椰子布丁</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">饮品</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/infused-berry-smoothie/">注入大麻的莓果思慕雪</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-lemonade/">注入大麻的柠檬水</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-whiskey/">注入大麻的威士忌</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-chai/">注入大麻的印度奶茶</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-eggnog/">注入大麻的蛋酒</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-hot-chocolate/">大麻热巧克力</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-cold-brew/">注入大麻的冷萃咖啡</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">小吃</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/infused-energy-bites/">注入大麻的能量球</a>
+            <a class="dropdown-item" href="/zh/recipes/firecrackers/">火焰饼干</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-guacamole/">注入大麻的牛油果酱</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-grilled-cheese/">注入大麻的烤芝士三明治</a>
+            <a class="dropdown-item" href="/zh/recipes/trail-mix/">什锦坚果</a>
+            <a class="dropdown-item" href="/zh/recipes/weed-infused-popcorn/">注入大麻的爆米花</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-hummus/">注入大麻的鹰嘴豆泥</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-granola/">注入大麻的格兰诺拉麦片</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">基础</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/cannabutter/">大麻黄油</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-coconut-oil/">注入大麻的椰子油</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-olive-oil/">注入大麻的橄榄油</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-milk/">注入大麻的牛奶</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-ghee/">注入大麻的酥油</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-condensed-milk/">注入大麻的炼乳</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">正餐</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/infused-pesto-pasta/">注入大麻的香蒜酱意面</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-coconut-curry/">注入大麻的椰子咖喱</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-spaghetti-bolognese/">注入大麻的意大利肉酱面</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-avocado-toast/">大麻牛油果吐司</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-salad-dressing/">大麻沙拉酱</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-shakshuka/">大麻中东番茄蛋</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-mushroom-risotto/">大麻蘑菇意式烩饭</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-thai-basil-chicken/">大麻泰式九层塔鸡</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-beef-tacos/">大麻牛肉塔可</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-chicken-caesar-salad/">大麻鸡肉凯撒沙拉</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-cauliflower-fried-rice/">大麻花菜炒饭</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-minestrone-soup/">大麻意式蔬菜汤</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-pulled-pork-sliders/">大麻手撕猪肉迷你汉堡</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-greek-salad/">大麻希腊沙拉</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-tomato-bisque/">大麻番茄浓汤</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-chicken-burrito-bowl/">大麻鸡肉墨西哥碗</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-falafel-wrap/">大麻沙拉三明治卷</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-butternut-squash-soup/">大麻奶油南瓜汤</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-egg-fried-rice/">大麻蛋炒饭</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-grilled-salmon/">大麻香煎三文鱼</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-caprese-salad/">大麻卡普雷塞沙拉</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-quesadilla/">大麻墨西哥芝士饼</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-pad-thai/">大麻泰式炒河粉</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-pizza/">大麻披萨</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-lentil-dal/">大麻扁豆咖喱</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">生酮</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/infused-bulletproof-coffee/">注入大麻的防弹咖啡</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-peanut-butter-cookies/">注入大麻的生酮花生酱饼干</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-coconut-fat-bombs/">注入大麻的椰子脂肪炸弹</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-chocolate-avocado-mousse/">注入大麻的生酮巧克力牛油果慕斯</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-cheesecake-bites/">注入大麻的生酮芝士蛋糕球</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-cauliflower-pizza-crust/">注入大麻的生酮花椰菜披萨饼底</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-chocolate-bark/">注入大麻的巧克力薄片</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-keto-bacon-bites/">大麻生酮培根卷</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-chicken-wings/">注入大麻的生酮鸡翅</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-keto-deviled-eggs/">大麻生酮魔鬼蛋</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-stuffed-mushrooms/">注入大麻的生酮酿蘑菇</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-keto-beef-chili/">大麻生酮牛肉辣椒</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-zucchini-chips/">注入大麻的生酮西葫芦脆片</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-keto-waffles/">大麻生酮华夫饼</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-salmon-patties/">注入大麻的生酮三文鱼饼</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-keto-spinach-dip/">大麻生酮菠菜蘸酱</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-keto-almond-flour-cake/">注入大麻的生酮杏仁粉蛋糕</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">纯素</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/cannabis-vegan-brownies/">大麻纯素布朗尼</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-vegan-cheese-sauce/">注入大麻的纯素芝士酱</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-lentil-soup/">大麻扁豆汤</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-vegan-pancakes/">注入大麻的纯素煎饼</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-sweet-potato-curry/">大麻红薯咖喱</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-jackfruit-tacos/">注入大麻的菠萝蜜塔可</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-vegan-chocolate-mousse/">大麻纯素巧克力慕斯</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-vegan-mac-and-cheese/">注入大麻的纯素芝士通心粉</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-coconut-milk-ice-cream/">大麻椰奶冰淇淋</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-chickpea-stew/">注入大麻的鹰嘴豆炖菜</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-vegan-protein-balls/">大麻纯素蛋白球</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-vegan-pesto-zoodles/">注入大麻的纯素青酱西葫芦面</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-black-bean-soup/">大麻黑豆汤</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-vegan-banana-ice-cream/">注入大麻的纯素香蕉冰淇淋</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-roasted-vegetable-medley/">大麻烤蔬菜拼盘</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">无酒精鸡尾酒</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/cannabis-sparkling-lemonade/">大麻气泡柠檬水</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-virgin-mojito/">注入大麻的无酒精莫吉托</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-cucumber-mint-cooler/">大麻黄瓜薄荷清凉饮</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-watermelon-slush/">注入大麻的西瓜冰沙</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-lavender-lemonade/">大麻薰衣草柠檬水</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-tropical-punch/">注入大麻的热带水果宾治</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-strawberry-basil-smash/">大麻草莓罗勒特饮</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-hibiscus-tea/">注入大麻的洛神花茶</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-peach-iced-tea/">大麻蜜桃冰茶</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-mango-lassi/">注入大麻的芒果拉西</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-rose-lemonade/">大麻玫瑰柠檬水</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-pineapple-ginger-fizz/">注入大麻的菠萝姜汁气泡饮</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-cranberry-spritzer/">大麻蔓越莓气泡饮</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-matcha-cooler/">注入大麻的抹茶冷饮</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-passion-fruit-lemonade/">大麻百香果柠檬水</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-cherry-limeade/">注入大麻的樱桃青柠水</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-mint-green-tea/">大麻薄荷绿茶</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-blueberry-lemonade/">注入大麻的蓝莓柠檬水</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-ginger-turmeric-tonic/">大麻姜黄姜汁滋补饮</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-coconut-lime-agua-fresca/">注入大麻的椰子青柠清凉水</a>
+  </div>
+</li>
+<li class="nav-item dropdown">
+  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">国际美食</a>
+  <div class="dropdown-menu shadow-sm" role="menu">
+      <a class="dropdown-item" href="/zh/recipes/cannabis-feijoada/">大麻巴西黑豆炖肉</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-brigadeiro/">大麻巴西巧克力松露球</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-pacoca/">大麻巴西花生糖</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-coxinha/">大麻巴西鸡肉丸</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-pao-de-queijo/">大麻巴西奶酪面包</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-acai-bowl/">大麻巴西莓碗</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-moqueca/">大麻巴西鱼炖</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-tapioca-crepe/">大麻巴西木薯饼</a>
+            <a class="dropdown-item" href="/zh/recipes/cannabis-beijinho/">大麻巴西椰蓉球</a>
+            <a class="dropdown-item" href="/zh/recipes/infused-empadao/">大麻巴西咸派</a>
+  </div>
+</li>
+<li class="nav-item dropdown lang-dropdown ml-lg-2">
+  <a href="#" class="nav-link lang-toggle dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-globe"></i> 中文</a>
+  <div class="dropdown-menu dropdown-menu-right shadow-sm" role="menu">
+    <a class="dropdown-item lang-item" href="/">English</a>
+          <a class="dropdown-item lang-item" href="/pt/">Portugues</a>
+          <a class="dropdown-item lang-item" href="/es/">Espanol</a>
+          <a class="dropdown-item lang-item" href="/de/">Deutsch</a>
+          <a class="dropdown-item lang-item active" href="/zh/">中文</a>
+  </div>
+</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="site-search-bar">
+  <div class="container">
+    <i class="fa fa-search site-search-icon"></i>
+    <input type="search" id="recipe-search" class="site-search-input" placeholder="搜索食谱…" autocomplete="off" />
+  </div>
+</div>
+
+    <div class="container page-content">
+<div class="row d-none d-md-block text-center">
+  <!-- Leaderboard -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:750px;height:90px"
+       data-ad-client="ca-pub-6354522716906819"
+       data-ad-slot="4353785890"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+
+<div class="row mt-3">
+  <div class="col-md-5">
+    <div class="calculator-panel mb-3">
+      <div class="calculator-panel-header">
+        <i class="fa fa-calculator" aria-hidden="true"></i>
+        <span>计算您的剂量</span>
+      </div>
+      <div class="calculator-panel-body">
+<div id="calculator-widget">
+  <div class="calculator-item pt-1">
+    <div class="pb-1">
+      <h3>您有多少大麻？</h3>
+    </div>
+    <input id="grams-slider" type="range"
+           min="0.01" max="28" step="0.1" value="3.5" />
+    <div class="calculator-control mt-2 mb-3">
+      <a href="#" id="decrease-quantity">
+        <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
+      </a>
+      <input id="grams-input" type="number" step="any" class="calculator-input mr-1 ml-1" onchange="updateQuantity(this.value)" />
+      <span id="grams-quantity-label" class="mr-1"></span>
+      <a href="#" id="increase-quantity">
+        <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="calculator-item-large pt-1">
+    <h3>您的大麻效力是多少？</h3>
+    <div class="average-tip mb-2">
+      <span class="bottomtip">（平均14%）</span>
+      <a class="potency-help-btn ml-2" data-toggle="modal" href="#" data-target="#myModal">
+        <i class="fa fa-circle-question fa-xs" aria-hidden="true"></i> 不确定？
+      </a>
+    </div>
+    <input id="strength-slider" type="range"
+           min="1" max="99" step="1" value="14" />
+
+    <!-- Potency reference modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content potency-modal-content">
+          <div class="modal-header potency-modal-header">
+            <h5 class="modal-title" id="myModalLabel">
+              <i class="fa fa-leaf mr-2" aria-hidden="true"></i>Potency Guide
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="potency-rows">
+              <div class="potency-row potency-row--low">
+                <div class="potency-row-label">低品质</div>
+                <div class="potency-row-range">5% &ndash; 10%</div>
+              </div>
+              <div class="potency-row potency-row--medium">
+                <div class="potency-row-label">中品质</div>
+                <div class="potency-row-range">10% &ndash; 15%</div>
+              </div>
+              <div class="potency-row potency-row--high">
+                <div class="potency-row-label">高品质</div>
+                <div class="potency-row-range">15% &ndash; 40%</div>
+              </div>
+              <div class="potency-row potency-row--conc">
+                <div class="potency-row-label">浓缩物</div>
+                <div class="potency-row-range">35% &ndash; 95%</div>
+              </div>
+            </div>
+            <p class="potency-avg-note">Street weed averages ~14% THC</p>
+          </div>
+          <div class="modal-footer potency-modal-footer">
+            <button type="button" class="btn btn-potency-close" data-dismiss="modal">关闭</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="calculator-control mt-1 mb-3">
+      <a href="#" id="decrease-strength">
+        <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
+      </a>
+      <input id="strength-input" type="number" step="any" class="calculator-input mr-1 ml-1" onchange="updateStrength(this.value)" /> % THC
+      <a href="#" id="increase-strength" class="ml-1">
+        <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="calculator-item pt-1">
+    <div class="pb-1">
+      <h3>您想要多少份？</h3>
+    </div>
+    <input id="portion-slider" type="range"
+           min="1" max="200" step="1" value="50" />
+    <div class="calculator-control mt-1">
+      <a href="#" id="decrease-servings">
+        <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
+      </a>
+      <input id="portion-input" type="number" step="any" class="calculator-input mr-1 ml-1" onchange="updatePortion(this.value)" />
+      <span id="portion-label" class="mr-1">份</span>
+      <a href="#" id="increase-servings">
+        <i class="fa fa-plus-circle fa-lg green" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+<div class="mt-2 mb-3 d-sm-none">
+  <!-- Medium Rectangle -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-6354522716906819"
+       data-ad-slot="5475295879"
+       data-ad-format="auto"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+
+<div class="dosage-panel">
+  <div class="dosage-panel-header">
+    <i class="fa fa-flask" aria-hidden="true"></i>
+    <span>查看您的剂量</span>
+  </div>
+  <div class="dosage-panel-body">
+    <p class="mb-2 mt-2">
+  <i class="fa fa-cookie fa-lg green icon-large" aria-hidden="true"></i>
+  整个食谱： <span class="badge badge-success badge-label badge-label-large" id="potency-result-total">0</span>
+</p>
+
+<p class="mb-2 mt-3">
+  <i class="fa fa-cookie-bite fa-lg green icon-large" aria-hidden="true"></i>
+  每份： <span class="badge badge-success badge-label" id="potency-result">0</span>
+</p>
+
+<p id="highness-level" class="mb-2 mt-3"></p>
+
+<h3 class="dosage-effects-title mt-4">
+  <i class="far fa-laugh green mr-1" aria-hidden="true"></i> 积极效果
+</h3>
+<p class="spaced-content mt-1 pb-2" id="positive-effect-details"></p>
+
+<h3 class="dosage-effects-title mt-3">
+  <i class="far fa-frown red mr-1" aria-hidden="true"></i> 消极效果
+</h3>
+<p class="spaced-content mt-1 pb-2" id="negative-effect-details"></p>
+
+<p class="sidenote">Effects vary by person, tolerance, and method of consumption.</p>
+
+  </div>
+</div>
+
+  </div>
+  <div class="col-md-7 recipe-left-col">
+    <article class="calc-info-col">
+  <h1 class="calc-page-title">大麻食品剂量计算器</h1>
+  <p class="calc-page-meta"><time datetime="2026-03-04">Updated March 2026</time></p>
+  <p class="calc-page-intro">使用这款免费计算器，在烹饪前精确了解您的大麻食品每份含有多少<strong>毫克THC</strong>。输入大麻重量、效力和份数。即时准确的结果。</p>
+
+  <h2 class="calc-section-title mt-4">THC剂量指南</h2>
+  <p class="calc-section-sub">多少毫克适合您？</p>
+  <div class="table-responsive mb-4">
+    <table class="table table-sm calc-dosage-table">
+      <thead>
+        <tr><th>级别</th><th>每份THC</th><th>预期效果</th></tr>
+      </thead>
+      <tbody>
+<tr class="table-success"><td><strong>微量</strong></td><td>1&ndash;2.5 mg</td><td>几乎无感或极轻微的效果。适合初学者。</td></tr>
+<tr class="table-success"><td><strong>初学者</strong></td><td>2.5&ndash;5 mg</td><td>轻度放松，温和的愉悦感。理想的起始剂量。</td></tr>
+<tr class=""><td><strong>休闲</strong></td><td>5&ndash;15 mg</td><td>明显的愉悦感，感知改变。常见的娱乐剂量。</td></tr>
+<tr class="table-warning"><td><strong>有经验</strong></td><td>15&ndash;30 mg</td><td>效果强烈，低耐受性用户可能产生焦虑。</td></tr>
+<tr class="table-warning"><td><strong>高剂量</strong></td><td>30&ndash;50 mg</td><td>非常强烈。仅推荐给高耐受性用户。</td></tr>
+<tr class="table-danger"><td><strong>极高剂量</strong></td><td>50+ mg</td><td>对大多数人来说难以承受。仅供医疗患者使用。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="calc-section-title">如何使用计算器</h2>
+  <ol class="calc-steps-list">
+    <li>输入您计划使用的<strong>大麻克数</strong>。</li>
+    <li>设置<strong>THC百分比</strong>（查看药房标签或使用「不确定？」指南）。</li>
+    <li>输入您的食谱产出的<strong>份数</strong>。</li>
+    <li>计算器即时显示<strong>每份THC毫克数</strong>和总效力。</li>
+  </ol>
+  <p class="mt-2"><a href="/how-a-cannabis-calculator-works.html">数学原理是什么？ →</a></p>
+
+  <h2 class="calc-section-title mt-4">试试食谱</h2>
+  <p class="calc-section-sub">打开任何食谱，自动填充计算器的建议用量：</p>
+  <div class="calc-recipe-chips mb-4">
+<a href="/zh/recipes/cannabutter/" class="calc-recipe-chip">大麻黄油</a>
+<a href="/zh/recipes/infused-coconut-oil/" class="calc-recipe-chip">注入大麻的椰子油</a>
+<a href="/zh/recipes/infused-lemonade/" class="calc-recipe-chip">注入大麻的柠檬水</a>
+<a href="/zh/recipes/gummy-bears/" class="calc-recipe-chip">小熊软糖</a>
+<a href="/zh/recipes/pot-cookies/" class="calc-recipe-chip">大麻饼干</a>
+<a href="/zh/recipes/pot-brownies/" class="calc-recipe-chip">大麻布朗尼</a>
+    <a href="/zh/" class="calc-recipe-chip calc-recipe-chip--more">所有食谱 →</a>
+  </div>
+
+  <h2 class="calc-section-title mt-4">常见问题</h2>
+  <div class="calc-faq">
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-0" aria-expanded="false">
+    初学者应该在大麻食品中摄入多少毫克THC？
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-0">
+    <p>初学者应从2.5-5毫克THC开始。这是一个微量剂量，产生温和效果而不会引起过度焦虑。在食用更多之前至少等待2小时，因为食品比吸食需要更长时间才能生效。</p>
+  </div>
+</div>
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-1" aria-expanded="false">
+    大麻食品需要多长时间才能生效？
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-1">
+    <p>大麻食品通常需要30分钟到2小时才能生效，具体取决于您的新陈代谢、体重以及最近是否进食。效果可持续4到8小时，比吸食持续时间长得多。</p>
+  </div>
+</div>
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-2" aria-expanded="false">
+    如何计算大麻食品的剂量？
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-2">
+    <p>使用公式：P = 10 ×（G × S）/ N，其中 G = 大麻克数，S = 效力百分比，N = 份数，P = 每份THC毫克数。例如，3.5克效力20%的大麻分成20份 = 每份35毫克。</p>
+  </div>
+</div>
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-3" aria-expanded="false">
+    为什么大麻食品比吸食大麻更强？
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-3">
+    <p>当您摄入大麻时，肝脏会将THC转化为11-羟基-THC，这是一种更强效的化合物，能更有效地穿过血脑屏障。这使得食品比吸入的THC效果显著更强、持续更久。</p>
+  </div>
+</div>
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-4" aria-expanded="false">
+    如果食用过多大麻食品会怎样？
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-4">
+    <p>过量食用大麻食品可能导致严重焦虑、偏执、心跳加速和迷失方向。这些效果是暂时的，不会危及生命。如果发生：保持冷静，喝水，躺在舒适的地方，记住这种感觉会过去。食用前使用我们的计算器来避免这种情况。</p>
+  </div>
+</div>
+<div class="calc-faq-item">
+  <button class="calc-faq-question" data-target="faq-5" aria-expanded="false">
+    黄油或油的用量会影响食品效力吗？
+    <i class="fa fa-chevron-down calc-faq-chevron" aria-hidden="true"></i>
+  </button>
+  <div class="calc-faq-answer" id="faq-5">
+    <p>不会。食品的效力仅取决于使用的大麻量、其THC百分比和份数。黄油或油的用量影响口感，而非效力。我们的计算器正是反映了这一点。</p>
+  </div>
+</div>
+
+  </div>
+
+  <p class="sidenote mt-4">
+    <i class="fa fa-shield-alt orange mr-1"></i>
+    始终慢慢来，循序渐进。在食用更多之前至少等待2小时。此计算器仅供教育目的。
+  </p>
+</article>
+  </div>
+</div>
+
+    </div>
+    <footer class="site-footer mt-auto">
+  <div class="container">
+    <div class="row footer-main">
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <a href="/zh/" class="footer-brand">
+          <img src="/images/howtoedibleslogo.png" alt="How to Edibles" />
+        </a>
+        <p class="footer-tagline mt-3">大麻食品变简单。食谱、剂量计算器和减害建议。</p>
+        <div class="footer-social mt-3">
+          <a href="https://instagram.com/howtoedibles" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://facebook.com/howtoedibles" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="footer-col-title">食谱</h5>
+        <ul class="footer-links">
+          <li><a href="/zh/">所有食谱</a></li>
+          <li><a href="/zh/calculator.html">计算器</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="footer-col-title">学习</h5>
+        <ul class="footer-links">
+          <li><a href="/zh/articles.html">文章</a></li>
+          <li><a href="/zh/how-a-cannabis-calculator-works.html">计算器工作原理</a></li>
+          <li><a href="/zh/how-to-prevent-a-bad-trip.html">如何避免不良体验</a></li>
+          <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">不良体验支持聊天</a></li>
+          <li><a href="/zh/donate.html">支持我们</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="footer-col-title">剂量提示</h5>
+        <p class="footer-tip"><i class="fa fa-leaf orange mr-2"></i>慢慢来，循序渐进。在食用更多之前至少等待2小时。</p>
+        <div class="footer-lang-switcher mt-3">
+          <a href="/" class="footer-lang-link">🇺🇸 English</a> · <a href="/pt/" class="footer-lang-link">🇧🇷 Português</a> · <a href="/es/" class="footer-lang-link">🇪🇸 Español</a> · <a href="/de/" class="footer-lang-link">🇩🇪 Deutsch</a> · <span class="footer-lang-current">🇨🇳 中文</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 HowToEdibles &mdash; 仅供教育目的。请始终负责任地使用。</p>
+    </div>
+  </div>
+</footer>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-90858722-1');
+</script>
+
+
+    <script src="/js/search-autocomplete.js"></script>
+    <!-- jQuery + Bootstrap 4 bundle -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="/js/mobile-menu.js"></script>
+    <!-- Search redirect for non-homepage pages -->
+    <script>
+      (function(){
+        var inp = document.getElementById('recipe-search');
+        if (!inp || document.getElementById('pagination-controls')) return;
+        inp.addEventListener('keydown', function(e){
+          if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/zh/?search=' + encodeURIComponent(q); }
+        });
+      })();
+    </script>
+<script>window.I18N = {"gram":"克","grams":"克","threshold_label":"阈值剂量","threshold_desc":"微妙的效果——非常适合初学者","common_label":"常见剂量","common_desc":"放松，对大多数人来说是愉快的体验","strong_label":"强效剂量","strong_desc":"强烈——更适合有经验的用户","heavy_label":"重度剂量","heavy_desc":"非常强效——请谨慎","positive_L1":["放松","减压","情绪改善","轻笑","大笑"],"positive_L2":["创造力","减少恶心","愉悦感","食欲增加","任务变得更有趣"],"positive_L3":["感官增强","哲学性思考","思绪流畅","身心连接增强"],"negative_L1":["头晕"],"negative_L2":["头痛","偏执","短期记忆受损"],"negative_L3":["焦虑","时间感知改变","恶心","烦躁"],"negative_L4":["心跳加速","协调能力下降","恐慌发作"]};</script>
+<script>
+  window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 50, potency: 14 };
+</script>
+<script src="/js/calculator.js"></script>
+<script>
+  document.querySelectorAll('.calc-faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var target = document.getElementById(this.dataset.target);
+      var open = target.classList.toggle('open');
+      this.setAttribute('aria-expanded', open);
+      this.querySelector('.calc-faq-chevron').style.transform = open ? 'rotate(180deg)' : '';
+    });
+  });
+</script>
+
+      <script src="/js/dark-mode.js"></script>
+  </body>
+</html>

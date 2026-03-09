@@ -1,0 +1,198 @@
+{
+  "lang_code": "zh",
+  "lang_name": "中文",
+  "lang_flag": "🇨🇳",
+  "categories": {
+    "Desserts": "甜点",
+    "Drinks": "饮品",
+    "Snacks": "小吃",
+    "Essentials": "基础",
+    "Lunch": "正餐",
+    "Keto": "生酮",
+    "Vegan": "纯素",
+    "Mocktails": "无酒精鸡尾酒",
+    "International": "国际美食"
+  },
+  "navbar": {
+    "search_placeholder": "搜索食谱…",
+    "calculator": "计算器"
+  },
+  "homepage": {
+    "title": "大麻食品剂量计算器 | 大麻食谱",
+    "description": "了解您的大麻食品效力！这款剂量计算器帮助您负责任地烹饪和计量大麻食品。",
+    "hero_title": "大麻食品食谱",
+    "hero_sub": "美味的大麻食谱，内置剂量计算器，让您始终了解食物中的成分。",
+    "popular_recipes": "热门食谱",
+    "no_results": "未找到食谱。请尝试其他搜索。",
+    "donate_cta_title": "喜欢这些食谱吗？",
+    "donate_cta_text": "本网站免费且广告极少——帮助我们保持这种方式。",
+    "donate_cta_btn": "支持我们"
+  },
+  "calculator": {
+    "page_title": "大麻食品剂量计算器——计算每份THC毫克数 | HowToEdibles",
+    "page_description": "免费大麻食品剂量计算器。输入大麻重量、效力百分比和份数，即可计算每份THC毫克数。慢慢来。",
+    "calculate_your_dose": "计算您的剂量",
+    "check_your_dose": "查看您的剂量",
+    "weed_quantity": "您有多少大麻？",
+    "weed_strength": "您的大麻效力是多少？",
+    "average_tip": "（平均14%）",
+    "not_sure": "不确定？",
+    "portions_question": "您想要多少份？",
+    "portions_label": "份",
+    "full_recipe": "整个食谱：",
+    "per_portion": "每份：",
+    "positive_effects": "积极效果",
+    "negative_effects": "消极效果",
+    "side_note": "您可能会也可能不会感受到所列的所有效果*",
+    "potency_modal_title": "大麻效力参考",
+    "potency_modal_weed_type": "大麻类型",
+    "potency_modal_potency": "%（效力）",
+    "potency_low": "低品质",
+    "potency_medium": "中品质",
+    "potency_high": "高品质",
+    "potency_concentrates": "浓缩物",
+    "modal_close": "关闭",
+    "calc_page_title": "大麻食品剂量计算器",
+    "calc_page_intro": "使用这款免费计算器，在烹饪前精确了解您的大麻食品每份含有多少<strong>毫克THC</strong>。输入大麻重量、效力和份数。即时准确的结果。",
+    "dosage_guide_title": "THC剂量指南",
+    "dosage_guide_sub": "多少毫克适合您？",
+    "dosage_level": "级别",
+    "dosage_per_serving": "每份THC",
+    "dosage_effects": "预期效果",
+    "dosage_microdose": "微量",
+    "dosage_microdose_desc": "几乎无感或极轻微的效果。适合初学者。",
+    "dosage_beginner": "初学者",
+    "dosage_beginner_desc": "轻度放松，温和的愉悦感。理想的起始剂量。",
+    "dosage_casual": "休闲",
+    "dosage_casual_desc": "明显的愉悦感，感知改变。常见的娱乐剂量。",
+    "dosage_experienced": "有经验",
+    "dosage_experienced_desc": "效果强烈，低耐受性用户可能产生焦虑。",
+    "dosage_high": "高剂量",
+    "dosage_high_desc": "非常强烈。仅推荐给高耐受性用户。",
+    "dosage_extreme": "极高剂量",
+    "dosage_extreme_desc": "对大多数人来说难以承受。仅供医疗患者使用。",
+    "how_to_use_title": "如何使用计算器",
+    "how_to_step_1": "输入您计划使用的<strong>大麻克数</strong>。",
+    "how_to_step_2": "设置<strong>THC百分比</strong>（查看药房标签或使用「不确定？」指南）。",
+    "how_to_step_3": "输入您的食谱产出的<strong>份数</strong>。",
+    "how_to_step_4": "计算器即时显示<strong>每份THC毫克数</strong>和总效力。",
+    "how_math_works": "数学原理是什么？ →",
+    "try_recipe_title": "试试食谱",
+    "try_recipe_sub": "打开任何食谱，自动填充计算器的建议用量：",
+    "all_recipes": "所有食谱 →",
+    "faq_title": "常见问题",
+    "safety_note": "始终慢慢来，循序渐进。在食用更多之前至少等待2小时。此计算器仅供教育目的。"
+  },
+  "calculator_js": {
+    "gram": "克",
+    "grams": "克",
+    "threshold_label": "阈值剂量",
+    "threshold_desc": "微妙的效果——非常适合初学者",
+    "common_label": "常见剂量",
+    "common_desc": "放松，对大多数人来说是愉快的体验",
+    "strong_label": "强效剂量",
+    "strong_desc": "强烈——更适合有经验的用户",
+    "heavy_label": "重度剂量",
+    "heavy_desc": "非常强效——请谨慎",
+    "positive_L1": [
+      "放松",
+      "减压",
+      "情绪改善",
+      "轻笑",
+      "大笑"
+    ],
+    "positive_L2": [
+      "创造力",
+      "减少恶心",
+      "愉悦感",
+      "食欲增加",
+      "任务变得更有趣"
+    ],
+    "positive_L3": [
+      "感官增强",
+      "哲学性思考",
+      "思绪流畅",
+      "身心连接增强"
+    ],
+    "negative_L1": [
+      "头晕"
+    ],
+    "negative_L2": [
+      "头痛",
+      "偏执",
+      "短期记忆受损"
+    ],
+    "negative_L3": [
+      "焦虑",
+      "时间感知改变",
+      "恶心",
+      "烦躁"
+    ],
+    "negative_L4": [
+      "心跳加速",
+      "协调能力下降",
+      "恐慌发作"
+    ]
+  },
+  "recipe_page": {
+    "ingredients": "食材",
+    "directions": "制作步骤",
+    "title_suffix": "大麻食品食谱 | HowToEdibles",
+    "default_description_template": "通过我们的分步食谱和内置THC剂量计算器，学习制作大麻%{name}。"
+  },
+  "footer": {
+    "tagline": "大麻食品变简单。食谱、剂量计算器和减害建议。",
+    "recipes_title": "食谱",
+    "all_recipes": "所有食谱",
+    "calculator": "计算器",
+    "learn_title": "学习",
+    "how_calculator": "计算器工作原理",
+    "prevent_bad_trip": "如何避免不良体验",
+    "bad_trip_chat": "不良体验支持聊天",
+    "support_us": "支持我们",
+    "dosage_tip_title": "剂量提示",
+    "dosage_tip": "慢慢来，循序渐进。在食用更多之前至少等待2小时。",
+    "copyright": "仅供教育目的。请始终负责任地使用。"
+  },
+  "page_404": {
+    "title": "页面未找到 | HowToEdibles",
+    "description": "抱歉，未找到此页面。",
+    "heading": "404",
+    "message": "抱歉，未找到此页面。",
+    "go_home": "返回首页"
+  },
+  "donate": {
+    "title": "支持 HowToEdibles | 捐赠",
+    "description": "帮助我们保持 HowToEdibles 免费。如果本网站对您有帮助，请考虑小额捐赠。",
+    "heading": "支持 HowToEdibles",
+    "subtitle": "本网站免费且将永远免费。如果它帮助了您，请考虑请我们喝杯咖啡。",
+    "paragraph_1": "我们投入了大量精力使大麻食品变得安全、有趣且易于获取。剂量计算器、食谱、减害指南——一切都是免费的，广告极少。",
+    "paragraph_2": "运营网站需要成本。如果您在这里找到了价值，即使是小额捐助也能帮助我们继续运营并添加新内容。",
+    "donate_btn": "通过PayPal捐赠",
+    "thank_you": "每一份贡献，无论大小，都真诚地被感激。感谢您成为这个社区的一部分。",
+    "feature_calculator": "免费的剂量计算器，人人可用",
+    "feature_recipes": "超过41个经过测试的大麻食谱",
+    "feature_safety": "减害指南和安全提示"
+  },
+  "articles": {
+    "title": "文章",
+    "description": "关于大麻的教育文章——剂量指南、安全提示等。"
+  },
+  "language_switcher": {
+    "label": "语言"
+  },
+  "faq": {
+    "q1": "初学者应该在大麻食品中摄入多少毫克THC？",
+    "a1": "初学者应从2.5-5毫克THC开始。这是一个微量剂量，产生温和效果而不会引起过度焦虑。在食用更多之前至少等待2小时，因为食品比吸食需要更长时间才能生效。",
+    "q2": "大麻食品需要多长时间才能生效？",
+    "a2": "大麻食品通常需要30分钟到2小时才能生效，具体取决于您的新陈代谢、体重以及最近是否进食。效果可持续4到8小时，比吸食持续时间长得多。",
+    "q3": "如何计算大麻食品的剂量？",
+    "a3": "使用公式：P = 10 ×（G × S）/ N，其中 G = 大麻克数，S = 效力百分比，N = 份数，P = 每份THC毫克数。例如，3.5克效力20%的大麻分成20份 = 每份35毫克。",
+    "q4": "为什么大麻食品比吸食大麻更强？",
+    "a4": "当您摄入大麻时，肝脏会将THC转化为11-羟基-THC，这是一种更强效的化合物，能更有效地穿过血脑屏障。这使得食品比吸入的THC效果显著更强、持续更久。",
+    "q5": "如果食用过多大麻食品会怎样？",
+    "a5": "过量食用大麻食品可能导致严重焦虑、偏执、心跳加速和迷失方向。这些效果是暂时的，不会危及生命。如果发生：保持冷静，喝水，躺在舒适的地方，记住这种感觉会过去。食用前使用我们的计算器来避免这种情况。",
+    "q6": "黄油或油的用量会影响食品效力吗？",
+    "a6": "不会。食品的效力仅取决于使用的大麻量、其THC百分比和份数。黄油或油的用量影响口感，而非效力。我们的计算器正是反映了这一点。"
+  }
+}

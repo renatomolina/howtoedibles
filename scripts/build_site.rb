@@ -24,8 +24,8 @@ RECIPES    = data["recipes"]
 # i18n Loading
 # ─────────────────────────────────────────────
 
-LANGS = %w[pt es de]  # non-English only — English is hand-maintained
-ALL_LANGS = %w[en pt es de]  # for hreflang tags
+LANGS = %w[pt es de zh]  # non-English only — English is hand-maintained
+ALL_LANGS = %w[en pt es de zh]  # for hreflang tags
 
 I18N = {}
 ALL_LANGS.each do |lang|
@@ -101,6 +101,7 @@ end
 def lang_html(lang)
   case lang
   when "pt" then "pt-BR"
+  when "zh" then "zh-Hans"
   else lang
   end
 end
@@ -125,7 +126,7 @@ end
 def hreflang_tags(page_path)
   # page_path is the language-neutral path like "" (homepage), "calculator.html", "recipes/cannabutter/"
   # Strip any leading lang prefix if accidentally included
-  page_path = page_path.sub(%r{^(pt|es|de)/}, "")
+  page_path = page_path.sub(%r{^(pt|es|de|zh)/}, "")
   tags = []
   ALL_LANGS.each do |l|
     prefix = l == "en" ? "" : "/#{l}"
@@ -151,7 +152,7 @@ def build_head(lang, title:, description:, canonical:, keywords: nil, structured
   prefix = lang_prefix(lang)
   # Extract language-neutral page path for hreflang
   page_path = canonical.sub("https://www.howtoedibles.com", "").sub(/^\//, "")
-  page_path = page_path.sub(%r{^(pt|es|de)/}, "")
+  page_path = page_path.sub(%r{^(pt|es|de|zh)/}, "")
 
   kw = keywords || "edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles"
 
@@ -291,8 +292,8 @@ def build_navbar(lang)
 end
 
 def build_language_switcher(lang)
-  labels = { "en" => "EN", "pt" => "PT", "es" => "ES", "de" => "DE" }
-  names = { "en" => "English", "pt" => "Portugues", "es" => "Espanol", "de" => "Deutsch" }
+  labels = { "en" => "EN", "pt" => "PT", "es" => "ES", "de" => "DE", "zh" => "中文" }
+  names = { "en" => "English", "pt" => "Portugues", "es" => "Espanol", "de" => "Deutsch", "zh" => "中文" }
   current_label = labels[lang] || lang.upcase
 
   items = ALL_LANGS.map do |l|
@@ -1631,12 +1632,13 @@ english_files.each do |file, page_path|
   next unless File.exist?(filepath)
   content = File.read(filepath)
 
-  # Skip if already has hreflang
-  next if content.include?("hreflang")
-
   tags = hreflang_tags(page_path)
-  # Insert after google-site-verification meta tag
-  if content.include?("google-site-verification")
+  if content.include?("<!-- hreflang -->")
+    # Replace existing hreflang block
+    content.sub!(/  <!-- hreflang -->.*?(?=\n\n|\n  <(?!link rel="alternate"))/m, "  <!-- hreflang -->\n  #{tags}")
+    File.write(filepath, content)
+    puts "  Updated hreflang in #{file}"
+  elsif content.include?("google-site-verification")
     content.sub!(/(<meta name="google-site-verification"[^>]*\/>)/, "\\1\n\n  <!-- hreflang -->\n  #{tags}")
     File.write(filepath, content)
     puts "  Added hreflang to #{file}"
@@ -1646,13 +1648,15 @@ end
 # Add hreflang to English recipe pages
 Dir.glob(File.join(ROOT_DIR, "recipes", "*", "index.html")).each do |filepath|
   content = File.read(filepath)
-  next if content.include?("hreflang")
 
   slug = File.basename(File.dirname(filepath))
   page_path = "recipes/#{slug}/"
   tags = hreflang_tags(page_path)
 
-  if content.include?("google-site-verification")
+  if content.include?("<!-- hreflang -->")
+    content.sub!(/  <!-- hreflang -->.*?(?=\n\n|\n  <(?!link rel="alternate"))/m, "  <!-- hreflang -->\n  #{tags}")
+    File.write(filepath, content)
+  elsif content.include?("google-site-verification")
     content.sub!(/(<meta name="google-site-verification"[^>]*\/>)/, "\\1\n\n  <!-- hreflang -->\n  #{tags}")
     File.write(filepath, content)
   end
@@ -1666,15 +1670,18 @@ article_html_files -= %w[index.html calculator.html donate.html 404.html article
 article_html_files.sort.each do |f|
   filepath = File.join(ROOT_DIR, f)
   content = File.read(filepath)
-  next if content.include?("hreflang")
 
   slug = f.sub(/\.html$/, "")
-  # Only add hreflang if at least one translation exists
+  # Only add/update hreflang if at least one translation exists
   has_translations = LANGS.any? { |l| ARTICLE_I18N.dig(l, "articles", slug) }
   next unless has_translations
 
   tags = hreflang_tags(f)
-  if content.include?("google-site-verification")
+  if content.include?("<!-- hreflang -->")
+    content.sub!(/  <!-- hreflang -->.*?(?=\n\n|\n  <(?!link rel="alternate"))/m, "  <!-- hreflang -->\n  #{tags}")
+    File.write(filepath, content)
+    article_hreflang_count += 1
+  elsif content.include?("google-site-verification")
     content.sub!(/(<meta name="google-site-verification"[^>]*\/>)/, "\\1\n\n  <!-- hreflang -->\n  #{tags}")
     File.write(filepath, content)
     article_hreflang_count += 1
@@ -1682,4 +1689,4 @@ article_html_files.sort.each do |f|
 end
 puts "  Added hreflang to #{article_hreflang_count} article pages"
 
-puts "\nDone! English files preserved. Only /pt/, /es/, /de/ were generated."
+puts "\nDone! English files preserved. Only /pt/, /es/, /de/, /zh/ were generated."

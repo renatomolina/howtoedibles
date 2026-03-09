@@ -1,0 +1,961 @@
+{
+  "cannabutter": {
+    "name": "大麻黄油",
+    "description": "用大麻黄油的魔力提升您的烹饪创作。为菜肴注入一丝愉悦感，带来真正独特的用餐体验。",
+    "category_name": "基础",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1杯无盐黄油（2条）</li>\r\n\t<li class=\"list-group-item\">&frac12;杯水（需要时可随时添加更多水）</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">7</span> 研磨好的大麻</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">在平底锅中加入&frac12;杯水和2条（&frac12;磅）黄油，用中低火加热至微沸。加水有助于调节温度并防止黄油烧焦。黄油开始融化后，加入研磨好的大麻。</li>\r\n\t<li class=\"list-group-item\">保持低火，让混合物慢炖2-3小时，偶尔搅拌。确保混合物不要完全沸腾。</li>\r\n\t<li class=\"list-group-item\">将热混合物倒入玻璃容器中，用粗棉布过滤掉所有大麻残渣。挤压或按压植物材料，尽可能挤出更多液体。丢弃剩余的大麻渣。</li>\r\n\t<li class=\"list-group-item\">盖上盖子，将剩余液体放入冰箱冷藏过夜或直到黄油完全凝固。凝固后，黄油会与水分离，您可以将大麻黄油从容器中取出。取出凝固的大麻黄油后，倒掉剩余的水。</li>\r\n\t<li class=\"list-group-item\">注意容器中的大麻黄油应呈现略带绿色的色调，这是大麻的颜色。现在您可以开始制作大麻美食了！</li>\r\n</ul>\r\n"
+  },
+  "infused-coconut-oil": {
+    "name": "注入大麻的椰子油",
+    "description": "它拥有浓郁的热带风味和令人愉悦的大麻注入，这款多用途油将您的烹饪提升到新的高度。",
+    "category_name": "基础",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac12;杯椰子油</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">3.5 </span> 研磨好的大麻</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">将大麻放入密封罐中，加入&frac12;杯椰子油。</li>\r\n\t<li class=\"list-group-item\">将密封罐盖紧。</li>\r\n\t<li class=\"list-group-item\">将密封罐放入沸水中，用中低火（240&deg; F - 115&deg; C）加热超过2小时。</li>\r\n\t<li class=\"list-group-item\">将罐中所有内容物倒在金属过滤器上的粗棉布中。</li>\r\n\t<li class=\"list-group-item\">收拢粗棉布，挤出所有剩余的液体。</li>\r\n</ul>\r\n"
+  },
+  "infused-olive-oil": {
+    "name": "注入大麻的橄榄油",
+    "description": "可能是最通用的介质，也是开始用大麻烹饪的绝佳起点。",
+    "category_name": "基础",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">300毫升橄榄油</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">8 </span> 研磨好的大麻</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">将大麻研磨成细末，以增大接触面积。</li>\r\n\t<li class=\"list-group-item\">将研磨好的大麻放入密封罐中，加入300毫升橄榄油。</li>\r\n\t<li class=\"list-group-item\">将密封罐盖紧。</li>\r\n\t<li class=\"list-group-item\">将密封罐放入沸水中，用中低火（240&deg; F - 115&deg; C）加热超过2小时。</li>\r\n\t<li class=\"list-group-item\">将罐中所有内容物倒在金属过滤器上的粗棉布中。</li>\r\n\t<li class=\"list-group-item\">收拢粗棉布，挤出所有剩余的液体。</li>\r\n</ul>\r\n"
+  },
+  "infused-bulletproof-coffee": {
+    "name": "注入大麻的防弹咖啡",
+    "description": "点燃您的感官，用一杯咖啡为您的一天注入专注与平衡。",
+    "category_name": "生酮",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1杯冲泡咖啡</li>\r\n  <li class=\"list-group-item\">1汤匙<a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n  <li class=\"list-group-item\">1汤匙无盐黄油</li>\r\n  <li class=\"list-group-item\">您选择的甜味剂（可选）</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">用您喜欢的方式冲泡一杯咖啡。</li>\r\n  <li class=\"list-group-item\">在搅拌机中，将冲泡好的咖啡、无盐黄油、椰子油和注入大麻的椰子油混合在一起。</li>\r\n  <li class=\"list-group-item\">高速搅拌至混合物变得顺滑起泡。</li>\r\n  <li class=\"list-group-item\">品尝后根据需要添加甜味剂。</li>\r\n  <li class=\"list-group-item\">倒入杯中，享用您的生酮大麻防弹咖啡！</li>\r\n</ul>"
+  },
+  "infused-keto-peanut-butter-cookies": {
+    "name": "注入大麻的生酮花生酱饼干",
+    "description": "用我们的生酮创意提升您的饼干水平。享受花生酱饼干的坚果完美口感，无负罪感，专为您的低碳水生活方式量身定制。",
+    "category_name": "生酮",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1杯天然花生酱（无糖）</li>\r\n  <li class=\"list-group-item\">1/2杯赤藓糖醇粉或您选择的低碳水甜味剂</li>\r\n  <li class=\"list-group-item\">1个大鸡蛋</li>\r\n  <li class=\"list-group-item\">1/2茶匙香草精</li>\r\n  <li class=\"list-group-item\">2汤匙<a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">融化的注入大麻的椰子油</a></li>\r\n  <li class=\"list-group-item\">1/4茶匙盐</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">将烤箱预热至350°F（175°C），在烤盘上铺上烘焙纸。</li>\r\n  <li class=\"list-group-item\">在搅拌碗中，将天然花生酱、赤藓糖醇粉、鸡蛋、香草精、注入大麻的椰子油和盐混合在一起。</li>\r\n  <li class=\"list-group-item\">搅拌均匀直到形成面团。</li>\r\n  <li class=\"list-group-item\">舀出一汤匙大小的面团，搓成圆球。</li>\r\n  <li class=\"list-group-item\">将面团球放在烤盘上，用叉子压扁，压出交叉花纹。</li>\r\n  <li class=\"list-group-item\">在预热好的烤箱中烤10-12分钟，或直到饼干边缘呈金黄色。</li>\r\n  <li class=\"list-group-item\">从烤箱取出，让饼干在烤盘上冷却几分钟，然后转移到冷却架上完全冷却。</li>\r\n  <li class=\"list-group-item\">享用您美味的大麻生酮花生酱饼干！</li>\r\n</ul>"
+  },
+  "infused-coconut-fat-bombs": {
+    "name": "注入大麻的椰子脂肪炸弹",
+    "description": "用注入天然大麻的椰子享受升级版零食。每一口小巧的美味都滋养身心，专为均衡享受而打造。",
+    "category_name": "生酮",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1/2杯椰子油，融化</li>\r\n  <li class=\"list-group-item\">1/2杯椰子酱</li>\r\n  <li class=\"list-group-item\">2汤匙<a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n  <li class=\"list-group-item\">2汤匙无糖可可粉</li>\r\n  <li class=\"list-group-item\">1/4杯赤藓糖醇粉或您选择的甜味剂</li>\r\n  <li class=\"list-group-item\">1/2茶匙香草精</li>\r\n  <li class=\"list-group-item\">1/2茶匙盐</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">在搅拌碗中，将融化的椰子油、椰子酱、注入大麻的椰子油、无糖可可粉、赤藓糖醇粉、香草精和盐混合在一起。</li>\r\n  <li class=\"list-group-item\">搅拌至充分混合且顺滑。</li>\r\n  <li class=\"list-group-item\">将混合物倒入硅胶模具或冰块托盘中。</li>\r\n  <li class=\"list-group-item\">放入冰箱冷藏或冷冻至少1小时使其凝固。</li>\r\n  <li class=\"list-group-item\">将椰子脂肪炸弹从模具或冰块托盘中取出。</li>\r\n  <li class=\"list-group-item\">将大麻椰子脂肪炸弹存放在密封容器中，放入冰箱冷藏或冷冻保存。</li>\r\n  <li class=\"list-group-item\">享用一到两个脂肪炸弹，作为生酮友好的大麻零食！</li>\r\n</ul>"
+  },
+  "infused-pesto-pasta": {
+    "name": "注入大麻的香蒜酱意面",
+    "description": "完美煮制的螺旋面裹着芳香的罗勒香蒜酱，撒上一层细腻的帕玛森芝士。",
+    "category_name": "正餐",
+    "ingredients": "<ul class=\"list-group\">\r\n    <li class=\"list-group-item\">2杯新鲜罗勒叶</li>\r\n    <li class=\"list-group-item\">1/2杯松子</li>\r\n    <li class=\"list-group-item\">1/2杯磨碎的帕玛森芝士</li>\r\n    <li class=\"list-group-item\">2瓣大蒜，切碎</li>\r\n    <li class=\"list-group-item\">1/2杯<a href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">注入大麻的橄榄油</a></li></li>\r\n    <li class=\"list-group-item\">盐和胡椒适量</li>\r\n    <li class=\"list-group-item\">1磅意面（例如意大利面、笔管面或螺旋面）</li>\r\n    <li class=\"list-group-item\">磨碎的帕玛森芝士用于装饰</li>\r\n  </ul>",
+    "instructions": "<ul class=\"list-group\">\r\n    <li class=\"list-group-item\">在食物处理机中，将新鲜罗勒叶、松子、磨碎的帕玛森芝士和切碎的大蒜混合。</li>\r\n    <li class=\"list-group-item\">脉冲搅拌至形成粗糙的酱糊。</li>\r\n    <li class=\"list-group-item\">在食物处理机运转时，慢慢倒入注入大麻的橄榄油，直到香蒜酱变得顺滑且充分混合。</li>\r\n    <li class=\"list-group-item\">用盐和胡椒调味。根据需要调整调味。</li>\r\n    <li class=\"list-group-item\">按包装说明将意面煮至弹牙。</li>\r\n    <li class=\"list-group-item\">沥干煮好的意面，保留少量煮面水。</li>\r\n    <li class=\"list-group-item\">在大搅拌碗中，将煮好的意面与大麻香蒜酱拌匀。如需要，加入少许保留的煮面水使酱汁更顺滑。</li>\r\n    <li class=\"list-group-item\">将大麻香蒜酱意面装盘，顶部撒上磨碎的帕玛森芝士。</li>\r\n    <li class=\"list-group-item\">享用这道美味的大麻香蒜酱意面！</li>\r\n  </ul>"
+  },
+  "infused-berry-smoothie": {
+    "name": "注入大麻的莓果思慕雪",
+    "description": "冷冻莓果、水果和希腊酸奶的诱人融合。清爽、美味、好喝极了。",
+    "category_name": "饮品",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1-2茶匙<a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n\t<li class=\"list-group-item\">1杯冷冻混合莓果（草莓、蓝莓、覆盆子）</li>\r\n\t<li class=\"list-group-item\">1根熟香蕉</li>\r\n\t<li class=\"list-group-item\">1杯牛奶（乳制品或非乳制品）</li>\r\n\t<li class=\"list-group-item\">1/2杯原味希腊酸奶</li>\r\n\t<li class=\"list-group-item\">1汤匙蜂蜜或枫糖浆</li>\r\n\t<li class=\"list-group-item\">可选：一把羽衣甘蓝以增加营养</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">将所有食材放入搅拌机中。</li>\r\n\t<li class=\"list-group-item\">高速搅拌至顺滑细腻。</li>\r\n\t<li class=\"list-group-item\">品尝并根据需要添加更多蜂蜜或枫糖浆调整甜度。</li>\r\n\t<li class=\"list-group-item\">如果思慕雪太浓稠，可以再加一点牛奶搅拌至理想稠度。</li>\r\n\t<li class=\"list-group-item\">将大麻莓果思慕雪倒入杯中，立即享用。</li>\r\n</ul>\r\n"
+  },
+  "infused-energy-bites": {
+    "name": "注入大麻的能量球",
+    "description": "每一口都是健康食材的美妙融合，为您的味蕾和心灵带来愉悦而充满活力的体验。",
+    "category_name": "小吃",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1杯燕麦片</li>\r\n\t<li class=\"list-group-item\">1/2杯坚果酱（如杏仁酱或花生酱）</li>\r\n\t<li class=\"list-group-item\">1/3杯蜂蜜或枫糖浆</li>\r\n\t<li class=\"list-group-item\">1/4杯研磨亚麻籽</li>\r\n\t<li class=\"list-group-item\">1/4杯迷你巧克力豆</li>\r\n\t<li class=\"list-group-item\">1/4杯椰丝</li>\r\n\t<li class=\"list-group-item\">1茶匙香草精</li>\r\n\t<li class=\"list-group-item\">1汤匙<a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n\t<li class=\"list-group-item\">少许盐</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在大搅拌碗中，混合所有食材：燕麦片、坚果酱、蜂蜜或枫糖浆、研磨亚麻籽、迷你巧克力豆、椰丝、香草精、注入大麻的椰子油和少许盐。</li>\r\n\t<li class=\"list-group-item\">充分搅拌至所有食材均匀混合。</li>\r\n\t<li class=\"list-group-item\">盖上碗，放入冰箱冷藏30分钟，让混合物变硬。</li>\r\n\t<li class=\"list-group-item\">冷藏后取出，用手将混合物搓成小圆球。</li>\r\n\t<li class=\"list-group-item\">将大麻能量球放在铺有烘焙纸的烤盘上。</li>\r\n\t<li class=\"list-group-item\">将能量球再冷藏1-2小时使其定型变硬。</li>\r\n\t<li class=\"list-group-item\">定型后，将能量球转移到密封容器中，存放在冰箱中。</li>\r\n\t<li class=\"list-group-item\">享用大麻能量球，作为营养又美味的零食！</li>\r\n</ul>\r\n"
+  },
+  "firecrackers": {
+    "name": "火焰饼干",
+    "description": "制作简单、美味可口且效果极强，这是最受欢迎的食谱之一。",
+    "category_name": "小吃",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">全麦饼干</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">3.5</span> 研磨好的大麻</li>\r\n\t<li class=\"list-group-item\">榛子酱</li>\r\n\t<li class=\"list-group-item\">锡箔纸</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">将大麻放在锡箔纸上。</li>\r\n\t<li class=\"list-group-item\">将烤箱预热至250&deg; F。</li>\r\n\t<li class=\"list-group-item\">在250&deg; F下烘烤大麻10分钟。</li>\r\n\t<li class=\"list-group-item\">在全麦饼干上涂抹榛子酱。</li>\r\n\t<li class=\"list-group-item\">将大麻从烤箱取出，撒在榛子酱上。</li>\r\n\t<li class=\"list-group-item\">将大麻混入酱中，将两片全麦饼干合在一起。</li>\r\n\t<li class=\"list-group-item\">用锡箔纸包裹并密封火焰饼干。</li>\r\n\t<li class=\"list-group-item\">在300&deg; F下烘烤15分钟。</li>\r\n</ul>\r\n"
+  },
+  "infused-lemonade": {
+    "name": "注入大麻的柠檬水",
+    "description": "啜饮这款提神饮品，体验柑橘酸味与大麻放松效果的和谐平衡。",
+    "category_name": "饮品",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1杯鲜榨柠檬汁</li>\r\n    <li class=\"list-group-item\">4杯冷水</li>\r\n    <li class=\"list-group-item\">1/2杯白砂糖</li>\r\n    <li class=\"list-group-item\">1-2茶匙<a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-honey\" target=\"_blank\">注入大麻的蜂蜜</a></li>\r\n    <li class=\"list-group-item\">冰块</li>\r\n    <li class=\"list-group-item\">柠檬片用于装饰</li>\r\n  </ul>",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在水壶中，混合鲜榨柠檬汁、冷水、白砂糖和注入大麻的蜂蜜。</li>\r\n    <li class=\"list-group-item\">充分搅拌至糖完全溶解。</li>\r\n    <li class=\"list-group-item\">品尝柠檬水，根据需要添加更多糖或大麻蜂蜜调整甜度。</li>\r\n    <li class=\"list-group-item\">向水壶中加入冰块使柠檬水变凉。</li>\r\n    <li class=\"list-group-item\">上桌前再次搅拌。</li>\r\n    <li class=\"list-group-item\">将大麻柠檬水倒入杯中，用柠檬片装饰。</li>\r\n    <li class=\"list-group-item\">啜饮并享受大麻柠檬水带来的清爽提神效果！</li>\r\n  </ul>"
+  },
+  "infused-keto-chocolate-avocado-mousse": {
+    "name": "注入大麻的生酮巧克力牛油果慕斯",
+    "description": "用我们以牛油果为基础的甜品改变您的甜品时光。品味巧克力注入的幸福滋味，同时感受天然的美好，享受真正美味的享受。",
+    "category_name": "生酮",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">2个熟牛油果</li>\r\n  <li class=\"list-group-item\">1/4杯无糖可可粉</li>\r\n  <li class=\"list-group-item\">3汤匙<a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n  <li class=\"list-group-item\">3汤匙赤藓糖醇粉或您选择的甜味剂</li>\r\n  <li class=\"list-group-item\">1/2茶匙香草精</li>\r\n  <li class=\"list-group-item\">少许盐</li>\r\n  <li class=\"list-group-item\">可选配料：鲜奶油、莓果、碎坚果</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">将牛油果切半，去核。</li>\r\n  <li class=\"list-group-item\">将果肉舀入搅拌机或食物处理机中。</li>\r\n  <li class=\"list-group-item\">加入无糖可可粉、注入大麻的椰子油、赤藓糖醇粉、香草精和盐。</li>\r\n  <li class=\"list-group-item\">搅拌至顺滑细腻。</li>\r\n  <li class=\"list-group-item\">品尝并根据需要调整甜度。</li>\r\n  <li class=\"list-group-item\">将大麻巧克力牛油果慕斯分装到碗或杯中。</li>\r\n  <li class=\"list-group-item\">冷藏至少30分钟使其冷却定型。</li>\r\n  <li class=\"list-group-item\">上桌前，可根据需要在慕斯上放鲜奶油、莓果或碎坚果。</li>\r\n  <li class=\"list-group-item\">享用您的生酮大麻巧克力牛油果慕斯！</li>\r\n</ul>"
+  },
+  "infused-guacamole": {
+    "name": "注入大麻的牛油果酱",
+    "description": "这款令人无法抗拒的牛油果酱融合了奶油般的牛油果、爽口的青柠汁、切丁番茄、洋葱和令人愉悦的草本风味。",
+    "category_name": "小吃",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">2汤匙<a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">注入大麻的橄榄油</a></li>\r\n\t<li class=\"list-group-item\">2个熟牛油果</li>\r\n\t<li class=\"list-group-item\">1汤匙青柠汁</li>\r\n\t<li class=\"list-group-item\">1/4杯切碎的洋葱</li>\r\n\t<li class=\"list-group-item\">1/4杯切丁番茄</li>\r\n\t<li class=\"list-group-item\">1瓣大蒜，切碎</li>\r\n\t<li class=\"list-group-item\">盐和胡椒适量</li>\r\n\t<li class=\"list-group-item\">可选：切碎的香菜、切丁的墨西哥辣椒</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">将牛油果切半，去核，将果肉舀入碗中。</li>\r\n\t<li class=\"list-group-item\">用叉子将牛油果捣成您喜欢的稠度。</li>\r\n\t<li class=\"list-group-item\">在碗中加入青柠汁、洋葱、番茄、大蒜、注入大麻的橄榄油、盐和胡椒。充分搅拌。</li>\r\n\t<li class=\"list-group-item\">品尝并根据需要调整调味。</li>\r\n\t<li class=\"list-group-item\">可选：加入切碎的香菜和切丁的墨西哥辣椒以增添风味和辣度。</li>\r\n\t<li class=\"list-group-item\">立即搭配玉米片或作为塔可、卷饼或三明治的配料食用。</li>\r\n</ul>\r\n"
+  },
+  "infused-chocolate-truffles": {
+    "name": "注入大麻的巧克力松露",
+    "description": "体验这些奢华巧克力松露带来的纯粹享受。一场穿越浓郁丝滑风味的愉悦之旅等待着您。",
+    "category_name": "甜点",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1/2杯<a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n  <li class=\"list-group-item\">1/2杯无糖可可粉</li>\r\n  <li class=\"list-group-item\">1/4杯枫糖浆</li>\r\n  <li class=\"list-group-item\">1茶匙香草精</li>\r\n  <li class=\"list-group-item\">1/4茶匙盐</li>\r\n  <li class=\"list-group-item\">可选外层：碎坚果、可可粉、椰丝</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">在微波炉安全碗中，融化注入大麻的椰子油。</li>\r\n    <li class=\"list-group-item\">在融化的椰子油中加入无糖可可粉、枫糖浆、香草精和盐。搅拌至顺滑均匀。</li>\r\n    <li class=\"list-group-item\">将混合物放入冰箱冷藏约1小时，或直到足够硬可以操作。</li>\r\n    <li class=\"list-group-item\">舀出小份混合物，用手搓成一口大小的松露球。</li>\r\n    <li class=\"list-group-item\">将松露球在您喜欢的外层材料中滚动，如碎坚果、可可粉或椰丝。</li>\r\n    <li class=\"list-group-item\">将裹好外层的松露球放在铺有烘焙纸的烤盘上。</li>\r\n    <li class=\"list-group-item\">将松露球冷藏至少1小时使其定型。</li>\r\n    <li class=\"list-group-item\">冷藏后上桌，享用大麻巧克力松露！</li>\r\n  </ul>"
+  },
+  "infused-banana-bread": {
+    "name": "注入大麻的香蕉面包",
+    "description": "品味熟透香蕉、精选食材和特殊注入的完美融合，将经典美食变成令人愉悦的升级版美味。",
+    "category_name": "甜点",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1/2杯<a href=\"https://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">融化的大麻黄油</a></li>\r\n  <li class=\"list-group-item\">1杯白砂糖</li>\r\n  <li class=\"list-group-item\">2个大鸡蛋</li>\r\n  <li class=\"list-group-item\">3根熟香蕉，捣碎</li>\r\n  <li class=\"list-group-item\">1茶匙香草精</li>\r\n  <li class=\"list-group-item\">1又1/2杯中筋面粉</li>\r\n  <li class=\"list-group-item\">1茶匙小苏打</li>\r\n  <li class=\"list-group-item\">1/2茶匙盐</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">将烤箱预热至350°F（175°C）。在9x5英寸面包模具上涂油。</li>\r\n  <li class=\"list-group-item\">在大搅拌碗中，混合融化的大麻黄油和白砂糖。</li>\r\n  <li class=\"list-group-item\">加入鸡蛋、捣碎的香蕉和香草精。充分搅拌混合。</li>\r\n  <li class=\"list-group-item\">在另一个碗中，将中筋面粉、小苏打和盐搅拌均匀。</li>\r\n  <li class=\"list-group-item\">将干料逐渐加入香蕉混合物中，搅拌至刚好混合。注意不要过度搅拌。</li>\r\n  <li class=\"list-group-item\">将面糊倒入涂油的面包模具中，均匀铺平。</li>\r\n  <li class=\"list-group-item\">在预热好的烤箱中烤50-60分钟，或直到插入中心的牙签取出时是干净的。</li>\r\n  <li class=\"list-group-item\">将香蕉面包从烤箱取出，在模具中冷却10分钟。然后转移到冷却架上完全冷却。</li>\r\n  <li class=\"list-group-item\">切片享用大麻香蕉面包，这是一款令人愉悦又温暖的美食！</li>\r\n</ul>"
+  },
+  "infused-keto-cheesecake-bites": {
+    "name": "注入大麻的生酮芝士蛋糕球",
+    "description": "品味我们注入大麻的芝士蛋糕球，风味与用心享受的完美平衡。",
+    "category_name": "生酮",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1又1/2杯杏仁粉</li>\r\n  <li class=\"list-group-item\">1/4杯赤藓糖醇粉或您选择的低碳水甜味剂</li>\r\n  <li class=\"list-group-item\">1/4杯融化的大麻黄油</li>\r\n  <li class=\"list-group-item\">16盎司奶油芝士，软化</li>\r\n  <li class=\"list-group-item\">1/2杯赤藓糖醇粉或您选择的低碳水甜味剂</li>\r\n  <li class=\"list-group-item\">2茶匙香草精</li>\r\n  <li class=\"list-group-item\">2个大鸡蛋</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">将烤箱预热至325°F（165°C）。</li>\r\n  <li class=\"list-group-item\">在碗中，混合杏仁粉、赤藓糖醇粉和融化的大麻黄油。</li>\r\n  <li class=\"list-group-item\">将混合物压入涂油的方形烤盘底部。</li>\r\n  <li class=\"list-group-item\">在预热好的烤箱中烤底层10分钟，然后取出备用。</li>\r\n  <li class=\"list-group-item\">在搅拌碗中，将软化的奶油芝士、赤藓糖醇粉和香草精打至顺滑细腻。</li>\r\n  <li class=\"list-group-item\">逐个加入鸡蛋，每加一个后充分搅拌。</li>\r\n  <li class=\"list-group-item\">将奶油芝士混合物倒在烤盘中烤好的底层上。</li>\r\n  <li class=\"list-group-item\">烤25-30分钟，或直到芝士蛋糕定型且略带金黄色。</li>\r\n  <li class=\"list-group-item\">从烤箱取出，让芝士蛋糕冷却至室温。</li>\r\n  <li class=\"list-group-item\">将芝士蛋糕冷藏至少4小时或过夜使其变硬。</li>\r\n  <li class=\"list-group-item\">将冷却的芝士蛋糕切成一口大小的方块，端上您的大麻生酮芝士蛋糕球。</li>\r\n  <li class=\"list-group-item\">在坚持生酮饮食的同时，享受这些奶油般细腻的美味！</li>\r\n</ul>"
+  },
+  "infused-keto-cauliflower-pizza-crust": {
+    "name": "注入大麻的生酮花椰菜披萨饼底",
+    "description": "用注入大麻的花椰菜饼底革新您的披萨之夜。每一口都能享受到天然的美好，均衡而美味。",
+    "category_name": "生酮",
+    "ingredients": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">1个小花椰菜，碾碎成米粒状</li>\r\n  <li class=\"list-group-item\">1/2杯马苏里拉芝士丝</li>\r\n  <li class=\"list-group-item\">2汤匙杏仁粉</li>\r\n  <li class=\"list-group-item\">1汤匙<a href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">注入大麻的橄榄油</a></li>\r\n  <li class=\"list-group-item\">1个鸡蛋</li>\r\n  <li class=\"list-group-item\">1/2茶匙干牛至</li>\r\n  <li class=\"list-group-item\">1/2茶匙大蒜粉</li>\r\n  <li class=\"list-group-item\">1/4茶匙盐</li>\r\n</ul>",
+    "instructions": "<ul class=\"list-group\">\r\n  <li class=\"list-group-item\">将烤箱预热至425°F（220°C），在烤盘上铺上烘焙纸。</li>\r\n  <li class=\"list-group-item\">将碾碎的花椰菜放入微波炉安全碗中，微波5-6分钟至变软。</li>\r\n  <li class=\"list-group-item\">让花椰菜稍微冷却，然后转移到干净的厨房毛巾上。</li>\r\n  <li class=\"list-group-item\">用毛巾包住花椰菜，尽可能挤出水分。</li>\r\n  <li class=\"list-group-item\">在搅拌碗中，混合花椰菜、马苏里拉芝士丝、杏仁粉、注入大麻的橄榄油、鸡蛋、干牛至、大蒜粉和盐。</li>\r\n  <li class=\"list-group-item\">搅拌至充分混合。</li>\r\n  <li class=\"list-group-item\">将花椰菜混合物转移到烤盘上，塑造成披萨饼底的形状。</li>\r\n  <li class=\"list-group-item\">在预热好的烤箱中烤12-15分钟，或直到饼底呈金黄色且变硬。</li>\r\n  <li class=\"list-group-item\">从烤箱取出，添加您喜欢的配料。</li>\r\n  <li class=\"list-group-item\">将披萨放回烤箱，再烤8-10分钟，直到芝士融化起泡。</li>\r\n  <li class=\"list-group-item\">切片享用您的生酮大麻花椰菜披萨！</li>\r\n</ul>"
+  },
+  "infused-milk": {
+    "name": "注入大麻的牛奶",
+    "description": "来一杯冰镇奶昔怎么样？或者在派上加些打发奶油？注入大麻的牛奶非常适合这些食谱。",
+    "category_name": "基础",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">牛奶、奶油、椰奶或其他牛奶替代品</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">1 </span> 每升牛奶使用的研磨大麻</li>\r\n\t<li class=\"list-group-item\">平底锅</li>\r\n\t<li class=\"list-group-item\">搅拌器</li>\r\n\t<li class=\"list-group-item\">粗棉布</li>\r\n\t<li class=\"list-group-item\">密封罐</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">将大麻研磨成细末，以增大接触面积。</li>\r\n\t<li class=\"list-group-item\">接下来，将研磨好的大麻直接加入牛奶中，用小火加热并搅拌混合。注意不要让混合物沸腾溢出！</li>\r\n\t<li class=\"list-group-item\">经常搅拌牛奶混合物以防止烧焦，让大麻和牛奶慢炖30分钟至1小时，具体时间取决于您想要的效力。</li>\r\n\t<li class=\"list-group-item\">30分钟至1小时后，离火静置5-10分钟，帮助大麻素渗入脂肪细胞。</li>\r\n\t<li class=\"list-group-item\">将粗棉布放在大密封罐或其他密封液体储存容器顶部，然后将混合物通过粗棉布过滤，滤掉所有植物残渣。</li>\r\n\t<li class=\"list-group-item\">当温度降到可以触摸时，将粗棉布中所有多余液体挤入储存容器中。</li>\r\n\t<li class=\"list-group-item\">密封容器，标注内容物和保质期（与牛奶容器上标注的日期相同），或冻成冰块以备后用。</li>\r\n</ul>\r\n"
+  },
+  "infused-coconut-curry": {
+    "name": "注入大麻的椰子咖喱",
+    "description": "芳香香料、浓郁椰子和注入大麻的美妙融合。用嫩蔬菜和蛋白质提升您的感官，带来一道真正令人难忘的菜肴。",
+    "category_name": "正餐",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">2汤匙<a class=\"recipe-reference\" href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n\t<li class=\"list-group-item\">1个洋葱，切碎</li>\r\n\t<li class=\"list-group-item\">3瓣大蒜，切碎</li>\r\n\t<li class=\"list-group-item\">1汤匙新鲜生姜碎</li>\r\n\t<li class=\"list-group-item\">2汤匙咖喱粉</li>\r\n\t<li class=\"list-group-item\">1罐（14盎司）椰奶</li>\r\n\t<li class=\"list-group-item\">1杯蔬菜高汤</li>\r\n\t<li class=\"list-group-item\">1杯切丁土豆</li>\r\n\t<li class=\"list-group-item\">2根胡萝卜，切片</li>\r\n\t<li class=\"list-group-item\">1个红甜椒，切片</li>\r\n\t<li class=\"list-group-item\">1杯花椰菜小朵</li>\r\n\t<li class=\"list-group-item\">盐和胡椒适量</li>\r\n\t<li class=\"list-group-item\">新鲜香菜用于装饰</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在大煎锅或锅中，用中火加热注入大麻的椰子油。</li>\r\n\t<li class=\"list-group-item\">加入切碎的洋葱、大蒜碎和生姜碎。翻炒至洋葱变透明、大蒜散发香味。</li>\r\n\t<li class=\"list-group-item\">加入咖喱粉，再炒一分钟以释放香料的香味。</li>\r\n\t<li class=\"list-group-item\">倒入椰奶和蔬菜高汤。充分搅拌混合。</li>\r\n\t<li class=\"list-group-item\">在锅中加入切丁土豆、胡萝卜片、红甜椒片和花椰菜小朵。用盐和胡椒调味。</li>\r\n\t<li class=\"list-group-item\">盖上锅盖，慢炖15-20分钟，或直到蔬菜变软。</li>\r\n\t<li class=\"list-group-item\">将大麻椰子咖喱盛在米饭上或配馕饼食用。用新鲜香菜装饰。</li>\r\n</ul>\r\n"
+  },
+  "gummy-bears": {
+    "name": "小熊软糖",
+    "description": "如果您是小熊软糖的忠实粉丝，那您太幸运了！",
+    "category_name": "甜点",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac14;杯注入<span id=\"grams-quantity-recipe\">3.5克</span>大麻的椰子油 - <a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">查看食谱</a></li>\r\n\t<li class=\"list-group-item\">&frac12;茶匙葵花/大豆卵磷脂</li>\r\n\t<li class=\"list-group-item\">1盎司无味明胶</li>\r\n\t<li class=\"list-group-item\">&frac12;杯水</li>\r\n\t<li class=\"list-group-item\">1包6盎司果冻粉（任意口味）</li>\r\n\t<li class=\"list-group-item\">小熊软糖模具</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在小平底锅中，用中火将水和注入大麻的椰子油混合，搅拌至沸腾。</li>\r\n\t<li class=\"list-group-item\">逐一加入无味明胶，同时持续搅拌。</li>\r\n\t<li class=\"list-group-item\">加入有味果冻粉，继续搅拌约5分钟，煮至充分沸腾。</li>\r\n\t<li class=\"list-group-item\">转小火，在模具上喷洒烹饪喷雾。用滴管或勺子将每个模具填满。定期搅拌混合物。</li>\r\n\t<li class=\"list-group-item\">将模具放入冷冻室20分钟或冰箱冷藏1小时使其凝固。</li>\r\n\t<li class=\"list-group-item\">脱模后即可享用，或存放在密封容器中，室温保存2-3天。冷冻可延长保存时间。</li>\r\n</ul>\r\n"
+  },
+  "infused-spaghetti-bolognese": {
+    "name": "注入大麻的意大利肉酱面",
+    "description": "这道烹饪创作带您的味蕾踏上一段愉悦之旅，呈现出美味的交响乐。",
+    "category_name": "正餐",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1汤匙<a href=\"https://www.howtoedibles.com/recipes/infused-olive-oil\" target=\"_blank\">注入大麻的橄榄油</a></li>\r\n\t<li class=\"list-group-item\">1个洋葱，切碎</li>\r\n\t<li class=\"list-group-item\">2瓣大蒜，切碎</li>\r\n\t<li class=\"list-group-item\">1根胡萝卜，切碎</li>\r\n\t<li class=\"list-group-item\">1根芹菜，切碎</li>\r\n\t<li class=\"list-group-item\">1磅牛肉末</li>\r\n\t<li class=\"list-group-item\">1罐（14盎司）切丁番茄</li>\r\n\t<li class=\"list-group-item\">1罐（6盎司）番茄酱</li>\r\n\t<li class=\"list-group-item\">1/2杯红酒</li>\r\n\t<li class=\"list-group-item\">1茶匙干牛至</li>\r\n\t<li class=\"list-group-item\">1茶匙干罗勒</li>\r\n\t<li class=\"list-group-item\">盐和胡椒适量</li>\r\n\t<li class=\"list-group-item\">煮好的意大利面</li>\r\n\t<li class=\"list-group-item\">磨碎的帕玛森芝士用于装饰</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在大煎锅或锅中，用中火加热注入大麻的橄榄油。</li>\r\n\t<li class=\"list-group-item\">加入切碎的洋葱、大蒜、胡萝卜和芹菜。翻炒至蔬菜变软。</li>\r\n\t<li class=\"list-group-item\">在锅中加入牛肉末，炒至变色，用勺子边炒边将肉末打散。</li>\r\n\t<li class=\"list-group-item\">加入切丁番茄、番茄酱、红酒、干牛至、干罗勒、盐和胡椒。</li>\r\n\t<li class=\"list-group-item\">用小火慢炖酱汁约30分钟，偶尔搅拌。</li>\r\n\t<li class=\"list-group-item\">同时，按包装说明将意大利面煮至弹牙。</li>\r\n\t<li class=\"list-group-item\">酱汁准备好后，品尝并根据需要调整调味。</li>\r\n\t<li class=\"list-group-item\">将大麻肉酱浇在煮好的意大利面上。</li>\r\n\t<li class=\"list-group-item\">撒上磨碎的帕玛森芝士，享用这顿温暖的大麻美餐！</li>\r\n</ul>\r\n"
+  },
+  "pot-cookies": {
+    "name": "大麻饼干",
+    "description": "酥脆的边缘、浓郁的黄油太妃糖风味、大块的巧克力。",
+    "category_name": "甜点",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1/2杯<a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">大麻黄油</a></li>\r\n\t<li class=\"list-group-item\">1/2杯白砂糖</li>\r\n\t<li class=\"list-group-item\">1/4杯红糖</li>\r\n\t<li class=\"list-group-item\">2茶匙香草精</li>\r\n\t<li class=\"list-group-item\">1个大鸡蛋</li>\r\n\t<li class=\"list-group-item\">1又3/4杯中筋面粉</li>\r\n\t<li class=\"list-group-item\">1/2茶匙小苏打</li>\r\n\t<li class=\"list-group-item\">少许盐</li>\r\n\t<li class=\"list-group-item\">1杯巧克力豆</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">将烤箱预热至350°F。</li>\r\n\t<li class=\"list-group-item\">将大麻黄油微波加热约40秒。黄油应完全融化但不应过热。</li>\r\n\t<li class=\"list-group-item\">在大碗中，将大麻黄油和糖充分搅拌混合。</li>\r\n\t<li class=\"list-group-item\">加入香草精和鸡蛋，搅拌至充分融合。</li>\r\n\t<li class=\"list-group-item\">加入面粉、小苏打和盐。请阅读食谱中关于正确量取面粉的说明。</li>\r\n\t<li class=\"list-group-item\">搅拌面团至刚好混合。面团应柔软且略有粘性，但不会过于粘手。</li>\r\n\t<li class=\"list-group-item\">拌入巧克力豆。</li>\r\n\t<li class=\"list-group-item\">舀出1.5汤匙面团（中等大小的饼干勺），在烤盘上间隔2英寸放置。</li>\r\n\t<li class=\"list-group-item\">烤7-10分钟，或直到饼干定型。饼干会膨胀，中间看起来还略未烤透。</li>\r\n</ul>\r\n"
+  },
+  "pot-brownies": {
+    "name": "大麻布朗尼",
+    "description": "看这里！美味与快感的完美结合。",
+    "category_name": "甜点",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac12;杯<a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">大麻黄油</a></li>\r\n\t<li class=\"list-group-item\">1杯糖（或任何甜味剂）</li>\r\n\t<li class=\"list-group-item\">2个鸡蛋</li>\r\n\t<li class=\"list-group-item\">1茶匙香草精</li>\r\n\t<li class=\"list-group-item\">&frac14;茶匙泡打粉</li>\r\n\t<li class=\"list-group-item\">⅓杯可可粉</li>\r\n\t<li class=\"list-group-item\">&frac14;茶匙盐</li>\r\n\t<li class=\"list-group-item\">&frac12;杯面粉（或杏仁粉）</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">将烤箱预热至350&deg; F或180&deg; C。</li>\r\n\t<li class=\"list-group-item\">将融化的黄油和糖充分搅拌混合。</li>\r\n\t<li class=\"list-group-item\">加入鸡蛋和香草精；搅拌至刚好混合。</li>\r\n\t<li class=\"list-group-item\">在另一个碗中混合所有干料。</li>\r\n\t<li class=\"list-group-item\">将干料拌入黄油/糖混合物中。</li>\r\n\t<li class=\"list-group-item\">倒入涂油的9 x 9方形烤盘中。</li>\r\n\t<li class=\"list-group-item\">烤20分钟或直到边缘刚开始与烤盘分离。</li>\r\n\t<li class=\"list-group-item\">切块前先完全冷却。</li>\r\n</ul>\r\n"
+  },
+  "infused-grilled-cheese": {
+    "name": "注入大麻的烤芝士三明治",
+    "description": "快速简单的大麻烤芝士三明治食谱。",
+    "category_name": "小吃",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">2片面包</li>\r\n\t<li class=\"list-group-item\">2片切达芝士</li>\r\n\t<li class=\"list-group-item\">2茶匙<a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">大麻黄油</a></li>\r\n\t<li class=\"list-group-item\">1汤匙普通黄油</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在两片面包的一面均匀涂上普通黄油。然后在面包的另一面涂上大麻黄油。</li>\r\n\t<li class=\"list-group-item\">将切达芝士放在涂了大麻黄油的那一面。将两片面包合在一起，大麻黄油面朝内。</li>\r\n\t<li class=\"list-group-item\">用中火煎烤芝士三明治，直到芝士融化且两面呈金黄色，每面约3分钟。</li>\r\n</ul>\r\n"
+  },
+  "gingerbread-cookies": {
+    "name": "姜饼饼干",
+    "description": "用这款美味的饼干让您的节日更加特别！",
+    "category_name": "甜点",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\"><strong>饼干</strong></li>\r\n\t<li class=\"list-group-item\">1/2杯<a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/cannabutter\" target=\"_blank\">大麻黄油</a></li>\r\n\t<li class=\"list-group-item\">2又1/4杯面粉</li>\r\n\t<li class=\"list-group-item\">1/2杯糖</li>\r\n\t<li class=\"list-group-item\">1个鸡蛋</li>\r\n\t<li class=\"list-group-item\">1/2杯糖蜜</li>\r\n\t<li class=\"list-group-item\">1茶匙肉桂粉</li>\r\n\t<li class=\"list-group-item\">1茶匙姜粉</li>\r\n\t<li class=\"list-group-item\">1茶匙丁香粉</li>\r\n\t<li class=\"list-group-item\">1茶匙肉豆蔻粉</li>\r\n\t<li class=\"list-group-item\">1茶匙泡打粉</li>\r\n\t<li class=\"list-group-item\">1/2茶匙小苏打</li>\r\n\t<li class=\"list-group-item\">1/2茶匙盐</li>\r\n\t<br />\r\n\t<li class=\"list-group-item\"><strong>糖霜</strong></li>\r\n\t<li class=\"list-group-item\">2又1/4杯细糖粉</li>\r\n\t<li class=\"list-group-item\">1/3杯牛奶</li>\r\n\t<li class=\"list-group-item\">2个大蛋清</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在大碗中，用手持搅拌器低速搅拌黄油、面粉、糖、鸡蛋、糖蜜、肉桂、姜、丁香、肉豆蔻、泡打粉、小苏打和盐，直到充分混合。</li>\r\n\t<li class=\"list-group-item\">盖上保鲜膜，冷藏1小时。</li>\r\n\t<li class=\"list-group-item\">将烤箱预热至350&deg;F。</li>\r\n\t<li class=\"list-group-item\">在撒了少量面粉的工作台上，每次取一半面团，擀成1/8英寸厚。用撒了面粉的饼干模具切出形状。用金属铲或煎饼铲将饼干放在涂油的烤盘上，间隔1/2英寸。重新擀压剩余面团并继续切形状。记得切出适量的饼干，以保持与计算器中设定的剂量一致。</li>\r\n\t<li class=\"list-group-item\">烤8分钟，或至微微变色。将饼干转移到冷却架上完全冷却。</li>\r\n\t<li class=\"list-group-item\">制作糖霜：将糖粉、牛奶和蛋清搅打至浓稠但能通过裱花袋或挤瓶。如果太浓稠，逐渐加入更多牛奶。</li>\r\n\t<li class=\"list-group-item\">尽情享受装饰饼干的乐趣吧！</li>\r\n</ul>\r\n"
+  },
+  "trail-mix": {
+    "name": "什锦坚果",
+    "description": "用大麻油注入的种子和坚果的美味组合。",
+    "category_name": "小吃",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac18;杯<a href=\"https://www.howtoedibles.com/recipes/infused-coconut-oil\" target=\"_blank\">注入大麻的椰子油</a></li>\r\n\t<li class=\"list-group-item\">您喜欢的坚果</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">将大麻研磨成细末，以增大接触面积。</li>\r\n\t<li class=\"list-group-item\">将研磨好的大麻放入密封罐中，加入&frac14;杯椰子油。</li>\r\n\t<li class=\"list-group-item\">将密封罐盖紧。</li>\r\n\t<li class=\"list-group-item\">将密封罐放入沸水中，用中低火（240&deg; F - 115&deg; C）加热超过2小时。</li>\r\n\t<li class=\"list-group-item\">将罐中所有内容物倒在金属过滤器上的粗棉布中。</li>\r\n\t<li class=\"list-group-item\">收拢粗棉布，挤出所有剩余的液体。</li>\r\n\t<li class=\"list-group-item\">将椰子油与坚果混合。</li>\r\n</ul>\r\n"
+  },
+  "infused-honey": {
+    "name": "注入大麻的蜂蜜",
+    "description": "注入大麻的蜂蜜是将大麻加入您喜爱的饮品或甜点的绝佳方式。",
+    "category_name": "甜点",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac12;杯椰子油</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">3.5</span> 研磨好的大麻</li>\r\n\t<li class=\"list-group-item\">300克蜂蜜</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">将大麻研磨成细末，以增大接触面积。</li>\r\n\t<li class=\"list-group-item\">将研磨好的大麻放入密封罐中，加入&frac12;杯椰子油。</li>\r\n\t<li class=\"list-group-item\">将密封罐盖紧。</li>\r\n\t<li class=\"list-group-item\">将密封罐放入沸水中，用中低火（240&deg; F - 115&deg; C）加热超过2小时。</li>\r\n\t<li class=\"list-group-item\">将罐中所有内容物倒在金属过滤器上的粗棉布中。</li>\r\n\t<li class=\"list-group-item\">收拢粗棉布，挤出所有剩余的液体。</li>\r\n\t<li class=\"list-group-item\">将椰子油和蜂蜜放入搅拌机中混合。</li>\r\n\t<li class=\"list-group-item\">将所有混合物装入密封罐或玻璃罐中保存。</li>\r\n</ul>\r\n"
+  },
+  "infused-whiskey": {
+    "name": "注入大麻的威士忌",
+    "description": "探索最佳威士忌的风味与美妙的大麻芳香的结合。",
+    "category_name": "饮品",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">750毫升波本威士忌一瓶</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">7克</span> 研磨好的大麻</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">将威士忌倒入可密封的罐子中（或先倒出一点威士忌以补偿大麻增加的体积），然后加入研磨好的大麻。</li>\r\n\t<li class=\"list-group-item\">摇晃瓶子，放在避光处静置至少48小时。每天至少摇晃一次，直到达到您想要的效力——如果可能的话最长可浸泡一个月。浸泡时间越长，效力越强。</li>\r\n\t<li class=\"list-group-item\">将威士忌混合物倒入玻璃容器中，用粗棉布过滤掉所有大麻残渣。根据需要重复此步骤，将所有威士忌从大麻渣中过滤出来，丢弃剩余的大麻渣。</li>\r\n</ul>\r\n"
+  },
+  "infused-chai": {
+    "name": "注入大麻的印度奶茶",
+    "description": "这款温暖浓郁的大麻印度奶茶配方是享受额外风味茶饮的好方法。",
+    "category_name": "饮品",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">茶包</li>\r\n\t<li class=\"list-group-item\">牛奶</li>\r\n\t<li class=\"list-group-item\"><span id=\"grams-quantity-recipe\">0.5 </span> 研磨好的大麻</li>\r\n\t<li class=\"list-group-item\">生姜</li>\r\n\t<li class=\"list-group-item\">小豆蔻</li>\r\n\t<li class=\"list-group-item\">糖或任何甜味剂</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">对大麻进行脱羧处理 - <a href=\"https://www.youtube.com/watch?v=MYEQaTG0WX8\" rel=\"noopener noreferrer\" target=\"_blank\">了解方法</a></li>\r\n\t<li class=\"list-group-item\">在锅中开始煮牛奶。</li>\r\n\t<li class=\"list-group-item\">铺开一块粗棉布。</li>\r\n\t<li class=\"list-group-item\">将生姜和香料捣碎。</li>\r\n\t<li class=\"list-group-item\">将大麻和所有捣碎的香料放入粗棉布中，像茶包一样包好。</li>\r\n\t<li class=\"list-group-item\">将茶包在牛奶中浸泡两小时。</li>\r\n\t<li class=\"list-group-item\">将牛奶倒入壶中。</li>\r\n\t<li class=\"list-group-item\">现在准备您的杯子，将牛奶与红茶茶包混合，加入一些糖。</li>\r\n</ul>\r\n"
+  },
+  "weed-infused-popcorn": {
+    "name": "注入大麻的爆米花",
+    "description": "看您最喜欢的电影时完美的咸味零食。",
+    "category_name": "小吃",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">&frac14;杯<a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/butter\" target=\"_blank\">大麻黄油</a></li>\r\n\t<li class=\"list-group-item\">⅓ - ⅔杯爆米花玉米粒</li>\r\n\t<li class=\"list-group-item\">盐适量</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">在2-3夸脱的带盖平底锅中，用中高火加热黄油。倒入爆米花玉米粒，撒上足够的盐轻轻覆盖玉米粒层。记住，之后可以随时加更多盐。将黄油加入锅中，盖上锅盖。</li>\r\n\t<li class=\"list-group-item\">玉米粒开始爆裂后，不断前后摇晃锅，直到爆裂声间隔约2秒时，立即离火将爆米花倒入上菜碗中。品尝后根据需要加盐。</li>\r\n</ul>\r\n"
+  },
+  "infused-eggnog": {
+    "name": "注入大麻的蛋酒",
+    "description": "是时候来点节日的欢乐了！何不让它更加特别？",
+    "category_name": "饮品",
+    "ingredients": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">1杯<a class=\"recipe-reference\" href=\"http://www.howtoedibles.com/recipes/infused-milk\" target=\"_blank\">注入大麻的牛奶</a></li>\r\n\t<li class=\"list-group-item\">4个鸡蛋</li>\r\n\t<li class=\"list-group-item\">6汤匙糖</li>\r\n\t<li class=\"list-group-item\">1杯浓奶油</li>\r\n\t<li class=\"list-group-item\">1茶匙肉豆蔻碎</li>\r\n\t<li class=\"list-group-item\">6汤匙波本威士忌（可选）</li>\r\n\t<li class=\"list-group-item\">肉桂粉用于装饰</li>\r\n</ul>\r\n",
+    "instructions": "<ul class=\"list-group\">\r\n\t<li class=\"list-group-item\">将蛋黄和蛋清分离。</li>\r\n\t<li class=\"list-group-item\">在碗中，将蛋黄和糖打至颜色变浅且糖完全溶解。</li>\r\n\t<li class=\"list-group-item\">在中等大小的平底锅中，用大火将牛奶、浓奶油和肉豆蔻混合，煮至刚好沸腾，偶尔搅拌。离火后慢慢将热混合物调入蛋黄糖混合物中。然后将所有东西倒回锅中，加热至混合物达到160华氏度。离火，加入波本/威士忌，倒入中等搅拌碗中，放入冰箱冷藏。</li>\r\n\t<li class=\"list-group-item\">在中等搅拌碗中，将蛋清打至软性发泡。继续搅拌的同时逐渐加入1汤匙糖，打至硬性发泡。将蛋清搅入冷藏的混合物中。</li>\r\n\t<li class=\"list-group-item\">按照计算器中设定的份数倒入杯中以保持剂量一致，用肉桂粉装饰！</li>\r\n</ul>\r\n"
+  },
+  "infused-ghee": {
+    "name": "注入大麻的酥油",
+    "description": "注入大麻的酥油（澄清黄油）是一种多用途的高烟点烹饪油脂。非常适合煎炒、涂面包片或加入早晨的咖啡中。它比普通大麻黄油保存时间更长，拥有浓郁的坚果香味。",
+    "category_name": "基础",
+    "ingredients": "<ul><li>1杯（2条）无盐黄油</li><li>3.5克大麻，已脱羧并研磨</li><li>粗棉布用于过滤</li><li>密封罐用于储存</li></ul>",
+    "instructions": "<ul><li>在平底锅中用中低火融化黄油。它会开始起泡并发出噼啪声——那是水分在蒸发。</li><li>噼啪声减弱后，乳固体沉到底部并变成金黄色时，加入脱羧好的大麻。</li><li>用最小火慢炖45分钟，偶尔搅拌。不要让它烧焦。</li><li>用粗棉布过滤到密封罐中，挤出所有的油脂。</li><li>在室温下冷却，然后放入冰箱。酥油会凝固，可保存长达3个月。</li></ul>"
+  },
+  "infused-condensed-milk": {
+    "name": "注入大麻的炼乳",
+    "description": "浓郁、香甜的注入大麻的炼乳，非常适合制作软糖、椰丝球和其他甜点。是您的大麻厨房必备基础。",
+    "category_name": "基础",
+    "ingredients": "<ul><li>1罐（14盎司）甜炼乳</li><li>1汤匙大麻黄油或注入大麻的椰子油</li><li>平底锅</li><li>搅拌器</li><li>密封罐</li></ul>",
+    "instructions": "<ul><li>确保您的大麻黄油或注入大麻的椰子油已准备好。如果没有，请先制作。</li><li>将炼乳倒入平底锅中，用小火加热。</li><li>加入大麻黄油或注入大麻的椰子油，搅拌至完全融合。</li><li>保持小火搅拌10-15分钟。不要让它沸腾。</li><li>离火，稍微冷却。</li><li>转移到密封罐或密封容器中。放在冰箱中最多可保存2周。</li></ul>"
+  },
+  "cannabis-hot-chocolate": {
+    "name": "大麻热巧克力",
+    "description": "用注入大麻的牛奶或椰子油制作的浓郁温暖的热巧克力。非常适合寒冷的夜晚或漫长一天后的放松时刻。用您最喜欢的热可可配方，只需换上注入大麻的基础原料即可。",
+    "category_name": "饮品",
+    "ingredients": "<ul><li>2杯注入大麻的牛奶（参见注入大麻的牛奶食谱）</li><li>3汤匙无糖可可粉</li><li>2汤匙糖或您选择的甜味剂</li><li>少许盐</li><li>1/4茶匙香草精</li><li>鲜奶油用于顶部装饰（可选）</li></ul>",
+    "instructions": "<ul><li>在小平底锅中用中低火加热注入大麻的牛奶。不要煮沸。</li><li>加入可可粉、糖和盐，搅拌至完全溶解且顺滑。</li><li>加入香草精，搅拌混合。</li><li>倒入杯中，根据需要加上鲜奶油。</li><li>立即享用，慢慢品味——食用大麻食品需要一定时间才能生效。</li></ul>"
+  },
+  "infused-cold-brew": {
+    "name": "注入大麻的冷萃咖啡",
+    "description": "大麻冷萃咖啡口感顺滑、低酸度，体验与众不同。将咖啡因和THC搭配，开启高效的早晨或充满创造力的午后。由于冷萃咖啡是水基的，使用注入大麻的椰子油来绑定THC。",
+    "category_name": "饮品",
+    "ingredients": "<ul><li>1杯粗磨咖啡粉</li><li>4杯冷过滤水</li><li>1茶匙注入大麻的椰子油（参见注入大麻的椰子油食谱）</li><li>冰块</li><li>牛奶或奶油适量</li></ul>",
+    "instructions": "<ul><li>将咖啡粉和冷水混合在大罐中。搅拌使咖啡粉完全浸湿。</li><li>盖上盖子，冷藏12-24小时。</li><li>用细网过滤器或粗棉布过滤到干净的罐中。丢弃咖啡渣。</li><li>饮用时，在杯中放满冰块，倒入冷萃咖啡（通常用水或牛奶1:1稀释）。</li><li>加入1茶匙注入大麻的椰子油，搅拌至乳化。您可以用小型奶泡器充分搅拌混合。</li><li>慢慢享用——咖啡因与大麻的结合会带来独特的体验。</li></ul>"
+  },
+  "weed-rice-krispie-treats": {
+    "name": "大麻米花糖",
+    "description": "一款经典的大麻食品，制作简单、易于控制剂量，深受大家喜爱。米花糖不需要烤箱，可以切成精确的份数以保持一致的剂量。非常适合初学者的大麻食谱。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>3汤匙大麻黄油（参见大麻黄油食谱）</li><li>1袋（10盎司）棉花糖</li><li>6杯大米花麦片（Rice Krispies或类似产品）</li><li>少许盐</li><li>防粘喷雾</li></ul>",
+    "instructions": "<ul><li>用防粘喷雾在9x13英寸烤盘上涂油，备用。</li><li>在大锅中用小火融化大麻黄油。保持低温以保留THC。</li><li>加入棉花糖，不断搅拌至完全融化且顺滑。离火。</li><li>迅速拌入大米花麦片和盐，搅拌至完全裹匀。</li><li>倒入准备好的烤盘中，用涂了油的刮刀或双手压平。</li><li>完全冷却（约30分钟），然后切成12块相等的方块。</li><li>存放在密封容器中，室温下可保存3天。</li></ul>"
+  },
+  "cannabis-caramel-sauce": {
+    "name": "大麻焦糖酱",
+    "description": "一款丝滑金黄的大麻焦糖酱，可以淋在冰淇淋、布朗尼、煎饼上，或直接用勺子品尝。用大麻黄油轻松注入，风味浓郁。约可制作12份。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>1杯白砂糖</li><li>6汤匙大麻黄油（参见大麻黄油食谱）</li><li>1/2杯浓奶油，室温</li><li>1茶匙香草精</li><li>1/2茶匙海盐</li></ul>",
+    "instructions": "<ul><li>在厚底平底锅中用中火加热糖，用木勺不断搅拌直到糖融化并变成琥珀色。</li><li>完全融化后，一次性加入大麻黄油。混合物会剧烈起泡——继续搅拌。</li><li>慢慢加入浓奶油。混合物会再次起泡。继续搅拌至顺滑。</li><li>离火，加入香草精和海盐搅拌。</li><li>使用前冷却10分钟。装入罐中放冰箱保存，最多可保存2周。</li><li>食用前轻轻加热。分成12份作为配料使用。</li></ul>"
+  },
+  "infused-hummus": {
+    "name": "注入大麻的鹰嘴豆泥",
+    "description": "用注入大麻的橄榄油制作的奶油般顺滑的鹰嘴豆泥。一款健康美味的零食，可搭配皮塔饼、蔬菜或饼干食用。用搅拌机即可轻松制作，每份剂量容易控制。",
+    "category_name": "小吃",
+    "ingredients": "<ul><li>1罐（15盎司）鹰嘴豆，沥干并冲洗</li><li>3汤匙注入大麻的橄榄油（参见注入大麻的橄榄油食谱）</li><li>3汤匙芝麻酱</li><li>2汤匙柠檬汁</li><li>1瓣大蒜</li><li>1/2茶匙盐</li><li>1/4茶匙孜然</li><li>2-3汤匙冷水</li><li>辣椒粉和普通橄榄油用于装饰</li></ul>",
+    "instructions": "<ul><li>将鹰嘴豆、芝麻酱、柠檬汁、大蒜、盐和孜然放入食物处理机中。</li><li>搅拌约1分钟至大致混合。</li><li>在处理机运转时，慢慢倒入注入大麻的橄榄油和冷水。</li><li>再搅拌2-3分钟至非常顺滑细腻。</li><li>品尝并根据喜好调整盐或柠檬的用量。</li><li>转移到上菜碗中，淋上普通橄榄油，撒上辣椒粉。</li><li>分成8份以准确控制剂量。冷藏保存最多5天。</li></ul>"
+  },
+  "infused-granola": {
+    "name": "注入大麻的格兰诺拉麦片",
+    "description": "用大麻黄油或注入大麻的椰子油制作的香脆金黄格兰诺拉麦片。搭配酸奶、牛奶食用或作为什锦零食都很棒。烤一大批，分成小份，方便整周准确控制剂量。",
+    "category_name": "小吃",
+    "ingredients": "<ul><li>3杯燕麦片</li><li>1/2杯坚果（杏仁、山核桃或核桃）</li><li>1/4杯种子（南瓜子或葵花子）</li><li>3汤匙大麻黄油或注入大麻的椰子油，融化</li><li>3汤匙蜂蜜或枫糖浆</li><li>1茶匙香草精</li><li>1/2茶匙肉桂粉</li><li>少许盐</li><li>1/2杯果干（可选，烤好后添加）</li></ul>",
+    "instructions": "<ul><li>将烤箱预热至300°F（150°C）——较低的温度有助于保留THC。</li><li>在大碗中，混合燕麦片、坚果、种子、肉桂粉和盐。</li><li>在小碗中，将融化的大麻黄油、蜂蜜和香草精搅拌均匀。</li><li>将湿料倒在干料上，翻拌至完全裹匀。</li><li>铺在铺了烘焙纸的烤盘上，薄薄地均匀铺开。</li><li>烤30-35分钟，每10分钟搅拌一次，直到呈金黄色并散发香味。</li><li>取出，完全冷却——冷却后会变得更脆。</li><li>如果使用果干，此时拌入。分成12份以准确控制剂量。</li></ul>"
+  },
+  "cannabis-avocado-toast": {
+    "name": "大麻牛油果吐司",
+    "description": "淋上注入大麻的橄榄油，升级您的牛油果吐司。简单、快速、美味。牛油果中的健康脂肪还能帮助您的身体更有效地吸收THC，使其成为生物利用度最高的大麻食品之一。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2片厚面包（酸面包或全麦面包）</li><li>1个熟牛油果</li><li>1汤匙注入大麻的橄榄油（参见注入大麻的橄榄油食谱）</li><li>半个柠檬的汁</li><li>盐和胡椒适量</li><li>辣椒片、百吉饼调味料或新鲜香草用于装饰</li><li>可选：顶部加一个水波蛋</li></ul>",
+    "instructions": "<ul><li>将面包烤至您喜欢的程度。</li><li>将牛油果切半，去核，将果肉舀入碗中。</li><li>用叉子捣碎。加入柠檬汁、盐和胡椒。简单混合——保持一些块状。</li><li>将牛油果泥大方地涂在烤面包上。</li><li>在上面淋上注入大麻的橄榄油。</li><li>用辣椒片、调味料或香草装饰。如果需要可以加一个水波蛋。</li><li>可做2份。注意用量，至少等待一小时再考虑加份。</li></ul>"
+  },
+  "cannabis-salad-dressing": {
+    "name": "大麻沙拉酱",
+    "description": "一款简单的大麻油醋汁，将任何沙拉变成注入大麻的美餐。用注入大麻的橄榄油和几种厨房常备食材制作。摇匀，淋上，就能享用一份健康美味、精确控制份量的大麻食品。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>3汤匙注入大麻的橄榄油（参见注入大麻的橄榄油食谱）</li><li>1汤匙普通橄榄油</li><li>2汤匙苹果醋或红酒醋</li><li>1茶匙第戎芥末酱</li><li>1茶匙蜂蜜</li><li>1小瓣大蒜，切碎</li><li>盐和胡椒适量</li></ul>",
+    "instructions": "<ul><li>将所有食材放入带盖的小罐中。</li><li>用力摇晃至乳化并充分混合。</li><li>品尝并根据喜好调整酸度或甜度。</li><li>在上桌前淋在沙拉上——不要提前拌沙拉。</li><li>此食谱可做4份。沙拉酱罐放冰箱保存最多1周。</li><li>每次使用前摇匀，因为油和醋会分层。</li></ul>"
+  },
+  "infused-chocolate-bark": {
+    "name": "注入大麻的巧克力薄片",
+    "description": "用大麻黄油注入的黑巧克力薄片，配上您喜欢的配料。生酮友好、制作简单，作为礼物或零食都很漂亮。巧克力是理想的大麻食品载体——它能掩盖大麻的味道，而且容易精确分份。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>200克黑巧克力（85%可可含量或更高以符合生酮要求）</li><li>1汤匙大麻黄油，软化（参见大麻黄油食谱）</li><li>1/4杯配料：海盐片、碎坚果、蔓越莓干或可可碎粒</li></ul>",
+    "instructions": "<ul><li>将黑巧克力放在耐热碗中，架在一锅微沸的水上（隔水加热），搅拌至融化顺滑。</li><li>离火，加入软化的大麻黄油搅拌至完全融合。</li><li>在烤盘上铺烘焙纸。倒入巧克力混合物，均匀铺开至约1/4英寸厚。</li><li>迅速在表面撒上您选择的配料。</li><li>冷藏至少30分钟，直到完全凝固变硬。</li><li>掰成12块大小大致相等的碎片。存放在冰箱的密封容器中，最多可保存2周。</li></ul>"
+  },
+  "cannabis-vegan-brownies": {
+    "name": "大麻纯素布朗尼",
+    "description": "用大麻椰子油制作的浓郁软糯布朗尼——100%纯植物制作。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>1杯注入大麻的椰子油</li><li>1又1/2杯蔗糖</li><li>2个亚麻蛋（2汤匙亚麻籽粉 + 6汤匙水）</li><li>1茶匙香草精</li><li>1杯面粉</li><li>1/2杯可可粉</li><li>1/2茶匙盐</li><li>1/2茶匙泡打粉</li><li>1/2杯纯素巧克力豆</li></ul>",
+    "instructions": "<ul><li>将烤箱预热至350°F。制作亚麻蛋；静置5分钟。</li><li>将大麻椰子油、糖、亚麻蛋和香草精搅拌混合。</li><li>拌入面粉、可可粉、盐和泡打粉。</li><li>拌入巧克力豆。倒入涂油的8x8烤盘中。</li><li>烤25-30分钟。切块前先冷却。</li></ul>"
+  },
+  "infused-vegan-cheese-sauce": {
+    "name": "注入大麻的纯素芝士酱",
+    "description": "用大麻橄榄油制作的奶油般腰果芝士酱——搭配意面或玉米片都很棒。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>1杯生腰果，浸泡4小时</li><li>2汤匙大麻橄榄油</li><li>3汤匙营养酵母</li><li>1/2茶匙大蒜粉</li><li>1/2茶匙烟熏辣椒粉</li><li>1茶匙柠檬汁</li><li>1/2杯水</li><li>盐</li></ul>",
+    "instructions": "<ul><li>沥干腰果，与所有食材一起搅拌至丝滑。</li><li>在平底锅中用小火加热。</li><li>调整调味后即可上桌。</li></ul>"
+  },
+  "cannabis-lentil-soup": {
+    "name": "大麻扁豆汤",
+    "description": "用大麻橄榄油调味的浓郁红扁豆汤。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>1杯红扁豆</li><li>1个洋葱，切丁</li><li>3瓣大蒜</li><li>2根胡萝卜，切丁</li><li>1茶匙孜然</li><li>1茶匙香菜粉</li><li>1/2茶匙姜黄粉</li><li>4杯蔬菜高汤</li><li>2汤匙大麻橄榄油</li><li>盐、柠檬</li></ul>",
+    "instructions": "<ul><li>翻炒洋葱和大蒜。加入胡萝卜和香料。</li><li>加入扁豆和高汤。慢炖25分钟。</li><li>将一半打成糊状以获得更细腻的口感。</li><li>离火后：拌入大麻橄榄油和柠檬汁。</li></ul>"
+  },
+  "infused-vegan-pancakes": {
+    "name": "注入大麻的纯素煎饼",
+    "description": "用大麻椰子油制作的蓬松周末煎饼。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>1杯面粉</li><li>1汤匙糖</li><li>1茶匙泡打粉</li><li>1/2茶匙小苏打</li><li>少许盐</li><li>1杯燕麦奶</li><li>1茶匙苹果醋</li><li>2汤匙大麻椰子油</li><li>1茶匙香草精</li></ul>",
+    "instructions": "<ul><li>将燕麦奶和醋混合；静置5分钟。</li><li>混合所有干料。</li><li>将大麻椰子油和香草精加入燕麦奶混合物中。</li><li>将湿料和干料混合至刚好搅匀。</li><li>在不粘锅上每面煎2-3分钟。</li></ul>"
+  },
+  "cannabis-sweet-potato-curry": {
+    "name": "大麻红薯咖喱",
+    "description": "温暖的椰奶红薯鹰嘴豆咖喱，搭配大麻椰子油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>2汤匙大麻椰子油</li><li>1个洋葱</li><li>3瓣大蒜</li><li>1汤匙姜末</li><li>2汤匙咖喱粉</li><li>2个红薯，切块</li><li>400毫升椰奶</li><li>1罐鹰嘴豆</li><li>1杯蔬菜高汤</li><li>盐、青柠、香菜</li></ul>",
+    "instructions": "<ul><li>翻炒洋葱、大蒜、姜末，加入咖喱粉。</li><li>加入红薯、椰奶和高汤，小火炖煮20分钟。</li><li>加入鹰嘴豆，再煮5分钟。</li><li>离火后拌入大麻椰子油、青柠汁和香菜。</li></ul>"
+  },
+  "infused-jackfruit-tacos": {
+    "name": "注入大麻的菠萝蜜塔可",
+    "description": "手撕菠萝蜜塔可，搭配烟熏香料和大麻橄榄油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>2罐嫩菠萝蜜，沥干</li><li>2汤匙大麻橄榄油</li><li>1茶匙烟熏辣椒粉</li><li>1茶匙孜然</li><li>1茶匙蒜粉</li><li>½茶匙辣椒粉</li><li>8张玉米饼</li><li>牛油果、莎莎酱、青柠</li></ul>",
+    "instructions": "<ul><li>用叉子将菠萝蜜撕碎。</li><li>加入调味料煎炒至边缘焦化。</li><li>离火后拌入大麻橄榄油。</li><li>放入温热的玉米饼中，搭配牛油果和莎莎酱食用。</li></ul>"
+  },
+  "cannabis-vegan-chocolate-mousse": {
+    "name": "大麻纯素巧克力慕斯",
+    "description": "丝滑的牛油果巧克力慕斯，搭配大麻椰子油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>2个熟牛油果</li><li>¼杯可可粉</li><li>¼杯枫糖浆</li><li>2汤匙大麻椰子油</li><li>1茶匙香草精</li><li>少许盐</li></ul>",
+    "instructions": "<ul><li>将所有食材搅拌至顺滑。</li><li>品尝并调整甜度。</li><li>冷藏1小时后食用。</li><li>顶部放上浆果或椰子奶油。</li></ul>"
+  },
+  "infused-vegan-mac-and-cheese": {
+    "name": "注入大麻的纯素芝士通心粉",
+    "description": "温馨的植物基通心粉，搭配腰果大麻酱。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>300克通心粉</li><li>1杯浸泡过的腰果</li><li>2汤匙大麻橄榄油</li><li>3汤匙营养酵母</li><li>1茶匙蒜粉</li><li>1茶匙洋葱粉</li><li>½茶匙姜黄粉</li><li>1杯煮面水</li><li>盐</li></ul>",
+    "instructions": "<ul><li>煮面条，留1杯煮面水。</li><li>将腰果、大麻油、营养酵母、香料和½杯水搅拌至顺滑。</li><li>沥干面条后与酱汁在小火上拌匀，根据需要加水。</li><li>调味后食用。</li></ul>"
+  },
+  "cannabis-coconut-milk-ice-cream": {
+    "name": "大麻椰奶冰淇淋",
+    "description": "三种食材制作的奶油纯素冰淇淋，搭配大麻椰子油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>2罐全脂椰奶，冷藏过夜</li><li>3汤匙大麻椰子油</li><li>½杯枫糖浆</li><li>1茶匙香草精</li><li>少许盐</li></ul>",
+    "instructions": "<ul><li>舀出罐头顶部的固体椰奶油，打发至蓬松。</li><li>拌入大麻油、枫糖浆、香草精和盐。</li><li>冷冻4-6小时。食用前静置5分钟再挖取。</li></ul>"
+  },
+  "infused-chickpea-stew": {
+    "name": "注入大麻的鹰嘴豆炖菜",
+    "description": "番茄鹰嘴豆炖菜，最后加入大麻橄榄油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>2罐鹰嘴豆</li><li>2汤匙大麻橄榄油</li><li>1个洋葱</li><li>4瓣大蒜</li><li>1茶匙烟熏辣椒粉</li><li>1茶匙孜然</li><li>½茶匙辣椒粉</li><li>1罐碎番茄</li><li>1杯蔬菜高汤</li><li>欧芹</li></ul>",
+    "instructions": "<ul><li>翻炒洋葱和大蒜，加入香料。</li><li>加入鹰嘴豆、番茄和高汤，小火炖煮20分钟。</li><li>离火后拌入大麻橄榄油，调味并装饰。</li></ul>"
+  },
+  "cannabis-vegan-protein-balls": {
+    "name": "大麻纯素蛋白球",
+    "description": "免烘烤能量球，搭配花生酱和大麻椰子油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>1杯燕麦</li><li>½杯花生酱</li><li>3汤匙大麻椰子油</li><li>3汤匙枫糖浆</li><li>2汤匙亚麻籽</li><li>2汤匙纯素蛋白粉</li><li>½杯纯素巧克力碎片</li><li>1茶匙香草精</li></ul>",
+    "instructions": "<ul><li>混合所有食材。如果太粘，冷藏15分钟。</li><li>搓成汤匙大小的球。</li><li>冷藏30分钟后食用。冷藏可保存1周。</li></ul>"
+  },
+  "infused-vegan-pesto-zoodles": {
+    "name": "注入大麻的纯素青酱西葫芦面",
+    "description": "螺旋切的西葫芦面搭配大麻橄榄油制作的罗勒青酱。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>4条西葫芦，螺旋切</li><li>2杯新鲜罗勒</li><li>3汤匙大麻橄榄油</li><li>¼杯松子</li><li>3瓣大蒜</li><li>1汤匙柠檬汁</li><li>盐、胡椒</li><li>小番茄</li></ul>",
+    "instructions": "<ul><li>将罗勒、松子、大蒜、柠檬汁和大麻油搅拌成酱，调味。</li><li>西葫芦面快炒1-2分钟（或生吃）。</li><li>拌入青酱，顶部放上小番茄。</li></ul>"
+  },
+  "cannabis-black-bean-soup": {
+    "name": "大麻黑豆汤",
+    "description": "烟熏风味的黑豆汤，最后加入大麻橄榄油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>2罐黑豆</li><li>2汤匙大麻橄榄油</li><li>1个洋葱</li><li>4瓣大蒜</li><li>1个墨西哥辣椒</li><li>2茶匙孜然</li><li>1茶匙烟熏辣椒粉</li><li>3杯蔬菜高汤</li><li>青柠、香菜</li></ul>",
+    "instructions": "<ul><li>翻炒洋葱、大蒜和墨西哥辣椒，加入香料。</li><li>加入黑豆和高汤，小火炖煮20分钟。</li><li>将一半搅拌成泥，倒回锅中。</li><li>离火后拌入大麻油和青柠汁，搭配香菜食用。</li></ul>"
+  },
+  "infused-vegan-banana-ice-cream": {
+    "name": "注入大麻的纯素香蕉冰淇淋",
+    "description": "只需一种食材的香蕉冰淇淋，搭配大麻椰子油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>4根非常熟的冷冻香蕉</li><li>2汤匙大麻椰子油</li><li>1茶匙香草精</li><li>可选：花生酱或可可粉</li></ul>",
+    "instructions": "<ul><li>将冷冻香蕉搅拌至顺滑细腻。</li><li>加入大麻油和香草精，再次搅拌。</li><li>加入可选配料，快速搅拌几下。</li><li>立即作为软冰淇淋食用，或冷冻1小时后可挖取。</li></ul>"
+  },
+  "cannabis-roasted-vegetable-medley": {
+    "name": "大麻烤蔬菜拼盘",
+    "description": "色彩缤纷的烤盘蔬菜，烤后淋上大麻橄榄油。",
+    "category_name": "纯素",
+    "ingredients": "<ul><li>1个红椒，切块</li><li>1条西葫芦，切块</li><li>1个红洋葱，切角</li><li>1杯小番茄</li><li>200克西兰花小朵</li><li>2汤匙橄榄油</li><li>1茶匙意大利调味料</li><li>2汤匙大麻橄榄油（最后淋上）</li><li>新鲜罗勒</li></ul>",
+    "instructions": "<ul><li>预热烤箱至425°F（220°C）。</li><li>将蔬菜与普通橄榄油、调味料、盐和胡椒拌匀。</li><li>烤25-30分钟，中途翻动一次。</li><li>淋上大麻橄榄油，撒上罗勒。</li></ul>"
+  },
+  "cannabis-keto-bacon-bites": {
+    "name": "大麻生酮培根卷",
+    "description": "酥脆的培根卷，内含奶油芝士和大麻黄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>12条培根</li><li>100克软化的奶油芝士</li><li>2汤匙大麻黄油</li><li>1茶匙蒜粉</li><li>½茶匙烟熏辣椒粉</li><li>12片墨西哥辣椒</li></ul>",
+    "instructions": "<ul><li>预热烤箱至400°F（200°C）。</li><li>混合奶油芝士、大麻黄油、蒜粉和辣椒粉。</li><li>涂在培根上，放上墨西哥辣椒片，卷起固定。</li><li>烤20-25分钟至酥脆。</li></ul>"
+  },
+  "infused-keto-chicken-wings": {
+    "name": "注入大麻的生酮鸡翅",
+    "description": "酥脆的烤鸡翅，搭配大麻黄油辣酱。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>1公斤鸡翅</li><li>1茶匙泡打粉</li><li>1茶匙蒜粉</li><li>盐和胡椒</li><li>3汤匙融化的大麻黄油</li><li>3汤匙辣酱</li><li>1茶匙苹果醋</li></ul>",
+    "instructions": "<ul><li>预热烤箱至425°F（220°C）。将鸡翅与泡打粉和香料拌匀。</li><li>放在烤架上烤45-50分钟，中途翻面。</li><li>搅拌大麻黄油、辣酱和醋。</li><li>将热鸡翅放入酱汁中拌匀。</li></ul>"
+  },
+  "cannabis-keto-deviled-eggs": {
+    "name": "大麻生酮魔鬼蛋",
+    "description": "经典魔鬼蛋，蛋黄馅加入大麻黄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>6个煮熟的鸡蛋</li><li>2汤匙软化的大麻黄油</li><li>2汤匙蛋黄酱</li><li>1茶匙第戎芥末</li><li>1茶匙苹果醋</li><li>盐、胡椒</li><li>辣椒粉和细香葱</li></ul>",
+    "instructions": "<ul><li>将鸡蛋对半切开，取出蛋黄。</li><li>将蛋黄与大麻黄油、蛋黄酱、芥末、醋、盐和胡椒捣碎混合。</li><li>挤入蛋白中。</li><li>撒上辣椒粉和细香葱。</li></ul>"
+  },
+  "infused-keto-stuffed-mushrooms": {
+    "name": "注入大麻的生酮酿蘑菇",
+    "description": "蘑菇内填入奶油芝士和大麻黄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>12个大蘑菇，去蒂</li><li>100克奶油芝士</li><li>2汤匙大麻黄油</li><li>3瓣大蒜，切碎</li><li>50克帕玛森芝士，磨碎</li><li>2汤匙欧芹</li><li>盐、胡椒</li></ul>",
+    "instructions": "<ul><li>预热烤箱至375°F（190°C）。</li><li>用大麻黄油炒大蒜1分钟。</li><li>与奶油芝士、帕玛森芝士、欧芹、盐和胡椒混合。</li><li>舀入蘑菇盖中，烤20-25分钟。</li></ul>"
+  },
+  "cannabis-keto-beef-chili": {
+    "name": "大麻生酮牛肉辣椒",
+    "description": "低碳牛肉辣椒，加入大麻橄榄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>500克牛肉碎</li><li>2汤匙大麻橄榄油</li><li>1个洋葱</li><li>4瓣大蒜</li><li>1汤匙辣椒粉</li><li>1茶匙孜然</li><li>1茶匙烟熏辣椒粉</li><li>1罐碎番茄</li><li>1杯牛肉高汤</li><li>酸奶油搭配食用</li></ul>",
+    "instructions": "<ul><li>将牛肉碎炒至变色，沥去多余油脂。</li><li>加入洋葱和大蒜，炒至软化。</li><li>加入香料、番茄和高汤，小火炖煮30分钟。</li><li>离火后拌入大麻油，搭配酸奶油食用。</li></ul>"
+  },
+  "infused-keto-zucchini-chips": {
+    "name": "注入大麻的生酮西葫芦脆片",
+    "description": "薄脆的烤西葫芦脆片，搭配大麻橄榄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>2条西葫芦，切非常薄的片</li><li>2汤匙大麻橄榄油</li><li>½茶匙蒜粉</li><li>½茶匙洋葱粉</li><li>盐、胡椒</li><li>¼杯帕玛森芝士，磨碎</li></ul>",
+    "instructions": "<ul><li>预热烤箱至225°F（110°C）。</li><li>将西葫芦片与大麻油和调味料拌匀。</li><li>单层铺开，撒上帕玛森芝士。</li><li>烤2-2.5小时至酥脆。在烤盘上冷却。</li></ul>"
+  },
+  "cannabis-keto-waffles": {
+    "name": "大麻生酮华夫饼",
+    "description": "蓬松的杏仁粉华夫饼，搭配大麻黄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>1杯杏仁粉</li><li>2汤匙椰子粉</li><li>2个鸡蛋</li><li>2汤匙融化的大麻黄油</li><li>¼杯杏仁奶</li><li>1茶匙泡打粉</li><li>少许盐</li><li>1茶匙香草精</li></ul>",
+    "instructions": "<ul><li>预热华夫饼机。</li><li>搅拌鸡蛋、大麻黄油、杏仁奶和香草精。</li><li>加入杏仁粉、椰子粉、泡打粉和盐。</li><li>在华夫饼机中烤至金黄。搭配无糖糖浆食用。</li></ul>"
+  },
+  "infused-keto-salmon-patties": {
+    "name": "注入大麻的生酮三文鱼饼",
+    "description": "煎三文鱼饼，搭配大麻黄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>400克熟三文鱼，拆碎</li><li>1个鸡蛋</li><li>3汤匙杏仁粉</li><li>2汤匙大麻黄油</li><li>2汤匙蛋黄酱</li><li>1汤匙第戎芥末</li><li>2根葱</li><li>盐、胡椒、柠檬</li></ul>",
+    "instructions": "<ul><li>混合三文鱼、鸡蛋、杏仁粉、蛋黄酱、芥末和葱。</li><li>做成6个饼。</li><li>在平底锅中融化大麻黄油。</li><li>每面煎3-4分钟至金黄。搭配柠檬食用。</li></ul>"
+  },
+  "cannabis-keto-spinach-dip": {
+    "name": "大麻生酮菠菜蘸酱",
+    "description": "温热的芝士菠菜蘸酱，搭配大麻黄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>2汤匙大麻黄油</li><li>300克冷冻菠菜，解冻并挤干水分</li><li>200克奶油芝士</li><li>½杯酸奶油</li><li>½杯马苏里拉芝士丝</li><li>¼杯帕玛森芝士</li><li>2瓣大蒜</li><li>盐、胡椒</li></ul>",
+    "instructions": "<ul><li>预热烤箱至375°F（190°C）。</li><li>用大麻黄油炒大蒜，加入菠菜。</li><li>拌入奶油芝士、酸奶油和一半的马苏里拉芝士。</li><li>倒入烤盘，顶部撒上剩余的芝士。</li><li>烤20-25分钟至冒泡。</li></ul>"
+  },
+  "infused-keto-almond-flour-cake": {
+    "name": "注入大麻的生酮杏仁粉蛋糕",
+    "description": "湿润的生酮蛋糕，使用杏仁粉和大麻黄油。",
+    "category_name": "生酮",
+    "ingredients": "<ul><li>2杯杏仁粉</li><li>3个鸡蛋</li><li>½杯融化的大麻黄油</li><li>½杯赤藓糖醇</li><li>1茶匙香草精</li><li>1茶匙泡打粉</li><li>少许盐</li><li>1个柠檬的皮碎</li></ul>",
+    "instructions": "<ul><li>预热烤箱至350°F（175°C）。在8英寸烤盘上涂油。</li><li>打发鸡蛋、大麻黄油、代糖和香草精。</li><li>拌入杏仁粉、泡打粉、盐和柠檬皮碎。</li><li>烤30-35分钟。完全冷却后食用。</li></ul>"
+  },
+  "cannabis-sparkling-lemonade": {
+    "name": "大麻气泡柠檬水",
+    "description": "带气泡的柠檬水，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>4个柠檬的汁</li><li>2汤匙大麻糖浆</li><li>1杯气泡水</li><li>冰块</li><li>柠檬片和薄荷装饰</li></ul>",
+    "instructions": "<ul><li>制作大麻糖浆：将糖溶于水中加热，冷却后拌入大麻酊剂。</li><li>混合柠檬汁和大麻糖浆。</li><li>加入冰块，倒入气泡水，装饰即可。</li></ul>"
+  },
+  "infused-virgin-mojito": {
+    "name": "注入大麻的无酒精莫吉托",
+    "description": "薄荷青柠无酒精鸡尾酒，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>2个青柠的汁</li><li>2汤匙大麻糖浆</li><li>10片新鲜薄荷叶</li><li>½杯气泡水</li><li>冰块</li><li>青柠角</li></ul>",
+    "instructions": "<ul><li>在杯中捣碎薄荷叶。</li><li>加入冰块、青柠汁和大麻糖浆。</li><li>倒入气泡水，用青柠装饰。</li></ul>"
+  },
+  "cannabis-cucumber-mint-cooler": {
+    "name": "大麻黄瓜薄荷清凉饮",
+    "description": "清爽的黄瓜薄荷无酒精鸡尾酒，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>½根黄瓜，切片</li><li>10片薄荷叶</li><li>2汤匙大麻糖浆</li><li>1个青柠的汁</li><li>1杯气泡水</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>将黄瓜和薄荷与糖浆和青柠汁一起捣碎。</li><li>加冰摇匀，过滤。</li><li>倒入气泡水。</li></ul>"
+  },
+  "infused-watermelon-slush": {
+    "name": "注入大麻的西瓜冰沙",
+    "description": "西瓜冰沙，搭配大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>4杯冷冻西瓜</li><li>2汤匙大麻蜂蜜</li><li>1个青柠的汁</li><li>少许盐</li><li>新鲜薄荷</li></ul>",
+    "instructions": "<ul><li>将西瓜、大麻蜂蜜、青柠汁和盐搅拌至顺滑。</li><li>倒入杯中，顶部放上薄荷。</li></ul>"
+  },
+  "cannabis-lavender-lemonade": {
+    "name": "大麻薰衣草柠檬水",
+    "description": "花香柠檬水，搭配大麻薰衣草糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>4个柠檬的汁</li><li>2汤匙大麻薰衣草糖浆</li><li>2杯冷水</li><li>冰块</li><li>干薰衣草</li></ul>",
+    "instructions": "<ul><li>将水、糖和薰衣草小火煮10分钟；过滤；加入大麻酊剂。</li><li>混合柠檬汁、糖浆和水，倒在冰块上。</li></ul>"
+  },
+  "infused-tropical-punch": {
+    "name": "注入大麻的热带水果宾治",
+    "description": "芒果、菠萝和百香果宾治，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1杯芒果汁</li><li>1杯菠萝汁</li><li>½杯百香果汁</li><li>2汤匙大麻糖浆</li><li>1个青柠的汁</li><li>气泡水</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>在水壶中混合果汁、大麻糖浆和青柠汁。</li><li>倒在冰块上，加入气泡水。</li></ul>"
+  },
+  "cannabis-strawberry-basil-smash": {
+    "name": "大麻草莓罗勒特饮",
+    "description": "夏日草莓罗勒无酒精鸡尾酒，搭配大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>6颗草莓，去蒂</li><li>6片罗勒叶</li><li>2汤匙大麻蜂蜜</li><li>1个柠檬的汁</li><li>气泡水</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>将草莓和罗勒与大麻蜂蜜和柠檬汁一起捣碎。</li><li>过滤后倒在冰块上，加入气泡水。</li></ul>"
+  },
+  "infused-hibiscus-tea": {
+    "name": "注入大麻的洛神花茶",
+    "description": "深红色洛神花冰茶，搭配大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>3汤匙干洛神花</li><li>4杯沸水</li><li>2汤匙大麻蜂蜜</li><li>1个青柠的汁</li><li>冰块</li><li>橙子片</li></ul>",
+    "instructions": "<ul><li>洛神花浸泡10分钟，过滤后冷却。</li><li>拌入大麻蜂蜜和青柠汁，加冰食用。</li></ul>"
+  },
+  "cannabis-peach-iced-tea": {
+    "name": "大麻蜜桃冰茶",
+    "description": "南方风味蜜桃冰茶，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>4个红茶包</li><li>4杯热水</li><li>2个熟桃子，切片</li><li>2汤匙大麻糖浆</li><li>半个柠檬的汁</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>泡茶5分钟。加入桃子片，冷却后冷藏1小时。</li><li>过滤，拌入大麻糖浆和柠檬汁，加冰食用。</li></ul>"
+  },
+  "infused-mango-lassi": {
+    "name": "注入大麻的芒果拉西",
+    "description": "奶油芒果拉西，搭配大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>2杯熟芒果</li><li>1杯酸奶</li><li>½杯牛奶</li><li>2汤匙大麻蜂蜜</li><li>½茶匙豆蔻粉</li><li>少许盐</li></ul>",
+    "instructions": "<ul><li>将所有食材搅拌至顺滑。</li><li>品尝并调整，倒入杯中。</li></ul>"
+  },
+  "cannabis-rose-lemonade": {
+    "name": "大麻玫瑰柠檬水",
+    "description": "优雅的花香柠檬水，搭配大麻酊剂。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>4个柠檬的汁</li><li>2汤匙玫瑰糖浆</li><li>1茶匙大麻酊剂</li><li>2杯气泡水</li><li>冰块</li><li>干玫瑰花瓣</li></ul>",
+    "instructions": "<ul><li>混合柠檬汁、玫瑰糖浆和大麻酊剂。</li><li>加入气泡水，倒在冰块上，用玫瑰花瓣装饰。</li></ul>"
+  },
+  "infused-pineapple-ginger-fizz": {
+    "name": "注入大麻的菠萝姜汁气泡饮",
+    "description": "热带风味菠萝姜汁气泡饮，搭配大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1杯新鲜菠萝汁</li><li>1英寸姜，磨碎</li><li>2汤匙大麻蜂蜜</li><li>1个青柠的汁</li><li>气泡水</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>混合菠萝汁、姜、大麻蜂蜜和青柠汁，过滤。</li><li>倒在冰块上，加入气泡水。</li></ul>"
+  },
+  "cannabis-cranberry-spritzer": {
+    "name": "大麻蔓越莓气泡饮",
+    "description": "节日风味蔓越莓气泡饮，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1杯蔓越莓汁</li><li>2汤匙大麻糖浆</li><li>半个橙子的汁</li><li>气泡水</li><li>冰块</li><li>蔓越莓、迷迭香</li></ul>",
+    "instructions": "<ul><li>混合蔓越莓汁、大麻糖浆和橙汁。</li><li>加入冰块和气泡水，装饰即可。</li></ul>"
+  },
+  "infused-matcha-cooler": {
+    "name": "注入大麻的抹茶冷饮",
+    "description": "冰抹茶，搭配大麻蜂蜜和燕麦奶。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1茶匙抹茶粉</li><li>2汤匙热水</li><li>1杯冷燕麦奶</li><li>2汤匙大麻蜂蜜</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>将抹茶与热水搅拌至顺滑，加入大麻蜂蜜。</li><li>杯中放满冰块和燕麦奶，将抹茶倒在上面。</li></ul>"
+  },
+  "cannabis-passion-fruit-lemonade": {
+    "name": "大麻百香果柠檬水",
+    "description": "热带风味柠檬水，搭配百香果和大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>4个百香果的果肉</li><li>3个柠檬的汁</li><li>2汤匙大麻蜂蜜</li><li>1½杯气泡水</li><li>冰块</li><li>薄荷</li></ul>",
+    "instructions": "<ul><li>混合百香果、柠檬汁和大麻蜂蜜，搅拌至蜂蜜溶解。</li><li>倒在冰块上，加入气泡水，装饰即可。</li></ul>"
+  },
+  "infused-cherry-limeade": {
+    "name": "注入大麻的樱桃青柠水",
+    "description": "樱桃青柠无酒精鸡尾酒，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1杯酸樱桃汁</li><li>3个青柠的汁</li><li>2汤匙大麻糖浆</li><li>气泡水</li><li>冰块</li><li>青柠、樱桃</li></ul>",
+    "instructions": "<ul><li>混合樱桃汁、青柠汁和大麻糖浆。</li><li>倒在冰块上，加入气泡水，装饰即可。</li></ul>"
+  },
+  "cannabis-mint-green-tea": {
+    "name": "大麻薄荷绿茶",
+    "description": "清凉薄荷绿茶，搭配大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>3个绿茶包</li><li>4杯热水</li><li>2汤匙大麻蜂蜜</li><li>10片薄荷叶</li><li>1个柠檬的汁</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>泡绿茶3分钟。趁温热时拌入大麻蜂蜜。</li><li>加入薄荷和柠檬汁。冷却后冷藏，加冰食用。</li></ul>"
+  },
+  "infused-blueberry-lemonade": {
+    "name": "注入大麻的蓝莓柠檬水",
+    "description": "紫色蓝莓柠檬水，搭配大麻糖浆。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1杯蓝莓</li><li>4个柠檬的汁</li><li>2汤匙大麻糖浆</li><li>2杯冷水</li><li>冰块</li></ul>",
+    "instructions": "<ul><li>蓝莓加¼杯水小火煮，过滤。</li><li>混合蓝莓汁、柠檬汁、大麻糖浆和水，加冰食用。</li></ul>"
+  },
+  "cannabis-ginger-turmeric-tonic": {
+    "name": "大麻姜黄姜汁滋补饮",
+    "description": "养生姜汁饮品，搭配姜、姜黄和大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1英寸姜，磨碎</li><li>½茶匙姜黄粉</li><li>1个柠檬的汁</li><li>2汤匙大麻蜂蜜</li><li>1杯温水</li><li>少许黑胡椒</li><li>气泡水</li></ul>",
+    "instructions": "<ul><li>在温水中混合姜、姜黄、柠檬汁和大麻蜂蜜。</li><li>冷却后加入冰块，倒入气泡水，加入黑胡椒。</li></ul>"
+  },
+  "infused-coconut-lime-agua-fresca": {
+    "name": "注入大麻的椰子青柠清凉水",
+    "description": "清淡的椰子青柠清凉水，搭配大麻蜂蜜。",
+    "category_name": "无酒精鸡尾酒",
+    "ingredients": "<ul><li>1杯椰子水</li><li>3个青柠的汁</li><li>1杯气泡水</li><li>2汤匙大麻蜂蜜</li><li>冰块</li><li>青柠皮碎、椰子片</li></ul>",
+    "instructions": "<ul><li>混合椰子水、青柠汁和大麻蜂蜜，搅拌至溶解。</li><li>加入气泡水，倒在冰块上，装饰即可。</li></ul>"
+  },
+  "cannabis-cheesecake": {
+    "name": "大麻芝士蛋糕",
+    "description": "奶油烤芝士蛋糕，搭配大麻黄油饼底。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>饼底：200克消化饼干，捣碎</li><li>80克融化的大麻黄油</li><li>馅料：600克奶油芝士</li><li>¾杯细砂糖</li><li>3个鸡蛋</li><li>1茶匙香草精</li><li>200毫升酸奶油</li><li>2汤匙面粉</li></ul>",
+    "instructions": "<ul><li>预热烤箱至325°F（160°C）。混合饼干和大麻黄油，压入9英寸活底模。</li><li>打发奶油芝士和糖，逐个加入鸡蛋。</li><li>拌入香草精、酸奶油和面粉，倒在饼底上。</li><li>水浴法烤55-60分钟。在烤箱中冷却1小时。</li><li>冷藏4小时后食用。</li></ul>"
+  },
+  "infused-tiramisu": {
+    "name": "注入大麻的提拉米苏",
+    "description": "经典提拉米苏，搭配大麻马斯卡彭奶油。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>3个蛋黄</li><li>75克糖</li><li>250克马斯卡彭芝士</li><li>2汤匙软化的大麻黄油</li><li>200毫升浓缩咖啡，冷却</li><li>200克手指饼干</li><li>2汤匙可可粉</li><li>1茶匙香草精</li></ul>",
+    "instructions": "<ul><li>打发蛋黄和糖至颜色变浅，拌入马斯卡彭芝士、大麻黄油和香草精。</li><li>将手指饼干蘸入咖啡，铺在盘底。</li><li>铺上一半的奶油。重复铺层。</li><li>撒上可可粉。冷藏4小时以上。</li></ul>"
+  },
+  "cannabis-apple-pie": {
+    "name": "大麻苹果派",
+    "description": "经典双层皮苹果派，搭配大麻黄油酥皮。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>酥皮：2½杯面粉</li><li>200克冷大麻黄油，切小块</li><li>6-8汤匙冰水</li><li>½茶匙盐</li><li>馅料：6个苹果，去皮切片</li><li>¾杯糖</li><li>2茶匙肉桂粉</li><li>¼茶匙肉豆蔻粉</li><li>2汤匙玉米淀粉</li></ul>",
+    "instructions": "<ul><li>制作酥皮，冷藏1小时。预热烤箱至375°F（190°C）。</li><li>混合苹果馅料。</li><li>将一半面团铺在派盘底部，放入馅料。</li><li>覆盖第二层面团，封口并捏出花边。</li><li>烤50-60分钟至金黄。</li></ul>"
+  },
+  "infused-chocolate-lava-cake": {
+    "name": "注入大麻的巧克力熔岩蛋糕",
+    "description": "流心巧克力蛋糕，搭配大麻黄油内芯。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>100克黑巧克力</li><li>100克大麻黄油</li><li>2个全蛋 + 2个蛋黄</li><li>80克糖粉</li><li>40克面粉</li><li>少许盐</li></ul>",
+    "instructions": "<ul><li>预热烤箱至425°F（220°C）。在4个小烤碗上涂油。</li><li>融化巧克力和大麻黄油，稍微冷却。</li><li>搅入鸡蛋、蛋黄和糖粉，拌入面粉和盐。</li><li>倒入小烤碗中，冷藏30分钟。</li><li>烤12-13分钟。静置1分钟后倒扣出来。</li></ul>"
+  },
+  "cannabis-lemon-bars": {
+    "name": "大麻柠檬条",
+    "description": "酸甜柠檬酱搭配大麻黄油酥底。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>酥底：1杯面粉</li><li>115克大麻黄油</li><li>¼杯糖粉</li><li>少许盐</li><li>馅料：3个鸡蛋</li><li>1杯细砂糖</li><li>3个柠檬的汁和皮碎</li><li>3汤匙面粉</li><li>糖粉（撒在表面）</li></ul>",
+    "instructions": "<ul><li>预热烤箱至350°F（175°C）。将酥底压入8x8英寸烤盘，烤18分钟。</li><li>搅拌馅料食材，倒在热酥底上。</li><li>再烤20-22分钟至凝固。冷却后冷藏。</li><li>撒上糖粉，切成条状。</li></ul>"
+  },
+  "infused-carrot-cake": {
+    "name": "大麻胡萝卜蛋糕",
+    "description": "使用大麻油制作的香料湿润胡萝卜蛋糕。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>2杯面粉</li><li>3个鸡蛋</li><li>1½杯糖</li><li>1杯大麻植物油</li><li>2茶匙香草精</li><li>3杯胡萝卜丝</li><li>1½茶匙泡打粉</li><li>1茶匙肉桂粉</li><li>½茶匙肉豆蔻粉</li><li>糖霜：250克奶油奶酪、1杯糖粉、1茶匙香草精</li></ul>",
+    "instructions": "<ul><li>烤箱预热至350°F。将鸡蛋、糖、大麻油和香草精搅拌均匀。</li><li>拌入面粉、香料和胡萝卜丝。</li><li>倒入两个8英寸烤盘，烤30-35分钟。完全冷却。</li><li>打发糖霜，涂抹在蛋糕夹层和表面。</li></ul>"
+  },
+  "cannabis-coconut-macaroons": {
+    "name": "大麻椰丝球",
+    "description": "使用大麻炼乳制作的香甜耐嚼椰丝球。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>3杯椰丝</li><li>½杯大麻炼乳</li><li>2个蛋白</li><li>1茶匙香草精</li><li>少许盐</li><li>100克黑巧克力（蘸用）</li></ul>",
+    "instructions": "<ul><li>烤箱预热至325°F。</li><li>混合椰丝、大麻炼乳、香草精和盐。</li><li>将打发至硬性发泡的蛋白轻轻拌入。</li><li>用勺子舀到铺有烘焙纸的烤盘上。烤18-20分钟。</li><li>冷却后将底部蘸上融化的巧克力。</li></ul>"
+  },
+  "infused-fudge": {
+    "name": "大麻软糖",
+    "description": "使用大麻炼乳制作的入口即化软糖。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>400克黑巧克力切碎</li><li>400克大麻炼乳</li><li>2汤匙黄油</li><li>1茶匙香草精</li><li>少许海盐</li></ul>",
+    "instructions": "<ul><li>将巧克力、大麻炼乳和黄油用小火融化。</li><li>加入香草精搅拌均匀。</li><li>倒入铺好烘焙纸的8x8英寸烤盘中。撒上海盐。</li><li>冷藏3-4小时。切成方块。</li></ul>"
+  },
+  "cannabis-blondies": {
+    "name": "大麻焦糖金砖饼",
+    "description": "使用大麻焦化黄油制作的奶油糖香金砖饼。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>½杯大麻焦化黄油</li><li>1杯红糖</li><li>1个全蛋 + 1个蛋黄</li><li>1茶匙香草精</li><li>1杯面粉</li><li>½茶匙泡打粉</li><li>¼茶匙盐</li><li>¾杯白巧克力碎片</li></ul>",
+    "instructions": "<ul><li>烤箱预热至350°F。将大麻焦化黄油和红糖搅拌均匀。</li><li>加入鸡蛋、蛋黄和香草精。拌入面粉、泡打粉、盐和巧克力碎片。</li><li>倒入铺好烘焙纸的8x8英寸烤盘中，烤22-25分钟。不要过度烘烤。</li><li>完全冷却后再切块。</li></ul>"
+  },
+  "infused-donut-holes": {
+    "name": "大麻甜甜圈球",
+    "description": "外裹大麻肉桂糖的蓬松油炸甜甜圈球。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>1杯面粉</li><li>1½茶匙泡打粉</li><li>3汤匙糖</li><li>少许盐</li><li>½杯牛奶</li><li>1个鸡蛋</li><li>1汤匙大麻黄油（融化）</li><li>炸油</li><li>裹料：½杯糖、1茶匙肉桂粉、1汤匙大麻黄油（融化）</li></ul>",
+    "instructions": "<ul><li>混合干材料。将牛奶、鸡蛋和大麻黄油搅拌后加入干材料中。</li><li>油温加热至350°F。用汤匙舀面糊放入油中，炸2-3分钟至金黄色。</li><li>沥干油，刷上大麻黄油，裹上肉桂糖。</li></ul>"
+  },
+  "cannabis-peach-cobbler": {
+    "name": "大麻蜜桃酥",
+    "description": "使用大麻黄油饼干面团做酥顶的南方风味蜜桃酥。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>5个桃子切片</li><li>¼杯糖</li><li>1茶匙柠檬汁</li><li>½茶匙肉桂粉</li><li>酥顶：1杯面粉</li><li>¼杯糖</li><li>1½茶匙泡打粉</li><li>¼茶匙盐</li><li>½杯牛奶</li><li>4汤匙大麻黄油（融化）</li></ul>",
+    "instructions": "<ul><li>烤箱预热至375°F。将桃子、糖、柠檬汁和肉桂粉拌匀放入烤盘。</li><li>将酥顶材料混合成浓稠面糊。用勺子舀到桃子上面。</li><li>烤40-45分钟至表面金黄。趁热食用。</li></ul>"
+  },
+  "infused-baklava": {
+    "name": "大麻果仁蜜饼",
+    "description": "层层酥脆千层酥皮搭配香料坚果和大麻蜂蜜糖浆。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>400克千层酥皮</li><li>200克大麻黄油（融化）</li><li>300克核桃和开心果混合切碎</li><li>1茶匙肉桂粉</li><li>糖浆：1杯糖、1杯水、½杯蜂蜜、1茶匙玫瑰水</li></ul>",
+    "instructions": "<ul><li>烤箱预热至350°F。逐层铺千层酥皮，每层刷上大麻黄油并撒上坚果碎。</li><li>切成菱形。烤45-50分钟至深金黄色。</li><li>糖浆煮10分钟；趁热浇在热的果仁蜜饼上。完全冷却后食用。</li></ul>"
+  },
+  "cannabis-chocolate-fondue": {
+    "name": "大麻巧克力火锅",
+    "description": "使用大麻奶油制作的丝滑巧克力火锅。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>300克黑巧克力切碎</li><li>1杯大麻浓奶油</li><li>2汤匙黄油</li><li>1茶匙香草精</li><li>少许盐</li><li>蘸料：草莓、香蕉、棉花糖、椒盐卷饼</li></ul>",
+    "instructions": "<ul><li>将大麻奶油加热至冒蒸汽。离火后加入巧克力。</li><li>静置2分钟然后搅拌至顺滑。加入黄油、香草精和盐。</li><li>倒入火锅容器中，配蘸料食用。</li></ul>"
+  },
+  "infused-strawberry-shortcake": {
+    "name": "大麻草莓酥饼",
+    "description": "使用大麻黄油制作的蓬松酥饼搭配新鲜草莓。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>酥饼：2杯面粉</li><li>115克冷大麻黄油</li><li>2汤匙糖</li><li>1汤匙泡打粉</li><li>½茶匙盐</li><li>¾杯淡奶油</li><li>1个鸡蛋</li><li>装饰：500克草莓配2汤匙糖</li><li>1杯打发奶油</li></ul>",
+    "instructions": "<ul><li>烤箱预热至425°F。将大麻黄油切入干材料中。</li><li>加入奶油和鸡蛋，拌至刚好成团。舀到烤盘上。</li><li>烤15分钟。从中间切开，夹入草莓和打发奶油。</li></ul>"
+  },
+  "cannabis-panna-cotta": {
+    "name": "大麻意式奶冻",
+    "description": "使用大麻奶油制作的丝滑意式奶冻。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>2杯大麻浓奶油</li><li>¼杯糖</li><li>2茶匙香草精</li><li>2½茶匙吉利丁粉</li><li>3汤匙冷水</li><li>浆果酱汁（搭配食用）</li></ul>",
+    "instructions": "<ul><li>将吉利丁粉在冷水中泡发5分钟。</li><li>加热大麻奶油和糖至糖溶解。离火后拌入香草精和吉利丁。</li><li>倒入模具中。冷藏4小时以上。</li><li>倒扣到盘中，搭配浆果酱汁食用。</li></ul>"
+  },
+  "infused-churros": {
+    "name": "大麻吉事果",
+    "description": "使用大麻黄油面团制作的酥脆西班牙吉事果。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>1杯水</li><li>115克大麻黄油</li><li>1汤匙糖</li><li>½茶匙盐</li><li>1杯面粉</li><li>3个鸡蛋</li><li>炸油</li><li>裹料：½杯糖、1茶匙肉桂粉</li><li>巧克力酱（搭配食用）</li></ul>",
+    "instructions": "<ul><li>将水、大麻黄油、糖和盐煮沸。加入面粉，搅拌至面团成团。</li><li>冷却5分钟后逐个打入鸡蛋搅拌。</li><li>挤入350°F热油中。炸3-4分钟至金黄色。</li><li>裹上肉桂糖。搭配巧克力酱食用。</li></ul>"
+  },
+  "cannabis-crepes": {
+    "name": "大麻法式薄饼",
+    "description": "使用大麻黄油制作的薄脆法式薄饼。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>1杯面粉</li><li>2个鸡蛋</li><li>1½杯牛奶</li><li>2汤匙大麻黄油（融化）</li><li>1汤匙糖</li><li>1茶匙香草精</li><li>少许盐</li><li>夹馅：榛果巧克力酱、果酱、水果、奶油</li></ul>",
+    "instructions": "<ul><li>将所有面糊材料搅拌均匀。静置30分钟。</li><li>在抹了黄油的不粘锅中煎薄层，每面1-2分钟。</li><li>根据喜好加入馅料折叠食用。</li></ul>"
+  },
+  "infused-mango-sorbet": {
+    "name": "大麻芒果冰沙",
+    "description": "使用大麻糖浆制作的色彩鲜艳无乳芒果冰沙。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>4杯冷冻芒果</li><li>2汤匙大麻糖浆</li><li>1个青柠汁</li><li>少许盐</li></ul>",
+    "instructions": "<ul><li>将冷冻芒果、大麻糖浆、青柠汁和盐搅拌至顺滑。</li><li>可直接作为软冰淇淋食用，或冷冻1小时后可用冰淇淋勺舀取。</li></ul>"
+  },
+  "cannabis-cinnamon-rolls": {
+    "name": "大麻肉桂卷",
+    "description": "使用大麻黄油做馅料和糖霜的松软肉桂卷。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>面团：3杯面粉、2¼茶匙酵母、¼杯糖、1茶匙盐、¾杯温牛奶、2个鸡蛋、¼杯大麻黄油</li><li>馅料：4汤匙大麻黄油、½杯红糖、2汤匙肉桂粉</li><li>糖霜：1杯糖粉、2汤匙大麻黄油、2汤匙牛奶</li></ul>",
+    "instructions": "<ul><li>混合并揉面8分钟。发酵1小时。</li><li>擀开面团，涂上大麻黄油、红糖和肉桂粉。</li><li>紧紧卷起，切成12份。二次发酵30分钟。在375°F下烤20-25分钟。</li><li>趁热淋上大麻糖霜。</li></ul>"
+  },
+  "infused-coconut-pudding": {
+    "name": "大麻椰子布丁",
+    "description": "使用大麻椰奶制作的香浓椰子布丁。",
+    "category_name": "甜点",
+    "ingredients": "<ul><li>2杯大麻椰奶</li><li>¼杯糖</li><li>3汤匙玉米淀粉</li><li>½茶匙香草精</li><li>少许盐</li><li>烤椰丝和芒果（搭配食用）</li></ul>",
+    "instructions": "<ul><li>将所有材料在锅中搅拌均匀。中火加热并不停搅拌至浓稠（8-10分钟）。</li><li>倒入碗中。冷藏2小时以上。</li><li>装饰烤椰丝和芒果。</li></ul>"
+  },
+  "cannabis-shakshuka": {
+    "name": "大麻中东番茄蛋",
+    "description": "在大麻番茄酱汁中水波煮蛋。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2汤匙大麻橄榄油</li><li>1个洋葱</li><li>1个红甜椒</li><li>4瓣大蒜</li><li>1茶匙孜然粉</li><li>1茶匙甜椒粉</li><li>½茶匙辣椒片</li><li>2罐碎番茄</li><li>4-6个鸡蛋</li><li>欧芹和菲达奶酪</li></ul>",
+    "instructions": "<ul><li>用大麻油炒洋葱和甜椒。加入大蒜和香料。</li><li>加入番茄。煮15分钟。调味。</li><li>挖出小窝，打入鸡蛋。盖锅煮6-8分钟。</li><li>撒上欧芹和菲达奶酪。配面包食用。</li></ul>"
+  },
+  "infused-mushroom-risotto": {
+    "name": "大麻蘑菇意式烩饭",
+    "description": "使用大麻橄榄油制作的奶油蘑菇意式烩饭。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>1½杯意大利烩饭米</li><li>2汤匙大麻橄榄油</li><li>1个洋葱</li><li>3瓣大蒜</li><li>400克混合蘑菇</li><li>½杯无酒精白葡萄汁</li><li>1升温热蔬菜高汤</li><li>50克帕尔马干酪</li><li>2汤匙黄油</li><li>盐、胡椒、百里香</li></ul>",
+    "instructions": "<ul><li>用普通油炒洋葱。加入大蒜和蘑菇炒至金黄。</li><li>加入米饭翻炒裹油。加入葡萄汁，煮至吸收。</li><li>一勺一勺加入高汤，每次搅拌至吸收（约20分钟）。</li><li>离火后拌入帕尔马干酪、黄油和大麻橄榄油。</li></ul>"
+  },
+  "cannabis-thai-basil-chicken": {
+    "name": "大麻泰式九层塔鸡",
+    "description": "使用大麻芝麻油制作的快手泰式九层塔炒鸡。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>500克鸡肉末</li><li>2汤匙大麻芝麻油</li><li>4瓣大蒜</li><li>2根朝天椒</li><li>2汤匙酱油</li><li>1汤匙蚝油</li><li>1茶匙鱼露</li><li>1茶匙糖</li><li>1杯泰国九层塔</li><li>蒸米饭</li></ul>",
+    "instructions": "<ul><li>用普通油将鸡肉末炒至变色。</li><li>加入大蒜和朝天椒。加入各种酱料和糖。</li><li>离火后淋上大麻芝麻油，拌入九层塔。配米饭食用。</li></ul>"
+  },
+  "infused-beef-tacos": {
+    "name": "大麻牛肉塔可",
+    "description": "使用大麻黄油制作的香辣牛肉塔可。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>500克牛肉末</li><li>2汤匙大麻黄油</li><li>1个洋葱</li><li>3瓣大蒜</li><li>1茶匙孜然粉</li><li>1茶匙烟熏甜椒粉</li><li>½茶匙辣椒粉</li><li>8个玉米薄饼</li><li>包菜丝、莎莎酱、青柠、酸奶油</li></ul>",
+    "instructions": "<ul><li>将牛肉末炒至变色，沥去多余油脂。加入大麻黄油、洋葱和大蒜。</li><li>拌入香料。继续炒2分钟。</li><li>盛入温热的玉米薄饼中，搭配各种配料。</li></ul>"
+  },
+  "cannabis-chicken-caesar-salad": {
+    "name": "大麻鸡肉凯撒沙拉",
+    "description": "使用大麻沙拉酱的餐厅级凯撒沙拉。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2块鸡胸肉（烤熟切片）</li><li>1棵大罗马生菜</li><li>½杯帕尔马干酪刨片</li><li>面包丁</li><li>沙拉酱：2汤匙大麻橄榄油、1汤匙柠檬汁、1茶匙第戎芥末、1茶匙伍斯特酱、1瓣大蒜、3汤匙蛋黄酱、盐</li></ul>",
+    "instructions": "<ul><li>将所有沙拉酱材料搅拌均匀。</li><li>将生菜与沙拉酱拌匀。</li><li>铺上鸡肉片、帕尔马干酪和面包丁。</li></ul>"
+  },
+  "infused-cauliflower-fried-rice": {
+    "name": "大麻花菜炒饭",
+    "description": "使用大麻芝麻油制作的低碳水花菜炒饭。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>1个大花菜（打成米粒状）</li><li>2汤匙大麻芝麻油</li><li>3个鸡蛋（打散）</li><li>1杯冷冻豌豆和玉米</li><li>3瓣大蒜</li><li>3汤匙酱油</li><li>葱花、芝麻</li></ul>",
+    "instructions": "<ul><li>花菜碎炒5分钟。盛出备用。</li><li>在同一锅中炒鸡蛋。加入大蒜和蔬菜。</li><li>倒回花菜，加酱油翻炒。</li><li>离火后淋上大麻芝麻油。撒上葱花和芝麻。</li></ul>"
+  },
+  "cannabis-minestrone-soup": {
+    "name": "大麻意式蔬菜汤",
+    "description": "使用大麻橄榄油制作的丰盛意式蔬菜汤。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2汤匙大麻橄榄油</li><li>1个洋葱</li><li>2根胡萝卜</li><li>2根芹菜</li><li>3瓣大蒜</li><li>1根西葫芦</li><li>1罐白芸豆</li><li>1罐碎番茄</li><li>1升蔬菜高汤</li><li>1杯小号意面</li><li>2杯菠菜</li><li>帕尔马干酪皮</li></ul>",
+    "instructions": "<ul><li>用普通油炒洋葱、胡萝卜和芹菜。</li><li>加入大蒜、西葫芦和番茄。加入高汤、白芸豆和帕尔马干酪皮。煮20分钟。</li><li>加入意面煮至弹牙。拌入菠菜。</li><li>离火后淋上大麻橄榄油。</li></ul>"
+  },
+  "infused-pulled-pork-sliders": {
+    "name": "大麻手撕猪肉迷你汉堡",
+    "description": "使用大麻烧烤酱慢炖手撕猪肉。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>1公斤猪肩肉</li><li>各1茶匙烟熏甜椒粉、孜然粉、蒜粉、盐</li><li>大麻烧烤酱：1杯烧烤酱 + 2汤匙大麻黄油</li><li>迷你汉堡包、凉拌卷心菜</li></ul>",
+    "instructions": "<ul><li>用香料涂抹猪肉，低温慢炖8小时或在300°F烤箱中烤4-5小时。</li><li>用叉子将猪肉撕碎。</li><li>将烧烤酱和大麻黄油加热。将撕碎的猪肉拌入酱汁中。</li><li>堆在迷你汉堡包上，配凉拌卷心菜。</li></ul>"
+  },
+  "cannabis-greek-salad": {
+    "name": "大麻希腊沙拉",
+    "description": "使用大麻橄榄油调味的清新希腊沙拉。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2个番茄切块</li><li>1根黄瓜切块</li><li>½个红洋葱切片</li><li>½杯卡拉马塔橄榄</li><li>150克菲达奶酪切丁</li><li>调味汁：3汤匙大麻橄榄油、1汤匙红酒醋、1茶匙牛至、盐</li></ul>",
+    "instructions": "<ul><li>将蔬菜和橄榄混合。</li><li>搅拌调味汁并淋上。拌匀。</li><li>铺上菲达奶酪。配硬面包食用。</li></ul>"
+  },
+  "infused-tomato-bisque": {
+    "name": "大麻番茄浓汤",
+    "description": "使用大麻奶油制作的丝滑烤番茄浓汤。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>1公斤罗马番茄对半切开</li><li>1个洋葱切四块</li><li>6瓣大蒜</li><li>2汤匙橄榄油</li><li>1杯蔬菜高汤</li><li>½杯大麻奶油</li><li>1茶匙糖</li><li>盐、胡椒、罗勒</li></ul>",
+    "instructions": "<ul><li>番茄、洋葱和大蒜在400°F下烤40分钟。</li><li>加高汤搅拌至顺滑。</li><li>拌入大麻奶油和糖，小火加热。</li><li>调味，撒上新鲜罗勒。</li></ul>"
+  },
+  "cannabis-chicken-burrito-bowl": {
+    "name": "大麻鸡肉墨西哥碗",
+    "description": "搭配大麻青柠酱汁的自选墨西哥卷饼碗。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2块鸡胸肉</li><li>各1茶匙孜然粉、辣椒粉、蒜粉</li><li>2杯米饭（煮熟）</li><li>1罐黑豆</li><li>1杯玉米粒</li><li>大麻青柠酱汁：2个青柠汁 + 2汤匙大麻橄榄油</li><li>牛油果、莎莎酱、酸奶油、香菜</li></ul>",
+    "instructions": "<ul><li>鸡肉调味后烤熟。切片。</li><li>组装碗：米饭、黑豆、玉米、鸡肉。</li><li>淋上大麻青柠酱汁。加上各种配料。</li></ul>"
+  },
+  "infused-falafel-wrap": {
+    "name": "大麻沙拉三明治卷",
+    "description": "搭配大麻芝麻酱的酥脆沙拉三明治卷。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2罐鹰嘴豆</li><li>½个洋葱</li><li>3瓣大蒜</li><li>1茶匙孜然粉</li><li>1茶匙芫荽粉</li><li>2汤匙面粉</li><li>炸油</li><li>大麻芝麻酱：3汤匙芝麻酱 + 2汤匙大麻橄榄油 + 柠檬汁 + 水</li><li>薄饼、生菜、番茄、黄瓜</li></ul>",
+    "instructions": "<ul><li>将鹰嘴豆、洋葱、大蒜、香料和面粉搅碎。冷藏30分钟。</li><li>搓成小球，在350°F下炸3-4分钟。</li><li>制作大麻芝麻酱。</li><li>在薄饼中放入沙拉三明治球、沙拉和酱汁。</li></ul>"
+  },
+  "cannabis-butternut-squash-soup": {
+    "name": "大麻奶油南瓜汤",
+    "description": "使用大麻奶油制作的丝绒般顺滑奶油南瓜汤。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>1个大冬南瓜对半切开</li><li>1个洋葱切四块</li><li>4瓣大蒜</li><li>2汤匙橄榄油</li><li>3杯蔬菜高汤</li><li>½杯大麻奶油</li><li>1茶匙肉豆蔻粉</li><li>盐、胡椒</li><li>烤南瓜子</li></ul>",
+    "instructions": "<ul><li>南瓜、洋葱和大蒜在400°F下烤45分钟。</li><li>加高汤搅拌至顺滑。</li><li>拌入大麻奶油和肉豆蔻粉，小火加热。</li><li>调味，撒上烤南瓜子。</li></ul>"
+  },
+  "infused-egg-fried-rice": {
+    "name": "大麻蛋炒饭",
+    "description": "使用大麻芝麻油制作的快手蛋炒饭。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>3杯隔夜冷饭</li><li>3个鸡蛋（打散）</li><li>2汤匙大麻芝麻油</li><li>3瓣大蒜</li><li>1杯冷冻豌豆</li><li>4汤匙酱油</li><li>葱花、芝麻</li></ul>",
+    "instructions": "<ul><li>用普通油将米饭炒至微脆。</li><li>推到一边，炒鸡蛋。</li><li>加入大蒜和豌豆，全部翻炒。加酱油。</li><li>离火后淋上大麻芝麻油。撒上葱花和芝麻。</li></ul>"
+  },
+  "cannabis-grilled-salmon": {
+    "name": "大麻香煎三文鱼",
+    "description": "搭配大麻香草黄油的香煎三文鱼。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>4块三文鱼排</li><li>2汤匙大麻黄油</li><li>2瓣大蒜（切末）</li><li>1汤匙新鲜莳萝</li><li>1个柠檬的皮屑和汁</li><li>盐、胡椒</li><li>酸豆和柠檬（搭配食用）</li></ul>",
+    "instructions": "<ul><li>三文鱼调味后皮面朝下煎4分钟至酥脆。</li><li>翻面再煎3分钟。</li><li>融化大麻黄油，加入大蒜和莳萝，淋在鱼上。</li><li>搭配酸豆和柠檬食用。</li></ul>"
+  },
+  "infused-caprese-salad": {
+    "name": "大麻卡普雷塞沙拉",
+    "description": "使用大麻特级初榨橄榄油的经典卡普雷塞沙拉。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>3个大熟番茄切片</li><li>250克新鲜马苏里拉奶酪切片</li><li>1把新鲜罗勒</li><li>3汤匙大麻特级初榨橄榄油</li><li>1汤匙意大利黑醋</li><li>片状海盐、黑胡椒</li></ul>",
+    "instructions": "<ul><li>交替摆放番茄和马苏里拉奶酪片。</li><li>在间隙中夹入罗勒叶。</li><li>淋上大麻橄榄油和意大利黑醋。</li><li>撒上海盐和胡椒。</li></ul>"
+  },
+  "cannabis-quesadilla": {
+    "name": "大麻墨西哥芝士饼",
+    "description": "使用大麻黄油煎制的香脆墨西哥芝士饼。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>4张大号面粉薄饼</li><li>2汤匙大麻黄油</li><li>2杯切达奶酪丝</li><li>1杯熟鸡肉或黑豆</li><li>½个红洋葱切丁</li><li>1个墨西哥辣椒切片</li><li>酸奶油和牛油果酱</li></ul>",
+    "instructions": "<ul><li>在大平底锅中融化大麻黄油。</li><li>放上薄饼，在一半上撒奶酪、馅料和辣椒。</li><li>对折，每面煎3分钟至金黄。</li><li>切成三角形食用。</li></ul>"
+  },
+  "infused-pad-thai": {
+    "name": "大麻泰式炒河粉",
+    "description": "使用大麻芝麻油制作的经典泰式炒河粉。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>200克宽米粉（泡软）</li><li>2个鸡蛋</li><li>150克虾或豆腐</li><li>2汤匙大麻芝麻油</li><li>3汤匙酱油</li><li>2汤匙罗望子酱</li><li>1汤匙糖</li><li>葱、豆芽、花生、青柠</li></ul>",
+    "instructions": "<ul><li>炒虾或豆腐。在同一锅中炒鸡蛋。</li><li>加入米粉、酱油、罗望子酱和糖。翻炒2分钟。</li><li>加入葱和豆芽。</li><li>离火后淋上大麻芝麻油。配花生和青柠食用。</li></ul>"
+  },
+  "cannabis-pizza": {
+    "name": "大麻披萨",
+    "description": "面团中加入大麻橄榄油并在表面淋上的自制披萨。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>2杯面粉</li><li>1茶匙速发酵母</li><li>½茶匙盐</li><li>¾杯温水</li><li>2汤匙大麻橄榄油</li><li>配料：½杯番茄酱、150克马苏里拉奶酪、自选配料</li><li>额外大麻橄榄油（最后淋用）</li></ul>",
+    "instructions": "<ul><li>混合面团，揉8分钟。发酵1小时。</li><li>烤箱预热至475°F。</li><li>将面团拉伸，加番茄酱、奶酪和配料。</li><li>烤10-12分钟至金黄。</li><li>切片前淋上大麻橄榄油。</li></ul>"
+  },
+  "infused-lentil-dal": {
+    "name": "大麻扁豆咖喱",
+    "description": "用大麻酥油收尾的芳香印度扁豆咖喱。",
+    "category_name": "正餐",
+    "ingredients": "<ul><li>1½杯红扁豆</li><li>1个洋葱</li><li>4瓣大蒜</li><li>1英寸姜</li><li>1罐碎番茄</li><li>1茶匙孜然籽</li><li>1茶匙姜黄粉</li><li>1茶匙印度综合香料</li><li>3杯水</li><li>2汤匙大麻酥油</li><li>盐、香菜</li></ul>",
+    "instructions": "<ul><li>炒孜然籽至爆开。加入洋葱、大蒜和姜。</li><li>加入番茄和香料。加入扁豆和水，煮20-25分钟。</li><li>离火后拌入大麻酥油。</li><li>调味，撒上香菜。配米饭食用。</li></ul>"
+  },
+  "cannabis-feijoada": {
+    "name": "大麻巴西黑豆炖肉",
+    "description": "巴西国菜——用黑豆和猪肉慢炖而成，最后加入大麻橄榄油，为这道经典的国民美食增添独特风味。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">2杯干黑豆，提前浸泡一夜</li><li class=\"list-group-item\">200克烟熏猪排骨</li><li class=\"list-group-item\">150克牛肉干，浸泡后切丁</li><li class=\"list-group-item\">150克猪肉香肠，切片</li><li class=\"list-group-item\">100克培根，切丁</li><li class=\"list-group-item\">1个大洋葱，切碎</li><li class=\"list-group-item\">6瓣大蒜，切末</li><li class=\"list-group-item\">3片月桂叶</li><li class=\"list-group-item\">盐和黑胡椒适量</li><li class=\"list-group-item\">3汤匙大麻橄榄油</li><li class=\"list-group-item\">橙子片装饰</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">沥干黑豆，加新水没过豆子，放入烟熏排骨和月桂叶。小火炖1.5-2小时至豆子酥软。</li><li class=\"list-group-item\">另起一锅，煎培根至酥脆。加入香肠、牛肉干、洋葱和大蒜，翻炒5分钟。</li><li class=\"list-group-item\">将炒好的材料倒入豆锅中。继续炖30分钟。</li><li class=\"list-group-item\">离火后拌入大麻橄榄油。</li><li class=\"list-group-item\">配白米饭、炒羽衣甘蓝、木薯粉和橙子片食用。</li></ul>"
+  },
+  "infused-brigadeiro": {
+    "name": "大麻巴西巧克力松露球",
+    "description": "经典巴西巧克力松露球，使用炼乳、可可粉和大麻黄油制作，裹上巧克力碎屑，甜蜜而醇厚。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">1罐（14盎司）甜炼乳</li><li class=\"list-group-item\">2汤匙无糖可可粉</li><li class=\"list-group-item\">1汤匙大麻黄油</li><li class=\"list-group-item\">少许盐</li><li class=\"list-group-item\">巧克力碎屑（裹用）</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">将炼乳、可可粉和大麻黄油放入锅中，中小火加热。</li><li class=\"list-group-item\">不断搅拌直到混合物变稠并能从锅壁脱离，约10-15分钟。</li><li class=\"list-group-item\">倒在抹了油的盘子上，冷却至室温。</li><li class=\"list-group-item\">手上涂黄油，搓成小球，裹上巧克力碎屑。</li><li class=\"list-group-item\">放入迷你纸杯中，冷藏至凝固。</li></ul>"
+  },
+  "cannabis-pacoca": {
+    "name": "大麻巴西花生糖",
+    "description": "使用大麻黄油制作的酥松巴西花生糖——入口即化的香甜花生零食。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">2杯烤无盐花生</li><li class=\"list-group-item\">1杯糖</li><li class=\"list-group-item\">1汤匙大麻黄油（融化）</li><li class=\"list-group-item\">少许盐</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">将花生放入食品加工机中搅碎成细碎略带油性的颗粒。</li><li class=\"list-group-item\">加入糖、融化的大麻黄油和盐。再搅几次至混合均匀。</li><li class=\"list-group-item\">将混合物紧紧压入小圆柱模具或铺了烘焙纸的烤盘中。</li><li class=\"list-group-item\">冷藏1小时至凝固，然后脱模。</li><li class=\"list-group-item\">存放在密封容器中，室温保存。</li></ul>"
+  },
+  "infused-coxinha": {
+    "name": "大麻巴西鸡肉丸",
+    "description": "巴西标志性的泪滴形鸡肉炸丸子，使用大麻面团制作，外酥内嫩。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">2杯煮熟的鸡肉丝</li><li class=\"list-group-item\">1汤匙奶油奶酪</li><li class=\"list-group-item\">2杯鸡汤</li><li class=\"list-group-item\">2汤匙大麻黄油</li><li class=\"list-group-item\">2杯中筋面粉</li><li class=\"list-group-item\">盐和胡椒适量</li><li class=\"list-group-item\">2个鸡蛋（打散）</li><li class=\"list-group-item\">面包糠（裹用）</li><li class=\"list-group-item\">炸油</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">鸡肉丝加奶油奶酪、盐和胡椒调味。备用。</li><li class=\"list-group-item\">在锅中将鸡汤和大麻黄油煮沸。一次性加入面粉，用力搅拌至面团成团。冷却备用。</li><li class=\"list-group-item\">取一小块面团，在掌心压扁，放入鸡肉馅，捏成泪滴形。</li><li class=\"list-group-item\">蘸蛋液，再裹面包糠。</li><li class=\"list-group-item\">在350°F下油炸至金黄色，约3-4分钟。用厨房纸沥干油。</li></ul>"
+  },
+  "cannabis-pao-de-queijo": {
+    "name": "大麻巴西奶酪面包",
+    "description": "使用木薯粉和大麻橄榄油制作的弹牙芝士巴西面包球——天然无麸质，令人难以抗拒。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">2杯木薯粉</li><li class=\"list-group-item\">½杯牛奶</li><li class=\"list-group-item\">¼杯大麻橄榄油</li><li class=\"list-group-item\">1个鸡蛋</li><li class=\"list-group-item\">1杯帕尔马干酪或米纳斯奶酪丝</li><li class=\"list-group-item\">½茶匙盐</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">烤箱预热至375°F。</li><li class=\"list-group-item\">将牛奶、大麻橄榄油和盐加热至微沸。倒入木薯粉中搅拌均匀。</li><li class=\"list-group-item\">稍微冷却后，拌入鸡蛋和奶酪至顺滑。</li><li class=\"list-group-item\">搓成小球，放在铺了烘焙纸的烤盘上。</li><li class=\"list-group-item\">烤20-25分钟至膨胀变金黄。</li></ul>"
+  },
+  "infused-acai-bowl": {
+    "name": "大麻巴西莓碗",
+    "description": "使用大麻椰子油搅拌的清爽巴西莓碗，搭配燕麦片、香蕉和蜂蜜。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">2包（200克）冷冻巴西莓泥</li><li class=\"list-group-item\">1根冷冻香蕉</li><li class=\"list-group-item\">½杯杏仁奶</li><li class=\"list-group-item\">1汤匙大麻椰子油（融化）</li><li class=\"list-group-item\">配料：燕麦片、香蕉片、草莓、蜂蜜、椰丝</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">将冷冻巴西莓泥、冷冻香蕉、杏仁奶和大麻椰子油搅拌至浓稠顺滑。</li><li class=\"list-group-item\">倒入碗中。</li><li class=\"list-group-item\">铺上燕麦片、香蕉片、草莓、椰丝，淋上蜂蜜。</li><li class=\"list-group-item\">立即食用。</li></ul>"
+  },
+  "cannabis-moqueca": {
+    "name": "大麻巴西鱼炖",
+    "description": "使用椰奶、番茄、甜椒和棕榈油制作的浓郁巴西鱼炖，最后加入大麻橄榄油。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">500克硬身白鱼（鳕鱼或比目鱼），切块</li><li class=\"list-group-item\">2个青柠汁</li><li class=\"list-group-item\">1个洋葱，切圈</li><li class=\"list-group-item\">1个甜椒，切片</li><li class=\"list-group-item\">2个番茄，切碎</li><li class=\"list-group-item\">1罐（400毫升）椰奶</li><li class=\"list-group-item\">2汤匙棕榈油</li><li class=\"list-group-item\">2汤匙大麻橄榄油</li><li class=\"list-group-item\">新鲜香菜、盐和胡椒</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">将鱼块用青柠汁、盐和胡椒腌制30分钟。</li><li class=\"list-group-item\">在砂锅或深锅中依次铺上洋葱、甜椒、番茄和鱼。</li><li class=\"list-group-item\">倒入椰奶和棕榈油。盖锅小火炖20分钟，不要搅拌。</li><li class=\"list-group-item\">离火后轻轻拌入大麻橄榄油。</li><li class=\"list-group-item\">撒上香菜。配白米饭食用。</li></ul>"
+  },
+  "infused-tapioca-crepe": {
+    "name": "大麻巴西木薯饼",
+    "description": "巴西人气街头小吃——酥脆木薯饼夹奶酪和椰丝，淋上大麻椰子油。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">1杯水磨木薯粉</li><li class=\"list-group-item\">少许盐</li><li class=\"list-group-item\">夹馅：椰丝、马苏里拉奶酪或烤奶酪</li><li class=\"list-group-item\">1汤匙大麻椰子油</li><li class=\"list-group-item\">甜炼乳（可选）</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">用细筛网将木薯粉过筛去除结块。</li><li class=\"list-group-item\">不粘锅中火加热。将木薯粉均匀薄薄铺在锅底。</li><li class=\"list-group-item\">当粉变成半透明并成型（约1分钟），在一半撒上奶酪和椰丝。</li><li class=\"list-group-item\">对折，再煎1分钟至奶酪融化。</li><li class=\"list-group-item\">淋上大麻椰子油和炼乳。趁热食用。</li></ul>"
+  },
+  "cannabis-beijinho": {
+    "name": "大麻巴西椰蓉球",
+    "description": "使用炼乳和大麻黄油制作的巴西甜椰蓉球，裹上椰丝——巧克力松露球的椰子亲戚。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">1罐（14盎司）甜炼乳</li><li class=\"list-group-item\">1汤匙大麻黄油</li><li class=\"list-group-item\">½杯椰丝，另备裹用</li><li class=\"list-group-item\">少许盐</li><li class=\"list-group-item\">整粒丁香（装饰用）</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">将炼乳、大麻黄油和椰丝放入锅中，中小火加热。</li><li class=\"list-group-item\">不断搅拌直到混合物变稠并能从锅壁脱离，约10-12分钟。</li><li class=\"list-group-item\">倒在抹了油的盘子上，冷却至室温。</li><li class=\"list-group-item\">搓成小球，裹上椰丝。每个顶部插一粒丁香。</li><li class=\"list-group-item\">放入迷你纸杯中，冷藏至食用。</li></ul>"
+  },
+  "infused-empadao": {
+    "name": "大麻巴西咸派",
+    "description": "大型巴西咸派，使用大麻黄油制作酥脆派皮，内馅为调味鸡肉、橄榄和棕榈心。",
+    "category_name": "国际美食",
+    "ingredients": "<ul class=\"list-group\"><li class=\"list-group-item\">3杯中筋面粉</li><li class=\"list-group-item\">½杯冷大麻黄油，切丁</li><li class=\"list-group-item\">½杯冷普通黄油，切丁</li><li class=\"list-group-item\">2个蛋黄</li><li class=\"list-group-item\">3-4汤匙冰水</li><li class=\"list-group-item\">内馅：2杯鸡肉丝、1个洋葱、2瓣大蒜、½杯绿橄榄、½杯棕榈心、2汤匙番茄酱、盐、胡椒、欧芹</li><li class=\"list-group-item\">1个鸡蛋（刷蛋液用）</li></ul>",
+    "instructions": "<ul class=\"list-group\"><li class=\"list-group-item\">制作面团：将面粉、大麻黄油、普通黄油和蛋黄放入食品加工机搅拌。加入冰水至面团成团。包好冷藏30分钟。</li><li class=\"list-group-item\">制作馅料：炒洋葱和大蒜，加入鸡肉、番茄酱、橄榄、棕榈心、盐、胡椒和欧芹。炒5分钟。冷却备用。</li><li class=\"list-group-item\">取⅔面团铺入抹了油的派盘中。加入馅料。</li><li class=\"list-group-item\">将剩余面团擀成顶盖。封好边缘，刷上蛋液。</li><li class=\"list-group-item\">在375°F下烤35-40分钟至金黄。</li></ul>"
+  }
+}
