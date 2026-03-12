@@ -480,6 +480,8 @@ def build_calculator_widget(lang, defaults: { quantity: 3.5, potency: 14, portio
   potency_high = t(lang, "calculator", "potency_high")
   potency_conc = t(lang, "calculator", "potency_concentrates")
   modal_close = t(lang, "calculator", "modal_close")
+  potency_guide = t(lang, "calculator", "potency_guide")
+  potency_avg_note = t(lang, "calculator", "potency_avg_note")
 
   qty_val = defaults[:quantity]
   str_val = defaults[:potency]
@@ -522,7 +524,7 @@ def build_calculator_widget(lang, defaults: { quantity: 3.5, potency: 14, portio
             <div class="modal-content potency-modal-content">
               <div class="modal-header potency-modal-header">
                 <h5 class="modal-title" id="myModalLabel">
-                  <i class="fa fa-leaf mr-2" aria-hidden="true"></i>Potency Guide
+                  <i class="fa fa-leaf mr-2" aria-hidden="true"></i>#{h(potency_guide)}
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
@@ -547,7 +549,7 @@ def build_calculator_widget(lang, defaults: { quantity: 3.5, potency: 14, portio
                     <div class="potency-row-range">35% &ndash; 95%</div>
                   </div>
                 </div>
-                <p class="potency-avg-note">Street weed averages ~14% THC</p>
+                <p class="potency-avg-note">#{h(potency_avg_note)}</p>
               </div>
               <div class="modal-footer potency-modal-footer">
                 <button type="button" class="btn btn-potency-close" data-dismiss="modal">#{h(modal_close)}</button>
@@ -593,7 +595,8 @@ def build_dosage_panel(lang, style: :recipe)
   per_portion = t(lang, "calculator", "per_portion")
   pos_effects = t(lang, "calculator", "positive_effects")
   neg_effects = t(lang, "calculator", "negative_effects")
-  side_note = "Effects vary by person, tolerance, and method of consumption."
+  side_note = t(lang, "calculator", "side_note")
+  your_dose = t(lang, "calculator", "your_dose")
 
   if style == :calculator
     <<~HTML
@@ -635,7 +638,7 @@ def build_dosage_panel(lang, style: :recipe)
       <div class="dosage-panel">
         <div class="dosage-panel-header">
           <i class="fa fa-leaf" aria-hidden="true"></i>
-          <span>Your Dose</span>
+          <span>#{h(your_dose)}</span>
         </div>
         <div class="dosage-panel-body">
           <div class="dose-cards">
@@ -964,7 +967,7 @@ def build_recipe_page(recipe, lang)
 
   if translated_ings.is_a?(Array) && !translated_ings.empty?
     items = translated_ings.map do |ing|
-      ing_html = ing.gsub(/(\d+(\.\d+)?)\s*(ground\s*weed|maconha triturada|erva moída|marihuana molida|hierba molida|gemahlenes Gras|gemahlenes Cannabis)/i) do
+      ing_html = ing.gsub(/(\d+(\.\d+)?)\s*(ground\s*weed|maconha triturada|erva moída|marihuana molida|hierba molida|gemahlenes Gras|gemahlenes Cannabis|研磨好的大麻)/i) do
         "<span id=\"grams-quantity-recipe\">#{$1}</span> #{$3.gsub(' ', '&nbsp;')}"
       end
       "<li class=\"list-group-item\">#{ing_html}</li>"

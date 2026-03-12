@@ -35,7 +35,7 @@
 
   <!-- Structured Data -->
   <script type="application/ld+json">
-[{"@context":"https://schema.org","@type":"Recipe","name":"注入大麻的芒果拉西","description":"奶油芒果拉西，搭配大麻蜂蜜。","image":"https://www.howtoedibles.com/images/recipes/infused-mango-lassi.jpg","author":{"@type":"Organization","name":"HowToEdibles","url":"https://www.howtoedibles.com"},"publisher":{"@type":"Organization","name":"HowToEdibles","url":"https://www.howtoedibles.com"},"datePublished":"2024-01-01","dateModified":"2026-03-04","recipeCategory":"无酒精鸡尾酒","recipeYield":"12 servings","recipeIngredient":["2 cups ripe mango","1 cup yoghurt","½ cup milk","2 tbsp cannabis honey","½ tsp cardamom","Pinch salt"],"recipeInstructions":[{"@type":"HowToStep","position":1,"text":"Blend all ingredients until smooth."},{"@type":"HowToStep","position":2,"text":"Taste and adjust. Pour into glasses."}],"url":"https://www.howtoedibles.com/zh/recipes/infused-mango-lassi/"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.howtoedibles.com/zh/"},{"@type":"ListItem","position":2,"name":"无酒精鸡尾酒","item":"https://www.howtoedibles.com/zh/"},{"@type":"ListItem","position":3,"name":"注入大麻的芒果拉西"}]}]
+[{"@context":"https://schema.org","@type":"Recipe","name":"注入大麻的芒果拉西","description":"奶油芒果拉西，搭配大麻蜂蜜。","image":"https://www.howtoedibles.com/images/recipes/infused-mango-lassi.jpg","author":{"@type":"Organization","name":"HowToEdibles","url":"https://www.howtoedibles.com"},"publisher":{"@type":"Organization","name":"HowToEdibles","url":"https://www.howtoedibles.com"},"datePublished":"2024-01-01","dateModified":"2026-03-04","recipeCategory":"无酒精鸡尾酒","recipeYield":"12 servings","recipeIngredient":["2杯熟芒果","1杯酸奶","½杯牛奶","2汤匙大麻蜂蜜","½茶匙豆蔻粉","少许盐"],"recipeInstructions":[{"@type":"HowToStep","position":1,"text":"将所有食材搅拌至顺滑。"},{"@type":"HowToStep","position":2,"text":"品尝并调整，倒入杯中。"}],"url":"https://www.howtoedibles.com/zh/recipes/infused-mango-lassi/"},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.howtoedibles.com/zh/"},{"@type":"ListItem","position":2,"name":"无酒精鸡尾酒","item":"https://www.howtoedibles.com/zh/"},{"@type":"ListItem","position":3,"name":"注入大麻的芒果拉西"}]}]
 </script>
 
   <!-- Bootstrap 4 -->
@@ -313,7 +313,15 @@
     <span>食材</span>
   </div>
   <div class="recipe-section-body">
-    <ul><li>2 cups ripe mango</li><li>1 cup yoghurt</li><li>½ cup milk</li><li>2 tbsp cannabis honey</li><li>½ tsp cardamom</li><li>Pinch salt</li></ul>
+    <ul class="list-group">
+	<li class="list-group-item">2杯熟芒果</li>
+	<li class="list-group-item">1杯酸奶</li>
+	<li class="list-group-item">½杯牛奶</li>
+	<li class="list-group-item">2汤匙大麻蜂蜜</li>
+	<li class="list-group-item">½茶匙豆蔻粉</li>
+	<li class="list-group-item">少许盐</li>
+</ul>
+
   </div>
 </div>
 
@@ -323,7 +331,11 @@
     <span>制作步骤</span>
   </div>
   <div class="recipe-section-body recipe-steps">
-    <ul><li>Blend all ingredients until smooth.</li><li>Taste and adjust. Pour into glasses.</li></ul>
+    <ul class="list-group">
+	<li class="list-group-item">将所有食材搅拌至顺滑。</li>
+	<li class="list-group-item">品尝并调整，倒入杯中。</li>
+</ul>
+
   </div>
 </div>
 
@@ -371,7 +383,7 @@
         <div class="modal-content potency-modal-content">
           <div class="modal-header potency-modal-header">
             <h5 class="modal-title" id="myModalLabel">
-              <i class="fa fa-leaf mr-2" aria-hidden="true"></i>Potency Guide
+              <i class="fa fa-leaf mr-2" aria-hidden="true"></i>效力指南
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
@@ -396,7 +408,7 @@
                 <div class="potency-row-range">35% &ndash; 95%</div>
               </div>
             </div>
-            <p class="potency-avg-note">Street weed averages ~14% THC</p>
+            <p class="potency-avg-note">街头大麻平均约14% THC</p>
           </div>
           <div class="modal-footer potency-modal-footer">
             <button type="button" class="btn btn-potency-close" data-dismiss="modal">关闭</button>
@@ -441,7 +453,7 @@
 <div class="dosage-panel">
   <div class="dosage-panel-header">
     <i class="fa fa-leaf" aria-hidden="true"></i>
-    <span>Your Dose</span>
+    <span>您的剂量</span>
   </div>
   <div class="dosage-panel-body">
     <div class="dose-cards">
@@ -468,7 +480,7 @@
 </h3>
 <p class="spaced-content mt-1 pb-2" id="negative-effect-details"></p>
 
-<p class="sidenote">Effects vary by person, tolerance, and method of consumption.</p>
+<p class="sidenote">您可能会也可能不会感受到所列的所有效果*</p>
 
   </div>
 </div>
