@@ -47,20 +47,6 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
-  <script>
-  function downloadJSAtOnload() {
-    var el = document.createElement("script");
-    el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819";
-    el.async = true;
-    el.setAttribute('crossorigin', 'anonymous');
-    document.body.appendChild(el);
-  }
-  if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-  else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-  else window.onload = downloadJSAtOnload;
-</script>
 
 </head>
   <body>
@@ -287,14 +273,7 @@
     <div class="container page-content">
       <div class="row">
   <div class="col-md-7 order-1 order-md-1 recipe-left-col">
-<div class="row d-none d-md-block text-center">
-  <!-- Leaderboard -->
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:750px;height:90px"
-       data-ad-client="ca-pub-6354522716906819"
-       data-ad-slot="4353785890"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
+||
 
 
 <div class="recipe-hero-img-wrap">
@@ -548,12 +527,10 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
-<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-</script>
 
 
     <script src="/js/search-autocomplete.js"></script>
@@ -562,7 +539,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
-    <script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -570,11 +546,8 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/zh/?search=' + encodeURIComponent(q); }
         });
       })();
-    </script>
 <script>window.I18N = {"gram":"克","grams":"克","threshold_label":"阈值剂量","threshold_desc":"微妙的效果——非常适合初学者","common_label":"常见剂量","common_desc":"放松，对大多数人来说是愉快的体验","strong_label":"强效剂量","strong_desc":"强烈——更适合有经验的用户","heavy_label":"重度剂量","heavy_desc":"非常强效——请谨慎","positive_L1":["放松","减压","情绪改善","轻笑","大笑"],"positive_L2":["创造力","减少恶心","愉悦感","食欲增加","任务变得更有趣"],"positive_L3":["感官增强","哲学性思考","思绪流畅","身心连接增强"],"negative_L1":["头晕"],"negative_L2":["头痛","偏执","短期记忆受损"],"negative_L3":["焦虑","时间感知改变","恶心","烦躁"],"negative_L4":["心跳加速","协调能力下降","恐慌发作"]};</script>
-<script>
   window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 12.0, potency: 14 };
-</script>
 <script src="/js/calculator.js"></script>
 
       <script src="/js/dark-mode.js"></script>

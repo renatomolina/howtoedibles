@@ -47,20 +47,6 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
-  <script>
-  function downloadJSAtOnload() {
-    var el = document.createElement("script");
-    el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819";
-    el.async = true;
-    el.setAttribute('crossorigin', 'anonymous');
-    document.body.appendChild(el);
-  }
-  if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-  else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-  else window.onload = downloadJSAtOnload;
-</script>
 
 </head>
   <body>
@@ -287,14 +273,7 @@
     <div class="container page-content">
       <div class="row">
   <div class="col-md-7 order-1 order-md-1 recipe-left-col">
-<div class="row d-none d-md-block text-center">
-  <!-- Leaderboard -->
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:750px;height:90px"
-       data-ad-client="ca-pub-6354522716906819"
-       data-ad-slot="4353785890"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
+||
 
 
 <div class="recipe-hero-img-wrap">
@@ -541,12 +520,10 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
-<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-</script>
 
 
     <script src="/js/search-autocomplete.js"></script>
@@ -555,7 +532,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
-    <script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -563,11 +539,8 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/pt/?search=' + encodeURIComponent(q); }
         });
       })();
-    </script>
 <script>window.I18N = {"gram":"grama","grams":"gramas","threshold_label":"Dose Limiar","threshold_desc":"Efeitos sutis — ótimo para iniciantes","common_label":"Dose Comum","common_desc":"Relaxante, brisa agradável para a maioria das pessoas","strong_label":"Dose Forte","strong_desc":"Intenso — melhor para usuários experientes","heavy_label":"Dose Pesada","heavy_desc":"Muito potente — proceda com cautela","positive_L1":["relaxamento","redução do estresse","melhora do humor","risadinhas","gargalhadas"],"positive_L2":["criatividade","redução de náusea","euforia","aumento do apetite","tarefas ficam mais interessantes"],"positive_L3":["sentidos aguçados","pensamento filosófico","ideias fluem facilmente","maior conexão corpo/mente"],"negative_L1":["tontura"],"negative_L2":["dor de cabeça","paranoia","comprometimento da memória de curto prazo"],"negative_L3":["ansiedade","percepção alterada do tempo","náusea","agitação"],"negative_L4":["coração acelerado","perda de coordenação","ataques de pânico"]};</script>
-<script>
   window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 12.0, potency: 14 };
-</script>
 <script src="/js/calculator.js"></script>
 
       <script src="/js/dark-mode.js"></script>

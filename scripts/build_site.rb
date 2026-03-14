@@ -203,20 +203,6 @@ def build_head(lang, title:, description:, canonical:, keywords: nil, structured
       <link rel="stylesheet" href="/css/styles.css" />
       <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
-      <script>
-      function downloadJSAtOnload() {
-        var el = document.createElement("script");
-        el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819";
-        el.async = true;
-        el.setAttribute('crossorigin', 'anonymous');
-        document.body.appendChild(el);
-      }
-      if (window.addEventListener)
-        window.addEventListener("load", downloadJSAtOnload, false);
-      else if (window.attachEvent)
-        window.attachEvent("onload", downloadJSAtOnload);
-      else window.onload = downloadJSAtOnload;
-    </script>
     #{extra_head}
     </head>
   HTML
@@ -439,28 +425,8 @@ end
 # Ad blocks
 # ─────────────────────────────────────────────
 
-LEADERBOARD_AD = <<~HTML
-  <div class="row d-none d-md-block text-center">
-    <!-- Leaderboard -->
-    <ins class="adsbygoogle"
-         style="display:inline-block;width:750px;height:90px"
-         data-ad-client="ca-pub-6354522716906819"
-         data-ad-slot="4353785890"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-HTML
-
-MOBILE_AD = <<~HTML
-  <div class="mt-2 mb-3 d-sm-none">
-    <!-- Medium Rectangle -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-6354522716906819"
-         data-ad-slot="5475295879"
-         data-ad-format="auto"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-HTML
+LEADERBOARD_AD = ""
+MOBILE_AD = ""
 
 # ─────────────────────────────────────────────
 # Calculator widget (shared between homepage calculator page and recipe pages)

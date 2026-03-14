@@ -47,20 +47,6 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
-  <script>
-  function downloadJSAtOnload() {
-    var el = document.createElement("script");
-    el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819";
-    el.async = true;
-    el.setAttribute('crossorigin', 'anonymous');
-    document.body.appendChild(el);
-  }
-  if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-  else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-  else window.onload = downloadJSAtOnload;
-</script>
 
 </head>
   <body>
@@ -328,25 +314,7 @@
             Wenn Sie schon einmal ein Cannabis-Edible gegessen und die nächste Stunde damit verbracht haben, sich ängstlich zu fragen, ob es wirkt, sind Sie nicht allein. Anders als beim Rauchen oder Verdampfen, wo die Wirkung innerhalb von Minuten einsetzt, nehmen Edibles einen grundlegend anderen Weg durch Ihren Körper. Diesen Weg zu verstehen — und den dazugehörigen Zeitplan — ist eines der wichtigsten Dinge, die jeder Cannabis-Konsument lernen kann. Es ist der Unterschied zwischen einem großartigen Erlebnis und einem unangenehmen.
           </p>
 
-          <div class="article-takeaway"><h4>Kernaussage</h4><p>Die meisten Edibles brauchen 30 Minuten bis 2 Stunden, um zu wirken, erreichen ihren Höhepunkt nach 2 bis 4 Stunden und wirken insgesamt 4 bis 8 Stunden. Die wichtigste Regel: Warten Sie mindestens 2 volle Stunden, bevor Sie eine zweite Dosis in Betracht ziehen.</p></div>
-
-          <!-- Leaderboard Ad -->
-          <div class="row d-none d-md-block text-center mt-3">
-            <ins class="adsbygoogle"
-                 style="display:inline-block;width:750px;height:90px"
-                 data-ad-client="ca-pub-6354522716906819"
-                 data-ad-slot="4353785890"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-          </div>
-          <!-- Medium Ad (mobile) -->
-          <div class="mt-2 mb-3 d-sm-none">
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-6354522716906819"
-                 data-ad-slot="5475295879"
-                 data-ad-format="auto"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-          </div>
+          <div class="article-takeaway"><h4>Kernaussage</h4><p>Die meisten Edibles brauchen 30 Minuten bis 2 Stunden, um zu wirken, erreichen ihren Höhepunkt nach 2 bis 4 Stunden und wirken insgesamt 4 bis 8 Stunden. Die wichtigste Regel: Warten Sie mindestens 2 volle Stunden, bevor Sie eine zweite Dosis in Betracht ziehen.</p></div>          ||          ||
 
           <h2 id="the-digestion-process-explained" class="mt-4">Der Verdauungsprozess erklärt</h2>
           <p>
@@ -552,12 +520,10 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
-<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-</script>
 
 
     <script src="/js/search-autocomplete.js"></script>
@@ -566,7 +532,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
-    <script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -574,7 +539,6 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/de/?search=' + encodeURIComponent(q); }
         });
       })();
-    </script>
 
       <script src="/js/dark-mode.js"></script>
   </body>

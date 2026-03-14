@@ -47,20 +47,6 @@
   <link rel="stylesheet" href="/css/styles.css" />
   <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
 
-  <script>
-  function downloadJSAtOnload() {
-    var el = document.createElement("script");
-    el.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819";
-    el.async = true;
-    el.setAttribute('crossorigin', 'anonymous');
-    document.body.appendChild(el);
-  }
-  if (window.addEventListener)
-    window.addEventListener("load", downloadJSAtOnload, false);
-  else if (window.attachEvent)
-    window.attachEvent("onload", downloadJSAtOnload);
-  else window.onload = downloadJSAtOnload;
-</script>
 
 </head>
   <body>
@@ -326,25 +312,7 @@
 
         <p>La idea de esta calculadora provino del <a href="https://beyondchronic.com/2015/11/ohs-law-of-cannabis-edible-potency/" rel="noopener noreferrer" target="_blank">sitio web de Old Hippie</a>. Nuestra calculadora utiliza el mismo concepto que la Ley de Ohm — tal vez no lo recuerdes de la clase de fisica, pero es facil de entender con cannabis.</p>
 
-<div class="article-takeaway"><h4>Punto clave</h4><p>La potencia de los comestibles se calcula con una formula simple: P = 10 x G x S x E / N. Solo necesitas saber cuanto cannabis estas usando, su porcentaje de THC y cuantas porciones vas a hacer.</p></div>
-
-<!-- Leaderboard Ad -->
-<div class="row d-none d-md-block text-center mt-3">
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:750px;height:90px"
-       data-ad-client="ca-pub-6354522716906819"
-       data-ad-slot="4353785890"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
-<!-- Medium Ad (mobile) -->
-<div class="mt-2 mb-3 d-sm-none">
-  <ins class="adsbygoogle"
-       style="display:block"
-       data-ad-client="ca-pub-6354522716906819"
-       data-ad-slot="5475295879"
-       data-ad-format="auto"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
+<div class="article-takeaway"><h4>Punto clave</h4><p>La potencia de los comestibles se calcula con una formula simple: P = 10 x G x S x E / N. Solo necesitas saber cuanto cannabis estas usando, su porcentaje de THC y cuantas porciones vas a hacer.</p></div>||||
 
 <h2 id="the-concept" class="mt-4">El concepto detras de la calculadora</h2>
 <p>Nuestra calculadora utiliza el mismo concepto que la Ley de Ohm — tal vez no lo recuerdes de la clase de fisica, pero es facil de entender con cannabis. Al ingresar unos pocos numeros simples, puedes predecir exactamente que tan fuerte sera cada porcion de tus comestibles caseros antes de empezar a cocinar.</p>
@@ -466,12 +434,10 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
-<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-</script>
 
 
     <script src="/js/search-autocomplete.js"></script>
@@ -480,7 +446,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
-    <script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -488,7 +453,6 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/es/?search=' + encodeURIComponent(q); }
         });
       })();
-    </script>
 
       <script src="/js/dark-mode.js"></script>
   </body>
