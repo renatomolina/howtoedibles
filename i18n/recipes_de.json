@@ -1460,7 +1460,7 @@
   "cannabis-sparkling-lemonade": {
     "name": "Cannabis-Sprudel-Limonade",
     "description": "Prickelnde Limonade mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "Saft von 4 Zitronen",
       "2 EL Cannabis-Zuckersirup",
@@ -1477,7 +1477,7 @@
   "infused-virgin-mojito": {
     "name": "Infundierter Virgin Mojito",
     "description": "Minziger Limetten-Mocktail mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "Saft von 2 Limetten",
       "2 EL Cannabis-Zuckersirup",
@@ -1495,7 +1495,7 @@
   "cannabis-cucumber-mint-cooler": {
     "name": "Cannabis-Gurken-Minz-Cooler",
     "description": "Erfrischender Gurken-Minz-Mocktail mit Cannabis-Sirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "½ Gurke, in Scheiben geschnitten",
       "10 Minzblätter",
@@ -1513,7 +1513,7 @@
   "infused-watermelon-slush": {
     "name": "Infundierter Wassermelonen-Slush",
     "description": "Gemixter Wassermelonen-Slush mit Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "4 cups gefrorene Wassermelone",
       "2 tbsp Cannabis-Honig",
@@ -1529,7 +1529,7 @@
   "cannabis-lavender-lemonade": {
     "name": "Cannabis-Lavendel-Limonade",
     "description": "Blumige Limonade mit Cannabis-Lavendel-Sirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "Saft von 4 Zitronen",
       "2 tbsp Cannabis-Lavendelsirup",
@@ -1545,7 +1545,7 @@
   "infused-tropical-punch": {
     "name": "Infundierter Tropischer Punsch",
     "description": "Mango-, Ananas- und Maracuja-Punsch mit Cannabis-Sirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 cup Mangosaft",
       "1 cup Ananassaft",
@@ -1563,7 +1563,7 @@
   "cannabis-strawberry-basil-smash": {
     "name": "Cannabis-Erdbeer-Basilikum-Smash",
     "description": "Sommerlicher Erdbeer-Basilikum-Mocktail mit Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "6 Erdbeeren, Stielansatz entfernt",
       "6 Basilikumblätter",
@@ -1580,7 +1580,7 @@
   "infused-hibiscus-tea": {
     "name": "Infundierter Hibiskustee",
     "description": "Tiefroter Hibiskus-Eistee mit Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "3 tbsp getrockneter Hibiskus",
       "4 cups kochendes Wasser",
@@ -1597,7 +1597,7 @@
   "cannabis-peach-iced-tea": {
     "name": "Cannabis-Pfirsich-Eistee",
     "description": "Südstaaten-Pfirsich-Eistee mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "4 Schwarzteebeutel",
       "4 cups heißes Wasser",
@@ -1614,7 +1614,7 @@
   "infused-mango-lassi": {
     "name": "Infundierter Mango-Lassi",
     "description": "Cremiger Mango-Lassi mit Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "2 cups reife Mango",
       "1 cup Joghurt",
@@ -1631,7 +1631,7 @@
   "cannabis-rose-lemonade": {
     "name": "Cannabis-Rosen-Limonade",
     "description": "Elegante, blumige Limonade mit Cannabis-Tinktur.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "Saft von 4 Zitronen",
       "2 tbsp Rosensirup",
@@ -1648,7 +1648,7 @@
   "infused-pineapple-ginger-fizz": {
     "name": "Infundierter Ananas-Ingwer-Fizz",
     "description": "Tropischer Ananas-Ingwer-Fizz mit Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 cup frischer Ananassaft",
       "1 inch Ingwer, gerieben",
@@ -1665,7 +1665,7 @@
   "cannabis-cranberry-spritzer": {
     "name": "Cannabis-Cranberry-Spritzer",
     "description": "Festlicher Cranberry-Spritzer mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 cup Cranberrysaft",
       "2 tbsp Cannabis-Zuckersirup",
@@ -1682,7 +1682,7 @@
   "infused-matcha-cooler": {
     "name": "Infundierter Matcha-Cooler",
     "description": "Kalter Matcha mit Cannabis-Honig und Hafermilch.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 tsp Matchapulver",
       "2 tbsp heißes Wasser",
@@ -1698,7 +1698,7 @@
   "cannabis-passion-fruit-lemonade": {
     "name": "Cannabis-Maracuja-Limonade",
     "description": "Tropische Limonade mit Maracuja und Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "Fruchtfleisch von 4 Maracujas",
       "Saft von 3 Zitronen",
@@ -1715,7 +1715,7 @@
   "infused-cherry-limeade": {
     "name": "Infundierte Kirsch-Limeade",
     "description": "Kirsch-Limetten-Mocktail mit Cannabis-Zuckersirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 cup herber Kirschsaft",
       "Saft von 3 Limetten",
@@ -1732,7 +1732,7 @@
   "cannabis-mint-green-tea": {
     "name": "Cannabis-Minz-Grüntee",
     "description": "Kühler Minz-Grüntee mit Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "3 Grünteebeutel",
       "4 cups heißes Wasser",
@@ -1749,7 +1749,7 @@
   "infused-blueberry-lemonade": {
     "name": "Infundierte Blaubeer-Limonade",
     "description": "Lila Blaubeer-Limonade mit Cannabis-Sirup.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 cup Blaubeeren",
       "Saft von 4 Zitronen",
@@ -1765,7 +1765,7 @@
   "cannabis-ginger-turmeric-tonic": {
     "name": "Cannabis-Ingwer-Kurkuma-Tonic",
     "description": "Wellness-Tonic mit Ingwer, Kurkuma und Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 inch Ingwer, gerieben",
       "½ tsp Kurkuma",
@@ -1783,7 +1783,7 @@
   "infused-coconut-lime-agua-fresca": {
     "name": "Infundierte Kokos-Limetten-Agua-Fresca",
     "description": "Leichte Kokos-Limetten-Agua-Fresca mit Cannabis-Honig.",
-    "category_name": "Mocktails",
+    "category_name": "Getränke",
     "ingredients": [
       "1 cup Kokoswasser",
       "Saft von 3 Limetten",

@@ -1054,7 +1054,103 @@
         ]
       }
     },
-    "Mocktails": {
+    "International": {
+      "brazilian_sweet": {
+        "intro": "This cannabis %{name} recipe infuses beloved Brazilian sweet traditions with %{base_fat} for a tropical, potent treat that celebrates Brazil's rich culinary heritage. Brazilian sweets like brigadeiros, beijinhos, and coconut desserts are naturally high in fat, making them ideal vehicles for cannabis infusion. Experience a taste of Brazil with a carefully dosed twist.",
+        "dosing_tips": [
+          "Brazilian sweets like brigadeiros are rolled into individual balls, making each one a precisely portioned dose. Calculate mg per ball.",
+          "Condensed milk-based sweets integrate cannabis butter or coconut oil smoothly. Stir continuously while cooking for even distribution.",
+          "Start with 5-10 mg per piece. Brazilian sweets are rich and people often eat several at parties, so keep individual doses low.",
+          "The high sugar and fat content in Brazilian sweets can delay onset to 60-90 minutes. Be patient and do not overindulge."
+        ],
+        "common_mistakes": [
+          "Cooking condensed milk with cannabis fat at too high a heat. Brazilian sweets require low, slow cooking. Keep the heat gentle to preserve THC.",
+          "Not stirring constantly when making brigadeiros or cajuzinhos with cannabis butter. The mixture can scorch and the fat can separate.",
+          "Making too many pieces per batch to reduce the dose per piece, resulting in tiny sweets that do not look or taste right.",
+          "Using cannabis coconut oil in recipes where butter flavor is essential, like quindim. Match the fat type to the recipe."
+        ],
+        "storage": [
+          "Cannabis brigadeiros and similar rolled sweets keep refrigerated for up to a week in an airtight container.",
+          "Many Brazilian cannabis sweets freeze well for 2-3 months. Thaw in the fridge before serving.",
+          "Store in paper candy cups and label clearly with dose per piece, especially for parties and gatherings."
+        ],
+        "variations": [
+          "Make cannabis beijinhos by substituting coconut for chocolate in the brigadeiro recipe and using cannabis coconut oil.",
+          "Infuse the coconut filling of cannabis cocada with cannabis butter for a chewy, tropical treat.",
+          "Create cannabis quindim using cannabis butter in this classic Brazilian egg and coconut tart."
+        ],
+        "faq": [
+          {
+            "q": "Can I make cannabis brigadeiros?",
+            "a": "Absolutely, brigadeiros are one of the best Brazilian sweets for cannabis infusion. Replace part of the regular butter with cannabis butter and cook the condensed milk mixture over low heat, stirring constantly. Roll into balls and coat in sprinkles. Each ball is a perfect single dose."
+          },
+          {
+            "q": "What Brazilian sweets work best with cannabis?",
+            "a": "Brigadeiros, beijinhos, and cocada are top choices because they are fat-rich, individually portioned, and have strong flavors that mask cannabis. Pudim (flan) also works well with cannabis cream. Avoid delicate sweets where the cannabis flavor would dominate."
+          },
+          {
+            "q": "Does the condensed milk affect THC potency?",
+            "a": "No, condensed milk does not degrade THC. The slow cooking at medium-low heat to reduce the mixture is well within the safe range. Just avoid boiling vigorously and add the cannabis fat early so it fully integrates into the condensed milk."
+          },
+          {
+            "q": "Can I use cannabis coconut oil in Brazilian coconut desserts?",
+            "a": "Yes, cannabis coconut oil is perfect for Brazilian coconut desserts like cocada, beijinhos, and coconut flan. The coconut flavor is already integral to these recipes, so the infused oil blends right in. It is one of the most natural cannabis pairings in Brazilian cuisine."
+          },
+          {
+            "q": "How do I serve cannabis Brazilian sweets at a festa?",
+            "a": "Present them on a separate, clearly labeled plate or tray away from regular sweets. Use different colored candy cups or a prominent sign indicating they contain cannabis and the dose per piece. Only serve to informed, consenting adults and have plenty of non-infused sweets available."
+          }
+        ]
+      },
+      "brazilian_savory": {
+        "intro": "This cannabis %{name} recipe brings the bold, savory flavors of Brazilian cuisine together with %{base_fat} for a hearty, infused meal that is deeply satisfying. Brazilian savory dishes like pao de queijo, coxinhas, and farofa use generous amounts of fat, making them perfect candidates for cannabis infusion. Enjoy Brazilian comfort food with a measured, consistent dose.",
+        "dosing_tips": [
+          "Brazilian savory snacks are often eaten in multiples. If making coxinhas or pao de queijo, keep each piece at 2.5-5 mg so eating 2-3 stays within a safe range.",
+          "Mix %{base_fat} into the dough or filling thoroughly. Brazilian cheese bread dough, for example, incorporates oil homogeneously.",
+          "Calculate total THC in the batch and divide by the number of pieces. Weigh dough portions for consistency.",
+          "These starchy, fatty dishes can delay onset to 60-120 minutes. Eat a controlled portion and wait before having more."
+        ],
+        "common_mistakes": [
+          "Frying cannabis-infused dough in hot oil wastes the THC as it leaches into the frying oil. Bake instead, or add the cannabis element after frying.",
+          "Adding cannabis fat to farofa over high heat on the stovetop. Cook the farofa first, then stir in cannabis butter off the heat.",
+          "Making pao de queijo dough too wet by adding extra cannabis oil without reducing another liquid. Keep the dough ratio balanced.",
+          "Not mixing the cannabis fat into the filling or dough thoroughly, resulting in hot spots of potency."
+        ],
+        "storage": [
+          "Cannabis pao de queijo and similar snacks keep refrigerated for 3-4 days. Reheat in the oven at 325 F (165 C).",
+          "Unbaked cannabis pao de queijo dough balls freeze beautifully for up to 2 months. Bake from frozen, adding a few extra minutes.",
+          "Cannabis farofa stores in an airtight container at room temperature for up to a week."
+        ],
+        "variations": [
+          "Make cannabis pao de queijo by replacing the regular oil in the dough with cannabis-infused oil for cheesy, gluten-free bites.",
+          "Stir cannabis butter into farofa with bacon and egg for a rich, infused Brazilian side dish.",
+          "Fill cannabis-infused empanada dough with seasoned meat or cheese for a savory, portable edible."
+        ],
+        "faq": [
+          {
+            "q": "Can I make cannabis pao de queijo?",
+            "a": "Yes, pao de queijo is excellent for cannabis infusion. The recipe traditionally uses oil, which you can replace with cannabis-infused oil. The tapioca starch dough integrates the oil completely, and the strong cheese flavor masks any herbal notes. Bake at moderate heat to preserve potency."
+          },
+          {
+            "q": "Is it possible to make cannabis coxinhas?",
+            "a": "Yes, but avoid deep frying in cannabis oil. Instead, make the coxinha dough or filling with cannabis butter, shape and bread them, then bake at %{cook_temp}. Baking instead of frying preserves the THC and is actually a lighter, healthier preparation."
+          },
+          {
+            "q": "Can I add cannabis to feijoada?",
+            "a": "Stir cannabis oil into your individual serving of feijoada rather than the whole pot. The rich, fatty stew of beans and pork is an ideal vehicle because the bold flavors and high fat content mask and absorb cannabis perfectly."
+          },
+          {
+            "q": "What is the best fat for Brazilian cannabis recipes?",
+            "a": "Cannabis butter is the most versatile for Brazilian savory cooking. Cannabis-infused olive oil works for drizzling over finished dishes. Cannabis coconut oil is used in some northeastern Brazilian recipes. Match the cannabis fat to what the original recipe calls for."
+          },
+          {
+            "q": "How do I dose cannabis farofa?",
+            "a": "Mix a calculated amount of cannabis butter into the finished farofa and serve by the spoonful. One to two tablespoons of farofa is a typical side portion. Calculate the mg per tablespoon so you can serve precise doses as a side dish."
+          }
+        ]
+      }
+    },
+    "Drinks": {
       "citrus": {
         "intro": "This cannabis %{name} recipe blends %{base_fat} with bright citrus flavors for a refreshing, non-alcoholic infused drink that is perfect for social occasions. Citrus mocktails are among the best at masking cannabis flavor thanks to their bold acidity and aromatic oils. Enjoy a sophisticated cannabis beverage without the alcohol.",
         "dosing_tips": [
@@ -1334,102 +1430,6 @@
           {
             "q": "How long until a cannabis cocktail takes effect?",
             "a": "Faster than either substance alone. The alcohol speeds THC absorption and you may feel combined effects within 15-30 minutes. The cannabis portion will continue to build for up to 90 minutes while the alcohol effect follows its normal timeline. Go very slow."
-          }
-        ]
-      }
-    },
-    "International": {
-      "brazilian_sweet": {
-        "intro": "This cannabis %{name} recipe infuses beloved Brazilian sweet traditions with %{base_fat} for a tropical, potent treat that celebrates Brazil's rich culinary heritage. Brazilian sweets like brigadeiros, beijinhos, and coconut desserts are naturally high in fat, making them ideal vehicles for cannabis infusion. Experience a taste of Brazil with a carefully dosed twist.",
-        "dosing_tips": [
-          "Brazilian sweets like brigadeiros are rolled into individual balls, making each one a precisely portioned dose. Calculate mg per ball.",
-          "Condensed milk-based sweets integrate cannabis butter or coconut oil smoothly. Stir continuously while cooking for even distribution.",
-          "Start with 5-10 mg per piece. Brazilian sweets are rich and people often eat several at parties, so keep individual doses low.",
-          "The high sugar and fat content in Brazilian sweets can delay onset to 60-90 minutes. Be patient and do not overindulge."
-        ],
-        "common_mistakes": [
-          "Cooking condensed milk with cannabis fat at too high a heat. Brazilian sweets require low, slow cooking. Keep the heat gentle to preserve THC.",
-          "Not stirring constantly when making brigadeiros or cajuzinhos with cannabis butter. The mixture can scorch and the fat can separate.",
-          "Making too many pieces per batch to reduce the dose per piece, resulting in tiny sweets that do not look or taste right.",
-          "Using cannabis coconut oil in recipes where butter flavor is essential, like quindim. Match the fat type to the recipe."
-        ],
-        "storage": [
-          "Cannabis brigadeiros and similar rolled sweets keep refrigerated for up to a week in an airtight container.",
-          "Many Brazilian cannabis sweets freeze well for 2-3 months. Thaw in the fridge before serving.",
-          "Store in paper candy cups and label clearly with dose per piece, especially for parties and gatherings."
-        ],
-        "variations": [
-          "Make cannabis beijinhos by substituting coconut for chocolate in the brigadeiro recipe and using cannabis coconut oil.",
-          "Infuse the coconut filling of cannabis cocada with cannabis butter for a chewy, tropical treat.",
-          "Create cannabis quindim using cannabis butter in this classic Brazilian egg and coconut tart."
-        ],
-        "faq": [
-          {
-            "q": "Can I make cannabis brigadeiros?",
-            "a": "Absolutely, brigadeiros are one of the best Brazilian sweets for cannabis infusion. Replace part of the regular butter with cannabis butter and cook the condensed milk mixture over low heat, stirring constantly. Roll into balls and coat in sprinkles. Each ball is a perfect single dose."
-          },
-          {
-            "q": "What Brazilian sweets work best with cannabis?",
-            "a": "Brigadeiros, beijinhos, and cocada are top choices because they are fat-rich, individually portioned, and have strong flavors that mask cannabis. Pudim (flan) also works well with cannabis cream. Avoid delicate sweets where the cannabis flavor would dominate."
-          },
-          {
-            "q": "Does the condensed milk affect THC potency?",
-            "a": "No, condensed milk does not degrade THC. The slow cooking at medium-low heat to reduce the mixture is well within the safe range. Just avoid boiling vigorously and add the cannabis fat early so it fully integrates into the condensed milk."
-          },
-          {
-            "q": "Can I use cannabis coconut oil in Brazilian coconut desserts?",
-            "a": "Yes, cannabis coconut oil is perfect for Brazilian coconut desserts like cocada, beijinhos, and coconut flan. The coconut flavor is already integral to these recipes, so the infused oil blends right in. It is one of the most natural cannabis pairings in Brazilian cuisine."
-          },
-          {
-            "q": "How do I serve cannabis Brazilian sweets at a festa?",
-            "a": "Present them on a separate, clearly labeled plate or tray away from regular sweets. Use different colored candy cups or a prominent sign indicating they contain cannabis and the dose per piece. Only serve to informed, consenting adults and have plenty of non-infused sweets available."
-          }
-        ]
-      },
-      "brazilian_savory": {
-        "intro": "This cannabis %{name} recipe brings the bold, savory flavors of Brazilian cuisine together with %{base_fat} for a hearty, infused meal that is deeply satisfying. Brazilian savory dishes like pao de queijo, coxinhas, and farofa use generous amounts of fat, making them perfect candidates for cannabis infusion. Enjoy Brazilian comfort food with a measured, consistent dose.",
-        "dosing_tips": [
-          "Brazilian savory snacks are often eaten in multiples. If making coxinhas or pao de queijo, keep each piece at 2.5-5 mg so eating 2-3 stays within a safe range.",
-          "Mix %{base_fat} into the dough or filling thoroughly. Brazilian cheese bread dough, for example, incorporates oil homogeneously.",
-          "Calculate total THC in the batch and divide by the number of pieces. Weigh dough portions for consistency.",
-          "These starchy, fatty dishes can delay onset to 60-120 minutes. Eat a controlled portion and wait before having more."
-        ],
-        "common_mistakes": [
-          "Frying cannabis-infused dough in hot oil wastes the THC as it leaches into the frying oil. Bake instead, or add the cannabis element after frying.",
-          "Adding cannabis fat to farofa over high heat on the stovetop. Cook the farofa first, then stir in cannabis butter off the heat.",
-          "Making pao de queijo dough too wet by adding extra cannabis oil without reducing another liquid. Keep the dough ratio balanced.",
-          "Not mixing the cannabis fat into the filling or dough thoroughly, resulting in hot spots of potency."
-        ],
-        "storage": [
-          "Cannabis pao de queijo and similar snacks keep refrigerated for 3-4 days. Reheat in the oven at 325 F (165 C).",
-          "Unbaked cannabis pao de queijo dough balls freeze beautifully for up to 2 months. Bake from frozen, adding a few extra minutes.",
-          "Cannabis farofa stores in an airtight container at room temperature for up to a week."
-        ],
-        "variations": [
-          "Make cannabis pao de queijo by replacing the regular oil in the dough with cannabis-infused oil for cheesy, gluten-free bites.",
-          "Stir cannabis butter into farofa with bacon and egg for a rich, infused Brazilian side dish.",
-          "Fill cannabis-infused empanada dough with seasoned meat or cheese for a savory, portable edible."
-        ],
-        "faq": [
-          {
-            "q": "Can I make cannabis pao de queijo?",
-            "a": "Yes, pao de queijo is excellent for cannabis infusion. The recipe traditionally uses oil, which you can replace with cannabis-infused oil. The tapioca starch dough integrates the oil completely, and the strong cheese flavor masks any herbal notes. Bake at moderate heat to preserve potency."
-          },
-          {
-            "q": "Is it possible to make cannabis coxinhas?",
-            "a": "Yes, but avoid deep frying in cannabis oil. Instead, make the coxinha dough or filling with cannabis butter, shape and bread them, then bake at %{cook_temp}. Baking instead of frying preserves the THC and is actually a lighter, healthier preparation."
-          },
-          {
-            "q": "Can I add cannabis to feijoada?",
-            "a": "Stir cannabis oil into your individual serving of feijoada rather than the whole pot. The rich, fatty stew of beans and pork is an ideal vehicle because the bold flavors and high fat content mask and absorb cannabis perfectly."
-          },
-          {
-            "q": "What is the best fat for Brazilian cannabis recipes?",
-            "a": "Cannabis butter is the most versatile for Brazilian savory cooking. Cannabis-infused olive oil works for drizzling over finished dishes. Cannabis coconut oil is used in some northeastern Brazilian recipes. Match the cannabis fat to what the original recipe calls for."
-          },
-          {
-            "q": "How do I dose cannabis farofa?",
-            "a": "Mix a calculated amount of cannabis butter into the finished farofa and serve by the spoonful. One to two tablespoons of farofa is a typical side portion. Calculate the mg per tablespoon so you can serve precise doses as a side dish."
           }
         ]
       }

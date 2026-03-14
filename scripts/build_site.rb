@@ -241,7 +241,7 @@ def build_navbar(lang)
   cats_by_name = {}
   CATEGORIES.each { |c| cats_by_name[c["name"]] = c }
 
-  category_order = %w[Desserts Drinks Snacks Essentials Lunch Keto Vegan Mocktails International]
+  category_order = %w[Desserts Drinks Snacks Essentials Lunch Keto Vegan International]
 
   dropdowns = category_order.map do |cat_name|
     cat = cats_by_name[cat_name]
@@ -941,7 +941,7 @@ def interpolate(template, vars)
 end
 
 # Category mapping for merged template categories
-TEMPLATE_CATEGORY_MAP = { "Drinks" => "Mocktails" }
+TEMPLATE_CATEGORY_MAP = {}
 
 def get_recipe_section_template(lang, category, sub_category)
   cat = TEMPLATE_CATEGORY_MAP[category] || category

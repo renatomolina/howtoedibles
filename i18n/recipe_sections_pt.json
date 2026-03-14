@@ -1054,7 +1054,103 @@
         ]
       }
     },
-    "Mocktails": {
+    "International": {
+      "brazilian_sweet": {
+        "intro": "Esta receita de %{name} com cannabis infunde tradições de doces brasileiros queridos com %{base_fat} para uma guloseima tropical e potente que celebra a rica herança culinária do Brasil. Doces brasileiros como brigadeiros, beijinhos e sobremesas de coco são naturalmente ricos em gordura, tornando-os veículos ideais para infusão de cannabis. Experimente um gostinho do Brasil com uma dose cuidadosamente calculada.",
+        "dosing_tips": [
+          "Doces brasileiros como brigadeiros são enrolados em bolinhas individuais, fazendo de cada uma uma dose precisamente porcionada. Calcule os mg por bolinha.",
+          "Doces à base de leite condensado integram manteiga com cannabis ou óleo de coco suavemente. Mexa continuamente enquanto cozinha para distribuição uniforme.",
+          "Comece com 5-10 mg por unidade. Doces brasileiros são ricos e as pessoas costumam comer vários em festas, então mantenha as doses individuais baixas.",
+          "O alto teor de açúcar e gordura nos doces brasileiros pode atrasar o início dos efeitos para 60-90 minutos. Seja paciente e não exagere."
+        ],
+        "common_mistakes": [
+          "Cozinhar leite condensado com gordura de cannabis em fogo muito alto. Doces brasileiros exigem fogo baixo e lento. Mantenha a temperatura suave para preservar o THC.",
+          "Não mexer constantemente ao fazer brigadeiros ou cajuzinhos com manteiga de cannabis. A mistura pode queimar e a gordura pode separar.",
+          "Fazer muitas unidades por receita para reduzir a dose por unidade, resultando em docinhos minúsculos que não ficam nem com a aparência nem com o sabor corretos.",
+          "Usar óleo de coco com cannabis em receitas onde o sabor de manteiga é essencial, como quindim. Combine o tipo de gordura com a receita."
+        ],
+        "storage": [
+          "Brigadeiros e docinhos enrolados com cannabis duram refrigerados por até uma semana em recipiente hermético.",
+          "Muitos doces brasileiros com cannabis congelam bem por 2-3 meses. Descongele na geladeira antes de servir.",
+          "Armazene em forminhas de papel e rotule claramente com a dose por unidade, especialmente para festas e confraternizações."
+        ],
+        "variations": [
+          "Faça beijinhos com cannabis substituindo o chocolate por coco na receita de brigadeiro e usando óleo de coco com cannabis.",
+          "Infunda o recheio de coco da cocada com cannabis usando manteiga com cannabis para uma guloseima tropical e mastigável.",
+          "Crie quindim com cannabis usando manteiga com cannabis nesta clássica sobremesa brasileira de ovo e coco."
+        ],
+        "faq": [
+          {
+            "q": "Posso fazer brigadeiros com cannabis?",
+            "a": "Com certeza, brigadeiros são um dos melhores doces brasileiros para infusão de cannabis. Substitua parte da manteiga comum por manteiga com cannabis e cozinhe a mistura de leite condensado em fogo baixo, mexendo constantemente. Enrole em bolinhas e cubra com granulado. Cada bolinha é uma dose individual perfeita."
+          },
+          {
+            "q": "Quais doces brasileiros funcionam melhor com cannabis?",
+            "a": "Brigadeiros, beijinhos e cocada são as melhores escolhas porque são ricos em gordura, porcionados individualmente e têm sabores fortes que mascaram a cannabis. Pudim também funciona bem com creme com cannabis. Evite doces delicados onde o sabor da cannabis dominaria."
+          },
+          {
+            "q": "O leite condensado afeta a potência do THC?",
+            "a": "Não, o leite condensado não degrada o THC. O cozimento lento em fogo médio-baixo para reduzir a mistura está dentro da faixa segura. Apenas evite ferver vigorosamente e adicione a gordura de cannabis no início para que se integre completamente ao leite condensado."
+          },
+          {
+            "q": "Posso usar óleo de coco com cannabis em sobremesas brasileiras de coco?",
+            "a": "Sim, o óleo de coco com cannabis é perfeito para sobremesas brasileiras de coco como cocada, beijinhos e pudim de coco. O sabor de coco já é parte integrante dessas receitas, então o óleo infundido se incorpora naturalmente. É uma das combinações mais naturais de cannabis na culinária brasileira."
+          },
+          {
+            "q": "Como sirvo doces brasileiros com cannabis em uma festa?",
+            "a": "Apresente-os em um prato ou bandeja separada, claramente rotulada e afastada dos doces comuns. Use forminhas de cores diferentes ou uma placa visível indicando que contêm cannabis e a dose por unidade. Sirva apenas para adultos informados e consentidos e tenha bastante doces sem infusão disponíveis."
+          }
+        ]
+      },
+      "brazilian_savory": {
+        "intro": "Esta receita de %{name} com cannabis reúne os sabores marcantes e salgados da culinária brasileira com %{base_fat} para uma refeição farta e infundida profundamente satisfatória. Pratos salgados brasileiros como pão de queijo, coxinhas e farofa usam quantidades generosas de gordura, tornando-os candidatos perfeitos para infusão de cannabis. Aprecie comida brasileira de conforto com uma dose medida e consistente.",
+        "dosing_tips": [
+          "Salgadinhos brasileiros costumam ser comidos em quantidade. Se fizer coxinhas ou pão de queijo, mantenha cada unidade em 2.5-5 mg para que comer 2-3 fique dentro de uma faixa segura.",
+          "Misture o %{base_fat} na massa ou no recheio completamente. A massa do pão de queijo, por exemplo, incorpora o óleo de forma homogênea.",
+          "Calcule o THC total da receita e divida pelo número de unidades. Pese as porções de massa para consistência.",
+          "Esses pratos amiláceos e gordurosos podem atrasar o início dos efeitos para 60-120 minutos. Coma uma porção controlada e espere antes de repetir."
+        ],
+        "common_mistakes": [
+          "Fritar massa com cannabis em óleo quente desperdiça o THC, pois ele se dissolve no óleo de fritura. Asse em vez disso, ou adicione o elemento de cannabis após fritar.",
+          "Adicionar gordura de cannabis à farofa em fogo alto no fogão. Cozinhe a farofa primeiro, depois misture a manteiga com cannabis com o fogo desligado.",
+          "Fazer a massa do pão de queijo úmida demais ao adicionar óleo de cannabis extra sem reduzir outro líquido. Mantenha a proporção da massa equilibrada.",
+          "Não misturar a gordura de cannabis no recheio ou na massa completamente, resultando em pontos concentrados de potência."
+        ],
+        "storage": [
+          "Pão de queijo e salgadinhos similares com cannabis duram refrigerados por 3-4 dias. Reaqueça no forno a 325 F (165 C).",
+          "Bolinhas de massa de pão de queijo com cannabis não assadas congelam perfeitamente por até 2 meses. Asse direto do congelador, adicionando alguns minutos extras.",
+          "Farofa com cannabis dura em recipiente hermético em temperatura ambiente por até uma semana."
+        ],
+        "variations": [
+          "Faça pão de queijo com cannabis substituindo o óleo comum na massa por óleo com cannabis para bolinhas de queijo sem glúten.",
+          "Misture manteiga com cannabis na farofa com bacon e ovo para um acompanhamento brasileiro rico e infundido.",
+          "Recheie massa de empanada com cannabis com carne temperada ou queijo para um salgadinho portátil."
+        ],
+        "faq": [
+          {
+            "q": "Posso fazer pão de queijo com cannabis?",
+            "a": "Sim, o pão de queijo é excelente para infusão de cannabis. A receita tradicionalmente usa óleo, que você pode substituir por óleo com cannabis. A massa de polvilho integra o óleo completamente, e o sabor forte do queijo mascara qualquer nota herbal. Asse em temperatura moderada para preservar a potência."
+          },
+          {
+            "q": "É possível fazer coxinhas com cannabis?",
+            "a": "Sim, mas evite fritar em óleo de cannabis. Em vez disso, faça a massa ou o recheio da coxinha com manteiga de cannabis, modele, empane e asse a %{cook_temp}. Assar em vez de fritar preserva o THC e é na verdade um preparo mais leve e saudável."
+          },
+          {
+            "q": "Posso adicionar cannabis à feijoada?",
+            "a": "Misture óleo de cannabis na sua porção individual de feijoada em vez de na panela toda. O caldo rico e gorduroso de feijão e carne de porco é um veículo ideal porque os sabores fortes e o alto teor de gordura mascaram e absorvem a cannabis perfeitamente."
+          },
+          {
+            "q": "Qual a melhor gordura para receitas brasileiras com cannabis?",
+            "a": "A manteiga com cannabis é a mais versátil para a culinária salgada brasileira. O azeite de oliva com cannabis funciona para regar sobre pratos finalizados. O óleo de coco com cannabis é usado em algumas receitas do nordeste brasileiro. Combine a gordura de cannabis com o que a receita original pede."
+          },
+          {
+            "q": "Como faço a dosagem da farofa com cannabis?",
+            "a": "Misture uma quantidade calculada de manteiga com cannabis na farofa pronta e sirva por colherada. Uma a duas colheres de sopa de farofa é uma porção típica de acompanhamento. Calcule os mg por colher de sopa para poder servir doses precisas como acompanhamento."
+          }
+        ]
+      }
+    },
+    "Drinks": {
       "citrus": {
         "intro": "Esta receita de %{name} com cannabis combina %{base_fat} com sabores cítricos vibrantes para uma bebida refrescante, sem álcool e infundida, perfeita para ocasiões sociais. Mocktails cítricos estão entre os melhores para mascarar o sabor da cannabis graças à sua acidez marcante e óleos aromáticos. Aprecie uma bebida sofisticada com cannabis sem o álcool.",
         "dosing_tips": [
@@ -1334,102 +1430,6 @@
           {
             "q": "Quanto tempo leva para um coquetel com cannabis fazer efeito?",
             "a": "Mais rápido que qualquer uma das substâncias sozinha. O álcool acelera a absorção de THC e você pode sentir os efeitos combinados em 15-30 minutos. A porção de cannabis continua a se intensificar por até 90 minutos enquanto o efeito do álcool segue sua linha do tempo normal. Vá bem devagar."
-          }
-        ]
-      }
-    },
-    "International": {
-      "brazilian_sweet": {
-        "intro": "Esta receita de %{name} com cannabis infunde tradições de doces brasileiros queridos com %{base_fat} para uma guloseima tropical e potente que celebra a rica herança culinária do Brasil. Doces brasileiros como brigadeiros, beijinhos e sobremesas de coco são naturalmente ricos em gordura, tornando-os veículos ideais para infusão de cannabis. Experimente um gostinho do Brasil com uma dose cuidadosamente calculada.",
-        "dosing_tips": [
-          "Doces brasileiros como brigadeiros são enrolados em bolinhas individuais, fazendo de cada uma uma dose precisamente porcionada. Calcule os mg por bolinha.",
-          "Doces à base de leite condensado integram manteiga com cannabis ou óleo de coco suavemente. Mexa continuamente enquanto cozinha para distribuição uniforme.",
-          "Comece com 5-10 mg por unidade. Doces brasileiros são ricos e as pessoas costumam comer vários em festas, então mantenha as doses individuais baixas.",
-          "O alto teor de açúcar e gordura nos doces brasileiros pode atrasar o início dos efeitos para 60-90 minutos. Seja paciente e não exagere."
-        ],
-        "common_mistakes": [
-          "Cozinhar leite condensado com gordura de cannabis em fogo muito alto. Doces brasileiros exigem fogo baixo e lento. Mantenha a temperatura suave para preservar o THC.",
-          "Não mexer constantemente ao fazer brigadeiros ou cajuzinhos com manteiga de cannabis. A mistura pode queimar e a gordura pode separar.",
-          "Fazer muitas unidades por receita para reduzir a dose por unidade, resultando em docinhos minúsculos que não ficam nem com a aparência nem com o sabor corretos.",
-          "Usar óleo de coco com cannabis em receitas onde o sabor de manteiga é essencial, como quindim. Combine o tipo de gordura com a receita."
-        ],
-        "storage": [
-          "Brigadeiros e docinhos enrolados com cannabis duram refrigerados por até uma semana em recipiente hermético.",
-          "Muitos doces brasileiros com cannabis congelam bem por 2-3 meses. Descongele na geladeira antes de servir.",
-          "Armazene em forminhas de papel e rotule claramente com a dose por unidade, especialmente para festas e confraternizações."
-        ],
-        "variations": [
-          "Faça beijinhos com cannabis substituindo o chocolate por coco na receita de brigadeiro e usando óleo de coco com cannabis.",
-          "Infunda o recheio de coco da cocada com cannabis usando manteiga com cannabis para uma guloseima tropical e mastigável.",
-          "Crie quindim com cannabis usando manteiga com cannabis nesta clássica sobremesa brasileira de ovo e coco."
-        ],
-        "faq": [
-          {
-            "q": "Posso fazer brigadeiros com cannabis?",
-            "a": "Com certeza, brigadeiros são um dos melhores doces brasileiros para infusão de cannabis. Substitua parte da manteiga comum por manteiga com cannabis e cozinhe a mistura de leite condensado em fogo baixo, mexendo constantemente. Enrole em bolinhas e cubra com granulado. Cada bolinha é uma dose individual perfeita."
-          },
-          {
-            "q": "Quais doces brasileiros funcionam melhor com cannabis?",
-            "a": "Brigadeiros, beijinhos e cocada são as melhores escolhas porque são ricos em gordura, porcionados individualmente e têm sabores fortes que mascaram a cannabis. Pudim também funciona bem com creme com cannabis. Evite doces delicados onde o sabor da cannabis dominaria."
-          },
-          {
-            "q": "O leite condensado afeta a potência do THC?",
-            "a": "Não, o leite condensado não degrada o THC. O cozimento lento em fogo médio-baixo para reduzir a mistura está dentro da faixa segura. Apenas evite ferver vigorosamente e adicione a gordura de cannabis no início para que se integre completamente ao leite condensado."
-          },
-          {
-            "q": "Posso usar óleo de coco com cannabis em sobremesas brasileiras de coco?",
-            "a": "Sim, o óleo de coco com cannabis é perfeito para sobremesas brasileiras de coco como cocada, beijinhos e pudim de coco. O sabor de coco já é parte integrante dessas receitas, então o óleo infundido se incorpora naturalmente. É uma das combinações mais naturais de cannabis na culinária brasileira."
-          },
-          {
-            "q": "Como sirvo doces brasileiros com cannabis em uma festa?",
-            "a": "Apresente-os em um prato ou bandeja separada, claramente rotulada e afastada dos doces comuns. Use forminhas de cores diferentes ou uma placa visível indicando que contêm cannabis e a dose por unidade. Sirva apenas para adultos informados e consentidos e tenha bastante doces sem infusão disponíveis."
-          }
-        ]
-      },
-      "brazilian_savory": {
-        "intro": "Esta receita de %{name} com cannabis reúne os sabores marcantes e salgados da culinária brasileira com %{base_fat} para uma refeição farta e infundida profundamente satisfatória. Pratos salgados brasileiros como pão de queijo, coxinhas e farofa usam quantidades generosas de gordura, tornando-os candidatos perfeitos para infusão de cannabis. Aprecie comida brasileira de conforto com uma dose medida e consistente.",
-        "dosing_tips": [
-          "Salgadinhos brasileiros costumam ser comidos em quantidade. Se fizer coxinhas ou pão de queijo, mantenha cada unidade em 2.5-5 mg para que comer 2-3 fique dentro de uma faixa segura.",
-          "Misture o %{base_fat} na massa ou no recheio completamente. A massa do pão de queijo, por exemplo, incorpora o óleo de forma homogênea.",
-          "Calcule o THC total da receita e divida pelo número de unidades. Pese as porções de massa para consistência.",
-          "Esses pratos amiláceos e gordurosos podem atrasar o início dos efeitos para 60-120 minutos. Coma uma porção controlada e espere antes de repetir."
-        ],
-        "common_mistakes": [
-          "Fritar massa com cannabis em óleo quente desperdiça o THC, pois ele se dissolve no óleo de fritura. Asse em vez disso, ou adicione o elemento de cannabis após fritar.",
-          "Adicionar gordura de cannabis à farofa em fogo alto no fogão. Cozinhe a farofa primeiro, depois misture a manteiga com cannabis com o fogo desligado.",
-          "Fazer a massa do pão de queijo úmida demais ao adicionar óleo de cannabis extra sem reduzir outro líquido. Mantenha a proporção da massa equilibrada.",
-          "Não misturar a gordura de cannabis no recheio ou na massa completamente, resultando em pontos concentrados de potência."
-        ],
-        "storage": [
-          "Pão de queijo e salgadinhos similares com cannabis duram refrigerados por 3-4 dias. Reaqueça no forno a 325 F (165 C).",
-          "Bolinhas de massa de pão de queijo com cannabis não assadas congelam perfeitamente por até 2 meses. Asse direto do congelador, adicionando alguns minutos extras.",
-          "Farofa com cannabis dura em recipiente hermético em temperatura ambiente por até uma semana."
-        ],
-        "variations": [
-          "Faça pão de queijo com cannabis substituindo o óleo comum na massa por óleo com cannabis para bolinhas de queijo sem glúten.",
-          "Misture manteiga com cannabis na farofa com bacon e ovo para um acompanhamento brasileiro rico e infundido.",
-          "Recheie massa de empanada com cannabis com carne temperada ou queijo para um salgadinho portátil."
-        ],
-        "faq": [
-          {
-            "q": "Posso fazer pão de queijo com cannabis?",
-            "a": "Sim, o pão de queijo é excelente para infusão de cannabis. A receita tradicionalmente usa óleo, que você pode substituir por óleo com cannabis. A massa de polvilho integra o óleo completamente, e o sabor forte do queijo mascara qualquer nota herbal. Asse em temperatura moderada para preservar a potência."
-          },
-          {
-            "q": "É possível fazer coxinhas com cannabis?",
-            "a": "Sim, mas evite fritar em óleo de cannabis. Em vez disso, faça a massa ou o recheio da coxinha com manteiga de cannabis, modele, empane e asse a %{cook_temp}. Assar em vez de fritar preserva o THC e é na verdade um preparo mais leve e saudável."
-          },
-          {
-            "q": "Posso adicionar cannabis à feijoada?",
-            "a": "Misture óleo de cannabis na sua porção individual de feijoada em vez de na panela toda. O caldo rico e gorduroso de feijão e carne de porco é um veículo ideal porque os sabores fortes e o alto teor de gordura mascaram e absorvem a cannabis perfeitamente."
-          },
-          {
-            "q": "Qual a melhor gordura para receitas brasileiras com cannabis?",
-            "a": "A manteiga com cannabis é a mais versátil para a culinária salgada brasileira. O azeite de oliva com cannabis funciona para regar sobre pratos finalizados. O óleo de coco com cannabis é usado em algumas receitas do nordeste brasileiro. Combine a gordura de cannabis com o que a receita original pede."
-          },
-          {
-            "q": "Como faço a dosagem da farofa com cannabis?",
-            "a": "Misture uma quantidade calculada de manteiga com cannabis na farofa pronta e sirva por colherada. Uma a duas colheres de sopa de farofa é uma porção típica de acompanhamento. Calcule os mg por colher de sopa para poder servir doses precisas como acompanhamento."
           }
         ]
       }

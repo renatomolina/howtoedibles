@@ -191,6 +191,106 @@
           "id": 37,
           "slug": "infused-cold-brew",
           "name": "Infused Cold Brew"
+        },
+        {
+          "id": 70,
+          "slug": "cannabis-sparkling-lemonade",
+          "name": "Cannabis Sparkling Lemonade"
+        },
+        {
+          "id": 71,
+          "slug": "infused-virgin-mojito",
+          "name": "Infused Virgin Mojito"
+        },
+        {
+          "id": 72,
+          "slug": "cannabis-cucumber-mint-cooler",
+          "name": "Cannabis Cucumber Mint Cooler"
+        },
+        {
+          "id": 73,
+          "slug": "infused-watermelon-slush",
+          "name": "Infused Watermelon Slush"
+        },
+        {
+          "id": 74,
+          "slug": "cannabis-lavender-lemonade",
+          "name": "Cannabis Lavender Lemonade"
+        },
+        {
+          "id": 75,
+          "slug": "infused-tropical-punch",
+          "name": "Infused Tropical Punch"
+        },
+        {
+          "id": 76,
+          "slug": "cannabis-strawberry-basil-smash",
+          "name": "Cannabis Strawberry Basil Smash"
+        },
+        {
+          "id": 77,
+          "slug": "infused-hibiscus-tea",
+          "name": "Infused Hibiscus Tea"
+        },
+        {
+          "id": 78,
+          "slug": "cannabis-peach-iced-tea",
+          "name": "Cannabis Peach Iced Tea"
+        },
+        {
+          "id": 79,
+          "slug": "infused-mango-lassi",
+          "name": "Infused Mango Lassi"
+        },
+        {
+          "id": 80,
+          "slug": "cannabis-rose-lemonade",
+          "name": "Cannabis Rose Lemonade"
+        },
+        {
+          "id": 81,
+          "slug": "infused-pineapple-ginger-fizz",
+          "name": "Infused Pineapple Ginger Fizz"
+        },
+        {
+          "id": 82,
+          "slug": "cannabis-cranberry-spritzer",
+          "name": "Cannabis Cranberry Spritzer"
+        },
+        {
+          "id": 83,
+          "slug": "infused-matcha-cooler",
+          "name": "Infused Matcha Cooler"
+        },
+        {
+          "id": 84,
+          "slug": "cannabis-passion-fruit-lemonade",
+          "name": "Cannabis Passion Fruit Lemonade"
+        },
+        {
+          "id": 85,
+          "slug": "infused-cherry-limeade",
+          "name": "Infused Cherry Limeade"
+        },
+        {
+          "id": 86,
+          "slug": "cannabis-mint-green-tea",
+          "name": "Cannabis Mint Green Tea"
+        },
+        {
+          "id": 87,
+          "slug": "infused-blueberry-lemonade",
+          "name": "Infused Blueberry Lemonade"
+        },
+        {
+          "id": 88,
+          "slug": "cannabis-ginger-turmeric-tonic",
+          "name": "Cannabis Ginger Turmeric Tonic"
+        },
+        {
+          "id": 89,
+          "slug": "infused-coconut-lime-agua-fresca",
+          "name": "Infused Coconut Lime Agua Fresca"
         }
       ]
     },
@@ -581,113 +681,6 @@
           "id": 59,
           "slug": "cannabis-roasted-vegetable-medley",
           "name": "Cannabis Roasted Vegetable Medley"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Mocktails",
-      "slug": "mocktails",
-      "recipes": [
-        {
-          "id": 70,
-          "slug": "cannabis-sparkling-lemonade",
-          "name": "Cannabis Sparkling Lemonade"
-        },
-        {
-          "id": 71,
-          "slug": "infused-virgin-mojito",
-          "name": "Infused Virgin Mojito"
-        },
-        {
-          "id": 72,
-          "slug": "cannabis-cucumber-mint-cooler",
-          "name": "Cannabis Cucumber Mint Cooler"
-        },
-        {
-          "id": 73,
-          "slug": "infused-watermelon-slush",
-          "name": "Infused Watermelon Slush"
-        },
-        {
-          "id": 74,
-          "slug": "cannabis-lavender-lemonade",
-          "name": "Cannabis Lavender Lemonade"
-        },
-        {
-          "id": 75,
-          "slug": "infused-tropical-punch",
-          "name": "Infused Tropical Punch"
-        },
-        {
-          "id": 76,
-          "slug": "cannabis-strawberry-basil-smash",
-          "name": "Cannabis Strawberry Basil Smash"
-        },
-        {
-          "id": 77,
-          "slug": "infused-hibiscus-tea",
-          "name": "Infused Hibiscus Tea"
-        },
-        {
-          "id": 78,
-          "slug": "cannabis-peach-iced-tea",
-          "name": "Cannabis Peach Iced Tea"
-        },
-        {
-          "id": 79,
-          "slug": "infused-mango-lassi",
-          "name": "Infused Mango Lassi"
-        },
-        {
-          "id": 80,
-          "slug": "cannabis-rose-lemonade",
-          "name": "Cannabis Rose Lemonade"
-        },
-        {
-          "id": 81,
-          "slug": "infused-pineapple-ginger-fizz",
-          "name": "Infused Pineapple Ginger Fizz"
-        },
-        {
-          "id": 82,
-          "slug": "cannabis-cranberry-spritzer",
-          "name": "Cannabis Cranberry Spritzer"
-        },
-        {
-          "id": 83,
-          "slug": "infused-matcha-cooler",
-          "name": "Infused Matcha Cooler"
-        },
-        {
-          "id": 84,
-          "slug": "cannabis-passion-fruit-lemonade",
-          "name": "Cannabis Passion Fruit Lemonade"
-        },
-        {
-          "id": 85,
-          "slug": "infused-cherry-limeade",
-          "name": "Infused Cherry Limeade"
-        },
-        {
-          "id": 86,
-          "slug": "cannabis-mint-green-tea",
-          "name": "Cannabis Mint Green Tea"
-        },
-        {
-          "id": 87,
-          "slug": "infused-blueberry-lemonade",
-          "name": "Infused Blueberry Lemonade"
-        },
-        {
-          "id": 88,
-          "slug": "cannabis-ginger-turmeric-tonic",
-          "name": "Cannabis Ginger Turmeric Tonic"
-        },
-        {
-          "id": 89,
-          "slug": "infused-coconut-lime-agua-fresca",
-          "name": "Infused Coconut Lime Agua Fresca"
         }
       ]
     },
@@ -1766,8 +1759,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-sparkling-lemonade.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 70
     },
     {
@@ -1781,8 +1774,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-virgin-mojito.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 71
     },
     {
@@ -1796,8 +1789,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-cucumber-mint-cooler.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 72
     },
     {
@@ -1811,8 +1804,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-watermelon-slush.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 73
     },
     {
@@ -1826,8 +1819,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-lavender-lemonade.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 74
     },
     {
@@ -1841,8 +1834,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-tropical-punch.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 75
     },
     {
@@ -1856,8 +1849,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-strawberry-basil-smash.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 76
     },
     {
@@ -1871,8 +1864,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-hibiscus-tea.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 77
     },
     {
@@ -1886,8 +1879,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-peach-iced-tea.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 78
     },
     {
@@ -1901,8 +1894,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-mango-lassi.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 79
     },
     {
@@ -1916,8 +1909,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-rose-lemonade.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 80
     },
     {
@@ -1931,8 +1924,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-pineapple-ginger-fizz.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 81
     },
     {
@@ -1946,8 +1939,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-cranberry-spritzer.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 82
     },
     {
@@ -1961,8 +1954,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-matcha-cooler.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 83
     },
     {
@@ -1976,8 +1969,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-passion-fruit-lemonade.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 84
     },
     {
@@ -1991,8 +1984,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-cherry-limeade.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 85
     },
     {
@@ -2006,8 +1999,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-mint-green-tea.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 86
     },
     {
@@ -2021,8 +2014,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-blueberry-lemonade.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 87
     },
     {
@@ -2036,8 +2029,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "cannabis-ginger-turmeric-tonic.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 88
     },
     {
@@ -2051,8 +2044,8 @@
       "suggested_portion": 50,
       "video": null,
       "photo_file_name": "infused-coconut-lime-agua-fresca.jpg",
-      "category_name": "Mocktails",
-      "category_slug": "mocktails",
+      "category_name": "Drinks",
+      "category_slug": "drinks",
       "position": 89
     },
     {

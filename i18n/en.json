@@ -10,7 +10,6 @@
     "Lunch": "Lunch",
     "Keto": "Keto",
     "Vegan": "Vegan",
-    "Mocktails": "Mocktails",
     "International": "International"
   },
   "navbar": {
@@ -97,13 +96,45 @@
     "strong_desc": "Intense — best for experienced users",
     "heavy_label": "Heavy Dose",
     "heavy_desc": "Very potent — proceed with caution",
-    "positive_L1": ["relaxation", "stress reduction", "mood lift", "giggling", "laughing"],
-    "positive_L2": ["creative", "reduced nausea", "euphoria", "increased appetite", "tasks become more interesting"],
-    "positive_L3": ["enhanced senses", "philosophical", "ideas flow easily", "increase in body/mind connection"],
-    "negative_L1": ["lightheadedness"],
-    "negative_L2": ["headaches", "paranoia", "short-term memory impairment"],
-    "negative_L3": ["anxiety", "time perception altered", "nausea", "agitation"],
-    "negative_L4": ["racing heart", "loss of coordination", "panic attacks"]
+    "positive_L1": [
+      "relaxation",
+      "stress reduction",
+      "mood lift",
+      "giggling",
+      "laughing"
+    ],
+    "positive_L2": [
+      "creative",
+      "reduced nausea",
+      "euphoria",
+      "increased appetite",
+      "tasks become more interesting"
+    ],
+    "positive_L3": [
+      "enhanced senses",
+      "philosophical",
+      "ideas flow easily",
+      "increase in body/mind connection"
+    ],
+    "negative_L1": [
+      "lightheadedness"
+    ],
+    "negative_L2": [
+      "headaches",
+      "paranoia",
+      "short-term memory impairment"
+    ],
+    "negative_L3": [
+      "anxiety",
+      "time perception altered",
+      "nausea",
+      "agitation"
+    ],
+    "negative_L4": [
+      "racing heart",
+      "loss of coordination",
+      "panic attacks"
+    ]
   },
   "recipe_page": {
     "ingredients": "Ingredients",

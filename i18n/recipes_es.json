@@ -1460,7 +1460,7 @@
   "cannabis-sparkling-lemonade": {
     "name": "Limonada con Gas de Cannabis",
     "description": "Limonada con gas y jarabe simple de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "Jugo de 4 limones",
       "2 cucharadas de jarabe simple de cannabis",
@@ -1477,7 +1477,7 @@
   "infused-virgin-mojito": {
     "name": "Mojito Virgen Infusionado",
     "description": "Mocktail de menta y limón con jarabe simple de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "Jugo de 2 limas",
       "2 cucharadas de jarabe simple de cannabis",
@@ -1495,7 +1495,7 @@
   "cannabis-cucumber-mint-cooler": {
     "name": "Refresco de Pepino y Menta con Cannabis",
     "description": "Refrescante mocktail de pepino y menta con jarabe de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "½ pepino en rodajas",
       "10 hojas de menta",
@@ -1513,7 +1513,7 @@
   "infused-watermelon-slush": {
     "name": "Granizado de Sandía Infusionado",
     "description": "Granizado de sandía licuada con miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "4 cups de sandía congelada",
       "2 tbsp de miel de cannabis",
@@ -1529,7 +1529,7 @@
   "cannabis-lavender-lemonade": {
     "name": "Limonada de Lavanda con Cannabis",
     "description": "Limonada floral con jarabe de lavanda y cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "Jugo de 4 limones",
       "2 tbsp de jarabe de lavanda con cannabis",
@@ -1545,7 +1545,7 @@
   "infused-tropical-punch": {
     "name": "Ponche Tropical Infusionado",
     "description": "Ponche de mango, piña y maracuyá con jarabe de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 cup de jugo de mango",
       "1 cup de jugo de piña",
@@ -1563,7 +1563,7 @@
   "cannabis-strawberry-basil-smash": {
     "name": "Smash de Fresa y Albahaca con Cannabis",
     "description": "Mocktail veraniego de fresa y albahaca con miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "6 fresas sin tallo",
       "6 hojas de albahaca",
@@ -1580,7 +1580,7 @@
   "infused-hibiscus-tea": {
     "name": "Té de Hibisco Infusionado",
     "description": "Té helado de hibisco color rubí intenso con miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "3 tbsp de hibisco seco",
       "4 cups de agua hirviendo",
@@ -1597,7 +1597,7 @@
   "cannabis-peach-iced-tea": {
     "name": "Té Helado de Durazno con Cannabis",
     "description": "Té helado de durazno estilo sureño con jarabe simple de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "4 bolsitas de té negro",
       "4 cups de agua caliente",
@@ -1614,7 +1614,7 @@
   "infused-mango-lassi": {
     "name": "Mango Lassi Infusionado",
     "description": "Cremoso mango lassi con miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "2 cups de mango maduro",
       "1 cup de yogur",
@@ -1631,7 +1631,7 @@
   "cannabis-rose-lemonade": {
     "name": "Limonada de Rosas con Cannabis",
     "description": "Elegante limonada floral con tintura de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "Jugo de 4 limones",
       "2 tbsp de jarabe de rosas",
@@ -1648,7 +1648,7 @@
   "infused-pineapple-ginger-fizz": {
     "name": "Fizz de Piña y Jengibre Infusionado",
     "description": "Tropical fizz de piña y jengibre con miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 cup de jugo de piña fresco",
       "1 inch de jengibre rallado",
@@ -1665,7 +1665,7 @@
   "cannabis-cranberry-spritzer": {
     "name": "Spritzer de Arándano con Cannabis",
     "description": "Festivo spritzer de arándano con jarabe simple de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 cup de jugo de arándano",
       "2 tbsp de jarabe simple de cannabis",
@@ -1682,7 +1682,7 @@
   "infused-matcha-cooler": {
     "name": "Matcha Frío Infusionado",
     "description": "Matcha frío con miel de cannabis y leche de avena.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 tsp de matcha en polvo",
       "2 tbsp de agua caliente",
@@ -1698,7 +1698,7 @@
   "cannabis-passion-fruit-lemonade": {
     "name": "Limonada de Maracuyá con Cannabis",
     "description": "Limonada tropical con maracuyá y miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "Pulpa de 4 maracuyás",
       "Jugo de 3 limones",
@@ -1715,7 +1715,7 @@
   "infused-cherry-limeade": {
     "name": "Limonada de Cereza Infusionada",
     "description": "Mocktail de cereza y limón con jarabe simple de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 cup de jugo de cereza ácida",
       "Jugo de 3 limones",
@@ -1732,7 +1732,7 @@
   "cannabis-mint-green-tea": {
     "name": "Té Verde con Menta de Cannabis",
     "description": "Refrescante té verde con menta y miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "3 bolsitas de té verde",
       "4 cups de agua caliente",
@@ -1749,7 +1749,7 @@
   "infused-blueberry-lemonade": {
     "name": "Limonada de Arándanos Azules Infusionada",
     "description": "Limonada morada de arándanos azules con jarabe de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 cup de arándanos azules",
       "Jugo de 4 limones",
@@ -1765,7 +1765,7 @@
   "cannabis-ginger-turmeric-tonic": {
     "name": "Tónico de Jengibre y Cúrcuma con Cannabis",
     "description": "Tónico de bienestar con jengibre, cúrcuma y miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 inch de jengibre rallado",
       "½ tsp de cúrcuma",
@@ -1783,7 +1783,7 @@
   "infused-coconut-lime-agua-fresca": {
     "name": "Agua Fresca de Coco y Limón Infusionada",
     "description": "Ligera agua fresca de coco y limón con miel de cannabis.",
-    "category_name": "Mocktails",
+    "category_name": "Bebidas",
     "ingredients": [
       "1 cup de agua de coco",
       "Jugo de 3 limones",

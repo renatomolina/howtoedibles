@@ -10,7 +10,6 @@
     "Lunch": "Mittagessen",
     "Keto": "Keto",
     "Vegan": "Vegan",
-    "Mocktails": "Mocktails",
     "International": "International"
   },
   "navbar": {
@@ -97,13 +96,45 @@
     "strong_desc": "Intensiv — am besten für erfahrene Nutzer",
     "heavy_label": "Schwere Dosis",
     "heavy_desc": "Sehr potent — mit Vorsicht genießen",
-    "positive_L1": ["Entspannung", "Stressabbau", "Stimmungsaufhellung", "Kichern", "Lachen"],
-    "positive_L2": ["Kreativität", "weniger Übelkeit", "Euphorie", "gesteigerter Appetit", "Aufgaben werden interessanter"],
-    "positive_L3": ["verstärkte Sinne", "philosophisches Denken", "Ideen fließen leicht", "stärkere Körper-Geist-Verbindung"],
-    "negative_L1": ["Benommenheit"],
-    "negative_L2": ["Kopfschmerzen", "Paranoia", "Beeinträchtigung des Kurzzeitgedächtnisses"],
-    "negative_L3": ["Angst", "verändertes Zeitempfinden", "Übelkeit", "Unruhe"],
-    "negative_L4": ["Herzrasen", "Koordinationsverlust", "Panikattacken"]
+    "positive_L1": [
+      "Entspannung",
+      "Stressabbau",
+      "Stimmungsaufhellung",
+      "Kichern",
+      "Lachen"
+    ],
+    "positive_L2": [
+      "Kreativität",
+      "weniger Übelkeit",
+      "Euphorie",
+      "gesteigerter Appetit",
+      "Aufgaben werden interessanter"
+    ],
+    "positive_L3": [
+      "verstärkte Sinne",
+      "philosophisches Denken",
+      "Ideen fließen leicht",
+      "stärkere Körper-Geist-Verbindung"
+    ],
+    "negative_L1": [
+      "Benommenheit"
+    ],
+    "negative_L2": [
+      "Kopfschmerzen",
+      "Paranoia",
+      "Beeinträchtigung des Kurzzeitgedächtnisses"
+    ],
+    "negative_L3": [
+      "Angst",
+      "verändertes Zeitempfinden",
+      "Übelkeit",
+      "Unruhe"
+    ],
+    "negative_L4": [
+      "Herzrasen",
+      "Koordinationsverlust",
+      "Panikattacken"
+    ]
   },
   "recipe_page": {
     "ingredients": "Zutaten",

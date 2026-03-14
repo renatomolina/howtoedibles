@@ -1054,7 +1054,103 @@
         ]
       }
     },
-    "Mocktails": {
+    "International": {
+      "brazilian_sweet": {
+        "intro": "Dieses Cannabis-%{name}-Rezept verbindet beliebte brasilianische Süßigkeitentraditionen mit %{base_fat} für ein tropisches, potentes Leckerei, das Brasiliens reiches kulinarisches Erbe feiert. Brasilianische Süßigkeiten wie Brigadeiros, Beijinhos und Kokosdesserts sind von Natur aus fettreich und eignen sich daher ideal als Träger für Cannabis-Infusionen. Erlebe einen Hauch von Brasilien mit einer sorgfältig dosierten Note.",
+        "dosing_tips": [
+          "Brasilianische Süßigkeiten wie Brigadeiros werden zu einzelnen Kugeln gerollt, wodurch jede eine präzise portionierte Dosis ist. Berechne die mg pro Kugel.",
+          "Süßigkeiten auf Kondensmilchbasis integrieren Cannabis-Butter oder Kokosöl problemlos. Rühre beim Kochen ständig um, um eine gleichmäßige Verteilung zu gewährleisten.",
+          "Beginne mit 5-10 mg pro Stück. Brasilianische Süßigkeiten sind gehaltvoll und auf Festen isst man oft mehrere, also halte die Einzeldosen niedrig.",
+          "Der hohe Zucker- und Fettgehalt brasilianischer Süßigkeiten kann den Wirkungseintritt auf 60-90 Minuten verzögern. Sei geduldig und übertreibe es nicht."
+        ],
+        "common_mistakes": [
+          "Kondensmilch mit Cannabis-Fett bei zu hoher Hitze kochen. Brasilianische Süßigkeiten erfordern langsames, sanftes Kochen. Halte die Hitze niedrig, um THC zu bewahren.",
+          "Nicht ständig umrühren, wenn man Brigadeiros oder Cajuzinhos mit Cannabis-Butter macht. Die Masse kann anbrennen und das Fett sich trennen.",
+          "Zu viele Stücke pro Charge machen, um die Dosis pro Stück zu reduzieren, was zu winzigen Süßigkeiten führt, die nicht richtig aussehen oder schmecken.",
+          "Cannabis-Kokosöl in Rezepten verwenden, bei denen der Buttergeschmack wesentlich ist, wie Quindim. Passe die Fettart dem Rezept an."
+        ],
+        "storage": [
+          "Cannabis-Brigadeiros und ähnliche gerollte Süßigkeiten halten sich bis zu einer Woche gekühlt in einem luftdichten Behälter.",
+          "Viele brasilianische Cannabis-Süßigkeiten lassen sich gut für 2-3 Monate einfrieren. Im Kühlschrank auftauen, bevor sie serviert werden.",
+          "In Papier-Pralinenförmchen lagern und deutlich mit der Dosis pro Stück beschriften, besonders für Partys und Zusammenkünfte."
+        ],
+        "variations": [
+          "Stelle Cannabis-Beijinhos her, indem du im Brigadeiro-Rezept Schokolade durch Kokos ersetzt und Cannabis-Kokosöl verwendest.",
+          "Infundiere die Kokosfüllung von Cannabis-Cocada mit Cannabis-Butter für ein zähes, tropisches Leckerei.",
+          "Kreiere Cannabis-Quindim mit Cannabis-Butter in diesem klassischen brasilianischen Ei-Kokos-Törtchen."
+        ],
+        "faq": [
+          {
+            "q": "Kann ich Cannabis-Brigadeiros machen?",
+            "a": "Absolut, Brigadeiros sind eine der besten brasilianischen Süßigkeiten für Cannabis-Infusion. Ersetze einen Teil der normalen Butter durch Cannabis-Butter und koche die Kondensmilch-Mischung bei niedriger Hitze unter ständigem Rühren. Zu Kugeln rollen und mit Streuseln bestreuen. Jede Kugel ist eine perfekte Einzeldosis."
+          },
+          {
+            "q": "Welche brasilianischen Süßigkeiten eignen sich am besten für Cannabis?",
+            "a": "Brigadeiros, Beijinhos und Cocada sind die erste Wahl, da sie fettreich, einzeln portioniert und geschmacksintensiv sind, was Cannabis überdeckt. Pudim (Flan) funktioniert auch gut mit Cannabis-Sahne. Vermeide feine Süßigkeiten, bei denen der Cannabis-Geschmack dominieren würde."
+          },
+          {
+            "q": "Beeinflusst Kondensmilch die THC-Potenz?",
+            "a": "Nein, Kondensmilch baut THC nicht ab. Das langsame Kochen bei mittlerer bis niedriger Hitze zum Eindicken der Masse liegt gut im sicheren Bereich. Vermeide nur heftiges Kochen und füge das Cannabis-Fett früh hinzu, damit es sich vollständig in die Kondensmilch integriert."
+          },
+          {
+            "q": "Kann ich Cannabis-Kokosöl in brasilianischen Kokosdesserts verwenden?",
+            "a": "Ja, Cannabis-Kokosöl ist perfekt für brasilianische Kokosdesserts wie Cocada, Beijinhos und Kokosflan. Der Kokosgeschmack ist bereits fester Bestandteil dieser Rezepte, sodass das infundierte Öl sich nahtlos einfügt. Es ist eine der natürlichsten Cannabis-Paarungen in der brasilianischen Küche."
+          },
+          {
+            "q": "Wie serviere ich Cannabis-Süßigkeiten auf einer brasilianischen Festa?",
+            "a": "Präsentiere sie auf einem separaten, deutlich beschrifteten Teller oder Tablett, getrennt von normalen Süßigkeiten. Verwende verschiedenfarbige Pralinenförmchen oder ein auffälliges Schild, das anzeigt, dass sie Cannabis enthalten und welche Dosis pro Stück gilt. Serviere nur an informierte, einwilligende Erwachsene und halte reichlich nicht infundierte Süßigkeiten bereit."
+          }
+        ]
+      },
+      "brazilian_savory": {
+        "intro": "Dieses Cannabis-%{name}-Rezept vereint die kräftigen, herzhaften Aromen der brasilianischen Küche mit %{base_fat} für eine herzhafte, infundierte Mahlzeit, die zutiefst befriedigend ist. Brasilianische herzhafte Gerichte wie Pão de Queijo, Coxinhas und Farofa verwenden großzügige Mengen Fett und eignen sich daher perfekt für Cannabis-Infusion. Genieße brasilianisches Comfort Food mit einer gemessenen, konsistenten Dosis.",
+        "dosing_tips": [
+          "Brasilianische herzhafte Snacks werden oft in größerer Menge gegessen. Wenn du Coxinhas oder Pão de Queijo machst, halte jedes Stück bei 2.5-5 mg, damit das Essen von 2-3 Stück im sicheren Bereich bleibt.",
+          "Mische %{base_fat} gründlich in den Teig oder die Füllung. Käsebrötchenteig zum Beispiel nimmt Öl homogen auf.",
+          "Berechne das gesamte THC in der Charge und teile durch die Anzahl der Stücke. Teigportionen für Konsistenz abwiegen.",
+          "Diese stärkehaltigen, fettigen Gerichte können den Wirkungseintritt auf 60-120 Minuten verzögern. Eine kontrollierte Portion essen und warten, bevor du mehr nimmst."
+        ],
+        "common_mistakes": [
+          "Mit Cannabis infundierten Teig in heißem Öl frittieren verschwendet THC, da es in das Frittieröl auslaugt. Stattdessen backen oder das Cannabis-Element nach dem Frittieren hinzufügen.",
+          "Cannabis-Fett zu Farofa bei starker Hitze auf dem Herd geben. Die Farofa zuerst kochen, dann Cannabis-Butter vom Herd einrühren.",
+          "Pão-de-Queijo-Teig zu nass machen, indem extra Cannabis-Öl hinzugefügt wird, ohne eine andere Flüssigkeit zu reduzieren. Das Teigverhältnis ausgewogen halten.",
+          "Das Cannabis-Fett nicht gründlich in die Füllung oder den Teig einmischen, was zu Hotspots der Potenz führt."
+        ],
+        "storage": [
+          "Cannabis-Pão de Queijo und ähnliche Snacks halten sich 3-4 Tage im Kühlschrank. Im Ofen bei 325 °F (165 °C) aufwärmen.",
+          "Ungebackene Cannabis-Pão-de-Queijo-Teigkugeln lassen sich hervorragend bis zu 2 Monate einfrieren. Direkt aus dem Gefrierschrank backen und einige Minuten mehr einplanen.",
+          "Cannabis-Farofa in einem luftdichten Behälter bei Raumtemperatur bis zu einer Woche lagern."
+        ],
+        "variations": [
+          "Stelle Cannabis-Pão de Queijo her, indem du das normale Öl im Teig durch mit Cannabis infundiertes Öl für käsige, glutenfreie Häppchen ersetzt.",
+          "Rühre Cannabis-Butter in Farofa mit Speck und Ei für eine reichhaltige, infundierte brasilianische Beilage.",
+          "Fülle mit Cannabis infundierten Empanada-Teig mit gewürztem Fleisch oder Käse für ein herzhaftes, tragbares Edible."
+        ],
+        "faq": [
+          {
+            "q": "Kann ich Cannabis-Pão de Queijo machen?",
+            "a": "Ja, Pão de Queijo eignet sich hervorragend für Cannabis-Infusion. Das Rezept verwendet traditionell Öl, das du durch mit Cannabis infundiertes Öl ersetzen kannst. Der Tapiokastärke-Teig integriert das Öl vollständig, und der kräftige Käsegeschmack überdeckt alle Kräuternoten. Bei moderater Hitze backen, um die Potenz zu bewahren."
+          },
+          {
+            "q": "Ist es möglich, Cannabis-Coxinhas zu machen?",
+            "a": "Ja, aber vermeide das Frittieren in Cannabis-Öl. Bereite stattdessen den Coxinha-Teig oder die Füllung mit Cannabis-Butter zu, forme und paniere sie, dann backe sie bei %{cook_temp}. Backen statt Frittieren bewahrt das THC und ist tatsächlich eine leichtere, gesündere Zubereitung."
+          },
+          {
+            "q": "Kann ich Cannabis zur Feijoada hinzufügen?",
+            "a": "Rühre Cannabis-Öl in deine einzelne Portion Feijoada, anstatt in den ganzen Topf. Der reichhaltige, fettige Eintopf aus Bohnen und Schweinefleisch ist ein idealer Träger, da die kräftigen Aromen und der hohe Fettgehalt Cannabis perfekt überdecken und aufnehmen."
+          },
+          {
+            "q": "Welches ist das beste Fett für brasilianische Cannabis-Rezepte?",
+            "a": "Cannabis-Butter ist am vielseitigsten für brasilianisches herzhaftes Kochen. Mit Cannabis infundiertes Olivenöl eignet sich zum Beträufeln fertiger Gerichte. Cannabis-Kokosöl wird in einigen nordostbrasilianischen Rezepten verwendet. Passe das Cannabis-Fett dem an, was das Originalrezept verlangt."
+          },
+          {
+            "q": "Wie dosiere ich Cannabis-Farofa?",
+            "a": "Mische eine berechnete Menge Cannabis-Butter in die fertige Farofa und serviere löffelweise. Ein bis zwei Esslöffel Farofa sind eine typische Beilagenportion. Berechne die mg pro Esslöffel, damit du präzise Dosen als Beilage servieren kannst."
+          }
+        ]
+      }
+    },
+    "Drinks": {
       "citrus": {
         "intro": "Dieses Cannabis-%{name}-Rezept verbindet %{base_fat} mit frischen Zitrusaromen zu einem erfrischenden, alkoholfreien infundierten Getränk, das perfekt für gesellige Anlässe ist. Zitrus-Mocktails gehören zu den besten, um den Cannabis-Geschmack zu überdecken, dank ihrer ausgeprägten Säure und aromatischen Öle. Genieße ein anspruchsvolles Cannabis-Getränk ohne Alkohol.",
         "dosing_tips": [
@@ -1334,102 +1430,6 @@
           {
             "q": "Wie lange dauert es, bis ein Cannabis-Cocktail wirkt?",
             "a": "Schneller als jede Substanz allein. Der Alkohol beschleunigt die THC-Aufnahme und du kannst die kombinierten Effekte innerhalb von 15-30 Minuten spüren. Der Cannabis-Anteil baut sich weiter über bis zu 90 Minuten auf, während die Alkoholwirkung ihrem normalen Zeitablauf folgt. Gehe sehr langsam vor."
-          }
-        ]
-      }
-    },
-    "International": {
-      "brazilian_sweet": {
-        "intro": "Dieses Cannabis-%{name}-Rezept verbindet beliebte brasilianische Süßigkeitentraditionen mit %{base_fat} für ein tropisches, potentes Leckerei, das Brasiliens reiches kulinarisches Erbe feiert. Brasilianische Süßigkeiten wie Brigadeiros, Beijinhos und Kokosdesserts sind von Natur aus fettreich und eignen sich daher ideal als Träger für Cannabis-Infusionen. Erlebe einen Hauch von Brasilien mit einer sorgfältig dosierten Note.",
-        "dosing_tips": [
-          "Brasilianische Süßigkeiten wie Brigadeiros werden zu einzelnen Kugeln gerollt, wodurch jede eine präzise portionierte Dosis ist. Berechne die mg pro Kugel.",
-          "Süßigkeiten auf Kondensmilchbasis integrieren Cannabis-Butter oder Kokosöl problemlos. Rühre beim Kochen ständig um, um eine gleichmäßige Verteilung zu gewährleisten.",
-          "Beginne mit 5-10 mg pro Stück. Brasilianische Süßigkeiten sind gehaltvoll und auf Festen isst man oft mehrere, also halte die Einzeldosen niedrig.",
-          "Der hohe Zucker- und Fettgehalt brasilianischer Süßigkeiten kann den Wirkungseintritt auf 60-90 Minuten verzögern. Sei geduldig und übertreibe es nicht."
-        ],
-        "common_mistakes": [
-          "Kondensmilch mit Cannabis-Fett bei zu hoher Hitze kochen. Brasilianische Süßigkeiten erfordern langsames, sanftes Kochen. Halte die Hitze niedrig, um THC zu bewahren.",
-          "Nicht ständig umrühren, wenn man Brigadeiros oder Cajuzinhos mit Cannabis-Butter macht. Die Masse kann anbrennen und das Fett sich trennen.",
-          "Zu viele Stücke pro Charge machen, um die Dosis pro Stück zu reduzieren, was zu winzigen Süßigkeiten führt, die nicht richtig aussehen oder schmecken.",
-          "Cannabis-Kokosöl in Rezepten verwenden, bei denen der Buttergeschmack wesentlich ist, wie Quindim. Passe die Fettart dem Rezept an."
-        ],
-        "storage": [
-          "Cannabis-Brigadeiros und ähnliche gerollte Süßigkeiten halten sich bis zu einer Woche gekühlt in einem luftdichten Behälter.",
-          "Viele brasilianische Cannabis-Süßigkeiten lassen sich gut für 2-3 Monate einfrieren. Im Kühlschrank auftauen, bevor sie serviert werden.",
-          "In Papier-Pralinenförmchen lagern und deutlich mit der Dosis pro Stück beschriften, besonders für Partys und Zusammenkünfte."
-        ],
-        "variations": [
-          "Stelle Cannabis-Beijinhos her, indem du im Brigadeiro-Rezept Schokolade durch Kokos ersetzt und Cannabis-Kokosöl verwendest.",
-          "Infundiere die Kokosfüllung von Cannabis-Cocada mit Cannabis-Butter für ein zähes, tropisches Leckerei.",
-          "Kreiere Cannabis-Quindim mit Cannabis-Butter in diesem klassischen brasilianischen Ei-Kokos-Törtchen."
-        ],
-        "faq": [
-          {
-            "q": "Kann ich Cannabis-Brigadeiros machen?",
-            "a": "Absolut, Brigadeiros sind eine der besten brasilianischen Süßigkeiten für Cannabis-Infusion. Ersetze einen Teil der normalen Butter durch Cannabis-Butter und koche die Kondensmilch-Mischung bei niedriger Hitze unter ständigem Rühren. Zu Kugeln rollen und mit Streuseln bestreuen. Jede Kugel ist eine perfekte Einzeldosis."
-          },
-          {
-            "q": "Welche brasilianischen Süßigkeiten eignen sich am besten für Cannabis?",
-            "a": "Brigadeiros, Beijinhos und Cocada sind die erste Wahl, da sie fettreich, einzeln portioniert und geschmacksintensiv sind, was Cannabis überdeckt. Pudim (Flan) funktioniert auch gut mit Cannabis-Sahne. Vermeide feine Süßigkeiten, bei denen der Cannabis-Geschmack dominieren würde."
-          },
-          {
-            "q": "Beeinflusst Kondensmilch die THC-Potenz?",
-            "a": "Nein, Kondensmilch baut THC nicht ab. Das langsame Kochen bei mittlerer bis niedriger Hitze zum Eindicken der Masse liegt gut im sicheren Bereich. Vermeide nur heftiges Kochen und füge das Cannabis-Fett früh hinzu, damit es sich vollständig in die Kondensmilch integriert."
-          },
-          {
-            "q": "Kann ich Cannabis-Kokosöl in brasilianischen Kokosdesserts verwenden?",
-            "a": "Ja, Cannabis-Kokosöl ist perfekt für brasilianische Kokosdesserts wie Cocada, Beijinhos und Kokosflan. Der Kokosgeschmack ist bereits fester Bestandteil dieser Rezepte, sodass das infundierte Öl sich nahtlos einfügt. Es ist eine der natürlichsten Cannabis-Paarungen in der brasilianischen Küche."
-          },
-          {
-            "q": "Wie serviere ich Cannabis-Süßigkeiten auf einer brasilianischen Festa?",
-            "a": "Präsentiere sie auf einem separaten, deutlich beschrifteten Teller oder Tablett, getrennt von normalen Süßigkeiten. Verwende verschiedenfarbige Pralinenförmchen oder ein auffälliges Schild, das anzeigt, dass sie Cannabis enthalten und welche Dosis pro Stück gilt. Serviere nur an informierte, einwilligende Erwachsene und halte reichlich nicht infundierte Süßigkeiten bereit."
-          }
-        ]
-      },
-      "brazilian_savory": {
-        "intro": "Dieses Cannabis-%{name}-Rezept vereint die kräftigen, herzhaften Aromen der brasilianischen Küche mit %{base_fat} für eine herzhafte, infundierte Mahlzeit, die zutiefst befriedigend ist. Brasilianische herzhafte Gerichte wie Pão de Queijo, Coxinhas und Farofa verwenden großzügige Mengen Fett und eignen sich daher perfekt für Cannabis-Infusion. Genieße brasilianisches Comfort Food mit einer gemessenen, konsistenten Dosis.",
-        "dosing_tips": [
-          "Brasilianische herzhafte Snacks werden oft in größerer Menge gegessen. Wenn du Coxinhas oder Pão de Queijo machst, halte jedes Stück bei 2.5-5 mg, damit das Essen von 2-3 Stück im sicheren Bereich bleibt.",
-          "Mische %{base_fat} gründlich in den Teig oder die Füllung. Käsebrötchenteig zum Beispiel nimmt Öl homogen auf.",
-          "Berechne das gesamte THC in der Charge und teile durch die Anzahl der Stücke. Teigportionen für Konsistenz abwiegen.",
-          "Diese stärkehaltigen, fettigen Gerichte können den Wirkungseintritt auf 60-120 Minuten verzögern. Eine kontrollierte Portion essen und warten, bevor du mehr nimmst."
-        ],
-        "common_mistakes": [
-          "Mit Cannabis infundierten Teig in heißem Öl frittieren verschwendet THC, da es in das Frittieröl auslaugt. Stattdessen backen oder das Cannabis-Element nach dem Frittieren hinzufügen.",
-          "Cannabis-Fett zu Farofa bei starker Hitze auf dem Herd geben. Die Farofa zuerst kochen, dann Cannabis-Butter vom Herd einrühren.",
-          "Pão-de-Queijo-Teig zu nass machen, indem extra Cannabis-Öl hinzugefügt wird, ohne eine andere Flüssigkeit zu reduzieren. Das Teigverhältnis ausgewogen halten.",
-          "Das Cannabis-Fett nicht gründlich in die Füllung oder den Teig einmischen, was zu Hotspots der Potenz führt."
-        ],
-        "storage": [
-          "Cannabis-Pão de Queijo und ähnliche Snacks halten sich 3-4 Tage im Kühlschrank. Im Ofen bei 325 °F (165 °C) aufwärmen.",
-          "Ungebackene Cannabis-Pão-de-Queijo-Teigkugeln lassen sich hervorragend bis zu 2 Monate einfrieren. Direkt aus dem Gefrierschrank backen und einige Minuten mehr einplanen.",
-          "Cannabis-Farofa in einem luftdichten Behälter bei Raumtemperatur bis zu einer Woche lagern."
-        ],
-        "variations": [
-          "Stelle Cannabis-Pão de Queijo her, indem du das normale Öl im Teig durch mit Cannabis infundiertes Öl für käsige, glutenfreie Häppchen ersetzt.",
-          "Rühre Cannabis-Butter in Farofa mit Speck und Ei für eine reichhaltige, infundierte brasilianische Beilage.",
-          "Fülle mit Cannabis infundierten Empanada-Teig mit gewürztem Fleisch oder Käse für ein herzhaftes, tragbares Edible."
-        ],
-        "faq": [
-          {
-            "q": "Kann ich Cannabis-Pão de Queijo machen?",
-            "a": "Ja, Pão de Queijo eignet sich hervorragend für Cannabis-Infusion. Das Rezept verwendet traditionell Öl, das du durch mit Cannabis infundiertes Öl ersetzen kannst. Der Tapiokastärke-Teig integriert das Öl vollständig, und der kräftige Käsegeschmack überdeckt alle Kräuternoten. Bei moderater Hitze backen, um die Potenz zu bewahren."
-          },
-          {
-            "q": "Ist es möglich, Cannabis-Coxinhas zu machen?",
-            "a": "Ja, aber vermeide das Frittieren in Cannabis-Öl. Bereite stattdessen den Coxinha-Teig oder die Füllung mit Cannabis-Butter zu, forme und paniere sie, dann backe sie bei %{cook_temp}. Backen statt Frittieren bewahrt das THC und ist tatsächlich eine leichtere, gesündere Zubereitung."
-          },
-          {
-            "q": "Kann ich Cannabis zur Feijoada hinzufügen?",
-            "a": "Rühre Cannabis-Öl in deine einzelne Portion Feijoada, anstatt in den ganzen Topf. Der reichhaltige, fettige Eintopf aus Bohnen und Schweinefleisch ist ein idealer Träger, da die kräftigen Aromen und der hohe Fettgehalt Cannabis perfekt überdecken und aufnehmen."
-          },
-          {
-            "q": "Welches ist das beste Fett für brasilianische Cannabis-Rezepte?",
-            "a": "Cannabis-Butter ist am vielseitigsten für brasilianisches herzhaftes Kochen. Mit Cannabis infundiertes Olivenöl eignet sich zum Beträufeln fertiger Gerichte. Cannabis-Kokosöl wird in einigen nordostbrasilianischen Rezepten verwendet. Passe das Cannabis-Fett dem an, was das Originalrezept verlangt."
-          },
-          {
-            "q": "Wie dosiere ich Cannabis-Farofa?",
-            "a": "Mische eine berechnete Menge Cannabis-Butter in die fertige Farofa und serviere löffelweise. Ein bis zwei Esslöffel Farofa sind eine typische Beilagenportion. Berechne die mg pro Esslöffel, damit du präzise Dosen als Beilage servieren kannst."
           }
         ]
       }

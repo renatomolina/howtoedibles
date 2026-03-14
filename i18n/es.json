@@ -10,7 +10,6 @@
     "Lunch": "Almuerzo",
     "Keto": "Keto",
     "Vegan": "Vegano",
-    "Mocktails": "Mocktails",
     "International": "Internacional"
   },
   "navbar": {
@@ -97,13 +96,45 @@
     "strong_desc": "Intenso — mejor para usuarios experimentados",
     "heavy_label": "Dosis Pesada",
     "heavy_desc": "Muy potente — procede con precaución",
-    "positive_L1": ["relajación", "reducción del estrés", "mejora del ánimo", "risitas", "risas"],
-    "positive_L2": ["creatividad", "reducción de náuseas", "euforia", "aumento del apetito", "las tareas se vuelven más interesantes"],
-    "positive_L3": ["sentidos intensificados", "pensamiento filosófico", "las ideas fluyen fácilmente", "mayor conexión cuerpo/mente"],
-    "negative_L1": ["mareo"],
-    "negative_L2": ["dolor de cabeza", "paranoia", "deterioro de la memoria a corto plazo"],
-    "negative_L3": ["ansiedad", "percepción alterada del tiempo", "náuseas", "agitación"],
-    "negative_L4": ["corazón acelerado", "pérdida de coordinación", "ataques de pánico"]
+    "positive_L1": [
+      "relajación",
+      "reducción del estrés",
+      "mejora del ánimo",
+      "risitas",
+      "risas"
+    ],
+    "positive_L2": [
+      "creatividad",
+      "reducción de náuseas",
+      "euforia",
+      "aumento del apetito",
+      "las tareas se vuelven más interesantes"
+    ],
+    "positive_L3": [
+      "sentidos intensificados",
+      "pensamiento filosófico",
+      "las ideas fluyen fácilmente",
+      "mayor conexión cuerpo/mente"
+    ],
+    "negative_L1": [
+      "mareo"
+    ],
+    "negative_L2": [
+      "dolor de cabeza",
+      "paranoia",
+      "deterioro de la memoria a corto plazo"
+    ],
+    "negative_L3": [
+      "ansiedad",
+      "percepción alterada del tiempo",
+      "náuseas",
+      "agitación"
+    ],
+    "negative_L4": [
+      "corazón acelerado",
+      "pérdida de coordinación",
+      "ataques de pánico"
+    ]
   },
   "recipe_page": {
     "ingredients": "Ingredientes",

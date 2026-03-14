@@ -1054,7 +1054,103 @@
         ]
       }
     },
-    "Mocktails": {
+    "International": {
+      "brazilian_sweet": {
+        "intro": "Esta receta de %{name} con cannabis infusiona las queridas tradiciones de dulces brasileños con %{base_fat} para un postre tropical y potente que celebra la rica herencia culinaria de Brasil. Los dulces brasileños como brigadeiros, beijinhos y postres de coco son naturalmente altos en grasa, lo que los convierte en vehículos ideales para la infusión de cannabis. Experimenta un sabor de Brasil con un toque cuidadosamente dosificado.",
+        "dosing_tips": [
+          "Los dulces brasileños como los brigadeiros se enrollan en bolitas individuales, haciendo de cada una una dosis precisamente porcionada. Calcula los mg por bolita.",
+          "Los dulces a base de leche condensada integran la mantequilla de cannabis o el aceite de coco de forma suave. Revuelve continuamente mientras cocinas para una distribución uniforme.",
+          "Comienza con 5-10 mg por pieza. Los dulces brasileños son ricos y la gente suele comer varios en las fiestas, así que mantén las dosis individuales bajas.",
+          "El alto contenido de azúcar y grasa en los dulces brasileños puede retrasar el inicio de efectos a 60-90 minutos. Ten paciencia y no comas en exceso."
+        ],
+        "common_mistakes": [
+          "Cocinar leche condensada con grasa de cannabis a fuego demasiado alto. Los dulces brasileños requieren cocción lenta a fuego bajo. Mantén el fuego suave para preservar el THC.",
+          "No revolver constantemente al hacer brigadeiros o cajuzinhos con mantequilla de cannabis. La mezcla se puede quemar y la grasa puede separarse.",
+          "Hacer demasiadas piezas por lote para reducir la dosis por pieza, resultando en dulces diminutos que no se ven ni saben bien.",
+          "Usar aceite de coco con cannabis en recetas donde el sabor de la mantequilla es esencial, como el quindim. Elige el tipo de grasa que corresponda a la receta."
+        ],
+        "storage": [
+          "Los brigadeiros con cannabis y dulces enrollados similares se conservan refrigerados hasta por una semana en un recipiente hermético.",
+          "Muchos dulces brasileños con cannabis se congelan bien por 2-3 meses. Descongela en el refrigerador antes de servir.",
+          "Guarda en pirotines de papel y etiqueta claramente con la dosis por pieza, especialmente para fiestas y reuniones."
+        ],
+        "variations": [
+          "Prepara beijinhos con cannabis sustituyendo el chocolate por coco en la receta de brigadeiro y usando aceite de coco con cannabis.",
+          "Infusiona el relleno de coco de la cocada con cannabis usando mantequilla de cannabis para un dulce tropical y masticable.",
+          "Crea quindim con cannabis usando mantequilla de cannabis en esta clásica tarta brasileña de huevo y coco."
+        ],
+        "faq": [
+          {
+            "q": "¿Puedo hacer brigadeiros con cannabis?",
+            "a": "Por supuesto, los brigadeiros son uno de los mejores dulces brasileños para la infusión de cannabis. Reemplaza parte de la mantequilla regular con mantequilla de cannabis y cocina la mezcla de leche condensada a fuego lento, revolviendo constantemente. Enrolla en bolitas y cubre con chispas de chocolate. Cada bolita es una dosis individual perfecta."
+          },
+          {
+            "q": "¿Qué dulces brasileños funcionan mejor con cannabis?",
+            "a": "Los brigadeiros, beijinhos y cocada son las mejores opciones porque son ricos en grasa, porcionados individualmente y tienen sabores fuertes que enmascaran el cannabis. El pudim (flan) también funciona bien con crema de cannabis. Evita dulces delicados donde el sabor del cannabis dominaría."
+          },
+          {
+            "q": "¿La leche condensada afecta la potencia del THC?",
+            "a": "No, la leche condensada no degrada el THC. La cocción lenta a fuego medio-bajo para reducir la mezcla está bien dentro del rango seguro. Solo evita hervir vigorosamente y añade la grasa de cannabis al principio para que se integre completamente en la leche condensada."
+          },
+          {
+            "q": "¿Puedo usar aceite de coco con cannabis en postres brasileños de coco?",
+            "a": "Sí, el aceite de coco con cannabis es perfecto para postres brasileños de coco como cocada, beijinhos y flan de coco. El sabor a coco ya es integral en estas recetas, así que el aceite infusionado se integra naturalmente. Es una de las combinaciones más naturales de cannabis en la cocina brasileña."
+          },
+          {
+            "q": "¿Cómo sirvo dulces brasileños con cannabis en una festa?",
+            "a": "Preséntalos en un plato o bandeja separada y claramente etiquetada, lejos de los dulces regulares. Usa pirotines de diferente color o un letrero prominente indicando que contienen cannabis y la dosis por pieza. Solo sirve a adultos informados que hayan dado su consentimiento y ten muchos dulces sin infusionar disponibles."
+          }
+        ]
+      },
+      "brazilian_savory": {
+        "intro": "Esta receta de %{name} con cannabis reúne los sabores intensos y salados de la cocina brasileña junto con %{base_fat} para una comida contundente e infusionada que es profundamente satisfactoria. Los platos salados brasileños como pão de queijo, coxinhas y farofa usan cantidades generosas de grasa, lo que los hace candidatos perfectos para la infusión de cannabis. Disfruta de la comida reconfortante brasileña con una dosis medida y consistente.",
+        "dosing_tips": [
+          "Los bocadillos salados brasileños suelen comerse en cantidad. Si preparas coxinhas o pão de queijo, mantén cada pieza en 2.5-5 mg para que comer 2-3 se mantenga dentro de un rango seguro.",
+          "Mezcla %{base_fat} en la masa o relleno de forma completa. La masa de pan de queso brasileño, por ejemplo, incorpora el aceite de manera homogénea.",
+          "Calcula el THC total en el lote y divide por el número de piezas. Pesa las porciones de masa para lograr consistencia.",
+          "Estos platos con almidón y grasa pueden retrasar el inicio de efectos a 60-120 minutos. Come una porción controlada y espera antes de repetir."
+        ],
+        "common_mistakes": [
+          "Freír masa infusionada con cannabis en aceite caliente desperdicia el THC ya que se filtra al aceite de fritura. Hornea en su lugar, o añade el elemento de cannabis después de freír.",
+          "Añadir grasa de cannabis a la farofa a fuego alto en la estufa. Cocina la farofa primero, luego incorpora la mantequilla de cannabis fuera del fuego.",
+          "Hacer la masa de pão de queijo demasiado húmeda al añadir aceite de cannabis extra sin reducir otro líquido. Mantén la proporción de la masa equilibrada.",
+          "No mezclar la grasa de cannabis en el relleno o la masa de forma completa, resultando en puntos concentrados de potencia."
+        ],
+        "storage": [
+          "El pão de queijo con cannabis y bocadillos similares se conservan refrigerados por 3-4 días. Recalienta en el horno a 325 °F (165 °C).",
+          "Las bolitas de masa de pão de queijo con cannabis sin hornear se congelan muy bien hasta por 2 meses. Hornea directamente del congelador, añadiendo unos minutos extra.",
+          "La farofa con cannabis se conserva en un recipiente hermético a temperatura ambiente hasta por una semana."
+        ],
+        "variations": [
+          "Prepara pão de queijo con cannabis reemplazando el aceite regular en la masa con aceite infusionado con cannabis para bocaditos con queso y sin gluten.",
+          "Incorpora mantequilla de cannabis en la farofa con tocino y huevo para un acompañamiento brasileño rico e infusionado.",
+          "Rellena masa de empanada infusionada con cannabis con carne sazonada o queso para un comestible salado y portátil."
+        ],
+        "faq": [
+          {
+            "q": "¿Puedo hacer pão de queijo con cannabis?",
+            "a": "Sí, el pão de queijo es excelente para la infusión de cannabis. La receta tradicionalmente usa aceite, el cual puedes reemplazar con aceite infusionado con cannabis. La masa de almidón de tapioca integra el aceite completamente, y el fuerte sabor del queso enmascara cualquier nota herbal. Hornea a temperatura moderada para preservar la potencia."
+          },
+          {
+            "q": "¿Es posible hacer coxinhas con cannabis?",
+            "a": "Sí, pero evita freír en aceite de cannabis. En su lugar, prepara la masa o relleno de la coxinha con mantequilla de cannabis, dales forma, empanízalas y luego hornéalas a %{cook_temp}. Hornear en lugar de freír preserva el THC y es en realidad una preparación más ligera y saludable."
+          },
+          {
+            "q": "¿Puedo añadir cannabis a la feijoada?",
+            "a": "Incorpora aceite de cannabis en tu porción individual de feijoada en lugar de en toda la olla. El rico y grasoso guiso de frijoles y cerdo es un vehículo ideal porque los sabores intensos y el alto contenido de grasa enmascaran y absorben el cannabis perfectamente."
+          },
+          {
+            "q": "¿Cuál es la mejor grasa para recetas brasileñas con cannabis?",
+            "a": "La mantequilla de cannabis es la más versátil para la cocina salada brasileña. El aceite de oliva infusionado con cannabis funciona para rociar sobre platos terminados. El aceite de coco con cannabis se usa en algunas recetas del noreste brasileño. Elige la grasa de cannabis que corresponda a lo que indica la receta original."
+          },
+          {
+            "q": "¿Cómo dosifico la farofa con cannabis?",
+            "a": "Mezcla una cantidad calculada de mantequilla de cannabis en la farofa terminada y sirve por cucharadas. Una o dos cucharadas de farofa es una porción típica de acompañamiento. Calcula los mg por cucharada para poder servir dosis precisas como guarnición."
+          }
+        ]
+      }
+    },
+    "Drinks": {
       "citrus": {
         "intro": "Esta receta de %{name} con cannabis combina %{base_fat} con sabores cítricos brillantes para una bebida refrescante sin alcohol, infusionada y perfecta para ocasiones sociales. Los mocktails cítricos son de los mejores para enmascarar el sabor del cannabis gracias a su acidez intensa y sus aceites aromáticos. Disfruta de una bebida sofisticada con cannabis sin el alcohol.",
         "dosing_tips": [
@@ -1334,102 +1430,6 @@
           {
             "q": "¿Cuánto tarda en hacer efecto un cóctel con cannabis?",
             "a": "Más rápido que cualquiera de las sustancias sola. El alcohol acelera la absorción del THC y puedes sentir los efectos combinados dentro de 15-30 minutos. La porción de cannabis seguirá aumentando hasta por 90 minutos mientras el efecto del alcohol sigue su línea de tiempo normal. Ve muy despacio."
-          }
-        ]
-      }
-    },
-    "International": {
-      "brazilian_sweet": {
-        "intro": "Esta receta de %{name} con cannabis infusiona las queridas tradiciones de dulces brasileños con %{base_fat} para un postre tropical y potente que celebra la rica herencia culinaria de Brasil. Los dulces brasileños como brigadeiros, beijinhos y postres de coco son naturalmente altos en grasa, lo que los convierte en vehículos ideales para la infusión de cannabis. Experimenta un sabor de Brasil con un toque cuidadosamente dosificado.",
-        "dosing_tips": [
-          "Los dulces brasileños como los brigadeiros se enrollan en bolitas individuales, haciendo de cada una una dosis precisamente porcionada. Calcula los mg por bolita.",
-          "Los dulces a base de leche condensada integran la mantequilla de cannabis o el aceite de coco de forma suave. Revuelve continuamente mientras cocinas para una distribución uniforme.",
-          "Comienza con 5-10 mg por pieza. Los dulces brasileños son ricos y la gente suele comer varios en las fiestas, así que mantén las dosis individuales bajas.",
-          "El alto contenido de azúcar y grasa en los dulces brasileños puede retrasar el inicio de efectos a 60-90 minutos. Ten paciencia y no comas en exceso."
-        ],
-        "common_mistakes": [
-          "Cocinar leche condensada con grasa de cannabis a fuego demasiado alto. Los dulces brasileños requieren cocción lenta a fuego bajo. Mantén el fuego suave para preservar el THC.",
-          "No revolver constantemente al hacer brigadeiros o cajuzinhos con mantequilla de cannabis. La mezcla se puede quemar y la grasa puede separarse.",
-          "Hacer demasiadas piezas por lote para reducir la dosis por pieza, resultando en dulces diminutos que no se ven ni saben bien.",
-          "Usar aceite de coco con cannabis en recetas donde el sabor de la mantequilla es esencial, como el quindim. Elige el tipo de grasa que corresponda a la receta."
-        ],
-        "storage": [
-          "Los brigadeiros con cannabis y dulces enrollados similares se conservan refrigerados hasta por una semana en un recipiente hermético.",
-          "Muchos dulces brasileños con cannabis se congelan bien por 2-3 meses. Descongela en el refrigerador antes de servir.",
-          "Guarda en pirotines de papel y etiqueta claramente con la dosis por pieza, especialmente para fiestas y reuniones."
-        ],
-        "variations": [
-          "Prepara beijinhos con cannabis sustituyendo el chocolate por coco en la receta de brigadeiro y usando aceite de coco con cannabis.",
-          "Infusiona el relleno de coco de la cocada con cannabis usando mantequilla de cannabis para un dulce tropical y masticable.",
-          "Crea quindim con cannabis usando mantequilla de cannabis en esta clásica tarta brasileña de huevo y coco."
-        ],
-        "faq": [
-          {
-            "q": "¿Puedo hacer brigadeiros con cannabis?",
-            "a": "Por supuesto, los brigadeiros son uno de los mejores dulces brasileños para la infusión de cannabis. Reemplaza parte de la mantequilla regular con mantequilla de cannabis y cocina la mezcla de leche condensada a fuego lento, revolviendo constantemente. Enrolla en bolitas y cubre con chispas de chocolate. Cada bolita es una dosis individual perfecta."
-          },
-          {
-            "q": "¿Qué dulces brasileños funcionan mejor con cannabis?",
-            "a": "Los brigadeiros, beijinhos y cocada son las mejores opciones porque son ricos en grasa, porcionados individualmente y tienen sabores fuertes que enmascaran el cannabis. El pudim (flan) también funciona bien con crema de cannabis. Evita dulces delicados donde el sabor del cannabis dominaría."
-          },
-          {
-            "q": "¿La leche condensada afecta la potencia del THC?",
-            "a": "No, la leche condensada no degrada el THC. La cocción lenta a fuego medio-bajo para reducir la mezcla está bien dentro del rango seguro. Solo evita hervir vigorosamente y añade la grasa de cannabis al principio para que se integre completamente en la leche condensada."
-          },
-          {
-            "q": "¿Puedo usar aceite de coco con cannabis en postres brasileños de coco?",
-            "a": "Sí, el aceite de coco con cannabis es perfecto para postres brasileños de coco como cocada, beijinhos y flan de coco. El sabor a coco ya es integral en estas recetas, así que el aceite infusionado se integra naturalmente. Es una de las combinaciones más naturales de cannabis en la cocina brasileña."
-          },
-          {
-            "q": "¿Cómo sirvo dulces brasileños con cannabis en una festa?",
-            "a": "Preséntalos en un plato o bandeja separada y claramente etiquetada, lejos de los dulces regulares. Usa pirotines de diferente color o un letrero prominente indicando que contienen cannabis y la dosis por pieza. Solo sirve a adultos informados que hayan dado su consentimiento y ten muchos dulces sin infusionar disponibles."
-          }
-        ]
-      },
-      "brazilian_savory": {
-        "intro": "Esta receta de %{name} con cannabis reúne los sabores intensos y salados de la cocina brasileña junto con %{base_fat} para una comida contundente e infusionada que es profundamente satisfactoria. Los platos salados brasileños como pão de queijo, coxinhas y farofa usan cantidades generosas de grasa, lo que los hace candidatos perfectos para la infusión de cannabis. Disfruta de la comida reconfortante brasileña con una dosis medida y consistente.",
-        "dosing_tips": [
-          "Los bocadillos salados brasileños suelen comerse en cantidad. Si preparas coxinhas o pão de queijo, mantén cada pieza en 2.5-5 mg para que comer 2-3 se mantenga dentro de un rango seguro.",
-          "Mezcla %{base_fat} en la masa o relleno de forma completa. La masa de pan de queso brasileño, por ejemplo, incorpora el aceite de manera homogénea.",
-          "Calcula el THC total en el lote y divide por el número de piezas. Pesa las porciones de masa para lograr consistencia.",
-          "Estos platos con almidón y grasa pueden retrasar el inicio de efectos a 60-120 minutos. Come una porción controlada y espera antes de repetir."
-        ],
-        "common_mistakes": [
-          "Freír masa infusionada con cannabis en aceite caliente desperdicia el THC ya que se filtra al aceite de fritura. Hornea en su lugar, o añade el elemento de cannabis después de freír.",
-          "Añadir grasa de cannabis a la farofa a fuego alto en la estufa. Cocina la farofa primero, luego incorpora la mantequilla de cannabis fuera del fuego.",
-          "Hacer la masa de pão de queijo demasiado húmeda al añadir aceite de cannabis extra sin reducir otro líquido. Mantén la proporción de la masa equilibrada.",
-          "No mezclar la grasa de cannabis en el relleno o la masa de forma completa, resultando en puntos concentrados de potencia."
-        ],
-        "storage": [
-          "El pão de queijo con cannabis y bocadillos similares se conservan refrigerados por 3-4 días. Recalienta en el horno a 325 °F (165 °C).",
-          "Las bolitas de masa de pão de queijo con cannabis sin hornear se congelan muy bien hasta por 2 meses. Hornea directamente del congelador, añadiendo unos minutos extra.",
-          "La farofa con cannabis se conserva en un recipiente hermético a temperatura ambiente hasta por una semana."
-        ],
-        "variations": [
-          "Prepara pão de queijo con cannabis reemplazando el aceite regular en la masa con aceite infusionado con cannabis para bocaditos con queso y sin gluten.",
-          "Incorpora mantequilla de cannabis en la farofa con tocino y huevo para un acompañamiento brasileño rico e infusionado.",
-          "Rellena masa de empanada infusionada con cannabis con carne sazonada o queso para un comestible salado y portátil."
-        ],
-        "faq": [
-          {
-            "q": "¿Puedo hacer pão de queijo con cannabis?",
-            "a": "Sí, el pão de queijo es excelente para la infusión de cannabis. La receta tradicionalmente usa aceite, el cual puedes reemplazar con aceite infusionado con cannabis. La masa de almidón de tapioca integra el aceite completamente, y el fuerte sabor del queso enmascara cualquier nota herbal. Hornea a temperatura moderada para preservar la potencia."
-          },
-          {
-            "q": "¿Es posible hacer coxinhas con cannabis?",
-            "a": "Sí, pero evita freír en aceite de cannabis. En su lugar, prepara la masa o relleno de la coxinha con mantequilla de cannabis, dales forma, empanízalas y luego hornéalas a %{cook_temp}. Hornear en lugar de freír preserva el THC y es en realidad una preparación más ligera y saludable."
-          },
-          {
-            "q": "¿Puedo añadir cannabis a la feijoada?",
-            "a": "Incorpora aceite de cannabis en tu porción individual de feijoada en lugar de en toda la olla. El rico y grasoso guiso de frijoles y cerdo es un vehículo ideal porque los sabores intensos y el alto contenido de grasa enmascaran y absorben el cannabis perfectamente."
-          },
-          {
-            "q": "¿Cuál es la mejor grasa para recetas brasileñas con cannabis?",
-            "a": "La mantequilla de cannabis es la más versátil para la cocina salada brasileña. El aceite de oliva infusionado con cannabis funciona para rociar sobre platos terminados. El aceite de coco con cannabis se usa en algunas recetas del noreste brasileño. Elige la grasa de cannabis que corresponda a lo que indica la receta original."
-          },
-          {
-            "q": "¿Cómo dosifico la farofa con cannabis?",
-            "a": "Mezcla una cantidad calculada de mantequilla de cannabis en la farofa terminada y sirve por cucharadas. Una o dos cucharadas de farofa es una porción típica de acompañamiento. Calcula los mg por cucharada para poder servir dosis precisas como guarnición."
           }
         ]
       }
