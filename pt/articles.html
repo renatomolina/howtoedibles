@@ -292,7 +292,7 @@
         <button class="articles-filter-btn" data-category="Indústria">Indústria</button>
         <button class="articles-filter-btn" data-category="Guias">Guias</button>
     </div>
-    <div class="articles-count"><span id="articles-count-num">29</span> artigos</div>
+    <div class="articles-count"><span id="articles-count-num">28</span> artigos</div>
   </div>
 
   <div id="articles-no-results" class="articles-no-results" style="display:none;">
@@ -483,13 +483,6 @@
   <span class="card-read-more">Ler artigo <i class="fa fa-arrow-right"></i></span>
 </a>
 
-<a href="/pt/why-our-calculator-is-the-most-accurate.html" class="article-card">
-  <span class="card-category">Guias</span>
-  <h2>Por que nossa calculadora de cannabis é a mais precisa</h2>
-  <p>A maioria das calculadoras de cannabis online dá números errados. A nossa é baseada em ciência real, leva em conta a perda durante o cozimento e é totalmente testada. Veja por que isso importa.</p>
-  <span class="card-read-more">Ler artigo <i class="fa fa-arrow-right"></i></span>
-</a>
-
 <a href="/pt/how-a-cannabis-calculator-works.html" class="article-card">
   <span class="card-category">Guias</span>
   <h2>Como funciona uma calculadora de cannabis</h2>
@@ -563,13 +556,14 @@
   gtag('config', 'UA-90858722-1');
 </script>
 
+
     <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
-<script>
+    <script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -577,6 +571,8 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/pt/?search=' + encodeURIComponent(q); }
         });
       })();
+    </script>
+<script>
 (function(){
   var search = document.getElementById('articles-search');
   var cards = document.querySelectorAll('.article-card');
@@ -618,6 +614,7 @@
   });
 })();
 </script>
+
       <script src="/js/dark-mode.js"></script>
   </body>
 </html>

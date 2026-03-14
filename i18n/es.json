@@ -109,7 +109,13 @@
     "ingredients": "Ingredientes",
     "directions": "Preparación",
     "title_suffix": "Receta de Comestible de Cannabis | HowToEdibles",
-    "default_description_template": "Aprende a preparar %{name} con cannabis con nuestra receta paso a paso y calculadora de dosis de THC integrada."
+    "default_description_template": "Aprende a preparar %{name} con cannabis con nuestra receta paso a paso y calculadora de dosis de THC integrada.",
+    "intro_prefix": "Aprende a hacer",
+    "dosing_tips": "Consejos de Dosificación para %{name}",
+    "common_mistakes": "Errores Comunes a Evitar",
+    "storage": "Cómo Almacenar %{name}",
+    "variations": "Variaciones e Ideas",
+    "faq": "Preguntas Frecuentes"
   },
   "footer": {
     "tagline": "Comestibles de cannabis fáciles. Recetas, calculadora de dosis y consejos de reducción de daños.",

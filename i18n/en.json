@@ -109,7 +109,13 @@
     "ingredients": "Ingredients",
     "directions": "Directions",
     "title_suffix": "Cannabis Edibles Recipe | HowToEdibles",
-    "default_description_template": "Learn how to make cannabis %{name} with our step-by-step recipe and built-in THC dosage calculator."
+    "default_description_template": "Learn how to make cannabis %{name} with our step-by-step recipe and built-in THC dosage calculator.",
+    "intro_prefix": "Learn how to make",
+    "dosing_tips": "Dosing Tips for Your %{name}",
+    "common_mistakes": "Common Mistakes to Avoid",
+    "storage": "How to Store %{name}",
+    "variations": "Variations & Ideas",
+    "faq": "Frequently Asked Questions"
   },
   "footer": {
     "tagline": "Cannabis edibles made easy. Recipes, dosing calculator, and harm reduction tips.",

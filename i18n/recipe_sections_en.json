@@ -1,0 +1,1438 @@
+{
+  "section_labels": {
+    "intro_prefix": "Learn how to make",
+    "dosing_tips": "Dosing Tips for Your %{name}",
+    "common_mistakes": "Common Mistakes to Avoid",
+    "storage": "How to Store %{name}",
+    "variations": "Variations & Ideas",
+    "faq": "Frequently Asked Questions"
+  },
+  "templates": {
+    "Desserts": {
+      "baked_goods": {
+        "intro": "This easy cannabis %{name} recipe uses %{base_fat} for a consistent, potent infusion that bakes beautifully at %{cook_temp}. Baked goods are one of the most popular ways to enjoy edibles because the fat binds perfectly with THC. Follow our step-by-step guide to get reliable dosing every time.",
+        "dosing_tips": [
+          "Start with 5-10 mg of THC per serving when baking for the first time, and wait at least 90 minutes before consuming more.",
+          "Mix your %{base_fat} thoroughly into the batter to ensure even distribution of THC across every piece.",
+          "Use our calculator to determine the total milligrams in your %{base_fat}, then divide by the number of portions you plan to cut.",
+          "Remember that baked goods can take 45-90 minutes to take effect because they must be digested first."
+        ],
+        "common_mistakes": [
+          "Baking at temperatures above 350 F (175 C) for extended periods can degrade THC. Keep your oven at or below %{cook_temp} and avoid overbaking.",
+          "Skipping decarboxylation before infusing your fat is the most common beginner mistake and will result in weak or inactive edibles.",
+          "Not mixing the %{base_fat} evenly into the batter leads to hot spots where one piece is extremely potent and another has almost nothing.",
+          "Opening the oven door frequently causes temperature fluctuations that can affect both the bake and cannabinoid preservation."
+        ],
+        "storage": [
+          "Store your %{name} in an airtight container at room temperature for up to 5 days, or refrigerate for up to two weeks.",
+          "For longer storage, wrap individual pieces tightly in plastic wrap and freeze for up to 3 months without significant potency loss.",
+          "Always label your edibles clearly with the date, strain used, and approximate mg per serving to avoid accidental overconsumption."
+        ],
+        "variations": [
+          "Swap %{base_fat} for cannabis-infused coconut oil for a dairy-free version that still binds THC effectively.",
+          "Add a teaspoon of sunflower lecithin to your batter to improve THC absorption and create a more even distribution.",
+          "Try using a mix of CBD and THC-infused fat for a more balanced, less intoxicating effect that is great for daytime use."
+        ],
+        "faq": [
+          {
+            "q": "Can I use cannabis flower directly in the batter instead of infused fat?",
+            "a": "Technically yes, but it is not recommended. Raw flower must be decarboxylated first, and even then it creates a gritty texture and uneven dosing. Infusing your %{base_fat} first gives a much smoother result and more reliable potency."
+          },
+          {
+            "q": "How do I know if my oven temperature is accurate?",
+            "a": "Oven thermostats can be off by 25 degrees or more. Use an oven thermometer to verify the actual temperature matches %{cook_temp}. This matters because excessive heat degrades THC while too-low temperatures may underbake your goods."
+          },
+          {
+            "q": "Will my %{name} smell like cannabis while baking?",
+            "a": "Yes, there will be a noticeable cannabis aroma while baking, especially in the first 15-20 minutes. Using properly infused and strained %{base_fat} reduces the smell compared to adding flower directly. Good ventilation helps."
+          },
+          {
+            "q": "How long do cannabis baked goods stay potent?",
+            "a": "When stored properly in an airtight container, cannabis baked goods retain their full potency for about two weeks at room temperature. Frozen edibles can stay potent for three months or longer. Heat and light are the main enemies of THC stability."
+          },
+          {
+            "q": "Can I adjust the dosage after baking?",
+            "a": "You cannot reduce the dosage once baked, but you can cut smaller pieces. This is why accurate calculation before baking is essential. Use our dosage calculator to plan your total THC content and number of servings before you start."
+          }
+        ]
+      },
+      "frozen": {
+        "intro": "This cannabis %{name} recipe combines %{base_fat} with frozen dessert techniques for a refreshing, perfectly dosed treat. Frozen edibles are ideal for warm weather and offer a discreet, delicious way to consume cannabis. The cold temperatures help preserve cannabinoids while delivering a smooth experience.",
+        "dosing_tips": [
+          "Frozen desserts are easy to over-consume because they taste so good and the cold masks the cannabis flavor. Stick to one measured portion.",
+          "Blend your %{base_fat} into the liquid base thoroughly before freezing to prevent THC from separating or settling unevenly.",
+          "Aim for 5-10 mg per scoop or bar and use exact measuring tools to portion your mixture before it sets.",
+          "Cold treats can sometimes hit slightly faster on an empty stomach because the melting process begins digestion quickly."
+        ],
+        "common_mistakes": [
+          "Not emulsifying the %{base_fat} properly causes it to separate during freezing, leaving some portions with no THC and others with too much.",
+          "Forgetting to churn or stir periodically during freezing creates ice crystals and uneven texture that also affects dose distribution.",
+          "Using too much cannabis fat can throw off the fat ratio of your recipe, resulting in a greasy texture instead of a creamy one.",
+          "Serving directly from the freezer without letting it temper for 5-10 minutes makes it too hard to scoop and difficult to portion accurately."
+        ],
+        "storage": [
+          "Keep your cannabis %{name} in a sealed, freezer-safe container at 0 F (-18 C) or below for up to 2 months at full potency.",
+          "Wrap individual portions in parchment paper to prevent freezer burn and make it easy to grab a single dose.",
+          "Label containers with the date, total THC content, and serving size so anyone in the household knows what they are consuming."
+        ],
+        "variations": [
+          "Use cannabis-infused coconut cream instead of dairy for a vegan frozen treat with excellent THC binding properties.",
+          "Add fresh fruit puree to mask the herbal flavor while keeping the dosing consistent throughout.",
+          "Make popsicle molds for perfectly pre-portioned servings that eliminate the guesswork of scooping."
+        ],
+        "faq": [
+          {
+            "q": "Does freezing reduce the THC potency?",
+            "a": "No, freezing actually helps preserve THC by slowing the degradation process. Cannabinoids are stable at freezing temperatures and your frozen %{name} will retain potency for months. Light and heat are much bigger threats to potency than cold."
+          },
+          {
+            "q": "Can I use cannabis tincture instead of infused fat?",
+            "a": "Yes, alcohol-based tinctures can work in frozen desserts. However, alcohol lowers the freezing point and may affect texture. Glycerin-based tinctures are a better alternative for frozen recipes as they blend more seamlessly."
+          },
+          {
+            "q": "Why does my frozen edible taste too strongly of cannabis?",
+            "a": "Strong cannabis taste usually means the fat was not strained well enough, or you used too high a ratio of flower to fat during infusion. Double-strain through cheesecloth and consider adding vanilla, chocolate, or strong fruit flavors to balance it out."
+          },
+          {
+            "q": "How long before a frozen edible takes effect?",
+            "a": "Frozen edibles typically take 30-90 minutes to take effect as they need to melt and be digested. They may onset slightly faster than dense baked goods because the liquid base is digested more quickly. Always wait the full 90 minutes before having more."
+          },
+          {
+            "q": "Can I refreeze melted cannabis ice cream?",
+            "a": "You can refreeze it without losing THC potency, but the texture will suffer significantly with large ice crystals forming. If it has fully melted, consider repurposing it as a milkshake or sauce rather than refreezing."
+          }
+        ]
+      },
+      "confections": {
+        "intro": "This cannabis %{name} recipe transforms %{base_fat} into an elegant, precisely dosed confection that looks as good as it tastes. Candies and confections are perfect for micro-dosing since each piece can be made to exact specifications. Master the art of cannabis candy making with our detailed guide.",
+        "dosing_tips": [
+          "Confections are ideal for precise dosing because you can use molds to create identical portions. Calculate total THC and divide by the number of molds.",
+          "Use cannabis-infused coconut oil or %{base_fat} and add sunflower lecithin to improve binding in candy recipes.",
+          "Keep individual confection doses between 2.5-10 mg for casual consumers. Smaller pieces make it easier to find your ideal dose.",
+          "Allow confections to set completely before consuming since eating warm candy can cause faster, more intense absorption."
+        ],
+        "common_mistakes": [
+          "Heating sugar mixtures above 300 F (150 C) with cannabis fat already added will destroy a significant percentage of the THC. Add the infused fat after the candy reaches temperature and has cooled slightly.",
+          "Failing to use a candy thermometer leads to inconsistent results. Different candy stages (soft ball, hard crack) require precise temperatures.",
+          "Pouring the mixture too quickly into molds creates air bubbles that trap fat unevenly, leading to inconsistent dosing across pieces.",
+          "Not using molds or not using consistent mold sizes means each confection will have a different dose, making it impossible to control intake."
+        ],
+        "storage": [
+          "Store confections in an airtight container in a cool, dry place. Most cannabis candies keep for 2-4 weeks at room temperature depending on ingredients.",
+          "Chocolate-based confections should be kept below 70 F (21 C) to prevent melting and fat bloom, which can look unappetizing but does not affect potency.",
+          "Individually wrap each piece in wax paper or candy wrappers and label clearly with the dose per piece."
+        ],
+        "variations": [
+          "Add terpene extracts that match your cannabis strain for an enhanced entourage effect and coordinated flavor profile.",
+          "Use silicone molds in fun shapes to make your confections more appealing and to ensure consistent sizing for accurate dosing.",
+          "Infuse white chocolate with cannabis oil for a milder-flavored confection that pairs well with fruit and nut additions."
+        ],
+        "faq": [
+          {
+            "q": "What is the best type of cannabis fat for making candy?",
+            "a": "Cannabis-infused coconut oil is the top choice for most confections because it solidifies at room temperature and has a neutral flavor. For chocolate-based confections, cannabis butter works beautifully. Both bind THC effectively and integrate smoothly into candy recipes."
+          },
+          {
+            "q": "Can I make hard candies with cannabis?",
+            "a": "Yes, but you must add the cannabis oil after the sugar mixture has cooled to about 250 F (121 C) to avoid THC degradation. Use cannabis tincture or a very concentrated oil so you do not add too much liquid to the candy mixture, which can cause crystallization."
+          },
+          {
+            "q": "How do I prevent my cannabis chocolates from blooming?",
+            "a": "Bloom occurs when chocolate is not properly tempered. Heat your chocolate slowly, stir in the cannabis oil at the right temperature, then cool gradually. Using a double boiler and a thermometer keeps the process controlled and produces a professional shine."
+          },
+          {
+            "q": "Why do my gummies have an oily layer on top?",
+            "a": "This happens when the cannabis fat does not emulsify with the gelatin mixture. Add a small amount of sunflower lecithin as an emulsifier, and stir continuously while the mixture is warm. Pouring into molds quickly before it begins to set also helps."
+          },
+          {
+            "q": "How long do cannabis gummies last?",
+            "a": "Cannabis gummies stored in an airtight container in the refrigerator last 2-4 weeks. At room temperature they last about a week before texture degrades. Frozen gummies can last several months. Potency remains stable as long as they are kept away from heat and light."
+          }
+        ]
+      },
+      "pastries": {
+        "intro": "This cannabis %{name} recipe layers %{base_fat} into flaky, buttery pastry dough for an indulgent infused treat baked at %{cook_temp}. Pastries offer a sophisticated edible experience where the cannabis fat is an integral part of the dough structure. The lamination or folding process naturally distributes THC evenly throughout each layer.",
+        "dosing_tips": [
+          "Calculate total THC in your %{base_fat} and divide by the number of pastries you plan to cut. Pastry dough distributes fat evenly through layering.",
+          "Keep doses moderate at 5-15 mg per pastry since these are rich foods that people tend to eat slowly, making onset timing unpredictable.",
+          "Weigh your dough portions on a kitchen scale to ensure each pastry has the same amount of infused fat.",
+          "Filled pastries can have cannabis in the dough, the filling, or both. Decide your strategy before starting and calculate accordingly."
+        ],
+        "common_mistakes": [
+          "Working with warm dough causes the %{base_fat} to melt into the flour instead of staying in distinct layers, ruining both texture and THC distribution.",
+          "Overbaking at temperatures above %{cook_temp} for too long browns the butter and can degrade cannabinoids in the outer layers.",
+          "Rolling the dough too thin in some areas and thick in others creates uneven dosing between pastries from the same batch.",
+          "Skipping the resting periods between folds makes the dough tough and prevents proper layer formation."
+        ],
+        "storage": [
+          "Unbaked cannabis pastry dough can be refrigerated for 2 days or frozen for up to 1 month, letting you bake fresh on demand.",
+          "Baked pastries are best consumed the same day but keep in an airtight container for 2-3 days. Reheat in the oven at 325 F (165 C) for best texture.",
+          "Label frozen dough with the total THC content and number of portions so you can dose accurately when you bake later."
+        ],
+        "variations": [
+          "Use cannabis-infused ghee for an even higher smoke point and nuttier flavor that works beautifully in puff pastry and croissants.",
+          "Fill with cannabis-infused pastry cream for a double-infused treat, but reduce the dough infusion to keep the total dose manageable.",
+          "Brush finished pastries with a cannabis honey glaze for an extra layer of flavor and a mild additional dose."
+        ],
+        "faq": [
+          {
+            "q": "Does the lamination process affect THC potency?",
+            "a": "No, lamination happens at cold temperatures which preserve THC. The folding actually helps distribute the cannabis fat more evenly throughout the dough. Just ensure you keep the dough cold and work quickly."
+          },
+          {
+            "q": "Can I substitute cannabis oil for butter in pastry dough?",
+            "a": "Butter is strongly preferred for pastries because it creates the steam pockets that form flaky layers. If you must avoid dairy, cannabis-infused coconut oil in solid form is the closest substitute, though the texture will differ slightly."
+          },
+          {
+            "q": "Why is my pastry dough greasy instead of flaky?",
+            "a": "Greasy dough means the fat melted during handling. Cannabis butter should be very cold and firm when incorporated. Work in a cool kitchen, chill the dough between folds, and handle it as little as possible. Cold fat equals flaky layers."
+          },
+          {
+            "q": "How long do cannabis pastries take to kick in?",
+            "a": "Rich, buttery pastries typically take 45-90 minutes to take effect. The high fat content can sometimes help absorption but the dense dough takes time to digest fully. Eat on a mildly full stomach for the most predictable experience."
+          },
+          {
+            "q": "Can I use store-bought puff pastry and add cannabis?",
+            "a": "Yes, you can brush store-bought puff pastry sheets with melted %{base_fat} between layers, or use an infused filling. This is a great shortcut. Calculate the dose based on how much cannabis fat you add rather than what is in the dough."
+          }
+        ]
+      },
+      "puddings": {
+        "intro": "This cannabis %{name} recipe infuses creamy custard with %{base_fat} for a smooth, comforting dessert that is simple to make and easy to dose. Puddings and custards are beginner-friendly edibles because the liquid base allows for thorough mixing and even THC distribution. Serve chilled for the best flavor and texture.",
+        "dosing_tips": [
+          "Puddings are excellent for precise dosing because the liquid base mixes thoroughly. Stir continuously to ensure even distribution of %{base_fat}.",
+          "Pour into individual ramekins or cups for pre-portioned servings with a known dose per container.",
+          "Start with 5-10 mg per serving. Puddings digest relatively quickly compared to dense baked goods, so effects may onset faster.",
+          "If making a large batch, stir well before portioning since fat can rise to the top as the pudding cools."
+        ],
+        "common_mistakes": [
+          "Boiling the custard mixture aggressively can curdle the eggs and break the emulsion, causing the cannabis fat to separate and pool on top.",
+          "Adding %{base_fat} to an already-set pudding means it will not incorporate. Always add it while the mixture is warm and liquid.",
+          "Not straining the custard base before chilling leaves lumps that can concentrate cannabis fat in certain bites.",
+          "Using too much cannabis fat changes the pudding's texture from creamy to greasy. Stick to the recipe's fat ratio and compensate by using more concentrated infusions."
+        ],
+        "storage": [
+          "Cover each pudding cup tightly with plastic wrap pressed directly against the surface to prevent a skin from forming. Refrigerate for up to 5 days.",
+          "Cannabis puddings do not freeze well as the texture becomes grainy upon thawing. Keep them refrigerated instead.",
+          "If making ahead for a gathering, portion and label each cup with the dose so guests can choose their comfort level."
+        ],
+        "variations": [
+          "Replace dairy milk with cannabis-infused coconut milk for a vegan version that has a natural affinity for binding cannabinoids.",
+          "Layer your cannabis pudding with non-infused whipped cream and crushed cookies for a parfait-style presentation.",
+          "Add a shot of espresso to chocolate cannabis pudding for a mocha flavor that complements and partially masks the herbal taste."
+        ],
+        "faq": [
+          {
+            "q": "Why did my cannabis pudding separate?",
+            "a": "Separation usually happens when the fat is not properly emulsified into the custard base. Whisk the %{base_fat} into the warm milk before adding other ingredients, and cook over medium-low heat while stirring constantly. Adding a pinch of lecithin also helps stabilize the emulsion."
+          },
+          {
+            "q": "Can I use cannabis tincture instead of fat in pudding?",
+            "a": "Yes, alcohol-based tincture can be stirred into warm pudding and the alcohol will mostly evaporate. This produces a cleaner flavor with less herbal taste. Glycerin tinctures also work well and add a subtle sweetness."
+          },
+          {
+            "q": "Do cannabis puddings hit faster than brownies?",
+            "a": "Generally yes. Puddings are semi-liquid and easier to digest than dense baked goods, so onset can be 30-60 minutes versus 60-90 for brownies. However, individual metabolism varies significantly so always wait at least 90 minutes before taking more."
+          },
+          {
+            "q": "How do I make the cannabis taste less noticeable in pudding?",
+            "a": "Strong flavors like chocolate, caramel, coffee, and citrus do the best job masking cannabis taste. Use well-strained, high-quality %{base_fat} and consider infusing at a lower flower-to-fat ratio for a longer time to extract cannabinoids without as much plant flavor."
+          },
+          {
+            "q": "Can I heat cannabis pudding in the microwave?",
+            "a": "You can warm it gently but avoid overheating. Microwaving on high can create hot spots that degrade THC locally. Use 50% power in 15-second intervals, stirring between each. Honestly, most cannabis puddings taste best chilled or at room temperature."
+          }
+        ]
+      }
+    },
+    "Snacks": {
+      "savory_snacks": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} to create a savory, satisfying snack with precisely controlled THC content. Savory cannabis snacks are a welcome alternative to the sweetness of most edibles and pair beautifully with herbs and spices. The fat-soluble nature of THC makes savory applications with %{base_fat} a natural choice.",
+        "dosing_tips": [
+          "Savory snacks are often eaten in handfuls, making portion control crucial. Pre-portion into individual servings of known dosage.",
+          "Drizzle or toss snacks with a measured amount of %{base_fat} rather than dipping, which leads to uneven coating and dosing.",
+          "Aim for 5-10 mg per snack portion and clearly communicate this when sharing with others.",
+          "Spicy snacks can mask the cannabis taste but may also cause you to eat more or drink more liquid, which can affect absorption."
+        ],
+        "common_mistakes": [
+          "Baking savory snacks at too high a temperature to get them crispy. Keep below %{cook_temp} or add %{base_fat} after cooking.",
+          "Unevenly coating items means some pieces are very potent while others have no cannabis. Toss in a bowl for even distribution.",
+          "Making a large bowl of snack mix without calculating per-serving doses leads to uncontrolled consumption.",
+          "Seasoning too lightly, thinking the cannabis adds flavor. Cannabis adds an herbal note, but you still need full seasoning."
+        ],
+        "storage": [
+          "Store cannabis savory snacks in an airtight container at room temperature for up to a week. Moisture is the enemy of crispness.",
+          "Include a silica gel packet in the container to maintain crunch and prevent the cannabis fat from going rancid.",
+          "Label the container with total THC content and suggested serving size so you can snack responsibly."
+        ],
+        "variations": [
+          "Use cannabis-infused olive oil instead of butter for Mediterranean-style savory snacks like infused crackers or breadsticks.",
+          "Sprinkle nutritional yeast with finely ground decarbed kief for a cheesy seasoning that adds micro-doses to any snack.",
+          "Make a cannabis spice blend by mixing decarbed kief into your favorite seasoning mix for an easy sprinkle-on option."
+        ],
+        "faq": [
+          {
+            "q": "Can I add cannabis to chips or crackers after they are cooked?",
+            "a": "Yes, and this is often the best approach. Drizzle warm snacks with melted %{base_fat} and seasonings after baking. This avoids heat degradation and gives you better control over coating. Toss gently in a bowl for even distribution."
+          },
+          {
+            "q": "Do savory edibles hit differently than sweet ones?",
+            "a": "The onset and effects are similar regardless of flavor, but savory snacks tend to be less calorie-dense and may be digested slightly faster. The main advantage is variety and personal preference. Many people find savory edibles easier to dose-control because they are less tempting to overeat."
+          },
+          {
+            "q": "What spices pair well with cannabis flavor?",
+            "a": "Herbs like rosemary, thyme, and oregano complement cannabis terpenes naturally. Garlic powder, smoked paprika, and cumin also work well. Bold spice profiles disguise the herbal cannabis notes while creating a complex, enjoyable flavor."
+          },
+          {
+            "q": "Can I use cannabis oil in a deep fryer?",
+            "a": "No, deep frying temperatures of 350-375 F (175-190 C) will degrade THC, and you would waste most of the expensive cannabis oil in the fryer. Instead, fry in regular oil and then drizzle or toss with cannabis oil after cooking."
+          },
+          {
+            "q": "How do I make cannabis popcorn?",
+            "a": "Pop your corn using any method, then drizzle melted %{base_fat} over the popcorn while tossing. Add salt and seasonings immediately so they stick to the fat. Calculate the total THC in the butter you add and divide by the number of servings you portion out."
+          }
+        ]
+      },
+      "sweet_snacks": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} to create a delightful sweet snack that delivers a reliable, enjoyable dose in every bite. Sweet snacks are the most popular category of cannabis edible for good reason, as sugar and fat together mask herbal flavors effectively. These no-fuss recipes are perfect for beginners and experienced consumers alike.",
+        "dosing_tips": [
+          "Sweet snacks are the most likely edible to be overeaten. Pre-portion into individual packages with the dose written on each.",
+          "Mix %{base_fat} thoroughly into the warm sweet base before it sets to ensure each bite has an even amount of THC.",
+          "For bite-sized sweets, aim for 2.5-5 mg per piece so people can easily adjust their dose by eating more or fewer pieces.",
+          "Chocolate and caramel are excellent vehicles for cannabis because their strong flavors cover the herbal taste completely."
+        ],
+        "common_mistakes": [
+          "Making treats that taste so good you forget they are medicated. Always be mindful of how many you have eaten and wait for effects.",
+          "Melting chocolate too hot before adding cannabis fat, which causes the mixture to seize and become grainy. Use gentle heat.",
+          "Not accounting for the calories in %{base_fat} when adding it to already sweet, rich recipes. The texture may become overly greasy.",
+          "Storing sweet snacks where children or pets could access them. Cannabis edibles must always be stored securely."
+        ],
+        "storage": [
+          "Most cannabis sweet snacks store well in an airtight container for 1-2 weeks at room temperature, or longer in the refrigerator.",
+          "Chocolate-based items should be stored below 70 F (21 C) to prevent melting. Refrigeration extends shelf life to a month.",
+          "Wrap individually and label each piece with the dose and date made for safe, responsible consumption."
+        ],
+        "variations": [
+          "Drizzle cannabis-infused white chocolate over dried fruit and nuts for an elegant, easy-to-dose trail mix.",
+          "Use cannabis honey in granola bars or energy balls for a no-bake option that preserves full cannabinoid potency.",
+          "Roll no-bake cannabis truffles in cocoa powder, coconut flakes, or crushed nuts for variety in a single batch."
+        ],
+        "faq": [
+          {
+            "q": "What is the best chocolate to use for cannabis sweets?",
+            "a": "Dark chocolate with 60-70% cacao has a strong enough flavor to mask cannabis taste and contains natural fats that blend well with cannabis oil. Milk chocolate works too but the flavor is milder. Always use quality chocolate and melt it gently."
+          },
+          {
+            "q": "Can I use cannabis sugar instead of fat in sweet snacks?",
+            "a": "Cannabis sugar can be made by evaporating a tincture onto granulated sugar. It works in recipes where the sugar dissolves, but the potency is typically lower and less consistent than fat-based infusions. It is best as a supplementary ingredient rather than the primary cannabis carrier."
+          },
+          {
+            "q": "How do I make no-bake cannabis treats?",
+            "a": "Melt your %{base_fat} and mix it with ingredients like oats, nut butter, chocolate chips, and honey. Press into a pan or roll into balls, then refrigerate until set. No-bake methods preserve 100% of the THC since there is no heat exposure after decarboxylation."
+          },
+          {
+            "q": "Why do my cannabis caramels taste burnt?",
+            "a": "Cannabis butter has milk solids that burn at high temperatures needed for caramel. Either clarify your cannabis butter first by removing milk solids, or use cannabis-infused coconut oil which has a higher smoke point. Watch temperatures carefully with a candy thermometer."
+          },
+          {
+            "q": "Are sweet edibles stronger than savory ones?",
+            "a": "Not inherently, but sugar can speed up THC absorption slightly because it triggers insulin release, which may help your body absorb cannabinoids faster. The main difference is that sweet edibles are easier to overeat, leading to accidental overconsumption."
+          }
+        ]
+      },
+      "dips": {
+        "intro": "This cannabis %{name} recipe blends %{base_fat} into a creamy, flavorful dip that is perfect for sharing at gatherings with informed guests. Cannabis dips are a versatile edible option that pairs with chips, vegetables, bread, and crackers. The creamy base naturally incorporates the infused fat for smooth, even dosing.",
+        "dosing_tips": [
+          "Calculate the total THC in your batch and divide by the number of tablespoon-sized servings the recipe makes.",
+          "Serve with a designated spoon or portioning tool so guests know that one scoop equals one dose.",
+          "Provide a clearly marked card next to the dip stating the approximate mg per serving and recommending limits.",
+          "Mix the dip thoroughly since cannabis fat can settle or separate. Stir before each serving occasion."
+        ],
+        "common_mistakes": [
+          "Not stirring the dip well enough causes the cannabis fat to pool in certain areas, giving some scoops ten times the dose of others.",
+          "Making dips too cannabis-forward in flavor. Bold ingredients like garlic, chipotle, herbs, and cheese easily mask the taste.",
+          "Putting cannabis dip out at a party without clear labeling. Everyone who might eat it must be informed and consenting.",
+          "Leaving the dip at room temperature too long. Dairy-based cannabis dips should be served cold and returned to the fridge after 2 hours."
+        ],
+        "storage": [
+          "Refrigerate cannabis dips in sealed containers for up to 5 days. Stir well before serving again as fat separation occurs.",
+          "Hummus and bean-based cannabis dips freeze reasonably well for up to a month. Thaw in the refrigerator overnight.",
+          "Dairy-based dips like cannabis queso or cream cheese dips should not be frozen as the texture degrades significantly."
+        ],
+        "variations": [
+          "Blend cannabis coconut oil into guacamole for a vegan-friendly infused dip where the avocado fat masks any oiliness.",
+          "Stir %{base_fat} into warm queso or cheese sauce for a potent, savory dip that stays emulsified thanks to the cheese.",
+          "Mix cannabis-infused olive oil with herbs, lemon, and yogurt for a Mediterranean-style dip."
+        ],
+        "faq": [
+          {
+            "q": "How do I prevent the cannabis taste in dips?",
+            "a": "Use strongly flavored bases like roasted garlic hummus, spicy bean dip, or pungent cheese spreads. These bold flavors dominate and mask the herbal cannabis notes. Well-strained, quality %{base_fat} also has less plant taste to begin with."
+          },
+          {
+            "q": "Can I heat cannabis dip without losing potency?",
+            "a": "Gentle warming to serving temperature is fine. Keep it under 200 F (93 C) and you will preserve the THC. Avoid boiling or broiling cannabis dips. Warm them in a saucepan over low heat or in the microwave at reduced power."
+          },
+          {
+            "q": "What is the best base for a cannabis dip?",
+            "a": "Cream cheese, sour cream, and avocado are excellent bases because they are already high in fat, which means the cannabis fat blends right in without changing the texture. Hummus and bean dips also work well with cannabis oil stirred in."
+          },
+          {
+            "q": "How many servings should I plan per person?",
+            "a": "Limit it to one serving per person for newcomers and two for experienced consumers. Provide plenty of non-infused snacks alongside the cannabis dip so people are not tempted to overindulge. One to two tablespoons of dip per serving is typical."
+          },
+          {
+            "q": "Can I use cannabis dip as a spread on sandwiches?",
+            "a": "Absolutely. A measured tablespoon of cannabis dip on a sandwich or wrap is a great way to dose consistently. This is especially convenient with cream cheese or hummus-based cannabis dips that spread easily and store well."
+          }
+        ]
+      }
+    },
+    "Essentials": {
+      "butter_oil": {
+        "intro": "This cannabis %{name} recipe is the foundation of all cannabis cooking, teaching you to infuse %{base_fat} with maximum potency and clean flavor. Cannabis butter and oil are the building blocks that you will use in countless edible recipes. Master this essential technique and you will have consistent, reliable infusions every time.",
+        "dosing_tips": [
+          "Calculate potency by multiplying the THC percentage of your flower by the weight in milligrams, then multiply by your expected extraction efficiency (typically 60-80%).",
+          "Label every batch with the date, strain, amount of flower used, and estimated mg per tablespoon for safe usage in recipes.",
+          "Start with a known strain from a licensed source so the THC percentage on the label gives you a reliable starting point for calculations.",
+          "Test a small amount of your finished infusion before cooking a whole recipe. Take half a teaspoon and wait 90 minutes to gauge potency."
+        ],
+        "common_mistakes": [
+          "Skipping decarboxylation is the number one mistake. Raw cannabis contains THCA which is not psychoactive. Heat it at 240 F (115 C) for 40 minutes first.",
+          "Cooking the infusion at too high a temperature. Keep it at a gentle simmer, 160-200 F (70-93 C), never a rolling boil.",
+          "Not straining thoroughly. Squeeze the cheesecloth to get all the infused fat out, but do not force plant material through.",
+          "Using too much flower relative to fat. A standard ratio is 1 cup of fat to 7-10 grams of decarbed flower. More flower does not always mean stronger."
+        ],
+        "storage": [
+          "Cannabis butter keeps refrigerated in an airtight container for up to 2 weeks, or frozen for 6 months without significant potency loss.",
+          "Cannabis oil (coconut, olive) keeps for 2-3 months in a cool, dark place. Refrigeration extends this further.",
+          "Store in opaque containers or wrap in foil to protect from light, which degrades cannabinoids over time."
+        ],
+        "variations": [
+          "Infuse coconut oil for a versatile, dairy-free option with excellent THC binding due to its high saturated fat content.",
+          "Make cannabis ghee by clarifying the butter after infusion. It has a higher smoke point and longer shelf life than regular cannabis butter.",
+          "Try infusing MCT oil for faster absorption and a neutral flavor that works in any recipe."
+        ],
+        "faq": [
+          {
+            "q": "What is the best fat for cannabis infusion?",
+            "a": "Coconut oil and butter are the top choices because their high saturated fat content binds THC most effectively. Coconut oil edges out butter slightly in extraction efficiency and shelf life. Olive oil works too but has a lower saturated fat content."
+          },
+          {
+            "q": "How long should I cook the infusion?",
+            "a": "Low and slow is the key. Simmer at 160-200 F (70-93 C) for 2-4 hours on the stovetop, or 4-6 hours in a slow cooker on the low setting. Longer infusion times at low temperatures extract more cannabinoids without degrading them."
+          },
+          {
+            "q": "Why is my cannabis butter green and bitter?",
+            "a": "Excessive green color and bitterness come from extracting chlorophyll and plant matter. Cook at lower temperatures, do not boil, and avoid grinding your flower too finely. A coarse grind with gentle heat produces a milder-tasting, golden butter."
+          },
+          {
+            "q": "Do I need to add water when making cannabis butter?",
+            "a": "Adding water to the pot during infusion helps regulate temperature and prevents burning. The water separates from the butter when cooled in the fridge and can be drained off. This technique produces cleaner-tasting butter with fewer impurities."
+          },
+          {
+            "q": "Can I make cannabis oil in a slow cooker?",
+            "a": "Yes, a slow cooker on the low setting is one of the best methods because it maintains a steady, low temperature for hours. Combine decarbed flower and oil, set to low, and let it go for 4-6 hours with occasional stirring. It is nearly foolproof."
+          }
+        ]
+      },
+      "milk_cream": {
+        "intro": "This cannabis %{name} recipe infuses dairy with THC for a versatile ingredient that can be added to beverages, desserts, sauces, and more. Cannabis-infused milk and cream open up a world of culinary possibilities beyond traditional butter-based edibles. The milk fat naturally binds cannabinoids, and the liquid form makes measuring and mixing effortless.",
+        "dosing_tips": [
+          "Use full-fat milk or heavy cream for maximum THC extraction. Skim milk does not have enough fat to bind cannabinoids effectively.",
+          "Measure doses by volume since liquid is easy to portion. Calculate the total mg in your batch and divide by the number of tablespoons or cups.",
+          "Add measured amounts to coffee, tea, or cereal for a controlled morning or evening dose.",
+          "Cannabis cream is more potent per volume than cannabis milk due to higher fat content. Adjust recipes accordingly."
+        ],
+        "common_mistakes": [
+          "Using low-fat or skim milk results in very weak infusions because there is not enough fat to extract and hold the THC.",
+          "Boiling the milk scorches it and creates an unpleasant flavor while potentially degrading THC. Keep it at a gentle simmer below 180 F (82 C).",
+          "Not decarboxylating the flower first. Simmering in milk alone does not fully activate the THCA into THC.",
+          "Infusing for too short a time. Milk needs at least 45-60 minutes of gentle simmering to extract cannabinoids adequately."
+        ],
+        "storage": [
+          "Cannabis milk and cream are perishable. Store refrigerated in a sealed container and use within 5-7 days.",
+          "For longer storage, freeze cannabis cream in ice cube trays. Each cube is approximately one tablespoon for easy portioning.",
+          "Never store cannabis dairy products at room temperature. They spoil at the same rate as regular milk."
+        ],
+        "variations": [
+          "Infuse heavy cream and whip it for a cannabis topping on desserts, hot chocolate, or coffee.",
+          "Use cannabis-infused coconut milk for a dairy-free alternative that has high fat content for good THC binding.",
+          "Make cannabis condensed milk by simmering infused milk with sugar until reduced, perfect for desserts and cocktails."
+        ],
+        "faq": [
+          {
+            "q": "Can I make cannabis milk with plant-based milk?",
+            "a": "Full-fat coconut milk works well because of its high fat content. Oat milk and almond milk have much less fat and will produce weaker infusions. If using low-fat plant milks, add a tablespoon of coconut oil to boost fat content and improve extraction."
+          },
+          {
+            "q": "How strong is cannabis milk compared to cannabis butter?",
+            "a": "Cannabis milk is typically less potent per volume because milk has less fat than butter. A cup of cannabis butter might contain significantly more THC than a cup of cannabis milk. However, cannabis cream approaches butter levels. Adjust your recipe calculations accordingly."
+          },
+          {
+            "q": "Can I add cannabis milk to hot coffee without losing THC?",
+            "a": "Yes, the temperature of hot coffee is well below the THC degradation point. Stirring cannabis milk or cream into hot beverages is one of the most popular and effective uses. The heat actually helps the fat dissolve smoothly into the drink."
+          },
+          {
+            "q": "Why did my cannabis milk curdle?",
+            "a": "Curdling happens when milk overheats or when acid is introduced. Keep the temperature below 180 F (82 C) during infusion. If adding to coffee or acidic drinks, warm the cannabis milk first and add it slowly. Fresh milk is also less likely to curdle than older milk."
+          },
+          {
+            "q": "How do I strain cannabis milk?",
+            "a": "Use a fine mesh strainer lined with cheesecloth. Pour the milk through slowly and gently squeeze the cheesecloth to extract all the liquid. For an extra-smooth result, strain twice. Do not press too hard or you will push plant matter through."
+          }
+        ]
+      }
+    },
+    "Lunch": {
+      "pasta_rice": {
+        "intro": "This cannabis %{name} recipe incorporates %{base_fat} into a hearty, satisfying meal that is perfect for a relaxing lunch or dinner at home. Pasta and rice dishes are ideal for cannabis cooking because the starchy, savory flavors absorb and complement the infused fat beautifully. This is comfort food elevated to a whole new level.",
+        "dosing_tips": [
+          "Add %{base_fat} to the sauce or finish rather than the cooking water so none of the THC is discarded when you drain the pasta.",
+          "Calculate your dose per plate, not per pot. Divide the total THC in your %{base_fat} by the number of servings.",
+          "Toss the finished dish thoroughly to distribute the cannabis fat evenly across all portions.",
+          "A typical lunch portion should be 5-10 mg. These are filling meals, so effects may take longer to onset, around 60-90 minutes."
+        ],
+        "common_mistakes": [
+          "Adding cannabis oil to boiling pasta water wastes it since most goes down the drain. Stir it into the sauce or drizzle after plating.",
+          "Overheating sauces with cannabis fat for extended periods on high heat degrades THC. Add the infused fat at the end, off the heat.",
+          "Making a large batch without tracking portions can lead to some servings having more sauce and therefore more THC than others.",
+          "Using cannabis olive oil for high-heat searing. Save the infused oil for finishing and drizzling after cooking."
+        ],
+        "storage": [
+          "Store leftover cannabis pasta or rice dishes in airtight containers in the fridge for up to 3 days. The starch absorbs the fat, keeping potency stable.",
+          "Reheat gently on the stovetop over low heat or in the microwave at medium power to preserve THC.",
+          "Freeze portions in labeled containers for up to 2 months. Pasta sauces with cannabis fat freeze especially well."
+        ],
+        "variations": [
+          "Make cannabis pesto by blending %{base_fat} with basil, pine nuts, garlic, and parmesan for an easy, potent pasta sauce.",
+          "Stir cannabis coconut oil into a Thai curry sauce and serve over rice for an aromatic infused meal.",
+          "Finish risotto with a tablespoon of %{base_fat} stirred in at the very end for a creamy, perfectly dosed dish."
+        ],
+        "faq": [
+          {
+            "q": "Will cooking pasta sauce destroy the THC?",
+            "a": "Gentle simmering at normal sauce temperatures of around 200 F (93 C) is safe for THC. The key is to add your %{base_fat} during the last few minutes or after removing from heat. Avoid rapid boiling with the cannabis fat already in the sauce."
+          },
+          {
+            "q": "Can I taste the cannabis in pasta dishes?",
+            "a": "In well-seasoned pasta sauces with garlic, herbs, cheese, or tomatoes, the cannabis flavor is usually undetectable. The bold flavors of Italian and Asian sauces mask the herbal notes beautifully. This is one reason savory dishes are great for edibles."
+          },
+          {
+            "q": "Is it better to use cannabis olive oil or butter for pasta?",
+            "a": "Both work well. Cannabis butter is ideal for cream-based sauces and finishing dishes. Cannabis olive oil suits aglio e olio, pesto, and tomato-based sauces. Choose based on the flavor profile of your dish."
+          },
+          {
+            "q": "How long until a cannabis pasta meal takes effect?",
+            "a": "Full meals with carbohydrates and fat typically take 60-120 minutes for full effect. The starch slows digestion, which means a slower, more gradual onset but often a longer duration. Eat a moderate portion and wait before having seconds."
+          },
+          {
+            "q": "Can I make cannabis fried rice?",
+            "a": "Yes, but add the cannabis oil at the end. Stir-fry with regular oil over high heat, then reduce heat and drizzle in %{base_fat} at the very end. Toss thoroughly and serve immediately. This preserves potency while giving you the high-heat sear that fried rice needs."
+          }
+        ]
+      },
+      "soup": {
+        "intro": "This cannabis %{name} recipe stirs %{base_fat} into a warm, nourishing bowl of soup that delivers gentle, long-lasting effects. Soup is one of the most comforting ways to consume cannabis edibles and the liquid base ensures exceptionally even THC distribution. Whether creamy or brothy, cannabis soup is simple to make and easy to dose.",
+        "dosing_tips": [
+          "Stir the %{base_fat} into the soup after removing from heat and mix thoroughly. The liquid base distributes it evenly.",
+          "Ladle equal portions to ensure consistent dosing. Use a measuring cup or ladle of known volume.",
+          "Cream-based soups hold cannabis fat better than clear broths, where oil tends to float on top visibly.",
+          "Start with 5-10 mg per bowl. Warm liquids can onset faster than solid foods, sometimes in 30-60 minutes."
+        ],
+        "common_mistakes": [
+          "Adding cannabis fat to a rapidly boiling soup. Remove from heat or reduce to a bare simmer before stirring in %{base_fat}.",
+          "Not blending or stirring thoroughly, which causes the cannabis fat to pool on the surface in oily droplets.",
+          "Serving soup that has been sitting with the fat visible on top is unappetizing. Use a stick blender for creamy soups or add an emulsifier.",
+          "Reheating cannabis soup at a rapid boil. Always reheat gently to preserve THC and prevent fat from breaking out of the emulsion."
+        ],
+        "storage": [
+          "Cannabis soup stores well refrigerated for 3-5 days. The fat will solidify on top when cold, so reheat gently and stir thoroughly.",
+          "Freeze portions for up to 3 months in labeled containers. Thaw overnight in the refrigerator before reheating.",
+          "Cream-based cannabis soups can sometimes separate after freezing. Blend with a stick blender after reheating to restore texture."
+        ],
+        "variations": [
+          "Blend cannabis coconut oil into a Thai coconut soup for a naturally compatible pairing of flavors and fats.",
+          "Swirl %{base_fat} into tomato soup with a drizzle of cannabis cream for a decadent lunch.",
+          "Make cannabis bone broth by simmering bones with a tablespoon of coconut oil that has been pre-infused with cannabis."
+        ],
+        "faq": [
+          {
+            "q": "Why does the cannabis oil float on top of my soup?",
+            "a": "Fat naturally floats on water-based liquids. For brothy soups, blend in a bit of lecithin to create an emulsion, or choose cream-based soup recipes where the dairy fat helps incorporate the cannabis oil. A quick blitz with an immersion blender usually solves the problem."
+          },
+          {
+            "q": "Can I add cannabis to canned soup?",
+            "a": "Yes, heat the soup gently and stir in a measured amount of %{base_fat} just before serving. This is one of the simplest possible cannabis edibles. Cream-of-anything soups work best because the existing fat content helps the cannabis oil integrate."
+          },
+          {
+            "q": "Does long simmering reduce THC potency in soup?",
+            "a": "Normal simmering temperatures around 200 F (93 C) are safe for THC. However, to be cautious, add the cannabis fat during the last 15-20 minutes of cooking or right before serving. This gives enough time to mix in without prolonged heat exposure."
+          },
+          {
+            "q": "Are cannabis soups good for beginners?",
+            "a": "Excellent for beginners. The liquid form allows for very even dosing, and you can start with a small bowl. Soups are also comforting if you feel any anxiety, and the warm broth is soothing. They are one of the most user-friendly edible formats."
+          },
+          {
+            "q": "Can I make cannabis ramen?",
+            "a": "Absolutely. The rich, fatty broth of ramen is perfect for cannabis oil. Add a teaspoon of %{base_fat} to each bowl and stir it into the hot broth. The sesame oil, miso, and other bold flavors in ramen completely mask the cannabis taste."
+          }
+        ]
+      },
+      "salad": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} in a flavorful dressing that turns any salad into a precisely dosed edible experience. Cannabis salad dressings are a light, healthy way to enjoy edibles without the heaviness of baked goods. The oil-based dressing is a natural vehicle for THC and distributes evenly when tossed with fresh ingredients.",
+        "dosing_tips": [
+          "Make the dressing separately and measure a specific amount per serving. One to two tablespoons of dressing per salad is typical.",
+          "Calculate the THC per tablespoon of dressing and serve accordingly. This makes dosing very precise.",
+          "Toss the salad thoroughly so every leaf is coated for even distribution rather than pooling at the bottom of the bowl.",
+          "Fat from dressings is absorbed relatively quickly. Expect onset in 30-60 minutes, faster than dense baked goods."
+        ],
+        "common_mistakes": [
+          "Making dressing too cannabis-forward. Balance with vinegar, citrus, mustard, and herbs to create a pleasant flavor.",
+          "Drowning the salad in cannabis dressing. More dressing means more THC. Stick to measured portions.",
+          "Not shaking or whisking the dressing thoroughly before each use, which causes oil separation and uneven dosing.",
+          "Serving a large communal salad without calculating per-serving doses. Plate individually with measured dressing instead."
+        ],
+        "storage": [
+          "Cannabis dressing stores refrigerated in a jar for up to 2 weeks. Shake vigorously before each use.",
+          "Dressed salads should be eaten immediately. Cannabis dressing will wilt greens if stored together.",
+          "Label your cannabis dressing clearly and store separately from regular dressings to avoid accidental consumption."
+        ],
+        "variations": [
+          "Make a cannabis vinaigrette with infused olive oil, balsamic vinegar, Dijon mustard, and honey for a classic dressing.",
+          "Blend %{base_fat} with tahini, lemon juice, and garlic for a creamy cannabis dressing that pairs with grain bowls.",
+          "Create a cannabis ranch by mixing infused oil into buttermilk, herbs, and garlic powder."
+        ],
+        "faq": [
+          {
+            "q": "Is cannabis olive oil good for salad dressing?",
+            "a": "Cannabis-infused olive oil is arguably the best option for salad dressings. It has a complementary flavor profile, mixes naturally with vinaigrette ingredients, and is never heated during use so full potency is preserved. Extra virgin olive oil also has a robust flavor that masks the cannabis."
+          },
+          {
+            "q": "Can I use cannabis fat in a warm salad?",
+            "a": "Yes, warm salads and grain bowls are great for cannabis dressings. Drizzle the warm cannabis dressing over roasted vegetables, grains, and greens. The gentle warmth does not degrade THC and helps the fat distribute and absorb."
+          },
+          {
+            "q": "How do I hide the cannabis flavor in dressing?",
+            "a": "Strong emulsifiers and flavors are your friends. Dijon mustard, roasted garlic, balsamic vinegar, fresh herbs, and citrus all overpower the herbal cannabis taste. The more complex your dressing, the less the cannabis will be noticed."
+          },
+          {
+            "q": "Are cannabis salads lower calorie than other edibles?",
+            "a": "The salad itself is low calorie, but the cannabis fat in the dressing adds calories just like any oil. However, you typically use less fat in a dressing than in a brownie or cookie, so yes, cannabis salads tend to be a lighter edible option overall."
+          },
+          {
+            "q": "Can I buy pre-made dressing and add cannabis?",
+            "a": "Yes, simply stir a measured amount of cannabis oil into store-bought dressing. Oil-based dressings blend more easily than creamy ones. Shake or whisk well. This is one of the simplest ways to create a cannabis edible with virtually no cooking required."
+          }
+        ]
+      },
+      "sandwich_wrap": {
+        "intro": "This cannabis %{name} recipe spreads %{base_fat} into a portable, satisfying meal that is perfect for on-the-go dosing. Sandwiches and wraps are everyday foods that become discreet edibles with the simple addition of cannabis-infused butter, mayo, or spread. The portability and familiar format make this one of the most practical edible options.",
+        "dosing_tips": [
+          "Spread a measured amount of cannabis butter or mayo on the bread. One tablespoon per sandwich is usually sufficient for a single dose.",
+          "Calculate mg per tablespoon of your cannabis spread and apply consistently to each sandwich.",
+          "Cannabis spreads are a gateway to precise micro-dosing. Use half a teaspoon for a mild 2-3 mg dose, or a full tablespoon for a standard 5-10 mg.",
+          "The protein, fat, and carbs in a sandwich provide a slow, steady digestion that produces gradual, long-lasting effects."
+        ],
+        "common_mistakes": [
+          "Spreading unevenly leaves some bites with all the cannabis flavor and potency while others have none.",
+          "Grilling a cannabis sandwich at too high a temperature can degrade THC. Use medium heat or add the spread after grilling.",
+          "Packing a cannabis sandwich for lunch and accidentally sharing it or leaving it where someone else might eat it.",
+          "Using too much cannabis spread and overpowering the other sandwich flavors. A thin, even layer is all you need."
+        ],
+        "storage": [
+          "Cannabis sandwiches should be consumed within a few hours for food safety. Refrigerate if not eating immediately.",
+          "The cannabis spread itself stores well for 1-2 weeks refrigerated. Make it ahead and apply to fresh bread as needed.",
+          "Wrap cannabis sandwiches distinctly from regular ones. Use a different wrapper color or add a clear label."
+        ],
+        "variations": [
+          "Make cannabis-infused mayo by blending cannabis oil into an egg yolk with a stick blender for a versatile sandwich spread.",
+          "Melt cannabis butter onto warm toast or a panini for a simple infused vehicle that pairs with any filling.",
+          "Blend cannabis oil into hummus or guacamole for a plant-based sandwich spread with built-in dosing."
+        ],
+        "faq": [
+          {
+            "q": "What is the best cannabis spread for sandwiches?",
+            "a": "Cannabis butter is the classic choice and works with most sandwiches. Cannabis-infused mayo is more versatile and has a milder taste. Cannabis hummus works well for wraps. Choose based on the sandwich style and your flavor preference."
+          },
+          {
+            "q": "Can I grill a cannabis sandwich?",
+            "a": "Yes, but moderate heat is key. A standard grilled cheese temperature will not degrade THC. For extra caution, grill the bread with regular butter, then open it and add cannabis spread to the warm interior before closing and serving."
+          },
+          {
+            "q": "Are wraps or sandwiches better for cannabis spreads?",
+            "a": "Wraps tend to distribute the spread more evenly because you can coat the entire tortilla before rolling. Sandwiches can have some bites from the edge without spread. Both work well, but wraps give you a more consistent dose per bite."
+          },
+          {
+            "q": "How long do cannabis sandwich effects last?",
+            "a": "A cannabis sandwich, being a complete meal, typically produces effects that last 4-6 hours with onset around 60-90 minutes. The combination of protein, fat, and carbs creates a slow, sustained digestion that produces a gradual rise and fall."
+          },
+          {
+            "q": "Can I take a cannabis sandwich to work?",
+            "a": "We do not recommend consuming cannabis at or before work, as it impairs cognitive function and may violate workplace policies or laws. Cannabis edibles are best enjoyed in a safe, comfortable environment where you can relax and you have no responsibilities for several hours."
+          }
+        ]
+      },
+      "main_dish": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} to elevate a satisfying main course into a full edible experience. Main dishes offer the most natural way to incorporate cannabis into a complete meal because the fats and sauces in entrees bind and distribute THC seamlessly. Enjoy a properly dosed dinner in the comfort of your home.",
+        "dosing_tips": [
+          "Add %{base_fat} to the sauce, glaze, or finish of your main dish rather than to the main cooking fat to avoid high-heat degradation.",
+          "Plate individually and add a measured amount of cannabis finishing sauce to each plate for precise dosing.",
+          "Full meals slow digestion, so expect onset in 60-120 minutes. The effects may last longer than lighter edibles.",
+          "Keep the per-serving dose at 5-10 mg since the large volume of food will already cause a slow, steady release of THC."
+        ],
+        "common_mistakes": [
+          "Adding cannabis fat to the pan for searing or sauteing at high heat destroys a large percentage of the THC. Reserve it for finishing.",
+          "Not accounting for the number of servings when calculating dose. A recipe that serves four needs four times the single-dose amount.",
+          "Making the entire dish cannabis-infused so that leftovers pile up. Consider infusing only the sauce or topping so you can control each serving.",
+          "Pairing with heavy alcohol consumption. Cannabis and alcohol intensify each other, especially with a full meal slowing digestion."
+        ],
+        "storage": [
+          "Store cannabis main dish leftovers just as you would the non-infused version. Refrigerate within 2 hours and consume within 3-4 days.",
+          "Label all leftovers clearly with the cannabis dose per serving so reheated portions are consumed safely.",
+          "Most cannabis sauces and glazes freeze well separately, giving you the option to infuse future meals without recooking."
+        ],
+        "variations": [
+          "Make a cannabis compound butter with herbs and garlic, then melt a pat over grilled steak, chicken, or fish as a finishing touch.",
+          "Drizzle cannabis-infused olive oil over a finished pizza, flatbread, or grilled vegetables for easy infusion.",
+          "Stir %{base_fat} into a pan sauce or gravy at the last moment for a rich, potent accompaniment to any protein."
+        ],
+        "faq": [
+          {
+            "q": "Can I cook meat in cannabis butter?",
+            "a": "You can baste meat at lower temperatures, but do not use cannabis butter as the primary searing fat. Searing temperatures of 400 F+ (200 C+) will degrade THC. Instead, sear with regular fat and finish with cannabis butter basted over the meat at lower heat."
+          },
+          {
+            "q": "Will the cannabis flavor overwhelm my main dish?",
+            "a": "Not if you use well-strained infusion and pair it with flavorful sauces. Garlic, herbs, spices, cheese, and acidic components like tomatoes or wine all mask the herbal taste. Cannabis butter as a finishing element adds richness without dominating."
+          },
+          {
+            "q": "How do I infuse a whole dinner party meal?",
+            "a": "The safest approach is to infuse only one course with a known dose and keep everything else cannabis-free. A cannabis appetizer dip or infused dessert is easier to control than an infused main course for multiple guests with different tolerances."
+          },
+          {
+            "q": "Does eating a big meal make edibles weaker?",
+            "a": "A full meal slows digestion and can delay onset, making it feel weaker initially. However, the total THC absorbed is the same. The experience will be more gradual and often longer-lasting. Eating on a completely empty stomach produces faster, more intense but shorter effects."
+          },
+          {
+            "q": "Can I use cannabis fat in a slow cooker recipe?",
+            "a": "Add it near the end. Slow cookers on low run at about 190 F (88 C), which is safe for THC, but hours of exposure can still degrade some cannabinoids. Stir the cannabis fat in during the last 30 minutes of cooking for the best potency retention."
+          }
+        ]
+      }
+    },
+    "Keto": {
+      "keto_baked": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} with keto-friendly flours and sweeteners for a low-carb baked treat that fits your macros. Keto baking and cannabis are a perfect pairing because the high-fat ketogenic diet naturally incorporates the fats that carry THC. Enjoy your edible without breaking ketosis.",
+        "dosing_tips": [
+          "Keto diets increase fat absorption, which may make edibles feel slightly stronger. Start with a lower dose of 5 mg per serving.",
+          "The high fat content of keto baked goods distributes THC very evenly, making dosing consistent across portions.",
+          "Use almond or coconut flour recipes where %{base_fat} makes up a large proportion of the fat content for accurate calculations.",
+          "Weigh portions on a kitchen scale since keto baked goods can be dense and small differences in size mean larger differences in dose."
+        ],
+        "common_mistakes": [
+          "Keto baked goods burn faster than regular ones because nut flours have more fat and less moisture. Watch the oven carefully at %{cook_temp}.",
+          "Over-substituting cannabis fat for the total fat changes the ratio of wet to dry ingredients and can cause dense, greasy results.",
+          "Not adjusting for the laxative effect that high MCT oil (common in keto) combined with cannabis can have on some people.",
+          "Using sugar-free chocolate chips that bloat or melt differently, altering the texture and fat distribution."
+        ],
+        "storage": [
+          "Keto cannabis baked goods keep refrigerated for up to a week due to their high fat and low moisture content.",
+          "Freeze in individual portions for up to 2 months. The high fat content protects against freezer burn.",
+          "Store in airtight containers to prevent the nut flours from absorbing fridge odors."
+        ],
+        "variations": [
+          "Use cannabis-infused MCT oil for a flavorless fat that blends into any keto recipe and may enhance absorption.",
+          "Add collagen peptides to cannabis keto muffins for a protein boost without affecting the carb count.",
+          "Replace erythritol with monk fruit sweetener for a cleaner sweet taste alongside the cannabis flavor."
+        ],
+        "faq": [
+          {
+            "q": "Does ketosis affect how edibles feel?",
+            "a": "Some people report that edibles feel slightly stronger during ketosis because the body is efficiently processing fats. The higher fat intake also means better THC absorption. Start with a lower dose than normal until you know how your body responds in ketosis."
+          },
+          {
+            "q": "Will cannabis edibles kick me out of ketosis?",
+            "a": "Cannabis itself has zero carbs. As long as your edible recipe uses keto-compliant ingredients like almond flour, erythritol, and high-fat dairy, your macros will be fine. Check the net carbs of your full recipe and divide by servings."
+          },
+          {
+            "q": "What is the best keto flour for cannabis baking?",
+            "a": "Almond flour is the most versatile and produces results closest to traditional baking. Coconut flour is very absorbent and needs more eggs and fat. A blend of both often gives the best texture. Both work well with cannabis fat."
+          },
+          {
+            "q": "Can I use cannabis MCT oil in fat bombs?",
+            "a": "Absolutely. Fat bombs are one of the best keto vehicles for cannabis because they are small, precisely portioned, and already high in fat. Mix cannabis MCT oil with cocoa butter, nut butter, and keto sweetener, then pour into molds for exact dosing."
+          },
+          {
+            "q": "Why are my keto cannabis cookies flat and greasy?",
+            "a": "Keto doughs with too much fat and not enough binding agents spread excessively. Add an extra egg or a tablespoon of psyllium husk powder to improve structure. Chilling the dough for 30 minutes before baking also helps the cookies hold their shape."
+          }
+        ]
+      },
+      "keto_sweet": {
+        "intro": "This cannabis %{name} recipe combines %{base_fat} with keto-approved sweeteners for a guilt-free treat that satisfies your sweet tooth while keeping carbs near zero. Sugar-free cannabis sweets are ideal for health-conscious consumers who want precise dosing without the sugar crash. The high-fat base ensures excellent THC delivery.",
+        "dosing_tips": [
+          "Keto sweets are often made in small portions like fat bombs or truffles. Calculate the dose per piece carefully since they are calorie-dense.",
+          "The high fat content of keto sweets means efficient THC absorption. Consider starting at 5 mg per piece.",
+          "Use silicone molds to create identical portions with consistent weight and dose.",
+          "Sugar alcohols in keto sweeteners do not affect THC absorption, so dosing math is the same as with regular sweets."
+        ],
+        "common_mistakes": [
+          "Over-sweetening with sugar alcohols to hide cannabis taste can cause digestive distress. Use a moderate amount and rely on cocoa or vanilla instead.",
+          "Heating chocolate and cannabis fat too high or too quickly causes separation and a grainy texture in truffles and bark.",
+          "Not tempering chocolate properly when making keto cannabis bark leads to a waxy, dull finish.",
+          "Storing keto sweets at room temperature when they contain cream cheese or other perishables. Refrigerate always."
+        ],
+        "storage": [
+          "Keto cannabis sweets keep refrigerated for 2 weeks or frozen for up to 3 months in airtight containers.",
+          "Fat bombs and truffles should be stored in the fridge and brought to cool room temperature for 5 minutes before eating for best texture.",
+          "Layer parchment paper between pieces to prevent sticking, and label with dose per piece."
+        ],
+        "variations": [
+          "Make cannabis peanut butter cups using sugar-free chocolate and cannabis-infused coconut oil in the filling.",
+          "Roll cannabis fat bombs in unsweetened cocoa powder, crushed pecans, or sugar-free sprinkles for variety.",
+          "Create a cannabis keto fudge with cream cheese, cocoa, butter, and erythritol for a rich, sliceable treat."
+        ],
+        "faq": [
+          {
+            "q": "What keto sweetener tastes best with cannabis?",
+            "a": "Monk fruit and allulose are generally considered the most natural-tasting keto sweeteners. Erythritol can have a cooling effect that some find odd with cannabis. Allulose browns like sugar, making it great for caramel and toffee applications."
+          },
+          {
+            "q": "Can I make sugar-free cannabis gummies on keto?",
+            "a": "Yes, use gelatin or agar with sugar-free flavored drink mix and cannabis tincture or MCT oil with lecithin. Keto gummies use erythritol or allulose instead of sugar. They set slightly differently than sugar gummies but the concept is the same."
+          },
+          {
+            "q": "Why do my keto cannabis chocolates taste waxy?",
+            "a": "Excess coconut oil or cocoa butter without proper tempering creates a waxy mouthfeel. Use a higher ratio of cacao to fat, temper your chocolate by heating and cooling to specific temperatures, and add the cannabis fat gradually while stirring continuously."
+          },
+          {
+            "q": "How many carbs are in cannabis butter?",
+            "a": "Cannabis butter has essentially zero carbs. Butter itself is virtually carb-free, and the cannabis flower contributes negligible carbohydrates after straining. It is a perfect keto ingredient. The only carbs come from your other recipe ingredients."
+          },
+          {
+            "q": "Are keto edibles more potent than regular ones?",
+            "a": "They can feel that way because the high fat content improves THC absorption and ketosis may enhance fat metabolism. Many keto edible consumers report needing a lower dose. Start low and adjust based on your personal experience."
+          }
+        ]
+      },
+      "keto_savory": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} in a savory, low-carb dish that delivers reliable dosing while keeping your ketogenic macros on track. Savory keto meals are naturally high in fat, making them ideal vehicles for cannabis infusions. From cheese crisps to cauliflower dishes, keto savory edibles are endlessly versatile.",
+        "dosing_tips": [
+          "Fat-heavy keto meals absorb THC efficiently. Start with 5-7 mg per serving until you know how savory keto edibles affect you.",
+          "Measure %{base_fat} precisely for each portion rather than adding it to the entire batch, especially for plated meals.",
+          "Compound cannabis butters with herbs make dosing savory keto dishes elegant and precise. One pat equals one dose.",
+          "Track your total fat intake including the cannabis fat within your daily keto macros to stay in ketosis."
+        ],
+        "common_mistakes": [
+          "High-heat cooking methods like broiling or deep frying destroy THC. Add cannabis fat as a finishing element at the table.",
+          "Adding cannabis fat to dishes that already have maximum fat content creates an unpalatably greasy texture. Balance your fats.",
+          "Assuming all fats are equal for keto. Cannabis butter has trace carbs from milk solids; cannabis MCT oil has zero.",
+          "Not seasoning aggressively enough. Keto savory dishes need bold flavors to mask the herbal cannabis notes."
+        ],
+        "storage": [
+          "Keto cannabis savory dishes store refrigerated for 3-4 days. The high fat content actually helps preserve the food.",
+          "Cannabis compound butter logs wrap well in parchment and freeze for 3 months. Slice off a pat for any meal.",
+          "Bacon-wrapped or cheese-based cannabis keto snacks keep well in sealed containers in the fridge for a week."
+        ],
+        "variations": [
+          "Melt cannabis butter over a thick steak or grilled chicken thigh as it rests for an effortless infused meal.",
+          "Mix cannabis oil into a keto cheese sauce made with heavy cream and cheddar for nachos or broccoli.",
+          "Toss roasted low-carb vegetables in cannabis-infused avocado oil with salt and pepper."
+        ],
+        "faq": [
+          {
+            "q": "What are the best keto foods to infuse with cannabis?",
+            "a": "Any high-fat, flavorful food works well. Top choices include cheese crisps, bacon-wrapped items, cauliflower mac and cheese, fathead dough pizza, and butter-basted meats. The key is that the dish already contains fat so the cannabis addition feels natural."
+          },
+          {
+            "q": "Can I add cannabis oil to my bulletproof coffee?",
+            "a": "Absolutely. Bulletproof coffee is an excellent keto cannabis vehicle. Blend cannabis MCT oil or butter into your hot coffee with a frother. The fat emulsifies into the coffee, and the effects may onset faster because liquid calories digest quickly."
+          },
+          {
+            "q": "Does the fat in keto meals affect THC absorption?",
+            "a": "Yes, positively. Higher fat meals significantly increase THC bioavailability. Studies show that consuming THC with a high-fat meal can increase absorption by up to three times. This is one reason keto edibles may feel stronger than low-fat alternatives."
+          },
+          {
+            "q": "Can I use cannabis fat for making cheese crisps?",
+            "a": "Brush or drizzle a small amount of cannabis oil on cheese before baking into crisps at moderate temperature. The cheese fat and cannabis oil merge nicely. Keep the oven at 350 F (175 C) or below and watch closely since cheese burns quickly."
+          },
+          {
+            "q": "Is cannabis-infused bacon possible?",
+            "a": "You can brush bacon with cannabis oil before baking at moderate heat, or more effectively, cook bacon normally and toss it in melted cannabis butter. Direct high-heat frying with cannabis fat is wasteful because it degrades THC at pan-frying temperatures."
+          }
+        ]
+      },
+      "keto_drink": {
+        "intro": "This cannabis %{name} recipe blends %{base_fat} into a creamy, keto-friendly beverage that keeps you in ketosis while delivering a smooth, controlled cannabis experience. Keto cannabis drinks leverage the high-fat ingredients already common in ketogenic diets, like MCT oil, heavy cream, and coconut milk. These are among the simplest and fastest-acting edibles you can make.",
+        "dosing_tips": [
+          "Keto drinks with MCT oil may onset faster than typical edibles because MCTs are metabolized more quickly. Start low at 5 mg.",
+          "Blend thoroughly with a frother or blender to create a creamy emulsion rather than an oily film on top.",
+          "One drink equals one dose. Do not sip throughout the day without tracking your cumulative intake.",
+          "Add cannabis fat to hot drinks to help emulsification. Cold keto drinks need a blender to combine properly."
+        ],
+        "common_mistakes": [
+          "Too much MCT oil at once can cause stomach distress. If you are new to MCT, start with half a tablespoon and work up.",
+          "Not blending the cannabis fat into the drink properly, leaving an oily layer that contains most of the dose.",
+          "Making a large pitcher without calculating per-cup dosage, which leads to inconsistent servings.",
+          "Combining cannabis keto drinks with intermittent fasting on an empty stomach can intensify effects dramatically."
+        ],
+        "storage": [
+          "Cannabis keto beverages are best consumed fresh. Dairy-based versions last 2-3 days refrigerated.",
+          "Make cannabis MCT oil or butter concentrate and store it, then add fresh to drinks each time.",
+          "Shake or blend stored keto cannabis drinks before consuming as separation is inevitable."
+        ],
+        "variations": [
+          "Blend cannabis MCT oil into bulletproof coffee with grass-fed butter for the ultimate keto morning ritual.",
+          "Mix cannabis coconut cream into matcha latte for an earthy, energizing keto drink.",
+          "Create a cannabis keto hot chocolate with cocoa, heavy cream, erythritol, and cannabis butter."
+        ],
+        "faq": [
+          {
+            "q": "Is cannabis MCT oil the best option for keto drinks?",
+            "a": "Yes, cannabis MCT oil is ideal for keto drinks because it is flavorless, blends easily, adds no carbs, and MCTs are metabolized quickly for energy. It emulsifies better than butter in most drinks and contributes to ketone production."
+          },
+          {
+            "q": "Can I put cannabis butter in tea?",
+            "a": "Yes, cannabis butter in tea is a traditional preparation known as bhang in some cultures. Blend it well to emulsify, or use an immersion frother. Adding a splash of cream helps the butter integrate more smoothly into the tea."
+          },
+          {
+            "q": "Will a cannabis keto drink break my fast?",
+            "a": "Yes, any caloric intake including fat breaks a strict fast. If practicing intermittent fasting, schedule your cannabis keto drink within your eating window. The fat in the drink will start digestion and end the fasted state."
+          },
+          {
+            "q": "How fast do cannabis keto drinks take effect?",
+            "a": "Cannabis keto drinks can onset in 20-45 minutes, faster than most solid edibles. MCT oil in particular is absorbed rapidly and processed by the liver quickly. The liquid format and efficient fat also contribute to faster onset compared to eating a solid edible."
+          },
+          {
+            "q": "Can I add cannabis cream to a keto smoothie?",
+            "a": "Absolutely. Blend cannabis cream with low-carb ingredients like avocado, spinach, nut butter, and unsweetened cocoa. Add ice and a keto sweetener for a thick, creamy smoothie. Track the carbs from all your ingredients to stay within your daily limit."
+          }
+        ]
+      }
+    },
+    "Vegan": {
+      "vegan_baked": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} as a plant-based fat to create a perfectly baked vegan edible at %{cook_temp}. Vegan cannabis baking proves you do not need dairy butter to make incredible edibles. Coconut oil is an exceptional THC carrier with even higher saturated fat content than butter, making it ideal for potent plant-based baked goods.",
+        "dosing_tips": [
+          "Cannabis coconut oil is the vegan baker's best friend. Its high saturated fat content extracts THC as effectively as dairy butter.",
+          "Measure %{base_fat} by weight rather than volume for accuracy since coconut oil density changes with temperature.",
+          "Start with 5-10 mg per serving. Vegan baked goods may digest slightly faster due to the absence of dairy proteins.",
+          "Use a flax egg or chia egg to bind without dairy, which does not affect THC distribution."
+        ],
+        "common_mistakes": [
+          "Substituting cannabis coconut oil 1:1 for butter without adjusting liquid content. Coconut oil has no water content unlike butter which is about 15% water.",
+          "Overmixing vegan batters with coconut oil creates a dense, heavy texture. Mix until just combined.",
+          "Baking at too high a temperature because vegan batters brown differently. Stick to %{cook_temp} and watch closely.",
+          "Using refined coconut oil and missing out on flavor. Unrefined has a natural sweetness that enhances many vegan bakes."
+        ],
+        "storage": [
+          "Vegan cannabis baked goods often keep slightly longer than dairy ones because coconut oil is shelf-stable. Store airtight for up to a week.",
+          "Freeze for up to 3 months. Vegan baked goods defrost well since there are no dairy proteins to degrade.",
+          "Keep at room temperature unless the recipe contains perishable vegan cream cheese or similar ingredients."
+        ],
+        "variations": [
+          "Use cannabis-infused vegan butter sticks for a direct 1:1 swap in any traditional baked goods recipe.",
+          "Add cannabis coconut oil to raw vegan desserts like date balls, no-bake bars, and raw cheesecakes for heat-free infusion.",
+          "Blend cannabis oil with aquafaba for a whipped, light texture in vegan cannabis mousse and meringues."
+        ],
+        "faq": [
+          {
+            "q": "Is coconut oil better than vegan butter for cannabis baking?",
+            "a": "For extraction purposes, coconut oil wins due to higher saturated fat content. For baking texture, vegan butter sticks perform more like dairy butter with a similar water content and melting point. You can infuse either, but many prefer baking with vegan butter and using coconut oil for other applications."
+          },
+          {
+            "q": "Can I use cannabis avocado oil in vegan baking?",
+            "a": "Avocado oil works in some recipes but it does not solidify at room temperature, which limits its baking applications. It is better as a drizzle or in raw recipes. For baked goods that need a solid fat, stick with cannabis coconut oil or vegan butter."
+          },
+          {
+            "q": "Do vegan edibles taste more like cannabis?",
+            "a": "Dairy can mask cannabis flavor somewhat, so some vegan edibles do have a slightly more noticeable herbal taste. Counter this with strong flavors like chocolate, coffee, spices, or citrus. Well-strained cannabis coconut oil has a relatively mild flavor."
+          },
+          {
+            "q": "Are vegan edibles as potent as dairy-based ones?",
+            "a": "Absolutely. THC binds to fat regardless of its animal or plant origin. Cannabis coconut oil actually has slightly higher extraction efficiency than butter due to its higher saturated fat percentage. Potency depends entirely on your infusion, not whether it is vegan."
+          },
+          {
+            "q": "What replaces eggs in vegan cannabis baking?",
+            "a": "Flax eggs (1 tbsp ground flax + 3 tbsp water), chia eggs, commercial egg replacer, aquafaba, or mashed banana all work. None of these affect THC content. Choose based on flavor and texture needs. Flax and chia add mild nutty flavors that complement cannabis well."
+          }
+        ]
+      },
+      "vegan_sweet": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} to create a luscious vegan sweet treat that is entirely plant-based and perfectly dosed. Vegan cannabis sweets prove that dairy-free and egg-free does not mean flavor-free. Coconut cream, nut butters, and dark chocolate provide rich, satisfying vehicles for THC that rival any conventional confection.",
+        "dosing_tips": [
+          "Vegan chocolate with high cacao content binds well with cannabis coconut oil. Use 60%+ dark chocolate for best results.",
+          "Cannabis coconut cream sets firmly when chilled, making it ideal for truffles and mousse where you need precise portions.",
+          "Pre-portion into molds or scoop with a melon baller for identical-weight pieces with consistent dosing.",
+          "Many vegan sweets are raw or no-bake, which means zero heat-related THC degradation and maximum potency."
+        ],
+        "common_mistakes": [
+          "Overheating coconut oil causes it to thin out and separate from chocolate. Melt gently at low temperature.",
+          "Adding water to melted chocolate causes seizing. Ensure all utensils and ingredients are completely dry before combining.",
+          "Making vegan caramel with coconut sugar that burns at a lower temperature than refined sugar. Watch the thermometer.",
+          "Not accounting for the strong coconut flavor in unrefined cannabis coconut oil when making delicate sweets."
+        ],
+        "storage": [
+          "Vegan cannabis sweets made with coconut oil set firm in the fridge and soften at room temperature. Store based on desired texture.",
+          "Dark chocolate cannabis bark keeps at room temperature in a cool kitchen. Store below 70 F (21 C) for best texture.",
+          "Nut-butter-based cannabis sweets keep refrigerated for 2-3 weeks or frozen for 3 months."
+        ],
+        "variations": [
+          "Make cannabis-infused date caramel by blending dates, cannabis coconut oil, and a pinch of salt for a whole-food sweetener.",
+          "Dip frozen banana slices in cannabis dark chocolate for a quick, pre-portioned frozen treat.",
+          "Create a cannabis tahini fudge with tahini, cannabis oil, maple syrup, and cocoa for a unique, sophisticated sweet."
+        ],
+        "faq": [
+          {
+            "q": "What is the best vegan chocolate for cannabis sweets?",
+            "a": "Look for dark chocolate with 60-70% cacao that lists cocoa butter as the primary fat. Brands that use coconut oil instead of milk fat blend most naturally with cannabis coconut oil. Check the label since not all dark chocolate is vegan."
+          },
+          {
+            "q": "Can I make vegan cannabis caramel?",
+            "a": "Yes, use full-fat coconut cream with coconut sugar and cannabis coconut oil. Simmer gently until thickened. Vegan caramel is slightly different in texture but delicious. The coconut flavor pairs wonderfully with the cannabis and adds an exotic sweetness."
+          },
+          {
+            "q": "How do I make cannabis chocolate without tempering?",
+            "a": "Melt chocolate chips, stir in cannabis oil, and pour into molds. While not perfectly tempered, it still tastes great. Store in the fridge for a firm snap. For better results without true tempering, melt two-thirds of the chocolate, stir in the final third for a crude temper."
+          },
+          {
+            "q": "Do vegan cannabis sweets melt faster?",
+            "a": "Cannabis coconut oil has a lower melting point than cocoa butter, so yes, vegan sweets made primarily with coconut oil can soften faster in warm conditions. Store in the fridge and serve directly from cold for best results."
+          },
+          {
+            "q": "Are raw vegan cannabis desserts more potent?",
+            "a": "No-bake preparations preserve the full potency from your infusion since there is no further heat exposure. In this sense, raw preparations are the most efficient. However, the starting potency of your cannabis oil is still the main determinant. Raw desserts just avoid any additional loss."
+          }
+        ]
+      },
+      "vegan_savory": {
+        "intro": "This cannabis %{name} recipe incorporates %{base_fat} into a flavorful vegan savory dish that delivers reliable effects with every serving. Plant-based savory cooking offers incredible versatility for cannabis infusion, from drizzling cannabis olive oil over roasted vegetables to stirring coconut oil into curries. Bold spices and umami flavors make these dishes anything but boring.",
+        "dosing_tips": [
+          "Drizzle a measured amount of cannabis oil over finished dishes rather than cooking with it for the most accurate dosing.",
+          "Vegan savory dishes often use coconut oil or olive oil as the primary fat, both of which infuse well with cannabis.",
+          "Keep servings at 5-10 mg. Plant-based meals may digest slightly faster due to higher fiber content.",
+          "Nutritional yeast, miso, and tamari add umami depth that pairs well with and masks the herbal cannabis flavor."
+        ],
+        "common_mistakes": [
+          "Sauteing vegetables in cannabis oil at high heat wastes THC. Cook with regular oil and add cannabis oil when plating.",
+          "Not accounting for the additional calories and fat from cannabis oil when planning a healthy vegan meal.",
+          "Assuming cannabis olive oil tastes the same as regular olive oil. It has an herbal, slightly bitter note that needs to be balanced.",
+          "Under-seasoning. Vegan savory dishes need bold flavors, and this is doubly true when cannabis is involved."
+        ],
+        "storage": [
+          "Vegan cannabis savory dishes store 3-5 days refrigerated. The plant-based ingredients generally keep well.",
+          "Cannabis-infused tahini, pesto, and other vegan sauces freeze beautifully for 2-3 months.",
+          "Store cannabis olive oil in a dark glass bottle in a cool cupboard for up to 3 months."
+        ],
+        "variations": [
+          "Stir cannabis coconut oil into a Thai or Indian curry for a natural fat pairing that masks cannabis flavor entirely.",
+          "Make cannabis-infused chimichurri with cannabis olive oil, parsley, garlic, and vinegar for a versatile sauce.",
+          "Blend cannabis oil into vegan mac and cheese sauce made from cashews and nutritional yeast."
+        ],
+        "faq": [
+          {
+            "q": "What is the best oil for vegan cannabis savory cooking?",
+            "a": "Cannabis-infused olive oil is the most versatile for savory applications. It has a complementary flavor, works as dressing, finishing oil, and in sauces. Cannabis coconut oil is better for Asian and tropical dishes where coconut flavor is welcome."
+          },
+          {
+            "q": "Can I add cannabis to tofu dishes?",
+            "a": "Yes, marinate or glaze tofu with a mixture containing cannabis oil. Press and bake the tofu first for texture, then toss in a cannabis-infused sauce. Tofu absorbs flavors and oils well, making it an excellent carrier for cannabis infusion."
+          },
+          {
+            "q": "Does plant fiber affect THC absorption?",
+            "a": "High-fiber meals can slow digestion slightly, which may delay onset but extend duration. The effect is modest. The fat content of the meal matters more than the fiber for THC absorption. Ensure adequate fat in your vegan dish for proper cannabinoid delivery."
+          },
+          {
+            "q": "Can I make cannabis-infused vegan cheese?",
+            "a": "Yes, cashew-based or coconut-based vegan cheeses are excellent vehicles for cannabis oil. Blend soaked cashews with cannabis coconut oil, nutritional yeast, lemon juice, and garlic. The fat content integrates perfectly and the strong savory flavor masks cannabis notes."
+          },
+          {
+            "q": "How do I infuse a vegan stir-fry with cannabis?",
+            "a": "Cook your stir-fry over high heat with regular oil, then reduce to low heat and drizzle cannabis sesame oil or cannabis coconut oil over the finished dish. Toss to coat. This preserves THC while giving you the high-heat sear that stir-fries need."
+          }
+        ]
+      }
+    },
+    "Mocktails": {
+      "citrus": {
+        "intro": "This cannabis %{name} recipe blends %{base_fat} with bright citrus flavors for a refreshing, non-alcoholic infused drink that is perfect for social occasions. Citrus mocktails are among the best at masking cannabis flavor thanks to their bold acidity and aromatic oils. Enjoy a sophisticated cannabis beverage without the alcohol.",
+        "dosing_tips": [
+          "Use cannabis-infused simple syrup or tincture for the cleanest citrus mocktail. Fat-based infusions can create an oily film in acidic drinks.",
+          "Aim for 5-10 mg per drink and serve in standard cocktail portions so guests know one drink equals one dose.",
+          "Citrus acids can speed up stomach emptying, potentially leading to slightly faster onset. Start low and wait at least 60 minutes.",
+          "Stir or shake vigorously to integrate the cannabis element fully. Separation is more visible in clear citrus drinks."
+        ],
+        "common_mistakes": [
+          "Using fat-based cannabis infusions in clear citrus drinks creates visible oily droplets. Tinctures or water-soluble extracts work much better.",
+          "Adding too much citrus juice masks the cannabis but also dilutes the dose. Measure both carefully.",
+          "Making a large batch punch without calculating per-cup dosage leads to dangerous inconsistency.",
+          "Garnishing with large amounts of fresh herbs without informing guests. Some herbs interact with cannabinoids and alter the experience."
+        ],
+        "storage": [
+          "Cannabis citrus mocktails are best served fresh. The citrus oxidizes and becomes bitter within hours.",
+          "Cannabis simple syrup stores refrigerated for 2 weeks and can be added to fresh juice on demand.",
+          "Pre-make the non-cannabis components and add the infusion right before serving for the freshest flavor."
+        ],
+        "variations": [
+          "Make a cannabis citrus shrub with vinegar, sugar, and cannabis tincture for a complex, tangy mixer base.",
+          "Blend cannabis-infused coconut cream with lime juice and agave for a creamy citrus mocktail.",
+          "Add sparkling water to your cannabis citrus juice for a refreshing spritzer with controlled dosing."
+        ],
+        "faq": [
+          {
+            "q": "Does citrus acid affect THC potency?",
+            "a": "Citric acid does not degrade THC at the concentrations found in drinks. However, acid can accelerate gastric emptying, which may speed up absorption slightly. Your dose remains the same; it may just onset a bit faster."
+          },
+          {
+            "q": "What is the best cannabis product for citrus mocktails?",
+            "a": "Water-soluble THC emulsions are ideal because they mix completely without oily separation. Cannabis tincture is the next best option. If you only have fat-based infusions, blend with an emulsifier like lecithin or use a creamy base to hide the oil."
+          },
+          {
+            "q": "Can I make cannabis lemonade for a party?",
+            "a": "Yes, but dose carefully. Make a large batch of plain lemonade and provide cannabis simple syrup on the side so each person can add their own dose. This is safer than pre-dosing a communal pitcher where servings are inconsistent."
+          },
+          {
+            "q": "Why does my cannabis citrus drink taste bitter?",
+            "a": "Bitterness can come from the cannabis infusion itself or from over-extracting citrus pith. Use well-strained, quality cannabis extract and juice your citrus carefully, avoiding the white pith. A touch more sweetener often balances any remaining bitterness."
+          },
+          {
+            "q": "Are cannabis mocktails safer than cannabis cocktails?",
+            "a": "Yes, because you avoid the synergistic effect of combining alcohol and cannabis, which amplifies both substances. Mocktails let you enjoy the cannabis experience with a clear baseline. They are the recommended choice for most consumers."
+          }
+        ]
+      },
+      "fruity": {
+        "intro": "This cannabis %{name} recipe combines %{base_fat} with vibrant fruit flavors for a fun, non-alcoholic infused beverage bursting with natural sweetness. Fruity cannabis mocktails are crowd-pleasers that disguise the herbal taste of cannabis behind layers of berry, tropical, and stone fruit flavors. They are a festive, approachable way to enjoy edibles.",
+        "dosing_tips": [
+          "Blend fruit thoroughly with your cannabis infusion to create a smooth emulsion where the dose is evenly distributed.",
+          "Thick, smoothie-style fruity drinks hold fat-based cannabis infusions better than thin juices. Add banana or mango for body.",
+          "Keep doses at 5-10 mg per serving. Fruity drinks are easy to overconsume because they taste like dessert.",
+          "If making a batch, serve in pre-measured portions rather than from a communal pitcher."
+        ],
+        "common_mistakes": [
+          "Blending fruit with cannabis fat and then straining removes some of the dose along with the pulp. Blend well and serve unstrained.",
+          "Assuming fruit sugar offsets the cannabis. It improves the taste but does not change the psychoactive dose at all.",
+          "Making drinks too thick or too thin. Too thick slows drinking and delays onset. Too thin causes fat separation.",
+          "Not accounting for the natural sugars in fruit when calculating total recipe nutrition."
+        ],
+        "storage": [
+          "Fresh fruit cannabis drinks oxidize quickly. Consume within a few hours for the best flavor and appearance.",
+          "Freeze cannabis fruit blends into popsicle molds for a pre-portioned frozen treat that keeps for 2 months.",
+          "Cannabis fruit puree bases can be refrigerated for 2 days before adding to fresh drinks."
+        ],
+        "variations": [
+          "Layer cannabis-infused coconut cream over a non-infused fruit juice for a beautiful gradient drink with the dose on top.",
+          "Make a cannabis acai bowl by blending frozen acai with banana, cannabis coconut oil, and a splash of plant milk.",
+          "Muddle fresh berries with cannabis simple syrup and top with sparkling water for an elegant spritzer."
+        ],
+        "faq": [
+          {
+            "q": "Which fruits best mask cannabis flavor?",
+            "a": "Mango, pineapple, passion fruit, and strong berries like blackberry and raspberry are the most effective at covering the herbal cannabis taste. Their bold, sweet-tart flavors dominate the palate. Mango specifically contains myrcene, a terpene also found in cannabis."
+          },
+          {
+            "q": "Does mango really enhance the cannabis high?",
+            "a": "Mangoes contain the terpene myrcene, which some claim enhances THC effects by helping it cross the blood-brain barrier more efficiently. Scientific evidence is limited, but many consumers report a noticeable effect. At minimum, mango is delicious and masks cannabis flavor well."
+          },
+          {
+            "q": "Can I use frozen fruit for cannabis drinks?",
+            "a": "Absolutely. Frozen fruit blends well, creates a cold drink without diluting ice, and is available year-round. It also helps emulsify cannabis fat when blended at high speed. Frozen tropical fruits are especially good for cannabis mocktails."
+          },
+          {
+            "q": "How do I make a cannabis fruit punch for a group?",
+            "a": "The safest approach is to make non-infused punch and offer cannabis simple syrup or tincture drops on the side. Each person adds their own dose. Clearly label the cannabis addition and provide measuring tools. Never pre-dose a communal punch bowl."
+          },
+          {
+            "q": "Are cannabis smoothies a good way to consume edibles?",
+            "a": "Smoothies are one of the best edible formats. The blending creates a thorough emulsion, fruits mask the taste, and the liquid format means relatively fast onset. Add healthy fats like avocado or nut butter alongside cannabis oil for a nutritious, well-dosed drink."
+          }
+        ]
+      },
+      "herbal_tea": {
+        "intro": "This cannabis %{name} recipe steeps soothing herbs alongside %{base_fat} for a warm, calming infused tea that promotes relaxation and wellness. Herbal cannabis teas are one of the oldest and most traditional forms of cannabis consumption, used for centuries across many cultures. The gentle ritual of tea preparation adds to the mindful, therapeutic experience.",
+        "dosing_tips": [
+          "Cannabis is not water-soluble, so you must add a fat source like %{base_fat}, coconut oil, or whole milk to extract and carry the THC into your tea.",
+          "Steep at 160-180 F (70-82 C) for 15-30 minutes to extract cannabinoids without scalding the milk or degrading delicate herbs.",
+          "One teaspoon of cannabis fat per cup is a standard starting dose. Calculate the mg based on your infusion strength.",
+          "Herbal cannabis teas can have a long, gentle onset of 45-90 minutes, especially when sipped slowly over time."
+        ],
+        "common_mistakes": [
+          "Steeping cannabis flower in plain water without fat produces a tea with almost no psychoactive effect. You need fat to extract THC.",
+          "Using boiling water scorches delicate herbs and can cause dairy or fat to separate. Let water cool slightly before steeping.",
+          "Making the tea too strong with bitter herbs that clash with the cannabis flavor instead of complementing it.",
+          "Not straining properly, which leaves plant material that gives a gritty, unpleasant texture."
+        ],
+        "storage": [
+          "Herbal cannabis tea is best consumed fresh. Reheating changes the herbal flavor profile and may cause fat separation.",
+          "Make a concentrated cannabis tea base with fat and strain, then store refrigerated for up to 5 days to add to fresh tea.",
+          "Dry herbal tea blends (without the cannabis fat) can be stored in airtight tins for months. Add cannabis fat fresh each time."
+        ],
+        "variations": [
+          "Make a cannabis chai by simmering spices, black tea, cannabis butter, and milk for a rich, aromatic infusion.",
+          "Blend cannabis coconut oil into chamomile tea with honey for a deeply relaxing bedtime drink.",
+          "Create a cannabis golden milk with turmeric, ginger, black pepper, and cannabis coconut oil in warm plant milk."
+        ],
+        "faq": [
+          {
+            "q": "Can I just put cannabis in hot water like regular tea?",
+            "a": "Plain water will not extract THC effectively because cannabinoids are fat-soluble, not water-soluble. You must add a fat source like butter, coconut oil, or whole milk to the water. Alternatively, use a cannabis tincture added to any brewed tea."
+          },
+          {
+            "q": "What herbs pair well with cannabis in tea?",
+            "a": "Chamomile, lavender, peppermint, lemon balm, and ginger all complement cannabis beautifully. Many of these herbs share terpenes with cannabis, creating a harmonious flavor and potentially synergistic relaxation effects. Chai spices like cardamom and cinnamon also work wonderfully."
+          },
+          {
+            "q": "Is cannabis tea less potent than other edibles?",
+            "a": "Cannabis tea can be just as potent if made properly with adequate fat. The common misconception comes from people steeping flower in plain water, which extracts very little THC. With proper fat content, a cannabis tea delivers the same experience as any other edible."
+          },
+          {
+            "q": "How long does it take for cannabis tea to work?",
+            "a": "Expect 30-90 minutes for full effect, similar to other edibles. Warm liquids may be absorbed slightly faster than solid foods. Sipping slowly over 20-30 minutes spreads out the absorption, which can produce a gentler, more gradual onset."
+          },
+          {
+            "q": "Can I use cannabis tea for sleep?",
+            "a": "Cannabis tea, especially with relaxing herbs like chamomile, valerian, or lavender, is an excellent bedtime ritual. THC combined with these calming herbs can promote drowsiness and relaxation. Use an indica strain if available, and keep the dose moderate to avoid next-morning grogginess."
+          }
+        ]
+      },
+      "hot_drinks": {
+        "intro": "This cannabis %{name} recipe blends %{base_fat} into a warm, soothing beverage perfect for relaxation and unwinding. Hot cannabis drinks provide a comforting way to consume edibles, especially during colder months. The warmth helps the infused fat dissolve and distribute evenly for consistent dosing in every sip.",
+        "dosing_tips": [
+          "Start with 5-10 mg per cup and remember that liquid edibles can onset faster than solid foods, sometimes within 20-45 minutes.",
+          "Use a milk frother or blender to fully emulsify the %{base_fat} into your hot drink so it does not float on top as an oily layer.",
+          "If sharing a pot, stir thoroughly before each pour because the fat tends to rise to the surface as the drink sits.",
+          "Sipping slowly over 30 minutes gives you better control over your experience than drinking the entire cup quickly."
+        ],
+        "common_mistakes": [
+          "Adding %{base_fat} to boiling liquid can cause it to scald and develop a bitter taste. Let the liquid cool to about 160-180 F (70-82 C) before stirring in the fat.",
+          "Skipping emulsification leaves an oily film on top that tastes unpleasant and means the first sips have most of the THC while the last sips have almost none.",
+          "Making drinks too strong because they taste mild when warm. The effects sneak up on you. Always calculate and measure the dose precisely.",
+          "Not accounting for evaporation when simmering. If your drink reduces, the concentration per ounce increases."
+        ],
+        "storage": [
+          "Cannabis hot drinks are best consumed fresh. If you must store, refrigerate in a sealed jar for up to 3 days and reheat gently.",
+          "Prepare a concentrated cannabis milk or cream base and store it refrigerated for up to a week, then add it to fresh drinks as needed.",
+          "Never leave cannabis drinks unattended or unlabeled where others could mistake them for regular beverages."
+        ],
+        "variations": [
+          "Add a dash of cinnamon, nutmeg, or cardamom to complement the herbal cannabis flavor and add warming spice notes.",
+          "Use cannabis-infused honey instead of fat for a cleaner drink with less oily texture, especially good in tea.",
+          "Blend in MCT oil-based cannabis extract for a smoother mouthfeel that emulsifies more easily than butter."
+        ],
+        "faq": [
+          {
+            "q": "Will the heat from a hot drink destroy the THC?",
+            "a": "Normal drinking temperatures of 140-180 F (60-82 C) will not degrade THC. THC begins degrading around 315 F (157 C). As long as you are not boiling your drink for an extended period with the cannabis fat in it, potency is preserved."
+          },
+          {
+            "q": "Why does my cannabis latte taste oily?",
+            "a": "The fat has not been properly emulsified. Use a milk frother, immersion blender, or regular blender to combine the cannabis fat with your milk or drink base. A pinch of lecithin powder helps the fat integrate smoothly."
+          },
+          {
+            "q": "Can I add cannabis tincture to any hot drink?",
+            "a": "Yes, alcohol-based tinctures blend easily into hot drinks and the alcohol evaporates quickly from the heat. This is actually one of the simplest ways to make a cannabis hot beverage since there is no fat emulsification needed."
+          },
+          {
+            "q": "How fast do cannabis hot drinks take effect?",
+            "a": "Hot cannabis drinks can take effect in as little as 20-45 minutes, faster than most solid edibles. The warm liquid and dissolved fat are absorbed more quickly in the digestive system. Start with a low dose until you know how they affect you."
+          },
+          {
+            "q": "Can I make a big batch and reheat portions later?",
+            "a": "You can store cannabis-infused milk or cream base for up to a week refrigerated and add it to freshly made drinks. Full prepared drinks do not store as well because teas and coffees degrade in quality. The concentrate approach gives you fresh taste with consistent dosing."
+          }
+        ]
+      },
+      "cold_drinks": {
+        "intro": "This refreshing cannabis %{name} recipe incorporates %{base_fat} into a chilled beverage that is perfect for warm days and social gatherings. Cold cannabis drinks are a discreet, enjoyable way to consume edibles with precise dose control. Blending ensures the infused fat is evenly distributed for consistent effects in every glass.",
+        "dosing_tips": [
+          "Blend your %{base_fat} into the drink base with an immersion blender or countertop blender for smooth, even distribution.",
+          "Cold drinks are easy to gulp down quickly. Measure each serving carefully at 5-10 mg and pace yourself.",
+          "If making a punch bowl or pitcher, stir before every pour since fat separates more noticeably in cold liquids.",
+          "Consider using water-soluble THC products for cold drinks as they mix more naturally than fat-based infusions."
+        ],
+        "common_mistakes": [
+          "Fat-based cannabis infusions clump and separate in cold liquids. You must blend vigorously or use an emulsifier to prevent an oily layer.",
+          "Making an entire pitcher without calculating per-glass dosage leads to inconsistent and potentially dangerous servings.",
+          "Adding ice dilutes the drink over time, which changes the concentration per sip. Account for this or serve over frozen fruit instead.",
+          "Assuming cold drinks hit slower than hot ones. Blended drinks digest quickly and can onset in 20-40 minutes."
+        ],
+        "storage": [
+          "Store cannabis cold drinks in sealed glass jars in the refrigerator for up to 2 days. Shake well before serving as separation is inevitable.",
+          "Freeze cannabis drinks into ice cube trays for perfectly dosed additions to future beverages.",
+          "Always label your cannabis drinks distinctly and keep them separate from regular beverages in the fridge."
+        ],
+        "variations": [
+          "Use cannabis-infused simple syrup instead of fat for a smoother texture that dissolves perfectly in cold drinks.",
+          "Blend frozen fruit with cannabis coconut milk for a smoothie-style drink that masks herbal flavors naturally.",
+          "Add a scoop of cannabis-infused coconut cream to lemonade for a creamy Arnold Palmer-style infused beverage."
+        ],
+        "faq": [
+          {
+            "q": "How do I prevent the oily texture in cold cannabis drinks?",
+            "a": "Use a high-speed blender to create an emulsion, and add a small amount of lecithin. Alternatively, use water-soluble THC products designed for beverages. Cannabis-infused simple syrups and tinctures also mix more smoothly than fats in cold liquids."
+          },
+          {
+            "q": "Can I use cannabis tincture in cold drinks?",
+            "a": "Absolutely. Tinctures are one of the best options for cold drinks because they mix easily without the oily separation issues of fats. Measure carefully with a dropper for precise dosing. Glycerin-based tinctures add subtle sweetness."
+          },
+          {
+            "q": "Do cold cannabis drinks work as fast as hot ones?",
+            "a": "Blended cold drinks can actually onset quite quickly, sometimes in 20-40 minutes, because the blending breaks everything into easily digestible particles. Thicker smoothie-style drinks may take a bit longer than thin juices."
+          },
+          {
+            "q": "How do I make cannabis lemonade without an oily taste?",
+            "a": "The best approach is cannabis-infused simple syrup or a water-soluble THC product. If using %{base_fat}, blend it with a small amount of coconut cream first to create an emulsion, then stir that into the lemonade. The cream masks the oily taste."
+          },
+          {
+            "q": "Can I carbonate a cannabis drink?",
+            "a": "Yes, but add carbonation as the last step and be gentle. Fat-based infusions can cause excessive foaming when carbonated. Water-soluble THC extracts work much better for carbonated drinks. Never shake a carbonated cannabis drink vigorously."
+          }
+        ]
+      },
+      "alcoholic": {
+        "intro": "This cannabis %{name} recipe pairs %{base_fat} with spirits or cocktail ingredients for a sophisticated adult beverage with both alcohol and THC effects. Combining cannabis and alcohol requires extra caution since both are psychoactive and can intensify each other's effects. Master the balance of flavor and dosing with our detailed guide.",
+        "dosing_tips": [
+          "Significantly reduce both your alcohol and THC doses when combining them. Aim for no more than 5 mg THC and one standard drink equivalent.",
+          "Cannabis and alcohol are synergistic. The combined effect is stronger than either one alone, so err heavily on the side of caution.",
+          "Use cannabis tincture for alcohol-based cocktails as it mixes more seamlessly than fat-based infusions.",
+          "Serve these drinks slowly and provide non-infused alternatives so guests can choose their comfort level."
+        ],
+        "common_mistakes": [
+          "Treating a cannabis cocktail like a regular drink and having multiple rounds. One cannabis cocktail should be the limit for most people due to the combined effects.",
+          "Using full-strength alcohol with a full-strength cannabis dose creates a dangerously intense experience that can cause severe nausea and anxiety.",
+          "Fat-based cannabis infusions separate in clear spirits and look unappetizing. Use tinctures or infused simple syrups for cocktails.",
+          "Not warning guests that drinks contain cannabis. This is both unsafe and in many places illegal. Always clearly label and communicate."
+        ],
+        "storage": [
+          "Cannabis-infused spirits and tinctures stored in a dark glass bottle will keep for several months at room temperature.",
+          "Pre-mixed cannabis cocktails should be consumed the same day as mixed. Refrigerate if holding for a few hours.",
+          "Cannabis-infused simple syrups keep refrigerated for up to 2 weeks and are the most versatile cocktail addition."
+        ],
+        "variations": [
+          "Create a cannabis-infused simple syrup using decarbed flower steeped in hot sugar water, then strain for a clean cocktail ingredient.",
+          "Make a non-alcoholic version using the same cannabis infusion with mocktail recipes for guests who want THC without alcohol.",
+          "Infuse bitters with cannabis for a micro-dosed addition that adds just a few milligrams per dash."
+        ],
+        "faq": [
+          {
+            "q": "Is it safe to combine cannabis and alcohol?",
+            "a": "It can be done safely at low doses but requires caution. Alcohol increases THC absorption, making the cannabis hit harder and faster. Keep both doses very low, start with 2.5-5 mg THC and one standard drink equivalent, and wait to see how the combination affects you."
+          },
+          {
+            "q": "Can I infuse spirits directly with cannabis?",
+            "a": "Yes, high-proof alcohol is an excellent solvent for THC. Soak decarboxylated cannabis in everclear or high-proof vodka for several weeks, then strain. This creates a potent tincture that mixes perfectly into cocktails. Use very small amounts as it is concentrated."
+          },
+          {
+            "q": "Why does the combination make me feel so much more intoxicated?",
+            "a": "Alcohol increases blood-brain barrier permeability and enhances THC absorption in the gut. This means you absorb more THC faster and it reaches your brain more efficiently. This is why much lower doses of both substances are recommended when combining."
+          },
+          {
+            "q": "What cocktails work best with cannabis?",
+            "a": "Cocktails with bold, complex flavors like Bloody Marys, margaritas, and tiki drinks work well because they mask the herbal cannabis taste. Creamy cocktails like White Russians also work if using fat-based infusions. Avoid subtle drinks where the cannabis flavor would dominate."
+          },
+          {
+            "q": "How long until a cannabis cocktail takes effect?",
+            "a": "Faster than either substance alone. The alcohol speeds THC absorption and you may feel combined effects within 15-30 minutes. The cannabis portion will continue to build for up to 90 minutes while the alcohol effect follows its normal timeline. Go very slow."
+          }
+        ]
+      }
+    },
+    "International": {
+      "brazilian_sweet": {
+        "intro": "This cannabis %{name} recipe infuses beloved Brazilian sweet traditions with %{base_fat} for a tropical, potent treat that celebrates Brazil's rich culinary heritage. Brazilian sweets like brigadeiros, beijinhos, and coconut desserts are naturally high in fat, making them ideal vehicles for cannabis infusion. Experience a taste of Brazil with a carefully dosed twist.",
+        "dosing_tips": [
+          "Brazilian sweets like brigadeiros are rolled into individual balls, making each one a precisely portioned dose. Calculate mg per ball.",
+          "Condensed milk-based sweets integrate cannabis butter or coconut oil smoothly. Stir continuously while cooking for even distribution.",
+          "Start with 5-10 mg per piece. Brazilian sweets are rich and people often eat several at parties, so keep individual doses low.",
+          "The high sugar and fat content in Brazilian sweets can delay onset to 60-90 minutes. Be patient and do not overindulge."
+        ],
+        "common_mistakes": [
+          "Cooking condensed milk with cannabis fat at too high a heat. Brazilian sweets require low, slow cooking. Keep the heat gentle to preserve THC.",
+          "Not stirring constantly when making brigadeiros or cajuzinhos with cannabis butter. The mixture can scorch and the fat can separate.",
+          "Making too many pieces per batch to reduce the dose per piece, resulting in tiny sweets that do not look or taste right.",
+          "Using cannabis coconut oil in recipes where butter flavor is essential, like quindim. Match the fat type to the recipe."
+        ],
+        "storage": [
+          "Cannabis brigadeiros and similar rolled sweets keep refrigerated for up to a week in an airtight container.",
+          "Many Brazilian cannabis sweets freeze well for 2-3 months. Thaw in the fridge before serving.",
+          "Store in paper candy cups and label clearly with dose per piece, especially for parties and gatherings."
+        ],
+        "variations": [
+          "Make cannabis beijinhos by substituting coconut for chocolate in the brigadeiro recipe and using cannabis coconut oil.",
+          "Infuse the coconut filling of cannabis cocada with cannabis butter for a chewy, tropical treat.",
+          "Create cannabis quindim using cannabis butter in this classic Brazilian egg and coconut tart."
+        ],
+        "faq": [
+          {
+            "q": "Can I make cannabis brigadeiros?",
+            "a": "Absolutely, brigadeiros are one of the best Brazilian sweets for cannabis infusion. Replace part of the regular butter with cannabis butter and cook the condensed milk mixture over low heat, stirring constantly. Roll into balls and coat in sprinkles. Each ball is a perfect single dose."
+          },
+          {
+            "q": "What Brazilian sweets work best with cannabis?",
+            "a": "Brigadeiros, beijinhos, and cocada are top choices because they are fat-rich, individually portioned, and have strong flavors that mask cannabis. Pudim (flan) also works well with cannabis cream. Avoid delicate sweets where the cannabis flavor would dominate."
+          },
+          {
+            "q": "Does the condensed milk affect THC potency?",
+            "a": "No, condensed milk does not degrade THC. The slow cooking at medium-low heat to reduce the mixture is well within the safe range. Just avoid boiling vigorously and add the cannabis fat early so it fully integrates into the condensed milk."
+          },
+          {
+            "q": "Can I use cannabis coconut oil in Brazilian coconut desserts?",
+            "a": "Yes, cannabis coconut oil is perfect for Brazilian coconut desserts like cocada, beijinhos, and coconut flan. The coconut flavor is already integral to these recipes, so the infused oil blends right in. It is one of the most natural cannabis pairings in Brazilian cuisine."
+          },
+          {
+            "q": "How do I serve cannabis Brazilian sweets at a festa?",
+            "a": "Present them on a separate, clearly labeled plate or tray away from regular sweets. Use different colored candy cups or a prominent sign indicating they contain cannabis and the dose per piece. Only serve to informed, consenting adults and have plenty of non-infused sweets available."
+          }
+        ]
+      },
+      "brazilian_savory": {
+        "intro": "This cannabis %{name} recipe brings the bold, savory flavors of Brazilian cuisine together with %{base_fat} for a hearty, infused meal that is deeply satisfying. Brazilian savory dishes like pao de queijo, coxinhas, and farofa use generous amounts of fat, making them perfect candidates for cannabis infusion. Enjoy Brazilian comfort food with a measured, consistent dose.",
+        "dosing_tips": [
+          "Brazilian savory snacks are often eaten in multiples. If making coxinhas or pao de queijo, keep each piece at 2.5-5 mg so eating 2-3 stays within a safe range.",
+          "Mix %{base_fat} into the dough or filling thoroughly. Brazilian cheese bread dough, for example, incorporates oil homogeneously.",
+          "Calculate total THC in the batch and divide by the number of pieces. Weigh dough portions for consistency.",
+          "These starchy, fatty dishes can delay onset to 60-120 minutes. Eat a controlled portion and wait before having more."
+        ],
+        "common_mistakes": [
+          "Frying cannabis-infused dough in hot oil wastes the THC as it leaches into the frying oil. Bake instead, or add the cannabis element after frying.",
+          "Adding cannabis fat to farofa over high heat on the stovetop. Cook the farofa first, then stir in cannabis butter off the heat.",
+          "Making pao de queijo dough too wet by adding extra cannabis oil without reducing another liquid. Keep the dough ratio balanced.",
+          "Not mixing the cannabis fat into the filling or dough thoroughly, resulting in hot spots of potency."
+        ],
+        "storage": [
+          "Cannabis pao de queijo and similar snacks keep refrigerated for 3-4 days. Reheat in the oven at 325 F (165 C).",
+          "Unbaked cannabis pao de queijo dough balls freeze beautifully for up to 2 months. Bake from frozen, adding a few extra minutes.",
+          "Cannabis farofa stores in an airtight container at room temperature for up to a week."
+        ],
+        "variations": [
+          "Make cannabis pao de queijo by replacing the regular oil in the dough with cannabis-infused oil for cheesy, gluten-free bites.",
+          "Stir cannabis butter into farofa with bacon and egg for a rich, infused Brazilian side dish.",
+          "Fill cannabis-infused empanada dough with seasoned meat or cheese for a savory, portable edible."
+        ],
+        "faq": [
+          {
+            "q": "Can I make cannabis pao de queijo?",
+            "a": "Yes, pao de queijo is excellent for cannabis infusion. The recipe traditionally uses oil, which you can replace with cannabis-infused oil. The tapioca starch dough integrates the oil completely, and the strong cheese flavor masks any herbal notes. Bake at moderate heat to preserve potency."
+          },
+          {
+            "q": "Is it possible to make cannabis coxinhas?",
+            "a": "Yes, but avoid deep frying in cannabis oil. Instead, make the coxinha dough or filling with cannabis butter, shape and bread them, then bake at %{cook_temp}. Baking instead of frying preserves the THC and is actually a lighter, healthier preparation."
+          },
+          {
+            "q": "Can I add cannabis to feijoada?",
+            "a": "Stir cannabis oil into your individual serving of feijoada rather than the whole pot. The rich, fatty stew of beans and pork is an ideal vehicle because the bold flavors and high fat content mask and absorb cannabis perfectly."
+          },
+          {
+            "q": "What is the best fat for Brazilian cannabis recipes?",
+            "a": "Cannabis butter is the most versatile for Brazilian savory cooking. Cannabis-infused olive oil works for drizzling over finished dishes. Cannabis coconut oil is used in some northeastern Brazilian recipes. Match the cannabis fat to what the original recipe calls for."
+          },
+          {
+            "q": "How do I dose cannabis farofa?",
+            "a": "Mix a calculated amount of cannabis butter into the finished farofa and serve by the spoonful. One to two tablespoons of farofa is a typical side portion. Calculate the mg per tablespoon so you can serve precise doses as a side dish."
+          }
+        ]
+      }
+    }
+  }
+}

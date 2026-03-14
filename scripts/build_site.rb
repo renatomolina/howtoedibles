@@ -26,6 +26,7 @@ RECIPES    = data["recipes"]
 
 LANGS = %w[pt es de zh]  # non-English only — English is hand-maintained
 ALL_LANGS = %w[en pt es de zh]  # for hreflang tags
+RECIPE_LANGS = ALL_LANGS  # recipes now generated for all languages including English
 
 I18N = {}
 ALL_LANGS.each do |lang|
@@ -60,8 +61,27 @@ LANGS.each do |lang|
   end
 end
 
-puts "Building site from #{RECIPES.count} recipes across #{CATEGORIES.count} categories in #{LANGS.count} languages (pt, es, de)..."
-puts "English files are NOT touched — they are hand-maintained."
+# Load per-recipe enrichment data
+ENRICHMENT_FILE = File.join(ROOT_DIR, "data", "recipe_enrichment.json")
+ENRICHMENT = File.exist?(ENRICHMENT_FILE) ? JSON.parse(File.read(ENRICHMENT_FILE)) : {}
+
+# Load recipe section templates per language
+RECIPE_SECTIONS = {}
+ALL_LANGS.each do |lang|
+  path = File.join(I18N_DIR, "recipe_sections_#{lang}.json")
+  if File.exist?(path)
+    RECIPE_SECTIONS[lang] = JSON.parse(File.read(path))
+  else
+    warn "WARNING: #{path} not found, recipe sections will use English fallback for '#{lang}'"
+    RECIPE_SECTIONS[lang] = {}
+  end
+end
+
+# Load per-recipe unique sentence translations
+RECIPE_I18N["en"] = {} # English recipes use data directly from recipes.json
+
+puts "Building site from #{RECIPES.count} recipes across #{CATEGORIES.count} categories in #{ALL_LANGS.count} languages..."
+puts "Recipe pages generated for ALL languages (en, pt, es, de, zh)."
 
 # ─────────────────────────────────────────────
 # Translation Helpers
@@ -111,7 +131,11 @@ end
 # ─────────────────────────────────────────────
 
 def output_path(lang, *segments)
-  File.join(ROOT_DIR, lang, *segments)
+  if lang == "en"
+    File.join(ROOT_DIR, *segments)
+  else
+    File.join(ROOT_DIR, lang, *segments)
+  end
 end
 
 def write_file(path, content)
@@ -906,6 +930,212 @@ def build_calculator_page(lang)
 end
 
 # ─────────────────────────────────────────────
+# Recipe enrichment helpers
+# ─────────────────────────────────────────────
+
+def interpolate(template, vars)
+  return template unless template.is_a?(String)
+  result = template.dup
+  vars.each { |k, v| result.gsub!("%{#{k}}", v.to_s) }
+  result
+end
+
+# Category mapping for merged template categories
+TEMPLATE_CATEGORY_MAP = { "Drinks" => "Mocktails" }
+
+def get_recipe_section_template(lang, category, sub_category)
+  cat = TEMPLATE_CATEGORY_MAP[category] || category
+  sections = RECIPE_SECTIONS.dig(lang, "templates", cat, sub_category)
+  sections || RECIPE_SECTIONS.dig("en", "templates", cat, sub_category) || {}
+end
+
+def get_section_label(lang, key)
+  RECIPE_SECTIONS.dig(lang, "section_labels", key) ||
+    RECIPE_SECTIONS.dig("en", "section_labels", key) || key
+end
+
+def build_recipe_intro(recipe, lang)
+  slug = recipe["slug"]
+  enrich = ENRICHMENT[slug] || {}
+  name = recipe_t(lang, slug, "name") || recipe["name"]
+  category = recipe["category_name"]
+  sub_cat = enrich["sub_category"] || "general"
+  base_fat = enrich["base_fat"] || "cannabutter"
+
+  tmpl = get_recipe_section_template(lang, category, sub_cat)
+  vars = { "name" => name.downcase, "base_fat" => base_fat, "cook_temp" => enrich["cook_temp"] || "350°F / 180°C", "category" => category }
+
+  intro_tmpl = tmpl["intro"] || ""
+  intro_text = interpolate(intro_tmpl, vars)
+
+  # Append per-recipe unique intro sentence
+  unique = recipe_t(lang, slug, "intro_unique") || enrich["intro_unique"] || ""
+  intro_text = "#{intro_text} #{unique}".strip
+  return "" if intro_text.empty?
+
+  <<~HTML
+    <div class="recipe-intro-section mb-4">
+      <p class="recipe-intro-text">#{intro_text}</p>
+    </div>
+  HTML
+end
+
+def build_recipe_enriched_sections(recipe, lang)
+  slug = recipe["slug"]
+  enrich = ENRICHMENT[slug] || {}
+  name = recipe_t(lang, slug, "name") || recipe["name"]
+  category = recipe["category_name"]
+  sub_cat = enrich["sub_category"] || "general"
+  base_fat = enrich["base_fat"] || "cannabutter"
+  cook_temp = enrich["cook_temp"] || "350°F / 180°C"
+
+  tmpl = get_recipe_section_template(lang, category, sub_cat)
+  vars = { "name" => name, "base_fat" => base_fat, "cook_temp" => cook_temp, "category" => category }
+
+  html = ""
+
+  # Dosing Tips
+  dosing_label = interpolate(get_section_label(lang, "dosing_tips"), vars)
+  tips = (tmpl["dosing_tips"] || []).map { |tip| interpolate(tip, vars) }
+  unique_dosing = recipe_t(lang, slug, "dosing_unique") || enrich["dosing_unique"]
+  tips << unique_dosing if unique_dosing && !unique_dosing.empty?
+  unless tips.empty?
+    items = tips.map { |tip| "<li>#{tip}</li>" }.join("\n      ")
+    html << <<~HTML
+      <div class="recipe-enriched-section mb-4">
+        <h2 class="recipe-enriched-title"><i class="fa fa-balance-scale" aria-hidden="true"></i> #{h(dosing_label)}</h2>
+        <ul class="recipe-enriched-list">
+          #{items}
+        </ul>
+      </div>
+    HTML
+  end
+
+  # Common Mistakes
+  mistakes_label = interpolate(get_section_label(lang, "common_mistakes"), vars)
+  mistakes = (tmpl["common_mistakes"] || []).map { |m| interpolate(m, vars) }
+  unless mistakes.empty?
+    items = mistakes.map { |m| "<li>#{m}</li>" }.join("\n      ")
+    html << <<~HTML
+      <div class="recipe-enriched-section mb-4">
+        <h2 class="recipe-enriched-title"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> #{h(mistakes_label)}</h2>
+        <ul class="recipe-enriched-list">
+          #{items}
+        </ul>
+      </div>
+    HTML
+  end
+
+  # Storage
+  storage_label = interpolate(get_section_label(lang, "storage"), vars)
+  storage = (tmpl["storage"] || []).map { |s| interpolate(s, vars) }
+  unique_storage = recipe_t(lang, slug, "storage_unique") || enrich["storage_unique"]
+  storage << unique_storage if unique_storage && !unique_storage.empty?
+  unless storage.empty?
+    items = storage.map { |s| "<li>#{s}</li>" }.join("\n      ")
+    html << <<~HTML
+      <div class="recipe-enriched-section mb-4">
+        <h2 class="recipe-enriched-title"><i class="fa fa-box" aria-hidden="true"></i> #{h(storage_label)}</h2>
+        <ul class="recipe-enriched-list">
+          #{items}
+        </ul>
+      </div>
+    HTML
+  end
+
+  # Variations
+  variations_label = interpolate(get_section_label(lang, "variations"), vars)
+  variations = (tmpl["variations"] || []).map { |v| interpolate(v, vars) }
+  unique_variation = recipe_t(lang, slug, "variation_unique") || enrich["variation_unique"]
+  variations << unique_variation if unique_variation && !unique_variation.empty?
+  unless variations.empty?
+    items = variations.map { |v| "<li>#{v}</li>" }.join("\n      ")
+    html << <<~HTML
+      <div class="recipe-enriched-section mb-4">
+        <h2 class="recipe-enriched-title"><i class="fa fa-lightbulb" aria-hidden="true"></i> #{h(variations_label)}</h2>
+        <ul class="recipe-enriched-list">
+          #{items}
+        </ul>
+      </div>
+    HTML
+  end
+
+  html
+end
+
+def build_recipe_faq(recipe, lang)
+  slug = recipe["slug"]
+  enrich = ENRICHMENT[slug] || {}
+  name = recipe_t(lang, slug, "name") || recipe["name"]
+  category = recipe["category_name"]
+  sub_cat = enrich["sub_category"] || "general"
+  base_fat = enrich["base_fat"] || "cannabutter"
+
+  tmpl = get_recipe_section_template(lang, category, sub_cat)
+  vars = { "name" => name, "base_fat" => base_fat, "cook_temp" => enrich["cook_temp"] || "350°F / 180°C", "category" => category }
+
+  faqs = tmpl["faq"] || []
+  return "" if faqs.empty?
+
+  faq_label = interpolate(get_section_label(lang, "faq"), vars)
+
+  items = faqs.each_with_index.map do |faq, i|
+    q = interpolate(faq["q"], vars)
+    a = interpolate(faq["a"], vars)
+    <<~FAQ
+      <div class="recipe-faq-item">
+        <button class="recipe-faq-question" data-target="recipe-faq-#{i}" aria-expanded="false">
+          #{h(q)}
+          <i class="fa fa-chevron-down recipe-faq-chevron" aria-hidden="true"></i>
+        </button>
+        <div class="recipe-faq-answer" id="recipe-faq-#{i}">
+          <p>#{h(a)}</p>
+        </div>
+      </div>
+    FAQ
+  end.join("")
+
+  <<~HTML
+    <div class="recipe-faq-section mb-4">
+      <h2 class="recipe-enriched-title"><i class="fa fa-question-circle" aria-hidden="true"></i> #{h(faq_label)}</h2>
+      <div class="recipe-faq">
+        #{items}
+      </div>
+    </div>
+  HTML
+end
+
+def build_recipe_faq_schema(recipe, lang)
+  slug = recipe["slug"]
+  enrich = ENRICHMENT[slug] || {}
+  name = recipe_t(lang, slug, "name") || recipe["name"]
+  category = recipe["category_name"]
+  sub_cat = enrich["sub_category"] || "general"
+  base_fat = enrich["base_fat"] || "cannabutter"
+
+  tmpl = get_recipe_section_template(lang, category, sub_cat)
+  vars = { "name" => name, "base_fat" => base_fat, "cook_temp" => enrich["cook_temp"] || "350°F / 180°C", "category" => category }
+
+  faqs = tmpl["faq"] || []
+  return nil if faqs.empty?
+
+  {
+    "@context" => "https://schema.org",
+    "@type" => "FAQPage",
+    "mainEntity" => faqs.map do |faq|
+      {
+        "@type" => "Question",
+        "name" => interpolate(faq["q"], vars),
+        "acceptedAnswer" => {
+          "@type" => "Answer",
+          "text" => interpolate(faq["a"], vars)
+        }
+      }
+    end
+  }
+end
+
+# ─────────────────────────────────────────────
 # Recipe pages
 # ─────────────────────────────────────────────
 
@@ -923,8 +1153,8 @@ def build_recipe_page(recipe, lang)
   directions_label = t(lang, "recipe_page", "directions")
 
   # Recipe defaults
-  qty = recipe["quantity"] || 3.5
-  por = recipe["portion"] || 12
+  qty = recipe["suggested_quantity"] || recipe["quantity"] || 3.5
+  por = recipe["suggested_portion"] || recipe["portion"] || 12
   pot = recipe["potency"] || 14
 
   # Ingredients & Directions — use translations if available, otherwise English HTML
@@ -950,21 +1180,41 @@ def build_recipe_page(recipe, lang)
     steps_html = recipe["instructions"] || ""
   end
 
-  # Structured data
-  structured = JSON.generate([
-    {
-      "@context" => "https://schema.org", "@type" => "Recipe",
-      "name" => name, "description" => desc,
-      "image" => "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg",
-      "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
-      "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
-      "datePublished" => "2024-01-01", "dateModified" => "2026-03-04",
-      "recipeCategory" => cat,
-      "recipeYield" => "#{por} servings",
-      "recipeIngredient" => translated_ings.is_a?(Array) ? translated_ings : extract_list_items(recipe["ingredients"]),
-      "recipeInstructions" => (translated_ins.is_a?(Array) ? translated_ins : extract_list_items(recipe["instructions"])).each_with_index.map { |s, i| { "@type" => "HowToStep", "position" => i + 1, "text" => s } },
-      "url" => canonical
-    },
+  # Enrichment data for this recipe
+  enrich = ENRICHMENT[slug] || {}
+
+  # Structured data — enriched Recipe schema
+  recipe_schema = {
+    "@context" => "https://schema.org", "@type" => "Recipe",
+    "name" => name, "description" => desc,
+    "image" => "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg",
+    "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
+    "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
+    "datePublished" => "2024-01-01", "dateModified" => "2026-03-13",
+    "recipeCategory" => cat,
+    "recipeYield" => "#{por} servings",
+    "recipeIngredient" => translated_ings.is_a?(Array) ? translated_ings : extract_list_items(recipe["ingredients"]),
+    "recipeInstructions" => (translated_ins.is_a?(Array) ? translated_ins : extract_list_items(recipe["instructions"])).each_with_index.map { |s, i| { "@type" => "HowToStep", "position" => i + 1, "text" => s } },
+    "url" => canonical
+  }
+
+  # Add enrichment fields to Recipe schema
+  recipe_schema["prepTime"] = enrich["prepTime"] if enrich["prepTime"]
+  recipe_schema["cookTime"] = enrich["cookTime"] if enrich["cookTime"]
+  recipe_schema["totalTime"] = enrich["totalTime"] if enrich["totalTime"]
+  recipe_schema["keywords"] = enrich["keywords"].join(", ") if enrich["keywords"]
+  if enrich["nutrition"]
+    cal = enrich["nutrition"]["calories"].to_s
+    cal = "#{cal} calories" unless cal =~ /cal/i
+    recipe_schema["nutrition"] = {
+      "@type" => "NutritionInformation",
+      "calories" => cal
+    }
+    recipe_schema["nutrition"]["fatContent"] = enrich["nutrition"]["fatContent"] if enrich["nutrition"]["fatContent"]
+  end
+
+  sd_array = [
+    recipe_schema,
     {
       "@context" => "https://schema.org", "@type" => "BreadcrumbList",
       "itemListElement" => [
@@ -973,7 +1223,13 @@ def build_recipe_page(recipe, lang)
         { "@type" => "ListItem", "position" => 3, "name" => name }
       ]
     }
-  ])
+  ]
+
+  # Add FAQPage schema
+  faq_schema = build_recipe_faq_schema(recipe, lang)
+  sd_array << faq_schema if faq_schema
+
+  structured = JSON.generate(sd_array)
 
   og_image = "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg"
 
@@ -1005,6 +1261,8 @@ def build_recipe_page(recipe, lang)
       <p class="recipe-page-description">#{h(desc)}</p>
     </div>
 
+    #{build_recipe_intro(recipe, lang)}
+
     <div class="recipe-section-card mb-4">
       <div class="recipe-section-header">
         <i class="fa fa-utensils" aria-hidden="true"></i>
@@ -1024,6 +1282,9 @@ def build_recipe_page(recipe, lang)
         #{steps_html}
       </div>
     </div>
+
+    #{build_recipe_enriched_sections(recipe, lang)}
+    #{build_recipe_faq(recipe, lang)}
 
       </div>
       <div class="col-md-5 order-2 order-md-2 recipe-right-col">
@@ -1051,6 +1312,16 @@ def build_recipe_page(recipe, lang)
       window.RECIPE_DEFAULTS = { quantity: #{qty}, portion: #{por.is_a?(Float) ? por : "#{por}.0"}, potency: #{pot} };
     </script>
     <script src="/js/calculator.js"></script>
+    <script>
+      document.querySelectorAll('.recipe-faq-question').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var target = document.getElementById(this.dataset.target);
+          var open = target.classList.toggle('open');
+          this.setAttribute('aria-expanded', open);
+          this.querySelector('.recipe-faq-chevron').style.transform = open ? 'rotate(180deg)' : '';
+        });
+      });
+    </script>
   JS
 
   page << build_scripts(lang, extra_scripts: extra)
@@ -1544,6 +1815,7 @@ end
 # BUILD
 # ═════════════════════════════════════════════
 
+# Build non-English pages (homepage, calculator, donate, 404, articles)
 LANGS.each do |lang|
   puts "\nBuilding #{lang.upcase}..."
 
@@ -1558,11 +1830,6 @@ LANGS.each do |lang|
 
   build_404_page(lang)
   puts "  #{lang}/404.html"
-
-  RECIPES.each do |recipe|
-    build_recipe_page(recipe, lang)
-  end
-  puts "  #{lang}/recipes/ (#{RECIPES.count} pages)"
 
   # Articles index page
   if ARTICLE_I18N.dig(lang, "articles_index")
@@ -1582,6 +1849,16 @@ LANGS.each do |lang|
     end
   end
   puts "  #{lang}/ articles (#{article_count} pages)" if article_count > 0
+end
+
+# Build recipe pages for ALL languages (including English)
+puts "\nBuilding recipe pages for all languages..."
+RECIPE_LANGS.each do |lang|
+  RECIPES.each do |recipe|
+    build_recipe_page(recipe, lang)
+  end
+  label = lang == "en" ? "recipes/" : "#{lang}/recipes/"
+  puts "  #{label} (#{RECIPES.count} pages)"
 end
 
 puts "\nBuilding sitemap..."
@@ -1614,23 +1891,7 @@ english_files.each do |file, page_path|
   end
 end
 
-# Add hreflang to English recipe pages
-Dir.glob(File.join(ROOT_DIR, "recipes", "*", "index.html")).each do |filepath|
-  content = File.read(filepath)
-
-  slug = File.basename(File.dirname(filepath))
-  page_path = "recipes/#{slug}/"
-  tags = hreflang_tags(page_path)
-
-  if content.include?("<!-- hreflang -->")
-    content.sub!(/  <!-- hreflang -->.*?(?=\n\n|\n  <(?!link rel="alternate"))/m, "  <!-- hreflang -->\n  #{tags}")
-    File.write(filepath, content)
-  elsif content.include?("google-site-verification")
-    content.sub!(/(<meta name="google-site-verification"[^>]*\/>)/, "\\1\n\n  <!-- hreflang -->\n  #{tags}")
-    File.write(filepath, content)
-  end
-end
-puts "  Added hreflang to #{Dir.glob(File.join(ROOT_DIR, "recipes", "*", "index.html")).count} recipe pages"
+# English recipe pages are now generated by build_recipe_page — no hreflang injection needed
 
 # Add hreflang to English article pages
 article_hreflang_count = 0
@@ -1658,4 +1919,4 @@ article_html_files.sort.each do |f|
 end
 puts "  Added hreflang to #{article_hreflang_count} article pages"
 
-puts "\nDone! English files preserved. Only /pt/, /es/, /de/, /zh/ were generated."
+puts "\nDone! Recipe pages generated for all #{RECIPE_LANGS.count} languages. Other English pages preserved."

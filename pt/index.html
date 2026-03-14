@@ -271,6 +271,8 @@
 </div>
 
     <div class="container page-content">
+
+
 <div class="homepage-hero">
   <h1 class="homepage-h1">Receitas de Comestíveis de Cannabis</h1>
   <p class="homepage-intro">Receitas deliciosas com calculadora de dosagem integrada para você sempre saber o que está na sua comida.</p>
@@ -2003,13 +2005,14 @@
   gtag('config', 'UA-90858722-1');
 </script>
 
+
     <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
-<script>
+    <script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -2017,6 +2020,7 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/pt/?search=' + encodeURIComponent(q); }
         });
       })();
+    </script>
 <script src="/js/homepage.js"></script>
 
       <script src="/js/dark-mode.js"></script>

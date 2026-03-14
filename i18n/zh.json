@@ -141,7 +141,13 @@
     "ingredients": "食材",
     "directions": "制作步骤",
     "title_suffix": "大麻食品食谱 | HowToEdibles",
-    "default_description_template": "通过我们的分步食谱和内置THC剂量计算器，学习制作大麻%{name}。"
+    "default_description_template": "通过我们的分步食谱和内置THC剂量计算器，学习制作大麻%{name}。",
+    "intro_prefix": "学习制作",
+    "dosing_tips": "%{name} 的剂量建议",
+    "common_mistakes": "常见错误",
+    "storage": "如何储存 %{name}",
+    "variations": "变体与创意",
+    "faq": "常见问题"
   },
   "footer": {
     "tagline": "大麻食品变简单。食谱、剂量计算器和减害建议。",

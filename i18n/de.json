@@ -109,7 +109,13 @@
     "ingredients": "Zutaten",
     "directions": "Zubereitung",
     "title_suffix": "Cannabis-Edibles-Rezept | HowToEdibles",
-    "default_description_template": "Lerne, wie du Cannabis-%{name} mit unserem Schritt-für-Schritt-Rezept und integriertem THC-Dosierungsrechner zubereitest."
+    "default_description_template": "Lerne, wie du Cannabis-%{name} mit unserem Schritt-für-Schritt-Rezept und integriertem THC-Dosierungsrechner zubereitest.",
+    "intro_prefix": "Lernen Sie, wie man",
+    "dosing_tips": "Dosierungstipps für %{name}",
+    "common_mistakes": "Häufige Fehler vermeiden",
+    "storage": "So lagern Sie %{name}",
+    "variations": "Variationen & Ideen",
+    "faq": "Häufig gestellte Fragen"
   },
   "footer": {
     "tagline": "Cannabis-Edibles leicht gemacht. Rezepte, Dosierungsrechner und Tipps zur Schadensminimierung.",

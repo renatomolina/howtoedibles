@@ -1993,6 +1993,106 @@ p.spaced-content {
 .calc-faq-answer p { margin: 10px 0 0; }
 
 /* ============================================================
+   Recipe Enrichment Sections (Intro, Dosing, Mistakes, Storage, Variations, FAQ)
+   ============================================================ */
+.recipe-intro-section {
+  margin-top: -4px;
+}
+.recipe-intro-text {
+  font-size: 1.02rem;
+  color: #444;
+  line-height: 1.75;
+  margin: 0;
+}
+.recipe-enriched-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.recipe-enriched-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.recipe-enriched-title i {
+  color: #f27242;
+  font-size: 0.95rem;
+}
+.recipe-enriched-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.recipe-enriched-list li {
+  position: relative;
+  padding: 8px 0 8px 22px;
+  font-size: 0.93rem;
+  color: #444;
+  line-height: 1.65;
+  border-bottom: 1px solid #f2f2f2;
+}
+.recipe-enriched-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.recipe-enriched-list li::before {
+  content: "\f058";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 0.7rem;
+  color: #f27242;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}
+
+/* Recipe FAQ accordion */
+.recipe-faq-section {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.recipe-faq { border: 1px solid #e8e8e8; border-radius: 10px; overflow: hidden; margin-top: 8px; }
+.recipe-faq-item { border-bottom: 1px solid #eee; }
+.recipe-faq-item:last-child { border-bottom: none; }
+.recipe-faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #fafafa;
+  border: none;
+  padding: 14px 18px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+  font-family: inherit;
+}
+.recipe-faq-question:hover { background: #fff5f0; color: #f27242; }
+.recipe-faq-chevron { font-size: 0.75rem; color: #aaa; flex-shrink: 0; margin-left: 10px; transition: transform 0.2s; }
+.recipe-faq-answer {
+  display: none;
+  padding: 0 18px 14px;
+  font-size: 0.91rem;
+  color: #555;
+  line-height: 1.7;
+  background: #fff;
+}
+.recipe-faq-answer.open { display: block; }
+.recipe-faq-answer p { margin: 10px 0 0; }
+
+/* ============================================================
    Blog / Article Styles
    ============================================================ */
 
@@ -2839,6 +2939,31 @@ html[data-theme="dark"] body {
 [data-theme="dark"] .recipe-page-title {
   color: #e8e8e8;
 }
+
+[data-theme="dark"] .recipe-intro-text {
+  color: #bbb;
+}
+
+[data-theme="dark"] .recipe-enriched-section,
+[data-theme="dark"] .recipe-faq-section {
+  background: #1e1e1e;
+  border-color: #2a2a2a;
+}
+
+[data-theme="dark"] .recipe-enriched-title {
+  color: #e0e0e0;
+}
+
+[data-theme="dark"] .recipe-enriched-list li {
+  color: #ccc;
+  border-color: #2a2a2a;
+}
+
+[data-theme="dark"] .recipe-faq { border-color: #2a2a2a; }
+[data-theme="dark"] .recipe-faq-item { border-color: #333; }
+[data-theme="dark"] .recipe-faq-question { background: #222; color: #e0e0e0; }
+[data-theme="dark"] .recipe-faq-question:hover { background: #2a2a2a; }
+[data-theme="dark"] .recipe-faq-answer { background: #1e1e1e; color: #bbb; }
 
 [data-theme="dark"] .recipe-page-description {
   color: #999;

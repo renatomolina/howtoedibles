@@ -1,0 +1,3142 @@
+{
+  "infused-banana-bread": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "banana",
+      "bread",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "This moist banana bread uses overripe bananas to mask the herbal taste of cannabutter, making it one of the most beginner-friendly edibles you can bake.",
+    "dosing_unique": "Slice the loaf into 10 even pieces and label each with the per-slice dosage to avoid overconsumption.",
+    "storage_unique": "Wrap individual slices in parchment paper and freeze for up to 3 months; thaw at room temperature for 20 minutes before eating.",
+    "variation_unique": "Fold in dark chocolate chips and walnuts for a richer flavor that pairs especially well with the cannabis undertones."
+  },
+  "infused-chocolate-truffles": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "chocolate",
+      "truffles",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "confections",
+    "intro_unique": "These hand-rolled chocolate truffles deliver precise single servings of cannabis in a rich ganache shell that melts on your tongue.",
+    "dosing_unique": "Use a small cookie scoop to portion the ganache so every truffle contains an identical amount of infused coconut oil.",
+    "storage_unique": "Layer truffles between sheets of wax paper in an airtight container and refrigerate for up to 2 weeks.",
+    "variation_unique": "Roll finished truffles in matcha powder, crushed freeze-dried raspberries, or toasted coconut for distinct flavor profiles."
+  },
+  "pot-cookies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "cookies",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Classic cannabis cookies with a chewy center and crisp edges are the quintessential homemade edible that never goes out of style.",
+    "dosing_unique": "Use a tablespoon-sized dough scoop and weigh each ball on a kitchen scale to guarantee uniform dosing across the batch.",
+    "storage_unique": "Store in a sealed jar at room temperature for up to 5 days, or freeze baked cookies in a zip-lock bag for 2 months.",
+    "variation_unique": "Swap chocolate chips for peanut butter chips and add a pinch of sea salt on top before baking for a sweet-salty twist."
+  },
+  "pot-brownies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "brownies",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Fudgy cannabis brownies are the most iconic edible of all time, combining deep cocoa flavor with the relaxing effects of THC.",
+    "dosing_unique": "Score the brownie slab into equal squares immediately after removing from the oven while the surface is still soft.",
+    "storage_unique": "Keep brownies in a sealed container at room temperature for 4 days, or individually wrap and freeze for up to 3 months.",
+    "variation_unique": "Swirl in a ribbon of cream cheese batter before baking to create a marbled cheesecake-brownie hybrid."
+  },
+  "gummy-bears": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "gummy",
+      "bears",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "confections",
+    "intro_unique": "Homemade cannabis gummy bears let you control the exact milligram dose per piece while choosing your own fruit flavors and colors.",
+    "dosing_unique": "Calculate the total THC in your tincture, divide by the number of mold cavities, and pipette the mixture precisely into each mold.",
+    "storage_unique": "Toss finished gummies in a light coating of cornstarch and store in the fridge for up to 3 weeks to prevent sticking.",
+    "variation_unique": "Use tart cherry juice instead of flavored gelatin for a natural sour gummy with real fruit flavor and antioxidants."
+  },
+  "gingerbread-cookies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "gingerbread",
+      "cookies",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Warmly spiced gingerbread cookies infused with cannabutter are a festive holiday edible with bold molasses and ginger notes.",
+    "dosing_unique": "Roll dough to a uniform thickness and use the same cookie cutter size throughout so every cookie carries the same dose.",
+    "storage_unique": "Layer cooled cookies with parchment in a tin and store at room temperature for up to one week.",
+    "variation_unique": "Dip half of each cookie in white chocolate and sprinkle with crushed candy cane for a peppermint-gingerbread combo."
+  },
+  "infused-honey": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "honey",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused honey",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "confections",
+    "intro_unique": "Cannabis-infused honey is a versatile pantry staple you can stir into tea, drizzle over toast, or use as a sweetener in any recipe.",
+    "dosing_unique": "Measure honey by the teaspoon and note the mg per teaspoon on the jar label so you always know your intake.",
+    "storage_unique": "Keep in a dark glass jar at room temperature; infused honey remains potent and shelf-stable for up to 6 months.",
+    "variation_unique": "Steep a few sprigs of lavender or rosemary into the honey during infusion for an herbal flavor that complements the cannabis."
+  },
+  "weed-rice-krispie-treats": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "rice",
+      "krispie",
+      "treats",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "These nostalgic rice krispie treats get an adult upgrade with cannabutter melted directly into the marshmallow mixture for easy, no-bake preparation.",
+    "dosing_unique": "Press the mixture into a lined pan of known dimensions and cut into a grid of equal pieces for consistent dosing.",
+    "storage_unique": "Wrap each square individually in plastic wrap and store at room temperature for up to one week.",
+    "variation_unique": "Mix in a handful of mini M&Ms or drizzle melted dark chocolate over the top for extra indulgence."
+  },
+  "cannabis-caramel-sauce": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "caramel",
+      "sauce",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "confections",
+    "intro_unique": "Silky cannabis caramel sauce adds a sweet, buttery drizzle of THC to ice cream, fruit, or your favorite desserts.",
+    "dosing_unique": "Measure servings with a tablespoon and note the total batch potency divided by the number of tablespoons on the jar.",
+    "storage_unique": "Refrigerate in a squeeze bottle for up to 3 weeks; reheat gently in warm water before drizzling.",
+    "variation_unique": "Stir in a teaspoon of espresso powder while cooking for a coffee-caramel sauce that pairs beautifully with vanilla ice cream."
+  },
+  "cannabis-cheesecake": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "cheesecake",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "A creamy New York-style cheesecake infused with cannabutter in the crust and filling delivers an indulgent, long-lasting edible experience.",
+    "dosing_unique": "Slice the cheesecake into 12 equal portions using a hot knife for clean cuts and predictable per-slice potency.",
+    "storage_unique": "Cover with plastic wrap pressed directly on the surface and refrigerate for up to 5 days, or freeze slices for 2 months.",
+    "variation_unique": "Top with a layer of cannabis-infused fruit compote made from fresh berries for an extra dose and burst of color."
+  },
+  "infused-tiramisu": {
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "tiramisu",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "300 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375F",
+    "texture_type": "fried",
+    "sub_category": "pastries",
+    "intro_unique": "This Italian classic layers espresso-soaked ladyfingers with cannabis-infused mascarpone cream for a sophisticated no-bake dessert.",
+    "dosing_unique": "Divide the mascarpone mixture into the exact number of servings before assembling so each portion is dosed equally.",
+    "storage_unique": "Keep covered in the fridge for up to 3 days; tiramisu actually improves in flavor after 24 hours of chilling.",
+    "variation_unique": "Replace the espresso soak with matcha tea for a green tea tiramisu that offers a lighter, earthier flavor."
+  },
+  "cannabis-apple-pie": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "apple",
+      "pie",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "A golden, flaky-crusted apple pie made with cannabutter in the pastry delivers warm cinnamon-apple comfort with every slice.",
+    "dosing_unique": "Cut the pie into 8 equal slices using a pie marker pressed into the top crust before baking.",
+    "storage_unique": "Store loosely covered at room temperature for 2 days or refrigerate for up to 5 days; reheat slices in a 300F oven.",
+    "variation_unique": "Add a handful of fresh cranberries to the apple filling for tartness and a beautiful ruby-red color throughout."
+  },
+  "infused-chocolate-lava-cake": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "chocolate",
+      "lava",
+      "cake",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Individual chocolate lava cakes with a molten cannabis-infused center create a dramatic restaurant-quality dessert at home.",
+    "dosing_unique": "Prepare the batter in a single bowl and divide evenly among ramekins using a kitchen scale for identical per-cake dosing.",
+    "storage_unique": "Freeze unbaked filled ramekins for up to 1 month; bake directly from frozen, adding 2 extra minutes to the cook time.",
+    "variation_unique": "Add a small square of white chocolate in the center of each cake for a dual-chocolate molten core."
+  },
+  "cannabis-lemon-bars": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "lemon",
+      "bars",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Tangy lemon curd atop a buttery cannabis-infused shortbread crust makes these bars a bright, citrusy alternative to chocolate edibles.",
+    "dosing_unique": "Score the slab into uniform rectangles before the curd fully sets so each bar has a precise and equal dose.",
+    "storage_unique": "Refrigerate in a single layer in an airtight container for up to 5 days; dust with powdered sugar just before serving.",
+    "variation_unique": "Substitute lime juice and add a pinch of chili flakes for a spicy lime bar with a Mexican-inspired kick."
+  },
+  "infused-carrot-cake": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "carrot",
+      "cake",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Moist carrot cake studded with walnuts and raisins pairs beautifully with cannabis-infused cream cheese frosting for a layered edible.",
+    "dosing_unique": "Infuse only the frosting rather than the cake itself so you can control the dose by adjusting frosting thickness per slice.",
+    "storage_unique": "Refrigerate frosted cake for up to 4 days; bring to room temperature 30 minutes before serving for the best texture.",
+    "variation_unique": "Add crushed pineapple to the batter for extra moisture and a tropical twist on the classic carrot cake."
+  },
+  "cannabis-coconut-macaroons": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "coconut",
+      "macaroons",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "confections",
+    "intro_unique": "Chewy coconut macaroons dipped in cannabis-infused chocolate are naturally gluten-free and deliver a satisfying tropical sweetness.",
+    "dosing_unique": "Use a small cookie scoop to form each macaroon and dip the base in a measured amount of infused chocolate.",
+    "storage_unique": "Store in the refrigerator for up to one week; the chocolate coating keeps them fresh and holds the cannabis infusion.",
+    "variation_unique": "Toast the shredded coconut before mixing for a deeper, nuttier flavor and golden-brown exterior."
+  },
+  "infused-fudge": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "fudge",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "confections",
+    "intro_unique": "Rich, dense cannabis fudge is a no-bake confection that packs a potent dose into a small, decadent square.",
+    "dosing_unique": "Pour into a parchment-lined pan of known size and cut into a precise grid so each piece has an equal dose.",
+    "storage_unique": "Refrigerate in an airtight container for up to 2 weeks or freeze for 3 months; fudge thaws quickly at room temperature.",
+    "variation_unique": "Layer peanut butter fudge on top of the chocolate fudge for a two-tone Reese's-inspired treat."
+  },
+  "cannabis-blondies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "blondies",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Cannabis blondies offer the chewy, butterscotch richness of a brownie without the cocoa, letting the cannabutter flavor shine through.",
+    "dosing_unique": "Bake in a square pan and slice into 16 uniform bars using a bench scraper for clean, equal portions.",
+    "storage_unique": "Store at room temperature in a sealed container for up to 5 days; blondies stay chewy longer than brownies.",
+    "variation_unique": "Add white chocolate chips and macadamia nuts for a tropical blondie with creamy, crunchy contrast."
+  },
+  "infused-donut-holes": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "donut",
+      "holes",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Bite-sized cannabis donut holes are fried until golden and tossed in cinnamon sugar for a fun, shareable edible treat.",
+    "dosing_unique": "Pipe dough through a round tip and cut to equal lengths before frying so each donut hole is the same size and dose.",
+    "storage_unique": "Best eaten the same day; store leftovers in a paper bag at room temperature for up to 24 hours.",
+    "variation_unique": "Fill donut holes with cannabis-infused pastry cream using a piping bag for a Boston cream-style surprise center."
+  },
+  "cannabis-peach-cobbler": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "peach",
+      "cobbler",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Warm cannabis peach cobbler with a golden biscuit topping celebrates summer fruit while delivering a comforting, slow-onset edible effect.",
+    "dosing_unique": "Use the same biscuit cutter for every topping round and distribute them evenly so each serving gets one biscuit and equal fruit.",
+    "storage_unique": "Cover and refrigerate for up to 3 days; reheat individual portions in a 325F oven for 10 minutes.",
+    "variation_unique": "Mix in fresh blueberries with the peaches for a peach-blueberry cobbler with a beautiful purple-gold color."
+  },
+  "infused-baklava": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "baklava",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Layers of crispy phyllo, spiced nuts, and cannabis-infused honey syrup make this Mediterranean pastry a unique and aromatic edible.",
+    "dosing_unique": "Score the baklava into diamonds before baking and pour a measured amount of infused syrup so each piece absorbs equally.",
+    "storage_unique": "Cover loosely and store at room temperature for up to one week; do not refrigerate or the phyllo will become soggy.",
+    "variation_unique": "Use pistachios instead of walnuts and add a splash of rosewater to the syrup for a Persian-inspired version."
+  },
+  "cannabis-chocolate-fondue": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "chocolate",
+      "fondue",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "confections",
+    "intro_unique": "Cannabis chocolate fondue turns any gathering into an interactive edible experience where guests dip fruit and treats into warm infused chocolate.",
+    "dosing_unique": "Calculate the total mg in the fondue pot and provide small dipping cups so each guest controls their own portion.",
+    "storage_unique": "Refrigerate leftover fondue in a jar for up to one week; reheat gently in a double boiler to restore the smooth texture.",
+    "variation_unique": "Use dark chocolate with chili powder and a pinch of cayenne for a Mexican hot chocolate-style fondue."
+  },
+  "infused-strawberry-shortcake": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "strawberry",
+      "shortcake",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Flaky cannabis-infused biscuits topped with fresh strawberries and whipped cream create a light, elegant summer edible dessert.",
+    "dosing_unique": "Weigh each biscuit before baking to ensure equal cannabutter distribution and consistent dosing per serving.",
+    "storage_unique": "Store biscuits separately from the fruit and cream; assemble just before serving to keep everything fresh for up to 2 days.",
+    "variation_unique": "Macerate the strawberries with a splash of balsamic vinegar and black pepper to deepen their sweetness."
+  },
+  "cannabis-panna-cotta": {
+    "prepTime": "PT20M",
+    "cookTime": "PT30M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "panna",
+      "cotta",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "260 kcal",
+      "fatContent": "15 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "puddings",
+    "intro_unique": "Silky cannabis panna cotta is an Italian custard that showcases infused cream in a delicate, melt-in-your-mouth dessert.",
+    "dosing_unique": "Divide the warm cream mixture into individual ramekins using a measuring cup so each serving contains an identical dose.",
+    "storage_unique": "Cover each ramekin with plastic wrap and refrigerate for up to 4 days; unmold just before serving.",
+    "variation_unique": "Top with a thin layer of passion fruit coulis for a tropical contrast to the creamy vanilla base."
+  },
+  "infused-churros": {
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "churros",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "300 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375F",
+    "texture_type": "fried",
+    "sub_category": "pastries",
+    "intro_unique": "Crispy on the outside and soft within, these cannabis-infused churros are fried to golden perfection and rolled in cinnamon sugar.",
+    "dosing_unique": "Pipe churro dough to the same length using a star tip and fry in batches of equal size for uniform dosing.",
+    "storage_unique": "Eat churros fresh for the best texture; if storing, keep in a paper bag and re-crisp in a 375F oven for 5 minutes.",
+    "variation_unique": "Serve with a side of cannabis chocolate dipping sauce for a double-dosed churro experience."
+  },
+  "cannabis-crepes": {
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "crepes",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "300 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375F",
+    "texture_type": "fried",
+    "sub_category": "pastries",
+    "intro_unique": "Thin, delicate cannabis crepes can be filled with sweet or savory fillings, making them a versatile vehicle for your infusion.",
+    "dosing_unique": "Use exactly 3 tablespoons of batter per crepe and swirl evenly so the cannabutter is distributed uniformly in each one.",
+    "storage_unique": "Stack cooled crepes between sheets of parchment and refrigerate for 2 days or freeze for up to 1 month.",
+    "variation_unique": "Fill with Nutella and sliced bananas for a classic Parisian street-food combination with an infused twist."
+  },
+  "infused-mango-sorbet": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT4H15M",
+    "keywords": [
+      "mango",
+      "sorbet",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "freeze",
+    "texture_type": "frozen",
+    "sub_category": "frozen",
+    "intro_unique": "Dairy-free cannabis mango sorbet is a refreshing frozen edible with tropical sweetness and a smooth, scoopable texture.",
+    "dosing_unique": "Blend the infusion into the sorbet base before churning so it distributes evenly; use a standard scoop for serving.",
+    "storage_unique": "Store in a freezer-safe container with plastic wrap pressed on the surface to prevent ice crystals for up to 2 months.",
+    "variation_unique": "Add a squeeze of lime juice and a pinch of Tajin seasoning for a Mexican-inspired mango chile sorbet."
+  },
+  "cannabis-cinnamon-rolls": {
+    "prepTime": "PT15M",
+    "cookTime": "PT35M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "cinnamon",
+      "rolls",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "Soft, pillowy cinnamon rolls swirled with cannabis-infused butter and topped with cream cheese glaze are a decadent weekend brunch edible.",
+    "dosing_unique": "Roll the dough to a uniform rectangle and slice into equal portions with dental floss for perfectly even rolls.",
+    "storage_unique": "Cover tightly and store at room temperature for 2 days; reheat in a 300F oven for 5 minutes to restore softness.",
+    "variation_unique": "Replace the cinnamon filling with a cardamom-orange zest mixture for a Scandinavian-inspired flavor profile."
+  },
+  "infused-coconut-pudding": {
+    "prepTime": "PT20M",
+    "cookTime": "PT30M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "coconut",
+      "pudding",
+      "cannabis edible",
+      "desserts"
+    ],
+    "nutrition": {
+      "calories": "260 kcal",
+      "fatContent": "15 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "puddings",
+    "intro_unique": "Creamy cannabis coconut pudding is a comforting, tropical dessert that sets up beautifully in individual cups for easy portion control.",
+    "dosing_unique": "Divide the warm pudding into serving cups using a ladle with a known volume so each cup gets the same dose.",
+    "storage_unique": "Cover cups with plastic wrap and refrigerate for up to 4 days; the pudding thickens further as it chills.",
+    "variation_unique": "Layer with toasted coconut flakes and a drizzle of mango puree for a tropical parfait presentation."
+  },
+  "infused-berry-smoothie": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "berry",
+      "smoothie",
+      "cannabis edible",
+      "drinks"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "cold_drinks",
+    "intro_unique": "A vibrant berry smoothie blended with cannabis tincture delivers a fruity, drinkable edible that kicks in smoothly.",
+    "dosing_unique": "Add your measured tincture dose to the blender last and blend briefly so it mixes evenly without degrading the cannabinoids.",
+    "storage_unique": "Drink immediately for the best texture; if needed, store in a sealed jar in the fridge for up to 4 hours.",
+    "variation_unique": "Add a scoop of protein powder and a handful of spinach for a post-workout recovery smoothie with benefits."
+  },
+  "infused-lemonade": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "lemonade",
+      "cannabis edible",
+      "drinks"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "cold_drinks",
+    "intro_unique": "Refreshing cannabis lemonade is a simple, crowd-pleasing summer drink that hides the herbal flavor behind bright citrus.",
+    "dosing_unique": "Mix the tincture into the full pitcher and stir thoroughly so each glass poured contains a consistent dose.",
+    "storage_unique": "Refrigerate in a sealed pitcher for up to 2 days; stir well before each serving as the tincture may settle.",
+    "variation_unique": "Muddle fresh mint and cucumber slices into each glass for a spa-style cannabis lemonade."
+  },
+  "infused-whiskey": {
+    "prepTime": "PT5M",
+    "cookTime": "PT0M",
+    "totalTime": "PT14D",
+    "keywords": [
+      "whiskey",
+      "cannabis edible",
+      "drinks"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "alcoholic",
+    "intro_unique": "Cannabis-infused whiskey combines two adult indulgences into one spirit that can be sipped neat or mixed into cocktails.",
+    "dosing_unique": "Start with a half-ounce pour since the combination of alcohol and THC intensifies both effects significantly.",
+    "storage_unique": "Store in a dark glass bottle away from sunlight; infused whiskey stays potent indefinitely at room temperature.",
+    "variation_unique": "Use a smoky bourbon and add a cinnamon stick during infusion for a warming, spiced winter spirit."
+  },
+  "infused-chai": {
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "chai",
+      "cannabis edible",
+      "drinks"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "simmer",
+    "texture_type": "no_cook",
+    "sub_category": "hot_drinks",
+    "intro_unique": "Warming cannabis chai combines aromatic spices like cardamom, cinnamon, and ginger with infused milk for a soothing hot edible.",
+    "dosing_unique": "Prepare a single serving using one measured dose of infused milk per cup to maintain precise control over your intake.",
+    "storage_unique": "Brew fresh for the best flavor; leftover chai concentrate without milk can be refrigerated for up to 3 days.",
+    "variation_unique": "Add a shot of espresso for a dirty chai latte that combines caffeine alertness with the calming effects of THC."
+  },
+  "infused-eggnog": {
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "eggnog",
+      "cannabis edible",
+      "drinks"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "simmer",
+    "texture_type": "no_cook",
+    "sub_category": "hot_drinks",
+    "intro_unique": "Rich, creamy cannabis eggnog is a festive holiday beverage that blends warm spices with infused cream for a seasonal treat.",
+    "dosing_unique": "Portion eggnog into 4-ounce servings since its richness and potency make smaller glasses more appropriate.",
+    "storage_unique": "Refrigerate in a sealed bottle for up to 3 days; shake well before pouring as the mixture separates.",
+    "variation_unique": "Sprinkle freshly grated nutmeg and a drizzle of caramel sauce on top for an elevated holiday presentation."
+  },
+  "cannabis-hot-chocolate": {
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "hot",
+      "chocolate",
+      "cannabis edible",
+      "drinks"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "simmer",
+    "texture_type": "no_cook",
+    "sub_category": "hot_drinks",
+    "intro_unique": "Velvety cannabis hot chocolate is the ultimate cold-weather edible, melting infused chocolate into steamed milk for a cozy cup.",
+    "dosing_unique": "Melt a measured amount of infused chocolate per mug and whisk thoroughly into the hot milk for even distribution.",
+    "storage_unique": "Best served fresh; leftover hot chocolate can be refrigerated and reheated gently the next day.",
+    "variation_unique": "Float a cannabis-infused marshmallow on top for double the dose and a playful presentation."
+  },
+  "infused-cold-brew": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "cold",
+      "brew",
+      "cannabis edible",
+      "drinks"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "cold_drinks",
+    "intro_unique": "Smooth cannabis cold brew coffee steeps overnight with cannabis tincture for a caffeinated, uplifting edible drink.",
+    "dosing_unique": "Add the tincture to the finished cold brew concentrate rather than during steeping for more accurate dosing per glass.",
+    "storage_unique": "Store the infused concentrate in the fridge for up to 5 days; dilute with water or milk when serving.",
+    "variation_unique": "Add a splash of vanilla syrup and oat milk for a creamy, barista-style cannabis cold brew latte."
+  },
+  "firecrackers": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "fire",
+      "crackers",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "savory_snacks",
+    "intro_unique": "Firecrackers are the fastest cannabis edible you can make, requiring only graham crackers, peanut butter, and ground flower.",
+    "dosing_unique": "Spread a precisely weighed amount of decarbed cannabis on each cracker and seal tightly in foil before baking.",
+    "storage_unique": "Wrap each firecracker individually in foil and store at room temperature for up to 3 days.",
+    "variation_unique": "Use Nutella instead of peanut butter and add a sprinkle of sea salt for a sweet-salty chocolate version."
+  },
+  "infused-guacamole": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "guacamole",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "150 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "dips",
+    "intro_unique": "Cannabis-infused guacamole blends ripe avocados with infused olive oil for a creamy, savory dip that pairs perfectly with chips.",
+    "dosing_unique": "Stir in a measured amount of infused olive oil and mix thoroughly so the dose is evenly spread throughout the bowl.",
+    "storage_unique": "Press plastic wrap directly onto the surface to prevent browning and refrigerate for up to 24 hours.",
+    "variation_unique": "Add diced fresh mango and a squeeze of lime for a tropical guacamole that balances richness with bright fruit."
+  },
+  "infused-energy-bites": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "energy",
+      "bites",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "200 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "sweet_snacks",
+    "intro_unique": "No-bake cannabis energy bites packed with oats, nut butter, and honey provide a portable, protein-rich edible for on-the-go dosing.",
+    "dosing_unique": "Roll each bite using a tablespoon measure and weigh on a scale to guarantee identical dosing across the batch.",
+    "storage_unique": "Refrigerate in a sealed container for up to one week or freeze for 2 months; thaw for 5 minutes before eating.",
+    "variation_unique": "Add a scoop of cocoa powder and mini chocolate chips for a brownie batter-flavored energy bite."
+  },
+  "infused-grilled-cheese": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "grilled",
+      "cheese",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "savory_snacks",
+    "intro_unique": "A golden, crispy cannabis grilled cheese sandwich uses cannabutter on the bread for a savory, melty comfort food edible.",
+    "dosing_unique": "Spread a measured amount of cannabutter on each slice of bread before grilling so every sandwich is dosed consistently.",
+    "storage_unique": "Eat immediately for the best texture; grilled cheese does not store well but the cannabutter can be prepped in advance.",
+    "variation_unique": "Add sliced tomato and a drizzle of pesto between the cheese layers for a caprese-style grilled cheese."
+  },
+  "trail-mix": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "trail",
+      "mix",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "200 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "sweet_snacks",
+    "intro_unique": "Cannabis trail mix combines infused honey-roasted nuts with dried fruit and chocolate for a portable, shelf-stable edible snack.",
+    "dosing_unique": "Measure the total infused component, mix evenly, and portion into labeled snack bags with the dose marked on each.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 2 weeks; the nuts stay crunchy if kept sealed.",
+    "variation_unique": "Add coconut flakes and dried pineapple for a tropical trail mix variation with island-inspired flavors."
+  },
+  "weed-infused-popcorn": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "popcorn",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "savory_snacks",
+    "intro_unique": "Cannabis-infused popcorn is a savory movie-night snack where melted cannabutter is drizzled over freshly popped kernels.",
+    "dosing_unique": "Melt a measured amount of cannabutter and toss with the popcorn in a large bowl for even coating and consistent dosing.",
+    "storage_unique": "Store in a paper bag or airtight container at room temperature for up to 2 days; re-crisp in a low oven if needed.",
+    "variation_unique": "Toss with nutritional yeast and garlic powder for a savory, cheese-flavored cannabis popcorn without dairy."
+  },
+  "infused-hummus": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "hummus",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "150 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "dips",
+    "intro_unique": "Smooth cannabis hummus blends chickpeas with infused olive oil and tahini for a protein-packed savory dip with a mellow onset.",
+    "dosing_unique": "Add the infused olive oil during blending and divide the finished hummus into measured serving cups for precise dosing.",
+    "storage_unique": "Refrigerate in a sealed container with a thin layer of olive oil on top for up to 5 days.",
+    "variation_unique": "Blend in roasted red peppers for a smoky, vibrant hummus with a sweeter flavor profile."
+  },
+  "infused-granola": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "granola",
+      "cannabis edible",
+      "snacks"
+    ],
+    "nutrition": {
+      "calories": "200 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "sweet_snacks",
+    "intro_unique": "Crunchy cannabis granola baked with infused coconut oil and honey is a versatile edible for topping yogurt or eating by the handful.",
+    "dosing_unique": "Spread granola evenly on a sheet pan, bake, and portion into small bags with the dose labeled on each.",
+    "storage_unique": "Store in an airtight jar at room temperature for up to 2 weeks; granola stays crunchiest when kept completely sealed.",
+    "variation_unique": "Add dried tart cherries and dark chocolate chunks after baking for a cherry-chocolate granola mix."
+  },
+  "cannabutter": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "cannabutter",
+      "cannabis edible",
+      "essentials"
+    ],
+    "nutrition": {
+      "calories": "100 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "butter_oil",
+    "intro_unique": "Cannabutter is the foundational cannabis ingredient, infusing butter with decarbed flower through a slow, low-heat simmer.",
+    "dosing_unique": "Calculate the total THC from your starting flower, account for extraction efficiency around 80%, and label the jar with mg per tablespoon.",
+    "storage_unique": "Store in a sealed glass jar in the fridge for up to 2 months or freeze in silicone molds for up to 6 months.",
+    "variation_unique": "Use cultured European-style butter with higher fat content for a richer flavor and potentially better THC extraction."
+  },
+  "infused-olive-oil": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "olive",
+      "oil",
+      "cannabis edible",
+      "essentials"
+    ],
+    "nutrition": {
+      "calories": "100 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "butter_oil",
+    "intro_unique": "Cannabis-infused olive oil is a heart-healthy, versatile base for savory edibles, dressings, and any recipe calling for cooking oil.",
+    "dosing_unique": "Note the total THC content and divide by the volume in tablespoons; label the bottle with mg per tablespoon.",
+    "storage_unique": "Store in a dark glass bottle in a cool cupboard for up to 3 months; olive oil resists rancidity better than butter.",
+    "variation_unique": "Infuse with fresh rosemary and garlic cloves alongside the cannabis for a flavored finishing oil."
+  },
+  "infused-coconut-oil": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "coconut",
+      "oil",
+      "cannabis edible",
+      "essentials"
+    ],
+    "nutrition": {
+      "calories": "100 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "butter_oil",
+    "intro_unique": "Cannabis-infused coconut oil has the highest saturated fat content of any cooking oil, making it exceptionally efficient at binding THC.",
+    "dosing_unique": "Pour into silicone ice cube molds for pre-measured tablespoon portions that are easy to pop out and use in recipes.",
+    "storage_unique": "Coconut oil is shelf-stable at room temperature for up to 3 months; refrigerate for longer storage up to 6 months.",
+    "variation_unique": "Use refined coconut oil for a neutral taste in recipes where you do not want coconut flavor."
+  },
+  "infused-milk": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "milk",
+      "cannabis edible",
+      "essentials"
+    ],
+    "nutrition": {
+      "calories": "100 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "infused milk",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "milk_cream",
+    "intro_unique": "Cannabis-infused milk provides a liquid base for hot drinks, cereals, and baking that distributes THC evenly throughout dairy.",
+    "dosing_unique": "Use whole milk for the highest fat content and best extraction; measure servings in half-cup portions with labeled potency.",
+    "storage_unique": "Refrigerate and use within 5 days, the same shelf life as regular milk; shake before each use.",
+    "variation_unique": "Use heavy cream instead of milk for a more potent infusion with higher fat content and richer mouthfeel."
+  },
+  "infused-condensed-milk": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "condensed",
+      "milk",
+      "cannabis edible",
+      "essentials"
+    ],
+    "nutrition": {
+      "calories": "100 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "infused condensed milk",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "milk_cream",
+    "intro_unique": "Cannabis-infused condensed milk is a sweet, thick base ideal for fudge, tres leches cake, and Brazilian desserts.",
+    "dosing_unique": "The thick consistency makes it easy to measure by the tablespoon; note mg per tablespoon on the can or jar.",
+    "storage_unique": "Refrigerate in a sealed jar for up to 2 weeks; the high sugar content acts as a natural preservative.",
+    "variation_unique": "Simmer the sealed can in boiling water for 2 hours to create infused dulce de leche with a deeper caramel flavor."
+  },
+  "infused-ghee": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "ghee",
+      "cannabis edible",
+      "essentials"
+    ],
+    "nutrition": {
+      "calories": "100 kcal",
+      "fatContent": "11 g"
+    },
+    "base_fat": "infused ghee",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "butter_oil",
+    "intro_unique": "Cannabis-infused ghee is clarified butter with the milk solids removed, offering a nutty, high-smoke-point fat perfect for cooking.",
+    "dosing_unique": "Ghee is denser than butter, so weigh your portions rather than using volume measurements for accurate dosing.",
+    "storage_unique": "Ghee is shelf-stable at room temperature for up to 3 months; its low moisture content prevents spoilage.",
+    "variation_unique": "Infuse with turmeric and black pepper during preparation for a golden ghee with anti-inflammatory properties."
+  },
+  "infused-pesto-pasta": {
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "pesto",
+      "pasta",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "pasta_rice",
+    "intro_unique": "Cannabis pesto pasta coats al dente noodles in a vibrant basil-and-infused-olive-oil sauce that tastes remarkably close to the classic.",
+    "dosing_unique": "Mix the infused olive oil into the pesto at the end and toss with weighed pasta portions for consistent dosing per plate.",
+    "storage_unique": "Refrigerate dressed pasta for up to 2 days; toss with a splash of olive oil when reheating to restore moisture.",
+    "variation_unique": "Use sun-dried tomato pesto instead of traditional basil for a richer, tangier sauce with deeper umami notes."
+  },
+  "infused-coconut-curry": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "coconut",
+      "curry",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "main_dish",
+    "intro_unique": "Fragrant cannabis coconut curry simmers vegetables and protein in an infused coconut milk sauce rich with spices and aromatics.",
+    "dosing_unique": "Stir the infused coconut oil into the curry at the end of cooking and serve over measured portions of rice.",
+    "storage_unique": "Refrigerate in airtight containers for up to 3 days; curry flavor actually improves overnight as the spices meld.",
+    "variation_unique": "Add a tablespoon of red curry paste and a squeeze of lime for a Thai-inspired version with more heat."
+  },
+  "infused-spaghetti-bolognese": {
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "spaghetti",
+      "bolognese",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "pasta_rice",
+    "intro_unique": "A hearty cannabis bolognese sauce slow-simmered with infused olive oil clings to every strand of spaghetti for a satisfying dinner edible.",
+    "dosing_unique": "Add infused oil to the finished sauce and stir well; serve over weighed pasta portions to control the dose per plate.",
+    "storage_unique": "Freeze sauce in labeled portions for up to 2 months; thaw overnight in the fridge before reheating.",
+    "variation_unique": "Use half ground beef and half Italian sausage for a more complex, spiced bolognese."
+  },
+  "cannabis-avocado-toast": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "avocado",
+      "toast",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400F",
+    "texture_type": "baked",
+    "sub_category": "sandwich_wrap",
+    "intro_unique": "Cannabis avocado toast elevates the brunch staple by spreading mashed avocado mixed with infused olive oil on crusty sourdough.",
+    "dosing_unique": "Mix a measured amount of infused olive oil into the mashed avocado before spreading so each slice is dosed evenly.",
+    "storage_unique": "Prepare and eat immediately; avocado toast does not store well, but the infused oil can be prepped in advance.",
+    "variation_unique": "Top with a poached egg, everything bagel seasoning, and red pepper flakes for a loaded avocado toast."
+  },
+  "cannabis-salad-dressing": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "salad",
+      "dressing",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "main_dish",
+    "intro_unique": "Cannabis salad dressing lets you dose any salad by whisking infused olive oil into a tangy vinaigrette base.",
+    "dosing_unique": "Calculate mg per tablespoon of dressing and use a measured pour for each salad serving.",
+    "storage_unique": "Shake well and refrigerate in a glass jar for up to one week; bring to room temperature before using if the oil solidifies.",
+    "variation_unique": "Blend in roasted garlic and Dijon mustard for a creamy cannabis Caesar-style dressing."
+  },
+  "cannabis-shakshuka": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "shakshuka",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "main_dish",
+    "intro_unique": "Cannabis shakshuka poaches eggs in a spiced tomato sauce enriched with infused olive oil for a one-pan brunch edible.",
+    "dosing_unique": "Drizzle the infused oil into the sauce before adding eggs, and serve each person one egg with an equal portion of sauce.",
+    "storage_unique": "Best eaten fresh; leftover sauce without eggs can be refrigerated for 2 days and reheated with fresh eggs.",
+    "variation_unique": "Crumble feta cheese and fresh herbs over the top just before serving for a Mediterranean finish."
+  },
+  "infused-mushroom-risotto": {
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "mushroom",
+      "risotto",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "pasta_rice",
+    "intro_unique": "Creamy cannabis mushroom risotto stirs infused butter into Arborio rice at the final stage for a luxurious, earthy Italian dish.",
+    "dosing_unique": "Add a measured pat of cannabutter to each individual plate of risotto rather than the whole pot for precise per-serving dosing.",
+    "storage_unique": "Risotto is best fresh but can be refrigerated for 1 day; reheat with a splash of broth to restore creaminess.",
+    "variation_unique": "Use a mix of wild mushrooms like chanterelle and porcini for a more complex, woodsy flavor."
+  },
+  "cannabis-thai-basil-chicken": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "thai",
+      "basil",
+      "chicken",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "main_dish",
+    "intro_unique": "Cannabis Thai basil chicken is a quick stir-fry that combines wok-fired chicken with fresh Thai basil and infused oil.",
+    "dosing_unique": "Toss the infused oil in at the end of cooking over low heat to preserve potency, and divide into equal servings.",
+    "storage_unique": "Refrigerate for up to 2 days; reheat in a hot wok or skillet to maintain the stir-fry texture.",
+    "variation_unique": "Substitute ground pork for chicken and add extra Thai chilies for a spicier, street-food-style version."
+  },
+  "infused-beef-tacos": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "beef",
+      "tacos",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400F",
+    "texture_type": "baked",
+    "sub_category": "sandwich_wrap",
+    "intro_unique": "Seasoned cannabis beef tacos fold savory, infused-oil-cooked ground beef into warm tortillas with fresh toppings.",
+    "dosing_unique": "Cook the beef with a measured amount of infused oil and weigh the meat per taco for consistent dosing.",
+    "storage_unique": "Store cooked beef separately from tortillas and toppings in the fridge for up to 2 days; reheat meat before assembling.",
+    "variation_unique": "Use corn tortillas and top with pickled red onions and cotija cheese for authentic Mexican-style street tacos."
+  },
+  "cannabis-chicken-caesar-salad": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "chicken",
+      "caesar",
+      "salad",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "salad",
+    "intro_unique": "Cannabis chicken Caesar salad dresses crisp romaine and grilled chicken with a creamy infused olive oil Caesar dressing.",
+    "dosing_unique": "The infusion is in the dressing, so measure exactly 2 tablespoons of dressing per serving for predictable dosing.",
+    "storage_unique": "Store dressing separately and toss with salad just before serving; dressed salad does not keep well.",
+    "variation_unique": "Use kale instead of romaine and add shaved Parmesan and toasted pine nuts for a heartier kale Caesar."
+  },
+  "infused-cauliflower-fried-rice": {
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cauliflower",
+      "fried",
+      "rice",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "pasta_rice",
+    "intro_unique": "Cannabis cauliflower fried rice replaces grain with riced cauliflower stir-fried in infused oil for a low-carb savory edible.",
+    "dosing_unique": "Drizzle infused oil into the wok at the end of cooking and divide the fried rice into equal weighed portions.",
+    "storage_unique": "Refrigerate in airtight containers for up to 3 days; reheat in a hot skillet for the best texture.",
+    "variation_unique": "Add shrimp and a drizzle of toasted sesame oil for an Asian-inspired seafood fried rice."
+  },
+  "cannabis-minestrone-soup": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "minestrone",
+      "soup",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "soup",
+    "intro_unique": "Hearty cannabis minestrone simmers seasonal vegetables, beans, and pasta in a tomato broth finished with infused olive oil.",
+    "dosing_unique": "Stir infused oil into the finished soup and ladle into bowls using a measured scoop for consistent per-serving potency.",
+    "storage_unique": "Refrigerate for up to 4 days or freeze without pasta for up to 2 months; add cooked pasta when reheating.",
+    "variation_unique": "Stir in a spoonful of pesto on top of each bowl for a Genovese-style minestrone with herbal depth."
+  },
+  "infused-pulled-pork-sliders": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "pulled",
+      "pork",
+      "sliders",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400F",
+    "texture_type": "baked",
+    "sub_category": "sandwich_wrap",
+    "intro_unique": "Tender cannabis pulled pork sliders feature slow-cooked pork tossed in infused BBQ sauce and piled onto soft mini buns.",
+    "dosing_unique": "Mix the infused oil into the BBQ sauce and weigh the pulled pork per slider for equal dosing on each bun.",
+    "storage_unique": "Refrigerate pulled pork in sauce for up to 3 days; reheat gently and assemble sliders just before serving.",
+    "variation_unique": "Top with a tangy coleslaw and pickled jalapenos for a Southern-style slider with crunch and heat."
+  },
+  "cannabis-greek-salad": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "greek",
+      "salad",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "salad",
+    "intro_unique": "Cannabis Greek salad combines crisp cucumber, tomato, olives, and feta with a cannabis-infused olive oil and oregano dressing.",
+    "dosing_unique": "Whisk the infused oil into the dressing and drizzle a measured amount over each individual salad plate.",
+    "storage_unique": "Store undressed salad components in the fridge for up to 2 days; dress just before serving.",
+    "variation_unique": "Add marinated artichoke hearts and roasted red peppers for a more substantial Mediterranean salad."
+  },
+  "infused-tomato-bisque": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "tomato",
+      "bisque",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "soup",
+    "intro_unique": "Velvety cannabis tomato bisque blends roasted tomatoes with infused cream for a smooth, warming soup with a rich finish.",
+    "dosing_unique": "Stir infused cream into the blended soup and ladle into bowls using a measured cup for precise per-serving dosing.",
+    "storage_unique": "Refrigerate for up to 4 days or freeze for 2 months; reheat gently without boiling to preserve the cream.",
+    "variation_unique": "Roast the tomatoes with garlic and smoked paprika before blending for a smokier, deeper flavor profile."
+  },
+  "cannabis-chicken-burrito-bowl": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "chicken",
+      "burrito",
+      "bowl",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400F",
+    "texture_type": "baked",
+    "sub_category": "sandwich_wrap",
+    "intro_unique": "A cannabis chicken burrito bowl layers seasoned chicken, rice, beans, and fresh toppings with infused oil for a complete meal edible.",
+    "dosing_unique": "Drizzle a measured amount of infused oil over each assembled bowl rather than cooking with it for more accurate dosing.",
+    "storage_unique": "Store components separately in the fridge for up to 3 days; assemble fresh bowls at mealtime.",
+    "variation_unique": "Use cauliflower rice instead of white rice and add pickled red onions for a lighter, tangier version."
+  },
+  "infused-falafel-wrap": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "falafel",
+      "wrap",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400F",
+    "texture_type": "baked",
+    "sub_category": "sandwich_wrap",
+    "intro_unique": "Crispy cannabis falafel wraps bundle herbed chickpea patties with tahini sauce and fresh vegetables in warm pita bread.",
+    "dosing_unique": "Mix infused oil into the falafel mixture before forming and use a scoop to make uniform patties with equal doses.",
+    "storage_unique": "Store cooked falafel in the fridge for up to 3 days; reheat in a 375F oven to re-crisp the exterior.",
+    "variation_unique": "Add harissa paste to the tahini sauce for a smoky, spicy North African kick."
+  },
+  "cannabis-butternut-squash-soup": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "butternut",
+      "squash",
+      "soup",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "simmer",
+    "texture_type": "stovetop",
+    "sub_category": "soup",
+    "intro_unique": "Silky cannabis butternut squash soup roasts the squash until caramelized, then blends it with infused cream for a naturally sweet bowl.",
+    "dosing_unique": "Stir infused cream into the blended soup and serve in measured ladles so each bowl has the same dose.",
+    "storage_unique": "Refrigerate for up to 4 days or freeze for up to 2 months; soup reheats beautifully without losing texture.",
+    "variation_unique": "Add a teaspoon of curry powder and a swirl of coconut cream for a Thai-inspired butternut squash soup."
+  },
+  "infused-egg-fried-rice": {
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "egg",
+      "fried",
+      "rice",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "pasta_rice",
+    "intro_unique": "Cannabis egg fried rice is a quick weeknight edible that transforms day-old rice with infused oil, scrambled eggs, and soy sauce.",
+    "dosing_unique": "Add infused oil to the hot wok at the end and toss with the rice, then divide into equal portions by weight.",
+    "storage_unique": "Refrigerate for up to 2 days; reheat in a very hot skillet to restore the slightly crispy texture.",
+    "variation_unique": "Add diced Chinese sausage (lap cheong) and scallions for a Cantonese-style fried rice with sweet-savory depth."
+  },
+  "cannabis-grilled-salmon": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "grilled",
+      "salmon",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "main_dish",
+    "intro_unique": "Cannabis grilled salmon glazes fresh fillets with an infused olive oil and herb marinade before searing on a hot grill.",
+    "dosing_unique": "Brush each fillet with a measured tablespoon of infused oil marinade so every portion has a known, equal dose.",
+    "storage_unique": "Refrigerate cooked salmon for up to 2 days; serve cold on salads or reheat gently in a 275F oven.",
+    "variation_unique": "Glaze with a miso-ginger infused oil mixture for an umami-rich Asian-inspired salmon."
+  },
+  "infused-caprese-salad": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "caprese",
+      "salad",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "salad",
+    "intro_unique": "Cannabis caprese salad drizzles infused olive oil over fresh mozzarella, ripe tomatoes, and fragrant basil for a simple Italian appetizer.",
+    "dosing_unique": "Drizzle a measured teaspoon of infused oil over each individual plate for clean, consistent dosing.",
+    "storage_unique": "Assemble and serve immediately; store the infused oil separately and slice ingredients fresh each time.",
+    "variation_unique": "Use burrata instead of mozzarella and add a drizzle of aged balsamic reduction for an elevated presentation."
+  },
+  "cannabis-quesadilla": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "quesadilla",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400F",
+    "texture_type": "baked",
+    "sub_category": "sandwich_wrap",
+    "intro_unique": "Cannabis quesadillas crisp flour tortillas filled with melted cheese and a spread of cannabutter for a quick, satisfying edible meal.",
+    "dosing_unique": "Spread a measured amount of cannabutter on the inside of each tortilla before adding cheese and folding.",
+    "storage_unique": "Best served fresh and hot; store leftover filling separately and assemble new quesadillas when ready to eat.",
+    "variation_unique": "Add sauteed mushrooms, caramelized onions, and a drizzle of truffle oil for a gourmet quesadilla upgrade."
+  },
+  "infused-pad-thai": {
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "pad",
+      "thai",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "pasta_rice",
+    "intro_unique": "Cannabis pad Thai tosses rice noodles with a sweet-tangy tamarind sauce, finishing with infused oil for an authentic Thai street food edible.",
+    "dosing_unique": "Toss infused oil into the finished noodles off heat and serve in weighed portions for equal dosing per plate.",
+    "storage_unique": "Refrigerate for up to 2 days; reheat in a wok with a splash of water to loosen the noodles.",
+    "variation_unique": "Add crispy tofu and extra crushed peanuts for a heartier vegetarian pad Thai with more protein."
+  },
+  "cannabis-pizza": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "pizza",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400F",
+    "texture_type": "baked",
+    "sub_category": "sandwich_wrap",
+    "intro_unique": "Cannabis pizza brushes the crust with infused olive oil before topping and baking for a shareable, crowd-friendly edible meal.",
+    "dosing_unique": "Brush a measured amount of infused oil on the dough and cut into equal slices so each piece has the same dose.",
+    "storage_unique": "Store leftover slices in the fridge for up to 2 days; reheat in a hot skillet for a crispy bottom crust.",
+    "variation_unique": "Top with fig jam, prosciutto, and arugula after baking for a gourmet pizza that showcases the infused oil base."
+  },
+  "infused-lentil-dal": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "lentil",
+      "dal",
+      "cannabis edible",
+      "lunch"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "main_dish",
+    "intro_unique": "Cannabis lentil dal simmers red lentils with aromatic spices and finishes with a tadka of infused ghee for a warming, protein-rich edible.",
+    "dosing_unique": "Drizzle the infused ghee tadka over individual bowls rather than the pot so each serving gets a measured dose.",
+    "storage_unique": "Refrigerate for up to 4 days or freeze for 2 months; dal thickens as it cools so add water when reheating.",
+    "variation_unique": "Add a can of diced tomatoes and a handful of fresh spinach for a more substantial and colorful dal."
+  },
+  "infused-bulletproof-coffee": {
+    "prepTime": "PT5M",
+    "cookTime": "PT5M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "bulletproof",
+      "coffee",
+      "cannabis edible",
+      "keto"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "simmer",
+    "texture_type": "no_cook",
+    "sub_category": "keto_drink",
+    "intro_unique": "Cannabis bulletproof coffee blends hot coffee with infused coconut oil and grass-fed butter for a keto-friendly, energizing edible drink.",
+    "dosing_unique": "Add a measured tablespoon of infused coconut oil to each cup and blend until frothy for even distribution.",
+    "storage_unique": "Drink immediately; the emulsion breaks down as it cools and the fats separate.",
+    "variation_unique": "Add a tablespoon of MCT oil and a dash of cinnamon for enhanced ketone production and warm spice flavor."
+  },
+  "infused-coconut-fat-bombs": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "coconut",
+      "fat",
+      "bombs",
+      "cannabis edible",
+      "keto"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "keto_sweet",
+    "intro_unique": "Cannabis coconut fat bombs are bite-sized keto treats that pack infused coconut oil into a sweet, high-fat snack.",
+    "dosing_unique": "Pour into silicone candy molds using a measured pipette or small spoon so each fat bomb is identically dosed.",
+    "storage_unique": "Store in the freezer for up to 3 months; keep frozen as they melt quickly at room temperature.",
+    "variation_unique": "Add a layer of sugar-free dark chocolate on top of each fat bomb for a bounty bar-inspired treat."
+  },
+  "infused-keto-peanut-butter-cookies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "peanut",
+      "butter",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "keto_baked",
+    "intro_unique": "Three-ingredient keto cannabis cookies use peanut butter, egg, and sweetener with infused coconut oil for a grain-free edible.",
+    "dosing_unique": "Scoop dough with a tablespoon measure and flatten with a fork for uniform cookies with consistent dosing.",
+    "storage_unique": "Store in an airtight container at room temperature for 3 days or refrigerate for up to one week.",
+    "variation_unique": "Use almond butter instead of peanut butter and press a sugar-free chocolate chip into each cookie before baking."
+  },
+  "infused-keto-cheesecake-bites": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "cheesecake",
+      "bites",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "keto_baked",
+    "intro_unique": "Mini keto cheesecake bites in a nut crust deliver creamy, low-carb cannabis portions that satisfy sweet cravings without sugar.",
+    "dosing_unique": "Divide the filling evenly among muffin tin cups using a measured scoop so each bite contains the same dose.",
+    "storage_unique": "Refrigerate for up to 5 days or freeze for 2 months; thaw in the fridge for 1 hour before eating.",
+    "variation_unique": "Swirl sugar-free raspberry puree into the top of each cheesecake bite before chilling for a fruity marbled finish."
+  },
+  "infused-keto-chocolate-avocado-mousse": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "keto",
+      "chocolate",
+      "avocado",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "keto_sweet",
+    "intro_unique": "Keto cannabis chocolate avocado mousse blends ripe avocado with cocoa and infused coconut oil for a silky, dairy-free dessert.",
+    "dosing_unique": "Blend all ingredients together and divide into ramekins using a measuring cup for exact per-serving potency.",
+    "storage_unique": "Refrigerate covered for up to 2 days; the avocado may oxidize slightly but a stir restores the color.",
+    "variation_unique": "Top with whipped coconut cream and cacao nibs for a crunchy, indulgent garnish."
+  },
+  "infused-keto-cauliflower-pizza-crust": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "cauliflower",
+      "pizza",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "keto_baked",
+    "intro_unique": "A cannabis-infused cauliflower pizza crust gives keto dieters a low-carb base for all their favorite pizza toppings.",
+    "dosing_unique": "Mix infused oil into the cauliflower dough before pressing into shape; cut the baked pizza into equal slices.",
+    "storage_unique": "Freeze unbaked crusts between parchment sheets for up to 2 months; bake directly from frozen.",
+    "variation_unique": "Add Italian herbs and garlic powder to the crust mixture for a more flavorful, seasoned base."
+  },
+  "infused-chocolate-bark": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "chocolate",
+      "bark",
+      "cannabis edible",
+      "keto"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "keto_sweet",
+    "intro_unique": "Cannabis chocolate bark is a simple no-bake keto treat that spreads melted infused chocolate thin and tops it with nuts and seeds.",
+    "dosing_unique": "Spread chocolate to a uniform thickness on a parchment-lined sheet and score into equal pieces before it fully sets.",
+    "storage_unique": "Store in the fridge for up to 2 weeks; the bark snaps cleanly along scored lines when cold.",
+    "variation_unique": "Use white chocolate with freeze-dried strawberries and crushed pistachios for a colorful, fruity bark."
+  },
+  "cannabis-keto-bacon-bites": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "bacon",
+      "bites",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Crispy cannabis keto bacon bites wrap bacon around cream cheese filling infused with coconut oil for a savory, high-fat appetizer.",
+    "dosing_unique": "Fill each bacon cup with a measured teaspoon of infused cream cheese mixture for uniform dosing.",
+    "storage_unique": "Refrigerate for up to 3 days; reheat in a 350F oven for 5 minutes to re-crisp the bacon.",
+    "variation_unique": "Add diced jalapeno to the cream cheese filling for a spicy, popper-style bacon bite."
+  },
+  "infused-keto-chicken-wings": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "chicken",
+      "wings",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Cannabis keto chicken wings are baked until crispy and tossed in an infused butter hot sauce for a finger-licking edible.",
+    "dosing_unique": "Toss wings in a measured amount of infused butter sauce and count the number of wings per serving for dosing accuracy.",
+    "storage_unique": "Refrigerate for up to 3 days; reheat in a 400F oven to maintain crispiness rather than microwaving.",
+    "variation_unique": "Use a garlic parmesan infused butter sauce instead of hot sauce for a milder, savory wing option."
+  },
+  "cannabis-keto-deviled-eggs": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "deviled",
+      "eggs",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Cannabis keto deviled eggs pipe a creamy, infused yolk filling back into halved egg whites for an elegant low-carb appetizer.",
+    "dosing_unique": "Mix infused oil into the yolk filling and pipe an equal amount into each egg half for consistent per-piece dosing.",
+    "storage_unique": "Refrigerate on a covered plate for up to 2 days; garnish with paprika just before serving.",
+    "variation_unique": "Top each egg with a small piece of smoked salmon and a sprig of dill for a luxurious appetizer."
+  },
+  "infused-keto-stuffed-mushrooms": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "stuffed",
+      "mushrooms",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Cannabis keto stuffed mushrooms fill cremini caps with an infused cream cheese and sausage mixture baked until bubbly and golden.",
+    "dosing_unique": "Use a measured teaspoon of filling per mushroom cap so each piece delivers the same dose.",
+    "storage_unique": "Refrigerate assembled mushrooms for up to 2 days before baking, or store baked leftovers for 3 days.",
+    "variation_unique": "Use crabmeat instead of sausage and add Old Bay seasoning for a seafood-stuffed mushroom variation."
+  },
+  "cannabis-keto-beef-chili": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "beef",
+      "chili",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Hearty cannabis keto beef chili slow-cooks ground beef with tomatoes and spices, finished with a drizzle of infused oil for a no-bean, low-carb bowl.",
+    "dosing_unique": "Stir infused oil into the finished chili and serve with a ladle of known volume for consistent per-bowl dosing.",
+    "storage_unique": "Refrigerate for up to 4 days or freeze for up to 2 months; chili flavor deepens overnight.",
+    "variation_unique": "Add diced poblano peppers and a dollop of sour cream for a smoky, creamy chili topping."
+  },
+  "infused-keto-zucchini-chips": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "zucchini",
+      "chips",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Thin-sliced cannabis keto zucchini chips are baked until crispy after being brushed with infused olive oil and seasoned with salt.",
+    "dosing_unique": "Brush each chip with a uniform coating of infused oil and count chips per serving for accurate dosing.",
+    "storage_unique": "Store in a paper bag at room temperature for up to 2 days; they lose crispness in sealed containers.",
+    "variation_unique": "Sprinkle with smoked paprika and garlic powder before baking for a BBQ-flavored chip."
+  },
+  "cannabis-keto-waffles": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "waffles",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "keto_baked",
+    "intro_unique": "Fluffy cannabis keto waffles use almond flour and infused coconut oil to create a grain-free breakfast that crisps beautifully in the iron.",
+    "dosing_unique": "Pour a measured amount of batter per waffle using a ladle so each waffle is the same size and dose.",
+    "storage_unique": "Freeze cooked waffles on a sheet pan then transfer to a zip-lock bag; toast from frozen for a quick breakfast.",
+    "variation_unique": "Add a teaspoon of vanilla extract and top with sugar-free maple syrup and fresh berries."
+  },
+  "infused-keto-salmon-patties": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "salmon",
+      "patties",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Cannabis keto salmon patties bind flaked salmon with egg and almond flour, pan-fried in infused oil for a protein-rich edible.",
+    "dosing_unique": "Form patties to the same weight using a kitchen scale and cook each in a measured amount of infused oil.",
+    "storage_unique": "Refrigerate cooked patties for up to 3 days; reheat in a skillet to maintain the crispy exterior.",
+    "variation_unique": "Add lemon zest and fresh dill to the patty mixture and serve with a sugar-free tartar sauce."
+  },
+  "cannabis-keto-spinach-dip": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "spinach",
+      "dip",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "375F",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Warm cannabis keto spinach dip blends cream cheese, spinach, and infused oil into a bubbly, savory appetizer for low-carb dipping.",
+    "dosing_unique": "Stir infused oil into the dip and serve with measured portions using a small ladle or serving spoon.",
+    "storage_unique": "Refrigerate for up to 4 days; reheat in the oven at 350F until bubbly.",
+    "variation_unique": "Add artichoke hearts and sun-dried tomatoes for a Mediterranean-inspired spinach artichoke dip."
+  },
+  "infused-keto-almond-flour-cake": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "keto",
+      "almond",
+      "flour",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "keto_baked",
+    "intro_unique": "A moist cannabis keto almond flour cake has a tender crumb and nutty flavor that rivals wheat-based cakes without the carbs.",
+    "dosing_unique": "Bake in a round pan and cut into 12 even slices; the infused coconut oil distributes evenly through the dense batter.",
+    "storage_unique": "Refrigerate for up to 5 days; the almond flour keeps the cake moist longer than traditional flour would.",
+    "variation_unique": "Add lemon zest and a sugar-free lemon glaze for a bright, citrusy keto cake."
+  },
+  "cannabis-vegan-brownies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "vegan",
+      "brownies",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "vegan_baked",
+    "intro_unique": "Dense, fudgy cannabis vegan brownies use flax eggs and infused coconut oil to deliver a plant-based edible indistinguishable from the original.",
+    "dosing_unique": "Cut the brownie slab into equal squares with a bench scraper and label each piece with its dose for safe sharing.",
+    "storage_unique": "Store in an airtight container at room temperature for 3 days or freeze individually wrapped for 2 months.",
+    "variation_unique": "Add a swirl of almond butter on top before baking for a nutty, marbled vegan brownie."
+  },
+  "infused-vegan-cheese-sauce": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "vegan",
+      "cheese",
+      "sauce",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Creamy cannabis vegan cheese sauce blends soaked cashews with nutritional yeast and infused coconut oil for a dairy-free nacho topping.",
+    "dosing_unique": "Blend a measured amount of infused oil into the sauce and pour measured portions over individual servings.",
+    "storage_unique": "Refrigerate in a jar for up to 5 days; reheat gently and add water to thin if needed.",
+    "variation_unique": "Add chipotle peppers in adobo sauce for a smoky, spicy vegan queso dip."
+  },
+  "cannabis-lentil-soup": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "lentil",
+      "soup",
+      "cannabis edible",
+      "vegan"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Hearty cannabis lentil soup simmers lentils with aromatic vegetables and finishes with a drizzle of infused olive oil for a nourishing vegan edible.",
+    "dosing_unique": "Stir infused oil into the finished soup and ladle into bowls using a measured scoop for per-serving dosing.",
+    "storage_unique": "Refrigerate for up to 5 days or freeze for up to 3 months; lentil soup freezes exceptionally well.",
+    "variation_unique": "Add a squeeze of lemon and a handful of fresh parsley before serving for brightness and color."
+  },
+  "infused-vegan-pancakes": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "vegan",
+      "pancakes",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "350F",
+    "texture_type": "baked",
+    "sub_category": "vegan_baked",
+    "intro_unique": "Fluffy cannabis vegan pancakes use plant milk and infused coconut oil in a simple batter that cooks up golden and tender.",
+    "dosing_unique": "Pour a measured quarter-cup of batter per pancake so each one has an identical dose of infused coconut oil.",
+    "storage_unique": "Freeze cooked pancakes in a single layer then stack with parchment; reheat in a toaster for a quick breakfast.",
+    "variation_unique": "Fold fresh blueberries into the batter and top with pure maple syrup for a classic blueberry pancake stack."
+  },
+  "cannabis-sweet-potato-curry": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "sweet",
+      "potato",
+      "curry",
+      "cannabis edible",
+      "vegan"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Cannabis sweet potato curry combines tender roasted sweet potato cubes with a rich coconut-infused sauce and fragrant spices.",
+    "dosing_unique": "Stir infused coconut oil into the curry at the end and serve over measured portions of rice or flatbread.",
+    "storage_unique": "Refrigerate for up to 4 days; the sweet potato holds its shape well when reheated.",
+    "variation_unique": "Add chickpeas and a handful of spinach in the last 5 minutes of cooking for added protein and greens."
+  },
+  "infused-jackfruit-tacos": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "jackfruit",
+      "tacos",
+      "cannabis edible",
+      "vegan"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Cannabis jackfruit tacos shred young green jackfruit into a pulled-pork texture and season it with infused oil and smoky spices.",
+    "dosing_unique": "Mix infused oil into the jackfruit filling while cooking and weigh the filling per taco for consistent dosing.",
+    "storage_unique": "Store the seasoned jackfruit filling in the fridge for up to 3 days; reheat and assemble tacos fresh.",
+    "variation_unique": "Top with a pineapple-jalapeno slaw for a sweet-heat contrast that brightens the smoky jackfruit."
+  },
+  "cannabis-vegan-chocolate-mousse": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "vegan",
+      "chocolate",
+      "mousse",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "190 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "vegan_sweet",
+    "intro_unique": "Silky cannabis vegan chocolate mousse whips aquafaba with melted dark chocolate and infused coconut oil into an airy, dairy-free dessert.",
+    "dosing_unique": "Fold infused oil into the chocolate base before adding the whipped aquafaba, then divide into individual cups.",
+    "storage_unique": "Refrigerate covered for up to 3 days; the mousse firms up slightly but maintains its silky texture.",
+    "variation_unique": "Top with coconut whipped cream and a pinch of flaky sea salt for an elegant, salted chocolate finish."
+  },
+  "infused-vegan-mac-and-cheese": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "vegan",
+      "mac",
+      "cheese",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Cannabis vegan mac and cheese coats elbow pasta in a cashew-based cheese sauce enriched with infused coconut oil for a comforting plant-based edible.",
+    "dosing_unique": "Blend infused oil into the cheese sauce and measure pasta portions by weight so each bowl gets the same dose.",
+    "storage_unique": "Refrigerate for up to 3 days; add a splash of plant milk when reheating to restore the creamy sauce.",
+    "variation_unique": "Top with herbed breadcrumbs and bake at 375F for 15 minutes for a crispy-topped vegan mac."
+  },
+  "cannabis-coconut-milk-ice-cream": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "coconut",
+      "milk",
+      "ice",
+      "cannabis edible",
+      "vegan"
+    ],
+    "nutrition": {
+      "calories": "190 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "vegan_sweet",
+    "intro_unique": "Cannabis coconut milk ice cream churns full-fat coconut milk with infused coconut oil into a creamy, dairy-free frozen edible.",
+    "dosing_unique": "Mix infused oil into the ice cream base before churning for even distribution; use a standard scoop for serving.",
+    "storage_unique": "Store in a freezer-safe container for up to 2 months; let soften at room temperature for 5 minutes before scooping.",
+    "variation_unique": "Swirl in a ribbon of salted caramel sauce and chopped roasted peanuts for a vegan sundae experience."
+  },
+  "infused-chickpea-stew": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "chickpea",
+      "stew",
+      "cannabis edible",
+      "vegan"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Cannabis chickpea stew simmers chickpeas with tomatoes and warm spices, finished with infused olive oil for a hearty vegan edible.",
+    "dosing_unique": "Drizzle infused oil into each bowl individually using a measured spoon rather than mixing into the whole pot.",
+    "storage_unique": "Refrigerate for up to 5 days or freeze for 3 months; stew actually improves in flavor the next day.",
+    "variation_unique": "Add preserved lemon and green olives for a Moroccan-inspired chickpea tagine variation."
+  },
+  "cannabis-vegan-protein-balls": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "vegan",
+      "protein",
+      "balls",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "190 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "vegan_sweet",
+    "intro_unique": "Cannabis vegan protein balls combine plant protein powder, oats, and infused coconut oil into no-bake bites for post-workout recovery.",
+    "dosing_unique": "Roll each ball using a tablespoon measure and weigh on a scale for uniform dosing across the batch.",
+    "storage_unique": "Refrigerate for up to one week or freeze for up to 2 months; they hold together well straight from the freezer.",
+    "variation_unique": "Roll in shredded coconut or cacao powder for different coatings that add flavor and visual variety."
+  },
+  "infused-vegan-pesto-zoodles": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "vegan",
+      "pesto",
+      "zoodles",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Cannabis vegan pesto zoodles toss spiralized zucchini in a dairy-free basil pesto made with infused olive oil and pine nuts.",
+    "dosing_unique": "Mix a measured amount of infused oil into the pesto and toss with weighed portions of zoodles for accurate dosing.",
+    "storage_unique": "Eat immediately; zucchini noodles release water quickly and do not store well once dressed.",
+    "variation_unique": "Add cherry tomatoes and marinated artichoke hearts for a Mediterranean zoodle bowl with more substance."
+  },
+  "cannabis-black-bean-soup": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "black",
+      "bean",
+      "soup",
+      "cannabis edible",
+      "vegan"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Smoky cannabis black bean soup blends simmered black beans with cumin and infused olive oil for a thick, protein-rich vegan edible.",
+    "dosing_unique": "Stir infused oil into the finished soup and serve in measured ladles; partially blending creates a thicker, more even consistency.",
+    "storage_unique": "Refrigerate for up to 5 days or freeze for up to 3 months; the soup thickens as it cools so add water when reheating.",
+    "variation_unique": "Top each bowl with diced avocado, a dollop of vegan sour cream, and a sprinkle of smoked paprika."
+  },
+  "infused-vegan-banana-ice-cream": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "vegan",
+      "banana",
+      "ice",
+      "cannabis edible"
+    ],
+    "nutrition": {
+      "calories": "190 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "no_cook",
+    "sub_category": "vegan_sweet",
+    "intro_unique": "One-ingredient cannabis banana ice cream blends frozen bananas with infused coconut oil for the easiest vegan frozen edible imaginable.",
+    "dosing_unique": "Add a measured amount of infused oil per banana used and blend until smooth for per-scoop dosing consistency.",
+    "storage_unique": "Serve immediately for soft-serve texture, or freeze for 1 hour for a firmer scoop; best consumed the same day.",
+    "variation_unique": "Blend in a tablespoon of peanut butter and a handful of chocolate chips for a chunky monkey flavor."
+  },
+  "cannabis-roasted-vegetable-medley": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "roasted",
+      "vegetable",
+      "medley",
+      "cannabis edible",
+      "vegan"
+    ],
+    "nutrition": {
+      "calories": "240 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "infused coconut oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "vegan_savory",
+    "intro_unique": "Cannabis roasted vegetable medley tosses seasonal vegetables in infused olive oil and roasts them until caramelized and tender.",
+    "dosing_unique": "Toss vegetables with a measured amount of infused oil and divide the roasted medley into equal portions by weight.",
+    "storage_unique": "Refrigerate for up to 4 days; roasted vegetables reheat well in a 400F oven for 10 minutes.",
+    "variation_unique": "Add a balsamic glaze drizzle and crumbled vegan feta after roasting for a sweet-tangy finish."
+  },
+  "cannabis-sparkling-lemonade": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "sparkling",
+      "lemonade",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "citrus",
+    "intro_unique": "Bubbly cannabis sparkling lemonade combines fresh lemon juice and sparkling water with cannabis tincture for a festive, alcohol-free refresher.",
+    "dosing_unique": "Add tincture to each glass individually rather than the pitcher so every guest gets their preferred dose.",
+    "storage_unique": "Mix fresh for each serving; sparkling water goes flat within an hour if stored.",
+    "variation_unique": "Add a splash of elderflower syrup and garnish with a sprig of thyme for a botanical sparkling lemonade."
+  },
+  "infused-virgin-mojito": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "virgin",
+      "mojito",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "herbal_tea",
+    "intro_unique": "An infused virgin mojito muddles fresh mint and lime with cannabis tincture and sparkling water for a crisp, herbaceous mocktail.",
+    "dosing_unique": "Add a measured dropper of tincture to each glass after muddling the mint and lime.",
+    "storage_unique": "Prepare and serve immediately; the mint wilts and the sparkling water flattens if left standing.",
+    "variation_unique": "Muddle fresh watermelon chunks along with the mint for a watermelon virgin mojito with natural pink color."
+  },
+  "cannabis-cucumber-mint-cooler": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "cucumber",
+      "mint",
+      "cooler",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "herbal_tea",
+    "intro_unique": "A cannabis cucumber mint cooler blends cool cucumber with fresh mint and a dose of tincture for a spa-like, calming mocktail.",
+    "dosing_unique": "Stir tincture into each individual glass and garnish with a cucumber ribbon for an elegant per-serving dose.",
+    "storage_unique": "Refrigerate the cucumber-mint base without tincture for up to 24 hours; add tincture and ice when serving.",
+    "variation_unique": "Add a few slices of fresh jalapeno for a spicy cucumber cooler with a surprising kick."
+  },
+  "infused-watermelon-slush": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "watermelon",
+      "slush",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "fruity",
+    "intro_unique": "Frozen cannabis watermelon slush blends fresh watermelon and ice with tincture for a frosty, hydrating summer mocktail.",
+    "dosing_unique": "Add tincture to the blender with the watermelon and ice so it distributes evenly; pour into equal-sized glasses.",
+    "storage_unique": "Serve immediately; the slush melts quickly and loses its frozen texture within 15 minutes.",
+    "variation_unique": "Add a handful of frozen strawberries for a strawberry-watermelon slush with deeper berry flavor."
+  },
+  "cannabis-lavender-lemonade": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "lavender",
+      "lemonade",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "citrus",
+    "intro_unique": "Cannabis lavender lemonade steeps dried lavender into a simple syrup and combines it with lemon juice and tincture for a floral, soothing drink.",
+    "dosing_unique": "Mix tincture into the completed lavender lemonade and stir well; pour measured glasses for consistent dosing.",
+    "storage_unique": "Refrigerate the lavender lemonade base for up to 3 days; add tincture to individual servings.",
+    "variation_unique": "Add a splash of butterfly pea flower tea for a color-changing lemonade that turns purple with the lemon acid."
+  },
+  "infused-tropical-punch": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "tropical",
+      "punch",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "fruity",
+    "intro_unique": "Cannabis tropical punch combines pineapple, orange, and passion fruit juices with tincture for a vibrant party-ready mocktail.",
+    "dosing_unique": "Stir tincture into the full punch bowl and use a ladle of known volume so each cup poured has an equal dose.",
+    "storage_unique": "Refrigerate the punch base for up to 2 days; stir before serving as the tincture may settle.",
+    "variation_unique": "Float scoops of mango sorbet in the punch bowl for a creamy, tropical float effect."
+  },
+  "cannabis-strawberry-basil-smash": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "strawberry",
+      "basil",
+      "smash",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "fruity",
+    "intro_unique": "A cannabis strawberry basil smash muddles ripe strawberries with fresh basil and tincture for a sweet, herbaceous mocktail with depth.",
+    "dosing_unique": "Add a measured dose of tincture to each glass after muddling the fruit and basil.",
+    "storage_unique": "Serve immediately; muddled strawberries oxidize and lose their vibrant color within an hour.",
+    "variation_unique": "Add a splash of balsamic vinegar for an Italian-inspired strawberry basil drink with savory undertones."
+  },
+  "infused-hibiscus-tea": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "hibiscus",
+      "tea",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "herbal_tea",
+    "intro_unique": "Ruby-red infused hibiscus tea steeps dried hibiscus flowers with cannabis tincture for a tart, antioxidant-rich hot or iced drink.",
+    "dosing_unique": "Add tincture to each cup individually after steeping so the heat does not degrade the cannabinoids.",
+    "storage_unique": "Refrigerate the brewed hibiscus tea for up to 4 days; add tincture to each serving when ready to drink.",
+    "variation_unique": "Steep with a cinnamon stick and whole cloves for a warm, mulled hibiscus tea perfect for cold evenings."
+  },
+  "cannabis-peach-iced-tea": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "peach",
+      "iced",
+      "tea",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "herbal_tea",
+    "intro_unique": "Cannabis peach iced tea infuses black tea with fresh peach puree and a dose of tincture for a sweet Southern-style mocktail.",
+    "dosing_unique": "Stir tincture into the chilled tea and pour measured glasses; the peach puree helps mask any herbal tincture flavor.",
+    "storage_unique": "Refrigerate for up to 2 days; shake or stir before serving as the peach puree settles.",
+    "variation_unique": "Add a sprig of rosemary and a drizzle of honey for an herbal peach tea with floral aromatics."
+  },
+  "infused-mango-lassi": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "mango",
+      "lassi",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "fruity",
+    "intro_unique": "A thick, creamy infused mango lassi blends ripe mango with yogurt and cannabis tincture for a traditional Indian drink with a twist.",
+    "dosing_unique": "Blend tincture into each individual lassi serving so you can control the dose per glass precisely.",
+    "storage_unique": "Drink immediately or refrigerate for up to 4 hours; the yogurt separates if left too long.",
+    "variation_unique": "Add a pinch of cardamom and saffron threads for an authentic, fragrant lassi with golden hue."
+  },
+  "cannabis-rose-lemonade": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "rose",
+      "lemonade",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "citrus",
+    "intro_unique": "Delicate cannabis rose lemonade blends rosewater and fresh lemon juice with tincture for a beautifully pink, floral mocktail.",
+    "dosing_unique": "Add tincture to each glass and stir; the rosewater flavor pairs well with and masks the herbal tincture notes.",
+    "storage_unique": "Refrigerate the rose lemonade base for up to 3 days; add tincture to individual servings when ready.",
+    "variation_unique": "Garnish with edible rose petals and a sugar rim for a stunning presentation at special occasions."
+  },
+  "infused-pineapple-ginger-fizz": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "pineapple",
+      "ginger",
+      "fizz",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "fruity",
+    "intro_unique": "Zesty infused pineapple ginger fizz combines fresh pineapple juice with ginger beer and tincture for a bubbly, spicy-sweet mocktail.",
+    "dosing_unique": "Add tincture to each glass before topping with ginger beer; stir gently to avoid losing carbonation.",
+    "storage_unique": "Serve immediately; the ginger beer loses its fizz quickly once opened and mixed.",
+    "variation_unique": "Add a splash of turmeric juice and a pinch of black pepper for an anti-inflammatory golden fizz."
+  },
+  "cannabis-cranberry-spritzer": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "cranberry",
+      "spritzer",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "fruity",
+    "intro_unique": "Tart cannabis cranberry spritzer mixes unsweetened cranberry juice with sparkling water and tincture for a festive, low-sugar mocktail.",
+    "dosing_unique": "Add tincture to each glass individually and top with sparkling water for a measured, effervescent dose.",
+    "storage_unique": "Store the cranberry juice base in the fridge for up to 5 days; add sparkling water and tincture when serving.",
+    "variation_unique": "Add a splash of pomegranate juice and garnish with fresh rosemary for a holiday-themed spritzer."
+  },
+  "infused-matcha-cooler": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "matcha",
+      "cooler",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "herbal_tea",
+    "intro_unique": "An infused matcha cooler whisks ceremonial-grade matcha with iced oat milk and cannabis tincture for an earthy, energizing green drink.",
+    "dosing_unique": "Whisk tincture into the matcha paste before adding milk so it integrates fully into the drink.",
+    "storage_unique": "Serve immediately; matcha settles and the drink loses its vibrant green color if stored.",
+    "variation_unique": "Add a splash of vanilla syrup and serve over ice for a matcha vanilla iced latte with cannabis."
+  },
+  "cannabis-passion-fruit-lemonade": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "passion",
+      "fruit",
+      "lemonade",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "citrus",
+    "intro_unique": "Tropical cannabis passion fruit lemonade combines tangy passion fruit pulp with fresh lemon juice and tincture for an exotic, sunny mocktail.",
+    "dosing_unique": "Mix tincture into the lemonade base and stir well; strain the passion fruit seeds or leave them for texture.",
+    "storage_unique": "Refrigerate for up to 2 days; stir before serving as the passion fruit pulp separates.",
+    "variation_unique": "Add coconut water instead of still water for a tropical island-inspired passion fruit coconut lemonade."
+  },
+  "infused-cherry-limeade": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "cherry",
+      "limeade",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "citrus",
+    "intro_unique": "Bold infused cherry limeade combines tart cherry juice with fresh lime and cannabis tincture for a retro-diner-style mocktail.",
+    "dosing_unique": "Add tincture to each glass with measured cherry juice and lime for consistent per-serving dosing.",
+    "storage_unique": "Refrigerate the cherry-lime base for up to 3 days; add tincture and ice when serving.",
+    "variation_unique": "Use frozen dark sweet cherries muddled in the glass for a fresh, chunky cherry limeade with more fruit."
+  },
+  "cannabis-mint-green-tea": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "mint",
+      "green",
+      "tea",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "herbal_tea",
+    "intro_unique": "Cannabis mint green tea steeps loose-leaf green tea with fresh mint and adds tincture for a light, refreshing hot or iced edible drink.",
+    "dosing_unique": "Steep tea first, then add tincture to each cup after cooling slightly to preserve cannabinoid potency.",
+    "storage_unique": "Refrigerate brewed tea for up to 2 days; add tincture to individual servings when ready to drink.",
+    "variation_unique": "Add a teaspoon of honey and a squeeze of lemon for a Moroccan-inspired sweetened mint tea."
+  },
+  "infused-blueberry-lemonade": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "blueberry",
+      "lemonade",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "citrus",
+    "intro_unique": "Vibrant infused blueberry lemonade blends fresh blueberries with lemon juice and tincture for a stunning purple mocktail packed with antioxidants.",
+    "dosing_unique": "Blend tincture into the blueberry puree before straining and mixing with lemonade for even distribution.",
+    "storage_unique": "Refrigerate for up to 2 days; shake before serving as the blueberry puree settles to the bottom.",
+    "variation_unique": "Add a splash of coconut cream for a creamy blueberry lemonade smoothie with a tropical twist."
+  },
+  "cannabis-ginger-turmeric-tonic": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "ginger",
+      "turmeric",
+      "tonic",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "herbal_tea",
+    "intro_unique": "A warming cannabis ginger turmeric tonic combines anti-inflammatory ginger and turmeric with tincture, honey, and lemon for a wellness-focused mocktail.",
+    "dosing_unique": "Mix tincture into each cup after the tonic cools to drinking temperature to preserve the cannabinoids.",
+    "storage_unique": "Refrigerate the ginger-turmeric base for up to 5 days; reheat gently and add tincture when serving.",
+    "variation_unique": "Add a pinch of cayenne pepper and apple cider vinegar for a fire cider-inspired immune-boosting tonic."
+  },
+  "infused-coconut-lime-agua-fresca": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "coconut",
+      "lime",
+      "agua",
+      "cannabis edible",
+      "mocktails"
+    ],
+    "nutrition": {
+      "calories": "80 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis tincture",
+    "cook_temp": "no_cook",
+    "texture_type": "no_cook",
+    "sub_category": "fruity",
+    "intro_unique": "A light infused coconut lime agua fresca blends coconut water with fresh lime juice and tincture for a hydrating, tropical mocktail.",
+    "dosing_unique": "Add tincture to the full pitcher and stir thoroughly; pour equal-sized glasses for consistent dosing.",
+    "storage_unique": "Refrigerate for up to 2 days; the coconut water keeps the drink fresh and naturally sweet.",
+    "variation_unique": "Add muddled fresh mint and a splash of pineapple juice for a pina colada-inspired agua fresca."
+  },
+  "cannabis-feijoada": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "feijoada",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_savory",
+    "intro_unique": "Cannabis feijoada is a rich Brazilian black bean and pork stew simmered with infused olive oil, served over rice with traditional sides.",
+    "dosing_unique": "Stir infused oil into the stew at the end of cooking and serve with a measured ladle for per-bowl dosing.",
+    "storage_unique": "Refrigerate for up to 4 days or freeze for 2 months; feijoada tastes even better the next day.",
+    "variation_unique": "Add sliced Portuguese linguica sausage and smoked pork ribs for a more traditional, smokier stew."
+  },
+  "infused-brigadeiro": {
+    "prepTime": "PT20M",
+    "cookTime": "PT20M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "brigadeiro",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "230 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused condensed milk",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_sweet",
+    "intro_unique": "Infused brigadeiros are beloved Brazilian chocolate truffles made from cannabis-infused condensed milk, cocoa, and butter rolled into bite-sized balls.",
+    "dosing_unique": "Roll each brigadeiro to the same size using a teaspoon measure so every piece has an identical dose.",
+    "storage_unique": "Store in petit four cups in the fridge for up to one week; they firm up perfectly when chilled.",
+    "variation_unique": "Use white chocolate and coconut instead of cocoa for a beijinho-brigadeiro hybrid called prestígio."
+  },
+  "cannabis-pacoca": {
+    "prepTime": "PT20M",
+    "cookTime": "PT20M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "paoca",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "230 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused condensed milk",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_sweet",
+    "intro_unique": "Cannabis pacoca is a crumbly Brazilian peanut candy made with ground roasted peanuts, sugar, and infused condensed milk pressed into sweet cylinders.",
+    "dosing_unique": "Press the mixture into a mold and cut into equal pieces by weight for uniform dosing per candy.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 2 weeks; the candy stays crumbly and fresh.",
+    "variation_unique": "Dip the bottom of each pacoca in melted dark chocolate for a chocolate-peanut combination."
+  },
+  "infused-coxinha": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "coxinha",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_savory",
+    "intro_unique": "Infused coxinhas are teardrop-shaped Brazilian croquettes filled with seasoned shredded chicken and fried in a dough made with infused oil.",
+    "dosing_unique": "Shape each coxinha to the same size using a kitchen scale and fry them in batches for consistent dosing.",
+    "storage_unique": "Freeze uncooked coxinhas on a sheet pan and transfer to a bag; fry directly from frozen when ready to serve.",
+    "variation_unique": "Fill with catupiry cheese alongside the chicken for the classic coxinha de catupiry variation."
+  },
+  "cannabis-pao-de-queijo": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "po",
+      "de",
+      "queijo",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_savory",
+    "intro_unique": "Cannabis pao de queijo are chewy Brazilian cheese bread balls made with tapioca flour and infused olive oil for a naturally gluten-free edible.",
+    "dosing_unique": "Scoop dough with a tablespoon measure for uniform balls; each one should weigh the same for equal dosing.",
+    "storage_unique": "Freeze unbaked dough balls on a parchment-lined sheet; bake directly from frozen, adding 3 minutes to the cook time.",
+    "variation_unique": "Add grated Parmesan and a pinch of calabresa pepper flakes for a spicy, extra-cheesy version."
+  },
+  "infused-acai-bowl": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "aa",
+      "bowl",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_savory",
+    "intro_unique": "An infused acai bowl blends frozen acai pulp with cannabis tincture and banana into a thick, purple smoothie base topped with granola and fruit.",
+    "dosing_unique": "Add tincture to the blender with the acai and banana so the dose distributes evenly through the bowl.",
+    "storage_unique": "Serve immediately; acai bowls melt and lose their thick texture within 20 minutes.",
+    "variation_unique": "Top with toasted coconut flakes, cacao nibs, and a drizzle of honey for a classic Brazilian acai experience."
+  },
+  "cannabis-moqueca": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "moqueca",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_savory",
+    "intro_unique": "Cannabis moqueca is a fragrant Brazilian fish stew simmered in coconut milk, tomatoes, and infused olive oil with dendê-style flavors.",
+    "dosing_unique": "Stir infused oil into the stew at the end and ladle equal portions of fish and broth into each bowl.",
+    "storage_unique": "Refrigerate for up to 2 days; reheat gently to avoid overcooking the fish.",
+    "variation_unique": "Use shrimp instead of white fish and add a splash of palm oil (dendê) for the most authentic Bahian flavor."
+  },
+  "infused-tapioca-crepe": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "tapioca",
+      "crepe",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_savory",
+    "intro_unique": "An infused tapioca crepe cooks hydrated tapioca flour on a dry griddle and fills it with savory or sweet fillings drizzled with infused oil.",
+    "dosing_unique": "Drizzle a measured teaspoon of infused coconut oil inside each crepe before adding fillings for precise dosing.",
+    "storage_unique": "Eat immediately; tapioca crepes become rubbery when they cool and do not store or reheat well.",
+    "variation_unique": "Fill with coconut flakes and infused condensed milk for a classic coco com leite condensado tapioca."
+  },
+  "cannabis-beijinho": {
+    "prepTime": "PT20M",
+    "cookTime": "PT20M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "beijinho",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "230 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "infused condensed milk",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_sweet",
+    "intro_unique": "Cannabis beijinhos are delicate Brazilian coconut truffles made from infused condensed milk and shredded coconut, a sweeter cousin to the brigadeiro.",
+    "dosing_unique": "Roll each beijinho to the same size using a teaspoon measure and top with a single clove for the traditional presentation.",
+    "storage_unique": "Refrigerate in petit four cups for up to one week; they hold their shape best when kept cold.",
+    "variation_unique": "Roll in toasted coconut flakes instead of regular for a nuttier, more deeply flavored coating."
+  },
+  "infused-empadao": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "empado",
+      "cannabis edible",
+      "international"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "infused olive oil",
+    "cook_temp": "stovetop",
+    "texture_type": "stovetop",
+    "sub_category": "brazilian_savory",
+    "intro_unique": "Infused empadao is a large Brazilian savory pie with a flaky cannabis-infused crust filled with chicken, olives, and hearts of palm.",
+    "dosing_unique": "The infused oil is in the crust, so cut the pie into equal slices for consistent per-portion dosing.",
+    "storage_unique": "Refrigerate for up to 3 days; reheat slices in a 350F oven for 10 minutes to re-crisp the crust.",
+    "variation_unique": "Make individual empadinhas (small tartlets) instead of one large pie for built-in portion control and easier dosing."
+  }
+}
