@@ -317,8 +317,7 @@
           <div class="article-takeaway">
             <h4>Kernaussage</h4>
             <p>Ganzblüten-Infusionen bewahren das volle Spektrum an Cannabinoiden, Terpenen und Flavonoiden — und liefern den Entourage-Effekt ohne Lösungsmittelrückstände oder aggressive Chemikalien.</p>
-          </div>          ||          ||
-
+          </div>
           <h2 id="the-entourage-effect" class="mt-4">Der Entourage-Effekt</h2>
           <p>
             Ganze Cannabisblüten enthalten Hunderte von aktiven Verbindungen — nicht nur THC und CBD, sondern auch kleinere Cannabinoide wie CBG, CBN und CBC sowie Dutzende von Terpenen und Flavonoiden. Diese Verbindungen wirken zusammen in dem, was Forscher den <strong>Entourage-Effekt</strong> nennen, bei dem die kombinierte Wirkung all dieser Moleküle ein ausgewogeneres, therapeutischeres Erlebnis erzeugt als jede einzelne Verbindung allein.
@@ -338,8 +337,6 @@
           </p>
 
           <!-- Mid-article Ad -->
-          ||
-          ||
 
           <h2 id="gentler-on-your-body" class="mt-4">Sanfter für Ihren Körper</h2>
           <p>
@@ -446,11 +443,12 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-
+</script>
 
     <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
@@ -458,6 +456,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
+<script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -465,7 +464,7 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/de/?search=' + encodeURIComponent(q); }
         });
       })();
-
+</script>
       <script src="/js/dark-mode.js"></script>
   </body>
 </html>

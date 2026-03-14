@@ -273,9 +273,6 @@
     <div class="container page-content">
       <div class="row">
   <div class="col-md-7 order-1 order-md-1 recipe-left-col">
-||
-
-
 <div class="recipe-hero-img-wrap">
   <img src="/images/recipes/infused-mushroom-risotto.jpg" alt="Infundiertes Pilzrisotto" class="recipe-hero-img" />
 </div>
@@ -525,11 +522,12 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-
+</script>
 
     <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
@@ -537,6 +535,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
+<script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;

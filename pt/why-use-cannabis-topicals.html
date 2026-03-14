@@ -317,8 +317,7 @@
 <div class="article-takeaway">
   <h4>Ponto principal</h4>
   <p>Os tópicos de cannabis proporcionam alívio direcionado da dor e inflamação diretamente onde você os aplica — sem nenhum efeito psicoativo ou risco de consumo excessivo.</p>
-</div>||||
-
+</div>
 <h2 id="targeted-pain-relief">Alívio direcionado da dor</h2>
 <p>
   Quando você aplica um tópico de cannabis em um músculo dolorido, uma articulação rígida ou uma área inflamada, os canabinoides interagem com os receptores CB1 e CB2 na sua pele e no tecido logo abaixo dela. Isso significa que o alívio vai exatamente para onde você aplica, em vez de afetar o corpo inteiro. Pessoas com artrite, tendinite e lesões esportivas consideram os tópicos particularmente eficazes para controlar a dor localizada.
@@ -443,11 +442,12 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-
+</script>
 
     <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
@@ -455,6 +455,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
+<script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -462,7 +463,7 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/pt/?search=' + encodeURIComponent(q); }
         });
       })();
-
+</script>
       <script src="/js/dark-mode.js"></script>
   </body>
 </html>

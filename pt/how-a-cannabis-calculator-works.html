@@ -314,8 +314,7 @@
             A ideia desta calculadora veio do <a href="https://beyondchronic.com/2015/11/ohs-law-of-cannabis-edible-potency/" rel="noopener noreferrer" target="_blank">site do Old Hippie</a>. Nossa calculadora usa o mesmo conceito da Lei de Ohm — você pode não se lembrar dela das aulas de física, mas é fácil de entender com cannabis.
           </p>
 
-          <div class="article-takeaway"><h4>Ponto principal</h4><p>A potência dos comestíveis é calculada com uma fórmula simples: P = 10 x G x S x E / N. Você só precisa saber quanta cannabis está usando, sua porcentagem de THC e quantas porções está fazendo.</p></div>          ||          ||
-
+          <div class="article-takeaway"><h4>Ponto principal</h4><p>A potência dos comestíveis é calculada com uma fórmula simples: P = 10 x G x S x E / N. Você só precisa saber quanta cannabis está usando, sua porcentagem de THC e quantas porções está fazendo.</p></div>
           <h2 id="the-concept" class="mt-4">O conceito por trás da calculadora</h2>
           <p>
             Nossa calculadora usa o mesmo conceito da Lei de Ohm — você pode não se lembrar dela das aulas de física, mas é fácil de entender com cannabis. Inserindo alguns números simples, você pode prever exatamente quão forte cada porção dos seus comestíveis caseiros será antes mesmo de começar a cozinhar.
@@ -472,11 +471,12 @@
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-90858722-1');
-
+</script>
 
     <script src="/js/search-autocomplete.js"></script>
     <!-- jQuery + Bootstrap 4 bundle -->
@@ -484,6 +484,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="/js/mobile-menu.js"></script>
     <!-- Search redirect for non-homepage pages -->
+<script>
       (function(){
         var inp = document.getElementById('recipe-search');
         if (!inp || document.getElementById('pagination-controls')) return;
@@ -491,7 +492,7 @@
           if (e.key === 'Enter') { e.preventDefault(); var q = inp.value.trim(); if (q) window.location.href = '/pt/?search=' + encodeURIComponent(q); }
         });
       })();
-
+</script>
       <script src="/js/dark-mode.js"></script>
   </body>
 </html>
