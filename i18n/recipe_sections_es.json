@@ -243,6 +243,53 @@
             "a": "Puedes calentarlo suavemente pero evita sobrecalentarlo. Calentar en el microondas a potencia alta puede crear puntos calientes que degradan el THC localmente. Usa 50% de potencia en intervalos de 15 segundos, revolviendo entre cada uno. Honestamente, la mayoría de los pudines de cannabis saben mejor fríos o a temperatura ambiente."
           }
         ]
+      },
+      "custard": {
+        "intro": "Esta receta de %{name} con cannabis combina %{base_fat} con huevos y crema para un flan sedoso y rico que entrega una dosis perfectamente medida en cada cucharada. Los flanes son una forma elegante de disfrutar comestibles de cannabis porque la base de huevo y grasa crea una emulsión natural que distribuye el THC con uniformidad excepcional. Horneado suavemente a %{cook_temp}, tu flan con cannabis quedará perfecto.",
+        "dosing_tips": [
+          "Bate el %{base_fat} en la crema tibia antes de añadir los huevos para asegurar que la grasa de cannabis esté completamente emulsionada en todo el flan.",
+          "Vierte en ramequines individuales para porciones pre-dosificadas con una dosis precisa y conocida por recipiente.",
+          "Apunta a 5-10 mg por ramequín. Los flanes son ricos y se comen lentamente, así que los efectos se acumulan gradualmente durante 60-90 minutos.",
+          "Cuela la mezcla del flan por un colador fino antes de hornear para eliminar grumos y garantizar una distribución uniforme del THC."
+        ],
+        "common_mistakes": [
+          "Sobrecalentar la mezcla de crema y %{base_fat} hace que los huevos se cuajen al añadirlos, arruinando la textura suave y creando bolsas irregulares de THC.",
+          "Hornear a temperaturas superiores a %{cook_temp} hace que el flan se cuaje y forme burbujas, afectando tanto la textura como la distribución de cannabinoides.",
+          "Saltarse el baño maría al hornear lleva a bordes sobrecocidos y centro crudo, resultando en potencia inconsistente en cada porción.",
+          "Añadir la grasa de cannabis directamente a los huevos fríos en lugar de temperar lentamente resulta en separación y un flan granuloso."
+        ],
+        "storage": [
+          "Cubre cada ramequín con film plástico y refrigera hasta por 4 días. Los flanes en realidad saben mejor después de enfriarse toda la noche.",
+          "Los flanes con cannabis no se congelan bien porque las proteínas de los huevos se descomponen, resultando en una textura acuosa y separada al descongelar.",
+          "Etiqueta cada ramequín con la dosis y la fecha. Si sirves a invitados, coloca una tarjeta al lado indicando el contenido de THC."
+        ],
+        "variations": [
+          "Haz un crème brûlée con cannabis caramelizando una fina capa de azúcar sobre tu flan frío para una presentación dramática.",
+          "Infusiona la crema con vaina de vainilla, lavanda o ralladura de cítricos junto con el %{base_fat} para un perfil gourmet de sabor.",
+          "Usa crema de coco con cannabis en lugar de lácteos para un flan vegano cuajado con agar en lugar de huevos."
+        ],
+        "faq": [
+          {
+            "q": "¿Por qué mi %{name} con cannabis se cuajó en el horno?",
+            "a": "El cuajado ocurre cuando el flan se hornea a una temperatura demasiado alta o durante demasiado tiempo. Siempre usa baño maría a %{cook_temp} y verifica la cocción temprano. El centro debe temblar ligeramente como gelatina cuando esté listo. La grasa de cannabis no causa el cuajado; es puramente un problema de calor."
+          },
+          {
+            "q": "¿Puedo usar crema infusionada con cannabis en lugar de mantequilla en el flan?",
+            "a": "Sí, la crema infusionada con cannabis es ideal para flanes ya que la crema es un ingrediente principal. Esto elimina la necesidad de emulsionar una grasa separada y produce la textura más suave posible. Calcula tu dosis basándote en la potencia de la crema infusionada."
+          },
+          {
+            "q": "¿Cuánto tarda un flan con cannabis en hacer efecto?",
+            "a": "Espera entre 45-90 minutos para el efecto completo. El alto contenido de grasa y proteína de los huevos y la crema crea una digestión lenta y constante que típicamente produce efectos graduales y duraderos. Esto hace del flan un formato de comestible indulgente para manejar tu experiencia."
+          },
+          {
+            "q": "¿El baño maría afecta la potencia del THC?",
+            "a": "No, el baño maría es esencial y no afecta el THC en absoluto. Simplemente regula la temperatura del horno alrededor del flan, manteniéndola suave y uniforme. Este calor indirecto en realidad protege los cannabinoides mejor que el calor seco directo del horno."
+          },
+          {
+            "q": "¿Puedo hacer flan o panna cotta con cannabis?",
+            "a": "Por supuesto. El flan usa la misma base con una capa de caramelo, y la mantequilla o crema con cannabis se integra perfectamente. La panna cotta usa gelatina en lugar de huevos, y la crema con cannabis es una base ideal. Ambos son excelentes vehículos para una dosificación precisa y elegante de cannabis."
+          }
+        ]
       }
     },
     "Snacks": {
@@ -386,6 +433,194 @@
             "a": "Absolutamente. Una cucharada medida de dip de cannabis en un sándwich o wrap es una excelente manera de dosificar de forma consistente. Esto es especialmente conveniente con dips de cannabis a base de queso crema o hummus que se untan fácilmente y se conservan bien."
           }
         ]
+      },
+      "savory_bites": {
+        "intro": "Esta receta de %{name} con cannabis usa %{base_fat} para crear bocaditos salados en porciones individuales, perfectos para una dosificación controlada a %{cook_temp}. Los bocaditos salados son el formato ideal de %{category} con cannabis porque cada pieza tiene un tamaño individual para una dosis precisa y consistente. Estos sabrosos bocaditos llevan condimentos intensos que complementan las notas herbales del cannabis.",
+        "dosing_tips": [
+          "Calcula el THC total en tu lote de %{base_fat} y divide por el número exacto de porciones para una dosificación precisa por pieza.",
+          "Mantén cada bocadito en 2.5-5 mg para que los invitados puedan comer uno o dos y se mantengan en un rango cómodo.",
+          "Usa una cucharita para galletas o una cuchara medidora para asegurar que cada bocadito sea del mismo tamaño y por lo tanto la misma dosis.",
+          "Los bocaditos salados son fáciles de comer en exceso. Separa una cantidad controlada por persona y guarda el resto."
+        ],
+        "common_mistakes": [
+          "Formar bocaditos de diferentes tamaños crea dosis muy variadas por pieza. Pesa o mide cada uno de forma consistente.",
+          "Hornear bocaditos salados a altas temperaturas para lograr crocancia puede degradar el THC. Mantén a %{cook_temp} o por debajo y añade %{base_fat} después de hornear si es necesario.",
+          "Condimentar poco los bocaditos salados permite que el sabor del cannabis domine. Usa ajo, hierbas, queso y especias generosamente.",
+          "Dejar bocaditos con cannabis en una mesa común sin etiquetar. Siempre indica claramente que contienen THC y señala la dosis por pieza."
+        ],
+        "storage": [
+          "Guarda los bocaditos salados con cannabis en un recipiente hermético a temperatura ambiente por hasta 5 días, o refrigera hasta 10 días.",
+          "Congela bocaditos salados horneados hasta por 2 meses. Recalienta en el horno a 300 F (150 C) para mejor textura.",
+          "Etiqueta los recipientes con el THC total y la dosis por pieza para un consumo seguro y responsable."
+        ],
+        "variations": [
+          "Enrolla %{base_fat} en bolitas de queso cubiertas con hierbas y nueces para un aperitivo elegante.",
+          "Haz mini quiches con cannabis en un molde de muffins para un comestible de brunch con dosificación precisa.",
+          "Rellena champiñones con una mezcla de pan rallado con cannabis para un bocadito sofisticado e individualmente porcionado."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuántos bocaditos salados con cannabis debo comer?",
+            "a": "Empieza con uno y espera al menos 90 minutos antes de comer otro. Si cada bocadito tiene 5 mg, uno es una dosis inicial estándar. Los bocaditos salados están diseñados para un fácil control de porciones, pero debes tener disciplina y llevar un registro de tu consumo."
+          },
+          {
+            "q": "¿Puedo hacer %{name} con cannabis con anticipación para una fiesta?",
+            "a": "Sí, la mayoría de los bocaditos salados se pueden preparar con un día de antelación y refrigerar. Lleva a temperatura ambiente o recalienta suavemente antes de servir. Prepara una tarjeta mostrando el contenido de THC por pieza y colócala visiblemente junto a la bandeja."
+          },
+          {
+            "q": "¿Qué condimentos combinan mejor con bocaditos salados de cannabis?",
+            "a": "Sabores intensos como pimentón ahumado, ajo en polvo, romero, parmesano y sésamo complementan y enmascaran las notas del cannabis. Ingredientes ricos en umami como tomates secos y aceitunas también combinan excepcionalmente bien."
+          },
+          {
+            "q": "¿Los bocaditos salados son mejores que los dulces para la dosificación?",
+            "a": "Los bocaditos salados son excelentes para la dosificación porque son menos tentadores de comer en exceso que los dulces. La gente tiende a comer dulces impulsivamente, mientras que los bocaditos salados se consumen de forma más consciente. Ambos se pueden dosificar con precisión con la preparación adecuada."
+          },
+          {
+            "q": "¿Puedo usar freidora de aire para bocaditos salados con cannabis?",
+            "a": "Las freidoras de aire circulan aire muy caliente que puede degradar el THC en las superficies expuestas. Si usas freidora de aire, arma los bocaditos con la grasa de cannabis sellada adentro, o añade aceite de cannabis como un chorrito después de cocinar. Mantén las temperaturas a 325 F (165 C) o menos."
+          }
+        ]
+      },
+      "dips_spreads": {
+        "intro": "Esta receta de %{name} con cannabis mezcla %{base_fat} en un untable rico y compartible que convierte cualquier cracker o tostada en un comestible dosificado con precisión. Los dips y untables con cannabis ofrecen una de las formas más simples de incorporar THC a tu rutina de %{category} porque la base cremosa se emulsiona naturalmente con las grasas infusionadas. Sirve con una variedad de acompañamientos para una experiencia social y personalizable.",
+        "dosing_tips": [
+          "Calcula el THC total en todo el lote de untable y divide por el número de porciones de una cucharada que rinde.",
+          "Proporciona una cuchara o espátula para servir para que cada persona tome una cantidad consistente y medida.",
+          "Etiqueta el untable claramente con los mg aproximados por cucharada para que los consumidores puedan tomar decisiones informadas.",
+          "Revuelve o remezcla el untable antes de cada uso, ya que la grasa de cannabis puede asentarse o migrar con el tiempo."
+        ],
+        "common_mistakes": [
+          "No mezclar el %{base_fat} completamente en la base del untable crea bolsas donde una cucharada tiene todo el THC y otra no tiene nada.",
+          "Hacer el untable demasiado líquido hace que el aceite de cannabis se separe y se acumule visiblemente en la superficie.",
+          "Servir untables de cannabis junto a opciones no infusionadas sin etiquetado distinto, arriesgando consumo accidental.",
+          "Usar demasiado %{base_fat} en relación a los otros ingredientes, creando una sensación grasosa en la boca y un sabor a cannabis abrumador."
+        ],
+        "storage": [
+          "Refrigera los untables de cannabis en recipientes sellados hasta por 7 días. Lleva a temperatura ambiente por 15 minutos antes de servir para mejor textura.",
+          "Los untables de cannabis a base de mantequilla de maní se pueden almacenar a temperatura ambiente hasta por 2 semanas en un lugar fresco y oscuro.",
+          "No congeles untables de cannabis a base de lácteos ya que tienden a separarse y quedar granulosos al descongelar."
+        ],
+        "variations": [
+          "Mezcla %{base_fat} en hummus de pimiento rojo asado para un untable ahumado y sabroso con emulsificación natural.",
+          "Mezcla mantequilla con cannabis con miel y canela para un untable dulce que funciona en tostadas, waffles y frutas.",
+          "Crea una mantequilla compuesta con cannabis usando hierbas frescas, ajo y ralladura de limón para un untable versátil de acabado."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuál es la mejor base para un untable de cannabis?",
+            "a": "El queso crema, las mantequillas de frutos secos, el hummus y la mantequilla ablandada son bases excelentes porque ya son altos en grasa y lo suficientemente espesos para mantener el aceite de cannabis en suspensión. Elige según tu preferencia de sabor y necesidades dietéticas."
+          },
+          {
+            "q": "¿Puedo comprar un untable hecho y simplemente añadir cannabis?",
+            "a": "Sí, mezclar una cantidad medida de aceite de cannabis o mantequilla derretida con cannabis en cualquier untable comprado es una de las preparaciones más fáciles de comestibles. Mezcla bien y recalcula la dosis por porción basándote en lo que añadiste."
+          },
+          {
+            "q": "¿Cómo evito el sabor a cannabis en mi %{name}?",
+            "a": "Usa %{base_fat} bien colado y de calidad y combínalo con bases de sabor intenso. Ajo asado, chipotle, tomate seco y quesos fuertes superan las notas herbales del cannabis de forma eficaz."
+          },
+          {
+            "q": "¿Se pueden calentar los untables de cannabis para mojar?",
+            "a": "Calentar suavemente hasta la temperatura de servir está bien y no degradará el THC. Mantén por debajo de 200 F (93 C). Los dips calientes de queso y fondue con cannabis son deliciosos; solo calienta lentamente y revuelve con frecuencia para mantener la emulsión."
+          },
+          {
+            "q": "¿Cómo sirvo untables de cannabis de forma responsable en una reunión?",
+            "a": "Coloca el untable de cannabis en una sección separada y claramente marcada con un cartel mostrando la dosis por porción. Proporciona un utensilio de servir dedicado. Siempre ten opciones no infusionadas disponibles y sirve solo a adultos informados y que hayan dado su consentimiento."
+          }
+        ]
+      },
+      "finger_food": {
+        "intro": "Esta receta de %{name} con cannabis incorpora %{base_fat} en bocaditos para comer con la mano, sin necesidad de cubiertos, que hacen de la dosificación algo social y divertido. Los finger foods con cannabis son ideales para reuniones porque cada pieza es independiente con una dosis conocida, eliminando las conjeturas de los platos compartidos. Sabores intensos y presentaciones creativas hacen de estas opciones de %{category} un éxito.",
+        "dosing_tips": [
+          "Diseña cada pieza de finger food para que contenga exactamente una dosis de 5-10 mg para un seguimiento directo del consumo.",
+          "Envuelve, rellena o encapsula el elemento de cannabis dentro del finger food para que el THC quede sellado y distribuido uniformemente.",
+          "Proporciona una tarjeta en la bandeja listando ingredientes, alérgenos y la dosis exacta de THC por pieza para servir con responsabilidad.",
+          "Los finger foods a menudo se comen rápidamente en entornos sociales. Recuerda a los invitados que los efectos tardan 60-90 minutos antes de comer más."
+        ],
+        "common_mistakes": [
+          "Hacer finger foods tan pequeños que el sabor a cannabis se concentra, o tan grandes que la gente solo come la mitad y recibe una dosis inconsistente.",
+          "Aplicar %{base_fat} como un glaseado externo que se queda en las manos y servilletas, reduciendo la dosis efectivamente consumida.",
+          "Cocinar finger foods a temperaturas superiores a %{cook_temp} para crispar el exterior puede degradar el THC en las superficies expuestas.",
+          "Olvidar tener en cuenta las restricciones dietéticas de los invitados al elegir el formato de finger food."
+        ],
+        "storage": [
+          "La mayoría de los finger foods con cannabis se sirven mejor frescos. Prepara los componentes con antelación y ensambla poco antes de servir.",
+          "Refrigera los finger foods con cannabis ensamblados hasta por 24 horas, bien cubiertos para evitar que se sequen.",
+          "Congela finger foods con cannabis sin cocinar como champiñones rellenos o mini pasteles hasta por 6 semanas y hornea frescos."
+        ],
+        "variations": [
+          "Envuelve queso infusionado con cannabis en prosciutto y una hoja de albahaca para un finger food elegante de estilo italiano de dosis única.",
+          "Rellena copitas de masa filo con queso crema con cannabis y salmón ahumado para un aperitivo sofisticado.",
+          "Ensarta componentes de ensalada caprese y rocía con aceite de oliva con cannabis para un finger food fresco y sin cocción."
+        ],
+        "faq": [
+          {
+            "q": "¿Cómo aseguro una dosificación uniforme en los finger foods con cannabis?",
+            "a": "La clave es incorporar el %{base_fat} en un relleno, untable o masa que luego porciones de manera igual. Pesa cada pieza en una balanza de cocina para consistencia. Evita rociar aceite de cannabis por encima, lo que lleva a una distribución desigual."
+          },
+          {
+            "q": "¿Cuáles son los mejores finger foods con cannabis para principiantes?",
+            "a": "Dátiles rellenos con mantequilla de maní con cannabis, bolitas de queso con cannabis y bruschetta con aceite de oliva con cannabis son simples y fáciles. Requieren habilidad culinaria mínima y los sabores intensos enmascaran el sabor del cannabis eficazmente."
+          },
+          {
+            "q": "¿Puedo hacer finger foods con cannabis sin cocinar?",
+            "a": "Por supuesto. Rollitos de tortilla con queso crema con cannabis, apio relleno con mantequilla de maní con cannabis y tostadas con untable de cannabis son opciones sin cocción que preservan la potencia total del THC ya que no hay exposición al calor."
+          },
+          {
+            "q": "¿Cuántos finger foods con cannabis debo servir por persona?",
+            "a": "Limita a una o dos piezas por persona dependiendo de la dosis por pieza. Si cada pieza tiene 5 mg, dos piezas equivalen a una dosis estándar de 10 mg. Siempre proporciona abundantes finger foods sin infusionar junto con las opciones con cannabis."
+          },
+          {
+            "q": "¿Los finger foods con cannabis funcionan para microdosificación?",
+            "a": "Los finger foods son uno de los mejores formatos para microdosificación. Haz que cada pieza contenga 2.5 mg o menos, permitiendo que los consumidores coman una y evalúen los efectos antes de decidir otra. Las porciones pequeñas y controladas facilitan el ajuste fino de la experiencia."
+          }
+        ]
+      },
+      "fried_snacks": {
+        "intro": "Esta receta de %{name} con cannabis ofrece perfección crujiente y dorada al incorporar %{base_fat} estratégicamente sin exponerlo a temperaturas destructivas de fritura. Los snacks fritos con cannabis requieren una técnica específica: fríe en aceite regular para la textura, luego introduce el elemento de cannabis a través de una salsa de acabado, un chorrito o un dip. Este enfoque te da la crocancia que deseas con potencia total de THC.",
+        "dosing_tips": [
+          "Nunca frías directamente en aceite de cannabis. Las temperaturas de fritura de 350-375 F (175-190 C) degradan el THC rápidamente. Añade el componente de cannabis después de freír.",
+          "Rocía una cantidad medida de %{base_fat} sobre los items fritos inmediatamente después de escurrir, mientras aún están lo suficientemente calientes para absorberlo.",
+          "Sirve con una salsa de cannabis para mojar y controlar la dosis con precisión. Cada cucharada de salsa equivale a una dosis medida.",
+          "Los alimentos fritos son calóricos y satisfactorios, lo que ralentiza la digestión. Espera el inicio de efectos en 60-90 minutos."
+        ],
+        "common_mistakes": [
+          "Añadir %{base_fat} a la freidora es el error más común y desperdicioso. El calor alto destruye el THC y pierdes el aceite infusionado en la freidora.",
+          "Mezclar los items fritos con demasiado aceite de cannabis los hace empapados en lugar de crujientes. Usa un chorrito ligero o rociada.",
+          "No escurrir los items fritos adecuadamente antes de añadir aceite de cannabis, lo que atrapa vapor y crea una textura grasosa y blanda.",
+          "Asumir que un rebozado de cannabis protege el THC durante la fritura. Incluso los items rebozados alcanzan temperaturas internas que pueden degradar los cannabinoides."
+        ],
+        "storage": [
+          "Los snacks fritos con cannabis pierden su crocancia rápidamente. Consume dentro de unas pocas horas para la mejor experiencia.",
+          "Guarda la salsa de cannabis para mojar por separado en el refrigerador hasta por una semana. Vuelve a freír los snacks y reaplicar.",
+          "Sales condimentadas con cannabis o mezclas de especias con kief se pueden guardar en un frasco y espolvorear sobre items recién fritos bajo demanda."
+        ],
+        "variations": [
+          "Haz salsa buffalo con cannabis derritiendo %{base_fat} con salsa picante y mezclando con alitas o bocaditos de coliflor recién fritos.",
+          "Crea un aioli con cannabis para mojar snacks fritos mezclando aceite de cannabis en mayonesa con ajo.",
+          "Rocía miel con cannabis sobre tiras de pollo frito o buñuelos para una combinación dulce-picante con dosificación precisa."
+        ],
+        "faq": [
+          {
+            "q": "¿Puedo freír algo directamente en aceite de cannabis?",
+            "a": "No se recomienda. Las temperaturas de fritura superan los 350 F (175 C), lo que degrada rápidamente el THC. Desperdiciarías aceite de cannabis costoso y obtendrías efectos mínimos. Siempre fríe en aceite regular y añade el elemento de cannabis después como salsa, chorrito o mezcla."
+          },
+          {
+            "q": "¿Cómo hago papas fritas o chips con cannabis?",
+            "a": "Fríe tus papas en aceite regular hasta que estén crujientes, luego escurre y mezcla inmediatamente con %{base_fat} derretido y sal condimentada. La superficie caliente absorbe la grasa de cannabis, y la sal y condimentos enmascaran cualquier sabor herbal. Calcula la dosis por porción."
+          },
+          {
+            "q": "¿El aceite de cannabis hará que mi %{name} frito quede empapado?",
+            "a": "Solo si usas demasiado. Un chorrito ligero o mezcla con una pequeña cantidad de mantequilla de cannabis derretida no comprometerá la crocancia. Aplica mientras los items están calientes para que la grasa se absorba en la superficie en lugar de quedarse encima. Menos es más."
+          },
+          {
+            "q": "¿Cuál es la mejor salsa de cannabis para snacks fritos?",
+            "a": "Salsa ranch con cannabis, aioli de ajo con cannabis y mostaza con miel y cannabis son excelentes opciones. Los sabores intensos y cremosos enmascaran el sabor del cannabis, y cada porción de salsa se puede medir con precisión para una dosificación consistente."
+          },
+          {
+            "q": "¿Puedo usar freidora de aire para snacks con cannabis?",
+            "a": "Las freidoras de aire usan temperaturas de 350-400 F (175-200 C), así que no cubras los items con aceite de cannabis antes de usar la freidora de aire. En su lugar, cocina con aceite regular y luego mezcla los items terminados con %{base_fat} o sirve con una salsa de cannabis para mojar."
+          }
+        ]
       }
     },
     "Essentials": {
@@ -480,6 +715,147 @@
           {
             "q": "¿Cómo cuelo la leche de cannabis?",
             "a": "Usa un colador de malla fina forrado con gasa. Vierte la leche lentamente y exprime suavemente la gasa para extraer todo el líquido. Para un resultado extra suave, cuela dos veces. No presiones demasiado fuerte o empujarás materia vegetal a través."
+          }
+        ]
+      },
+      "sweetener": {
+        "intro": "Esta receta de %{name} con cannabis crea un endulzante infusionado versátil usando %{base_fat} que puedes añadir a bebidas, rociar sobre alimentos o usar en cualquier receta que requiera un endulzante líquido. Los endulzantes con cannabis son un elemento fundamental de %{category} que todo cocinero de comestibles debería tener a mano. Una vez preparados, hacen que la dosificación de alimentos cotidianos sea fácil y precisa.",
+        "dosing_tips": [
+          "Calcula el THC total de tu lote y divide por el número de porciones de cucharadita o cucharada para saber la dosis exacta por medida.",
+          "Comienza con una cucharadita en tu café o té y espera 60-90 minutos para evaluar la potencia antes de añadir más la próxima vez.",
+          "Usa un frasco con boquilla o gotero para dispensar con precisión. Cada gota debe entregar una cantidad consistente y conocida de THC.",
+          "Los endulzantes con cannabis pueden ser engañosamente potentes porque están concentrados. Siempre mide en lugar de verter libremente."
+        ],
+        "common_mistakes": [
+          "Calentar miel o jarabe con cannabis por encima de 300 F (150 C) al cocinar destruye el THC. Añade el endulzante a platos terminados o úsalo en aplicaciones sin calor.",
+          "No revolver la miel infusionada con cannabis completamente durante la preparación hace que el cannabis se asiente y crea potencia inconsistente.",
+          "Hacer el endulzante demasiado espeso o cristalizado dificulta la medición precisa. Mantén una consistencia líquida y vertible.",
+          "Asumir que el azúcar con cannabis tiene la misma potencia que el aceite de cannabis. Las infusiones a base de azúcar son típicamente menos concentradas y menos eficientes."
+        ],
+        "storage": [
+          "La miel con cannabis se almacena a temperatura ambiente en un frasco sellado hasta por 6 meses. Sus propiedades antimicrobianas naturales previenen el deterioro.",
+          "El jarabe simple con cannabis se conserva refrigerado hasta por 3 semanas. Añade un chorrito de vodka para extender la vida útil a 6 semanas.",
+          "El azúcar con cannabis debe almacenarse en un recipiente hermético en un lugar fresco y seco. Se conserva por varios meses sin pérdida de potencia."
+        ],
+        "variations": [
+          "Haz miel infusionada con cannabis calentando miel suavemente con flor descarboxilada o tintura de cannabis a fuego bajo para un endulzante dorado y versátil.",
+          "Crea jarabe simple con cannabis disolviendo azúcar en agua con tintura de cannabis para un endulzante líquido perfecto para bebidas.",
+          "Infusiona néctar de agave con aceite de cannabis y lecitina para un endulzante vegano que se mezcla suavemente en bebidas frías."
+        ],
+        "faq": [
+          {
+            "q": "¿Cómo hago miel con cannabis?",
+            "a": "Calienta miel suavemente hasta 160 F (70 C), añade la flor descarboxilada molida, mantén a fuego bajo por 40 minutos revolviendo frecuentemente y luego cuela a través de una gasa. Alternativamente, mezcla tintura de cannabis directamente en la miel para un proceso más simple con cálculos de dosis más fáciles."
+          },
+          {
+            "q": "¿Puedo usar %{name} con cannabis para hornear?",
+            "a": "Sí, pero solo en recetas donde el endulzante no esté expuesto a temperaturas superiores a 300 F (150 C) por períodos prolongados. Funciona mejor en recetas sin horno, glaseados, coberturas y bebidas. Para productos horneados, añade el endulzante de cannabis después de hornear como un chorrito por encima."
+          },
+          {
+            "q": "¿La miel con cannabis o la mantequilla con cannabis es más versátil?",
+            "a": "La mantequilla con cannabis es más versátil para cocinar y hornear, mientras que la miel con cannabis sobresale en bebidas, chorritos y aplicaciones sin calor. Idealmente, ten ambas en tu cocina cannábica. Sirven propósitos diferentes y se complementan mutuamente."
+          },
+          {
+            "q": "¿Cuánto dura el jarabe simple con cannabis?",
+            "a": "Refrigerado en un recipiente sellado, el jarabe simple con cannabis dura 2-3 semanas. Añadir una cucharada de vodka por taza de jarabe extiende la vida útil a aproximadamente 6 semanas. La concentración de azúcar ayuda a preservarlo, pero puede desarrollarse moho si se deja demasiado tiempo."
+          },
+          {
+            "q": "¿Puedo hacer jarabe de arce con cannabis?",
+            "a": "Sí, calienta jarabe de arce real suavemente y mezcla tintura de cannabis o aceite de cannabis bien colado con lecitina. El sabor fuerte del jarabe de arce enmascara las notas de cannabis perfectamente. Calcula la dosis por cucharada y úsalo en panqueques, avena o cócteles."
+          }
+        ]
+      },
+      "tincture": {
+        "intro": "Esta receta de %{name} con cannabis extrae cannabinoides potentes en forma líquida que ofrece dosificación sublingual precisa sin necesidad de cocinar. Las tinturas de cannabis son una de las preparaciones más importantes de %{category} porque son versátiles, de acción rápida cuando se toman bajo la lengua y se pueden añadir a prácticamente cualquier alimento o bebida. Domina esta técnica para tener el elemento esencial definitivo de la despensa cannábica.",
+        "dosing_tips": [
+          "Usa un gotero graduado para medir cada dosis en mililitros. Calcula el THC total del lote y divide por el volumen total para precisión en mg por ml.",
+          "Para uso sublingual, mantén la tintura bajo la lengua por 60-90 segundos antes de tragar. Los efectos pueden comenzar en 15-30 minutos de esta manera.",
+          "Al añadir tintura a alimentos, los efectos siguen el tiempo normal de comestibles de 45-90 minutos ya que pasa por la digestión.",
+          "Comienza con 0.25-0.5 ml de una tintura estándar y aumenta gradualmente. Las tinturas son concentradas y fáciles de sobredosificar."
+        ],
+        "common_mistakes": [
+          "Usar alcohol de baja graduación para la extracción produce una tintura débil. Usa etanol alimentario de 190 proof para máxima extracción de cannabinoides.",
+          "No descarboxilar la flor antes de sumergir en alcohol. El cannabis crudo en alcohol extrae THCA, que no es psicoactivo.",
+          "Agitar la tintura demasiado agresivamente durante la extracción extrae clorofila en exceso y la hace amarga y verde.",
+          "Almacenar la tintura en un frasco de vidrio transparente donde la luz degrada los cannabinoides. Siempre usa vidrio ámbar o azul cobalto."
+        ],
+        "storage": [
+          "Almacena la tintura de cannabis en un frasco gotero de vidrio oscuro en un lugar fresco y oscuro. Bien almacenadas, las tinturas a base de alcohol duran más de un año.",
+          "Las tinturas a base de glicerina tienen una vida útil más corta de 3-6 meses. La refrigeración la extiende significativamente.",
+          "Etiqueta cada frasco con la fecha, cepa, estimación total de THC y mg por ml para un uso seguro e informado."
+        ],
+        "variations": [
+          "Haz una tintura a base de glicerina para una opción sin alcohol que es ligeramente dulce y más suave al paladar.",
+          "Crea una tintura de extracción rápida congelando tanto el alcohol como la flor descarboxilada, luego combinándolos para una extracción corta de 3 minutos para minimizar la clorofila.",
+          "Reduce una tintura alcohólica suavemente a fuego bajo para crear un extracto concentrado de cannabis conocido como FECO (Aceite de Extracción Completa de Cannabis)."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuál es la diferencia entre tinturas de alcohol y glicerina?",
+            "a": "Las tinturas de alcohol son más potentes porque el etanol extrae cannabinoides más eficientemente. Tienen una vida útil más larga y absorción sublingual más rápida. Las tinturas de glicerina son más suaves, ligeramente dulces, sin alcohol y mejores para personas que evitan el alcohol, pero son menos potentes por volumen."
+          },
+          {
+            "q": "¿Cuánto tiempo toma hacer una tintura de cannabis?",
+            "a": "El método tradicional toma 2-4 semanas de remojo con agitación diaria. El método rápido de congelamiento toma solo 3-5 minutos de extracción activa. Ambos producen tinturas efectivas, aunque el remojo largo extrae un espectro más amplio de compuestos incluyendo más terpenos."
+          },
+          {
+            "q": "¿Puedo evaporar el alcohol de mi tintura?",
+            "a": "Sí, calentar la tintura suavemente en un área bien ventilada evapora el alcohol y concentra los cannabinoides. Nunca uses llama abierta cerca de vapores de alcohol. El resultado es un concentrado espeso y potente que se puede usar en cápsulas, comestibles o aplicar tópicamente."
+          },
+          {
+            "q": "¿Por qué mi tintura tiene un sabor tan fuerte?",
+            "a": "El sabor fuerte viene de tiempos de extracción largos que extraen clorofila y ceras vegetales. Usa el método de lavado rápido con ingredientes congelados, cuela a través de un filtro de café y considera un breve paso de winterización en el congelador para eliminar ceras."
+          },
+          {
+            "q": "¿Cómo añado tintura a los alimentos sin perder potencia?",
+            "a": "Añade la tintura a platos terminados, no durante la cocción. Mézclala en salsas, aderezos y bebidas después de haberlos retirado del fuego. El alcohol se evapora rápidamente al añadirse a alimentos tibios, dejando los cannabinoides sin afectar significativamente el sabor."
+          }
+        ]
+      },
+      "condiment": {
+        "intro": "Esta receta de %{name} con cannabis infusiona un condimento cotidiano con %{base_fat} para una forma sencilla de añadir una dosis medida de THC a cualquier comida. Los condimentos con cannabis son la conveniencia definitiva en %{category} porque los preparas una vez y los usas durante semanas, convirtiendo comidas ordinarias en experiencias comestibles con una simple cucharada o chorrito.",
+        "dosing_tips": [
+          "Calcula el THC total en el lote del condimento y divide por el número de porciones de una cucharada para la dosificación por uso.",
+          "Una sola cucharada de condimento con cannabis por comida es típicamente suficiente para una dosis estándar de 5-10 mg.",
+          "Agita o revuelve tu condimento con cannabis antes de cada uso ya que la grasa infusionada puede separarse con el tiempo.",
+          "Lleva un registro de tu consumo de condimento a lo largo del día si lo usas en múltiples comidas para evitar sobredosificación accidental."
+        ],
+        "common_mistakes": [
+          "Mezclar aceite de cannabis en un condimento predominantemente a base de agua sin un emulsionante causa separación visible del aceite.",
+          "Calentar kétchup, mostaza o salsa picante con cannabis a altas temperaturas en la estufa degrada el THC. Añade condimentos al momento de servir.",
+          "Hacer un lote grande con cálculos de dosificación imprecisos resulta en condimentos demasiado débiles para sentir o peligrosamente fuertes.",
+          "Almacenar condimentos con cannabis junto a los regulares sin etiquetado claro lleva a consumo accidental por compañeros de casa."
+        ],
+        "storage": [
+          "La mayoría de los condimentos con cannabis se conservan refrigerados por 2-4 semanas, igualando la vida útil de sus contrapartes sin infusionar.",
+          "La salsa picante y los condimentos a base de vinagre con cannabis duran más, hasta 2-3 meses refrigerados, debido a su acidez.",
+          "Siempre almacena en recipientes claramente etiquetados, idealmente en una sección separada del refrigerador de los condimentos regulares."
+        ],
+        "variations": [
+          "Mezcla %{base_fat} en mayonesa para un aioli con cannabis que funciona en sándwiches, hamburguesas, papas fritas y como dip.",
+          "Incorpora aceite de cannabis en sriracha o tu salsa picante favorita para un condimento infusionado y picante que enmascara sabores herbales.",
+          "Haz pesto infusionado con cannabis mezclando %{base_fat} con albahaca, ajo, piñones y parmesano para un condimento versátil."
+        ],
+        "faq": [
+          {
+            "q": "¿Qué condimentos son más fáciles de infusionar con cannabis?",
+            "a": "Los condimentos a base de aceite y grasa son los más fáciles: mayonesa, pesto, aderezos para ensalada y salsas a base de mantequilla. Incorporan naturalmente la grasa de cannabis sin problemas de separación. Los condimentos a base de agua como kétchup y mostaza requieren un emulsionante como lecitina."
+          },
+          {
+            "q": "¿Puedo hacer kétchup o mostaza con cannabis?",
+            "a": "Sí, mezcla aceite de cannabis con una gota de lecitina en el kétchup o la mostaza. Los sabores fuertes y ácidos de estos condimentos enmascaran bien el sabor del cannabis. Mezcla bien y agita antes de cada uso ya que algo de separación es normal."
+          },
+          {
+            "q": "¿Cómo dosifico los condimentos con cannabis con precisión?",
+            "a": "Calcula el THC total del lote, mide el volumen total y determina los mg por cucharada. Luego usa una cuchara medidora cada vez que sirvas en lugar de apretar libremente. La consistencia en la medición es la clave para una dosificación confiable con condimentos."
+          },
+          {
+            "q": "¿Cocinar con condimentos de cannabis reduce el THC?",
+            "a": "Si añades el condimento a comida caliente a temperatura de servir, el THC se preserva. Si cocinas u horneas con él a altas temperaturas por períodos prolongados, algo de THC se degradará. Usa condimentos de cannabis como adiciones de acabado en lugar de ingredientes de cocción."
+          },
+          {
+            "q": "¿Puedo llevar condimentos de cannabis a una barbacoa?",
+            "a": "Puedes llevarlos para uso personal, pero nunca los pongas disponibles sin etiquetado extremadamente claro. Mantenlos en un recipiente separado y distinto, lejos de los condimentos regulares. Comparte solo con adultos informados y que hayan dado su consentimiento y que entiendan la dosis por porción."
           }
         ]
       }
@@ -717,6 +1093,194 @@
           {
             "q": "¿Puedo usar grasa de cannabis en una receta de olla de cocción lenta?",
             "a": "Añádela cerca del final. Las ollas de cocción lenta en modo bajo funcionan a unos 190 F (88 C), lo cual es seguro para el THC, pero horas de exposición pueden degradar algunos cannabinoides. Incorpora la grasa de cannabis durante los últimos 30 minutos de cocción para la mejor retención de potencia."
+          }
+        ]
+      },
+      "pasta": {
+        "intro": "Esta receta de %{name} con cannabis incorpora %{base_fat} en una salsa rica y aromática que cubre cada hilo con una dosis precisamente medida de THC. La pasta es uno de los formatos más indulgentes para cocinar con cannabis porque la salsa es el vehículo, y puedes añadir la grasa infusionada al final para preservar la potencia completa. Una reconfortante e indulgente comida de %{category} con cannabis te espera.",
+        "dosing_tips": [
+          "Incorpora el %{base_fat} en la salsa terminada fuera del fuego y mezcla con la pasta para distribuir el THC uniformemente en cada porción.",
+          "Divide el THC total de tu %{base_fat} por el número de platos servidos para una dosificación precisa por plato.",
+          "Una sola cucharada de mantequilla o aceite con cannabis por porción generalmente es suficiente para una dosis de 5-10 mg en un plato de pasta.",
+          "Las salsas de pasta ricas y cremosas ralentizan la digestión. Espera el inicio de efectos en 60-120 minutos para una experiencia gradual y duradera."
+        ],
+        "common_mistakes": [
+          "Añadir aceite de cannabis al agua hirviendo de la pasta desperdicia casi todo el THC por el desagüe cuando escurres la pasta.",
+          "Hervir la salsa durante mucho tiempo después de añadir %{base_fat}. Añade la grasa de cannabis en los últimos 2 minutos o después de retirar del fuego.",
+          "No mezclar la pasta completamente después de añadir la salsa con cannabis deja algunos bocados muy dosificados y otros sin nada.",
+          "Usar aceite de oliva con cannabis para saltear ajo o verduras a fuego alto. Saltea primero y luego finaliza con aceite de cannabis fuera del fuego."
+        ],
+        "storage": [
+          "Almacena la pasta con cannabis sobrante en un recipiente hermético en el refrigerador hasta por 3 días. El almidón absorbe la salsa y mantiene la dosis.",
+          "Recalienta suavemente en la estufa a fuego bajo o en el microondas a 50% de potencia para preservar el THC.",
+          "Las salsas de pasta con cannabis sin los fideos se congelan excelentemente hasta por 2 meses. Descongela y mezcla con pasta recién cocida."
+        ],
+        "variations": [
+          "Haz aglio e olio con cannabis finalizando la pasta de aceite de oliva con ajo con una cucharada de aceite de oliva con cannabis por porción.",
+          "Incorpora %{base_fat} en la salsa alfredo en el último momento para una experiencia lujosamente cremosa de pasta con cannabis.",
+          "Mezcla mantequilla con cannabis con hierbas frescas y ralladura de limón para una pasta simple y elegante que toma cinco minutos."
+        ],
+        "faq": [
+          {
+            "q": "¿Qué salsas de pasta funcionan mejor con %{base_fat} de cannabis?",
+            "a": "Las salsas a base de crema, pesto y salsas de aceite de oliva son ideales porque ya están basadas en grasa e integran la grasa de cannabis perfectamente. Las salsas de tomate también funcionan, pero añade la grasa de cannabis fuera del fuego ya que la acidez del tomate puede diluir la emulsión. Las salsas intensas enmascaran el sabor herbal."
+          },
+          {
+            "q": "¿Se puede sentir el sabor del cannabis en mi %{name}?",
+            "a": "En pasta bien condimentada con ajo, hierbas, queso o tomates, el sabor del cannabis es típicamente indetectable. La clave es usar %{base_fat} bien colado y de calidad y combinarlo con ingredientes de sabor intenso. El parmesano, la albahaca y el ajo son especialmente efectivos para enmascarar notas herbales."
+          },
+          {
+            "q": "¿Cuánto tarda una comida de pasta con cannabis en hacer efecto?",
+            "a": "Las comidas completas con carbohidratos y grasa típicamente tardan 60-120 minutos para el efecto completo. El almidón ralentiza la digestión, produciendo un inicio gradual y a menudo una duración más larga. Come una porción medida y espera antes de considerar repetir."
+          },
+          {
+            "q": "¿La mantequilla o el aceite de oliva con cannabis es mejor para la pasta?",
+            "a": "La mantequilla con cannabis es perfecta para salsas de crema, carbonara y para finalizar platos. El aceite de oliva con cannabis se adapta a preparaciones con ajo, pesto y a base de tomate. Elige según el estilo de pasta que estés preparando."
+          },
+          {
+            "q": "¿Puedo hacer mac and cheese con cannabis?",
+            "a": "Sí, incorpora %{base_fat} en la salsa de queso después de retirar del fuego. Los sabores del queso y los lácteos enmascaran completamente cualquier sabor a cannabis. Calcula tu dosis basándote en el número de porciones y añade la grasa a la salsa, no al agua de la pasta."
+          }
+        ]
+      },
+      "sandwich": {
+        "intro": "Esta receta de %{name} con cannabis incorpora %{base_fat} en capas en una comida abundante para comer con las manos que entrega una dosis consistente en cada mordida. Los sándwiches con cannabis son uno de los comestibles de %{category} más prácticos porque no requieren habilidad culinaria y el formato de untable asegura una distribución uniforme del THC. Arma tu sándwich infusionado perfecto con nuestra guía.",
+        "dosing_tips": [
+          "Unta una cucharada medida de mantequilla, mayonesa o untable con cannabis en el pan para una dosis consistente de 5-10 mg por sándwich.",
+          "Calcula los mg por cucharada de tu %{base_fat} y aplica la misma cantidad en cada sándwich que hagas.",
+          "Unta la grasa de cannabis de borde a borde en toda la rebanada de pan para que cada mordida entregue una porción igual de la dosis.",
+          "Los sándwiches combinan proteína, grasa y carbohidratos para una digestión lenta y constante. Espera el inicio de efectos en 60-90 minutos con duración de 4-6 horas."
+        ],
+        "common_mistakes": [
+          "Concentrar todo el untable de cannabis en el centro del pan deja las orillas sin dosis y el centro excesivamente potente.",
+          "Asar o tostar un sándwich con cannabis a fuego alto durante demasiado tiempo puede degradar el THC en el untable. Usa calor moderado por períodos cortos.",
+          "Empacar un sándwich con cannabis sin etiquetarlo, arriesgando que alguien más lo coma por accidente.",
+          "Usar tanto untable de cannabis que abruma los otros sabores y hace el sándwich grasoso."
+        ],
+        "storage": [
+          "Los sándwiches con cannabis deben comerse dentro de unas pocas horas para mejor calidad. Refrigera inmediatamente si no los consumes de inmediato.",
+          "El untable de cannabis en sí se conserva bien por 1-2 semanas refrigerado. Aplica en pan fresco según sea necesario.",
+          "Envuelve y etiqueta los sándwiches con cannabis de forma distinta a los regulares usando material de envoltura diferente o un marcador visible."
+        ],
+        "variations": [
+          "Haz mayonesa infusionada con cannabis emulsionando aceite de cannabis en yema de huevo con una batidora de inmersión para el untable de sándwich definitivo.",
+          "Unta mantequilla con cannabis en tostada caliente o un panini para un vehículo simple que combina con cualquier relleno.",
+          "Mezcla aceite de cannabis en pesto o tapenade para un untable de sándwich sabroso de estilo mediterráneo."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuál es el mejor untable para un %{name} con cannabis?",
+            "a": "La mantequilla con cannabis es clásica y funciona con casi todo. La mayonesa con cannabis es más versátil para sándwiches fríos. El hummus y el guacamole con cannabis son excelentes opciones de origen vegetal. Elige el untable que mejor complemente tus ingredientes de relleno."
+          },
+          {
+            "q": "¿Puedo asar un sándwich con cannabis sin perder THC?",
+            "a": "Sí, las temperaturas moderadas de asado son seguras. Para mayor seguridad, asa con mantequilla regular por fuera, luego abre el sándwich y aplica el untable de cannabis en el interior caliente antes de cerrar y servir."
+          },
+          {
+            "q": "¿Los wraps son mejores que el pan para sándwiches con cannabis?",
+            "a": "Los wraps ofrecen una distribución de dosis ligeramente más uniforme porque cubres toda la superficie de la tortilla antes de enrollar. Con pan rebanado, los bordes pueden tener menos untable. Ambos formatos funcionan bien para comestibles de cannabis."
+          },
+          {
+            "q": "¿Cómo hago un sándwich club con cannabis para un grupo?",
+            "a": "Aplica una cantidad medida de untable de cannabis en cada sándwich individualmente en lugar de hacer un lote grande. Esto asegura que cada persona reciba una dosis conocida y consistente. Proporciona sándwiches sin infusionar al lado para que los invitados puedan elegir."
+          },
+          {
+            "q": "¿Puedo preparar sándwiches con cannabis por adelantado?",
+            "a": "Puedes preparar el untable de cannabis con anticipación y almacenarlo por semanas. Sin embargo, arma los sándwiches frescos diariamente para mejor calidad. Algunos rellenos como mantequilla de maní y mermelada soportan la preparación anticipada, mientras que otros como lechuga y tomate no."
+          }
+        ]
+      },
+      "main_course": {
+        "intro": "Esta receta de %{name} con cannabis usa %{base_fat} como elemento de acabado en un plato principal satisfactorio que entrega una dosis cuidadosamente calculada con la cena. Los platos principales con cannabis te permiten disfrutar de una comida completa como tu comestible en lugar de un snack o golosina complementaria. Las salsas ricas y los glaseados de los platos principales son vehículos naturales para la distribución del THC.",
+        "dosing_tips": [
+          "Añade %{base_fat} a la salsa, glaseado o paso de acabado en lugar de la grasa principal de cocción para evitar degradación por calor.",
+          "Sirve individualmente y rocía una cantidad medida de salsa de acabado con cannabis en cada plato para dosificación precisa por persona.",
+          "Las porciones completas de cena ralentizan considerablemente la digestión. Espera el inicio de efectos en 60-120 minutos con una duración prolongada de 4-8 horas.",
+          "Mantén las dosis por porción en 5-10 mg ya que el volumen de comida ya crea una liberación lenta y sostenida de THC."
+        ],
+        "common_mistakes": [
+          "Usar grasa de cannabis como aceite principal para sellar. Las temperaturas de sellado superan los 400 F (200 C) y destruirán la mayoría del THC. Sella con aceite regular y finaliza con grasa de cannabis.",
+          "No dividir la dosis total del lote por el número correcto de porciones, resultando en algunos platos excesivamente potentes.",
+          "Infusionar todo el plato cuando solo la salsa necesita cannabis, haciendo las sobras problemáticas e inflexibles.",
+          "Combinar un plato principal con cannabis con alcohol. La combinación amplifica ambas sustancias y puede causar náuseas y ansiedad."
+        ],
+        "storage": [
+          "Almacena las sobras de platos principales con cannabis como lo harías con la versión sin infusionar. Refrigera dentro de 2 horas y consume en 3-4 días.",
+          "Etiqueta todas las sobras con la dosis de cannabis por porción para que las porciones recalentadas se consuman responsablemente.",
+          "Las salsas y glaseados con cannabis se congelan bien por separado hasta por 3 meses. Descongela y añade a proteínas o verduras recién cocidas."
+        ],
+        "variations": [
+          "Haz una mantequilla compuesta con cannabis y hierbas y derrite una porción medida sobre bistec, pescado o pollo asado como toque de acabado.",
+          "Rocía aceite de oliva con cannabis sobre una pizza o focaccia terminada para una infusión de plato principal sin esfuerzo.",
+          "Incorpora %{base_fat} en una salsa de sartén o gravy en el último momento para un acompañamiento rico y potente de cualquier proteína."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuál es la mejor manera de añadir cannabis a un plato principal?",
+            "a": "Las salsas de acabado, mantequillas compuestas y chorritos son el estándar de oro. Cocina tu plato principal normalmente, luego introduce el elemento de cannabis al final. Esto protege el THC del calor y te da control preciso sobre la dosis de cada plato."
+          },
+          {
+            "q": "¿El sabor del cannabis dominará mi %{name}?",
+            "a": "No si usas %{base_fat} bien colado en una salsa de sabor intenso. Ajo, hierbas, especias, queso, reducciones de vino y cítricos enmascaran las notas herbales del cannabis eficazmente. Cuanto más rica la salsa, menos detectable el cannabis."
+          },
+          {
+            "q": "¿Puedo cocinar carne en mantequilla con cannabis?",
+            "a": "Baña a temperaturas más bajas, no selles. Cocina tu proteína con grasa regular, luego baña con mantequilla de cannabis a calor reducido durante la fase de reposo. Esto te da el sabor y la dosis sin destruir el THC a altas temperaturas."
+          },
+          {
+            "q": "¿Cómo sirvo una cena con cannabis para invitados?",
+            "a": "Infusiona solo un plato y mantén todo lo demás libre de cannabis. Sirve individualmente con dosis medidas. Informa a todos los invitados claramente sobre el contenido de THC. Proporciona alternativas sin infusionar y limita a una dosis por persona por seguridad."
+          },
+          {
+            "q": "¿Comer una comida grande hace que el cannabis sea más débil?",
+            "a": "Una comida completa retrasa el inicio y hace que el efecto inicial sea más gradual, pero el THC total absorbido es el mismo. La experiencia tiende a ser más suave en intensidad máxima pero más duradera. Esto puede ser preferible para una experiencia cómoda y sostenida."
+          }
+        ]
+      },
+      "bowl": {
+        "intro": "Esta receta de %{name} con cannabis rocía %{base_fat} sobre un bowl repleto de nutrientes con granos, proteínas y verduras para una comida equilibrada y completamente dosificada de %{category}. Los bowls con cannabis son un formato moderno y consciente de la salud donde el chorrito de acabado o aderezo entrega una dosis precisa sin complicaciones culinarias. Arma tu bowl, añade el elemento de cannabis y disfruta.",
+        "dosing_tips": [
+          "Rocía una cantidad medida de aceite de cannabis o aderezo de tahini sobre el bowl terminado para una dosificación precisa y visible.",
+          "Una cucharada de aderezo con cannabis por bowl es típicamente una dosis estándar de 5-10 mg. Mide con una cuchara en lugar de verter.",
+          "Mezcla o revuelve el bowl completamente después de añadir el chorrito de cannabis para distribuir la dosis en todos los componentes.",
+          "Los bowls de granos con fibra y proteína crean una digestión lenta. Los efectos típicamente comienzan en 60-90 minutos y duran 4-6 horas."
+        ],
+        "common_mistakes": [
+          "Acumular todo el aderezo de cannabis en el fondo del bowl significa que los últimos bocados tienen la mayor parte de la dosis. Mezcla bien.",
+          "Usar aceite de cannabis para cocinar los granos o asar las verduras a alta temperatura destruye el THC. Añade el elemento de cannabis solo como paso de acabado.",
+          "Hacer un lote grande de bowl con cannabis sin porcionar individualmente lleva a porciones inconsistentes.",
+          "No considerar el chorrito de cannabis al calcular el contenido total de calorías y grasa de tu bowl saludable."
+        ],
+        "storage": [
+          "Los bowls con cannabis ensamblados deben comerse frescos. Almacena el aderezo de cannabis por separado hasta por 2 semanas refrigerado.",
+          "Prepara los componentes de granos y verduras con anticipación y almacena sin aderezo. Añade el aderezo de cannabis fresco al momento de comer.",
+          "Los aderezos de tahini y vinagreta con cannabis se congelan bien en recipientes pequeños por 1-2 meses. Descongela y agita antes de usar."
+        ],
+        "variations": [
+          "Haz un aderezo de tahini con cannabis usando aceite de cannabis, tahini, limón y ajo para una cobertura de bowl de estilo mediterráneo.",
+          "Rocía aceite de sésamo con cannabis sobre un bowl de poke o sushi para una comida infusionada de inspiración asiática.",
+          "Mezcla aceite de aguacate con cannabis en un chimichurri para rociar sobre un bowl de granos con verduras asadas y frijoles."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuál es el mejor aderezo de cannabis para bowls?",
+            "a": "El tahini con cannabis, la vinagreta de aceite de oliva con cannabis y el aderezo de aguacate con cannabis son excelentes opciones. Elige un aderezo que complemente los ingredientes de tu bowl. Los aderezos de sabor intenso enmascaran las notas herbales del cannabis mientras añaden riqueza."
+          },
+          {
+            "q": "¿Puedo preparar bowls con cannabis por adelantado?",
+            "a": "Prepara todos los componentes con anticipación pero mantén el aderezo de cannabis separado hasta servir. Esto previene que se empape y asegura que cada bowl reciba una dosis recién medida. El aderezo en sí se conserva bien por semanas."
+          },
+          {
+            "q": "¿Los bowls con cannabis son saludables?",
+            "a": "Un bowl bien armado con granos integrales, proteína magra y muchas verduras es uno de los formatos de comestible más saludables. El aceite de cannabis añade algunas calorías y grasa, pero mucho menos que un brownie o galleta. Es una forma nutritiva de disfrutar comestibles."
+          },
+          {
+            "q": "¿Cómo añado cannabis a un burrito bowl?",
+            "a": "Cubre tu burrito bowl con crema agria infusionada con cannabis, guacamole con cannabis o un chorrito de salsa picante con cannabis. Estas adiciones tipo condimento son fáciles de medir y los sabores intensos Tex-Mex enmascaran completamente cualquier sabor a cannabis."
+          },
+          {
+            "q": "¿Puedo usar aderezo de cannabis en un bowl frío?",
+            "a": "Sí, los aderezos de cannabis funcionan perfectamente en bowls fríos ya que no hay calor que degrade el THC. Los bowls fríos con aderezo de cannabis preservan el 100% de la potencia de cannabinoides de tu infusión. Agita o revuelve el aderezo antes de rociar."
           }
         ]
       }
@@ -1052,6 +1616,100 @@
             "a": "Cocina tu salteado a fuego alto con aceite regular, luego baja a fuego lento y rocía aceite de sésamo con cannabis o aceite de coco con cannabis sobre el plato terminado. Revuelve para cubrir. Esto preserva el THC mientras obtienes el sellado a alta temperatura que los salteados necesitan."
           }
         ]
+      },
+      "vegan_main": {
+        "intro": "Esta receta de %{name} con cannabis usa %{base_fat} en un plato principal abundante y a base de plantas que demuestra que los comestibles veganos pueden ser tan satisfactorios y potentes como cualquier otro formato. Los platos principales veganos con cannabis aprovechan las grasas ricas del aceite de coco, aceite de oliva y salsas a base de frutos secos para entregar THC perfectamente junto con sabores intensos e inspirados globalmente. No se necesitan productos animales para una experiencia completa de comestible.",
+        "dosing_tips": [
+          "Añade %{base_fat} como chorrito de acabado o incorpóralo en la salsa después de cocinar. Las salsas a base de plantas con leche de coco o crema de frutos secos integran la grasa de cannabis suavemente.",
+          "Sirve individualmente y añade una cucharada medida de aceite de cannabis a cada porción para dosificación precisa por persona.",
+          "Los platos principales veganos con alta fibra pueden retrasar ligeramente el inicio de efectos. Espera 60-120 minutos para el efecto completo.",
+          "Mantén las dosis en 5-10 mg por porción. El volumen sustancial de un plato principal produce una experiencia de cannabis gradual y sostenida."
+        ],
+        "common_mistakes": [
+          "Saltear o sellar tofu y verduras en aceite de cannabis a fuego alto destruye el THC. Cocina con aceite regular y finaliza con grasa de cannabis.",
+          "No emulsionar la grasa de cannabis en salsas a base de plantas, dejando una película aceitosa en la superficie del plato.",
+          "Asumir que el sabor del aceite de coco funciona en todo plato principal vegano. Usa aceite de oliva con cannabis o aceite MCT con cannabis de sabor neutro para platos salados donde el coco desentone.",
+          "Depender demasiado del cannabis como elemento de sabor. Los platos principales veganos necesitan condimentación robusta con especias, ingredientes umami y acidez para estar completos."
+        ],
+        "storage": [
+          "Los platos principales veganos con cannabis se conservan bien refrigerados por 3-5 días. Los ingredientes de origen vegetal se mantienen bien.",
+          "Las salsas veganas con cannabis como curry, pesto y salsas de crema de coco se congelan bien hasta por 3 meses.",
+          "Etiqueta todas las sobras con dosis por porción y fecha de preparación para un consumo responsable."
+        ],
+        "variations": [
+          "Incorpora aceite de coco con cannabis en un curry tailandés o indio para una combinación natural donde el sabor a coco es bienvenido y esperado.",
+          "Rocía aceite de oliva con cannabis sobre una bandeja de verduras asadas con granos para un plato principal vegano de inspiración mediterránea.",
+          "Mezcla aceite de cannabis en una salsa de crema de anacardos para una pasta vegana rica, cremosa y dosificada con precisión."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuál es la mejor grasa de cannabis para platos principales veganos?",
+            "a": "Depende de la cocina. El aceite de coco con cannabis es ideal para platos asiáticos y tropicales. El aceite de oliva con cannabis se adapta a preparaciones mediterráneas e italianas. El aceite de aguacate o MCT con cannabis funciona como opción neutral para cualquier cocina."
+          },
+          {
+            "q": "¿Los platos principales veganos con cannabis son tan potentes como los de carne?",
+            "a": "Absolutamente. El THC se une a la grasa independientemente del origen animal o vegetal. Siempre que tu plato vegano tenga contenido de grasa adecuado, la potencia es idéntica. La clave es usar aceite infusionado con cannabis de calidad e incorporarlo correctamente."
+          },
+          {
+            "q": "¿Puedo añadir cannabis a una hamburguesa vegetal?",
+            "a": "Sí, mezcla aceite de cannabis en la mezcla de la hamburguesa antes de cocinar a calor moderado, o mejor aún, cubre la hamburguesa cocida con aioli o salsa con cannabis. El enfoque de acabado preserva el THC mientras te permite cocinar la hamburguesa adecuadamente."
+          },
+          {
+            "q": "¿Cómo hago una cena de bistec vegano con cannabis?",
+            "a": "Sella tu bistec de coliflor, champiñón portobello o bistec vegetal comercial con aceite regular, luego cúbrelo con una mantequilla de hierbas con cannabis hecha con mantequilla vegana y aceite de cannabis. La mantequilla de acabado se derrite sobre la superficie caliente para una presentación hermosa y dosificación uniforme."
+          },
+          {
+            "q": "¿La alta fibra en las comidas veganas afecta la absorción del THC?",
+            "a": "La alta fibra puede ralentizar ligeramente la digestión, potencialmente retrasando el inicio en 15-30 minutos comparado con comidas bajas en fibra. Sin embargo, el THC total absorbido permanece igual. Algunos consumidores prefieren el inicio más suave y gradual que las comidas ricas en fibra producen."
+          }
+        ]
+      },
+      "vegan_bowl": {
+        "intro": "Esta receta de %{name} con cannabis rocía %{base_fat} sobre un bowl vibrante y lleno de plantas rebosante de granos, legumbres y verduras frescas. Los bowls veganos con cannabis son la intersección de la alimentación consciente y la dosificación precisa de comestibles, donde un chorrito medido de aceite infusionado transforma una comida nutritiva en una experiencia de cannabis perfectamente controlada.",
+        "dosing_tips": [
+          "Mide una cucharada de aderezo o aceite de cannabis por bowl para una dosis consistente de 5-10 mg que puedas registrar.",
+          "Mezcla o revuelve el bowl completamente después de añadir el chorrito de cannabis para asegurar que cada bocado entregue una porción uniforme de THC.",
+          "Los bowls veganos ricos en fibra ralentizan la digestión. Planifica 60-90 minutos de inicio con efectos que duran 4-6 horas.",
+          "Si usas una vinagreta con cannabis, agítala vigorosamente antes de cada uso ya que el aceite y el vinagre se separan rápidamente."
+        ],
+        "common_mistakes": [
+          "Rociar todo el aceite de cannabis en un solo punto crea una concentración de dosis. Distribuye el chorrito por toda la superficie del bowl.",
+          "Asar los componentes del bowl en aceite de cannabis a altas temperaturas desperdicia THC. Asa con aceite regular y añade aceite de cannabis después de emplatar.",
+          "Hacer un lote grande de bowl sin porcionar individualmente lleva a dosis desiguales entre las porciones.",
+          "Usar aceite de coco con cannabis en un bowl de granos donde el sabor a coco no corresponde. Combina el tipo de aceite con la cocina."
+        ],
+        "storage": [
+          "Los bowls veganos con cannabis deben comerse frescos. Prepara los componentes con anticipación y añade el chorrito de cannabis al servir.",
+          "Los aderezos veganos con cannabis se conservan refrigerados hasta por 2 semanas en frascos sellados. Agita bien antes de usar.",
+          "Los granos precocidos, las verduras asadas y las legumbres preparadas se conservan por separado en el refrigerador por 4-5 días para un ensamblaje rápido."
+        ],
+        "variations": [
+          "Arma un Buddha bowl con cannabis usando quinoa, camote asado, garbanzos, hojas verdes y un chorrito de tahini con cannabis.",
+          "Haz un bowl estilo poke con cannabis con tofu marinado, edamame, arroz y un aderezo de sésamo y jengibre con cannabis.",
+          "Ensambla un bowl mexicano con cannabis con frijoles negros, arroz, aguacate, salsa y aderezo de cilantro y limón infusionado con cannabis."
+        ],
+        "faq": [
+          {
+            "q": "¿Cuál es el aderezo de bowl con cannabis más saludable?",
+            "a": "El tahini con cannabis, la vinagreta de aceite de oliva y limón con cannabis, y el aderezo de aguacate con cannabis son opciones nutritivas ricas en grasas saludables. Entregan THC mientras añaden grasas monoinsaturadas y poliinsaturadas beneficiosas a tu comida."
+          },
+          {
+            "q": "¿Puedo preparar bowls veganos con cannabis por adelantado?",
+            "a": "Prepara todos los componentes de granos, legumbres y verduras con anticipación. Almacena el aderezo de cannabis por separado y añádelo fresco en cada comida. Esto mantiene el bowl crujiente y asegura una dosis precisamente medida cada vez."
+          },
+          {
+            "q": "¿Los bowls veganos con cannabis son buenos para el control de peso?",
+            "a": "Los bowls veganos son uno de los formatos de comestible más bajos en calorías porque la dosis de cannabis viene de una pequeña cantidad de aceite sobre una comida ligera y rica en nutrientes. Comparados con brownies o galletas, un bowl de granos con cannabis tiene significativamente menos calorías."
+          },
+          {
+            "q": "¿Cómo hago un bowl vegano caliente con cannabis?",
+            "a": "Cocina todos los componentes con aceite regular a temperaturas adecuadas, ensambla el bowl caliente y luego rocía el aceite de cannabis por encima justo antes de comer. El calor residual de la comida ayuda al aceite a absorberse sin alcanzar temperaturas que degraden el THC."
+          },
+          {
+            "q": "¿Puedo añadir cannabis a un smoothie bowl?",
+            "a": "Sí, mezcla aceite de coco o MCT con cannabis directamente en la base del smoothie con frutas congeladas y leche vegetal. La mezcla crea una emulsión completa para dosificación uniforme. Cubre con granola, semillas y fruta para un bowl de desayuno completo con cannabis."
+          }
+        ]
       }
     },
     "International": {
@@ -1146,6 +1804,147 @@
           {
             "q": "¿Cómo dosifico la farofa con cannabis?",
             "a": "Mezcla una cantidad calculada de mantequilla de cannabis en la farofa terminada y sirve por cucharadas. Una o dos cucharadas de farofa es una porción típica de acompañamiento. Calcula los mg por cucharada para poder servir dosis precisas como guarnición."
+          }
+        ]
+      },
+      "chinese": {
+        "intro": "Esta receta de %{name} con cannabis reúne los sabores intensos de la cocina china con %{base_fat} para un plato infusionado que honra las técnicas tradicionales de cocción en wok. La cocina china depende en gran medida del aceite de sésamo, la salsa de soja, el jengibre y el ajo, todos los cuales enmascaran los sabores del cannabis de maravilla. La clave de la comida china con cannabis es añadir el aceite infusionado como elemento de acabado después de que la cocción a fuego alto en el wok haya terminado.",
+        "dosing_tips": [
+          "Nunca añadas aceite de cannabis a un wok humeante. Saltea con aceite regular a fuego alto, luego reduce a fuego bajo y rocía aceite de sésamo con cannabis al final.",
+          "Calcula tu dosis por plato y añade una cucharada medida de aceite de cannabis a cada porción individual después de emplatar.",
+          "Los platos chinos con salsas ricas y llenas de umami enmascaran completamente el sabor del cannabis. Usa salsa de soja, salsa de ostras y hoisin a tu favor.",
+          "Los platos de fideos y arroz se digieren a un ritmo moderado. Espera el inicio de efectos en 45-90 minutos con una experiencia constante y sostenida."
+        ],
+        "common_mistakes": [
+          "Saltear en aceite de cannabis en un wok caliente es el error más común. Las temperaturas del wok superan los 500 F (260 C), lo que destruye instantáneamente el THC.",
+          "Añadir aceite de cannabis a la marinada y luego sellar la proteína a fuego alto desperdicia la mayoría de los cannabinoides en el proceso de cocción.",
+          "Usar aceite de coco con cannabis en platos chinos donde el sabor a coco es inapropiado. El aceite de sésamo o de maní con cannabis son opciones mucho más auténticas.",
+          "Excederse con la salsa para enmascarar el sabor del cannabis diluye el plato. El aceite de cannabis bien colado en pequeñas cantidades necesita enmascaramiento mínimo."
+        ],
+        "storage": [
+          "Almacena las sobras de platos chinos con cannabis refrigerados hasta por 3 días. Las salsas ayudan a preservar la humedad y retener el aceite de cannabis.",
+          "Las salsas de salteado con cannabis se pueden preparar con anticipación y almacenar por 1-2 semanas refrigeradas. Añade a platos recién cocidos bajo demanda.",
+          "El arroz y los fideos fritos con aceite de cannabis se recalientan bien en el microondas a potencia media o suavemente en un wok a fuego bajo."
+        ],
+        "variations": [
+          "Haz dan dan noodles con cannabis incorporando aceite de sésamo con cannabis y aceite de chile en la salsa sabrosa y picante al final.",
+          "Rocía aceite de sésamo con cannabis sobre sopa de wonton o platos de dumplings terminados como un toque aromático e infusionado.",
+          "Mezcla aceite de maní con cannabis con pimienta de Sichuan y hojuelas de chile para un condimento chili crisp chino infusionado."
+        ],
+        "faq": [
+          {
+            "q": "¿Puedo usar aceite de cannabis en un wok?",
+            "a": "No para el salteado inicial. La cocción en wok requiere calor extremadamente alto que destruye el THC casi instantáneamente. En su lugar, haz toda la cocción a fuego alto con aceite regular, luego apaga el fuego e incorpora el aceite de cannabis como paso final antes de emplatar."
+          },
+          {
+            "q": "¿Qué aceite de cannabis funciona mejor para la cocina china?",
+            "a": "El aceite de sésamo infusionado con cannabis es el estándar de oro para platos chinos porque el sésamo tostado ya es un aceite de acabado tradicional. El aceite de maní con cannabis es otra excelente opción. Ambos tienen sabores robustos que complementan la cocina china de forma auténtica."
+          },
+          {
+            "q": "¿Puedo hacer dumplings o gyozas con cannabis?",
+            "a": "Sí, añade aceite de cannabis al relleno en lugar de a la masa o al aceite de cocción. El relleno se mantiene a temperaturas internas moderadas durante la cocción al vapor o el sellado en sartén. Sirve con una salsa de soja y jengibre con cannabis para una dosis adicional medida."
+          },
+          {
+            "q": "¿Cómo infusiono un hot pot chino con cannabis?",
+            "a": "Añade aceite de sésamo con cannabis a la salsa de inmersión individual de cada persona en lugar del caldo comunitario. Esto permite que cada invitado controle su dosis con precisión. El aceite de chile con cannabis también funciona excelentemente como condimento de hot pot."
+          },
+          {
+            "q": "¿La salsa de soja afecta el THC en mi %{name} con cannabis?",
+            "a": "No, la salsa de soja no degrada el THC. Los compuestos de sodio y umami en la salsa de soja son completamente compatibles con los cannabinoides. De hecho, el fuerte sabor salado de la salsa de soja es uno de los mejores enmascaradores naturales del sabor herbal del cannabis."
+          }
+        ]
+      },
+      "german": {
+        "intro": "Esta receta de %{name} con cannabis infusiona los sabores abundantes y reconfortantes de la cocina alemana con %{base_fat} para un comestible rico y satisfactorio que se inspira en siglos de tradición culinaria centroeuropea. El uso generoso de mantequilla, crema y manteca en la cocina alemana la hace excepcionalmente adecuada para la infusión de cannabis. De schnitzel a strudel, estas recetas entregan dosificación precisa envuelta en sabor del viejo mundo.",
+        "dosing_tips": [
+          "Los platos alemanes son ricos y pesados, lo que ralentiza significativamente la digestión. Planifica el inicio de efectos en 75-120 minutos y una experiencia larga y gradual.",
+          "Añade mantequilla con cannabis como elemento de acabado en salsas de sartén, sobre spaetzle o derretida sobre schnitzel en lugar de usarla para freír.",
+          "Una cucharada de mantequilla con cannabis por porción es una dosis estándar en estos platos ricos en grasa. La mantequilla se integra naturalmente.",
+          "Los productos horneados alemanes como strudel y kuchen usan cantidades generosas de mantequilla. Sustituye una porción medida con %{base_fat} para dosificación precisa."
+        ],
+        "common_mistakes": [
+          "Usar mantequilla con cannabis para freír schnitzel a altas temperaturas desperdicia THC. Fríe en mantequilla o manteca regular y luego finaliza con una salsa de mantequilla con cannabis.",
+          "Añadir grasa de cannabis a un estofado o braseado horas antes de que esté listo. Los estofados alemanes se cocinan por mucho tiempo; añade mantequilla con cannabis en los últimos 15 minutos.",
+          "Infusionar en exceso platos alemanes ya pesados con demasiada mantequilla de cannabis, creando un resultado grasoso. Equilibra tus grasas con cuidado.",
+          "Olvidar que la mostaza alemana, el rábano picante y el chucrut son excelentes enmascaradores del sabor del cannabis. Condimenta con audacia."
+        ],
+        "storage": [
+          "Los platos alemanes con cannabis como estofados y carnes braseadas se conservan bien por 3-5 días refrigerados. Los sabores a menudo mejoran de un día para otro.",
+          "La mantequilla con cannabis para cocina alemana se conserva congelada hasta por 6 meses. Corta porciones según sea necesario.",
+          "Los productos horneados con cannabis como strudel y kuchen se conservan a temperatura ambiente por 3 días o refrigerados por una semana."
+        ],
+        "variations": [
+          "Derrite mantequilla con cannabis sobre spaetzle recién hervido con cebollas fritas para un acompañamiento clásico y reconfortante con cannabis.",
+          "Rocía mantequilla con cannabis sobre pretzels suaves calientes con mostaza para un snack bávaro tradicional con cannabis.",
+          "Haz strudel de manzana con cannabis pincelando las capas de masa filo con %{base_fat} para un postre hojaldrado y dosificado con precisión."
+        ],
+        "faq": [
+          {
+            "q": "¿Puedo hacer schnitzel con cannabis?",
+            "a": "Sí, pero no frías en mantequilla con cannabis. Fríe tu schnitzel empanizado en mantequilla o aceite regular hasta que esté dorado, luego retira del fuego y rocía una cantidad medida de mantequilla con cannabis por encima. El calor residual derrite la mantequilla en la cobertura crujiente perfectamente."
+          },
+          {
+            "q": "¿Qué platos alemanes funcionan mejor con mantequilla de cannabis?",
+            "a": "Spaetzle, albóndigas de papa, salsa de rouladen, ensalada de papa caliente y productos horneados como kuchen y strudel son ideales. Cualquier plato donde la mantequilla es un ingrediente de acabado funciona perfectamente. La cocina alemana usa mantequilla extensivamente, haciendo que la integración del cannabis sea natural."
+          },
+          {
+            "q": "¿Puedo añadir cannabis a la sopa de queso y cerveza alemana?",
+            "a": "Sí, incorpora mantequilla con cannabis en la sopa terminada después de retirar del fuego. La base rica de queso y el sabor fuerte de la cerveza enmascaran completamente cualquier sabor a cannabis. Este es uno de los platos alemanes más efectivos para ocultar sabores de cannabis."
+          },
+          {
+            "q": "¿Cómo hago chucrut con cannabis?",
+            "a": "Calienta tu chucrut suavemente e incorpora mantequilla con cannabis justo antes de servir. El sabor ácido y fermentado del chucrut es lo suficientemente fuerte para superar cualquier nota herbal del cannabis. No hiervas el chucrut por mucho tiempo después de añadir la grasa de cannabis."
+          },
+          {
+            "q": "¿Los postres alemanes con cannabis son demasiado pesados?",
+            "a": "Los postres alemanes como strudel y kuchen son ricos pero típicamente se sirven en porciones modestas, haciendo que el control de dosis sea sencillo. Usa mantequilla con cannabis en las capas de masa o el relleno y calcula la dosis por rebanada. Los sabores mantecosos y frutales complementan bien el cannabis."
+          }
+        ]
+      },
+      "mexican": {
+        "intro": "Esta receta de %{name} con cannabis infusiona los sabores vibrantes e intensos de la cocina mexicana con %{base_fat} para un comestible que celebra chiles, especias y técnicas culinarias tradicionales. La comida mexicana es ideal para la infusión de cannabis porque sus sabores robustos, desde chipotles ahumados hasta limón ácido, superan completamente cualquier sabor herbal del cannabis. Las salsas, moles y cremas son vehículos naturales para dosificación precisa.",
+        "dosing_tips": [
+          "Incorpora aceite de cannabis en salsas, cremas y guacamole al momento de servir para la dosificación más precisa por cucharada.",
+          "Los platos mexicanos con queso, crema agria y aguacate tienen alto contenido de grasa que mejora la absorción de THC naturalmente.",
+          "Comienza con 5-10 mg por porción. Las comidas picantes pueden enmascarar el inicio de los efectos del cannabis, así que espera los 90 minutos completos antes de comer más.",
+          "La manteca infusionada con cannabis es tradicional en la cocina mexicana y se integra perfectamente en masa, frijoles y salsas."
+        ],
+        "common_mistakes": [
+          "Freír tortillas o churros en aceite de cannabis desperdicia THC a las altas temperaturas de fritura. Fríe en aceite regular y finaliza con un chorrito o salsa de cannabis.",
+          "Añadir grasa de cannabis a una salsa de licuadora antes de licuar a alta velocidad genera calor por fricción. Licúa primero, luego incorpora el aceite de cannabis suavemente.",
+          "Condimentar poco porque asumes que el cannabis añade sabor. La comida mexicana exige chiles intensos, comino, ajo y limón independientemente.",
+          "Derretir queso infusionado con cannabis bajo un gratinador a temperatura extrema. Añade crema o aceite de cannabis por encima después de gratinar."
+        ],
+        "storage": [
+          "Las salsas y aderezos mexicanos con cannabis se conservan refrigerados hasta por una semana. La acidez de los tomates y el limón ayuda a la conservación.",
+          "La crema infusionada con cannabis se conserva por 5-7 días refrigerada. Revuelve antes de cada uso ya que la separación es normal.",
+          "La salsa mole con cannabis se congela perfectamente hasta por 3 meses. Descongela y calienta suavemente antes de servir."
+        ],
+        "variations": [
+          "Incorpora aceite de cannabis en salsa mole caliente para una infusión compleja y profundamente sabrosa donde el chocolate y los chiles enmascaran completamente el cannabis.",
+          "Haz crema infusionada con cannabis mezclando aceite de cannabis en crema mexicana o crema agria para un topping versátil para tacos y burritos.",
+          "Mezcla manteca infusionada con cannabis en la masa para tamales, donde la grasa es un ingrediente tradicional y esencial."
+        ],
+        "faq": [
+          {
+            "q": "¿Puedo hacer tamales con cannabis?",
+            "a": "Sí, los tamales son uno de los mejores vehículos mexicanos para el cannabis. La masa tradicionalmente contiene manteca, que puedes sustituir con manteca infusionada con cannabis. El proceso de cocción al vapor alcanza solo unos 212 F (100 C), lo que preserva el THC. Cada tamal es una dosis perfectamente porcionada."
+          },
+          {
+            "q": "¿Qué platos mexicanos funcionan mejor para la infusión de cannabis?",
+            "a": "Tamales, enchiladas con crema de cannabis, tacos con guacamole de cannabis y cualquier plato con salsa mole son las mejores opciones. Los platos con componentes ricos en grasa integran el cannabis naturalmente. Evita platos que dependan de la fritura profunda como método principal de cocción."
+          },
+          {
+            "q": "¿Puedo añadir cannabis al guacamole?",
+            "a": "Por supuesto. El aguacate es alto en grasas saludables que se mezclan perfectamente con el aceite de cannabis. Incorpora una cantidad medida de aceite de cannabis en el guacamole terminado y mezcla bien. Los sabores de limón, cilantro y chile enmascaran completamente cualquier nota herbal del cannabis."
+          },
+          {
+            "q": "¿La comida picante afecta cómo se sienten los comestibles de cannabis?",
+            "a": "La capsaicina de los chiles puede aumentar el flujo sanguíneo y el metabolismo, lo que algunos consumidores reportan que intensifica o acelera el inicio de los efectos del cannabis. La diferencia suele ser sutil, pero comienza con una dosis más baja si combinas comida muy picante con cannabis por primera vez."
+          },
+          {
+            "q": "¿Cómo hago chocolate caliente mexicano con cannabis?",
+            "a": "Calienta leche suavemente con chocolate mexicano, una raja de canela y una pizca de cayena. Retira del fuego e incorpora %{base_fat}. Bate vigorosamente con un molinillo o espumador. El chocolate, la canela y las especias enmascaran completamente cualquier sabor a cannabis para una bebida tradicional y reconfortante."
           }
         ]
       }
