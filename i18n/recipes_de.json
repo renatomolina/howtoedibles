@@ -2815,5 +2815,2424 @@
       "Restlichen Teig für den Deckel ausrollen. Ränder verschließen und mit verquirltem Ei bestreichen.",
       "Bei 375°F 35–40 Min. goldbraun backen."
     ]
+  },
+  "cannabis-nachos": {
+    "name": "Cannabis-Nachos",
+    "description": "Knusprige Tortilla-Chips beladen mit geschmolzenem Käse, gewürztem Fleisch und Cannabisbutter für einen teilbaren Snack mit perfekter Dosierung.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "1 große Tüte Tortilla-Chips",
+      "2 Esslöffel geschmolzene Cannabisbutter",
+      "2 Tassen geriebener Cheddar-Käse",
+      "1 Tasse geriebener Monterey-Jack-Käse",
+      "250g gekochtes und gewürztes Hackfleisch",
+      "1/2 Tasse schwarze Bohnen, abgetropft",
+      "1/4 Tasse Jalapeño-Scheiben",
+      "1/4 Tasse Sauerrahm",
+      "1/4 Tasse frische Salsa oder Pico de Gallo"
+    ],
+    "instructions": [
+      "Den Ofen auf 200°C vorheizen. Ein Backblech mit Backpapier auslegen.",
+      "Die Tortilla-Chips gleichmäßig auf dem Blech verteilen. Die geschmolzene Cannabisbutter gleichmäßig darüber träufeln.",
+      "Das gewürzte Fleisch, die schwarzen Bohnen und die Jalapeños über den Chips verteilen.",
+      "Beide Käsesorten gleichmäßig darüber streuen.",
+      "8-10 Minuten backen, bis der Käse geschmolzen und blasig ist.",
+      "Aus dem Ofen nehmen und mit Sauerrahm und frischer Salsa garnieren. Sofort servieren."
+    ]
+  },
+  "cannabis-cheese-dip": {
+    "name": "Cannabis-Käse-Dip",
+    "description": "Ein cremiger, samtiger Käse-Dip mit echtem Cheddar und Cannabisbutter, perfekt zum Dippen von Chips, Brezeln oder frischem Gemüse.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "2 Esslöffel Cannabisbutter",
+      "2 Esslöffel Mehl",
+      "1 Tasse Vollmilch",
+      "2 Tassen geriebener Cheddar-Käse",
+      "1/2 Tasse gewürfelte Tomaten mit grünen Chilis",
+      "1/2 Teelöffel Knoblauchpulver",
+      "1/4 Teelöffel Räucherpaprika",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Die Cannabisbutter in einem Topf bei mittlerer Hitze schmelzen.",
+      "Das Mehl einrühren und 1 Minute unter ständigem Rühren kochen, um eine Mehlschwitze zu bilden.",
+      "Die Milch nach und nach einrühren und dabei ständig rühren, um Klumpen zu vermeiden. Kochen, bis die Mischung eindickt, etwa 3-4 Minuten.",
+      "Die Hitze reduzieren und den Cheddar nach und nach einrühren, bis er vollständig geschmolzen ist.",
+      "Die gewürfelten Tomaten, Knoblauchpulver und Räucherpaprika unterrühren.",
+      "Mit Salz und Pfeffer abschmecken. Warm servieren mit Chips, Brezeln oder Gemüse."
+    ]
+  },
+  "infused-stuffed-jalapenos": {
+    "name": "Infundierte gefüllte Jalapeños",
+    "description": "Knusprige, cremige Cannabis-Jalapeños gefüllt mit Frischkäse und Cheddar, in Speck gewickelt für einen unwiderstehlichen Partysnack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "12 große Jalapeños, halbiert und entkernt",
+      "230g Frischkäse, weich",
+      "1 Tasse geriebener Cheddar-Käse",
+      "2 Esslöffel geschmolzene Cannabisbutter",
+      "1/4 Teelöffel Knoblauchpulver",
+      "1/4 Teelöffel Zwiebelpulver",
+      "12 Scheiben Speck, halbiert",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Den Ofen auf 190°C vorheizen. Ein Backblech mit Alufolie auslegen und ein Gitterrost darauf stellen.",
+      "Frischkäse, Cheddar, geschmolzene Cannabisbutter, Knoblauchpulver, Zwiebelpulver, Salz und Pfeffer vermischen.",
+      "Jede Jalapeño-Hälfte großzügig mit der Käsemischung füllen.",
+      "Jede gefüllte Jalapeño mit einer halben Speckscheibe umwickeln und mit einem Zahnstocher fixieren.",
+      "Auf das Gitterrost legen und 25-30 Minuten backen, bis der Speck knusprig ist.",
+      "5 Minuten abkühlen lassen vor dem Servieren."
+    ]
+  },
+  "cannabis-pretzel-bites": {
+    "name": "Cannabis-Brezel-Häppchen",
+    "description": "Weiche, zähe Brezel-Häppchen mit Cannabisbutter im Teig, bestreut mit grobem Salz und serviert mit warmem Käse-Dip.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "1 1/2 Tassen lauwarmes Wasser (43°C)",
+      "1 Päckchen Trockenhefe (7g)",
+      "1 Esslöffel Zucker",
+      "4 Tassen Mehl",
+      "1 Teelöffel Salz",
+      "3 Esslöffel geschmolzene Cannabisbutter",
+      "1/3 Tasse Natron (für das Wasserbad)",
+      "Grobes Meersalz zum Bestreuen"
+    ],
+    "instructions": [
+      "Hefe und Zucker im warmen Wasser auflösen. 5 Minuten stehen lassen, bis es schäumt. Die geschmolzene Cannabisbutter einrühren.",
+      "Mehl mit Salz mischen. Die Hefemischung zugeben und 5-7 Minuten kneten, bis ein glatter Teig entsteht. Abdecken und 1 Stunde gehen lassen.",
+      "Den Ofen auf 220°C vorheizen. Backbleche mit Backpapier auslegen.",
+      "Den Teig in 8 Teile teilen. Zu Strängen rollen und in 2,5 cm große Stücke schneiden.",
+      "10 Tassen Wasser mit Natron aufkochen. Die Teigstücke portionsweise 30 Sekunden kochen.",
+      "Mit grobem Salz bestreuen und 12-15 Minuten goldbraun backen. Mit geschmolzener Cannabisbutter bestreichen und servieren."
+    ]
+  },
+  "infused-bruschetta": {
+    "name": "Infundierte Bruschetta",
+    "description": "Klassische italienische Bruschetta verfeinert mit Cannabis-Olivenöl, reifen Tomaten und frischem Basilikum auf gerösteten Baguettescheiben.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "1 französisches Baguette, in 1-cm-Scheiben geschnitten",
+      "3 Esslöffel Cannabis-Olivenöl",
+      "4 große reife Tomaten, gewürfelt",
+      "1/4 Tasse frisches Basilikum in feinen Streifen",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 Esslöffel Balsamico-Essig",
+      "Salz und frisch gemahlener schwarzer Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Den Ofen auf 200°C vorheizen. Brotscheiben auf ein Backblech legen und leicht mit 1 Esslöffel Cannabis-Olivenöl bestreichen.",
+      "5-7 Minuten im Ofen rösten, bis sie goldbraun und knusprig sind. Beiseite stellen.",
+      "Die gewürfelten Tomaten, Knoblauch, Basilikum, Balsamico-Essig und die restlichen 2 Esslöffel Cannabis-Olivenöl vermengen.",
+      "Mit Salz und Pfeffer würzen und vorsichtig umrühren. 10 Minuten ziehen lassen.",
+      "Die Tomatenmischung auf jede geröstete Brotscheibe löffeln. Sofort servieren."
+    ]
+  },
+  "cannabis-spinach-artichoke-dip": {
+    "name": "Cannabis-Spinat-Artischocken-Dip",
+    "description": "Ein warmer, sprudelnder Spinat-Artischocken-Dip mit Cannabisbutter, Frischkäse und Parmesan, ideal zum Teilen bei jeder Zusammenkunft.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "2 Esslöffel Cannabisbutter",
+      "230g Frischkäse, weich",
+      "1/2 Tasse Sauerrahm",
+      "1/2 Tasse geriebener Parmesan",
+      "1 Tasse geriebener Mozzarella",
+      "280g tiefgefrorener Spinat, aufgetaut und gut ausgedrückt",
+      "1 Dose (400g) Artischockenherzen, abgetropft und gehackt",
+      "2 Knoblauchzehen, fein gehackt",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Eine kleine Auflaufform einfetten.",
+      "Cannabisbutter in einem Topf bei mittlerer Hitze schmelzen. Knoblauch 1 Minute darin anschwitzen.",
+      "Frischkäse und Sauerrahm einrühren, bis eine glatte Masse entsteht.",
+      "Spinat, Artischocken, Parmesan und die Hälfte des Mozzarellas unterheben. Mit Salz und Pfeffer würzen.",
+      "In die Auflaufform geben und mit dem restlichen Mozzarella bestreuen.",
+      "25-30 Minuten backen, bis die Oberfläche goldbraun und blasig ist. 5 Minuten abkühlen lassen und mit Crackern oder Brot servieren."
+    ]
+  },
+  "infused-deviled-eggs": {
+    "name": "Infundierte Gefüllte Eier",
+    "description": "Klassische gefüllte Eier mit Cannabisbutter, Dijon-Senf und Räucherpaprika für einen diskreten und eleganten Snack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "12 große Eier, hartgekocht und geschält",
+      "2 Esslöffel weiche Cannabisbutter",
+      "3 Esslöffel Mayonnaise",
+      "1 Teelöffel Dijon-Senf",
+      "1 Teelöffel Weißweinessig",
+      "1/4 Teelöffel Räucherpaprika, plus mehr zum Garnieren",
+      "Salz und Pfeffer nach Geschmack",
+      "Frischer Schnittlauch, gehackt, zum Garnieren"
+    ],
+    "instructions": [
+      "Die hartgekochten Eier längs halbieren. Die Eigelbe vorsichtig herauslösen und in eine Schüssel geben.",
+      "Die Eigelbe mit einer Gabel fein zerdrücken. Cannabisbutter, Mayonnaise, Senf, Essig und Räucherpaprika hinzufügen.",
+      "Alles glatt und cremig verrühren. Mit Salz und Pfeffer abschmecken.",
+      "Die Füllung mit einem Spritzbeutel oder Löffel gleichmäßig in die Eihälften verteilen.",
+      "Mit Räucherpaprika und Schnittlauch garnieren. Bis zum Servieren kühlen."
+    ]
+  },
+  "cannabis-mozzarella-sticks": {
+    "name": "Cannabis-Mozzarella-Sticks",
+    "description": "Goldbraune, knusprige Mozzarella-Sticks mit Cannabisbutter in der Panade und schmelzendem Käse im Inneren.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "12 Mozzarella-Käsestangen",
+      "1 Tasse Mehl",
+      "3 große Eier, verquirlt",
+      "2 Tassen italienisches Paniermehl",
+      "2 Esslöffel geschmolzene Cannabisbutter",
+      "1/2 Teelöffel Knoblauchpulver",
+      "Öl zum Frittieren (Raps- oder Pflanzenöl)",
+      "Marinara-Soße zum Dippen"
+    ],
+    "instructions": [
+      "Die geschmolzene Cannabisbutter mit den verquirlten Eiern vermischen.",
+      "Panierstation vorbereiten: Mehl, Ei-Cannabisbutter-Mischung und Paniermehl mit Knoblauchpulver.",
+      "Jeden Mozzarella-Stick in Mehl, dann in die Ei-Mischung und dann in Paniermehl wenden. Für eine doppelte Panade den Ei- und Paniermehl-Schritt wiederholen.",
+      "Auf ein mit Backpapier ausgelegtes Blech legen und mindestens 30 Minuten einfrieren.",
+      "Das Öl auf 175°C erhitzen. Portionsweise 1-2 Minuten goldbraun frittieren.",
+      "Auf Küchenpapier abtropfen lassen und sofort mit warmer Marinara-Soße servieren."
+    ]
+  },
+  "cannabis-buffalo-chicken-dip": {
+    "name": "Cannabis-Buffalo-Chicken-Dip",
+    "description": "Ein heißer, würziger Buffalo-Chicken-Dip mit Cannabisbutter, Frischkäse und scharfer Soße für einen wirkungsvollen Party-Snack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "2 Tassen gekochtes, zerzupftes Hähnchen",
+      "230g Frischkäse, weich",
+      "1/2 Tasse Buffalo-Soße",
+      "1/2 Tasse Ranch- oder Blauschimmelkäse-Dressing",
+      "2 Esslöffel Cannabisbutter",
+      "1 Tasse geriebener Cheddar-Käse",
+      "2 Frühlingszwiebeln, in Ringe geschnitten",
+      "Selleriestangen, Chips oder Cracker zum Servieren"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Eine Auflaufform leicht einfetten.",
+      "Cannabisbutter mit Frischkäse bei niedriger Hitze schmelzen, bis eine glatte Masse entsteht.",
+      "Buffalo-Soße und Ranch-Dressing einrühren.",
+      "Zerzupftes Hähnchen und die Hälfte des Cheddars unterheben. In die Auflaufform geben.",
+      "Mit dem restlichen Cheddar bestreuen und 20-25 Minuten backen, bis es sprudelt und goldbraun ist.",
+      "Mit Frühlingszwiebeln garnieren und heiß mit Sellerie, Chips oder Crackern servieren."
+    ]
+  },
+  "cannabis-garlic-bread": {
+    "name": "Cannabis-Knoblauchbrot",
+    "description": "Buttriges, aromatisches Knoblauchbrot mit Cannabisbutter, frischem Knoblauch und Petersilie, goldbraun getoastet als einfacher und köstlicher Snack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "1 großes französisches Baguette oder italienisches Brot",
+      "4 Esslöffel weiche Cannabisbutter",
+      "4 Knoblauchzehen, fein gehackt",
+      "2 Esslöffel frische Petersilie, fein gehackt",
+      "1/4 Tasse geriebener Parmesan",
+      "1/2 Teelöffel italienische Kräuter",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Den Ofen auf 190°C vorheizen. Ein Backblech mit Alufolie auslegen.",
+      "Die weiche Cannabisbutter mit Knoblauch, Petersilie, Parmesan, italienischen Kräutern und Salz vermischen.",
+      "Das Brot längs halbieren. Die Cannabisbutter-Mischung großzügig auf beiden Schnittflächen verteilen.",
+      "Die Brothälften mit der Butterseite nach oben auf das Blech legen. 10-12 Minuten backen, bis die Ränder goldbraun sind.",
+      "Für extra Knusprigkeit 1-2 Minuten unter dem Grill bräunen, dabei aufpassen, dass es nicht verbrennt.",
+      "In Portionen schneiden und warm servieren."
+    ]
+  },
+  "infused-onion-rings": {
+    "name": "Infundierte Zwiebelringe",
+    "description": "Knusprige Zwiebelringe mit einem leichten Bierteig, verfeinert mit Cannabisbutter, goldbraun frittiert für einen süchtig machenden Snack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "2 große süße Zwiebeln, in 1 cm dicke Ringe geschnitten",
+      "1 Tasse Mehl",
+      "1/2 Tasse Speisestärke",
+      "1 Tasse kaltes Bier oder Sprudelwasser",
+      "2 Esslöffel geschmolzene Cannabisbutter",
+      "1 Teelöffel Räucherpaprika",
+      "1/2 Teelöffel Knoblauchpulver",
+      "Salz und Pfeffer nach Geschmack",
+      "Öl zum Frittieren (Raps- oder Erdnussöl)"
+    ],
+    "instructions": [
+      "Die Zwiebelringe trennen. 30 Minuten in Eiswasser einlegen, dann vollständig trocknen.",
+      "Mehl, Speisestärke, Räucherpaprika, Knoblauchpulver, Salz und Pfeffer vermengen. Kaltes Bier und geschmolzene Cannabisbutter einrühren, bis ein glatter Teig entsteht.",
+      "Das Öl in einem tiefen Topf auf 190°C erhitzen.",
+      "Jeden Zwiebelring durch den Teig ziehen, abtropfen lassen und vorsichtig ins heiße Öl geben.",
+      "Portionsweise 2-3 Minuten pro Seite goldbraun frittieren. Den Topf nicht überfüllen.",
+      "Auf einem Gitterrost über Küchenpapier abtropfen lassen. Sofort salzen und mit Lieblingssoße servieren."
+    ]
+  },
+  "cannabis-veggie-spring-rolls": {
+    "name": "Cannabis-Gemüse-Frühlingsrollen",
+    "description": "Leichte, frische Gemüse-Frühlingsrollen mit knackigem Gemüse und einer Cannabis-Öl-Dippsoße für einen gesunden, infundierten Snack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "8 Reispapierblätter",
+      "1 Tasse gekochte und abgekühlte Reisnudeln",
+      "1 Tasse fein gehobelter Rotkohl",
+      "1 große Karotte, in feine Streifen geschnitten",
+      "1 Salatgurke, in feine Streifen geschnitten",
+      "1 Avocado, dünn geschnitten",
+      "Frische Minz- und Korianderblätter",
+      "2 Esslöffel Cannabis-Sesamöl (für die Soße)",
+      "3 Esslöffel Sojasauce, 1 Esslöffel Limettensaft, 1 Teelöffel Sriracha (für die Soße)"
+    ],
+    "instructions": [
+      "Für die Dippsoße Cannabis-Sesamöl, Sojasauce, Limettensaft und Sriracha verrühren. Beiseite stellen.",
+      "Ein Reispapierblatt 10-15 Sekunden in warmes Wasser tauchen, bis es biegsam ist. Auf eine feuchte Fläche legen.",
+      "Eine kleine Menge Nudeln, Rotkohl, Karotte, Gurke, Avocado, Minze und Koriander in die Mitte legen.",
+      "Die untere Kante über die Füllung falten, die Seiten einschlagen und straff aufrollen.",
+      "Mit den restlichen Blättern wiederholen. Sofort mit der Cannabis-Dippsoße servieren."
+    ]
+  },
+  "cannabis-stuffed-mushrooms": {
+    "name": "Cannabis-Gefüllte Champignons",
+    "description": "Herzhafte, mit Cannabisbutter zubereitete Champignons, gefüllt mit italienischer Wurst und Frischkäse, goldbraun gebacken als elegante Vorspeise.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "20 große Champignons, Stiele entfernt",
+      "2 Esslöffel Cannabisbutter",
+      "250g italienische Bratwurst, ohne Haut",
+      "110g Frischkäse, weich",
+      "1/4 Tasse geriebener Parmesan",
+      "2 Knoblauchzehen, fein gehackt",
+      "2 Esslöffel frische Petersilie, gehackt",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Den Ofen auf 190°C vorheizen. Eine Auflaufform leicht einfetten.",
+      "Cannabisbutter in einer Pfanne bei mittlerer Hitze schmelzen. Die Wurst krümelig braten. Knoblauch hinzufügen und 1 Minute mitbraten.",
+      "Vom Herd nehmen und Frischkäse, Parmesan und Petersilie einrühren. Mit Salz und Pfeffer würzen.",
+      "Jeden Champignonhut großzügig füllen und in die Auflaufform setzen.",
+      "20-25 Minuten backen, bis die Champignons weich und die Oberfläche goldbraun sind.",
+      "Einige Minuten abkühlen lassen vor dem Servieren. Nach Wunsch mit extra Petersilie garnieren."
+    ]
+  },
+  "infused-peanut-butter-banana-bites": {
+    "name": "Infundierte Erdnussbutter-Bananen-Häppchen",
+    "description": "Einfache, tiefgekühlte Cannabis-Erdnussbutter-Bananen-Häppchen mit Schokoladenüberzug für einen gesunden, süßen Snack ohne Backen.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "3 große reife Bananen, in 1-cm-Scheiben geschnitten",
+      "1/2 Tasse natürliche Erdnussbutter",
+      "2 Esslöffel geschmolzene Cannabisbutter",
+      "1/2 Tasse Zartbitterschokoladen-Chips",
+      "1 Teelöffel Kokosöl",
+      "Flockensalz zum Bestreuen (optional)",
+      "Gehackte Erdnüsse zum Bestreuen (optional)"
+    ],
+    "instructions": [
+      "Ein Backblech mit Backpapier auslegen. Erdnussbutter mit der geschmolzenen Cannabisbutter glatt verrühren.",
+      "Etwa 1 Teelöffel der Erdnussbutter-Mischung auf eine Bananenscheibe streichen und mit einer zweiten Scheibe bedecken. Mit allen Scheiben wiederholen.",
+      "30 Minuten einfrieren, bis sie fest sind.",
+      "Schokoladen-Chips mit Kokosöl im Wasserbad oder in der Mikrowelle schmelzen.",
+      "Die geschmolzene Schokolade über die gefrorenen Häppchen träufeln. Mit Flockensalz und gehackten Erdnüssen bestreuen.",
+      "10 Minuten im Gefrierfach fest werden lassen. In einem luftdichten Behälter im Gefrierfach aufbewahren."
+    ]
+  },
+  "cannabis-zucchini-fries": {
+    "name": "Cannabis-Zucchini-Pommes",
+    "description": "Knusprig gebackene Zucchini-Pommes mit Parmesan-Panko-Panade und Cannabisbutter als gesündere Alternative zu klassischen Pommes.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "4 mittelgroße Zucchini, in Stäbchen geschnitten",
+      "1/2 Tasse Mehl",
+      "2 große Eier, verquirlt",
+      "1 Tasse Panko-Paniermehl",
+      "1/2 Tasse geriebener Parmesan",
+      "2 Esslöffel geschmolzene Cannabisbutter",
+      "1/2 Teelöffel Knoblauchpulver",
+      "1/2 Teelöffel italienische Kräuter",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Den Ofen auf 220°C vorheizen. Ein Backblech mit Backpapier und einem Gitterrost darauf vorbereiten. Mit Kochspray einsprühen.",
+      "Die geschmolzene Cannabisbutter mit den Eiern verquirlen. In einer separaten Schüssel Panko, Parmesan, Knoblauchpulver, Kräuter, Salz und Pfeffer mischen.",
+      "Jedes Zucchinistäbchen in Mehl, dann in die Ei-Cannabisbutter-Mischung und dann in die Panko-Mischung wenden.",
+      "In einer einzelnen Schicht auf dem Gitterrost verteilen, ohne dass sie sich berühren.",
+      "20-22 Minuten backen, nach der Hälfte wenden, bis sie goldbraun und knusprig sind.",
+      "Sofort mit Marinara-Soße oder Ranch-Dressing servieren."
+    ]
+  },
+  "infused-sweet-potato-fries": {
+    "name": "Infundierte Süßkartoffel-Pommes",
+    "description": "Knusprige Süßkartoffel-Pommes in Cannabis-Kokosöl mit rauchigen Gewürzen gebacken für eine natürlich süße, infundierte Beilage.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "3 große Süßkartoffeln, geschält und in Stäbchen geschnitten",
+      "3 Esslöffel geschmolzenes Cannabis-Kokosöl",
+      "1 Esslöffel Speisestärke",
+      "1 Teelöffel Räucherpaprika",
+      "1/2 Teelöffel gemahlener Kreuzkümmel",
+      "1/2 Teelöffel Knoblauchpulver",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Den Ofen auf 220°C vorheizen. Zwei Backbleche mit Backpapier auslegen.",
+      "Die Süßkartoffelstäbchen 30 Minuten in kaltes Wasser legen. Abtropfen und mit Küchenpapier komplett trocknen.",
+      "Die Süßkartoffeln mit Cannabis-Kokosöl, Speisestärke, Räucherpaprika, Kreuzkümmel, Knoblauchpulver, Salz und Pfeffer vermengen.",
+      "In einer einzelnen Schicht mit Abstand auf den Backblechen verteilen.",
+      "15 Minuten backen, wenden und weitere 10-15 Minuten backen, bis sie knusprig und karamellisiert sind.",
+      "Sofort mit einer Soße nach Wahl servieren."
+    ]
+  },
+  "cannabis-avocado-fries": {
+    "name": "Cannabis-Avocado-Pommes",
+    "description": "Außen knusprig, innen cremig – Avocado-Pommes mit Panko-Panade und Cannabisbutter für einen einzigartigen infundierten Snack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "3 feste reife Avocados, entkernt und in Spalten geschnitten",
+      "1/2 Tasse Mehl",
+      "2 große Eier, verquirlt",
+      "1 Tasse Panko-Paniermehl",
+      "2 Esslöffel geschmolzene Cannabisbutter",
+      "1/2 Teelöffel Chilipulver",
+      "1/4 Teelöffel Cayennepfeffer",
+      "Salz nach Geschmack",
+      "Limettenspalten und Sriracha-Mayo zum Servieren"
+    ],
+    "instructions": [
+      "Den Ofen auf 220°C vorheizen. Ein Backblech mit Backpapier auslegen und mit Kochspray einsprühen.",
+      "Die geschmolzene Cannabisbutter mit den Eiern verquirlen. In einer Schüssel Panko mit Chilipulver, Cayenne und Salz mischen.",
+      "Jede Avocadospalte vorsichtig in Mehl, dann in die Ei-Mischung und dann in die gewürzte Panko-Mischung wenden.",
+      "Auf dem Backblech in einer Schicht verteilen und leicht mit Kochspray besprühen.",
+      "15-18 Minuten backen, nach der Hälfte wenden, bis die Panade goldbraun und knusprig ist.",
+      "Sofort mit Limettenspalten und Sriracha-Mayo servieren."
+    ]
+  },
+  "infused-caprese-skewers": {
+    "name": "Infundierte Caprese-Spieße",
+    "description": "Elegante Caprese-Spieße mit frischem Mozzarella, Kirschtomaten und Basilikum, beträufelt mit Cannabis-Olivenöl und Balsamico-Glasur.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "20 Kirschtomaten",
+      "20 kleine Mozzarellakugeln",
+      "20 frische Basilikumblätter",
+      "3 Esslöffel Cannabis-Olivenöl",
+      "2 Esslöffel Balsamico-Glasur",
+      "Flockensalz und frisch gemahlener schwarzer Pfeffer",
+      "Holzspieße oder Zahnstocher"
+    ],
+    "instructions": [
+      "Jeweils ein Basilikumblatt, eine Mozzarellakugel und eine Kirschtomate auf jeden Spieß stecken.",
+      "Die fertigen Spieße auf einer Servierplatte anrichten.",
+      "Das Cannabis-Olivenöl gleichmäßig über alle Spieße träufeln.",
+      "Mit Balsamico-Glasur dekorativ beträufeln.",
+      "Mit Flockensalz und frisch gemahlenem Pfeffer würzen. Bei Zimmertemperatur servieren für den besten Geschmack."
+    ]
+  },
+  "cannabis-loaded-potato-skins": {
+    "name": "Cannabis-Kartoffelschalen mit Füllung",
+    "description": "Knusprige Kartoffelschalen mit Cannabisbutter bestrichen und gefüllt mit geschmolzenem Cheddar, knusprigem Speck und Sauerrahm.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "6 mittelgroße mehligkochende Kartoffeln",
+      "3 Esslöffel geschmolzene Cannabisbutter",
+      "1 1/2 Tassen geriebener Cheddar-Käse",
+      "6 Scheiben Speck, gekocht und zerbröselt",
+      "1/2 Tasse Sauerrahm",
+      "3 Frühlingszwiebeln, in feine Ringe geschnitten",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Den Ofen auf 200°C vorheizen. Die Kartoffeln mehrmals einstechen und 50-60 Minuten weich backen. Etwas abkühlen lassen.",
+      "Jede Kartoffel längs halbieren. Das meiste Fruchtfleisch herauslöffeln und einen 0,5-cm-Rand stehen lassen.",
+      "Die Kartoffelschalen innen und außen mit geschmolzener Cannabisbutter bestreichen. Mit Salz und Pfeffer würzen.",
+      "Die Schalen mit der Schnittseite nach oben auf ein Backblech setzen. 10 Minuten backen, bis sie anfangen knusprig zu werden.",
+      "Mit Cheddar und Speck füllen. Weitere 5-7 Minuten backen, bis der Käse geschmolzen ist.",
+      "Mit Sauerrahm und Frühlingszwiebeln garnieren. Sofort servieren."
+    ]
+  },
+  "cannabis-tortilla-chips-with-salsa": {
+    "name": "Cannabis-Tortilla-Chips mit Salsa",
+    "description": "Hausgemachte Cannabis-Tortilla-Chips mit Cannabis-Olivenöl gebacken, dazu frische hausgemachte Salsa für einen klassischen infundierten Snack.",
+    "category_name": "Snacks",
+    "ingredients": [
+      "3,5 Gramm gemahlenes Cannabis",
+      "10 Maistortillas, jeweils in 6 Dreiecke geschnitten",
+      "3 Esslöffel Cannabis-Olivenöl",
+      "1 Teelöffel Meersalz",
+      "1/2 Teelöffel gemahlener Kreuzkümmel",
+      "4 große reife Tomaten, gewürfelt (für die Salsa)",
+      "1/2 rote Zwiebel, fein gewürfelt (für die Salsa)",
+      "1 Jalapeño, entkernt und fein gehackt (für die Salsa)",
+      "1/4 Tasse frischer Koriander, gehackt (für die Salsa)",
+      "Saft von 2 Limetten (für die Salsa)"
+    ],
+    "instructions": [
+      "Den Ofen auf 190°C vorheizen. Zwei Backbleche mit Backpapier auslegen.",
+      "Beide Seiten der Tortilla-Dreiecke leicht mit Cannabis-Olivenöl bestreichen. In einer einzelnen Schicht auf die Bleche legen.",
+      "Mit Meersalz und Kreuzkümmel bestreuen. 12-15 Minuten backen, einmal wenden, bis sie goldbraun und knusprig sind.",
+      "Während die Chips backen, die Salsa zubereiten: Tomaten, rote Zwiebel, Jalapeño, Koriander und Limettensaft vermengen. Mit Salz abschmecken.",
+      "Die Chips einige Minuten auf dem Blech abkühlen lassen (sie werden beim Abkühlen noch knuspriger).",
+      "Die Cannabis-Tortilla-Chips mit der frischen Salsa servieren."
+    ]
+  },
+  "cannabis-sugar": {
+    "name": "Cannabis-Zucker",
+    "description": "Vielseitiger Cannabis-Zucker, hergestellt durch Verdampfen einer Cannabis-Tinktur in Kristallzucker, perfekt zum Süßen von Getränken und Backwaren.",
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "7 Gramm gemahlenes Cannabis",
+      "1 Tasse weißer Kristallzucker",
+      "3 Esslöffel hochprozentiger Alkohol für die Tinktur-Extraktion"
+    ],
+    "instructions": [
+      "Cannabis decarboxylieren: Den Ofen auf 115°C vorheizen. Das Cannabis auf einem mit Backpapier ausgelegten Blech verteilen und 40 Minuten backen, nach der Hälfte umrühren.",
+      "Das decarboxylierte Cannabis in ein Einmachglas geben und mit hochprozentigem Alkohol bedecken. Verschließen und 5 Minuten kräftig schütteln, dann durch ein Tuch abseihen.",
+      "Den Zucker gleichmäßig in einer Glasauflaufform verteilen. Die abgeseihte Tinktur über den Zucker gießen und gründlich verrühren.",
+      "In dünner Schicht verteilen und den Alkohol bei Raumtemperatur 24-48 Stunden verdunsten lassen, gelegentlich umrühren, oder bei 93°C 20-30 Minuten im Ofen trocknen.",
+      "Wenn der Zucker vollständig trocken ist, alle Klumpen mit einer Gabel zerdrücken. Der Zucker hat eine leicht goldene Farbe.",
+      "In einem luftdichten Behälter an einem kühlen, dunklen Ort aufbewahren. Als 1:1-Ersatz für normalen Zucker verwenden."
+    ]
+  },
+  "cannabis-flour": {
+    "name": "Cannabis-Mehl",
+    "description": "Cannabis-Mehl aus decarboxyliertem Cannabis und Weizenmehl vermischt, eine einfache Grundzutat zum Infundieren jedes Backrezepts.",
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "7 Gramm gemahlenes Cannabis",
+      "1 Tasse Weizenmehl"
+    ],
+    "instructions": [
+      "Cannabis decarboxylieren: Den Ofen auf 115°C vorheizen. Das fein gemahlene Cannabis auf einem ausgelegten Backblech verteilen und 40 Minuten backen, nach der Hälfte umrühren. Es sollte eine hellgoldene Farbe annehmen.",
+      "Das decarboxylierte Cannabis vollständig abkühlen lassen. In einer Kaffeemühle oder Gewürzmühle zu einem sehr feinen Pulver mahlen.",
+      "Das Mehl in eine große Schüssel sieben. Das Cannabispulver hinzufügen und gründlich verrühren.",
+      "Die Mischung 2-3 Mal erneut sieben, um eine gleichmäßige Verteilung sicherzustellen. Das Mehl bekommt einen leicht grünlichen Ton.",
+      "In einem luftdichten Behälter an einem kühlen, dunklen Ort bis zu 3 Monate aufbewahren. Als teilweiser oder vollständiger Ersatz für normales Mehl verwenden."
+    ]
+  },
+  "cannabis-tincture": {
+    "name": "Cannabis-Tinktur",
+    "description": "Eine potente Cannabis-Tinktur aus decarboxyliertem Cannabis in hochprozentigem Alkohol, ein vielseitiger Flüssigextrakt für sublinguale Dosierung oder zum Hinzufügen zu Speisen.",
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "7 Gramm gemahlenes Cannabis",
+      "120 ml hochprozentiger Getreidealkohol",
+      "Einmachglas mit dicht schließendem Deckel",
+      "Käsetuch oder feines Sieb",
+      "Dunkles Glasfläschchen mit Pipette zur Aufbewahrung"
+    ],
+    "instructions": [
+      "Cannabis decarboxylieren: Den Ofen auf 115°C vorheizen. Das Cannabis auf einem ausgelegten Blech verteilen und 40 Minuten backen, nach der Hälfte umrühren.",
+      "Das abgekühlte decarboxylierte Cannabis in ein sauberes Einmachglas geben. Den Alkohol darüber gießen, bis das Cannabis vollständig bedeckt ist.",
+      "Das Glas fest verschließen. Für eine Schnellextraktion 3-5 Minuten kräftig schütteln. Für eine stärkere Tinktur 2-4 Wochen an einem kühlen, dunklen Ort lagern und täglich schütteln.",
+      "Die Tinktur durch ein Käsetuch oder feines Sieb abseihen und gut auspressen. Das Pflanzenmaterial entsorgen.",
+      "In ein dunkles Glasfläschchen mit Pipette umfüllen. Mit 1 mL unter der Zunge beginnen und 15-30 Minuten auf die Wirkung warten.",
+      "An einem kühlen, dunklen Ort aufbewahren. Die Tinktur ist bei richtiger Lagerung mehrere Jahre haltbar. Vor Gebrauch schütteln."
+    ]
+  },
+  "cannabis-maple-syrup": {
+    "name": "Cannabis-Ahornsirup",
+    "description": "Cannabis-infundierter Ahornsirup aus echtem Ahornsirup und Cannabisbutter, ideal für Pfannkuchen, Waffeln oder Cocktails.",
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "7 Gramm gemahlenes Cannabis",
+      "1 Tasse reiner Ahornsirup (Grad A dunkel empfohlen)",
+      "3 Esslöffel Cannabisbutter oder Cannabis-Kokosöl"
+    ],
+    "instructions": [
+      "Cannabis decarboxylieren: Den Ofen auf 115°C vorheizen. Das Cannabis auf einem ausgelegten Blech verteilen und 40 Minuten backen, nach der Hälfte umrühren.",
+      "Ahornsirup und Cannabisbutter in einem kleinen Topf bei sehr niedriger Hitze erhitzen. Rühren, bis die Butter vollständig geschmolzen und eingearbeitet ist.",
+      "Das decarboxylierte Cannabis direkt in den Topf geben. Bei niedrigster Hitze 30 Minuten köcheln lassen und gelegentlich umrühren. Nicht kochen lassen.",
+      "Vom Herd nehmen und die Mischung weitere 10 Minuten ziehen lassen.",
+      "Durch ein mit Käsetuch ausgelegtes feines Sieb in ein sauberes Glas abseihen. Das Tuch gut auspressen.",
+      "Abkühlen lassen, dann verschließen. Im Kühlschrank bis zu 2 Monate aufbewahren. Vor Gebrauch gut schütteln."
+    ]
+  },
+  "cannabis-hot-sauce": {
+    "name": "Cannabis-Scharfe-Soße",
+    "description": "Eine feurige Cannabis-Soße aus frischen Chilischoten und Cannabis-Öl, die Schärfe und THC in einem vielseitigen Würzmittel vereint.",
+    "category_name": "Grundlagen",
+    "ingredients": [
+      "7 Gramm gemahlenes Cannabis",
+      "450g frische rote Chilischoten (Cayenne, Fresno oder gemischt), Stiele entfernt",
+      "4 Knoblauchzehen, geschält",
+      "1 Tasse Weißweinessig",
+      "2 Esslöffel Cannabis-Olivenöl",
+      "1 Teelöffel Salz",
+      "1 Teelöffel Zucker"
+    ],
+    "instructions": [
+      "Cannabis decarboxylieren: Den Ofen auf 115°C vorheizen. Das Cannabis auf einem ausgelegten Blech verteilen und 40 Minuten backen, nach der Hälfte umrühren.",
+      "Die Chilischoten grob hacken. In einem Topf mit Knoblauch, Essig, Salz und Zucker aufkochen, dann 20 Minuten bei niedriger Hitze köcheln lassen.",
+      "Vom Herd nehmen und etwas abkühlen lassen. In einen Mixer geben zusammen mit dem Cannabis-Olivenöl und dem decarboxylierten Cannabis.",
+      "Auf höchster Stufe 2-3 Minuten mixen, bis alles vollständig glatt ist.",
+      "Für eine glatte Soße durch ein feines Sieb passieren, oder für eine gröbere Textur ungesiebt lassen. Salz und Essig nach Geschmack anpassen.",
+      "In sterilisierte Glasflaschen füllen. Im Kühlschrank bis zu 6 Monate aufbewahren. Der Geschmack verbessert sich nach einigen Tagen Ruhezeit."
+    ]
+  },
+  "cannabis-kung-pao-chicken": {
+    "name": "Cannabis Kung Pao Hähnchen",
+    "description": "Würziges und herzhaftes Cannabis-infundiertes Kung Pao Hähnchen mit gerösteten Erdnüssen und Szechuan-Pfeffer — ein authentisches chinesisches Gericht mit perfekter THC-Dosis.",
+    "category_name": "International",
+    "ingredients": [
+      "500g Hähnchenoberkeulen ohne Knochen, gewürfelt",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "1/2 Tasse geröstete Erdnüsse",
+      "8-10 getrocknete rote Chilis",
+      "1 Teelöffel Szechuan-Pfeffer",
+      "3 Knoblauchzehen, fein gehackt",
+      "1 Esslöffel frischer Ingwer, fein gehackt",
+      "2 Esslöffel Sojasauce",
+      "1 Esslöffel Reisessig",
+      "1 Esslöffel Hoisin-Sauce",
+      "1 Teelöffel Speisestärke mit 2 Esslöffeln Wasser verrührt",
+      "3 Frühlingszwiebeln, in Ringe geschnitten"
+    ],
+    "instructions": [
+      "Das gewürfelte Hähnchen in Sojasauce und Stärkemischung 15 Minuten marinieren.",
+      "Das Cannabis-Öl im Wok bei mittlerer bis hoher Hitze erhitzen, die Temperatur unter 170°C halten.",
+      "Die getrockneten Chilis und Szechuan-Pfeffer 30 Sekunden anbraten bis sie duften.",
+      "Das marinierte Hähnchen hinzufügen und 4-5 Minuten goldbraun braten.",
+      "Knoblauch und Ingwer einrühren und 30 Sekunden mitbraten.",
+      "Die restliche Sojasauce, Reisessig und Hoisin-Sauce hinzufügen und gut verrühren.",
+      "Die gerösteten Erdnüsse und Frühlingszwiebeln unterheben und 1 Minute schwenken.",
+      "Sofort mit gedämpftem Reis servieren. 60-90 Minuten auf die volle Wirkung warten."
+    ]
+  },
+  "cannabis-mapo-tofu": {
+    "name": "Cannabis Mapo Tofu",
+    "description": "Klassischer Szechuan Cannabis-infundierter Mapo Tofu mit seidigem Tofu in einer feurigen, betäubenden Chilipaste — ein wohltuendes THC-Gericht.",
+    "category_name": "International",
+    "ingredients": [
+      "400g Seidentofu, gewürfelt",
+      "150g Schweinehackfleisch",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "2 Esslöffel Doubanjiang (Chilibohnenpaste)",
+      "1 Esslöffel fermentierte schwarze Bohnen",
+      "1 Teelöffel gemahlener Szechuan-Pfeffer",
+      "3 Knoblauchzehen, fein gehackt",
+      "1 Esslöffel Sojasauce",
+      "1 Teelöffel Speisestärke mit 2 Esslöffeln Wasser",
+      "2 Frühlingszwiebeln, in Ringe geschnitten"
+    ],
+    "instructions": [
+      "Den Tofu vorsichtig 2 Minuten in gesalzenem kochendem Wasser blanchieren, abtropfen lassen.",
+      "Das Cannabis-Öl im Wok bei mittlerer Hitze erhitzen, nicht über 170°C.",
+      "Das Hackfleisch hinzufügen und 3-4 Minuten anbraten bis es gebräunt ist.",
+      "Doubanjiang, schwarze Bohnen und Knoblauch hinzufügen. 1 Minute braten bis das Öl rot wird.",
+      "3/4 Tasse Wasser und Sojasauce einrühren und zum Köcheln bringen.",
+      "Den Tofu vorsichtig hinzufügen und 5 Minuten ohne starkes Rühren köcheln lassen.",
+      "Die Stärkemischung einrühren bis die Sauce eindickt. Mit Szechuan-Pfeffer und Frühlingszwiebeln bestreuen.",
+      "Mit Reis servieren. Mindestens 60 Minuten vor einer zweiten Portion warten."
+    ]
+  },
+  "cannabis-sweet-and-sour-pork": {
+    "name": "Cannabis Süß-Sauer Schweinefleisch",
+    "description": "Cannabis-infundiertes süß-saures Schweinefleisch mit knusprig paniertem Fleisch in einer lebhaften, würzigen Sauce — eine THC-Version dieses beliebten chinesischen Klassikers.",
+    "category_name": "International",
+    "ingredients": [
+      "500g Schweinefilet, in Würfel geschnitten",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "1/2 Tasse Speisestärke",
+      "1 Ei, verquirlt",
+      "1 rote Paprika, gewürfelt",
+      "1 grüne Paprika, gewürfelt",
+      "1 Tasse Ananasstücke",
+      "3 Esslöffel Ketchup",
+      "2 Esslöffel Reisessig",
+      "2 Esslöffel Zucker",
+      "1 Esslöffel Sojasauce",
+      "Pflanzenöl zum Frittieren"
+    ],
+    "instructions": [
+      "Schweinewürfel in verquirltem Ei wenden, dann in Speisestärke wälzen.",
+      "Das Schweinefleisch bei 180°C in Pflanzenöl 4-5 Minuten goldbraun frittieren. Auf Küchenpapier abtropfen.",
+      "In einer separaten Pfanne das Cannabis-Öl bei mittlerer Hitze erhitzen. Die Paprika 2 Minuten anbraten.",
+      "Ketchup, Reisessig, Zucker, Sojasauce und 1/4 Tasse Wasser verrühren und in die Pfanne geben.",
+      "Die Ananasstücke hinzufügen und 1 Minute kochen.",
+      "Das knusprige Schweinefleisch in die Sauce geben und gleichmäßig überziehen.",
+      "Sofort mit Reis servieren. Die Wirkung tritt meist nach 60-90 Minuten ein."
+    ]
+  },
+  "cannabis-dan-dan-noodles": {
+    "name": "Cannabis Dan Dan Nudeln",
+    "description": "Reichhaltige und würzige Cannabis-infundierte Dan Dan Nudeln mit herzhafter Sesam-Chili-Sauce und gewürztem Schweinehack — ein ikonisches Szechuan-Straßenessen mit THC.",
+    "category_name": "International",
+    "ingredients": [
+      "300g frische chinesische Weizennudeln",
+      "200g Schweinehackfleisch",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "2 Esslöffel chinesische Sesampaste",
+      "1 Esslöffel Chili-Öl",
+      "2 Esslöffel Sojasauce",
+      "1 Esslöffel schwarzer chinesischer Essig",
+      "1 Teelöffel Szechuan-Pfeffer gemahlen",
+      "2 Esslöffel eingelegter Senfkohl",
+      "2 Frühlingszwiebeln, fein gehackt",
+      "Geröstete Erdnüsse, zerkleinert"
+    ],
+    "instructions": [
+      "Die Nudeln nach Packungsanleitung kochen, abtropfen und auf 4 Schüsseln verteilen.",
+      "Die Sauce aus Sesampaste, Sojasauce, Essig, Chili-Öl und Cannabis-Öl anrühren. In die Schüsseln unter die Nudeln geben.",
+      "Das Hackfleisch im Wok bei starker Hitze 4 Minuten anbraten.",
+      "Den eingelegten Senfkohl und Szechuan-Pfeffer zum Hackfleisch geben. 1 Minute braten.",
+      "Das Hackfleisch auf die Nudeln in jeder Schüssel verteilen.",
+      "Mit zerkleinerten Erdnüssen und Frühlingszwiebeln garnieren. Vor dem Essen alles vermengen.",
+      "60-90 Minuten auf die Cannabis-Wirkung warten."
+    ]
+  },
+  "cannabis-wonton-soup": {
+    "name": "Cannabis Wonton-Suppe",
+    "description": "Zarte Cannabis-infundierte Wonton-Suppe mit handgemachten Schweine-Garnelen-Teigtaschen in einer leichten, aromatischen Brühe — ein wohltuendes chinesisches THC-Gericht.",
+    "category_name": "International",
+    "ingredients": [
+      "200g Schweinehackfleisch",
+      "100g rohe Garnelen, geschält und fein gehackt",
+      "1 Packung Wonton-Blätter",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "1 Esslöffel Sojasauce",
+      "1 Teelöffel Sesamöl",
+      "1 Teelöffel frischer Ingwer, gerieben",
+      "4 Tassen Hühnerbrühe",
+      "1 Esslöffel helle Sojasauce",
+      "Pak Choi, halbiert",
+      "Frühlingszwiebeln und weißer Pfeffer zum Garnieren"
+    ],
+    "instructions": [
+      "Hackfleisch, Garnelen, Sojasauce, Sesamöl, Ingwer und Cannabis-Öl in einer Schüssel gut vermengen.",
+      "Einen Teelöffel Füllung auf jedes Wonton-Blatt geben. Ränder befeuchten und fest verschließen.",
+      "Die Hühnerbrühe zum sanften Köcheln bringen. Mit heller Sojasauce und weißem Pfeffer würzen.",
+      "Pak Choi in die Brühe geben und 2 Minuten garen.",
+      "Die Wontons in die Brühe geben und 4-5 Minuten kochen bis sie an die Oberfläche steigen.",
+      "In Schüsseln anrichten und mit Frühlingszwiebeln und weißem Pfeffer garnieren.",
+      "Mindestens 60 Minuten vor einer zweiten Portion warten."
+    ]
+  },
+  "cannabis-char-siu-pork": {
+    "name": "Cannabis Char Siu Schweinefleisch",
+    "description": "Saftiges Cannabis-infundiertes Char Siu Schweinefleisch mit glänzender, karamellisierter Glasur aus Honig, Hoisin und Fünf-Gewürze — ein THC-angereicherter kantonesischer BBQ-Klassiker.",
+    "category_name": "International",
+    "ingredients": [
+      "800g Schweinenacken, in lange Streifen geschnitten",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "3 Esslöffel Hoisin-Sauce",
+      "2 Esslöffel Sojasauce",
+      "2 Esslöffel Honig",
+      "1 Esslöffel Shaoxing-Wein",
+      "1 Teelöffel Fünf-Gewürze-Pulver",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 Esslöffel roter fermentierter Tofu (optional)",
+      "1 Esslöffel Zucker"
+    ],
+    "instructions": [
+      "Hoisin, Sojasauce, Honig, Shaoxing-Wein, Fünf-Gewürze, Knoblauch, Zucker, fermentierten Tofu und Cannabis-Öl zur Marinade verrühren.",
+      "Die Schweinestreifen gründlich marinieren. Abgedeckt mindestens 4 Stunden oder über Nacht im Kühlschrank ziehen lassen.",
+      "Ofen auf 160°C vorheizen. Rost über ein mit Folie ausgelegtes Backblech legen und das Fleisch darauf verteilen.",
+      "20 Minuten braten, wenden und mit Marinade bestreichen. Weitere 15 Minuten braten.",
+      "Ofen auf 220°C erhöhen und 5-8 Minuten weitergaren bis die Ränder karamellisiert sind.",
+      "10 Minuten ruhen lassen, dann gegen die Faser aufschneiden.",
+      "Mit Reis und Gemüse servieren. 60-90 Minuten vor weiterem Verzehr warten."
+    ]
+  },
+  "cannabis-dim-sum-dumplings": {
+    "name": "Cannabis Dim Sum Teigtaschen",
+    "description": "Handgemachte Cannabis-infundierte Dim Sum Teigtaschen mit saftigem Schweine-Garnelen-Fülllung, perfekt gedämpft — eine THC-Version des kantonesischen Teehaus-Favoriten.",
+    "category_name": "International",
+    "ingredients": [
+      "250g Schweinehackfleisch",
+      "150g rohe Garnelen, geschält und gewürfelt",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "1 Esslöffel Sojasauce",
+      "1 Teelöffel Sesamöl",
+      "1 Teelöffel Austernsauce",
+      "1 Esslöffel frischer Ingwer, gerieben",
+      "2 Frühlingszwiebeln, fein gehackt",
+      "1 Packung runde Teigtaschenblätter",
+      "Sojasauce und Chili-Öl zum Dippen"
+    ],
+    "instructions": [
+      "Hackfleisch, Garnelen, Cannabis-Öl, Sojasauce, Sesamöl, Austernsauce, Ingwer und Frühlingszwiebeln gründlich vermengen.",
+      "Einen Esslöffel Füllung auf jedes Teigblatt geben. Ränder befeuchten und mit Falten verschließen.",
+      "Einen Bambuskorb mit Backpapier oder Kohlblättern auslegen.",
+      "Die Teigtaschen mit Abstand anordnen. 8-10 Minuten über kochendem Wasser dämpfen.",
+      "Sofort mit Sojasauce und Chili-Öl servieren.",
+      "Mit 3-4 Teigtaschen pro Person beginnen und 60 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-sesame-chicken": {
+    "name": "Cannabis Sesam-Hähnchen",
+    "description": "Knuspriges Cannabis-infundiertes Sesam-Hähnchen mit klebriger, süßer Glasur und gerösteten Sesamkörnern — ein THC-dosierter chinesisch-amerikanischer Favorit.",
+    "category_name": "International",
+    "ingredients": [
+      "500g Hähnchenoberkeulen ohne Knochen, mundgerecht geschnitten",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "1/2 Tasse Speisestärke",
+      "1 Ei, verquirlt",
+      "3 Esslöffel Sojasauce",
+      "2 Esslöffel Honig",
+      "1 Esslöffel Reisessig",
+      "1 Esslöffel Sesamöl",
+      "2 Knoblauchzehen, fein gehackt",
+      "3 Esslöffel geröstete Sesamsamen",
+      "Pflanzenöl zum Frittieren"
+    ],
+    "instructions": [
+      "Hähnchenstücke in verquirltem Ei wenden, dann in Speisestärke wälzen.",
+      "Das Hähnchen bei 180°C in Pflanzenöl 5-6 Minuten goldbraun frittieren. Auf Küchenpapier abtropfen.",
+      "In einem Topf bei niedriger Hitze Cannabis-Öl, Sojasauce, Honig, Reisessig, Sesamöl und Knoblauch 2-3 Minuten erwärmen ohne zu kochen.",
+      "Das frittierte Hähnchen in der warmen Sauce schwenken bis alles gleichmäßig überzogen ist.",
+      "Auf einem Teller anrichten und großzügig mit gerösteten Sesamsamen bestreuen.",
+      "Mit Reis und Brokkoli servieren. 60-90 Minuten auf die volle Wirkung warten."
+    ]
+  },
+  "cannabis-hot-and-sour-soup": {
+    "name": "Cannabis Scharf-Sauer-Suppe",
+    "description": "Wärmende Cannabis-infundierte Scharf-Sauer-Suppe mit Tofu, Pilzen und Bambussprossen in einer würzig-sauren Brühe — ein THC-angereicherter chinesischer Suppenklassiker.",
+    "category_name": "International",
+    "ingredients": [
+      "4 Tassen Hühner- oder Gemüsebrühe",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "150g fester Tofu, in dünne Streifen geschnitten",
+      "1/2 Tasse Shiitake-Pilze, in Scheiben",
+      "1/2 Tasse Bambussprossen, in Streifen",
+      "1/4 Tasse Mu-Err-Pilze, eingeweicht und geschnitten",
+      "3 Esslöffel Reisessig",
+      "2 Esslöffel Sojasauce",
+      "1 Teelöffel weißer Pfeffer",
+      "2 Esslöffel Speisestärke mit 3 Esslöffeln Wasser",
+      "1 Ei, verquirlt",
+      "1 Teelöffel Chili-Öl"
+    ],
+    "instructions": [
+      "Die Brühe in einem großen Topf bei mittlerer Hitze zum Köcheln bringen.",
+      "Shiitake-Pilze, Mu-Err-Pilze und Bambussprossen hinzufügen. 5 Minuten köcheln.",
+      "Sojasauce, Reisessig, weißen Pfeffer und Cannabis-Öl einrühren.",
+      "Die Tofu-Streifen hinzufügen und 3 Minuten sanft köcheln.",
+      "Die Stärkemischung einrühren um die Suppe anzudicken.",
+      "Das verquirlte Ei langsam einrühren und dabei in eine Richtung rühren für seidige Eierflocken.",
+      "Mit Chili-Öl beträufeln und heiß servieren. 60 Minuten vor einer zweiten Schüssel warten."
+    ]
+  },
+  "cannabis-scallion-pancakes": {
+    "name": "Cannabis Frühlingszwiebel-Pfannkuchen",
+    "description": "Knusprige und blättrige Cannabis-infundierte Frühlingszwiebel-Pfannkuchen mit Schichten von grünen Zwiebeln — ein unwiderstehlicher chinesischer Straßensnack mit THC.",
+    "category_name": "International",
+    "ingredients": [
+      "2 Tassen Mehl",
+      "3/4 Tasse kochendes Wasser",
+      "2 Esslöffel Cannabis-infundiertes Öl",
+      "1 Esslöffel Sesamöl",
+      "1 Teelöffel Salz",
+      "1 Tasse Frühlingszwiebeln, fein gehackt",
+      "Pflanzenöl zum Braten",
+      "Sojasauce und Reisessig zum Dippen"
+    ],
+    "instructions": [
+      "Kochendes Wasser zum Mehl geben und mit Stäbchen verrühren. 8-10 Minuten kneten. Abdecken und 30 Minuten ruhen lassen.",
+      "Den Teig in 4 gleiche Stücke teilen. Jedes dünn zu einem Rechteck ausrollen.",
+      "Jedes Rechteck mit Cannabis-Öl und Sesamöl bestreichen. Gleichmäßig mit Salz und Frühlingszwiebeln bestreuen.",
+      "Jedes Rechteck eng aufrollen, dann zu einer Spirale eindrehen. Vorsichtig auf 0,5 cm Dicke ausrollen.",
+      "Pflanzenöl in einer Pfanne bei mittlerer Hitze erhitzen. Jeden Pfannkuchen 2-3 Minuten pro Seite goldbraun braten.",
+      "In Stücke schneiden und mit Sojasauce und Reisessig servieren.",
+      "Jeder Pfannkuchen ist eine Portion. 60 Minuten vor dem nächsten warten."
+    ]
+  },
+  "cannabis-schnitzel": {
+    "name": "Cannabis Schnitzel",
+    "description": "Goldbraunes und knuspriges Cannabis-infundiertes Schnitzel mit perfekt gewürzter Semmelbröselpanade, in Cannabutter gebraten — Deutschlands beliebtestes Gericht mit THC.",
+    "category_name": "International",
+    "ingredients": [
+      "4 Schweine- oder Kalbsschnitzel ohne Knochen (je 150g)",
+      "3 Esslöffel Cannabutter",
+      "1 Tasse Mehl",
+      "2 Eier, verquirlt",
+      "1,5 Tassen feine Semmelbrösel",
+      "Salz und schwarzer Pfeffer nach Geschmack",
+      "1 Zitrone, in Spalten geschnitten",
+      "2 Esslöffel normale Butter",
+      "Frische Petersilie zum Garnieren"
+    ],
+    "instructions": [
+      "Jedes Schnitzel zwischen Frischhaltefolie auf gleichmäßige 0,5 cm Dicke klopfen.",
+      "Mit Salz und Pfeffer würzen. Panierstation einrichten: Mehl, Eier und Semmelbrösel.",
+      "Jedes Schnitzel in Mehl wenden, durch Ei ziehen und beidseitig in Semmelbrösel drücken.",
+      "Cannabutter und normale Butter zusammen in einer großen Pfanne bei mittlerer Hitze erhitzen.",
+      "Jedes Schnitzel 3-4 Minuten pro Seite goldbraun braten.",
+      "Kurz auf Küchenpapier abtropfen. Sofort mit Zitronenspalten und Petersilie servieren.",
+      "Dazu passt Kartoffelsalat oder Pommes. 60-90 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-kartoffelpuffer": {
+    "name": "Cannabis Kartoffelpuffer",
+    "description": "Knusprige Cannabis-infundierte Kartoffelpuffer, goldbraun gebraten mit Cannabutter — ein deutsches Wohlfühlessen mit Apfelmus oder Sauerrahm und THC.",
+    "category_name": "International",
+    "ingredients": [
+      "800g mehligkochende Kartoffeln, geschält",
+      "1 mittelgroße Zwiebel",
+      "2 Esslöffel Cannabutter",
+      "2 Eier",
+      "3 Esslöffel Mehl",
+      "1 Teelöffel Salz",
+      "1/4 Teelöffel geriebene Muskatnuss",
+      "Pflanzenöl zum Braten",
+      "Apfelmus und Sauerrahm zum Servieren"
+    ],
+    "instructions": [
+      "Kartoffeln und Zwiebel fein reiben. In ein sauberes Küchentuch geben und so viel Flüssigkeit wie möglich auspressen.",
+      "In eine Schüssel geben. Die geschmolzene Cannabutter, Eier, Mehl, Salz und Muskatnuss einrühren.",
+      "Großzügig Pflanzenöl in einer großen Pfanne bei mittlerer bis hoher Hitze erhitzen.",
+      "Löffelweise Kartoffelmasse in das heiße Öl geben und zu dünnen Scheiben flachdrücken.",
+      "3-4 Minuten pro Seite goldbraun braten. Auf Küchenpapier abtropfen.",
+      "Heiß mit Apfelmus und Sauerrahm servieren. 2-3 Puffer essen und 60 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-bratwurst-with-sauerkraut": {
+    "name": "Cannabis Bratwurst mit Sauerkraut",
+    "description": "Saftige Cannabis-infundierte Bratwurst auf würzigem Sauerkraut, geschmort in Cannabutter mit Kümmel — ein THC-dosierter deutscher Biergarten-Klassiker.",
+    "category_name": "International",
+    "ingredients": [
+      "4 frische Bratwürste",
+      "2 Esslöffel Cannabutter",
+      "500g Sauerkraut, abgetropft",
+      "1 mittelgroße Zwiebel, dünn geschnitten",
+      "1 Teelöffel Kümmel",
+      "1 Tasse deutsches Bier oder Hühnerbrühe",
+      "1 Esslöffel brauner Zucker",
+      "4 knusprige Brötchen",
+      "Senf zum Servieren"
+    ],
+    "instructions": [
+      "Die Cannabutter in einer großen Pfanne bei mittlerer Hitze schmelzen. Die Zwiebel 5 Minuten dünsten.",
+      "Sauerkraut, Kümmel, braunen Zucker und Bier hinzufügen. Umrühren und zum Köcheln bringen.",
+      "Die Bratwürste in das Sauerkraut betten. Zugedeckt 20 Minuten garen, einmal wenden.",
+      "Die Bratwürste herausnehmen und die Hitze erhöhen. Das Sauerkraut 5 Minuten offen einkochen.",
+      "Optional die Bratwürste in einer heißen Pfanne 2 Minuten pro Seite anbraten.",
+      "Jede Bratwurst im Brötchen mit Sauerkraut und Senf servieren.",
+      "Eine Bratwurst pro Portion — 60-90 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-kaesespaetzle": {
+    "name": "Cannabis Käsespätzle",
+    "description": "Cannabis-infundierte Käsespätzle mit fluffigen hausgemachten Eiernudeln, geschichtet mit geschmolzenem Käse und knusprigen Röstzwiebeln — das ultimative deutsche THC-Wohlfühlessen.",
+    "category_name": "International",
+    "ingredients": [
+      "3 Tassen Mehl",
+      "4 Eier",
+      "1/2 Tasse Milch",
+      "3 Esslöffel Cannabutter",
+      "200g Emmentaler, gerieben",
+      "100g Gruyère, gerieben",
+      "1 Teelöffel Salz",
+      "1/4 Teelöffel geriebene Muskatnuss",
+      "2 große Zwiebeln, in dünne Ringe geschnitten",
+      "Pflanzenöl zum Frittieren der Zwiebeln"
+    ],
+    "instructions": [
+      "Mehl, Eier, Milch, Salz und Muskatnuss zu einem dicken, zähen Teig verrühren. 15 Minuten ruhen lassen.",
+      "Einen großen Topf mit Salzwasser zum Kochen bringen. Den Teig durch ein Spätzlebrett oder einen Spätzlehobel direkt ins Wasser schaben.",
+      "Die Spätzle kochen bis sie an die Oberfläche steigen, etwa 2 Minuten. Mit einer Schaumkelle herausnehmen.",
+      "Die Cannabutter in einer ofenfesten Pfanne bei mittlerer Hitze schmelzen. Die Spätzle darin schwenken.",
+      "Die Spätzle abwechselnd mit Emmentaler und Gruyère schichten. Unter dem heißen Grill 3-4 Minuten überbacken.",
+      "Die Zwiebelringe in Pflanzenöl goldbraun und knusprig frittieren.",
+      "Die Käsespätzle mit Röstzwiebeln toppen. 60 Minuten vor einer zweiten Portion warten."
+    ]
+  },
+  "cannabis-apfelstrudel": {
+    "name": "Cannabis Apfelstrudel",
+    "description": "Blättriger Cannabis-infundierter Apfelstrudel gefüllt mit gewürzten Äpfeln, Rosinen und Walnüssen in Cannabutter-bestrichenem Phyllo-Teig — eine THC-bereicherte Konditorei.",
+    "category_name": "International",
+    "ingredients": [
+      "4 große säuerliche Äpfel, geschält und dünn geschnitten",
+      "3 Esslöffel Cannabutter, geschmolzen",
+      "6 Blätter Phyllo-Teig, aufgetaut",
+      "1/3 Tasse Zucker",
+      "1 Teelöffel Zimt",
+      "1/3 Tasse Rosinen",
+      "1/4 Tasse Walnüsse, gehackt",
+      "1/4 Tasse feine Semmelbrösel, geröstet",
+      "2 Esslöffel normale Butter, geschmolzen",
+      "Puderzucker zum Bestäuben"
+    ],
+    "instructions": [
+      "Ofen auf 160°C vorheizen. Die Äpfel mit Zucker, Zimt, Rosinen und Walnüssen vermengen.",
+      "Ein Phyllo-Blatt auslegen und mit der Mischung aus Cannabutter und normaler Butter bestreichen. Mit allen 6 Blättern wiederholen.",
+      "Die gerösteten Semmelbrösel gleichmäßig auf die oberste Schicht streuen.",
+      "Die Apfelfüllung an einer Längsseite verteilen, 5 cm Rand an jeder Seite lassen.",
+      "Die Seiten einschlagen und den Strudel fest aufrollen. Mit der Naht nach unten auf ein Backblech legen.",
+      "Mit restlicher Butter bestreichen und 35-40 Minuten goldbraun backen.",
+      "10 Minuten abkühlen lassen, mit Puderzucker bestäuben und aufschneiden. 60 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-flammkuchen": {
+    "name": "Cannabis Flammkuchen",
+    "description": "Hauchdünner, knuspriger Cannabis-infundierter Flammkuchen belegt mit Crème fraîche, Räucherspeck und karamellisierten Zwiebeln — ein THC-dosiertes elsässisch-deutsches Fladenbrot.",
+    "category_name": "International",
+    "ingredients": [
+      "250g Brotmehl",
+      "2 Esslöffel Cannabis-infundiertes Olivenöl",
+      "1/2 Tasse warmes Wasser",
+      "Prise Salz",
+      "200g Crème fraîche",
+      "150g geräucherte Speckwürfel",
+      "2 große Zwiebeln, dünn geschnitten",
+      "Frisch gemahlener schwarzer Pfeffer",
+      "Frischer Schnittlauch zum Garnieren"
+    ],
+    "instructions": [
+      "Brotmehl, Cannabis-Olivenöl, warmes Wasser und Salz zu einem geschmeidigen Teig verarbeiten. 5 Minuten kneten und 30 Minuten ruhen lassen.",
+      "Den Ofen auf höchste Stufe vorheizen (idealerweise 250°C). Ein Backblech mit erhitzen.",
+      "Den Teig auf einer bemehlten Fläche so dünn wie möglich rechteckig ausrollen.",
+      "Die Crème fraîche gleichmäßig verteilen, einen kleinen Rand lassen.",
+      "Zwiebeln und Speckwürfel gleichmäßig darauf verteilen. Mit Pfeffer würzen.",
+      "Auf das heiße Backblech geben und 12-15 Minuten backen bis die Ränder tief goldbraun und knusprig sind.",
+      "Mit Schnittlauch garnieren, in Stücke schneiden und sofort servieren. Ein Viertel ist eine Portion."
+    ]
+  },
+  "cannabis-currywurst": {
+    "name": "Cannabis Currywurst",
+    "description": "Würzige Cannabis-infundierte Currywurst mit pikanter Curry-Ketchup-Sauce über geschnittener Bratwurst — ein THC-dosierter Tribut an Berlins berühmtestes Straßenessen.",
+    "category_name": "International",
+    "ingredients": [
+      "4 Bratwürste",
+      "2 Esslöffel Cannabutter",
+      "1 Tasse Ketchup",
+      "2 Esslöffel Currypulver",
+      "1 Teelöffel Rauchpaprika",
+      "1 Esslöffel Worcestershiresauce",
+      "1 Teelöffel Honig",
+      "1/2 Teelöffel Cayennepfeffer (optional)",
+      "Pommes frites oder Brötchen zum Servieren"
+    ],
+    "instructions": [
+      "Die Bratwürste in siedendem Wasser 10 Minuten pochieren.",
+      "Die Cannabutter in einer Pfanne bei mittlerer Hitze schmelzen. Die Bratwürste 2-3 Minuten pro Seite anbraten.",
+      "In einem kleinen Topf Ketchup, Currypulver, Rauchpaprika, Worcestershiresauce, Honig und Cayenne verrühren. 5 Minuten köcheln.",
+      "Die Bratwürste in dicke Scheiben schneiden und auf einem Teller anrichten.",
+      "Großzügig mit der Curry-Ketchup-Sauce übergießen. Mit extra Currypulver bestäuben.",
+      "Mit Pommes oder Brötchen servieren. Eine Bratwurst pro Portion — 60-90 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-black-forest-cake": {
+    "name": "Cannabis Schwarzwälder Kirschtorte",
+    "description": "Üppige Cannabis-infundierte Schwarzwälder Kirschtorte mit saftigem Schokoladenbishuit, Kirschwasser-getränkten Kirschen und Schlagsahne — ein deutsches THC-Meisterwerk.",
+    "category_name": "International",
+    "ingredients": [
+      "200g Zartbitterschokolade, geschmolzen",
+      "4 Esslöffel Cannabutter, geschmolzen",
+      "1,5 Tassen Mehl",
+      "1 Tasse Zucker",
+      "4 Eier",
+      "1/3 Tasse Kakaopulver",
+      "1 Teelöffel Backpulver",
+      "400g Sauerkirschen aus der Dose, abgetropft",
+      "3 Esslöffel Kirschwasser",
+      "500ml Schlagsahne, aufgeschlagen",
+      "Schokoladenspäne zum Dekorieren"
+    ],
+    "instructions": [
+      "Ofen auf 160°C vorheizen. Eier und Zucker 5 Minuten dickschaumig aufschlagen. Geschmolzene Cannabutter und Schokolade unterheben.",
+      "Mehl, Kakao und Backpulver sieben und vorsichtig unter den Teig heben.",
+      "In eine gefettete und ausgelegte 23cm-Springform füllen. 30-35 Minuten backen. Abkühlen lassen und in 3 Böden schneiden.",
+      "Den Kirschsaft mit Kirschwasser mischen. Jeden Boden großzügig damit tränken.",
+      "Den ersten Boden mit Sahne bestreichen und die Hälfte der Kirschen verteilen. Mit dem zweiten Boden wiederholen.",
+      "Die gesamte Torte mit der restlichen Sahne einstreichen. Mit Schokoladenspänen und Kirschen dekorieren.",
+      "Mindestens 2 Stunden kalt stellen. Jedes Stück ist eine Dosis — 60-90 Minuten vor dem nächsten Stück warten."
+    ]
+  },
+  "cannabis-brezel": {
+    "name": "Cannabis Brezel",
+    "description": "Warme und weiche Cannabis-infundierte Brezel mit dunkler, glänzender Kruste und fluffigem Inneren, mit Cannabutter gebacken — eine THC-dosierte bayerische Bäckerei-Spezialität.",
+    "category_name": "International",
+    "ingredients": [
+      "4 Tassen Brotmehl",
+      "3 Esslöffel Cannabutter, geschmolzen",
+      "1 Päckchen Trockenhefe (7g)",
+      "1 Tasse warmes Wasser",
+      "1 Esslöffel Zucker",
+      "1 Teelöffel Salz",
+      "1/4 Tasse Natron (für die Lauge)",
+      "6 Tassen Wasser (für die Lauge)",
+      "Grobes Salz zum Bestreuen"
+    ],
+    "instructions": [
+      "Hefe und Zucker im warmen Wasser auflösen. 5 Minuten stehen lassen. Mehl, geschmolzene Cannabutter und Salz einarbeiten.",
+      "Den Teig 10 Minuten glatt und elastisch kneten. Abgedeckt 1 Stunde gehen lassen.",
+      "Den Teig in 6 gleiche Stücke teilen. Jedes zu einer 60 cm langen Rolle formen und zu Brezeln drehen.",
+      "6 Tassen Wasser mit Natron aufkochen. Jede Brezel 30 Sekunden eintauchen.",
+      "Mit grobem Salz bestreuen. Die dickste Stelle mit einem scharfen Messer einschneiden.",
+      "Bei 220°C 12-15 Minuten tiefbraun backen.",
+      "Warm mit Senf oder Obatzda servieren. Eine Brezel pro Portion — 60 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-rouladen": {
+    "name": "Cannabis Rouladen",
+    "description": "Zarte Cannabis-infundierte Rouladen — dünn geschnittenes Rindfleisch gefüllt mit Senf, Gewürzgurke, Zwiebeln und Speck, geschmort in THC-angereicherter Soße.",
+    "category_name": "International",
+    "ingredients": [
+      "4 dünne Rindfleischscheiben (je ca. 150g)",
+      "2 Esslöffel Cannabutter",
+      "4 Teelöffel mittelscharfer Senf",
+      "4 Scheiben Frühstücksspeck",
+      "1 große Zwiebel, in Streifen geschnitten",
+      "4 Gewürzgurken-Spalten",
+      "2 Tassen Rinderbrühe",
+      "1 Esslöffel Tomatenmark",
+      "2 Esslöffel Mehl zum Andicken",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Die Fleischscheiben flach auslegen und mit Senf bestreichen. Speck, Zwiebelstreifen und Gewürzgurke darauflegen.",
+      "Fest aufrollen und mit Zahnstochern oder Küchengarn fixieren.",
+      "Die Cannabutter in einem Bräter bei mittlerer bis hoher Hitze erhitzen. Die Rouladen von allen Seiten kräftig anbraten.",
+      "Die restlichen Zwiebelstreifen und Tomatenmark hinzufügen. 2 Minuten mitbraten.",
+      "Die Rinderbrühe angießen und den Bratensatz lösen. Zum Köcheln bringen, zudecken und 1,5-2 Stunden bei niedriger Hitze schmoren.",
+      "Die Rouladen herausnehmen. Das Mehl in die Brühe einrühren und zur Soße einkochen.",
+      "Mit Soße, Rotkohl und Salzkartoffeln servieren. Eine Roulade pro Portion — 60-90 Minuten vor mehr warten."
+    ]
+  },
+  "cannabis-golden-milk": {
+    "name": "Cannabis Goldene Milch",
+    "description": "Wohltuende Cannabis-infundierte Goldene Milch mit Kurkuma, Ingwer, Zimt und Cannabis-Kokosöl — ein warmes, entzündungshemmendes THC-Getränk zur Entspannung.",
+    "category_name": "Getränke",
+    "ingredients": [
+      "2 Tassen Vollmilch oder Hafermilch",
+      "2 Esslöffel Cannabis-infundiertes Kokosöl",
+      "1 Teelöffel gemahlene Kurkuma",
+      "1/2 Teelöffel gemahlener Zimt",
+      "1/4 Teelöffel gemahlener Ingwer",
+      "Prise schwarzer Pfeffer",
+      "1 Esslöffel Honig oder Ahornsirup"
+    ],
+    "instructions": [
+      "Die Milch in einem kleinen Topf bei niedriger Hitze erwärmen. Nicht kochen lassen.",
+      "Cannabis-Kokosöl, Kurkuma, Zimt, Ingwer und schwarzen Pfeffer hinzufügen. Ständig rühren bis alles eingearbeitet ist.",
+      "5 Minuten sanft köcheln, die Temperatur unter 80°C halten.",
+      "Vom Herd nehmen und Honig oder Ahornsirup nach Geschmack einrühren.",
+      "In Tassen gießen, bei Bedarf durch ein feines Sieb passieren.",
+      "Eine Tasse pro Portion — 60-90 Minuten vor einer weiteren warten."
+    ]
+  },
+  "cannabis-horchata": {
+    "name": "Cannabis Horchata",
+    "description": "Cremige und erfrischende Cannabis-infundierte Horchata aus Reis, Zimt und Vanille mit einer THC-Dosis — ein kühles, süßes Getränk zum Entspannen.",
+    "category_name": "Getränke",
+    "ingredients": [
+      "1 Tasse Langkornreis",
+      "2 Esslöffel Cannabis-infundiertes Kokosöl",
+      "4 Tassen Wasser",
+      "1 Zimtstange",
+      "1/2 Tasse Zucker",
+      "1 Teelöffel Vanilleextrakt",
+      "1 Tasse Vollmilch",
+      "Gemahlener Zimt zum Garnieren"
+    ],
+    "instructions": [
+      "Den Reis waschen und mit der Zimtstange in 4 Tassen Wasser mindestens 4 Stunden oder über Nacht einweichen.",
+      "Die Zimtstange entfernen. Den Reis mit dem Einweichwasser 2-3 Minuten im Mixer pürieren.",
+      "Durch ein feines Sieb oder Tuch passieren und gut ausdrücken.",
+      "Das Cannabis-Kokosöl leicht erwärmen und zusammen mit Zucker, Vanille und Milch einrühren.",
+      "Mindestens 2 Stunden kalt stellen.",
+      "Gut umrühren und über Eis servieren. Mit Zimt bestäuben.",
+      "Ein Glas pro Portion. 60-90 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-mulled-wine": {
+    "name": "Cannabis Glühwein",
+    "description": "Aromatischer Cannabis-infundierter Glühwein mit wärmenden Gewürzen, Zitrusfrüchten und Cannabis-Honig — ein festliches THC-Heißgetränk für kalte Abende.",
+    "category_name": "Getränke",
+    "ingredients": [
+      "1 Flasche (750ml) trockener Rotwein",
+      "2 Esslöffel Cannabis-infundierter Honig",
+      "1 Orange, in Scheiben geschnitten",
+      "4 ganze Nelken",
+      "2 Zimtstangen",
+      "3 Sternanis",
+      "1/4 Tasse Weinbrand (optional)",
+      "2 Esslöffel Zucker"
+    ],
+    "instructions": [
+      "Den Rotwein in einen großen Topf bei niedriger Hitze geben. Orangenscheiben, Nelken, Zimtstangen, Sternanis und Zucker hinzufügen.",
+      "20 Minuten sanft erwärmen, die Temperatur unter 70°C halten — niemals kochen lassen.",
+      "Vom Herd nehmen und den Cannabis-Honig einrühren bis er sich vollständig aufgelöst hat.",
+      "Den Weinbrand hinzufügen, falls gewünscht.",
+      "Durch ein Sieb in hitzebeständige Gläser oder Tassen gießen. Mit Orange und Zimtstange garnieren.",
+      "Langsam genießen — die Kombination aus Alkohol und THC verstärkt die Wirkung. 90 Minuten vor Nachschub warten."
+    ]
+  },
+  "cannabis-pina-colada": {
+    "name": "Cannabis Piña Colada",
+    "description": "Tropische Cannabis-infundierte Piña Colada mit cremiger Kokosnuss, süßer Ananas und Rum mit einer sanften THC-Dosis — der ultimative Sommer-Cannabis-Cocktail.",
+    "category_name": "Getränke",
+    "ingredients": [
+      "1 Tasse Ananasstücke",
+      "2 Esslöffel Cannabis-infundiertes Kokosöl",
+      "1/2 Tasse Kokoscreme",
+      "60ml weißer Rum",
+      "1 Tasse Eis",
+      "1 Esslöffel Zucker oder Zuckersirup",
+      "Ananaskeil und Cocktailkirsche zum Garnieren"
+    ],
+    "instructions": [
+      "Das Cannabis-Kokosöl leicht erwärmen und in die Kokoscreme einrühren bis alles glatt ist.",
+      "Die Cannabis-Kokoscreme, Ananas, Rum, Zucker und Eis in den Mixer geben.",
+      "30-45 Sekunden auf höchster Stufe mixen bis alles glatt und schaumig ist.",
+      "In ein hohes Glas gießen. Mit Ananaskeil und Cocktailkirsche garnieren.",
+      "Dieses Rezept ergibt 2 Portionen — nicht beide auf einmal trinken. Alkohol und Cannabis zusammen verstärken die Wirkung — 90 Minuten zwischen den Portionen warten."
+    ]
+  },
+  "cannabis-arnold-palmer": {
+    "name": "Cannabis Arnold Palmer",
+    "description": "Erfrischender Cannabis-infundierter Arnold Palmer aus frischer Limonade und Eistee mit Cannabis-Honig — ein alkoholfreies THC-Sommergetränk zum Entspannen.",
+    "category_name": "Getränke",
+    "ingredients": [
+      "2 Tassen aufgebrühter schwarzer Tee, abgekühlt",
+      "2 Esslöffel Cannabis-infundierter Honig",
+      "1 Tasse frischer Zitronensaft",
+      "2 Tassen kaltes Wasser",
+      "1/4 Tasse Zucker",
+      "Eiswürfel",
+      "Zitronenscheiben und frische Minze zum Garnieren"
+    ],
+    "instructions": [
+      "Starken schwarzen Tee aufbrühen und auf Raumtemperatur abkühlen lassen, dann kalt stellen.",
+      "Limonade zubereiten: Zucker im Zitronensaft auflösen und kaltes Wasser hinzufügen.",
+      "Den Cannabis-Honig in die Limonade einrühren. Den Honig vorher leicht erwärmen für besseres Auflösen.",
+      "Hohe Gläser mit Eiswürfeln füllen. Den Eistee bis zur Hälfte eingießen.",
+      "Mit der Cannabis-Limonade auffüllen. Vorsichtig umrühren.",
+      "Mit Zitronenscheibe und Minze garnieren. Ein Glas pro Portion — 60 Minuten auf die Wirkung warten."
+    ]
+  },
+  "cannabis-enchiladas": {
+    "name": "Cannabis-Enchiladas",
+    "description": "Klassische Cannabis-Enchiladas, gefüllt mit gewürztem Hähnchen, übergossen mit roter Chilisauce und überbacken mit geschmolzenem Käse für ein sättigendes mexikanisches Abendessen.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "8 Maistortillas",
+      "2 Tassen gekochtes, zerkleinertes Hähnchenfleisch",
+      "2 Tassen rote Enchilada-Sauce",
+      "1 1/2 Tassen geriebener mexikanischer Käse",
+      "1/2 Tasse saure Sahne",
+      "1/4 Tasse gewürfelte weiße Zwiebel",
+      "1 Teelöffel Kreuzkümmel",
+      "Frischer Koriander zum Garnieren"
+    ],
+    "instructions": [
+      "Den Ofen auf 190°C vorheizen und eine 23x33 cm Auflaufform leicht einfetten.",
+      "Die Cannabutter in einer Pfanne bei niedriger Hitze schmelzen und die gewürfelte Zwiebel darin anbraten, bis sie weich ist. Das zerkleinerte Hähnchen, den Kreuzkümmel und die saure Sahne gut vermischen.",
+      "Eine dünne Schicht Enchilada-Sauce auf dem Boden der Auflaufform verteilen.",
+      "Die Maistortillas kurz erwärmen, damit sie biegsam werden, dann jede mit der Cannabis-Hähnchenmischung und etwas Käse füllen. Fest aufrollen und mit der Naht nach unten in die Form legen.",
+      "Die restliche Enchilada-Sauce über die gerollten Tortillas gießen und mit dem restlichen Käse bestreuen.",
+      "20-25 Minuten backen, bis der Käse geschmolzen und goldbraun ist. Vor dem Servieren mit frischem Koriander garnieren."
+    ]
+  },
+  "cannabis-tamales": {
+    "name": "Cannabis-Tamales",
+    "description": "Traditionelle Cannabis-Tamales aus Maisteig mit einer würzigen Schweinefleischfüllung, gedämpft in Maisblättern für ein authentisches mexikanisches Erlebnis mit sanftem THC-Kick.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "2 Tassen Maismehl (Masa Harina)",
+      "1 Tasse Hühnerbrühe (warm)",
+      "1/2 Tasse Schmalz oder Pflanzenfett",
+      "1 1/2 Tassen gekochtes, zerkleinertes Schweinefleisch",
+      "1 Tasse rote Chilisauce",
+      "1 Teelöffel Backpulver",
+      "1/2 Teelöffel Salz",
+      "20 getrocknete Maisblätter, in warmem Wasser eingeweicht"
+    ],
+    "instructions": [
+      "Die getrockneten Maisblätter mindestens 30 Minuten in warmem Wasser einweichen, bis sie biegsam sind. Das zerkleinerte Schweinefleisch mit der roten Chilisauce vermischen und beiseite stellen.",
+      "Das Schmalz mit der weichen Cannabutter schaumig schlagen. Allmählich das Maismehl, Backpulver, Salz und die warme Brühe unterrühren, bis ein glatter, streichfähiger Teig entsteht.",
+      "Etwa 2 Esslöffel des Cannabis-Maisteigs auf jedes Maisblatt streichen, dabei einen Rand an den Kanten lassen. Einen Löffel Schweinefleischfüllung in die Mitte geben.",
+      "Die Seiten des Maisblatts über die Füllung falten und dann das untere Ende nach oben klappen. Bei Bedarf mit einem dünnen Streifen Maisblatt zusammenbinden.",
+      "Die Tamales aufrecht in einen Dampfgarer stellen, abdecken und 60-75 Minuten dämpfen, bis sich der Teig sauber vom Blatt löst.",
+      "10 Minuten ruhen lassen, dann auspacken und mit extra Chilisauce servieren."
+    ]
+  },
+  "cannabis-chilaquiles": {
+    "name": "Cannabis-Chilaquiles",
+    "description": "Herzhafte Cannabis-Chilaquiles mit knusprigen Tortillachips in würziger Salsa Verde, garniert mit Crema und Spiegelei für ein klassisches mexikanisches Frühstück.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "6 Maistortillas, in Dreiecke geschnitten und frittiert (oder Tortillachips)",
+      "2 Tassen Salsa Verde",
+      "1/2 Tasse zerbröckelter Queso Fresco",
+      "1/4 Tasse mexikanische Crema oder saure Sahne",
+      "4 große Eier",
+      "1/4 Tasse gewürfelte weiße Zwiebel",
+      "Frischer Koriander zum Garnieren",
+      "1 Avocado, in Scheiben geschnitten"
+    ],
+    "instructions": [
+      "Die Cannabutter in einer großen Pfanne bei mittlerer bis niedriger Hitze schmelzen. Die Salsa Verde hinzufügen und gut umrühren. 2-3 Minuten erwärmen lassen.",
+      "Die frittierten Tortillachips in die Pfanne geben und vorsichtig wenden, um sie gleichmäßig mit der Cannabis-Salsa zu überziehen. 2-3 Minuten kochen, bis die Chips leicht weich werden, aber noch etwas Biss behalten.",
+      "In einer separaten Pfanne die Eier als Spiegeleier nach Wunsch braten.",
+      "Die Chilaquiles auf Teller verteilen und jeweils mit einem Spiegelei, zerbröckeltem Queso Fresco, einem Spritzer Crema, gewürfelter Zwiebel, Avocadoscheiben und frischem Koriander garnieren."
+    ]
+  },
+  "cannabis-elote": {
+    "name": "Cannabis-Elote",
+    "description": "Cannabis-infundierter mexikanischer Straßenmais, bestrichen mit cremiger Cannabutter, Cotija-Käse, Chilipulver und Limette für eine unwiderstehliche THC-infundierte Beilage.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "6 frische Maiskolben, geschält",
+      "1/3 Tasse Mayonnaise",
+      "1/2 Tasse zerbröckelter Cotija-Käse",
+      "1 Teelöffel Chilipulver (oder Tajín)",
+      "2 Limetten, in Spalten geschnitten",
+      "2 Esslöffel frischer Koriander, gehackt",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Die Maiskolben grillen oder kochen, bis sie zart und leicht gebräunt sind, etwa 8-10 Minuten auf dem Grill oder 6-8 Minuten in kochendem Wasser.",
+      "Die Cannabutter vorsichtig in einem kleinen Topf bei niedriger Hitze schmelzen. Die geschmolzene Cannabutter mit der Mayonnaise glatt verrühren.",
+      "Jeden Maiskolben großzügig mit der Cannabis-Mayo-Butter-Mischung bestreichen, solange der Mais noch warm ist.",
+      "Jeden Kolben mit zerbröckeltem Cotija-Käse bestreuen und dann mit Chilipulver bestäuben. Limettensaft darüber pressen und mit gehacktem Koriander garnieren.",
+      "Sofort servieren, solange er noch warm ist. Jeder Kolben entspricht einer Portion."
+    ]
+  },
+  "cannabis-churro-bites": {
+    "name": "Cannabis-Churro-Häppchen",
+    "description": "Goldene Cannabis-Churro-Häppchen mit Zimt und Zucker, aus mit Cannabutter angereichertem Teig frittiert und mit warmer Schokoladensauce serviert.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1 Tasse Wasser",
+      "2 Esslöffel normale Butter",
+      "2 Esslöffel Zucker",
+      "1/4 Teelöffel Salz",
+      "1 Tasse Weizenmehl",
+      "2 große Eier",
+      "1/2 Tasse Zucker gemischt mit 1 Esslöffel gemahlenem Zimt (zum Wälzen)",
+      "Pflanzenöl zum Frittieren"
+    ],
+    "instructions": [
+      "In einem mittelgroßen Topf Wasser, normale Butter, Cannabutter, Zucker und Salz kombinieren. Bei mittlerer Hitze zum Kochen bringen und rühren, bis die Butter vollständig geschmolzen ist.",
+      "Vom Herd nehmen und das Mehl auf einmal einrühren, kräftig verrühren, bis sich ein glatter Teigball bildet, der sich von der Topfwand löst.",
+      "Den Teig 2-3 Minuten abkühlen lassen, dann die Eier einzeln einarbeiten, bis der Teig glatt und glänzend ist. In einen Spritzbeutel mit Sterntülle füllen.",
+      "Pflanzenöl in einem tiefen Topf auf 175°C erhitzen. 3-5 cm lange Teigstücke direkt ins Öl spritzen und mit einer Schere abschneiden. Portionsweise 2-3 Minuten goldbraun frittieren.",
+      "Mit einem Schaumlöffel herausnehmen, kurz auf Küchenpapier abtropfen lassen und sofort in der Zimt-Zucker-Mischung wälzen.",
+      "Warm servieren mit Schokoladensauce zum Dippen."
+    ]
+  },
+  "cannabis-pozole": {
+    "name": "Cannabis-Pozole",
+    "description": "Ein wärmendes Cannabis-Pozole Rojo mit zartem Schweinefleisch, Hominy-Mais und einer aromatischen Brühe aus getrockneten Chilis — eine traditionelle mexikanische Suppe mit medizinischem Twist.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabis-Kokosöl",
+      "700 g Schweineschulter, in 2,5 cm große Würfel geschnitten",
+      "1 Dose (820 g) weißer Hominy-Mais, abgetropft und abgespült",
+      "4 getrocknete Guajillo-Chilis, entstielt und entkernt",
+      "2 getrocknete Ancho-Chilis, entstielt und entkernt",
+      "6 Tassen Hühnerbrühe",
+      "1 weiße Zwiebel, geviertelt",
+      "4 Knoblauchzehen",
+      "1 Teelöffel getrockneter Oregano (mexikanischer Oregano bevorzugt)",
+      "Zum Servieren: geschnittener Kohl, Radieschenscheiben, Limettenspalten, Tostadas"
+    ],
+    "instructions": [
+      "Die getrockneten Guajillo- und Ancho-Chilis in einer trockenen Pfanne 1-2 Minuten pro Seite rösten, bis sie duften. 15 Minuten in heißem Wasser einweichen, dann mit 1 Tasse Einweichwasser, Knoblauch und der halben Zwiebel glatt pürieren. Durch ein Sieb streichen.",
+      "Das Cannabis-Kokosöl in einem großen Topf bei mittlerer Hitze erhitzen. Die Schweinefleischwürfel portionsweise von allen Seiten scharf anbraten, etwa 5 Minuten pro Portion.",
+      "Die Chilisauce in den Topf geben und 3-4 Minuten unter häufigem Rühren kochen. Die Hühnerbrühe angießen, die restliche Zwiebel und den Oregano hinzufügen und zum Kochen bringen.",
+      "Die Hitze reduzieren, abdecken und 1 bis 1,5 Stunden auf niedriger Flamme köcheln lassen, bis das Schweinefleisch butterzart ist.",
+      "Den abgetropften Hominy-Mais hinzufügen und weitere 15 Minuten kochen. Mit Salz abschmecken.",
+      "In tiefen Schüsseln servieren mit geschnittenem Kohl, Radieschenscheiben, Limettenspalten und Tostadas als Beilage."
+    ]
+  },
+  "cannabis-mole-chicken": {
+    "name": "Cannabis-Mole-Hähnchen",
+    "description": "Cannabis-infundiertes Hähnchen mit Mole-Sauce aus getrockneten Chilis, Schokolade und Gewürzen — ein reichhaltiger mexikanischer Klassiker mit kontrollierter THC-Dosierung.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "4 Hähnchenkeulen mit Knochen",
+      "3 getrocknete Ancho-Chilis, entstielt und entkernt",
+      "2 getrocknete Pasilla-Chilis, entstielt und entkernt",
+      "30 g mexikanische Schokolade (wie Ibarra), gehackt",
+      "1/4 Tasse Sesamkörner",
+      "1/2 Tasse gewürfelte weiße Zwiebel",
+      "2 Knoblauchzehen",
+      "1 Tasse Hühnerbrühe",
+      "Salz und geröstete Sesamkörner zum Garnieren"
+    ],
+    "instructions": [
+      "Die getrockneten Chilis in einer trockenen Pfanne rösten, bis sie duften, etwa 1-2 Minuten pro Seite. 15 Minuten in heißem Wasser einweichen und abtropfen lassen.",
+      "In der gleichen Pfanne die Sesamkörner goldbraun rösten. Die eingeweichten Chilis, Sesamkörner, Zwiebel, Knoblauch und Hühnerbrühe glatt pürieren.",
+      "Die Cannabutter in einer großen tiefen Pfanne oder einem Schmortopf bei mittlerer Hitze schmelzen. Die Hähnchenkeulen salzen und mit der Haut nach unten 4-5 Minuten goldbraun anbraten. Wenden und weitere 2 Minuten braten. Herausnehmen und beiseite stellen.",
+      "Die Mole-Sauce in die gleiche Pfanne geben und 5 Minuten unter häufigem Rühren kochen. Die gehackte Schokolade hinzufügen und einrühren, bis sie geschmolzen und eingearbeitet ist.",
+      "Das Hähnchen zurück in die Pfanne geben, mit Sauce bedecken, zudecken und bei niedriger Hitze 30-35 Minuten köcheln lassen, bis das Hähnchen durchgegart ist (75°C Kerntemperatur).",
+      "Auf Reis servieren, mit gerösteten Sesamkörnern garniert und mit warmen Tortillas als Beilage."
+    ]
+  },
+  "cannabis-tostadas": {
+    "name": "Cannabis-Tostadas",
+    "description": "Knusprige Cannabis-Tostadas mit gewürzten Bohnen, frischen Toppings und einem Spritzer Cannabutter-Crema für eine schnelle und schmackhafte mexikanische Mahlzeit.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "6 knusprige Tostada-Schalen",
+      "1 Dose (425 g) Refried Beans",
+      "1 Tasse geschnittener Kopfsalat",
+      "1 Tasse gewürfelte Tomaten",
+      "1/2 Tasse zerbröckelter Cotija-Käse",
+      "1/4 Tasse mexikanische Crema oder saure Sahne",
+      "1 Avocado, in Scheiben geschnitten",
+      "Scharfe Sauce nach Geschmack"
+    ],
+    "instructions": [
+      "Die Cannabutter in einem kleinen Topf bei niedriger Hitze schmelzen. Die geschmolzene Cannabutter in die mexikanische Crema einrühren, bis sie gleichmäßig vermengt ist. Beiseite stellen.",
+      "Die Refried Beans in einem Topf bei mittlerer Hitze erwärmen und rühren, bis sie heiß und streichfähig sind.",
+      "Eine großzügige Schicht warmer Bohnen auf jede Tostada-Schale streichen.",
+      "Mit geschnittenem Salat, gewürfelten Tomaten, Avocadoscheiben und zerbröckeltem Cotija-Käse belegen.",
+      "Jede Tostada mit der Cannabis-Crema beträufeln und etwas scharfe Sauce dazugeben. Sofort servieren."
+    ]
+  },
+  "cannabis-birria-tacos": {
+    "name": "Cannabis-Birria-Tacos",
+    "description": "Zartes Cannabis-Birria-Rindfleisch in knusprigen, gedippten Tortillas mit geschmolzenem Käse, serviert mit einem reichhaltigen Consommé zum Dippen — das ultimative THC-Taco-Erlebnis.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabis-Speiseöl",
+      "900 g Rinderschmorbraten, in große Stücke geschnitten",
+      "4 getrocknete Guajillo-Chilis, entstielt und entkernt",
+      "2 getrocknete Ancho-Chilis, entstielt und entkernt",
+      "1 Dose (400 g) feuergeröstete Tomatenwürfel",
+      "1 weiße Zwiebel, geviertelt",
+      "4 Knoblauchzehen",
+      "1 Esslöffel Apfelessig",
+      "Je 1 Teelöffel: Kreuzkümmel, Oregano, schwarzer Pfeffer",
+      "12 Maistortillas und 1 1/2 Tassen geriebener Oaxaca- oder Mozzarella-Käse"
+    ],
+    "instructions": [
+      "Die getrockneten Chilis in einer trockenen Pfanne 1-2 Minuten pro Seite rösten. 15 Minuten in heißem Wasser einweichen, dann mit den Tomaten, der halben Zwiebel, Knoblauch, Essig und den Gewürzen glatt pürieren.",
+      "Das Cannabis-Speiseöl in einem Schmortopf bei mittlerer bis hoher Hitze erhitzen. Die Fleischstücke von allen Seiten kräftig anbraten, insgesamt etwa 6-8 Minuten.",
+      "Die pürierte Chilisauce über das Fleisch gießen, die restliche Zwiebel hinzufügen und so viel Wasser zugeben, dass das Fleisch knapp bedeckt ist. Zum Kochen bringen, dann auf niedrige Hitze reduzieren, abdecken und 2,5 bis 3 Stunden schmoren, bis sich das Fleisch leicht zerteilen lässt.",
+      "Das Fleisch herausnehmen, mit zwei Gabeln zerkleinern und zurück in die Brühe geben. Das Consommé mit Salz abschmecken.",
+      "Die Maistortillas ins Consommé tauchen und auf einer heißen Grillplatte braten. Geriebenen Käse und Birria-Fleisch auf eine Hälfte geben, zusammenklappen und von beiden Seiten knusprig braten, bis der Käse geschmolzen ist.",
+      "Die Tacos mit kleinen Schüsseln heißem Consommé servieren, garniert mit gewürfelter Zwiebel, Koriander und Limettenspalten zum Dippen."
+    ]
+  },
+  "cannabis-tres-leches-cake": {
+    "name": "Cannabis-Tres-Leches-Kuchen",
+    "description": "Ein köstlicher Cannabis-Tres-Leches-Kuchen, getränkt in drei Milchsorten und mit Schlagsahne gekrönt — dieses ikonische mexikanische Dessert bietet ein butterweiches Genusserlebnis.",
+    "category_name": "International",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1 Tasse Weizenmehl",
+      "5 große Eier, getrennt",
+      "1 Tasse Zucker",
+      "1/3 Tasse Vollmilch",
+      "1 Dose (397 g) Kondensmilch",
+      "1 Dose (340 g) Evaporationsmilch",
+      "1 Tasse Schlagsahne (zum Tränken) + 2 Tassen (für das Topping)",
+      "1 Teelöffel Vanilleextrakt",
+      "Gemahlener Zimt zum Garnieren"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Eine 23x33 cm Backform einfetten und bemehlen. Die Cannabutter schmelzen und auf Raumtemperatur abkühlen lassen.",
+      "Die Eigelbe mit 3/4 Tasse Zucker schaumig schlagen, bis sie blass und dicklich sind. Die geschmolzene Cannabutter, Vollmilch und Vanille einrühren. Das Mehl vorsichtig unterheben.",
+      "In einer separaten Schüssel die Eiweiße mit dem restlichen 1/4 Tasse Zucker zu steifen Spitzen schlagen. In drei Portionen unter den Teig heben. In die vorbereitete Form gießen.",
+      "25-30 Minuten backen, bis ein Zahnstocher sauber herauskommt. Vollständig in der Form abkühlen lassen.",
+      "Kondensmilch, Evaporationsmilch und 1 Tasse Sahne verrühren. Den abgekühlten Kuchen mit einer Gabel überall einstechen und die Dreiermilch-Mischung langsam darüber gießen. Mindestens 4 Stunden oder über Nacht kühlen.",
+      "Die restlichen 2 Tassen Sahne mit 2 Esslöffeln Zucker steif schlagen. Auf den getränkten Kuchen streichen, mit Zimt bestäuben und gekühlt servieren."
+    ]
+  },
+  "cannabis-red-velvet-cake": {
+    "name": "Cannabis-Red-Velvet-Kuchen",
+    "description": "Ein atemberaubender Cannabis-Red-Velvet-Kuchen mit zartem Krümel und würzigem Frischkäse-Frosting, perfekt dosiert für ein dekadentes Desserterlebnis.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "2 1/2 Tassen Weizenmehl",
+      "1 1/2 Tassen Zucker",
+      "1/2 Tasse weiche normale Butter",
+      "2 große Eier",
+      "1 Tasse Buttermilch",
+      "2 Esslöffel rote Lebensmittelfarbe",
+      "2 Esslöffel ungesüßtes Kakaopulver",
+      "Je 1 Teelöffel: Vanilleextrakt, weißer Essig, Natron",
+      "225 g Frischkäse, 1/2 Tasse Butter, 3 Tassen Puderzucker (für das Frosting)"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Zwei 23 cm runde Backformen einfetten und bemehlen. Die Cannabutter schmelzen und leicht abkühlen lassen.",
+      "Die weiche normale Butter, die geschmolzene Cannabutter und den Zucker cremig schlagen. Die Eier einzeln hinzufügen, dann die Vanille.",
+      "Das Kakaopulver mit der roten Lebensmittelfarbe zu einer Paste verrühren und zur Buttermischung geben. Abwechselnd Mehl und Buttermilch in drei Portionen einrühren, bis alles gerade verbunden ist.",
+      "Den Essig mit dem Natron verrühren und vorsichtig unter den Teig heben. Auf die vorbereiteten Formen verteilen.",
+      "28-32 Minuten backen, bis ein Zahnstocher sauber herauskommt. 10 Minuten in den Formen abkühlen lassen, dann auf Kuchengitter stürzen und vollständig auskühlen lassen.",
+      "Für das Frosting den Frischkäse mit der Butter glatt rühren, dann nach und nach den Puderzucker und Vanille einarbeiten. Zwischen den Schichten und über den gesamten Kuchen streichen. Bis zum Servieren kühlen."
+    ]
+  },
+  "cannabis-snickerdoodle-cookies": {
+    "name": "Cannabis-Snickerdoodle-Kekse",
+    "description": "Weiche und zähe Cannabis-Snickerdoodle-Kekse, gewälzt in Zimtzucker, die den klassischen Komfort-Keks-Geschmack mit einem präzise dosierten THC-Boost liefern.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1/2 Tasse weiche normale Butter",
+      "1 1/2 Tassen Zucker",
+      "2 große Eier",
+      "2 3/4 Tassen Weizenmehl",
+      "2 Teelöffel Weinstein",
+      "1 Teelöffel Natron",
+      "1/4 Teelöffel Salz",
+      "3 Esslöffel Zucker gemischt mit 2 Teelöffeln Zimt (zum Wälzen)"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Backbleche mit Backpapier auslegen.",
+      "Die weiche normale Butter, die weiche Cannabutter und den Zucker cremig schlagen. Die Eier einzeln hinzufügen.",
+      "In einer separaten Schüssel Mehl, Weinstein, Natron und Salz vermengen. Die trockenen Zutaten nach und nach zur Buttermischung geben, bis ein weicher Teig entsteht.",
+      "Den Teig zu 2,5 cm großen Kugeln formen und jede in der Zimt-Zucker-Mischung wälzen. Mit 5 cm Abstand auf die vorbereiteten Backbleche setzen.",
+      "10-12 Minuten backen, bis die Ränder fest sind, die Mitte aber noch leicht weich ist. Die Kekse werden beim Abkühlen fester.",
+      "5 Minuten auf dem Backblech abkühlen lassen, dann auf ein Kuchengitter setzen. Ergibt etwa 24 Kekse."
+    ]
+  },
+  "cannabis-pumpkin-pie": {
+    "name": "Cannabis-Kürbiskuchen",
+    "description": "Ein warm gewürzter Cannabis-Kürbiskuchen mit butterigem Boden und samtiger Füllung, perfekt für Feiertage oder wann immer man ein infundiertes saisonales Dessert genießen möchte.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1 ungebackener Pie-Boden (23 cm)",
+      "1 Dose (425 g) reines Kürbispüree",
+      "1 Dose (397 g) Kondensmilch",
+      "2 große Eier",
+      "1 Teelöffel gemahlener Zimt",
+      "Je 1/2 Teelöffel: gemahlener Ingwer, gemahlene Muskatnuss",
+      "1/4 Teelöffel gemahlene Nelken",
+      "1/4 Teelöffel Salz"
+    ],
+    "instructions": [
+      "Den Ofen auf 220°C vorheizen. Den Pie-Boden in eine 23 cm Pie-Form legen und die Ränder formen.",
+      "Die Cannabutter vorsichtig bei niedriger Hitze schmelzen und leicht abkühlen lassen.",
+      "In einer großen Schüssel das Kürbispüree, die Kondensmilch, die Eier, die geschmolzene Cannabutter und alle Gewürze glatt und gleichmäßig verrühren.",
+      "Die Cannabis-infundierte Füllung in den Pie-Boden gießen.",
+      "15 Minuten bei 220°C backen, dann die Temperatur auf 175°C reduzieren und weitere 35-40 Minuten backen, bis die Füllung fest ist und ein Messer in der Mitte sauber herauskommt.",
+      "Vollständig auf einem Kuchengitter abkühlen lassen, dann mindestens 2 Stunden kühlen, bevor man den Kuchen anschneidet. Mit Schlagsahne servieren."
+    ]
+  },
+  "cannabis-strawberry-cheesecake-bars": {
+    "name": "Cannabis-Erdbeer-Käsekuchen-Riegel",
+    "description": "Cremige Cannabis-Erdbeer-Käsekuchen-Riegel mit butterigem Keksboden und frischem Erdbeerwirbel — ein perfekt portioniertes THC-Dessert.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1 1/2 Tassen Kekskrümel (Butterkekse)",
+      "1/4 Tasse geschmolzene normale Butter",
+      "450 g weicher Frischkäse",
+      "1/2 Tasse Zucker",
+      "2 große Eier",
+      "1 Teelöffel Vanilleextrakt",
+      "1/2 Tasse frische Erdbeeren, püriert",
+      "2 Esslöffel Weizenmehl"
+    ],
+    "instructions": [
+      "Den Ofen auf 165°C vorheizen. Eine 20x20 cm Backform mit Backpapier auslegen, mit Überhang zum einfachen Herausnehmen.",
+      "Die Cannabutter und die normale Butter zusammen bei niedriger Hitze schmelzen. Mit den Kekskrümeln vermischen und fest in den Boden der vorbereiteten Form drücken. 8 Minuten backen und abkühlen lassen.",
+      "Den Frischkäse mit dem Zucker glatt rühren. Die Eier einzeln einrühren, dann die Vanille und das Mehl nur kurz unterrühren. Nicht zu viel rühren.",
+      "Die Käsekuchenmasse auf den Boden gießen. Löffelweise Erdbeerpüree daraufsetzen und mit einem Messer ein Wirbelmuster einziehen.",
+      "35-40 Minuten backen, bis die Ränder fest sind, die Mitte aber noch leicht wackelt. Den Ofen ausschalten, die Tür einen Spalt öffnen und die Riegel 30 Minuten darin abkühlen lassen.",
+      "Mindestens 4 Stunden kühlen, bevor man sie in Riegel schneidet. In 9 gleiche Portionen schneiden für gleichmäßige Dosierung."
+    ]
+  },
+  "cannabis-oatmeal-raisin-cookies": {
+    "name": "Cannabis-Haferflockenkekse mit Rosinen",
+    "description": "Zähe Cannabis-Haferflockenkekse mit Rosinen, vollgepackt mit Haferflocken, saftigen Rosinen und warmen Gewürzen für eine gesunde, medizinische Variante eines zeitlosen Keksklassikers.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1/2 Tasse weiche normale Butter",
+      "3/4 Tasse fest gepackter brauner Zucker",
+      "1/4 Tasse Zucker",
+      "1 großes Ei",
+      "1 Teelöffel Vanilleextrakt",
+      "1 Tasse Weizenmehl",
+      "1 1/2 Tassen kernige Haferflocken",
+      "Je 1/2 Teelöffel: Natron, Zimt, Salz",
+      "3/4 Tasse Rosinen"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Backbleche mit Backpapier auslegen.",
+      "Die weiche normale Butter, die weiche Cannabutter, den braunen Zucker und den weißen Zucker cremig schlagen. Das Ei und den Vanilleextrakt einrühren.",
+      "Mehl, Natron, Zimt und Salz vermischen. Die trockenen Zutaten unter die Buttermischung rühren, bis alles verbunden ist. Die Haferflocken und Rosinen unterheben.",
+      "Gehäufte Esslöffel Teig auf die vorbereiteten Backbleche setzen, mit 5 cm Abstand.",
+      "10-13 Minuten backen, bis die Ränder goldbraun sind, die Mitte aber noch leicht weich ist.",
+      "5 Minuten auf dem Backblech abkühlen lassen, dann auf ein Kuchengitter setzen. Ergibt etwa 24 Kekse."
+    ]
+  },
+  "cannabis-key-lime-pie": {
+    "name": "Cannabis-Key-Lime-Pie",
+    "description": "Ein säuerlich-erfrischender Cannabis-Key-Lime-Pie mit butterigem Keksboden und seidiger Zitrusfüllung, gekrönt mit luftiger Schlagsahne.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1 1/2 Tassen Kekskrümel (Butterkekse)",
+      "1/3 Tasse geschmolzene normale Butter",
+      "3 Eigelbe",
+      "1 Dose (397 g) Kondensmilch",
+      "2/3 Tasse frischer Key-Lime-Saft (ca. 20 Key-Limetten)",
+      "1 Esslöffel Key-Lime-Zeste",
+      "1 1/2 Tassen Schlagsahne",
+      "2 Esslöffel Puderzucker"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Die Cannabutter und die normale Butter zusammen bei niedriger Hitze schmelzen. Mit den Kekskrümeln vermischen und fest in den Boden und die Seiten einer 23 cm Pie-Form drücken. 8 Minuten backen und abkühlen lassen.",
+      "Die Eigelbe hell schlagen. Die Kondensmilch, den Key-Lime-Saft und die Zeste einrühren, bis die Masse glatt und leicht verdickt ist.",
+      "Die Füllung in den abgekühlten Cannabis-Boden gießen.",
+      "15 Minuten backen, bis die Füllung gerade fest ist. Die Mitte sollte noch leicht wackeln. Auf Raumtemperatur abkühlen lassen und mindestens 4 Stunden kühlen.",
+      "Vor dem Servieren die Sahne mit dem Puderzucker steif schlagen. Auf den gekühlten Pie streichen oder spritzen. Mit Limettenzeste oder dünnen Limettenscheiben garnieren."
+    ]
+  },
+  "cannabis-french-toast": {
+    "name": "Cannabis-French-Toast",
+    "description": "Dicke Cannabis-French-Toast-Scheiben, getränkt in reichhaltiger Eiermischung und in Cannabutter goldbraun gebraten, serviert mit Ahornsirup und frischen Beeren.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "6 dicke Scheiben Brioche- oder Challah-Brot",
+      "3 große Eier",
+      "3/4 Tasse Vollmilch",
+      "1 Teelöffel Vanilleextrakt",
+      "1 Teelöffel gemahlener Zimt",
+      "2 Esslöffel normale Butter",
+      "Ahornsirup und frische Beeren zum Servieren",
+      "Puderzucker zum Bestäuben"
+    ],
+    "instructions": [
+      "Die Eier, Milch, Vanilleextrakt und Zimt in einem flachen Teller gut verquirlen.",
+      "Die Cannabutter und die normale Butter zusammen in einer großen Pfanne oder auf einer Grillplatte bei mittlerer bis niedriger Hitze schmelzen. Die Hitze sanft halten, um die Wirkung der Cannabutter zu erhalten.",
+      "Jede Brotscheibe in die Eiermischung tauchen und etwa 15 Sekunden pro Seite einziehen lassen.",
+      "Das getränkte Brot in der Cannabis-Butter 3-4 Minuten pro Seite goldbraun braten.",
+      "Sofort servieren, garniert mit Ahornsirup, frischen Beeren und einer Prise Puderzucker."
+    ]
+  },
+  "cannabis-creme-brulee": {
+    "name": "Cannabis-Crème-Brûlée",
+    "description": "Seidig-zarte Cannabis-Crème-Brûlée mit knuspriger karamellisierter Zuckerkruste für ein elegantes und präzise dosiertes THC-Dessert-Erlebnis.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "2 Tassen Schlagsahne",
+      "5 große Eigelbe",
+      "1/2 Tasse Zucker, plus extra für das Topping",
+      "1 Teelöffel Vanilleextrakt",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Den Ofen auf 165°C vorheizen. 6 Förmchen in eine tiefe Auflaufform stellen.",
+      "In einem kleinen Topf die Sahne und die Cannabutter bei mittlerer bis niedriger Hitze erwärmen, bis die Cannabutter vollständig geschmolzen ist und die Sahne gerade anfängt zu dampfen. Nicht kochen lassen. Vom Herd nehmen und die Vanille einrühren.",
+      "In einer Schüssel die Eigelbe, den Zucker und das Salz glatt und hell schlagen. Die warme Cannabis-Sahne langsam unter ständigem Rühren in die Eiermischung gießen, um die Eier zu temperieren.",
+      "Die Masse durch ein feines Sieb passieren, um Klümpchen zu entfernen. Gleichmäßig auf die Förmchen verteilen.",
+      "Heißes Wasser in die Auflaufform gießen, bis es halbhoch an den Förmchen steht. 40-45 Minuten backen, bis die Ränder fest sind, die Mitte aber noch leicht wackelt.",
+      "Mindestens 4 Stunden kühlen. Vor dem Servieren eine dünne Schicht Zucker auf jede Crème streuen und mit einem Küchenbrenner oder unter dem Grill goldbraun und knusprig karamellisieren."
+    ]
+  },
+  "cannabis-smores-bars": {
+    "name": "Cannabis-S'mores-Riegel",
+    "description": "Klebrige Cannabis-S'mores-Riegel mit Keksboden, geschmolzener Schokolade und gerösteten Marshmallows — Lagerfeuergeschmack mit medizinischem Twist.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1/4 Tasse geschmolzene normale Butter",
+      "2 Tassen Kekskrümel (Butterkekse)",
+      "1/4 Tasse fest gepackter brauner Zucker",
+      "2 Tassen Zartbitterschokoladen-Chips",
+      "3 Tassen Mini-Marshmallows",
+      "1/4 Tasse Schlagsahne"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Eine 23x23 cm Backform mit Backpapier auslegen.",
+      "Die Cannabutter und die normale Butter zusammen bei niedriger Hitze schmelzen. Mit den Kekskrümeln und dem braunen Zucker vermischen. Fest in den Boden der vorbereiteten Form drücken.",
+      "Den Boden 8 Minuten backen. Aus dem Ofen nehmen und auf Grillfunktion umstellen.",
+      "Die Schokoladenchips mit der Sahne in einer mikrowellengeeigneten Schüssel in 30-Sekunden-Intervallen erhitzen und zwischendurch umrühren, bis alles glatt ist. Die Schokolade gleichmäßig über den warmen Boden gießen.",
+      "Die Mini-Marshmallows gleichmäßig über der Schokolade verteilen. 1-2 Minuten unter dem Grill bräunen, dabei ständig beobachten, bis die Marshmallows goldbraun und geröstet sind.",
+      "Vollständig abkühlen lassen, bevor man in 9 Riegel schneidet für gleichmäßige Dosierung. Bei Raumtemperatur aufbewahren."
+    ]
+  },
+  "cannabis-chocolate-chip-muffins": {
+    "name": "Cannabis-Schokoladen-Muffins",
+    "description": "Fluffige Cannabis-Schokoladen-Muffins mit zartem Krümel und geschmolzenen Schokoladenstückchen — ein perfekt portionierter THC-Genuss zum Frühstück oder als Snack.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1/4 Tasse geschmolzene normale Butter",
+      "2 Tassen Weizenmehl",
+      "3/4 Tasse Zucker",
+      "2 Teelöffel Backpulver",
+      "1/2 Teelöffel Salz",
+      "2 große Eier",
+      "3/4 Tasse Vollmilch",
+      "1 Teelöffel Vanilleextrakt",
+      "1 Tasse Zartbitterschokoladen-Chips"
+    ],
+    "instructions": [
+      "Den Ofen auf 190°C vorheizen. Ein 12er-Muffinblech mit Papierförmchen auslegen.",
+      "Die Cannabutter und die normale Butter zusammen bei niedriger Hitze schmelzen. Leicht abkühlen lassen.",
+      "In einer großen Schüssel Mehl, Zucker, Backpulver und Salz vermengen. In einer separaten Schüssel die Eier, Milch, Vanille und die geschmolzene Cannabis-Buttermischung verquirlen.",
+      "Die feuchten Zutaten zu den trockenen geben und verrühren, bis alles gerade verbunden ist — nicht zu viel rühren. Die Schokoladenchips unterheben.",
+      "Den Teig gleichmäßig auf die 12 Muffinförmchen verteilen, jedes etwa 2/3 voll.",
+      "18-22 Minuten backen, bis die Oberfläche goldbraun ist und ein Zahnstocher sauber herauskommt. 5 Minuten in der Form abkühlen lassen, dann auf ein Kuchengitter setzen."
+    ]
+  },
+  "cannabis-bread-pudding": {
+    "name": "Cannabis-Brotpudding",
+    "description": "Reichhaltiger Cannabis-Brotpudding aus gewürfeltem Brioche in einem gewürzten Eierguss, goldbraun gebacken und warm mit Vanillesauce serviert.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "6 Tassen gewürfeltes altbackenes Brioche- oder Weißbrot",
+      "2 Tassen Vollmilch",
+      "1 Tasse Schlagsahne",
+      "4 große Eier",
+      "3/4 Tasse Zucker",
+      "1 Teelöffel Vanilleextrakt",
+      "1 Teelöffel gemahlener Zimt",
+      "1/4 Teelöffel gemahlene Muskatnuss",
+      "1/2 Tasse Rosinen (optional)"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Eine 23x33 cm Auflaufform mit normaler Butter einfetten.",
+      "Die Cannabutter bei niedriger Hitze schmelzen. In einer großen Schüssel Milch, Sahne, Eier, Zucker, geschmolzene Cannabutter, Vanille, Zimt und Muskatnuss gut verrühren.",
+      "Die Brotwürfel in der vorbereiteten Auflaufform verteilen und die Rosinen darüber streuen, falls gewünscht. Die Cannabis-Eiermischung gleichmäßig über das Brot gießen. Das Brot leicht andrücken, damit es die Flüssigkeit aufnimmt.",
+      "Den Pudding 15-20 Minuten ruhen lassen, damit das Brot den Eierguss vollständig aufnimmt.",
+      "45-50 Minuten backen, bis die Oberfläche goldbraun ist und der Eierguss gestockt ist. Ein Messer in der Mitte sollte sauber herauskommen.",
+      "10 Minuten abkühlen lassen. Warm servieren, mit Vanille- oder Bourbon-Sauce beträufelt und einer Kugel Vanilleeis."
+    ]
+  },
+  "cannabis-pecan-pie": {
+    "name": "Cannabis-Pekannuss-Pie",
+    "description": "Ein dekadenter Cannabis-Pekannuss-Pie mit klebrig-karamelligem Belag voller gerösteter Pekannüsse in einem butterigen Boden — ein Südstaaten-Klassiker mit THC-Infusion.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "1 ungebackener Pie-Boden (23 cm)",
+      "1 Tasse heller Maissirup",
+      "1 Tasse fest gepackter brauner Zucker",
+      "3 große Eier",
+      "2 Esslöffel geschmolzene normale Butter",
+      "1 Teelöffel Vanilleextrakt",
+      "1/4 Teelöffel Salz",
+      "1 1/2 Tassen Pekannusshälften"
+    ],
+    "instructions": [
+      "Den Ofen auf 175°C vorheizen. Den Pie-Boden in eine 23 cm Pie-Form legen und die Ränder dekorativ formen.",
+      "Die Cannabutter und die normale Butter zusammen bei niedriger Hitze schmelzen. Leicht abkühlen lassen.",
+      "In einer großen Schüssel den Maissirup, braunen Zucker, Eier, die geschmolzene Cannabis-Buttermischung, Vanille und Salz glatt verrühren.",
+      "Die Pekannusshälften auf dem Pie-Boden verteilen. Die Füllung vorsichtig über die Nüsse gießen — sie werden nach oben schwimmen.",
+      "50-60 Minuten backen, bis die Füllung gestockt ist und die Mitte nur noch leicht wackelt. Wenn der Rand zu schnell bräunt, mit Alufolie abdecken.",
+      "Vollständig auf einem Kuchengitter abkühlen lassen, mindestens 2 Stunden, bevor man anschneidet. Bei Raumtemperatur oder leicht warm servieren, mit Vanilleeis oder Schlagsahne."
+    ]
+  },
+  "cannabis-banana-pudding": {
+    "name": "Cannabis-Bananenpudding",
+    "description": "Cremiger geschichteter Cannabis-Bananenpudding mit Vanillekeksen, Bananenscheiben und einem üppigen hausgemachten Eierguss — ein Südstaaten-Favorit mit sanfter THC-Dosierung.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter",
+      "3/4 Tasse Zucker",
+      "1/3 Tasse Weizenmehl",
+      "Prise Salz",
+      "3 große Eier, getrennt",
+      "2 Tassen Vollmilch",
+      "1 Teelöffel Vanilleextrakt",
+      "1 Packung (310 g) Vanillekekse",
+      "4-5 reife Bananen, in Scheiben geschnitten"
+    ],
+    "instructions": [
+      "In einem mittelgroßen Topf 1/2 Tasse Zucker, Mehl und Salz vermischen. In einer separaten Schüssel die Eigelbe mit der Milch verquirlen.",
+      "Die Milchmischung nach und nach zu den trockenen Zutaten rühren. Bei mittlerer Hitze unter ständigem Rühren kochen, bis der Pudding eindickt und zu blubbern beginnt, etwa 8-10 Minuten.",
+      "Vom Herd nehmen und die Cannabutter und Vanille einrühren, bis die Cannabutter vollständig geschmolzen und eingearbeitet ist. Den Cannabis-Pudding leicht abkühlen lassen.",
+      "In einer Trifle-Schüssel oder einer 23x33 cm Form Vanillekekse, Bananenscheiben und warmen Pudding schichten. Die Schichten 2-3 Mal wiederholen, mit Pudding obenauf abschließen.",
+      "Die Eiweiße mit dem restlichen 1/4 Tasse Zucker zu steifen Spitzen schlagen. Die Baisermasse über den Pudding streichen und 2-3 Minuten unter dem Grill goldbraun gratinieren, oder das Baiser weglassen und stattdessen Schlagsahne verwenden.",
+      "Mindestens 4 Stunden kühlen, damit sich die Aromen verbinden und die Kekse weich werden."
+    ]
+  },
+  "cannabis-peanut-butter-cups": {
+    "name": "Cannabis-Erdnussbutter-Pralinen",
+    "description": "Hausgemachte Cannabis-Erdnussbutter-Pralinen mit glatter Schokoladenhülle und süßem Erdnussbutterkern — einfach herzustellen und perfekt portioniert für gleichmäßige Dosierung.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabis-Kokosöl",
+      "2 Tassen Zartbitterschokoladen-Chips",
+      "1 Tasse cremige Erdnussbutter",
+      "1/2 Tasse Puderzucker",
+      "1/4 Teelöffel Salz",
+      "1 Esslöffel geschmolzene normale Butter"
+    ],
+    "instructions": [
+      "Ein 12er-Muffinblech mit Papierförmchen auslegen (oder ein Mini-Muffinblech für kleinere Pralinen verwenden).",
+      "Die Schokoladenchips mit dem Cannabis-Kokosöl im Wasserbad oder in der Mikrowelle (in 30-Sekunden-Intervallen, zwischendurch umrühren) schmelzen, bis alles vollständig glatt ist.",
+      "Etwa 1 Esslöffel der Cannabis-Schokolade in jedes Förmchen geben und mit dem Löffelrücken die Schokolade leicht an den Seiten hochdrücken. 10 Minuten einfrieren, bis sie fest ist.",
+      "Die Erdnussbutter, den Puderzucker, die geschmolzene Butter und das Salz glatt verrühren. 12 kleine Scheiben formen und jeweils auf eine Schokoladenschicht setzen.",
+      "Die restliche Schokolade über die Erdnussbutterfüllung gießen und vollständig bedecken. Die Form auf die Arbeitsfläche klopfen, um die Schokolade zu glätten.",
+      "Mindestens 1 Stunde kühlen, bis alles fest ist. Nach Belieben vor dem Servieren mit Flockensalz bestreuen. Im Kühlschrank aufbewahren."
+    ]
+  },
+  "cannabis-macarons": {
+    "name": "Cannabis-Macarons",
+    "description": "Zarte Cannabis-Macarons mit knusprigen Schalen, zähen Mitten und einer Cannabutter-Ganache-Füllung — ein elegantes THC-Konfekt für den abenteuerlustigen Bäcker.",
+    "category_name": "Desserts",
+    "ingredients": [
+      "3,5 Gramm Cannabutter (für die Füllung)",
+      "1 Tasse Mandelmehl, gesiebt",
+      "1 3/4 Tassen Puderzucker, gesiebt",
+      "3 große Eiweiße, Raumtemperatur",
+      "1/4 Tasse Zucker",
+      "1/4 Teelöffel Weinstein",
+      "1/2 Teelöffel Vanilleextrakt",
+      "Gel-Lebensmittelfarbe (optional)",
+      "115 g weiße Schokolade, gehackt (für die Füllung)",
+      "2 Esslöffel Schlagsahne (für die Füllung)"
+    ],
+    "instructions": [
+      "Das Mandelmehl und den Puderzucker zweimal zusammen in eine große Schüssel sieben. Beiseite stellen.",
+      "Die Eiweiße mit dem Weinstein bei mittlerer Geschwindigkeit schaumig schlagen. Den Zucker nach und nach einrieseln lassen und bei hoher Geschwindigkeit zu steifem, glänzendem Eischnee schlagen. Vanille und Lebensmittelfarbe nach Wunsch hinzufügen.",
+      "Die Mandelmischung in drei Portionen mit einem Spatel unter den Eischnee heben. Der Teig sollte wie Lava fließen und ein Band bilden, das sich innerhalb von 10 Sekunden wieder auflöst (Macaronage).",
+      "Kreise von 4 cm auf mit Backpapier ausgelegte Backbleche spritzen. Die Bleche fest auf die Arbeitsfläche klopfen, um Luftblasen zu lösen. Bei Raumtemperatur 30-60 Minuten trocknen lassen, bis die Oberfläche sich trocken anfühlt.",
+      "Den Ofen auf 150°C vorheizen. 16-18 Minuten backen, bis die Schalen fest sind und sich die gerüschten „Füßchen“ am unteren Rand gebildet haben. Vollständig auf dem Backblech abkühlen lassen.",
+      "Für die Füllung die Sahne erhitzen, über die gehackte weiße Schokolade gießen und glatt rühren. Die weiche Cannabutter unterrühren, bis sie vollständig eingearbeitet ist. Kühlen, bis die Masse streichfähig ist. Füllung zwischen zwei passende Schalen spritzen oder streichen. Macarons vor dem Servieren 24 Stunden im Kühlschrank ruhen lassen für die beste Textur. Ergibt etwa 24 Schalen (12 gefüllte Macarons)."
+    ]
+  },
+  "cannabis-mac-and-cheese": {
+    "name": "Cannabis Mac and Cheese",
+    "description": "Cremiges, mit Cannabis infundiertes Mac and Cheese mit einer reichhaltigen Cheddar-Sauce und Cannabisbutter für ein perfekt dosiertes essbares Mittagessen.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "225g Ellenbogen-Makkaroni",
+      "2 Esslöffel Mehl",
+      "2 Tassen Vollmilch",
+      "2 Tassen geriebener Cheddar-Käse",
+      "1/2 Tasse geriebener Gruyère-Käse",
+      "1/2 Teelöffel Senfpulver",
+      "Salz und Pfeffer nach Geschmack",
+      "1/4 Tasse Panko-Semmelbrösel"
+    ],
+    "instructions": [
+      "Makkaroni nach Packungsanleitung kochen, abtropfen lassen und beiseite stellen.",
+      "In einem Topf bei mittlerer Hitze die Cannabisbutter schmelzen. Mehl einrühren und 1 Minute kochen, um eine Mehlschwitze zu bilden.",
+      "Nach und nach die Milch zugießen und ständig rühren, bis die Sauce eindickt, etwa 4-5 Minuten.",
+      "Vom Herd nehmen und Cheddar, Gruyère, Senfpulver, Salz und Pfeffer einrühren, bis alles glatt ist.",
+      "Die gekochten Makkaroni in die Käsesauce geben und in eine gefettete Auflaufform umfüllen.",
+      "Mit Panko-Semmelbröseln bestreuen und bei 190°C 15-20 Minuten backen, bis sie goldbraun und sprudelnd sind.",
+      "5 Minuten abkühlen lassen. In gleiche Portionen teilen für eine konsistente Dosierung."
+    ]
+  },
+  "cannabis-bbq-pulled-chicken": {
+    "name": "Cannabis BBQ Pulled Chicken",
+    "description": "Zartes, mit Cannabis infundiertes BBQ-Hähnchen, langsam gegart mit rauchiger Sauce und Cannabisbutter, perfekt für Sandwiches oder über Reis serviert.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "680g Hähnchenbrust ohne Knochen und Haut",
+      "1 Tasse BBQ-Sauce",
+      "1/4 Tasse Hühnerbrühe",
+      "2 Esslöffel Apfelessig",
+      "1 Esslöffel brauner Zucker",
+      "1 Teelöffel geräuchertes Paprikapulver",
+      "1/2 Teelöffel Knoblauchpulver",
+      "6 Brioche-Brötchen",
+      "Krautsalat zum Belegen (optional)"
+    ],
+    "instructions": [
+      "Hähnchenbrust in den Slow Cooker legen. BBQ-Sauce, Hühnerbrühe, Apfelessig, braunen Zucker, geräuchertes Paprikapulver und Knoblauchpulver mischen und über das Hähnchen gießen.",
+      "Bei niedriger Stufe 6-7 Stunden oder hoher Stufe 3-4 Stunden garen, bis das Hähnchen leicht zerrupft werden kann.",
+      "Hähnchen herausnehmen und mit zwei Gabeln zerrupfen. Das zerrupfte Hähnchen zurück in den Slow Cooker geben.",
+      "Die Cannabisbutter zum warmen Pulled Chicken geben und umrühren, bis sie vollständig geschmolzen ist.",
+      "Die Mischung 10 Minuten auf der Warmhaltefunktion ruhen lassen für gleichmäßige Verteilung.",
+      "Auf Brioche-Brötchen mit Krautsalat servieren. Gleichmäßig aufteilen für konsistente Dosierung."
+    ]
+  },
+  "cannabis-garlic-butter-shrimp": {
+    "name": "Cannabis Knoblauchbutter-Garnelen",
+    "description": "Saftige, mit Cannabis infundierte Knoblauchbutter-Garnelen mit Zitrone und Kräutern für ein geschmackvolles und präzise dosiertes essbares Gericht.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "450g große Garnelen, geschält und entdarmt",
+      "4 Knoblauchzehen, fein gehackt",
+      "2 Esslöffel normale Butter",
+      "Saft von 1 Zitrone",
+      "1/4 Tasse trockener Weißwein",
+      "2 Esslöffel frische Petersilie, gehackt",
+      "1/2 Teelöffel rote Chiliflocken",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Garnelen mit Küchenpapier trocken tupfen und mit Salz, Pfeffer und Chiliflocken würzen.",
+      "Normale Butter in einer großen Pfanne bei hoher Hitze schmelzen. Garnelen 2 Minuten pro Seite braten, bis sie rosa sind. Herausnehmen und beiseite stellen.",
+      "Hitze auf mittlere-niedrige Stufe reduzieren. Cannabisbutter und gehackten Knoblauch in die Pfanne geben und 1 Minute rühren, bis es duftet.",
+      "Weißwein und Zitronensaft einrühren und den Bratensatz lösen. 2 Minuten köcheln lassen.",
+      "Garnelen zurück in die Pfanne geben und in der Cannabis-Knoblauchbutter-Sauce schwenken.",
+      "Mit frischer Petersilie garnieren und sofort mit Reis oder knusprigem Brot servieren."
+    ]
+  },
+  "cannabis-chicken-alfredo": {
+    "name": "Cannabis Hähnchen Alfredo",
+    "description": "Reichhaltiges, cremiges Cannabis-Hähnchen-Alfredo mit samtiger Parmesan-Sauce aus Cannabisbutter für ein luxuriöses essbares Pasta-Gericht.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "340g Fettuccine",
+      "2 Hähnchenbrüste ohne Knochen und Haut",
+      "1 Tasse Sahne",
+      "1 Tasse frisch geriebener Parmesan",
+      "3 Knoblauchzehen, fein gehackt",
+      "1 Esslöffel Olivenöl",
+      "Salz und Pfeffer nach Geschmack",
+      "Frische Petersilie zum Garnieren"
+    ],
+    "instructions": [
+      "Fettuccine nach Packungsanleitung kochen. 1/2 Tasse Kochwasser vor dem Abgießen aufbewahren.",
+      "Hähnchenbrüste mit Salz und Pfeffer würzen. Olivenöl in einer großen Pfanne bei hoher Hitze erhitzen und Hähnchen 6-7 Minuten pro Seite braten. In Streifen schneiden.",
+      "In derselben Pfanne die Hitze auf mittlere-niedrige Stufe reduzieren. Cannabisbutter und Knoblauch hinzufügen und 1 Minute dünsten.",
+      "Sahne zugießen und leicht aufkochen. Parmesan einrühren, bis er geschmolzen und glatt ist.",
+      "Abgetropfte Fettuccine und geschnittenes Hähnchen zur Sauce geben. Schwenken und bei Bedarf Kochwasser hinzufügen.",
+      "Sofort servieren, mit Petersilie garniert. In gleiche Portionen teilen für genaue Dosierung."
+    ]
+  },
+  "cannabis-beef-stew": {
+    "name": "Cannabis Rindfleischeintopf",
+    "description": "Herzhafter, mit Cannabis infundierter Rindfleischeintopf mit Wurzelgemüse und kräftiger Sauce, verfeinert mit Cannabisbutter.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "680g Rindfleisch zum Schmoren, in 2,5cm Würfel geschnitten",
+      "3 mittlere Kartoffeln, geschält und gewürfelt",
+      "3 Karotten, geschält und in Scheiben geschnitten",
+      "1 große Zwiebel, gewürfelt",
+      "3 Tassen Rinderbrühe",
+      "2 Esslöffel Tomatenmark",
+      "2 Esslöffel Mehl",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 Teelöffel getrockneter Thymian"
+    ],
+    "instructions": [
+      "Rindfleischwürfel mit Salz und Pfeffer würzen. Leicht mit Mehl bestäuben.",
+      "1 Esslöffel Öl in einem Schmortopf bei hoher Hitze erhitzen. Fleisch portionsweise anbraten, ca. 3 Minuten pro Portion. Herausnehmen und beiseite stellen.",
+      "Zwiebel und Knoblauch in den Topf geben und 3 Minuten dünsten. Tomatenmark und Thymian einrühren.",
+      "Fleisch zurück in den Topf geben. Rinderbrühe zugießen und aufkochen. Hitze reduzieren, zudecken und 1,5 Stunden köcheln lassen.",
+      "Kartoffeln und Karotten hinzufügen. Weitere 30-40 Minuten köcheln lassen, bis das Gemüse weich ist.",
+      "Vom Herd nehmen und die Cannabisbutter einrühren, bis sie vollständig geschmolzen ist.",
+      "In Schüsseln servieren, gleichmäßig aufteilen für konsistente Dosierung. Mit knusprigem Brot servieren."
+    ]
+  },
+  "cannabis-french-onion-soup": {
+    "name": "Cannabis Französische Zwiebelsuppe",
+    "description": "Klassische, mit Cannabis infundierte französische Zwiebelsuppe mit tief karamellisierten Zwiebeln, kräftiger Brühe und überbackenem Gruyère.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "4 große gelbe Zwiebeln, dünn geschnitten",
+      "4 Tassen Rinderbrühe",
+      "1/2 Tasse trockener Weißwein",
+      "2 Esslöffel normale Butter",
+      "1 Esslöffel frische Thymianblätter",
+      "1 Lorbeerblatt",
+      "4 Scheiben Baguette, getoastet",
+      "1 Tasse geriebener Gruyère-Käse",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Normale Butter in einem großen Topf bei mittlerer Hitze schmelzen. Geschnittene Zwiebeln zugeben und unter gelegentlichem Rühren 35-40 Minuten karamellisieren, bis sie goldbraun sind.",
+      "Weißwein zugeben und den Topf ablöschen, dabei den Bratensatz lösen. 2 Minuten kochen.",
+      "Rinderbrühe zugießen, Thymian und Lorbeerblatt hinzufügen. Aufkochen und 15 Minuten köcheln lassen. Lorbeerblatt entfernen.",
+      "Vom Herd nehmen und die Cannabisbutter einrühren, bis sie vollständig geschmolzen ist.",
+      "Suppe in ofenfeste Schalen füllen. Jede mit einer getoasteten Baguettescheibe und geriebenem Gruyère belegen.",
+      "2-3 Minuten überbacken, bis der Käse blubbert und goldbraun ist. Sofort servieren, Vorsicht, die Schalen sind sehr heiß."
+    ]
+  },
+  "cannabis-chicken-pot-pie": {
+    "name": "Cannabis Hühnchen-Pastete",
+    "description": "Wohltuende, mit Cannabis infundierte Hühnchen-Pastete mit blättriger goldener Kruste und cremiger Gemüsefüllung aus Cannabisbutter.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "2 Tassen gekochtes Hähnchenfleisch, zerkleinert oder gewürfelt",
+      "1 Tasse gefrorene Erbsen und Karotten",
+      "1/2 Tasse Sellerie, gewürfelt",
+      "1/3 Tasse Zwiebel, gewürfelt",
+      "1/3 Tasse Mehl",
+      "1,5 Tassen Hühnerbrühe",
+      "2/3 Tasse Vollmilch",
+      "2 gekühlte Teigplatten",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Ofen auf 190°C vorheizen. Eine Teigplatte in eine 23cm-Kuchenform legen.",
+      "In einem Topf bei mittlerer Hitze die Cannabisbutter schmelzen. Zwiebel und Sellerie zugeben und 5 Minuten dünsten.",
+      "Mehl einrühren und 1 Minute kochen. Nach und nach Hühnerbrühe und Milch einrühren, bis die Masse eindickt, ca. 5 Minuten.",
+      "Hähnchen, Erbsen, Karotten, Salz und Pfeffer hinzufügen. Umrühren und vom Herd nehmen.",
+      "Füllung in die Form gießen. Mit der zweiten Teigplatte bedecken, Ränder andrücken und Schlitze für den Dampf einschneiden.",
+      "35-40 Minuten backen, bis die Kruste goldbraun ist. 10 Minuten abkühlen lassen, dann in gleiche Portionen schneiden."
+    ]
+  },
+  "cannabis-lasagna": {
+    "name": "Cannabis Lasagne",
+    "description": "Geschichtete Cannabis-Lasagne mit reichhaltiger Fleischsauce, cremiger Ricotta-Füllung und Cannabisbutter für ein klassisches italienisches Edible-Gericht.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "12 Lasagneplatten",
+      "450g Rinderhackfleisch",
+      "2 Tassen Marinara-Sauce",
+      "425g Ricotta-Käse",
+      "2 Tassen geriebener Mozzarella",
+      "1/2 Tasse geriebener Parmesan",
+      "1 Ei",
+      "2 Knoblauchzehen, fein gehackt",
+      "Frisches Basilikum zum Garnieren"
+    ],
+    "instructions": [
+      "Ofen auf 190°C vorheizen. Lasagneplatten nach Packungsanleitung kochen und abtropfen lassen.",
+      "Hackfleisch mit Knoblauch in einer Pfanne bei mittlerer Hitze anbraten. Überschüssiges Fett abgießen. Marinara-Sauce einrühren und 10 Minuten köcheln lassen.",
+      "Cannabisbutter schmelzen und mit Ricotta, Ei, Salz und Pfeffer gut verrühren.",
+      "In einer gefetteten 23x33cm-Auflaufform schichten: Lasagneplatten, Fleischsauce, Ricotta-Mischung, Mozzarella. Zwei Mal wiederholen, mit Mozzarella und Parmesan abschließen.",
+      "Mit Alufolie abdecken und 25 Minuten backen. Folie entfernen und weitere 15 Minuten backen, bis der Käse goldbraun und sprudelnd ist.",
+      "15 Minuten ruhen lassen, dann in gleiche Portionen schneiden. Mit frischem Basilikum garnieren."
+    ]
+  },
+  "cannabis-carbonara": {
+    "name": "Cannabis Carbonara",
+    "description": "Authentische Cannabis-Carbonara mit knuspriger Pancetta, Eigelb und Pecorino-Käse, verfeinert mit Cannabisbutter für ein dekadentes essbares Pasta-Gericht.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "340g Spaghetti",
+      "170g Pancetta oder Guanciale, gewürfelt",
+      "3 große Eigelbe",
+      "1 ganzes Ei",
+      "1 Tasse fein geriebener Pecorino Romano",
+      "Frisch gemahlener schwarzer Pfeffer",
+      "Salz nach Geschmack"
+    ],
+    "instructions": [
+      "Spaghetti in gut gesalzenem Wasser al dente kochen. 1 Tasse Kochwasser vor dem Abgießen aufbewahren.",
+      "Währenddessen Pancetta in einer großen Pfanne bei mittlerer Hitze knusprig braten, ca. 6-8 Minuten. Vom Herd nehmen.",
+      "In einer Schüssel Eigelbe, ganzes Ei und Pecorino verquirlen. Cannabisbutter schmelzen und in die Ei-Mischung einrühren.",
+      "Die heiße, abgetropfte Pasta zur Pancetta in die Pfanne geben. Im ausgelassenen Fett schwenken.",
+      "Pfanne vom Herd nehmen. Die Ei-Cannabisbutter-Mischung über die Pasta gießen und kräftig schwenken, um eine cremige Sauce zu erzeugen. Bei Bedarf Kochwasser löffelweise zugeben.",
+      "Sofort mit extra Pecorino und frisch gemahlenem schwarzem Pfeffer servieren. In gleiche Portionen teilen."
+    ]
+  },
+  "cannabis-chicken-tikka-masala": {
+    "name": "Cannabis Hähnchen Tikka Masala",
+    "description": "Aromatisches, mit Cannabis infundiertes Hähnchen Tikka Masala in cremiger Tomatensauce mit warmen Gewürzen und Cannabisbutter, serviert mit Basmatireis.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "680g Hähnchenoberkeulen ohne Knochen, gewürfelt",
+      "1 Tasse Naturjoghurt",
+      "1 Dose (400g) stückige Tomaten",
+      "1 Tasse Sahne",
+      "1 große Zwiebel, gewürfelt",
+      "3 Knoblauchzehen, fein gehackt",
+      "1 Esslöffel Garam Masala",
+      "1 Teelöffel Kurkuma",
+      "1 Teelöffel Kreuzkümmel"
+    ],
+    "instructions": [
+      "Hähnchen in Joghurt, 1 Teelöffel Garam Masala, Kurkuma und Salz mindestens 30 Minuten marinieren.",
+      "Mariniertes Hähnchen 5-6 Minuten pro Seite grillen oder braten, bis es gebräunt und durchgegart ist. Beiseite stellen.",
+      "In einer großen Pfanne Cannabisbutter bei mittlerer Hitze schmelzen. Zwiebel 5 Minuten anschwitzen. Knoblauch, restliches Garam Masala und Kreuzkümmel zugeben. 1 Minute kochen.",
+      "Stückige Tomaten zugeben und 10 Minuten köcheln lassen, gelegentlich umrühren.",
+      "Sahne und gekochtes Hähnchen einrühren. Bei niedriger Hitze weitere 10 Minuten köcheln lassen.",
+      "Über Basmatireis servieren und gleichmäßig aufteilen für konsistente Dosierung. Mit frischem Koriander garnieren."
+    ]
+  },
+  "cannabis-fish-tacos": {
+    "name": "Cannabis Fisch-Tacos",
+    "description": "Leichte und spritzige Cannabis-Fisch-Tacos mit knusprigem Kabeljau, frischem Krautsalat und Cannabisbutter-Crema für ein perfekt dosiertes essbares Mittagessen.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "450g Kabeljaufilets, in Streifen geschnitten",
+      "8 kleine Mais-Tortillas",
+      "1 Tasse Weißkohl, geraspelt",
+      "1/2 Tasse Sauerrahm",
+      "Saft von 2 Limetten",
+      "1 Teelöffel Chilipulver",
+      "1/2 Teelöffel Kreuzkümmel",
+      "1 Avocado, in Scheiben geschnitten",
+      "Frischer Koriander und scharfe Sauce zum Garnieren"
+    ],
+    "instructions": [
+      "Kabeljaustreifen mit Chilipulver, Kreuzkümmel, Salz und der Hälfte des Limettensafts würzen. 10 Minuten ruhen lassen.",
+      "Eine Pfanne bei hoher Hitze erhitzen. Kabeljau 3-4 Minuten pro Seite braten, bis er durchgegart ist.",
+      "Cannabisbutter schmelzen und mit Sauerrahm und restlichem Limettensaft zu einer Cannabis-Crema mischen.",
+      "Geraspelten Kohl mit etwas Limettensaft und einer Prise Salz zu einem schnellen Krautsalat mischen.",
+      "Tortillas in einer trockenen Pfanne oder direkt über der Flamme erwärmen.",
+      "Tacos mit Fisch, Krautsalat und Avocadoscheiben füllen und mit Cannabis-Crema beträufeln. Mit Koriander und scharfer Sauce garnieren."
+    ]
+  },
+  "cannabis-teriyaki-bowl": {
+    "name": "Cannabis Teriyaki Bowl",
+    "description": "Lebhafte Cannabis-Teriyaki-Bowl mit glasiertem Hähnchen, gedämpftem Reis und frischem Gemüse, verfeinert mit Cannabisbutter-Teriyaki-Sauce.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "680g Hähnchenoberkeulen ohne Knochen",
+      "1/3 Tasse Sojasauce",
+      "3 Esslöffel Honig",
+      "1 Esslöffel Reisessig",
+      "1 Teelöffel frischer Ingwer, gerieben",
+      "2 Tassen gekochter Jasminreis",
+      "1 Tasse gedämpfte Brokkoliröschen",
+      "1 Karotte, in Julienne geschnitten",
+      "Sesamsamen und Frühlingszwiebeln zum Garnieren"
+    ],
+    "instructions": [
+      "Sojasauce, Honig, Reisessig und geriebenen Ingwer zu einer Teriyaki-Sauce verrühren.",
+      "Hähnchenoberkeulen in einer Pfanne bei hoher Hitze 6-7 Minuten pro Seite braten, bis sie durchgegart sind. In Streifen schneiden.",
+      "Teriyaki-Sauce in die Pfanne gießen und aufkochen. Cannabisbutter einrühren, bis sie geschmolzen ist.",
+      "Hähnchenstreifen zurück in die Pfanne geben und in der Cannabis-Teriyaki-Glasur schwenken. 2 weitere Minuten kochen.",
+      "Reis auf Schüsseln verteilen. Mit glasiertem Hähnchen, gedämpftem Brokkoli und Karotten-Julienne belegen.",
+      "Restliche Sauce über jede Schüssel träufeln. Mit Sesamsamen und geschnittenen Frühlingszwiebeln garnieren."
+    ]
+  },
+  "cannabis-stuffed-bell-peppers": {
+    "name": "Cannabis Gefüllte Paprika",
+    "description": "Farbenfrohe, mit Cannabis infundierte gefüllte Paprika mit gewürztem Rindfleisch, Reis und geschmolzenem Käse, zubereitet mit Cannabisbutter.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "6 große Paprikaschoten, Deckel entfernt und entkernt",
+      "450g Rinderhackfleisch",
+      "1 Tasse gekochter Reis",
+      "1 Dose (400g) gewürfelte Tomaten",
+      "1 Tasse geriebener Cheddar-Käse",
+      "1 kleine Zwiebel, gewürfelt",
+      "2 Knoblauchzehen, fein gehackt",
+      "1 Teelöffel italienische Gewürzmischung",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Ofen auf 190°C vorheizen. Paprikaschoten aufrecht in eine Auflaufform stellen.",
+      "In einer Pfanne die Cannabisbutter bei mittlerer Hitze schmelzen. Zwiebel und Knoblauch 3 Minuten anschwitzen.",
+      "Hackfleisch hinzufügen und krümelig braten. Überschüssiges Fett abgießen.",
+      "Gekochten Reis, gewürfelte Tomaten, italienische Gewürze, Salz und Pfeffer einrühren. 5 Minuten kochen.",
+      "Jede Paprikaschote mit der Mischung füllen und mit geriebenem Cheddar bestreuen.",
+      "Mit Alufolie abdecken und 30 Minuten backen. Folie entfernen und weitere 10 Minuten backen, bis der Käse geschmolzen und die Paprika weich sind."
+    ]
+  },
+  "cannabis-clam-chowder": {
+    "name": "Cannabis Muschelsuppe",
+    "description": "Dicke, cremige Cannabis-Muschelsuppe nach New-England-Art mit zarten Kartoffeln, rauchigem Speck und Cannabisbutter.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "2 Dosen (je 185g) gehackte Muscheln, Flüssigkeit aufbewahrt",
+      "4 Scheiben Speck, gewürfelt",
+      "2 mittlere Kartoffeln, geschält und gewürfelt",
+      "1 mittlere Zwiebel, gewürfelt",
+      "2 Stangen Sellerie, gewürfelt",
+      "2 Tassen Vollmilch",
+      "1 Tasse Sahne",
+      "2 Esslöffel Mehl",
+      "1 Lorbeerblatt"
+    ],
+    "instructions": [
+      "Gewürfelten Speck in einem großen Topf bei mittlerer Hitze knusprig braten. Speck herausnehmen und beiseite stellen, Fett im Topf lassen.",
+      "Zwiebel und Sellerie im Speckfett 4 Minuten anschwitzen.",
+      "Mehl über das Gemüse streuen und 1 Minute rühren. Nach und nach Muschelflüssigkeit und Milch zugeben und glatt rühren.",
+      "Kartoffeln und Lorbeerblatt hinzufügen. 15-20 Minuten köcheln lassen, bis die Kartoffeln weich sind.",
+      "Muscheln, Sahne und gebratenen Speck einrühren. 5 Minuten erhitzen, ohne zu kochen.",
+      "Vom Herd nehmen und Lorbeerblatt entfernen. Cannabisbutter einrühren, bis sie vollständig geschmolzen ist.",
+      "In Schüsseln servieren, gleichmäßig aufteilen für genaue Dosierung. Mit Austerncrackern servieren."
+    ]
+  },
+  "cannabis-shepherds-pie": {
+    "name": "Cannabis Shepherd's Pie",
+    "description": "Klassischer, mit Cannabis infundierter Shepherd's Pie mit herzhaftem Lammhack, Mischgemüse und cremigem Kartoffelpüree aus Cannabisbutter.",
+    "category_name": "Mittagessen",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "680g Lammhackfleisch",
+      "4 große Kartoffeln, geschält und gewürfelt",
+      "1 Tasse gefrorene Erbsen und Mais",
+      "2 Karotten, gewürfelt",
+      "1 Zwiebel, gewürfelt",
+      "2 Esslöffel Tomatenmark",
+      "1 Tasse Rinderbrühe",
+      "1/2 Tasse Vollmilch",
+      "2 Esslöffel normale Butter"
+    ],
+    "instructions": [
+      "Kartoffeln weich kochen, ca. 15 Minuten. Abtropfen lassen und mit Milch, normaler Butter, Cannabisbutter, Salz und Pfeffer zu einem cremigen Püree stampfen.",
+      "Ofen auf 200°C vorheizen. Lammhack in einer Pfanne bei hoher Hitze anbraten. Überschüssiges Fett abgießen.",
+      "Zwiebel und Karotten zum Lamm geben und 5 Minuten anschwitzen. Tomatenmark, Rinderbrühe, Erbsen und Mais einrühren. 10 Minuten köcheln lassen.",
+      "Lamm-Mischung in eine Auflaufform geben. Das Cannabis-Kartoffelpüree gleichmäßig darüber verteilen.",
+      "Mit einer Gabel Muster auf dem Püree erzeugen. 20-25 Minuten backen, bis die Oberfläche goldbraun ist und die Füllung blubbert.",
+      "10 Minuten abkühlen lassen, dann in gleiche Portionen schneiden für konsistente Dosierung."
+    ]
+  },
+  "cannabis-keto-egg-muffins": {
+    "name": "Cannabis Keto Eier-Muffins",
+    "description": "Proteinreiche, mit Cannabis infundierte Keto-Eier-Muffins mit Käse, Speck und Gemüse, zubereitet mit Cannabisbutter für einen kohlenhydratarmen essbaren Snack.",
+    "category_name": "Keto",
+    "ingredients": [
+      "3,5 Gramm geschmolzene Cannabisbutter",
+      "8 große Eier",
+      "4 Scheiben Speck, gebraten und zerbröselt",
+      "1/2 Tasse geriebener Cheddar-Käse",
+      "1/4 Tasse rote Paprika, fein gewürfelt",
+      "2 Esslöffel frischer Schnittlauch, gehackt",
+      "2 Esslöffel Sahne",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Ofen auf 175°C vorheizen. Eine 12er-Muffinform mit Kochspray einfetten.",
+      "Eier, Sahne, geschmolzene Cannabisbutter, Salz und Pfeffer verquirlen.",
+      "Zerbrösselten Speck, gewürfelte Paprika und geriebenen Käse gleichmäßig in den Muffinformen verteilen.",
+      "Eiermischung gleichmäßig in jede Form gießen, etwa dreiviertel voll.",
+      "18-22 Minuten backen, bis die Eier fest und leicht goldbraun sind.",
+      "5 Minuten in der Form abkühlen lassen. Mit frischem Schnittlauch bestreuen und servieren."
+    ]
+  },
+  "cannabis-keto-butter-chicken": {
+    "name": "Cannabis Keto Butter Chicken",
+    "description": "Reichhaltiges, cremiges Cannabis-Keto-Butter-Chicken in gewürzter Tomatensauce mit Cannabisbutter für eine kohlenhydratarme, fettreiche essbare Mahlzeit.",
+    "category_name": "Keto",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "680g Hähnchenoberkeulen ohne Knochen, gewürfelt",
+      "1/2 Tasse Vollfett-Naturjoghurt",
+      "1 Dose (400g) stückige Tomaten",
+      "1/2 Tasse Sahne",
+      "2 Esslöffel normale Butter",
+      "1 Esslöffel Garam Masala",
+      "1 Teelöffel Kurkuma",
+      "3 Knoblauchzehen, fein gehackt",
+      "1 Esslöffel frischer Ingwer, gerieben"
+    ],
+    "instructions": [
+      "Hähnchen in Joghurt, Garam Masala und Kurkuma mindestens 20 Minuten marinieren.",
+      "Normale Butter in einer großen Pfanne bei hoher Hitze erhitzen. Mariniertes Hähnchen anbraten, ca. 5 Minuten. Herausnehmen und beiseite stellen.",
+      "In derselben Pfanne Cannabisbutter bei mittlerer Hitze schmelzen. Knoblauch und Ingwer 1 Minute anschwitzen.",
+      "Stückige Tomaten zugeben und 10 Minuten köcheln lassen, gelegentlich umrühren.",
+      "Sahne einrühren und Hähnchen zurück in die Pfanne geben. Bei niedriger Hitze 15 Minuten köcheln lassen, bis das Hähnchen durchgegart und die Sauce eingedickt ist.",
+      "Über Blumenkohlreis servieren für eine Keto-Mahlzeit. Gleichmäßig aufteilen für konsistente Dosierung."
+    ]
+  },
+  "cannabis-keto-avocado-brownies": {
+    "name": "Cannabis Keto Avocado-Brownies",
+    "description": "Saftige Cannabis-Keto-Avocado-Brownies mit Mandelmehl, Kakao und Cannabisbutter für ein schuldbewusstes, kohlenhydratarmes essbares Dessert.",
+    "category_name": "Keto",
+    "ingredients": [
+      "3,5 Gramm geschmolzene Cannabisbutter",
+      "2 reife Avocados, zerdrückt",
+      "1/2 Tasse ungesüßtes Kakaopulver",
+      "1/3 Tasse Mandelmehl",
+      "1/2 Tasse Erythrit oder Mönchsfrucht-Süßstoff",
+      "2 große Eier",
+      "1 Teelöffel Vanilleextrakt",
+      "1/2 Teelöffel Natron",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Ofen auf 163°C vorheizen. Eine 20x20cm-Backform mit Backpapier auslegen.",
+      "Im Food Processor die zerdrückten Avocados vollständig glatt pürieren.",
+      "Geschmolzene Cannabisbutter, Eier und Vanilleextrakt zugeben. Mixen bis alles verbunden ist.",
+      "In einer separaten Schüssel Kakaopulver, Mandelmehl, Süßstoff, Natron und Salz verrühren.",
+      "Trockene Zutaten unter die feuchte Mischung heben, bis alles gerade verbunden ist. Nicht zu viel rühren.",
+      "Teig in die vorbereitete Form gießen und 20-25 Minuten backen, bis ein Zahnstocher mit feuchten Krümeln herauskommt.",
+      "Vollständig abkühlen lassen, dann in gleiche Quadrate schneiden für genaue Dosierung."
+    ]
+  },
+  "cannabis-keto-bacon-cheeseburger-bites": {
+    "name": "Cannabis Keto Speck-Cheeseburger-Häppchen",
+    "description": "Herzhafte Cannabis-Keto-Speck-Cheeseburger-Häppchen mit Hackfleisch, Käse und knusprigem Speck, zubereitet mit Cannabisbutter für kohlenhydratarmes Snacken.",
+    "category_name": "Keto",
+    "ingredients": [
+      "3,5 Gramm geschmolzene Cannabisbutter",
+      "450g Rinderhackfleisch",
+      "6 Scheiben Speck, gebraten und zerbröselt",
+      "1 Tasse geriebener Cheddar-Käse",
+      "1/4 Tasse Gewürzgurken, fein gewürfelt",
+      "2 Esslöffel zuckerfreier Ketchup",
+      "1 Esslöffel gelber Senf",
+      "1 Teelöffel Knoblauchpulver",
+      "1 Teelöffel Zwiebelpulver",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Ofen auf 190°C vorheizen. Eine 24er-Mini-Muffinform einfetten.",
+      "In einer großen Schüssel Hackfleisch, geschmolzene Cannabisbutter, Knoblauchpulver, Zwiebelpulver, Salz und Pfeffer vermengen.",
+      "Die Fleischmischung in jede Mini-Muffinform drücken und kleine Körbchen formen.",
+      "12 Minuten backen, bis das Fleisch durchgegart ist. Überschüssiges Fett vorsichtig abgießen.",
+      "Jedes Häppchen mit zerbrösseltem Speck, Gewürzgurken und Cheddar belegen. 3 Minuten zurück in den Ofen, bis der Käse schmilzt.",
+      "Mit zuckerfreiem Ketchup und Senf beträufeln. 5 Minuten abkühlen lassen. In gleiche Portionen teilen."
+    ]
+  },
+  "cannabis-keto-garlic-parmesan-wings": {
+    "name": "Cannabis Keto Knoblauch-Parmesan-Wings",
+    "description": "Knusprige Cannabis-Keto-Knoblauch-Parmesan-Wings, goldbraun gebacken und in herzhafter Cannabisbutter-Knoblauchsauce geschwenkt.",
+    "category_name": "Keto",
+    "ingredients": [
+      "3,5 Gramm Cannabisbutter",
+      "900g Hähnchenflügel",
+      "1/2 Tasse geriebener Parmesan",
+      "4 Knoblauchzehen, fein gehackt",
+      "2 Esslöffel normale Butter",
+      "1 Esslöffel Olivenöl",
+      "1 Teelöffel italienische Gewürzmischung",
+      "1/2 Teelöffel Knoblauchpulver",
+      "Salz und Pfeffer nach Geschmack",
+      "Frische Petersilie zum Garnieren"
+    ],
+    "instructions": [
+      "Ofen auf 218°C vorheizen. Flügel trocken tupfen und mit Olivenöl, Knoblauchpulver, italienischen Gewürzen, Salz und Pfeffer vermengen.",
+      "Flügel in einer Schicht auf einem mit Backpapier belegten Blech verteilen. 40-45 Minuten backen, zur Hälfte wenden, bis sie knusprig und goldbraun sind.",
+      "Während die Flügel backen, Cannabisbutter und normale Butter zusammen in einem kleinen Topf bei niedriger Hitze schmelzen. Gehackten Knoblauch zugeben und 1 Minute kochen.",
+      "Knoblauchbutter vom Herd nehmen und geriebenen Parmesan einrühren.",
+      "Die gebackenen Flügel in der Cannabis-Knoblauch-Parmesan-Butter schwenken, bis sie gleichmäßig bedeckt sind.",
+      "Mit frischer Petersilie garnieren und sofort servieren. Flügel gleichmäßig aufteilen für konsistente Dosierung."
+    ]
+  },
+  "cannabis-vegan-pad-thai": {
+    "name": "Cannabis Veganes Pad Thai",
+    "description": "Lebhaftes, mit Cannabis infundiertes veganes Pad Thai mit Reisnudeln, knusprigem Tofu und Tamarindensauce aus Cannabis-Kokosöl.",
+    "category_name": "Vegan",
+    "ingredients": [
+      "3,5 Gramm mit Cannabis infundiertes Kokosöl",
+      "225g flache Reisnudeln",
+      "400g extra fester Tofu, gepresst und gewürfelt",
+      "2 Esslöffel Tamarindenpaste",
+      "2 Esslöffel Sojasauce",
+      "1 Esslöffel Ahornsirup",
+      "1 Tasse Sojasprossen",
+      "2 Frühlingszwiebeln, geschnitten",
+      "1/4 Tasse geröstete Erdnüsse, gehackt",
+      "1 Limette, in Spalten geschnitten"
+    ],
+    "instructions": [
+      "Reisnudeln 20 Minuten in warmem Wasser einweichen, bis sie weich sind. Abtropfen lassen und beiseite stellen.",
+      "1 Esslöffel normales Kokosöl in einem Wok bei hoher Hitze erhitzen. Tofuwürfel goldbraun braten, ca. 5-6 Minuten. Herausnehmen und beiseite stellen.",
+      "Tamarindenpaste, Sojasauce, Ahornsirup und Cannabis-Kokosöl glatt verrühren.",
+      "Im selben Wok die abgetropften Nudeln und die Tamarinden-Cannabis-Sauce bei mittlerer Hitze 2-3 Minuten schwenken.",
+      "Tofu und Sojasprossen zugeben und vermengen. 1 weitere Minute kochen.",
+      "Mit gehackten Erdnüssen, geschnittenen Frühlingszwiebeln und Limettenspalten servieren. Gleichmäßig aufteilen für konsistente Dosierung."
+    ]
+  },
+  "cannabis-vegan-buddha-bowl": {
+    "name": "Cannabis Vegane Buddha Bowl",
+    "description": "Nährende, mit Cannabis infundierte vegane Buddha Bowl mit gerösteten Kichererbsen, Quinoa und saisonalem Gemüse, beträufelt mit Cannabis-Kokosöl-Tahini-Dressing.",
+    "category_name": "Vegan",
+    "ingredients": [
+      "3,5 Gramm mit Cannabis infundiertes Kokosöl",
+      "1 Dose (425g) Kichererbsen, abgetropft und abgespült",
+      "1 Tasse gekochte Quinoa",
+      "1 Süßkartoffel, gewürfelt und geröstet",
+      "1 Tasse Grünkohl, massiert und gehackt",
+      "1 Avocado, in Scheiben geschnitten",
+      "2 Esslöffel Tahini",
+      "1 Esslöffel Zitronensaft",
+      "1 Teelöffel geräuchertes Paprikapulver",
+      "Salz und Pfeffer nach Geschmack"
+    ],
+    "instructions": [
+      "Ofen auf 200°C vorheizen. Kichererbsen mit geräuchertem Paprikapulver, Salz und 1 Esslöffel Öl mischen. Auf einem Blech verteilen und 25 Minuten rösten, bis sie knusprig sind.",
+      "Süßkartoffelwürfel mit etwas Öl, Salz und Pfeffer mischen. Auf einem separaten Blech 20-25 Minuten rösten, bis sie weich sind.",
+      "Cannabis-Kokosöl sanft erwärmen und mit Tahini, Zitronensaft, 1 Esslöffel Wasser und einer Prise Salz zu einem Dressing verrühren.",
+      "Quinoa auf Schüsseln verteilen. Geröstete Süßkartoffel, knusprige Kichererbsen, massierten Grünkohl und Avocadoscheiben darauf anrichten.",
+      "Jede Schüssel mit gleichen Mengen Cannabis-Tahini-Dressing beträufeln.",
+      "Sofort servieren. Jede Schüssel sollte eine gleiche Portion Dressing erhalten für konsistente Dosierung."
+    ]
+  },
+  "cannabis-vegan-stuffed-peppers": {
+    "name": "Cannabis Vegane Gefüllte Paprika",
+    "description": "Farbenfrohe, mit Cannabis infundierte vegane gefüllte Paprika mit gewürztem Reis, schwarzen Bohnen und Mais, zubereitet mit Cannabis-Kokosöl.",
+    "category_name": "Vegan",
+    "ingredients": [
+      "3,5 Gramm mit Cannabis infundiertes Kokosöl",
+      "6 große Paprikaschoten, Deckel entfernt und entkernt",
+      "1 Tasse gekochter brauner Reis",
+      "1 Dose (425g) schwarze Bohnen, abgetropft und abgespült",
+      "1 Tasse Maiskörner",
+      "1 Dose (400g) gewürfelte Tomaten",
+      "1 Teelöffel Kreuzkümmel",
+      "1 Teelöffel Chilipulver",
+      "1/4 Tasse Hefeflocken",
+      "Frischer Koriander zum Garnieren"
+    ],
+    "instructions": [
+      "Ofen auf 190°C vorheizen. Paprikaschoten aufrecht in eine Auflaufform stellen.",
+      "Cannabis-Kokosöl in einer Pfanne bei mittlerer Hitze erhitzen. Kreuzkümmel und Chilipulver 30 Sekunden anrösten, bis es duftet.",
+      "Gekochten Reis, schwarze Bohnen, Mais und gewürfelte Tomaten in die Pfanne geben. Vermengen und 5 Minuten kochen.",
+      "Jede Paprikaschote mit der Reis-Bohnen-Mischung füllen. Hefeflocken darüber streuen.",
+      "Auflaufform mit Alufolie abdecken und 30 Minuten backen. Folie entfernen und weitere 10 Minuten backen, bis die Paprika weich sind.",
+      "Mit frischem Koriander garnieren und servieren. Jede Paprikaschote ist eine Portion für einfache Dosierung."
+    ]
+  },
+  "cannabis-vegan-oat-cookies": {
+    "name": "Cannabis Vegane Haferkekse",
+    "description": "Zähe, mit Cannabis infundierte vegane Haferkekse mit Rosinen und Zimt, hergestellt mit Cannabis-Kokosöl für ein gesundes pflanzliches Edible.",
+    "category_name": "Vegan",
+    "ingredients": [
+      "3,5 Gramm geschmolzenes, mit Cannabis infundiertes Kokosöl",
+      "1,5 Tassen Haferflocken",
+      "3/4 Tasse Mehl",
+      "1/3 Tasse Ahornsirup",
+      "1/4 Tasse Kokosblütenzucker",
+      "1/4 Tasse Rosinen",
+      "1 Teelöffel Vanilleextrakt",
+      "1 Teelöffel Zimt",
+      "1/2 Teelöffel Natron",
+      "Prise Salz"
+    ],
+    "instructions": [
+      "Ofen auf 175°C vorheizen. Backblech mit Backpapier auslegen.",
+      "In einer großen Schüssel Haferflocken, Mehl, Zimt, Natron und Salz vermischen.",
+      "In einer separaten Schüssel geschmolzenes Cannabis-Kokosöl, Ahornsirup, Kokosblütenzucker und Vanilleextrakt verrühren.",
+      "Feuchte Zutaten in die trockenen geben und verrühren, bis alles gerade verbunden ist. Rosinen unterheben.",
+      "Teelöffelgroße Portionen auf das Backblech setzen, 5cm Abstand lassen. Mit dem Löffelrücken leicht flach drücken.",
+      "12-14 Minuten backen, bis die Ränder goldbraun sind. 5 Minuten auf dem Blech abkühlen lassen, dann auf ein Gitter setzen.",
+      "Ergibt ca. 16 Kekse. Charge gleichmäßig aufteilen für konsistente Dosierung."
+    ]
+  },
+  "cannabis-vegan-mushroom-stroganoff": {
+    "name": "Cannabis Veganes Pilz-Stroganoff",
+    "description": "Cremiges, mit Cannabis infundiertes veganes Pilz-Stroganoff mit reichhaltiger Cashew-Sahnesauce und Cannabis-Kokosöl, serviert über eifreien Nudeln.",
+    "category_name": "Vegan",
+    "ingredients": [
+      "3,5 Gramm mit Cannabis infundiertes Kokosöl",
+      "450g gemischte Pilze (Champignons, Shiitake), geschnitten",
+      "340g eifreie Nudeln",
+      "1 Tasse rohe Cashewkerne, 2 Stunden eingeweicht",
+      "1 Tasse Gemüsebrühe",
+      "1 große Zwiebel, gewürfelt",
+      "3 Knoblauchzehen, fein gehackt",
+      "2 Esslöffel Sojasauce",
+      "1 Esslöffel Dijon-Senf",
+      "Frischer Thymian und Petersilie zum Garnieren"
+    ],
+    "instructions": [
+      "Eingeweichte Cashewkerne abtropfen lassen und mit Gemüsebrühe vollständig glatt pürieren, um eine Cashew-Sahne herzustellen. Beiseite stellen.",
+      "Nudeln nach Packungsanleitung kochen. Abtropfen lassen und beiseite stellen.",
+      "Cannabis-Kokosöl in einer großen Pfanne bei mittlerer Hitze erhitzen. Zwiebel 4 Minuten anschwitzen, bis sie glasig ist, dann Knoblauch zugeben und 1 Minute kochen.",
+      "Geschnittene Pilze zugeben und 6-8 Minuten braten, bis sie goldbraun sind und die meiste Flüssigkeit verdampft ist.",
+      "Cashew-Sahne, Sojasauce und Dijon-Senf einrühren. 5 Minuten köcheln lassen, bis die Sauce eindickt.",
+      "Gekochte Nudeln in die Stroganoff-Sauce geben. Mit frischem Thymian und Petersilie garniert servieren, gleichmäßig aufteilen für konsistente Dosierung."
+    ]
   }
 }

@@ -3138,5 +3138,2310 @@
     "dosing_unique": "The infused oil is in the crust, so cut the pie into equal slices for consistent per-portion dosing.",
     "storage_unique": "Refrigerate for up to 3 days; reheat slices in a 350F oven for 10 minutes to re-crisp the crust.",
     "variation_unique": "Make individual empadinhas (small tartlets) instead of one large pie for built-in portion control and easier dosing."
+  },
+  "cannabis-nachos": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "cannabis nachos",
+      "weed nachos",
+      "THC nachos",
+      "infused nachos",
+      "marijuana nachos"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400°F / 200°C",
+    "texture_type": "baked",
+    "sub_category": "savory_bites",
+    "intro_unique": "These loaded cannabis nachos are the ultimate shareable snack, combining crispy chips with melted cheese and a perfectly dosed cannabutter drizzle.",
+    "dosing_unique": "Drizzle the cannabutter evenly over the chips before adding toppings to ensure consistent dosing across every portion.",
+    "storage_unique": "Nachos are best served immediately; leftovers can be reheated in the oven at 350°F for 5 minutes but will lose some crispiness.",
+    "variation_unique": "Swap ground beef for seasoned pulled pork, or go vegetarian with black beans and roasted corn for an equally satisfying version."
+  },
+  "cannabis-cheese-dip": {
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "cannabis cheese dip",
+      "weed cheese dip",
+      "THC cheese dip",
+      "infused queso"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Stovetop medium-low",
+    "texture_type": "creamy",
+    "sub_category": "dips_spreads",
+    "intro_unique": "This velvety cannabis cheese dip is made from scratch with real cheddar and a cannabutter roux for a rich, shareable appetizer.",
+    "dosing_unique": "The cannabutter is evenly distributed throughout the roux base, ensuring each serving of dip contains a consistent dose.",
+    "storage_unique": "Store leftovers in an airtight container in the fridge for up to 3 days and reheat gently on the stovetop with a splash of milk.",
+    "variation_unique": "Add crumbled chorizo, diced jalapeños, or a splash of beer for a heartier queso with extra depth of flavor."
+  },
+  "infused-stuffed-jalapenos": {
+    "prepTime": "PT20M",
+    "cookTime": "PT30M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "cannabis stuffed jalapeños",
+      "weed jalapeño poppers",
+      "THC jalapeños",
+      "infused jalapeño poppers"
+    ],
+    "nutrition": {
+      "calories": "150 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "finger_food",
+    "intro_unique": "These bacon-wrapped cannabis stuffed jalapeños combine creamy cheese filling with a subtle cannabutter infusion for a crowd-pleasing appetizer with a kick.",
+    "dosing_unique": "The cannabutter is blended into the cream cheese filling, so each stuffed jalapeño half delivers a precise and even dose.",
+    "storage_unique": "Assemble and refrigerate unbaked for up to 24 hours in advance; bake directly from the fridge, adding 5 extra minutes to the cooking time.",
+    "variation_unique": "For a milder version, use mini sweet peppers instead of jalapeños, or add crab meat to the filling for a luxurious twist."
+  },
+  "cannabis-pretzel-bites": {
+    "prepTime": "PT30M",
+    "cookTime": "PT15M",
+    "totalTime": "PT1H45M",
+    "keywords": [
+      "cannabis pretzel bites",
+      "weed pretzels",
+      "THC pretzel bites",
+      "infused soft pretzels"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "6 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "425°F / 220°C",
+    "texture_type": "baked",
+    "sub_category": "savory_bites",
+    "intro_unique": "These chewy cannabis pretzel bites feature cannabutter kneaded right into the dough and brushed on after baking for a double dose of buttery goodness.",
+    "dosing_unique": "The cannabutter is incorporated into the dough and used as a finishing glaze, so dose carefully when splitting between the two applications.",
+    "storage_unique": "Store baked pretzel bites in an airtight container at room temperature for 2 days, or freeze for up to 1 month and reheat in the oven.",
+    "variation_unique": "Try cinnamon sugar pretzel bites by replacing the salt topping with a cinnamon-sugar mixture and serving with cream cheese frosting for dipping."
+  },
+  "infused-bruschetta": {
+    "prepTime": "PT15M",
+    "cookTime": "PT7M",
+    "totalTime": "PT22M",
+    "keywords": [
+      "cannabis bruschetta",
+      "weed bruschetta",
+      "THC bruschetta",
+      "infused bruschetta"
+    ],
+    "nutrition": {
+      "calories": "140 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabis_oil",
+    "cook_temp": "400°F / 200°C",
+    "texture_type": "toasted",
+    "sub_category": "finger_food",
+    "intro_unique": "This cannabis-infused bruschetta lets the natural flavors of ripe tomatoes and fresh basil shine, with cannabis olive oil adding a subtle herbal note.",
+    "dosing_unique": "The cannabis olive oil is divided between the toast and the tomato topping, making each bruschetta a measured single serving.",
+    "storage_unique": "Prepare the tomato mixture up to 4 hours ahead and refrigerate, but only toast the bread and assemble just before serving for maximum crispness.",
+    "variation_unique": "Top with burrata cheese and prosciutto for a more indulgent version, or use roasted red peppers and goat cheese for a different flavor profile."
+  },
+  "cannabis-spinach-artichoke-dip": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "cannabis spinach artichoke dip",
+      "weed spinach dip",
+      "THC artichoke dip",
+      "infused spinach dip"
+    ],
+    "nutrition": {
+      "calories": "190 kcal",
+      "fatContent": "15 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "dips_spreads",
+    "intro_unique": "This bubbly cannabis spinach artichoke dip delivers a creamy, cheesy experience with cannabutter seamlessly blended into the classic recipe.",
+    "dosing_unique": "The cannabutter melts into the cream cheese base, distributing the dose evenly throughout the entire dip for consistent servings.",
+    "storage_unique": "Refrigerate leftover dip for up to 3 days and reheat in the oven at 325°F until warmed through; avoid microwaving as it can separate.",
+    "variation_unique": "Add lump crab meat for a seafood twist, or swap artichoke hearts for roasted red peppers for a smoky variation."
+  },
+  "infused-deviled-eggs": {
+    "prepTime": "PT25M",
+    "cookTime": "PT12M",
+    "totalTime": "PT37M",
+    "keywords": [
+      "cannabis deviled eggs",
+      "weed deviled eggs",
+      "THC deviled eggs",
+      "infused deviled eggs"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "10 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "No baking required",
+    "texture_type": "creamy",
+    "sub_category": "finger_food",
+    "intro_unique": "These cannabis-infused deviled eggs are a discreet and elegant way to enjoy edibles, with the cannabutter blending seamlessly into the classic creamy yolk filling.",
+    "dosing_unique": "Divide the cannabutter-enriched filling equally among the egg white halves for precise, consistent dosing per piece.",
+    "storage_unique": "Keep refrigerated in a covered container for up to 2 days; pipe the filling just before serving for the neatest presentation.",
+    "variation_unique": "Try adding crispy bacon bits, pickled jalapeños, or a drizzle of sriracha on top for different flavor profiles."
+  },
+  "cannabis-mozzarella-sticks": {
+    "prepTime": "PT20M",
+    "cookTime": "PT5M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "cannabis mozzarella sticks",
+      "weed mozzarella sticks",
+      "THC cheese sticks",
+      "infused mozzarella sticks"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C (frying)",
+    "texture_type": "fried",
+    "sub_category": "fried_snacks",
+    "intro_unique": "These golden cannabis mozzarella sticks feature cannabutter worked into the egg wash for an infused coating that delivers both crunch and a reliable dose.",
+    "dosing_unique": "The cannabutter is mixed into the egg wash, so the infusion is in the crispy coating; divide sticks equally for consistent dosing.",
+    "storage_unique": "Freeze breaded but unfried mozzarella sticks for up to 1 month; fry directly from frozen, adding 30 seconds to the cooking time.",
+    "variation_unique": "Use pepper jack cheese for a spicy version, or try coating with crushed Doritos instead of breadcrumbs for extra flavor and crunch."
+  },
+  "cannabis-buffalo-chicken-dip": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "cannabis buffalo chicken dip",
+      "weed buffalo dip",
+      "THC chicken dip",
+      "infused buffalo chicken dip"
+    ],
+    "nutrition": {
+      "calories": "210 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "dips_spreads",
+    "intro_unique": "This cannabis buffalo chicken dip packs a spicy punch with the cannabutter melting right into the creamy, tangy base for a game-day favorite with benefits.",
+    "dosing_unique": "The cannabutter is melted with the cream cheese base, ensuring even distribution throughout the dip for reliable per-serving dosing.",
+    "storage_unique": "Refrigerate leftovers for up to 3 days; reheat in the oven at 325°F until bubbly, adding a splash of ranch if it has thickened.",
+    "variation_unique": "Substitute shredded chicken for canned jackfruit for a vegan option, or use a mild wing sauce if you prefer less heat."
+  },
+  "cannabis-garlic-bread": {
+    "prepTime": "PT10M",
+    "cookTime": "PT12M",
+    "totalTime": "PT22M",
+    "keywords": [
+      "cannabis garlic bread",
+      "weed garlic bread",
+      "THC garlic bread",
+      "infused garlic bread"
+    ],
+    "nutrition": {
+      "calories": "200 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "toasted",
+    "sub_category": "savory_bites",
+    "intro_unique": "This cannabis garlic bread is the simplest way to infuse a meal, with aromatic cannabutter and fresh garlic soaking into warm, crusty bread.",
+    "dosing_unique": "Spread the cannabutter mixture evenly across the entire bread surface and cut into equal portions before serving for consistent dosing.",
+    "storage_unique": "Wrap unbaked prepared garlic bread tightly in foil and freeze for up to 2 months; bake directly from frozen, adding 5 minutes to the cook time.",
+    "variation_unique": "Add a layer of mozzarella for cheesy garlic bread, or spread with pesto cannabutter for an Italian herb variation."
+  },
+  "infused-onion-rings": {
+    "prepTime": "PT40M",
+    "cookTime": "PT15M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "cannabis onion rings",
+      "weed onion rings",
+      "THC onion rings",
+      "infused onion rings"
+    ],
+    "nutrition": {
+      "calories": "250 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C (frying)",
+    "texture_type": "fried",
+    "sub_category": "fried_snacks",
+    "intro_unique": "These crispy cannabis onion rings feature a light beer batter enriched with cannabutter, creating an airy, crunchy coating around sweet onion slices.",
+    "dosing_unique": "The cannabutter is incorporated into the batter, so each onion ring carries a proportional dose; count your rings to track your intake.",
+    "storage_unique": "Onion rings are best eaten immediately; if you must reheat, use an oven at 400°F for 5-7 minutes to restore crispiness.",
+    "variation_unique": "Try buttermilk-soaked onion rings for extra tenderness, or use a tempura-style batter for a lighter, crispier coating."
+  },
+  "cannabis-veggie-spring-rolls": {
+    "prepTime": "PT30M",
+    "cookTime": "PT0M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis spring rolls",
+      "weed spring rolls",
+      "THC veggie rolls",
+      "infused spring rolls"
+    ],
+    "nutrition": {
+      "calories": "130 kcal",
+      "fatContent": "5 g"
+    },
+    "base_fat": "cannabis_oil",
+    "cook_temp": "No cooking required",
+    "texture_type": "fresh",
+    "sub_category": "finger_food",
+    "intro_unique": "These fresh cannabis veggie spring rolls are a light and healthy way to enjoy edibles, with the infusion concentrated in a flavorful dipping sauce.",
+    "dosing_unique": "All of the cannabis oil is in the dipping sauce, so control your dose by measuring how much sauce you use with each roll.",
+    "storage_unique": "Wrap finished spring rolls individually in damp paper towels and store in an airtight container in the fridge for up to 24 hours.",
+    "variation_unique": "Add cooked shrimp or sliced tofu for extra protein, or swap the dipping sauce for a cannabis-infused peanut sauce."
+  },
+  "cannabis-stuffed-mushrooms": {
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "cannabis stuffed mushrooms",
+      "weed stuffed mushrooms",
+      "THC mushrooms",
+      "infused stuffed mushrooms"
+    ],
+    "nutrition": {
+      "calories": "110 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "finger_food",
+    "intro_unique": "These savory cannabis stuffed mushrooms feature an Italian sausage and cream cheese filling sautéed in cannabutter for a rich, bite-sized appetizer.",
+    "dosing_unique": "The cannabutter is used to cook the sausage filling, infusing the entire mixture evenly; divide filling equally among all mushroom caps.",
+    "storage_unique": "Assemble mushrooms up to 8 hours ahead and refrigerate unbaked; bake just before serving for the best texture.",
+    "variation_unique": "Make them vegetarian by replacing sausage with sun-dried tomatoes, spinach, and breadcrumbs, or use goat cheese instead of cream cheese."
+  },
+  "infused-peanut-butter-banana-bites": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "cannabis peanut butter banana bites",
+      "weed banana bites",
+      "THC peanut butter bites",
+      "infused banana snacks"
+    ],
+    "nutrition": {
+      "calories": "140 kcal",
+      "fatContent": "9 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "No baking required",
+    "texture_type": "frozen",
+    "sub_category": "finger_food",
+    "intro_unique": "These no-bake cannabis peanut butter banana bites are a healthy and delicious frozen treat with cannabutter blended into the peanut butter filling.",
+    "dosing_unique": "Mix the cannabutter thoroughly into the peanut butter and divide equally among the banana sandwiches for consistent dosing per bite.",
+    "storage_unique": "Store in the freezer in a single layer in an airtight container for up to 2 months; let sit at room temperature for 2 minutes before eating.",
+    "variation_unique": "Swap peanut butter for almond or cashew butter, or roll the frozen bites in crushed granola before drizzling with chocolate."
+  },
+  "cannabis-zucchini-fries": {
+    "prepTime": "PT15M",
+    "cookTime": "PT22M",
+    "totalTime": "PT37M",
+    "keywords": [
+      "cannabis zucchini fries",
+      "weed zucchini sticks",
+      "THC zucchini fries",
+      "infused zucchini fries"
+    ],
+    "nutrition": {
+      "calories": "160 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "425°F / 220°C",
+    "texture_type": "baked",
+    "sub_category": "fried_snacks",
+    "intro_unique": "These baked cannabis zucchini fries offer a healthier alternative to traditional fries, with cannabutter in the egg wash ensuring every crispy bite is evenly infused.",
+    "dosing_unique": "The cannabutter is mixed into the egg dip, coating each zucchini stick evenly; count the total fries to calculate your per-piece dose.",
+    "storage_unique": "Best served fresh from the oven; leftover fries can be reheated at 400°F for 5 minutes but will not be as crispy as the original batch.",
+    "variation_unique": "Try using yellow squash for a slightly sweeter flavor, or add crushed red pepper flakes to the breadcrumb mixture for a spicy kick."
+  },
+  "infused-sweet-potato-fries": {
+    "prepTime": "PT40M",
+    "cookTime": "PT30M",
+    "totalTime": "PT1H10M",
+    "keywords": [
+      "cannabis sweet potato fries",
+      "weed sweet potato fries",
+      "THC sweet potato fries",
+      "infused sweet potato fries"
+    ],
+    "nutrition": {
+      "calories": "190 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabis_oil",
+    "cook_temp": "425°F / 220°C",
+    "texture_type": "baked",
+    "sub_category": "fried_snacks",
+    "intro_unique": "These crispy cannabis sweet potato fries are tossed in cannabis coconut oil with smoky spices for a naturally sweet and savory infused side.",
+    "dosing_unique": "The cannabis coconut oil coats every fry evenly; divide the batch into equal portions on the baking sheet before serving for accurate dosing.",
+    "storage_unique": "Store cooled fries in an airtight container in the fridge for up to 2 days and reheat in a 425°F oven for 8-10 minutes to re-crisp.",
+    "variation_unique": "Add a maple-cinnamon glaze for dessert-style fries, or toss with Cajun seasoning and serve with a cannabis-infused remoulade."
+  },
+  "cannabis-avocado-fries": {
+    "prepTime": "PT15M",
+    "cookTime": "PT18M",
+    "totalTime": "PT33M",
+    "keywords": [
+      "cannabis avocado fries",
+      "weed avocado fries",
+      "THC avocado fries",
+      "infused avocado fries"
+    ],
+    "nutrition": {
+      "calories": "200 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "425°F / 220°C",
+    "texture_type": "baked",
+    "sub_category": "fried_snacks",
+    "intro_unique": "These cannabis avocado fries feature a crispy panko coating with cannabutter, encasing creamy avocado wedges for a unique and Instagram-worthy infused snack.",
+    "dosing_unique": "The cannabutter is in the egg wash that coats each wedge, so divide the total number of fries by your intended dose to calculate per-piece potency.",
+    "storage_unique": "Avocado fries must be served immediately after baking as the avocado will discolor and soften if stored; prepare the breading station in advance for quick assembly.",
+    "variation_unique": "Use firm plantain slices instead of avocado for a tropical twist, or season the breadcrumbs with everything bagel seasoning for added flavor."
+  },
+  "infused-caprese-skewers": {
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "cannabis caprese skewers",
+      "weed caprese",
+      "THC caprese",
+      "infused caprese appetizer"
+    ],
+    "nutrition": {
+      "calories": "110 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabis_oil",
+    "cook_temp": "No cooking required",
+    "texture_type": "fresh",
+    "sub_category": "finger_food",
+    "intro_unique": "These elegant cannabis caprese skewers require no cooking at all, relying on premium ingredients and a drizzle of cannabis olive oil for a refined infused appetizer.",
+    "dosing_unique": "Measure the cannabis olive oil carefully and drizzle evenly across all skewers; divide the total oil by the number of skewers for per-piece dosing.",
+    "storage_unique": "Assemble up to 2 hours before serving and keep refrigerated; drizzle the cannabis oil and balsamic glaze just before serving.",
+    "variation_unique": "Substitute burrata for mozzarella for extra creaminess, or add a slice of prosciutto to each skewer for a savory addition."
+  },
+  "cannabis-loaded-potato-skins": {
+    "prepTime": "PT15M",
+    "cookTime": "PT1H15M",
+    "totalTime": "PT1H30M",
+    "keywords": [
+      "cannabis potato skins",
+      "weed potato skins",
+      "THC loaded potato skins",
+      "infused potato skins"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400°F / 200°C",
+    "texture_type": "baked",
+    "sub_category": "savory_bites",
+    "intro_unique": "These cannabis loaded potato skins are brushed with cannabutter inside and out, then filled with melted cheddar and crispy bacon for the ultimate comfort snack.",
+    "dosing_unique": "Brush the cannabutter evenly on all potato skins and divide the total amount by the number of skins to determine your dose per piece.",
+    "storage_unique": "Baked potato skins can be refrigerated for up to 2 days; reheat in the oven at 375°F for 10 minutes, adding fresh toppings after reheating.",
+    "variation_unique": "Make them brunch-style by adding scrambled eggs and chives, or go barbecue with pulled pork and cheddar."
+  },
+  "cannabis-tortilla-chips-with-salsa": {
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis tortilla chips",
+      "weed chips and salsa",
+      "THC tortilla chips",
+      "infused chips"
+    ],
+    "nutrition": {
+      "calories": "170 kcal",
+      "fatContent": "7 g"
+    },
+    "base_fat": "cannabis_oil",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "savory_bites",
+    "intro_unique": "These homemade cannabis tortilla chips are brushed with cannabis olive oil and baked to perfection, paired with a bright and fresh house-made salsa.",
+    "dosing_unique": "The cannabis oil is brushed onto each chip before baking; use equal amounts per chip and count your chips to manage your dose.",
+    "storage_unique": "Store baked chips in an airtight container at room temperature for up to 5 days; store salsa separately in the fridge for up to 3 days.",
+    "variation_unique": "Season with lime zest and chili powder for a tangy variation, or serve with a cannabis-infused guacamole instead of salsa."
+  },
+  "cannabis-sugar": {
+    "prepTime": "PT15M",
+    "cookTime": "PT40M",
+    "totalTime": "PT24H55M",
+    "keywords": [
+      "cannabis sugar",
+      "weed sugar",
+      "THC sugar",
+      "infused sugar",
+      "canna sugar"
+    ],
+    "nutrition": {
+      "calories": "15 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "tincture",
+    "cook_temp": "240°F / 115°C (decarb), 200°F / 93°C (drying)",
+    "texture_type": "dry",
+    "sub_category": "sweetener",
+    "intro_unique": "Cannabis sugar is a fat-free infusion method that lets you add THC to any recipe or beverage where regular sugar is used.",
+    "dosing_unique": "Divide the total sugar yield by the number of teaspoons to calculate per-teaspoon potency; start with 1 teaspoon per serving.",
+    "storage_unique": "Store in an airtight glass jar in a cool, dark pantry for up to 6 months; keep away from moisture to prevent clumping.",
+    "variation_unique": "Make cannabis powdered sugar by blending the infused sugar with a tablespoon of cornstarch, or infuse brown sugar using the same technique."
+  },
+  "cannabis-flour": {
+    "prepTime": "PT10M",
+    "cookTime": "PT40M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "cannabis flour",
+      "weed flour",
+      "THC flour",
+      "infused flour",
+      "canna flour"
+    ],
+    "nutrition": {
+      "calories": "30 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "decarbed_flower",
+    "cook_temp": "240°F / 115°C (decarb)",
+    "texture_type": "dry",
+    "sub_category": "butter_oil",
+    "intro_unique": "Cannabis flour is the simplest infusion base you can make, requiring only decarboxylated cannabis and all-purpose flour blended together.",
+    "dosing_unique": "Calculate the total THC in your cannabis and divide by the number of cups of flour to determine potency per cup; replace only a portion of regular flour to start.",
+    "storage_unique": "Store in a sealed jar or bag in the freezer for up to 6 months to preserve potency, or in a cool dark pantry for up to 3 months.",
+    "variation_unique": "Use whole wheat flour or almond flour as the base for a gluten-free or high-protein alternative."
+  },
+  "cannabis-tincture": {
+    "prepTime": "PT15M",
+    "cookTime": "PT40M",
+    "totalTime": "PT14D55M",
+    "keywords": [
+      "cannabis tincture",
+      "weed tincture",
+      "THC tincture",
+      "green dragon",
+      "marijuana tincture"
+    ],
+    "nutrition": {
+      "calories": "5 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "alcohol",
+    "cook_temp": "240°F / 115°C (decarb)",
+    "texture_type": "liquid",
+    "sub_category": "tincture",
+    "intro_unique": "Cannabis tincture is one of the most versatile cannabis preparations, allowing sublingual dosing or easy addition to virtually any food or beverage.",
+    "dosing_unique": "Start with 1 mL (one full dropper) under the tongue and wait at least 30 minutes before taking more; sublingual absorption is faster than edibles.",
+    "storage_unique": "Store in a dark glass dropper bottle in a cool, dark place; the high-proof alcohol acts as a preservative, giving the tincture a shelf life of several years.",
+    "variation_unique": "For an alcohol-free version, evaporate the alcohol on low heat after straining and mix the concentrate with MCT oil or glycerin."
+  },
+  "cannabis-maple-syrup": {
+    "prepTime": "PT10M",
+    "cookTime": "PT1H10M",
+    "totalTime": "PT1H20M",
+    "keywords": [
+      "cannabis maple syrup",
+      "weed maple syrup",
+      "THC maple syrup",
+      "infused maple syrup"
+    ],
+    "nutrition": {
+      "calories": "50 kcal",
+      "fatContent": "2 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "240°F / 115°C (decarb), stovetop low",
+    "texture_type": "liquid",
+    "sub_category": "sweetener",
+    "intro_unique": "Cannabis maple syrup combines the warmth of pure maple with the effects of THC, creating a versatile infused sweetener for breakfast, baking, and cocktails.",
+    "dosing_unique": "Measure tablespoon servings carefully; the cannabutter distributes evenly through the syrup when shaken, so always shake the bottle before pouring.",
+    "storage_unique": "Refrigerate in a sealed glass bottle for up to 2 months; the cannabutter may solidify when cold, so warm the bottle in hot water before use.",
+    "variation_unique": "Add a cinnamon stick or vanilla bean during the simmering step for extra flavor, or use dark amber maple syrup for a more robust taste."
+  },
+  "cannabis-hot-sauce": {
+    "prepTime": "PT15M",
+    "cookTime": "PT1H",
+    "totalTime": "PT1H15M",
+    "keywords": [
+      "cannabis hot sauce",
+      "weed hot sauce",
+      "THC hot sauce",
+      "infused hot sauce",
+      "canna hot sauce"
+    ],
+    "nutrition": {
+      "calories": "5 kcal",
+      "fatContent": "0 g"
+    },
+    "base_fat": "cannabis_oil",
+    "cook_temp": "240°F / 115°C (decarb), stovetop medium",
+    "texture_type": "liquid",
+    "sub_category": "condiment",
+    "intro_unique": "This cannabis hot sauce brings together fiery chili peppers and cannabis oil for a condiment that adds both heat and THC to wings, tacos, eggs, and more.",
+    "dosing_unique": "A typical serving is 1 teaspoon; calculate the total THC in your batch and divide by the number of teaspoons yielded for per-serving potency.",
+    "storage_unique": "Store in sterilized glass bottles in the refrigerator for up to 6 months; the vinegar base acts as a natural preservative and the flavor deepens over time.",
+    "variation_unique": "Use habaneros for a fruitier and hotter sauce, or add roasted garlic and mango for a sweet-heat version."
+  },
+  "cannabis-kung-pao-chicken": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cannabis kung pao chicken",
+      "weed kung pao",
+      "THC chinese food",
+      "infused kung pao"
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "medium-high heat",
+    "texture_type": "stir_fry",
+    "sub_category": "chinese",
+    "intro_unique": "This cannabis-infused Kung Pao chicken balances the numbing heat of Sichuan peppercorns with the smooth onset of THC for a truly elevated dining experience.",
+    "dosing_unique": "The cannabis oil is added at the start of cooking at moderate heat, preserving potency while infusing the entire stir-fry with an even dose.",
+    "storage_unique": "Store leftovers in an airtight container in the fridge for up to 3 days — reheat gently in a skillet to maintain texture.",
+    "variation_unique": "Swap chicken for firm tofu or shrimp for a different take, or adjust the dried chilies to control the spice level."
+  },
+  "cannabis-mapo-tofu": {
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis mapo tofu",
+      "THC mapo tofu",
+      "weed tofu recipe",
+      "infused sichuan tofu"
+    ],
+    "nutrition": {
+      "calories": "310 kcal",
+      "fatContent": "20 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "medium heat",
+    "texture_type": "braised",
+    "sub_category": "chinese",
+    "intro_unique": "Cannabis-infused mapo tofu delivers the signature tingly numbness of Sichuan cuisine paired with a gentle THC body effect that builds as you eat.",
+    "dosing_unique": "Cannabis oil is used as the base cooking fat, ensuring even distribution of THC throughout the sauce as it simmers with the tofu.",
+    "storage_unique": "Refrigerate in a sealed container for up to 2 days — the flavors deepen overnight, but reheat slowly to protect the tofu's texture.",
+    "variation_unique": "Make it vegetarian by swapping ground pork for crumbled tempeh or minced mushrooms while keeping all the bold Sichuan flavors."
+  },
+  "cannabis-sweet-and-sour-pork": {
+    "prepTime": "PT20M",
+    "cookTime": "PT20M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "cannabis sweet and sour pork",
+      "THC chinese pork",
+      "weed sweet sour",
+      "infused pork recipe"
+    ],
+    "nutrition": {
+      "calories": "450 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "medium heat",
+    "texture_type": "fried",
+    "sub_category": "chinese",
+    "intro_unique": "This cannabis sweet and sour pork pairs the satisfying crunch of deep-fried pork with a vibrant, tangy sauce infused with THC for a multi-sensory treat.",
+    "dosing_unique": "The cannabis oil is heated gently with the vegetables and sauce rather than in the deep fryer, keeping the THC potency intact.",
+    "storage_unique": "Best enjoyed fresh for optimal crispiness — leftovers can be refrigerated for 2 days but the breading will soften.",
+    "variation_unique": "Replace pork with chicken breast or cauliflower florets for a lighter or vegetarian version of this Chinese takeout classic."
+  },
+  "cannabis-dan-dan-noodles": {
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis dan dan noodles",
+      "THC noodles",
+      "weed sichuan noodles",
+      "infused dan dan"
+    ],
+    "nutrition": {
+      "calories": "480 kcal",
+      "fatContent": "24 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "no cook (sauce)",
+    "texture_type": "noodles",
+    "sub_category": "chinese",
+    "intro_unique": "These cannabis dan dan noodles combine a rich, nutty sesame sauce with the warming buzz of THC — a street food favorite elevated to new heights.",
+    "dosing_unique": "Cannabis oil is mixed directly into the uncooked sauce, ensuring maximum THC preservation since it never touches high heat.",
+    "storage_unique": "Store the sauce and pork topping separately from the noodles in the fridge for up to 3 days — toss together when ready to eat.",
+    "variation_unique": "Use udon or ramen noodles if Chinese wheat noodles are unavailable, and add chopped bok choy for extra greens."
+  },
+  "cannabis-wonton-soup": {
+    "prepTime": "PT30M",
+    "cookTime": "PT15M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "cannabis wonton soup",
+      "THC wonton",
+      "weed dumpling soup",
+      "infused chinese soup"
+    ],
+    "nutrition": {
+      "calories": "290 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "simmer",
+    "texture_type": "soup",
+    "sub_category": "chinese",
+    "intro_unique": "Cannabis-infused wonton soup is pure comfort in a bowl — delicate pork and shrimp dumplings swimming in a light, THC-laced broth.",
+    "dosing_unique": "The cannabis oil is mixed directly into the wonton filling, ensuring each dumpling carries a consistent and evenly distributed dose of THC.",
+    "storage_unique": "Freeze uncooked wontons on a tray before transferring to a bag — they cook straight from frozen in simmering broth in 6-7 minutes.",
+    "variation_unique": "Try an all-shrimp filling for a lighter option, or add a spoonful of chili crisp to each bowl for extra heat."
+  },
+  "cannabis-char-siu-pork": {
+    "prepTime": "PT20M",
+    "cookTime": "PT45M",
+    "totalTime": "PT5H",
+    "keywords": [
+      "cannabis char siu",
+      "THC bbq pork",
+      "weed char siu",
+      "infused cantonese pork"
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "325°F then 425°F",
+    "texture_type": "roasted",
+    "sub_category": "chinese",
+    "intro_unique": "Cannabis char siu pork delivers sticky, caramelized edges and tender, juicy meat infused with THC throughout the overnight marinade.",
+    "dosing_unique": "The cannabis oil integrates into the marinade and penetrates the pork during hours of refrigeration, distributing THC evenly through every slice.",
+    "storage_unique": "Slice and refrigerate in the glaze for up to 4 days — it makes incredible leftover sandwiches, noodle bowls, or fried rice.",
+    "variation_unique": "Substitute boneless chicken thighs for the pork, reducing the initial roasting time by 10 minutes to avoid drying out."
+  },
+  "cannabis-dim-sum-dumplings": {
+    "prepTime": "PT40M",
+    "cookTime": "PT10M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "cannabis dim sum",
+      "THC dumplings",
+      "weed dim sum",
+      "infused chinese dumplings"
+    ],
+    "nutrition": {
+      "calories": "260 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "steam",
+    "texture_type": "steamed",
+    "sub_category": "chinese",
+    "intro_unique": "These cannabis dim sum dumplings bring the joy of a Cantonese tea house to your kitchen, with each bite delivering a precise dose of THC.",
+    "dosing_unique": "Cannabis oil is folded into the filling before wrapping, and steaming at gentle temperatures preserves the full THC potency in every dumpling.",
+    "storage_unique": "Freeze assembled uncooked dumplings in a single layer, then bag them — steam from frozen for 12 minutes whenever cravings strike.",
+    "variation_unique": "Try a vegetarian version with finely chopped mushrooms, water chestnuts, and cabbage seasoned with the same aromatics."
+  },
+  "cannabis-sesame-chicken": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cannabis sesame chicken",
+      "THC sesame chicken",
+      "weed chinese chicken",
+      "infused sesame chicken"
+    ],
+    "nutrition": {
+      "calories": "440 kcal",
+      "fatContent": "20 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "medium-low heat (sauce)",
+    "texture_type": "fried",
+    "sub_category": "chinese",
+    "intro_unique": "Cannabis sesame chicken offers crispy, juicy bites coated in a sweet and savory glaze with THC oil stirred in for a satisfying infused meal.",
+    "dosing_unique": "The cannabis oil is warmed gently in the sauce rather than used for frying, keeping THC intact while coating every piece of chicken.",
+    "storage_unique": "Store sauce and chicken separately for up to 3 days — re-crisp the chicken in a 400°F oven before re-saucing for best results.",
+    "variation_unique": "Use cauliflower florets instead of chicken for a vegetarian version that crisps up beautifully with the same breading technique."
+  },
+  "cannabis-hot-and-sour-soup": {
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis hot and sour soup",
+      "THC soup",
+      "weed chinese soup",
+      "infused hot sour soup"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "simmer",
+    "texture_type": "soup",
+    "sub_category": "chinese",
+    "intro_unique": "This cannabis hot and sour soup warms you from the inside out with its tangy, peppery broth and a gentle THC effect that builds with every spoonful.",
+    "dosing_unique": "Cannabis oil is stirred into the simmering broth at moderate temperature, distributing evenly throughout the soup for consistent dosing in each bowl.",
+    "storage_unique": "Refrigerate for up to 3 days — the soup thickens as it cools, so add a splash of broth when reheating.",
+    "variation_unique": "Add sliced chicken breast or pork loin for extra protein, or toss in glass noodles for a more substantial meal."
+  },
+  "cannabis-scallion-pancakes": {
+    "prepTime": "PT45M",
+    "cookTime": "PT15M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "cannabis scallion pancakes",
+      "THC pancakes",
+      "weed chinese pancakes",
+      "infused scallion pancakes"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "medium heat",
+    "texture_type": "pan_fried",
+    "sub_category": "chinese",
+    "intro_unique": "Cannabis scallion pancakes are flaky, crispy, and loaded with green onion flavor — each layer brushed with THC-infused oil for even dosing throughout.",
+    "dosing_unique": "The cannabis oil is brushed between the dough layers before rolling, so THC is evenly distributed in every flaky bite without any hot spots.",
+    "storage_unique": "Stack uncooked rolled pancakes between parchment paper and freeze — cook directly from frozen in a hot skillet adding 1 extra minute per side.",
+    "variation_unique": "Add a handful of chopped cilantro or a pinch of five-spice powder to the filling for an extra aromatic dimension."
+  },
+  "cannabis-schnitzel": {
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis schnitzel",
+      "THC schnitzel",
+      "weed wiener schnitzel",
+      "infused german schnitzel"
+    ],
+    "nutrition": {
+      "calories": "480 kcal",
+      "fatContent": "24 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "medium heat",
+    "texture_type": "fried",
+    "sub_category": "german",
+    "intro_unique": "Cannabis schnitzel brings together the satisfying crunch of golden breadcrumbs with the mellow warmth of THC-infused butter for a German classic with a twist.",
+    "dosing_unique": "Cannabutter is used as the primary frying fat at moderate temperature, infusing the crispy coating with THC as each schnitzel sizzles to perfection.",
+    "storage_unique": "Reheat leftover schnitzel on a wire rack in a 375°F oven for 10 minutes to restore crispiness — avoid the microwave.",
+    "variation_unique": "Try chicken breast (Hähnchenschnitzel) or a thick slice of celery root for a vegetarian Schnitzel with the same crispy coating."
+  },
+  "cannabis-kartoffelpuffer": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cannabis kartoffelpuffer",
+      "THC potato pancakes",
+      "weed german pancakes",
+      "infused potato fritters"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "medium-high heat",
+    "texture_type": "fried",
+    "sub_category": "german",
+    "intro_unique": "These cannabis Kartoffelpuffer are crispy on the outside and tender within, with melted cannabutter in the batter delivering THC in every golden bite.",
+    "dosing_unique": "Cannabutter is melted and mixed directly into the raw potato batter, ensuring each pancake carries a consistent and predictable dose.",
+    "storage_unique": "Freeze cooked pancakes on a sheet tray, then stack in a freezer bag — reheat from frozen in a 400°F oven for 10 minutes.",
+    "variation_unique": "Add grated zucchini or sweet potato for a colorful twist, or top with smoked salmon and crème fraîche for an elegant appetizer."
+  },
+  "cannabis-bratwurst-with-sauerkraut": {
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "cannabis bratwurst",
+      "THC sauerkraut",
+      "weed bratwurst",
+      "infused german sausage"
+    ],
+    "nutrition": {
+      "calories": "520 kcal",
+      "fatContent": "32 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "medium heat",
+    "texture_type": "braised",
+    "sub_category": "german",
+    "intro_unique": "Cannabis bratwurst with sauerkraut captures the essence of a German beer garden, with cannabutter-simmered sauerkraut adding a mellow THC warmth to every bite.",
+    "dosing_unique": "The cannabutter is melted first and used to sauté the onions and braise the sauerkraut, distributing THC evenly through the tangy bed of cabbage.",
+    "storage_unique": "The sauerkraut improves overnight in the fridge — store for up to 4 days and simply reheat with the bratwurst before serving.",
+    "variation_unique": "Use vegan sausages for a plant-based version or swap the lager for apple cider for a sweeter, fruitier sauerkraut."
+  },
+  "cannabis-kaesespaetzle": {
+    "prepTime": "PT25M",
+    "cookTime": "PT20M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "cannabis käsespätzle",
+      "THC cheese noodles",
+      "weed spätzle",
+      "infused german mac cheese"
+    ],
+    "nutrition": {
+      "calories": "520 kcal",
+      "fatContent": "28 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "medium-low heat",
+    "texture_type": "baked",
+    "sub_category": "german",
+    "intro_unique": "Cannabis Käsespätzle is Germany's answer to mac and cheese — pillowy handmade noodles tossed in cannabutter and smothered with melted alpine cheese.",
+    "dosing_unique": "Cannabutter is melted and used to toss the freshly cooked spätzle before layering with cheese, ensuring even THC distribution throughout the dish.",
+    "storage_unique": "Refrigerate for up to 3 days — reheat in a buttered skillet over medium heat to revive the crispy edges and melted cheese.",
+    "variation_unique": "Add sautéed mushrooms or crispy bacon bits between the cheese layers, or use different cheese combinations like Appenzeller and Bergkäse."
+  },
+  "cannabis-apfelstrudel": {
+    "prepTime": "PT25M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H5M",
+    "keywords": [
+      "cannabis apfelstrudel",
+      "THC apple strudel",
+      "weed strudel",
+      "infused german pastry"
+    ],
+    "nutrition": {
+      "calories": "340 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "325°F",
+    "texture_type": "baked",
+    "sub_category": "german",
+    "intro_unique": "Cannabis Apfelstrudel wraps spiced apple filling in shatteringly crisp phyllo brushed with cannabutter — a THC-infused pastry that is pure autumn comfort.",
+    "dosing_unique": "Melted cannabutter is brushed between each phyllo layer, with the low 325°F baking temperature protecting the THC throughout the extended bake time.",
+    "storage_unique": "Store at room temperature covered for 1 day or refrigerate for 3 days — re-crisp in a 350°F oven for 8 minutes before serving.",
+    "variation_unique": "Swap apples for pears and add a handful of dried cranberries, or use puff pastry sheets for a quicker version with equally flaky results."
+  },
+  "cannabis-flammkuchen": {
+    "prepTime": "PT45M",
+    "cookTime": "PT15M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "cannabis flammkuchen",
+      "THC flatbread",
+      "weed tarte flambée",
+      "infused german pizza"
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "fatContent": "20 g"
+    },
+    "base_fat": "cannabis oil",
+    "cook_temp": "475°F",
+    "texture_type": "baked",
+    "sub_category": "german",
+    "intro_unique": "Cannabis Flammkuchen is a paper-thin flatbread loaded with crème fraîche, smoky bacon, and sweet onions, with THC-infused olive oil worked right into the dough.",
+    "dosing_unique": "The cannabis-infused olive oil is kneaded into the dough, and the extremely short bake time at high heat means minimal THC degradation.",
+    "storage_unique": "Best enjoyed immediately for maximum crispiness — leftover slices can be refreshed on a hot pizza stone for 3-4 minutes.",
+    "variation_unique": "Top with sliced pears and blue cheese for a sweet-savory version, or add caramelized onions and goat cheese for a vegetarian option."
+  },
+  "cannabis-currywurst": {
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis currywurst",
+      "THC currywurst",
+      "weed german street food",
+      "infused sausage curry"
+    ],
+    "nutrition": {
+      "calories": "460 kcal",
+      "fatContent": "28 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "medium heat",
+    "texture_type": "pan_fried",
+    "sub_category": "german",
+    "intro_unique": "Cannabis Currywurst brings Berlin's most iconic street food to your kitchen, with bratwurst seared in cannabutter and drenched in spicy curry-ketchup sauce.",
+    "dosing_unique": "The cannabutter is used to pan-sear the bratwurst at moderate heat, infusing the sausage's exterior with THC that complements the bold curry sauce.",
+    "storage_unique": "The curry-ketchup sauce keeps in the fridge for up to a week — make a double batch and use it with any grilled sausage.",
+    "variation_unique": "Try it with smoked sausage or grilled chicken breast for variation, or add a splash of mango chutney to the sauce for tropical flair."
+  },
+  "cannabis-black-forest-cake": {
+    "prepTime": "PT30M",
+    "cookTime": "PT35M",
+    "totalTime": "PT3H",
+    "keywords": [
+      "cannabis black forest cake",
+      "THC chocolate cake",
+      "weed schwarzwälder",
+      "infused cherry cake"
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "325°F",
+    "texture_type": "baked",
+    "sub_category": "german",
+    "intro_unique": "Cannabis Black Forest cake layers rich chocolate sponge with Kirsch-soaked cherries and billowy whipped cream — a showstopping THC dessert for special occasions.",
+    "dosing_unique": "Cannabutter is melted with the chocolate and folded into the batter, with the moderate 325°F oven temperature preserving THC potency throughout baking.",
+    "storage_unique": "Refrigerate the assembled cake for up to 3 days — the flavors meld beautifully, making day-two slices even more decadent.",
+    "variation_unique": "Skip the Kirschwasser for an alcohol-free version, or use frozen mixed berries instead of cherries for a berry forest variation."
+  },
+  "cannabis-brezel": {
+    "prepTime": "PT1H20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT1H35M",
+    "keywords": [
+      "cannabis brezel",
+      "THC pretzel",
+      "weed german pretzel",
+      "infused bavarian brezel"
+    ],
+    "nutrition": {
+      "calories": "310 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "425°F",
+    "texture_type": "baked",
+    "sub_category": "german",
+    "intro_unique": "Cannabis Brezeln have a dark, crackly crust and soft, chewy interior — warm from the oven with cannabutter baked right into the dough.",
+    "dosing_unique": "Melted cannabutter is incorporated during the dough-mixing stage, and the brief high-heat bake preserves THC while creating the signature pretzel crust.",
+    "storage_unique": "Best enjoyed warm from the oven — store extras in a paper bag for 1 day and refresh in a 350°F oven with a spritz of water.",
+    "variation_unique": "Stuff the pretzel dough with cheese or jalapeños before shaping, or brush with garlic cannabutter right after baking for extra flavor."
+  },
+  "cannabis-rouladen": {
+    "prepTime": "PT25M",
+    "cookTime": "PT2H",
+    "totalTime": "PT2H25M",
+    "keywords": [
+      "cannabis rouladen",
+      "THC beef rolls",
+      "weed german rouladen",
+      "infused braised beef"
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "low simmer",
+    "texture_type": "braised",
+    "sub_category": "german",
+    "intro_unique": "Cannabis Rouladen are beef rolls stuffed with bacon, pickles, and mustard, slowly braised in cannabutter-enriched gravy until meltingly tender and THC-infused.",
+    "dosing_unique": "Cannabutter is used to sear the rolls and forms the base of the braising liquid, with low-temperature simmering preserving THC over the long cook time.",
+    "storage_unique": "The rouladen and gravy actually taste better the next day — refrigerate for up to 4 days and reheat gently in the gravy.",
+    "variation_unique": "Try turkey or pork cutlets pounded thin as a lighter alternative, or add a strip of roasted red pepper inside each roll for color."
+  },
+  "cannabis-golden-milk": {
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "keywords": [
+      "cannabis golden milk",
+      "THC turmeric latte",
+      "weed golden milk",
+      "infused turmeric drink"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabis coconut oil",
+    "cook_temp": "low heat",
+    "texture_type": "beverage",
+    "sub_category": "hot_drinks",
+    "intro_unique": "Cannabis golden milk combines the ancient healing properties of turmeric with the soothing effects of THC for a warm, golden elixir that melts away stress.",
+    "dosing_unique": "Cannabis coconut oil is whisked into the warm milk at low temperature, keeping THC intact while the fat content ensures optimal absorption.",
+    "storage_unique": "Refrigerate for up to 2 days and gently reheat on the stove — shake or whisk well before reheating as the oil may separate.",
+    "variation_unique": "Add a shot of espresso for a cannabis turmeric latte, or use coconut milk for a fully vegan, dairy-free version."
+  },
+  "cannabis-horchata": {
+    "prepTime": "PT4H15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT6H15M",
+    "keywords": [
+      "cannabis horchata",
+      "THC horchata",
+      "weed rice drink",
+      "infused cinnamon drink"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabis coconut oil",
+    "cook_temp": "no cook",
+    "texture_type": "beverage",
+    "sub_category": "cold_drinks",
+    "intro_unique": "Cannabis horchata is a cool, creamy rice-and-cinnamon drink laced with THC — refreshing, sweet, and perfect for a relaxed afternoon or evening.",
+    "dosing_unique": "The cannabis coconut oil is whisked into the blended rice milk off heat, fully emulsifying for smooth texture and even THC distribution in every glass.",
+    "storage_unique": "Keep refrigerated and shake well before each pour — the rice milk naturally settles and the drink stays fresh for up to 3 days.",
+    "variation_unique": "Add a splash of rum for an adult cocktail version, or blend in a frozen banana for a thicker, smoothie-like consistency."
+  },
+  "cannabis-mulled-wine": {
+    "prepTime": "PT5M",
+    "cookTime": "PT25M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis mulled wine",
+      "THC glühwein",
+      "weed mulled wine",
+      "infused spiced wine"
+    ],
+    "nutrition": {
+      "calories": "210 kcal",
+      "fatContent": "2 g"
+    },
+    "base_fat": "cannabis honey",
+    "cook_temp": "low heat",
+    "texture_type": "beverage",
+    "sub_category": "alcoholic",
+    "intro_unique": "Cannabis mulled wine fills the room with the scent of cinnamon and cloves while delivering a gentle THC warmth that pairs beautifully with the spiced red wine.",
+    "dosing_unique": "Cannabis-infused honey is stirred in after the wine is removed from heat, ensuring no THC is lost to excessive temperature during the mulling process.",
+    "storage_unique": "Reheat gently on the stove the next day, never boiling — keeps refrigerated for up to 3 days in a sealed bottle.",
+    "variation_unique": "Use white wine with elderflower and lemon for a lighter spring version, or substitute apple cider for an alcohol-free alternative."
+  },
+  "cannabis-pina-colada": {
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
+    "keywords": [
+      "cannabis piña colada",
+      "THC cocktail",
+      "weed pina colada",
+      "infused tropical drink"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabis coconut oil",
+    "cook_temp": "no cook",
+    "texture_type": "beverage",
+    "sub_category": "alcoholic",
+    "intro_unique": "This cannabis Piña Colada is a tropical escape in a glass — blended coconut, pineapple, and rum with a smooth THC infusion for the ultimate beach vibes.",
+    "dosing_unique": "Cannabis coconut oil is emulsified into the coconut cream before blending, ensuring THC is evenly distributed and undetectable in the creamy tropical drink.",
+    "storage_unique": "Best served immediately after blending — if the mixture separates, a quick re-blend with fresh ice brings it right back together.",
+    "variation_unique": "Make it a virgin colada by omitting the rum, or add fresh mango chunks for a tropical mango-colada twist."
+  },
+  "cannabis-arnold-palmer": {
+    "prepTime": "PT15M",
+    "cookTime": "PT5M",
+    "totalTime": "PT2H20M",
+    "keywords": [
+      "cannabis arnold palmer",
+      "THC iced tea",
+      "weed lemonade tea",
+      "infused arnold palmer"
+    ],
+    "nutrition": {
+      "calories": "120 kcal",
+      "fatContent": "1 g"
+    },
+    "base_fat": "cannabis honey",
+    "cook_temp": "no cook",
+    "texture_type": "beverage",
+    "sub_category": "cold_drinks",
+    "intro_unique": "A cannabis Arnold Palmer is the perfect porch sipper — half iced tea, half lemonade, all infused with THC honey for a mellow, refreshing buzz.",
+    "dosing_unique": "Cannabis-infused honey is dissolved into the lemonade portion of the drink, distributing THC evenly without any oily texture or aftertaste.",
+    "storage_unique": "Keep the tea and cannabis lemonade refrigerated separately for up to 3 days — combine over ice when ready to serve for the freshest taste.",
+    "variation_unique": "Use green tea or hibiscus tea for a different flavor profile, or add a splash of vodka for a boozy John Daly version."
+  },
+  "cannabis-enchiladas": {
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "cannabis enchiladas",
+      "weed enchiladas",
+      "THC mexican food",
+      "infused enchiladas"
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "mexican",
+    "intro_unique": "These cannabis-infused enchiladas bring the full flavor of authentic Mexican cuisine with perfectly dosed cannabutter mixed right into the filling.",
+    "dosing_unique": "The cannabutter is distributed evenly through the chicken filling, so each enchilada delivers a consistent dose.",
+    "storage_unique": "Store leftover enchiladas covered in the fridge for up to 3 days and reheat in the oven at 350°F for 15 minutes.",
+    "variation_unique": "Swap the chicken for shredded beef or sautéed vegetables, and try green salsa verde instead of red enchilada sauce for a tangy twist."
+  },
+  "cannabis-tamales": {
+    "prepTime": "PT45M",
+    "cookTime": "PT75M",
+    "totalTime": "PT2H",
+    "keywords": [
+      "cannabis tamales",
+      "weed tamales",
+      "THC tamales",
+      "infused Mexican food"
+    ],
+    "nutrition": {
+      "calories": "290 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Steamed",
+    "texture_type": "steamed",
+    "sub_category": "mexican",
+    "intro_unique": "These traditional cannabis tamales infuse the masa dough itself with cannabutter, ensuring every bite of this beloved Mexican staple carries a gentle dose.",
+    "dosing_unique": "The cannabutter is beaten into the masa dough and evenly divided across all tamales for reliable dosing per piece.",
+    "storage_unique": "Freeze uncooked or cooked tamales for up to 3 months; re-steam frozen tamales for 20-25 minutes until heated through.",
+    "variation_unique": "Try a sweet version with cinnamon, raisins, and pineapple in the masa, or fill with cheese and roasted poblano strips for a vegetarian option."
+  },
+  "cannabis-chilaquiles": {
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "keywords": [
+      "cannabis chilaquiles",
+      "weed chilaquiles",
+      "THC breakfast",
+      "infused Mexican breakfast"
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "fatContent": "24 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium heat",
+    "texture_type": "pan-fried",
+    "sub_category": "mexican",
+    "intro_unique": "Cannabis chilaquiles turn a quick Mexican breakfast into a medicated morning treat, with cannabutter melted right into the salsa verde.",
+    "dosing_unique": "The cannabutter dissolves into the warm salsa and coats all the chips evenly, making it easy to divide into equal portions.",
+    "storage_unique": "Chilaquiles are best served immediately as the chips will continue to soften; prepare the salsa mixture ahead and store refrigerated for up to 2 days.",
+    "variation_unique": "Use red salsa instead of green for chilaquiles rojos, or top with shredded chicken or carnitas for a heartier meal."
+  },
+  "cannabis-elote": {
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "keywords": [
+      "cannabis elote",
+      "weed street corn",
+      "THC Mexican corn",
+      "infused elote"
+    ],
+    "nutrition": {
+      "calories": "280 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Grilled / Boiled",
+    "texture_type": "grilled",
+    "sub_category": "mexican",
+    "intro_unique": "Cannabis elote elevates Mexican street corn by blending cannabutter into the creamy coating for an irresistible charred, tangy, and medicated side dish.",
+    "dosing_unique": "Each ear of corn is individually brushed with a measured amount of the cannabutter-mayo blend for consistent dosing per serving.",
+    "storage_unique": "Elote is best served fresh; however, leftover corn can be cut off the cob and stored refrigerated for 2 days to use in salads.",
+    "variation_unique": "Make esquites (corn in a cup) by cutting the kernels off the cob and tossing with the infused mayo mixture, or add a squeeze of chipotle for a smoky kick."
+  },
+  "cannabis-churro-bites": {
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis churros",
+      "weed churro bites",
+      "THC churros",
+      "infused Mexican dessert"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "9 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C (oil)",
+    "texture_type": "fried",
+    "sub_category": "mexican",
+    "intro_unique": "These bite-sized cannabis churros pack all the cinnamon-sugar flavor of traditional churros with cannabutter baked right into the choux-style dough.",
+    "dosing_unique": "The cannabutter is mixed into the dough before frying, and making uniform bite-sized pieces ensures each churro carries an equal dose.",
+    "storage_unique": "Churro bites are best eaten fresh and warm; store leftovers in an airtight container and reheat in a 350°F oven for 5 minutes to restore crispness.",
+    "variation_unique": "Drizzle with dulce de leche or Nutella instead of chocolate sauce, or dust with matcha powder and sugar for a unique flavor combination."
+  },
+  "cannabis-pozole": {
+    "prepTime": "PT30M",
+    "cookTime": "PT2H",
+    "totalTime": "PT2H30M",
+    "keywords": [
+      "cannabis pozole",
+      "weed pozole",
+      "THC Mexican soup",
+      "infused pozole rojo"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "15 g"
+    },
+    "base_fat": "cannabis-infused coconut oil",
+    "cook_temp": "Low simmer",
+    "texture_type": "simmered",
+    "sub_category": "mexican",
+    "intro_unique": "This cannabis pozole rojo simmers pork in a deeply flavored dried chile broth with cannabis-infused coconut oil blended into the cooking base.",
+    "dosing_unique": "The cannabis oil is added at the searing stage and distributes through the broth during the long simmer, so each bowl carries a consistent dose.",
+    "storage_unique": "Pozole stores exceptionally well — refrigerate for up to 4 days or freeze for 2 months. The flavor actually deepens overnight.",
+    "variation_unique": "Make pozole verde with tomatillos and pepitas instead of red chiles, or substitute chicken for pork for a lighter version."
+  },
+  "cannabis-mole-chicken": {
+    "prepTime": "PT25M",
+    "cookTime": "PT40M",
+    "totalTime": "PT65M",
+    "keywords": [
+      "cannabis mole",
+      "weed mole chicken",
+      "THC mole sauce",
+      "infused Mexican chicken"
+    ],
+    "nutrition": {
+      "calories": "440 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium then low simmer",
+    "texture_type": "braised",
+    "sub_category": "mexican",
+    "intro_unique": "Cannabis mole chicken features a complex sauce of dried chiles, chocolate, and toasted sesame with cannabutter adding both richness and a controlled THC infusion.",
+    "dosing_unique": "The cannabutter is used to sear the chicken and forms the base of the mole, distributing evenly throughout the sauce for consistent dosing per thigh.",
+    "storage_unique": "Refrigerate leftover mole chicken for up to 3 days; the sauce thickens when cold, so add a splash of broth when reheating gently on the stovetop.",
+    "variation_unique": "Try the mole sauce with enchiladas, burritos, or roasted vegetables for a vegetarian version. Add more chocolate for a richer, sweeter mole."
+  },
+  "cannabis-tostadas": {
+    "prepTime": "PT15M",
+    "cookTime": "PT5M",
+    "totalTime": "PT20M",
+    "keywords": [
+      "cannabis tostadas",
+      "weed tostadas",
+      "THC tostadas",
+      "infused Mexican appetizer"
+    ],
+    "nutrition": {
+      "calories": "310 kcal",
+      "fatContent": "17 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Low heat",
+    "texture_type": "assembled",
+    "sub_category": "mexican",
+    "intro_unique": "These cannabis tostadas feature a clever infusion method — cannabutter is blended into the crema drizzled on top for an easy, no-cook cannabis application.",
+    "dosing_unique": "Each tostada receives an equal drizzle of the cannabutter crema, making portion control simple and precise.",
+    "storage_unique": "Prepare the cannabis crema up to 3 days ahead and store refrigerated; assemble tostadas just before serving to keep the shells crispy.",
+    "variation_unique": "Add shredded carne asada, pulled chicken, or ceviche on top for added protein, or use tostada shells made from flour tortillas for a different texture."
+  },
+  "cannabis-birria-tacos": {
+    "prepTime": "PT30M",
+    "cookTime": "PT3H",
+    "totalTime": "PT3H30M",
+    "keywords": [
+      "cannabis birria tacos",
+      "weed birria",
+      "THC birria",
+      "infused quesabirria"
+    ],
+    "nutrition": {
+      "calories": "480 kcal",
+      "fatContent": "26 g"
+    },
+    "base_fat": "cannabis-infused cooking oil",
+    "cook_temp": "Low braise / High griddle",
+    "texture_type": "braised",
+    "sub_category": "mexican",
+    "intro_unique": "These trending cannabis birria tacos feature slow-braised beef in a rich chile consommé, with cannabis-infused oil seared into the meat for deep, even dosing.",
+    "dosing_unique": "The cannabis oil is used to sear the beef and infuses into the braising liquid, which is then divided equally for dipping alongside the tacos.",
+    "storage_unique": "Store the birria meat and consommé separately in the fridge for up to 4 days; reheat the broth and assemble fresh tacos when ready to serve.",
+    "variation_unique": "Use lamb or goat for a more traditional birria, or make birria ramen by serving the shredded meat in consommé with noodles and a soft-boiled egg."
+  },
+  "cannabis-tres-leches-cake": {
+    "prepTime": "PT20M",
+    "cookTime": "PT30M",
+    "totalTime": "PT50M",
+    "keywords": [
+      "cannabis tres leches",
+      "weed tres leches cake",
+      "THC Mexican cake",
+      "infused milk cake"
+    ],
+    "nutrition": {
+      "calories": "360 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "mexican",
+    "intro_unique": "This cannabis tres leches cake soaks a light sponge in three milks while cannabutter in the batter ensures the THC stays locked in every slice.",
+    "dosing_unique": "The cannabutter is creamed into the egg yolk base and baked into the cake, so each of the 12 slices delivers an equal dose regardless of how much milk each piece absorbs.",
+    "storage_unique": "Keep refrigerated and covered; tres leches cake actually tastes better the next day as the flavors meld, and lasts up to 4 days in the fridge.",
+    "variation_unique": "Top with fresh strawberries or mango for a fruity twist, or make a chocolate version by adding cocoa powder to the batter and using chocolate shavings on top."
+  },
+  "cannabis-red-velvet-cake": {
+    "prepTime": "PT25M",
+    "cookTime": "PT30M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "cannabis red velvet cake",
+      "weed red velvet",
+      "THC cake",
+      "infused red velvet"
+    ],
+    "nutrition": {
+      "calories": "400 kcal",
+      "fatContent": "20 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "This cannabis red velvet cake pairs the classic tangy buttermilk crumb with cannabutter for a showstopping dessert that looks as good as it tastes.",
+    "dosing_unique": "Cannabutter is creamed into the batter and divided between two cake layers, so each of the 12 slices delivers a consistent dose.",
+    "storage_unique": "Store frosted cake in the refrigerator for up to 4 days; bring to room temperature for 20 minutes before serving for the best texture.",
+    "variation_unique": "Make red velvet cupcakes for easier portion control, or add a layer of strawberry jam between the cake layers for extra fruity richness."
+  },
+  "cannabis-snickerdoodle-cookies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT12M",
+    "totalTime": "PT27M",
+    "keywords": [
+      "cannabis snickerdoodles",
+      "weed snickerdoodle cookies",
+      "THC cookies",
+      "infused cinnamon cookies"
+    ],
+    "nutrition": {
+      "calories": "160 kcal",
+      "fatContent": "7 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "These cannabis snickerdoodles deliver the beloved tangy, cinnamon-coated cookie experience with cannabutter blended into the dough for a reliable medicated treat.",
+    "dosing_unique": "The cannabutter is evenly distributed through the dough, and portioning into 24 equal cookies means you can easily calculate the dose per cookie.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 5 days, or freeze baked cookies for up to 2 months.",
+    "variation_unique": "Add a handful of white chocolate chips for a sweeter version, or roll in chai spice mix instead of cinnamon sugar for a unique flavor profile."
+  },
+  "cannabis-pumpkin-pie": {
+    "prepTime": "PT15M",
+    "cookTime": "PT55M",
+    "totalTime": "PT70M",
+    "keywords": [
+      "cannabis pumpkin pie",
+      "weed pumpkin pie",
+      "THC pumpkin pie",
+      "infused Thanksgiving pie"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "425°F then 350°F / 220°C then 175°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "This cannabis pumpkin pie blends warm autumn spices with cannabutter for a smooth, creamy filling that makes any gathering a little more festive.",
+    "dosing_unique": "The melted cannabutter is whisked directly into the filling and baked in, so cutting into 8 equal slices gives consistent dosing across the pie.",
+    "storage_unique": "Refrigerate covered for up to 3 days; this pie is best served chilled or at room temperature, never warm, to keep the filling properly set.",
+    "variation_unique": "Top with candied pecans or a ginger cookie crumble for added texture, or make mini pumpkin pies in a muffin tin for individual portions."
+  },
+  "cannabis-strawberry-cheesecake-bars": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT60M",
+    "keywords": [
+      "cannabis cheesecake bars",
+      "weed strawberry cheesecake",
+      "THC cheesecake",
+      "infused cheesecake bars"
+    ],
+    "nutrition": {
+      "calories": "340 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "325°F / 165°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "These cannabis strawberry cheesecake bars feature a cannabutter-infused graham crust topped with a silky cheesecake layer swirled with fresh strawberry puree.",
+    "dosing_unique": "The cannabutter is concentrated in the crust, and cutting into 9 equal bars ensures each piece has the same amount of infused base.",
+    "storage_unique": "Store refrigerated for up to 5 days; these bars also freeze beautifully — wrap individually in plastic and freeze for up to 1 month.",
+    "variation_unique": "Swap strawberries for blueberry or raspberry puree, or make a chocolate cheesecake version by adding cocoa powder to the filling."
+  },
+  "cannabis-oatmeal-raisin-cookies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT13M",
+    "totalTime": "PT28M",
+    "keywords": [
+      "cannabis oatmeal raisin cookies",
+      "weed oatmeal cookies",
+      "THC cookies",
+      "infused oatmeal cookies"
+    ],
+    "nutrition": {
+      "calories": "170 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "These cannabis oatmeal raisin cookies combine hearty oats and plump raisins with cannabutter for a wholesome cookie that delivers a reliable medicated experience.",
+    "dosing_unique": "Cannabutter is creamed into the dough and evenly distributed; scooping 24 equal cookies makes calculating your per-cookie dose straightforward.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 5 days, or freeze the dough balls and bake fresh as needed.",
+    "variation_unique": "Substitute dried cranberries and white chocolate chips for the raisins, or add chopped walnuts for extra crunch and a nutty flavor."
+  },
+  "cannabis-key-lime-pie": {
+    "prepTime": "PT20M",
+    "cookTime": "PT23M",
+    "totalTime": "PT43M",
+    "keywords": [
+      "cannabis key lime pie",
+      "weed key lime pie",
+      "THC key lime pie",
+      "infused citrus pie"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "20 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "This cannabis key lime pie features a cannabutter-infused graham crust that pairs perfectly with the tangy, creamy citrus filling for a refreshing medicated dessert.",
+    "dosing_unique": "The cannabutter is baked into the crust and evenly distributed, so each of the 8 slices carries the same dose.",
+    "storage_unique": "Keep refrigerated for up to 3 days; the pie must stay cold for the best texture. Do not freeze, as the custard can separate.",
+    "variation_unique": "Use regular limes if key limes are unavailable, or make individual tartlets in a muffin tin for easier portion control and a more elegant presentation."
+  },
+  "cannabis-french-toast": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "cannabis french toast",
+      "weed french toast",
+      "THC breakfast",
+      "infused french toast"
+    ],
+    "nutrition": {
+      "calories": "340 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium-low heat",
+    "texture_type": "pan-fried",
+    "sub_category": "baked_goods",
+    "intro_unique": "Cannabis French toast transforms a lazy weekend breakfast into a medicated indulgence, with each slice pan-fried in cannabutter for golden, aromatic perfection.",
+    "dosing_unique": "The cannabutter is melted in the skillet and absorbed by the bread as it cooks, distributing the dose evenly across all six slices.",
+    "storage_unique": "Best served immediately; if needed, keep warm in a 200°F oven on a wire rack while cooking remaining slices.",
+    "variation_unique": "Use cinnamon raisin bread or banana bread for extra flavor, or make stuffed French toast by spreading cream cheese and jam between two slices before dipping."
+  },
+  "cannabis-creme-brulee": {
+    "prepTime": "PT15M",
+    "cookTime": "PT45M",
+    "totalTime": "PT60M",
+    "keywords": [
+      "cannabis creme brulee",
+      "weed creme brulee",
+      "THC custard",
+      "infused creme brulee"
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "fatContent": "30 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "325°F / 165°C",
+    "texture_type": "baked",
+    "sub_category": "custard",
+    "intro_unique": "This cannabis crème brûlée infuses the cream base with cannabutter for a luxurious custard dessert topped with a satisfying crackle of caramelized sugar.",
+    "dosing_unique": "The cannabutter melts into the cream and is strained into six ramekins, so each individual dessert carries a precise, equal dose.",
+    "storage_unique": "Refrigerate un-torched custards for up to 3 days; caramelize the sugar topping just before serving for the best crackly texture.",
+    "variation_unique": "Infuse the cream with lavender, espresso, or orange zest before adding the cannabutter for a sophisticated flavor variation."
+  },
+  "cannabis-smores-bars": {
+    "prepTime": "PT15M",
+    "cookTime": "PT12M",
+    "totalTime": "PT27M",
+    "keywords": [
+      "cannabis smores bars",
+      "weed smores",
+      "THC smores bars",
+      "infused campfire bars"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C then broil",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "These cannabis s'mores bars capture campfire nostalgia with a cannabutter graham crust layered with rich chocolate and toasty marshmallows.",
+    "dosing_unique": "All the cannabutter goes into the crust, so cutting into 9 equal bars means each portion has the same dose.",
+    "storage_unique": "Store at room temperature in an airtight container for up to 3 days; the marshmallow topping may soften over time but the flavor stays great.",
+    "variation_unique": "Use dark chocolate or peanut butter chips instead of semi-sweet chocolate, or add a layer of cookie butter spread between the chocolate and marshmallows."
+  },
+  "cannabis-chocolate-chip-muffins": {
+    "prepTime": "PT10M",
+    "cookTime": "PT22M",
+    "totalTime": "PT32M",
+    "keywords": [
+      "cannabis chocolate chip muffins",
+      "weed muffins",
+      "THC muffins",
+      "infused chocolate muffins"
+    ],
+    "nutrition": {
+      "calories": "260 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "These cannabis chocolate chip muffins are fluffy, golden, and loaded with melted chocolate pockets — a perfectly portioned way to enjoy a medicated baked treat.",
+    "dosing_unique": "The cannabutter is distributed evenly through the batter and divided into 12 muffins, making per-muffin dosing simple to calculate.",
+    "storage_unique": "Store in an airtight container at room temperature for 2 days, or freeze individually wrapped muffins for up to 2 months.",
+    "variation_unique": "Add a streusel crumb topping for extra texture, or swap chocolate chips for blueberries and lemon zest for a fresh summer muffin."
+  },
+  "cannabis-bread-pudding": {
+    "prepTime": "PT15M",
+    "cookTime": "PT50M",
+    "totalTime": "PT65M",
+    "keywords": [
+      "cannabis bread pudding",
+      "weed bread pudding",
+      "THC bread pudding",
+      "infused custard dessert"
+    ],
+    "nutrition": {
+      "calories": "370 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "custard",
+    "intro_unique": "This cannabis bread pudding transforms day-old bread into a warm, spiced custard dessert with cannabutter melted into the soaking liquid for an indulgent medicated treat.",
+    "dosing_unique": "The cannabutter dissolves into the custard and soaks evenly into the bread cubes, making each of the 10 servings equally dosed.",
+    "storage_unique": "Refrigerate leftovers for up to 3 days and reheat individual portions in the microwave for 30-45 seconds or in a 325°F oven for 10 minutes.",
+    "variation_unique": "Add chocolate chips and use croissants instead of brioche for a chocolate croissant pudding, or fold in fresh peaches and use bourbon sauce for a Southern-style version."
+  },
+  "cannabis-pecan-pie": {
+    "prepTime": "PT15M",
+    "cookTime": "PT55M",
+    "totalTime": "PT70M",
+    "keywords": [
+      "cannabis pecan pie",
+      "weed pecan pie",
+      "THC pecan pie",
+      "infused holiday pie"
+    ],
+    "nutrition": {
+      "calories": "450 kcal",
+      "fatContent": "24 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "baked_goods",
+    "intro_unique": "This cannabis pecan pie features a buttery, gooey caramel filling loaded with toasted pecans and enriched with cannabutter for a decadent holiday dessert.",
+    "dosing_unique": "The cannabutter is melted into the filling and baked in, so cutting the pie into 8 equal slices ensures each piece has a consistent dose.",
+    "storage_unique": "Store covered at room temperature for 1 day or refrigerated for up to 4 days; the filling sets firmer when chilled.",
+    "variation_unique": "Add 1 cup of chocolate chips to the bottom of the pie before pouring in the filling for a chocolate pecan pie, or use maple syrup instead of corn syrup for deeper flavor."
+  },
+  "cannabis-banana-pudding": {
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cannabis banana pudding",
+      "weed banana pudding",
+      "THC banana pudding",
+      "infused Southern dessert"
+    ],
+    "nutrition": {
+      "calories": "330 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium stovetop",
+    "texture_type": "chilled",
+    "sub_category": "custard",
+    "intro_unique": "This cannabis banana pudding layers homemade custard infused with cannabutter between vanilla wafers and fresh bananas for a creamy, comforting Southern classic.",
+    "dosing_unique": "The cannabutter is stirred into the hot custard where it melts completely, and the custard is layered evenly so each of the 10 servings carries the same dose.",
+    "storage_unique": "Refrigerate for up to 3 days; the pudding actually tastes better the next day as the wafers soften and the flavors meld together.",
+    "variation_unique": "Make a chessman banana pudding using butter cookies instead of vanilla wafers, or fold crushed peanut butter cookies into the layers for a PB-banana combo."
+  },
+  "cannabis-peanut-butter-cups": {
+    "prepTime": "PT20M",
+    "cookTime": "PT5M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "cannabis peanut butter cups",
+      "weed peanut butter cups",
+      "THC chocolate cups",
+      "infused peanut butter chocolate"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "15 g"
+    },
+    "base_fat": "cannabis-infused coconut oil",
+    "cook_temp": "No-bake (melted chocolate)",
+    "texture_type": "no-bake",
+    "sub_category": "confections",
+    "intro_unique": "These homemade cannabis peanut butter cups melt cannabis-infused coconut oil into the chocolate shell for a smooth, perfectly dosed confection that rivals any store-bought candy.",
+    "dosing_unique": "The cannabis oil is mixed into the chocolate and evenly divided among 12 cups, so each peanut butter cup delivers a precise and consistent dose.",
+    "storage_unique": "Store in the refrigerator for up to 2 weeks or freeze for up to 2 months; let sit at room temperature for 5 minutes before eating for the best texture.",
+    "variation_unique": "Use almond butter or sunflower seed butter for a nut-free version, or try dark chocolate and add a sprinkle of flaky sea salt on top."
+  },
+  "cannabis-macarons": {
+    "prepTime": "PT40M",
+    "cookTime": "PT18M",
+    "totalTime": "PT58M",
+    "keywords": [
+      "cannabis macarons",
+      "weed macarons",
+      "THC macarons",
+      "infused French macarons"
+    ],
+    "nutrition": {
+      "calories": "140 kcal",
+      "fatContent": "7 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "300°F / 150°C",
+    "texture_type": "baked",
+    "sub_category": "confections",
+    "intro_unique": "These cannabis macarons feature delicate almond meringue shells filled with a cannabutter white chocolate ganache for an elegant, precisely dosed French confection.",
+    "dosing_unique": "The cannabutter is incorporated into the ganache filling and divided among 12 filled macarons, so each piece delivers a consistent, calculable dose.",
+    "storage_unique": "Refrigerate filled macarons in an airtight container for up to 5 days; they reach their best texture after resting in the fridge for 24 hours.",
+    "variation_unique": "Flavor the ganache with raspberry puree, matcha powder, or espresso for different varieties, or use dark chocolate instead of white for a more intense filling."
+  },
+  "cannabis-mac-and-cheese": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "cannabis mac and cheese",
+      "weed mac and cheese",
+      "THC pasta",
+      "infused mac and cheese"
+    ],
+    "nutrition": {
+      "calories": "450 kcal",
+      "fatContent": "24 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "pasta",
+    "intro_unique": "This cannabis mac and cheese elevates the ultimate comfort food with a rich, creamy cheese sauce infused with cannabutter for a warming, perfectly dosed edible.",
+    "dosing_unique": "The cannabutter is melted into the cheese sauce, ensuring even distribution throughout every creamy bite.",
+    "storage_unique": "Store leftovers in an airtight container in the refrigerator for up to 3 days; reheat gently with a splash of milk.",
+    "variation_unique": "Try adding crumbled bacon, sautéed jalapeños, or truffle oil for a gourmet twist on this classic."
+  },
+  "cannabis-bbq-pulled-chicken": {
+    "prepTime": "PT10M",
+    "cookTime": "PT4H",
+    "totalTime": "PT4H10M",
+    "keywords": [
+      "cannabis pulled chicken",
+      "weed BBQ chicken",
+      "THC slow cooker",
+      "infused pulled chicken"
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "fatContent": "12 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Low slow cooker",
+    "texture_type": "shredded",
+    "sub_category": "sandwich",
+    "intro_unique": "Slow-cooked to tender perfection, this cannabis BBQ pulled chicken absorbs smoky, tangy flavors while the cannabutter blends seamlessly into the sauce.",
+    "dosing_unique": "Adding cannabutter after cooking ensures no THC is lost to excessive heat during the slow cooking process.",
+    "storage_unique": "Pulled chicken keeps well in the refrigerator for up to 4 days or can be frozen for up to 2 months.",
+    "variation_unique": "Swap chicken for jackfruit for a vegan version, or serve over cornbread instead of buns."
+  },
+  "cannabis-garlic-butter-shrimp": {
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "keywords": [
+      "cannabis garlic shrimp",
+      "weed butter shrimp",
+      "THC shrimp",
+      "infused garlic butter shrimp"
+    ],
+    "nutrition": {
+      "calories": "320 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium-low heat",
+    "texture_type": "sautéed",
+    "sub_category": "main_course",
+    "intro_unique": "These cannabis garlic butter shrimp cook in minutes and deliver a luxurious, buttery flavor with perfectly measured cannabutter for precise dosing.",
+    "dosing_unique": "The cannabutter is added on medium-low heat with garlic to preserve potency while building flavor.",
+    "storage_unique": "Best served fresh; leftover shrimp can be refrigerated for 1 day but may lose texture when reheated.",
+    "variation_unique": "Add a splash of white wine or serve over linguine to turn this into a full cannabis scampi."
+  },
+  "cannabis-chicken-alfredo": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "cannabis chicken alfredo",
+      "weed alfredo pasta",
+      "THC fettuccine",
+      "infused alfredo"
+    ],
+    "nutrition": {
+      "calories": "520 kcal",
+      "fatContent": "28 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium-low heat",
+    "texture_type": "creamy",
+    "sub_category": "pasta",
+    "intro_unique": "This cannabis chicken Alfredo features a velvety Parmesan cream sauce with cannabutter, creating a restaurant-quality edible pasta at home.",
+    "dosing_unique": "Cannabutter melts into the cream sauce at low heat, preserving potency while creating a silky texture.",
+    "storage_unique": "Alfredo sauce thickens when refrigerated; reheat gently with a splash of cream to restore consistency.",
+    "variation_unique": "Substitute shrimp for chicken, or add sun-dried tomatoes and spinach for extra color and flavor."
+  },
+  "cannabis-beef-stew": {
+    "prepTime": "PT20M",
+    "cookTime": "PT2H15M",
+    "totalTime": "PT2H35M",
+    "keywords": [
+      "cannabis beef stew",
+      "weed beef stew",
+      "THC stew",
+      "infused beef stew"
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Low simmer",
+    "texture_type": "braised",
+    "sub_category": "soup",
+    "intro_unique": "This hearty cannabis beef stew simmers for hours to develop deep, rich flavors before being finished with cannabutter for a warming, dosed bowl.",
+    "dosing_unique": "The cannabutter is stirred in after cooking to avoid THC degradation from prolonged heat exposure.",
+    "storage_unique": "Stew improves in flavor overnight and keeps in the refrigerator for up to 4 days or frozen for 3 months.",
+    "variation_unique": "Add a splash of red wine during cooking, or swap beef for lamb for a different flavor profile."
+  },
+  "cannabis-french-onion-soup": {
+    "prepTime": "PT15M",
+    "cookTime": "PT55M",
+    "totalTime": "PT1H10M",
+    "keywords": [
+      "cannabis french onion soup",
+      "weed onion soup",
+      "THC soup",
+      "infused french onion soup"
+    ],
+    "nutrition": {
+      "calories": "350 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Broil for topping",
+    "texture_type": "soup",
+    "sub_category": "soup",
+    "intro_unique": "Deeply caramelized onions and rich beef broth are the foundation of this cannabis French onion soup, finished with cannabutter under a bubbly Gruyère crust.",
+    "dosing_unique": "Cannabutter is stirred into the hot broth off-heat, ensuring it melts evenly before the cheese topping is broiled.",
+    "storage_unique": "Store the soup base without bread and cheese for up to 3 days; add toppings fresh when reheating.",
+    "variation_unique": "Use a mix of onion varieties such as shallots and leeks for more complex, layered flavor."
+  },
+  "cannabis-chicken-pot-pie": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "cannabis chicken pot pie",
+      "weed pot pie",
+      "THC pot pie",
+      "infused chicken pot pie"
+    ],
+    "nutrition": {
+      "calories": "480 kcal",
+      "fatContent": "26 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "main_course",
+    "intro_unique": "This cannabis chicken pot pie features a golden, flaky crust hiding a creamy vegetable and chicken filling made with cannabutter.",
+    "dosing_unique": "The cannabutter forms the base of the creamy sauce, distributing evenly throughout the filling.",
+    "storage_unique": "Refrigerate leftover slices covered for up to 3 days; reheat in the oven at 350°F to restore crust crispness.",
+    "variation_unique": "Use puff pastry instead of pie crust for an extra-flaky top, or add mushrooms for an earthy twist."
+  },
+  "cannabis-lasagna": {
+    "prepTime": "PT30M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H10M",
+    "keywords": [
+      "cannabis lasagna",
+      "weed lasagna",
+      "THC pasta bake",
+      "infused lasagna"
+    ],
+    "nutrition": {
+      "calories": "490 kcal",
+      "fatContent": "24 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "pasta",
+    "intro_unique": "Layered with rich meat sauce, creamy ricotta, and melted mozzarella, this cannabis lasagna is a show-stopping edible for gatherings.",
+    "dosing_unique": "Melted cannabutter is mixed directly into the ricotta layer, ensuring consistent dosing across every slice.",
+    "storage_unique": "Lasagna freezes exceptionally well for up to 3 months; thaw overnight in the refrigerator before reheating.",
+    "variation_unique": "Try adding layers of sautéed spinach or swapping beef for Italian sausage for a different flavor."
+  },
+  "cannabis-carbonara": {
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "cannabis carbonara",
+      "weed carbonara",
+      "THC pasta",
+      "infused spaghetti carbonara"
+    ],
+    "nutrition": {
+      "calories": "510 kcal",
+      "fatContent": "26 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Off-heat",
+    "texture_type": "creamy",
+    "sub_category": "pasta",
+    "intro_unique": "This cannabis carbonara stays true to the Roman classic while incorporating cannabutter into the silky egg and cheese sauce for a luxurious edible.",
+    "dosing_unique": "Cannabutter is whisked into the egg mixture off-heat, preventing scrambling while preserving THC potency.",
+    "storage_unique": "Carbonara is best eaten immediately as the sauce can separate when reheated; consume fresh for best results.",
+    "variation_unique": "Use bucatini instead of spaghetti, or add a touch of black truffle for an elevated experience."
+  },
+  "cannabis-chicken-tikka-masala": {
+    "prepTime": "PT40M",
+    "cookTime": "PT30M",
+    "totalTime": "PT1H10M",
+    "keywords": [
+      "cannabis tikka masala",
+      "weed chicken tikka",
+      "THC curry",
+      "infused tikka masala"
+    ],
+    "nutrition": {
+      "calories": "440 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium heat",
+    "texture_type": "simmered",
+    "sub_category": "main_course",
+    "intro_unique": "Aromatic spices and creamy tomato sauce make this cannabis chicken tikka masala an incredibly flavorful edible inspired by Indian cuisine.",
+    "dosing_unique": "Cannabutter is used to sauté the aromatics at medium heat, infusing the entire sauce base with an even dose.",
+    "storage_unique": "The curry sauce actually improves overnight; store in the refrigerator for up to 4 days.",
+    "variation_unique": "Substitute paneer for chicken to make a vegetarian version, or use coconut cream for a dairy-free option."
+  },
+  "cannabis-fish-tacos": {
+    "prepTime": "PT15M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
+    "keywords": [
+      "cannabis fish tacos",
+      "weed fish tacos",
+      "THC tacos",
+      "infused fish tacos"
+    ],
+    "nutrition": {
+      "calories": "360 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium-high heat",
+    "texture_type": "pan-fried",
+    "sub_category": "main_course",
+    "intro_unique": "Light and zesty, these cannabis fish tacos feature flaky cod topped with a tangy cannabis-infused crema that brings the perfect dose to every taco.",
+    "dosing_unique": "The cannabutter is melted into the sour cream crema, making it easy to control dosing per taco.",
+    "storage_unique": "Assemble tacos fresh; store leftover fish and crema separately in the refrigerator for up to 2 days.",
+    "variation_unique": "Try shrimp instead of cod, or use a spicy chipotle crema for extra heat."
+  },
+  "cannabis-teriyaki-bowl": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cannabis teriyaki bowl",
+      "weed teriyaki chicken",
+      "THC rice bowl",
+      "infused teriyaki"
+    ],
+    "nutrition": {
+      "calories": "460 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium heat",
+    "texture_type": "glazed",
+    "sub_category": "bowl",
+    "intro_unique": "This cannabis teriyaki bowl combines sweet and savory glazed chicken with fresh vegetables and rice, enhanced by a cannabutter teriyaki sauce.",
+    "dosing_unique": "Cannabutter is melted into the warm teriyaki sauce, coating each piece of chicken for even dosing.",
+    "storage_unique": "Store components separately for up to 3 days; the teriyaki sauce keeps well and can be reheated gently.",
+    "variation_unique": "Use salmon or tofu instead of chicken, or add edamame and pickled ginger for extra flair."
+  },
+  "cannabis-stuffed-bell-peppers": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "cannabis stuffed peppers",
+      "weed stuffed bell peppers",
+      "THC stuffed peppers",
+      "infused bell peppers"
+    ],
+    "nutrition": {
+      "calories": "390 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "main_course",
+    "intro_unique": "These cannabis stuffed bell peppers are a complete meal in one colorful package, with seasoned beef, rice, and cheese cooked in cannabutter.",
+    "dosing_unique": "Cannabutter is used to sauté the filling, ensuring the cannabis infusion is evenly distributed among all peppers.",
+    "storage_unique": "Stuffed peppers freeze well for up to 2 months; reheat from frozen at 375°F covered with foil.",
+    "variation_unique": "Try using ground turkey or a Mexican-style filling with black beans and salsa."
+  },
+  "cannabis-clam-chowder": {
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "cannabis clam chowder",
+      "weed clam chowder",
+      "THC soup",
+      "infused clam chowder"
+    ],
+    "nutrition": {
+      "calories": "410 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium heat",
+    "texture_type": "soup",
+    "sub_category": "soup",
+    "intro_unique": "This thick and creamy cannabis clam chowder is a New England classic enriched with cannabutter for a comforting, perfectly dosed bowl.",
+    "dosing_unique": "Cannabutter is stirred in after the chowder is removed from heat, preserving potency in the rich cream base.",
+    "storage_unique": "Chowder keeps in the refrigerator for up to 3 days; reheat gently over low heat to prevent the cream from separating.",
+    "variation_unique": "Add corn and diced celery root for extra sweetness, or use smoked clams for a deeper flavor."
+  },
+  "cannabis-shepherds-pie": {
+    "prepTime": "PT25M",
+    "cookTime": "PT35M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "cannabis shepherds pie",
+      "weed shepherds pie",
+      "THC pie",
+      "infused shepherds pie"
+    ],
+    "nutrition": {
+      "calories": "470 kcal",
+      "fatContent": "22 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "400°F / 200°C",
+    "texture_type": "baked",
+    "sub_category": "main_course",
+    "intro_unique": "This cannabis shepherd's pie features a savory lamb filling topped with creamy cannabis-infused mashed potatoes baked to golden perfection.",
+    "dosing_unique": "The cannabutter is mashed directly into the potatoes, creating a consistent dose in every forkful of the topping.",
+    "storage_unique": "Shepherd's pie keeps in the refrigerator for up to 4 days and freezes well for up to 3 months.",
+    "variation_unique": "Use ground beef instead of lamb for a cottage pie variation, or top with sweet potato mash."
+  },
+  "cannabis-keto-egg-muffins": {
+    "prepTime": "PT10M",
+    "cookTime": "PT22M",
+    "totalTime": "PT32M",
+    "keywords": [
+      "cannabis keto egg muffins",
+      "weed egg cups",
+      "THC keto breakfast",
+      "infused egg muffins"
+    ],
+    "nutrition": {
+      "calories": "180 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "These cannabis keto egg muffins are a high-protein, low-carb snack loaded with bacon and cheese, infused with cannabutter for portable dosing.",
+    "dosing_unique": "Melted cannabutter is whisked into the egg mixture before baking, distributing evenly across all muffin cups.",
+    "storage_unique": "Egg muffins keep in the refrigerator for up to 4 days and can be reheated in the microwave for 30 seconds.",
+    "variation_unique": "Add spinach and feta, or use sausage crumbles instead of bacon for variety."
+  },
+  "cannabis-keto-butter-chicken": {
+    "prepTime": "PT30M",
+    "cookTime": "PT30M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "cannabis keto butter chicken",
+      "weed butter chicken",
+      "THC keto curry",
+      "infused keto chicken"
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "fatContent": "28 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "Medium heat",
+    "texture_type": "simmered",
+    "sub_category": "keto_savory",
+    "intro_unique": "Rich, creamy, and keto-friendly, this cannabis butter chicken delivers authentic Indian flavors with cannabutter as the star fat for a satisfying low-carb edible.",
+    "dosing_unique": "Cannabutter is used to sauté the aromatics, infusing the entire tomato cream sauce with an even dose.",
+    "storage_unique": "The sauce thickens when chilled; reheat with a splash of cream and store for up to 4 days in the refrigerator.",
+    "variation_unique": "Serve over zucchini noodles instead of cauliflower rice, or add a handful of fresh spinach to the sauce."
+  },
+  "cannabis-keto-avocado-brownies": {
+    "prepTime": "PT15M",
+    "cookTime": "PT25M",
+    "totalTime": "PT40M",
+    "keywords": [
+      "cannabis keto brownies",
+      "weed avocado brownies",
+      "THC keto dessert",
+      "infused keto brownies"
+    ],
+    "nutrition": {
+      "calories": "160 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "325°F / 163°C",
+    "texture_type": "baked",
+    "sub_category": "keto_sweet",
+    "intro_unique": "These fudgy cannabis keto avocado brownies use avocado and almond flour for a rich, low-carb treat that hides the cannabutter perfectly.",
+    "dosing_unique": "Melted cannabutter is blended with avocado, creating a smooth batter with THC distributed evenly through each brownie.",
+    "storage_unique": "Store in an airtight container in the refrigerator for up to 5 days; the fudgy texture improves when chilled.",
+    "variation_unique": "Add sugar-free chocolate chips or swirl in almond butter before baking for extra indulgence."
+  },
+  "cannabis-keto-bacon-cheeseburger-bites": {
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "keywords": [
+      "cannabis keto cheeseburger bites",
+      "weed burger bites",
+      "THC keto snack",
+      "infused cheeseburger"
+    ],
+    "nutrition": {
+      "calories": "220 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "All the flavors of a classic cheeseburger in a keto-friendly, cannabis-infused bite-sized format with cannabutter mixed right into the beef.",
+    "dosing_unique": "Melted cannabutter is incorporated directly into the ground beef mixture for even THC distribution across all bites.",
+    "storage_unique": "Store in an airtight container in the refrigerator for up to 3 days; reheat in the oven to maintain crispness.",
+    "variation_unique": "Top with sugar-free relish or wrap in lettuce cups for an extra low-carb presentation."
+  },
+  "cannabis-keto-garlic-parmesan-wings": {
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "keywords": [
+      "cannabis keto wings",
+      "weed garlic parmesan wings",
+      "THC keto wings",
+      "infused chicken wings"
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "fatContent": "28 g"
+    },
+    "base_fat": "cannabutter",
+    "cook_temp": "425°F / 218°C",
+    "texture_type": "baked",
+    "sub_category": "keto_savory",
+    "intro_unique": "Crispy baked wings tossed in a savory cannabis garlic Parmesan butter make these the ultimate keto-friendly edible appetizer.",
+    "dosing_unique": "The cannabutter is melted into the garlic Parmesan sauce and tossed with wings after baking, preserving potency.",
+    "storage_unique": "Store leftover wings in the refrigerator for up to 3 days; reheat in the oven at 400°F for 10 minutes to re-crisp.",
+    "variation_unique": "Add a squeeze of lemon juice or toss in buffalo sauce alongside the garlic butter for a spicy kick."
+  },
+  "cannabis-vegan-pad-thai": {
+    "prepTime": "PT25M",
+    "cookTime": "PT10M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cannabis vegan pad thai",
+      "weed pad thai",
+      "THC vegan noodles",
+      "infused vegan pad thai"
+    ],
+    "nutrition": {
+      "calories": "380 kcal",
+      "fatContent": "14 g"
+    },
+    "base_fat": "cannabis-infused coconut oil",
+    "cook_temp": "Medium-high heat",
+    "texture_type": "stir-fried",
+    "sub_category": "vegan_main",
+    "intro_unique": "This cannabis vegan pad Thai delivers authentic Thai street food flavors with crispy tofu and a tangy tamarind sauce infused with cannabis coconut oil.",
+    "dosing_unique": "Cannabis-infused coconut oil is whisked into the tamarind sauce, coating every noodle for even dosing.",
+    "storage_unique": "Pad Thai is best enjoyed fresh; leftovers can be stored for 1 day but noodles may soften.",
+    "variation_unique": "Add mango slices for a tropical twist, or use spiralized zucchini instead of rice noodles for fewer carbs."
+  },
+  "cannabis-vegan-buddha-bowl": {
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "keywords": [
+      "cannabis vegan buddha bowl",
+      "weed buddha bowl",
+      "THC grain bowl",
+      "infused vegan bowl"
+    ],
+    "nutrition": {
+      "calories": "420 kcal",
+      "fatContent": "18 g"
+    },
+    "base_fat": "cannabis-infused coconut oil",
+    "cook_temp": "400°F / 200°C",
+    "texture_type": "roasted",
+    "sub_category": "vegan_bowl",
+    "intro_unique": "This cannabis vegan Buddha bowl is a colorful and nutritious meal featuring roasted vegetables, quinoa, and a cannabis-infused tahini dressing.",
+    "dosing_unique": "Cannabis coconut oil is blended into the tahini dressing, making it easy to measure and drizzle an exact dose per bowl.",
+    "storage_unique": "Store components separately for up to 3 days; assemble bowls fresh and add dressing just before serving.",
+    "variation_unique": "Swap quinoa for brown rice, or add roasted beets and hemp seeds for extra nutrition."
+  },
+  "cannabis-vegan-stuffed-peppers": {
+    "prepTime": "PT20M",
+    "cookTime": "PT40M",
+    "totalTime": "PT1H",
+    "keywords": [
+      "cannabis vegan stuffed peppers",
+      "weed vegan peppers",
+      "THC vegan dinner",
+      "infused vegan stuffed peppers"
+    ],
+    "nutrition": {
+      "calories": "310 kcal",
+      "fatContent": "8 g"
+    },
+    "base_fat": "cannabis-infused coconut oil",
+    "cook_temp": "375°F / 190°C",
+    "texture_type": "baked",
+    "sub_category": "vegan_main",
+    "intro_unique": "These cannabis vegan stuffed peppers are bursting with a Mexican-inspired filling of rice, black beans, and corn, cooked in cannabis coconut oil.",
+    "dosing_unique": "Cannabis coconut oil is used to sauté the spices and coat the filling, ensuring even distribution among all peppers.",
+    "storage_unique": "Stuffed peppers keep in the refrigerator for up to 4 days and freeze well for up to 2 months.",
+    "variation_unique": "Add diced sweet potato to the filling, or drizzle with a cashew cream sauce for extra richness."
+  },
+  "cannabis-vegan-oat-cookies": {
+    "prepTime": "PT10M",
+    "cookTime": "PT14M",
+    "totalTime": "PT24M",
+    "keywords": [
+      "cannabis vegan oat cookies",
+      "weed oatmeal cookies",
+      "THC vegan cookies",
+      "infused vegan cookies"
+    ],
+    "nutrition": {
+      "calories": "140 kcal",
+      "fatContent": "6 g"
+    },
+    "base_fat": "cannabis-infused coconut oil",
+    "cook_temp": "350°F / 175°C",
+    "texture_type": "baked",
+    "sub_category": "vegan_baked",
+    "intro_unique": "These chewy cannabis vegan oat cookies are naturally sweetened with maple syrup and infused with cannabis coconut oil for a wholesome edible treat.",
+    "dosing_unique": "Cannabis coconut oil is melted into the wet ingredients, ensuring each cookie contains an equal dose.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 5 days, or freeze for up to 3 months.",
+    "variation_unique": "Swap raisins for dark chocolate chips, or add shredded coconut and dried cranberries."
+  },
+  "cannabis-vegan-mushroom-stroganoff": {
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "keywords": [
+      "cannabis vegan stroganoff",
+      "weed mushroom stroganoff",
+      "THC vegan pasta",
+      "infused mushroom stroganoff"
+    ],
+    "nutrition": {
+      "calories": "400 kcal",
+      "fatContent": "16 g"
+    },
+    "base_fat": "cannabis-infused coconut oil",
+    "cook_temp": "Medium heat",
+    "texture_type": "creamy",
+    "sub_category": "vegan_main",
+    "intro_unique": "This cannabis vegan mushroom stroganoff features a rich cashew cream sauce with sautéed mushrooms in cannabis coconut oil over tender egg-free pasta.",
+    "dosing_unique": "Cannabis coconut oil is used to sauté the mushrooms and onions, infusing the entire sauce base from the start.",
+    "storage_unique": "The stroganoff keeps well for up to 3 days in the refrigerator; reheat gently and add a splash of plant milk if needed.",
+    "variation_unique": "Add sun-dried tomatoes or smoked paprika for depth, or serve over mashed potatoes instead of pasta."
   }
 }

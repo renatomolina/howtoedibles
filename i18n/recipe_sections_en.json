@@ -243,6 +243,53 @@
             "a": "You can warm it gently but avoid overheating. Microwaving on high can create hot spots that degrade THC locally. Use 50% power in 15-second intervals, stirring between each. Honestly, most cannabis puddings taste best chilled or at room temperature."
           }
         ]
+      },
+      "custard": {
+        "intro": "This cannabis %{name} recipe combines %{base_fat} with eggs and cream for a silky, rich custard that delivers a perfectly measured dose in every spoonful. Custards are an elegant way to enjoy cannabis edibles because the egg-and-fat base creates a natural emulsion that distributes THC with exceptional evenness. Baked gently at %{cook_temp}, your cannabis custard will set beautifully.",
+        "dosing_tips": [
+          "Whisk %{base_fat} into the warm cream base before adding eggs to ensure the cannabis fat is fully emulsified throughout the custard.",
+          "Pour into individual ramekins for pre-portioned servings with a precise, known dose per cup.",
+          "Aim for 5-10 mg per ramekin. Custards are rich and eaten slowly, so effects build gradually over 60-90 minutes.",
+          "Strain the custard mixture through a fine sieve before baking to remove any lumps and guarantee even THC distribution."
+        ],
+        "common_mistakes": [
+          "Overheating the cream and %{base_fat} mixture causes the eggs to scramble when added, ruining the smooth texture and creating uneven THC pockets.",
+          "Baking at temperatures above %{cook_temp} causes the custard to curdle and form bubbles, which affects both texture and cannabinoid distribution.",
+          "Skipping the water bath when baking leads to overcooked edges and undercooked centers, meaning inconsistent potency across each serving.",
+          "Adding the cannabis fat directly to cold eggs instead of tempering slowly results in separation and a grainy finished custard."
+        ],
+        "storage": [
+          "Cover each custard ramekin with plastic wrap and refrigerate for up to 4 days. Custards actually taste best after chilling overnight.",
+          "Cannabis custards do not freeze well because the egg proteins break down, resulting in a watery, separated texture upon thawing.",
+          "Label each ramekin with the dose and date. If serving to guests, place a small card next to each indicating the THC content."
+        ],
+        "variations": [
+          "Make a cannabis creme brulee by torching a thin sugar crust on top of your chilled cannabis custard for a dramatic presentation.",
+          "Infuse the cream with vanilla bean, lavender, or citrus zest alongside the %{base_fat} for a gourmet flavor profile.",
+          "Use cannabis coconut cream instead of dairy for a vegan custard set with agar rather than eggs."
+        ],
+        "faq": [
+          {
+            "q": "Why did my cannabis %{name} curdle in the oven?",
+            "a": "Curdling happens when custard is baked at too high a temperature or for too long. Always use a water bath at %{cook_temp} and check for doneness early. The center should jiggle slightly like gelatin when done. The cannabis fat does not cause curdling; it is purely a heat issue."
+          },
+          {
+            "q": "Can I use cannabis cream instead of infused butter in custard?",
+            "a": "Yes, cannabis-infused cream is actually ideal for custard since cream is already a primary ingredient. This eliminates the need to emulsify a separate fat and produces the smoothest possible texture. Calculate your dose based on the potency of the infused cream."
+          },
+          {
+            "q": "How long does a cannabis custard take to kick in?",
+            "a": "Expect 45-90 minutes for full onset. The high fat and protein content from eggs and cream creates a slow, steady digestion that typically produces gradual, long-lasting effects. This makes custard a forgiving edible format for managing your experience."
+          },
+          {
+            "q": "Does the water bath affect THC potency?",
+            "a": "No, the water bath is essential and does not affect THC at all. It simply regulates the oven temperature around the custard, keeping it gentle and even. This indirect heat actually protects cannabinoids better than direct dry oven heat."
+          },
+          {
+            "q": "Can I make cannabis flan or panna cotta?",
+            "a": "Absolutely. Flan uses the same custard base with a caramel layer, and cannabis butter or cream integrates perfectly. Panna cotta uses gelatin instead of eggs, and cannabis cream is an ideal base. Both are excellent vehicles for precise, elegant cannabis dosing."
+          }
+        ]
       }
     },
     "Snacks": {
@@ -386,6 +433,194 @@
             "a": "Absolutely. A measured tablespoon of cannabis dip on a sandwich or wrap is a great way to dose consistently. This is especially convenient with cream cheese or hummus-based cannabis dips that spread easily and store well."
           }
         ]
+      },
+      "savory_bites": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} to craft bite-sized savory morsels that are perfect for portion-controlled dosing at %{cook_temp}. Savory bites are the ideal cannabis %{category} format because each piece is individually sized for a precise, consistent dose. These flavorful little bites pack bold seasoning that complements the herbal notes of cannabis.",
+        "dosing_tips": [
+          "Calculate total THC in your %{base_fat} batch and divide by the exact number of bites you form for precise per-piece dosing.",
+          "Keep each bite at 2.5-5 mg so guests can eat one or two and stay within a comfortable range.",
+          "Use a small cookie scoop or tablespoon measure to ensure every bite is the same size and therefore the same dose.",
+          "Savory bites are snackable and easy to overeat. Set out a controlled number per person and store the rest."
+        ],
+        "common_mistakes": [
+          "Forming bites of different sizes creates wildly different doses per piece. Weigh or measure each one consistently.",
+          "Baking savory bites at high temperatures to achieve crispness can degrade THC. Keep at or below %{cook_temp} and add %{base_fat} after baking if needed.",
+          "Under-seasoning savory bites lets the cannabis flavor dominate. Use garlic, herbs, cheese, and spices generously.",
+          "Leaving cannabis bites on a communal table without labeling. Always clearly indicate that they contain THC and state the dose per piece."
+        ],
+        "storage": [
+          "Store savory cannabis bites in an airtight container at room temperature for up to 5 days, or refrigerate for up to 10 days.",
+          "Freeze baked savory bites for up to 2 months. Reheat in the oven at 300 F (150 C) for best texture.",
+          "Label storage containers with the total THC and dose per piece for safe, responsible consumption."
+        ],
+        "variations": [
+          "Roll cannabis %{base_fat} into savory cheese balls coated in herbs and nuts for an elegant appetizer.",
+          "Make cannabis-infused mini quiches in a muffin tin for a brunch-appropriate edible with precise dosing.",
+          "Stuff mushroom caps with a cannabis breadcrumb filling for a sophisticated, individually portioned savory bite."
+        ],
+        "faq": [
+          {
+            "q": "How many cannabis savory bites should I eat?",
+            "a": "Start with one bite and wait at least 90 minutes before having another. If each bite is 5 mg, one is a standard starter dose. Savory bites are designed for easy portion control, but you must exercise discipline and track your intake."
+          },
+          {
+            "q": "Can I make cannabis %{name} in advance for a party?",
+            "a": "Yes, most savory bites can be prepared a day ahead and refrigerated. Bring to room temperature or reheat gently before serving. Prepare a label card showing the THC content per piece and place it prominently next to the serving platter."
+          },
+          {
+            "q": "What seasonings work best with cannabis savory bites?",
+            "a": "Bold flavors like smoked paprika, garlic powder, rosemary, parmesan, and everything bagel seasoning complement and mask cannabis notes. Umami-rich ingredients like sun-dried tomatoes and olives also pair exceptionally well."
+          },
+          {
+            "q": "Are savory bites better than sweet edibles for dosing?",
+            "a": "Savory bites are excellent for dosing because they are less tempting to overeat than sweet treats. People tend to eat sweet edibles impulsively, while savory bites are consumed more mindfully. Both can be dosed precisely with proper preparation."
+          },
+          {
+            "q": "Can I air-fry cannabis savory bites?",
+            "a": "Air fryers circulate very hot air that can degrade THC on exposed surfaces. If air frying, assemble bites with the cannabis fat sealed inside rather than on the surface, or add cannabis oil as a drizzle after air frying. Keep temperatures at 325 F (165 C) or below."
+          }
+        ]
+      },
+      "dips_spreads": {
+        "intro": "This cannabis %{name} recipe blends %{base_fat} into a rich, shareable spread that turns any cracker or crostini into a precisely dosed edible. Cannabis dips and spreads offer one of the simplest ways to incorporate THC into your %{category} routine because the creamy base naturally emulsifies with infused fats. Serve with an array of dippers for a social, customizable experience.",
+        "dosing_tips": [
+          "Calculate the total THC in your entire batch of spread, then divide by the number of tablespoon-sized servings it yields.",
+          "Provide a serving spoon or small spatula so each person takes a consistent, measured amount.",
+          "Label the spread clearly with the approximate mg per tablespoon so consumers can make informed decisions.",
+          "Stir or remix the spread before each use, as cannabis fat can settle or migrate over time."
+        ],
+        "common_mistakes": [
+          "Not mixing the %{base_fat} thoroughly into the spread base creates pockets where one scoop has all the THC and another has none.",
+          "Making the spread too thin or runny, which causes the cannabis oil to separate and pool visibly on the surface.",
+          "Serving cannabis spreads alongside non-infused options without distinct labeling, risking accidental consumption.",
+          "Using too much %{base_fat} relative to the other ingredients, which creates a greasy mouthfeel and overpowering cannabis taste."
+        ],
+        "storage": [
+          "Refrigerate cannabis spreads in sealed containers for up to 7 days. Bring to room temperature for 15 minutes before serving for best texture.",
+          "Nut-butter-based cannabis spreads can be stored at room temperature for up to 2 weeks in a cool, dark place.",
+          "Do not freeze dairy-based cannabis spreads as they tend to separate and become grainy upon thawing."
+        ],
+        "variations": [
+          "Blend %{base_fat} into roasted red pepper hummus for a smoky, savory cannabis spread with natural emulsification.",
+          "Mix cannabis butter with honey and cinnamon for a sweet spread that works on toast, waffles, and fruit.",
+          "Create a cannabis compound butter with fresh herbs, garlic, and lemon zest for a versatile finishing spread."
+        ],
+        "faq": [
+          {
+            "q": "What is the best base for a cannabis spread?",
+            "a": "Cream cheese, nut butters, hummus, and softened butter are all excellent bases because they are already high in fat and thick enough to hold the cannabis oil in suspension. Choose based on your flavor preference and dietary needs."
+          },
+          {
+            "q": "Can I buy store-bought spread and just add cannabis?",
+            "a": "Yes, stirring a measured amount of cannabis oil or melted cannabis butter into any store-bought spread is one of the easiest edible preparations. Mix thoroughly and recalculate the dose per serving based on what you added."
+          },
+          {
+            "q": "How do I prevent the cannabis taste in my %{name}?",
+            "a": "Use well-strained, high-quality %{base_fat} and pair it with bold-flavored bases. Roasted garlic, chipotle, sun-dried tomato, and strong cheeses all overpower the herbal cannabis notes effectively."
+          },
+          {
+            "q": "Can cannabis spreads be heated for dipping?",
+            "a": "Gentle warming to serving temperature is fine and will not degrade THC. Keep below 200 F (93 C). Warm cannabis cheese dips and fondue are delicious, just heat slowly and stir frequently to maintain the emulsion."
+          },
+          {
+            "q": "How do I serve cannabis spreads responsibly at a gathering?",
+            "a": "Place the cannabis spread on a separate, clearly marked section with a sign showing the dose per serving. Provide a dedicated serving utensil. Always have non-infused options available and only serve to informed, consenting adults."
+          }
+        ]
+      },
+      "finger_food": {
+        "intro": "This cannabis %{name} recipe incorporates %{base_fat} into handheld, no-utensil-needed bites that make dosing social and fun. Cannabis finger foods are ideal for gatherings because each piece is self-contained with a known dose, eliminating the guesswork of shared dishes. Bold flavors and creative presentations make these %{category} options a hit.",
+        "dosing_tips": [
+          "Design each finger food piece to contain exactly one dose of 5-10 mg for straightforward consumption tracking.",
+          "Wrap, stuff, or encase the cannabis element inside the finger food so the THC is sealed in and evenly distributed.",
+          "Provide a tray card listing ingredients, allergens, and the exact THC dose per piece for responsible serving.",
+          "Finger foods are often eaten quickly in social settings. Remind guests that effects take 60-90 minutes before eating more."
+        ],
+        "common_mistakes": [
+          "Making finger foods so small that the cannabis flavor is concentrated, or so large that people only eat half and get an inconsistent dose.",
+          "Applying %{base_fat} as an external glaze that rubs off on hands and napkins, reducing the actual consumed dose.",
+          "Cooking finger foods at temperatures above %{cook_temp} to crisp the exterior, which can degrade THC on exposed surfaces.",
+          "Forgetting to account for guests with dietary restrictions when choosing the finger food format."
+        ],
+        "storage": [
+          "Most cannabis finger foods are best served fresh. Prepare components ahead and assemble shortly before serving.",
+          "Refrigerate assembled cannabis finger foods for up to 24 hours, covered tightly to prevent drying out.",
+          "Freeze uncooked cannabis finger foods like stuffed mushrooms or mini pastries for up to 6 weeks, then bake fresh."
+        ],
+        "variations": [
+          "Wrap cannabis-infused cheese in prosciutto and a basil leaf for an elegant, single-dose Italian-style finger food.",
+          "Fill phyllo cups with cannabis cream cheese and smoked salmon for a sophisticated appetizer bite.",
+          "Skewer caprese salad components and drizzle with cannabis olive oil for a fresh, no-cook finger food option."
+        ],
+        "faq": [
+          {
+            "q": "How do I ensure even dosing in cannabis finger foods?",
+            "a": "The key is incorporating the %{base_fat} into a filling, spread, or dough that you then portion equally. Weigh each piece on a kitchen scale for consistency. Avoid drizzling cannabis oil on top, which leads to uneven distribution."
+          },
+          {
+            "q": "What are the best cannabis finger foods for beginners?",
+            "a": "Stuffed dates with cannabis nut butter, cannabis cheese balls, and bruschetta with cannabis olive oil are all simple and forgiving. They require minimal cooking skill and the bold flavors mask cannabis taste effectively."
+          },
+          {
+            "q": "Can I make cannabis finger foods without cooking?",
+            "a": "Absolutely. Rolled pinwheels with cannabis cream cheese, stuffed celery with cannabis nut butter, and crostini with cannabis spread are all no-cook options that preserve full THC potency since there is no heat exposure."
+          },
+          {
+            "q": "How many cannabis finger foods should I serve per person?",
+            "a": "Limit to one or two pieces per person depending on the dose per piece. If each piece is 5 mg, two pieces equal a standard 10 mg dose. Always provide ample non-infused finger foods alongside the cannabis options."
+          },
+          {
+            "q": "Do cannabis finger foods work for micro-dosing?",
+            "a": "Finger foods are one of the best formats for micro-dosing. Make each piece contain 2.5 mg or less, allowing consumers to eat one and gauge effects before deciding on another. The small, controlled portions make it easy to fine-tune your experience."
+          }
+        ]
+      },
+      "fried_snacks": {
+        "intro": "This cannabis %{name} recipe delivers crispy, golden perfection by strategically incorporating %{base_fat} without exposing it to destructive frying temperatures. Fried cannabis snacks require a specific technique: fry in regular oil for texture, then introduce the cannabis element through a finishing sauce, drizzle, or dipping component. This approach gives you the crunch you crave with full THC potency.",
+        "dosing_tips": [
+          "Never fry directly in cannabis oil. Frying temperatures of 350-375 F (175-190 C) degrade THC rapidly. Add the cannabis component after frying.",
+          "Drizzle a measured amount of cannabis %{base_fat} over fried items immediately after draining, while they are still hot enough to absorb it.",
+          "Serve with a cannabis dipping sauce to control the dose precisely. Each tablespoon of sauce equals one measured dose.",
+          "Fried foods are calorie-dense and satisfying, which slows digestion. Expect onset in 60-90 minutes."
+        ],
+        "common_mistakes": [
+          "Adding %{base_fat} to the deep fryer is the most common and most wasteful mistake. The high heat destroys THC and you lose the infused oil in the fryer.",
+          "Tossing fried snacks in too much cannabis oil makes them soggy instead of crispy. Use a light drizzle or mist.",
+          "Not draining fried items properly before adding cannabis oil, which traps steam and creates a greasy, limp texture.",
+          "Assuming a cannabis batter protects the THC during frying. Even batter-coated items reach internal temperatures that can degrade cannabinoids."
+        ],
+        "storage": [
+          "Fried cannabis snacks lose their crunch quickly. Consume within a few hours for the best experience.",
+          "Store leftover cannabis dipping sauce separately in the refrigerator for up to a week. Re-fry the snacks and re-apply.",
+          "Cannabis seasoning salt or kief-dusted spice blends can be stored in a jar and sprinkled on freshly fried items on demand."
+        ],
+        "variations": [
+          "Make cannabis buffalo sauce by melting %{base_fat} with hot sauce and tossing with freshly fried wings or cauliflower bites.",
+          "Create a cannabis aioli dipping sauce for fried snacks by blending cannabis oil into garlic mayo.",
+          "Drizzle cannabis honey over fried chicken strips or doughnut bites for a sweet-heat combination with precise dosing."
+        ],
+        "faq": [
+          {
+            "q": "Can I fry anything directly in cannabis oil?",
+            "a": "It is not recommended. Frying temperatures exceed 350 F (175 C), which rapidly degrades THC. You would waste expensive cannabis oil and get minimal effects. Always fry in regular oil and add the cannabis element afterward as a sauce, drizzle, or toss."
+          },
+          {
+            "q": "How do I make cannabis fries or chips?",
+            "a": "Fry your potatoes in regular oil until crispy, then drain and immediately toss with melted %{base_fat} and seasoning salt. The hot surface absorbs the cannabis fat, and the salt and seasonings mask any herbal flavor. Calculate dose per serving."
+          },
+          {
+            "q": "Will cannabis oil make my fried %{name} soggy?",
+            "a": "Only if you use too much. A light drizzle or toss with a small amount of melted cannabis butter will not compromise crunch. Apply while the items are hot so the fat absorbs into the surface rather than sitting on top. Less is more."
+          },
+          {
+            "q": "What is the best cannabis dipping sauce for fried snacks?",
+            "a": "Cannabis ranch, cannabis garlic aioli, and cannabis honey mustard are all excellent options. The bold, creamy flavors mask cannabis taste, and each dip portion can be precisely measured for consistent dosing."
+          },
+          {
+            "q": "Can I use an air fryer for cannabis snacks?",
+            "a": "Air fryers use temperatures of 350-400 F (175-200 C), so do not coat items in cannabis oil before air frying. Instead, air fry with regular oil, then toss the finished items in cannabis %{base_fat} or serve with a cannabis dipping sauce afterward."
+          }
+        ]
       }
     },
     "Essentials": {
@@ -480,6 +715,147 @@
           {
             "q": "How do I strain cannabis milk?",
             "a": "Use a fine mesh strainer lined with cheesecloth. Pour the milk through slowly and gently squeeze the cheesecloth to extract all the liquid. For an extra-smooth result, strain twice. Do not press too hard or you will push plant matter through."
+          }
+        ]
+      },
+      "sweetener": {
+        "intro": "This cannabis %{name} recipe creates a versatile infused sweetener using %{base_fat} that you can add to beverages, drizzle over food, or use in any recipe calling for a liquid sweetener. Cannabis sweeteners are a foundational %{category} item that every edible maker should have on hand. Once prepared, they make dosing everyday foods effortless and precise.",
+        "dosing_tips": [
+          "Calculate the total THC in your batch and divide by the number of teaspoon or tablespoon servings to know the exact dose per measure.",
+          "Start with one teaspoon in your coffee or tea and wait 60-90 minutes to gauge potency before adding more next time.",
+          "Use a squeeze bottle or dropper for precise dispensing. Every drop should deliver a consistent, known amount of THC.",
+          "Cannabis sweeteners can be deceptively potent because they are concentrated. Always measure rather than free-pouring."
+        ],
+        "common_mistakes": [
+          "Heating cannabis honey or syrup above 300 F (150 C) when cooking destroys THC. Add sweetener to finished dishes or use in no-heat applications.",
+          "Not stirring cannabis-infused honey thoroughly during preparation, which causes the cannabis to settle and creates inconsistent potency.",
+          "Making sweetener too thick or crystallized, which makes accurate measuring difficult. Maintain a pourable consistency.",
+          "Assuming cannabis sugar has the same potency as cannabis oil. Sugar-based infusions are typically less concentrated and less efficient."
+        ],
+        "storage": [
+          "Cannabis honey stores at room temperature in a sealed jar for up to 6 months. Its natural antimicrobial properties prevent spoilage.",
+          "Cannabis simple syrup keeps refrigerated for up to 3 weeks. Add a splash of vodka to extend shelf life to 6 weeks.",
+          "Cannabis sugar should be stored in an airtight container in a cool, dry place. It keeps for several months without losing potency."
+        ],
+        "variations": [
+          "Make cannabis-infused honey by gently warming honey with decarbed flower or cannabis tincture at low heat for a golden, versatile sweetener.",
+          "Create cannabis simple syrup by dissolving sugar in water with cannabis tincture for a pourable liquid sweetener perfect for drinks.",
+          "Infuse agave nectar with cannabis oil and lecithin for a vegan cannabis sweetener that blends smoothly into cold drinks."
+        ],
+        "faq": [
+          {
+            "q": "How do I make cannabis honey?",
+            "a": "Gently warm honey to 160 F (70 C), stir in decarboxylated ground flower, maintain at low heat for 40 minutes while stirring frequently, then strain through cheesecloth. Alternatively, mix cannabis tincture directly into honey for a simpler process with easier dosing math."
+          },
+          {
+            "q": "Can I use cannabis %{name} in baking?",
+            "a": "Yes, but only add it to recipes where the sweetener is not exposed to temperatures above 300 F (150 C) for extended periods. It works best in no-bake recipes, frostings, glazes, and beverages. For baked goods, add the cannabis sweetener after baking as a drizzle."
+          },
+          {
+            "q": "Is cannabis honey or cannabis butter more versatile?",
+            "a": "Cannabis butter is more versatile for cooking and baking, while cannabis honey excels in beverages, drizzles, and no-heat applications. Ideally, keep both in your cannabis kitchen essentials. They serve different purposes and complement each other."
+          },
+          {
+            "q": "How long does cannabis simple syrup last?",
+            "a": "Refrigerated in a sealed container, cannabis simple syrup lasts 2-3 weeks. Adding a tablespoon of vodka per cup of syrup extends shelf life to about 6 weeks. The sugar concentration helps preserve it, but mold can develop if left too long."
+          },
+          {
+            "q": "Can I make cannabis maple syrup?",
+            "a": "Yes, gently warm real maple syrup and stir in cannabis tincture or very finely strained cannabis oil with lecithin. Maple syrup's strong flavor masks cannabis notes beautifully. Calculate the dose per tablespoon and use it on pancakes, oatmeal, or in cocktails."
+          }
+        ]
+      },
+      "tincture": {
+        "intro": "This cannabis %{name} recipe extracts potent cannabinoids into a liquid form that offers precise, sublingual dosing without any cooking required. Cannabis tinctures are one of the most important %{category} preparations because they are versatile, fast-acting when taken under the tongue, and can be added to virtually any food or drink. Master this technique for the ultimate cannabis pantry staple.",
+        "dosing_tips": [
+          "Use a graduated dropper to measure each dose in milliliters. Calculate the total THC in your batch and divide by the total volume for mg-per-ml accuracy.",
+          "For sublingual use, hold the tincture under your tongue for 60-90 seconds before swallowing. Effects can onset in 15-30 minutes this way.",
+          "When adding tincture to food, effects follow normal edible timing of 45-90 minutes since it goes through digestion.",
+          "Start with 0.25-0.5 ml of a standard tincture and titrate up gradually. Tinctures are concentrated and easy to overdose."
+        ],
+        "common_mistakes": [
+          "Using low-proof alcohol for extraction produces a weak tincture. Use 190-proof food-grade ethanol for maximum cannabinoid extraction.",
+          "Not decarboxylating the flower before soaking in alcohol. Raw cannabis in alcohol extracts THCA, which is not psychoactive.",
+          "Shaking or agitating the tincture too aggressively during extraction, which pulls out excessive chlorophyll and makes it bitter and green.",
+          "Storing tincture in a clear glass bottle where light degrades cannabinoids. Always use amber or cobalt blue glass."
+        ],
+        "storage": [
+          "Store cannabis tincture in a dark glass dropper bottle in a cool, dark place. Properly stored, alcohol-based tinctures last over a year.",
+          "Glycerin-based tinctures have a shorter shelf life of 3-6 months. Refrigeration extends this significantly.",
+          "Label each bottle with the date, strain, total THC estimate, and mg per ml for safe, informed usage."
+        ],
+        "variations": [
+          "Make a glycerin-based tincture for an alcohol-free option that is slightly sweet and gentler on the palate.",
+          "Create a fast-wash tincture by freezing both the alcohol and decarbed flower, then combining for a short 3-minute extraction to minimize chlorophyll.",
+          "Reduce an alcohol tincture gently on low heat to create a concentrated cannabis extract known as FECO (Full Extract Cannabis Oil)."
+        ],
+        "faq": [
+          {
+            "q": "What is the difference between alcohol and glycerin tinctures?",
+            "a": "Alcohol tinctures are more potent because ethanol extracts cannabinoids more efficiently. They have a longer shelf life and faster sublingual absorption. Glycerin tinctures are milder, slightly sweet, alcohol-free, and better for people who avoid alcohol, but they are less potent per volume."
+          },
+          {
+            "q": "How long does a cannabis tincture take to make?",
+            "a": "The traditional method takes 2-4 weeks of soaking with daily shaking. The fast-freeze method takes only 3-5 minutes of active extraction. Both produce effective tinctures, though the long soak extracts a broader spectrum of compounds including more terpenes."
+          },
+          {
+            "q": "Can I evaporate the alcohol from my tincture?",
+            "a": "Yes, gently warming the tincture in a well-ventilated area evaporates the alcohol and concentrates the cannabinoids. Never use open flame near alcohol vapors. The result is a thick, potent concentrate that can be used in capsules, edibles, or applied topically."
+          },
+          {
+            "q": "Why does my tincture taste so harsh?",
+            "a": "Harsh taste comes from long extraction times that pull out chlorophyll and plant waxes. Use the quick-wash method with frozen ingredients, strain through a coffee filter, and consider a brief winterization step in the freezer to remove waxes."
+          },
+          {
+            "q": "How do I add tincture to food without losing potency?",
+            "a": "Add tincture to finished dishes, not during cooking. Stir it into sauces, dressings, and beverages after they have been removed from heat. The alcohol evaporates quickly when added to warm food, leaving the cannabinoids behind without affecting flavor significantly."
+          }
+        ]
+      },
+      "condiment": {
+        "intro": "This cannabis %{name} recipe infuses an everyday condiment with %{base_fat} for an effortless way to add a measured dose of THC to any meal. Cannabis condiments are the ultimate %{category} convenience because you prepare them once and use them for weeks, turning ordinary meals into edible experiences with a simple squeeze or spoonful.",
+        "dosing_tips": [
+          "Calculate the total THC in your condiment batch and divide by the number of tablespoon-sized servings for per-use dosing.",
+          "A single tablespoon of cannabis condiment per meal is typically sufficient for a standard 5-10 mg dose.",
+          "Shake or stir your cannabis condiment before each use since the infused fat can separate over time.",
+          "Track your condiment consumption throughout the day if using it on multiple meals to avoid accidental over-dosing."
+        ],
+        "common_mistakes": [
+          "Mixing cannabis oil into a condiment that is predominantly water-based without an emulsifier, causing visible oil separation.",
+          "Heating cannabis ketchup, mustard, or hot sauce to high temperatures on the stove, which degrades THC. Add condiments at serving time.",
+          "Making a large batch with imprecise dosing math, resulting in condiments that are either too weak to feel or dangerously strong.",
+          "Storing cannabis condiments alongside regular ones without clear labeling, leading to accidental consumption by housemates."
+        ],
+        "storage": [
+          "Most cannabis condiments keep refrigerated for 2-4 weeks, matching the shelf life of their non-infused counterparts.",
+          "Cannabis-infused hot sauce and vinegar-based condiments last longer, up to 2-3 months refrigerated, due to their acidity.",
+          "Always store in clearly labeled containers, ideally in a separate section of the refrigerator from regular condiments."
+        ],
+        "variations": [
+          "Blend %{base_fat} into mayonnaise for a cannabis aioli that works on sandwiches, burgers, fries, and as a dipping sauce.",
+          "Stir cannabis oil into sriracha or your favorite hot sauce for a spicy, infused condiment that masks herbal flavors.",
+          "Make cannabis-infused pesto by blending %{base_fat} with basil, garlic, pine nuts, and parmesan for a versatile condiment."
+        ],
+        "faq": [
+          {
+            "q": "What condiments are easiest to infuse with cannabis?",
+            "a": "Oil-based and fat-based condiments are the easiest: mayonnaise, pesto, salad dressings, and butter-based sauces. They naturally incorporate cannabis fat without separation issues. Water-based condiments like ketchup and mustard require an emulsifier like lecithin."
+          },
+          {
+            "q": "Can I make cannabis ketchup or mustard?",
+            "a": "Yes, stir cannabis oil with a drop of lecithin into ketchup or mustard. The strong, tangy flavors of these condiments mask the cannabis taste well. Blend thoroughly and shake before each use as some separation is normal."
+          },
+          {
+            "q": "How do I dose cannabis condiments accurately?",
+            "a": "Calculate total THC in the batch, measure the total volume, and determine mg per tablespoon. Then use a measuring spoon each time you serve rather than squeezing freely. Consistency in measuring is the key to reliable dosing with condiments."
+          },
+          {
+            "q": "Will cooking with cannabis condiments reduce THC?",
+            "a": "If you add the condiment to hot food at serving temperature, THC is preserved. If you cook or bake with it at high temperatures for extended periods, some THC will degrade. Use cannabis condiments as finishing additions rather than cooking ingredients."
+          },
+          {
+            "q": "Can I take cannabis condiments to a barbecue?",
+            "a": "You can bring them for personal use, but never set them out without extremely clear labeling. Keep them in a separate, distinct container away from regular condiments. Only share with informed, consenting adults who understand the dose per serving."
           }
         ]
       }
@@ -717,6 +1093,194 @@
           {
             "q": "Can I use cannabis fat in a slow cooker recipe?",
             "a": "Add it near the end. Slow cookers on low run at about 190 F (88 C), which is safe for THC, but hours of exposure can still degrade some cannabinoids. Stir the cannabis fat in during the last 30 minutes of cooking for the best potency retention."
+          }
+        ]
+      },
+      "pasta": {
+        "intro": "This cannabis %{name} recipe weaves %{base_fat} into a rich, aromatic pasta sauce that coats every strand with a precisely measured dose of THC. Pasta is one of the most forgiving formats for cannabis cooking because the sauce is the vehicle, and you can add the infused fat at the very end to preserve full potency. A comforting, indulgent cannabis %{category} awaits.",
+        "dosing_tips": [
+          "Stir %{base_fat} into the finished sauce off the heat and toss with the pasta to distribute THC evenly across each serving.",
+          "Divide the total THC in your %{base_fat} by the number of plated portions for accurate per-plate dosing.",
+          "A single tablespoon of cannabis butter or oil per serving is usually enough for a 5-10 mg dose in a pasta dish.",
+          "Rich, creamy pasta sauces slow digestion. Expect onset in 60-120 minutes for a gradual, long-lasting experience."
+        ],
+        "common_mistakes": [
+          "Adding cannabis oil to the boiling pasta water wastes nearly all the THC down the drain when you strain the pasta.",
+          "Simmering the sauce for a long time after adding %{base_fat}. Add the cannabis fat in the last 2 minutes or after removing from heat.",
+          "Not tossing the pasta thoroughly after adding the cannabis sauce, which leaves some bites heavily dosed and others with nothing.",
+          "Using cannabis olive oil for high-heat searing of garlic or vegetables. Sear first, then finish with cannabis oil off the heat."
+        ],
+        "storage": [
+          "Store leftover cannabis pasta in an airtight container in the refrigerator for up to 3 days. The starch absorbs the sauce and holds the dose.",
+          "Reheat gently on the stovetop over low heat or in the microwave at 50% power to preserve THC.",
+          "Cannabis pasta sauces without the noodles freeze excellently for up to 2 months. Thaw and toss with freshly cooked pasta."
+        ],
+        "variations": [
+          "Make cannabis aglio e olio by finishing garlic-infused regular olive oil pasta with a tablespoon of cannabis olive oil per serving.",
+          "Stir %{base_fat} into alfredo sauce at the last moment for a luxuriously creamy cannabis pasta experience.",
+          "Toss cannabis butter with fresh herbs and lemon zest for a simple, elegant pasta that takes five minutes."
+        ],
+        "faq": [
+          {
+            "q": "Which pasta sauces work best with cannabis %{base_fat}?",
+            "a": "Cream-based sauces, pesto, and olive oil sauces are ideal because they are already fat-based and integrate cannabis fat seamlessly. Tomato sauces work too but add the cannabis fat off the heat since tomato's acidity can thin the emulsion. Bold sauces mask the herbal taste."
+          },
+          {
+            "q": "Can I taste the cannabis in my %{name}?",
+            "a": "In well-seasoned pasta with garlic, herbs, cheese, or tomatoes, the cannabis flavor is typically undetectable. The key is using well-strained, quality %{base_fat} and pairing it with bold sauce ingredients. Parmesan, basil, and garlic are especially effective at masking any herbal notes."
+          },
+          {
+            "q": "How long does a cannabis pasta meal take to kick in?",
+            "a": "Full meals with carbohydrates and fat typically take 60-120 minutes for full effect. The starch slows digestion, producing a gradual onset and often a longer duration. Eat one measured portion and wait before considering seconds."
+          },
+          {
+            "q": "Is cannabis butter or olive oil better for pasta?",
+            "a": "Cannabis butter is perfect for cream sauces, carbonara, and finishing dishes. Cannabis olive oil suits garlic-forward, pesto, and tomato-based preparations. Choose based on the style of pasta you are making."
+          },
+          {
+            "q": "Can I make cannabis mac and cheese?",
+            "a": "Yes, stir %{base_fat} into the cheese sauce after removing from heat. The cheese and dairy flavors completely mask any cannabis taste. Calculate your dose based on the number of servings and add the fat to the sauce, not the pasta water."
+          }
+        ]
+      },
+      "sandwich": {
+        "intro": "This cannabis %{name} recipe layers %{base_fat} into a hearty, handheld meal that delivers a consistent dose in every bite. Cannabis sandwiches are among the most practical %{category} edibles because they require zero cooking skill and the spread format ensures even THC distribution. Build your perfect infused sandwich with our guide.",
+        "dosing_tips": [
+          "Spread a measured tablespoon of cannabis butter, mayo, or spread on the bread for a consistent 5-10 mg dose per sandwich.",
+          "Calculate the mg per tablespoon of your %{base_fat} and apply the same amount to each sandwich you make.",
+          "Spread the cannabis fat edge-to-edge across the entire bread slice so every bite delivers an equal portion of the dose.",
+          "Sandwiches combine protein, fat, and carbs for slow, steady digestion. Expect onset in 60-90 minutes with effects lasting 4-6 hours."
+        ],
+        "common_mistakes": [
+          "Concentrating all the cannabis spread in the center of the bread leaves the crusts dose-free and the middle overly potent.",
+          "Grilling or toasting a cannabis sandwich at high heat for too long can degrade THC in the spread. Use moderate heat for short periods.",
+          "Packing a cannabis sandwich without labeling it, risking someone else eating it by accident.",
+          "Using so much cannabis spread that it overwhelms the other flavors and makes the sandwich greasy."
+        ],
+        "storage": [
+          "Cannabis sandwiches should be eaten within a few hours for best quality. Refrigerate immediately if not consuming right away.",
+          "The cannabis spread itself stores well for 1-2 weeks refrigerated. Apply to fresh bread as needed.",
+          "Clearly wrap and label cannabis sandwiches distinctly from regular ones using different wrapping material or a visible marker."
+        ],
+        "variations": [
+          "Make cannabis-infused mayo by emulsifying cannabis oil into egg yolk with a stick blender for the ultimate sandwich spread.",
+          "Spread cannabis butter on warm toast or a panini for a simple vehicle that pairs with any filling combination.",
+          "Mix cannabis oil into pesto or tapenade for a flavorful Mediterranean sandwich spread."
+        ],
+        "faq": [
+          {
+            "q": "What is the best spread for a cannabis %{name}?",
+            "a": "Cannabis butter is classic and works with nearly anything. Cannabis mayo is more versatile for cold sandwiches. Cannabis hummus and guacamole are excellent plant-based options. Choose the spread that best complements your filling ingredients."
+          },
+          {
+            "q": "Can I grill a cannabis sandwich without losing THC?",
+            "a": "Yes, moderate grilling temperatures are safe. For extra assurance, grill with regular butter on the outside, then open the sandwich and apply the cannabis spread to the warm interior before closing and serving."
+          },
+          {
+            "q": "Are wraps better than bread for cannabis sandwiches?",
+            "a": "Wraps offer slightly more even dose distribution because you coat the entire tortilla surface before rolling. With sliced bread, the edges may have less spread. Both formats work well for cannabis edibles."
+          },
+          {
+            "q": "How do I make a cannabis club sandwich for a group?",
+            "a": "Apply a measured amount of cannabis spread to each sandwich individually rather than making a large batch. This ensures each person gets a known, consistent dose. Provide non-infused sandwiches alongside so guests can choose."
+          },
+          {
+            "q": "Can I meal-prep cannabis sandwiches?",
+            "a": "You can prepare the cannabis spread in advance and store it for weeks. However, assemble sandwiches fresh daily for the best quality. Some fillings like peanut butter and jam hold up to advance preparation, while others like lettuce and tomato do not."
+          }
+        ]
+      },
+      "main_course": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} as a finishing element in a satisfying main course that delivers a carefully calculated dose with dinner. Cannabis main courses let you enjoy a complete, proper meal as your edible rather than a supplemental snack or treat. The rich sauces and glazes in entrees are natural vehicles for THC distribution.",
+        "dosing_tips": [
+          "Add %{base_fat} to the sauce, glaze, or finishing step rather than to the primary cooking fat to avoid heat degradation.",
+          "Plate individually and drizzle a measured amount of cannabis finishing sauce on each plate for precise per-person dosing.",
+          "Full dinner portions slow digestion considerably. Expect onset in 60-120 minutes with a prolonged duration of 4-8 hours.",
+          "Keep per-serving doses at 5-10 mg since the volume of food already creates a slow, sustained release of THC."
+        ],
+        "common_mistakes": [
+          "Using cannabis fat as the primary pan-searing oil. Searing temperatures exceed 400 F (200 C) and will destroy most THC. Sear with regular oil and finish with cannabis fat.",
+          "Not dividing the total batch dose by the correct number of servings, resulting in some plates being overly potent.",
+          "Infusing the entire dish when only the sauce needs cannabis, making leftovers problematic and inflexible.",
+          "Pairing a cannabis main course with alcohol. The combination amplifies both substances and can cause nausea and anxiety."
+        ],
+        "storage": [
+          "Store cannabis main course leftovers as you would the non-infused version. Refrigerate within 2 hours and consume within 3-4 days.",
+          "Label all leftovers with the cannabis dose per serving so reheated portions are consumed responsibly.",
+          "Cannabis sauces and glazes freeze well separately for up to 3 months. Thaw and add to freshly cooked protein or vegetables."
+        ],
+        "variations": [
+          "Make a cannabis compound butter with herbs and melt a measured pat over steak, fish, or roasted chicken as a finishing touch.",
+          "Drizzle cannabis olive oil over a finished pizza or flatbread for an effortless main course infusion.",
+          "Stir %{base_fat} into a pan sauce or gravy at the last moment for a rich, potent accompaniment to any protein."
+        ],
+        "faq": [
+          {
+            "q": "What is the best way to add cannabis to a main course?",
+            "a": "Finishing sauces, compound butters, and drizzles are the gold standard. Cook your main dish normally, then introduce the cannabis element at the end. This protects THC from heat and gives you precise control over each plate's dose."
+          },
+          {
+            "q": "Will cannabis flavor dominate my %{name}?",
+            "a": "Not if you use well-strained %{base_fat} in a boldly flavored sauce. Garlic, herbs, spices, cheese, wine reductions, and citrus all mask herbal cannabis notes effectively. The richer the sauce, the less detectable the cannabis."
+          },
+          {
+            "q": "Can I cook meat in cannabis butter?",
+            "a": "Baste at lower temperatures, not sear. Cook your protein with regular fat, then baste with cannabis butter at reduced heat during the resting phase. This gives you the flavor and dose without destroying THC at high temperatures."
+          },
+          {
+            "q": "How do I serve a cannabis dinner for guests?",
+            "a": "Infuse only one course and keep everything else cannabis-free. Plate individually with measured doses. Inform all guests clearly about the THC content. Provide non-infused alternatives and limit to one dose per person for safety."
+          },
+          {
+            "q": "Does eating a big meal make the cannabis weaker?",
+            "a": "A full meal delays onset and makes the initial effect feel more gradual, but the total THC absorbed is the same. The experience tends to be milder in peak intensity but longer lasting. This can actually be preferable for a comfortable, sustained experience."
+          }
+        ]
+      },
+      "bowl": {
+        "intro": "This cannabis %{name} recipe drizzles %{base_fat} over a nutrient-packed bowl of grains, proteins, and vegetables for a balanced, fully dosed %{category} meal. Cannabis bowls are a modern, health-conscious edible format where the finishing drizzle or dressing delivers a precise dose without any cooking complications. Build your bowl, add the cannabis element, and enjoy.",
+        "dosing_tips": [
+          "Drizzle a measured amount of cannabis oil or tahini dressing over the finished bowl for precise, visible dosing.",
+          "One tablespoon of cannabis dressing per bowl is typically a standard 5-10 mg dose. Measure with a spoon rather than pouring.",
+          "Toss or mix the bowl thoroughly after adding the cannabis drizzle to distribute the dose across all components.",
+          "Grain bowls with fiber and protein create slow digestion. Effects typically onset in 60-90 minutes and last 4-6 hours."
+        ],
+        "common_mistakes": [
+          "Pooling all the cannabis dressing at the bottom of the bowl means the last bites have most of the dose. Mix thoroughly.",
+          "Using cannabis oil to cook the grains or roast the vegetables at high heat destroys THC. Add the cannabis element as a finishing step only.",
+          "Making a large batch of dressed cannabis bowl without portioning individually, leading to inconsistent servings.",
+          "Not accounting for the cannabis drizzle when calculating the total calorie and fat content of your health-conscious bowl."
+        ],
+        "storage": [
+          "Assembled cannabis bowls should be eaten fresh. Store the cannabis dressing separately for up to 2 weeks refrigerated.",
+          "Prep grain and vegetable components in advance and store undressed. Add the cannabis dressing fresh at meal time.",
+          "Cannabis tahini and vinaigrette dressings freeze well in small containers for 1-2 months. Thaw and shake before use."
+        ],
+        "variations": [
+          "Make a cannabis tahini dressing with cannabis oil, tahini, lemon, and garlic for a nutty, Mediterranean-style bowl topping.",
+          "Drizzle cannabis sesame oil over a poke or sushi bowl for an Asian-inspired infused meal.",
+          "Blend cannabis avocado oil into a chimichurri to drizzle over a grain bowl with roasted vegetables and beans."
+        ],
+        "faq": [
+          {
+            "q": "What is the best cannabis dressing for bowls?",
+            "a": "Cannabis tahini, cannabis olive oil vinaigrette, and cannabis avocado dressing are all excellent choices. Pick a dressing that complements your bowl's ingredients. Bold, flavorful dressings mask any herbal cannabis notes while adding richness."
+          },
+          {
+            "q": "Can I meal-prep cannabis bowls?",
+            "a": "Prep all components in advance but keep the cannabis dressing separate until serving. This prevents sogginess and ensures each bowl gets a freshly measured dose. The dressing itself stores well for weeks."
+          },
+          {
+            "q": "Are cannabis bowls healthy?",
+            "a": "A well-built cannabis bowl with whole grains, lean protein, and plenty of vegetables is one of the healthiest edible formats. The cannabis oil adds some calories and fat, but far less than a brownie or cookie. It is a nutritious way to enjoy edibles."
+          },
+          {
+            "q": "How do I add cannabis to a burrito bowl?",
+            "a": "Top your burrito bowl with cannabis-infused sour cream, cannabis guacamole, or a cannabis hot sauce drizzle. These condiment-style additions are easy to measure and the bold Tex-Mex flavors completely mask any cannabis taste."
+          },
+          {
+            "q": "Can I use cannabis dressing on a cold bowl?",
+            "a": "Yes, cannabis dressings work beautifully on cold bowls since there is no heat to degrade THC. Cold bowls with cannabis dressing preserve 100% of the cannabinoid potency from your infusion. Shake or stir the dressing before drizzling."
           }
         ]
       }
@@ -1052,6 +1616,100 @@
             "a": "Cook your stir-fry over high heat with regular oil, then reduce to low heat and drizzle cannabis sesame oil or cannabis coconut oil over the finished dish. Toss to coat. This preserves THC while giving you the high-heat sear that stir-fries need."
           }
         ]
+      },
+      "vegan_main": {
+        "intro": "This cannabis %{name} recipe uses %{base_fat} in a hearty, plant-based main course that proves vegan edibles can be just as satisfying and potent as any other format. Cannabis vegan mains leverage the rich fats in coconut oil, olive oil, and nut-based sauces to deliver THC seamlessly alongside bold, globally inspired flavors. No animal products needed for a full edible experience.",
+        "dosing_tips": [
+          "Add %{base_fat} as a finishing drizzle or stir it into the sauce after cooking. Plant-based sauces with coconut milk or nut cream integrate cannabis fat smoothly.",
+          "Plate individually and add a measured tablespoon of cannabis oil to each serving for accurate per-person dosing.",
+          "Vegan mains with high fiber may slightly delay onset. Expect 60-120 minutes for full effect.",
+          "Keep doses at 5-10 mg per serving. The substantial volume of a main course produces a gradual, sustained cannabis experience."
+        ],
+        "common_mistakes": [
+          "Stir-frying or searing tofu and vegetables in cannabis oil at high heat destroys THC. Cook with regular oil and finish with cannabis fat.",
+          "Not emulsifying the cannabis fat into plant-based sauces, leaving an oily film on the surface of the dish.",
+          "Assuming coconut oil flavor works in every vegan main. Use cannabis olive oil or neutral-flavored cannabis MCT oil for savory dishes where coconut would clash.",
+          "Over-relying on cannabis as a flavoring element. Vegan mains need robust seasoning with spices, umami ingredients, and acid to taste complete."
+        ],
+        "storage": [
+          "Vegan cannabis main dishes store well refrigerated for 3-5 days. The plant-based ingredients hold up nicely.",
+          "Cannabis-infused vegan sauces like curry, pesto, and coconut cream sauces freeze well for up to 3 months.",
+          "Label all leftovers with dose per serving and date prepared for responsible consumption."
+        ],
+        "variations": [
+          "Stir cannabis coconut oil into a Thai or Indian curry for a natural pairing where coconut flavor is welcome and expected.",
+          "Drizzle cannabis olive oil over a roasted vegetable platter with grains for a Mediterranean-inspired vegan main.",
+          "Blend cannabis oil into a cashew cream sauce for vegan pasta that is rich, creamy, and precisely dosed."
+        ],
+        "faq": [
+          {
+            "q": "What is the best cannabis fat for vegan main courses?",
+            "a": "It depends on the cuisine. Cannabis coconut oil is ideal for Asian and tropical dishes. Cannabis olive oil suits Mediterranean and Italian preparations. Cannabis avocado oil or MCT oil works as a neutral option for any cuisine."
+          },
+          {
+            "q": "Are vegan cannabis mains as potent as meat-based ones?",
+            "a": "Absolutely. THC binds to fat regardless of animal or plant origin. As long as your vegan dish has adequate fat content, potency is identical. The key is using quality cannabis-infused oil and incorporating it properly."
+          },
+          {
+            "q": "Can I add cannabis to a veggie burger?",
+            "a": "Yes, mix cannabis oil into the patty mixture before cooking at moderate heat, or better yet, top the cooked burger with cannabis aioli or sauce. The finishing approach preserves THC while letting you cook the patty properly."
+          },
+          {
+            "q": "How do I make a cannabis vegan steak dinner?",
+            "a": "Sear your cauliflower steak, portobello mushroom, or commercial plant-based steak with regular oil, then top with a cannabis herb butter made from vegan butter and cannabis oil. The finishing butter melts over the hot surface for beautiful presentation and even dosing."
+          },
+          {
+            "q": "Does high fiber in vegan meals affect THC absorption?",
+            "a": "High fiber can slow digestion slightly, potentially delaying onset by 15-30 minutes compared to low-fiber meals. However, the total THC absorbed remains the same. Some consumers prefer the gentler, more gradual onset that fiber-rich meals produce."
+          }
+        ]
+      },
+      "vegan_bowl": {
+        "intro": "This cannabis %{name} recipe drizzles %{base_fat} over a vibrant, plant-powered bowl brimming with grains, legumes, and fresh vegetables. Cannabis vegan bowls are the intersection of health-conscious eating and precise edible dosing, where a measured drizzle of infused oil transforms a nutritious meal into a perfectly controlled cannabis experience.",
+        "dosing_tips": [
+          "Measure one tablespoon of cannabis dressing or oil per bowl for a consistent 5-10 mg dose that you can track.",
+          "Toss or stir the bowl thoroughly after adding the cannabis drizzle to ensure every bite delivers an even share of THC.",
+          "Fiber-rich vegan bowls slow digestion. Plan for 60-90 minutes onset with effects lasting 4-6 hours.",
+          "If using a cannabis vinaigrette, shake it vigorously before each use as oil and vinegar separate quickly."
+        ],
+        "common_mistakes": [
+          "Drizzling all the cannabis oil in one spot creates a dose concentration. Distribute the drizzle across the entire bowl surface.",
+          "Roasting bowl components in cannabis oil at high temperatures wastes THC. Roast with regular oil and add cannabis oil after plating.",
+          "Making a large batch bowl and not portioning individually, leading to uneven doses between servings.",
+          "Using cannabis coconut oil on a grain bowl where coconut flavor does not belong. Match the oil type to the cuisine."
+        ],
+        "storage": [
+          "Vegan cannabis bowls should be eaten fresh. Prepare components ahead and add the cannabis drizzle at serving time.",
+          "Cannabis vegan dressings store refrigerated for up to 2 weeks in sealed jars. Shake well before using.",
+          "Pre-cooked grains, roasted vegetables, and prepared legumes keep separately in the fridge for 4-5 days for quick assembly."
+        ],
+        "variations": [
+          "Build a cannabis Buddha bowl with quinoa, roasted sweet potato, chickpeas, greens, and a cannabis tahini drizzle.",
+          "Make a cannabis poke-style bowl with marinated tofu, edamame, rice, and a cannabis sesame ginger dressing.",
+          "Assemble a cannabis Mexican bowl with black beans, rice, avocado, salsa, and cannabis-infused cilantro lime dressing."
+        ],
+        "faq": [
+          {
+            "q": "What is the healthiest cannabis bowl dressing?",
+            "a": "Cannabis tahini, cannabis lemon olive oil vinaigrette, and cannabis avocado dressing are all nutritious options rich in healthy fats. They deliver THC while adding beneficial monounsaturated and polyunsaturated fats to your meal."
+          },
+          {
+            "q": "Can I meal-prep cannabis vegan bowls?",
+            "a": "Prep all the grain, legume, and vegetable components in advance. Store the cannabis dressing separately and add it fresh at each meal. This keeps the bowl crisp and ensures a precisely measured dose every time."
+          },
+          {
+            "q": "Are cannabis vegan bowls good for weight management?",
+            "a": "Vegan bowls are one of the lowest-calorie edible formats because the cannabis dose comes from a small amount of oil on an otherwise light, nutrient-dense meal. Compared to brownies or cookies, a cannabis grain bowl is significantly less caloric."
+          },
+          {
+            "q": "How do I make a warm cannabis vegan bowl?",
+            "a": "Cook all components with regular oil at proper temperatures, assemble the warm bowl, then drizzle the cannabis oil on top just before eating. The residual warmth of the food helps the oil absorb without reaching temperatures that degrade THC."
+          },
+          {
+            "q": "Can I add cannabis to a smoothie bowl?",
+            "a": "Yes, blend cannabis coconut oil or MCT oil directly into the smoothie base with frozen fruit and plant milk. The blending creates a thorough emulsion for even dosing. Top with granola, seeds, and fruit for a complete cannabis breakfast bowl."
+          }
+        ]
       }
     },
     "International": {
@@ -1146,6 +1804,147 @@
           {
             "q": "How do I dose cannabis farofa?",
             "a": "Mix a calculated amount of cannabis butter into the finished farofa and serve by the spoonful. One to two tablespoons of farofa is a typical side portion. Calculate the mg per tablespoon so you can serve precise doses as a side dish."
+          }
+        ]
+      },
+      "chinese": {
+        "intro": "This cannabis %{name} recipe brings the bold flavors of Chinese cuisine together with %{base_fat} for an infused dish that honors traditional wok-based cooking techniques. Chinese cooking relies heavily on sesame oil, soy sauce, ginger, and garlic, all of which beautifully mask cannabis flavors. The key to cannabis Chinese food is adding the infused oil as a finishing element after the high-heat wok cooking is done.",
+        "dosing_tips": [
+          "Never add cannabis oil to a screaming-hot wok. Stir-fry with regular oil at high heat, then reduce to low and drizzle cannabis sesame oil at the very end.",
+          "Calculate your dose per plate and add a measured tablespoon of cannabis oil to each individual serving after plating.",
+          "Chinese dishes with rich, umami-heavy sauces mask cannabis flavor completely. Use soy sauce, oyster sauce, and hoisin to your advantage.",
+          "Noodle and rice dishes digest at a moderate pace. Expect onset in 45-90 minutes with a steady, sustained experience."
+        ],
+        "common_mistakes": [
+          "Stir-frying in cannabis oil in a hot wok is the most common mistake. Wok temperatures exceed 500 F (260 C), which instantly destroys THC.",
+          "Adding cannabis oil to the marinade and then searing the protein at high heat wastes most of the cannabinoids in the cooking process.",
+          "Using cannabis coconut oil in Chinese dishes where coconut flavor is inappropriate. Cannabis sesame oil or peanut oil are much more authentic choices.",
+          "Over-saucing to mask cannabis flavor dilutes the dish. Proper strained cannabis oil in small quantities needs minimal masking."
+        ],
+        "storage": [
+          "Store cannabis Chinese leftovers refrigerated for up to 3 days. The sauces help preserve moisture and hold the cannabis oil.",
+          "Cannabis stir-fry sauces can be prepared in advance and stored for 1-2 weeks refrigerated. Add to freshly cooked dishes on demand.",
+          "Fried rice and noodle dishes with cannabis oil reheat well in a microwave at medium power or gently in a wok over low heat."
+        ],
+        "variations": [
+          "Make cannabis dan dan noodles by stirring cannabis sesame oil and chili oil into the savory, numbing sauce at the end.",
+          "Drizzle cannabis sesame oil over finished wonton soup or dumpling plates as a fragrant, infused finishing touch.",
+          "Toss cannabis peanut oil with Sichuan peppercorns and chili flakes for an infused Chinese chili crisp condiment."
+        ],
+        "faq": [
+          {
+            "q": "Can I use cannabis oil in a wok?",
+            "a": "Not for the initial stir-fry. Wok cooking requires extremely high heat that destroys THC almost instantly. Instead, do all your high-heat wok cooking with regular oil, then kill the heat and toss in the cannabis oil as the final step before plating."
+          },
+          {
+            "q": "What cannabis oil works best for Chinese cooking?",
+            "a": "Cannabis-infused sesame oil is the gold standard for Chinese dishes because toasted sesame is already a traditional finishing oil. Cannabis peanut oil is another excellent option. Both have robust flavors that complement Chinese cuisine authentically."
+          },
+          {
+            "q": "Can I make cannabis dumplings or potstickers?",
+            "a": "Yes, add cannabis oil to the filling mixture rather than the wrapper or cooking oil. The filling stays at moderate internal temperatures during steaming or pan-frying. Serve with a cannabis soy-ginger dipping sauce for an additional measured dose."
+          },
+          {
+            "q": "How do I infuse a Chinese hot pot with cannabis?",
+            "a": "Add cannabis sesame oil to each person's individual dipping sauce rather than the communal broth. This allows each guest to control their dose precisely. Cannabis chili oil also works excellently as a hot pot condiment."
+          },
+          {
+            "q": "Will soy sauce affect the THC in my cannabis %{name}?",
+            "a": "No, soy sauce does not degrade THC. The sodium and umami compounds in soy sauce are completely compatible with cannabinoids. In fact, the strong savory flavor of soy sauce is one of the best natural maskers of herbal cannabis taste."
+          }
+        ]
+      },
+      "german": {
+        "intro": "This cannabis %{name} recipe infuses the hearty, comforting flavors of German cuisine with %{base_fat} for a rich, satisfying edible that draws on centuries of Central European culinary tradition. German cooking's generous use of butter, cream, and lard makes it exceptionally well-suited for cannabis infusion. From schnitzel to strudel, these recipes deliver precise dosing wrapped in old-world flavor.",
+        "dosing_tips": [
+          "German dishes are rich and heavy, which slows digestion significantly. Plan for onset in 75-120 minutes and a long, gradual experience.",
+          "Add cannabis butter as a finishing element to pan sauces, over spaetzle, or melted atop schnitzel rather than using it for frying.",
+          "One tablespoon of cannabis butter per serving is a standard dose in these fat-rich dishes. The butter integrates naturally.",
+          "German baked goods like strudel and kuchen use generous amounts of butter. Replace a measured portion with %{base_fat} for precise dosing."
+        ],
+        "common_mistakes": [
+          "Using cannabis butter to fry schnitzel at high temperatures wastes THC. Fry in regular butter or lard, then finish with a cannabis butter sauce.",
+          "Adding cannabis fat to a simmering stew or braise hours before it is done. German stews cook for a long time; add cannabis butter in the last 15 minutes.",
+          "Over-infusing already heavy German dishes with too much cannabis butter, creating a greasy result. Balance your fats carefully.",
+          "Forgetting that German mustard, horseradish, and sauerkraut are excellent cannabis-flavor maskers. Season boldly."
+        ],
+        "storage": [
+          "German cannabis dishes like stews and braised meats store well for 3-5 days refrigerated. The flavors often improve overnight.",
+          "Cannabis butter for German cooking stores frozen for up to 6 months. Slice off portions as needed.",
+          "Cannabis baked goods like strudel and kuchen keep at room temperature for 3 days or refrigerated for a week."
+        ],
+        "variations": [
+          "Melt cannabis butter over freshly boiled spaetzle with fried onions for a classic, comforting cannabis side dish.",
+          "Drizzle cannabis butter over warm soft pretzels with mustard for a traditional Bavarian cannabis snack.",
+          "Make cannabis apple strudel by brushing the phyllo layers with %{base_fat} for a flaky, precisely dosed dessert."
+        ],
+        "faq": [
+          {
+            "q": "Can I make cannabis schnitzel?",
+            "a": "Yes, but do not fry in cannabis butter. Pan-fry your breaded schnitzel in regular butter or oil until golden, then remove from heat and drizzle a measured amount of cannabis butter over the top. The residual heat melts the butter into the crispy coating beautifully."
+          },
+          {
+            "q": "What German dishes work best with cannabis butter?",
+            "a": "Spaetzle, potato dumplings, rouladen gravy, warm potato salad, and baked goods like kuchen and strudel are ideal. Any dish where butter is a finishing ingredient works perfectly. German cuisine uses butter extensively, making cannabis integration natural."
+          },
+          {
+            "q": "Can I add cannabis to German beer cheese soup?",
+            "a": "Yes, stir cannabis butter into the finished soup after removing from heat. The rich, cheesy base and bold beer flavor completely mask any cannabis taste. This is one of the most effective German dishes for hiding cannabis flavors."
+          },
+          {
+            "q": "How do I make cannabis sauerkraut?",
+            "a": "Warm your sauerkraut gently and stir in cannabis butter just before serving. The tangy, fermented flavor of sauerkraut is strong enough to overpower any herbal cannabis notes. Do not simmer the sauerkraut for a long time after adding the cannabis fat."
+          },
+          {
+            "q": "Are German cannabis desserts too rich?",
+            "a": "German desserts like strudel and kuchen are rich but typically served in modest portions, making dose control straightforward. Use cannabis butter in the pastry layers or filling and calculate the dose per slice. The buttery, fruity flavors complement cannabis well."
+          }
+        ]
+      },
+      "mexican": {
+        "intro": "This cannabis %{name} recipe infuses the vibrant, bold flavors of Mexican cuisine with %{base_fat} for an edible that celebrates chiles, spices, and traditional cooking techniques. Mexican food is ideal for cannabis infusion because its robust flavors, from smoky chipotles to tangy lime, completely overpower any herbal cannabis taste. Salsas, moles, and cremas make natural vehicles for precise dosing.",
+        "dosing_tips": [
+          "Stir cannabis oil into salsas, cremas, and guacamole at serving time for the most precise, per-tablespoon dosing.",
+          "Mexican dishes with cheese, sour cream, and avocado have high fat content that enhances THC absorption naturally.",
+          "Start with 5-10 mg per serving. Spicy foods can mask the onset of cannabis effects, so wait the full 90 minutes before eating more.",
+          "Cannabis-infused lard or manteca is traditional in Mexican cooking and integrates seamlessly into masa, beans, and sauces."
+        ],
+        "common_mistakes": [
+          "Frying tortillas or churros in cannabis oil wastes THC at high frying temperatures. Fry in regular oil and finish with cannabis drizzle or sauce.",
+          "Adding cannabis fat to a blender salsa before blending at high speed generates heat through friction. Blend first, then stir in cannabis oil gently.",
+          "Under-seasoning because you assume the cannabis adds flavor. Mexican food demands bold chiles, cumin, garlic, and lime regardless.",
+          "Melting cannabis-infused cheese under a broiler at extreme temperatures. Add cannabis crema or oil on top after broiling."
+        ],
+        "storage": [
+          "Cannabis salsas and Mexican sauces keep refrigerated for up to a week. The acidity of tomatoes and lime helps preservation.",
+          "Cannabis-infused crema stores for 5-7 days refrigerated. Stir before each use as separation is normal.",
+          "Cannabis mole sauce freezes beautifully for up to 3 months. Thaw and warm gently before serving."
+        ],
+        "variations": [
+          "Stir cannabis oil into warm mole sauce for a complex, deeply flavored infusion where the chocolate and chiles mask cannabis completely.",
+          "Make cannabis-infused crema by blending cannabis oil into Mexican crema or sour cream for a versatile taco and burrito topping.",
+          "Mix cannabis-infused lard into masa dough for tamales, where the fat is a traditional and essential ingredient."
+        ],
+        "faq": [
+          {
+            "q": "Can I make cannabis tamales?",
+            "a": "Yes, tamales are one of the best Mexican vehicles for cannabis. The masa dough traditionally contains lard, which you can replace with cannabis-infused lard. The steaming process reaches only about 212 F (100 C), which preserves THC. Each tamale is a perfectly portioned dose."
+          },
+          {
+            "q": "What Mexican dishes work best for cannabis infusion?",
+            "a": "Tamales, enchiladas with cannabis crema, tacos with cannabis guacamole, and any dish featuring mole sauce are top choices. Dishes with rich, fat-based components integrate cannabis naturally. Avoid dishes that rely on deep frying as the primary cooking method."
+          },
+          {
+            "q": "Can I add cannabis to guacamole?",
+            "a": "Absolutely. Avocado is high in healthy fats that blend perfectly with cannabis oil. Stir a measured amount of cannabis oil into finished guacamole and mix thoroughly. The lime, cilantro, and chile flavors mask any herbal cannabis notes completely."
+          },
+          {
+            "q": "Does spicy food affect how cannabis edibles feel?",
+            "a": "Capsaicin from chiles can increase blood flow and metabolism, which some consumers report intensifies or accelerates the onset of cannabis effects. The difference is usually subtle, but start with a lower dose if you are combining very spicy food with cannabis for the first time."
+          },
+          {
+            "q": "How do I make cannabis Mexican hot chocolate?",
+            "a": "Heat milk gently with Mexican chocolate, a cinnamon stick, and a pinch of cayenne. Remove from heat and stir in %{base_fat}. Whisk vigorously with a molinillo or frother. The chocolate, cinnamon, and spice completely mask any cannabis flavor for a traditional, warming infused drink."
           }
         ]
       }
