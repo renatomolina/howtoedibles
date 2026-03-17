@@ -1631,6 +1631,120 @@ input[type="range"]::-moz-range-thumb {
   text-align: center;
 }
 
+/* Contact page */
+.contact-page {
+  padding: 32px 0 48px;
+}
+
+.contact-hero {
+  margin-bottom: 28px;
+}
+
+.contact-icon {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #f27242, #e16a3e);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.contact-title {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.contact-subtitle {
+  font-size: 1.05rem;
+  color: #666;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 16px;
+  padding: 28px 32px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  margin-bottom: 24px;
+  line-height: 1.75;
+  color: #444;
+}
+
+.contact-card label {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.contact-card .form-control {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  transition: border-color 0.15s;
+}
+
+.contact-card .form-control:focus {
+  border-color: var(--color-orange);
+  box-shadow: 0 0 0 3px rgba(242, 114, 66, 0.15);
+}
+
+.btn-contact-submit {
+  display: inline-block;
+  background: #f27242;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 14px 36px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.btn-contact-submit:hover {
+  background: #e16a3e;
+  transform: translateY(-1px);
+}
+
+.contact-success {
+  padding: 32px 0;
+}
+
+.contact-success h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 12px 0 8px;
+  color: #1a1a1a;
+}
+
+.contact-success p {
+  color: #666;
+}
+
+.btn-contact-back {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--color-orange);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-contact-back:hover {
+  text-decoration: underline;
+  color: var(--color-orange-dark);
+}
+
 /* Card hover effect */
 .recipe-card-item .card {
   transition: transform 0.18s, box-shadow 0.18s;
@@ -3259,6 +3373,38 @@ html[data-theme="dark"] body {
 [data-theme="dark"] .donate-feature {
   background: #1a1a1a;
   color: #bbb;
+}
+
+[data-theme="dark"] .contact-card {
+  background: #1e1e1e;
+  border-color: #2a2a2a;
+  color: #bbb;
+}
+
+[data-theme="dark"] .contact-card label {
+  color: #ccc;
+}
+
+[data-theme="dark"] .contact-card .form-control {
+  background: #2a2a2a;
+  border-color: #3a3a3a;
+  color: #ddd;
+}
+
+[data-theme="dark"] .contact-title {
+  color: #e8e8e8;
+}
+
+[data-theme="dark"] .contact-subtitle {
+  color: #888;
+}
+
+[data-theme="dark"] .contact-success h2 {
+  color: #e8e8e8;
+}
+
+[data-theme="dark"] .contact-success p {
+  color: #888;
 }
 
 /* Error page */
