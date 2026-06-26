@@ -48,7 +48,7 @@ ruby scripts/translate_recipes.rb
 │   ├── recipes.json      ← Master recipe data (categories + recipes array)
 │   ├── recipes_text.json ← Full ingredient/instruction text for all recipes
 │   ├── recipe_enrichment.json ← Extended content (tips, variations, FAQ)
-│   ├── search-index.json ← Autocomplete index (currently empty)
+│   ├── search-index.json ← Autocomplete index (237 recipes)
 │   └── batches/          ← Translation batch files (intermediate)
 ├── i18n/                 ← Translation JSON files
 │   ├── {lang}.json       ← UI strings per language
@@ -82,8 +82,6 @@ ruby scripts/translate_recipes.rb
 
 ## Known Issues
 
-- `data/search-index.json` is empty — autocomplete won't work until populated
-- Sitemap has malformed URLs (`https:/www.` instead of `https://www.`)
 - GA tracking is still UA (deprecated) — needs GA4 migration before it stops working
 
 ## Do NOT Edit
