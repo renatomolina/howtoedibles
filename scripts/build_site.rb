@@ -178,7 +178,7 @@ def build_head(lang, title:, description:, canonical:, keywords: nil, structured
   page_path = canonical.sub("https://www.howtoedibles.com", "").sub(/^\//, "")
   page_path = page_path.sub(%r{^(pt|es|de|zh)/}, "")
 
-  kw = keywords || "edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles"
+  kw = keywords
 
   sd_block = if structured_data && !structured_data.empty?
     "\n  <!-- Structured Data -->\n  <script type=\"application/ld+json\">\n#{structured_data}\n</script>"
@@ -211,7 +211,7 @@ def build_head(lang, title:, description:, canonical:, keywords: nil, structured
       <meta name="twitter:description" content="#{h(description)}" />
       <meta name="twitter:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
 
-      <meta name="keywords" content="#{h(kw)}" />
+      #{kw ? %(<meta name="keywords" content="#{h(kw)}" />) : ""}
       <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
 
       <!-- hreflang -->
@@ -226,6 +226,8 @@ def build_head(lang, title:, description:, canonical:, keywords: nil, structured
       <!-- Site CSS -->
       <link rel="stylesheet" href="/css/styles.css" />
       <script>try{if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark")}catch(e){}</script>
+      <!-- AdSense -->
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6354522716906819" crossorigin="anonymous"></script>
 
     #{extra_head}
     </head>
@@ -449,8 +451,29 @@ end
 # Ad blocks
 # ─────────────────────────────────────────────
 
-LEADERBOARD_AD = ""
-MOBILE_AD = ""
+LEADERBOARD_AD = <<~HTML
+  <div class="ad-container text-center my-3">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6354522716906819"
+         data-ad-slot="4353785890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+HTML
+
+MOBILE_AD = <<~HTML
+  <div class="ad-container text-center my-3">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6354522716906819"
+         data-ad-slot="5475295879"
+         data-ad-format="rectangle"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+HTML
 
 # ─────────────────────────────────────────────
 # Calculator widget (shared between homepage calculator page and recipe pages)
@@ -1190,7 +1213,8 @@ def build_recipe_page(recipe, lang)
     "image" => "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg",
     "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
     "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
-    "datePublished" => "2024-01-01", "dateModified" => "2026-03-13",
+    "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15",
+    "dateModified" => "2026-03-15",
     "recipeCategory" => cat,
     "recipeYield" => "#{por} servings",
     "recipeIngredient" => translated_ings.is_a?(Array) ? translated_ings : extract_list_items(recipe["ingredients"]),
@@ -1236,7 +1260,7 @@ def build_recipe_page(recipe, lang)
   i18n_script = build_i18n_script(lang)
 
   page = build_head(lang, title: title, description: desc, canonical: canonical,
-                    keywords: "#{name}, #{cat} cannabis recipe, how to make #{name.downcase}, cannabis #{name.downcase} recipe",
+                    keywords: nil,
                     structured_data: structured,
                     extra_head: "")
   # Override OG image for recipe
@@ -1743,16 +1767,31 @@ def build_sitemap
   static_pages.each do |page|
     # All language versions
     xhtml_links = ALL_LANGS.map do |l|
-      prefix = lang_prefix(l)
-      href = "https://www.howtoedibles.com#{prefix}/#{page}".gsub("//", "/").sub(/\/$/, "/").sub("com//", "com/")
+      lang_seg = l == "en" ? nil : l
+      path = [lang_seg, page.empty? ? nil : page].compact.join("/")
+      href = if path.empty?
+        "https://www.howtoedibles.com/"
+      elsif page.empty?
+        "https://www.howtoedibles.com/#{path}/"
+      else
+        "https://www.howtoedibles.com/#{path}"
+      end
       html_lang = lang_html(l)
       %(    <xhtml:link rel="alternate" hreflang="#{html_lang}" href="#{href}" />)
     end
-    xhtml_links << %(    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/#{page}" />)
+    xdef_href = page.empty? ? "https://www.howtoedibles.com/" : "https://www.howtoedibles.com/#{page}"
+    xhtml_links << %(    <xhtml:link rel="alternate" hreflang="x-default" href="#{xdef_href}" />)
 
     ALL_LANGS.each do |l|
-      prefix = lang_prefix(l)
-      loc = "https://www.howtoedibles.com#{prefix}/#{page}".gsub("//", "/").sub(/\/$/, "/").sub("com//", "com/")
+      lang_seg = l == "en" ? nil : l
+      path = [lang_seg, page.empty? ? nil : page].compact.join("/")
+      loc = if path.empty?
+        "https://www.howtoedibles.com/"
+      elsif page.empty?
+        "https://www.howtoedibles.com/#{path}/"
+      else
+        "https://www.howtoedibles.com/#{path}"
+      end
       urls << "  <url>\n    <loc>#{loc}</loc>\n#{xhtml_links.join("\n")}\n  </url>"
     end
   end
