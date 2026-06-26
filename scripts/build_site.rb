@@ -410,12 +410,12 @@ def build_scripts(lang, extra_scripts: "")
   <<~HTML
 
         <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90858722-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MGB628XR50"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-90858722-1');
+      gtag('config', 'G-MGB628XR50');
     </script>
 
 
