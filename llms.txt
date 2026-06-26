@@ -1,0 +1,44 @@
+# HowToEdibles
+
+> Cannabis edibles recipe site with dosage calculator. 237 recipes across 8 categories with precise THC dosing guidance.
+
+## About
+
+HowToEdibles helps people safely prepare cannabis-infused food at home. Every recipe includes a dosage calculator that computes mg of THC per serving based on the amount of cannabis, its potency percentage, and number of portions.
+
+The core formula: dosage_mg = (10 × grams × strength_percent) / num_portions
+
+## Key Pages
+
+- [Dosage Calculator](https://www.howtoedibles.com/calculator.html): Interactive THC dosage calculator for any cannabis recipe
+- [All Recipes](https://www.howtoedibles.com/): 237 cannabis edible recipes with dosage info
+- [Science of Decarboxylation](https://www.howtoedibles.com/science-of-decarboxylation.html): Why and how to activate THC before cooking
+- [How Long Do Edibles Take to Kick In](https://www.howtoedibles.com/how-long-do-edibles-take-to-kick-in.html): Onset times, duration, and factors
+- [Cannabis Edibles for Beginners](https://www.howtoedibles.com/cannabis-edibles-for-beginners.html): Start low, go slow guide
+- [Microdosing Edibles](https://www.howtoedibles.com/microdosing-edibles.html): Low-dose cannabis consumption guide
+- [CBD vs THC](https://www.howtoedibles.com/cbd-vs-thc.html): Differences between cannabinoids
+- [Benefits of Edibles vs Smoking](https://www.howtoedibles.com/benefits-of-edibles-compared-to-smoking.html): Health comparison
+- [How to Prevent a Bad Trip](https://www.howtoedibles.com/how-to-prevent-a-bad-trip.html): Safety and harm reduction
+
+## Recipe Categories
+
+- Desserts: Brownies, cookies, cakes, chocolate truffles, ice cream
+- Drinks: Smoothies, hot chocolate, tea, lemonade, coffee
+- Snacks: Gummies, granola bars, popcorn, trail mix
+- Essentials: Cannabutter, cannabis oil, tinctures, sugar
+- Lunch: Soups, salads, sandwiches, pasta, pizza
+- Keto: Low-carb fat bombs, keto brownies, cheese crisps
+- Vegan: Plant-based edibles without dairy or animal products
+- International: Feijoada, brigadeiro, churros, baklava, mochi
+
+## Safety Information
+
+- Recommended starting dose: 2.5-5mg THC for beginners
+- Standard dose: 10mg THC per serving
+- Onset time: 30-90 minutes (can take up to 2 hours)
+- Duration: 4-8 hours
+- Always label cannabis edibles clearly and store away from children
+
+## Languages
+
+Available in English, Portuguese (BR), Spanish, German, and Chinese (Simplified).

@@ -1158,6 +1158,39 @@ def build_recipe_faq_schema(recipe, lang)
   }
 end
 
+def build_related_recipes(recipe, lang)
+  prefix = lang_prefix(lang)
+  cat = recipe["category_name"]
+  slug = recipe["slug"]
+  related = RECIPES.select { |r| r["category_name"] == cat && r["slug"] != slug }.sample(4)
+  return "" if related.empty?
+
+  heading = lang == "en" ? "More #{cat} Recipes" : t(lang, "recipe_page", "related") || "Related Recipes"
+  cards = related.map do |r|
+    rname = recipe_t(lang, r["slug"], "name") || r["name"]
+    rdesc = recipe_t(lang, r["slug"], "description") || r["description"]
+    <<~CARD
+      <div class="col-6 col-md-3 mb-3">
+        <a href="#{prefix}/recipes/#{r["slug"]}/" class="card recipe-card h-100 text-decoration-none">
+          <img src="/images/recipes/#{r["slug"]}.jpg" alt="#{h(rname)}" class="card-img-top" loading="lazy" width="300" height="200" />
+          <div class="card-body p-2">
+            <h3 class="card-title small mb-0">#{h(rname)}</h3>
+          </div>
+        </a>
+      </div>
+    CARD
+  end
+
+  <<~HTML
+    <div class="related-recipes mt-4">
+      <h2 class="h5 mb-3"><i class="fa fa-utensils mr-2" aria-hidden="true"></i>#{h(heading)}</h2>
+      <div class="row">
+        #{cards.join}
+      </div>
+    </div>
+  HTML
+end
+
 # ─────────────────────────────────────────────
 # Recipe pages
 # ─────────────────────────────────────────────
@@ -1237,13 +1270,14 @@ def build_recipe_page(recipe, lang)
     recipe_schema["nutrition"]["fatContent"] = enrich["nutrition"]["fatContent"] if enrich["nutrition"]["fatContent"]
   end
 
+  cat_url = "https://www.howtoedibles.com#{prefix}/?search=#{CGI.escape(cat)}"
   sd_array = [
     recipe_schema,
     {
       "@context" => "https://schema.org", "@type" => "BreadcrumbList",
       "itemListElement" => [
         { "@type" => "ListItem", "position" => 1, "name" => "Home", "item" => "https://www.howtoedibles.com#{prefix}/" },
-        { "@type" => "ListItem", "position" => 2, "name" => cat, "item" => "https://www.howtoedibles.com#{prefix}/" },
+        { "@type" => "ListItem", "position" => 2, "name" => cat, "item" => cat_url },
         { "@type" => "ListItem", "position" => 3, "name" => name }
       ]
     }
@@ -1326,6 +1360,8 @@ def build_recipe_page(recipe, lang)
 
       </div>
     </div>
+
+    #{build_related_recipes(recipe, lang)}
 
         </div>
   HTML
@@ -1792,7 +1828,7 @@ def build_sitemap
       else
         "https://www.howtoedibles.com/#{path}"
       end
-      urls << "  <url>\n    <loc>#{loc}</loc>\n#{xhtml_links.join("\n")}\n  </url>"
+      urls << "  <url>\n    <loc>#{loc}</loc>\n    <lastmod>2026-06-25</lastmod>\n#{xhtml_links.join("\n")}\n  </url>"
     end
   end
 
@@ -1814,15 +1850,16 @@ def build_sitemap
       available_langs.each do |l|
         prefix = lang_prefix(l)
         loc = "https://www.howtoedibles.com#{prefix}/#{f}"
-        urls << "  <url>\n    <loc>#{loc}</loc>\n#{xhtml_links.join("\n")}\n  </url>"
+        urls << "  <url>\n    <loc>#{loc}</loc>\n    <lastmod>2026-06-25</lastmod>\n#{xhtml_links.join("\n")}\n  </url>"
       end
     else
-      urls << "  <url>\n    <loc>https://www.howtoedibles.com/#{f}</loc>\n  </url>"
+      urls << "  <url>\n    <loc>https://www.howtoedibles.com/#{f}</loc>\n    <lastmod>2026-06-25</lastmod>\n  </url>"
     end
   end
 
   # Recipe pages
   RECIPES.each do |r|
+    lastmod = r["id"].to_i <= 140 ? "2026-03-15" : "2026-03-15"
     xhtml_links = ALL_LANGS.map do |l|
       prefix = lang_prefix(l)
       href = "https://www.howtoedibles.com#{prefix}/recipes/#{r["slug"]}/"
@@ -1834,7 +1871,7 @@ def build_sitemap
     ALL_LANGS.each do |l|
       prefix = lang_prefix(l)
       loc = "https://www.howtoedibles.com#{prefix}/recipes/#{r["slug"]}/"
-      urls << "  <url>\n    <loc>#{loc}</loc>\n#{xhtml_links.join("\n")}\n  </url>"
+      urls << "  <url>\n    <loc>#{loc}</loc>\n    <lastmod>#{lastmod}</lastmod>\n#{xhtml_links.join("\n")}\n  </url>"
     end
   end
 

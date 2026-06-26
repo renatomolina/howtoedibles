@@ -82,7 +82,7 @@ ruby scripts/translate_recipes.rb
 
 ## Known Issues
 
-- GA tracking is still UA (deprecated) — needs GA4 migration before it stops working
+- No known blocking issues
 
 ## Do NOT Edit
 
