@@ -1,0 +1,247 @@
+<!doctype html>
+<!-- PROTOTYPE — throwaway. Answers "What are the final cover colours for all 8 categories in light and dark?"
+     Branch prototype/category-colours only. `python3 -m http.server 8769` from repo root, then
+     /_prototype-colours/?pal=rec|cur&ring=paper|cat&theme=both|light|dark&cvd=none|deutan|protan|tritan&band=<Category> -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>PROTOTYPE · category colours</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500..800&display=swap">
+<style>
+/* ---------- Poster tokens (visual direction ticket), scoped per theme column ---------- */
+[data-theme=light]{--paper:#fff;--ink:#1f1410;--ink-2:#6a5a50;--line:#ecdfd6;--chip:#f6eee9;color-scheme:light}
+[data-theme=dark]{--paper:#191210;--ink:#f7ede6;--ink-2:#bba89b;--line:#3a2c26;--chip:#2a1f1b;color-scheme:dark}
+:root{--orange:#f27242;--on-cat:#1f1410}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:#8a8079;font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Noto Sans SC",sans-serif}
+a{color:inherit}
+h1,h2,h3,.disp{font-family:Unbounded,"PingFang SC","Noto Sans SC",sans-serif}
+.icon{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+
+/* THE RULE (recipe re-check ticket): the build emits the pair inline, CSS picks --cat / --cat-deep per theme */
+.cv,.band,.lead,.chips a,.alist a,.sh{--cat:var(--cat-lt);--cat-deep:var(--deep-lt)}
+[data-theme=dark] :is(.cv,.band,.lead,.chips a,.alist a,.sh){--cat:var(--cat-dk);--cat-deep:var(--deep-dk)}
+/* sticker ring: --cat (current card dot) or --paper (same as the hero sticker) */
+.th{--ring:var(--paper)}
+body.ring-cat .th .card{--ring:var(--cat)}
+
+.boards{display:grid;gap:0}
+body.both .boards{grid-template-columns:1fr}
+.th{background:var(--paper);color:var(--ink);padding:20px 20px 40px}
+.th>h2.colh{font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 6px;color:var(--ink-2);font-family:-apple-system,system-ui,sans-serif}
+.sec{margin:28px 0 10px;font-size:20px;font-weight:800;letter-spacing:-.02em;line-height:1.15}
+.sec small{display:block;font:500 13px/1.35 -apple-system,system-ui,sans-serif;color:var(--ink-2);letter-spacing:0;margin-top:3px}
+
+.cv{display:block;position:relative;overflow:hidden;background:var(--cat);color:var(--on-cat);contain:paint}
+.cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);height:auto;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr));color:var(--cat-deep)}
+
+/* tiles (homepage 2×4) */
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tile{text-decoration:none;display:block}
+.tile .cv{border-radius:18px;padding:12px 14px;height:96px}
+.tile b{position:relative;display:block;font-family:Unbounded,"PingFang SC",sans-serif;font-size:15px;font-weight:700;line-height:1.15}
+.tile small{position:relative;font-size:13px;font-weight:600}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}
+.card{text-decoration:none;display:block;min-width:0}
+.card .cv{aspect-ratio:1;border-radius:20px}
+.card .dot{position:absolute;right:8px;bottom:8px;z-index:1;min-width:52px;height:52px;padding:0 6px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);line-height:1;box-shadow:0 0 0 3px var(--ring)}
+.card .dot b{font-family:Unbounded,sans-serif;font-size:16px;font-weight:800;letter-spacing:-.03em}
+.card .dot small{font-size:10px;font-weight:700}
+.card .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:700;font-size:16px;line-height:1.25;margin-top:8px}
+.card .mt{display:block;font-size:13px;color:var(--ink-2);margin-top:2px}
+
+/* recipe hero excerpt: cover + crumb + big sticker on the paper ring */
+.hero{position:relative;margin:0 -20px}
+.hero .cv{height:200px}
+.hero .cv>svg{width:auto;height:150%}
+.crumb{position:absolute;left:20px;top:16px;z-index:1;font-size:14px;font-weight:700;text-decoration:none;border:2px solid #1f1410;color:#1f1410;border-radius:999px;padding:6px 14px;background:color-mix(in srgb,var(--cat) 82%,transparent)}
+.sticker{position:absolute;right:16px;top:138px;z-index:2;width:112px;height:112px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);box-shadow:0 0 0 4px var(--paper);text-align:center;line-height:1}
+.sticker b{font-family:Unbounded,sans-serif;font-size:34px;font-weight:800;letter-spacing:-.03em}
+.sticker b small{font-size:15px;letter-spacing:0}
+.sticker span{font-size:12px;margin-top:5px;font-weight:700}
+.hero h3{font-size:28px;font-weight:800;line-height:1.05;letter-spacing:-.03em;margin:18px 136px 0 20px}
+
+/* category band + poster band */
+.band{position:relative;overflow:hidden;contain:paint;background:var(--cat);color:var(--on-cat);margin:0 -20px;padding:18px 20px 22px;min-height:190px;display:flex;flex-direction:column;justify-content:flex-end}
+.band>svg{position:absolute;right:-48px;top:-30px;width:220px;height:220px;transform:rotate(-14deg);color:var(--cat-deep)}
+.band .mk{position:absolute;right:-.06em;bottom:-.2em;font:800 200px/.78 Unbounded,sans-serif;letter-spacing:-.06em;color:var(--cat-deep);transform:rotate(-7deg);transform-origin:100% 100%;white-space:nowrap;pointer-events:none}
+.band .back{position:absolute;left:20px;top:16px;font-size:14px;font-weight:700;border:2px solid var(--on-cat);border-radius:999px;padding:6px 14px;background:color-mix(in srgb,var(--cat) 82%,transparent)}
+.band h3{position:relative;font-weight:800;font-size:36px;line-height:1;letter-spacing:-.03em;margin:52px 0 6px}
+.band p{position:relative;margin:0;font-size:15px;line-height:1.4;font-weight:600;max-width:28ch}
+.bands{display:grid;gap:12px}
+
+/* chips + section header dot */
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips a{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 14px 0 10px;border:2px solid var(--ink);border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;white-space:nowrap}
+.chips a i{width:14px;height:14px;border-radius:50%;background:var(--cat)}
+.chips a small{font-weight:500;color:var(--ink-2)}
+.chips a[aria-current]{background:var(--ink);color:var(--paper)}
+
+/* articles index: lead colour card + slim rows */
+.leads{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.lead{position:relative;overflow:hidden;contain:paint;display:flex;flex-direction:column;justify-content:flex-end;min-height:132px;border-radius:20px;padding:14px;background:var(--cat);color:#1f1410;text-decoration:none}
+.lead .n{position:absolute;right:-.02em;top:-.3em;font:800 130px/1 Unbounded,sans-serif;color:var(--cat-deep);letter-spacing:-.06em;transform:rotate(-8deg)}
+.lead small{position:relative;font-size:12px;font-weight:700;letter-spacing:.02em}
+.lead b{position:relative;font-family:Unbounded,sans-serif;font-size:14px;line-height:1.2}
+.alist{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.alist a{position:relative;display:flex;align-items:center;gap:10px;min-height:52px;padding:8px 0 8px 16px;border-bottom:1px solid var(--line);font-weight:700;font-size:16px;text-decoration:none;line-height:1.3}
+.alist a::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:5px;border-radius:3px;background:var(--cat)}
+.alist .icon{width:18px;height:18px;color:var(--cat-deep)}
+
+/* swatches + live contrast */
+.sw{width:100%;border-collapse:collapse;font-size:13px;margin-top:4px}
+.sw th,.sw td{padding:6px 4px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+.sw th{font-weight:600;color:var(--ink-2);font-size:12px}
+.sw td:first-child{font-weight:700}
+.sw i{display:inline-block;width:18px;height:18px;border-radius:5px;vertical-align:-4px;margin-right:4px;box-shadow:inset 0 0 0 1px rgba(0,0,0,.12)}
+.sw code{font:12px ui-monospace,Menlo,monospace}
+.sw .bad{color:#d9412b;font-weight:700}
+.sw .new{font-size:10px;font-weight:700;background:var(--orange);color:#1f1410;border-radius:4px;padding:1px 4px;margin-left:4px;vertical-align:1px}
+.note{font-size:13px;color:var(--ink-2);margin:8px 0 0;line-height:1.4}
+
+@media (min-width:640px){
+  .th{padding:28px 32px 48px}
+  .tiles{grid-template-columns:repeat(4,1fr)}
+  .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .leads{grid-template-columns:repeat(4,1fr)}
+  .bands{grid-template-columns:1fr 1fr}
+  .band,.hero{margin:0;border-radius:22px;overflow:hidden}
+  .hero .cv{border-radius:22px}
+}
+@media (min-width:1000px){
+  body.both .boards{grid-template-columns:1fr 1fr}
+  body.both .grid,body.both .leads{grid-template-columns:repeat(4,minmax(0,1fr))}
+  body.both .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  body.both .bands{grid-template-columns:1fr}
+}
+
+/* colour-vision simulation (Machado 2009, severity 1, linearRGB) */
+body.cvd-deutan .boards{filter:url(#deutan)}
+body.cvd-protan .boards{filter:url(#protan)}
+body.cvd-tritan .boards{filter:url(#tritan)}
+
+/* ---------- prototype switcher (deliberately off-brand) ---------- */
+#bar{position:fixed;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom));z-index:99;background:#202124;color:#fff;border-radius:14px;padding:6px;display:flex;flex-wrap:wrap;gap:5px;font:12px/1 -apple-system,system-ui,sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+#bar .grp{display:flex;background:#3c4043;border-radius:9px;padding:2px}
+#bar button{border:0;background:none;color:#e8eaed;padding:8px 8px;border-radius:7px;cursor:pointer;white-space:nowrap}
+#bar button[aria-pressed=true]{background:#fff;color:#202124;font-weight:600}
+#bar .min{margin-left:auto}
+body.barmin #bar .grp:not(:last-child){display:none}
+body.shot #bar{display:none}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <filter id="deutan" color-interpolation-filters="linearRGB"><feColorMatrix values="0.367322 0.860646 -0.227968 0 0  0.280085 0.672501 0.047413 0 0  -0.01182 0.04294 0.968881 0 0  0 0 0 1 0"/></filter>
+  <filter id="protan" color-interpolation-filters="linearRGB"><feColorMatrix values="0.152286 1.052583 -0.204868 0 0  0.114503 0.786281 0.099216 0 0  -0.003882 -0.048116 1.051998 0 0  0 0 0 1 0"/></filter>
+  <filter id="tritan" color-interpolation-filters="linearRGB"><feColorMatrix values="1.255528 -0.076749 -0.178779 0 0  -0.078411 0.930809 0.147602 0 0  0.004733 0.691367 0.3039 0 0  0 0 0 1 0"/></filter>
+</svg>
+<div id="sprite" hidden></div>
+<div id="app"></div>
+<div id="bar" role="toolbar" aria-label="Prototype controls"></div>
+<script type="module">
+import { cr, T as TOK } from "./measure.mjs";
+const ROOT = "../";
+const P = new URLSearchParams(location.search);
+const S = { pal: P.get("pal") || "rec", ring: P.get("ring") || "paper", theme: P.get("theme") || "both", cvd: P.get("cvd") || "none", band: P.get("band") || "Keto" };
+if (P.has("shot")) document.body.classList.add("shot");
+
+const ORDER = ["Desserts", "Drinks", "Snacks", "Essentials", "Lunch", "Keto", "Vegan", "International"];
+const APPROVED = ["Desserts", "Essentials", "Drinks"]; // image-system ticket
+const TILE_GLYPH = { Desserts: "cake", Essentials: "butter", Drinks: "glass", Snacks: "chips", Lunch: "bowl", Keto: "egg", Vegan: "salad", International: "dumpling" };
+// article topics borrow the 8 category colours (pages ticket)
+const TOPICS = [["Edibles", "Desserts", "E"], ["Health", "Vegan", "H"], ["Wellness", "Keto", "W"], ["Topicals", "Snacks", "T"], ["Culture", "Lunch", "C"], ["Legalization", "International", "L"], ["Guides", "Essentials", "G"], ["Science", "Drinks", "S"]];
+const BAND_MARK = { Desserts: "mg", Drinks: "@", Snacks: "404", Essentials: "50", Lunch: "2017", Keto: "50", Vegan: "free", International: "50" };
+const EFF = 0.8;
+
+const [rec, ui, glyphs, sprite, rec8, cur8] = await Promise.all([
+  fetch(ROOT + "data/recipes.json").then((r) => r.json()), fetch(ROOT + "i18n/en.json").then((r) => r.json()),
+  fetch("glyphs.json").then((r) => r.json()), fetch("sprite.svg").then((r) => r.text()),
+  fetch("palette.json").then((r) => r.json()), fetch("current.json").then((r) => r.json())]);
+document.getElementById("sprite").innerHTML = sprite;
+const list = rec.recipes.slice().sort((a, b) => a.position - b.position).map((r) => ({ slug: r.slug, cat: r.category_name, name: r.name, mg: (10 * r.suggested_quantity * 14 * EFF) / r.suggested_portion }));
+const first = Object.fromEntries(ORDER.map((c) => [c, list.find((x) => x.cat === c)]));
+const count = (c) => list.filter((x) => x.cat === c).length;
+
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const fmt = (x) => (x >= 10 ? Math.round(x) : Math.round(x * 10) / 10);
+function seed(slug) { let h = 2166136261; for (const c of slug) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return (n) => ((h = Math.imul(h ^ (h >>> 15), 2246822507) ^ n) >>> 0) / 4294967296; }
+function place(slug, kind) {
+  const r = seed(slug);
+  if (kind === "tile") return { gs: "84%", gx: "-14%", gy: "-34%", gr: `${-16 + r(4) * 20}deg` };
+  return { gs: `${90 + r(1) * 14}%`, gx: `${-12 - r(2) * 16}%`, gy: `${-12 - r(3) * 16}%`, gr: `${-20 + r(4) * 30}deg` };
+}
+const PAL = () => (S.pal === "rec" ? rec8 : cur8);
+// the build emits only the pairs; CSS picks --cat (no inline --cat — it would beat the dark override)
+const vars = (cat, pl = {}) => { const [c, d, cd, dd] = PAL()[cat]; return `--cat-lt:${c};--deep-lt:${d};--cat-dk:${cd};--deep-dk:${dd};` + Object.entries(pl).map(([k, v]) => `--${k}:${v}`).join(";"); };
+const glyph = (g) => `<svg viewBox="0 0 100 100" aria-hidden="true"><use href="#g-${g}"/></svg>`;
+const cover = (slug, cat, g, kind, inner = "") => `<span class="cv" style="${vars(cat, place(slug, kind))}">${glyph(g)}${inner}</span>`;
+const doc = '<svg class="icon" viewBox="0 0 24 24"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg>';
+
+const tile = (c) => `<a class="tile" href="#">${cover(c, c, TILE_GLYPH[c], "tile", `<b>${esc(ui.categories[c])}</b><small>${count(c)} recipes</small>`)}</a>`;
+const card = (x) => `<a class="card" href="#">${cover(x.slug, x.cat, glyphs[x.slug] || TILE_GLYPH[x.cat], "card", `<span class="dot"><b>${fmt(x.mg)}</b><small>mg</small></span>`)}<span class="nm">${esc(x.name)}</span><span class="mt">${esc(ui.categories[x.cat])}</span></a>`;
+
+function swatches(theme) {
+  const dk = theme === "dark", paper = dk ? TOK.paperDk : TOK.paper;
+  const row = (c) => {
+    const q = PAL()[c], [bg, deep] = dk ? [q[2], q[3]] : [q[0], q[1]];
+    const changed = cur8[c].join() !== q.join();
+    const t = cr(TOK.ink, bg), g = cr(deep, bg), e = dk ? cr(bg, paper) : null;
+    return `<tr><td>${esc(ui.categories[c])}${APPROVED.includes(c) ? " ✓" : changed && S.pal === "rec" ? '<span class="new">new</span>' : ""}</td>
+      <td><i style="background:${bg}"></i><code>${bg}</code></td><td><i style="background:${deep}"></i><code>${deep}</code></td>
+      <td class="${t < 4.5 ? "bad" : ""}">${t.toFixed(1)}</td><td class="${g < 1.45 ? "bad" : ""}">${g.toFixed(2)}</td>${dk ? `<td>${e.toFixed(1)}</td>` : ""}</tr>`;
+  };
+  return `<table class="sw"><thead><tr><th>Category</th><th>--cat-${dk ? "dk" : "lt"}</th><th>--deep-${dk ? "dk" : "lt"}</th><th>Text</th><th>Glyph</th>${dk ? "<th>Edge</th>" : ""}</tr></thead><tbody>${ORDER.map(row).join("")}</tbody></table>
+    <p class="note">Text = ink #1f1410 on the cover (floor 4.5). Glyph = deep on cover (floor 1.45 = the approved Essentials; decorative). ${dk ? "Edge = cover vs the dark page (floor 3)." : ""} ✓ = approved in the image-system ticket.</p>`;
+}
+
+function board(theme) {
+  const b = S.band, x = first[b];
+  return `<section class="th" data-theme="${theme}"><h2 class="colh">${theme === "dark" ? "☾ Dark" : "☀ Light"}</h2>
+    <h3 class="sec">Homepage tiles<small>All 8 side by side: the family test.</small></h3><div class="tiles">${ORDER.map(tile).join("")}</div>
+    <h3 class="sec">Cards with the mg sticker<small>Sticker ring: ${S.ring === "paper" ? "--paper (as on the hero)" : "--cat (current card)"}.</small></h3><div class="grid">${ORDER.map((c) => card(first[c])).join("")}</div>
+    <h3 class="sec">Recipe hero · ${esc(ui.categories[b])}<small>Crumb chip and the big sticker on its paper ring.</small></h3>
+    <div class="hero">${cover(x.slug, b, glyphs[x.slug] || TILE_GLYPH[b], "card")}<a class="crumb" href="#" style="${vars(b)}">← ${esc(ui.categories[b])}</a><span class="sticker"><b>${fmt(x.mg)}<small>mg</small></b><span>per serving</span></span><h3>${esc(x.name)}</h3></div>
+    <h3 class="sec">Bands · ${esc(ui.categories[b])}<small>Category page band (glyph) and poster band (typographic mark).</small></h3>
+    <div class="bands"><section class="band" style="${vars(b)}">${glyph(TILE_GLYPH[b])}<a class="back" href="#">← All recipes</a><h3>${esc(ui.categories[b])}</h3><p>${count(b)} recipes, each with its THC per serving worked out.</p></section>
+      <section class="band" style="${vars(b)}"><span class="mk" aria-hidden="true">${BAND_MARK[b]}</span><h3>Poster band</h3><p>Same pair rule, mark in --cat-deep.</p></section></div>
+    <h3 class="sec">Category chips</h3><nav class="chips"><a href="#" aria-current="page">All recipes <small>${list.length}</small></a>${ORDER.map((c) => `<a href="#" style="${vars(c)}"><i></i>${esc(ui.categories[c])} <small>${count(c)}</small></a>`).join("")}</nav>
+    <h3 class="sec">Articles index<small>Topic lead cards and slim rows (bar in --cat, icon in --cat-deep).</small></h3>
+    <div class="leads">${TOPICS.map(([t, c, n]) => `<a class="lead" href="#" style="${vars(c)}"><span class="n" aria-hidden="true">${n}</span><small>${t}</small><b>Lead article title</b></a>`).join("")}</div>
+    <ul class="alist" style="margin-top:14px">${TOPICS.map(([t, c]) => `<li><a href="#" style="${vars(c)}">${doc}${t}: an article title row</a></li>`).join("")}</ul>
+    <h3 class="sec">Values + contrast</h3>${swatches(theme)}
+  </section>`;
+}
+
+function bar() {
+  const b = (k, v, l) => `<button data-set="${k}" data-v="${v}" aria-pressed="${S[k] === v}">${l}</button>`;
+  return `<div class="grp">${b("pal", "cur", "Provisional")}${b("pal", "rec", "Final ✓")}</div>
+    <div class="grp">${b("ring", "cat", "Ring --cat")}${b("ring", "paper", "Ring --paper ✓")}</div>
+    <div class="grp">${b("theme", "light", "☀")}${b("theme", "dark", "☾")}${b("theme", "both", "☀☾")}</div>
+    <div class="grp">${b("cvd", "none", "Normal")}${b("cvd", "deutan", "Deutan")}${b("cvd", "protan", "Protan")}${b("cvd", "tritan", "Tritan")}</div>
+    <div class="grp">${ORDER.map((c) => b("band", c, c.slice(0, 4))).join("")}</div>
+    <div class="grp min"><button data-min>▾</button></div>`;
+}
+function render() {
+  document.body.className = [P.has("shot") && "shot", S.theme === "both" && "both", S.ring === "cat" && "ring-cat", S.cvd !== "none" && "cvd-" + S.cvd].filter(Boolean).join(" ");
+  const themes = S.theme === "both" ? ["light", "dark"] : [S.theme];
+  document.getElementById("app").innerHTML = `<main class="boards">${themes.map(board).join("")}</main>`;
+  document.getElementById("bar").innerHTML = bar();
+  history.replaceState(null, "", "?" + new URLSearchParams(S));
+}
+document.addEventListener("click", (e) => {
+  const set = e.target.closest("[data-set]"); if (set) { S[set.dataset.set] = set.dataset.v; return render(); }
+  if (e.target.closest("[data-min]")) document.body.classList.toggle("barmin");
+  if (e.target.closest("a[href='#']")) e.preventDefault();
+});
+render();
+</script>
+</body>
+</html>
