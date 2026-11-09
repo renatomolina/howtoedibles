@@ -53,7 +53,8 @@ body.mini-on .mini{transform:none}
 
 /* ================= HERO (recipe-page ticket, A · Stack) ================= */
 .hero{position:relative;--hero-h:clamp(120px,calc(100svh - 428px),232px)}
-.hero:has(h1.long){--hero-h:clamp(100px,calc(100svh - 470px),190px)}
+.hero:has(h1.mid){--hero-h:clamp(100px,calc(100svh - 446px),214px)}
+.hero:has(h1.long){--hero-h:clamp(90px,calc(100svh - 470px),190px)}
 .hero .cv{height:var(--hero-h,232px);margin:0 -20px}
 .hero .cv>svg{width:auto;height:var(--gh)}
 .crumb{position:absolute;left:0;top:16px;z-index:1;font-size:14px;font-weight:700;text-decoration:none;border:2px solid #1f1410;color:#1f1410;border-radius:999px;padding:6px 14px;background:color-mix(in srgb,var(--cat) 82%,transparent)}
@@ -65,8 +66,9 @@ body.mini-on .mini{transform:none}
 .sticker.bump{animation:bump .3s ease}
 @keyframes bump{50%{transform:rotate(-8deg) scale(1.08)}}
 .sticker-room{float:right;width:112px;height:58px}
-h1{font-weight:800;font-size:clamp(30px,9.4vw,40px);line-height:1.03;letter-spacing:-.03em;margin:22px 0 14px}
-h1.long{font-size:clamp(26px,7.6vw,32px)}
+h1{font-weight:800;font-size:clamp(28px,9.4vw,40px);line-height:1.03;letter-spacing:-.03em;margin:22px 0 14px}
+h1.mid{font-size:clamp(26px,8vw,36px)}
+h1.long{font-size:clamp(23px,6.6vw,32px)}
 :lang(zh) h1{font-weight:900;letter-spacing:0;line-height:1.15}
 .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);clear:both}
 .facts>div{padding:10px 0 10px 12px;min-width:0}
@@ -123,6 +125,7 @@ section.block{margin-top:44px}
 .fld:focus-within{box-shadow:0 0 0 3px color-mix(in srgb,var(--orange) 60%,transparent)}
 .fld input{width:100%;min-width:0;border:0;background:none;outline:none;text-align:right;font:800 28px/58px Unbounded,sans-serif;letter-spacing:-.02em;padding:0}
 .fld .u{flex:none;font-weight:700;font-size:15px;color:var(--ink-2);min-width:3.6em}
+@media (max-width:359px){.rnd{width:44px;height:44px}.stepper{gap:6px}.fld{padding:0 8px}.fld input{font-size:24px}.fld .u{min-width:0;font-size:13px}}
 .chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:10px -18px 0;padding:2px 18px}
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:none;min-height:44px;border:2px solid var(--line);border-radius:999px;padding:0 14px;background:var(--paper);font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;line-height:1.1}
@@ -204,6 +207,7 @@ body.panel-peek .calc.peeking .peek{opacity:1;pointer-events:auto}
 .card .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:700;font-size:16px;line-height:1.25;margin-top:8px}
 
 /* ================= DESKTOP ≥1000px: content + 380px rail ================= */
+@media (min-width:720px) and (max-width:999px){.hero .cv{margin:0;border-radius:28px}.ad{margin-left:0;margin-right:0;border-radius:16px}.crumb{left:20px}}
 @media (min-width:1000px){
   .wrap{max-width:1160px;padding:0 32px}
   .page{display:grid;grid-template-columns:minmax(0,1fr) 380px;column-gap:56px}
@@ -211,17 +215,21 @@ body.panel-peek .calc.peeking .peek{opacity:1;pointer-events:auto}
   .page>.rail{grid-column:2;grid-row:1/span 40;align-self:start}
   .rail .block{margin-top:0}
   .hero .cv{margin:0;border-radius:28px}
-  .hero,.hero:has(h1.long){--hero-h:400px}
+  .hero,.hero:has(h1.mid),.hero:has(h1.long){--hero-h:clamp(220px,calc(100svh - 400px),400px)}
   .crumb{left:20px}
-  .sticker{right:28px;width:132px;height:132px;top:330px}
+  .sticker{right:28px;width:132px;height:132px;top:calc(var(--hero-h) - 70px)}
   .sticker b{font-size:42px}
   .sticker-room{width:140px;height:70px}
   h1{font-size:52px;margin-top:30px}
-  h1.long{font-size:42px}
+  h1.mid{font-size:46px}
+  h1.long{font-size:40px}
   .ad{margin-left:0;margin-right:0;border-radius:16px}
   .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
   /* Q3 · rail=… */
-  body.rail-sticky .rail,body.rail-compact .rail{position:sticky;top:calc(var(--res-top) + 24px);transition:top .22s ease}
+  body.rail-sticky .rail{position:sticky;top:calc(var(--res-top) + 24px);transition:top .22s ease}
+  /* compact: sticks at the top when it fits; on short screens (1366×657 laptops) it scrolls until its bottom is in view, and the 56px peek takes over the dose readout */
+  body.rail-compact .rail{position:sticky;top:min(calc(var(--res-top) + 24px),calc(100vh - var(--rail-h,0px) - 16px))}
+  body.rail-compact.panel-full .res{top:calc(var(--res-top) + 16px)}
   body.rail-bottom .rail{position:sticky;top:min(calc(var(--res-top) + 24px),calc(100vh - var(--rail-h,0px) - 24px))}
   body.rail-bottom .res{top:calc(var(--res-top) + 24px)}
   body.rail-compact .rail .hint{display:none}
@@ -265,7 +273,7 @@ body.shot #bar{display:none}
 <script>
 const ROOT = "../../";
 const P = new URLSearchParams(location.search);
-const S = { r: "pot-brownies", lang: "en", theme: "light", fold: "0", top: "follow", panel: "full", rail: "compact", lines: "rec" };
+const S = { r: "pot-brownies", lang: "en", theme: "light", fold: "0", top: "follow", panel: "peek", rail: "compact", lines: "rec" };
 for (const k in S) if (P.has(k)) S[k] = P.get(k);
 if (P.has("shot")) document.body.classList.add("shot");
 
@@ -374,6 +382,8 @@ const dur = (m) => { const t = T[S.lang]; return m >= 60 ? `${Math.floor(m / 60)
 const interp = (s, v) => s.replace(/%\{(\w+)\}/g, (_, k) => v[k] ?? "");
 const pre = () => (S.lang === "en" ? "" : "/" + S.lang);
 const nameOf = (slug) => D.tr?.[slug]?.name || D.rec.recipes.find((r) => r.slug === slug).name;
+// title size band by visual length (CJK ≈ 1.7 Latin chars); with vw-based sizes the line count stays the same on every phone width
+const titleClass = (name) => { const n = [...name].reduce((a, c) => a + (/[\u3000-\u9fff]/.test(c) ? 1.7 : 1), 0); return n > 24 ? ' class="long"' : n > 14 ? ' class="mid"' : ""; };
 function seed(slug) { let h = 2166136261; for (const c of slug) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return (n) => ((h = Math.imul(h ^ (h >>> 15), 2246822507) ^ n) >>> 0) / 4294967296; }
 function place(slug, kind) {
   const r = seed(slug);
@@ -448,7 +458,7 @@ function page() {
 
   const hero = `<section class="hero" style="${vars(R.category_name)}">${cover(R.slug, R.category_name, "hero")}<a class="crumb" href="#">${esc(catT)}</a>
       <a class="sticker" href="#dose" id="sticker"><b data-o="mgs">${fmtMg(mg)}<small>mg</small></b><span>${t().per}</span></a>
-      <span class="sticker-room" aria-hidden="true"></span><h1${name.length > 22 ? ' class="long"' : ""}>${esc(name)}</h1>
+      <span class="sticker-room" aria-hidden="true"></span><h1${titleClass(name)}>${esc(name)}</h1>
       <div class="facts"><div><b>${dur(total)}</b><span>${t().total}</span></div><div><b data-o="n">${x.n}</b><span>${t().makes}</span></div><div><b data-o="batch">${fmtMg(mg * x.n)} mg</b><span>${t().batch}</span></div></div>
       ${showHero() ? `<p class="newbie">${I.warn}<span data-o="newbie">${newbieHTML(mg)}</span></p>` : ""}
       <div class="cta"><a class="btn" href="#dose">${I.dial}<span>${t().adjust}<small data-o="adj">${t().adjSub(fmtG(x.g), nf(x.s, 1))}</small></span></a><a class="btn pri" href="#recipe">${t().jump}${I.down}</a></div></section>`;
@@ -541,7 +551,7 @@ function onScroll(force) {
     const r = card.getBoundingClientRect(), calcOn = r.top < innerHeight && r.bottom > 0;
     if (P.get("mini") !== "1" && (force === true || Math.abs(y - lastY) > 6)) { document.body.classList.toggle("mini-on", y > 140 && y < lastY && !(S.top === "hide" && calcOn)); lastY = y; }
     const rt = parseFloat(getComputedStyle(document.body).getPropertyValue("--res-top")) || 0;
-    card.classList.toggle("peeking", document.getElementById("live").getBoundingClientRect().bottom < rt + 56 && r.bottom > rt + 120);
+    card.classList.toggle("peeking", document.getElementById("live").getBoundingClientRect().top < rt - 1 && r.bottom > rt + 120);
   }
 }
 addEventListener("scroll", onScroll, { passive: true });
