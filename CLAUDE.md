@@ -16,8 +16,15 @@ Fully static HTML site — no build framework, no bundler. Almost every page is 
 ## Key Commands
 
 ```bash
-# Rebuild all generated pages (translated homepages, recipes, articles, sitemap)
+# Rebuild all generated pages (translated homepages, recipes, articles, sitemap),
+# then run the page-weight budget (scripts/check_budget.rb; warn-only until Phase 1a)
 ruby scripts/build_site.rb
+
+# Rebuild /fonts/unbounded-800.latin1.woff2 from the pinned upstream font (fontTools + brotli)
+python3 scripts/build_font.py
+
+# Render og/schema PNGs from tmp/rasters/jobs.json (headless Chrome, incremental)
+node scripts/render_rasters.mjs
 
 # Generate placeholder images for recipes without photos
 python3 scripts/generate_placeholders.py

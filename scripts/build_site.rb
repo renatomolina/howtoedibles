@@ -1999,3 +1999,6 @@ puts "\nAdding hreflang tags to English pages..."
 end
 
 puts "\nDone! Hand-maintained: English index, calculator, donate, 404, articles, about, contact."
+
+puts
+exit 1 unless system("ruby", File.join(__dir__, "check_budget.rb"))
