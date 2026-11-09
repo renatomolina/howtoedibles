@@ -25,3 +25,9 @@
 .env
 
 public/system
+
+# Legacy Rails app: removed from master because GitHub Pages served it publicly
+# (incl. config/database.yml and secrets.yml). Still in git history before 2026-11-09.
+/old_rails/
+/.claude/
+__pycache__/

@@ -58,9 +58,11 @@ ruby scripts/translate_recipes.rb
 ├── images/recipes/       ← 236 recipe JPGs
 ├── de/, es/, pt/, zh/    ← Generated translated page trees
 ├── scripts/              ← Build and generation scripts
-├── tmp/                  ← Intermediate batch files (not deployed)
-└── old_rails/            ← Legacy Rails 5.2 app (archived, not used)
+└── tmp/                  ← Intermediate batch files (not deployed)
 ```
+
+`old_rails/` (legacy Rails 5.2 app) was removed from master on 2026-11-09 because GitHub Pages served it publicly, credentials included. It's gitignored if a local copy exists; it's still in git history.
+Everything on master is public on the site — never commit secrets, and keep `/edible-dosage-calculator/` and the Rails-era redirect stubs (`/categories/…`, `/desserts/…`, etc.).
 
 ## Conventions
 
@@ -87,6 +89,5 @@ ruby scripts/translate_recipes.rb
 
 ## Do NOT Edit
 
-- `old_rails/` — archived, not deployed
 - `data/batches/` and `tmp/` — intermediate generation artifacts
 - Generated language dirs (`de/`, `es/`, `pt/`, `zh/`) — regenerate with build_site.rb
