@@ -43,7 +43,7 @@
     "headline": "How a Cannabis Calculator Works",
     "description": "Learn how an edible dosage calculator works, the math behind it, and how to use it to make safe, potent cannabis edibles.",
     "datePublished": "2024-01-15",
-    "dateModified": "2026-03-05",
+    "dateModified": "2026-11-08",
     "author": {
       "@type": "Organization",
       "name": "HowToEdibles"
@@ -99,7 +99,7 @@
         "name": "What is cooking efficiency in edibles?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cooking efficiency accounts for THC lost during decarboxylation and infusion. A typical home cook loses about 20% of theoretical THC, so the standard efficiency factor is 80% (0.80). This gives a more realistic estimate of actual potency."
+          "text": "Cooking efficiency accounts for THC lost during decarboxylation and infusion. Decarboxylation plus infusion at home typically keeps an estimated 70–80% of the theoretical THC. The calculator uses 80% (0.80), the top of that range, so it leans toward showing a slightly stronger dose. The result is still an estimate."
         }
       },
       {
@@ -343,6 +343,11 @@
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
 
+          <div class="article-takeaway">
+            <h4>Quick answer</h4>
+            <p>The calculator multiplies grams of flower by its THC percentage and by 10 to get the total milligrams of THC. It then applies an 80% cooking-efficiency factor and divides by the number of servings: <strong>P = 10 &times; G &times; S &times; 0.80 / N</strong>. For example, 2 g of 20% THC flower baked into 8 cookies gives about <strong>40 mg per cookie</strong>. That is 8 to 16 times a beginner dose of 2.5 to 5 mg, so use less flower or make more servings. The result is an estimate, not a lab test.</p>
+          </div>
+
           <!-- Table of Contents -->
           <div class="article-toc">
             <h4>Table of Contents</h4>
@@ -361,7 +366,7 @@
           </p>
 <h2 id="the-concept" class="mt-4">The concept behind the calculator</h2>
           <p>
-            Our calculator uses the very same concept as Ohm's Law — you might not remember it from physics class, but it's easy to understand with cannabis. By plugging in a few simple numbers, you can predict exactly how strong each serving of your homemade edibles will be before you even start cooking.
+            Our calculator uses the very same concept as Ohm's Law — you might not remember it from physics class, but it's easy to understand with cannabis. By plugging in a few simple numbers, you can estimate how strong each serving of your homemade edibles will be before you even start cooking.
           </p>
 
           <h2 id="the-variables" class="mt-4">Understanding the variables</h2>
@@ -377,7 +382,7 @@
             <strong>G</strong> is literally the quantity of plant material you want to use — no mystery here. <strong>N</strong> is the number of servings of your recipe. For example, if you are making a space cake and you cut your cake into 4 pieces, N equals 4.
           </p>
           <p>
-            <strong>S</strong> is probably the most complicated to figure out. If you are in a state or country where cannabis is not decriminalized, a good rule of thumb would be: assume 20% strength for top-shelf frosty buds, 10%–15% for mids, and 5% for schwag/brick weed. For concentrates, assume 30% for kief, 40% for hash, 60% for hash oil, 80%–95% for shatter. If you live in a legalized state or country, you can simply ask your budtender or dispensary about the flower or concentrate strength.
+            <strong>S</strong> is probably the most complicated to figure out. If you are in a state or country where cannabis is not decriminalized, a good rule of thumb would be: assume 20% strength for top-shelf frosty buds, 10%–15% for mids, and 5% for schwag/brick weed. For concentrates, assume 30% for kief, 40% for hash, 60% for hash oil, 80%–95% for shatter. If you live in a legalized state or country, you can simply ask your budtender or dispensary about the flower or concentrate strength. On a lab-tested label, use the <strong>Total THC</strong> figure. Labs already multiply THCA by 0.877 to account for the weight lost as CO<sub>2</sub> during decarboxylation.
           </p>
 
           <h2 id="the-formula" class="mt-4">The formula</h2>
@@ -410,11 +415,11 @@
             When you cook with cannabis at home, some THC is inevitably lost along the way. Two main steps eat into your total:
           </p>
           <ul>
-            <li><strong>Decarboxylation</strong> — heating raw cannabis converts THCA into active THC. Done right, this step is about 90% efficient; done too hot or too short, you lose more.</li>
-            <li><strong>Infusion</strong> — transferring THC from plant material into butter, oil, or another fat is never 100%. A typical home infusion captures roughly 80–90% of available THC.</li>
+            <li><strong>Decarboxylation</strong> — heating raw cannabis converts THCA into active THC. Done right, this step is about 90% efficient. In a 2016 lab study, heating at 110&deg;C (230&deg;F) converted nearly all THCA in about 30 minutes and lost only about 8% of the THC. Done too hot or too short, you lose more.</li>
+            <li><strong>Infusion</strong> — transferring THC from plant material into butter, oil, or another fat is never 100%. Our estimate is that a typical home infusion captures roughly 80–90% of the available THC. Few published studies have measured butter or oil infusions, so treat this figure as an estimate.</li>
           </ul>
           <p>
-            Combined, these two steps mean you realistically extract around <strong>75–85% of the theoretical maximum</strong>. We use <strong>80%</strong> as a reasonable middle-ground estimate. This gives you a more accurate picture of what's actually in your food — not just the theoretical ceiling.
+            Combined (0.9 &times; 0.8 to 0.9 &times; 0.9), these two steps mean you realistically extract around <strong>70–80% of the theoretical maximum</strong>. We use <strong>80%</strong>, the top of that range, so the calculator leans toward showing a slightly stronger dose rather than a weaker one. This gives you a more realistic picture of what's actually in your food than the theoretical ceiling. Your real edibles can still be stronger or weaker than the number shown, especially if the butter or oil is not mixed in evenly.
           </p>
 
           <h2 id="other-cannabinoids" class="mt-4">Works for CBD too</h2>
@@ -424,6 +429,15 @@
           <p>
             Fortunately, you don't need to do any of this math yourself — you can see it happening live in <a href="/calculator.html">our calculator</a>. Just input the quantity, strength, and portion number, and we do all the work for you.
           </p>
+
+          <p class="mt-4"><em>Calculator results are estimates for general information, not medical advice. If you are new to edibles, start with 2.5 to 5 mg of THC and wait at least 2 hours before taking more.</em></p>
+
+          <h2 id="sources" class="mt-4">Sources</h2>
+          <ol>
+            <li>Wang M, Wang YH, Avula B, et al. Decarboxylation study of acidic cannabinoids: a novel approach using ultra-high-performance supercritical fluid chromatography/photodiode array-mass spectrometry. <em>Cannabis and Cannabinoid Research</em>. 2016;1(1):262-271. <a href="https://doi.org/10.1089/can.2016.0020" target="_blank" rel="noopener">doi:10.1089/can.2016.0020</a></li>
+            <li>California Code of Regulations, Title 4, <a href="https://www.law.cornell.edu/regulations/california/4-CCR-15700" target="_blank" rel="noopener">&sect; 15700, Definitions</a>. Defines Total THC as (THCA &times; 0.877) + THC.</li>
+            <li>Centers for Disease Control and Prevention. <a href="https://www.cdc.gov/cannabis/faq/index.html" target="_blank" rel="noopener">Cannabis Frequently Asked Questions</a>.</li>
+          </ol>
 
           <div class="text-center mt-5 mb-5">
             <a href="/calculator.html" class="btn btn-success btn-lg">Try the Calculator</a>
