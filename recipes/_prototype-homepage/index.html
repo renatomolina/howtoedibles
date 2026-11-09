@@ -222,7 +222,7 @@ body.shot #bar{display:none}
 <script>
 const ROOT = "../../";
 const P = new URLSearchParams(location.search);
-const S = { v: P.get("v") || "shelves", page: P.get("page") || "home", c: P.get("c") || "Desserts", q: P.get("q") || P.get("search") || "brownie", lang: P.get("lang") || "en", theme: P.get("theme") || "light", fold: P.get("fold") || "0" };
+const S = { v: P.get("v") || "hybrid", page: P.get("page") || "home", c: P.get("c") || "Desserts", q: P.get("q") || P.get("search") || "brownie", lang: P.get("lang") || "en", theme: P.get("theme") || "light", fold: P.get("fold") || "0" };
 if (P.has("shot")) document.body.classList.add("shot");
 
 // Category order = CLAUDE.md. [cover, glyph, cover dark, glyph dark]. Desserts/Essentials decided; the other 6 PROVISIONAL (dark-mode fog).
@@ -329,18 +329,23 @@ function heroText() {
 }
 
 // ---------------- A · Shelves ----------------
-function shelves() {
-  const t = T[S.lang], [h1, lede] = heroText();
+function shelfList() {
+  const t = T[S.lang];
   const shelf = (c, title, sub) => { const xs = D.list.filter((x) => x.cat === c).slice(0, 8);
     return `<section style="${vars(c)}"><div class="sh"><h2><i></i><span>${title}${sub ? `<p>${sub}</p>` : ""}</span></h2><a href="${link({ page: "cat", c })}">${t.all(count(c))}</a></div>
       <div class="rail">${xs.map((x) => card(x, "none")).join("")}<a class="all" href="${link({ page: "cat", c })}" style="background:var(--chip)"><b>${count(c)}</b>${esc(D.ui.categories[c])}<br>${t.seeAll} →</a></div></section>`; };
   const order = ["Essentials", ...ORDER.filter((c) => c !== "Essentials")];
+  return order.map((c, i) => (i === 0 ? shelf(c, t.base, t.baseS) : shelf(c, esc(D.ui.categories[c]))) + (i === 1 ? ad() : "")).join("");
+}
+function shelves() {
+  const t = T[S.lang], [h1, lede] = heroText();
   return `<section class="hh"><h1>${h1}</h1><p class="lede">${lede}</p>${sbox()}
       <div class="pair side"><a class="qk ink" href="#"><b>${t.calc}</b><span>${t.calcS}${I.dial}</span></a><a class="qk" href="#"><b>${t.newbie}</b><span>${t.newbieS}${I.arrow}</span></a></div></section>
     <nav class="strip" aria-label="${t.cats}">${ORDER.map(tile).join("")}</nav>
-    ${order.map((c, i) => (i === 0 ? shelf(c, t.base, t.baseS) : shelf(c, esc(D.ui.categories[c]))) + (i === 1 ? ad() : "")).join("")}
-    ${learn()}`;
+    ${shelfList()}${learn()}`;
 }
+// ---------------- C top + A shelves (owner's pick) ----------------
+const hybrid = () => `${deskTop()}${shelfList()}${learn()}`;
 
 // ---------------- B · One grid ----------------
 function grid() {
@@ -353,7 +358,7 @@ function grid() {
 }
 
 // ---------------- C · Dose desk ----------------
-function desk() {
+function deskTop() {
   const t = T[S.lang], [h1] = heroText();
   const g = 3.5, p = 14, n = 50; // calculator.html defaults (calculator ticket)
   const rows = [["g", t.g, t.gS, g, 0.5], ["p", t.thc, t.thcS, p, 1], ["n", t.srv, t.srvS, n, 1]].map(([k, l, s, v, st]) =>
@@ -363,7 +368,11 @@ function desk() {
         <div class="ladder">${LCOL.map((c) => `<i style="background:${c}"></i>`).join("")}<em data-mark></em></div>${rows}
         <div class="foot"><a href="#">${t.full}</a><a href="#">${t.guide}</a></div></div>
       <p class="or">${t.or}</p>${sbox()}</section>
-    <div class="sh"><h2>${t.cats}</h2></div><div class="tiles">${ORDER.map(tile).join("")}</div>
+    <div class="sh"><h2>${t.cats}</h2></div><div class="tiles">${ORDER.map(tile).join("")}</div>`;
+}
+function desk() {
+  const t = T[S.lang];
+  return `${deskTop()}
     ${ad()}
     <div class="sh"><h2>${t.pathH}</h2></div><ol class="path">${t.path.map(([b, s]) => `<li><span><b>${b}</b><span>${s}</span></span></li>`).join("")}</ol>
     <div class="sh"><h2>${t.most}</h2><a href="${link({ page: "cat", c: "Desserts" })}">${t.seeAll} →</a></div><div class="grid">${D.list.slice(0, 6).map((x) => card(x)).join("")}</div>
@@ -393,7 +402,7 @@ function results() {
 
 function page() {
   const LOGO = `${ROOT}images/howtoedibleslogo.png`;
-  const body = S.page === "cat" ? category() : S.page === "q" ? results() : { shelves, grid, desk }[S.v]();
+  const body = S.page === "cat" ? category() : S.page === "q" ? results() : { shelves, grid, desk, hybrid }[S.v]();
   const mini = `<div class="mini" id="mini"><div class="wrap"><img class="logo" src="${LOGO}" alt="" width="260" height="93"><span class="spill">${I.search}<span>${T[S.lang].search(D.list.length)}</span></span><span class="ibtn">${I.menu}</span></div></div>`;
   const masthead = `<header class="hdr"><img class="logo" src="${LOGO}" alt="HowToEdibles" width="260" height="93"><div class="tools"><span class="ibtn">${I.search}</span><span class="ibtn">${I.menu}</span></div></header>`;
   const footer = `<footer class="ftr"><div class="wrap"><nav class="cols"><h4>Footer</h4><a href="#">as approved in the navigation ticket</a></nav><p>For adults 21+ where cannabis is legal.</p></div></footer>`;
@@ -413,7 +422,7 @@ function recalc() {
 }
 function bar() {
   const b = (k, v, l) => `<button data-set="${k}" data-v="${v}" aria-pressed="${S[k] === v}">${l}</button>`;
-  return `<div class="grp">${b("v", "shelves", "A Shelves")}${b("v", "grid", "B One grid")}${b("v", "desk", "C Dose desk")}</div>
+  return `<div class="grp">${b("v", "shelves", "A Shelves")}${b("v", "grid", "B One grid")}${b("v", "desk", "C Dose desk")}${b("v", "hybrid", "C+A ✓")}</div>
     <div class="grp">${b("page", "home", "Home")}${b("page", "cat", "Category")}${b("page", "q", "?q=")}</div>
     <div class="grp">${b("lang", "en", "EN")}${b("lang", "pt", "PT")}${b("lang", "de", "DE")}${b("lang", "zh", "中文")}</div>
     <div class="grp">${b("theme", "light", "☀")}${b("theme", "dark", "☾")}${b("fold", "1", "Fold")}</div>
