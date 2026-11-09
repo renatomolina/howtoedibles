@@ -1,0 +1,452 @@
+<!doctype html>
+<!-- PROTOTYPE — throwaway. Answers "What does the recipe page look like on mobile?" (C · Poster direction).
+     Branch prototype/recipe-page only. `python3 -m http.server 8765` from repo root, then
+     /recipes/_prototype-recipe/?v=stack|cook|chapters&r=<slug>&lang=en|pt|de|zh&theme=light|dark&photo=0|1&fold=1 -->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>PROTOTYPE · recipe page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500..800&display=swap">
+<style>
+/* ---------- Poster tokens (visual direction ticket) ---------- */
+:root{--paper:#fff;--ink:#1f1410;--ink-2:#6a5a50;--orange:#f27242;--on-cat:#1f1410;--line:#ecdfd6;--chip:#f6eee9;--focus:#1f1410;--mark:color-mix(in srgb,var(--orange) 70%,transparent);color-scheme:light}
+[data-theme=dark]{--paper:#191210;--ink:#f7ede6;--ink-2:#bba89b;--line:#3a2c26;--chip:#2a1f1b;--focus:#f27242;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
+img{display:block;max-width:100%}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+.disp,h1,h2,h3{font-family:Unbounded,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.icon{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+:lang(de) h1,:lang(de) h2,:lang(de) h3{hyphens:auto;-webkit-hyphens:auto}
+h1,h2,h3{overflow-wrap:break-word}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+/* ---------- cover system (no duotone: photos show in natural colour) ---------- */
+.cv{display:block;position:relative;overflow:hidden;background:var(--cat);color:var(--on-cat);contain:paint}
+.cv>svg{position:absolute;right:-22%;bottom:-22%;width:92%;height:92%;transform:rotate(var(--rot,-12deg))}
+.cv>img{width:100%;height:100%;object-fit:cover}
+.gl{fill:var(--cat-deep)} .gl-l{stroke:var(--cat);fill:none;stroke-width:3}
+.standin{position:absolute;left:12px;bottom:12px;font:600 11px/1 system-ui;background:#000a;color:#fff;padding:5px 8px;border-radius:6px}
+
+/* ---------- shell (approved in the navigation ticket) ---------- */
+.hdr{display:flex;align-items:center;justify-content:space-between;height:108px}
+.hdr .logo{height:86px;width:auto}
+.tools{display:flex;gap:8px}
+.ibtn{width:48px;height:48px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;background:var(--paper);cursor:pointer}
+.mini{position:fixed;inset:0 0 auto;z-index:20;background:var(--paper);border-bottom:2px solid var(--ink);transform:translateY(-105%);transition:transform .22s ease}
+.mini.show{transform:none}
+.mini .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.mini .logo{height:40px;width:auto}
+.mini .ibtn{width:44px;height:44px}
+.mini .spill{flex:1;display:flex;align-items:center;gap:8px;height:44px;border:2px solid var(--ink);border-radius:999px;padding:0 14px;background:var(--chip);font-size:15px;color:var(--ink-2);min-width:0;white-space:nowrap;overflow:hidden}
+.ftr{margin-top:64px;background:var(--orange);color:#1f1410;padding:28px 0 120px}
+.ftr .cols{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
+.ftr h4{font-family:Unbounded,"PingFang SC",sans-serif;font-size:14px;margin:22px 0 4px;grid-column:1/-1}
+.ftr .cols a{display:block;padding:9px 0;font-weight:700;text-decoration:none;font-size:16px}
+.ftr p{font-size:14px;margin:22px 0 0}
+
+/* ================= RECIPE PAGE ================= */
+/* hero: shorter than the visual-direction 300px so title + dose + "Jump" fit Safari's first screen */
+.hero{position:relative}
+.hero .cv{height:var(--hero-h,232px);margin:0 -20px}
+.hero .cv>svg{right:-36px;bottom:-70px;width:280px;height:280px}
+.crumb{position:absolute;left:0;top:16px;z-index:1;font-size:14px;font-weight:700;text-decoration:none;border:2px solid var(--on-cat);color:var(--on-cat);border-radius:999px;padding:6px 14px;background:color-mix(in srgb,var(--cat) 82%,transparent)}
+.sticker{position:absolute;right:-4px;top:calc(var(--hero-h,232px) - 62px);z-index:2;width:112px;height:112px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);box-shadow:0 0 0 4px var(--paper);text-align:center;line-height:1;text-decoration:none;animation:stamp .45s cubic-bezier(.3,1.6,.5,1) .15s both}
+@keyframes stamp{from{transform:rotate(-30deg) scale(1.5);opacity:0}}
+.sticker b{font-family:Unbounded,sans-serif;font-size:36px;font-weight:800;letter-spacing:-.03em}
+.sticker b small{font-size:15px;letter-spacing:0}
+.sticker>span{font-size:12px;margin-top:5px;font-weight:700;max-width:84px;line-height:1.1}
+.sticker.bump{animation:bump .3s ease}
+@keyframes bump{50%{transform:rotate(-8deg) scale(1.08)}}
+/* only the first line(s) of the title wrap around the sticker */
+.sticker-room{float:right;width:112px;height:58px;shape-outside:inset(0 0 0 0)}
+h1{font-weight:800;font-size:clamp(30px,9.4vw,40px);line-height:1.03;letter-spacing:-.03em;margin:22px 0 14px}
+:lang(zh) h1{font-weight:900;letter-spacing:0;line-height:1.15}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);clear:both}
+.facts>div{padding:10px 0 10px 12px;min-width:0}
+.facts>div:first-child{padding-left:0}
+.facts>div+div{border-left:1px solid var(--line)}
+.facts b{display:block;font-family:Unbounded,"PingFang SC",sans-serif;font-size:18px;font-weight:700;line-height:1.2;white-space:nowrap}
+.facts span{display:block;font-size:13px;color:var(--ink-2);line-height:1.25}
+.newbie{display:flex;gap:10px;align-items:flex-start;margin:12px 0 0;font-size:15px;line-height:1.4}
+.newbie .icon{width:20px;height:20px;margin-top:1px;color:var(--orange)}
+.newbie mark{background:linear-gradient(transparent 55%,var(--mark) 55%);color:inherit;font-weight:700}
+.newbie a{font-weight:600}
+.cta{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0 0}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:6px 14px;border:2px solid var(--ink);border-radius:16px;font-weight:700;text-decoration:none;background:var(--paper);cursor:pointer;line-height:1.15;text-align:center;font-size:16px}
+.btn small{display:block;font-weight:500;font-size:12px;color:var(--ink-2)}
+.btn.pri{background:var(--orange);color:#1f1410;border-color:#1f1410}
+.btn .icon{width:20px;height:20px}
+.intro{margin:28px 0 0;font-size:17px;color:var(--ink-2)}
+.intro p{margin:0 0 10px}
+
+section.block{margin-top:44px}
+.block>h2,.bh h2{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1;margin:0}
+.bh{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:6px}
+.hint{font-size:14px;color:var(--ink-2);margin:4px 0 8px}
+
+h1.long{font-size:clamp(26px,7.6vw,32px)}
+.bh{flex-wrap:wrap}
+@media (min-width:1000px){h1.long{font-size:42px}.crumb{left:20px}}
+/* calculator card (internals belong to the calculator ticket; placement is this ticket) */
+.calc{border:2px solid var(--ink);border-radius:24px;padding:18px 16px 16px;margin-top:36px;background:var(--paper)}
+.calc h2{font-size:22px;font-weight:800;margin:0}
+.calc .hint{margin:4px 0 6px}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px solid var(--line)}
+.row label{font-weight:700;line-height:1.2;min-width:0}
+.row label small{display:block;font-weight:500;font-size:13px;color:var(--ink-2)}
+.step{display:flex;align-items:center;border:2px solid var(--ink);border-radius:999px;flex:none}
+.step button{width:44px;height:44px;border:0;background:none;font-size:22px;font-weight:700;cursor:pointer;border-radius:50%}
+.step input{width:62px;height:44px;border:0;background:none;text-align:center;font-family:Unbounded,sans-serif;font-weight:700;font-size:17px;-moz-appearance:textfield;padding:0}
+.step input::-webkit-inner-spin-button{display:none}
+.result{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;padding:14px 16px;border-radius:16px;background:var(--orange);color:#1f1410}
+.result span{font-weight:700;line-height:1.2}
+.result span small{display:block;font-weight:500;font-size:13px}
+.result b{font-family:Unbounded,sans-serif;font-size:32px;font-weight:800;white-space:nowrap;letter-spacing:-.02em}
+.result b small{font-size:16px}
+.calc .foot{display:flex;justify-content:space-between;gap:12px;margin-top:12px;font-size:14px;font-weight:600}
+details.calc-fold{margin-top:14px}
+details.calc-fold>summary{list-style:none}
+details.calc-fold>summary::-webkit-details-marker{display:none}
+details.calc-fold .calc{margin-top:10px}
+
+/* ingredients + steps: native checkboxes, CSS-only strike (no saved state) */
+.ticks{list-style:none;margin:0;padding:0}
+.ticks li{border-top:1px solid var(--line)}
+.ticks li:last-child{border-bottom:1px solid var(--line)}
+.ticks label{display:flex;gap:14px;align-items:flex-start;padding:13px 0;cursor:pointer;font-size:18px;line-height:1.4;-webkit-tap-highlight-color:transparent}
+.ticks input{appearance:none;-webkit-appearance:none;flex:none;width:26px;height:26px;margin:1px 0 0;border:2px solid var(--ink);border-radius:50%;display:grid;place-items:center;cursor:pointer;transition:transform .12s}
+.ticks input:checked{background:var(--ink)}
+.ticks input:checked::after{content:"";width:10px;height:6px;border:solid var(--paper);border-width:0 0 2.5px 2.5px;transform:translate(0,-1px) rotate(-45deg)}
+.ticks input:active{transform:scale(.88)}
+.ticks .t{background:linear-gradient(var(--mark),var(--mark)) no-repeat 0 58%/0 .32em;transition:background-size .25s ease}
+.ticks label:has(input:checked) .t{background-size:100% .32em;color:var(--ink-2)}
+.ticks .t a{font-weight:700;text-decoration-thickness:2px;text-underline-offset:3px}
+.make-first{display:inline-block;margin-left:6px;font-size:13px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--chip);text-decoration:none;vertical-align:2px}
+.steps-l{counter-reset:s}
+.steps-l label{font-size:19px;line-height:1.5;padding:16px 0}
+.steps-l input{width:40px;height:40px;background:var(--cat);border-color:var(--cat);color:var(--on-cat)}
+.steps-l input::before{counter-increment:s;content:counter(s);font-family:Unbounded,sans-serif;font-weight:800;font-size:16px;color:#1f1410}
+.steps-l input:checked{background:var(--ink);border-color:var(--ink)}
+.steps-l input:checked::before{content:none}
+.wake{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px 0 10px;border:2px solid var(--ink);border-radius:999px;background:var(--paper);font-weight:700;font-size:14px;cursor:pointer;white-space:nowrap;flex:none}
+.wake .dot{width:22px;height:22px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center}
+.wake[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.wake[aria-pressed=true] .dot{border-color:var(--orange);background:var(--orange)}
+.wake-note{font-size:13px;color:var(--ink-2);margin:6px 0 0}
+.wake-big{width:100%;justify-content:center;min-height:52px;margin-top:18px;font-size:16px;border-radius:16px}
+
+/* reserved ad slot (AdSense research: below first viewport, labelled, ~280px reserved, no collapse) */
+.ad{margin:44px -20px 0;padding:8px 20px 20px;background:var(--chip)}
+.ad small{display:block;font-size:12px;color:var(--ink-2);margin-bottom:6px;letter-spacing:.04em}
+.ad div{min-height:280px;border:1px dashed color-mix(in srgb,var(--ink-2) 50%,transparent);border-radius:8px;display:grid;place-items:center;font-size:13px;color:var(--ink-2);text-align:center;padding:12px}
+
+/* long tail: Tips open; the rest are native <details> (content stays in the static HTML) */
+.tips{margin:0;padding:0;list-style:none}
+.tips li{position:relative;padding:10px 0 10px 26px;font-size:17px;line-height:1.5}
+.tips li::before{content:"";position:absolute;left:2px;top:19px;width:10px;height:10px;border-radius:50%;background:var(--orange)}
+.acc{border-top:2px solid var(--ink)}
+.acc:last-of-type{border-bottom:2px solid var(--ink)}
+.acc summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;padding:12px 0;cursor:pointer;font-weight:700;font-size:18px;line-height:1.3}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary .pm{flex:none;width:32px;height:32px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;transition:transform .2s}
+.acc[open] summary .pm{transform:rotate(45deg);background:var(--ink);color:var(--paper)}
+.acc .body{padding:0 0 16px}
+.acc .body p{margin:0;color:var(--ink-2)}
+.acc .tips li{font-size:16px}
+.acc-h{font-family:Unbounded,"PingFang SC",sans-serif;font-size:17px;font-weight:700}
+.faq summary{font-size:17px}
+
+/* related */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:14px}
+.card{text-decoration:none;display:block}
+.card .cv{aspect-ratio:1;border-radius:20px}
+.card .cv>svg{right:-26%;bottom:-26%;width:100%;height:100%}
+.card b{display:block;font-weight:700;font-size:16px;line-height:1.25;margin-top:8px}
+.card span{font-size:14px;color:var(--ink-2)}
+
+/* ---------- v=chapters: sticky chapter bar ---------- */
+.chap{position:sticky;top:0;z-index:15;margin:20px -20px 0;padding:0 20px;background:var(--paper);border-bottom:2px solid var(--ink);display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;transition:top .22s ease}
+.chap::-webkit-scrollbar{display:none}
+body.mini-on .chap{top:62px}
+.chap a{flex:none;display:flex;align-items:center;min-height:48px;padding:0 10px;font-weight:700;font-size:15px;text-decoration:none;border-bottom:4px solid transparent;margin-bottom:-2px;white-space:nowrap}
+.chap a[aria-current]{border-color:var(--orange)}
+.chap .wake{margin:6px 0 6px auto;min-height:36px;padding:0 10px 0 6px;font-size:13px}
+.chap .wake .dot{width:18px;height:18px}
+
+/* ---------- desktop ≥1000px: dose + calculator become a sticky right rail ---------- */
+@media (min-width:1000px){
+  .wrap{max-width:1160px;padding:0 32px}
+  .page{display:grid;grid-template-columns:minmax(0,1fr) 380px;column-gap:56px}
+  .page>*{grid-column:1}
+  .page>.rail{grid-column:2;grid-row:1/span 40;align-self:start;position:sticky;top:24px}
+  .rail .calc{margin-top:0}
+  .hero .cv{margin:0;border-radius:28px;height:400px}
+  .hero{--hero-h:400px}
+  .sticker{right:28px;width:132px;height:132px;top:330px}
+  .sticker b{font-size:42px}
+  .sticker-room{width:140px;height:70px}
+  h1{font-size:52px;margin-top:30px}
+  .ad{margin-left:0;margin-right:0;border-radius:16px}
+  .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .chap{margin:20px 0 0;padding:0}
+}
+
+/* ---------- prototype switcher (deliberately off-brand) ---------- */
+#bar{position:fixed;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom));z-index:99;background:#202124;color:#fff;border-radius:14px;padding:6px;display:flex;flex-wrap:wrap;gap:5px;font:12px/1 -apple-system,system-ui,sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+#bar .grp{display:flex;background:#3c4043;border-radius:9px;padding:2px}
+#bar button{border:0;background:none;color:#e8eaed;padding:8px 8px;border-radius:7px;cursor:pointer;white-space:nowrap}
+#bar button[aria-pressed=true]{background:#fff;color:#202124;font-weight:600}
+#bar .min{margin-left:auto}
+body.barmin #bar .grp:not(:last-child){display:none}
+body.shot #bar{display:none}
+#fold{position:absolute;left:0;right:0;top:664px;z-index:98;border-top:2px dashed #e0245e;pointer-events:none}
+#fold span{position:absolute;right:6px;top:2px;font:600 11px/1 system-ui;color:#fff;background:#e0245e;padding:3px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="bar" role="toolbar" aria-label="Prototype controls"></div>
+<script>
+const ROOT = "../../";
+const P = new URLSearchParams(location.search);
+const S = { v: P.get("v") || "stack", r: P.get("r") || "pot-brownies", lang: P.get("lang") || "en", theme: P.get("theme") || "light", photo: P.get("photo") || "0", fold: P.get("fold") || "0" };
+if (P.has("shot")) document.body.classList.add("shot");
+
+const CATS = [
+  ["Desserts", "#f27242", "#c9532a", "cupcake"], ["Drinks", "#62b6e8", "#2f86bd", "glass"], ["Snacks", "#f29cb7", "#d4668a", "cookie"],
+  ["Essentials", "#f4c542", "#d89f12", "butter"], ["Lunch", "#d9b38c", "#a8835a", "bowl"], ["Keto", "#b3a1e6", "#7f69c4", "avocado"],
+  ["Vegan", "#5cc48a", "#2f9660", "leaf"], ["International", "#3fb5b0", "#1f8580", "globe"],
+];
+const CAT = Object.fromEntries(CATS.map(([n, c, d, g]) => [n, { c, d, g }]));
+// Category glyphs stand in for the ~24 dish-form glyphs (drawn in the glyph-sheet ticket).
+const G = {
+  cupcake: '<path class="gl" d="M17 50c0-15 12-24 22-24 3-7 8-10 11-10s8 3 11 10c10 0 22 9 22 24Z"/><circle class="gl" cx="50" cy="12" r="7"/><path class="gl" d="M19 54h62l-8 38H27Z"/><path class="gl-l" d="M38 56l3 34M50 56v34M62 56l-3 34"/>',
+  butter: '<path class="gl" d="M10 46 34 30h56L66 46Z"/><path class="gl" d="M10 46h56v28H10Z"/><path class="gl" d="M66 46 90 30v28L66 74Z" opacity=".75"/><path class="gl-l" d="M30 46v28M46 46v28"/>',
+  glass: '<path class="gl" d="M24 24h52l-7 70H31Z"/><path class="gl-l" d="M27 46h46" /><path d="M58 30 72 4" stroke="var(--cat-deep)" stroke-width="7" stroke-linecap="round" fill="none"/><circle class="gl" cx="74" cy="26" r="13" opacity=".8"/>',
+  cookie: '<path class="gl" fill-rule="evenodd" d="M50 10a40 40 0 1 0 0 80 40 40 0 1 0 0-80Zm-14 20a6 6 0 1 0 0 12 6 6 0 1 0 0-12Zm28 6a5 5 0 1 0 0 10 5 5 0 1 0 0-10ZM44 56a7 7 0 1 0 0 14 7 7 0 1 0 0-14Zm24 8a5 5 0 1 0 0 10 5 5 0 1 0 0-10Z"/>',
+  bowl: '<path class="gl" d="M8 48h84a42 42 0 0 1-84 0Z"/><path d="M34 40c-4-8 4-12 0-22M50 40c-4-8 4-12 0-22M66 40c-4-8 4-12 0-22" stroke="var(--cat-deep)" stroke-width="5" stroke-linecap="round" fill="none"/>',
+  avocado: '<path class="gl" fill-rule="evenodd" d="M50 6c14 0 18 18 24 32 8 18 10 54-24 56-34-2-32-38-24-56C32 24 36 6 50 6Zm0 46a15 15 0 1 0 0 30 15 15 0 1 0 0-30Z"/>',
+  leaf: '<path class="gl" d="M50 96C16 72 14 30 50 4c36 26 34 68 0 92Z"/><path class="gl-l" d="M50 92V22M50 60l-16-14M50 44l14-12M50 76l18-14"/>',
+  globe: '<circle class="gl" cx="50" cy="50" r="42"/><path class="gl-l" d="M8 50h84M50 8c-24 26-24 58 0 84M50 8c24 26 24 58 0 84M16 28h68M16 72h68"/>',
+};
+const I = {
+  search: '<svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+  menu: '<svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>',
+  down: '<svg class="icon" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg>',
+  dial: '<svg class="icon" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>',
+  warn: '<svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.5h.01"/></svg>',
+  plus: '<svg class="icon" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M12 5v14M5 12h14"/></svg>',
+  sun: '<svg class="icon" viewBox="0 0 24 24" style="width:14px;height:14px"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+};
+
+// New UI strings this layout needs (drafts; the i18n fog on the map owns the final copy).
+const T = {
+  en: { per: "per serving", prep: "Prep", cook: "Cook", total: "Total time", makes: "Makes", servings: (n) => `${n} servings`, batch: "Whole batch",
+        newbie: (f, mg) => f ? `First time? Eat <mark>${f} of a serving (≈${mg} mg)</mark> and wait 2 hours before more.` : `First time? <mark>One serving</mark> is a gentle start. Wait 2 hours before more.`,
+        newbieLink: "Beginner guide", jump: "Jump to recipe", adjust: "Adjust dose", adjSub: (g, p) => `${g} g · ${p}% THC`,
+        dose: "Your dose", doseHint: "Match these to your cannabis before you start cooking.", grams: "Cannabis", gramsS: "grams", thc: "THC strength", thcS: "% on the label · 14% if unsure",
+        portions: "Servings", portionsS: "pieces you'll cut", result: "THC per serving", resultS: (b) => `${b} mg in the whole batch`, calcPage: "Full calculator", guide: "Potency guide",
+        ing: "Ingredients", steps: "Steps", tap: "Tap each one off as you go.", wake: "Keep screen on", wakeOn: "Screen stays on", wakeNo: "Your browser can't keep the screen on.",
+        tips: "Dosing tips", more: "Good to know", faq: "Questions", related: (c) => `More ${c.toLowerCase()}`, about: "About this recipe", ad: "Advertisements",
+        chap: ["Dose", "Ingredients", "Steps", "Tips", "Questions"], makeFirst: "Make it first →", min: "min", h: "h" },
+  pt: { per: "por porção", prep: "Preparo", cook: "Cozimento", total: "Tempo total", makes: "Rende", servings: (n) => `${n} porções`, batch: "Receita toda",
+        newbie: (f, mg) => f ? `Primeira vez? Coma <mark>${f} de porção (≈${mg} mg)</mark> e espere 2 horas antes de comer mais.` : `Primeira vez? <mark>Uma porção</mark> é um começo leve. Espere 2 horas antes de comer mais.`,
+        newbieLink: "Guia para iniciantes", jump: "Ir para a receita", adjust: "Ajustar dose", adjSub: (g, p) => `${g} g · ${p}% THC`,
+        dose: "Sua dose", doseHint: "Ajuste para a sua cannabis antes de começar.", grams: "Cannabis", gramsS: "gramas", thc: "Potência de THC", thcS: "% do rótulo · 14% se não souber",
+        portions: "Porções", portionsS: "pedaços que vai cortar", result: "THC por porção", resultS: (b) => `${b} mg na receita toda`, calcPage: "Calculadora completa", guide: "Guia de potência",
+        ing: "Ingredientes", steps: "Modo de preparo", tap: "Toque em cada um conforme for fazendo.", wake: "Tela sempre ligada", wakeOn: "Tela fica ligada", wakeNo: "Seu navegador não mantém a tela ligada.",
+        tips: "Dicas de dosagem", more: "Bom saber", faq: "Perguntas", related: (c) => `Mais ${c.toLowerCase()}`, about: "Sobre esta receita", ad: "Publicidade",
+        chap: ["Dose", "Ingredientes", "Preparo", "Dicas", "Perguntas"], makeFirst: "Faça antes →", min: "min", h: "h" },
+  de: { per: "pro Portion", prep: "Vorbereitung", cook: "Kochen", total: "Gesamtzeit", makes: "Ergibt", servings: (n) => `${n} Portionen`, batch: "Ganzes Rezept",
+        newbie: (f, mg) => f ? `Zum ersten Mal? Iss <mark>${f} Portion (≈${mg} mg)</mark> und warte 2 Stunden, bevor du mehr nimmst.` : `Zum ersten Mal? <mark>Eine Portion</mark> ist ein sanfter Einstieg. Warte 2 Stunden, bevor du mehr nimmst.`,
+        newbieLink: "Leitfaden für Einsteiger", jump: "Zum Rezept", adjust: "Dosis anpassen", adjSub: (g, p) => `${g} g · ${p} % THC`,
+        dose: "Deine Dosis", doseHint: "Passe die Werte an dein Cannabis an, bevor du loslegst.", grams: "Cannabis", gramsS: "Gramm", thc: "THC-Gehalt", thcS: "% laut Etikett · 14 % wenn unsicher",
+        portions: "Portionen", portionsS: "Stücke, die du schneidest", result: "THC pro Portion", resultS: (b) => `${b} mg im ganzen Rezept`, calcPage: "Ganzer Rechner", guide: "Potenz-Leitfaden",
+        ing: "Zutaten", steps: "Zubereitung", tap: "Tippe jeden Schritt ab, wenn er erledigt ist.", wake: "Bildschirm anlassen", wakeOn: "Bildschirm bleibt an", wakeNo: "Dein Browser kann den Bildschirm nicht anlassen.",
+        tips: "Dosierungstipps", more: "Gut zu wissen", faq: "Fragen", related: (c) => `Mehr ${c}`, about: "Über dieses Rezept", ad: "Anzeigen",
+        chap: ["Dosis", "Zutaten", "Zubereitung", "Tipps", "Fragen"], makeFirst: "Zuerst machen →", min: "Min.", h: "Std." },
+  zh: { per: "每份", prep: "准备", cook: "烹饪", total: "总时长", makes: "份量", servings: (n) => `${n} 份`, batch: "整份",
+        newbie: (f, mg) => f ? `第一次？先吃<mark>${f} 份（约 ${mg} 毫克）</mark>，等 2 小时再决定是否加量。` : `第一次？<mark>一份</mark>就是温和的开始。等 2 小时再决定是否加量。`,
+        newbieLink: "新手入门", jump: "直接看做法", adjust: "调整剂量", adjSub: (g, p) => `${g} 克 · ${p}% THC`,
+        dose: "你的剂量", doseHint: "开始做之前，按你的大麻填写这三项。", grams: "大麻", gramsS: "克", thc: "THC 含量", thcS: "标签上的 % · 不确定就填 14%",
+        portions: "份数", portionsS: "切成几块", result: "每份 THC", resultS: (b) => `整份共 ${b} 毫克`, calcPage: "完整计算器", guide: "效力参考",
+        ing: "配料", steps: "步骤", tap: "做完一项就点一下。", wake: "屏幕常亮", wakeOn: "屏幕保持常亮", wakeNo: "你的浏览器无法保持屏幕常亮。",
+        tips: "剂量提示", more: "小知识", faq: "常见问题", related: (c) => `更多${c}`, about: "关于这道食谱", ad: "广告",
+        chap: ["剂量", "配料", "步骤", "提示", "问题"], makeFirst: "先做这个 →", min: "分钟", h: "小时" },
+};
+const FRAC = { en: { "1/2": "½", "1/3": "⅓", "1/4": "¼", "1/6": "⅙" }, pt: { "1/2": "½", "1/3": "⅓", "1/4": "¼", "1/6": "⅙" }, de: { "1/2": "½", "1/3": "⅓", "1/4": "¼", "1/6": "⅙" }, zh: { "1/2": "半", "1/3": "三分之一", "1/4": "四分之一", "1/6": "六分之一" } };
+
+// ---------------- data (real files) ----------------
+let D = null;
+async function load() {
+  const j = (p) => fetch(ROOT + p).then((r) => r.json());
+  const L = S.lang;
+  const [rec, ui, tr, txt, enr, secL, secEn] = await Promise.all([j("data/recipes.json"), j(`i18n/${L}.json`), L === "en" ? null : j(`i18n/recipes_${L}.json`),
+    j("data/recipes_text.json"), j("data/recipe_enrichment.json"), j(`i18n/recipe_sections_${L}.json`), j("i18n/recipe_sections_en.json")]);
+  D = { rec, ui, tr, txt, enr, secL, secEn, lang: L };
+}
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const clean = (s) => s.replace(/&deg;/g, "°").replace(/&frac12;/g, "½").replace(/&frac14;/g, "¼").replace(/&nbsp;/g, " ").replace(/(\d)\s*cup(?=[a-z])/gi, "$1 cup ");
+const fmt = (x) => (x >= 10 ? Math.round(x) : Math.round(x * 10) / 10).toLocaleString(S.lang === "zh" ? "zh-CN" : S.lang);
+const iso = (p) => { const m = /PT(?:(\d+)H)?(?:(\d+)M)?/.exec(p || ""); return m ? (+m[1] || 0) * 60 + (+m[2] || 0) : 0; };
+const dur = (m) => { const t = T[S.lang]; return m >= 60 ? `${Math.floor(m / 60)} ${t.h}${m % 60 ? " " + (m % 60) : ""}` : `${m} ${t.min}`; };
+const interp = (s, v) => s.replace(/%\{(\w+)\}/g, (_, k) => v[k] ?? "");
+const seed = (s) => [...s].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+const cv = (cat, slug, photo) => { const c = CAT[cat]; const rot = -24 + (seed(slug || cat) % 30);
+  return `<span class="cv" style="--cat:${c.c};--cat-deep:${c.d};--rot:${rot}deg" aria-hidden="true">${photo ? `<img src="${ROOT}images/recipes/${slug}.jpg" alt="" width="1600" height="1200" fetchpriority="high"><span class="standin">STAND-IN · 260px photo, fails the gate</span>` : `<svg viewBox="0 0 100 100">${G[c.g]}</svg>`}</span>`; };
+const pre = () => (S.lang === "en" ? "" : "/" + S.lang);
+function nameOf(slug) { return D.tr?.[slug]?.name || D.rec.recipes.find((r) => r.slug === slug).name; }
+
+function sections(R) {
+  const e = D.enr[R.slug] || {}, sub = e.sub_category || "general", name = nameOf(R.slug);
+  const tm = D.secL.templates?.[R.category_name]?.[sub] || D.secEn.templates?.[R.category_name]?.[sub] || {};
+  const v = { name, base_fat: e.base_fat || "cannabutter", cook_temp: e.cook_temp || "350°F / 180°C", category: R.category_name };
+  const own = (k) => D.tr?.[R.slug]?.[k] || e[k];
+  const lab = (k) => interp(D.secL.section_labels?.[k] || D.secEn.section_labels[k], v);
+  const tips = (tm.dosing_tips || []).map((x) => interp(x, v)); if (own("dosing_unique")) tips.push(own("dosing_unique"));
+  const storage = (tm.storage || []).map((x) => interp(x, v)); if (own("storage_unique")) storage.push(own("storage_unique"));
+  const vars = (tm.variations || []).map((x) => interp(x, v)); if (own("variation_unique")) vars.push(own("variation_unique"));
+  return { intro: (interp(tm.intro || "", { ...v, name: name.toLowerCase() }) + " " + (own("intro_unique") || "")).trim(), tips, tipsL: lab("dosing_tips"),
+    acc: [[lab("common_mistakes"), (tm.common_mistakes || []).map((x) => interp(x, v))], [lab("storage"), storage], [lab("variations"), vars]],
+    faq: (tm.faq || []).map((f) => [interp(f.q, v), interp(f.a, v)]), faqL: lab("faq") };
+}
+
+// ---------------- page ----------------
+function page() {
+  const t = T[S.lang], R = D.rec.recipes.find((r) => r.slug === S.r), c = CAT[R.category_name], e = D.enr[R.slug] || {};
+  const tx = S.lang === "en" ? D.txt[R.slug] : D.tr[R.slug];
+  const name = nameOf(R.slug), catT = D.ui.categories[R.category_name];
+  const g = R.suggested_quantity, n = R.suggested_portion, p = 14, mg = (10 * g * p) / n;
+  const sec = sections(R), photo = S.photo === "1";
+  const LOGO = `${ROOT}images/howtoedibleslogo.png`;
+  const desc = tx?.description || R.description;
+  const total = iso(e.totalTime) || iso(e.prepTime) + iso(e.cookTime);
+
+  const ingL = (tx?.ingredients || []).map((i) => { let s = esc(clean(i));
+    s = s.replace(/(cannabutter|canna-?butter|Cannabutter|大麻黄油|manteiga de cannabis)/, (m) => R.slug === "cannabutter" ? m : `<a href="${pre()}/recipes/cannabutter/">${m}</a><a class="make-first" href="${pre()}/recipes/cannabutter/">${t.makeFirst}</a>`);
+    return `<li><label><input type="checkbox"><span class="t">${s}</span></label></li>`; }).join("");
+  const stepL = (tx?.instructions || []).map((i) => `<li><label><input type="checkbox" aria-label=""><span class="t">${esc(clean(i))}</span></label></li>`).join("");
+  const wake = (cls = "") => `<button type="button" class="wake ${cls}" data-wake aria-pressed="false"><span class="dot">${I.sun}</span>${t.wake}</button>`;
+
+  const calc = `<div class="calc" id="dose"><h2>${t.dose}</h2><p class="hint">${t.doseHint}</p>
+      ${[["g", t.grams, t.gramsS, g, 0.5], ["p", t.thc, t.thcS, p, 1], ["n", t.portions, t.portionsS, n, 1]].map(([k, l, s, val, st]) =>
+        `<div class="row"><label for="in-${k}">${l}<small>${s}</small></label><div class="step"><button type="button" data-step="${k}" data-d="-${st}" aria-label="−">−</button><input id="in-${k}" data-k="${k}" type="number" inputmode="decimal" step="any" min="0" value="${val}"><button type="button" data-step="${k}" data-d="${st}" aria-label="+">+</button></div></div>`).join("")}
+      <div class="result" aria-live="polite"><span>${t.result}<small data-batch>${t.resultS(fmt(mg * n))}</small></span><b data-mg>${fmt(mg)}<small> mg</small></b></div>
+      <div class="foot"><a href="${pre()}/calculator.html">${t.calcPage}</a><a href="${pre()}/calculator.html#potency">${t.guide}</a></div></div>`;
+
+  const fr = mg > 6 ? Object.entries({ "1/2": 0.5, "1/3": 1 / 3, "1/4": 0.25, "1/6": 1 / 6 }).sort((a, b) => Math.abs(a[1] - 5 / mg) - Math.abs(b[1] - 5 / mg))[0] : null;
+  const newbie = `<p class="newbie">${I.warn}<span data-newbie>${t.newbie(fr && FRAC[S.lang][fr[0]], fr && fmt(mg * fr[1]))} <a href="${pre()}/edibles-for-beginners.html">${t.newbieLink}</a></span></p>`;
+
+  const hero = `<section class="hero" style="--cat:${c.c};--cat-deep:${c.d}">${cv(R.category_name, R.slug, photo)}<a class="crumb" href="#">${esc(catT)}</a>
+      <a class="sticker" href="#dose" data-open-calc><b data-mg>${fmt(mg)}<small>mg</small></b><span>${t.per}</span></a>
+      <span class="sticker-room" aria-hidden="true"></span><h1${name.length > 28 ? ' class="long"' : ""}>${esc(name)}</h1>
+      <div class="facts"><div><b>${dur(total)}</b><span>${t.total}</span></div><div><b data-n>${fmt(n)}</b><span>${t.makes}</span></div><div><b data-batchmg>${fmt(mg * n)} mg</b><span>${t.batch}</span></div></div>
+      ${newbie}
+      <div class="cta"><a class="btn" href="#dose" data-open-calc>${I.dial}<span>${t.adjust}<small data-adj>${t.adjSub(fmt(g), p)}</small></span></a><a class="btn pri" href="#recipe">${t.jump}${I.down}</a></div></section>`;
+
+  const intro = `<div class="intro"><p>${esc(desc)}</p><p>${esc(sec.intro)}</p></div>`;
+  const ingB = `<section class="block" id="recipe"><div class="bh"><h2 id="ing">${t.ing}</h2>${S.v === "chapters" ? "" : wake()}</div><p class="hint">${t.tap}</p><ul class="ticks">${ingL}</ul></section>`;
+  const stepB = `<section class="block" id="steps" style="--cat:${c.c}"><div class="bh"><h2>${t.steps}</h2></div><ol class="ticks steps-l">${stepL}</ol>${S.v === "chapters" ? "" : wake("wake-big")}<p class="wake-note" data-wake-note hidden>${t.wakeNo}</p></section>`;
+  const ad = (k) => `<aside class="ad" aria-label="${t.ad}"><small>${t.ad}</small><div>Manual slot ${k} · responsive · min-height 280px reserved<br>position provisional: “Where do the manual ad slots go?”</div></aside>`;
+  const tipsB = `<section class="block" id="tips"><h2>${t.tips}</h2><ul class="tips">${sec.tips.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+      <div style="margin-top:22px">${sec.acc.filter(([, l]) => l.length).map(([h, l]) => `<details class="acc"${S.v === "chapters" ? " open" : ""}><summary><span class="acc-h">${esc(h)}</span><span class="pm">${I.plus}</span></summary><div class="body"><ul class="tips">${l.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></div></details>`).join("")}</div></section>`;
+  const faqB = `<section class="block" id="faq"><h2>${t.faq}</h2><div style="margin-top:12px">${sec.faq.map(([q, a]) => `<details class="acc faq"><summary>${esc(q)}<span class="pm">${I.plus}</span></summary><div class="body"><p>${esc(a)}</p></div></details>`).join("")}</div></section>`;
+  const rel = D.rec.recipes.filter((x) => x.category_name === R.category_name && x.slug !== R.slug).sort((a, b) => seed(a.slug + R.slug) - seed(b.slug + R.slug)).slice(0, 4);
+  const relB = `<section class="block"><h2>${t.related(catT)}</h2><div class="grid">${rel.map((x) => `<a class="card" href="?${new URLSearchParams({ ...S, r: x.slug })}">${cv(x.category_name, x.slug)}<b>${esc(nameOf(x.slug))}</b><span>${fmt((10 * x.suggested_quantity * 14) / x.suggested_portion)} mg ${t.per}</span></a>`).join("")}</div></section>`;
+  const chap = `<nav class="chap" aria-label="${esc(name)}">${t.chap.map((l, i) => `<a href="#${["dose", "recipe", "steps", "tips", "faq"][i]}">${l}</a>`).join("")}${wake()}</nav>`;
+  const aboutB = `<section class="block"><h2>${t.about}</h2>${intro}</section>`;
+
+  const rail = `<div class="rail">${S.v === "cook" ? `<details class="calc-fold" id="fold-calc"><summary class="btn" style="justify-content:space-between">${t.dose}: <span data-mg-inline>${fmt(mg)} mg ${t.per}</span>${I.plus}</summary>${calc}</details>` : calc}</div>`;
+  const body = {
+    stack: [hero, intro, rail, ingB, stepB, ad(1), tipsB, faqB, ad(2), relB],
+    cook: [hero, rail, ingB, stepB, ad(1), aboutB, tipsB, faqB, ad(2), relB],
+    chapters: [hero, chap, intro, rail, ingB, stepB, ad(1), tipsB, faqB, ad(2), relB],
+  }[S.v].join("");
+
+  const mini = `<div class="mini" id="mini"><div class="wrap"><img class="logo" src="${LOGO}" alt="" width="260" height="93"><span class="spill">${I.search}<span>Search 237 recipes</span></span><span class="ibtn">${I.menu}</span></div></div>`;
+  const masthead = `<header class="hdr"><img class="logo" src="${LOGO}" alt="HowToEdibles" width="260" height="93"><div class="tools"><span class="ibtn">${I.search}</span><span class="ibtn">${I.menu}</span></div></header>`;
+  const footer = `<footer class="ftr"><div class="wrap"><nav class="cols"><h4>Footer</h4><a href="#">as approved in the navigation ticket</a></nav><p>For adults 21+ where cannabis is legal.</p></div></footer>`;
+  return { html: `${mini}<div class="wrap">${masthead}<main class="page">${body}</main></div>${footer}${S.fold === "1" ? '<div id="fold"><span>Safari first screen · 664px</span></div>' : ""}`, R };
+}
+
+// ---------------- behaviour ----------------
+let CUR = null;
+function recalc() {
+  const t = T[S.lang], v = Object.fromEntries([...document.querySelectorAll("[data-k]")].map((i) => [i.dataset.k, Math.max(0, parseFloat(i.value) || 0)]));
+  const mg = v.n ? (10 * v.g * v.p) / v.n : 0;
+  document.querySelectorAll("[data-mg]").forEach((el) => (el.innerHTML = `${fmt(mg)}<small>${el.closest(".sticker") ? "" : " "}mg</small>`));
+  document.querySelectorAll("[data-mg-inline]").forEach((el) => (el.textContent = `${fmt(mg)} mg ${t.per}`));
+  document.querySelector("[data-batch]").textContent = t.resultS(fmt(mg * v.n));
+  document.querySelector("[data-batchmg]").textContent = `${fmt(mg * v.n)} mg`;
+  document.querySelector("[data-n]").textContent = fmt(v.n);
+  document.querySelector("[data-adj]").textContent = t.adjSub(fmt(v.g), fmt(v.p));
+  const fr = mg > 6 ? Object.entries({ "1/2": 0.5, "1/3": 1 / 3, "1/4": 0.25, "1/6": 1 / 6 }).sort((a, b) => Math.abs(a[1] - 5 / mg) - Math.abs(b[1] - 5 / mg))[0] : null;
+  const nb = document.querySelector("[data-newbie]"); nb.innerHTML = t.newbie(fr && FRAC[S.lang][fr[0]], fr && fmt(mg * fr[1])) + " " + nb.querySelector("a").outerHTML;
+  const st = document.querySelector(".sticker"); st.classList.remove("bump"); void st.offsetWidth; st.classList.add("bump");
+}
+function applyTheme() { document.documentElement.dataset.theme = S.theme; }
+function bar() {
+  const b = (k, v, l) => `<button data-set="${k}" data-v="${v}" aria-pressed="${S[k] === v}">${l}</button>`;
+  return `<div class="grp">${b("v", "stack", "A Stack")}${b("v", "cook", "B Cook first")}${b("v", "chapters", "C Chapters")}</div>
+    <div class="grp">${b("r", "pot-brownies", "Brownies")}${b("r", "cannabutter", "Butter")}${b("r", "cannabis-hot-chocolate", "Cocoa")}${b("r", "infused-keto-chocolate-avocado-mousse", "Long")}</div>
+    <div class="grp">${b("lang", "en", "EN")}${b("lang", "pt", "PT")}${b("lang", "de", "DE")}${b("lang", "zh", "中文")}</div>
+    <div class="grp">${b("theme", "light", "☀")}${b("theme", "dark", "☾")}${b("photo", "0", "Cover")}${b("photo", "1", "Photo")}${b("fold", "1", "Fold")}</div>
+    <div class="grp min"><button data-min>▾</button></div>`;
+}
+function sync() { history.replaceState(null, "", "?" + new URLSearchParams(S)); document.getElementById("bar").innerHTML = bar(); }
+async function render() {
+  if (!D || D.lang !== S.lang) await load();
+  document.documentElement.lang = S.lang === "zh" ? "zh-Hans" : S.lang;
+  applyTheme();
+  const { html } = page();
+  document.getElementById("app").innerHTML = html;
+  sync(); spy();
+}
+
+// compact bar: in on scroll-up only (navigation ticket); chapter bar slides under it
+let lastY = scrollY;
+addEventListener("scroll", () => {
+  const m = document.getElementById("mini"), y = scrollY;
+  if (m && Math.abs(y - lastY) > 6) { const on = y > 140 && y < lastY; m.classList.toggle("show", on); document.body.classList.toggle("mini-on", on); lastY = y; }
+  spy();
+}, { passive: true });
+function spy() {
+  const links = [...document.querySelectorAll(".chap a")]; if (!links.length) return;
+  let cur = links[0];
+  for (const a of links) { const el = document.querySelector(a.getAttribute("href")); if (el && el.getBoundingClientRect().top < 140) cur = a; }
+  links.forEach((a) => a.toggleAttribute("aria-current", a === cur));
+  if (cur.hasAttribute("aria-current")) cur.scrollIntoView({ block: "nearest", inline: "nearest" });
+}
+
+// keep screen on (Wake Lock API); re-acquire when the tab comes back
+let lock = null;
+async function wake(on) {
+  try { if (on) { lock = await navigator.wakeLock.request("screen"); lock.addEventListener("release", () => !document.hidden && setWake(false)); } else { await lock?.release(); lock = null; } setWake(on); }
+  catch { document.querySelectorAll("[data-wake-note]").forEach((n) => (n.hidden = false)); setWake(false); }
+}
+function setWake(on) { const t = T[S.lang]; document.querySelectorAll("[data-wake]").forEach((b) => { b.setAttribute("aria-pressed", on); b.lastChild.textContent = on ? t.wakeOn : t.wake; }); }
+document.addEventListener("visibilitychange", () => { if (!document.hidden && document.querySelector('[data-wake][aria-pressed="true"]')) wake(true); });
+
+document.addEventListener("input", (e) => e.target.dataset.k && recalc());
+document.addEventListener("click", (e) => {
+  const set = e.target.closest("[data-set]"); if (set) { S[set.dataset.set] = S[set.dataset.set] === set.dataset.v && set.dataset.set === "fold" ? "0" : set.dataset.v; return render(); }
+  if (e.target.closest("[data-min]")) return document.body.classList.toggle("barmin");
+  const st = e.target.closest("[data-step]");
+  if (st) { const i = document.getElementById("in-" + st.dataset.step); i.value = Math.max(0, Math.round(((parseFloat(i.value) || 0) + parseFloat(st.dataset.d)) * 10) / 10); return recalc(); }
+  if (e.target.closest("[data-open-calc]")) { const f = document.getElementById("fold-calc"); if (f) f.open = true; }
+  const w = e.target.closest("[data-wake]"); if (w) return wake(w.getAttribute("aria-pressed") !== "true");
+  const card = e.target.closest(".card"); if (card) { e.preventDefault(); S.r = new URL(card.href).searchParams.get("r"); render().then(() => scrollTo(0, 0)); }
+});
+render();
+</script>
+</body>
+</html>
