@@ -39,7 +39,7 @@ h1,h2,h3{font-family:Unbounded,"PingFang SC","Hiragino Sans GB","Noto Sans SC",s
 
 /* ---------- shell (navigation ticket) ---------- */
 .hdr{display:flex;align-items:center;justify-content:space-between;height:108px}
-.hdr .logo{height:86px;width:auto}
+.hdr .logo{height:auto;width:min(240px,calc(100vw - 40px - 116px))}
 .tools{display:flex;gap:8px}
 .ibtn{width:48px;height:48px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;background:var(--paper)}
 .mini{position:fixed;inset:0 0 auto;z-index:20;background:var(--paper);border-bottom:2px solid var(--ink);transform:translateY(-105%);transition:transform .22s ease}
@@ -48,10 +48,12 @@ body.mini-on .mini{transform:none}
 .mini .logo{height:40px;width:auto}
 .mini .ibtn{width:44px;height:44px}
 .mini .spill{flex:1;display:flex;align-items:center;gap:8px;height:44px;border:2px solid var(--ink);border-radius:999px;padding:0 14px;background:var(--chip);font-size:15px;color:var(--ink-2);min-width:0;white-space:nowrap;overflow:hidden}
+.mini .spill span{overflow:hidden;text-overflow:ellipsis}
 .ftr{margin-top:64px;background:var(--orange);color:#1f1410;padding:28px 0 140px;font-size:14px}
 
 /* ================= HERO (recipe-page ticket, A · Stack) ================= */
-.hero{position:relative}
+.hero{position:relative;--hero-h:clamp(120px,calc(100svh - 428px),232px)}
+.hero:has(h1.long){--hero-h:clamp(100px,calc(100svh - 470px),190px)}
 .hero .cv{height:var(--hero-h,232px);margin:0 -20px}
 .hero .cv>svg{width:auto;height:var(--gh)}
 .crumb{position:absolute;left:0;top:16px;z-index:1;font-size:14px;font-weight:700;text-decoration:none;border:2px solid #1f1410;color:#1f1410;border-radius:999px;padding:6px 14px;background:color-mix(in srgb,var(--cat) 82%,transparent)}
@@ -209,7 +211,7 @@ body.panel-peek .calc.peeking .peek{opacity:1;pointer-events:auto}
   .page>.rail{grid-column:2;grid-row:1/span 40;align-self:start}
   .rail .block{margin-top:0}
   .hero .cv{margin:0;border-radius:28px}
-  .hero{--hero-h:400px}
+  .hero,.hero:has(h1.long){--hero-h:400px}
   .crumb{left:20px}
   .sticker{right:28px;width:132px;height:132px;top:330px}
   .sticker b{font-size:42px}
@@ -446,7 +448,7 @@ function page() {
 
   const hero = `<section class="hero" style="${vars(R.category_name)}">${cover(R.slug, R.category_name, "hero")}<a class="crumb" href="#">${esc(catT)}</a>
       <a class="sticker" href="#dose" id="sticker"><b data-o="mgs">${fmtMg(mg)}<small>mg</small></b><span>${t().per}</span></a>
-      <span class="sticker-room" aria-hidden="true"></span><h1${name.length > 28 ? ' class="long"' : ""}>${esc(name)}</h1>
+      <span class="sticker-room" aria-hidden="true"></span><h1${name.length > 22 ? ' class="long"' : ""}>${esc(name)}</h1>
       <div class="facts"><div><b>${dur(total)}</b><span>${t().total}</span></div><div><b data-o="n">${x.n}</b><span>${t().makes}</span></div><div><b data-o="batch">${fmtMg(mg * x.n)} mg</b><span>${t().batch}</span></div></div>
       ${showHero() ? `<p class="newbie">${I.warn}<span data-o="newbie">${newbieHTML(mg)}</span></p>` : ""}
       <div class="cta"><a class="btn" href="#dose">${I.dial}<span>${t().adjust}<small data-o="adj">${t().adjSub(fmtG(x.g), nf(x.s, 1))}</small></span></a><a class="btn pri" href="#recipe">${t().jump}${I.down}</a></div></section>`;
@@ -566,7 +568,7 @@ document.addEventListener("click", (e) => {
   const w = e.target.closest("[data-wake]"); if (w) return wake(w.getAttribute("aria-pressed") !== "true");
   const c = e.target.closest("[data-card]"); if (c) { e.preventDefault(); S.r = c.dataset.card; render().then(() => scrollTo(0, 0)); }
 });
-render();
+render().then(() => document.fonts.ready).then(() => measure());
 </script>
 </body>
 </html>

@@ -23,7 +23,7 @@ for (const q of queries) {
   const loaded = new Promise((r) => evs.push((m) => m.method === "Page.loadEventFired" && r()));
   await send("Page.navigate", { url: `http://127.0.0.1:8766/recipes/_prototype-recipe-final/?shot=1&${q}` });
   await loaded; await sleep(3500);
-  const m = await send("Runtime.evaluate", { returnByValue: true, expression: "JSON.stringify(window.__m)+' docW '+document.documentElement.scrollWidth" });
+  const m = await send("Runtime.evaluate", { returnByValue: true, expression: `JSON.stringify(window.__m)+' docW '+document.documentElement.scrollWidth+' wider: '+[...document.querySelectorAll('body *')].filter(e=>!e.closest('#bar,.chips,.cv,svg')&&e.getBoundingClientRect().right>${VW}+0.5).slice(0,8).map(e=>e.tagName+'.'+(e.className.baseVal??e.className)+' r='+Math.round(e.getBoundingClientRect().right)+' «'+(e.textContent||'').trim().slice(0,24)+'»').join(' | ')` });
   const { cssContentSize } = await send("Page.getLayoutMetrics");
   const h = full ? Math.min(cssContentSize.height, 14000) : VH;
   const shot = await send("Page.captureScreenshot", full ? { format: "jpeg", quality: 70, captureBeyondViewport: true, clip: { x: 0, y: 0, width: VW, height: h, scale: 1 } } : { format: "jpeg", quality: 72 });
