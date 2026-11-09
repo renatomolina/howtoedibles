@@ -116,7 +116,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var gLabel = document.getElementById('grams-quantity-label');
     var gRecipe = document.getElementById('grams-quantity-recipe');
     if (gLabel)  gLabel.textContent  = pluralize('gram', state.grams);
-    if (gRecipe) gRecipe.textContent = pluralize('gram', state.grams, true);
+    // Number only: the ingredient text carries its own unit ("N grams cannabis").
+    if (gRecipe) gRecipe.textContent = String(+parseFloat(state.grams).toFixed(2));
   }
 
   function renderPotency() {

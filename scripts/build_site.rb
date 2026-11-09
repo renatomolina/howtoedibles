@@ -1226,6 +1226,8 @@ end
 # Recipe pages
 # ─────────────────────────────────────────────
 
+FLOWER_AMOUNT_RE = /(\d+(?:[.,]\d+)?)(\s*(?:gramas?\b|gramos?\b|Gramm\b|g\b|克))?(\s*(?:de\s+)?)(ground\s*weed|maconha triturada|erva moída|cannabis moída|marihuana molida|hierba molida|cannabis molida|gemahlenes Gras|gemahlenes Cannabis|研磨好的大麻|研磨大麻)/i
+
 def build_recipe_page(recipe, lang)
   prefix = lang_prefix(lang)
   slug = recipe["slug"]
@@ -1250,14 +1252,17 @@ def build_recipe_page(recipe, lang)
 
   if translated_ings.is_a?(Array) && !translated_ings.empty?
     items = translated_ings.map do |ing|
-      ing_html = ing.gsub(/(\d+(\.\d+)?)\s*(ground\s*weed|maconha triturada|erva moída|marihuana molida|hierba molida|gemahlenes Gras|gemahlenes Cannabis|研磨好的大麻)/i) do
-        "<span id=\"grams-quantity-recipe\">#{$1}</span> #{$3.gsub(' ', '&nbsp;')}"
+      # Wrap the flower amount so the slider updates it; add "g" only when the text has no unit.
+      ing_html = ing.sub(FLOWER_AMOUNT_RE) do
+        unit, sep, term = $2, $3, $4
+        num = %w[pt es de].include?(lang) ? fmt_num(qty).tr(".", ",") : fmt_num(qty)  # always the recipe default
+        "<span id=\"grams-quantity-recipe\">#{num}</span>#{unit || '&nbsp;g'}#{sep.empty? && !unit ? ' ' : sep}#{term}"
       end
       "<li class=\"list-group-item\">#{ing_html}</li>"
     end
     ingredients_html = "<ul class=\"list-group\">\n\t#{items.join("\n\t")}\n</ul>\n"
   else
-    ingredients_html = recipe["ingredients"] || ""
+    ingredients_html = (recipe["ingredients"] || "").gsub(%r{(<span id="grams-quantity-recipe">)[^<]*(</span>)}) { "#{$1}#{fmt_num(qty)}#{$2}" }
   end
 
   if translated_ins.is_a?(Array) && !translated_ins.empty?

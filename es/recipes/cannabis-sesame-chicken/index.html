@@ -542,7 +542,7 @@
       <h3>¿Cuánta marihuana tienes?</h3>
     </div>
     <input id="grams-slider" type="range"
-           min="0.01" max="28" step="0.1" value="3.5" />
+           min="0.01" max="28" step="0.1" value="0.4" />
     <div class="calculator-control mt-2 mb-3">
       <a href="#" id="decrease-quantity">
         <i class="fa fa-minus-circle fa-lg yellow" aria-hidden="true"></i>
@@ -645,16 +645,16 @@
     <span>Tu Dosis</span>
   </div>
   <div class="dosage-panel-body">
-    <p class="dose-summary mb-2">Con los valores predeterminados (3.5 g de cannabis con 14% de THC, 4 porciones), cada porción contiene unos 122.5 mg de THC. Ajusta la calculadora según tu cannabis.</p>
+    <p class="dose-summary mb-2">Con los valores predeterminados (0,4 g de cannabis con 14% de THC, 4 porciones), cada porción contiene unos 14 mg de THC. Ajusta la calculadora según tu cannabis.</p>
     <div class="dose-cards">
       <div class="dose-card">
         <i class="fa fa-cookie" aria-hidden="true"></i>
-        <div class="dose-card-value" id="potency-result-total">490.0 mg</div>
+        <div class="dose-card-value" id="potency-result-total">56.0 mg</div>
         <div class="dose-card-label">Receta completa</div>
       </div>
       <div class="dose-card dose-card--highlight">
         <i class="fa fa-cookie-bite" aria-hidden="true"></i>
-        <div class="dose-card-value" id="potency-result">122.50 mg</div>
+        <div class="dose-card-value" id="potency-result">14.00 mg</div>
         <div class="dose-card-label">Por porción</div>
       </div>
     </div>
@@ -795,7 +795,7 @@
     </script>
 <script>window.I18N = {"gram":"gramo","grams":"gramos","threshold_label":"Dosis Umbral","threshold_desc":"Efectos sutiles — ideal para principiantes","common_label":"Dosis Común","common_desc":"Relajante, efecto agradable para la mayoría de las personas","strong_label":"Dosis Fuerte","strong_desc":"Intenso — mejor para usuarios experimentados","heavy_label":"Dosis Pesada","heavy_desc":"Muy potente — procede con precaución","positive_L1":["relajación","reducción del estrés","mejora del ánimo","risitas","risas"],"positive_L2":["creatividad","reducción de náuseas","euforia","aumento del apetito","las tareas se vuelven más interesantes"],"positive_L3":["sentidos intensificados","pensamiento filosófico","las ideas fluyen fácilmente","mayor conexión cuerpo/mente"],"negative_L1":["mareo"],"negative_L2":["dolor de cabeza","paranoia","deterioro de la memoria a corto plazo"],"negative_L3":["ansiedad","percepción alterada del tiempo","náuseas","agitación"],"negative_L4":["corazón acelerado","pérdida de coordinación","ataques de pánico"]};</script>
 <script>
-  window.RECIPE_DEFAULTS = { quantity: 3.5, portion: 4.0, potency: 14 };
+  window.RECIPE_DEFAULTS = { quantity: 0.4, portion: 4.0, potency: 14 };
 </script>
 <script src="/js/calculator.js"></script>
 <script>
