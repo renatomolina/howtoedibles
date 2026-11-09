@@ -1678,6 +1678,10 @@ input[type="range"]::-moz-range-thumb {
   line-height: 1.75;
   color: #444;
 }
+.about-content h2 { font-size: 1.25rem; font-weight: 700; margin: 1.5rem 0 0.5rem; }
+.about-content h2:first-child { margin-top: 0; }
+.about-content ul { padding-left: 1.25rem; }
+.about-content li { margin-bottom: 0.5rem; }
 
 .contact-card label {
   font-weight: 600;

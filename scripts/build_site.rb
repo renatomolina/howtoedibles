@@ -401,6 +401,7 @@ def build_footer(lang)
               <li><a href="#{prefix}/how-to-prevent-a-bad-trip.html">#{h(prevent_trip)}</a></li>
               <li><a href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener noreferrer">#{h(bad_trip_chat)}</a></li>
               <li><a href="#{prefix}/donate.html">#{h(support_us)}</a></li>
+              <li><a href="/about.html">#{h(t(lang, "footer", "about_us"))}</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
