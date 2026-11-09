@@ -53,6 +53,7 @@
     "potency_guide": "Guia de Potência",
     "potency_avg_note": "Maconha de rua tem em média ~14% THC",
     "your_dose": "Sua Dose",
+    "dose_summary": "Com os valores padrão (%{grams} g de cannabis com %{potency}% de THC, %{servings} porções), cada porção tem cerca de %{mg} mg de THC. Ajuste a calculadora de acordo com a sua cannabis.",
     "modal_close": "Fechar",
     "calc_page_title": "Calculadora de Dosagem de Comestíveis de Cannabis",
     "calc_page_intro": "Use esta calculadora gratuita para descobrir exatamente quantos <strong>miligramas de THC</strong> estão em cada porção dos seus comestíveis de cannabis — antes de cozinhar. Insira a quantidade de cannabis, potência e número de porções. Resultados instantâneos e precisos.",

@@ -116,7 +116,21 @@ end
 
 def extract_list_items(html_str)
   return [] unless html_str.is_a?(String)
-  html_str.scan(/<li[^>]*>(.*?)<\/li>/m).map { |m| m[0].gsub(/<[^>]+>/, "").strip }
+  # Plain text for JSON-LD: strip tags and decode entities (&frac12;, &nbsp;, ...).
+  html_str.scan(/<li[^>]*>(.*?)<\/li>/m).map { |m| decode_entities(m[0].gsub(/<[^>]+>/, "")).strip }
+end
+
+NAMED_ENTITIES = { "nbsp" => " ", "frac12" => "½", "frac14" => "¼", "frac34" => "¾",
+                   "frac13" => "⅓", "frac23" => "⅔", "frac18" => "⅛", "deg" => "°", "ndash" => "–",
+                   "mdash" => "—", "times" => "×" }.freeze
+
+def decode_entities(s)
+  CGI.unescapeHTML(s.gsub(/&(#{NAMED_ENTITIES.keys.join('|')});/) { NAMED_ENTITIES[$1] })
+end
+
+# 48.0 -> "48", 3.5 -> "3.5"
+def fmt_num(n)
+  n.to_f == n.to_i ? n.to_i.to_s : n.to_s
 end
 
 def lang_html(lang)
@@ -604,7 +618,7 @@ def build_calculator_widget(lang, defaults: { quantity: 3.5, potency: 14, portio
   HTML
 end
 
-def build_dosage_panel(lang, style: :recipe)
+def build_dosage_panel(lang, style: :recipe, defaults: nil)
   full_recipe = t(lang, "calculator", "full_recipe")
   per_portion = t(lang, "calculator", "per_portion")
   pos_effects = t(lang, "calculator", "positive_effects")
@@ -648,6 +662,19 @@ def build_dosage_panel(lang, style: :recipe)
       </div>
     HTML
   else
+    # Pre-render the default dose so crawlers that don't run JS (most AI bots) see it;
+    # calculator.js overwrites these with the same format on load.
+    total_txt = per_txt = "&mdash;"
+    summary = ""
+    if defaults
+      per = 10.0 * defaults[:quantity] * defaults[:potency] / defaults[:portion]
+      per_txt = format("%.2f mg", per)
+      total_txt = format("%.1f mg", per * defaults[:portion])
+      num = ->(n) { %w[pt es de].include?(lang) ? fmt_num(n).tr(".", ",") : fmt_num(n) }
+      summary = %(<p class="dose-summary mb-2">#{h(interpolate(t(lang, "calculator", "dose_summary"),
+        "grams" => num.(defaults[:quantity]), "potency" => num.(defaults[:potency]),
+        "servings" => num.(defaults[:portion]), "mg" => num.(per.round(1))))}</p>)
+    end
     <<~HTML
       <div class="dosage-panel">
         <div class="dosage-panel-header">
@@ -655,15 +682,16 @@ def build_dosage_panel(lang, style: :recipe)
           <span>#{h(your_dose)}</span>
         </div>
         <div class="dosage-panel-body">
+          #{summary}
           <div class="dose-cards">
             <div class="dose-card">
               <i class="fa fa-cookie" aria-hidden="true"></i>
-              <div class="dose-card-value" id="potency-result-total">&mdash;</div>
+              <div class="dose-card-value" id="potency-result-total">#{total_txt}</div>
               <div class="dose-card-label">#{h(full_recipe).sub(/:$/, "")}</div>
             </div>
             <div class="dose-card dose-card--highlight">
               <i class="fa fa-cookie-bite" aria-hidden="true"></i>
-              <div class="dose-card-value" id="potency-result">&mdash;</div>
+              <div class="dose-card-value" id="potency-result">#{per_txt}</div>
               <div class="dose-card-label">#{h(per_portion).sub(/:$/, "")}</div>
             </div>
           </div>
@@ -1252,8 +1280,8 @@ def build_recipe_page(recipe, lang)
     "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15",
     "dateModified" => "2026-03-15",
     "recipeCategory" => cat,
-    "recipeYield" => "#{por} servings",
-    "recipeIngredient" => translated_ings.is_a?(Array) ? translated_ings : extract_list_items(recipe["ingredients"]),
+    "recipeYield" => [fmt_num(por), "#{fmt_num(por)} servings"],
+    "recipeIngredient" => translated_ings.is_a?(Array) ? translated_ings.map { |s| decode_entities(s.gsub(/<[^>]+>/, "")) } : extract_list_items(recipe["ingredients"]),
     "recipeInstructions" => (translated_ins.is_a?(Array) ? translated_ins : extract_list_items(recipe["instructions"])).each_with_index.map { |s, i| { "@type" => "HowToStep", "position" => i + 1, "text" => s } },
     "url" => canonical
   }
@@ -1359,7 +1387,7 @@ def build_recipe_page(recipe, lang)
       </div>
     </div>
 
-    #{build_dosage_panel(lang, style: :recipe)}
+    #{build_dosage_panel(lang, style: :recipe, defaults: { quantity: qty, potency: pot, portion: por })}
 
       </div>
     </div>

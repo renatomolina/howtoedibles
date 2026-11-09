@@ -53,6 +53,7 @@
     "potency_guide": "效力指南",
     "potency_avg_note": "街头大麻平均约14% THC",
     "your_dose": "您的剂量",
+    "dose_summary": "按默认设置（%{grams} 克 THC 含量 %{potency}% 的大麻，%{servings} 份），每份约含 %{mg} 毫克 THC。请根据您的大麻调整计算器。",
     "modal_close": "关闭",
     "calc_page_title": "大麻食品剂量计算器",
     "calc_page_intro": "使用这款免费计算器，在烹饪前精确了解您的大麻食品每份含有多少<strong>毫克THC</strong>。输入大麻重量、效力和份数。即时准确的结果。",

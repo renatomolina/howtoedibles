@@ -53,6 +53,7 @@
     "potency_guide": "Guía de Potencia",
     "potency_avg_note": "La marihuana callejera tiene en promedio ~14% THC",
     "your_dose": "Tu Dosis",
+    "dose_summary": "Con los valores predeterminados (%{grams} g de cannabis con %{potency}% de THC, %{servings} porciones), cada porción contiene unos %{mg} mg de THC. Ajusta la calculadora según tu cannabis.",
     "modal_close": "Cerrar",
     "calc_page_title": "Calculadora de Dosis de Comestibles de Cannabis",
     "calc_page_intro": "Usa esta calculadora gratuita para descubrir exactamente cuántos <strong>miligramos de THC</strong> hay en cada porción de tus comestibles de cannabis — antes de cocinar. Ingresa la cantidad de cannabis, potencia y número de porciones. Resultados instantáneos y precisos.",
