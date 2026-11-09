@@ -10,7 +10,9 @@ const OUT = dirname(fileURLToPath(import.meta.url));
 const SHOTS = join(OUT, "shots");
 mkdirSync(SHOTS, { recursive: true });
 
-const BASE = "https://www.howtoedibles.com";
+// Optional: a base URL (e.g. a local server) and --only=<name> to capture a single combination.
+const BASE = process.argv.find((a) => a.startsWith("http")) || "https://www.howtoedibles.com";
+const ONLY = (process.argv.find((a) => a.startsWith("--only=")) || "").slice(7);
 const PAGES = {
   home: "/",
   "recipe-photo": "/recipes/cannabutter/",
@@ -142,6 +144,7 @@ for (const lang of LANGS) {
     for (const width of WIDTHS) {
       for (const theme of THEMES) {
         const name = `${lang}-${page}-${width}-${theme}${SUFFIX}`;
+        if (ONLY && name !== ONLY) continue;
         try {
           const { metrics, jpeg } = await audit(version.webSocketDebuggerUrl, url, width, theme);
           writeFileSync(join(SHOTS, name + ".jpg"), jpeg);
