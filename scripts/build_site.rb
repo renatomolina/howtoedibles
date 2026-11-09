@@ -8,6 +8,7 @@
 require "json"
 require "fileutils"
 require "cgi"
+require "zlib"
 
 ROOT_DIR   = File.expand_path("..", __dir__)
 DATA_FILE  = File.join(ROOT_DIR, "data", "recipes.json")
@@ -960,7 +961,9 @@ def interpolate(template, vars)
   return template unless template.is_a?(String)
   result = template.dup
   vars.each { |k, v| result.gsub!("%{#{k}}", v.to_s) }
-  result
+  # Templates say "cannabis %{name}" / "cannabis %{base_fat}", but names and fats
+  # often already say it ("Cannabis Carbonara", "cannabutter").
+  result.gsub(/\b(cannabis)\s+(cannabis|cannabutter)\b/i) { $2.casecmp?("cannabis") ? $1 : $2 }
 end
 
 # Category mapping for merged template categories
@@ -1162,7 +1165,7 @@ def build_related_recipes(recipe, lang)
   prefix = lang_prefix(lang)
   cat = recipe["category_name"]
   slug = recipe["slug"]
-  related = RECIPES.select { |r| r["category_name"] == cat && r["slug"] != slug }.sample(4)
+  related = RECIPES.select { |r| r["category_name"] == cat && r["slug"] != slug }.sample(4, random: Random.new(Zlib.crc32(slug)))  # stable across builds
   return "" if related.empty?
 
   heading = lang == "en" ? "More #{cat} Recipes" : t(lang, "recipe_page", "related") || "Related Recipes"

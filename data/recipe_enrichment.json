@@ -3246,7 +3246,7 @@
       "calories": "140 kcal",
       "fatContent": "8 g"
     },
-    "base_fat": "cannabis_oil",
+    "base_fat": "cannabis oil",
     "cook_temp": "400°F / 200°C",
     "texture_type": "toasted",
     "sub_category": "finger_food",
@@ -3407,7 +3407,7 @@
       "calories": "130 kcal",
       "fatContent": "5 g"
     },
-    "base_fat": "cannabis_oil",
+    "base_fat": "cannabis oil",
     "cook_temp": "No cooking required",
     "texture_type": "fresh",
     "sub_category": "finger_food",
@@ -3499,7 +3499,7 @@
       "calories": "190 kcal",
       "fatContent": "8 g"
     },
-    "base_fat": "cannabis_oil",
+    "base_fat": "cannabis oil",
     "cook_temp": "425°F / 220°C",
     "texture_type": "baked",
     "sub_category": "fried_snacks",
@@ -3545,7 +3545,7 @@
       "calories": "110 kcal",
       "fatContent": "8 g"
     },
-    "base_fat": "cannabis_oil",
+    "base_fat": "cannabis oil",
     "cook_temp": "No cooking required",
     "texture_type": "fresh",
     "sub_category": "finger_food",
@@ -3591,7 +3591,7 @@
       "calories": "170 kcal",
       "fatContent": "7 g"
     },
-    "base_fat": "cannabis_oil",
+    "base_fat": "cannabis oil",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
     "sub_category": "savory_bites",
@@ -3639,7 +3639,7 @@
       "calories": "30 kcal",
       "fatContent": "0 g"
     },
-    "base_fat": "decarbed_flower",
+    "base_fat": "decarbed flower",
     "cook_temp": "240°F / 115°C (decarb)",
     "texture_type": "dry",
     "sub_category": "butter_oil",
@@ -3710,7 +3710,7 @@
       "calories": "5 kcal",
       "fatContent": "0 g"
     },
-    "base_fat": "cannabis_oil",
+    "base_fat": "cannabis oil",
     "cook_temp": "240°F / 115°C (decarb), stovetop medium",
     "texture_type": "liquid",
     "sub_category": "condiment",
