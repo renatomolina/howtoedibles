@@ -1,0 +1,449 @@
+<!doctype html>
+<!-- PROTOTYPE — throwaway. Answers "What does the homepage look like on mobile?" (C · Poster direction).
+     Branch prototype/homepage only. `python3 -m http.server 8765` from repo root, then
+     /recipes/_prototype-homepage/?v=shelves|grid|desk&page=home|cat|q&c=<Category>&q=<term>&lang=en|pt|de|zh&theme=light|dark&fold=1 -->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>PROTOTYPE · homepage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500..800&display=swap">
+<style>
+/* ---------- Poster tokens (visual direction ticket) ---------- */
+:root{--paper:#fff;--ink:#1f1410;--ink-2:#6a5a50;--orange:#f27242;--on-cat:#1f1410;--line:#ecdfd6;--chip:#f6eee9;--focus:#1f1410;--mark:color-mix(in srgb,var(--orange) 70%,transparent);color-scheme:light}
+[data-theme=dark]{--paper:#191210;--ink:#f7ede6;--ink-2:#bba89b;--line:#3a2c26;--chip:#2a1f1b;--focus:#f27242;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+.disp,h1,h2,h3{font-family:Unbounded,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.icon{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+:lang(de) h1,:lang(de) h2{hyphens:auto;-webkit-hyphens:auto}
+h1,h2,h3{overflow-wrap:break-word}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* ---------- cover: colour block + one cropped dish-form glyph, seeded per slug (no-photo ticket) ---------- */
+.cv{display:block;position:relative;overflow:hidden;background:var(--cat);color:var(--on-cat);contain:paint}
+[data-theme=dark] .cv,[data-theme=dark] .band{--cat:var(--cat-dk);--cat-deep:var(--deep-dk)}
+.cv>svg{position:absolute;width:var(--gs);height:auto;aspect-ratio:1;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
+
+/* ---------- shell (approved in the navigation ticket) ---------- */
+.hdr{display:flex;align-items:center;justify-content:space-between;height:108px}
+.hdr .logo{height:86px;width:auto}
+.tools{display:flex;gap:8px}
+.ibtn{width:48px;height:48px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;background:var(--paper);cursor:pointer}
+.mini{position:fixed;inset:0 0 auto;z-index:20;background:var(--paper);border-bottom:2px solid var(--ink);transform:translateY(-105%);transition:transform .22s ease}
+.mini.show{transform:none}
+.mini .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.mini .logo{height:40px;width:auto}
+.mini .ibtn{width:44px;height:44px}
+.mini .spill{flex:1;display:flex;align-items:center;gap:8px;height:44px;border:2px solid var(--ink);border-radius:999px;padding:0 14px;background:var(--chip);font-size:15px;color:var(--ink-2);min-width:0;white-space:nowrap;overflow:hidden}
+.ftr{margin-top:64px;background:var(--orange);color:#1f1410;padding:28px 0 120px}
+.ftr .cols{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.ftr h4{font-family:Unbounded,"PingFang SC",sans-serif;font-size:14px;margin:22px 0 4px;grid-column:1/-1}
+.ftr .cols a{display:block;padding:9px 0;font-weight:700;text-decoration:none;font-size:16px}
+.ftr p{font-size:14px;margin:22px 0 0}
+
+/* ================= HOMEPAGE ================= */
+.hh h1{font-weight:800;font-size:clamp(27px,7.7vw,34px);line-height:1.04;letter-spacing:-.03em;margin:6px 0 12px}
+:lang(zh) h1{font-weight:900;letter-spacing:0;line-height:1.18}
+h1 mark{background:linear-gradient(transparent 58%,var(--mark) 58%);color:inherit}
+.lede{margin:0;font-size:17px;line-height:1.45;color:var(--ink-2)}
+.lede a{color:var(--ink);font-weight:700;text-decoration-thickness:2px;text-underline-offset:3px}
+/* search: a real GET form (works with no JS); with JS it opens the navigation ticket's search sheet */
+.sbox{display:flex;align-items:center;gap:10px;height:56px;margin:16px 0 0;padding:0 8px 0 18px;border:2px solid var(--ink);border-radius:999px;background:var(--chip)}
+.sbox input{flex:1;min-width:0;height:100%;border:0;background:none;font-size:17px;outline:none}
+.sbox input::placeholder{color:var(--ink-2)}
+.sbox button{height:40px;padding:0 16px;border:0;border-radius:999px;background:var(--ink);color:var(--paper);font-weight:700;font-size:15px;cursor:pointer}
+
+/* category tiles: horizontal strip (A) or 2×4 grid (C); every tile links to its category page */
+.strip{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:16px -20px 0;padding:0 20px 4px}
+.strip::-webkit-scrollbar{display:none}
+.tile{flex:none;scroll-snap-align:start;text-decoration:none;display:block}
+.tile .cv{border-radius:18px;padding:12px 14px}
+.tile b{position:relative;display:block;font-family:Unbounded,"PingFang SC",sans-serif;font-size:15px;font-weight:700;line-height:1.15}
+.tile small{position:relative;font-size:13px;font-weight:600}
+.strip .tile .cv{width:124px;height:88px}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.tiles .cv{height:96px}
+
+/* quick pair under the hero (A) */
+.pair{display:grid;grid-template-columns:1.15fr 1fr;gap:10px;margin-top:12px}
+.qk{display:flex;flex-direction:column;justify-content:space-between;min-height:84px;padding:12px 14px;border:2px solid var(--ink);border-radius:18px;text-decoration:none;line-height:1.2}
+.qk b{font-family:Unbounded,"PingFang SC",sans-serif;font-size:15px;font-weight:700}
+.qk span{font-size:13px;color:var(--ink-2);display:flex;justify-content:space-between;align-items:end;gap:6px}
+.qk.ink{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.qk.ink span{color:color-mix(in srgb,var(--paper) 75%,transparent)}
+.qk .icon{width:20px;height:20px}
+
+/* section headers */
+.sh{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:40px 0 12px}
+.sh h2{font-size:22px;font-weight:800;letter-spacing:-.02em;line-height:1.1;margin:0;display:flex;align-items:center;gap:10px}
+.sh h2 i{flex:none;width:14px;height:14px;border-radius:50%;background:var(--cat)}
+.sh a{flex:none;font-weight:700;font-size:15px;white-space:nowrap;text-decoration-thickness:2px;text-underline-offset:3px}
+.sh p{margin:4px 0 0;font-size:14px;color:var(--ink-2);font-family:-apple-system,system-ui,sans-serif;font-weight:400;letter-spacing:0}
+
+/* recipe card (shared with the recipe page's related grid) + small dose sticker */
+.card{text-decoration:none;display:block;min-width:0}
+.card .cv{aspect-ratio:1;border-radius:20px}
+.card .dot{position:absolute;right:8px;bottom:8px;z-index:1;min-width:52px;height:52px;padding:0 6px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);line-height:1;box-shadow:0 0 0 3px var(--cat)}
+.card .dot b{font-family:Unbounded,sans-serif;font-size:16px;font-weight:800;letter-spacing:-.03em}
+.card .dot small{font-size:10px;font-weight:700}
+.card .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:700;font-size:16px;line-height:1.25;margin-top:8px}
+.card .mt{display:block;font-size:13px;color:var(--ink-2);margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}
+.grid>.card{content-visibility:auto;contain-intrinsic-size:auto 240px}
+.grid>.span{grid-column:1/-1}
+body.shot .grid>.card{content-visibility:visible}
+.rail,.strip{scroll-padding-inline:20px}
+
+/* shelves (A): one horizontal rail per category, ends in a "See all" tile */
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -20px;padding:0 20px 4px}
+.rail::-webkit-scrollbar{display:none}
+.rail .card{flex:none;width:152px;scroll-snap-align:start}
+.rail .all{flex:none;width:152px;aspect-ratio:1;border-radius:20px;border:2px solid var(--ink);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;text-decoration:none;font-weight:700;text-align:center;line-height:1.2;padding:10px;scroll-snap-align:start}
+.rail .all b{font-family:Unbounded,sans-serif;font-size:30px;font-weight:800}
+
+/* chip row (B + category page): links, not filters */
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:18px -20px 18px;padding:0 20px 2px}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;display:flex;align-items:center;gap:8px;min-height:44px;padding:0 14px 0 10px;border:2px solid var(--ink);border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;white-space:nowrap}
+.chips a i{width:14px;height:14px;border-radius:50%;background:var(--cat)}
+.chips a small{font-weight:500;color:var(--ink-2)}
+.chips a[aria-current]{background:var(--ink);color:var(--paper)}
+.chips a[aria-current] small{color:inherit}
+
+/* in-grid bands */
+.band-calc{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px;border-radius:22px;background:var(--ink);color:var(--paper);text-decoration:none}
+.band-calc b{font-family:Unbounded,"PingFang SC",sans-serif;font-size:18px;font-weight:700;line-height:1.2;display:block}
+.band-calc span{font-size:14px;opacity:.8}
+.band-calc .go{flex:none;width:48px;height:48px;border-radius:50%;background:var(--orange);color:#1f1410;display:grid;place-items:center}
+
+/* reserved ad slot (AdSense ticket: below first viewport, labelled, ~280px reserved, no collapse) */
+.ad{margin:36px -20px 0;padding:8px 20px 20px;background:var(--chip)}
+.grid>.ad{margin:6px -20px}
+.ad small{display:block;font-size:12px;color:var(--ink-2);margin-bottom:6px;letter-spacing:.04em}
+.ad div{min-height:280px;border:1px dashed color-mix(in srgb,var(--ink-2) 50%,transparent);border-radius:8px;display:grid;place-items:center;font-size:13px;color:var(--ink-2);text-align:center;padding:12px}
+
+/* learn + support */
+.learn{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.learn a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px;padding:10px 0;border-bottom:1px solid var(--line);font-weight:700;font-size:17px;text-decoration:none;line-height:1.3}
+.learn a::after{content:"→";font-family:Unbounded,sans-serif;color:var(--orange)}
+.support{margin-top:28px;padding:18px;border:2px dashed var(--ink-2);border-radius:20px;font-size:15px;color:var(--ink-2)}
+.support a{color:var(--ink);font-weight:700}
+
+/* C · Dose desk: calculator in the hero */
+.desk{margin-top:16px;border:2px solid var(--ink);border-radius:24px;overflow:hidden}
+.desk .res{background:var(--ink);color:var(--paper);padding:14px 16px 12px;display:flex;align-items:flex-end;justify-content:space-between;gap:10px}
+.desk .res b{display:block;font-family:Unbounded,sans-serif;font-size:44px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.desk .res b small{font-size:16px;letter-spacing:0}
+.desk .res span{font-size:13px;text-align:right;line-height:1.3;opacity:.85}
+.desk .res span strong{display:block;font-size:15px;opacity:1;color:var(--orange)}
+.desk .ladder{display:grid;grid-template-columns:repeat(6,1fr);gap:3px;margin:0 16px;padding:10px 0 2px;position:relative}
+.desk .ladder i{height:6px;border-radius:3px}
+.desk .ladder em{position:absolute;top:4px;width:4px;height:18px;margin-left:-2px;border-radius:2px;background:var(--ink);transition:left .2s}
+.row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:8px 16px;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}
+.row label{font-weight:700;line-height:1.2;min-width:0;font-size:16px}
+.row label small{display:block;font-weight:500;font-size:13px;color:var(--ink-2)}
+.step{display:flex;align-items:center;border:2px solid var(--ink);border-radius:999px;flex:none}
+.step button{width:44px;height:44px;border:0;background:none;font-size:22px;font-weight:700;cursor:pointer;border-radius:50%}
+.step input{width:58px;height:44px;border:0;background:none;text-align:center;font-family:Unbounded,sans-serif;font-weight:700;font-size:17px;-moz-appearance:textfield;padding:0}
+.step input::-webkit-inner-spin-button{display:none}
+.desk .foot{display:flex;justify-content:space-between;gap:12px;padding:10px 16px 14px;font-size:14px;font-weight:600;border-top:1px solid var(--line)}
+.or{display:flex;align-items:center;gap:12px;margin:18px 0 0;font-size:14px;color:var(--ink-2);font-weight:600}
+.or::before,.or::after{content:"";flex:1;border-top:1px solid var(--line)}
+.or+.sbox{margin-top:10px}
+.path{list-style:none;margin:0;padding:0;counter-reset:p}
+.path li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line)}
+.path li:last-child{border-bottom:1px solid var(--line)}
+.path li::before{counter-increment:p;content:counter(p);flex:none;width:40px;height:40px;border-radius:50%;background:var(--orange);color:#1f1410;display:grid;place-items:center;font-family:Unbounded,sans-serif;font-weight:800}
+.path b{display:block;font-size:17px;line-height:1.3}
+.path span{font-size:15px;color:var(--ink-2)}
+.path a{font-weight:700}
+
+/* ================= CATEGORY PAGE ================= */
+.band{position:relative;overflow:hidden;margin:0 -20px;padding:18px 20px 22px;background:var(--cat);color:var(--on-cat);min-height:208px;display:flex;flex-direction:column;justify-content:flex-end}
+.band>svg{position:absolute;right:-48px;top:-30px;width:230px;height:230px;transform:rotate(-14deg)}
+.band .back{position:absolute;left:20px;top:16px;font-size:14px;font-weight:700;text-decoration:none;border:2px solid var(--on-cat);border-radius:999px;padding:6px 14px;background:color-mix(in srgb,var(--cat) 82%,transparent)}
+.band h1{position:relative;font-weight:800;font-size:clamp(32px,10vw,44px);line-height:1;letter-spacing:-.03em;margin:56px 0 8px}
+.band p{position:relative;margin:0;font-size:16px;line-height:1.4;font-weight:600;max-width:30ch}
+/* search results header */
+.qh{margin:6px 0 0}
+.qh h1{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:0 0 4px}
+.qh p{margin:0;color:var(--ink-2);font-size:15px}
+.none{padding:28px 0 6px;font-size:17px}
+
+/* ---------- desktop ≥1000px ---------- */
+@media (min-width:1000px){
+  .wrap{max-width:1160px;padding:0 32px}
+  .hh{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:12px 56px;align-items:end;padding:12px 0 8px}
+  .hh>*{grid-column:1}
+  .hh>.side{grid-column:2;grid-row:1/span 4;align-self:center}
+  .hh h1{font-size:56px}
+  .strip{margin:20px 0 0;padding:0;display:grid;grid-template-columns:repeat(8,1fr)}
+  .strip .tile .cv{width:auto}
+  .rail{margin:0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));overflow:visible}
+  .rail .card,.rail .all{width:auto}
+  .rail .card:nth-child(n+6){display:none}
+  .grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 22px}
+  .grid>.ad{margin:6px 0}.ad{margin-left:0;margin-right:0;border-radius:16px}
+  .chips{margin-left:0;margin-right:0;padding:0;flex-wrap:wrap}
+  .band{margin:0;border-radius:28px;padding:28px 40px 34px;min-height:280px}
+  .band>svg{width:340px;height:340px;right:20px;top:-40px}
+  .band h1{font-size:60px}
+  .tiles{grid-template-columns:repeat(4,1fr)}
+  .desk{margin-top:0}
+  .learn{columns:2;column-gap:40px}
+}
+
+/* ---------- prototype switcher (deliberately off-brand) ---------- */
+#bar{position:fixed;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom));z-index:99;background:#202124;color:#fff;border-radius:14px;padding:6px;display:flex;flex-wrap:wrap;gap:5px;font:12px/1 -apple-system,system-ui,sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+#bar .grp{display:flex;background:#3c4043;border-radius:9px;padding:2px}
+#bar button{border:0;background:none;color:#e8eaed;padding:8px 8px;border-radius:7px;cursor:pointer;white-space:nowrap}
+#bar button[aria-pressed=true]{background:#fff;color:#202124;font-weight:600}
+#bar .min{margin-left:auto}
+body.barmin #bar .grp:not(:last-child){display:none}
+body.shot #bar{display:none}
+#fold{position:absolute;left:0;right:0;top:664px;z-index:98;border-top:2px dashed #e0245e;pointer-events:none}
+#fold span{position:absolute;right:6px;top:2px;font:600 11px/1 system-ui;color:#fff;background:#e0245e;padding:3px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<div id="sprite" hidden></div>
+<div id="app"></div>
+<div id="bar" role="toolbar" aria-label="Prototype controls"></div>
+<script>
+const ROOT = "../../";
+const P = new URLSearchParams(location.search);
+const S = { v: P.get("v") || "shelves", page: P.get("page") || "home", c: P.get("c") || "Desserts", q: P.get("q") || P.get("search") || "brownie", lang: P.get("lang") || "en", theme: P.get("theme") || "light", fold: P.get("fold") || "0" };
+if (P.has("shot")) document.body.classList.add("shot");
+
+// Category order = CLAUDE.md. [cover, glyph, cover dark, glyph dark]. Desserts/Essentials decided; the other 6 PROVISIONAL (dark-mode fog).
+const ORDER = ["Desserts", "Drinks", "Snacks", "Essentials", "Lunch", "Keto", "Vegan", "International"];
+const CAT = {
+  Desserts: ["#f27242", "#c9532a", "#e0673b", "#a8431f", "cake"], Essentials: ["#f4c542", "#d89f12", "#dcb03a", "#ad7f0c", "butter"],
+  Drinks: ["#62b6e8", "#2f86bd", "#4f9fd0", "#24688f", "glass"], Snacks: ["#f29cb7", "#d4668a", "#d9879f", "#a94d6c", "chips"],
+  Lunch: ["#d9b38c", "#a8835a", "#c29e79", "#836343", "bowl"], Keto: ["#b3a1e6", "#7f69c4", "#9b8ad0", "#5f4ca0", "egg"],
+  Vegan: ["#5cc48a", "#2f9660", "#4caf78", "#22744a", "salad"], International: ["#3fb5b0", "#1f8580", "#349e99", "#166662", "dumpling"],
+};
+const I = {
+  search: '<svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+  menu: '<svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>',
+  dial: '<svg class="icon" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>',
+  arrow: '<svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+};
+
+// New UI strings (drafts; the i18n fog on the map owns the final copy). H1/lede for pt/de/zh come from i18n/{lang}.json.
+const T = {
+  en: { h1: 'Cannabis Edible Recipes &amp; <mark>Dosage Calculator</mark>', lede: (n) => `${n} recipes, from cannabutter to mocktails, each with its THC per serving. The free <a href="#">edible dosage calculator</a> fits any of them to your cannabis.`,
+        search: (n) => `Search ${n} recipes`, go: "Search", per: "mg", perL: "per serving", n: (n) => `${n} recipes`, all: (n) => `All ${n}`, seeAll: "See all", recipesIn: "recipes",
+        calc: "Dosage calculator", calcS: "mg per serving", newbie: "New to edibles?", newbieS: "Start here", base: "Start with a base", baseS: "Most recipes need one of these first.",
+        most: "Most made", allR: "All recipes", learn: "Learn the basics", ad: "Advertisements", bandCalc: "Your cannabis is different?", bandCalcS: "Fit any recipe to your grams and % THC.",
+        support: '<b>Enjoying the recipes?</b> This site is free — <a href="#">support us</a>.', back: "All recipes", catLede: (n) => `${n} recipes, each with its THC per serving worked out.`,
+        cats: "Browse by category", qT: (q) => `Results for “${q}”`, qN: (n) => `${n} recipes match`, none: (q) => `No recipe for “${q}”. Try a simpler word, or browse a category:`,
+        deskQ: "How strong will it be?", deskS: "Your cannabis, your batch. Works for any recipe.", g: "Cannabis", gS: "grams", thc: "THC", thcS: "% · 14% if unsure", srv: "Servings", srvS: "pieces you'll cut",
+        batch: (b) => `${b} mg in the batch`, full: "Full calculator", guide: "Potency guide", or: "or find a recipe",
+        path: [["Make a base", 'Cannabutter, oil or tincture. <a href="#">Cannabutter →</a>'], ["Pick a recipe", "Anything with butter or oil works."], ["Dose each serving", "The sticker on every recipe shows mg per serving."]], pathH: "Your first batch in 3 steps",
+        lvl: ["Microdose", "Beginner", "Casual", "Experienced", "High", "Extreme"],
+        learnL: ["Edibles for beginners", "How long edibles take to kick in", "Decarboxylation, explained", "How to prevent a bad trip", "All articles"] },
+  pt: { search: (n) => `Buscar ${n} receitas`, go: "Buscar", per: "mg", perL: "por porção", n: (n) => `${n} receitas`, all: (n) => `Todas (${n})`, seeAll: "Ver todas", recipesIn: "receitas",
+        calc: "Calculadora de dose", calcS: "mg por porção", newbie: "Primeira vez?", newbieS: "Comece aqui", base: "Comece pela base", baseS: "Quase toda receita usa uma destas antes.",
+        most: "Mais feitas", allR: "Todas as receitas", learn: "Aprenda o básico", ad: "Publicidade", bandCalc: "Sua cannabis é diferente?", bandCalcS: "Ajuste qualquer receita aos seus gramas e % de THC.",
+        support: '<b>Curtindo as receitas?</b> Este site é gratuito — <a href="#">apoie-nos</a>.', back: "Todas as receitas", catLede: (n) => `${n} receitas, cada uma com o THC por porção já calculado.`,
+        cats: "Navegue por categoria", qT: (q) => `Resultados para “${q}”`, qN: (n) => `${n} receitas encontradas`, none: (q) => `Nenhuma receita para “${q}”. Tente uma palavra mais simples ou veja uma categoria:`,
+        deskQ: "Qual vai ser a potência?", deskS: "Sua cannabis, sua receita. Serve para qualquer uma.", g: "Cannabis", gS: "gramas", thc: "THC", thcS: "% · 14% se não souber", srv: "Porções", srvS: "pedaços que vai cortar",
+        batch: (b) => `${b} mg na receita toda`, full: "Calculadora completa", guide: "Guia de potência", or: "ou encontre uma receita",
+        path: [["Faça uma base", 'Manteiga, óleo ou tintura. <a href="#">Manteiga de cannabis →</a>'], ["Escolha uma receita", "Qualquer uma com manteiga ou óleo."], ["Dose cada porção", "O selo de cada receita mostra os mg por porção."]], pathH: "Sua primeira receita em 3 passos",
+        lvl: ["Microdose", "Iniciante", "Casual", "Experiente", "Alta", "Extrema"],
+        learnL: ["Comestíveis para iniciantes", "Quanto tempo demora para bater", "Descarboxilação, explicada", "Como evitar uma bad trip", "Todos os artigos"] },
+  de: { search: (n) => `${n} Rezepte durchsuchen`, go: "Suchen", per: "mg", perL: "pro Portion", n: (n) => `${n} Rezepte`, all: (n) => `Alle ${n}`, seeAll: "Alle ansehen", recipesIn: "Rezepte",
+        calc: "Dosierungsrechner", calcS: "mg pro Portion", newbie: "Neu bei Edibles?", newbieS: "Hier starten", base: "Erst die Basis", baseS: "Die meisten Rezepte brauchen zuerst eine davon.",
+        most: "Am häufigsten gemacht", allR: "Alle Rezepte", learn: "Die Grundlagen", ad: "Anzeigen", bandCalc: "Dein Cannabis ist anders?", bandCalcS: "Passe jedes Rezept an deine Gramm und % THC an.",
+        support: '<b>Gefallen dir die Rezepte?</b> Diese Seite ist kostenlos — <a href="#">unterstütze uns</a>.', back: "Alle Rezepte", catLede: (n) => `${n} Rezepte, jedes mit berechnetem THC pro Portion.`,
+        cats: "Nach Kategorie", qT: (q) => `Ergebnisse für „${q}“`, qN: (n) => `${n} passende Rezepte`, none: (q) => `Kein Rezept für „${q}“. Versuch ein einfacheres Wort oder eine Kategorie:`,
+        deskQ: "Wie stark wird es?", deskS: "Dein Cannabis, dein Rezept. Passt für jedes Rezept.", g: "Cannabis", gS: "Gramm", thc: "THC", thcS: "% · 14 % wenn unsicher", srv: "Portionen", srvS: "Stücke, die du schneidest",
+        batch: (b) => `${b} mg im ganzen Rezept`, full: "Ganzer Rechner", guide: "Potenz-Leitfaden", or: "oder ein Rezept finden",
+        path: [["Basis machen", 'Butter, Öl oder Tinktur. <a href="#">Cannabutter →</a>'], ["Rezept wählen", "Alles mit Butter oder Öl geht."], ["Jede Portion dosieren", "Der Sticker zeigt bei jedem Rezept mg pro Portion."]], pathH: "Dein erstes Rezept in 3 Schritten",
+        lvl: ["Mikrodosis", "Einsteiger", "Gelegentlich", "Erfahren", "Hoch", "Extrem"],
+        learnL: ["Edibles für Einsteiger", "Wann Edibles wirken", "Decarboxylierung erklärt", "Einen Horrortrip vermeiden", "Alle Artikel"] },
+  zh: { search: (n) => `搜索 ${n} 道食谱`, go: "搜索", per: "毫克", perL: "每份", n: (n) => `${n} 道食谱`, all: (n) => `全部 ${n}`, seeAll: "查看全部", recipesIn: "道食谱",
+        calc: "剂量计算器", calcS: "每份毫克数", newbie: "第一次吃？", newbieS: "从这里开始", base: "先做基础", baseS: "大多数食谱都要先做其中一种。",
+        most: "最常做", allR: "全部食谱", learn: "基础知识", ad: "广告", bandCalc: "你的大麻不一样？", bandCalcS: "按你的克数和 THC % 调整任何食谱。",
+        support: '<b>喜欢这些食谱吗？</b>本站免费——<a href="#">支持我们</a>。', back: "全部食谱", catLede: (n) => `${n} 道食谱，每份 THC 都已算好。`,
+        cats: "按分类浏览", qT: (q) => `“${q}”的结果`, qN: (n) => `找到 ${n} 道食谱`, none: (q) => `没有“${q}”的食谱。换个简单的词，或者看看分类：`,
+        deskQ: "会有多强？", deskS: "你的大麻，你的份量。适用于任何食谱。", g: "大麻", gS: "克", thc: "THC", thcS: "% · 不确定就填 14%", srv: "份数", srvS: "切成几块",
+        batch: (b) => `整份共 ${b} 毫克`, full: "完整计算器", guide: "效力参考", or: "或者找一道食谱",
+        path: [["先做基础", '黄油、油或酊剂。<a href="#">大麻黄油 →</a>'], ["选一道食谱", "有黄油或油的都可以。"], ["给每份定剂量", "每道食谱的标签都显示每份毫克数。"]], pathH: "三步做出第一份",
+        lvl: ["微剂量", "新手", "休闲", "有经验", "高", "极高"],
+        learnL: ["新手指南", "多久起效", "脱羧详解", "如何避免不良反应", "全部文章"] },
+};
+const LADDER = [[0, 2.5], [2.5, 5], [5, 15], [15, 30], [30, 50], [50, 80]], LCOL = ["#5cc48a", "#9ccc4a", "#f4c542", "#f29a42", "#f27242", "#d8342c"];
+const EFF = 0.8; // COOKING_EFFICIENCY — js/calculator.js and build_site.rb (map: one formula, 10 × G × S × 0.80 ÷ N)
+
+// ---------------- data (real files) ----------------
+let D = null;
+async function load() {
+  const j = (p) => fetch(p).then((r) => r.json());
+  const L = S.lang;
+  const [rec, ui, tr, glyph, sprite] = await Promise.all([j(ROOT + "data/recipes.json"), j(`${ROOT}i18n/${L}.json`), L === "en" ? null : j(`${ROOT}i18n/recipes_${L}.json`), j("glyphs.json"), fetch("sprite.svg").then((r) => r.text())]);
+  document.getElementById("sprite").innerHTML = sprite;
+  const list = rec.recipes.slice().sort((a, b) => a.position - b.position).map((r) => ({ slug: r.slug, cat: r.category_name, name: tr?.[r.slug]?.name || r.name, en: r.name, mg: (10 * r.suggested_quantity * 14 * EFF) / r.suggested_portion }));
+  D = { list, ui, lang: L, glyph };
+}
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const fmt = (x) => (x >= 10 ? Math.round(x) : Math.round(x * 10) / 10).toLocaleString(S.lang === "zh" ? "zh-CN" : S.lang);
+const fold = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+function seed(slug) { let h = 2166136261; for (const c of slug) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return (n) => ((h = Math.imul(h ^ (h >>> 15), 2246822507) ^ n) >>> 0) / 4294967296; }
+function place(slug, kind) {
+  const r = seed(slug);
+  if (kind === "tile") return { gs: "84%", gx: "-14%", gy: "-34%", gr: `${-16 + r(4) * 20}deg` };
+  return { gs: `${90 + r(1) * 14}%`, gx: `${-12 - r(2) * 16}%`, gy: `${-12 - r(3) * 16}%`, gr: `${-20 + r(4) * 30}deg` };
+}
+const vars = (cat, pl = {}) => { const [c, d, cd, dd] = CAT[cat]; return `--cat:${c};--cat-deep:${d};--cat-dk:${cd};--deep-dk:${dd};` + Object.entries(pl).map(([k, v]) => `--${k}:${v}`).join(";"); };
+const glyph = (g) => `<svg viewBox="0 0 100 100" aria-hidden="true"><use href="#g-${g}"/></svg>`;
+const cover = (slug, cat, g, kind, inner = "") => `<span class="cv" style="${vars(cat, place(slug, kind))}">${glyph(g)}${inner}</span>`;
+const link = (o) => "?" + new URLSearchParams({ ...S, ...o });
+
+// one card component everywhere: 1:1 cover, mg sticker, name, meta line
+function card(x, meta = "cat") {
+  const t = T[S.lang];
+  return `<a class="card" href="${ROOT}recipes/${x.slug}/">${cover(x.slug, x.cat, D.glyph[x.slug] || CAT[x.cat][4], "card", `<span class="dot" title="${fmt(x.mg)} mg THC ${t.perL}"><b>${fmt(x.mg)}</b><small>${t.per}</small></span>`)}<span class="nm">${esc(x.name)}</span>${meta === "cat" ? `<span class="mt">${esc(D.ui.categories[x.cat])}</span>` : ""}</a>`;
+}
+const count = (c) => D.list.filter((x) => x.cat === c).length;
+const tile = (c) => `<a class="tile" href="${link({ page: "cat", c })}">${cover(c, c, CAT[c][4], "tile", `<b>${esc(D.ui.categories[c])}</b><small>${T[S.lang].n(count(c))}</small>`)}</a>`;
+const chips = (cur) => { const t = T[S.lang]; return `<nav class="chips" aria-label="${t.cats}"><a href="${link({ page: "home" })}"${cur ? "" : " aria-current=page"}>${t.allR} <small>${D.list.length}</small></a>${ORDER.map((c) => `<a href="${link({ page: "cat", c })}" style="${vars(c)}"${cur === c ? " aria-current=page" : ""}><i></i>${esc(D.ui.categories[c])} <small>${count(c)}</small></a>`).join("")}</nav>`; };
+const ad = (k) => `<aside class="ad${k === "grid" ? " span" : ""}" aria-label="${T[S.lang].ad}"><small>${T[S.lang].ad}</small><div>Manual slot · responsive · min-height 280px reserved<br>(AdSense ticket: 1 in-grid unit on home, below the first screen)</div></aside>`;
+const bandCalc = () => { const t = T[S.lang]; return `<a class="band-calc span" href="#"><span><b>${t.bandCalc}</b><span>${t.bandCalcS}</span></span><span class="go">${I.arrow}</span></a>`; };
+const sbox = (val = "") => `<form class="sbox" role="search" action="./" data-search><input name="q" type="search" enterkeyhint="search" autocomplete="off" value="${esc(val)}" placeholder="${T[S.lang].search(D.list.length)}" aria-label="${T[S.lang].search(D.list.length)}"><button>${T[S.lang].go}</button></form>`;
+const learn = () => { const t = T[S.lang]; return `<div class="sh"><h2>${t.learn}</h2></div><ul class="learn">${t.learnL.map((l) => `<li><a href="#">${l}</a></li>`).join("")}</ul><p class="support">${t.support}</p>`; };
+function heroText() {
+  const t = T[S.lang];
+  return S.lang === "en" ? [t.h1, t.lede(D.list.length)] : [esc(D.ui.homepage.hero_title), esc(D.ui.homepage.hero_sub)];
+}
+
+// ---------------- A · Shelves ----------------
+function shelves() {
+  const t = T[S.lang], [h1, lede] = heroText();
+  const shelf = (c, title, sub) => { const xs = D.list.filter((x) => x.cat === c).slice(0, 8);
+    return `<section style="${vars(c)}"><div class="sh"><h2><i></i><span>${title}${sub ? `<p>${sub}</p>` : ""}</span></h2><a href="${link({ page: "cat", c })}">${t.all(count(c))}</a></div>
+      <div class="rail">${xs.map((x) => card(x, "none")).join("")}<a class="all" href="${link({ page: "cat", c })}" style="background:var(--chip)"><b>${count(c)}</b>${esc(D.ui.categories[c])}<br>${t.seeAll} →</a></div></section>`; };
+  const order = ["Essentials", ...ORDER.filter((c) => c !== "Essentials")];
+  return `<section class="hh"><h1>${h1}</h1><p class="lede">${lede}</p>${sbox()}
+      <div class="pair side"><a class="qk ink" href="#"><b>${t.calc}</b><span>${t.calcS}${I.dial}</span></a><a class="qk" href="#"><b>${t.newbie}</b><span>${t.newbieS}${I.arrow}</span></a></div></section>
+    <nav class="strip" aria-label="${t.cats}">${ORDER.map(tile).join("")}</nav>
+    ${order.map((c, i) => (i === 0 ? shelf(c, t.base, t.baseS) : shelf(c, esc(D.ui.categories[c]))) + (i === 1 ? ad() : "")).join("")}
+    ${learn()}`;
+}
+
+// ---------------- B · One grid ----------------
+function grid() {
+  const t = T[S.lang], [h1, lede] = heroText();
+  const cells = D.list.map((x) => card(x));
+  cells.splice(8, 0, ad("grid")); cells.splice(21, 0, bandCalc());
+  return `<section class="hh"><h1>${h1}</h1><p class="lede">${lede}</p>${sbox()}</section>
+    ${chips(null)}<div class="sh" style="margin-top:6px"><h2>${t.most}</h2></div>
+    <div class="grid">${cells.join("")}</div>${learn()}`;
+}
+
+// ---------------- C · Dose desk ----------------
+function desk() {
+  const t = T[S.lang], [h1] = heroText();
+  const g = 3.5, p = 14, n = 50; // calculator.html defaults (calculator ticket)
+  const rows = [["g", t.g, t.gS, g, 0.5], ["p", t.thc, t.thcS, p, 1], ["n", t.srv, t.srvS, n, 1]].map(([k, l, s, v, st]) =>
+    `<div class="row"><label for="in-${k}">${l}<small>${s}</small></label><div class="step"><button type="button" data-step="${k}" data-d="-${st}" aria-label="−">−</button><input id="in-${k}" data-k="${k}" type="number" inputmode="decimal" step="any" min="0" value="${v}"><button type="button" data-step="${k}" data-d="${st}" aria-label="+">+</button></div></div>`).join("");
+  return `<section class="hh"><h1>${h1}</h1>
+      <div class="desk side"><div class="res" aria-live="polite"><div><span style="text-align:left;display:block">${t.deskQ}</span><b data-mg></b><span data-per style="text-align:left;display:block"></span></div><span><strong data-lvl></strong><span data-batch></span></span></div>
+        <div class="ladder">${LCOL.map((c) => `<i style="background:${c}"></i>`).join("")}<em data-mark></em></div>${rows}
+        <div class="foot"><a href="#">${t.full}</a><a href="#">${t.guide}</a></div></div>
+      <p class="or">${t.or}</p>${sbox()}</section>
+    <div class="sh"><h2>${t.cats}</h2></div><div class="tiles">${ORDER.map(tile).join("")}</div>
+    ${ad()}
+    <div class="sh"><h2>${t.pathH}</h2></div><ol class="path">${t.path.map(([b, s]) => `<li><span><b>${b}</b><span>${s}</span></span></li>`).join("")}</ol>
+    <div class="sh"><h2>${t.most}</h2><a href="${link({ page: "cat", c: "Desserts" })}">${t.seeAll} →</a></div><div class="grid">${D.list.slice(0, 6).map((x) => card(x)).join("")}</div>
+    ${learn()}`;
+}
+
+// ---------------- category page (shared by all variants) ----------------
+function category() {
+  const t = T[S.lang], c = S.c, xs = D.list.filter((x) => x.cat === c);
+  const cells = xs.map((x) => card(x, "none"));
+  cells.splice(Math.min(8, cells.length), 0, ad("grid"));
+  if (cells.length > 22) cells.splice(22, 0, bandCalc());
+  return `<section class="band" style="${vars(c)}">${glyph(CAT[c][4])}<a class="back" href="${link({ page: "home" })}">← ${t.back}</a><h1>${esc(D.ui.categories[c])}</h1><p>${t.catLede(xs.length)}</p></section>
+    ${chips(c)}<div class="grid">${cells.join("")}</div>${learn()}`;
+}
+
+// ---------------- ?q= results (homepage in search mode; same for all variants) ----------------
+function results() {
+  const t = T[S.lang], q = fold(S.q.trim());
+  const hits = D.list.map((x) => { const n = fold(x.name), e = fold(x.en), c = fold(D.ui.categories[x.cat]);
+    const s = n.startsWith(q) || e.startsWith(q) ? 0 : n.includes(q) || e.includes(q) ? 1 : c.includes(q) ? 2 : 9; return [s, x]; })
+    .filter(([s]) => s < 9).sort((a, b) => a[0] - b[0]).map(([, x]) => x);
+  return `<section class="qh"><h1>${t.qT(esc(S.q))}</h1><p>${hits.length ? t.qN(hits.length) : ""}</p>${sbox(S.q)}</section>
+    ${hits.length ? `<div class="grid" style="margin-top:20px">${hits.map((x) => card(x)).join("")}</div>` : `<p class="none">${t.none(esc(S.q))}</p><div class="tiles">${ORDER.slice(0, 4).map(tile).join("")}</div>`}
+    ${learn()}`;
+}
+
+function page() {
+  const LOGO = `${ROOT}images/howtoedibleslogo.png`;
+  const body = S.page === "cat" ? category() : S.page === "q" ? results() : { shelves, grid, desk }[S.v]();
+  const mini = `<div class="mini" id="mini"><div class="wrap"><img class="logo" src="${LOGO}" alt="" width="260" height="93"><span class="spill">${I.search}<span>${T[S.lang].search(D.list.length)}</span></span><span class="ibtn">${I.menu}</span></div></div>`;
+  const masthead = `<header class="hdr"><img class="logo" src="${LOGO}" alt="HowToEdibles" width="260" height="93"><div class="tools"><span class="ibtn">${I.search}</span><span class="ibtn">${I.menu}</span></div></header>`;
+  const footer = `<footer class="ftr"><div class="wrap"><nav class="cols"><h4>Footer</h4><a href="#">as approved in the navigation ticket</a></nav><p>For adults 21+ where cannabis is legal.</p></div></footer>`;
+  return `${mini}<div class="wrap">${masthead}<main>${body}</main></div>${footer}${S.fold === "1" ? '<div id="fold"><span>Safari first screen · 664px</span></div>' : ""}`;
+}
+
+// ---------------- behaviour ----------------
+function recalc() {
+  const el = document.querySelector("[data-mg]"); if (!el) return;
+  const t = T[S.lang], v = Object.fromEntries([...document.querySelectorAll("[data-k]")].map((i) => [i.dataset.k, Math.max(0, parseFloat(String(i.value).replace(",", ".")) || 0)]));
+  const mg = v.n ? (10 * v.g * v.p * EFF) / v.n : 0, li = LADDER.findIndex(([, b]) => mg < b);
+  const L = li < 0 ? 5 : li, [a, b] = LADDER[L];
+  el.innerHTML = `${fmt(mg)}<small> mg</small>`; document.querySelector("[data-per]").textContent = t.perL;
+  document.querySelector("[data-lvl]").textContent = t.lvl[L];
+  document.querySelector("[data-batch]").textContent = t.batch(fmt(mg * v.n));
+  document.querySelector("[data-mark]").style.left = `${((L + Math.min(1, (mg - a) / (b - a))) / 6) * 100}%`;
+}
+function bar() {
+  const b = (k, v, l) => `<button data-set="${k}" data-v="${v}" aria-pressed="${S[k] === v}">${l}</button>`;
+  return `<div class="grp">${b("v", "shelves", "A Shelves")}${b("v", "grid", "B One grid")}${b("v", "desk", "C Dose desk")}</div>
+    <div class="grp">${b("page", "home", "Home")}${b("page", "cat", "Category")}${b("page", "q", "?q=")}</div>
+    <div class="grp">${b("lang", "en", "EN")}${b("lang", "pt", "PT")}${b("lang", "de", "DE")}${b("lang", "zh", "中文")}</div>
+    <div class="grp">${b("theme", "light", "☀")}${b("theme", "dark", "☾")}${b("fold", "1", "Fold")}</div>
+    <div class="grp min"><button data-min>▾</button></div>`;
+}
+async function render() {
+  if (!D || D.lang !== S.lang) await load();
+  document.documentElement.lang = S.lang === "zh" ? "zh-Hans" : S.lang;
+  document.documentElement.dataset.theme = S.theme;
+  document.getElementById("app").innerHTML = page();
+  history.replaceState(null, "", "?" + new URLSearchParams(S));
+  document.getElementById("bar").innerHTML = bar();
+  recalc();
+}
+
+let lastY = scrollY;
+addEventListener("scroll", () => {
+  const m = document.getElementById("mini"), y = scrollY;
+  if (m && Math.abs(y - lastY) > 6) { m.classList.toggle("show", y > 140 && y < lastY); lastY = y; }
+}, { passive: true });
+document.addEventListener("input", (e) => e.target.dataset.k && recalc());
+document.addEventListener("submit", (e) => { const f = e.target.closest("[data-search]"); if (!f) return; e.preventDefault(); S.q = f.q.value || S.q; S.page = "q"; render().then(() => scrollTo(0, 0)); });
+document.addEventListener("click", (e) => {
+  const set = e.target.closest("[data-set]"); if (set) { const k = set.dataset.set; S[k] = k === "fold" && S.fold === "1" ? "0" : set.dataset.v; if (k === "v") S.page = "home"; return render(); }
+  if (e.target.closest("[data-min]")) return document.body.classList.toggle("barmin");
+  const st = e.target.closest("[data-step]");
+  if (st) { const i = document.getElementById("in-" + st.dataset.step); i.value = Math.max(0, Math.round(((parseFloat(i.value) || 0) + parseFloat(st.dataset.d)) * 10) / 10); return recalc(); }
+  const a = e.target.closest("a[href^='?']"); if (a) { e.preventDefault(); Object.assign(S, Object.fromEntries(new URL(a.href).searchParams)); render().then(() => scrollTo(0, 0)); }
+});
+render();
+</script>
+</body>
+</html>
