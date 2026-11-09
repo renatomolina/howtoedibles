@@ -150,7 +150,13 @@
           "slug": "infused-coconut-pudding",
           "name": "Infused Coconut Pudding"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#f27242",
+        "glyph": "#c9532a",
+        "cover_dark": "#e0673b",
+        "glyph_dark": "#a8431f"
+      }
     },
     {
       "id": 3,
@@ -292,7 +298,13 @@
           "slug": "infused-coconut-lime-agua-fresca",
           "name": "Infused Coconut Lime Agua Fresca"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#62b6e8",
+        "glyph": "#2f86bd",
+        "cover_dark": "#4f9fd0",
+        "glyph_dark": "#24688f"
+      }
     },
     {
       "id": 4,
@@ -339,7 +351,13 @@
           "slug": "infused-granola",
           "name": "Infused Granola"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#ec91b1",
+        "glyph": "#c16084",
+        "cover_dark": "#d67d9c",
+        "glyph_dark": "#9c4969"
+      }
     },
     {
       "id": 5,
@@ -376,7 +394,13 @@
           "slug": "infused-ghee",
           "name": "Infused Ghee"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#f4c542",
+        "glyph": "#d89f12",
+        "cover_dark": "#dcb03a",
+        "glyph_dark": "#ad7f0c"
+      }
     },
     {
       "id": 6,
@@ -508,7 +532,13 @@
           "slug": "infused-lentil-dal",
           "name": "Infused Lentil Dal"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#d5a776",
+        "glyph": "#ac793d",
+        "cover_dark": "#c09362",
+        "glyph_dark": "#895f2e"
+      }
     },
     {
       "id": 7,
@@ -600,7 +630,13 @@
           "slug": "infused-keto-almond-flour-cake",
           "name": "Infused Keto Almond Flour Cake"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#9893e5",
+        "glyph": "#6e64bd",
+        "cover_dark": "#857fd0",
+        "glyph_dark": "#544b97"
+      }
     },
     {
       "id": 8,
@@ -682,7 +718,13 @@
           "slug": "cannabis-roasted-vegetable-medley",
           "name": "Cannabis Roasted Vegetable Medley"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#53d08b",
+        "glyph": "#03a15f",
+        "cover_dark": "#39bb77",
+        "glyph_dark": "#02814b"
+      }
     },
     {
       "id": 10,
@@ -739,7 +781,13 @@
           "slug": "infused-empadao",
           "name": "Infused Empadão"
         }
-      ]
+      ],
+      "colors": {
+        "cover": "#37b19e",
+        "glyph": "#0a8272",
+        "cover_dark": "#149d8a",
+        "glyph_dark": "#066357"
+      }
     }
   ],
   "recipes": [
@@ -756,7 +804,8 @@
       "photo_file_name": "cannabutter.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 1
+      "position": 1,
+      "glyph": "butter"
     },
     {
       "id": 9,
@@ -771,7 +820,8 @@
       "photo_file_name": "coconut.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 2
+      "position": 2,
+      "glyph": "bottle"
     },
     {
       "id": 5,
@@ -786,7 +836,8 @@
       "photo_file_name": "olive.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 2
+      "position": 2,
+      "glyph": "bottle"
     },
     {
       "id": 29,
@@ -801,7 +852,8 @@
       "photo_file_name": "Keto-Bullet-Proof-Coffee-2-750x1050.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 2
+      "position": 2,
+      "glyph": "mug"
     },
     {
       "id": 33,
@@ -816,7 +868,8 @@
       "photo_file_name": "Keto-Peanut-Butter-Cookies-NEW-1-1.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 3
+      "position": 3,
+      "glyph": "cookie"
     },
     {
       "id": 30,
@@ -831,7 +884,8 @@
       "photo_file_name": "CoconutFatBombs8--kd3-1200w.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 3
+      "position": 3,
+      "glyph": "bonbon"
     },
     {
       "id": 26,
@@ -846,7 +900,8 @@
       "photo_file_name": "New_Project_(1).jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 3
+      "position": 3,
+      "glyph": "pasta"
     },
     {
       "id": 21,
@@ -861,7 +916,8 @@
       "photo_file_name": "berry-smoothie.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 3
+      "position": 3,
+      "glyph": "glass"
     },
     {
       "id": 23,
@@ -876,7 +932,8 @@
       "photo_file_name": "energybites.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 3
+      "position": 3,
+      "glyph": "bonbon"
     },
     {
       "id": 4,
@@ -891,7 +948,8 @@
       "photo_file_name": "firecracker.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 3
+      "position": 3,
+      "glyph": "chips"
     },
     {
       "id": 24,
@@ -906,7 +964,8 @@
       "photo_file_name": "lemon.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 3
+      "position": 3,
+      "glyph": "glass"
     },
     {
       "id": 32,
@@ -921,7 +980,8 @@
       "photo_file_name": "CroppedFocusedImage192072050-50-Chocolate-and-avocado-mousse.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 3
+      "position": 3,
+      "glyph": "bowl"
     },
     {
       "id": 20,
@@ -936,7 +996,8 @@
       "photo_file_name": "guacamole_(1).jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 3
+      "position": 3,
+      "glyph": "bowl"
     },
     {
       "id": 27,
@@ -951,7 +1012,8 @@
       "photo_file_name": "Cocoa-Powder-Coconut-Milk-Chocolate-Truffles.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 3
+      "position": 3,
+      "glyph": "bonbon"
     },
     {
       "id": 28,
@@ -966,7 +1028,8 @@
       "photo_file_name": "nature-zen-sQVvrsnfrN8-unsplash_(1).jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 3
+      "position": 3,
+      "glyph": "bread"
     },
     {
       "id": 34,
@@ -981,7 +1044,8 @@
       "photo_file_name": "cheesecake-bites2.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 3
+      "position": 3,
+      "glyph": "cake"
     },
     {
       "id": 31,
@@ -996,7 +1060,8 @@
       "photo_file_name": "cauliflower-pizza-crust-keto-9.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 4
+      "position": 4,
+      "glyph": "pizza"
     },
     {
       "id": 14,
@@ -1011,7 +1076,8 @@
       "photo_file_name": "milk.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 4
+      "position": 4,
+      "glyph": "bottle"
     },
     {
       "id": 22,
@@ -1026,7 +1092,8 @@
       "photo_file_name": "editCurriedCauliflowerSoup-sized-1440x480_(2).jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 4
+      "position": 4,
+      "glyph": "bowl"
     },
     {
       "id": 13,
@@ -1041,7 +1108,8 @@
       "photo_file_name": "gummy.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 4
+      "position": 4,
+      "glyph": "gummy"
     },
     {
       "id": 25,
@@ -1056,7 +1124,8 @@
       "photo_file_name": "spaghetti_bolognese.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 4
+      "position": 4,
+      "glyph": "pasta"
     },
     {
       "id": 3,
@@ -1071,7 +1140,8 @@
       "photo_file_name": "cookies.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 4
+      "position": 4,
+      "glyph": "cookie"
     },
     {
       "id": 6,
@@ -1086,7 +1156,8 @@
       "photo_file_name": "brownie.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 4
+      "position": 4,
+      "glyph": "bar"
     },
     {
       "id": 11,
@@ -1101,7 +1172,8 @@
       "photo_file_name": "grilled.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 5
+      "position": 5,
+      "glyph": "sandwich"
     },
     {
       "id": 16,
@@ -1116,7 +1188,8 @@
       "photo_file_name": "gingerbread.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 6
+      "position": 6,
+      "glyph": "cookie"
     },
     {
       "id": 7,
@@ -1131,7 +1204,8 @@
       "photo_file_name": "nuts.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 7
+      "position": 7,
+      "glyph": "chips"
     },
     {
       "id": 8,
@@ -1146,7 +1220,8 @@
       "photo_file_name": "honey.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 7
+      "position": 7,
+      "glyph": "bottle"
     },
     {
       "id": 2,
@@ -1161,7 +1236,8 @@
       "photo_file_name": "whiskey.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 8
+      "position": 8,
+      "glyph": "glass"
     },
     {
       "id": 10,
@@ -1176,7 +1252,8 @@
       "photo_file_name": "chai.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 10
+      "position": 10,
+      "glyph": "mug"
     },
     {
       "id": 12,
@@ -1191,7 +1268,8 @@
       "photo_file_name": "popcorn.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 11
+      "position": 11,
+      "glyph": "chips"
     },
     {
       "id": 15,
@@ -1206,7 +1284,8 @@
       "photo_file_name": "eggnog.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 12
+      "position": 12,
+      "glyph": "glass"
     },
     {
       "id": 35,
@@ -1221,7 +1300,8 @@
       "photo_file_name": "infused-ghee.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 13
+      "position": 13,
+      "glyph": "butter"
     },
     {
       "id": 140,
@@ -1236,7 +1316,8 @@
       "photo_file_name": "infused-condensed-milk.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 14
+      "position": 14,
+      "glyph": "bottle"
     },
     {
       "id": 36,
@@ -1251,7 +1332,8 @@
       "photo_file_name": "cannabis-hot-chocolate.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 14
+      "position": 14,
+      "glyph": "mug"
     },
     {
       "id": 37,
@@ -1266,7 +1348,8 @@
       "photo_file_name": "infused-cold-brew.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 15
+      "position": 15,
+      "glyph": "glass"
     },
     {
       "id": 38,
@@ -1281,7 +1364,8 @@
       "photo_file_name": "weed-rice-krispie-treats.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 16
+      "position": 16,
+      "glyph": "pie"
     },
     {
       "id": 39,
@@ -1296,7 +1380,8 @@
       "photo_file_name": "cannabis-caramel-sauce.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 17
+      "position": 17,
+      "glyph": "bottle"
     },
     {
       "id": 40,
@@ -1311,7 +1396,8 @@
       "photo_file_name": "infused-hummus.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 18
+      "position": 18,
+      "glyph": "bowl"
     },
     {
       "id": 41,
@@ -1326,7 +1412,8 @@
       "photo_file_name": "infused-granola.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 19
+      "position": 19,
+      "glyph": "bowl"
     },
     {
       "id": 42,
@@ -1341,7 +1428,8 @@
       "photo_file_name": "cannabis-avocado-toast.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 20
+      "position": 20,
+      "glyph": "bread"
     },
     {
       "id": 43,
@@ -1356,7 +1444,8 @@
       "photo_file_name": "cannabis-salad-dressing.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 21
+      "position": 21,
+      "glyph": "bottle"
     },
     {
       "id": 44,
@@ -1371,7 +1460,8 @@
       "photo_file_name": "infused-chocolate-bark.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 22
+      "position": 22,
+      "glyph": "bar"
     },
     {
       "id": 45,
@@ -1386,7 +1476,8 @@
       "photo_file_name": "cannabis-vegan-brownies.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 45
+      "position": 45,
+      "glyph": "bar"
     },
     {
       "id": 46,
@@ -1401,7 +1492,8 @@
       "photo_file_name": "infused-vegan-cheese-sauce.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 46
+      "position": 46,
+      "glyph": "bottle"
     },
     {
       "id": 47,
@@ -1416,7 +1508,8 @@
       "photo_file_name": "cannabis-lentil-soup.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 47
+      "position": 47,
+      "glyph": "bowl"
     },
     {
       "id": 48,
@@ -1431,7 +1524,8 @@
       "photo_file_name": "infused-vegan-pancakes.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 48
+      "position": 48,
+      "glyph": "pancake"
     },
     {
       "id": 49,
@@ -1446,7 +1540,8 @@
       "photo_file_name": "cannabis-sweet-potato-curry.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 49
+      "position": 49,
+      "glyph": "bowl"
     },
     {
       "id": 50,
@@ -1461,7 +1556,8 @@
       "photo_file_name": "infused-jackfruit-tacos.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 50
+      "position": 50,
+      "glyph": "taco"
     },
     {
       "id": 51,
@@ -1476,7 +1572,8 @@
       "photo_file_name": "cannabis-vegan-chocolate-mousse.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 51
+      "position": 51,
+      "glyph": "bowl"
     },
     {
       "id": 52,
@@ -1491,7 +1588,8 @@
       "photo_file_name": "infused-vegan-mac-and-cheese.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 52
+      "position": 52,
+      "glyph": "pasta"
     },
     {
       "id": 53,
@@ -1506,7 +1604,8 @@
       "photo_file_name": "cannabis-coconut-milk-ice-cream.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 53
+      "position": 53,
+      "glyph": "icecream"
     },
     {
       "id": 54,
@@ -1521,7 +1620,8 @@
       "photo_file_name": "infused-chickpea-stew.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 54
+      "position": 54,
+      "glyph": "bowl"
     },
     {
       "id": 55,
@@ -1536,7 +1636,8 @@
       "photo_file_name": "cannabis-vegan-protein-balls.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 55
+      "position": 55,
+      "glyph": "bonbon"
     },
     {
       "id": 56,
@@ -1551,7 +1652,8 @@
       "photo_file_name": "infused-vegan-pesto-zoodles.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 56
+      "position": 56,
+      "glyph": "pasta"
     },
     {
       "id": 57,
@@ -1566,7 +1668,8 @@
       "photo_file_name": "cannabis-black-bean-soup.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 57
+      "position": 57,
+      "glyph": "bowl"
     },
     {
       "id": 58,
@@ -1581,7 +1684,8 @@
       "photo_file_name": "infused-vegan-banana-ice-cream.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 58
+      "position": 58,
+      "glyph": "icecream"
     },
     {
       "id": 59,
@@ -1596,7 +1700,8 @@
       "photo_file_name": "cannabis-roasted-vegetable-medley.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 59
+      "position": 59,
+      "glyph": "salad"
     },
     {
       "id": 60,
@@ -1611,7 +1716,8 @@
       "photo_file_name": "cannabis-keto-bacon-bites.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 60
+      "position": 60,
+      "glyph": "chicken"
     },
     {
       "id": 61,
@@ -1626,7 +1732,8 @@
       "photo_file_name": "infused-keto-chicken-wings.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 61
+      "position": 61,
+      "glyph": "chicken"
     },
     {
       "id": 62,
@@ -1641,7 +1748,8 @@
       "photo_file_name": "cannabis-keto-deviled-eggs.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 62
+      "position": 62,
+      "glyph": "egg"
     },
     {
       "id": 63,
@@ -1656,7 +1764,8 @@
       "photo_file_name": "infused-keto-stuffed-mushrooms.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 63
+      "position": 63,
+      "glyph": "salad"
     },
     {
       "id": 64,
@@ -1671,7 +1780,8 @@
       "photo_file_name": "cannabis-keto-beef-chili.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 64
+      "position": 64,
+      "glyph": "bowl"
     },
     {
       "id": 65,
@@ -1686,7 +1796,8 @@
       "photo_file_name": "infused-keto-zucchini-chips.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 65
+      "position": 65,
+      "glyph": "chips"
     },
     {
       "id": 66,
@@ -1701,7 +1812,8 @@
       "photo_file_name": "cannabis-keto-waffles.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 66
+      "position": 66,
+      "glyph": "pancake"
     },
     {
       "id": 67,
@@ -1716,7 +1828,8 @@
       "photo_file_name": "infused-keto-salmon-patties.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 67
+      "position": 67,
+      "glyph": "fish"
     },
     {
       "id": 68,
@@ -1731,7 +1844,8 @@
       "photo_file_name": "cannabis-keto-spinach-dip.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 68
+      "position": 68,
+      "glyph": "bowl"
     },
     {
       "id": 69,
@@ -1746,7 +1860,8 @@
       "photo_file_name": "infused-keto-almond-flour-cake.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 69
+      "position": 69,
+      "glyph": "cake"
     },
     {
       "id": 70,
@@ -1761,7 +1876,8 @@
       "photo_file_name": "cannabis-sparkling-lemonade.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 70
+      "position": 70,
+      "glyph": "glass"
     },
     {
       "id": 71,
@@ -1776,7 +1892,8 @@
       "photo_file_name": "infused-virgin-mojito.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 71
+      "position": 71,
+      "glyph": "glass"
     },
     {
       "id": 72,
@@ -1791,7 +1908,8 @@
       "photo_file_name": "cannabis-cucumber-mint-cooler.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 72
+      "position": 72,
+      "glyph": "glass"
     },
     {
       "id": 73,
@@ -1806,7 +1924,8 @@
       "photo_file_name": "infused-watermelon-slush.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 73
+      "position": 73,
+      "glyph": "glass"
     },
     {
       "id": 74,
@@ -1821,7 +1940,8 @@
       "photo_file_name": "cannabis-lavender-lemonade.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 74
+      "position": 74,
+      "glyph": "glass"
     },
     {
       "id": 75,
@@ -1836,7 +1956,8 @@
       "photo_file_name": "infused-tropical-punch.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 75
+      "position": 75,
+      "glyph": "glass"
     },
     {
       "id": 76,
@@ -1851,7 +1972,8 @@
       "photo_file_name": "cannabis-strawberry-basil-smash.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 76
+      "position": 76,
+      "glyph": "glass"
     },
     {
       "id": 77,
@@ -1866,7 +1988,8 @@
       "photo_file_name": "infused-hibiscus-tea.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 77
+      "position": 77,
+      "glyph": "mug"
     },
     {
       "id": 78,
@@ -1881,7 +2004,8 @@
       "photo_file_name": "cannabis-peach-iced-tea.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 78
+      "position": 78,
+      "glyph": "glass"
     },
     {
       "id": 79,
@@ -1896,7 +2020,8 @@
       "photo_file_name": "infused-mango-lassi.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 79
+      "position": 79,
+      "glyph": "glass"
     },
     {
       "id": 80,
@@ -1911,7 +2036,8 @@
       "photo_file_name": "cannabis-rose-lemonade.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 80
+      "position": 80,
+      "glyph": "glass"
     },
     {
       "id": 81,
@@ -1926,7 +2052,8 @@
       "photo_file_name": "infused-pineapple-ginger-fizz.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 81
+      "position": 81,
+      "glyph": "glass"
     },
     {
       "id": 82,
@@ -1941,7 +2068,8 @@
       "photo_file_name": "cannabis-cranberry-spritzer.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 82
+      "position": 82,
+      "glyph": "glass"
     },
     {
       "id": 83,
@@ -1956,7 +2084,8 @@
       "photo_file_name": "infused-matcha-cooler.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 83
+      "position": 83,
+      "glyph": "glass"
     },
     {
       "id": 84,
@@ -1971,7 +2100,8 @@
       "photo_file_name": "cannabis-passion-fruit-lemonade.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 84
+      "position": 84,
+      "glyph": "glass"
     },
     {
       "id": 85,
@@ -1986,7 +2116,8 @@
       "photo_file_name": "infused-cherry-limeade.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 85
+      "position": 85,
+      "glyph": "glass"
     },
     {
       "id": 86,
@@ -2001,7 +2132,8 @@
       "photo_file_name": "cannabis-mint-green-tea.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 86
+      "position": 86,
+      "glyph": "mug"
     },
     {
       "id": 87,
@@ -2016,7 +2148,8 @@
       "photo_file_name": "infused-blueberry-lemonade.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 87
+      "position": 87,
+      "glyph": "glass"
     },
     {
       "id": 88,
@@ -2031,7 +2164,8 @@
       "photo_file_name": "cannabis-ginger-turmeric-tonic.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 88
+      "position": 88,
+      "glyph": "glass"
     },
     {
       "id": 89,
@@ -2046,7 +2180,8 @@
       "photo_file_name": "infused-coconut-lime-agua-fresca.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 89
+      "position": 89,
+      "glyph": "glass"
     },
     {
       "id": 90,
@@ -2061,7 +2196,8 @@
       "photo_file_name": "cannabis-cheesecake.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 90
+      "position": 90,
+      "glyph": "cake"
     },
     {
       "id": 91,
@@ -2076,7 +2212,8 @@
       "photo_file_name": "infused-tiramisu.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 91
+      "position": 91,
+      "glyph": "cake"
     },
     {
       "id": 92,
@@ -2091,7 +2228,8 @@
       "photo_file_name": "cannabis-apple-pie.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 92
+      "position": 92,
+      "glyph": "pie"
     },
     {
       "id": 93,
@@ -2106,7 +2244,8 @@
       "photo_file_name": "infused-chocolate-lava-cake.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 93
+      "position": 93,
+      "glyph": "cake"
     },
     {
       "id": 94,
@@ -2121,7 +2260,8 @@
       "photo_file_name": "cannabis-lemon-bars.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 94
+      "position": 94,
+      "glyph": "bar"
     },
     {
       "id": 95,
@@ -2136,7 +2276,8 @@
       "photo_file_name": "infused-carrot-cake.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 95
+      "position": 95,
+      "glyph": "cake"
     },
     {
       "id": 96,
@@ -2151,7 +2292,8 @@
       "photo_file_name": "cannabis-coconut-macaroons.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 96
+      "position": 96,
+      "glyph": "cookie"
     },
     {
       "id": 97,
@@ -2166,7 +2308,8 @@
       "photo_file_name": "infused-fudge.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 97
+      "position": 97,
+      "glyph": "bar"
     },
     {
       "id": 98,
@@ -2181,7 +2324,8 @@
       "photo_file_name": "cannabis-blondies.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 98
+      "position": 98,
+      "glyph": "bar"
     },
     {
       "id": 99,
@@ -2196,7 +2340,8 @@
       "photo_file_name": "infused-donut-holes.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 99
+      "position": 99,
+      "glyph": "bonbon"
     },
     {
       "id": 100,
@@ -2211,7 +2356,8 @@
       "photo_file_name": "cannabis-peach-cobbler.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 100
+      "position": 100,
+      "glyph": "pie"
     },
     {
       "id": 101,
@@ -2226,7 +2372,8 @@
       "photo_file_name": "infused-baklava.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 101
+      "position": 101,
+      "glyph": "bar"
     },
     {
       "id": 102,
@@ -2241,7 +2388,8 @@
       "photo_file_name": "cannabis-chocolate-fondue.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 102
+      "position": 102,
+      "glyph": "bowl"
     },
     {
       "id": 103,
@@ -2256,7 +2404,8 @@
       "photo_file_name": "infused-strawberry-shortcake.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 103
+      "position": 103,
+      "glyph": "cake"
     },
     {
       "id": 104,
@@ -2271,7 +2420,8 @@
       "photo_file_name": "cannabis-panna-cotta.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 104
+      "position": 104,
+      "glyph": "bowl"
     },
     {
       "id": 105,
@@ -2286,7 +2436,8 @@
       "photo_file_name": "infused-churros.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 105
+      "position": 105,
+      "glyph": "bread"
     },
     {
       "id": 106,
@@ -2301,7 +2452,8 @@
       "photo_file_name": "cannabis-crepes.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 106
+      "position": 106,
+      "glyph": "pancake"
     },
     {
       "id": 107,
@@ -2316,7 +2468,8 @@
       "photo_file_name": "infused-mango-sorbet.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 107
+      "position": 107,
+      "glyph": "icecream"
     },
     {
       "id": 108,
@@ -2331,7 +2484,8 @@
       "photo_file_name": "cannabis-cinnamon-rolls.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 108
+      "position": 108,
+      "glyph": "bread"
     },
     {
       "id": 109,
@@ -2346,7 +2500,8 @@
       "photo_file_name": "infused-coconut-pudding.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 109
+      "position": 109,
+      "glyph": "bowl"
     },
     {
       "id": 110,
@@ -2361,7 +2516,8 @@
       "photo_file_name": "cannabis-shakshuka.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 110
+      "position": 110,
+      "glyph": "egg"
     },
     {
       "id": 111,
@@ -2376,7 +2532,8 @@
       "photo_file_name": "infused-mushroom-risotto.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 111
+      "position": 111,
+      "glyph": "bowl"
     },
     {
       "id": 112,
@@ -2391,7 +2548,8 @@
       "photo_file_name": "cannabis-thai-basil-chicken.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 112
+      "position": 112,
+      "glyph": "chicken"
     },
     {
       "id": 113,
@@ -2406,7 +2564,8 @@
       "photo_file_name": "infused-beef-tacos.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 113
+      "position": 113,
+      "glyph": "taco"
     },
     {
       "id": 114,
@@ -2421,7 +2580,8 @@
       "photo_file_name": "cannabis-chicken-caesar-salad.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 114
+      "position": 114,
+      "glyph": "salad"
     },
     {
       "id": 115,
@@ -2436,7 +2596,8 @@
       "photo_file_name": "infused-cauliflower-fried-rice.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 115
+      "position": 115,
+      "glyph": "bowl"
     },
     {
       "id": 116,
@@ -2451,7 +2612,8 @@
       "photo_file_name": "cannabis-minestrone-soup.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 116
+      "position": 116,
+      "glyph": "bowl"
     },
     {
       "id": 117,
@@ -2466,7 +2628,8 @@
       "photo_file_name": "infused-pulled-pork-sliders.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 117
+      "position": 117,
+      "glyph": "sandwich"
     },
     {
       "id": 118,
@@ -2481,7 +2644,8 @@
       "photo_file_name": "cannabis-greek-salad.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 118
+      "position": 118,
+      "glyph": "salad"
     },
     {
       "id": 119,
@@ -2496,7 +2660,8 @@
       "photo_file_name": "infused-tomato-bisque.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 119
+      "position": 119,
+      "glyph": "bowl"
     },
     {
       "id": 120,
@@ -2511,7 +2676,8 @@
       "photo_file_name": "cannabis-chicken-burrito-bowl.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 120
+      "position": 120,
+      "glyph": "bowl"
     },
     {
       "id": 121,
@@ -2526,7 +2692,8 @@
       "photo_file_name": "infused-falafel-wrap.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 121
+      "position": 121,
+      "glyph": "taco"
     },
     {
       "id": 122,
@@ -2541,7 +2708,8 @@
       "photo_file_name": "cannabis-butternut-squash-soup.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 122
+      "position": 122,
+      "glyph": "bowl"
     },
     {
       "id": 123,
@@ -2556,7 +2724,8 @@
       "photo_file_name": "infused-egg-fried-rice.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 123
+      "position": 123,
+      "glyph": "bowl"
     },
     {
       "id": 124,
@@ -2571,7 +2740,8 @@
       "photo_file_name": "cannabis-grilled-salmon.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 124
+      "position": 124,
+      "glyph": "fish"
     },
     {
       "id": 125,
@@ -2586,7 +2756,8 @@
       "photo_file_name": "infused-caprese-salad.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 125
+      "position": 125,
+      "glyph": "salad"
     },
     {
       "id": 126,
@@ -2601,7 +2772,8 @@
       "photo_file_name": "cannabis-quesadilla.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 126
+      "position": 126,
+      "glyph": "taco"
     },
     {
       "id": 127,
@@ -2616,7 +2788,8 @@
       "photo_file_name": "infused-pad-thai.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 127
+      "position": 127,
+      "glyph": "pasta"
     },
     {
       "id": 128,
@@ -2631,7 +2804,8 @@
       "photo_file_name": "cannabis-pizza.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 128
+      "position": 128,
+      "glyph": "pizza"
     },
     {
       "id": 129,
@@ -2646,7 +2820,8 @@
       "photo_file_name": "infused-lentil-dal.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 129
+      "position": 129,
+      "glyph": "bowl"
     },
     {
       "id": 130,
@@ -2661,7 +2836,8 @@
       "photo_file_name": "cannabis-feijoada.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 130
+      "position": 130,
+      "glyph": "bowl"
     },
     {
       "id": 131,
@@ -2676,7 +2852,8 @@
       "photo_file_name": "infused-brigadeiro.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 131
+      "position": 131,
+      "glyph": "bonbon"
     },
     {
       "id": 132,
@@ -2691,7 +2868,8 @@
       "photo_file_name": "cannabis-pacoca.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 132
+      "position": 132,
+      "glyph": "bonbon"
     },
     {
       "id": 133,
@@ -2706,7 +2884,8 @@
       "photo_file_name": "infused-coxinha.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 133
+      "position": 133,
+      "glyph": "dumpling"
     },
     {
       "id": 134,
@@ -2721,7 +2900,8 @@
       "photo_file_name": "cannabis-pao-de-queijo.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 134
+      "position": 134,
+      "glyph": "bread"
     },
     {
       "id": 135,
@@ -2736,7 +2916,8 @@
       "photo_file_name": "infused-acai-bowl.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 135
+      "position": 135,
+      "glyph": "bowl"
     },
     {
       "id": 136,
@@ -2751,7 +2932,8 @@
       "photo_file_name": "cannabis-moqueca.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 136
+      "position": 136,
+      "glyph": "bowl"
     },
     {
       "id": 137,
@@ -2766,7 +2948,8 @@
       "photo_file_name": "infused-tapioca-crepe.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 137
+      "position": 137,
+      "glyph": "pancake"
     },
     {
       "id": 138,
@@ -2781,7 +2964,8 @@
       "photo_file_name": "cannabis-beijinho.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 138
+      "position": 138,
+      "glyph": "bonbon"
     },
     {
       "id": 139,
@@ -2796,7 +2980,8 @@
       "photo_file_name": "infused-empadao.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 139
+      "position": 139,
+      "glyph": "pie"
     },
     {
       "id": 141,
@@ -2811,7 +2996,8 @@
       "photo_file_name": "cannabis-nachos.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 141
+      "position": 141,
+      "glyph": "chips"
     },
     {
       "id": 142,
@@ -2826,7 +3012,8 @@
       "photo_file_name": "cannabis-cheese-dip.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 142
+      "position": 142,
+      "glyph": "bowl"
     },
     {
       "id": 143,
@@ -2841,7 +3028,8 @@
       "photo_file_name": "infused-stuffed-jalapenos.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 143
+      "position": 143,
+      "glyph": "chips"
     },
     {
       "id": 144,
@@ -2856,7 +3044,8 @@
       "photo_file_name": "cannabis-pretzel-bites.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 144
+      "position": 144,
+      "glyph": "bread"
     },
     {
       "id": 145,
@@ -2871,7 +3060,8 @@
       "photo_file_name": "infused-bruschetta.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 145
+      "position": 145,
+      "glyph": "bread"
     },
     {
       "id": 146,
@@ -2886,7 +3076,8 @@
       "photo_file_name": "cannabis-spinach-artichoke-dip.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 146
+      "position": 146,
+      "glyph": "bowl"
     },
     {
       "id": 147,
@@ -2901,7 +3092,8 @@
       "photo_file_name": "infused-deviled-eggs.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 147
+      "position": 147,
+      "glyph": "egg"
     },
     {
       "id": 148,
@@ -2916,7 +3108,8 @@
       "photo_file_name": "cannabis-mozzarella-sticks.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 148
+      "position": 148,
+      "glyph": "chips"
     },
     {
       "id": 149,
@@ -2931,7 +3124,8 @@
       "photo_file_name": "cannabis-buffalo-chicken-dip.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 149
+      "position": 149,
+      "glyph": "bowl"
     },
     {
       "id": 150,
@@ -2946,7 +3140,8 @@
       "photo_file_name": "cannabis-garlic-bread.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 150
+      "position": 150,
+      "glyph": "bread"
     },
     {
       "id": 151,
@@ -2961,7 +3156,8 @@
       "photo_file_name": "infused-onion-rings.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 151
+      "position": 151,
+      "glyph": "chips"
     },
     {
       "id": 152,
@@ -2976,7 +3172,8 @@
       "photo_file_name": "cannabis-veggie-spring-rolls.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 152
+      "position": 152,
+      "glyph": "dumpling"
     },
     {
       "id": 153,
@@ -2991,7 +3188,8 @@
       "photo_file_name": "cannabis-stuffed-mushrooms.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 153
+      "position": 153,
+      "glyph": "salad"
     },
     {
       "id": 154,
@@ -3006,7 +3204,8 @@
       "photo_file_name": "infused-peanut-butter-banana-bites.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 154
+      "position": 154,
+      "glyph": "bonbon"
     },
     {
       "id": 155,
@@ -3021,7 +3220,8 @@
       "photo_file_name": "cannabis-zucchini-fries.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 155
+      "position": 155,
+      "glyph": "chips"
     },
     {
       "id": 156,
@@ -3036,7 +3236,8 @@
       "photo_file_name": "infused-sweet-potato-fries.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 156
+      "position": 156,
+      "glyph": "chips"
     },
     {
       "id": 157,
@@ -3051,7 +3252,8 @@
       "photo_file_name": "cannabis-avocado-fries.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 157
+      "position": 157,
+      "glyph": "chips"
     },
     {
       "id": 158,
@@ -3066,7 +3268,8 @@
       "photo_file_name": "infused-caprese-skewers.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 158
+      "position": 158,
+      "glyph": "salad"
     },
     {
       "id": 159,
@@ -3081,7 +3284,8 @@
       "photo_file_name": "cannabis-loaded-potato-skins.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 159
+      "position": 159,
+      "glyph": "chips"
     },
     {
       "id": 160,
@@ -3096,7 +3300,8 @@
       "photo_file_name": "cannabis-tortilla-chips-with-salsa.jpg",
       "category_name": "Snacks",
       "category_slug": "snacks",
-      "position": 160
+      "position": 160,
+      "glyph": "chips"
     },
     {
       "id": 161,
@@ -3111,7 +3316,8 @@
       "photo_file_name": "cannabis-sugar.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 161
+      "position": 161,
+      "glyph": "bottle"
     },
     {
       "id": 162,
@@ -3126,7 +3332,8 @@
       "photo_file_name": "cannabis-flour.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 162
+      "position": 162,
+      "glyph": "bottle"
     },
     {
       "id": 163,
@@ -3141,7 +3348,8 @@
       "photo_file_name": "cannabis-tincture.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 163
+      "position": 163,
+      "glyph": "bottle"
     },
     {
       "id": 164,
@@ -3156,7 +3364,8 @@
       "photo_file_name": "cannabis-maple-syrup.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 164
+      "position": 164,
+      "glyph": "bottle"
     },
     {
       "id": 165,
@@ -3171,7 +3380,8 @@
       "photo_file_name": "cannabis-hot-sauce.jpg",
       "category_name": "Essentials",
       "category_slug": "essentials",
-      "position": 165
+      "position": 165,
+      "glyph": "bottle"
     },
     {
       "id": 166,
@@ -3186,7 +3396,8 @@
       "photo_file_name": "cannabis-kung-pao-chicken.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 166
+      "position": 166,
+      "glyph": "chicken"
     },
     {
       "id": 167,
@@ -3201,7 +3412,8 @@
       "photo_file_name": "cannabis-mapo-tofu.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 167
+      "position": 167,
+      "glyph": "bowl"
     },
     {
       "id": 168,
@@ -3216,7 +3428,8 @@
       "photo_file_name": "cannabis-sweet-and-sour-pork.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 168
+      "position": 168,
+      "glyph": "chicken"
     },
     {
       "id": 169,
@@ -3231,7 +3444,8 @@
       "photo_file_name": "cannabis-dan-dan-noodles.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 169
+      "position": 169,
+      "glyph": "pasta"
     },
     {
       "id": 170,
@@ -3246,7 +3460,8 @@
       "photo_file_name": "cannabis-wonton-soup.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 170
+      "position": 170,
+      "glyph": "bowl"
     },
     {
       "id": 171,
@@ -3261,7 +3476,8 @@
       "photo_file_name": "cannabis-char-siu-pork.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 171
+      "position": 171,
+      "glyph": "chicken"
     },
     {
       "id": 172,
@@ -3276,7 +3492,8 @@
       "photo_file_name": "cannabis-dim-sum-dumplings.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 172
+      "position": 172,
+      "glyph": "dumpling"
     },
     {
       "id": 173,
@@ -3291,7 +3508,8 @@
       "photo_file_name": "cannabis-sesame-chicken.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 173
+      "position": 173,
+      "glyph": "chicken"
     },
     {
       "id": 174,
@@ -3306,7 +3524,8 @@
       "photo_file_name": "cannabis-hot-and-sour-soup.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 174
+      "position": 174,
+      "glyph": "bowl"
     },
     {
       "id": 175,
@@ -3321,7 +3540,8 @@
       "photo_file_name": "cannabis-scallion-pancakes.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 175
+      "position": 175,
+      "glyph": "pancake"
     },
     {
       "id": 176,
@@ -3336,7 +3556,8 @@
       "photo_file_name": "cannabis-schnitzel.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 176
+      "position": 176,
+      "glyph": "chicken"
     },
     {
       "id": 177,
@@ -3351,7 +3572,8 @@
       "photo_file_name": "cannabis-kartoffelpuffer.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 177
+      "position": 177,
+      "glyph": "pancake"
     },
     {
       "id": 178,
@@ -3366,7 +3588,8 @@
       "photo_file_name": "cannabis-bratwurst-with-sauerkraut.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 178
+      "position": 178,
+      "glyph": "sandwich"
     },
     {
       "id": 179,
@@ -3381,7 +3604,8 @@
       "photo_file_name": "cannabis-kaesespaetzle.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 179
+      "position": 179,
+      "glyph": "pasta"
     },
     {
       "id": 180,
@@ -3396,7 +3620,8 @@
       "photo_file_name": "cannabis-apfelstrudel.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 180
+      "position": 180,
+      "glyph": "pie"
     },
     {
       "id": 181,
@@ -3411,7 +3636,8 @@
       "photo_file_name": "cannabis-flammkuchen.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 181
+      "position": 181,
+      "glyph": "pizza"
     },
     {
       "id": 182,
@@ -3426,7 +3652,8 @@
       "photo_file_name": "cannabis-currywurst.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 182
+      "position": 182,
+      "glyph": "bowl"
     },
     {
       "id": 183,
@@ -3441,7 +3668,8 @@
       "photo_file_name": "cannabis-black-forest-cake.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 183
+      "position": 183,
+      "glyph": "cake"
     },
     {
       "id": 184,
@@ -3456,7 +3684,8 @@
       "photo_file_name": "cannabis-brezel.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 184
+      "position": 184,
+      "glyph": "bread"
     },
     {
       "id": 185,
@@ -3471,7 +3700,8 @@
       "photo_file_name": "cannabis-rouladen.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 185
+      "position": 185,
+      "glyph": "chicken"
     },
     {
       "id": 186,
@@ -3486,7 +3716,8 @@
       "photo_file_name": "cannabis-golden-milk.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 186
+      "position": 186,
+      "glyph": "mug"
     },
     {
       "id": 187,
@@ -3501,7 +3732,8 @@
       "photo_file_name": "cannabis-horchata.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 187
+      "position": 187,
+      "glyph": "glass"
     },
     {
       "id": 188,
@@ -3516,7 +3748,8 @@
       "photo_file_name": "cannabis-mulled-wine.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 188
+      "position": 188,
+      "glyph": "mug"
     },
     {
       "id": 189,
@@ -3531,7 +3764,8 @@
       "photo_file_name": "cannabis-pina-colada.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 189
+      "position": 189,
+      "glyph": "glass"
     },
     {
       "id": 190,
@@ -3546,7 +3780,8 @@
       "photo_file_name": "cannabis-arnold-palmer.jpg",
       "category_name": "Drinks",
       "category_slug": "drinks",
-      "position": 190
+      "position": 190,
+      "glyph": "glass"
     },
     {
       "id": 191,
@@ -3561,7 +3796,8 @@
       "photo_file_name": "cannabis-enchiladas.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 191
+      "position": 191,
+      "glyph": "taco"
     },
     {
       "id": 192,
@@ -3576,7 +3812,8 @@
       "photo_file_name": "cannabis-tamales.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 192
+      "position": 192,
+      "glyph": "dumpling"
     },
     {
       "id": 193,
@@ -3591,7 +3828,8 @@
       "photo_file_name": "cannabis-chilaquiles.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 193
+      "position": 193,
+      "glyph": "chips"
     },
     {
       "id": 194,
@@ -3606,7 +3844,8 @@
       "photo_file_name": "cannabis-elote.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 194
+      "position": 194,
+      "glyph": "salad"
     },
     {
       "id": 195,
@@ -3621,7 +3860,8 @@
       "photo_file_name": "cannabis-churro-bites.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 195
+      "position": 195,
+      "glyph": "bread"
     },
     {
       "id": 196,
@@ -3636,7 +3876,8 @@
       "photo_file_name": "cannabis-pozole.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 196
+      "position": 196,
+      "glyph": "bowl"
     },
     {
       "id": 197,
@@ -3651,7 +3892,8 @@
       "photo_file_name": "cannabis-mole-chicken.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 197
+      "position": 197,
+      "glyph": "chicken"
     },
     {
       "id": 198,
@@ -3666,7 +3908,8 @@
       "photo_file_name": "cannabis-tostadas.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 198
+      "position": 198,
+      "glyph": "taco"
     },
     {
       "id": 199,
@@ -3681,7 +3924,8 @@
       "photo_file_name": "cannabis-birria-tacos.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 199
+      "position": 199,
+      "glyph": "taco"
     },
     {
       "id": 200,
@@ -3696,7 +3940,8 @@
       "photo_file_name": "cannabis-tres-leches-cake.jpg",
       "category_name": "International",
       "category_slug": "international",
-      "position": 200
+      "position": 200,
+      "glyph": "cake"
     },
     {
       "id": 201,
@@ -3711,7 +3956,8 @@
       "photo_file_name": "cannabis-red-velvet-cake.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 201
+      "position": 201,
+      "glyph": "cake"
     },
     {
       "id": 202,
@@ -3726,7 +3972,8 @@
       "photo_file_name": "cannabis-snickerdoodle-cookies.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 202
+      "position": 202,
+      "glyph": "cookie"
     },
     {
       "id": 203,
@@ -3741,7 +3988,8 @@
       "photo_file_name": "cannabis-pumpkin-pie.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 203
+      "position": 203,
+      "glyph": "pie"
     },
     {
       "id": 204,
@@ -3756,7 +4004,8 @@
       "photo_file_name": "cannabis-strawberry-cheesecake-bars.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 204
+      "position": 204,
+      "glyph": "bar"
     },
     {
       "id": 205,
@@ -3771,7 +4020,8 @@
       "photo_file_name": "cannabis-oatmeal-raisin-cookies.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 205
+      "position": 205,
+      "glyph": "cookie"
     },
     {
       "id": 206,
@@ -3786,7 +4036,8 @@
       "photo_file_name": "cannabis-key-lime-pie.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 206
+      "position": 206,
+      "glyph": "pie"
     },
     {
       "id": 207,
@@ -3801,7 +4052,8 @@
       "photo_file_name": "cannabis-french-toast.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 207
+      "position": 207,
+      "glyph": "pancake"
     },
     {
       "id": 208,
@@ -3816,7 +4068,8 @@
       "photo_file_name": "cannabis-creme-brulee.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 208
+      "position": 208,
+      "glyph": "bowl"
     },
     {
       "id": 209,
@@ -3831,7 +4084,8 @@
       "photo_file_name": "cannabis-smores-bars.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 209
+      "position": 209,
+      "glyph": "bar"
     },
     {
       "id": 210,
@@ -3846,7 +4100,8 @@
       "photo_file_name": "cannabis-chocolate-chip-muffins.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 210
+      "position": 210,
+      "glyph": "cake"
     },
     {
       "id": 211,
@@ -3861,7 +4116,8 @@
       "photo_file_name": "cannabis-bread-pudding.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 211
+      "position": 211,
+      "glyph": "bowl"
     },
     {
       "id": 212,
@@ -3876,7 +4132,8 @@
       "photo_file_name": "cannabis-pecan-pie.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 212
+      "position": 212,
+      "glyph": "pie"
     },
     {
       "id": 213,
@@ -3891,7 +4148,8 @@
       "photo_file_name": "cannabis-banana-pudding.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 213
+      "position": 213,
+      "glyph": "bowl"
     },
     {
       "id": 214,
@@ -3906,7 +4164,8 @@
       "photo_file_name": "cannabis-peanut-butter-cups.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 214
+      "position": 214,
+      "glyph": "bonbon"
     },
     {
       "id": 215,
@@ -3921,7 +4180,8 @@
       "photo_file_name": "cannabis-macarons.jpg",
       "category_name": "Desserts",
       "category_slug": "desserts",
-      "position": 215
+      "position": 215,
+      "glyph": "cookie"
     },
     {
       "id": 216,
@@ -3936,7 +4196,8 @@
       "photo_file_name": "cannabis-mac-and-cheese.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 216
+      "position": 216,
+      "glyph": "pasta"
     },
     {
       "id": 217,
@@ -3951,7 +4212,8 @@
       "photo_file_name": "cannabis-bbq-pulled-chicken.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 217
+      "position": 217,
+      "glyph": "sandwich"
     },
     {
       "id": 218,
@@ -3966,7 +4228,8 @@
       "photo_file_name": "cannabis-garlic-butter-shrimp.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 218
+      "position": 218,
+      "glyph": "fish"
     },
     {
       "id": 219,
@@ -3981,7 +4244,8 @@
       "photo_file_name": "cannabis-chicken-alfredo.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 219
+      "position": 219,
+      "glyph": "pasta"
     },
     {
       "id": 220,
@@ -3996,7 +4260,8 @@
       "photo_file_name": "cannabis-beef-stew.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 220
+      "position": 220,
+      "glyph": "bowl"
     },
     {
       "id": 221,
@@ -4011,7 +4276,8 @@
       "photo_file_name": "cannabis-french-onion-soup.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 221
+      "position": 221,
+      "glyph": "bowl"
     },
     {
       "id": 222,
@@ -4026,7 +4292,8 @@
       "photo_file_name": "cannabis-chicken-pot-pie.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 222
+      "position": 222,
+      "glyph": "pie"
     },
     {
       "id": 223,
@@ -4041,7 +4308,8 @@
       "photo_file_name": "cannabis-lasagna.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 223
+      "position": 223,
+      "glyph": "pasta"
     },
     {
       "id": 224,
@@ -4056,7 +4324,8 @@
       "photo_file_name": "cannabis-carbonara.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 224
+      "position": 224,
+      "glyph": "pasta"
     },
     {
       "id": 225,
@@ -4071,7 +4340,8 @@
       "photo_file_name": "cannabis-chicken-tikka-masala.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 225
+      "position": 225,
+      "glyph": "bowl"
     },
     {
       "id": 226,
@@ -4086,7 +4356,8 @@
       "photo_file_name": "cannabis-fish-tacos.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 226
+      "position": 226,
+      "glyph": "taco"
     },
     {
       "id": 227,
@@ -4101,7 +4372,8 @@
       "photo_file_name": "cannabis-teriyaki-bowl.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 227
+      "position": 227,
+      "glyph": "bowl"
     },
     {
       "id": 228,
@@ -4116,7 +4388,8 @@
       "photo_file_name": "cannabis-stuffed-bell-peppers.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 228
+      "position": 228,
+      "glyph": "salad"
     },
     {
       "id": 229,
@@ -4131,7 +4404,8 @@
       "photo_file_name": "cannabis-clam-chowder.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 229
+      "position": 229,
+      "glyph": "bowl"
     },
     {
       "id": 230,
@@ -4146,7 +4420,8 @@
       "photo_file_name": "cannabis-shepherds-pie.jpg",
       "category_name": "Lunch",
       "category_slug": "lunch",
-      "position": 230
+      "position": 230,
+      "glyph": "pie"
     },
     {
       "id": 231,
@@ -4161,7 +4436,8 @@
       "photo_file_name": "cannabis-keto-egg-muffins.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 231
+      "position": 231,
+      "glyph": "egg"
     },
     {
       "id": 232,
@@ -4176,7 +4452,8 @@
       "photo_file_name": "cannabis-keto-butter-chicken.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 232
+      "position": 232,
+      "glyph": "bowl"
     },
     {
       "id": 233,
@@ -4191,7 +4468,8 @@
       "photo_file_name": "cannabis-keto-avocado-brownies.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 233
+      "position": 233,
+      "glyph": "bar"
     },
     {
       "id": 234,
@@ -4206,7 +4484,8 @@
       "photo_file_name": "cannabis-keto-bacon-cheeseburger-bites.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 234
+      "position": 234,
+      "glyph": "sandwich"
     },
     {
       "id": 235,
@@ -4221,7 +4500,8 @@
       "photo_file_name": "cannabis-keto-garlic-parmesan-wings.jpg",
       "category_name": "Keto",
       "category_slug": "keto",
-      "position": 235
+      "position": 235,
+      "glyph": "chicken"
     },
     {
       "id": 236,
@@ -4236,7 +4516,8 @@
       "photo_file_name": "cannabis-vegan-pad-thai.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 236
+      "position": 236,
+      "glyph": "pasta"
     },
     {
       "id": 237,
@@ -4251,7 +4532,8 @@
       "photo_file_name": "cannabis-vegan-buddha-bowl.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 237
+      "position": 237,
+      "glyph": "bowl"
     },
     {
       "id": 238,
@@ -4266,7 +4548,8 @@
       "photo_file_name": "cannabis-vegan-stuffed-peppers.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 238
+      "position": 238,
+      "glyph": "salad"
     },
     {
       "id": 239,
@@ -4281,7 +4564,8 @@
       "photo_file_name": "cannabis-vegan-oat-cookies.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 239
+      "position": 239,
+      "glyph": "cookie"
     },
     {
       "id": 240,
@@ -4296,7 +4580,8 @@
       "photo_file_name": "cannabis-vegan-mushroom-stroganoff.jpg",
       "category_name": "Vegan",
       "category_slug": "vegan",
-      "position": 240
+      "position": 240,
+      "glyph": "pasta"
     }
   ]
 }

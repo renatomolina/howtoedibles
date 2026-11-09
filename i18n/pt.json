@@ -204,5 +204,168 @@
     "a5": "O consumo excessivo de comestíveis de cannabis pode causar ansiedade intensa, paranoia, batimentos cardíacos acelerados e desorientação. Esses efeitos são temporários e não representam risco de vida. Se isso acontecer: mantenha a calma, beba água, deite-se em um lugar confortável e lembre-se de que a sensação vai passar. Use nossa calculadora antes de consumir para evitar isso.",
     "q6": "A quantidade de manteiga ou óleo afeta a potência do comestível?",
     "a6": "Não. A potência dos seus comestíveis depende apenas da quantidade de cannabis usada, sua porcentagem de THC e do número de porções. A quantidade de manteiga ou óleo afeta a textura, não a potência. Nossa calculadora reflete isso exatamente."
+  },
+  "ui": {
+    "shell": {
+      "search_pill": "Buscar {n} receitas",
+      "search_short": "Buscar receitas",
+      "search": "Buscar",
+      "menu": "Menu",
+      "close": "Fechar",
+      "recipes": "Receitas",
+      "all_recipes": "Todas as receitas",
+      "n_recipes": "{n} receitas",
+      "learn": "Aprenda",
+      "learn_links": [
+        "Comestíveis para iniciantes",
+        "Quanto tempo leva pra bater",
+        "Descarboxilação explicada",
+        "Como evitar uma bad trip",
+        "Todos os artigos"
+      ],
+      "help": "Bateu forte? Peça ajuda",
+      "more": "Mais",
+      "more_links": [
+        "Calculadora",
+        "Sobre",
+        "Contato",
+        "Apoie"
+      ],
+      "legal": "Para maiores de 21 anos onde a cannabis é legal. Os efeitos variam; comece com pouco e vá devagar.",
+      "language": "Idioma",
+      "appearance": "Aparência",
+      "modes": [
+        "Auto",
+        "Claro",
+        "Escuro"
+      ],
+      "calc_card": "Calculadora de dose",
+      "calc_card_sub": "Seus mg por porção com 3 números",
+      "browse": "Navegue por categoria"
+    },
+    "search": {
+      "cancel": "Cancelar",
+      "clear": "Limpar",
+      "popular": "Mais feitas",
+      "none": "Nenhuma receita para “{q}”",
+      "none_hint": "Tente uma palavra mais simples, como “cookies” ou “manteiga”.",
+      "see_all": "Ver os {n} resultados",
+      "also": "também"
+    },
+    "ad": {
+      "label": "Publicidade"
+    },
+    "calc": {
+      "mg": "mg",
+      "per": "por porção",
+      "batch": "Receita toda",
+      "in_batch": "{mg} mg no total",
+      "g": "g",
+      "thc": "THC",
+      "serving": "porção",
+      "servings": "porções",
+      "oz": [
+        "⅛ oz",
+        "¼ oz",
+        "½ oz",
+        "1 oz"
+      ],
+      "average": "média",
+      "this_recipe": "Esta receita",
+      "your_dose": "Sua dose",
+      "hint": "Ajuste para a sua cannabis antes de começar.",
+      "reset_recipe": "Voltar ao da receita",
+      "reset": "Redefinir",
+      "beginner": "Primeira vez? Comece com 2,5–5 mg e espere 2 horas antes de comer mais.",
+      "beginner_link": "Guia para iniciantes",
+      "split": "Para {t} mg, coma <b>{f}</b> de uma porção",
+      "cut": "ou divida a receita em {n} porções",
+      "too_strong": "Forte demais para dividir no olho. Use menos cannabis ou faça mais porções.",
+      "full": "Calculadora completa",
+      "guide": "Guia de potência"
+    },
+    "recipe": {
+      "total": "Tempo total",
+      "makes": "Rende",
+      "min": "min",
+      "h": "h",
+      "newbie": "Primeira vez? Coma <mark>{f} de porção (≈{mg} mg)</mark> e espere 2 horas antes de comer mais.",
+      "newbie_one": "Primeira vez? <mark>Uma porção</mark> é um começo leve. Espere 2 horas antes de comer mais.",
+      "newbie_too_strong": "Primeira vez? <mark>Forte demais para dividir no olho.</mark> Use menos cannabis ou corte mais porções.",
+      "jump": "Ver receita",
+      "adjust": "Ajustar dose",
+      "adjust_sub": "{g} g · {p}% THC",
+      "tap": "Toque em cada um conforme for fazendo.",
+      "wake": "Tela sempre ligada",
+      "wake_on": "Tela fica ligada",
+      "wake_no": "Seu navegador não mantém a tela ligada.",
+      "tips": "Dicas de dosagem",
+      "questions": "Perguntas",
+      "related": "Mais {c|lower}",
+      "make_first": "Faça antes →"
+    },
+    "home": {
+      "all_n": "Todas ({n})",
+      "see_all": "Ver todas",
+      "hero_q": "Qual vai ser a potência?",
+      "or": "ou encontre uma receita",
+      "base": "Comece pela base",
+      "base_sub": "Quase toda receita usa uma destas antes.",
+      "learn": "Aprenda o básico",
+      "support": "<b>Curtindo as receitas?</b> Este site é gratuito — <a href=\"#\">apoie-nos</a>.",
+      "band_calc": "Sua cannabis é diferente?",
+      "band_calc_sub": "Ajuste qualquer receita aos seus gramas e % de THC.",
+      "cat_lede": "{n} receitas, cada uma com o THC por porção já calculado.",
+      "q_title": "Resultados para “{q}”",
+      "q_n": "{n} receitas encontradas",
+      "q_none": "Nenhuma receita para “{q}”. Tente uma palavra mais simples ou veja uma categoria:"
+    },
+    "calcpage": {
+      "eyebrow": "Grátis · sem cadastro",
+      "updated": "Atualizada em {date}",
+      "guide_sub": "Onde o seu número cai. A linha destacada acompanha a calculadora.",
+      "you": "você",
+      "fx_title": "A fórmula",
+      "fx_sub": "Todas as receitas e esta calculadora usam a mesma.",
+      "fx_g": "gramas de cannabis",
+      "fx_s": "% de THC no rótulo",
+      "fx_e": "o que sobra após descarboxilar e infundir (~20% se perde)",
+      "fx_n": "porções",
+      "fx_p": "mg de THC por porção",
+      "ex_title": "Exemplo",
+      "ex": "3,5 g com 20% de THC, em 20 porções",
+      "ex_yours": "Com os seus números"
+    },
+    "articles": {
+      "h1": "Artigos e guias sobre cannabis",
+      "deck": "Dosagem, segurança, ciência e leis, checados em fontes primárias.",
+      "search": "Buscar artigos",
+      "all": "Todos",
+      "n": "{n} artigos",
+      "start": "Comece por aqui",
+      "see_all": "Ver todos os {n}",
+      "none": "Nenhum artigo encontrado. Tente uma palavra mais simples."
+    },
+    "article": {
+      "next_q": "Qual vai ser a força da sua?",
+      "next_sub": "Calcule os mg por porção antes de cozinhar.",
+      "first_batch": "Faça sua primeira receita"
+    },
+    "e404": {
+      "eyebrow": "Erro 404",
+      "title": "Essa página foi pro forno e não voltou.",
+      "deck": "O link é antigo, foi digitado errado ou a página mudou de lugar.",
+      "looking": "Você estava procurando uma destas?",
+      "popular": "Receitas mais feitas",
+      "search": "Buscar receitas"
+    },
+    "donate": {
+      "mark": "grátis",
+      "facts": [
+        "Receitas",
+        "Guias",
+        "Calculadora"
+      ]
+    }
   }
 }

@@ -204,5 +204,168 @@
     "a5": "El consumo excesivo de comestibles de cannabis puede causar ansiedad intensa, paranoia, latidos cardíacos acelerados y desorientación. Estos efectos son temporales y no ponen en riesgo la vida. Si esto sucede: mantén la calma, bebe agua, acuéstate en un lugar cómodo y recuerda que la sensación pasará. Usa nuestra calculadora antes de consumir para evitar esto.",
     "q6": "¿La cantidad de mantequilla o aceite afecta la potencia del comestible?",
     "a6": "No. La potencia de tus comestibles depende únicamente de la cantidad de cannabis utilizada, su porcentaje de THC y el número de porciones. La cantidad de mantequilla o aceite afecta la textura, no la potencia. Nuestra calculadora refleja esto exactamente."
+  },
+  "ui": {
+    "shell": {
+      "search_pill": "Buscar {n} recetas",
+      "search_short": "Buscar recetas",
+      "search": "Buscar",
+      "menu": "Menú",
+      "close": "Cerrar",
+      "recipes": "Recetas",
+      "all_recipes": "Todas las recetas",
+      "n_recipes": "{n} recetas",
+      "learn": "Aprende",
+      "learn_links": [
+        "Comestibles para principiantes",
+        "Cuánto tardan en hacer efecto",
+        "Descarboxilación explicada",
+        "Cómo evitar un mal viaje",
+        "Todos los artículos"
+      ],
+      "help": "¿Te pasaste? Pide ayuda",
+      "more": "Más",
+      "more_links": [
+        "Calculadora",
+        "Quiénes somos",
+        "Contacto",
+        "Apóyanos"
+      ],
+      "legal": "Para mayores de 21 años donde el cannabis es legal. Los efectos varían; empieza con poco y ve despacio.",
+      "language": "Idioma",
+      "appearance": "Apariencia",
+      "modes": [
+        "Auto",
+        "Claro",
+        "Oscuro"
+      ],
+      "calc_card": "Calculadora de dosis",
+      "calc_card_sub": "Tus mg por porción con 3 números",
+      "browse": "Explora por categoría"
+    },
+    "search": {
+      "cancel": "Cancelar",
+      "clear": "Borrar",
+      "popular": "Las más hechas",
+      "none": "Ninguna receta para “{q}”",
+      "none_hint": "Prueba una palabra más simple, como “galletas” o “mantequilla”.",
+      "see_all": "Ver los {n} resultados",
+      "also": "también"
+    },
+    "ad": {
+      "label": "Publicidad"
+    },
+    "calc": {
+      "mg": "mg",
+      "per": "por porción",
+      "batch": "Receta entera",
+      "in_batch": "{mg} mg en total",
+      "g": "g",
+      "thc": "THC",
+      "serving": "porción",
+      "servings": "porciones",
+      "oz": [
+        "⅛ oz",
+        "¼ oz",
+        "½ oz",
+        "1 oz"
+      ],
+      "average": "promedio",
+      "this_recipe": "Esta receta",
+      "your_dose": "Tu dosis",
+      "hint": "Ajústalos a tu cannabis antes de empezar a cocinar.",
+      "reset_recipe": "Volver a esta receta",
+      "reset": "Restablecer",
+      "beginner": "¿Primera vez? Empieza con 2,5–5 mg y espera 2 horas antes de comer más.",
+      "beginner_link": "Guía para principiantes",
+      "split": "Para {t} mg, come <b>{f}</b> de una porción",
+      "cut": "o divide la receta en {n} porciones",
+      "too_strong": "Demasiado fuerte para dividir a ojo. Usa menos cannabis o haz más porciones.",
+      "full": "Calculadora completa",
+      "guide": "Guía de potencia"
+    },
+    "recipe": {
+      "total": "Tiempo total",
+      "makes": "Rinde",
+      "min": "min",
+      "h": "h",
+      "newbie": "¿Primera vez? Come <mark>{f} de porción (≈{mg} mg)</mark> y espera 2 horas antes de comer más.",
+      "newbie_one": "¿Primera vez? <mark>Una porción</mark> es un comienzo suave. Espera 2 horas antes de comer más.",
+      "newbie_too_strong": "¿Primera vez? <mark>Es demasiado fuerte para dividir a ojo.</mark> Usa menos cannabis o corta más porciones.",
+      "jump": "Ver receta",
+      "adjust": "Ajustar dosis",
+      "adjust_sub": "{g} g · {p}% THC",
+      "tap": "Toca cada uno a medida que avanzas.",
+      "wake": "Pantalla siempre encendida",
+      "wake_on": "La pantalla queda encendida",
+      "wake_no": "Tu navegador no puede mantener la pantalla encendida.",
+      "tips": "Consejos de dosis",
+      "questions": "Preguntas",
+      "related": "Más {c|lower}",
+      "make_first": "Hazla primero →"
+    },
+    "home": {
+      "all_n": "Todas ({n})",
+      "see_all": "Ver todas",
+      "hero_q": "¿Qué tan fuerte va a quedar?",
+      "or": "o encuentra una receta",
+      "base": "Empieza por la base",
+      "base_sub": "Casi todas las recetas necesitan una de estas primero.",
+      "learn": "Aprende lo básico",
+      "support": "<b>¿Te gustan las recetas?</b> Este sitio es gratis — <a href=\"#\">apóyanos</a>.",
+      "band_calc": "¿Tu cannabis es diferente?",
+      "band_calc_sub": "Ajusta cualquier receta a tus gramos y % de THC.",
+      "cat_lede": "{n} recetas, cada una con su THC por porción ya calculado.",
+      "q_title": "Resultados para “{q}”",
+      "q_n": "{n} recetas encontradas",
+      "q_none": "Ninguna receta para “{q}”. Prueba una palabra más simple o explora una categoría:"
+    },
+    "calcpage": {
+      "eyebrow": "Gratis · sin registro",
+      "updated": "Actualizada en {date}",
+      "guide_sub": "Dónde cae tu número. La fila resaltada sigue a la calculadora.",
+      "you": "tú",
+      "fx_title": "La fórmula",
+      "fx_sub": "Todas las recetas y esta calculadora usan la misma.",
+      "fx_g": "gramos de cannabis",
+      "fx_s": "% de THC en la etiqueta",
+      "fx_e": "lo que queda tras descarboxilar e infusionar (~20% se pierde)",
+      "fx_n": "porciones",
+      "fx_p": "mg de THC por porción",
+      "ex_title": "Ejemplo",
+      "ex": "3,5 g con 20% de THC, en 20 porciones",
+      "ex_yours": "Con tus números"
+    },
+    "articles": {
+      "h1": "Artículos y guías sobre cannabis",
+      "deck": "Dosis, seguridad, ciencia y leyes, verificadas con fuentes primarias.",
+      "search": "Buscar artículos",
+      "all": "Todos",
+      "n": "{n} artículos",
+      "start": "Empieza aquí",
+      "see_all": "Ver los {n}",
+      "none": "Ningún artículo coincide. Prueba una palabra más simple."
+    },
+    "article": {
+      "next_q": "¿Qué tan fuerte te va a quedar?",
+      "next_sub": "Calcula los mg por porción antes de cocinar.",
+      "first_batch": "Haz tu primera receta"
+    },
+    "e404": {
+      "eyebrow": "Error 404",
+      "title": "Esta página se quedó en el horno.",
+      "deck": "El enlace es viejo, está mal escrito o la página se mudó.",
+      "looking": "¿Buscabas alguna de estas?",
+      "popular": "Las recetas más hechas",
+      "search": "Buscar recetas"
+    },
+    "donate": {
+      "mark": "gratis",
+      "facts": [
+        "Recetas",
+        "Guías",
+        "Calculadora"
+      ]
+    }
   }
 }

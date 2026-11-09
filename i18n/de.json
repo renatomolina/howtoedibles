@@ -204,5 +204,168 @@
     "a5": "Übermäßiger Konsum von Cannabis-Edibles kann intensive Angst, Paranoia, schnellen Herzschlag und Desorientierung verursachen. Diese Effekte sind vorübergehend und nicht lebensbedrohlich. Wenn das passiert: bleib ruhig, trinke Wasser, leg dich an einen bequemen Ort und denk daran, dass das Gefühl vorübergehen wird. Benutze unseren Rechner vor dem Konsum, um das zu vermeiden.",
     "q6": "Beeinflusst die Menge an Butter oder Öl die Potenz des Edibles?",
     "a6": "Nein. Die Potenz deiner Edibles hängt nur von der verwendeten Cannabismenge, dem THC-Prozentsatz und der Anzahl der Portionen ab. Die Menge an Butter oder Öl beeinflusst die Textur, nicht die Potenz. Unser Rechner bildet das genau ab."
+  },
+  "ui": {
+    "shell": {
+      "search_pill": "{n} Rezepte durchsuchen",
+      "search_short": "Rezepte suchen",
+      "search": "Suchen",
+      "menu": "Menü",
+      "close": "Schließen",
+      "recipes": "Rezepte",
+      "all_recipes": "Alle Rezepte",
+      "n_recipes": "{n} Rezepte",
+      "learn": "Wissen",
+      "learn_links": [
+        "Edibles für Einsteiger",
+        "Wann Edibles wirken",
+        "Decarboxylierung erklärt",
+        "Einen Bad Trip vermeiden",
+        "Alle Artikel"
+      ],
+      "help": "Zu high? Jetzt Hilfe holen",
+      "more": "Mehr",
+      "more_links": [
+        "Rechner",
+        "Über uns",
+        "Kontakt",
+        "Unterstützen"
+      ],
+      "legal": "Für Erwachsene ab 21, wo Cannabis legal ist. Die Wirkung variiert: niedrig anfangen, langsam steigern.",
+      "language": "Sprache",
+      "appearance": "Darstellung",
+      "modes": [
+        "Auto",
+        "Hell",
+        "Dunkel"
+      ],
+      "calc_card": "Dosierungsrechner",
+      "calc_card_sub": "Deine mg pro Portion aus 3 Zahlen",
+      "browse": "Nach Kategorie"
+    },
+    "search": {
+      "cancel": "Abbrechen",
+      "clear": "Löschen",
+      "popular": "Am häufigsten gemacht",
+      "none": "Kein Rezept für „{q}“",
+      "none_hint": "Versuch ein einfacheres Wort, etwa „Kekse“ oder „Butter“.",
+      "see_all": "Alle {n} Ergebnisse",
+      "also": "auch"
+    },
+    "ad": {
+      "label": "Anzeige"
+    },
+    "calc": {
+      "mg": "mg",
+      "per": "pro Portion",
+      "batch": "Ganzes Rezept",
+      "in_batch": "{mg} mg gesamt",
+      "g": "g",
+      "thc": "THC",
+      "serving": "Portion",
+      "servings": "Portionen",
+      "oz": [
+        "⅛ oz",
+        "¼ oz",
+        "½ oz",
+        "1 oz"
+      ],
+      "average": "mittel",
+      "this_recipe": "Dieses Rezept",
+      "your_dose": "Deine Dosis",
+      "hint": "Passe die Werte an dein Cannabis an, bevor du loslegst.",
+      "reset_recipe": "Auf Rezeptwerte zurücksetzen",
+      "reset": "Zurücksetzen",
+      "beginner": "Neu bei Edibles? Fang mit 2,5–5 mg an und warte 2 Stunden, bevor du nachlegst.",
+      "beginner_link": "Einsteiger-Guide",
+      "split": "Für {t} mg iss <b>{f}</b> einer Portion",
+      "cut": "oder teile das Rezept in {n} Portionen",
+      "too_strong": "Zu stark, um nach Augenmaß zu teilen. Nimm weniger Cannabis oder mach mehr Portionen.",
+      "full": "Ganzer Rechner",
+      "guide": "Potenz-Leitfaden"
+    },
+    "recipe": {
+      "total": "Gesamtzeit",
+      "makes": "Ergibt",
+      "min": "Min.",
+      "h": "Std.",
+      "newbie": "Zum ersten Mal? Iss <mark>{f} Portion (≈{mg} mg)</mark> und warte 2 Stunden, bevor du mehr nimmst.",
+      "newbie_one": "Zum ersten Mal? <mark>Eine Portion</mark> ist ein sanfter Einstieg. Warte 2 Stunden, bevor du mehr nimmst.",
+      "newbie_too_strong": "Zum ersten Mal? <mark>Zu stark, um nach Augenmaß zu teilen.</mark> Nimm weniger Cannabis oder schneide mehr Portionen.",
+      "jump": "Zum Rezept",
+      "adjust": "Dosis anpassen",
+      "adjust_sub": "{g} g · {p} % THC",
+      "tap": "Tippe jeden Schritt ab, wenn er erledigt ist.",
+      "wake": "Bildschirm anlassen",
+      "wake_on": "Bildschirm bleibt an",
+      "wake_no": "Dein Browser kann den Bildschirm nicht anlassen.",
+      "tips": "Dosierungstipps",
+      "questions": "Fragen",
+      "related": "Mehr {c}",
+      "make_first": "Zuerst machen →"
+    },
+    "home": {
+      "all_n": "Alle {n}",
+      "see_all": "Alle ansehen",
+      "hero_q": "Wie stark wird es?",
+      "or": "oder ein Rezept finden",
+      "base": "Erst die Basis",
+      "base_sub": "Die meisten Rezepte brauchen zuerst eine davon.",
+      "learn": "Die Grundlagen",
+      "support": "<b>Gefallen dir die Rezepte?</b> Diese Seite ist kostenlos — <a href=\"#\">unterstütze uns</a>.",
+      "band_calc": "Dein Cannabis ist anders?",
+      "band_calc_sub": "Passe jedes Rezept an deine Gramm und % THC an.",
+      "cat_lede": "{n} Rezepte, jedes mit berechnetem THC pro Portion.",
+      "q_title": "Ergebnisse für „{q}“",
+      "q_n": "{n} passende Rezepte",
+      "q_none": "Kein Rezept für „{q}“. Versuch ein einfacheres Wort oder eine Kategorie:"
+    },
+    "calcpage": {
+      "eyebrow": "Kostenlos · ohne Anmeldung",
+      "updated": "Aktualisiert im {date}",
+      "guide_sub": "Wo dein Wert liegt. Die markierte Zeile folgt dem Rechner.",
+      "you": "du",
+      "fx_title": "Die Formel",
+      "fx_sub": "Alle Rezepte und dieser Rechner nutzen dieselbe.",
+      "fx_g": "Gramm Cannabis",
+      "fx_s": "THC-% laut Etikett",
+      "fx_e": "bleibt nach Decarb + Infusion (~20 % gehen verloren)",
+      "fx_n": "Portionen",
+      "fx_p": "mg THC pro Portion",
+      "ex_title": "Rechenbeispiel",
+      "ex": "3,5 g mit 20 % THC, in 20 Portionen",
+      "ex_yours": "Mit deinen Werten"
+    },
+    "articles": {
+      "h1": "Cannabis-Artikel & Ratgeber",
+      "deck": "Dosierung, Sicherheit, Wissenschaft und Recht, geprüft an Primärquellen.",
+      "search": "Artikel durchsuchen",
+      "all": "Alle",
+      "n": "{n} Artikel",
+      "start": "Hier anfangen",
+      "see_all": "Alle {n} zeigen",
+      "none": "Kein Artikel gefunden. Versuch ein einfacheres Wort."
+    },
+    "article": {
+      "next_q": "Wie stark wird deins?",
+      "next_sub": "Rechne die mg pro Portion aus, bevor du kochst.",
+      "first_batch": "Dein erstes Rezept"
+    },
+    "e404": {
+      "eyebrow": "Fehler 404",
+      "title": "Diese Seite ist im Ofen geblieben.",
+      "deck": "Der Link ist alt, vertippt, oder die Seite ist umgezogen.",
+      "looking": "Hast du eines davon gesucht?",
+      "popular": "Beliebteste Rezepte",
+      "search": "Rezepte durchsuchen"
+    },
+    "donate": {
+      "mark": "gratis",
+      "facts": [
+        "Rezepte",
+        "Ratgeber",
+        "Rechner"
+      ]
+    }
   }
 }

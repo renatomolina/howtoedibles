@@ -204,5 +204,168 @@
     "a5": "Overconsumption of cannabis edibles can cause intense anxiety, paranoia, rapid heartbeat, and disorientation. These effects are temporary and not life-threatening. If this happens: stay calm, drink water, lie down in a comfortable place, and remember the feeling will pass. Use our calculator before consuming to avoid this.",
     "q6": "Does the amount of butter or oil matter for edible potency?",
     "a6": "No. The potency of your edibles depends only on the amount of cannabis used, its THC percentage, and the number of servings. The quantity of butter or oil you use affects texture, not potency. Our calculator reflects this exactly."
+  },
+  "ui": {
+    "shell": {
+      "search_pill": "Search {n} recipes",
+      "search_short": "Search recipes",
+      "search": "Search",
+      "menu": "Menu",
+      "close": "Close",
+      "recipes": "Recipes",
+      "all_recipes": "All recipes",
+      "n_recipes": "{n} recipes",
+      "learn": "Learn",
+      "learn_links": [
+        "Edibles for beginners",
+        "How long edibles take",
+        "Decarboxylation explained",
+        "How to prevent a bad trip",
+        "All articles"
+      ],
+      "help": "Too high? Get help now",
+      "more": "More",
+      "more_links": [
+        "Calculator",
+        "About",
+        "Contact",
+        "Support us"
+      ],
+      "legal": "For adults 21+ where cannabis is legal. Effects vary; start low, go slow.",
+      "language": "Language",
+      "appearance": "Appearance",
+      "modes": [
+        "Auto",
+        "Light",
+        "Dark"
+      ],
+      "calc_card": "Dosage calculator",
+      "calc_card_sub": "Your mg per serving, from 3 numbers",
+      "browse": "Browse by category"
+    },
+    "search": {
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "popular": "Most made",
+      "none": "No recipe for “{q}”",
+      "none_hint": "Try a simpler word, like “cookies” or “butter”.",
+      "see_all": "See all {n} results",
+      "also": "also"
+    },
+    "ad": {
+      "label": "Advertisements"
+    },
+    "calc": {
+      "mg": "mg",
+      "per": "per serving",
+      "batch": "Whole batch",
+      "in_batch": "{mg} mg in total",
+      "g": "g",
+      "thc": "THC",
+      "serving": "serving",
+      "servings": "servings",
+      "oz": [
+        "⅛ oz",
+        "¼ oz",
+        "½ oz",
+        "1 oz"
+      ],
+      "average": "average",
+      "this_recipe": "This recipe",
+      "your_dose": "Your dose",
+      "hint": "Match these to your cannabis before you start cooking.",
+      "reset_recipe": "Reset to this recipe",
+      "reset": "Reset",
+      "beginner": "New to edibles? Start with 2.5–5 mg and wait 2 hours before having more.",
+      "beginner_link": "Beginner's guide",
+      "split": "For {t} mg, eat <b>{f}</b> of a serving",
+      "cut": "or cut the batch into {n} servings",
+      "too_strong": "Too strong to split by eye. Use less cannabis or make more servings.",
+      "full": "Full calculator",
+      "guide": "Potency guide"
+    },
+    "recipe": {
+      "total": "Total time",
+      "makes": "Makes",
+      "min": "min",
+      "h": "h",
+      "newbie": "First time? Eat <mark>{f} of a serving (≈{mg} mg)</mark> and wait 2 hours before more.",
+      "newbie_one": "First time? <mark>One serving</mark> is a gentle start. Wait 2 hours before more.",
+      "newbie_too_strong": "First time? <mark>This is too strong to split by eye.</mark> Use less cannabis or cut more servings.",
+      "jump": "Go to recipe",
+      "adjust": "Adjust dose",
+      "adjust_sub": "{g} g · {p}% THC",
+      "tap": "Tap each one off as you go.",
+      "wake": "Keep screen on",
+      "wake_on": "Screen stays on",
+      "wake_no": "Your browser can't keep the screen on.",
+      "tips": "Dosing tips",
+      "questions": "Questions",
+      "related": "More {c|lower}",
+      "make_first": "Make it first →"
+    },
+    "home": {
+      "all_n": "All {n}",
+      "see_all": "See all",
+      "hero_q": "How strong will it be?",
+      "or": "or find a recipe",
+      "base": "Start with a base",
+      "base_sub": "Most recipes need one of these first.",
+      "learn": "Learn the basics",
+      "support": "<b>Enjoying the recipes?</b> This site is free — <a href=\"#\">support us</a>.",
+      "band_calc": "Your cannabis is different?",
+      "band_calc_sub": "Fit any recipe to your grams and % THC.",
+      "cat_lede": "{n} recipes, each with its THC per serving worked out.",
+      "q_title": "Results for “{q}”",
+      "q_n": "{n} recipes match",
+      "q_none": "No recipe for “{q}”. Try a simpler word, or browse a category:"
+    },
+    "calcpage": {
+      "eyebrow": "Free · no sign-up",
+      "updated": "Updated {date}",
+      "guide_sub": "Where your number lands. The highlighted row follows the calculator.",
+      "you": "you",
+      "fx_title": "The formula",
+      "fx_sub": "Every recipe and this calculator use the same one.",
+      "fx_g": "grams of cannabis",
+      "fx_s": "THC % on the label",
+      "fx_e": "kept after decarb + infusion (~20% is lost)",
+      "fx_n": "servings",
+      "fx_p": "mg THC per serving",
+      "ex_title": "Worked example",
+      "ex": "3.5 g at 20% THC, cut into 20 servings",
+      "ex_yours": "With your numbers"
+    },
+    "articles": {
+      "h1": "Cannabis articles & guides",
+      "deck": "Dosing, safety, science and the law, checked against primary sources.",
+      "search": "Search articles",
+      "all": "All",
+      "n": "{n} articles",
+      "start": "Start here",
+      "see_all": "See all {n}",
+      "none": "No article matches that. Try a simpler word."
+    },
+    "article": {
+      "next_q": "How strong will yours be?",
+      "next_sub": "Work out the mg per serving before you cook.",
+      "first_batch": "Make your first batch"
+    },
+    "e404": {
+      "eyebrow": "Error 404",
+      "title": "This page got baked.",
+      "deck": "The link is old, mistyped, or the page moved.",
+      "looking": "Were you looking for one of these?",
+      "popular": "Most made recipes",
+      "search": "Search recipes"
+    },
+    "donate": {
+      "mark": "free",
+      "facts": [
+        "Recipes",
+        "Guides",
+        "Calculator"
+      ]
+    }
   }
 }
