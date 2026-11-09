@@ -29,7 +29,7 @@
       "Descarboxila tu hierba - Aprende como hacerlo",
       "Agrega la hierba a un frasco de conserva con &frac12; cup de aceite de coco.",
       "Sella el frasco de conserva muy bien.",
-      "Coloca el frasco de conserva en agua hirviendo a fuego bajo-medio (240&deg; F - 115&deg; C) por mas de 2 horas.",
+      "Coloca el frasco en una olla con agua y mantén el agua a fuego lento, bajo-medio (unos 200&deg; F - 95&deg; C), durante 2-3 horas, añadiendo agua a medida que se evapore.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador metalico.",
       "Junta la manta de cielo y exprime todo el liquido restante."
     ]
@@ -47,7 +47,7 @@
       "Muele tu hierba finamente, quieres lograr una buena area de superficie de exposicion.",
       "Agrega la hierba molida a un frasco de conserva con 300 ml de aceite de oliva.",
       "Sella el frasco de conserva muy bien.",
-      "Coloca el frasco de conserva en agua hirviendo a fuego bajo-medio (240&deg; F - 115&deg; C) por mas de 2 horas.",
+      "Coloca el frasco en una olla con agua y mantén el agua a fuego lento, bajo-medio (unos 200&deg; F - 95&deg; C), durante 2-3 horas, añadiendo agua a medida que se evapore.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador metalico.",
       "Junta la manta de cielo y exprime todo el liquido restante."
     ]
@@ -64,7 +64,7 @@
     ],
     "instructions": [
       "Prepara una taza de cafe usando tu metodo preferido.",
-      "En una licuadora, combina el cafe preparado, la mantequilla sin sal, el aceite de coco y el aceite de coco infusionado con cannabis.",
+      "En una licuadora, combina el cafe preparado, la mantequilla sin sal y el aceite de coco infusionado con cannabis.",
       "Licua a alta velocidad hasta que la mezcla este cremosa y espumosa.",
       "Prueba y agrega endulzante si lo deseas.",
       "Sirve en una taza y disfruta tu cafe bulletproof infusionado con cannabis, apto para dieta keto!"
@@ -194,15 +194,15 @@
     "description": "Fáciles de preparar, deliciosos y extremadamente potentes, esta receta es una de las más populares.",
     "category_name": "Bocadillos",
     "ingredients": [
-      "Galleta graham",
+      "6 galletas graham (12 cuadrados)",
       "3.5 de hierba molida",
       "Crema de avellanas",
       "Papel aluminio"
     ],
     "instructions": [
       "Coloca tu hierba sobre el papel aluminio.",
-      "Precalienta tu horno a 250&deg; F.",
-      "Tuesta tu hierba por 10 minutos a 250&deg; F.",
+      "Precalienta tu horno a 240&deg; F (115&deg; C).",
+      "Descarboxila tu hierba durante 30-40 minutos a 240&deg; F (115&deg; C).",
       "Cubre las galletas graham con crema de avellanas.",
       "Retira tu hierba del horno y espolvorea sobre la crema de avellanas.",
       "Mezcla la hierba en la crema y junta las galletas graham como sandwich.",
@@ -390,7 +390,7 @@
     "description": "¿Qué tal una malteada bien fría? ¿O una crema batida sobre un pastel? La leche infusionada con cannabis es ideal para estas recetas.",
     "category_name": "Esenciales",
     "ingredients": [
-      "Leche, crema, leche de coco u otro sustituto de leche",
+      "1 litro (unas 4 tazas) de leche, crema, leche de coco u otro sustituto de leche",
       "1 de hierba molida por litro de leche",
       "Olla",
       "Batidor",
@@ -414,6 +414,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "2 tbsp de aceite de coco infusionado con cannabis",
+      "1 tbsp de aceite de coco normal o aceite vegetal (para sofreír)",
       "1 cebolla, finamente picada",
       "3 dientes de ajo, picados",
       "1 tablespoon de jengibre fresco rallado",
@@ -428,12 +429,12 @@
       "Cilantro fresco para decorar"
     ],
     "instructions": [
-      "En una sarten grande u olla, calienta el aceite de coco infusionado con cannabis a fuego medio.",
+      "En una sarten grande u olla, calienta el aceite normal a fuego medio.",
       "Agrega la cebolla picada, el ajo picado y el jengibre rallado. Saltea hasta que la cebolla este translucida y el ajo este fragante.",
       "Incorpora el curry en polvo y cocina por un minuto mas para tostar las especias.",
       "Vierte la leche de coco y el caldo de verduras. Revuelve bien para combinar.",
       "Agrega las papas en cubitos, las zanahorias rebanadas, el pimiento rojo y los floretes de coliflor a la olla. Sazona con sal y pimienta al gusto.",
-      "Tapa la olla y deja hervir a fuego lento por 15-20 minutos, o hasta que las verduras esten tiernas.",
+      "Tapa la olla y deja hervir a fuego lento por 15-20 minutos, o hasta que las verduras esten tiernas. Retira del fuego e incorpora el aceite de coco infusionado con cannabis hasta que se mezcle bien.",
       "Sirve el curry de coco infusionado con cannabis sobre arroz cocido o con pan naan. Decora con cilantro fresco."
     ]
   },
@@ -464,6 +465,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "1 tbsp de aceite de oliva infusionado",
+      "1 tbsp de aceite de oliva normal (para sofreír)",
       "1 cebolla, finamente picada",
       "2 dientes de ajo, picados",
       "1 zanahoria, finamente picada",
@@ -479,13 +481,13 @@
       "Queso parmesano rallado para decorar"
     ],
     "instructions": [
-      "En una sarten grande u olla, calienta el aceite de oliva infusionado con cannabis a fuego medio.",
+      "En una sarten grande u olla, calienta el aceite de oliva normal a fuego medio.",
       "Agrega la cebolla picada, el ajo picado, la zanahoria y el apio a la olla. Saltea hasta que las verduras esten suaves.",
       "Agrega la carne molida de res a la olla y cocina hasta que se dore, desmenuzandola con una cuchara mientras se cocina.",
       "Incorpora los tomates en cubitos, la pasta de tomate, el vino tinto, el oregano seco, la albahaca seca, la sal y la pimienta.",
       "Deja hervir la salsa a fuego lento por unos 30 minutos, revolviendo ocasionalmente.",
       "Mientras tanto, cocina el espagueti siguiendo las instrucciones del paquete hasta que este al dente.",
-      "Una vez que la salsa este lista, prueba y ajusta el sazon si es necesario.",
+      "Una vez que la salsa este lista, retírala del fuego, incorpora el aceite de oliva infusionado con cannabis y luego prueba y ajusta el sazon si es necesario.",
       "Sirve la salsa bolonesa infusionada con cannabis sobre el espagueti cocido.",
       "Decora con queso parmesano rallado y disfruta de una comida reconfortante e infusionada con cannabis!"
     ]
@@ -596,15 +598,16 @@
     "description": "Una deliciosa combinación de semillas y nueces infusionadas con aceite de cannabis.",
     "category_name": "Bocadillos",
     "ingredients": [
-      "&frac18; taza de aceite de coco infusionado",
-      "Nueces de tu preferencia"
+      "&frac14; taza de aceite de coco (para infusionar)",
+      "2 de hierba molida",
+      "4 tazas de nueces de tu preferencia"
     ],
     "instructions": [
       "Descarboxila tu hierba - Aprende cómo",
       "Muele tu hierba finamente, quieres lograr una buena superficie de exposición.",
       "Agrega la hierba molida a un frasco hermético con &frac14; taza de aceite de coco.",
       "Sella el frasco herméticamente.",
-      "Coloca el frasco en agua hirviendo a fuego medio-bajo (240&deg; F - 115&deg; C) durante más de 2 horas.",
+      "Coloca el frasco en una olla con agua y mantén el agua a fuego lento, bajo-medio (unos 200&deg; F - 95&deg; C), durante 2-3 horas, añadiendo agua a medida que se evapore.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
       "Aprieta la manta de cielo y exprime todo el líquido restante.",
       "Mezcla el aceite de coco con algunas nueces."
@@ -624,7 +627,7 @@
       "Muele tu hierba finamente, quieres lograr una buena superficie de exposición.",
       "Agrega la hierba molida a un frasco hermético con &frac12; taza de aceite de coco.",
       "Sella el frasco herméticamente.",
-      "Coloca el frasco en agua hirviendo a fuego medio-bajo (240&deg; F - 115&deg; C) durante más de 2 horas.",
+      "Coloca el frasco en una olla con agua y mantén el agua a fuego lento, bajo-medio (unos 200&deg; F - 95&deg; C), durante 2-3 horas, añadiendo agua a medida que se evapore.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
       "Aprieta la manta de cielo y exprime todo el líquido restante.",
       "Agrega el aceite de coco y la miel en la licuadora.",
@@ -651,8 +654,8 @@
     "description": "Esta reconfortante y potente receta de té chai con cannabis es una excelente manera de disfrutar tu té con un toque extra.",
     "category_name": "Bebidas",
     "ingredients": [
-      "Bolsa de té",
-      "Leche",
+      "4 bolsas de té negro",
+      "4 tazas de leche entera",
       "0.5 de hierba molida",
       "Jengibre",
       "Cardamomo",
@@ -660,11 +663,11 @@
     ],
     "instructions": [
       "Descarboxila tu hierba - Aprende cómo",
-      "Comienza a hervir leche en una olla.",
+      "Calienta la leche en una olla hasta que empiece a hervir suavemente y luego baja el fuego al mínimo.",
       "Extiende una manta de cielo.",
       "Machaca tu jengibre y especias.",
       "Coloca el cannabis con todas tus especias machacadas en una manta de cielo y ciérrala como una bolsa de té.",
-      "Infusiona la bolsa de té en la leche durante dos horas.",
+      "Infusiona la bolsita en la leche a fuego mínimo durante unas dos horas, removiendo de vez en cuando. No dejes que hierva.",
       "Vierte la leche en una jarra.",
       "Ahora es hora de preparar tu taza, mezcla la leche con una bolsa de té negro y agrega algo de azúcar."
     ]
@@ -674,13 +677,14 @@
     "description": "El snack salado perfecto para comer mientras ves tus películas favoritas.",
     "category_name": "Bocadillos",
     "ingredients": [
-      "1/4 taza de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis, derretida",
+      "2 tbsp de aceite vegetal o de coco (para hacer las palomitas)",
       "⅓ - ⅔ tazas de granos de palomitas",
       "Sal al gusto"
     ],
     "instructions": [
-      "Calienta la mantequilla en una olla de 2 a 3 cuartos de galón con tapa a fuego medio-alto. Vierte los granos de palomitas y espolvorea suficiente sal para cubrir ligeramente la capa de granos. Recuerda, siempre puedes agregar más sal después. Agrega la mantequilla a la olla y tapa.",
-      "Tan pronto como los granos comiencen a reventar, sacude la olla de un lado a otro sobre la hornilla constantemente hasta que el ritmo de las explosiones disminuya. Cuando las explosiones estén separadas por unos 2 segundos, retira del fuego y vierte en un tazón para servir. Prueba y sazona con sal adicional si lo deseas."
+      "Calienta el aceite vegetal en una olla de 2 a 3 cuartos de galón con tapa a fuego medio-alto. Vierte los granos de palomitas y espolvorea suficiente sal para cubrir ligeramente la capa de granos. Recuerda, siempre puedes agregar más sal después. Tapa la olla. (No hagas las palomitas en la mantequilla de cannabis: la temperatura es lo bastante alta como para quemar la mantequilla y degradar el THC.)",
+      "Tan pronto como los granos comiencen a reventar, sacude la olla de un lado a otro sobre la hornilla constantemente hasta que el ritmo de las explosiones disminuya. Cuando las explosiones estén separadas por unos 2 segundos, retira del fuego y vierte en un tazón para servir. Prueba y sazona con sal adicional si lo deseas. Rocía las palomitas aún calientes con la mantequilla de cannabis derretida y mezcla bien para que queden cubiertas de manera uniforme."
     ]
   },
   "infused-eggnog": {
@@ -689,7 +693,7 @@
     "category_name": "Bebidas",
     "ingredients": [
       "1 taza de leche infusionada",
-      "4 huevos",
+      "4 huevos (preferiblemente pasteurizados, ya que las claras no se cocinan)",
       "6 cdas de azúcar",
       "1 taza de crema para batir",
       "1 cdta de nuez moscada rallada",
@@ -698,7 +702,7 @@
     ],
     "instructions": [
       "Separa las yemas de las claras de huevo.",
-      "En un tazón, bate las yemas con el azúcar hasta que se vean pálidas y el azúcar esté completamente disuelto.",
+      "En un tazón, bate las yemas con 5 cucharadas del azúcar hasta que se vean pálidas y el azúcar esté completamente disuelto.",
       "En una olla mediana, a fuego alto, combina la leche, la crema para batir y la nuez moscada y lleva justo a ebullición, revolviendo ocasionalmente. Retira del fuego y lentamente tempera la mezcla caliente con la mezcla de yemas y azúcar. Luego regresa todo a la olla y calienta hasta que la mezcla alcance los 160 grados F. Retira del fuego, agrega el bourbon/whiskey, vierte en un tazón mediano y refrigera.",
       "En un tazón mediano, bate las claras de huevo hasta formar picos suaves. Con la batidora funcionando, agrega gradualmente 1 cucharada de azúcar y bate hasta formar picos firmes. Incorpora las claras batidas a la mezcla refrigerada.",
       "Sirve en la cantidad de tazas que definiste como porciones en la calculadora para mantener tu dosis consistente, ¡y decora con canela!"
@@ -769,7 +773,7 @@
     "ingredients": [
       "1 taza de café molido grueso",
       "4 tazas de agua fría filtrada",
-      "1 cdta de aceite de coco infusionado (ver receta de Aceite de Coco Infusionado)",
+      "2 cdas (6 cdtas) de aceite de coco infusionado, 1 cdta por vaso (ver receta de Aceite de Coco Infusionado)",
       "Cubos de hielo",
       "Leche o crema al gusto"
     ],
@@ -816,8 +820,8 @@
     ],
     "instructions": [
       "Calienta el azúcar en una olla de fondo grueso a fuego medio, revolviendo constantemente con una cuchara de madera hasta que se derrita y tome un color ámbar.",
-      "Una vez completamente derretida, agrega toda la mantequilla de cannabis de una vez. La mezcla burbujeará vigorosamente — sigue revolviendo.",
-      "Incorpora la crema para batir lentamente. La mezcla burbujeará de nuevo. Sigue revolviendo hasta que esté suave.",
+      "Una vez completamente derretida y ámbar, retira la olla del fuego e incorpora la crema para batir lentamente. La mezcla burbujeará vigorosamente — sigue revolviendo.",
+      "Cuando deje de burbujear, agrega la mantequilla de cannabis y revuelve hasta que esté suave. Añadirla después de la crema evita que la mantequilla infusionada toque el caramelo más caliente.",
       "Retira del fuego y agrega el extracto de vainilla y la sal de mar.",
       "Deja enfriar durante 10 minutos antes de usar. Almacena en un frasco en el refrigerador hasta por 2 semanas.",
       "Recalienta suavemente antes de servir. Divide en 12 porciones y úsala como topping."
@@ -1325,7 +1329,7 @@
     ],
     "instructions": [
       "Precalienta el horno a 375°F.",
-      "Saltea el ajo en mantequilla de cannabis 1 min.",
+      "Saltea el ajo en un poco de mantequilla normal o aceite 1 min, deja que se enfríe un poco y luego incorpora la mantequilla de cannabis.",
       "Mezcla con el queso crema, el parmesano, el perejil, la sal y la pimienta.",
       "Rellena los champiñones. Hornea 20-25 min."
     ]
@@ -1402,6 +1406,7 @@
       "1 huevo",
       "3 cucharadas de harina de almendras",
       "2 cucharadas de mantequilla de cannabis",
+      "1 cucharada de aceite o mantequilla normal (para freír)",
       "2 cucharadas de mayonesa",
       "1 cucharada de mostaza Dijon",
       "2 cebollitas de cambray",
@@ -1410,8 +1415,8 @@
     "instructions": [
       "Mezcla el salmón, el huevo, la harina de almendras, la mayonesa, la mostaza y las cebollitas.",
       "Forma 6 tortitas.",
-      "Derrite la mantequilla de cannabis en un sartén.",
-      "Cocina 3-4 min por lado hasta que estén doradas. Sirve con limón."
+      "Calienta el aceite o la mantequilla normal en un sartén a fuego medio.",
+      "Cocina 3-4 min por lado hasta que estén doradas. Fuera del fuego, derrite suavemente la mantequilla de cannabis y reparte la misma cantidad sobre cada hamburguesa. Sirve con limón."
     ]
   },
   "cannabis-keto-spinach-dip": {
@@ -1430,8 +1435,8 @@
     ],
     "instructions": [
       "Precalienta el horno a 375°F.",
-      "Saltea el ajo en mantequilla de cannabis. Agrega las espinacas.",
-      "Incorpora el queso crema, la crema agria y la mitad de la mozzarella.",
+      "Saltea el ajo en un poco de mantequilla normal o aceite 1 minuto. Agrega las espinacas y retira del fuego.",
+      "Incorpora la mantequilla de cannabis, el queso crema, la crema agria y la mitad de la mozzarella.",
       "Transfiere a un refractario, cubre con el queso restante.",
       "Hornea 20-25 min hasta que burbujee."
     ]
@@ -1824,7 +1829,7 @@
     "description": "Clásico tiramisú con crema de mascarpone de cannabis.",
     "category_name": "Postres",
     "ingredients": [
-      "3 yemas de huevo",
+      "3 yemas de huevo (preferiblemente pasteurizadas, ya que no se cocinan)",
       "75g de azúcar",
       "250g de mascarpone",
       "2 tbsp de mantequilla de cannabis ablandada",
@@ -1971,7 +1976,7 @@
     "description": "Blondies con sabor a caramelo con mantequilla dorada de cannabis.",
     "category_name": "Postres",
     "ingredients": [
-      "½ cup de mantequilla de cannabis dorada",
+      "½ cup de mantequilla de cannabis derretida",
       "1 cup de azúcar morena",
       "1 huevo + 1 yema",
       "1 tsp de vainilla",
@@ -1981,7 +1986,7 @@
       "¾ cup de chispas de chocolate blanco"
     ],
     "instructions": [
-      "Precalentar el horno a 350°F. Batir la mantequilla de cannabis dorada con el azúcar morena.",
+      "Precalentar el horno a 350°F. Batir la mantequilla de cannabis derretida con el azúcar morena. (No dores la mantequilla de cannabis: eso la calienta muy por encima de la temperatura que degrada el THC.)",
       "Agregar el huevo, la yema y la vainilla. Incorporar la harina, el polvo para hornear, la sal y las chispas envolviendo.",
       "Hornear en un molde de 8x8 forrado por 22-25 min. No sobrecocinar.",
       "Dejar enfriar completamente antes de cortar."
@@ -2202,6 +2207,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "2 tbsp de aceite de oliva de cannabis",
+      "1 tbsp de aceite de oliva normal (para sofreír)",
       "1 cebolla",
       "1 pimiento rojo",
       "4 dientes de ajo",
@@ -2213,10 +2219,10 @@
       "Perejil y queso feta"
     ],
     "instructions": [
-      "Saltear la cebolla y el pimiento en el aceite de cannabis. Agregar el ajo y las especias.",
+      "Saltear la cebolla y el pimiento en el aceite de oliva normal. Agregar el ajo y las especias.",
       "Agregar los tomates. Cocinar a fuego lento 15 min. Sazonar.",
       "Hacer huecos; romper los huevos dentro. Tapar y cocinar 6-8 min.",
-      "Cubrir con perejil y feta. Servir con pan."
+      "Fuera del fuego, rociar con el aceite de oliva de cannabis y cubrir con perejil y feta. Servir con pan."
     ]
   },
   "infused-mushroom-risotto": {
@@ -2280,8 +2286,8 @@
       "Repollo rallado, salsa, limón, crema agria"
     ],
     "instructions": [
-      "Dorar la carne; escurrir la grasa. Agregar la mantequilla de cannabis, la cebolla y el ajo.",
-      "Incorporar las especias. Cocinar 2 min.",
+      "Dorar la carne; escurrir la grasa. Agregar la cebolla y el ajo y cocinar hasta que estén suaves.",
+      "Incorporar las especias. Cocinar 2 min. Fuera del fuego, incorporar la mantequilla de cannabis hasta que se derrita.",
       "Servir en tortillas calientes con los toppings."
     ]
   },

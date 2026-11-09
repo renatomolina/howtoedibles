@@ -29,7 +29,7 @@
       "Decarboxyliere dein Cannabis – Hier erfährst du wie",
       "Gib das Cannabis zusammen mit &frac12; cup Kokosöl in ein Einmachglas.",
       "Verschließe das Einmachglas sehr fest.",
-      "Stelle das Einmachglas in kochendes Wasser bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) für über 2 Stunden.",
+      "Das Einmachglas in einen Topf mit Wasser stellen und das Wasser bei niedriger bis mittlerer Hitze knapp unter dem Siedepunkt halten (ca. 200&deg; F – 95&deg; C), 2–3 Stunden lang; verdampftes Wasser nachfüllen.",
       "Gib den gesamten Inhalt des Glases in ein Käsetuch über einem Metallsieb.",
       "Fasse das Käsetuch zusammen und drücke die gesamte restliche Flüssigkeit aus."
     ]
@@ -47,7 +47,7 @@
       "Mahle dein Cannabis fein – du möchtest eine gute Oberfläche für die Extraktion schaffen.",
       "Gib das gemahlene Cannabis zusammen mit 300 ml Olivenöl in ein Einmachglas.",
       "Verschließe das Einmachglas sehr fest.",
-      "Stelle das Einmachglas in kochendes Wasser bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) für über 2 Stunden.",
+      "Das Einmachglas in einen Topf mit Wasser stellen und das Wasser bei niedriger bis mittlerer Hitze knapp unter dem Siedepunkt halten (ca. 200&deg; F – 95&deg; C), 2–3 Stunden lang; verdampftes Wasser nachfüllen.",
       "Gib den gesamten Inhalt des Glases in ein Käsetuch über einem Metallsieb.",
       "Fasse das Käsetuch zusammen und drücke die gesamte restliche Flüssigkeit aus."
     ]
@@ -64,7 +64,7 @@
     ],
     "instructions": [
       "Brühe eine Tasse Kaffee mit deiner bevorzugten Methode auf.",
-      "Gib den aufgebrühten Kaffee, die ungesalzene Butter, das Kokosöl und das infundierte Kokosöl in einen Mixer.",
+      "Gib den aufgebrühten Kaffee, die ungesalzene Butter und das infundierte Kokosöl in einen Mixer.",
       "Mixe auf höchster Stufe, bis die Mischung cremig und schaumig ist.",
       "Probiere und füge bei Bedarf Süßungsmittel hinzu.",
       "Gieße den ketofreundlichen, mit Cannabis angereicherten Bulletproof-Kaffee in eine Tasse und genieße ihn!"
@@ -194,15 +194,15 @@
     "description": "Einfach zu machen, lecker und extrem potent – dieses Rezept gehört zu den beliebtesten.",
     "category_name": "Snacks",
     "ingredients": [
-      "Graham Cracker",
+      "6 Graham Cracker (12 Hälften)",
       "3.5 gemahlenes Cannabis",
       "Haselnussaufstrich",
       "Alufolie"
     ],
     "instructions": [
       "Lege dein Cannabis auf die Alufolie.",
-      "Heize den Ofen auf 250&deg; F vor.",
-      "Röste dein Cannabis 10 Minuten bei 250&deg; F.",
+      "Heize den Ofen auf 240&deg; F (115&deg; C) vor.",
+      "Decarboxyliere dein Cannabis 30–40 Minuten bei 240&deg; F (115&deg; C).",
       "Bestreiche die Graham Cracker mit Haselnussaufstrich.",
       "Nimm dein Cannabis aus dem Ofen und streue es über den Haselnussaufstrich.",
       "Mische das Cannabis in den Aufstrich und setze die Graham Cracker als Sandwich zusammen.",
@@ -390,7 +390,7 @@
     "description": "Wie wäre es mit einem eiskalten Milchshake? Oder einem Sahnetopping auf einem Kuchen? Cannabis-infundierte Milch eignet sich hervorragend für diese Rezepte.",
     "category_name": "Grundlagen",
     "ingredients": [
-      "Milch, Sahne, Kokosmilch oder andere Milchalternative",
+      "1 Liter (ca. 4 Tassen) Milch, Sahne, Kokosmilch oder andere Milchalternative",
       "1 gemahlenes Cannabis pro Liter Milch",
       "Kochtopf",
       "Schneebesen",
@@ -414,6 +414,7 @@
     "category_name": "Mittagessen",
     "ingredients": [
       "2 tbsp infundiertes Kokosöl",
+      "1 tbsp normales Kokos- oder Pflanzenöl (zum Anbraten)",
       "1 Zwiebel, fein gehackt",
       "3 Knoblauchzehen, fein gehackt",
       "1 tablespoon frisch geriebener Ingwer",
@@ -428,12 +429,12 @@
       "Frischer Koriander zum Garnieren"
     ],
     "instructions": [
-      "Erhitze das infundierte Kokosöl bei mittlerer Hitze in einer großen Pfanne oder einem Topf.",
+      "Erhitze das normale Öl bei mittlerer Hitze in einer großen Pfanne oder einem Topf.",
       "Gib die gehackte Zwiebel, den fein gehackten Knoblauch und den geriebenen Ingwer hinzu. Brate alles an, bis die Zwiebel glasig und der Knoblauch duftend ist.",
       "Rühre das Currypulver ein und röste die Gewürze eine weitere Minute.",
       "Gieße die Kokosmilch und die Gemüsebrühe hinzu. Gut umrühren.",
       "Gib die gewürfelten Kartoffeln, die Karottenscheiben, die rote Paprika und die Blumenkohlröschen in den Topf. Mit Salz und Pfeffer nach Geschmack würzen.",
-      "Decke den Topf ab und lass alles 15–20 Minuten köcheln oder bis das Gemüse gar ist.",
+      "Decke den Topf ab und lass alles 15–20 Minuten köcheln oder bis das Gemüse gar ist. Vom Herd nehmen und das infundierte Kokosöl gleichmäßig unterrühren.",
       "Serviere das mit Cannabis angereicherte Kokosnuss-Curry über gekochtem Reis oder mit Naan-Brot. Mit frischem Koriander garnieren."
     ]
   },
@@ -464,6 +465,7 @@
     "category_name": "Mittagessen",
     "ingredients": [
       "1 tbsp infundiertes Olivenöl",
+      "1 tbsp normales Olivenöl (zum Anbraten)",
       "1 Zwiebel, fein gehackt",
       "2 Knoblauchzehen, fein gehackt",
       "1 Karotte, fein gehackt",
@@ -479,13 +481,13 @@
       "Geriebener Parmesan zum Garnieren"
     ],
     "instructions": [
-      "Erhitze das infundierte Olivenöl bei mittlerer Hitze in einer großen Pfanne oder einem Topf.",
+      "Erhitze das normale Olivenöl bei mittlerer Hitze in einer großen Pfanne oder einem Topf.",
       "Gib die gehackte Zwiebel, den Knoblauch, die Karotte und den Sellerie in den Topf. Brate alles an, bis das Gemüse weich ist.",
       "Gib das Rinderhackfleisch in den Topf und brate es braun an, wobei du es beim Braten mit einem Löffel zerkleinerst.",
       "Rühre die gewürfelten Tomaten, das Tomatenmark, den Rotwein, den getrockneten Oregano, das getrocknete Basilikum, Salz und Pfeffer ein.",
       "Lass die Soße bei niedriger Hitze etwa 30 Minuten köcheln und rühre gelegentlich um.",
       "Koche in der Zwischenzeit die Spaghetti nach Packungsanleitung al dente.",
-      "Wenn die Soße fertig ist, probiere sie und passe die Würzung bei Bedarf an.",
+      "Wenn die Soße fertig ist, nimm sie vom Herd, rühre das infundierte Olivenöl unter, probiere sie und passe die Würzung bei Bedarf an.",
       "Serviere die mit Cannabis angereicherte Bolognese-Soße über den gekochten Spaghetti.",
       "Garniere mit geriebenem Parmesan und genieße eine wohlige, mit Cannabis angereicherte Mahlzeit!"
     ]
@@ -596,15 +598,16 @@
     "description": "Eine leckere Kombination aus Samen und Nüssen, infundiert mit Cannabisöl.",
     "category_name": "Snacks",
     "ingredients": [
-      "&frac18; Tasse infundiertes Kokosöl",
-      "Nüsse nach Vorliebe"
+      "&frac14; Tasse Kokosöl (zum Infundieren)",
+      "2 gemahlenes Cannabis",
+      "4 Tassen Nüsse nach Vorliebe"
     ],
     "instructions": [
       "Dein Gras decarboxylieren – So geht's",
       "Das Gras fein mahlen, du möchtest eine gute Oberfläche für die Extraktion schaffen.",
       "Das gemahlene Cannabis zusammen mit &frac14; Tasse Kokosöl in ein Einmachglas geben.",
       "Das Einmachglas sehr fest verschließen.",
-      "Das Einmachglas in kochendes Wasser stellen und bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) über 2 Stunden erhitzen.",
+      "Das Einmachglas in einen Topf mit Wasser stellen und das Wasser bei niedriger bis mittlerer Hitze knapp unter dem Siedepunkt halten (ca. 200&deg; F – 95&deg; C), 2–3 Stunden lang; verdampftes Wasser nachfüllen.",
       "Den gesamten Inhalt des Glases durch ein Seihtuch über einem Metallsieb gießen.",
       "Das Seihtuch zusammennehmen und die restliche Flüssigkeit vollständig auspressen.",
       "Das Kokosöl mit einigen Nüssen vermischen."
@@ -624,7 +627,7 @@
       "Das Gras fein mahlen, du möchtest eine gute Oberfläche für die Extraktion schaffen.",
       "Das gemahlene Cannabis zusammen mit &frac12; Tasse Kokosöl in ein Einmachglas geben.",
       "Das Einmachglas sehr fest verschließen.",
-      "Das Einmachglas in kochendes Wasser stellen und bei niedriger bis mittlerer Hitze (240&deg; F – 115&deg; C) über 2 Stunden erhitzen.",
+      "Das Einmachglas in einen Topf mit Wasser stellen und das Wasser bei niedriger bis mittlerer Hitze knapp unter dem Siedepunkt halten (ca. 200&deg; F – 95&deg; C), 2–3 Stunden lang; verdampftes Wasser nachfüllen.",
       "Den gesamten Inhalt des Glases durch ein Seihtuch über einem Metallsieb gießen.",
       "Das Seihtuch zusammennehmen und die restliche Flüssigkeit vollständig auspressen.",
       "Das Kokosöl und den Honig im Mixer vermengen.",
@@ -651,8 +654,8 @@
     "description": "Dieses wärmende, potente Cannabis-Chai-Tee-Rezept ist eine großartige Art, deinen Tee mit einem extra Kick zu genießen.",
     "category_name": "Getränke",
     "ingredients": [
-      "Teebeutel",
-      "Milch",
+      "4 Schwarzteebeutel",
+      "4 Tassen Vollmilch",
       "0.5 gemahlenes Cannabis",
       "Ingwer",
       "Kardamom",
@@ -660,11 +663,11 @@
     ],
     "instructions": [
       "Dein Gras decarboxylieren – So geht's",
-      "Etwas Milch in einem Topf zum Kochen bringen.",
+      "Die Milch in einem Topf erhitzen, bis sie gerade zu sieden beginnt, dann die Hitze auf niedrig stellen.",
       "Ein Seihtuch auslegen.",
       "Den Ingwer und die Gewürze zerstoßen.",
       "Das Cannabis zusammen mit den zerstoßenen Gewürzen in ein Seihtuch geben und wie einen Teebeutel verschließen.",
-      "Den Teebeutel zwei Stunden in der Milch ziehen lassen.",
+      "Den Beutel bei kleinster Hitze etwa zwei Stunden in der Milch ziehen lassen, gelegentlich umrühren. Nicht kochen lassen.",
       "Die Milch in einen Krug gießen.",
       "Jetzt ist es Zeit, deine Tasse zuzubereiten: Die Milch mit einem Schwarzteebeutel mischen und etwas Zucker hinzufügen."
     ]
@@ -674,13 +677,14 @@
     "description": "Der perfekte salzige Snack zum Filme schauen.",
     "category_name": "Snacks",
     "ingredients": [
-      "1/4 Tasse Cannabutter",
+      "1/4 Tasse Cannabutter, geschmolzen",
+      "2 tbsp Pflanzen- oder Kokosöl (zum Poppen)",
       "⅓ – ⅔ Tassen Popcorn-Maiskörner",
       "Salz nach Geschmack"
     ],
     "instructions": [
-      "Die Butter in einem 2- bis 3-Liter-Topf mit Deckel bei mittlerer bis hoher Hitze erhitzen. Die Popcorn-Maiskörner hineingeben und genug Salz darüber streuen, um die Körnerschicht leicht zu bedecken. Du kannst später immer noch mehr Salz hinzufügen. Die Butter in den Topf geben und den Deckel aufsetzen.",
-      "Sobald die Körner anfangen zu poppen, den Topf ständig hin und her über der Flamme bewegen, bis das Poppen nachlässt. Sobald die Pops etwa 2 Sekunden auseinanderliegen, vom Herd nehmen und in eine Servierschüssel umfüllen. Abschmecken und bei Bedarf mit zusätzlichem Salz würzen."
+      "Das Pflanzenöl in einem 2- bis 3-Liter-Topf mit Deckel bei mittlerer bis hoher Hitze erhitzen. Die Popcorn-Maiskörner hineingeben und genug Salz darüber streuen, um die Körnerschicht leicht zu bedecken. Du kannst später immer noch mehr Salz hinzufügen. Den Deckel aufsetzen. (Die Körner nicht in Cannabutter poppen: Die Temperatur ist hoch genug, um die Butter zu verbrennen und THC abzubauen.)",
+      "Sobald die Körner anfangen zu poppen, den Topf ständig hin und her über der Flamme bewegen, bis das Poppen nachlässt. Sobald die Pops etwa 2 Sekunden auseinanderliegen, vom Herd nehmen und in eine Servierschüssel umfüllen. Abschmecken und bei Bedarf mit zusätzlichem Salz würzen. Die geschmolzene Cannabutter über das warme Popcorn träufeln und gut durchschwenken, damit alles gleichmäßig überzogen ist."
     ]
   },
   "infused-eggnog": {
@@ -689,7 +693,7 @@
     "category_name": "Getränke",
     "ingredients": [
       "1 Tasse infundierte Milch",
-      "4 Eier",
+      "4 Eier (am besten pasteurisiert, da das Eiweiß nicht erhitzt wird)",
       "6 EL Zucker",
       "1 Tasse Schlagsahne",
       "1 TL geriebene Muskatnuss",
@@ -698,7 +702,7 @@
     ],
     "instructions": [
       "Das Eigelb vom Eiweiß trennen.",
-      "In einer Schüssel das Eigelb mit dem Zucker schlagen, bis es blass aussieht und der Zucker vollständig aufgelöst ist.",
+      "In einer Schüssel das Eigelb mit 5 EL des Zuckers schlagen, bis es blass aussieht und der Zucker vollständig aufgelöst ist.",
       "In einem mittelgroßen Topf bei starker Hitze die Milch, Schlagsahne und Muskatnuss kombinieren und unter gelegentlichem Rühren gerade zum Kochen bringen. Vom Herd nehmen und die heiße Mischung langsam in die Eigelb-Zucker-Mischung einrühren. Dann alles zurück in den Topf geben und erhitzen, bis die Mischung 160 Grad F erreicht. Vom Herd nehmen, den Bourbon/Whiskey einrühren, in eine mittelgroße Rührschüssel gießen und zum Abkühlen in den Kühlschrank stellen.",
       "In einer mittelgroßen Rührschüssel das Eiweiß zu weichen Spitzen schlagen. Bei laufendem Mixer nach und nach 1 Esslöffel Zucker hinzufügen und zu steifen Spitzen schlagen. Das Eiweiß in die gekühlte Mischung einrühren.",
       "In so viele Tassen servieren, wie du im Rechner als Portionen festgelegt hast, um die Dosierung konsistent zu halten, und mit Zimt garnieren!"
@@ -710,7 +714,7 @@
     "category_name": "Grundlagen",
     "ingredients": [
       "1 Tasse (2 Stangen) ungesalzene Butter",
-      "3.5g Cannabis, decarboxyliert und gemahlen",
+      "3.5 gemahlenes Cannabis, decarboxyliert",
       "Seihtuch zum Abseihen",
       "Einmachglas zur Aufbewahrung"
     ],
@@ -769,7 +773,7 @@
     "ingredients": [
       "1 Tasse grob gemahlener Kaffee",
       "4 Tassen kaltes gefiltertes Wasser",
-      "1 TL infundiertes Kokosöl (siehe Rezept für infundiertes Kokosöl)",
+      "2 EL (6 TL) infundiertes Kokosöl, 1 TL pro Glas (siehe Rezept für infundiertes Kokosöl)",
       "Eiswürfel",
       "Milch oder Sahne nach Geschmack"
     ],
@@ -816,8 +820,8 @@
     ],
     "instructions": [
       "Zucker in einem schweren Topf bei mittlerer Hitze erhitzen und ständig mit einem Holzlöffel rühren, bis er schmilzt und bernsteinfarben wird.",
-      "Sobald er vollständig geschmolzen ist, die Cannabutter auf einmal hinzufügen. Die Mischung wird stark aufschäumen – weiterrühren.",
-      "Die Schlagsahne langsam einrühren. Die Mischung wird erneut aufschäumen. Weiterrühren, bis alles glatt ist.",
+      "Sobald er vollständig geschmolzen und bernsteinfarben ist, den Topf vom Herd nehmen und die Schlagsahne langsam einrühren. Die Mischung wird stark aufschäumen – weiterrühren.",
+      "Wenn das Aufschäumen nachlässt, die Cannabutter hinzufügen und rühren, bis alles glatt ist. Nach der Sahne hinzugefügt, kommt die infundierte Butter nicht mit dem heißesten Karamell in Kontakt.",
       "Vom Herd nehmen und Vanilleextrakt sowie Meersalz einrühren.",
       "10 Minuten abkühlen lassen, bevor es verwendet wird. In einem Glas im Kühlschrank bis zu 2 Wochen aufbewahren.",
       "Vor dem Servieren vorsichtig erwärmen. In 12 Portionen aufteilen und als Topping darüber träufeln."
@@ -1325,7 +1329,7 @@
     ],
     "instructions": [
       "Ofen auf 375°F vorheizen.",
-      "Knoblauch 1 Min. in Cannabutter anbraten.",
+      "Knoblauch 1 Min. in etwas normaler Butter oder Öl anbraten, kurz abkühlen lassen und dann die Cannabutter unterrühren.",
       "Mit Frischkäse, Parmesan, Petersilie, Salz und Pfeffer verrühren.",
       "In die Pilzkappen füllen. 20-25 Min. backen."
     ]
@@ -1402,6 +1406,7 @@
       "1 Ei",
       "3 EL Mandelmehl",
       "2 EL Cannabutter",
+      "1 EL normales Öl oder Butter (zum Braten)",
       "2 EL Mayonnaise",
       "1 EL Dijon-Senf",
       "2 Frühlingszwiebeln",
@@ -1410,8 +1415,8 @@
     "instructions": [
       "Lachs, Ei, Mandelmehl, Mayonnaise, Senf und Frühlingszwiebeln vermengen.",
       "6 Bratlinge formen.",
-      "Cannabutter in einer Pfanne schmelzen.",
-      "Pro Seite 3-4 Min. goldbraun braten. Mit Zitrone servieren."
+      "Das normale Öl oder die Butter in einer Pfanne bei mittlerer Hitze erhitzen.",
+      "Pro Seite 3-4 Min. goldbraun braten. Vom Herd nehmen, die Cannabutter sanft schmelzen und gleichmäßig über die Patties geben. Mit Zitrone servieren."
     ]
   },
   "cannabis-keto-spinach-dip": {
@@ -1430,8 +1435,8 @@
     ],
     "instructions": [
       "Ofen auf 375°F vorheizen.",
-      "Knoblauch in Cannabutter anbraten. Spinat hinzufügen.",
-      "Frischkäse, Sauerrahm und die Hälfte des Mozzarellas unterrühren.",
+      "Knoblauch 1 Minute in etwas normaler Butter oder Öl anbraten. Spinat hinzufügen und vom Herd nehmen.",
+      "Cannabutter, Frischkäse, Sauerrahm und die Hälfte des Mozzarellas unterrühren.",
       "In eine Auflaufform geben, restlichen Käse darüberstreuen.",
       "20-25 Min. backen, bis es blubbert."
     ]
@@ -1824,7 +1829,7 @@
     "description": "Klassisches Tiramisu mit Cannabis-Mascarpone-Creme.",
     "category_name": "Desserts",
     "ingredients": [
-      "3 Eigelb",
+      "3 Eigelb (am besten pasteurisiert, da sie nicht erhitzt werden)",
       "75g Zucker",
       "250g Mascarpone",
       "2 tbsp Cannabutter, weich",
@@ -1971,7 +1976,7 @@
     "description": "Butterscotch-Blondies mit Cannabis-Braunbutter.",
     "category_name": "Desserts",
     "ingredients": [
-      "½ cup Cannabutter, gebräunt",
+      "½ cup Cannabutter, geschmolzen",
       "1 cup brauner Zucker",
       "1 Ei + 1 Eigelb",
       "1 tsp Vanille",
@@ -1981,7 +1986,7 @@
       "¾ cup weiße Schokoladenstückchen"
     ],
     "instructions": [
-      "Ofen auf 350°F vorheizen. Gebräunte Cannabutter und braunen Zucker verrühren.",
+      "Ofen auf 350°F vorheizen. Geschmolzene Cannabutter und braunen Zucker verrühren. (Cannabutter nicht bräunen: Dabei wird sie weit über die Temperatur erhitzt, bei der THC abgebaut wird.)",
       "Ei, Eigelb und Vanille hinzufügen. Mehl, Backpulver, Salz und Schokoladenstückchen unterheben.",
       "In einer ausgelegten 8x8-Form 22-25 Min. backen. Nicht zu lange backen.",
       "Vor dem Schneiden vollständig abkühlen lassen."
@@ -2202,6 +2207,7 @@
     "category_name": "Mittagessen",
     "ingredients": [
       "2 tbsp Cannabis-Olivenöl",
+      "1 tbsp normales Olivenöl (zum Anbraten)",
       "1 Zwiebel",
       "1 rote Paprika",
       "4 Knoblauchzehen",
@@ -2213,10 +2219,10 @@
       "Petersilie und Feta"
     ],
     "instructions": [
-      "Zwiebel und Paprika in Cannabis-Öl anbraten. Knoblauch und Gewürze hinzufügen.",
+      "Zwiebel und Paprika im normalen Olivenöl anbraten. Knoblauch und Gewürze hinzufügen.",
       "Tomaten hinzufügen. 15 Min. köcheln lassen. Abschmecken.",
       "Mulden formen; Eier hineinschlagen. Zugedeckt 6-8 Min. garen.",
-      "Mit Petersilie und Feta garnieren. Mit Brot servieren."
+      "Vom Herd nehmen, mit dem Cannabis-Olivenöl beträufeln und mit Petersilie und Feta garnieren. Mit Brot servieren."
     ]
   },
   "infused-mushroom-risotto": {
@@ -2280,8 +2286,8 @@
       "Krautsalat, Salsa, Limette, saure Sahne"
     ],
     "instructions": [
-      "Hackfleisch anbraten; Fett abgießen. Cannabutter, Zwiebel und Knoblauch hinzufügen.",
-      "Gewürze einrühren. 2 Min. kochen.",
+      "Hackfleisch anbraten; Fett abgießen. Zwiebel und Knoblauch hinzufügen und weich dünsten.",
+      "Gewürze einrühren. 2 Min. kochen. Vom Herd nehmen und die Cannabutter unterrühren, bis sie geschmolzen ist.",
       "In warmen Tortillas mit Beilagen servieren."
     ]
   },
