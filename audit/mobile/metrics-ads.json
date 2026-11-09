@@ -1,0 +1,360 @@
+[
+  {
+    "name": "en-home-390-light-ads",
+    "lang": "en",
+    "page": "home",
+    "width": 390,
+    "theme": "light",
+    "url": "https://www.howtoedibles.com/",
+    "viewport": 390,
+    "docWidth": 390,
+    "overflowPx": 0,
+    "pageHeight": 4561,
+    "screens": 5.7,
+    "h1Top": 204,
+    "h1Text": "Cannabis Edible Recipes & Dosage Calculator",
+    "navLinks": 153,
+    "paginationButtons": 21,
+    "adSlots": [
+      {
+        "slot": "4353785890",
+        "format": "auto",
+        "top": 494,
+        "reservedHeight": 390
+      },
+      {
+        "format": "auto",
+        "top": 2167,
+        "reservedHeight": 800
+      },
+      {
+        "format": "auto",
+        "top": 3346,
+        "reservedHeight": 390
+      },
+      {
+        "top": 0,
+        "reservedHeight": 0
+      },
+      {
+        "top": 0,
+        "reservedHeight": 0
+      }
+    ],
+    "bodyFont": "16px Poppins, sans-serif",
+    "tapTargets": 49,
+    "smallTapTargets": 34,
+    "smallTapSamples": [
+      "div.container.page-content > div.homepage-hero > p.homepage-intro > a [164x17]",
+      "div.container.page-content > div.donate-cta > a.donate-cta-btn [318x34]",
+      "div#pagination-controls.mt-3.mb-4 > ul.pagination.justify-content-center > li.page-item.disabled > a.page-link [36x32]",
+      "div#pagination-controls.mt-3.mb-4 > ul.pagination.justify-content-center > li.page-item.active > a.page-link [36x32]",
+      "div#pagination-controls.mt-3.mb-4 > ul.pagination.justify-content-center > li.page-item > a.page-link [36x32]",
+      "div#pagination-controls.mt-3.mb-4 > ul.pagination.justify-content-center > li.page-item > a.page-link [38x32]",
+      "div#pagination-controls.mt-3.mb-4 > ul.pagination.justify-content-center > li.page-item > a.page-link [37x32]",
+      "div.container > div.row.footer-main > div.col-lg-4.col-md-6.mb-4 > a.footer-brand [224x18]",
+      "div.row.footer-main > div.col-lg-4.col-md-6.mb-4 > div.footer-social.mt-3 > a.footer-social-link [36x36]",
+      "div.col-lg-2.col-md-6.mb-4 > ul.footer-links > li > a [65x16]",
+      "div.col-lg-2.col-md-6.mb-4 > ul.footer-links > li > a [63x16]",
+      "div.col-lg-3.col-md-6.mb-4 > ul.footer-links > li > a [46x16]",
+      "div.col-lg-3.col-md-6.mb-4 > ul.footer-links > li > a [157x16]",
+      "div.col-lg-3.col-md-6.mb-4 > ul.footer-links > li > a [130x16]",
+      "div.col-lg-3.col-md-6.mb-4 > ul.footer-links > li > a [68x16]"
+    ],
+    "textElements": 59,
+    "under12px": 12,
+    "under16px": 56,
+    "tinySamples": [
+      "a > div.card.mb-2 > div.card-block > p.card-category 9.6px"
+    ],
+    "images": [
+      {
+        "src": "/images/howtoedibleslogo.png",
+        "natural": "260x93",
+        "rendered": "145x52",
+        "broken": false,
+        "lazy": "auto",
+        "top": 16
+      },
+      {
+        "src": "/images/recipes/cannabutter.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 944
+      },
+      {
+        "src": "/images/recipes/infused-coconut-oil.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1044
+      },
+      {
+        "src": "/images/recipes/infused-olive-oil.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1144
+      },
+      {
+        "src": "/images/recipes/infused-bulletproof-coffee.jpg",
+        "natural": "259x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1244
+      },
+      {
+        "src": "/images/recipes/infused-keto-peanut-butter-cookies.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1344
+      },
+      {
+        "src": "/images/recipes/infused-coconut-fat-bombs.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1444
+      },
+      {
+        "src": "/images/recipes/infused-pesto-pasta.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1544
+      },
+      {
+        "src": "/images/recipes/infused-berry-smoothie.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1644
+      },
+      {
+        "src": "/images/recipes/infused-energy-bites.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1744
+      },
+      {
+        "src": "/images/recipes/firecrackers.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1844
+      },
+      {
+        "src": "/images/recipes/infused-lemonade.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 1944
+      },
+      {
+        "src": "/images/recipes/infused-keto-chocolate-avocado-mousse.jpg",
+        "natural": "260x173",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 2044
+      },
+      {
+        "src": "/images/howtoedibleslogo.png",
+        "natural": "260x93",
+        "rendered": "224x80",
+        "broken": false,
+        "lazy": "auto",
+        "top": 3746
+      }
+    ],
+    "brokenImages": 0,
+    "overflowRoots": []
+  },
+  {
+    "name": "en-recipe-placeholder-390-light-ads",
+    "lang": "en",
+    "page": "recipe-placeholder",
+    "width": 390,
+    "theme": "light",
+    "url": "https://www.howtoedibles.com/recipes/pot-brownies/",
+    "viewport": 390,
+    "docWidth": 390,
+    "overflowPx": 0,
+    "pageHeight": 10607,
+    "screens": 13.3,
+    "h1Top": 865,
+    "h1Text": "Pot Brownies",
+    "navLinks": 253,
+    "paginationButtons": 0,
+    "adSlots": [
+      {
+        "slot": "4353785890",
+        "format": "auto",
+        "top": 197,
+        "reservedHeight": 390
+      },
+      {
+        "format": "auto",
+        "top": 982,
+        "reservedHeight": 390
+      },
+      {
+        "format": "auto",
+        "top": 2111,
+        "reservedHeight": 390
+      },
+      {
+        "format": "auto",
+        "top": 3236,
+        "reservedHeight": 368
+      },
+      {
+        "format": "auto",
+        "top": 4188,
+        "reservedHeight": 368
+      },
+      {
+        "format": "auto",
+        "top": 5098,
+        "reservedHeight": 377
+      },
+      {
+        "format": "auto",
+        "top": 5968,
+        "reservedHeight": 353
+      },
+      {
+        "format": "auto",
+        "top": 7110,
+        "reservedHeight": 390
+      },
+      {
+        "format": "auto",
+        "top": 7998,
+        "reservedHeight": 250
+      },
+      {
+        "format": "auto",
+        "top": 8949,
+        "reservedHeight": 390
+      },
+      {
+        "format": "auto",
+        "top": 9883,
+        "reservedHeight": 100
+      },
+      {
+        "top": 0,
+        "reservedHeight": 0
+      },
+      {
+        "top": 0,
+        "reservedHeight": 0
+      }
+    ],
+    "bodyFont": "16px Poppins, sans-serif",
+    "tapTargets": 40,
+    "smallTapTargets": 28,
+    "smallTapSamples": [
+      "div.recipe-section-body > ul.list-group > li.list-group-item > a.recipe-reference [79x16]",
+      "div.calculator-panel-body > div#calculator-widget > div.calculator-item.pt-1 > input#grams-slider [318x6]",
+      "div#calculator-widget > div.calculator-item.pt-1 > div.calculator-control.mt-2.mb-3 > a#decrease-quantity [30x30]",
+      "div#calculator-widget > div.calculator-item.pt-1 > div.calculator-control.mt-2.mb-3 > input#grams-input.calculator-input.mr-1.ml-1 [50x31]",
+      "div#calculator-widget > div.calculator-item.pt-1 > div.calculator-control.mt-2.mb-3 > a#increase-quantity [30x30]",
+      "div#calculator-widget > div.calculator-item-large.pt-1 > div.average-tip.mb-2 > a.potency-help-btn.ml-2 [104x24]",
+      "div.calculator-panel-body > div#calculator-widget > div.calculator-item-large.pt-1 > input#strength-slider [318x6]",
+      "div#calculator-widget > div.calculator-item-large.pt-1 > div.calculator-control.mt-1.mb-3 > a#decrease-strength [30x30]",
+      "div#calculator-widget > div.calculator-item-large.pt-1 > div.calculator-control.mt-1.mb-3 > input#strength-input.calculator-input.mr-1.ml-1 [50x31]",
+      "div#calculator-widget > div.calculator-item-large.pt-1 > div.calculator-control.mt-1.mb-3 > a#increase-strength.ml-1 [30x30]",
+      "div.calculator-panel-body > div#calculator-widget > div.calculator-item.pt-1 > input#portion-slider [318x6]",
+      "div#calculator-widget > div.calculator-item.pt-1 > div.calculator-control.mt-1 > a#decrease-servings [30x30]",
+      "div#calculator-widget > div.calculator-item.pt-1 > div.calculator-control.mt-1 > input#portion-input.calculator-input.mr-1.ml-1 [50x31]",
+      "div#calculator-widget > div.calculator-item.pt-1 > div.calculator-control.mt-1 > a#increase-servings [30x30]",
+      "div.container > div.row.footer-main > div.col-lg-4.col-md-6.mb-4 > a.footer-brand [224x18]"
+    ],
+    "textElements": 118,
+    "under12px": 6,
+    "under16px": 86,
+    "tinySamples": [
+      "div.row > div.col-md-7.order-1.order-md-1 > div.recipe-header > span.recipe-category-badge 10.88px",
+      "div.dosage-panel-body > div.dose-cards > div.dose-card > div.dose-card-label 11.2px",
+      "div.dosage-panel-body > div.dose-cards > div.dose-card.dose-card--highlight > div.dose-card-label 11.2px",
+      "div.col-md-5.order-2.order-md-2 > div.dosage-panel > div.dosage-panel-body > h3.dosage-effects-title.mt-3 11.52px",
+      "div.col-md-5.order-2.order-md-2 > div.dosage-panel > div.dosage-panel-body > p.sidenote 11.52px"
+    ],
+    "images": [
+      {
+        "src": "/images/howtoedibleslogo.png",
+        "natural": "260x93",
+        "rendered": "145x52",
+        "broken": false,
+        "lazy": "auto",
+        "top": 16
+      },
+      {
+        "src": "/images/recipes/pot-brownies.jpg",
+        "natural": "800x500",
+        "rendered": "360x200",
+        "broken": false,
+        "lazy": "auto",
+        "top": 603
+      },
+      {
+        "src": "",
+        "natural": "0x0",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 9395
+      },
+      {
+        "src": "",
+        "natural": "0x0",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 9395
+      },
+      {
+        "src": "",
+        "natural": "0x0",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 9505
+      },
+      {
+        "src": "",
+        "natural": "0x0",
+        "rendered": "84x84",
+        "broken": false,
+        "lazy": "lazy",
+        "top": 9505
+      },
+      {
+        "src": "/images/howtoedibleslogo.png",
+        "natural": "260x93",
+        "rendered": "224x80",
+        "broken": false,
+        "lazy": "auto",
+        "top": 9656
+      }
+    ],
+    "brokenImages": 0,
+    "overflowRoots": []
+  }
+]
