@@ -43,7 +43,7 @@
     "headline": "Why Our Cannabis Calculator Is the Most Accurate",
     "description": "Most cannabis calculators online give you wrong numbers. Ours is built on real science, accounts for cooking loss, and is fully tested. Here's why it matters.",
     "datePublished": "2026-03-13",
-    "dateModified": "2026-03-13",
+    "dateModified": "2026-11-08",
     "author": {
       "@type": "Organization",
       "name": "HowToEdibles"
@@ -91,7 +91,7 @@
         "name": "Why do most cannabis calculators give inaccurate results?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Most cannabis calculators online only multiply the cannabis weight by its THC percentage and divide by servings. They skip the cooking efficiency factor, which accounts for the ~20% THC lost during decarboxylation and infusion. This means their numbers are always higher than what you'll actually get in your edibles."
+          "text": "Most cannabis calculators online only multiply the cannabis weight by its THC percentage and divide by servings. They skip the cooking efficiency factor, which accounts for the ~20% THC lost during decarboxylation and infusion. This means their numbers are usually higher than what you'll actually get in your edibles."
         }
       },
       {
@@ -99,7 +99,7 @@
         "name": "What is the cooking efficiency factor in edible calculations?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The cooking efficiency factor (0.80 or 80%) accounts for the THC that is inevitably lost during decarboxylation and fat infusion. No home cooking process is 100% efficient — studies show roughly 20% of THC is lost in the process. Without this factor, any calculator will overestimate your edible's potency."
+          "text": "The cooking efficiency factor (0.80 or 80%) accounts for the THC that is inevitably lost during decarboxylation and fat infusion. No home cooking process is 100% efficient. Lab studies put losses during decarboxylation alone at roughly 8%, and infusion losses are less well measured, so 80% is our estimate for the two steps combined. Without this factor, a calculator will usually overestimate your edible's potency."
         }
       },
       {
@@ -363,7 +363,7 @@
 
           <div class="article-takeaway">
             <h4>Key takeaway</h4>
-            <p>Most cannabis calculators online skip the cooking efficiency factor, giving you inflated numbers that don't match reality. Our calculator accounts for the ~20% THC loss during decarboxylation and infusion, is fully tested, and shows you exactly what to expect at every dosage level.</p>
+            <p>Our calculator uses <strong>P = 10 &times; G &times; S &times; 0.80 / N</strong>: grams of flower &times; THC% &times; 10 gives total milligrams, &times; 0.80 accounts for an estimated 20% loss during decarboxylation and infusion, and &divide; servings gives mg per serving. For example, 3.5 g of 20% flower in 10 cookies is about <strong>56 mg per cookie</strong>, compared with the 70 mg a calculator without cooking loss would show. Either way, that is far above the <strong>2.5 to 5 mg</strong> a beginner should start with, so cut it into smaller pieces and wait 2 hours before having more.</p>
           </div>
 
           <h2 id="why-accuracy-matters" class="mt-4">Why accuracy matters</h2>
@@ -371,7 +371,7 @@
             Getting your edible dosage wrong is not just inconvenient — it can ruin your experience. If a calculator tells you each brownie has 50 mg of THC but the real number is closer to 40 mg, you might eat two thinking you need more. Now you are at 80 mg of actual THC instead of the 100 mg you were planning for, which might sound like a smaller problem than it is. But go the other direction — undershoot your estimate — and a beginner who thought they were taking 5 mg could actually be consuming far more.
           </p>
           <p>
-            Accuracy matters because people make real decisions based on these numbers. They decide how much to eat, whether to take more, and whether to share with friends who have lower tolerance. An inflated number from a calculator that skips the cooking efficiency factor gives people a false sense of how strong their edibles are — and that false confidence can lead to uncomfortable experiences.
+            Accuracy matters because people make real decisions based on these numbers. They decide how much to eat, whether to take more, and whether to share with friends who have lower tolerance. An inflated number from a calculator that skips the cooking efficiency factor makes edibles seem stronger than they are. When people then feel less than they expected, they may lose trust in the number and take more too soon.
           </p>
 
           <h2 id="the-cooking-efficiency-factor" class="mt-4">The cooking efficiency factor</h2>
@@ -379,11 +379,11 @@
             This is the single biggest reason most calculators online get it wrong. When you cook with cannabis, two processes eat into your total THC:
           </p>
           <ul>
-            <li><strong>Decarboxylation</strong> — you heat raw cannabis to convert inactive THCA into active THC. Even when done correctly (around 240°F / 115°C for 40 minutes), this step is roughly 90% efficient. Some THC is inevitably lost to heat degradation.</li>
-            <li><strong>Infusion</strong> — you transfer the activated THC into butter, oil, or another fat. Not all of it makes the jump. A typical home infusion captures about 80-90% of available THC, with the rest staying trapped in the plant material or degrading during the process.</li>
+            <li><strong>Decarboxylation</strong> — you heat raw cannabis to convert inactive THCA into active THC. Even when done correctly (around 240°F / 115°C for 30 to 40 minutes), this step is roughly 90% efficient. In a 2016 lab study, heating at 110°C (230°F) converted nearly all THCA in about 30 minutes and lost about 8% of the THC.</li>
+            <li><strong>Infusion</strong> — you transfer the activated THC into butter, oil, or another fat. Not all of it makes the jump. We estimate that a typical home infusion captures about 80-90% of available THC, with the rest staying trapped in the plant material or degrading during the process. Few published studies have measured home butter or oil infusions, so this is an estimate, not a lab figure.</li>
           </ul>
           <p>
-            Combined, these two steps mean you realistically extract around <strong>75-85% of the theoretical maximum</strong>. We use <strong>80% (0.80)</strong> as a well-grounded middle estimate. This is the cooking efficiency factor, and it is the variable that most calculators online simply leave out.
+            Combined (0.9 &times; 0.8 to 0.9 &times; 0.9), these two steps mean you realistically extract around <strong>70-80% of the theoretical maximum</strong>. We use <strong>80% (0.80)</strong>, the top of that range, so the calculator leans toward showing a slightly stronger dose rather than a weaker one. This is the cooking efficiency factor, and it is the variable that most calculators online simply leave out.
           </p>
           <p>
             Here is what that looks like in practice. Say you have 3.5 grams of cannabis at 20% THC and you want to make 10 cookies:
@@ -393,7 +393,7 @@
             <li><strong>With cooking efficiency (our calculator):</strong> 10 &times; 3.5 &times; 20 &times; 0.80 / 10 = <strong>56 mg per cookie</strong></li>
           </ul>
           <p>
-            That is a 14 mg difference per serving — a 20% overestimate. For someone who is new to edibles and aiming for a 5-10 mg dose, that kind of error is the difference between a pleasant experience and calling a friend in a panic. If you have ever used another calculator and your edibles felt weaker than expected, this is almost certainly why.
+            That is a 14 mg difference per serving: the first number is 25% higher than the second. For someone who is new to edibles and aiming for a 2.5-5 mg starting dose, a number that is off in either direction makes the target hard to hit. If you have ever used another calculator and your edibles felt weaker than expected, this may be why.
           </p>
 
           <h2 id="fully-tested-formula" class="mt-4">A fully tested formula</h2>
@@ -409,9 +409,9 @@
             A number by itself is not very helpful if you do not know what it means. Our calculator does not just tell you "each serving has 40 mg of THC" and leave you to figure out if that is a lot or a little. It shows you dosage levels — threshold, common, strong, and heavy — along with the effects you can expect at each level, both positive and negative.
           </p>
           <ul>
-            <li><strong>Threshold (1-2.5 mg):</strong> Subtle mood lift, mild relief. Good for microdosing. Unlikely to cause any negative effects.</li>
-            <li><strong>Common (2.5-15 mg):</strong> Noticeable euphoria, relaxation, enhanced senses. The standard recreational dose for most people. Some may experience mild anxiety or dry mouth.</li>
-            <li><strong>Strong (15-30 mg):</strong> Intense effects, strong body high, altered perception. Best for experienced users. Higher chance of anxiety, paranoia, or couch-lock.</li>
+            <li><strong>Threshold (up to 10 mg):</strong> Subtle mood lift and mild relief at the low end; clearer effects toward 10 mg. First-timers should stay at the bottom of this range, 2.5 to 5 mg.</li>
+            <li><strong>Common (10-20 mg):</strong> Noticeable euphoria, relaxation, enhanced senses. A typical dose for regular users, but too much for most beginners. Some may experience anxiety or dry mouth.</li>
+            <li><strong>Strong (20-30 mg):</strong> Intense effects, strong body high, altered perception. Best for experienced users. Higher chance of anxiety, paranoia, or couch-lock.</li>
             <li><strong>Heavy (30+ mg):</strong> Very intense, long-lasting effects. Only for those with significant tolerance. Risk of nausea, extreme anxiety, and very uncomfortable experiences for the inexperienced.</li>
           </ul>
           <p>
@@ -461,6 +461,15 @@
           <p>
             At the end of the day, the difference between our calculator and most others comes down to one thing: we care about giving you the right number, not just a number. The cooking efficiency factor, the tested code, the dosage levels, the transparent formula — these are not marketing features. They are the baseline for a calculator that actually does its job. If you have been using another tool and your edibles never seem to match the predicted potency, now you know why. Try ours and see the difference.
           </p>
+
+          <p class="mt-4"><em>Calculator results are estimates for general information, not medical advice. If you are new to edibles, start with 2.5 to 5 mg of THC and wait at least 2 hours before taking more.</em></p>
+
+          <h2 id="sources" class="mt-4">Sources</h2>
+          <ol>
+            <li>Wang M, Wang YH, Avula B, et al. Decarboxylation study of acidic cannabinoids: a novel approach using ultra-high-performance supercritical fluid chromatography/photodiode array-mass spectrometry. <em>Cannabis and Cannabinoid Research</em>. 2016;1(1):262-271. <a href="https://doi.org/10.1089/can.2016.0020" target="_blank" rel="noopener">doi:10.1089/can.2016.0020</a></li>
+            <li>California Code of Regulations, Title 4, <a href="https://www.law.cornell.edu/regulations/california/4-CCR-15700" target="_blank" rel="noopener">&sect; 15700, Definitions</a>. Defines Total THC as (THCA &times; 0.877) + THC.</li>
+            <li>Centers for Disease Control and Prevention. <a href="https://www.cdc.gov/cannabis/faq/index.html" target="_blank" rel="noopener">Cannabis Frequently Asked Questions</a>.</li>
+          </ol>
 
           <div class="text-center mt-5 mb-5">
             <a href="/calculator.html" class="btn btn-success btn-lg">Try the Calculator</a>
