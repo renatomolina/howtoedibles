@@ -1,0 +1,376 @@
+<!doctype html>
+<!-- PROTOTYPE — throwaway. Answers "How does a visitor navigate and find recipes on mobile?" (Poster direction).
+     Branch prototype/navigation only. `python3 -m http.server 8765` from repo root, then
+     /recipes/_prototype-navigation/?r=pot-brownies&lang=en|pt|zh&theme=light|dark&hdr=reveal|static&open=|search|menu&q= -->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>PROTOTYPE · navigation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500..800&display=swap">
+<style>
+/* ---------- Poster tokens (from the visual direction ticket) ---------- */
+:root{--paper:#fff;--ink:#1f1410;--ink-2:#6a5a50;--orange:#f27242;--on-cat:#1f1410;--line:#ecdfd6;--chip:#f6eee9;--focus:#1f1410;color-scheme:light}
+[data-theme=dark]{--paper:#191210;--ink:#f7ede6;--ink-2:#bba89b;--line:#3a2c26;--chip:#2a1f1b;--focus:#f27242;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
+body.locked{overflow:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+.disp{font-family:Unbounded,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.icon{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* ---------- cover system (shared by hero, tiles, thumbs) ---------- */
+.cv{display:block;position:relative;overflow:hidden;background:var(--cat);color:var(--on-cat);contain:paint}
+.cv>svg{position:absolute;right:-22%;bottom:-22%;width:92%;height:92%;transform:rotate(-12deg)}
+.cv>img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.15);mix-blend-mode:multiply}
+.gl{fill:var(--cat-deep)} .gl-l{stroke:var(--cat);fill:none;stroke-width:3}
+
+/* ---------- 1 · masthead (in page flow, scrolls away) ---------- */
+.hdr{display:flex;align-items:center;justify-content:space-between;height:108px}
+.hdr .logo{height:86px;width:auto}
+.tools{display:flex;gap:8px}
+.ibtn{width:48px;height:48px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;background:var(--paper);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.ibtn:active{transform:scale(.94)}
+[data-theme=dark] .logo{filter:drop-shadow(0 0 1px #0000)}
+
+/* ---------- 2 · compact bar (fixed; slides in on scroll-up only) ---------- */
+.mini{position:fixed;inset:0 0 auto;z-index:20;background:var(--paper);border-bottom:2px solid var(--ink);transform:translateY(-105%);transition:transform .22s ease;padding-top:env(safe-area-inset-top)}
+.mini.show{transform:none}
+.mini .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.mini .logo{height:40px;width:auto}
+.mini .ibtn{width:44px;height:44px}
+.mini .spill{flex:1;display:flex;align-items:center;gap:8px;height:44px;border:2px solid var(--ink);border-radius:999px;padding:0 14px;background:var(--chip);cursor:pointer;font-size:15px;color:var(--ink-2);text-align:left;min-width:0}
+.mini .spill .icon{width:20px;height:20px;color:var(--ink)}
+.mini .spill span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ---------- recipe page stub (Poster hero, so scroll feels real) ---------- */
+.hero{position:relative}
+.hero .cv{height:300px;margin:0 -20px}
+.hero .cv>svg{right:-30px;bottom:-40px;width:290px;height:290px}
+@media(min-width:720px){.hero .cv{margin:0;border-radius:28px}}
+.crumb{position:absolute;left:20px;top:18px;z-index:1;font-size:14px;font-weight:700;text-decoration:none;border:2px solid var(--on-cat);border-radius:999px;padding:6px 14px;background:color-mix(in srgb,var(--cat) 80%,transparent)}
+.sticker{position:absolute;right:22px;top:200px;z-index:2;width:118px;height:118px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);box-shadow:0 0 0 4px var(--paper);text-align:center;line-height:1}
+.sticker b{font-family:Unbounded,sans-serif;font-size:38px;font-weight:800}
+.sticker b small{font-size:16px}
+.sticker>span{font-size:13px;margin-top:4px;font-weight:600}
+h1{font-family:Unbounded,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif;font-weight:800;font-size:40px;line-height:1.02;letter-spacing:-.03em;margin:28px 0 10px;padding-right:120px}
+.desc{margin:0 0 16px;font-size:18px;color:var(--ink-2)}
+section.block{margin-top:44px}
+.block>h2{font-family:Unbounded,"PingFang SC","Noto Sans SC",sans-serif;font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1;margin:0 0 10px}
+.list{margin:0;padding:0;list-style:none}
+.list li{padding:12px 0;border-top:1px solid var(--line);font-size:18px}
+.steps{counter-reset:s}
+.steps li{display:flex;gap:14px}
+.steps li::before{counter-increment:s;content:counter(s);font-family:Unbounded,sans-serif;font-weight:800;font-size:16px;width:36px;height:36px;border-radius:50%;background:var(--cat);color:var(--on-cat);display:grid;place-items:center;flex:none}
+
+/* ---------- 3 · sheets (native <dialog>: focus trap + Esc for free) ---------- */
+dialog{position:fixed;inset:0;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;background:var(--paper);color:var(--ink);overflow-y:auto;overscroll-behavior:contain}
+dialog::backdrop{background:transparent}
+dialog[open]{animation:sheet .22s cubic-bezier(.2,.8,.3,1)}
+@keyframes sheet{from{transform:translateY(16px);opacity:0}}
+.sheet-top{position:sticky;top:0;z-index:2;background:var(--paper);padding-top:env(safe-area-inset-top)}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);margin:28px 0 12px}
+
+/* search sheet */
+.sbar{display:flex;align-items:center;gap:10px;height:76px}
+.sfield{flex:1;min-width:0;display:flex;align-items:center;gap:10px;height:54px;border:2px solid var(--ink);border-radius:16px;padding:0 8px 0 14px;background:var(--paper)}
+.sfield input{flex:1;min-width:0;border:0;background:none;font-size:18px;outline:none;height:100%}
+.sfield input::-webkit-search-cancel-button{display:none}
+.sfield .clear{width:36px;height:36px;border:0;border-radius:50%;background:var(--chip);display:grid;place-items:center;cursor:pointer}
+.sfield .clear .icon{width:18px;height:18px}
+.sfield:focus-within{box-shadow:0 0 0 3px color-mix(in srgb,var(--orange) 55%,transparent)}
+.txtbtn{border:0;background:none;font-weight:700;padding:12px 4px;cursor:pointer;white-space:nowrap}
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.cats a{display:block;text-decoration:none;text-align:center;font-size:13px;font-weight:700;line-height:1.2}
+.cats .cv{aspect-ratio:1;border-radius:18px;margin-bottom:6px}
+.cats .cv>svg{right:-18%;bottom:-18%;width:96%;height:96%}
+.rows{list-style:none;margin:0;padding:0}
+.rows a{display:flex;align-items:center;gap:14px;padding:10px 0;text-decoration:none;border-radius:14px}
+.rows a[aria-selected=true]{background:var(--chip);box-shadow:-8px 0 0 var(--chip),8px 0 0 var(--chip)}
+.rows .cv{width:60px;height:60px;border-radius:16px;flex:none}
+.rows .cv>svg{right:-24%;bottom:-24%;width:100%;height:100%}
+.rows b{display:block;font-weight:700;font-size:17px;line-height:1.25}
+.rows span{font-size:14px;color:var(--ink-2)}
+.rows mark{background:linear-gradient(transparent 58%,color-mix(in srgb,var(--orange) 55%,transparent) 58%);color:inherit}
+.rows .alt{font-size:13px;color:var(--ink-2);font-style:italic}
+.more{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;margin:14px 0 40px;border:2px solid var(--ink);border-radius:16px;font-weight:700;text-decoration:none}
+.empty{padding:28px 0}
+.empty h3{font-family:Unbounded,"PingFang SC",sans-serif;font-size:22px;line-height:1.2;margin:0 0 8px}
+.empty p{color:var(--ink-2);margin:0 0 16px}
+
+/* menu sheet */
+.mtop{display:flex;align-items:center;justify-content:space-between;height:108px}
+.mtop .logo{height:86px;width:auto}
+.calc-card{display:flex;align-items:center;gap:14px;padding:18px;border-radius:24px;background:var(--orange);color:#1f1410;text-decoration:none;margin-top:4px}
+.calc-card .ic{width:52px;height:52px;border-radius:50%;background:#1f1410;color:#f27242;display:grid;place-items:center;flex:none}
+.calc-card b{display:block;font-family:Unbounded,sans-serif;font-size:20px;font-weight:800;line-height:1.15}
+.calc-card span{font-size:15px}
+.calc-card .arr{margin-left:auto}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.tiles a{text-decoration:none}
+.tiles .cv{height:104px;border-radius:20px;padding:14px 16px}
+.tiles .cv>svg{right:-12%;bottom:-38%;width:68%;height:auto;aspect-ratio:1}
+.tiles b{position:relative;display:block;font-family:Unbounded,"PingFang SC",sans-serif;font-size:16px;font-weight:700;line-height:1.15}
+.tiles small{position:relative;font-size:13px;font-weight:600}
+.links{list-style:none;margin:0;padding:0}
+.links a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;border-top:2px solid var(--ink);text-decoration:none;font-weight:700;font-size:18px}
+.links li:last-child a{border-bottom:2px solid var(--ink)}
+.seg{display:flex;border:2px solid var(--ink);border-radius:16px;overflow:hidden}
+.seg>*{flex:1;display:grid;place-items:center;min-height:48px;border:0;background:none;font-weight:700;text-decoration:none;cursor:pointer;font-size:15px}
+.seg>*+*{border-left:2px solid var(--ink)}
+.seg [aria-current],.seg [aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.help{display:flex;align-items:center;gap:10px;margin:28px 0 40px;padding:14px 16px;border-radius:16px;background:var(--chip);text-decoration:none;font-weight:700}
+
+/* ---------- 4 · footer ---------- */
+.ftr{margin-top:64px;background:var(--orange);color:#1f1410;padding:28px 0 40px}
+.ftr .logo{height:64px;width:auto;margin-bottom:8px}
+.ftr .cols{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
+.ftr h4{font-family:Unbounded,"PingFang SC",sans-serif;font-size:14px;margin:22px 0 4px;grid-column:1/-1}
+.ftr .cols a{display:block;padding:9px 0;font-weight:700;text-decoration:none;font-size:16px}
+.ftr .langs{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.ftr .langs a{border:2px solid #1f1410;border-radius:999px;padding:8px 14px;font-weight:700;text-decoration:none;font-size:15px}
+.ftr .langs a[aria-current]{background:#1f1410;color:#f27242}
+.ftr p{font-size:14px;margin:22px 0 0}
+
+/* ---------- prototype switcher (deliberately off-brand) ---------- */
+#bar{position:fixed;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom));z-index:99;background:#202124;color:#fff;border-radius:14px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;font:13px/1 -apple-system,system-ui,sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+#bar .grp{display:flex;background:#3c4043;border-radius:9px;padding:2px}
+#bar button{border:0;background:none;color:#e8eaed;padding:9px 10px;border-radius:7px;cursor:pointer;white-space:nowrap}
+#bar button[aria-pressed=true]{background:#fff;color:#202124;font-weight:600}
+body.shot #bar{display:none}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="bar" role="toolbar" aria-label="Prototype controls"></div>
+<script>
+const ROOT = "../../";
+const P = new URLSearchParams(location.search);
+const S = { r: P.get("r") || "pot-brownies", lang: P.get("lang") || "en", theme: P.get("theme") || "light", hdr: P.get("hdr") || "reveal", open: P.get("open") || "", q: P.get("q") || "" };
+if (P.has("shot")) document.body.classList.add("shot");
+
+// Category colours: Desserts + Essentials are decided; the other 6 are PROVISIONAL (dark-mode/colour fog on the map).
+const CATS = [
+  ["Desserts", "#f27242", "#c9532a", "cupcake"], ["Drinks", "#62b6e8", "#2f86bd", "glass"], ["Snacks", "#f29cb7", "#d4668a", "cookie"],
+  ["Essentials", "#f4c542", "#d89f12", "butter"], ["Lunch", "#d9b38c", "#a8835a", "bowl"], ["Keto", "#b3a1e6", "#7f69c4", "avocado"],
+  ["Vegan", "#5cc48a", "#2f9660", "leaf"], ["International", "#3fb5b0", "#1f8580", "globe"],
+];
+const CAT = Object.fromEntries(CATS.map(([n, c, d, g]) => [n, { c, d, g }]));
+const PHOTOS = new Set(["cannabutter", "pot-cookies", "cannabis-caramel-sauce", "infused-coconut-oil"]); // real photos known from the audit
+const POPULAR = ["cannabutter", "pot-brownies", "gummy-bears", "pot-cookies", "infused-coconut-oil"]; // placeholder until GSC/GA4 data
+
+const G = {
+  cupcake: '<path class="gl" d="M17 50c0-15 12-24 22-24 3-7 8-10 11-10s8 3 11 10c10 0 22 9 22 24Z"/><circle class="gl" cx="50" cy="12" r="7"/><path class="gl" d="M19 54h62l-8 38H27Z"/><path class="gl-l" d="M38 56l3 34M50 56v34M62 56l-3 34"/>',
+  butter: '<path class="gl" d="M10 46 34 30h56L66 46Z"/><path class="gl" d="M10 46h56v28H10Z"/><path class="gl" d="M66 46 90 30v28L66 74Z" opacity=".75"/><path class="gl-l" d="M30 46v28M46 46v28"/>',
+  glass: '<path class="gl" d="M24 24h52l-7 70H31Z"/><path class="gl-l" d="M27 46h46" /><path d="M58 30 72 4" stroke="var(--cat-deep)" stroke-width="7" stroke-linecap="round" fill="none"/><circle class="gl" cx="74" cy="26" r="13" opacity=".8"/>',
+  cookie: '<path class="gl" fill-rule="evenodd" d="M50 10a40 40 0 1 0 0 80 40 40 0 1 0 0-80Zm-14 20a6 6 0 1 0 0 12 6 6 0 1 0 0-12Zm28 6a5 5 0 1 0 0 10 5 5 0 1 0 0-10ZM44 56a7 7 0 1 0 0 14 7 7 0 1 0 0-14Zm24 8a5 5 0 1 0 0 10 5 5 0 1 0 0-10Z"/>',
+  bowl: '<path class="gl" d="M8 48h84a42 42 0 0 1-84 0Z"/><path d="M34 40c-4-8 4-12 0-22M50 40c-4-8 4-12 0-22M66 40c-4-8 4-12 0-22" stroke="var(--cat-deep)" stroke-width="5" stroke-linecap="round" fill="none"/>',
+  avocado: '<path class="gl" fill-rule="evenodd" d="M50 6c14 0 18 18 24 32 8 18 10 54-24 56-34-2-32-38-24-56C32 24 36 6 50 6Zm0 46a15 15 0 1 0 0 30 15 15 0 1 0 0-30Z"/>',
+  leaf: '<path class="gl" d="M50 96C16 72 14 30 50 4c36 26 34 68 0 92Z"/><path class="gl-l" d="M50 92V22M50 60l-16-14M50 44l14-12M50 76l18-14"/>',
+  globe: '<circle class="gl" cx="50" cy="50" r="42"/><path class="gl-l" d="M8 50h84M50 8c-24 26-24 58 0 84M50 8c24 26 24 58 0 84M16 28h68M16 72h68"/>',
+};
+const T = {
+  en: { search: "Search", ph: "Search 237 recipes", cancel: "Cancel", clear: "Clear", menu: "Menu", close: "Close",
+        browse: "Browse by category", popular: "Most made", per: "mg per serving",
+        none: (q) => `No recipe for “${q}”`, noneHint: "Try a simpler word, like “cookies” or “butter”.", all: (n) => `See all ${n} results`,
+        calc: "Dosage calculator", calcS: "Your mg per serving, from 3 numbers", recipes: "Recipes", count: (n) => `${n} recipes`,
+        learn: "Learn", learnL: ["Edibles for beginners", "How long edibles take", "Decarboxylation explained", "How to prevent a bad trip", "All articles"],
+        lang: "Language", look: "Appearance", modes: ["Auto", "Light", "Dark"], help: "Too high? Get help now", allR: "All recipes",
+        more: "More", moreL: ["Calculator", "About", "Contact", "Support us"], legal: "For adults 21+ where cannabis is legal. Effects vary; start low, go slow.",
+        ing: "Ingredients", steps: "Steps", perShort: "per serving", alt: "also" },
+  pt: { search: "Buscar", ph: "Buscar entre 237 receitas", cancel: "Cancelar", clear: "Limpar", menu: "Menu", close: "Fechar",
+        browse: "Navegue por categoria", popular: "Mais feitas", per: "mg por porção",
+        none: (q) => `Nenhuma receita para “${q}”`, noneHint: "Tente uma palavra mais simples, como “cookies” ou “manteiga”.", all: (n) => `Ver os ${n} resultados`,
+        calc: "Calculadora de dosagem", calcS: "Seus mg por porção com 3 números", recipes: "Receitas", count: (n) => `${n} receitas`,
+        learn: "Aprenda", learnL: ["Comestíveis para iniciantes", "Quanto tempo leva pra bater", "Descarboxilação explicada", "Como evitar uma bad trip", "Todos os artigos"],
+        lang: "Idioma", look: "Aparência", modes: ["Auto", "Claro", "Escuro"], help: "Passou do ponto? Ajuda agora", allR: "Todas as receitas",
+        more: "Mais", moreL: ["Calculadora", "Sobre", "Contato", "Apoie"], legal: "Para maiores de 21 anos onde a cannabis é legal. Os efeitos variam; comece com pouco e vá devagar.",
+        ing: "Ingredientes", steps: "Modo de preparo", perShort: "por porção", alt: "também" },
+  zh: { search: "搜索", ph: "搜索 237 个食谱", cancel: "取消", clear: "清除", menu: "菜单", close: "关闭",
+        browse: "按类别浏览", popular: "最多人做", per: "毫克/份",
+        none: (q) => `没有找到“${q}”`, noneHint: "试试更简单的词，比如“饼干”或“黄油”。", all: (n) => `查看全部 ${n} 个结果`,
+        calc: "剂量计算器", calcS: "三个数字算出每份毫克", recipes: "食谱", count: (n) => `${n} 个食谱`,
+        learn: "学习", learnL: ["新手入门", "多久起效", "脱羧原理", "如何避免不良反应", "全部文章"],
+        lang: "语言", look: "外观", modes: ["自动", "浅色", "深色"], help: "太嗨了？立即求助", allR: "全部食谱",
+        more: "更多", moreL: ["计算器", "关于", "联系", "支持我们"], legal: "仅限大麻合法地区的 21 岁以上成年人。效果因人而异，从小剂量开始。",
+        ing: "配料", steps: "步骤", perShort: "每份", alt: "又名" },
+};
+const LANGS = [["en", "EN"], ["pt", "PT"], ["es", "ES"], ["de", "DE"], ["zh", "中文"]];
+const I = {
+  search: '<svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+  menu: '<svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>',
+  x: '<svg class="icon" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>',
+  arr: '<svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+  calc: '<svg class="icon" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="3"/><path d="M8.5 7.5h7M9 12h.01M12 12h.01M15 12h.01M9 15.5h.01M12 15.5h.01M15 15.5h.01"/></svg>',
+  life: '<svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="m5.6 5.6 3.6 3.6M14.8 14.8l3.6 3.6M18.4 5.6l-3.6 3.6M9.2 14.8l-3.6 3.6"/></svg>',
+};
+
+// ---------------- data (real files) ----------------
+let D = null;
+async function load() {
+  const j = (p) => fetch(ROOT + p).then((r) => r.json());
+  const [rec, ui, tr, txt] = await Promise.all([j("data/recipes.json"), j(`i18n/${S.lang}.json`), S.lang === "en" ? null : j(`i18n/recipes_${S.lang}.json`), j("data/recipes_text.json")]);
+  const fold = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const list = rec.recipes.map((r) => {
+    const name = tr?.[r.slug]?.name || r.name;
+    return { slug: r.slug, name, en: r.name, cat: r.category_name, catT: ui.categories[r.category_name], mg: (10 * r.suggested_quantity * 14) / r.suggested_portion, key: fold(name + " " + r.name + " " + ui.categories[r.category_name]) };
+  });
+  D = { rec, ui, tr, txt, list, fold, by: Object.fromEntries(list.map((x) => [x.slug, x])) };
+}
+const pre = () => (S.lang === "en" ? "" : "/" + S.lang);
+const fmt = (x) => (x >= 10 ? Math.round(x) : Math.round(x * 10) / 10).toString();
+const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const cv = (cat, slug, cls = "cv") => { const c = CAT[cat]; return `<span class="${cls}" style="--cat:${c.c};--cat-deep:${c.d}">${slug && PHOTOS.has(slug) ? `<img src="${ROOT}images/recipes/${slug}.jpg" alt="" loading="lazy">` : `<svg viewBox="0 0 100 100" aria-hidden="true">${G[c.g]}</svg>`}</span>`; };
+
+// ---------------- search ----------------
+function find(q) {
+  const f = D.fold(q.trim());
+  if (!f) return [];
+  const words = f.split(/\s+/);
+  return D.list.filter((x) => words.every((w) => x.key.includes(w)))
+    .sort((a, b) => (D.fold(a.name).startsWith(words[0]) ? 0 : 1) - (D.fold(b.name).startsWith(words[0]) ? 0 : 1));
+}
+function hi(text, q) {
+  const f = D.fold(text), w = D.fold(q.trim()).split(/\s+/)[0], i = w ? f.indexOf(w) : -1;
+  return i < 0 ? esc(text) : esc(text.slice(0, i)) + "<mark>" + esc(text.slice(i, i + w.length)) + "</mark>" + esc(text.slice(i + w.length));
+}
+const row = (x, q = "") => {
+  const altHit = q && S.lang !== "en" && !D.fold(x.name).includes(D.fold(q.trim()).split(/\s+/)[0]) && D.fold(x.en).includes(D.fold(q.trim()).split(/\s+/)[0]);
+  return `<li><a href="${pre()}/recipes/${x.slug}/" role="option">${cv(x.cat, x.slug)}<div><b>${hi(x.name, q)}</b>${altHit ? `<span class="alt">${T[S.lang].alt} ${hi(x.en, q)}</span><br>` : ""}<span>${x.catT} · ${fmt(x.mg)} ${T[S.lang].per}</span></div></a></li>`;
+};
+function results(q) {
+  const t = T[S.lang];
+  if (!q.trim()) {
+    return `<p class="eyebrow">${t.browse}</p><div class="cats">${CATS.map(([n]) => `<a href="#cat-${n.toLowerCase()}">${cv(n)}${D.ui.categories[n]}</a>`).join("")}</div>
+      <p class="eyebrow">${t.popular}</p><ul class="rows" role="listbox">${POPULAR.map((s) => row(D.by[s])).join("")}</ul>
+      <a class="more" href="${pre()}/calculator.html">${I.calc}${t.calc}</a>`;
+  }
+  const r = find(q);
+  if (!r.length) return `<div class="empty"><h3>${t.none(esc(q))}</h3><p>${t.noneHint}</p><div class="cats">${CATS.slice(0, 4).map(([n]) => `<a href="#cat-${n.toLowerCase()}">${cv(n)}${D.ui.categories[n]}</a>`).join("")}</div></div>`;
+  return `<ul class="rows" role="listbox" style="margin-top:6px">${r.slice(0, 8).map((x) => row(x, q)).join("")}</ul>${r.length > 8 ? `<a class="more" href="${pre()}/?q=${encodeURIComponent(q)}">${t.all(r.length)}${I.arr}</a>` : ""}`;
+}
+
+// ---------------- shell ----------------
+function shell() {
+  const t = T[S.lang], LOGO = `${ROOT}images/howtoedibleslogo.png`;
+  const counts = Object.fromEntries(CATS.map(([n]) => [n, D.list.filter((x) => x.cat === n).length]));
+  const R = D.rec.recipes.find((r) => r.slug === S.r), x = D.by[S.r], c = CAT[R.category_name];
+  const tx = S.lang === "en" ? D.txt[S.r] : D.tr[S.r];
+  const clean = (s) => s.replace(/&deg;/g, "°").replace(/&frac12;/g, "½");
+
+  const masthead = `<header class="hdr"><a href="${pre()}/" aria-label="HowToEdibles"><img class="logo" src="${LOGO}" alt="HowToEdibles" width="260" height="93"></a>
+    <div class="tools"><button class="ibtn" data-open="search" aria-label="${t.search}">${I.search}</button><button class="ibtn" data-open="menu" aria-label="${t.menu}" aria-haspopup="dialog">${I.menu}</button></div></header>`;
+  const mini = S.hdr === "reveal" ? `<div class="mini" id="mini"><div class="wrap"><a href="${pre()}/" aria-label="HowToEdibles"><img class="logo" src="${LOGO}" alt="" width="260" height="93"></a>
+    <button class="spill" data-open="search">${I.search}<span>${t.ph}</span></button><button class="ibtn" data-open="menu" aria-label="${t.menu}">${I.menu}</button></div></div>` : "";
+
+  const page = `<section class="hero" style="--cat:${c.c};--cat-deep:${c.d}">${cv(R.category_name, S.r)}<a class="crumb" href="#cat-${R.category_slug}">${x.catT}</a>
+      <div class="sticker"><b>${fmt(x.mg)}<small>mg</small></b><span>${t.perShort}</span></div>
+      <h1>${esc(x.name)}</h1><p class="desc">${esc(tx?.description || R.description)}</p></section>
+    <section class="block"><h2>${t.ing}</h2><ul class="list">${(tx?.ingredients || []).map((i) => `<li>${clean(i)}</li>`).join("")}</ul></section>
+    <section class="block" style="--cat:${c.c};--on-cat:#1f1410"><h2>${t.steps}</h2><ol class="list steps">${(tx?.instructions || []).map((i) => `<li><span>${clean(i)}</span></li>`).join("")}</ol></section>`;
+
+  const search = `<dialog id="search" aria-label="${t.search}"><div class="sheet-top"><div class="wrap"><form class="sbar" role="search" action="${pre()}/">
+      <label class="sfield">${I.search}<input id="q" name="q" type="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${t.ph}" aria-label="${t.ph}" aria-controls="res" value="${esc(S.q)}">
+      <button type="button" class="clear" id="clear" aria-label="${t.clear}" ${S.q ? "" : "hidden"}>${I.x}</button></label>
+      <button type="button" class="txtbtn" data-close>${t.cancel}</button></form></div></div>
+    <div class="wrap" id="res" aria-live="polite">${results(S.q)}</div></dialog>`;
+
+  const menu = `<dialog id="menu" aria-label="${t.menu}"><div class="sheet-top"><div class="wrap mtop"><a href="${pre()}/" aria-label="HowToEdibles"><img class="logo" src="${LOGO}" alt="" width="260" height="93"></a>
+      <div class="tools"><button class="ibtn" data-open="search" aria-label="${t.search}">${I.search}</button><button class="ibtn" data-close aria-label="${t.close}">${I.x}</button></div></div></div>
+    <nav class="wrap" aria-label="${t.menu}">
+      <a class="calc-card" href="${pre()}/calculator.html"><span class="ic">${I.calc}</span><span><b>${t.calc}</b><span>${t.calcS}</span></span><span class="arr">${I.arr}</span></a>
+      <p class="eyebrow">${t.recipes}</p>
+      <div class="tiles">${CATS.map(([n]) => `<a href="#cat-${n.toLowerCase()}">${cv(n).replace("</span>", `<b>${D.ui.categories[n]}</b><small>${t.count(counts[n])}</small></span>`)}</a>`).join("")}</div>
+      <p class="eyebrow">${t.learn}</p>
+      <ul class="links">${t.learnL.map((l) => `<li><a href="#">${l}${I.arr}</a></li>`).join("")}</ul>
+      <p class="eyebrow">${t.lang}</p>
+      <div class="seg">${LANGS.map(([l, n]) => `<a href="?${new URLSearchParams({ ...S, lang: l in T ? l : S.lang, open: "menu" })}" ${l === S.lang ? 'aria-current="true"' : ""} lang="${l}">${n}</a>`).join("")}</div>
+      <p class="eyebrow">${t.look}</p>
+      <div class="seg">${["auto", "light", "dark"].map((m, i) => `<button type="button" data-theme-set="${m}" aria-pressed="${(S.theme === m)}">${t.modes[i]}</button>`).join("")}</div>
+      <a class="help" href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener">${I.life}${t.help}</a>
+    </nav></dialog>`;
+
+  const footer = `<footer class="ftr"><div class="wrap">
+      <nav class="cols" aria-label="${t.recipes}"><h4>${t.recipes}</h4>${CATS.map(([n]) => `<a href="#cat-${n.toLowerCase()}">${D.ui.categories[n]}</a>`).join("")}
+        <h4>${t.learn}</h4>${t.learnL.map((l) => `<a href="#">${l}</a>`).join("")}<a href="#" style="color:inherit">${t.help}</a>
+        <h4>${t.more}</h4>${t.moreL.map((l) => `<a href="#">${l}</a>`).join("")}</nav>
+      <div class="langs">${LANGS.map(([l, n]) => `<a href="#" lang="${l}" ${l === S.lang ? 'aria-current="true"' : ""}>${n}</a>`).join("")}</div>
+      <p>${t.legal}</p></div></footer>`;
+
+  return `${mini}<div class="wrap">${masthead}<main>${page}</main></div>${footer}${search}${menu}`;
+}
+
+// ---------------- behaviour ----------------
+function applyTheme() {
+  const dark = S.theme === "dark" || (S.theme === "auto" && matchMedia("(prefers-color-scheme: dark)").matches);
+  document.documentElement.dataset.theme = dark ? "dark" : "light";
+}
+function bar() {
+  const b = (k, v, l) => `<button data-set="${k}" data-v="${v}" aria-pressed="${S[k] === v}">${l}</button>`;
+  return `<div class="grp">${b("hdr", "reveal", "Reveal ↑")}${b("hdr", "static", "Static")}</div><div class="grp">${b("open", "", "Page")}${b("open", "search", "Search")}${b("open", "menu", "Menu")}</div>
+    <div class="grp">${b("theme", "light", "Light")}${b("theme", "dark", "Dark")}</div><div class="grp">${b("lang", "en", "EN")}${b("lang", "pt", "PT")}${b("lang", "zh", "中文")}</div>`;
+}
+function sync() { history.replaceState(null, "", "?" + new URLSearchParams(S)); document.getElementById("bar").innerHTML = bar(); }
+function open(id) {
+  document.querySelectorAll("dialog[open]").forEach((d) => d.close());
+  const d = document.getElementById(id); d.showModal(); document.body.classList.add("locked"); S.open = id; sync();
+  if (id === "search") { const q = document.getElementById("q"); q.focus(); q.select(); }
+}
+async function render() {
+  if (!D || D.lang !== S.lang) { await load(); D.lang = S.lang; }
+  document.documentElement.lang = S.lang === "zh" ? "zh-Hans" : S.lang;
+  applyTheme();
+  document.getElementById("app").innerHTML = shell();
+  document.querySelectorAll("dialog").forEach((d) => d.addEventListener("close", () => { document.body.classList.remove("locked"); if (S.open === d.id) { S.open = ""; sync(); } }));
+  if (S.open) open(S.open); else sync();
+  if (P.has("compact")) { document.querySelector("#app > .wrap").style.marginTop = "-" + (P.get("compact") || 700) + "px"; document.getElementById("mini")?.classList.add("show"); }
+}
+
+// Compact bar: shows only while scrolling UP past the masthead, so it never covers the recipe while cooking.
+let lastY = scrollY;
+addEventListener("scroll", () => {
+  const m = document.getElementById("mini"), y = scrollY;
+  if (m && Math.abs(y - lastY) > 6) { m.classList.toggle("show", y > 140 && y < lastY); lastY = y; }
+}, { passive: true });
+
+let sel = -1;
+document.addEventListener("input", (e) => {
+  if (e.target.id !== "q") return;
+  S.q = e.target.value; sel = -1;
+  document.getElementById("res").innerHTML = results(S.q);
+  document.getElementById("clear").hidden = !S.q;
+  history.replaceState(null, "", "?" + new URLSearchParams(S));
+});
+document.addEventListener("keydown", (e) => {
+  if (e.target.id !== "q") return;
+  const items = [...document.querySelectorAll("#res .rows a")];
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault(); sel = Math.max(0, Math.min(items.length - 1, sel + (e.key === "ArrowDown" ? 1 : -1)));
+    items.forEach((a, i) => a.setAttribute("aria-selected", i === sel)); items[sel]?.scrollIntoView({ block: "nearest" });
+  } else if (e.key === "Enter" && items.length && S.q.trim()) { e.preventDefault(); (items[sel] || items[0]).click(); }
+});
+document.addEventListener("click", (e) => {
+  const set = e.target.closest("[data-set]");
+  if (set) { S[set.dataset.set] = set.dataset.v; return render(); }
+  const o = e.target.closest("[data-open]"); if (o) return open(o.dataset.open);
+  if (e.target.closest("[data-close]")) return e.target.closest("dialog").close();
+  if (e.target.closest("#clear")) { const q = document.getElementById("q"); q.value = ""; q.dispatchEvent(new Event("input", { bubbles: true })); return q.focus(); }
+  const th = e.target.closest("[data-theme-set]");
+  if (th) { S.theme = th.dataset.themeSet; applyTheme(); document.querySelectorAll("[data-theme-set]").forEach((b) => b.setAttribute("aria-pressed", b === th)); return sync(); }
+  const cat = e.target.closest('a[href^="#cat-"]');
+  if (cat) { e.preventDefault(); alert("PROTOTYPE: would open the category page, e.g. " + pre() + "/category/" + cat.getAttribute("href").slice(5) + "/"); }
+});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => S.theme === "auto" && applyTheme());
+render();
+</script>
+</body>
+</html>
