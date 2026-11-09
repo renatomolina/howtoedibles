@@ -217,14 +217,14 @@ def build_head(lang, title:, description:, canonical:, keywords: nil, structured
       <meta property="og:site_name" content="HowToEdibles" />
       <meta property="og:title" content="#{h(title)}" />
       <meta property="og:description" content="#{h(description)}" />
-      <meta property="og:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
+      <meta property="og:image" content="https://www.howtoedibles.com/images/brand/og-image.jpg" />
       <meta property="og:url" content="#{canonical}" />
 
       <!-- Twitter -->
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="#{h(title)}" />
       <meta name="twitter:description" content="#{h(description)}" />
-      <meta name="twitter:image" content="https://www.howtoedibles.com/images/pot-brownies.jpg" />
+      <meta name="twitter:image" content="https://www.howtoedibles.com/images/brand/og-image.jpg" />
 
       #{kw ? %(<meta name="keywords" content="#{h(kw)}" />) : ""}
       <meta name="google-site-verification" content="Gx8tQ2a4mdwxSkH2HQSVZa8Iwm8EW6nSTSO3PhERQNY" />
