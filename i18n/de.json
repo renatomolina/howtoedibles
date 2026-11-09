@@ -197,7 +197,7 @@
     "q2": "Wie lange dauert es, bis Edibles wirken?",
     "a2": "Cannabis-Edibles brauchen in der Regel 30 Minuten bis 2 Stunden, um zu wirken, abhängig von deinem Stoffwechsel, Körpergewicht und ob du kürzlich gegessen hast. Die Wirkung kann 4–8 Stunden anhalten, deutlich länger als beim Rauchen.",
     "q3": "Wie berechnet man die Dosierung von Cannabis-Edibles?",
-    "a3": "Verwende die Formel: P = 10 × (G × S) / N, wobei G = Gramm Cannabis, S = Potenz in Prozent, N = Anzahl der Portionen und P = mg THC pro Portion. Zum Beispiel: 3,5g Cannabis mit 20% geteilt durch 20 Portionen = 35 mg pro Stück.",
+    "a3": "Verwende die Formel: P = 10 × G × S × 0,8 / N, wobei G = Gramm Cannabis, S = Potenz in Prozent, N = Anzahl der Portionen, P = mg THC pro Portion und 0,8 die rund 20 % THC berücksichtigt, die bei Decarboxylierung und Infusion verloren gehen. Zum Beispiel: 3,5g Cannabis mit 20% geteilt durch 20 Portionen = 28 mg pro Stück.",
     "q4": "Warum sind Edibles stärker als gerauchtes Gras?",
     "a4": "Wenn du Cannabis isst, wandelt deine Leber THC in 11-Hydroxy-THC um, eine stärkere Verbindung, die die Blut-Hirn-Schranke effektiver überwindet. Das macht Edibles deutlich stärker und langanhaltender als inhaliertes THC.",
     "q5": "Was passiert, wenn man zu viele Edibles isst?",

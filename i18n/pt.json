@@ -197,7 +197,7 @@
     "q2": "Quanto tempo os comestíveis demoram para fazer efeito?",
     "a2": "Comestíveis de cannabis geralmente levam de 30 minutos a 2 horas para fazer efeito, dependendo do seu metabolismo, peso corporal e se você comeu recentemente. Os efeitos podem durar de 4 a 8 horas, muito mais do que fumar.",
     "q3": "Como calcular a dosagem de comestíveis de cannabis?",
-    "a3": "Use a fórmula: P = 10 × (G × S) / N, onde G = gramas de cannabis, S = porcentagem de potência, N = número de porções e P = mg de THC por porção. Por exemplo, 3,5g de cannabis com 20% divididos em 20 porções = 35 mg cada.",
+    "a3": "Use a fórmula: P = 10 × G × S × 0,8 / N, onde G = gramas de cannabis, S = porcentagem de potência, N = número de porções, P = mg de THC por porção, e 0,8 desconta os cerca de 20% de THC perdidos na descarboxilação e na infusão. Por exemplo, 3,5g de cannabis com 20% divididos em 20 porções = 28 mg cada.",
     "q4": "Por que comestíveis são mais fortes do que fumar maconha?",
     "a4": "Quando você ingere cannabis, seu fígado converte o THC em 11-hidroxi-THC, um composto mais potente que atravessa a barreira hematoencefálica de forma mais eficaz. Isso torna os comestíveis significativamente mais fortes e duradouros do que o THC inalado.",
     "q5": "O que acontece se você comer comestíveis demais?",

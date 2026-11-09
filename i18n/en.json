@@ -197,7 +197,7 @@
     "q2": "How long do edibles take to kick in?",
     "a2": "Cannabis edibles typically take 30 minutes to 2 hours to kick in, depending on your metabolism, body weight, and whether you've eaten recently. The effects can last 4–8 hours, much longer than smoking.",
     "q3": "How do you calculate the dosage of cannabis edibles?",
-    "a3": "Use the formula: P = 10 × (G × S) / N, where G = grams of cannabis, S = potency percentage, N = number of servings, and P = mg of THC per serving. For example, 3.5g of 20% cannabis divided into 20 servings = 35 mg each.",
+    "a3": "Use the formula: P = 10 × G × S × 0.8 / N, where G = grams of cannabis, S = potency percentage, N = number of servings, P = mg of THC per serving, and 0.8 accounts for the roughly 20% of THC lost during decarboxylation and infusion. For example, 3.5g of 20% cannabis divided into 20 servings = 28 mg each.",
     "q4": "Why are edibles stronger than smoking weed?",
     "a4": "When you eat cannabis, your liver converts THC into 11-hydroxy-THC, a more potent compound that crosses the blood-brain barrier more effectively. This makes edibles significantly stronger and longer-lasting than inhaled THC.",
     "q5": "What happens if you eat too many edibles?",
