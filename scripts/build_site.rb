@@ -618,6 +618,8 @@ def build_calculator_widget(lang, defaults: { quantity: 3.5, potency: 14, portio
   HTML
 end
 
+COOKING_EFFICIENCY = 0.80  # must match COOKING_EFFICIENCY in js/calculator.js
+
 def build_dosage_panel(lang, style: :recipe, defaults: nil)
   full_recipe = t(lang, "calculator", "full_recipe")
   per_portion = t(lang, "calculator", "per_portion")
@@ -667,7 +669,7 @@ def build_dosage_panel(lang, style: :recipe, defaults: nil)
     total_txt = per_txt = "&mdash;"
     summary = ""
     if defaults
-      per = 10.0 * defaults[:quantity] * defaults[:potency] / defaults[:portion]
+      per = 10.0 * defaults[:quantity] * defaults[:potency] * COOKING_EFFICIENCY / defaults[:portion]
       per_txt = format("%.2f mg", per)
       total_txt = format("%.1f mg", per * defaults[:portion])
       num = ->(n) { %w[pt es de].include?(lang) ? fmt_num(n).tr(".", ",") : fmt_num(n) }

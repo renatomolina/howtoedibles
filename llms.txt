@@ -6,7 +6,7 @@
 
 HowToEdibles helps people safely prepare cannabis-infused food at home. Every recipe includes a dosage calculator that computes mg of THC per serving based on the amount of cannabis, its potency percentage, and number of portions.
 
-The core formula: dosage_mg = (10 × grams × strength_percent) / num_portions
+The core formula: dosage_mg = (10 × grams × strength_percent × 0.8) / num_portions, where 0.8 is the cooking efficiency (about 20% of THC is lost during decarboxylation and infusion). Recipe defaults are set to at most 15 mg THC per serving.
 
 ## Key Pages
 
