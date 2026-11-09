@@ -2454,7 +2454,7 @@
       "4 dientes de ajo",
       "2 tbsp de aceite de oliva",
       "3 cups de caldo de verduras",
-      "½ cup de crema de cannabis",
+      "½ cup de crema de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 tsp de nuez moscada",
       "Sal, pimienta",
       "Semillas de calabaza tostadas"
@@ -2473,7 +2473,7 @@
     "ingredients": [
       "3 cups de arroz cocido del día anterior",
       "3 huevos batidos",
-      "2 tbsp de aceite de sésamo de cannabis",
+      "2 tbsp de aceite de sésamo de cannabis (con la cantidad de cannabis de la calculadora)",
       "3 dientes de ajo",
       "1 cup de arvejas congeladas",
       "4 tbsp de salsa de soya",
@@ -2492,7 +2492,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "4 filetes de salmón",
-      "2 tbsp de mantequilla de cannabis",
+      "2 tbsp de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 dientes de ajo picados",
       "1 tbsp de eneldo fresco",
       "Ralladura y jugo de 1 limón",
@@ -2514,7 +2514,7 @@
       "3 tomates grandes maduros en rodajas",
       "250g de mozzarella fresca en rodajas",
       "1 manojo de albahaca fresca",
-      "3 tbsp de aceite de oliva extra virgen de cannabis",
+      "3 tbsp de aceite de oliva extra virgen de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 tbsp de reducción de balsámico",
       "Sal de mar en escamas, pimienta negra"
     ],
@@ -2531,7 +2531,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "4 tortillas de harina grandes",
-      "2 tbsp de mantequilla de cannabis",
+      "2 tbsp de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 cups de queso cheddar rallado",
       "1 cup de pollo cocido o frijoles negros",
       "½ cebolla morada en cubitos",
@@ -2539,9 +2539,9 @@
       "Crema agria y guacamole"
     ],
     "instructions": [
-      "Derretir la mantequilla de cannabis en un sartén grande.",
-      "Colocar una tortilla; esparcir queso, relleno y jalapeño sobre la mitad.",
-      "Doblar y cocinar 3 min por lado hasta dorar.",
+      "Untar la mantequilla de cannabis de manera uniforme sobre un lado de cada tortilla.",
+      "Colocar una tortilla en un sartén seco, con el lado untado hacia arriba; esparcir queso, relleno y jalapeño sobre la mitad.",
+      "Doblar y cocinar a fuego medio 3 min por lado hasta dorar.",
       "Cortar en triángulos y servir."
     ]
   },
@@ -2553,7 +2553,7 @@
       "200g de fideos de arroz planos remojados",
       "2 huevos",
       "150g de camarones o tofu",
-      "2 tbsp de aceite de sésamo de cannabis",
+      "2 tbsp de aceite de sésamo de cannabis (con la cantidad de cannabis de la calculadora)",
       "3 tbsp de salsa de soya",
       "2 tbsp de pasta de tamarindo",
       "1 tbsp de azúcar",
@@ -2575,16 +2575,16 @@
       "1 tsp de levadura instantánea",
       "½ tsp de sal",
       "¾ cup de agua tibia",
-      "2 tbsp de aceite de oliva de cannabis",
+      "2 tbsp de aceite de oliva de cannabis (con la cantidad de cannabis de la calculadora): 1 tbsp para la masa, 1 tbsp para terminar",
       "Toppings: ½ cup de salsa de tomate, 150g de mozzarella, ingredientes al gusto",
-      "Aceite de oliva de cannabis extra para terminar"
+      "Aceite de oliva normal para engrasar la bandeja"
     ],
     "instructions": [
-      "Mezclar la masa; amasar 8 min. Dejar levar 1h.",
+      "Mezclar la masa con 1 tbsp del aceite de cannabis; amasar 8 min. Dejar levar 1h.",
       "Precalentar el horno a 475°F.",
       "Estirar la masa; agregar salsa, queso e ingredientes.",
       "Hornear 10-12 min hasta dorar.",
-      "Rociar con aceite de oliva de cannabis antes de cortar."
+      "Rociar con la cucharada restante de aceite de cannabis antes de cortar."
     ]
   },
   "infused-lentil-dal": {
@@ -2601,7 +2601,7 @@
       "1 tsp de cúrcuma",
       "1 tsp de garam masala",
       "3 cups de agua",
-      "2 tbsp de ghee de cannabis",
+      "2 tbsp de ghee de cannabis (con la cantidad de cannabis de la calculadora)",
       "Sal, cilantro"
     ],
     "instructions": [
@@ -2625,7 +2625,7 @@
       "6 dientes de ajo picados",
       "3 hojas de laurel",
       "Sal y pimienta negra al gusto",
-      "3 tbsp de aceite de oliva de cannabis",
+      "3 tbsp de aceite de oliva de cannabis (con la cantidad de cannabis de la calculadora)",
       "Rodajas de naranja para decorar"
     ],
     "instructions": [
@@ -2643,7 +2643,7 @@
     "ingredients": [
       "1 lata (14 oz) de leche condensada",
       "2 tbsp de cacao en polvo sin azúcar",
-      "1 tbsp de mantequilla de cannabis",
+      "1 tbsp de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "Pizca de sal",
       "Chispas de chocolate para decorar"
     ],
@@ -2662,7 +2662,7 @@
     "ingredients": [
       "2 cups de maní tostado sin sal",
       "1 cup de azúcar",
-      "1 tbsp de mantequilla de cannabis derretida",
+      "1 tbsp de mantequilla de cannabis derretida (con la cantidad de cannabis de la calculadora)",
       "Pizca de sal"
     ],
     "instructions": [
@@ -2681,7 +2681,7 @@
       "2 cups de pollo cocido desmenuzado",
       "1 tbsp de queso crema",
       "2 cups de caldo de pollo",
-      "2 tbsp de mantequilla de cannabis",
+      "2 tbsp de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 cups de harina de trigo",
       "Sal y pimienta al gusto",
       "2 huevos batidos",
@@ -2703,7 +2703,7 @@
     "ingredients": [
       "2 cups de harina de tapioca (polvilho azedo)",
       "½ cup de leche",
-      "¼ cup de aceite de oliva de cannabis",
+      "¼ cup de aceite de oliva de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 huevo",
       "1 cup de queso parmesano o queso Minas rallado",
       "½ tsp de sal"
@@ -2724,7 +2724,7 @@
       "2 paquetes (200g) de pulpa de açaí congelada",
       "1 plátano congelado",
       "½ cup de leche de almendras",
-      "1 tbsp de aceite de coco infusionado derretido",
+      "1 tbsp de aceite de coco infusionado derretido (con la cantidad de cannabis de la calculadora)",
       "Toppings: granola, plátano en rodajas, fresas, miel, coco rallado"
     ],
     "instructions": [
@@ -2746,7 +2746,7 @@
       "2 tomates picados",
       "1 lata (400ml) de leche de coco",
       "2 tbsp de aceite de dendé (palma)",
-      "2 tbsp de aceite de oliva de cannabis",
+      "2 tbsp de aceite de oliva de cannabis (con la cantidad de cannabis de la calculadora)",
       "Cilantro fresco, sal y pimienta"
     ],
     "instructions": [
@@ -2765,7 +2765,7 @@
       "1 cup de almidón de tapioca hidratado (goma de tapioca)",
       "Pizca de sal",
       "Relleno: coco rallado, mozzarella o queso coalho",
-      "1 tbsp de aceite de coco infusionado",
+      "1 tbsp de aceite de coco infusionado (con la cantidad de cannabis de la calculadora)",
       "Leche condensada (opcional)"
     ],
     "instructions": [
@@ -2782,7 +2782,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "1 lata (14 oz) de leche condensada",
-      "1 tbsp de mantequilla de cannabis",
+      "1 tbsp de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "½ cup de coco rallado, más extra para cubrir",
       "Pizca de sal",
       "Clavos de olor enteros para decorar"
@@ -2801,7 +2801,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "3 cups de harina de trigo",
-      "½ cup de mantequilla de cannabis fría en cubos",
+      "½ cup de mantequilla de cannabis fría en cubos (con la cantidad de cannabis de la calculadora)",
       "½ cup de mantequilla regular fría en cubos",
       "2 yemas de huevo",
       "3-4 tbsp de agua helada",
@@ -2821,7 +2821,7 @@
     "description": "Nachos crujientes cargados con queso derretido, carne sazonada y mantequilla de cannabis para un aperitivo compartible con la dosis perfecta.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "1 bolsa grande de nachos de tortilla",
       "2 cucharadas de mantequilla de cannabis derretida",
       "2 tazas de queso cheddar rallado",
@@ -2846,7 +2846,7 @@
     "description": "Un dip de queso cremoso y aterciopelado hecho con cheddar real y mantequilla de cannabis, perfecto para sumergir nachos, pretzels o verduras.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "2 cucharadas de mantequilla de cannabis",
       "2 cucharadas de harina de trigo",
       "1 taza de leche entera",
@@ -2870,7 +2870,7 @@
     "description": "Jalapeños rellenos de cannabis, crujientes y cremosos, envueltos en tocino y rellenos de queso crema y cheddar para un aperitivo irresistible.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "12 jalapeños grandes, cortados por la mitad y sin semillas",
       "230g de queso crema ablandado",
       "1 taza de queso cheddar rallado",
@@ -2894,23 +2894,23 @@
     "description": "Mini pretzels suaves y masticables hechos con mantequilla de cannabis en la masa, espolvoreados con sal gruesa y servidos con salsa de queso.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "1 1/2 tazas de agua tibia (43°C)",
       "1 sobre de levadura seca activa (7g)",
       "1 cucharada de azúcar",
       "4 tazas de harina de trigo",
       "1 cucharadita de sal",
-      "3 cucharadas de mantequilla de cannabis derretida",
+      "3 cucharadas de mantequilla de cannabis derretida (2 para la masa, 1 para untar)",
       "1/3 taza de bicarbonato de sodio (para el baño)",
       "Sal gruesa para decorar"
     ],
     "instructions": [
-      "Disuelve la levadura y el azúcar en el agua tibia. Espera 5 minutos hasta que espume. Agrega la mantequilla de cannabis.",
+      "Disuelve la levadura y el azúcar en el agua tibia. Espera 5 minutos hasta que espume. Agrega 2 cucharadas de la mantequilla de cannabis derretida.",
       "Mezcla la harina con la sal. Añade la mezcla de levadura y amasa por 5-7 minutos hasta obtener una masa suave. Cubre y deja reposar 1 hora.",
       "Precalienta el horno a 220°C. Cubre bandejas con papel pergamino.",
       "Divide la masa en 8 partes. Forma cordones y córtalos en trozos de 2,5 cm.",
       "Hierve 10 tazas de agua con el bicarbonato. Cocina los trozos en tandas por 30 segundos.",
-      "Espolvorea con sal gruesa y hornea por 12-15 minutos hasta dorar. Unta con más mantequilla de cannabis y sirve."
+      "Espolvorea con sal gruesa y hornea por 12-15 minutos hasta dorar. Unta con la cucharada restante de mantequilla de cannabis y sirve."
     ]
   },
   "infused-bruschetta": {
@@ -2918,7 +2918,7 @@
     "description": "Bruschetta italiana clásica elevada con aceite de oliva de cannabis, tomates maduros y albahaca fresca sobre rebanadas de baguette tostadas.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "1 baguette francesa en rebanadas de 1 cm",
       "3 cucharadas de aceite de oliva de cannabis",
       "4 tomates grandes y maduros, en cubos",
@@ -2940,7 +2940,7 @@
     "description": "Un dip caliente y burbujeante de espinacas y alcachofas hecho con mantequilla de cannabis, queso crema y parmesano, ideal para compartir.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "2 cucharadas de mantequilla de cannabis",
       "230g de queso crema ablandado",
       "1/2 taza de crema agria",
@@ -2965,7 +2965,7 @@
     "description": "Huevos rellenos clásicos con mantequilla de cannabis, mostaza Dijon y pimentón ahumado para un aperitivo discreto y elegante.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "12 huevos grandes cocidos y pelados",
       "2 cucharadas de mantequilla de cannabis ablandada",
       "3 cucharadas de mayonesa",
@@ -2988,7 +2988,7 @@
     "description": "Palitos de mozzarella dorados y crujientes con mantequilla de cannabis en el empanizado, con queso derretido y elástico por dentro.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "12 palitos de queso mozzarella",
       "1 taza de harina de trigo",
       "3 huevos grandes batidos",
@@ -3012,7 +3012,7 @@
     "description": "Un dip caliente y picante de pollo buffalo hecho con mantequilla de cannabis, queso crema y salsa picante para un aperitivo de fiesta potente.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "2 tazas de pollo cocido desmenuzado",
       "230g de queso crema ablandado",
       "1/2 taza de salsa buffalo picante",
@@ -3036,7 +3036,7 @@
     "description": "Pan de ajo mantecoso y aromático hecho con mantequilla de cannabis, ajo fresco y perejil, tostado hasta la perfección dorada.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "1 baguette francesa grande o pan italiano",
       "4 cucharadas de mantequilla de cannabis ablandada",
       "4 dientes de ajo finamente picados",
@@ -3059,7 +3059,7 @@
     "description": "Aros de cebolla crujientes con masa de cerveza enriquecida con mantequilla de cannabis, fritos hasta quedar perfectamente dorados.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "2 cebollas dulces grandes cortadas en aros de 1 cm",
       "1 taza de harina de trigo",
       "1/2 taza de maicena",
@@ -3084,7 +3084,7 @@
     "description": "Rollitos primavera ligeros y frescos con verduras crujientes y una salsa para mojar hecha con aceite de cannabis para un aperitivo saludable e infusionado.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "8 hojas de papel de arroz",
       "1 taza de fideos de arroz vermicelli cocidos y enfriados",
       "1 taza de col morada rallada",
@@ -3108,9 +3108,9 @@
     "description": "Champiñones rellenos de salchicha italiana y queso crema salteados en mantequilla de cannabis, horneados hasta dorar para un elegante aperitivo.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "20 champiñones grandes, sin los tallos",
-      "2 cucharadas de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis derretida",
       "250g de salchicha italiana sin la tripa",
       "110g de queso crema ablandado",
       "1/4 taza de queso parmesano rallado",
@@ -3120,8 +3120,8 @@
     ],
     "instructions": [
       "Precalienta el horno a 190°C. Engrasa ligeramente un molde para horno.",
-      "Derrite la mantequilla de cannabis en una sartén a fuego medio. Cocina la salchicha desmenuzada hasta dorar. Añade el ajo y cocina 1 minuto más.",
-      "Retira del fuego y mezcla con el queso crema, parmesano y perejil. Sazona.",
+      "Cocina la salchicha desmenuzada en una sartén seca a fuego medio hasta dorar. Añade el ajo y cocina 1 minuto más.",
+      "Retira del fuego y mezcla con la mantequilla de cannabis derretida, el queso crema, parmesano y perejil. Sazona.",
       "Rellena generosamente cada champiñón y acomódalos en el molde.",
       "Hornea por 20-25 minutos hasta que los champiñones estén tiernos y la superficie dorada.",
       "Deja enfriar unos minutos antes de servir. Decora con perejil extra si deseas."
@@ -3132,7 +3132,7 @@
     "description": "Bocaditos congelados de plátano y mantequilla de maní sin hornear, hechos con mantequilla de cannabis y cubiertos de chocolate para un snack saludable.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "3 plátanos grandes maduros cortados en rodajas de 1 cm",
       "1/2 taza de mantequilla de maní natural",
       "2 cucharadas de mantequilla de cannabis derretida",
@@ -3155,7 +3155,7 @@
     "description": "Bastones de calabacín crujientes horneados con parmesano y panko, hechos con mantequilla de cannabis para una alternativa más saludable a las papas fritas.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "4 calabacines medianos cortados en bastones",
       "1/2 taza de harina de trigo",
       "2 huevos grandes batidos",
@@ -3180,9 +3180,9 @@
     "description": "Papas de camote crujientes y sazonadas, horneadas con aceite de coco de cannabis y especias ahumadas para un acompañamiento infusionado naturalmente dulce.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "3 camotes grandes pelados y cortados en bastones",
-      "3 cucharadas de aceite de coco de cannabis derretido",
+      "3 cucharadas de aceite de coco de cannabis derretido, más 1 cucharada de aceite normal para hornear",
       "1 cucharada de maicena",
       "1 cucharadita de pimentón ahumado",
       "1/2 cucharadita de comino molido",
@@ -3192,10 +3192,10 @@
     "instructions": [
       "Precalienta el horno a 220°C. Cubre dos bandejas con papel pergamino.",
       "Remoja los bastones de camote en agua fría por 30 minutos. Escurre y seca completamente con papel absorbente.",
-      "Mezcla los camotes con aceite de coco de cannabis, maicena, pimentón, comino, ajo en polvo, sal y pimienta.",
+      "Mezcla los camotes con 1 cucharada de aceite normal, maicena, pimentón, comino, ajo en polvo, sal y pimienta.",
       "Extiende en una capa uniforme en las bandejas con espacio entre cada bastón.",
       "Hornea por 15 minutos, voltea y hornea por 10-15 minutos más hasta quedar crujientes y caramelizados.",
-      "Sirve de inmediato con la salsa de tu preferencia."
+      "Mezcla los camotes calientes con el aceite de coco de cannabis derretido y sirve de inmediato con la salsa de tu preferencia."
     ]
   },
   "cannabis-avocado-fries": {
@@ -3203,7 +3203,7 @@
     "description": "Bastones de aguacate crujientes por fuera y cremosos por dentro, empanizados con panko y mantequilla de cannabis para un snack infusionado único.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "3 aguacates firmes, sin hueso y cortados en gajos",
       "1/2 taza de harina de trigo",
       "2 huevos grandes batidos",
@@ -3228,7 +3228,7 @@
     "description": "Elegantes brochetas caprese con mozzarella fresca, tomates cherry y albahaca rociadas con aceite de oliva de cannabis y glaseado balsámico.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "20 tomates cherry",
       "20 bolitas de mozzarella fresca",
       "20 hojas de albahaca fresca",
@@ -3250,7 +3250,7 @@
     "description": "Pieles de papa crujientes rellenas de queso cheddar con cannabis, tocino crujiente y crema agria para un aperitivo sustancioso e indulgente.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "6 papas medianas",
       "3 cucharadas de mantequilla de cannabis derretida",
       "1 1/2 tazas de queso cheddar rallado",
@@ -3273,7 +3273,7 @@
     "description": "Totopos caseros hechos con aceite de oliva de cannabis y horneados hasta quedar perfectamente crujientes, acompañados de salsa fresca casera.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,5 gramos de cannabis molida",
+      "3,5 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "10 tortillas de maíz cortadas en 6 triángulos cada una",
       "3 cucharadas de aceite de oliva de cannabis",
       "1 cucharadita de sal de mar",
@@ -3306,7 +3306,7 @@
       "Descarboxila la cannabis: Precalienta el horno a 115°C. Extiende la cannabis en una bandeja con papel pergamino y hornea por 40 minutos, removiendo a la mitad.",
       "Coloca la cannabis descarboxilada en un frasco de vidrio y cúbrela con el alcohol. Cierra y agita vigorosamente por 5 minutos, luego cuela con tela fina.",
       "En un molde de vidrio, extiende el azúcar uniformemente. Vierte la tintura colada sobre el azúcar y mezcla bien.",
-      "Extiende en capa fina y deja evaporar el alcohol a temperatura ambiente por 24-48 horas, removiendo ocasionalmente, u hornea a 93°C por 20-30 minutos.",
+      "Extiende en capa fina y deja evaporar el alcohol a temperatura ambiente, en un lugar bien ventilado y lejos de llamas o fuentes de calor, por 24-48 horas, removiendo ocasionalmente.",
       "Cuando esté completamente seca, deshaz los grumos con un tenedor. El azúcar tendrá un color ligeramente dorado.",
       "Guarda en recipiente hermético en un lugar fresco y oscuro. Usa como sustituto 1:1 del azúcar regular."
     ]
@@ -3354,11 +3354,11 @@
     "ingredients": [
       "7 gramos de cannabis molida",
       "1 taza de jarabe de arce puro (Grado A oscuro recomendado)",
-      "3 cucharadas de mantequilla de cannabis o aceite de coco de cannabis"
+      "3 cucharadas de mantequilla sin sal o aceite de coco (normal, sin infusionar)"
     ],
     "instructions": [
       "Descarboxila la cannabis: Precalienta el horno a 115°C. Extiende la cannabis en una bandeja forrada y hornea por 40 minutos, removiendo a la mitad.",
-      "Combina el jarabe de arce y la mantequilla de cannabis en una cacerola a fuego muy bajo. Remueve hasta que la mantequilla se derrita e integre.",
+      "Combina el jarabe de arce y la mantequilla (o aceite de coco) en una cacerola a fuego muy bajo. Remueve hasta que la mantequilla se derrita e integre.",
       "Añade la cannabis descarboxilada. Cocina a fuego mínimo por 30 minutos, removiendo ocasionalmente. No dejes que hierva.",
       "Retira del fuego y deja reposar 10 minutos más.",
       "Cuela con colador fino forrado con tela hacia un frasco limpio. Exprime para extraer todo el jarabe.",
@@ -3374,14 +3374,14 @@
       "450g de chiles rojos frescos (cayena, Fresno o mixtos), sin tallos",
       "4 dientes de ajo pelados",
       "1 taza de vinagre blanco",
-      "2 cucharadas de aceite de oliva de cannabis",
+      "2 cucharadas de aceite de oliva (normal, sin infusionar)",
       "1 cucharadita de sal",
       "1 cucharadita de azúcar"
     ],
     "instructions": [
       "Descarboxila la cannabis: Precalienta el horno a 115°C. Extiende la cannabis en una bandeja forrada y hornea por 40 minutos, removiendo a la mitad.",
       "Pica los chiles en trozos gruesos. Combina en una cacerola con ajo, vinagre, sal y azúcar. Hierve y luego cocina a fuego bajo por 20 minutos.",
-      "Retira del fuego y deja enfriar un poco. Transfiere a una licuadora con el aceite de cannabis y la cannabis descarboxilada.",
+      "Retira del fuego y deja enfriar un poco. Transfiere a una licuadora con el aceite de oliva y la cannabis descarboxilada.",
       "Licúa a velocidad alta hasta lograr una consistencia completamente suave, unos 2-3 minutos.",
       "Cuela con colador fino para una salsa suave, o déjala sin colar para una textura más rústica. Ajusta sal y vinagre al gusto.",
       "Transfiere a botellas de vidrio esterilizadas. Guarda en el refrigerador por hasta 6 meses. El sabor mejora tras unos días de reposo."
@@ -3393,7 +3393,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "500g de muslos de pollo deshuesados, cortados en cubos",
-      "2 cucharadas de aceite infundido con cannabis",
+      "2 cucharadas de aceite infundido con cannabis, más 1 cucharada de aceite de cocina normal",
       "1/2 taza de cacahuetes tostados",
       "8-10 chiles rojos secos",
       "1 cucharadita de pimienta de Sichuan",
@@ -3407,12 +3407,12 @@
     ],
     "instructions": [
       "Marina el pollo en cubos con salsa de soja y maicena durante 15 minutos.",
-      "Calienta el aceite de cannabis en un wok a fuego medio-alto, manteniendo la temperatura por debajo de 170°C.",
+      "Calienta 1 cucharada de aceite de cocina normal en un wok a fuego medio-alto.",
       "Añade los chiles secos y la pimienta de Sichuan, salteando 30 segundos hasta que estén fragantes.",
       "Agrega el pollo marinado y saltea 4-5 minutos hasta que esté dorado y cocido.",
       "Incorpora el ajo y el jengibre, cocinando 30 segundos más.",
       "Añade el resto de la salsa de soja, vinagre de arroz y salsa hoisin. Mezcla bien.",
-      "Agrega los cacahuetes y las cebolletas, salteando 1 minuto.",
+      "Agrega los cacahuetes y las cebolletas, salteando 1 minuto. Retira del fuego y rocía el aceite de cannabis, mezclando para cubrir de manera uniforme.",
       "Sirve inmediatamente sobre arroz al vapor. Espera 60-90 minutos para sentir los efectos completos."
     ]
   },
@@ -3423,7 +3423,7 @@
     "ingredients": [
       "400g de tofu suave, cortado en cubos",
       "150g de carne de cerdo molida",
-      "2 cucharadas de aceite infundido con cannabis",
+      "2 cucharadas de aceite infundido con cannabis, más 1 cucharada de aceite de cocina normal",
       "2 cucharadas de doubanjiang (pasta de chile)",
       "1 cucharada de frijoles negros fermentados",
       "1 cucharadita de pimienta de Sichuan molida",
@@ -3434,12 +3434,12 @@
     ],
     "instructions": [
       "Escalda suavemente los cubos de tofu en agua hirviendo con sal durante 2 minutos, escurre y reserva.",
-      "Calienta el aceite de cannabis en un wok a fuego medio, sin superar los 170°C.",
+      "Calienta 1 cucharada de aceite de cocina normal en un wok a fuego medio.",
       "Agrega la carne molida y saltea hasta dorar, unos 3-4 minutos.",
       "Añade el doubanjiang, los frijoles negros y el ajo. Saltea 1 minuto hasta que el aceite se torne rojo.",
       "Vierte 3/4 de taza de agua y salsa de soja, llevando a ebullición suave.",
       "Incorpora cuidadosamente el tofu y cocina 5 minutos sin remover vigorosamente.",
-      "Agrega la mezcla de maicena y remueve hasta espesar. Espolvorea pimienta de Sichuan y cebolletas.",
+      "Agrega la mezcla de maicena y remueve hasta espesar. Retira del fuego y mezcla suavemente el aceite de cannabis. Espolvorea pimienta de Sichuan y cebolletas.",
       "Sirve con arroz. Espera al menos 60 minutos antes de repetir."
     ]
   },
@@ -3464,10 +3464,10 @@
     "instructions": [
       "Pasa los cubos de cerdo por huevo batido y luego por maicena.",
       "Fríe el cerdo en aceite vegetal a 180°C durante 4-5 minutos hasta dorarlo. Escurre en papel absorbente.",
-      "En otra sartén, calienta el aceite de cannabis a fuego medio. Saltea los pimientos 2 minutos.",
+      "En otra sartén, calienta 1 cucharada del aceite vegetal a fuego medio. Saltea los pimientos 2 minutos.",
       "Mezcla kétchup, vinagre, azúcar, salsa de soja y 1/4 taza de agua. Vierte en la sartén y hierve.",
       "Agrega la piña y cocina 1 minuto.",
-      "Incorpora el cerdo crujiente a la salsa, cubriendo cada trozo.",
+      "Retira la sartén del fuego y mezcla el aceite de cannabis. Incorpora el cerdo crujiente a la salsa, cubriendo cada trozo.",
       "Sirve con arroz. Los efectos suelen aparecer en 60-90 minutos."
     ]
   },
@@ -3542,12 +3542,12 @@
       "1 cucharada de azúcar"
     ],
     "instructions": [
-      "Combina hoisin, salsa de soja, miel, vino Shaoxing, cinco especias, ajo, azúcar, tofu fermentado y aceite de cannabis para la marinada.",
+      "Combina hoisin, salsa de soja, miel, vino Shaoxing, cinco especias, ajo, azúcar y tofu fermentado para la marinada. Reserva 2 cucharadas en un recipiente limpio para el glaseado.",
       "Cubre las tiras de cerdo con la marinada. Refrigera al menos 4 horas o toda la noche.",
       "Precalienta el horno a 160°C. Coloca una rejilla sobre una bandeja forrada y acomoda las tiras.",
       "Asa 20 minutos, voltea y baña con la marinada reservada. Asa 15 minutos más.",
       "Sube el horno a 220°C y asa 5-8 minutos más hasta caramelizar.",
-      "Deja reposar 10 minutos antes de rebanar en contra de la fibra.",
+      "Deja reposar 10 minutos antes de rebanar en contra de la fibra. Desecha la marinada usada (estuvo en contacto con carne cruda). Mezcla el aceite de cannabis con las 2 cucharadas de marinada limpia reservada y rocíalo de manera uniforme sobre la carne rebanada.",
       "Sirve con arroz y verduras. Espera 60-90 minutos antes de comer más."
     ]
   },
@@ -3666,16 +3666,16 @@
       "1.5 tazas de pan rallado fino",
       "Sal y pimienta negra al gusto",
       "1 limón cortado en gajos",
-      "2 cucharadas de mantequilla normal",
+      "2 cucharadas de mantequilla normal más 1/4 taza de aceite neutro para freír",
       "Perejil fresco para decorar"
     ],
     "instructions": [
       "Coloca cada chuleta entre plástico y aplana hasta 0.5 cm con un mazo.",
       "Sazona con sal y pimienta. Prepara la estación de empanizado: harina, huevos y pan rallado.",
       "Pasa cada chuleta por harina, huevo y presiona en el pan rallado por ambos lados.",
-      "Calienta la mantequilla de cannabis y la normal en una sartén grande a fuego medio.",
+      "Calienta la mantequilla normal y el aceite en una sartén grande a fuego medio.",
       "Fríe cada schnitzel 3-4 minutos por lado hasta dorar profundamente.",
-      "Escurre en papel absorbente. Sirve con gajos de limón y perejil.",
+      "Escurre en papel absorbente. Derrite la mantequilla de cannabis a fuego bajo y repártela de manera uniforme sobre los schnitzels. Sirve con gajos de limón y perejil.",
       "Acompaña con ensalada de patata o patatas fritas. Espera 60-90 minutos antes de repetir."
     ]
   },
@@ -3811,7 +3811,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 salchichas bratwurst",
-      "2 cucharadas de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis, más 1 cucharada de aceite normal para sellar",
       "1 taza de kétchup",
       "2 cucharadas de curry en polvo",
       "1 cucharadita de pimentón ahumado",
@@ -3822,8 +3822,8 @@
     ],
     "instructions": [
       "Escalfa las bratwursts en agua hirviendo 10 minutos.",
-      "Derrite la mantequilla de cannabis en una sartén a fuego medio. Dora las bratwursts 2-3 minutos por lado.",
-      "En una cacerola, combina kétchup, curry, pimentón, salsa Worcestershire, miel y cayena. Cocina 5 minutos.",
+      "Calienta 1 cucharada de aceite normal en una sartén a fuego medio. Dora las bratwursts 2-3 minutos por lado.",
+      "En una cacerola, combina kétchup, curry, pimentón, salsa Worcestershire, miel y cayena. Cocina 5 minutos. Retira del fuego e incorpora la mantequilla de cannabis hasta que se derrita.",
       "Corta las bratwursts en rodajas gruesas y colócalas en un plato.",
       "Baña generosamente con la salsa de curry-kétchup. Espolvorea con curry extra.",
       "Sirve con patatas fritas o pan. Una bratwurst por porción — espera 60-90 minutos para los efectos."
@@ -3887,7 +3887,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 lonchas finas de res (150g cada una)",
-      "2 cucharadas de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis, más 1 cucharada de aceite normal para sellar",
       "4 cucharaditas de mostaza alemana",
       "4 lonchas de bacon",
       "1 cebolla grande en tiras",
@@ -3900,10 +3900,10 @@
     "instructions": [
       "Extiende las lonchas de res y unta cada una con mostaza. Coloca bacon, cebolla y pepinillo.",
       "Enrolla apretadamente y sujeta con palillos o hilo de cocina.",
-      "Calienta la mantequilla de cannabis en una olla a fuego medio-alto. Sella los rollitos por todos los lados.",
+      "Calienta 1 cucharada de aceite normal en una olla a fuego medio-alto. Sella los rollitos por todos los lados.",
       "Agrega las cebollas restantes y el concentrado de tomate. Cocina 2 minutos.",
       "Vierte el caldo y lleva a ebullición. Tapa y cocina a fuego bajo 1.5-2 horas.",
-      "Retira los rollitos. Mezcla la harina en el líquido y cocina hasta espesar.",
+      "Retira los rollitos. Mezcla la harina en el líquido y cocina hasta espesar. Retira del fuego e incorpora la mantequilla de cannabis hasta que se derrita.",
       "Sirve con salsa, lombarda y patatas. Un rollito por porción — espera 60-90 minutos."
     ]
   },
@@ -4024,7 +4024,7 @@
     "description": "Enchiladas clásicas infusionadas con cannabis, rellenas de pollo sazonado, bañadas en salsa roja de chile y cubiertas con queso derretido para una cena mexicana satisfactoria.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "8 tortillas de maíz",
       "2 tazas de pollo cocido desmenuzado",
       "2 tazas de salsa roja para enchiladas",
@@ -4048,7 +4048,7 @@
     "description": "Tamales tradicionales infusionados con cannabis, hechos con masa de maíz y relleno de cerdo sazonado, cocidos al vapor en hojas de maíz para una experiencia mexicana auténtica.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 tazas de harina de maíz (masa harina)",
       "1 taza de caldo de pollo (tibio)",
       "1/2 taza de manteca de cerdo o manteca vegetal",
@@ -4072,7 +4072,7 @@
     "description": "Chilaquiles abundantes infusionados con cannabis, con chips de tortilla crujientes cocidos en salsa verde, cubiertos con crema y huevo frito para un desayuno mexicano clásico.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "6 tortillas de maíz cortadas en triángulos y fritas (o chips de tortilla)",
       "2 tazas de salsa verde",
       "1/2 taza de queso fresco desmoronado",
@@ -4094,7 +4094,7 @@
     "description": "Elote mexicano infusionado con cannabis, untado con mantequilla de cannabis cremosa, queso cotija, chile en polvo y limón para un acompañamiento irresistible.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "6 elotes frescos, sin hojas",
       "1/3 taza de mayonesa",
       "1/2 taza de queso cotija desmoronado",
@@ -4116,7 +4116,7 @@
     "description": "Mini churros dorados de cannabis con canela y azúcar, hechos con masa enriquecida con mantequilla de cannabis, fritos a la perfección y servidos con salsa de chocolate.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 taza de agua",
       "2 cucharadas de mantequilla regular",
       "2 cucharadas de azúcar granulada",
@@ -4140,7 +4140,7 @@
     "description": "Un reconfortante pozole rojo infusionado con cannabis, con cerdo tierno, maíz pozolero y un caldo rico de chiles secos — una sopa tradicional mexicana con un toque medicinal.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de aceite de coco infusionado con cannabis",
+      "2 cucharadas de aceite de coco infusionado con cannabis (con la cantidad de cannabis de la calculadora), más 1 cucharada de aceite normal para sellar",
       "700 g de espaldilla de cerdo cortada en cubos de 2,5 cm",
       "1 lata (820 g) de maíz pozolero blanco, escurrido y enjuagado",
       "4 chiles guajillo secos, sin tallo ni semillas",
@@ -4153,10 +4153,10 @@
     ],
     "instructions": [
       "Tuesta los chiles guajillo y ancho secos en un comal seco por 1-2 minutos por lado hasta que estén aromáticos. Remoja en agua caliente por 15 minutos, luego licúa con 1 taza del agua de remojo, ajo y la mitad de la cebolla hasta que quede homogéneo. Cuela por un colador.",
-      "Calienta el aceite de coco infusionado con cannabis en una olla grande a fuego medio. Sella los cubos de cerdo en tandas hasta dorar por todos los lados, unos 5 minutos por tanda.",
+      "Calienta 1 cucharada de aceite normal en una olla grande a fuego medio. Sella los cubos de cerdo en tandas hasta dorar por todos los lados, unos 5 minutos por tanda.",
       "Agrega la salsa de chile a la olla y cocina por 3-4 minutos, revolviendo frecuentemente. Vierte el caldo de pollo, agrega la cebolla restante y el orégano, y lleva a ebullición.",
       "Reduce el fuego, tapa y cocina a fuego lento por 1 a 1.5 horas hasta que el cerdo esté tierno y se deshaga con un tenedor.",
-      "Agrega el maíz pozolero escurrido y cocina 15 minutos más. Sazona con sal al gusto.",
+      "Agrega el maíz pozolero escurrido y cocina 15 minutos más. Sazona con sal al gusto. Retira del fuego e incorpora el aceite de coco infusionado con cannabis.",
       "Sirve en tazones hondos con repollo rallado, rábanos rebanados, gajos de limón y tostadas al lado."
     ]
   },
@@ -4165,7 +4165,7 @@
     "description": "Pollo en mole infusionado con cannabis, con una salsa compleja de chiles secos, chocolate y especias — un clásico mexicano rico con dosificación controlada de THC.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora), más 1 cucharada de aceite normal para sellar",
       "4 muslos de pollo con hueso",
       "3 chiles ancho secos, sin tallo ni semillas",
       "2 chiles pasilla secos, sin tallo ni semillas",
@@ -4179,9 +4179,9 @@
     "instructions": [
       "Tuesta los chiles secos en un comal seco hasta que estén aromáticos, unos 1-2 minutos por lado. Remoja en agua caliente por 15 minutos y escurre.",
       "En el mismo comal, tuesta las semillas de ajonjolí hasta que estén doradas. Licúa los chiles rehidratados, las semillas de ajonjolí, la cebolla, el ajo y el caldo de pollo hasta que quede homogéneo.",
-      "Derrite la mantequilla de cannabis en una sartén honda grande o cacerola a fuego medio. Sazona los muslos de pollo con sal y sellálos con la piel hacia abajo por 4-5 minutos hasta dorar. Voltea y sella 2 minutos más. Retira y reserva.",
+      "Calienta 1 cucharada de aceite normal en una sartén honda grande o cacerola a fuego medio. Sazona los muslos de pollo con sal y sellálos con la piel hacia abajo por 4-5 minutos hasta dorar. Voltea y sella 2 minutos más. Retira y reserva.",
       "Vierte la salsa de mole en la misma sartén y cocina por 5 minutos, revolviendo con frecuencia. Agrega el chocolate picado y mezcla hasta que se derrita e incorpore.",
-      "Regresa el pollo a la sartén, cúbrelo con salsa, tapa y cocina a fuego bajo por 30-35 minutos hasta que el pollo esté cocido (75°C de temperatura interna).",
+      "Regresa el pollo a la sartén, cúbrelo con salsa, tapa y cocina a fuego bajo por 30-35 minutos hasta que el pollo esté cocido (75°C de temperatura interna). Retira del fuego e incorpora la mantequilla de cannabis a la salsa hasta que se derrita.",
       "Sirve sobre arroz, decorado con semillas de ajonjolí tostadas y acompañado de tortillas calientes."
     ]
   },
@@ -4190,7 +4190,7 @@
     "description": "Tostadas crujientes infusionadas con cannabis, con frijoles refritos sazonados, ingredientes frescos y un chorrito de crema con mantequilla de cannabis para una comida mexicana rápida.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "6 tostadas crujientes",
       "1 lata (425 g) de frijoles refritos",
       "1 taza de lechuga picada",
@@ -4213,7 +4213,7 @@
     "description": "Birria de res tierna infusionada con cannabis, en tortillas crujientes bañadas en consomé, con queso derretido, servidos con un rico consomé para remojar.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de aceite de cocina infusionado con cannabis",
+      "2 cucharadas de aceite de cocina infusionado con cannabis (con la cantidad de cannabis de la calculadora), más 1 cucharada de aceite normal para sellar",
       "900 g de diezmillo de res cortado en trozos grandes",
       "4 chiles guajillo secos, sin tallo ni semillas",
       "2 chiles ancho secos, sin tallo ni semillas",
@@ -4226,9 +4226,9 @@
     ],
     "instructions": [
       "Tuesta los chiles secos en un comal seco por 1-2 minutos por lado. Remoja en agua caliente por 15 minutos, luego licúa con los tomates, la mitad de la cebolla, ajo, vinagre y especias hasta que quede homogéneo.",
-      "Calienta el aceite de cocina infusionado con cannabis en una olla de hierro a fuego medio-alto. Sella los trozos de carne por todos los lados hasta que estén bien dorados, unos 6-8 minutos en total.",
+      "Calienta 1 cucharada de aceite normal en una olla de hierro a fuego medio-alto. Sella los trozos de carne por todos los lados hasta que estén bien dorados, unos 6-8 minutos en total.",
       "Vierte la salsa de chile licuada sobre la carne, agrega la cebolla restante y suficiente agua para cubrir la carne. Lleva a ebullición, reduce a fuego bajo, tapa y cocina por 2.5 a 3 horas hasta que la carne se deshaga fácilmente.",
-      "Retira la carne, deshébrala con dos tenedores y regresa al caldo. Sazona el consomé con sal al gusto.",
+      "Retira la carne, deshébrala con dos tenedores y regresa al caldo. Sazona el consomé con sal al gusto. Retira del fuego e incorpora el aceite infusionado con cannabis al consomé.",
       "Sumerge las tortillas de maíz en el consomé y cocínalas en un comal caliente. Agrega queso rallado y carne de birria de un lado, dobla y cocina hasta que estén crujientes por ambos lados y el queso se derrita.",
       "Sirve los tacos acompañados de pequeños tazones de consomé caliente decorado con cebolla picada, cilantro y gajos de limón para remojar."
     ]
@@ -4238,7 +4238,7 @@
     "description": "Un delicioso pastel tres leches infusionado con cannabis, remojado en tres tipos de leche y cubierto con crema batida — un postre mexicano icónico con dosificación perfecta.",
     "category_name": "Internacional",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 taza de harina de trigo",
       "5 huevos grandes, separados",
       "1 taza de azúcar granulada",
@@ -4263,7 +4263,7 @@
     "description": "Un impresionante pastel red velvet infusionado con cannabis, con miga tierna y cobertura de queso crema, perfectamente dosificado para una experiencia de postre decadente.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 1/2 tazas de harina de trigo",
       "1 1/2 tazas de azúcar granulada",
       "1/2 taza de mantequilla regular ablandada",
@@ -4288,7 +4288,7 @@
     "description": "Galletas snickerdoodle suaves y masticables infusionadas con cannabis, rebozadas en azúcar con canela, ofreciendo el sabor clásico de galleta reconfortante con THC dosificado.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/2 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1/2 taza de mantequilla regular ablandada",
       "1 1/2 tazas de azúcar granulada",
       "2 huevos grandes",
@@ -4312,7 +4312,7 @@
     "description": "Un pay de calabaza infusionado con cannabis, con especias cálidas, corteza hojaldrada y relleno aterciopelado, perfecto para reuniones otoñales o cualquier celebración.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 base de pay de 23 cm (sin hornear)",
       "1 lata (425 g) de puré de calabaza puro",
       "1 lata (397 g) de leche condensada",
@@ -4336,7 +4336,7 @@
     "description": "Barras cremosas de cheesecake de fresa infusionadas con cannabis, con base crujiente de galleta y un remolino de fresa fresca — un postre perfectamente porcionado con THC.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 1/2 tazas de galleta molida tipo María",
       "1/4 taza de mantequilla regular derretida",
       "450 g de queso crema ablandado",
@@ -4360,7 +4360,7 @@
     "description": "Galletas masticables de avena y pasas infusionadas con cannabis, repletas de avena, pasas y especias cálidas para un deleite saludable y medicinal.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1/2 taza de mantequilla regular ablandada",
       "3/4 taza de azúcar morena compacta",
       "1/4 taza de azúcar granulada",
@@ -4385,7 +4385,7 @@
     "description": "Un pay de limón key ácido y refrescante infusionado con cannabis, con base crujiente de galleta y relleno sedoso de cítricos, cubierto con crema batida.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 1/2 tazas de galleta molida tipo María",
       "1/3 taza de mantequilla regular derretida",
       "3 yemas de huevo",
@@ -4408,7 +4408,7 @@
     "description": "Tostadas francesas gruesas de cannabis, remojadas en crema rica y fritas en mantequilla de cannabis hasta dorar, servidas con jarabe de arce y frutas frescas.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "6 rebanadas gruesas de pan brioche o challah",
       "3 huevos grandes",
       "3/4 taza de leche entera",
@@ -4420,10 +4420,10 @@
     ],
     "instructions": [
       "Mezcla los huevos, la leche, el extracto de vainilla y la canela en un plato hondo hasta combinar bien.",
-      "Derrite la mantequilla de cannabis y la mantequilla regular juntas en una sartén grande o plancha a fuego medio-bajo. Mantén el fuego suave para preservar la potencia de la mantequilla de cannabis.",
+      "Derrite la mantequilla regular en una sartén grande o plancha a fuego medio-bajo. En un cazo pequeño, derrite la mantequilla de cannabis a fuego bajo y reserva.",
       "Sumerge cada rebanada de pan en la mezcla de huevo, dejando absorber unos 15 segundos por lado.",
-      "Cocina el pan remojado en la mantequilla infusionada con cannabis por 3-4 minutos por lado hasta que esté dorado y cocido por dentro.",
-      "Sirve inmediatamente, cubierto con jarabe de arce, frutas frescas y una espolvoreada de azúcar glass."
+      "Cocina el pan remojado en la mantequilla regular por 3-4 minutos por lado hasta que esté dorado y cocido por dentro.",
+      "Unta cada rebanada caliente de manera uniforme con la mantequilla de cannabis derretida y sirve inmediatamente, cubierto con jarabe de arce, frutas frescas y una espolvoreada de azúcar glass."
     ]
   },
   "cannabis-creme-brulee": {
@@ -4431,7 +4431,7 @@
     "description": "Crème brûlée sedosa infusionada con cannabis, con una costra crujiente de azúcar caramelizado, ofreciendo una experiencia elegante y precisamente dosificada de postre.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 tazas de crema para batir",
       "5 yemas de huevo grandes",
       "1/2 taza de azúcar granulada, más extra para la cubierta",
@@ -4452,7 +4452,7 @@
     "description": "Barras s'mores pegajosas infusionadas con cannabis, con base de galleta, chocolate derretido y malvaviscos tostados — sabor de fogata con un toque medicinal.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1/4 taza de mantequilla regular derretida",
       "2 tazas de galleta molida tipo María",
       "1/4 taza de azúcar morena compacta",
@@ -4474,7 +4474,7 @@
     "description": "Muffins esponjosos de chispas de chocolate infusionados con cannabis, con miga tierna y bolsas de chocolate derretido — un deleite perfectamente porcionado para desayuno o merienda.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1/4 taza de mantequilla regular derretida",
       "2 tazas de harina de trigo",
       "3/4 taza de azúcar granulada",
@@ -4499,7 +4499,7 @@
     "description": "Budín de pan rico infusionado con cannabis, con cubos de brioche remojados en crema especiada y horneado hasta dorar, servido caliente con salsa de vainilla.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "6 tazas de pan brioche o francés cortado en cubos (de un día antes)",
       "2 tazas de leche entera",
       "1 taza de crema para batir",
@@ -4524,7 +4524,7 @@
     "description": "Un pay de nuez decadente infusionado con cannabis, con relleno caramelizado y pegajoso cargado de nueces tostadas en una corteza hojaldrada — un clásico sureño con infusión de THC.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "1 base de pay de 23 cm (sin hornear)",
       "1 taza de jarabe de maíz claro",
       "1 taza de azúcar morena compacta",
@@ -4548,7 +4548,7 @@
     "description": "Pudín de plátano cremoso en capas infusionado con cannabis, con galletas de vainilla, plátanos rebanados y una natilla casera lujosa — un favorito sureño con dosificación suave de THC.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "3/4 taza de azúcar granulada",
       "1/3 taza de harina de trigo",
       "Pizca de sal",
@@ -4572,7 +4572,7 @@
     "description": "Copas caseras de mantequilla de maní infusionadas con cannabis, con capa de chocolate liso y relleno dulce de mantequilla de maní — fáciles de hacer y perfectamente porcionadas.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de aceite de coco infusionado con cannabis",
+      "2 cucharadas de aceite de coco infusionado con cannabis (con la cantidad de cannabis de la calculadora)",
       "2 tazas de chispas de chocolate semiamargo",
       "1 taza de mantequilla de maní cremosa",
       "1/2 taza de azúcar glass",
@@ -4593,7 +4593,7 @@
     "description": "Delicados macarons franceses infusionados con cannabis, con cáscaras crujientes, centros masticables y relleno de ganache de mantequilla de cannabis — una golosina elegante con THC.",
     "category_name": "Postres",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis (para el relleno)",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora), para el relleno",
       "1 taza de harina de almendras tamizada",
       "1 3/4 tazas de azúcar glass tamizada",
       "3 claras de huevo grandes a temperatura ambiente",
@@ -4618,7 +4618,7 @@
     "description": "Mac and cheese cremoso infusionado con cannabis, preparado con una rica salsa de cheddar y mantequilla de cannabis para un almuerzo perfectamente dosificado.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "225g de macarrones codo",
       "2 cucharadas de harina de trigo",
       "2 tazas de leche entera",
@@ -4643,7 +4643,7 @@
     "description": "Pollo deshilachado infusionado con cannabis en salsa barbacoa ahumada con mantequilla de cannabis, perfecto para sándwiches o servido con arroz.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "680g de pechugas de pollo deshuesadas y sin piel",
       "1 taza de salsa barbacoa",
       "1/4 taza de caldo de pollo",
@@ -4668,7 +4668,7 @@
     "description": "Camarones suculentos infusionados con cannabis, salteados con mantequilla de ajo, limón y hierbas para una experiencia comestible sabrosa.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "450g de camarones grandes, pelados y desvenados",
       "4 dientes de ajo picados",
       "2 cucharadas de mantequilla regular",
@@ -4692,7 +4692,7 @@
     "description": "Pollo Alfredo cremoso infusionado con cannabis, con salsa aterciopelada de parmesano hecha con mantequilla de cannabis para un lujoso plato de pasta.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "3 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "340g de fettuccine",
       "2 pechugas de pollo deshuesadas y sin piel",
       "1 taza de crema para batir",
@@ -4716,7 +4716,7 @@
     "description": "Estofado de res sustancioso infusionado con cannabis, cocinado a fuego lento con verduras y salsa espesa, hecho con mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "680g de carne de res para estofar, en cubos de 2,5cm",
       "3 papas medianas, peladas y en cubos",
       "3 zanahorias peladas y rebanadas",
@@ -4742,7 +4742,7 @@
     "description": "Sopa de cebolla francesa clásica infusionada con cannabis, con cebollas caramelizadas, caldo rico y costra de queso gruyère gratinado.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "4 cebollas amarillas grandes, rebanadas finas",
       "4 tazas de caldo de res",
       "1/2 taza de vino blanco seco",
@@ -4767,7 +4767,7 @@
     "description": "Pastel de pollo reconfortante infusionado con cannabis, con costra dorada y relleno cremoso de verduras hecho con mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "1/3 taza de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 tazas de pollo cocido, deshilachado o en cubos",
       "1 taza de chícharos y zanahorias congelados",
       "1/2 taza de apio picado",
@@ -4780,7 +4780,7 @@
     ],
     "instructions": [
       "Precalienta el horno a 190°C. Coloca una masa de pay en el fondo de un molde de 23cm.",
-      "En una cacerola a fuego medio, derrite la mantequilla de cannabis. Agrega la cebolla y el apio, cocinando por 5 minutos hasta que se ablanden.",
+      "En una cacerola a fuego medio-bajo, derrite la mantequilla de cannabis. Agrega la cebolla y el apio, cocinando por 5 minutos hasta que se ablanden.",
       "Incorpora la harina y cocina por 1 minuto. Añade gradualmente el caldo de pollo y la leche hasta que espese, unos 5 minutos.",
       "Agrega el pollo, chícharos, zanahorias, sal y pimienta. Mezcla y retira del fuego.",
       "Vierte el relleno en la masa de pay. Cubre con la segunda masa, presiona los bordes y haz cortes para que escape el vapor.",
@@ -4792,7 +4792,7 @@
     "description": "Lasaña en capas infusionada con cannabis, con salsa de carne rica, relleno cremoso de ricota y mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "12 láminas de lasaña",
       "450g de carne molida de res",
       "2 tazas de salsa marinara",
@@ -4817,7 +4817,7 @@
     "description": "Carbonara auténtica infusionada con cannabis, con panceta crujiente, yemas de huevo y queso Pecorino, terminada con mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "340g de espagueti",
       "170g de panceta o guanciale en cubos",
       "3 yemas de huevo grandes",
@@ -4840,7 +4840,7 @@
     "description": "Pollo tikka masala aromático infusionado con cannabis en salsa cremosa de tomate con especias y mantequilla de cannabis, servido con arroz basmati.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "680g de muslos de pollo deshuesados, en cubos",
       "1 taza de yogur natural",
       "1 lata (400g) de tomates triturados",
@@ -4854,7 +4854,7 @@
     "instructions": [
       "Marina el pollo en yogur, 1 cucharadita de garam masala, cúrcuma y sal por al menos 30 minutos.",
       "Asa los trozos de pollo marinados por 5-6 minutos por lado hasta que estén dorados y cocidos. Reserva.",
-      "En una sartén grande, derrite la mantequilla de cannabis a fuego medio. Saltea la cebolla por 5 minutos. Agrega el ajo, el resto del garam masala y el comino. Cocina por 1 minuto.",
+      "En una sartén grande, derrite la mantequilla de cannabis a fuego medio-bajo. Saltea la cebolla por 5 minutos. Agrega el ajo, el resto del garam masala y el comino. Cocina por 1 minuto.",
       "Agrega los tomates triturados y cocina por 10 minutos, revolviendo ocasionalmente.",
       "Incorpora la crema y el pollo cocido. Cocina suavemente a fuego bajo por 10 minutos más.",
       "Sirve sobre arroz basmati, dividiendo equitativamente para una dosificación consistente. Decora con cilantro fresco."
@@ -4865,7 +4865,7 @@
     "description": "Tacos de pescado ligeros y frescos infusionados con cannabis, con bacalao crujiente, ensalada de col y crema de mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "450g de filetes de bacalao cortados en tiras",
       "8 tortillas de maíz pequeñas",
       "1 taza de col rallada",
@@ -4890,7 +4890,7 @@
     "description": "Bowl teriyaki vibrante infusionado con cannabis con pollo glaseado, arroz y verduras frescas, terminado con salsa teriyaki de mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "680g de muslos de pollo deshuesados",
       "1/3 taza de salsa de soya",
       "3 cucharadas de miel",
@@ -4915,7 +4915,7 @@
     "description": "Pimientos coloridos rellenos infusionados con cannabis, con carne sazonada, arroz y queso derretido, hechos con mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora), derretida, más 1 cucharada de aceite normal",
       "6 pimientos grandes, sin tapa y sin semillas",
       "450g de carne molida de res",
       "1 taza de arroz cocido",
@@ -4928,9 +4928,9 @@
     ],
     "instructions": [
       "Precalienta el horno a 190°C. Coloca los pimientos de pie en un molde para hornear.",
-      "En una sartén, derrite la mantequilla de cannabis a fuego medio. Agrega la cebolla y el ajo, cocinando por 3 minutos.",
+      "En una sartén, calienta 1 cucharada de aceite normal a fuego medio. Agrega la cebolla y el ajo, cocinando por 3 minutos.",
       "Agrega la carne molida y cocina hasta que se dore, desmenuzando con una cuchara. Escurre el exceso de grasa.",
-      "Incorpora el arroz cocido, tomates picados, sazonador italiano, sal y pimienta. Cocina por 5 minutos.",
+      "Incorpora el arroz cocido, tomates picados, sazonador italiano, sal y pimienta. Cocina por 5 minutos, luego retira del fuego e incorpora la mantequilla de cannabis derretida.",
       "Rellena cada pimiento con la mezcla y cubre con queso cheddar rallado.",
       "Cubre con papel aluminio y hornea por 30 minutos. Retira el aluminio y hornea 10 minutos más hasta que el queso se derrita y los pimientos estén tiernos."
     ]
@@ -4940,7 +4940,7 @@
     "description": "Sopa cremosa de almejas estilo Nueva Inglaterra infusionada con cannabis, con papas, tocino ahumado y mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "2 latas (185g cada una) de almejas picadas, con el líquido reservado",
       "4 rebanadas de tocino picado",
       "2 papas medianas peladas y en cubos",
@@ -4966,7 +4966,7 @@
     "description": "Pastel de pastor clásico infusionado con cannabis, con carne de cordero, verduras mixtas y puré de papas cremoso hecho con mantequilla de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "680g de carne de cordero molida",
       "4 papas grandes peladas y en cubos",
       "1 taza de chícharos y maíz congelados",
@@ -4991,7 +4991,7 @@
     "description": "Muffins de huevo keto ricos en proteínas e infusionados con cannabis, con queso, tocino y verduras, hechos con mantequilla de cannabis.",
     "category_name": "Keto",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis derretida",
+      "2 cucharadas de mantequilla de cannabis derretida (con la cantidad de cannabis de la calculadora)",
       "8 huevos grandes",
       "4 rebanadas de tocino cocido y desmenuzado",
       "1/2 taza de queso cheddar rallado",
@@ -5014,7 +5014,7 @@
     "description": "Pollo a la mantequilla cremoso y keto, infusionado con cannabis en salsa de tomate especiada, hecho con mantequilla de cannabis para una comida baja en carbohidratos.",
     "category_name": "Keto",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "680g de muslos de pollo deshuesados, en cubos",
       "1/2 taza de yogur natural entero",
       "1 lata (400g) de tomates triturados",
@@ -5039,7 +5039,7 @@
     "description": "Brownies de aguacate keto jugosos infusionados con cannabis, con harina de almendras, cacao y mantequilla de cannabis para un postre bajo en carbohidratos.",
     "category_name": "Keto",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis derretida",
+      "1/4 taza de mantequilla de cannabis derretida (con la cantidad de cannabis de la calculadora)",
       "2 aguacates maduros machacados",
       "1/2 taza de cacao en polvo sin azúcar",
       "1/3 taza de harina de almendras",
@@ -5064,7 +5064,7 @@
     "description": "Mini hamburguesas con tocino y queso keto infusionadas con cannabis, con carne, queso y tocino crujiente, hechas con mantequilla de cannabis.",
     "category_name": "Keto",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis derretida",
+      "2 cucharadas de mantequilla de cannabis derretida (con la cantidad de cannabis de la calculadora)",
       "450g de carne molida de res",
       "6 rebanadas de tocino cocido y desmenuzado",
       "1 taza de queso cheddar rallado",
@@ -5077,11 +5077,11 @@
     ],
     "instructions": [
       "Precalienta el horno a 190°C. Engrasa un molde para mini muffins de 24 cavidades.",
-      "En un tazón grande, combina la carne molida, mantequilla de cannabis derretida, ajo en polvo, cebolla en polvo, sal y pimienta.",
+      "En un tazón grande, combina la carne molida, ajo en polvo, cebolla en polvo, sal y pimienta.",
       "Presiona la mezcla de carne en cada cavidad, formando pequeñas copas.",
       "Hornea por 12 minutos hasta que la carne esté cocida. Escurre cuidadosamente el exceso de grasa.",
       "Cubre cada porción con tocino desmenuzado, pepinillos y queso cheddar. Regresa al horno por 3 minutos hasta que el queso se derrita.",
-      "Rocía con kétchup sin azúcar y mostaza. Deja enfriar 5 minutos antes de servir. Divide en porciones iguales."
+      "Mezcla la mantequilla de cannabis derretida con el kétchup sin azúcar y la mostaza y rocía de manera uniforme sobre los bocados. Deja enfriar 5 minutos antes de servir. Divide en porciones iguales."
     ]
   },
   "cannabis-keto-garlic-parmesan-wings": {
@@ -5089,7 +5089,7 @@
     "description": "Alitas de pollo crujientes keto infusionadas con cannabis, cubiertas con salsa de ajo y parmesano con mantequilla de cannabis.",
     "category_name": "Keto",
     "ingredients": [
-      "3,5 gramos de mantequilla de cannabis",
+      "2 cucharadas de mantequilla de cannabis (con la cantidad de cannabis de la calculadora)",
       "900g de alitas de pollo",
       "1/2 taza de queso parmesano rallado",
       "4 dientes de ajo picados",
@@ -5114,7 +5114,7 @@
     "description": "Pad Thai vegano vibrante infusionado con cannabis, con fideos de arroz, tofu crujiente y salsa de tamarindo hecha con aceite de coco de cannabis.",
     "category_name": "Vegano",
     "ingredients": [
-      "3,5 gramos de aceite de coco infusionado con cannabis",
+      "2 cucharadas de aceite de coco infusionado con cannabis (con la cantidad de cannabis de la calculadora)",
       "225g de fideos de arroz planos",
       "400g de tofu extra firme, prensado y en cubos",
       "2 cucharadas de pasta de tamarindo",
@@ -5139,7 +5139,7 @@
     "description": "Buddha bowl vegano nutritivo infusionado con cannabis, con garbanzos asados, quinoa y verduras, con aderezo de tahini con aceite de cannabis.",
     "category_name": "Vegano",
     "ingredients": [
-      "3,5 gramos de aceite de coco infusionado con cannabis",
+      "2 cucharadas de aceite de coco infusionado con cannabis (con la cantidad de cannabis de la calculadora)",
       "1 lata (425g) de garbanzos escurridos y enjuagados",
       "1 taza de quinoa cocida",
       "1 camote en cubos y asado",
@@ -5164,7 +5164,7 @@
     "description": "Pimientos rellenos veganos coloridos infusionados con cannabis, con arroz, frijoles negros y maíz, hechos con aceite de coco de cannabis.",
     "category_name": "Vegano",
     "ingredients": [
-      "3,5 gramos de aceite de coco infusionado con cannabis",
+      "2 cucharadas de aceite de coco infusionado con cannabis (con la cantidad de cannabis de la calculadora)",
       "6 pimientos grandes, sin tapa y sin semillas",
       "1 taza de arroz integral cocido",
       "1 lata (425g) de frijoles negros escurridos y enjuagados",
@@ -5189,7 +5189,7 @@
     "description": "Galletas de avena veganas suaves infusionadas con cannabis, con pasas y canela, hechas con aceite de coco de cannabis para un dulce saludable.",
     "category_name": "Vegano",
     "ingredients": [
-      "3,5 gramos de aceite de coco infusionado con cannabis derretido",
+      "1/3 taza de aceite de coco infusionado con cannabis derretido (con la cantidad de cannabis de la calculadora)",
       "1,5 tazas de avena en hojuelas",
       "3/4 taza de harina de trigo",
       "1/3 taza de jarabe de arce",
@@ -5215,7 +5215,7 @@
     "description": "Strogonoff de champiñones vegano cremoso infusionado con cannabis, con salsa de crema de anacardo y aceite de coco de cannabis, servido con pasta sin huevo.",
     "category_name": "Vegano",
     "ingredients": [
-      "3,5 gramos de aceite de coco infusionado con cannabis",
+      "2 cucharadas de aceite de coco infusionado con cannabis (con la cantidad de cannabis de la calculadora), más 1 cucharada de aceite normal para sofreír",
       "450g de champiñones variados (cremini, shiitake) rebanados",
       "340g de pasta sin huevo",
       "1 taza de anacardos crudos, remojados por 2 horas",
@@ -5229,9 +5229,9 @@
     "instructions": [
       "Escurre los anacardos remojados y licúa con el caldo de verduras hasta que quede completamente suave para crear la crema de anacardos. Reserva.",
       "Cocina la pasta según las instrucciones del paquete. Escurre y reserva.",
-      "Calienta el aceite de coco infusionado con cannabis en una sartén grande a fuego medio. Saltea la cebolla por 4 minutos hasta que esté translúcida, luego agrega el ajo y cocina por 1 minuto.",
+      "Calienta 1 cucharada de aceite normal en una sartén grande a fuego medio. Saltea la cebolla por 4 minutos hasta que esté translúcida, luego agrega el ajo y cocina por 1 minuto.",
       "Agrega los champiñones rebanados y cocina por 6-8 minutos hasta que estén dorados y la mayor parte del líquido se haya evaporado.",
-      "Vierte la crema de anacardos, salsa de soya y mostaza Dijon. Mezcla y cocina por 5 minutos hasta que la salsa espese.",
+      "Vierte la crema de anacardos, salsa de soya y mostaza Dijon. Mezcla y cocina por 5 minutos hasta que la salsa espese. Retira del fuego e incorpora el aceite de coco infusionado con cannabis.",
       "Mezcla la pasta cocida con la salsa strogonoff. Sirve decorado con tomillo fresco y perejil, dividiendo equitativamente para una dosificación consistente."
     ]
   }
