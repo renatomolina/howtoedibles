@@ -1527,8 +1527,8 @@
   },
   "cannabis-butternut-squash-soup": {
     "prepTime": "PT15M",
-    "cookTime": "PT30M",
-    "totalTime": "PT45M",
+    "cookTime": "PT50M",
+    "totalTime": "PT1H5M",
     "keywords": [
       "butternut",
       "squash",
@@ -1540,7 +1540,7 @@
       "calories": "220 kcal",
       "fatContent": "10 g"
     },
-    "base_fat": "infused olive oil",
+    "base_fat": "cannabis cream",
     "cook_temp": "simmer",
     "texture_type": "stovetop",
     "sub_category": "soup",
@@ -1564,19 +1564,19 @@
       "calories": "350 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "cannabutter",
+    "base_fat": "cannabis sesame oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "pasta_rice",
     "intro_unique": "Cannabis egg fried rice is a quick weeknight edible that transforms day-old rice with infused oil, scrambled eggs, and soy sauce.",
-    "dosing_unique": "Add infused oil to the hot wok at the end and toss with the rice, then divide into equal portions by weight.",
+    "dosing_unique": "Drizzle the infused sesame oil over the rice off the heat, toss well, then divide into equal portions by weight.",
     "storage_unique": "Refrigerate for up to 2 days; reheat in a very hot skillet to restore the slightly crispy texture.",
     "variation_unique": "Add diced Chinese sausage (lap cheong) and scallions for a Cantonese-style fried rice with sweet-savory depth."
   },
   "cannabis-grilled-salmon": {
     "prepTime": "PT15M",
-    "cookTime": "PT30M",
-    "totalTime": "PT45M",
+    "cookTime": "PT10M",
+    "totalTime": "PT25M",
     "keywords": [
       "grilled",
       "salmon",
@@ -1587,14 +1587,14 @@
       "calories": "350 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "infused olive oil",
+    "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "main_dish",
-    "intro_unique": "Cannabis grilled salmon glazes fresh fillets with an infused olive oil and herb marinade before searing on a hot grill.",
-    "dosing_unique": "Brush each fillet with a measured tablespoon of infused oil marinade so every portion has a known, equal dose.",
+    "intro_unique": "Cannabis grilled salmon sears fresh fillets until the skin is crisp, then finishes them with melted cannabis butter, garlic and dill.",
+    "dosing_unique": "Spoon the melted cannabis butter evenly over the cooked fillets so every portion gets the same share.",
     "storage_unique": "Refrigerate cooked salmon for up to 2 days; serve cold on salads or reheat gently in a 275F oven.",
-    "variation_unique": "Glaze with a miso-ginger infused oil mixture for an umami-rich Asian-inspired salmon."
+    "variation_unique": "Whisk a teaspoon of white miso and some grated ginger into the melted cannabis butter for an umami-rich, Asian-inspired finish."
   },
   "infused-caprese-salad": {
     "prepTime": "PT15M",
@@ -1633,7 +1633,7 @@
       "fatContent": "16 g"
     },
     "base_fat": "cannabutter",
-    "cook_temp": "400F",
+    "cook_temp": "medium heat",
     "texture_type": "baked",
     "sub_category": "sandwich_wrap",
     "intro_unique": "Cannabis quesadillas crisp flour tortillas filled with melted cheese and a spread of cannabutter for a quick, satisfying edible meal.",
@@ -1655,7 +1655,7 @@
       "calories": "350 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "cannabutter",
+    "base_fat": "cannabis sesame oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "pasta_rice",
@@ -1665,9 +1665,9 @@
     "variation_unique": "Add crispy tofu and extra crushed peanuts for a heartier vegetarian pad Thai with more protein."
   },
   "cannabis-pizza": {
-    "prepTime": "PT15M",
-    "cookTime": "PT20M",
-    "totalTime": "PT35M",
+    "prepTime": "PT1H20M",
+    "cookTime": "PT12M",
+    "totalTime": "PT1H35M",
     "keywords": [
       "pizza",
       "cannabis edible",
@@ -1677,12 +1677,12 @@
       "calories": "350 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "cannabutter",
-    "cook_temp": "400F",
+    "base_fat": "cannabis olive oil",
+    "cook_temp": "475°F / 245°C",
     "texture_type": "baked",
     "sub_category": "sandwich_wrap",
-    "intro_unique": "Cannabis pizza brushes the crust with infused olive oil before topping and baking for a shareable, crowd-friendly edible meal.",
-    "dosing_unique": "Brush a measured amount of infused oil on the dough and cut into equal slices so each piece has the same dose.",
+    "intro_unique": "Cannabis pizza works infused olive oil into the dough and drizzles more over the hot pie for a shareable, crowd-friendly edible meal.",
+    "dosing_unique": "Knead 1 tbsp of the infused oil into the dough, drizzle the other evenly over the baked pizza, and cut 8 equal slices so each piece has the same dose.",
     "storage_unique": "Store leftover slices in the fridge for up to 2 days; reheat in a hot skillet for a crispy bottom crust.",
     "variation_unique": "Top with fig jam, prosciutto, and arugula after baking for a gourmet pizza that showcases the infused oil base."
   },
@@ -1700,14 +1700,14 @@
       "calories": "350 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "infused olive oil",
+    "base_fat": "cannabis ghee",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "main_dish",
-    "intro_unique": "Cannabis lentil dal simmers red lentils with aromatic spices and finishes with a tadka of infused ghee for a warming, protein-rich edible.",
-    "dosing_unique": "Drizzle the infused ghee tadka over individual bowls rather than the pot so each serving gets a measured dose.",
+    "intro_unique": "Cannabis lentil dal simmers red lentils with aromatic spices and finishes with infused ghee stirred in off the heat for a warming, protein-rich edible.",
+    "dosing_unique": "Stir the infused ghee into the dal off the heat and mix thoroughly before ladling into equal bowls.",
     "storage_unique": "Refrigerate for up to 4 days or freeze for 2 months; dal thickens as it cools so add water when reheating.",
-    "variation_unique": "Add a can of diced tomatoes and a handful of fresh spinach for a more substantial and colorful dal."
+    "variation_unique": "Stir in a handful of fresh spinach during the last few minutes of simmering for a more colorful dal."
   },
   "infused-bulletproof-coffee": {
     "prepTime": "PT5M",
@@ -2917,8 +2917,8 @@
   },
   "cannabis-feijoada": {
     "prepTime": "PT20M",
-    "cookTime": "PT40M",
-    "totalTime": "PT1H",
+    "cookTime": "PT2H30M",
+    "totalTime": "PT2H50M",
     "keywords": [
       "feijoada",
       "cannabis edible",
@@ -2950,19 +2950,19 @@
       "calories": "230 kcal",
       "fatContent": "10 g"
     },
-    "base_fat": "infused condensed milk",
+    "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "brazilian_sweet",
-    "intro_unique": "Infused brigadeiros are beloved Brazilian chocolate truffles made from cannabis-infused condensed milk, cocoa, and butter rolled into bite-sized balls.",
+    "intro_unique": "Infused brigadeiros are beloved Brazilian chocolate truffles made from condensed milk, cocoa, and cannabutter rolled into bite-sized balls.",
     "dosing_unique": "Roll each brigadeiro to the same size using a teaspoon measure so every piece has an identical dose.",
     "storage_unique": "Store in petit four cups in the fridge for up to one week; they firm up perfectly when chilled.",
     "variation_unique": "Use white chocolate and coconut instead of cocoa for a beijinho-brigadeiro hybrid called prestígio."
   },
   "cannabis-pacoca": {
-    "prepTime": "PT20M",
-    "cookTime": "PT20M",
-    "totalTime": "PT40M",
+    "prepTime": "PT15M",
+    "cookTime": "PT0M",
+    "totalTime": "PT1H15M",
     "keywords": [
       "paoca",
       "cannabis edible",
@@ -2972,13 +2972,13 @@
       "calories": "230 kcal",
       "fatContent": "10 g"
     },
-    "base_fat": "infused condensed milk",
-    "cook_temp": "stovetop",
+    "base_fat": "cannabutter",
+    "cook_temp": "no-cook",
     "texture_type": "stovetop",
     "sub_category": "brazilian_sweet",
-    "intro_unique": "Cannabis pacoca is a crumbly Brazilian peanut candy made with ground roasted peanuts, sugar, and infused condensed milk pressed into sweet cylinders.",
+    "intro_unique": "Cannabis pacoca is a crumbly Brazilian peanut candy made with ground roasted peanuts, sugar, and melted cannabutter pressed into sweet cylinders.",
     "dosing_unique": "Press the mixture into a mold and cut into equal pieces by weight for uniform dosing per candy.",
-    "storage_unique": "Store in an airtight container at room temperature for up to 2 weeks; the candy stays crumbly and fresh.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 1 week; the candy stays crumbly and fresh.",
     "variation_unique": "Dip the bottom of each pacoca in melted dark chocolate for a chocolate-peanut combination."
   },
   "infused-coxinha": {
@@ -2994,19 +2994,19 @@
       "calories": "320 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "infused olive oil",
+    "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "brazilian_savory",
-    "intro_unique": "Infused coxinhas are teardrop-shaped Brazilian croquettes filled with seasoned shredded chicken and fried in a dough made with infused oil.",
+    "intro_unique": "Infused coxinhas are teardrop-shaped Brazilian croquettes with a cannabutter dough wrapped around seasoned shredded chicken, then fried until golden.",
     "dosing_unique": "Shape each coxinha to the same size using a kitchen scale and fry them in batches for consistent dosing.",
     "storage_unique": "Freeze uncooked coxinhas on a sheet pan and transfer to a bag; fry directly from frozen when ready to serve.",
     "variation_unique": "Fill with catupiry cheese alongside the chicken for the classic coxinha de catupiry variation."
   },
   "cannabis-pao-de-queijo": {
     "prepTime": "PT20M",
-    "cookTime": "PT40M",
-    "totalTime": "PT1H",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
     "keywords": [
       "po",
       "de",
@@ -3019,7 +3019,7 @@
       "fatContent": "16 g"
     },
     "base_fat": "infused olive oil",
-    "cook_temp": "stovetop",
+    "cook_temp": "375°F / 190°C",
     "texture_type": "stovetop",
     "sub_category": "brazilian_savory",
     "intro_unique": "Cannabis pao de queijo are chewy Brazilian cheese bread balls made with tapioca flour and infused olive oil for a naturally gluten-free edible.",
@@ -3028,9 +3028,9 @@
     "variation_unique": "Add grated Parmesan and a pinch of calabresa pepper flakes for a spicy, extra-cheesy version."
   },
   "infused-acai-bowl": {
-    "prepTime": "PT20M",
-    "cookTime": "PT40M",
-    "totalTime": "PT1H",
+    "prepTime": "PT10M",
+    "cookTime": "PT0M",
+    "totalTime": "PT10M",
     "keywords": [
       "aa",
       "bowl",
@@ -3041,19 +3041,19 @@
       "calories": "320 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "infused olive oil",
-    "cook_temp": "stovetop",
+    "base_fat": "cannabis coconut oil",
+    "cook_temp": "no-cook",
     "texture_type": "stovetop",
-    "sub_category": "brazilian_savory",
-    "intro_unique": "An infused acai bowl blends frozen acai pulp with cannabis tincture and banana into a thick, purple smoothie base topped with granola and fruit.",
-    "dosing_unique": "Add tincture to the blender with the acai and banana so the dose distributes evenly through the bowl.",
+    "sub_category": "brazilian_sweet",
+    "intro_unique": "An infused acai bowl blends frozen acai pulp with cannabis coconut oil and banana into a thick, purple smoothie base topped with granola and fruit.",
+    "dosing_unique": "Add the infused coconut oil to the blender with the acai and banana so the dose distributes evenly through the bowl.",
     "storage_unique": "Serve immediately; acai bowls melt and lose their thick texture within 20 minutes.",
     "variation_unique": "Top with toasted coconut flakes, cacao nibs, and a drizzle of honey for a classic Brazilian acai experience."
   },
   "cannabis-moqueca": {
-    "prepTime": "PT20M",
-    "cookTime": "PT40M",
-    "totalTime": "PT1H",
+    "prepTime": "PT40M",
+    "cookTime": "PT25M",
+    "totalTime": "PT1H5M",
     "keywords": [
       "moqueca",
       "cannabis edible",
@@ -3073,9 +3073,9 @@
     "variation_unique": "Use shrimp instead of white fish and add a splash of palm oil (dendê) for the most authentic Bahian flavor."
   },
   "infused-tapioca-crepe": {
-    "prepTime": "PT20M",
-    "cookTime": "PT40M",
-    "totalTime": "PT1H",
+    "prepTime": "PT5M",
+    "cookTime": "PT5M",
+    "totalTime": "PT10M",
     "keywords": [
       "tapioca",
       "crepe",
@@ -3086,14 +3086,14 @@
       "calories": "320 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "infused olive oil",
-    "cook_temp": "stovetop",
+    "base_fat": "cannabis coconut oil",
+    "cook_temp": "medium heat",
     "texture_type": "stovetop",
     "sub_category": "brazilian_savory",
     "intro_unique": "An infused tapioca crepe cooks hydrated tapioca flour on a dry griddle and fills it with savory or sweet fillings drizzled with infused oil.",
-    "dosing_unique": "Drizzle a measured teaspoon of infused coconut oil inside each crepe before adding fillings for precise dosing.",
+    "dosing_unique": "Drizzle a measured amount of the infused coconut oil over each crepe after cooking for precise dosing.",
     "storage_unique": "Eat immediately; tapioca crepes become rubbery when they cool and do not store or reheat well.",
-    "variation_unique": "Fill with coconut flakes and infused condensed milk for a classic coco com leite condensado tapioca."
+    "variation_unique": "Fill with coconut flakes and sweetened condensed milk for a classic coco com leite condensado tapioca."
   },
   "cannabis-beijinho": {
     "prepTime": "PT20M",
@@ -3108,19 +3108,19 @@
       "calories": "230 kcal",
       "fatContent": "10 g"
     },
-    "base_fat": "infused condensed milk",
+    "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "brazilian_sweet",
-    "intro_unique": "Cannabis beijinhos are delicate Brazilian coconut truffles made from infused condensed milk and shredded coconut, a sweeter cousin to the brigadeiro.",
+    "intro_unique": "Cannabis beijinhos are delicate Brazilian coconut truffles made from condensed milk, cannabutter, and shredded coconut, a sweeter cousin to the brigadeiro.",
     "dosing_unique": "Roll each beijinho to the same size using a teaspoon measure and top with a single clove for the traditional presentation.",
     "storage_unique": "Refrigerate in petit four cups for up to one week; they hold their shape best when kept cold.",
     "variation_unique": "Roll in toasted coconut flakes instead of regular for a nuttier, more deeply flavored coating."
   },
   "infused-empadao": {
-    "prepTime": "PT20M",
+    "prepTime": "PT45M",
     "cookTime": "PT40M",
-    "totalTime": "PT1H",
+    "totalTime": "PT1H25M",
     "keywords": [
       "empado",
       "cannabis edible",
@@ -3130,12 +3130,12 @@
       "calories": "320 kcal",
       "fatContent": "16 g"
     },
-    "base_fat": "infused olive oil",
-    "cook_temp": "stovetop",
+    "base_fat": "cannabutter",
+    "cook_temp": "375°F / 190°C",
     "texture_type": "stovetop",
     "sub_category": "brazilian_savory",
     "intro_unique": "Infused empadao is a large Brazilian savory pie with a flaky cannabis-infused crust filled with chicken, olives, and hearts of palm.",
-    "dosing_unique": "The infused oil is in the crust, so cut the pie into equal slices for consistent per-portion dosing.",
+    "dosing_unique": "The cannabutter is in the crust, so cut the pie into equal slices for consistent per-portion dosing.",
     "storage_unique": "Refrigerate for up to 3 days; reheat slices in a 350F oven for 10 minutes to re-crisp the crust.",
     "variation_unique": "Make individual empadinhas (small tartlets) instead of one large pie for built-in portion control and easier dosing."
   },
@@ -3251,7 +3251,7 @@
     "texture_type": "toasted",
     "sub_category": "finger_food",
     "intro_unique": "This cannabis-infused bruschetta lets the natural flavors of ripe tomatoes and fresh basil shine, with cannabis olive oil adding a subtle herbal note.",
-    "dosing_unique": "The cannabis olive oil is divided between the toast and the tomato topping, making each bruschetta a measured single serving.",
+    "dosing_unique": "The cannabis olive oil is divided between the toast and the tomato topping, so spread the topping evenly and share the slices out equally, about 4 pieces per serving.",
     "storage_unique": "Prepare the tomato mixture up to 4 hours ahead and refrigerate, but only toast the bread and assemble just before serving for maximum crispness.",
     "variation_unique": "Top with burrata cheese and prosciutto for a more indulgent version, or use roasted red peppers and goat cheese for a different flavor profile."
   },
@@ -3434,8 +3434,8 @@
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
     "sub_category": "finger_food",
-    "intro_unique": "These savory cannabis stuffed mushrooms feature an Italian sausage and cream cheese filling sautéed in cannabutter for a rich, bite-sized appetizer.",
-    "dosing_unique": "The cannabutter is used to cook the sausage filling, infusing the entire mixture evenly; divide filling equally among all mushroom caps.",
+    "intro_unique": "These savory cannabis stuffed mushrooms feature an Italian sausage and cream cheese filling enriched with melted cannabutter for a rich, bite-sized appetizer.",
+    "dosing_unique": "The melted cannabutter is stirred into the sausage filling off the heat; divide the filling equally among all mushroom caps.",
     "storage_unique": "Assemble mushrooms up to 8 hours ahead and refrigerate unbaked; bake just before serving for the best texture.",
     "variation_unique": "Make them vegetarian by replacing sausage with sun-dried tomatoes, spinach, and breadcrumbs, or use goat cheese instead of cream cheese."
   },
@@ -3504,7 +3504,7 @@
     "texture_type": "baked",
     "sub_category": "fried_snacks",
     "intro_unique": "These crispy cannabis sweet potato fries are tossed in cannabis coconut oil with smoky spices for a naturally sweet and savory infused side.",
-    "dosing_unique": "The cannabis coconut oil coats every fry evenly; divide the batch into equal portions on the baking sheet before serving for accurate dosing.",
+    "dosing_unique": "The cannabis coconut oil is tossed with the fries right after baking so it never sees oven heat; divide the batch into equal portions for accurate dosing.",
     "storage_unique": "Store cooled fries in an airtight container in the fridge for up to 2 days and reheat in a 425°F oven for 8-10 minutes to re-crisp.",
     "variation_unique": "Add a maple-cinnamon glaze for dessert-style fries, or toss with Cajun seasoning and serve with a cannabis-infused remoulade."
   },
@@ -3616,7 +3616,7 @@
       "fatContent": "0 g"
     },
     "base_fat": "tincture",
-    "cook_temp": "240°F / 115°C (decarb), 200°F / 93°C (drying)",
+    "cook_temp": "240°F / 115°C (decarb)",
     "texture_type": "dry",
     "sub_category": "sweetener",
     "intro_unique": "Cannabis sugar is a fat-free infusion method that lets you add THC to any recipe or beverage where regular sugar is used.",
@@ -3651,7 +3651,7 @@
   "cannabis-tincture": {
     "prepTime": "PT15M",
     "cookTime": "PT40M",
-    "totalTime": "PT14D55M",
+    "totalTime": "PT1H",
     "keywords": [
       "cannabis tincture",
       "weed tincture",
@@ -3686,13 +3686,13 @@
       "calories": "50 kcal",
       "fatContent": "2 g"
     },
-    "base_fat": "cannabutter",
+    "base_fat": "decarbed flower",
     "cook_temp": "240°F / 115°C (decarb), stovetop low",
     "texture_type": "liquid",
     "sub_category": "sweetener",
     "intro_unique": "Cannabis maple syrup combines the warmth of pure maple with the effects of THC, creating a versatile infused sweetener for breakfast, baking, and cocktails.",
-    "dosing_unique": "Measure tablespoon servings carefully; the cannabutter distributes evenly through the syrup when shaken, so always shake the bottle before pouring.",
-    "storage_unique": "Refrigerate in a sealed glass bottle for up to 2 months; the cannabutter may solidify when cold, so warm the bottle in hot water before use.",
+    "dosing_unique": "Measure tablespoon servings carefully; the infused fat distributes evenly through the syrup when shaken, so always shake the bottle before pouring.",
+    "storage_unique": "Refrigerate in a sealed glass bottle for up to 2 months; the butter may solidify when cold, so warm the bottle in hot water before use.",
     "variation_unique": "Add a cinnamon stick or vanilla bean during the simmering step for extra flavor, or use dark amber maple syrup for a more robust taste."
   },
   "cannabis-hot-sauce": {
@@ -3710,12 +3710,12 @@
       "calories": "5 kcal",
       "fatContent": "0 g"
     },
-    "base_fat": "cannabis oil",
+    "base_fat": "decarbed flower",
     "cook_temp": "240°F / 115°C (decarb), stovetop medium",
     "texture_type": "liquid",
     "sub_category": "condiment",
-    "intro_unique": "This cannabis hot sauce brings together fiery chili peppers and cannabis oil for a condiment that adds both heat and THC to wings, tacos, eggs, and more.",
-    "dosing_unique": "A typical serving is 1 teaspoon; calculate the total THC in your batch and divide by the number of teaspoons yielded for per-serving potency.",
+    "intro_unique": "This cannabis hot sauce blends fiery chili peppers with decarboxylated cannabis and olive oil for a condiment that adds both heat and THC to wings, tacos, eggs, and more.",
+    "dosing_unique": "A typical serving is 1 teaspoon; calculate the total THC in your batch and divide by the number of teaspoons yielded for per-serving potency. Straining removes some plant material along with part of the THC, so treat the calculator figure as an upper estimate.",
     "storage_unique": "Store in sterilized glass bottles in the refrigerator for up to 6 months; the vinegar base acts as a natural preservative and the flavor deepens over time.",
     "variation_unique": "Use habaneros for a fruitier and hotter sauce, or add roasted garlic and mango for a sweet-heat version."
   },
@@ -3738,7 +3738,7 @@
     "texture_type": "stir_fry",
     "sub_category": "chinese",
     "intro_unique": "This cannabis-infused Kung Pao chicken balances the numbing heat of Sichuan peppercorns with the smooth onset of THC for a truly elevated dining experience.",
-    "dosing_unique": "The cannabis oil is added at the start of cooking at moderate heat, preserving potency while infusing the entire stir-fry with an even dose.",
+    "dosing_unique": "The cannabis oil is tossed in off the heat at the end, so the stir-fry heat never touches it and every portion gets an even coating.",
     "storage_unique": "Store leftovers in an airtight container in the fridge for up to 3 days — reheat gently in a skillet to maintain texture.",
     "variation_unique": "Swap chicken for firm tofu or shrimp for a different take, or adjust the dried chilies to control the spice level."
   },
@@ -3761,7 +3761,7 @@
     "texture_type": "braised",
     "sub_category": "chinese",
     "intro_unique": "Cannabis-infused mapo tofu delivers the signature tingly numbness of Sichuan cuisine paired with a gentle THC body effect that builds as you eat.",
-    "dosing_unique": "Cannabis oil is used as the base cooking fat, ensuring even distribution of THC throughout the sauce as it simmers with the tofu.",
+    "dosing_unique": "Cannabis oil is stirred into the finished sauce off the heat, so it spreads evenly through the tofu without being fried.",
     "storage_unique": "Refrigerate in a sealed container for up to 2 days — the flavors deepen overnight, but reheat slowly to protect the tofu's texture.",
     "variation_unique": "Make it vegetarian by swapping ground pork for crumbled tempeh or minced mushrooms while keeping all the bold Sichuan flavors."
   },
@@ -3784,7 +3784,7 @@
     "texture_type": "fried",
     "sub_category": "chinese",
     "intro_unique": "This cannabis sweet and sour pork pairs the satisfying crunch of deep-fried pork with a vibrant, tangy sauce infused with THC for a multi-sensory treat.",
-    "dosing_unique": "The cannabis oil is heated gently with the vegetables and sauce rather than in the deep fryer, keeping the THC potency intact.",
+    "dosing_unique": "The cannabis oil is stirred into the sauce off the heat rather than used for frying, keeping the THC potency intact.",
     "storage_unique": "Best enjoyed fresh for optimal crispiness — leftovers can be refrigerated for 2 days but the breading will soften.",
     "variation_unique": "Replace pork with chicken breast or cauliflower florets for a lighter or vegetarian version of this Chinese takeout classic."
   },
@@ -3852,8 +3852,8 @@
     "cook_temp": "325°F then 425°F",
     "texture_type": "roasted",
     "sub_category": "chinese",
-    "intro_unique": "Cannabis char siu pork delivers sticky, caramelized edges and tender, juicy meat infused with THC throughout the overnight marinade.",
-    "dosing_unique": "The cannabis oil integrates into the marinade and penetrates the pork during hours of refrigeration, distributing THC evenly through every slice.",
+    "intro_unique": "Cannabis char siu pork delivers sticky, caramelized edges and tender, juicy meat, finished with a THC-infused glaze after roasting.",
+    "dosing_unique": "The cannabis oil is whisked into reserved clean marinade and drizzled over the sliced pork after roasting, so none of it is lost in the pan or exposed to the 425°F finish.",
     "storage_unique": "Slice and refrigerate in the glaze for up to 4 days — it makes incredible leftover sandwiches, noodle bowls, or fried rice.",
     "variation_unique": "Substitute boneless chicken thighs for the pork, reducing the initial roasting time by 10 minutes to avoid drying out."
   },
@@ -3968,7 +3968,7 @@
     "texture_type": "fried",
     "sub_category": "german",
     "intro_unique": "Cannabis schnitzel brings together the satisfying crunch of golden breadcrumbs with the mellow warmth of THC-infused butter for a German classic with a twist.",
-    "dosing_unique": "Cannabutter is used as the primary frying fat at moderate temperature, infusing the crispy coating with THC as each schnitzel sizzles to perfection.",
+    "dosing_unique": "The cannabutter is melted gently and spooned over the schnitzels after frying, so it never reaches frying temperature and each cutlet gets a measured share.",
     "storage_unique": "Reheat leftover schnitzel on a wire rack in a 375°F oven for 10 minutes to restore crispiness — avoid the microwave.",
     "variation_unique": "Try chicken breast (Hähnchenschnitzel) or a thick slice of celery root for a vegetarian Schnitzel with the same crispy coating."
   },
@@ -4105,8 +4105,8 @@
     "cook_temp": "medium heat",
     "texture_type": "pan_fried",
     "sub_category": "german",
-    "intro_unique": "Cannabis Currywurst brings Berlin's most iconic street food to your kitchen, with bratwurst seared in cannabutter and drenched in spicy curry-ketchup sauce.",
-    "dosing_unique": "The cannabutter is used to pan-sear the bratwurst at moderate heat, infusing the sausage's exterior with THC that complements the bold curry sauce.",
+    "intro_unique": "Cannabis Currywurst brings Berlin's most iconic street food to your kitchen, with seared bratwurst drenched in a spicy curry-ketchup sauce enriched with cannabutter.",
+    "dosing_unique": "The cannabutter is whisked into the curry-ketchup sauce off the heat, so the dose lives in the sauce; divide it evenly over each sausage.",
     "storage_unique": "The curry-ketchup sauce keeps in the fridge for up to a week — make a double batch and use it with any grilled sausage.",
     "variation_unique": "Try it with smoked sausage or grilled chicken breast for variation, or add a splash of mango chutney to the sauce for tropical flair."
   },
@@ -4175,7 +4175,7 @@
     "texture_type": "braised",
     "sub_category": "german",
     "intro_unique": "Cannabis Rouladen are beef rolls stuffed with bacon, pickles, and mustard, slowly braised in cannabutter-enriched gravy until meltingly tender and THC-infused.",
-    "dosing_unique": "Cannabutter is used to sear the rolls and forms the base of the braising liquid, with low-temperature simmering preserving THC over the long cook time.",
+    "dosing_unique": "The cannabutter is whisked into the finished gravy off the heat, so it skips both the sear and the long braise; ladle gravy evenly over each roll.",
     "storage_unique": "The rouladen and gravy actually taste better the next day — refrigerate for up to 4 days and reheat gently in the gravy.",
     "variation_unique": "Try turkey or pork cutlets pounded thin as a lighter alternative, or add a strip of roasted red pepper inside each roll for color."
   },
@@ -4197,7 +4197,7 @@
     "cook_temp": "low heat",
     "texture_type": "beverage",
     "sub_category": "hot_drinks",
-    "intro_unique": "Cannabis golden milk combines the ancient healing properties of turmeric with the soothing effects of THC for a warm, golden elixir that melts away stress.",
+    "intro_unique": "Cannabis golden milk blends turmeric, cinnamon, and ginger into warm milk with cannabis coconut oil for a cozy, golden evening drink.",
     "dosing_unique": "Cannabis coconut oil is whisked into the warm milk at low temperature, keeping THC intact while the fat content ensures optimal absorption.",
     "storage_unique": "Refrigerate for up to 2 days and gently reheat on the stove — shake or whisk well before reheating as the oil may separate.",
     "variation_unique": "Add a shot of espresso for a cannabis turmeric latte, or use coconut milk for a fully vegan, dairy-free version."
@@ -4427,8 +4427,8 @@
     "cook_temp": "Low simmer",
     "texture_type": "simmered",
     "sub_category": "mexican",
-    "intro_unique": "This cannabis pozole rojo simmers pork in a deeply flavored dried chile broth with cannabis-infused coconut oil blended into the cooking base.",
-    "dosing_unique": "The cannabis oil is added at the searing stage and distributes through the broth during the long simmer, so each bowl carries a consistent dose.",
+    "intro_unique": "This cannabis pozole rojo simmers pork in a deeply flavored dried chile broth, finished with cannabis-infused coconut oil stirred in off the heat.",
+    "dosing_unique": "The cannabis oil is stirred in after the long simmer, off the heat, so each ladle of broth carries a consistent dose.",
     "storage_unique": "Pozole stores exceptionally well — refrigerate for up to 4 days or freeze for 2 months. The flavor actually deepens overnight.",
     "variation_unique": "Make pozole verde with tomatillos and pepitas instead of red chiles, or substitute chicken for pork for a lighter version."
   },
@@ -4451,7 +4451,7 @@
     "texture_type": "braised",
     "sub_category": "mexican",
     "intro_unique": "Cannabis mole chicken features a complex sauce of dried chiles, chocolate, and toasted sesame with cannabutter adding both richness and a controlled THC infusion.",
-    "dosing_unique": "The cannabutter is used to sear the chicken and forms the base of the mole, distributing evenly throughout the sauce for consistent dosing per thigh.",
+    "dosing_unique": "The cannabutter is stirred into the finished mole off the heat, so it skips the sear and distributes evenly through the sauce for consistent dosing per thigh.",
     "storage_unique": "Refrigerate leftover mole chicken for up to 3 days; the sauce thickens when cold, so add a splash of broth when reheating gently on the stovetop.",
     "variation_unique": "Try the mole sauce with enchiladas, burritos, or roasted vegetables for a vegetarian version. Add more chocolate for a richer, sweeter mole."
   },
@@ -4496,8 +4496,8 @@
     "cook_temp": "Low braise / High griddle",
     "texture_type": "braised",
     "sub_category": "mexican",
-    "intro_unique": "These trending cannabis birria tacos feature slow-braised beef in a rich chile consommé, with cannabis-infused oil seared into the meat for deep, even dosing.",
-    "dosing_unique": "The cannabis oil is used to sear the beef and infuses into the braising liquid, which is then divided equally for dipping alongside the tacos.",
+    "intro_unique": "These trending cannabis birria tacos feature slow-braised beef in a rich chile consommé, with cannabis-infused oil stirred into the consommé after braising.",
+    "dosing_unique": "The cannabis oil is stirred into the consommé off the heat after braising; divide the meat and consommé equally across the tacos and dipping bowls.",
     "storage_unique": "Store the birria meat and consommé separately in the fridge for up to 4 days; reheat the broth and assemble fresh tacos when ready to serve.",
     "variation_unique": "Use lamb or goat for a more traditional birria, or make birria ramen by serving the shredded meat in consommé with noodles and a soft-boiled egg."
   },
@@ -4680,8 +4680,8 @@
     "cook_temp": "Medium-low heat",
     "texture_type": "pan-fried",
     "sub_category": "baked_goods",
-    "intro_unique": "Cannabis French toast transforms a lazy weekend breakfast into a medicated indulgence, with each slice pan-fried in cannabutter for golden, aromatic perfection.",
-    "dosing_unique": "The cannabutter is melted in the skillet and absorbed by the bread as it cooks, distributing the dose evenly across all six slices.",
+    "intro_unique": "Cannabis French toast transforms a lazy weekend breakfast into a medicated indulgence, with each golden slice brushed with melted cannabutter.",
+    "dosing_unique": "The cannabutter is brushed onto the slices after cooking instead of used in the pan, so each of the six slices gets an equal, measured share.",
     "storage_unique": "Best served immediately; if needed, keep warm in a 200°F oven on a wire rack while cooking remaining slices.",
     "variation_unique": "Use cinnamon raisin bread or banana bread for extra flavor, or make stuffed French toast by spreading cream cheese and jam between two slices before dipping."
   },
@@ -4907,7 +4907,7 @@
       "fatContent": "12 g"
     },
     "base_fat": "cannabutter",
-    "cook_temp": "Low slow cooker",
+    "cook_temp": "High slow cooker",
     "texture_type": "shredded",
     "sub_category": "sandwich",
     "intro_unique": "Slow-cooked to tender perfection, this cannabis BBQ pulled chicken absorbs smoky, tangy flavors while the cannabutter blends seamlessly into the sauce.",
@@ -5095,7 +5095,7 @@
     "texture_type": "simmered",
     "sub_category": "main_course",
     "intro_unique": "Aromatic spices and creamy tomato sauce make this cannabis chicken tikka masala an incredibly flavorful edible inspired by Indian cuisine.",
-    "dosing_unique": "Cannabutter is used to sauté the aromatics at medium heat, infusing the entire sauce base with an even dose.",
+    "dosing_unique": "Cannabutter is used to sauté the aromatics at medium-low heat, infusing the entire sauce base with an even dose.",
     "storage_unique": "The curry sauce actually improves overnight; store in the refrigerator for up to 4 days.",
     "variation_unique": "Substitute paneer for chicken to make a vegetarian version, or use coconut cream for a dairy-free option."
   },
@@ -5163,8 +5163,8 @@
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
     "sub_category": "main_course",
-    "intro_unique": "These cannabis stuffed bell peppers are a complete meal in one colorful package, with seasoned beef, rice, and cheese cooked in cannabutter.",
-    "dosing_unique": "Cannabutter is used to sauté the filling, ensuring the cannabis infusion is evenly distributed among all peppers.",
+    "intro_unique": "These cannabis stuffed bell peppers are a complete meal in one colorful package, with seasoned beef, rice, and cheese finished with cannabutter.",
+    "dosing_unique": "The melted cannabutter is stirred into the filling off the heat after the beef fat is drained, so none of it is poured away; divide the filling equally among all peppers.",
     "storage_unique": "Stuffed peppers freeze well for up to 2 months; reheat from frozen at 375°F covered with foil.",
     "variation_unique": "Try using ground turkey or a Mexican-style filling with black beans and salsa."
   },
@@ -5301,8 +5301,8 @@
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
     "sub_category": "keto_savory",
-    "intro_unique": "All the flavors of a classic cheeseburger in a keto-friendly, cannabis-infused bite-sized format with cannabutter mixed right into the beef.",
-    "dosing_unique": "Melted cannabutter is incorporated directly into the ground beef mixture for even THC distribution across all bites.",
+    "intro_unique": "All the flavors of a classic cheeseburger in a keto-friendly, bite-sized format, finished with a cannabutter ketchup-mustard drizzle.",
+    "dosing_unique": "The melted cannabutter is whisked into the ketchup-mustard drizzle after baking, so none of it drains away with the beef fat.",
     "storage_unique": "Store in an airtight container in the refrigerator for up to 3 days; reheat in the oven to maintain crispness.",
     "variation_unique": "Top with sugar-free relish or wrap in lettuce cups for an extra low-carb presentation."
   },
@@ -5439,8 +5439,8 @@
     "cook_temp": "Medium heat",
     "texture_type": "creamy",
     "sub_category": "vegan_main",
-    "intro_unique": "This cannabis vegan mushroom stroganoff features a rich cashew cream sauce with sautéed mushrooms in cannabis coconut oil over tender egg-free pasta.",
-    "dosing_unique": "Cannabis coconut oil is used to sauté the mushrooms and onions, infusing the entire sauce base from the start.",
+    "intro_unique": "This cannabis vegan mushroom stroganoff features a rich cashew cream sauce with sautéed mushrooms, finished with cannabis coconut oil and served over tender egg-free pasta.",
+    "dosing_unique": "Cannabis coconut oil is stirred into the finished sauce off the heat, so the sauté never touches it.",
     "storage_unique": "The stroganoff keeps well for up to 3 days in the refrigerator; reheat gently and add a splash of plant milk if needed.",
     "variation_unique": "Add sun-dried tomatoes or smoked paprika for depth, or serve over mashed potatoes instead of pasta."
   }
