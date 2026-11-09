@@ -1,0 +1,7 @@
+search: "shell.search_pill(n)", go: "shell.search", per: "calc.mg", perL: "calc.per", n: "shell.n_recipes(n)", all: "home.all_n(n)", seeAll: "home.see_all",
+base: "home.base", baseS: "home.base_sub", allR: "shell.all_recipes", learn: "home.learn", ad: "ad.label",
+bandCalc: "home.band_calc", bandCalcS: "home.band_calc_sub", support: "home.support", back: "shell.all_recipes", catLede: "home.cat_lede(n)",
+cats: "shell.browse", qT: "home.q_title(q)", qN: "home.q_n(n)", none: "home.q_none(q)",
+deskQ: "home.hero_q", batch: "calc.in_batch(mg)", full: "calc.full", guide: "calc.guide", or: "home.or",
+learnL: "shell.learn_links",
+pill: "shell.search_short",

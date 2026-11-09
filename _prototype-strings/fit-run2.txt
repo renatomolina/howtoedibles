@@ -1,0 +1,169 @@
+560 combos (16 pages × 5 langs × 7 viewports) · 168 with a problem
+✗ Fold cover 344×780     recipe     en  CUT …SPAN. +72px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ Fold cover 344×780     recipe     pt  CUT …SPAN. +76px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines | WRAP LABEL.q «Qual a potência da sua maconha?» 2 lines
+✗ Fold cover 344×780     recipe     es  CUT …SPAN. +73px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines | WRAP A.btn.pri «Ir a la receta» 2 lines | WRAP LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines
+✗ Fold cover 344×780     recipe     de  CUT …SPAN. +120px «237 Rezepte durchsuchen» | WRAP SPAN. «Ganzes Rezept» 2 lines | WRAP A.btn «Dosis anpassen2,1 g · 14 % THC» 2 lines | WRAP A.btn.pri «Zum Rezept» 2 lines | WRAP LABEL.q «Wie viele Portionen möchtest du?» 2 lines
+✗ Fold cover 344×780     recipe     zh  CUT …SPAN. +51px «搜索 237 道食谱»
+✗ Fold cover 344×780     recipe     en  CUT …SPAN. +72px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ Fold cover 344×780     recipe     pt  CUT …SPAN. +76px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines | WRAP LABEL.q «Qual a potência da sua maconha?» 2 lines
+✗ Fold cover 344×780     recipe     es  CUT …SPAN. +73px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines | WRAP A.btn.pri «Ir a la receta» 2 lines | WRAP LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines
+✗ Fold cover 344×780     recipe     de  CUT …SPAN. +120px «237 Rezepte durchsuchen» | WRAP SPAN. «Ganzes Rezept» 2 lines | WRAP A.btn «Dosis anpassen0,2 g · 14 % THC» 2 lines | WRAP A.btn.pri «Zum Rezept» 2 lines | WRAP LABEL.q «Wie viele Portionen möchtest du?» 2 lines
+✗ Fold cover 344×780     recipe     zh  CUT …SPAN. +51px «搜索 237 道食谱»
+✗ Fold cover 344×780     recipe     en  CUT …SPAN. +72px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ Fold cover 344×780     recipe     pt  CUT …SPAN. +76px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines | WRAP LABEL.q «Qual a potência da sua maconha?» 2 lines
+✗ Fold cover 344×780     recipe     es  CUT …SPAN. +73px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines | WRAP A.btn.pri «Ir a la receta» 2 lines | WRAP LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines
+✗ Fold cover 344×780     recipe     de  CUT …SPAN. +120px «237 Rezepte durchsuchen» | WRAP SPAN. «Ganzes Rezept» 2 lines | WRAP A.btn «Dosis anpassen0,5 g · 14 % THC» 2 lines | WRAP A.btn.pri «Zum Rezept» 2 lines | WRAP LABEL.q «Wie viele Portionen möchtest du?» 2 lines
+✗ Fold cover 344×780     recipe     zh  CUT …SPAN. +51px «搜索 237 道食谱»
+✗ Fold cover 344×780     home       en  CUT B. +5px «International»
+✗ Fold cover 344×780     home       pt  CUT B. +7px «Internacional»
+✗ Fold cover 344×780     home       es  CUT B. +7px «Internacional»
+✗ Fold cover 344×780     home       de  CUT B. +2px «Mittagessen» | CUT B. +5px «International» | CUT SPAN.nm +45px «Infundierte Schokoladenbruchstücke»
+✗ Fold cover 344×780     calc       en  CUT INPUT. +2px «3.5» | CUT INPUT. +5px «50»
+✗ Fold cover 344×780     calc       pt  CUT INPUT. +2px «3,5» | WRAP LABEL.q «Qual a potência da sua maconha?» 2 lines
+✗ Fold cover 344×780     calc       es  CUT INPUT. +2px «3,5» | CUT INPUT. +15px «50» | WRAP LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines
+✗ Fold cover 344×780     calc       de  CUT INPUT. +2px «3,5» | CUT INPUT. +13px «50» | WRAP LABEL.q «Wie viele Portionen möchtest du?» 2 lines
+✗ Fold cover 344×780     calc       zh  CUT INPUT. +2px «3.5»
+✗ Fold cover 344×780     articles   pt  CUT B. +9px «Quanto Tempo os Comestíveis Levam para F»
+✗ Fold cover 344×780     articles   es  CUT B. +7px «Cuanto Tardan los Comestibles en Hacer E»
+✗ Fold cover 344×780     articles   de  CUT B. +13px «Wie lange dauert es, bis Edibles wirken?» | CUT B. +2px «Wie ein Cannabis-Rechner funktioniert» | CUT SMALL. +17px «Schadensminimierung»
+✗ Fold cover 344×780     404        en  WRAP A.btn «Dosage calculator» 2 lines
+✗ Fold cover 344×780     404        pt  WRAP A.btn «Calculadora de dose» 2 lines | WRAP A.btn.pri «Todas as receitas» 2 lines
+✗ Fold cover 344×780     404        es  WRAP A.btn «Calculadora de dosis» 2 lines | WRAP A.btn.pri «Todas las recetas» 2 lines
+✗ Fold cover 344×780     404        de  WRAP A.btn.pri «Alle Rezepte» 2 lines
+✗ Fold cover 344×780     404        zh  WRAP A.btn «剂量计算器» 2 lines
+✗ Fold cover 344×780     nav-search en  CUT …SPAN. +68px «Search 237 recipes» | CUT A. +14px «International»
+✗ Fold cover 344×780     nav-search pt  CUT …SPAN. +72px «Buscar 237 receitas» | CUT A. +11px «Sobremesas» | CUT A. +16px «Internacional»
+✗ Fold cover 344×780     nav-search es  CUT …SPAN. +69px «Buscar 237 recetas» | CUT A. +16px «Internacional»
+✗ Fold cover 344×780     nav-search de  CUT …SPAN. +116px «237 Rezepte durchsuchen» | CUT A. +6px «Grundlagen» | CUT A. +11px «Mittagessen» | CUT A. +14px «International»
+✗ Fold cover 344×780     nav-search zh  CUT …SPAN. +47px «搜索 237 道食谱»
+✗ Fold cover 344×780     nav-none   en  CUT …SPAN. +68px «Search 237 recipes»
+✗ Fold cover 344×780     nav-none   pt  CUT …SPAN. +72px «Buscar 237 receitas» | CUT A. +11px «Sobremesas»
+✗ Fold cover 344×780     nav-none   es  CUT …SPAN. +69px «Buscar 237 recetas»
+✗ Fold cover 344×780     nav-none   de  CUT …SPAN. +116px «237 Rezepte durchsuchen» | CUT A. +6px «Grundlagen»
+✗ Fold cover 344×780     nav-none   zh  CUT …SPAN. +47px «搜索 237 道食谱»
+✗ Fold cover 344×780     nav-menu   en  CUT …SPAN. +68px «Search 237 recipes» | CUT B. +18px «International»
+✗ Fold cover 344×780     nav-menu   pt  CUT …SPAN. +72px «Buscar 237 receitas» | CUT B. +14px «Sobremesas» | CUT B. +20px «Internacional» | WRAP A.help «Passou do ponto? Ajuda agora» 2 lines
+✗ Fold cover 344×780     nav-menu   es  CUT …SPAN. +69px «Buscar 237 recetas» | CUT B. +20px «Internacional» | WRAP A.help «¿Te pasaste? Pide ayuda ahora» 2 lines
+✗ Fold cover 344×780     nav-menu   de  CUT …SPAN. +116px «237 Rezepte durchsuchen» | CUT B. +4px «Grundlagen» | CUT B. +15px «Mittagessen» | CUT B. +18px «International»
+✗ Fold cover 344×780     nav-menu   zh  CUT …SPAN. +47px «搜索 237 道食谱»
+✗ Galaxy A 360×560       recipe     en  CUT …SPAN. +56px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ Galaxy A 360×560       recipe     pt  CUT …SPAN. +60px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ Galaxy A 360×560       recipe     es  OVER 569/560 CUT …SPAN. +57px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines | WRAP A.btn.pri «Ir a la receta» 2 lines
+✗ Galaxy A 360×560       recipe     de  CUT …SPAN. +104px «237 Rezepte durchsuchen»
+✗ Galaxy A 360×560       recipe     zh  CUT …SPAN. +35px «搜索 237 道食谱»
+✗ Galaxy A 360×560       recipe     en  CUT …SPAN. +56px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ Galaxy A 360×560       recipe     pt  CUT …SPAN. +60px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ Galaxy A 360×560       recipe     es  CUT …SPAN. +57px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines | WRAP A.btn.pri «Ir a la receta» 2 lines
+✗ Galaxy A 360×560       recipe     de  CUT …SPAN. +104px «237 Rezepte durchsuchen»
+✗ Galaxy A 360×560       recipe     zh  CUT …SPAN. +35px «搜索 237 道食谱»
+✗ Galaxy A 360×560       recipe     en  CUT …SPAN. +56px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ Galaxy A 360×560       recipe     pt  CUT …SPAN. +60px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ Galaxy A 360×560       recipe     es  CUT …SPAN. +57px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines | WRAP A.btn.pri «Ir a la receta» 2 lines
+✗ Galaxy A 360×560       recipe     de  CUT …SPAN. +104px «237 Rezepte durchsuchen»
+✗ Galaxy A 360×560       recipe     zh  CUT …SPAN. +35px «搜索 237 道食谱»
+✗ Galaxy A 360×560       home       de  CUT SPAN.nm +45px «Infundierte Schokoladenbruchstücke»
+✗ Galaxy A 360×560       articles   de  CUT B. +5px «Wie lange dauert es, bis Edibles wirken?» | CUT SMALL. +9px «Schadensminimierung»
+✗ Galaxy A 360×560       404        en  WRAP A.btn «Dosage calculator» 2 lines
+✗ Galaxy A 360×560       404        pt  WRAP A.btn «Calculadora de dose» 2 lines | WRAP A.btn.pri «Todas as receitas» 2 lines
+✗ Galaxy A 360×560       404        es  WRAP A.btn «Calculadora de dosis» 2 lines | WRAP A.btn.pri «Todas las recetas» 2 lines
+✗ Galaxy A 360×560       404        de  WRAP A.btn.pri «Alle Rezepte» 2 lines
+✗ Galaxy A 360×560       nav-search en  CUT …SPAN. +52px «Search 237 recipes» | CUT A. +10px «International»
+✗ Galaxy A 360×560       nav-search pt  CUT …SPAN. +56px «Buscar 237 receitas» | CUT A. +7px «Sobremesas» | CUT A. +12px «Internacional»
+✗ Galaxy A 360×560       nav-search es  CUT …SPAN. +53px «Buscar 237 recetas» | CUT A. +12px «Internacional»
+✗ Galaxy A 360×560       nav-search de  CUT …SPAN. +100px «237 Rezepte durchsuchen» | CUT A. +2px «Grundlagen» | CUT A. +7px «Mittagessen» | CUT A. +10px «International»
+✗ Galaxy A 360×560       nav-search zh  CUT …SPAN. +31px «搜索 237 道食谱»
+✗ Galaxy A 360×560       nav-none   en  CUT …SPAN. +52px «Search 237 recipes»
+✗ Galaxy A 360×560       nav-none   pt  CUT …SPAN. +56px «Buscar 237 receitas» | CUT A. +7px «Sobremesas»
+✗ Galaxy A 360×560       nav-none   es  CUT …SPAN. +53px «Buscar 237 recetas»
+✗ Galaxy A 360×560       nav-none   de  CUT …SPAN. +100px «237 Rezepte durchsuchen» | CUT A. +2px «Grundlagen»
+✗ Galaxy A 360×560       nav-none   zh  CUT …SPAN. +31px «搜索 237 道食谱»
+✗ Galaxy A 360×560       nav-menu   en  CUT …SPAN. +52px «Search 237 recipes» | CUT B. +10px «International»
+✗ Galaxy A 360×560       nav-menu   pt  CUT …SPAN. +56px «Buscar 237 receitas» | CUT B. +6px «Sobremesas» | CUT B. +12px «Internacional»
+✗ Galaxy A 360×560       nav-menu   es  CUT …SPAN. +53px «Buscar 237 recetas» | CUT B. +12px «Internacional»
+✗ Galaxy A 360×560       nav-menu   de  CUT …SPAN. +100px «237 Rezepte durchsuchen» | CUT B. +7px «Mittagessen» | CUT B. +10px «International»
+✗ Galaxy A 360×560       nav-menu   zh  CUT …SPAN. +31px «搜索 237 道食谱»
+✗ iPhone SE 375×548      recipe     en  CUT …SPAN. +41px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ iPhone SE 375×548      recipe     pt  CUT …SPAN. +45px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ iPhone SE 375×548      recipe     es  OVER 560/548 CUT …SPAN. +42px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines
+✗ iPhone SE 375×548      recipe     de  CUT …SPAN. +89px «237 Rezepte durchsuchen»
+✗ iPhone SE 375×548      recipe     zh  CUT …SPAN. +20px «搜索 237 道食谱»
+✗ iPhone SE 375×548      recipe     en  CUT …SPAN. +41px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ iPhone SE 375×548      recipe     pt  CUT …SPAN. +45px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ iPhone SE 375×548      recipe     es  CUT …SPAN. +42px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines
+✗ iPhone SE 375×548      recipe     de  CUT …SPAN. +89px «237 Rezepte durchsuchen»
+✗ iPhone SE 375×548      recipe     zh  CUT …SPAN. +20px «搜索 237 道食谱»
+✗ iPhone SE 375×548      recipe     en  CUT …SPAN. +41px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ iPhone SE 375×548      recipe     pt  CUT …SPAN. +45px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ iPhone SE 375×548      recipe     es  OVER 557/548 CUT …SPAN. +42px «Buscar 237 recetas» | WRAP SPAN. «Receta completa» 2 lines
+✗ iPhone SE 375×548      recipe     de  CUT …SPAN. +89px «237 Rezepte durchsuchen»
+✗ iPhone SE 375×548      recipe     zh  CUT …SPAN. +20px «搜索 237 道食谱»
+✗ iPhone SE 375×548      home       de  CUT SPAN.nm +45px «Infundierte Schokoladenbruchstücke»
+✗ iPhone SE 375×548      404        en  WRAP A.btn «Dosage calculator» 2 lines
+✗ iPhone SE 375×548      404        pt  WRAP A.btn «Calculadora de dose» 2 lines | WRAP A.btn.pri «Todas as receitas» 2 lines
+✗ iPhone SE 375×548      404        es  WRAP A.btn «Calculadora de dosis» 2 lines | WRAP A.btn.pri «Todas las recetas» 2 lines
+✗ iPhone SE 375×548      404        de  WRAP A.btn.pri «Alle Rezepte» 2 lines
+✗ iPhone SE 375×548      nav-search en  CUT …SPAN. +37px «Search 237 recipes» | CUT A. +7px «International»
+✗ iPhone SE 375×548      nav-search pt  CUT …SPAN. +41px «Buscar 237 receitas» | CUT A. +4px «Sobremesas» | CUT A. +9px «Internacional»
+✗ iPhone SE 375×548      nav-search es  CUT …SPAN. +38px «Buscar 237 recetas» | CUT A. +9px «Internacional»
+✗ iPhone SE 375×548      nav-search de  CUT …SPAN. +85px «237 Rezepte durchsuchen» | CUT A. +4px «Mittagessen» | CUT A. +7px «International»
+✗ iPhone SE 375×548      nav-search zh  CUT …SPAN. +16px «搜索 237 道食谱»
+✗ iPhone SE 375×548      nav-none   en  CUT …SPAN. +37px «Search 237 recipes»
+✗ iPhone SE 375×548      nav-none   pt  CUT …SPAN. +41px «Buscar 237 receitas» | CUT A. +4px «Sobremesas»
+✗ iPhone SE 375×548      nav-none   es  CUT …SPAN. +38px «Buscar 237 recetas»
+✗ iPhone SE 375×548      nav-none   de  CUT …SPAN. +85px «237 Rezepte durchsuchen»
+✗ iPhone SE 375×548      nav-none   zh  CUT …SPAN. +16px «搜索 237 道食谱»
+✗ iPhone SE 375×548      nav-menu   en  CUT …SPAN. +37px «Search 237 recipes» | CUT B. +2px «International»
+✗ iPhone SE 375×548      nav-menu   pt  CUT …SPAN. +41px «Buscar 237 receitas» | CUT B. +4px «Internacional»
+✗ iPhone SE 375×548      nav-menu   es  CUT …SPAN. +38px «Buscar 237 recetas» | CUT B. +4px «Internacional»
+✗ iPhone SE 375×548      nav-menu   de  CUT …SPAN. +85px «237 Rezepte durchsuchen» | CUT B. +2px «International»
+✗ iPhone SE 375×548      nav-menu   zh  CUT …SPAN. +16px «搜索 237 道食谱»
+✗ iPhone 14 390×664      recipe     en  CUT …SPAN. +26px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ iPhone 14 390×664      recipe     pt  CUT …SPAN. +30px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ iPhone 14 390×664      recipe     es  CUT …SPAN. +27px «Buscar 237 recetas»
+✗ iPhone 14 390×664      recipe     de  CUT …SPAN. +74px «237 Rezepte durchsuchen»
+✗ iPhone 14 390×664      recipe     zh  CUT …SPAN. +5px «搜索 237 道食谱»
+✗ iPhone 14 390×664      recipe     en  CUT …SPAN. +26px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ iPhone 14 390×664      recipe     pt  CUT …SPAN. +30px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ iPhone 14 390×664      recipe     es  CUT …SPAN. +27px «Buscar 237 recetas»
+✗ iPhone 14 390×664      recipe     de  CUT …SPAN. +74px «237 Rezepte durchsuchen»
+✗ iPhone 14 390×664      recipe     zh  CUT …SPAN. +5px «搜索 237 道食谱»
+✗ iPhone 14 390×664      recipe     en  CUT …SPAN. +26px «Search 237 recipes» | WRAP A.btn.pri «Jump to recipe» 2 lines
+✗ iPhone 14 390×664      recipe     pt  CUT …SPAN. +30px «Buscar 237 receitas» | WRAP A.btn.pri «Ir para a receita» 2 lines
+✗ iPhone 14 390×664      recipe     es  CUT …SPAN. +27px «Buscar 237 recetas»
+✗ iPhone 14 390×664      recipe     de  CUT …SPAN. +74px «237 Rezepte durchsuchen»
+✗ iPhone 14 390×664      recipe     zh  CUT …SPAN. +5px «搜索 237 道食谱»
+✗ iPhone 14 390×664      home       de  CUT SPAN.nm +45px «Infundierte Schokoladenbruchstücke»
+✗ iPhone 14 390×664      404        en  WRAP A.btn «Dosage calculator» 2 lines
+✗ iPhone 14 390×664      404        pt  WRAP A.btn «Calculadora de dose» 2 lines | WRAP A.btn.pri «Todas as receitas» 2 lines
+✗ iPhone 14 390×664      404        es  WRAP A.btn «Calculadora de dosis» 2 lines | WRAP A.btn.pri «Todas las recetas» 2 lines
+✗ iPhone 14 390×664      404        de  WRAP A.btn.pri «Alle Rezepte» 2 lines
+✗ iPhone 14 390×664      nav-search en  CUT …SPAN. +22px «Search 237 recipes» | CUT A. +3px «International»
+✗ iPhone 14 390×664      nav-search pt  CUT …SPAN. +26px «Buscar 237 receitas» | CUT A. +5px «Internacional»
+✗ iPhone 14 390×664      nav-search es  CUT …SPAN. +23px «Buscar 237 recetas» | CUT A. +5px «Internacional»
+✗ iPhone 14 390×664      nav-search de  CUT …SPAN. +70px «237 Rezepte durchsuchen» | CUT A. +3px «International»
+✗ iPhone 14 390×664      nav-none   en  CUT …SPAN. +22px «Search 237 recipes»
+✗ iPhone 14 390×664      nav-none   pt  CUT …SPAN. +26px «Buscar 237 receitas»
+✗ iPhone 14 390×664      nav-none   es  CUT …SPAN. +23px «Buscar 237 recetas»
+✗ iPhone 14 390×664      nav-none   de  CUT …SPAN. +70px «237 Rezepte durchsuchen»
+✗ iPhone 14 390×664      nav-menu   en  CUT …SPAN. +22px «Search 237 recipes»
+✗ iPhone 14 390×664      nav-menu   pt  CUT …SPAN. +26px «Buscar 237 receitas»
+✗ iPhone 14 390×664      nav-menu   es  CUT …SPAN. +23px «Buscar 237 recetas»
+✗ iPhone 14 390×664      nav-menu   de  CUT …SPAN. +70px «237 Rezepte durchsuchen»
+✗ iPhone Plus 430×752    recipe     de  CUT …SPAN. +34px «237 Rezepte durchsuchen»
+✗ iPhone Plus 430×752    recipe     de  CUT …SPAN. +34px «237 Rezepte durchsuchen»
+✗ iPhone Plus 430×752    recipe     de  CUT …SPAN. +34px «237 Rezepte durchsuchen»
+✗ iPhone Plus 430×752    home       de  CUT SPAN.nm +45px «Infundierte Schokoladenbruchstücke»
+✗ iPhone Plus 430×752    404        en  WRAP A.btn «Dosage calculator» 2 lines
+✗ iPhone Plus 430×752    404        pt  WRAP A.btn «Calculadora de dose» 2 lines
+✗ iPhone Plus 430×752    404        es  WRAP A.btn «Calculadora de dosis» 2 lines
+✗ iPhone Plus 430×752    nav-search de  CUT …SPAN. +30px «237 Rezepte durchsuchen»
+✗ iPhone Plus 430×752    nav-none   de  CUT …SPAN. +30px «237 Rezepte durchsuchen»
+✗ iPhone Plus 430×752    nav-menu   de  CUT …SPAN. +30px «237 Rezepte durchsuchen»
+✗ iPad 820×1106          home       de  CUT SPAN.nm +45px «Infundierte Schokoladenbruchstücke»
+✗ iPad 820×1106          calc       pt  WRAP TH. «THC por porção» 2 lines
+✗ iPad 820×1106          calc       es  WRAP TH. «THC por porción» 2 lines
+✗ iPad 820×1106          calc       de  WRAP TH. «THC pro Portion» 2 lines
+✗ Laptop 1280×633        calc       en  WRAP TH. «THC per serving» 2 lines
+✗ Laptop 1280×633        calc       pt  WRAP TH. «THC por porção» 2 lines
+✗ Laptop 1280×633        calc       es  WRAP TH. «THC por porción» 2 lines
+✗ Laptop 1280×633        calc       de  WRAP TH. «THC pro Portion» 2 lines

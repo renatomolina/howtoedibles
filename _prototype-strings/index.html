@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PROTOTYPE · new UI strings, 5 languages</title>
+<style>
+  body { font: 14px/1.45 system-ui, sans-serif; margin: 0; color: #1f1410; }
+  header { padding: 16px 20px; border-bottom: 1px solid #ddd; position: sticky; top: 0; background: #fff; z-index: 1; }
+  header a { margin-right: 12px; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border-bottom: 1px solid #eee; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #faf6f2; position: sticky; top: 86px; }
+  td:first-child { font: 12px ui-monospace, monospace; color: #8a6d5c; white-space: nowrap; }
+  tr.g td { background: #f27242; color: #fff; font-weight: 700; font: 700 13px system-ui; }
+  .long { background: #fff3c4; }
+  small { color: #8a6d5c; }
+</style>
+</head>
+<body>
+<header>
+  <b>New UI strings · en / pt / es / de / zh</b> · <span id="n"></span> · longest language per row highlighted · <small>es is new everywhere</small><br>
+  Live in context: <a href="../recipes/_prototype-recipe-final/?lang=es">recipe</a><a href="../recipes/_prototype-homepage/?lang=es">homepage</a><a href="../_prototype-pages/?lang=es">pages</a><a href="../recipes/_prototype-navigation/?lang=es&open=menu">menu/search</a>
+</header>
+<table><thead><tr><th>key</th><th>en</th><th>pt</th><th>es</th><th>de</th><th>zh</th></tr></thead><tbody id="b"></tbody></table>
+<script src="strings.js"></script>
+<script>
+const L = ["en", "pt", "es", "de", "zh"], esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
+const len = (v) => (Array.isArray(v) ? v.join(" · ") : v).replace(/<[^>]+>/g, "").length;
+let g = "", rows = "";
+for (const [k, e] of Object.entries(STR)) {
+  const grp = k.split(".")[0];
+  if (grp !== g) { rows += `<tr class="g"><td colspan="6">${grp}</td></tr>`; g = grp; }
+  const max = Math.max(...L.filter((l) => l !== "zh").map((l) => len(e[l])));
+  rows += `<tr><td>${k}</td>${L.map((l) => `<td class="${l !== "zh" && len(e[l]) === max ? "long" : ""}">${esc(Array.isArray(e[l]) ? e[l].join(" · ") : e[l])}</td>`).join("")}</tr>`;
+}
+document.getElementById("b").innerHTML = rows;
+document.getElementById("n").textContent = Object.keys(STR).length + " keys";
+</script>
+</body>
+</html>

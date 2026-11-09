@@ -1,0 +1,890 @@
+<!doctype html>
+<!-- PROTOTYPE — throwaway. Answers part of "What do the articles and the remaining pages look like in the new shape?":
+     calculator.html (whole page), articles.html, contact.html, 404.html, about.html in the C · Poster identity.
+     Branch prototype/pages only. `python3 -m http.server 8767` from repo root, then /_prototype-pages/
+     Params: page=calc|articles|contact|404|about  lang=en|pt|de|zh  theme=light|dark  fold=1  shot=1
+             v=list|cards (articles index)  v404=poster|art (404)  sent=1 (contact)  path=/some/missing/url (404)  mini=1  scroll=<id>&dy=<px> -->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>PROTOTYPE · remaining pages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500..800&display=swap">
+<style>
+/* ---------- Poster tokens (visual direction ticket) ---------- */
+:root{--paper:#fff;--ink:#1f1410;--ink-2:#6a5a50;--orange:#f27242;--on-cat:#1f1410;--line:#ecdfd6;--chip:#f6eee9;--focus:#1f1410;--mark:color-mix(in srgb,var(--orange) 70%,transparent);--res-top:0px;color-scheme:light}
+[data-theme=dark]{--paper:#191210;--ink:#f7ede6;--ink-2:#bba89b;--line:#3a2c26;--chip:#2a1f1b;--focus:#f27242;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3{font-family:Unbounded,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif;overflow-wrap:break-word}
+:lang(de) h1,:lang(de) h2,:lang(de) h3{hyphens:auto;-webkit-hyphens:auto}
+.wrap{max-width:680px;margin:0 auto;padding:0 20px}
+.icon{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+
+/* colour pairs: the build emits --cat-lt/--deep-lt/--cat-dk/--deep-dk inline, CSS picks (recipe-final finding) */
+.cv,.band,.tone{--cat:var(--cat-lt);--cat-deep:var(--deep-lt)}
+[data-theme=dark] .cv,[data-theme=dark] .band,[data-theme=dark] .tone{--cat:var(--cat-dk);--cat-deep:var(--deep-dk)}
+.cv{display:block;position:relative;overflow:hidden;background:var(--cat);color:var(--on-cat);contain:paint}
+.cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
+
+/* ---------- shell (navigation ticket) ---------- */
+.hdr{display:flex;align-items:center;justify-content:space-between;height:108px}
+.hdr .logo{height:auto;width:min(240px,calc(100vw - 40px - 116px))}
+.tools{display:flex;gap:8px}
+.ibtn{width:48px;height:48px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;background:var(--paper)}
+.mini{position:fixed;inset:0 0 auto;z-index:20;background:var(--paper);border-bottom:2px solid var(--ink);transform:translateY(-105%);transition:transform .22s ease}
+body.mini-on .mini{transform:none}
+.mini .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.mini .logo{height:40px;width:auto}
+.mini .ibtn{width:44px;height:44px}
+.mini .spill{flex:1;display:flex;align-items:center;gap:8px;height:44px;border:2px solid var(--ink);border-radius:999px;padding:0 14px;background:var(--chip);font-size:15px;color:var(--ink-2);min-width:0;white-space:nowrap;overflow:hidden}
+.ftr{margin-top:72px;background:var(--orange);color:#1f1410;padding:28px 0 140px}
+.ftr .cols{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
+.ftr h4{font-family:Unbounded,"PingFang SC",sans-serif;font-size:14px;margin:22px 0 4px;grid-column:1/-1}
+.ftr .cols a{display:block;padding:9px 0;font-weight:700;text-decoration:none;font-size:16px}
+.ftr .langs{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.ftr .langs a{border:2px solid #1f1410;border-radius:999px;padding:8px 14px;font-weight:700;text-decoration:none;font-size:15px}
+.ftr .langs a[aria-current]{background:#1f1410;color:#f27242}
+.ftr p{font-size:14px;margin:22px 0 0}
+
+/* ================= NEW: the poster band — every non-recipe page's header =================
+   A colour block like a category cover, but the "glyph" is an oversized, cropped typographic mark
+   (404, 2017, @, mg, 50) in --cat-deep. Same crop/rotation logic as the covers, no images. */
+.band{position:relative;overflow:hidden;contain:paint;background:var(--cat);color:#1f1410;margin:0 -20px;padding:22px 20px 26px;min-height:var(--band-h,0)}
+.band .mk{position:absolute;right:var(--mx,-.06em);bottom:var(--my,-.2em);font:800 var(--ms,220px)/.78 Unbounded,sans-serif;letter-spacing:-.06em;color:var(--cat-deep);transform:rotate(var(--mr,-7deg));transform-origin:100% 100%;white-space:nowrap;pointer-events:none;user-select:none}
+.band>*:not(.mk){position:relative}
+.eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.02em;border:2px solid #1f1410;border-radius:999px;padding:5px 12px;background:color-mix(in srgb,var(--cat) 82%,transparent);text-decoration:none}
+.band h1{font-weight:800;font-size:clamp(30px,9vw,40px);line-height:1.04;letter-spacing:-.03em;margin:16px 0 10px;max-width:15ch}
+:lang(zh) .band h1{font-weight:900;letter-spacing:0;line-height:1.18}
+.band .deck{margin:0;font-size:16px;line-height:1.45;max-width:30ch;font-weight:500}
+.band .meta{margin:12px 0 0;font-size:13px;font-weight:700;opacity:.8}
+.band.over{padding-bottom:58px}   /* the calculator card overlaps the band's bottom 34px */
+@media (min-width:1000px){.band.over{padding-bottom:44px}}
+
+/* ================= reading column + prose (also the base of the article legacy-compat block) ================= */
+.prose{font-size:18px;line-height:1.62}
+.prose>*:first-child{margin-top:0}
+.prose p{margin:0 0 16px}
+.prose h2{font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:44px 0 12px}
+.prose h3{font-size:19px;font-weight:700;line-height:1.25;margin:28px 0 8px}
+.prose a{font-weight:600;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--orange)}
+.prose ul,.prose ol{padding-left:24px;margin:0 0 18px}
+.prose li{margin:0 0 8px}
+.prose li::marker{color:var(--orange);font-weight:800}
+.prose strong{font-weight:700}
+.lede{font-size:19px;line-height:1.5;color:var(--ink-2);margin:26px 0 0}
+section.block{margin-top:48px}
+.block>h2,.bh h2{font-size:26px;font-weight:800;letter-spacing:-.02em;line-height:1.1;margin:0}
+.bh{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:6px}
+.hint{font-size:15px;color:var(--ink-2);margin:6px 0 14px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:6px 18px;border:2px solid var(--ink);border-radius:16px;font-weight:700;text-decoration:none;background:var(--paper);line-height:1.15;text-align:center;font-size:16px;cursor:pointer}
+.btn.pri{background:var(--orange);color:#1f1410;border-color:#1f1410}
+.btn .icon{width:20px;height:20px}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.box{border:2px solid var(--ink);border-radius:20px;padding:16px 18px;margin:22px 0}
+.box h3{margin:0 0 6px;font-size:17px;display:flex;align-items:center;gap:8px}
+.box h3 .icon{color:var(--orange)}
+.box p{margin:0;font-size:16px;line-height:1.5}
+.help{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-weight:700;font-size:15px}
+.acc{border-top:2px solid var(--ink)}
+.acc:last-of-type{border-bottom:2px solid var(--ink)}
+.acc summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;padding:12px 0;cursor:pointer;font-weight:700;font-size:17px;line-height:1.3}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary .pm{flex:none;width:32px;height:32px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;transition:transform .2s}
+.acc[open] summary .pm{transform:rotate(45deg);background:var(--ink);color:var(--paper)}
+.acc .body{padding:0 0 16px}
+.acc .body p{margin:0;color:var(--ink-2);font-size:16px}
+
+/* ================= CALCULATOR card (calculator ticket A · Steppers, recipe-final peek rule) ================= */
+.calc{border:2px solid var(--ink);border-radius:24px;overflow:clip;background:var(--paper)}
+.res{position:relative;z-index:3;background:var(--ink);color:var(--paper);padding:16px 18px 18px}
+.big{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.big .mg{font:800 54px/1 Unbounded,sans-serif;letter-spacing:-.04em;white-space:nowrap}
+.big .mg small{font-size:20px;letter-spacing:0}
+.big .lbl{font-size:14px;font-weight:600;opacity:.8;display:block;margin-top:4px}
+.big .tot{text-align:right;font-size:14px;opacity:.85}
+.big .tot b{display:block;font:700 20px/1.1 Unbounded,sans-serif;white-space:nowrap}
+.lad{position:relative;display:flex;gap:3px;height:14px;margin:22px 0 8px}
+.lad i{flex:1;border-radius:4px;background:var(--c);opacity:.35}
+.lad i.on{opacity:1}
+.lad .mk{position:absolute;top:-18px;width:0;height:0;border:8px solid transparent;border-top:12px solid currentColor;transform:translateX(-8px);transition:left .25s cubic-bezier(.2,.8,.3,1)}
+.lvl{display:flex;gap:4px 10px;align-items:baseline;flex-wrap:wrap}
+.lvl b{font-family:Unbounded,"PingFang SC",sans-serif;font-size:18px}
+.lvl span{font-size:15px;opacity:.85}
+.split{margin:14px 0 0;padding:12px 14px;border-radius:14px;background:var(--orange);color:#1f1410;font-size:16px;line-height:1.35}
+.split b{font-family:Unbounded,"PingFang SC",sans-serif}
+.split small{display:block;margin-top:2px;opacity:.8}
+.split.bad{background:#d9412b;color:#fff}
+.ins{padding:6px 18px 14px}
+.row{padding:18px 0;border-bottom:1px solid var(--line)}
+.row:last-of-type{border-bottom:0}
+.q{display:block;font-weight:700;font-size:17px;line-height:1.25;margin:0 0 8px}
+.stepper{display:flex;align-items:center;gap:10px}
+.rnd{width:52px;height:52px;flex:none;border:2px solid var(--ink);border-radius:50%;background:var(--paper);display:grid;place-items:center;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.rnd:active{background:var(--ink);color:var(--paper)}
+.fld{flex:1;min-width:0;display:flex;align-items:baseline;justify-content:center;gap:6px;height:60px;border:2px solid var(--ink);border-radius:16px;padding:0 12px;background:var(--paper);cursor:text}
+.fld:focus-within{box-shadow:0 0 0 3px color-mix(in srgb,var(--orange) 60%,transparent)}
+.fld input{width:100%;min-width:0;border:0;background:none;outline:none;text-align:right;font:800 28px/58px Unbounded,sans-serif;letter-spacing:-.02em;padding:0}
+.fld .u{flex:none;font-weight:700;font-size:15px;color:var(--ink-2);min-width:3.6em}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:10px -18px 0;padding:2px 18px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;min-height:44px;border:2px solid var(--line);border-radius:999px;padding:0 14px;background:var(--paper);font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;line-height:1.1;display:inline-flex;flex-direction:column;justify-content:center;text-decoration:none}
+.chip small{display:block;font-weight:600;font-size:12px;color:var(--ink-2)}
+.chip[aria-pressed=true],.chip:has(input:checked){border-color:var(--ink);background:var(--ink);color:var(--paper)}
+.chip[aria-pressed=true] small{color:inherit;opacity:.75}
+.cfoot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 14px;padding:12px 18px 16px;border-top:1px solid var(--line);font-size:15px;font-weight:700}
+.reset{border:0;background:none;padding:6px 0;font-weight:700;text-decoration:underline;cursor:pointer;font-size:15px;color:var(--orange)}
+.reset[hidden]{display:none}
+.beg{margin:14px 0 0;font-size:15px}
+.beg .hl{background:linear-gradient(transparent 55%,color-mix(in srgb,var(--orange) 45%,transparent) 55%)}
+.beg a{font-weight:700}
+.peek{display:flex;position:sticky;top:var(--res-top);z-index:4;height:56px;margin-bottom:-56px;align-items:center;justify-content:space-between;gap:10px;padding:0 18px;background:var(--ink);color:var(--paper);opacity:0;pointer-events:none;transition:opacity .15s,top .22s ease;box-shadow:inset 0 -5px 0 var(--lc,#f4c542)}
+.calc.peeking .peek{opacity:1;pointer-events:auto}
+.peek b{font:800 26px/1 Unbounded,sans-serif;letter-spacing:-.03em;white-space:nowrap}
+.peek b small{font-size:13px;letter-spacing:0}
+.peek span{font-size:14px;font-weight:700;text-align:right;line-height:1.2;min-width:0}
+.peek span small{display:block;font-weight:500;opacity:.8}
+body.mini-on{--res-top:62px}
+#dose{scroll-margin-top:16px;margin-top:-34px;position:relative;z-index:2}   /* the card overlaps the band's bottom edge: tool first */
+
+/* dose table = the 6-level ladder as a table (static HTML, row highlighted live) */
+.dt{width:100%;border-collapse:collapse;font-size:15px;line-height:1.35;margin-top:10px}
+.dt th{text-align:left;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);padding:0 8px 8px;border-bottom:2px solid var(--ink)}
+.dt td{padding:12px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.dt td:first-child{padding-left:14px;position:relative;font-weight:700;white-space:nowrap}
+.dt td:first-child::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:6px;border-radius:3px;background:var(--c)}
+.dt td:nth-child(2){font-family:Unbounded,sans-serif;font-weight:700;font-size:14px;white-space:nowrap}
+.dt td:last-child{color:var(--ink-2)}
+.dt tr[aria-current] td{background:var(--ink);color:var(--paper)}
+.dt tr[aria-current] td:first-child{border-radius:12px 0 0 12px}
+.dt tr[aria-current] td:last-child{border-radius:0 12px 12px 0;color:color-mix(in srgb,var(--paper) 85%,var(--ink))}
+/* phone: level + mg on one line, what-to-expect underneath (still a real <table> in the HTML) */
+@media (max-width:639px){
+  .dt thead{display:none}
+  .dt tr{display:grid;grid-template-columns:1fr auto;position:relative;padding:12px 10px 12px 18px;border-bottom:1px solid var(--line);border-radius:14px}
+  .dt tr::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:6px;border-radius:3px;background:var(--c)}
+  .dt td,.dt td:first-child{padding:0;border:0;background:none!important;border-radius:0!important}
+  .dt td:first-child::before{content:none}
+  .dt td:last-child{grid-column:1/-1;margin-top:4px;font-size:15px}
+  .dt tr[aria-current]{background:var(--ink);color:var(--paper);border-color:transparent}
+  .dt tr[aria-current]::before{left:6px}
+}
+.dt .you{display:inline-block;margin-left:6px;font:700 11px/1 -apple-system,sans-serif;background:var(--c);color:#1f1410;padding:3px 6px;border-radius:999px;vertical-align:2px}
+:lang(zh) .dt th{text-transform:none}
+
+/* the formula as a poster */
+.fx{background:var(--ink);color:var(--paper);border-radius:24px;padding:20px 18px 18px;margin-top:14px}
+.fx .eq{font:800 clamp(19px,5.3vw,30px)/1.15 Unbounded,sans-serif;letter-spacing:-.02em;display:flex;flex-wrap:wrap;gap:0 .28em;align-items:baseline}
+.fx .eq i{font-style:normal;color:var(--orange)}
+.fx dl{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:16px 0 0;font-size:15px}
+.fx dt{font:800 15px/1.4 Unbounded,sans-serif;color:var(--orange)}
+.fx dd{margin:0;opacity:.88}
+.ex{border:2px solid var(--ink);border-radius:20px;padding:14px 16px;margin-top:12px}
+.ex small{display:block;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2)}
+.ex p{margin:4px 0 0;font:700 17px/1.4 Unbounded,"PingFang SC",sans-serif}
+.ex p b{color:var(--orange);white-space:nowrap}
+.ex.live{border-style:dashed}
+.steps{list-style:none;counter-reset:s;margin:12px 0 0;padding:0}
+.steps li{counter-increment:s;display:flex;gap:14px;padding:12px 0;border-top:1px solid var(--line);font-size:17px;line-height:1.45}
+.steps li::before{content:counter(s);flex:none;width:36px;height:36px;border-radius:50%;background:var(--orange);color:#1f1410;display:grid;place-items:center;font:800 15px/1 Unbounded,sans-serif}
+
+/* THE card (homepage ticket) */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px;margin-top:14px}
+.card{text-decoration:none;display:block;min-width:0}
+.card .cv{aspect-ratio:1;border-radius:20px}
+.card .dot{position:absolute;right:8px;bottom:8px;z-index:1;min-width:52px;height:52px;padding:0 6px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);line-height:1;box-shadow:0 0 0 3px var(--cat)}
+.card .dot b{font-family:Unbounded,sans-serif;font-size:16px;font-weight:800;letter-spacing:-.03em}
+.card .dot small{font-size:10px;font-weight:700}
+.card .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:700;font-size:16px;line-height:1.25;margin-top:8px}
+
+/* ================= ARTICLES INDEX ================= */
+.asearch{display:flex;align-items:center;gap:10px;height:56px;border:2px solid var(--ink);border-radius:999px;padding:0 18px;background:var(--paper);margin-top:-28px;position:relative;z-index:2;box-shadow:0 6px 0 var(--ink)}
+.asearch input{flex:1;min-width:0;border:0;background:none;outline:none;font-size:17px;height:100%}
+.topics{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:18px -20px 0;padding:2px 20px}
+.topics::-webkit-scrollbar{display:none}
+.topics .chip{border-color:var(--ink);gap:0}
+.topics .chip i{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--cat);margin-right:6px;font-style:normal}
+.topics .chip span{display:inline-flex;align-items:center}
+.topics .chip em{font-style:normal;font-weight:600;opacity:.6;margin-left:5px}
+.count{font-size:14px;font-weight:700;color:var(--ink-2);margin:14px 0 0}
+.start{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.start a{position:relative;overflow:hidden;contain:paint;display:flex;flex-direction:column;justify-content:flex-end;min-height:150px;border-radius:20px;padding:14px;background:var(--cat);color:#1f1410;text-decoration:none}
+.start a .n{position:absolute;right:-6px;top:-22px;font:800 120px/1 Unbounded,sans-serif;color:var(--cat-deep);letter-spacing:-.06em;transform:rotate(-8deg)}
+.start a b{position:relative;font:700 16px/1.2 Unbounded,"PingFang SC",sans-serif;letter-spacing:-.01em}
+.start a small{position:relative;font-size:12px;font-weight:700;margin-top:6px;opacity:.75}
+.tsec{margin-top:40px}
+.tsec>h2{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:800;margin:0 0 4px}
+.tsec>h2 i{width:14px;height:14px;border-radius:50%;background:var(--cat)}
+.tsec>h2 em{font:600 14px/1 -apple-system,sans-serif;font-style:normal;color:var(--ink-2);margin-left:auto}
+.alist{list-style:none;margin:0;padding:0}
+.alist a{display:block;padding:14px 0 14px 18px;border-top:1px solid var(--line);text-decoration:none;position:relative}
+.alist a::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:5px;border-radius:3px;background:var(--cat)}
+.alist b{display:block;font-size:17px;line-height:1.3}
+.alist span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:15px;line-height:1.4;color:var(--ink-2);margin-top:3px}
+.alist li:last-child a{border-bottom:1px solid var(--line)}
+/* v=mix: lead card per topic + slim title rows + "See all" */
+.tsec .leadl{list-style:none;margin:12px 0 4px;padding:0}
+.lead{position:relative;overflow:hidden;contain:paint;display:flex;flex-direction:column;justify-content:flex-end;min-height:150px;border-radius:20px;padding:16px;background:var(--cat);color:#1f1410;text-decoration:none}
+.lead .n{position:absolute;right:-.02em;top:-.34em;font:800 170px/1 Unbounded,sans-serif;color:var(--cat-deep);letter-spacing:-.06em;transform:rotate(-8deg)}
+.lead b{position:relative;font:700 19px/1.2 Unbounded,"PingFang SC",sans-serif;letter-spacing:-.01em;max-width:88%}
+.lead>span:last-child{position:relative;font-size:14px;line-height:1.4;margin-top:6px;max-width:92%;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.alist.slim a{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:56px;padding:10px 0}
+.alist.slim a::before{content:none}
+.alist.slim b{font-size:16px;font-weight:650;line-height:1.3}
+.alist.slim .icon{width:18px;height:18px;color:var(--cat-deep);flex:none}
+.alist.slim li:last-child a{border-bottom:0}
+.morel summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:52px;border-top:1px solid var(--line);font-weight:800;font-size:15px;cursor:pointer}
+.morel summary::-webkit-details-marker{display:none}
+.morel summary .pm{width:28px;height:28px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;transition:transform .2s}
+.morel[open] summary .pm{transform:rotate(45deg);background:var(--ink);color:var(--paper)}
+.morel[open] summary{border-bottom:1px solid var(--line)}
+/* v=cards */
+.acards{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px;list-style:none;padding:0}
+.acards a{position:relative;overflow:hidden;contain:paint;display:flex;flex-direction:column;min-height:168px;border-radius:20px;padding:12px;background:var(--cat);color:#1f1410;text-decoration:none}
+.acards a .n{position:absolute;right:-.08em;bottom:-.3em;font:800 110px/1 Unbounded,sans-serif;color:var(--cat-deep);letter-spacing:-.06em;transform:rotate(-8deg)}
+.acards a small{position:relative;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.acards a b{position:relative;font:700 15px/1.22 Unbounded,"PingFang SC",sans-serif;margin-top:6px}
+.none{display:none;margin:28px 0 0;font-size:17px}
+.none.on{display:block}
+
+/* ================= CONTACT ================= */
+.quick{display:grid;gap:10px;margin-top:22px}
+.quick a{display:flex;align-items:center;gap:14px;min-height:64px;padding:10px 16px;border:2px solid var(--ink);border-radius:18px;text-decoration:none;font-weight:700;line-height:1.25}
+.quick a small{display:block;font-weight:500;font-size:14px;color:var(--ink-2)}
+.quick a .icon{color:var(--orange)}
+.quick a.urgent{background:#d9412b;border-color:#d9412b;color:#fff}
+.quick a.urgent small,.quick a.urgent .icon{color:#fff}
+.quick a>span{flex:1}
+form.cf{margin-top:8px}
+.f{display:block;margin-top:18px}
+.f>span{display:block;font-weight:700;font-size:16px;margin-bottom:6px}
+.f input,.f textarea{width:100%;min-height:56px;border:2px solid var(--ink);border-radius:16px;padding:12px 16px;background:var(--paper);font-size:17px;outline:none}
+.f textarea{min-height:150px;resize:vertical;line-height:1.5}
+.f input:focus,.f textarea:focus{box-shadow:0 0 0 3px color-mix(in srgb,var(--orange) 60%,transparent)}
+fieldset.f{border:0;padding:0;margin:18px 0 0;min-width:0}
+fieldset.f legend{font-weight:700;font-size:16px;margin-bottom:8px;padding:0}
+.radios{display:flex;flex-wrap:wrap;gap:8px}
+.radios .chip{border-color:var(--ink);flex-direction:row;align-items:center}
+.radios input{position:absolute;opacity:0;width:1px;height:1px}
+.radios .chip:has(input:focus-visible){outline:3px solid var(--focus);outline-offset:2px}
+.send{width:100%;margin-top:24px;min-height:58px;font-size:17px}
+.fine{font-size:13px;color:var(--ink-2);margin:12px 0 0}
+.sent{text-align:center;padding:30px 0 0}
+.sent .ok{width:120px;height:120px;margin:0 auto;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;transform:rotate(-8deg);box-shadow:0 0 0 6px var(--paper),0 0 0 8px var(--ink)}
+.sent .ok .icon{width:56px;height:56px;stroke-width:2.6;color:var(--orange)}
+.sent h2{font-size:28px;margin:26px 0 8px}
+.sent p{margin:0 auto;max-width:30ch;color:var(--ink-2)}
+
+/* ================= ABOUT ================= */
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);margin-top:26px}
+.facts>div{padding:10px 0 10px 12px;min-width:0}
+.facts>div:first-child{padding-left:0}
+.facts>div+div{border-left:1px solid var(--line)}
+.facts b{display:block;font-family:Unbounded,"PingFang SC",sans-serif;font-size:22px;font-weight:800;line-height:1.2;white-space:nowrap}
+.facts span{display:block;font-size:13px;color:var(--ink-2);line-height:1.25}
+.how{list-style:none;padding:0!important;margin:14px 0 0;counter-reset:h}
+.how li{counter-increment:h;position:relative;padding:14px 0 14px 54px!important;margin:0!important;border-top:1px solid var(--line)}
+.how li::before{content:counter(h,decimal-leading-zero);position:absolute;left:0;top:14px;font:800 22px/1 Unbounded,sans-serif;color:var(--orange)}
+.how li strong{display:block;font-family:Unbounded,"PingFang SC",sans-serif;font-size:17px;margin-bottom:2px}
+.fx.mini{padding:14px 16px;margin:12px 0 4px}
+.fx.mini .eq{font-size:clamp(17px,5vw,22px)}
+.box.warn{border-color:var(--orange);background:color-mix(in srgb,var(--orange) 9%,var(--paper))}
+
+/* ================= 404 ================= */
+.lost{--band-h:300px}
+.lost .mk{--ms:min(62vw,300px)}
+.lost h1{max-width:12ch}
+.url{display:inline-flex;max-width:100%;margin-top:14px;font:600 13px/1.3 ui-monospace,Menlo,monospace;background:color-mix(in srgb,#1f1410 12%,transparent);padding:6px 10px;border-radius:8px;overflow-wrap:anywhere}
+.url s{text-decoration-thickness:2px}
+.sform{display:flex;gap:8px;margin-top:22px}
+.sform label{flex:1;display:flex;align-items:center;gap:8px;height:56px;border:2px solid var(--ink);border-radius:999px;padding:0 16px;background:var(--chip);min-width:0}
+.sform input{flex:1;min-width:0;border:0;background:none;outline:none;font-size:17px;height:100%}
+.sform button{flex:none;height:56px;border-radius:999px;padding:0 20px}
+.art img{display:block;width:100%;height:auto;border-radius:20px;margin-top:6px}
+.art h1{font-size:28px;margin:22px 0 6px}
+
+/* ================= ARTICLE: title area (shell) ================= */
+.ahead{padding:6px 0 0}
+.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:14px;font-weight:700}
+.crumbs a{text-decoration:none}
+.crumbs .tag{border:2px solid #1f1410;color:#1f1410;border-radius:999px;padding:4px 12px;background:var(--cat)}
+.ahead h1{font-weight:800;font-size:clamp(30px,8.6vw,44px);line-height:1.06;letter-spacing:-.03em;margin:16px 0 0}
+:lang(zh) .ahead h1{font-weight:900;letter-spacing:0;line-height:1.2}
+.ahead .lede{margin-top:14px}
+.byline{display:flex;flex-wrap:wrap;gap:4px 14px;margin:16px 0 0;padding:12px 0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);font-size:14px;font-weight:600;color:var(--ink-2)}
+.byline span+span::before{content:"·";margin-right:14px;color:var(--ink-2)}
+.byline span:has(a){flex-basis:100%}
+.byline span:has(a)+span::before{content:none}
+.article-body h2[id=sources]+ol{font-size:15px;line-height:1.45}
+.byline a{color:var(--ink);font-weight:700}
+.band .byline{border-color:#1f1410;color:#1f1410;max-width:none}
+.band .byline a{color:#1f1410}
+.band .byline span+span::before{color:#1f1410}
+/* what comes next (shell, after the untouched body) */
+.calcta{display:grid;grid-template-columns:1fr auto;align-items:center;gap:6px 14px;background:var(--ink);color:var(--paper);border-radius:24px;padding:20px 18px;text-decoration:none;margin-top:48px}
+.calcta b{font:800 22px/1.15 Unbounded,"PingFang SC",sans-serif;letter-spacing:-.02em}
+.calcta span{grid-column:1;font-size:15px;opacity:.85}
+.calcta .go{grid-column:2;grid-row:1/span 2;width:56px;height:56px;border-radius:50%;background:var(--orange);color:#1f1410;display:grid;place-items:center}
+
+/* ================= LEGACY-COMPAT: restyles the unedited article bodies (≈30 rules, permanent; CSS-stack ticket) =================
+   Bootstrap is gone, so grid/utility classes are neutralised and the ~25 classes the bodies use get Poster styles.
+   Font Awesome is gone too: the 5 icons used in bodies become CSS masks; every other <i class="fa"> is hidden. */
+.article-body .container,.article-body .row,.article-body [class*=col-]{display:block;width:auto;max-width:none;margin:0;padding:0;flex:none}
+.article-body{font-size:18px;line-height:1.62;margin-top:28px}
+.article-body p{margin:0 0 16px}
+.article-body h2{font-size:24px;font-weight:800;letter-spacing:-.02em;line-height:1.15;margin:44px 0 12px;scroll-margin-top:76px}
+.article-body h3{font-size:19px;font-weight:700;line-height:1.25;margin:28px 0 8px}
+.article-body h4{font:800 13px/1.2 Unbounded,"PingFang SC",sans-serif;letter-spacing:.04em;text-transform:uppercase;margin:0 0 8px}
+:lang(zh) .article-body h4{text-transform:none;letter-spacing:0}
+.article-body a{font-weight:600;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--orange)}
+.article-body ul,.article-body ol{padding-left:24px;margin:0 0 18px}
+.article-body li{margin:0 0 8px}
+.article-body li::marker{color:var(--orange);font-weight:800}
+.article-body .text-center{text-align:center}
+.article-takeaway{border:2px solid var(--ink);border-radius:20px;padding:16px 18px;margin:0 0 18px;background:color-mix(in srgb,var(--orange) 10%,var(--paper));box-shadow:6px 6px 0 var(--orange)}
+.article-takeaway h4{color:var(--orange)}
+.article-takeaway p:last-child,.article-info-box p:last-child{margin:0}
+.article-takeaway p{font-size:17px;line-height:1.5}
+.article-info-box{border:2px dashed color-mix(in srgb,var(--ink-2) 70%,transparent);border-radius:20px;padding:14px 18px;margin:18px 0}
+.article-info-box p{font-size:16px;line-height:1.5;color:var(--ink-2)}
+.article-toc{background:var(--chip);border-radius:20px;padding:16px 18px 8px;margin:18px 0 26px}
+.article-toc ul{list-style:none;padding:0;margin:0;counter-reset:toc}
+.article-toc li{counter-increment:toc;margin:0;border-top:1px solid var(--line)}
+.article-toc li:first-child{border-top:0}
+.article-toc a{display:flex;gap:12px;padding:10px 0;font-size:16px;text-decoration:none;font-weight:650;line-height:1.3}
+.article-toc a::before{content:counter(toc,decimal-leading-zero);font:800 13px/1.6 Unbounded,sans-serif;color:var(--orange)}
+.table-responsive{overflow-x:auto;margin:0 0 20px}
+.article-body table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.4;margin:6px 0 20px}
+.article-body th{text-align:left;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);padding:0 10px 8px 0;border-bottom:2px solid var(--ink);vertical-align:bottom}
+.article-body td{padding:11px 10px 11px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.article-body td:first-child{font-weight:700}
+.article-body .btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:6px 22px;border:2px solid var(--ink);border-radius:16px;font-weight:700;font-size:16px;text-decoration:none;color:var(--ink);background:var(--paper)}
+.article-body .btn-danger{background:#d9412b;border-color:#d9412b;color:#fff}
+.article-body .text-center .btn{width:100%;margin:24px 0 0}
+.related-articles,.article-related{margin-top:40px}
+.related-articles h3,.article-related h3{font-size:22px;font-weight:800;margin:0 0 12px}
+.related-articles .row{display:grid!important;gap:10px}
+.related-articles .card{position:relative;border:2px solid var(--ink);border-radius:18px;padding:14px 16px}
+.related-articles .card-title{font:700 16px/1.25 Unbounded,"PingFang SC",sans-serif;margin:0 0 6px}
+.related-articles .card-title a{text-decoration:none;font-weight:700}
+.related-articles .card-title a::after{content:"";position:absolute;inset:0}
+.related-articles .card-text{margin:0;font-size:15px;line-height:1.4;color:var(--ink-2)}
+.article-related-card{display:flex;align-items:center;min-height:56px;padding:10px 16px;margin-top:10px;border:2px solid var(--ink);border-radius:16px;text-decoration:none!important}
+.harm-reduction-box{margin:16px 0 22px}
+.harm-reduction-box .row{display:grid!important;gap:12px}
+.harm-reduction-box .col-md-6{border:2px solid var(--ink);border-radius:20px;padding:14px 16px 4px}
+.harm-reduction-box .col-md-6:first-child{background:color-mix(in srgb,#5cc48a 14%,var(--paper))}
+.harm-reduction-box .col-md-6:last-child{background:color-mix(in srgb,#d9412b 10%,var(--paper))}
+.harm-reduction-box .title{font:800 18px/1 Unbounded,sans-serif;margin:0 0 10px}
+.fa-ul{list-style:none;padding:0!important;margin:0!important}
+.fa-ul li{position:relative;padding-left:30px}
+.fa-ul li p{margin:0 0 10px;font-size:16px;line-height:1.45}
+.fa-li{position:absolute;left:0;top:3px}
+.article-supplies{border:2px solid var(--ink);border-radius:20px;padding:16px 18px 6px;margin:18px 0}
+.article-supplies h3{margin:0 0 10px}
+.article-supplies ul{list-style:none;padding:0}
+.article-supplies li{display:flex;gap:10px;align-items:baseline}
+.article-step{display:grid;grid-template-columns:44px 1fr;gap:14px;margin:18px 0}
+.article-step-number{width:44px;height:44px;border-radius:50%;background:var(--orange);color:#1f1410;display:grid;place-items:center;font:800 18px/1 Unbounded,sans-serif}
+.article-step-content h3{margin-top:8px}
+.article-body i.fa{display:none}
+.article-body i.fa:is(.fa-check,.fa-ban,.fa-star,.fa-lightbulb,.fa-info-circle){display:inline-block;width:1.05em;height:1.05em;flex:none;vertical-align:-.15em;margin-right:.35em;background:currentColor;-webkit-mask:var(--ico) center/contain no-repeat;mask:var(--ico) center/contain no-repeat}
+.fa-check{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12.5 4.5 4.5L19 7.5'/%3E%3C/svg%3E");color:#2f9660}
+.fa-ban{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.6' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='m5.6 5.6 12.8 12.8'/%3E%3C/svg%3E");color:#d9412b}
+.fa-star{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5-4.8-4.6 6.6-.9Z'/%3E%3C/svg%3E")}
+.fa-lightbulb{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z'/%3E%3C/svg%3E")}
+.fa-info-circle{--ico:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23000' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M12 11v6M12 7.5h.01'/%3E%3C/svg%3E")}
+.article-takeaway .fa,.article-info-box .fa{color:var(--orange)}
+@media (min-width:640px){.related-articles .row{grid-template-columns:repeat(3,1fr)}.harm-reduction-box .row{grid-template-columns:1fr 1fr}.article-body .text-center .btn{width:auto}}
+
+/* ================= DONATE ================= */
+.paypal{width:100%;min-height:60px;margin-top:22px;font-size:17px}
+.thanks{font-size:15px;color:var(--ink-2);text-align:center;margin:14px 0 0}
+
+/* ================= TABLET 640–999px: still the phone's single column (calculator + peek), just roomier ================= */
+@media (min-width:640px) and (max-width:999px){
+  .wrap{max-width:760px;padding:0 32px}
+  .band{margin:0;border-radius:28px;padding:30px 32px 36px;--ms:300px}
+  .band h1{font-size:46px;max-width:16ch}
+  .band .deck{font-size:18px;max-width:36ch}
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .g4,.start{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .acards{grid-template-columns:repeat(3,1fr)}
+  .quick{grid-template-columns:repeat(3,1fr)}
+  .quick a{flex-direction:column;align-items:flex-start;padding:14px 16px}
+  .quick a>.icon:last-child{display:none}
+  .topics{margin:18px 0 0;padding:2px 0;flex-wrap:wrap}
+  .ftr .cols{grid-template-columns:repeat(3,1fr)}
+}
+
+/* ================= DESKTOP ≥1000px ================= */
+@media (min-width:1000px){
+  .wrap{max-width:1160px;padding:0 32px}
+  .band{margin:0;border-radius:28px;padding:36px 40px 44px;--ms:340px}
+  .band h1{font-size:52px;max-width:16ch}
+  .band .deck{font-size:18px;max-width:40ch}
+  .col{max-width:720px;margin:0 auto}
+  .page{display:grid;grid-template-columns:minmax(0,1fr) 380px;column-gap:56px;margin-top:32px}
+  .page>*{grid-column:1}
+  .page>.rail{grid-column:2;grid-row:1/span 40;align-self:start;position:sticky;top:calc(var(--res-top) + 24px);transition:top .22s ease}
+  #dose{margin-top:0}
+  .page .rail .peek{display:none}
+  /* compact rail (recipe-final Q3) */
+  .rail .res{padding:12px 16px 14px}.rail .big .mg{font-size:44px}.rail .lad{margin:16px 0 6px;height:10px}.rail .lvl span{font-size:13px}
+  .rail .split{margin-top:10px;padding:8px 12px;font-size:14px}.rail .ins{padding:0 16px 6px}.rail .row{padding:10px 0}.rail .q{font-size:14px;margin:0 0 6px}
+  .rail .stepper{gap:6px}.rail .rnd{width:40px;height:40px}.rail .fld{height:44px;border-radius:12px}.rail .fld input{font-size:20px;line-height:42px}
+  .rail .fld .u{min-width:0;font-size:13px}.rail .chips{margin:8px -16px 0;padding:0 16px}.rail .chip{min-height:34px;padding:0 10px;font-size:13px}.rail .chip small{display:none}.rail .cfoot{padding:8px 16px 12px;font-size:14px}
+  .grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .start{grid-template-columns:repeat(4,1fr)}
+  .start a{min-height:190px}
+  .acards{grid-template-columns:repeat(4,1fr)}
+  .tsecs{columns:2;column-gap:48px}
+  .tsec{break-inside:avoid;margin-top:0;padding-top:40px}
+  .asearch{max-width:560px}
+  .topics{margin:18px 0 0;padding:2px 0;flex-wrap:wrap}
+  .quick{grid-template-columns:repeat(3,1fr)}
+  .lost{--band-h:360px}
+  .lost .mk{--ms:420px}
+  .ftr .cols{grid-template-columns:repeat(4,1fr)}
+  .ftr h4{grid-column:auto}
+}
+
+/* ---------- prototype switcher (deliberately off-brand) ---------- */
+#bar{position:fixed;left:8px;right:8px;bottom:max(8px,env(safe-area-inset-bottom));z-index:99;background:#202124;color:#fff;border-radius:14px;padding:6px;display:flex;flex-wrap:wrap;gap:5px;font:12px/1 -apple-system,system-ui,sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.35);max-height:46vh;overflow:auto}
+#bar .grp{display:flex;align-items:center;background:#3c4043;border-radius:9px;padding:2px}
+#bar .grp>i{font-style:normal;color:#9aa0a6;padding:0 6px 0 4px}
+#bar button{border:0;background:none;color:#e8eaed;padding:8px 7px;border-radius:7px;cursor:pointer;white-space:nowrap}
+#bar button[aria-pressed=true]{background:#fff;color:#202124;font-weight:600}
+#bar button:disabled{opacity:.35}
+#bar .m{width:100%;color:#fdd663;padding:4px 4px 2px;font:11px/1.3 ui-monospace,Menlo,monospace}
+#bar .min{margin-left:auto}
+body.barmin #bar>:not(.min){display:none}
+body.shot #bar{display:none}
+#fold{position:absolute;left:0;right:0;top:664px;z-index:98;border-top:2px dashed #e0245e;pointer-events:none}
+#fold span{position:absolute;right:6px;top:2px;font:600 11px/1 system-ui;color:#fff;background:#e0245e;padding:3px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<div id="sprite" hidden></div>
+<div id="app"></div>
+<div id="bar" role="toolbar" aria-label="Prototype controls"></div>
+<script src="../_prototype-strings/strings.js"></script>
+<script>
+const ROOT = "../";
+const P = new URLSearchParams(location.search);
+const S = { page: "calc", lang: "en", theme: "light", fold: "0", v: "mix", v404: "poster", sent: "0", path: "/recipes/easy-weed-brownies-recipe/", art: "sleep", ahead: "plain" };
+for (const k in S) if (P.has(k)) S[k] = P.get(k);
+if (P.has("shot")) document.body.classList.add("shot");
+const EN_ONLY = ["contact", "about"]; // these two only exist in English today
+
+// [cover, deep, cover dark, deep dark] — same pairs as the homepage/recipe prototypes
+const CAT = {
+  Desserts: ["#f27242", "#c9532a", "#e0673b", "#a8431f"], Essentials: ["#f4c542", "#d89f12", "#dcb03a", "#ad7f0c"],
+  Drinks: ["#62b6e8", "#2f86bd", "#4f9fd0", "#24688f"], Snacks: ["#f29cb7", "#d4668a", "#d9879f", "#a94d6c"],
+  Lunch: ["#d9b38c", "#a8835a", "#c29e79", "#836343"], Keto: ["#b3a1e6", "#7f69c4", "#9b8ad0", "#5f4ca0"],
+  Vegan: ["#5cc48a", "#2f9660", "#4caf78", "#22744a"], International: ["#3fb5b0", "#1f8580", "#349e99", "#166662"],
+};
+// NEW: article topics borrow the 8 category colours (no new palette). Keyed by the English topic name in articles.html.
+const TOPIC = { Edibles: "Desserts", Health: "Vegan", Wellness: "Keto", Topicals: "Snacks", Culture: "Lunch", Legalization: "International", Industry: "International", Guides: "Essentials", Science: "Drinks" };
+// translated topic labels in /{lang}/articles.html → English key
+const TOPIC_ALIAS = { Gesundheit: "Health", Kultur: "Culture", Legalisierung: "Legalization", Industrie: "Industry", Ratgeber: "Guides", Wissenschaft: "Science",
+  Saúde: "Health", "Bem-estar": "Wellness", Tópicos: "Topicals", Cultura: "Culture", Legalização: "Legalization", Indústria: "Industry", Guias: "Guides", Ciência: "Science", Comestíveis: "Edibles",
+  健康: "Health", 养生: "Wellness", 外用: "Topicals", 文化: "Culture", 合法化: "Legalization", 行业: "Industry", 指南: "Guides", 科学: "Science", 食品: "Edibles", 大麻食品: "Edibles", 局部用品: "Topicals", 产业: "Industry", 健康养生: "Wellness" };
+const START = ["cannabis-edibles-for-beginners", "how-long-do-edibles-take-to-kick-in", "how-a-cannabis-calculator-works", "how-to-prevent-a-bad-trip"];
+
+const I = {
+  search: '<svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+  menu: '<svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>',
+  arr: '<svg class="icon" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+  warn: '<svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.5h.01"/></svg>',
+  plus: '<svg class="icon" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M12 5v14M5 12h14"/></svg>',
+  minus: '<svg class="icon" viewBox="0 0 24 24"><path d="M6 12h12"/></svg>',
+  plusB: '<svg class="icon" viewBox="0 0 24 24"><path d="M12 6v12M6 12h12"/></svg>',
+  life: '<svg class="icon" viewBox="0 0 24 24" style="width:20px;height:20px"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="m5.6 5.6 3.6 3.6M14.8 14.8l3.6 3.6M18.4 5.6l-3.6 3.6M9.2 14.8l-3.6 3.6"/></svg>',
+  calc: '<svg class="icon" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="3"/><path d="M8.5 7.5h7M9 12h.01M12 12h.01M15 12h.01M9 15.5h.01M12 15.5h.01M15 15.5h.01"/></svg>',
+  pen: '<svg class="icon" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16v4ZM13.5 6.5l4 4"/></svg>',
+  check: '<svg class="icon" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>',
+  shield: '<svg class="icon" viewBox="0 0 24 24"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-3Z"/></svg>',
+};
+
+// Shell strings (navigation prototype drafts + de) and the NEW strings of these pages. es still missing (i18n fog).
+const T = T5({
+per: "calc.per", batch: "calc.batch", inBatch: "calc.in_batch(mg)", g: "calc.g", thc: "calc.thc", serv: "calc.serving/calc.servings(n)", oz: "calc.oz", avg: "calc.average",
+reset: "calc.reset", beg: "calc.beginner", begL: "calc.beginner_link", help: "shell.help",
+split: "calc.split(f,t)", cut: "calc.cut(n)", tooStrong: "calc.too_strong",
+search: "shell.search_pill(n)", recipes: "shell.recipes", learn: "shell.learn", more: "shell.more", learnL: "shell.learn_links", moreL: "shell.more_links", legal: "shell.legal",
+calcEyebrow: "calcpage.eyebrow", updated: "calcpage.updated(date)", dose: "calc.your_dose", guideS: "calcpage.guide_sub", you: "calcpage.you",
+fxT: "calcpage.fx_title", fxS: "calcpage.fx_sub", fxG: "calcpage.fx_g", fxS2: "calcpage.fx_s", fxE: "calcpage.fx_e", fxN: "calcpage.fx_n", fxP: "calcpage.fx_p",
+exT: "calcpage.ex_title", ex: "calcpage.ex", exYou: "calcpage.ex_yours", allR: "shell.all_recipes",
+artEyebrow: "shell.learn", artT: "articles.h1", artDeck: "articles.deck", artSearch: "articles.search", all: "articles.all",
+count: "articles.n(n)", start: "articles.start", none: "articles.none", seeAll: "articles.see_all(n)",
+nextQ: "article.next_q", nextS: "article.next_sub", first: "article.first_batch",
+lostEyebrow: "e404.eyebrow", lostT: "e404.title", lostDeck: "e404.deck", lostLooking: "e404.looking", lostPopular: "e404.popular",
+lostSearch: "e404.search", go: "shell.search", home: "shell.all_recipes", calcB: "shell.calc_card",
+free: "donate.mark", facts: "donate.facts",
+pill: "shell.search_short",
+});
+const LANGS = [["en", "EN"], ["pt", "PT"], ["es", "ES"], ["de", "DE"], ["zh", "中文"]];
+
+// ---------- the one formula, the one ladder, the one 5 mg helper (same as recipe-final) ----------
+const EFF = 0.8;
+const mgOf = (x) => (10 * x.g * x.s * EFF) / x.n;
+const LEVELS = [["microdose", 0, 2.5, "#8fd6a9"], ["beginner", 2.5, 5, "#5cc48a"], ["casual", 5, 15, "#f4c542"], ["experienced", 15, 30, "#f29a42"], ["high", 30, 50, "#f27242"], ["extreme", 50, 80, "#d9412b"]];
+const RANGES = ["1–2.5 mg", "2.5–5 mg", "5–15 mg", "15–30 mg", "30–50 mg", "50+ mg"];
+const lvlIdx = (mg) => { const i = LEVELS.findIndex((l) => mg <= l[2]); return i < 0 ? 5 : i; };
+const FRACS = [[1 / 2, "½", "半"], [1 / 3, "⅓", "三分之一"], [1 / 4, "¼", "四分之一"], [1 / 6, "⅙", "六分之一"], [1 / 8, "⅛", "八分之一"], [1 / 10, "1/10", "十分之一"], [1 / 12, "1/12", "十二分之一"]];
+const fiveMg = (mg) => { if (mg <= 5) return { one: true }; const f = FRACS.find(([v]) => v <= 5 / mg); return f ? { f: S.lang === "zh" ? f[2] : f[1], mg: mg * f[0] } : { tooStrong: true }; };
+const LIM = { g: [0.1, 28, 0.5], s: [1, 99, 1], n: [1, 200, 1] };
+const clamp = (k, v) => Math.min(LIM[k][1], Math.max(LIM[k][0], v));
+const DEF = { g: 3.5, s: 14, n: 50 }; // calculator.html defaults today
+let x = { ...DEF };
+
+// ---------- data (real files) ----------
+let D = null;
+async function load(L) {
+  const j = (p) => fetch(p).then((r) => r.json());
+  const txt = (p) => fetch(p).then((r) => r.text());
+  const [rec, ui, tr, glyph, sprite, artHTML] = await Promise.all([j(ROOT + "data/recipes.json"), j(`${ROOT}i18n/${L}.json`), L === "en" ? null : j(`${ROOT}i18n/recipes_${L}.json`),
+    j("glyphs.json"), txt("sprite.svg"), txt(L === "en" ? ROOT + "articles.html" : `${ROOT}${L}/articles.html`)]);
+  document.getElementById("sprite").innerHTML = sprite;
+  // the articles index is parsed from the real (current) articles.html of that language
+  const doc = new DOMParser().parseFromString(artHTML, "text/html");
+  const arts = [...doc.querySelectorAll("a.article-card")].map((a) => { const lab = a.querySelector(".card-category")?.textContent.trim() || "";
+    return { href: a.getAttribute("href"), slug: a.getAttribute("href").replace(/^.*\/|\.html$/g, ""), label: lab, topic: TOPIC[lab] ? lab : TOPIC_ALIAS[lab] || "Guides", title: a.querySelector("h2")?.textContent.trim(), ex: a.querySelector("p")?.textContent.trim() || "" }; });
+  D = { rec, ui, tr, glyph, c: ui.calculator, faq: ui.faq, arts, lang: L };
+}
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const nf = (v, d) => new Intl.NumberFormat(S.lang === "zh" ? "zh-CN" : S.lang, { maximumFractionDigits: d }).format(v);
+const fmtMg = (mg) => nf(mg, mg >= 10 ? 0 : 1);
+const fmtG = (g) => nf(g, g < 1 ? 2 : 1);
+const parse = (s) => parseFloat(String(s).replace(",", "."));
+const pre = () => (S.lang === "en" ? "" : "/" + S.lang);
+const t = () => T[S.lang];
+const nameOf = (slug) => D.tr?.[slug]?.name || D.rec.recipes.find((r) => r.slug === slug).name;
+function seed(slug) { let h = 2166136261; for (const c of slug) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return (n) => ((h = Math.imul(h ^ (h >>> 15), 2246822507) ^ n) >>> 0) / 4294967296; }
+const place = (slug) => { const r = seed(slug); return { gs: `${90 + r(1) * 14}%`, gx: `${-12 - r(2) * 16}%`, gy: `${-12 - r(3) * 16}%`, gr: `${-20 + r(4) * 30}deg` }; };
+const vars = (cat, pl = {}) => { const [c, d, cd, dd] = CAT[cat]; return `--cat-lt:${c};--deep-lt:${d};--cat-dk:${cd};--deep-dk:${dd};` + Object.entries(pl).map(([k, v]) => `--${k}:${v}`).join(";"); };
+const cover = (slug, cat, inner = "") => `<span class="cv" style="${vars(cat, place(slug))}" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#g-${D.glyph[slug] || "bowl"}"/></svg>${inner}</span>`;
+function card(r) {
+  const mg = (10 * r.suggested_quantity * 14 * EFF) / r.suggested_portion;
+  return `<a class="card" href="${pre()}/recipes/${r.slug}/">${cover(r.slug, r.category_name, `<span class="dot" title="${fmtMg(mg)} mg THC ${t().per}"><b>${fmtMg(mg)}</b><small>mg</small></span>`)}<span class="nm">${esc(nameOf(r.slug))}</span></a>`;
+}
+const R = (slug) => D.rec.recipes.find((r) => r.slug === slug);
+// band: colour block + oversized cropped typographic mark (the non-recipe "cover")
+const band = (cat, mark, inner, cls = "", mk = {}) => `<header class="band ${cls}" style="${vars(cat, mk)}"><span class="mk" aria-hidden="true">${mark}</span>${inner}</header>`;
+
+// ---------- shell ----------
+function shell(main) {
+  const LOGO = `${ROOT}images/howtoedibleslogo.png`;
+  const mini = `<div class="mini" id="mini"><div class="wrap"><img class="logo" src="${LOGO}" alt="" width="260" height="93"><span class="spill">${I.search}<span>${t().pill}</span></span><span class="ibtn">${I.menu}</span></div></div>`;
+  const masthead = `<header class="hdr"><img class="logo" src="${LOGO}" alt="HowToEdibles" width="260" height="93"><div class="tools"><span class="ibtn">${I.search}</span><span class="ibtn">${I.menu}</span></div></header>`;
+  const cats = Object.keys(CAT);
+  const footer = `<footer class="ftr"><div class="wrap"><nav class="cols"><div><h4>${t().recipes}</h4>${cats.map((n) => `<a href="#">${D.ui.categories[n]}</a>`).join("")}</div>
+      <div><h4>${t().learn}</h4>${t().learnL.map((l) => `<a href="#">${l}</a>`).join("")}<a href="#">${t().help}</a></div>
+      <div><h4>${t().more}</h4>${t().moreL.map((l) => `<a href="#">${l}</a>`).join("")}</div></nav>
+      <div class="langs">${LANGS.map(([l, n]) => `<a href="#" lang="${l}" ${l === S.lang ? 'aria-current="true"' : ""}>${n}</a>`).join("")}</div><p>${t().legal}</p></div></footer>`;
+  return `${mini}<div class="wrap">${masthead}<main>${main}</main></div>${footer}${S.fold === "1" ? '<div id="fold"><span>Safari first screen · 664px</span></div>' : ""}`;
+}
+
+// ================= calculator.html =================
+const Q = (k) => (k === "g" ? D.c.weed_quantity : k === "s" ? D.c.weed_strength : D.c.portions_question);
+const unit = (k) => (k === "g" ? t().g : k === "s" ? "% " + t().thc : t().serv(x.n));
+function presets(k) {
+  if (k === "g") return [[3.5, t().oz[0]], [7, t().oz[1]], [14, t().oz[2]], [28, t().oz[3]]].map(([v, l]) => [v, `${fmtG(v)} g`, l]);
+  if (k === "s") return [[8, D.c.potency_low], [14, t().avg], [22, D.c.potency_high], [60, D.c.potency_concentrates]].map(([v, l]) => [v, `${v}%`, l]);
+  return [[12, "12", ""], [24, "24", ""], [50, "50", ""], [100, "100", ""]];
+}
+const chipRow = (k) => `<div class="chips" role="group" aria-label="${esc(Q(k))}">${presets(k).map(([v, a, b]) => `<button type="button" class="chip" data-k="${k}" data-v="${v}" aria-pressed="${x[k] === v}">${a}${b ? `<small>${esc(b)}</small>` : ""}</button>`).join("")}</div>`;
+const field = (k) => `<div class="stepper"><button type="button" class="rnd" data-step="${k}" data-d="-1" aria-label="−">${I.minus}</button>
+  <label class="fld"><input data-in="${k}" inputmode="decimal" enterkeyhint="done" autocomplete="off" value="${k === "g" ? fmtG(x.g) : x[k]}" aria-label="${esc(Q(k))}"><span class="u" data-unit="${k}">${unit(k)}</span></label>
+  <button type="button" class="rnd" data-step="${k}" data-d="1" aria-label="+">${I.plusB}</button></div>`;
+function splitHTML(mg) {
+  const h = fiveMg(mg), cut = Math.ceil((10 * x.g * x.s * EFF) / 5);
+  if (h.one) return "";
+  return h.f ? `<p class="split">${t().split(h.f, nf(5, 1))}<small>${t().cut(cut)}</small></p>` : `<p class="split bad">${t().tooStrong}<small>${t().cut(cut)}</small></p>`;
+}
+function liveHTML(mg) {
+  const i = lvlIdx(mg), [, lo, hi] = LEVELS[i], pos = ((i + Math.min(1, Math.max(0, (mg - lo) / (hi - lo)))) / 6) * 100;
+  return `<div class="big"><div><span class="mg">${fmtMg(mg)}<small> mg</small></span><span class="lbl">${t().per}</span></div><div class="tot"><b>${fmtMg(mg * x.n)} mg</b>${t().batch}</div></div>
+    <div class="lad" aria-hidden="true">${LEVELS.map((l, j) => `<i style="--c:${l[3]}" class="${j === i ? "on" : ""}"></i>`).join("")}<span class="mk" style="left:${pos}%"></span></div>
+    <div class="lvl"><b>${D.c["dosage_" + LEVELS[i][0]]}</b><span>${RANGES[i]} · ${D.c["dosage_" + LEVELS[i][0] + "_desc"]}</span></div>${splitHTML(mg)}`;
+}
+const peekHTML = (mg) => { const i = lvlIdx(mg); return `<b>${fmtMg(mg)}<small> mg</small></b><span>${D.c["dosage_" + LEVELS[i][0]]}<small>${t().per} · ${t().inBatch(fmtMg(mg * x.n))}</small></span>`; };
+const yourEq = () => `10 × ${fmtG(x.g)} × ${nf(x.s, 1)} × ${nf(0.8, 2)} ÷ ${x.n} = <b>${fmtMg(mgOf(x))} mg</b>`;
+// live pages today print the old formula (no ×0.8, "= 35 mg") in pt/es/de/zh: fix it here so the prototype shows the target copy
+const fixA3 = (a) => a.replace(/10 ×\s*[（(]G × S[）)]\s*\/\s*N/, "10 × G × S × 0,8 / N").replace(/\b35(\s*(mg|毫克))/, "28$1");
+
+function pageCalc() {
+  const c = D.c, mg = mgOf(x), cur = lvlIdx(mg);
+  const head = band("Desserts", "mg", `<span class="eyebrow">${t().calcEyebrow}</span><h1>${c.calc_page_title}</h1><p class="meta">${t().updated(new Intl.DateTimeFormat(S.lang === "zh" ? "zh-CN" : S.lang, { month: "long", year: "numeric" }).format(new Date(2026, 2)))}</p>`, "over", { ms: "210px", my: "18px", mx: "-.06em" });
+  const card_ = `<div class="rail"><section id="dose" aria-label="${t().dose}"><div class="calc" id="calc"><div class="peek" aria-hidden="true" id="peek">${peekHTML(mg)}</div><div class="res" aria-live="polite" id="live">${liveHTML(mg)}</div>
+      <div class="ins">${["g", "s", "n"].map((k) => `<div class="row"><label class="q">${esc(Q(k))}</label>${field(k)}${chipRow(k)}</div>`).join("")}</div>
+      <div class="cfoot"><a href="#guide">${D.c.dosage_guide_title}</a><button type="button" class="reset" data-reset hidden>${t().reset}</button></div></div>
+      <p class="beg"><span class="hl">${t().beg}</span> <a href="${pre()}/cannabis-edibles-for-beginners.html">${t().begL}</a></p>
+      <a class="help" href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener">${I.life}${t().help}</a></section></div>`;
+  const intro = `<p class="lede">${c.calc_page_intro}</p>`;
+  const table = `<section class="block" id="guide"><h2>${c.dosage_guide_title || D.c.dosage_guide_title}</h2><p class="hint">${t().guideS}</p>
+      <table class="dt"><thead><tr><th>${D.c.dosage_level}</th><th>${D.c.dosage_per_serving}</th><th>${D.c.dosage_effects}</th></tr></thead><tbody>
+      ${LEVELS.map((l, i) => `<tr data-lvl="${i}" style="--c:${l[3]}"${i === cur ? ' aria-current="true"' : ""}><td>${c["dosage_" + l[0]]}${i === cur ? `<span class="you">${t().you}</span>` : ""}</td><td>${RANGES[i]}</td><td>${c["dosage_" + l[0] + "_desc"]}</td></tr>`).join("")}</tbody></table></section>`;
+  const fx = `<section class="block" id="formula"><h2>${t().fxT}</h2><p class="hint">${t().fxS}</p>
+      <div class="fx"><div class="eq" aria-label="P = 10 × G × S × 0.8 ÷ N"><span>P</span><span>=</span><span>10</span><span>×</span><i>G</i><span>×</span><i>S</i><span>×</span><i>${nf(0.8, 2)}</i><span>÷</span><i>N</i></div>
+      <dl><dt>G</dt><dd>${t().fxG}</dd><dt>S</dt><dd>${t().fxS2}</dd><dt>${nf(0.8, 2)}</dt><dd>${t().fxE}</dd><dt>N</dt><dd>${t().fxN}</dd><dt>P</dt><dd>${t().fxP}</dd></dl></div>
+      <div class="ex"><small>${t().exT} · ${t().ex}</small><p>10 × ${nf(3.5, 1)} × 20 × ${nf(0.8, 2)} ÷ 20 = <b>28 mg</b></p></div>
+      <div class="ex live"><small>${t().exYou}</small><p data-o="eq">${yourEq()}</p></div>
+      <p style="margin:14px 0 0"><a href="${pre()}/how-a-cannabis-calculator-works.html" style="font-weight:700">${c.how_math_works}</a></p></section>`;
+  const how = `<section class="block"><h2>${c.how_to_use_title}</h2><ol class="steps">${[1, 2, 3, 4].map((i) => `<li><span>${c["how_to_step_" + i]}</span></li>`).join("")}</ol></section>`;
+  const tryR = `<section class="block"><div class="bh"><h2>${D.c.try_recipe_title}</h2><a href="${pre()}/" style="font-weight:700">${t().allR} →</a></div><p class="hint">${D.c.try_recipe_sub}</p>
+      <div class="grid">${["cannabutter", "infused-coconut-oil", "gummy-bears", "pot-cookies", "pot-brownies", "infused-lemonade"].map(R).filter(Boolean).map(card).join("")}</div></section>`;
+  const faqs = [1, 2, 3, 4, 5, 6].map((i) => [D.faq["q" + i], i === 3 && S.lang !== "en" ? fixA3(D.faq.a3) : D.faq["a" + i]]).filter(([q]) => q);
+  if (S.lang === "en") faqs[2][1] = "Use the formula: P = 10 × G × S × 0.8 / N, where G = grams of cannabis, S = potency percentage, N = number of servings, P = mg of THC per serving, and 0.8 accounts for the roughly 20% of THC lost during decarboxylation and infusion. For example, 3.5g of 20% cannabis divided into 20 servings = 28 mg each."; // = live calculator.html copy
+  const faq = `<section class="block"><h2>${c.faq_title}</h2><div style="margin-top:12px">${faqs.map(([q, a]) => `<details class="acc"><summary>${esc(q)}<span class="pm">${I.plus}</span></summary><div class="body"><p>${esc(a)}</p></div></details>`).join("")}</div>
+      <div class="box"><h3>${I.shield}${t().fxP.split(" ")[0] === "mg" ? "" : ""}${c.safety_note.split(/[.。]/)[0]}.</h3><p>${c.safety_note.split(/(?<=[.。])\s*/).slice(1).join(" ")}</p></div></section>`;
+  return head + `<div class="page">${[card_, intro, table, fx, how, tryR, faq].join("")}</div>`;
+}
+
+// ================= articles.html =================
+function pageArticles() {
+  const A = D.arts, topics = [...new Set(A.map((a) => a.topic))];
+  const order = ["Edibles", "Health", "Guides", "Wellness", "Science", "Topicals", "Culture", "Legalization", "Industry"].filter((k) => topics.includes(k));
+  const lab = (k) => A.find((a) => a.topic === k)?.label || k;
+  const head = band("Desserts", nf(A.length, 0), `<span class="eyebrow">${t().artEyebrow}</span><h1>${t().artT}</h1><p class="deck">${t().artDeck}</p>`, "", { ms: "300px", my: "-.3em", mx: "-.02em", mr: "-6deg" });
+  const search = `<label class="asearch">${I.search}<input type="search" id="aq" placeholder="${t().artSearch}" aria-label="${t().artSearch}" autocomplete="off" enterkeyhint="search"></label>`;
+  const chips = `<div class="topics" role="group"><button type="button" class="chip" data-topic="" aria-pressed="true"><span>${t().all}<em>${A.length}</em></span></button>${order.map((k) => `<button type="button" class="chip tone" style="${vars(TOPIC[k])}" data-topic="${k}" aria-pressed="false"><span><i></i>${esc(lab(k))}<em>${A.filter((a) => a.topic === k).length}</em></span></button>`).join("")}</div>`;
+  const st = START.map((s) => A.find((a) => a.slug === s)).filter(Boolean);
+  const start = `<section class="block" id="start"><h2>${t().start}</h2><div class="start">${st.map((a, i) => `<a class="tone" style="${vars(TOPIC[a.topic])}" href="${a.href}"><span class="n" aria-hidden="true">${i + 1}</span><b>${esc(a.title)}</b><small>${esc(a.label)}</small></a>`).join("")}</div></section>`;
+  const row = (a) => `<li data-t="${a.topic}" data-s="${esc((a.title + " " + a.ex).toLowerCase())}"><a class="tone" style="${vars(TOPIC[a.topic])}" href="${a.href}"><b>${esc(a.title)}</b><span>${esc(a.ex)}</span></a></li>`;
+  const tile = (a) => `<li data-t="${a.topic}" data-s="${esc((a.title + " " + a.ex).toLowerCase())}"><a class="tone" style="${vars(TOPIC[a.topic])}" href="${a.href}"><span class="n" aria-hidden="true">${esc(a.title.trim()[0])}</span><small>${esc(a.label)}</small><b>${esc(a.title)}</b></a></li>`;
+  // v=mix (owner: "cards for highlight, the list felt crowded"): per topic, the lead article as a colour card,
+  // then title-only rows, 3 visible + the rest in a native <details> (still static HTML, still crawlable)
+  const sd = (a) => `data-t="${a.topic}" data-s="${esc((a.title + " " + a.ex).toLowerCase())}"`;
+  const lead = (a) => `<li ${sd(a)}><a class="lead tone" style="${vars(TOPIC[a.topic])}" href="${a.href}"><span class="n" aria-hidden="true">${esc(a.title.trim()[0])}</span><b>${esc(a.title)}</b><span>${esc(a.ex)}</span></a></li>`;
+  const slim = (a) => `<li ${sd(a)}><a href="${a.href}"><b>${esc(a.title)}</b>${I.arr}</a></li>`;
+  const SEE = t().seeAll;
+  const mixSec = (k) => { const L = A.filter((a) => a.topic === k), [first, ...rest] = L, vis = rest.slice(0, 3), more = rest.slice(3);
+    return `<section class="tsec tone" style="${vars(TOPIC[k])}" data-sec="${k}"><h2><i></i>${esc(lab(k))}<em>${L.length}</em></h2><ul class="leadl">${lead(first)}</ul>
+      ${vis.length ? `<ul class="alist slim">${vis.map(slim).join("")}</ul>` : ""}${more.length ? `<details class="morel"><summary>${SEE(L.length)}<span class="pm">${I.plus}</span></summary><ul class="alist slim">${more.map(slim).join("")}</ul></details>` : ""}</section>`; };
+  const secs = S.v === "cards"
+    ? `<ul class="acards" id="alist">${order.flatMap((k) => A.filter((a) => a.topic === k)).map(tile).join("")}</ul>`
+    : S.v === "mix" ? `<div class="tsecs" id="alist">${order.map(mixSec).join("")}</div>`
+    : `<div class="tsecs" id="alist">${order.map((k) => `<section class="tsec tone" style="${vars(TOPIC[k])}" data-sec="${k}"><h2><i></i>${esc(lab(k))}<em>${A.filter((a) => a.topic === k).length}</em></h2><ul class="alist">${A.filter((a) => a.topic === k).map(row).join("")}</ul></section>`).join("")}</div>`;
+  return head + search + chips + `<p class="count" id="acount">${t().count(A.length)}</p>` + start + `<section class="block" style="margin-top:8px">${secs}<p class="none" id="anone">${t().none}</p></section>`;
+}
+function filterArticles() {
+  const q = (document.getElementById("aq")?.value || "").trim().toLowerCase(), tp = document.querySelector(".topics .chip[aria-pressed=true]")?.dataset.topic || "";
+  let n = 0;
+  document.querySelectorAll("#alist li").forEach((li) => { const on = (!tp || li.dataset.t === tp) && (!q || li.dataset.s.includes(q)); li.hidden = !on; n += on; });
+  document.querySelectorAll("#alist .tsec").forEach((s) => (s.hidden = !s.querySelector("li:not([hidden])")));
+  document.querySelectorAll("#alist .morel").forEach((d) => { d.open = !!(q || tp); d.hidden = !d.querySelector("li:not([hidden])"); });
+  document.getElementById("start").hidden = !!(q || tp);
+  document.getElementById("acount").textContent = t().count(n);
+  document.getElementById("anone").classList.toggle("on", n === 0);
+}
+
+// ================= contact.html (English only today) =================
+function pageContact() {
+  const head = band("Snacks", "@", `<span class="eyebrow">Contact</span><h1>Talk to us</h1><p class="deck">A question, a recipe idea, or a mistake we should fix. We read every message.</p>`, "", { ms: "300px", my: "-.18em", mx: "-.04em", mr: "-10deg" });
+  if (S.sent === "1") return head + `<div class="col"><div class="sent"><div class="ok">${I.check}</div><h2>Message sent!</h2><p>Thanks for writing. We'll get back to you as soon as we can.</p>
+      <div class="btns"><a class="btn" href="?page=contact">Send another</a><a class="btn pri" href="/">Browse recipes</a></div></div></div>`;
+  const topics = ["Question", "Recipe suggestion", "Correction", "Feedback", "Bug report", "Other"];
+  return head + `<div class="col">
+    <div class="quick">
+      <a class="urgent" href="https://bit.ly/helpimhavingabadtrip" target="_blank" rel="noopener">${I.life}<span>Too high right now?<small>Don't wait for an email. Get help now.</small></span>${I.arr}</a>
+      <a href="/calculator.html">${I.calc}<span>Not sure about a dose?<small>The calculator answers in seconds.</small></span>${I.arr}</a>
+      <a href="#cf" data-pick="Correction">${I.pen}<span>Found a mistake?<small>Tell us below. We fix it fast.</small></span>${I.arr}</a>
+    </div>
+    <section class="block" id="cf"><h2>Write to us</h2>
+    <form class="cf" action="https://formsubmit.co/howtoedibles@gmail.com" method="POST" onsubmit="event.preventDefault();location.search='?page=contact&sent=1&theme=${S.theme}'">
+      <input type="hidden" name="_subject" value="New message from HowToEdibles contact form"><input type="hidden" name="_next" value="https://www.howtoedibles.com/contact.html?sent=1"><input type="hidden" name="_captcha" value="true"><input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+      <fieldset class="f"><legend>What's it about?</legend><div class="radios">${topics.map((v, i) => `<label class="chip"><input type="radio" name="subject" value="${v}" ${i === 0 ? "required" : ""}>${v}</label>`).join("")}</div></fieldset>
+      <label class="f"><span>Name</span><input name="name" required autocomplete="name" placeholder="Your name"></label>
+      <label class="f"><span>Email</span><input type="email" name="email" required autocomplete="email" inputmode="email" placeholder="you@email.com"></label>
+      <label class="f"><span>Message</span><textarea name="message" required placeholder="Write your message here…"></textarea></label>
+      <button class="btn pri send" type="submit">Send message ${I.arr}</button>
+      <p class="fine">We only use your email to reply. Messages go through FormSubmit, which may show a quick captcha.</p>
+    </form></section></div>`;
+}
+
+// ================= about.html (English only today) — copy verbatim from the live page =================
+function pageAbout() {
+  const head = band("Essentials", "2017", `<span class="eyebrow">About</span><h1>About HowToEdibles</h1><p class="deck">Cannabis edible recipes, a dosage calculator and harm-reduction guides for adults, online since 2017.</p>`, "", { ms: "210px", my: "-.24em", mx: "-.1em", mr: "-8deg" });
+  return head + `<div class="col">
+    <div class="facts"><div><b>2017</b><span>Online since</span></div><div><b>${D.rec.recipes.length}</b><span>Recipes</span></div><div><b>${D.arts.length}</b><span>Guides</span></div></div>
+    <div class="prose" style="margin-top:8px">
+    <h2>Who we are</h2>
+    <p>HowToEdibles is an independent website run by a small editorial team, the <strong>HowToEdibles Editorial Team</strong>. We are not a cannabis brand or dispensary, and we don't sell cannabis. Our goal is simple: help adults make edibles at home with a dose they can actually predict.</p>
+    <h2>How we create and check our content</h2>
+    <ul class="how">
+      <li><strong>Drafting.</strong> Many recipes and articles are drafted with the help of AI writing tools and then edited by our team.</li>
+      <li><strong>Fact-checking.</strong> Health, legal and science claims are checked against primary sources: peer-reviewed studies and official bodies such as the FDA, CDC, NIH, DEA and state cannabis regulators. Every article lists its sources at the end. Claims we can't support are removed or clearly labelled as uncertain.</li>
+      <li><strong>Dosing.</strong> Every recipe uses the same formula as our <a href="/calculator.html">dosage calculator</a>:
+        <span class="fx mini" style="display:block"><span class="eq"><span>P</span><span>=</span><span>10</span><span>×</span><i>G</i><span>×</span><i>S</i><span>×</span><i>0.8</i><span>÷</span><i>N</i></span></span>
+        THC per serving (mg) = 10 × grams of cannabis × THC % × 0.8 ÷ servings. The 0.8 accounts for THC lost during decarboxylation and infusion. Recipe defaults are set so one serving is at most 15&nbsp;mg THC. If you're new to edibles, start with 2.5–5&nbsp;mg and wait at least 2 hours before taking more.</li>
+      <li><strong>Updates.</strong> Articles show the date they were last updated. We fix errors as soon as we find them or a reader reports them.</li>
+    </ul>
+    <div class="box warn"><h3>${I.warn}What we are not</h3><p>We are not doctors, pharmacists or lawyers, and our content has <strong>not been reviewed by a medical professional</strong>. Nothing on this site is medical, legal or financial advice. Talk to a clinician before using cannabis if you are pregnant or breastfeeding, take other medications, or have a health condition, and keep edibles away from children and pets.</p></div>
+    <h2>How the site is funded</h2>
+    <p>HowToEdibles is supported by advertising (Google AdSense) and by <a href="/donate.html">reader donations</a>. Advertisers have no say over what we publish, and we don't accept payment for recipes or reviews.</p>
+    <h2>Legal</h2>
+    <p>Cannabis laws differ by country and state. Our content is for adults in places where cannabis is legal. Follow your local laws.</p>
+    <h2>Corrections and contact</h2>
+    <p>Found a mistake or have a question? <a href="/contact.html">Contact us</a>. We read every message.</p>
+    </div>
+    <div class="btns"><a class="btn" href="/contact.html">Contact us</a><a class="btn pri" href="/calculator.html">Try the calculator</a></div></div>`;
+}
+
+// ================= 404.html — GitHub Pages serves the ROOT /404.html for every missing URL, any language =================
+const STOP = new Set("recipes recipe receitas receita rezepte rezept recetas receta html htm php www index how to make made easy best simple homemade the a an and with for of de da do com con mit und y e para cannabis weed marijuana maconha infused canna page".split(" "));
+function guess(path) {
+  const words = decodeURIComponent(path).toLowerCase().split(/[^a-z0-9À-ɏ一-鿿]+/).filter((w) => w.length > 2 && !STOP.has(w) && !/^\d+$/.test(w));
+  const stem = (w) => w.replace(/(ies)$/, "y").replace(/(es|s)$/, "");
+  const ws = [...new Set(words.map(stem))];
+  if (!ws.length) return { words: [], hits: [] };
+  const hits = D.rec.recipes.map((r) => { const hay = (r.slug + " " + r.name + " " + (D.tr?.[r.slug]?.name || "")).toLowerCase().split(/[^a-z0-9À-ɏ一-鿿]+/).filter((h) => h.length > 2).map(stem);
+    return [ws.filter((w) => hay.some((h) => h === w || (w.length > 3 && (h.startsWith(w) || w.startsWith(h))))).length, r]; }).filter(([s]) => s > 0).sort((a, b) => b[0] - a[0] || a[1].slug.length - b[1].slug.length).slice(0, 4).map((p) => p[1]);
+  return { words, hits };
+}
+function page404() {
+  const g = guess(S.path), popular = ["cannabutter", "pot-brownies", "gummy-bears", "pot-cookies"].map(R);
+  const list = g.hits.length ? g.hits : popular, q = g.words.join(" ");
+  const more = `<section class="block"><h2>${g.hits.length ? t().lostLooking : t().lostPopular}</h2><div class="grid g4">${list.map(card).join("")}</div></section>
+    <form class="sform" role="search" action="${pre()}/"><label>${I.search}<input type="search" name="q" value="${esc(q)}" placeholder="${t().lostSearch}" aria-label="${t().lostSearch}" enterkeyhint="search"></label><button class="btn pri" type="submit">${t().go}</button></form>
+    <div class="btns"><a class="btn" href="${pre()}/calculator.html">${I.calc}${t().calcB}</a><a class="btn pri" href="${pre()}/">${t().home}</a></div>`;
+  if (S.v404 === "art") return `<div class="art"><img src="${ROOT}images/404.jpg" alt="${esc(t().lostArtAlt)}" width="600" height="335"><h1>${t().lostT}</h1><p class="hint">${t().lostDeck}</p></div>` + more;
+  return band("Desserts", "404", `<span class="eyebrow">${t().lostEyebrow}</span><h1>${t().lostT}</h1><p class="deck">${t().lostDeck}</p><span class="url"><s>${esc(S.path)}</s></span>`, "lost", { my: "-.16em", mx: "-.05em", mr: "-9deg" }) + more;
+}
+
+// ================= ARTICLE: real page fetched, body injected UNEDITED, styled only by the legacy-compat block =================
+const ARTS = { sleep: "cannabis-and-sleep", kickin: "how-long-do-edibles-take-to-kick-in", badtrip: "how-to-prevent-a-bad-trip", topicals: "how-to-make-cannabis-topicals" };
+const NEXT = {
+  en: { q: "How strong will yours be?", s: "Work out the mg per serving before you cook.", first: "Make your first batch", arts: "Articles" },
+  pt: { q: "Qual vai ser a força da sua?", s: "Calcule os mg por porção antes de cozinhar.", first: "Faça sua primeira receita", arts: "Artigos" },
+  de: { q: "Wie stark wird deins?", s: "Rechne die mg pro Portion aus, bevor du kochst.", first: "Dein erstes Rezept", arts: "Artikel" },
+  zh: { q: "你做的会有多强？", s: "下厨之前，先算出每份多少毫克。", first: "做你的第一份", arts: "文章" },
+};
+let ART = null;
+async function loadArticle() {
+  const slug = ARTS[S.art] || ARTS.sleep, key = S.lang + slug;
+  if (ART?.key === key) return;
+  const html = await fetch(`${ROOT}${S.lang === "en" ? "" : S.lang + "/"}${slug}.html`).then((r) => r.text());
+  const doc = new DOMParser().parseFromString(html, "text/html"), hero = doc.querySelector(".article-hero");
+  hero.querySelectorAll("i.fa").forEach((i) => i.remove());
+  const label = hero.querySelector(".article-category")?.textContent.trim() || "";
+  ART = { key, slug, label, topic: TOPIC[label] ? label : TOPIC_ALIAS[label] || "Guides", h1: hero.querySelector("h1").textContent.trim(),
+    meta: [...hero.querySelectorAll(".article-meta span")].map((s) => s.innerHTML.trim()), ex: hero.querySelector(".article-excerpt")?.textContent.trim() || "",
+    body: doc.querySelector("article.article-body").outerHTML };
+}
+function pageArticle() {
+  const a = ART, n = { q: t().nextQ, s: t().nextS, first: t().first, arts: D.ui.articles.title }, cat = TOPIC[a.topic], arts = `${pre()}/articles.html`;
+  const byline = `<p class="byline">${a.meta.map((m) => `<span>${m}</span>`).join("")}</p>`;
+  const head = S.ahead === "band"
+    ? band(cat, esc(a.h1.trim()[0]), `<a class="eyebrow" href="${arts}">${esc(a.label)}</a><h1>${esc(a.h1)}</h1><p class="deck">${esc(a.ex)}</p>${byline}`, "", { ms: "300px", my: "-.26em", mx: "-.02em", mr: "-8deg" })
+    : `<header class="ahead tone" style="${vars(cat)}"><nav class="crumbs" aria-label="Breadcrumb"><a href="${arts}">${n.arts}</a><span aria-hidden="true">›</span><a class="tag" href="${arts}">${esc(a.label)}</a></nav><h1>${esc(a.h1)}</h1><p class="lede">${esc(a.ex)}</p>${byline}</header>`;
+  const next = `<a class="calcta" href="${pre()}/calculator.html"><b>${n.q}</b><span>${n.s}</span><span class="go">${I.calc}</span></a>
+    <section class="block"><div class="bh"><h2>${n.first}</h2><a href="${pre()}/" style="font-weight:700">${t().allR} →</a></div><div class="grid g4">${["cannabutter", "pot-brownies", "gummy-bears", "pot-cookies"].map(R).map(card).join("")}</div></section>`;
+  return `<div class="col">${head}${a.body}${next}</div>`;
+}
+
+// ================= donate.html (en/pt/es/de/zh exist) =================
+const FREE = { en: "free", pt: "grátis", de: "gratis", zh: "免费" };
+function pageDonate() {
+  const d = D.ui.donate;
+  const head = band("Vegan", t().free, `<span class="eyebrow">${t().moreL[3]}</span><h1>${esc(d.heading)}</h1><p class="deck">${esc(d.subtitle)}</p>`, "", { ms: "190px", my: "-.22em", mx: "-.06em", mr: "-8deg" });
+  const L = t().facts;
+  return head + `<div class="col">
+    <div class="facts"><div><b>${D.rec.recipes.length}</b><span>${L[0]}</span></div><div><b>${D.arts.length}</b><span>${L[1]}</span></div><div><b>1</b><span>${L[2]}</span></div></div>
+    <div class="prose" style="margin-top:26px"><p>${esc(d.paragraph_1)}</p><p>${esc(d.paragraph_2)}</p></div>
+    <a class="btn pri paypal" href="https://bit.ly/donateht" target="_blank" rel="noopener noreferrer">${esc(d.donate_btn)} ${I.arr}</a>
+    <p class="thanks">${esc(d.thank_you)}</p></div>`;
+}
+
+// ---------- live update for the calculator (never re-renders the inputs) ----------
+function liveAll() {
+  if (S.page !== "calc") return measure();
+  const mg = mgOf(x), cur = lvlIdx(mg);
+  document.getElementById("live").innerHTML = liveHTML(mg);
+  document.getElementById("peek").innerHTML = peekHTML(mg);
+  document.getElementById("peek").style.setProperty("--lc", LEVELS[cur][3]);
+  document.querySelectorAll("[data-o=eq]").forEach((el) => (el.innerHTML = yourEq()));
+  document.querySelectorAll(".dt tr[data-lvl]").forEach((tr) => { const on = +tr.dataset.lvl === cur; tr.toggleAttribute("aria-current", on); const td = tr.firstElementChild, you = td.querySelector(".you");
+    if (on && !you) td.insertAdjacentHTML("beforeend", `<span class="you">${t().you}</span>`); if (!on && you) you.remove(); });
+  document.querySelectorAll("[data-unit=n]").forEach((el) => (el.textContent = t().serv(x.n)));
+  document.querySelectorAll("[data-in]").forEach((i) => { if (i !== document.activeElement) i.value = i.dataset.in === "g" ? fmtG(x.g) : nf(x[i.dataset.in], 1); });
+  document.querySelectorAll(".chip[data-k]").forEach((b) => b.setAttribute("aria-pressed", x[b.dataset.k] === +b.dataset.v));
+  document.querySelector("[data-reset]").hidden = x.g === DEF.g && x.s === DEF.s && x.n === DEF.n;
+  measure();
+}
+function measure() {
+  const y = (el) => (el ? Math.round(el.getBoundingClientRect().top + scrollY) : null), hgt = (el) => (el ? Math.round(el.getBoundingClientRect().height) : null);
+  const b = document.querySelector(".band"), res = document.getElementById("live"), mgEl = document.querySelector(".big .mg");
+  window.__m = { vw: innerWidth, vh: innerHeight, bandBottom: b ? y(b) + hgt(b) : null, mgBottom: mgEl ? y(mgEl) + hgt(mgEl) : null, panelBottom: res ? y(res) + hgt(res) : null, page: document.documentElement.scrollHeight,
+    firstCard: y(document.querySelector(".card")), firstRow: y(document.querySelector("#alist li")), takeaway: y(document.querySelector(".article-takeaway")) };
+  const m = document.querySelector("#bar .m"); if (!m) return; const M = window.__m;
+  m.textContent = `${M.vw}×${M.vh} · band ends ${M.bandBottom}px` + (M.mgBottom ? ` · mg/serving visible at ${M.mgBottom}px ${M.mgBottom <= 664 ? "≤" : ">"} 664 · result panel ends ${M.panelBottom}px` : "") + (M.firstRow ? ` · first article row ${M.firstRow}px` : "") + (S.page === "404" ? ` · first suggestion ${M.firstCard}px` : "") + (M.takeaway ? ` · short answer starts ${M.takeaway}px` : "") + ` · page ${M.page}px`;
+}
+
+// ---------- toolbar ----------
+function bar() {
+  const b = (k, v, l, dis) => `<button data-set="${k}" data-v="${v}" aria-pressed="${S[k] === v}"${dis ? " disabled" : ""}>${l}</button>`, en = EN_ONLY.includes(S.page);
+  return `<div class="grp">${b("page", "calc", "Calculator")}${b("page", "articles", "Articles index")}${b("page", "contact", "Contact")}${b("page", "404", "404")}${b("page", "about", "About")}${b("page", "article", "Article")}${b("page", "donate", "Donate")}</div>
+    <div class="grp">${b("lang", "en", "EN")}${b("lang", "pt", "PT", en)}${b("lang", "es", "ES", en)}${b("lang", "de", "DE", en)}${b("lang", "zh", "中文", en)}</div>
+    <div class="grp">${b("theme", "light", "☀")}${b("theme", "dark", "☾")}${b("fold", "1", "Fold")}</div>
+    ${S.page === "articles" ? `<div class="grp"><i>index</i>${b("v", "mix", "cards + slim list ✓")}${b("v", "list", "list")}${b("v", "cards", "cards")}</div>` : ""}
+    ${S.page === "404" ? `<div class="grp"><i>404</i>${b("v404", "poster", "poster ✓")}${b("v404", "art", "keep illustration")}</div><div class="grp"><i>URL</i>${b("path", "/recipes/easy-weed-brownies-recipe/", "brownies")}${b("path", "/pt/recipes/manteiga-de-cannabis/", "pt butter")}${b("path", "/drinks/weed-lemonade", "old Rails")}${b("path", "/asdfgh", "nothing")}</div>` : ""}
+    ${S.page === "article" ? `<div class="grp"><i>article</i>${b("art", "sleep", "sleep")}${b("art", "kickin", "table")}${b("art", "badtrip", "bad trip")}${b("art", "topicals", "steps")}</div><div class="grp"><i>title</i>${b("ahead", "plain", "shell + type ✓")}${b("ahead", "band", "topic band")}</div>` : ""}
+    ${S.page === "contact" ? `<div class="grp"><i>state</i>${b("sent", "0", "form")}${b("sent", "1", "sent")}</div>` : ""}
+    <div class="grp min"><button data-min>▾</button></div><div class="m"></div>`;
+}
+async function render() {
+  if (EN_ONLY.includes(S.page)) S.lang = "en";
+  if (S.page === "404") { const m = /^\/(pt|es|de|zh)\//.exec(S.path); if (m && T[m[1]]) S.lang = m[1]; } // the one 404 picks its language from the URL
+  if (!D || D.lang !== S.lang) await load(S.lang);
+  if (S.page === "article") await loadArticle();
+  x = { ...DEF };
+  document.documentElement.lang = S.lang === "zh" ? "zh-Hans" : S.lang;
+  document.documentElement.dataset.theme = S.theme;
+  const pg = { calc: pageCalc, articles: pageArticles, contact: pageContact, 404: page404, about: pageAbout, article: pageArticle, donate: pageDonate }[S.page] || pageCalc;
+  document.getElementById("app").innerHTML = shell(pg());
+  history.replaceState(null, "", "?" + new URLSearchParams({ ...S, ...(P.has("shot") ? { shot: 1 } : {}) }));
+  document.getElementById("bar").innerHTML = bar();
+  liveAll();
+  if (P.get("mini") === "1") document.body.classList.add("mini-on");
+  if (P.has("scroll")) { await document.fonts.ready; const el = document.getElementById(P.get("scroll")); scrollTo({ top: el.getBoundingClientRect().top + scrollY + +(P.get("dy") || 0), behavior: "instant" }); onScroll(true); }
+}
+
+// compact bar on scroll-up (navigation ticket) + the 56px peek once the big panel has scrolled away (recipe-final)
+let lastY = scrollY;
+function onScroll(force) {
+  const y = scrollY;
+  if (P.get("mini") !== "1" && (force === true || Math.abs(y - lastY) > 6)) { document.body.classList.toggle("mini-on", y > 140 && y < lastY); lastY = y; }
+  const card = document.getElementById("calc");
+  if (card && innerWidth < 1000) { const r = card.getBoundingClientRect(), rt = parseFloat(getComputedStyle(document.body).getPropertyValue("--res-top")) || 0;
+    card.classList.toggle("peeking", document.getElementById("live").getBoundingClientRect().bottom < rt + 56 && r.bottom > rt + 120); }
+}
+addEventListener("scroll", onScroll, { passive: true });
+addEventListener("resize", () => D && measure());
+
+function setK(k, v) { if (!isFinite(v)) return; x[k] = k === "n" ? Math.round(clamp(k, v)) : Math.round(clamp(k, v) * 100) / 100; liveAll(); }
+document.addEventListener("input", (e) => { const k = e.target.dataset.in; if (k) { const v = parse(e.target.value); if (v > 0) setK(k, v); } if (e.target.id === "aq") filterArticles(); });
+document.addEventListener("change", (e) => { if (e.target.dataset.in) { e.target.blur(); liveAll(); } });
+document.addEventListener("click", (e) => {
+  const set = e.target.closest("[data-set]"); if (set) { const k = set.dataset.set; S[k] = k === "fold" && S.fold === "1" ? "0" : set.dataset.v; return render(); }
+  if (e.target.closest("[data-min]")) return document.body.classList.toggle("barmin");
+  const st = e.target.closest("[data-step]"); if (st) { const k = st.dataset.step, step = LIM[k][2] * +st.dataset.d; return setK(k, k === "g" ? Math.round((x.g + step) / LIM.g[2]) * LIM.g[2] || LIM.g[0] : x[k] + step); }
+  const ch = e.target.closest(".chip[data-k]"); if (ch) return setK(ch.dataset.k, +ch.dataset.v);
+  if (e.target.closest("[data-reset]")) { x = { ...DEF }; return liveAll(); }
+  const tp = e.target.closest(".chip[data-topic]"); if (tp) { document.querySelectorAll(".topics .chip").forEach((c) => c.setAttribute("aria-pressed", c === tp)); return filterArticles(); }
+  const pk = e.target.closest("[data-pick]"); if (pk) { const r = document.querySelector(`input[name=subject][value="${pk.dataset.pick}"]`); if (r) r.checked = true; }
+});
+render().then(() => document.fonts.ready).then(() => measure());
+</script>
+</body>
+</html>

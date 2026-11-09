@@ -1,0 +1,5387 @@
+[
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +42px «Search recipes»"
+  ],
+  "wrap": [
+   "A.btn.pri «Go to recipe» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +46px «Buscar receitas»"
+  ],
+  "wrap": [
+   "LABEL.q «Qual a potência da sua maconha?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +42px «Buscar recetas»"
+  ],
+  "wrap": [
+   "LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +50px «Rezepte suchen»"
+  ],
+  "wrap": [
+   "SPAN. «Ganzes Rezept» 2 lines",
+   "A.btn «Dosis anpassen2,1 g · 14 % THC» 2 lines",
+   "A.btn.pri «Zum Rezept» 2 lines",
+   "LABEL.q «Wie viele Portionen möchtest du?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +42px «Search recipes»"
+  ],
+  "wrap": [
+   "A.btn.pri «Go to recipe» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +46px «Buscar receitas»"
+  ],
+  "wrap": [
+   "LABEL.q «Qual a potência da sua maconha?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +42px «Buscar recetas»"
+  ],
+  "wrap": [
+   "LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +50px «Rezepte suchen»"
+  ],
+  "wrap": [
+   "SPAN. «Ganzes Rezept» 2 lines",
+   "A.btn «Dosis anpassen0,2 g · 14 % THC» 2 lines",
+   "A.btn.pri «Zum Rezept» 2 lines",
+   "LABEL.q «Wie viele Portionen möchtest du?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +42px «Search recipes»"
+  ],
+  "wrap": [
+   "A.btn.pri «Go to recipe» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +46px «Buscar receitas»"
+  ],
+  "wrap": [
+   "LABEL.q «Qual a potência da sua maconha?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +42px «Buscar recetas»"
+  ],
+  "wrap": [
+   "LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +50px «Rezepte suchen»"
+  ],
+  "wrap": [
+   "SPAN. «Ganzes Rezept» 2 lines",
+   "A.btn «Dosis anpassen0,5 g · 14 % THC» 2 lines",
+   "A.btn.pri «Zum Rezept» 2 lines",
+   "LABEL.q «Wie viele Portionen möchtest du?» 2 lines"
+  ],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "home",
+  "lang": "en",
+  "cut": [
+   "B. +5px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "home",
+  "lang": "pt",
+  "cut": [
+   "B. +7px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "home",
+  "lang": "es",
+  "cut": [
+   "B. +7px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "home",
+  "lang": "de",
+  "cut": [
+   "B. +2px «Mittagessen»",
+   "B. +5px «International»",
+   "SPAN.nm +45px «Infundierte Schokoladenbruchstücke»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "home",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category-2",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category-2",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category-2",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category-2",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "category-2",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "no-results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "no-results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "no-results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "no-results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "no-results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "calc",
+  "lang": "en",
+  "cut": [
+   "INPUT. +2px «3.5»",
+   "INPUT. +5px «50»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "calc",
+  "lang": "pt",
+  "cut": [
+   "INPUT. +2px «3,5»"
+  ],
+  "wrap": [
+   "LABEL.q «Qual a potência da sua maconha?» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "calc",
+  "lang": "es",
+  "cut": [
+   "INPUT. +2px «3,5»",
+   "INPUT. +15px «50»"
+  ],
+  "wrap": [
+   "LABEL.q «¿Qué tan fuerte es tu marihuana?» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "calc",
+  "lang": "de",
+  "cut": [
+   "INPUT. +2px «3,5»",
+   "INPUT. +13px «50»"
+  ],
+  "wrap": [
+   "LABEL.q «Wie viele Portionen möchtest du?» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "calc",
+  "lang": "zh",
+  "cut": [
+   "INPUT. +2px «3.5»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "articles",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "articles",
+  "lang": "pt",
+  "cut": [
+   "B. +9px «Quanto Tempo os Comestíveis Levam para F»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "articles",
+  "lang": "es",
+  "cut": [
+   "B. +7px «Cuanto Tardan los Comestibles en Hacer E»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "articles",
+  "lang": "de",
+  "cut": [
+   "B. +13px «Wie lange dauert es, bis Edibles wirken?»",
+   "B. +2px «Wie ein Cannabis-Rechner funktioniert»",
+   "SMALL. +17px «Schadensminimierung»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "articles",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "404",
+  "lang": "en",
+  "cut": [],
+  "wrap": [
+   "A.btn «Dosage calculator» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "404",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dose» 2 lines",
+   "A.btn.pri «Todas as receitas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "404",
+  "lang": "es",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dosis» 2 lines",
+   "A.btn.pri «Todas las recetas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "404",
+  "lang": "de",
+  "cut": [],
+  "wrap": [
+   "A.btn.pri «Alle Rezepte» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "404",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [
+   "A.btn «剂量计算器» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "article",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "article",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "article",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "article",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "article",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "donate",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "donate",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "donate",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "donate",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "donate",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-search",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +38px «Search recipes»",
+   "A. +14px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-search",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +42px «Buscar receitas»",
+   "A. +11px «Sobremesas»",
+   "A. +16px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-search",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +38px «Buscar recetas»",
+   "A. +16px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-search",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +46px «Rezepte suchen»",
+   "A. +6px «Grundlagen»",
+   "A. +11px «Mittagessen»",
+   "A. +14px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-search",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-none",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +38px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-none",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +42px «Buscar receitas»",
+   "A. +11px «Sobremesas»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-none",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +38px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-none",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +46px «Rezepte suchen»",
+   "A. +6px «Grundlagen»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-none",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-menu",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +38px «Search recipes»",
+   "B. +18px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-menu",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +42px «Buscar receitas»",
+   "B. +14px «Sobremesas»",
+   "B. +20px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-menu",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +38px «Buscar recetas»",
+   "B. +20px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-menu",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +46px «Rezepte suchen»",
+   "B. +4px «Grundlagen»",
+   "B. +15px «Mittagessen»",
+   "B. +18px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Fold cover 344×780",
+  "page": "nav-menu",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +26px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +30px «Buscar receitas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +26px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +34px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +26px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +30px «Buscar receitas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +26px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +34px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +26px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +30px «Buscar receitas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +26px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +34px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "home",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "home",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "home",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "home",
+  "lang": "de",
+  "cut": [
+   "SPAN.nm +45px «Infundierte Schokoladenbruchstücke»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "home",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category-2",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category-2",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category-2",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category-2",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "category-2",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "no-results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "no-results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "no-results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "no-results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "no-results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "calc",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "calc",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "calc",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "calc",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "calc",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "articles",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "articles",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "articles",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "articles",
+  "lang": "de",
+  "cut": [
+   "B. +5px «Wie lange dauert es, bis Edibles wirken?»",
+   "SMALL. +9px «Schadensminimierung»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "articles",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "404",
+  "lang": "en",
+  "cut": [],
+  "wrap": [
+   "A.btn «Dosage calculator» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "404",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dose» 2 lines",
+   "A.btn.pri «Todas as receitas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "404",
+  "lang": "es",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dosis» 2 lines",
+   "A.btn.pri «Todas las recetas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "404",
+  "lang": "de",
+  "cut": [],
+  "wrap": [
+   "A.btn.pri «Alle Rezepte» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "404",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "article",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "article",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "article",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "article",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "article",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "donate",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "donate",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "donate",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "donate",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "donate",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-search",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +22px «Search recipes»",
+   "A. +10px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-search",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +26px «Buscar receitas»",
+   "A. +7px «Sobremesas»",
+   "A. +12px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-search",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +22px «Buscar recetas»",
+   "A. +12px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-search",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +30px «Rezepte suchen»",
+   "A. +2px «Grundlagen»",
+   "A. +7px «Mittagessen»",
+   "A. +10px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-search",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-none",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +22px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-none",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +26px «Buscar receitas»",
+   "A. +7px «Sobremesas»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-none",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +22px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-none",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +30px «Rezepte suchen»",
+   "A. +2px «Grundlagen»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-none",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-menu",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +22px «Search recipes»",
+   "B. +10px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-menu",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +26px «Buscar receitas»",
+   "B. +6px «Sobremesas»",
+   "B. +12px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-menu",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +22px «Buscar recetas»",
+   "B. +12px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-menu",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +30px «Rezepte suchen»",
+   "B. +7px «Mittagessen»",
+   "B. +10px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Galaxy A 360×560",
+  "page": "nav-menu",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +11px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +15px «Buscar receitas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +11px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +19px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +11px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +15px «Buscar receitas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +11px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +19px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +11px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +15px «Buscar receitas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +11px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +19px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "home",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "home",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "home",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "home",
+  "lang": "de",
+  "cut": [
+   "SPAN.nm +45px «Infundierte Schokoladenbruchstücke»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "home",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category-2",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category-2",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category-2",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category-2",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "category-2",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "no-results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "no-results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "no-results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "no-results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "no-results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "calc",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "calc",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "calc",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "calc",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "calc",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "articles",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "articles",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "articles",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "articles",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "articles",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "404",
+  "lang": "en",
+  "cut": [],
+  "wrap": [
+   "A.btn «Dosage calculator» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "404",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dose» 2 lines",
+   "A.btn.pri «Todas as receitas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "404",
+  "lang": "es",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dosis» 2 lines",
+   "A.btn.pri «Todas las recetas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "404",
+  "lang": "de",
+  "cut": [],
+  "wrap": [
+   "A.btn.pri «Alle Rezepte» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "404",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "article",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "article",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "article",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "article",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "article",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "donate",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "donate",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "donate",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "donate",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "donate",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-search",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +7px «Search recipes»",
+   "A. +7px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-search",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +11px «Buscar receitas»",
+   "A. +4px «Sobremesas»",
+   "A. +9px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-search",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +7px «Buscar recetas»",
+   "A. +9px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-search",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +15px «Rezepte suchen»",
+   "A. +4px «Mittagessen»",
+   "A. +7px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-search",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-none",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +7px «Search recipes»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-none",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +11px «Buscar receitas»",
+   "A. +4px «Sobremesas»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-none",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +7px «Buscar recetas»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-none",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +15px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-none",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-menu",
+  "lang": "en",
+  "cut": [
+   "…SPAN. +7px «Search recipes»",
+   "B. +2px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-menu",
+  "lang": "pt",
+  "cut": [
+   "…SPAN. +11px «Buscar receitas»",
+   "B. +4px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-menu",
+  "lang": "es",
+  "cut": [
+   "…SPAN. +7px «Buscar recetas»",
+   "B. +4px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-menu",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +15px «Rezepte suchen»",
+   "B. +2px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone SE 375×548",
+  "page": "nav-menu",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +4px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +4px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [
+   "…SPAN. +4px «Rezepte suchen»"
+  ],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "home",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "home",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "home",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "home",
+  "lang": "de",
+  "cut": [
+   "SPAN.nm +45px «Infundierte Schokoladenbruchstücke»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "home",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category-2",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category-2",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category-2",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category-2",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "category-2",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "no-results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "no-results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "no-results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "no-results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "no-results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "calc",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "calc",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "calc",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "calc",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "calc",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "articles",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "articles",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "articles",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "articles",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "articles",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "404",
+  "lang": "en",
+  "cut": [],
+  "wrap": [
+   "A.btn «Dosage calculator» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "404",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dose» 2 lines",
+   "A.btn.pri «Todas as receitas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "404",
+  "lang": "es",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dosis» 2 lines",
+   "A.btn.pri «Todas las recetas» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "404",
+  "lang": "de",
+  "cut": [],
+  "wrap": [
+   "A.btn.pri «Alle Rezepte» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "404",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "article",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "article",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "article",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "article",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "article",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "donate",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "donate",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "donate",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "donate",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "donate",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-search",
+  "lang": "en",
+  "cut": [
+   "A. +3px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-search",
+  "lang": "pt",
+  "cut": [
+   "A. +5px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-search",
+  "lang": "es",
+  "cut": [
+   "A. +5px «Internacional»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-search",
+  "lang": "de",
+  "cut": [
+   "A. +3px «International»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-search",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-none",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-none",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-none",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-none",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-none",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-menu",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-menu",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-menu",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-menu",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone 14 390×664",
+  "page": "nav-menu",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "home",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "home",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "home",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "home",
+  "lang": "de",
+  "cut": [
+   "SPAN.nm +45px «Infundierte Schokoladenbruchstücke»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "home",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category-2",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category-2",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category-2",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category-2",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "category-2",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "no-results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "no-results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "no-results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "no-results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "no-results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "calc",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "calc",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "calc",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "calc",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "calc",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "articles",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "articles",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "articles",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "articles",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "articles",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "404",
+  "lang": "en",
+  "cut": [],
+  "wrap": [
+   "A.btn «Dosage calculator» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "404",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dose» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "404",
+  "lang": "es",
+  "cut": [],
+  "wrap": [
+   "A.btn «Calculadora de dosis» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "404",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "404",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "article",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "article",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "article",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "article",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "article",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "donate",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "donate",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "donate",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "donate",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "donate",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-search",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-search",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-search",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-search",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-search",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-none",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-none",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-none",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-none",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-none",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-menu",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-menu",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-menu",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-menu",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPhone Plus 430×752",
+  "page": "nav-menu",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": "ok",
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "home",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "home",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "home",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "home",
+  "lang": "de",
+  "cut": [
+   "SPAN.nm +45px «Infundierte Schokoladenbruchstücke»"
+  ],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "home",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category-2",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category-2",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category-2",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category-2",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "category-2",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "no-results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "no-results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "no-results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "no-results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "no-results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "calc",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "calc",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [
+   "TH. «THC por porção» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "calc",
+  "lang": "es",
+  "cut": [],
+  "wrap": [
+   "TH. «THC por porción» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "calc",
+  "lang": "de",
+  "cut": [],
+  "wrap": [
+   "TH. «THC pro Portion» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "calc",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "articles",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "articles",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "articles",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "articles",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "articles",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "404",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "404",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "404",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "404",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "404",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "article",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "article",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "article",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "article",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "article",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "donate",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "donate",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "donate",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "donate",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "donate",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-search",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-search",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-search",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-search",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-search",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-none",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-none",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-none",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-none",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-none",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-menu",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-menu",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-menu",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-menu",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "iPad 820×1106",
+  "page": "nav-menu",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "recipe",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "home",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "home",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "home",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "home",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "home",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category-2",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category-2",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category-2",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category-2",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "category-2",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "no-results",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "no-results",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "no-results",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "no-results",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "no-results",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "calc",
+  "lang": "en",
+  "cut": [],
+  "wrap": [
+   "TH. «THC per serving» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "calc",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [
+   "TH. «THC por porção» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "calc",
+  "lang": "es",
+  "cut": [],
+  "wrap": [
+   "TH. «THC por porción» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "calc",
+  "lang": "de",
+  "cut": [],
+  "wrap": [
+   "TH. «THC pro Portion» 2 lines"
+  ],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "calc",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "articles",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "articles",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "articles",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "articles",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "articles",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "404",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "404",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "404",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "404",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "404",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "article",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "article",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "article",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "article",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "article",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "donate",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "donate",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "donate",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "donate",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "donate",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-search",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-search",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-search",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-search",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-search",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-none",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-none",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-none",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-none",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-none",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-menu",
+  "lang": "en",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-menu",
+  "lang": "pt",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-menu",
+  "lang": "es",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-menu",
+  "lang": "de",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ },
+ {
+  "vp": "Laptop 1280×633",
+  "page": "nav-menu",
+  "lang": "zh",
+  "cut": [],
+  "wrap": [],
+  "fold": null,
+  "errs": []
+ }
+]
