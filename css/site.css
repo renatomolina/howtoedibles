@@ -21,7 +21,10 @@ button{cursor:pointer}
 body{background:var(--paper);color:var(--ink);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Noto Sans SC","Microsoft YaHei",sans-serif}
 body.locked{overflow:hidden}
 a{color:inherit}
-h1,h2,h3{font-family:var(--disp);font-weight:800;overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto}
+h1,h2,h3{font-family:var(--disp);font-weight:800;overflow-wrap:break-word}
+/* hyphenate German only (long compounds overflow), and in titles only words of 13+ letters (.hy, from the build):
+   otherwise the browser splits short words like "Cannabut-ter" to fill the line beside the sticker */
+:lang(de) :is(h2,h3,.cats a,.tiles b,.card .nm),.hy{hyphens:auto;-webkit-hyphens:auto}
 :focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .icon{width:24px;height:24px;flex:none;stroke:currentColor;fill:none;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -40,7 +43,7 @@ h1,h2,h3{font-family:var(--disp);font-weight:800;overflow-wrap:break-word;hyphen
 .cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);height:auto;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
 
 /* --- masthead (in flow) + compact bar (fixed, slides in on scroll-up only) (#51) --- */
-.logo{display:block;height:auto;aspect-ratio:358.75/126}
+.logo{display:block;height:auto;aspect-ratio:370.75/138}
 .hdr{display:flex;align-items:center;justify-content:space-between;height:108px}
 .hdr .logo{width:min(240px,calc(100vw - 156px))}
 .tools{display:flex;gap:8px}
@@ -73,7 +76,7 @@ dialog[open]{animation:sheet .22s cubic-bezier(.2,.8,.3,1)}
 .sfield:focus-within{box-shadow:0 0 0 3px var(--ring)}
 .txtbtn{border:0;background:none;font-weight:700;padding:12px 4px;white-space:nowrap}
 .cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
-.cats a{display:block;min-width:0;text-decoration:none;text-align:center;font-size:13px;font-weight:700;line-height:1.2;overflow-wrap:anywhere;hyphens:auto;-webkit-hyphens:auto}
+.cats a{display:block;min-width:0;text-decoration:none;text-align:center;font-size:13px;font-weight:700;line-height:1.2;overflow-wrap:anywhere}
 .cats .cv{aspect-ratio:1;border-radius:18px;margin-bottom:6px}
 @media (max-width:389px){.cats{gap:8px}.cats a{font-size:12px}}
 .rows{list-style:none;margin:0;padding:0}
@@ -99,7 +102,7 @@ dialog[open]{animation:sheet .22s cubic-bezier(.2,.8,.3,1)}
 .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .tiles a{text-decoration:none;min-width:0}
 .tiles .cv{height:104px;border-radius:20px;padding:14px 16px}
-.tiles b{position:relative;display:block;font-family:var(--disp);font-size:16px;font-weight:800;line-height:1.15;overflow-wrap:anywhere;hyphens:auto;-webkit-hyphens:auto}
+.tiles b{position:relative;display:block;font-family:var(--disp);font-size:16px;font-weight:800;line-height:1.15;overflow-wrap:anywhere}
 .tiles small{position:relative;font-size:13px;font-weight:600}
 @media (max-width:389px){.tiles .cv{padding:12px}.tiles b{font-size:14px}}
 .links{list-style:none;margin:0;padding:0}
@@ -136,7 +139,7 @@ dialog[open]{animation:sheet .22s cubic-bezier(.2,.8,.3,1)}
 .card .dot{position:absolute;right:8px;bottom:8px;z-index:1;min-width:52px;height:52px;padding:0 6px;border-radius:50%;background:var(--ink);color:var(--paper);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);line-height:1;box-shadow:0 0 0 3px var(--cat)}
 .card .dot b{font-family:var(--disp);font-size:16px;font-weight:800;letter-spacing:-.03em}
 .card .dot small{font-size:10px;font-weight:700}
-.card .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:700;font-size:16px;line-height:1.25;margin-top:8px;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:anywhere}
+.card .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:700;font-size:16px;line-height:1.25;margin-top:8px;overflow-wrap:anywhere}
 .grid>.span{grid-column:1/-1}
 
 /* --- manual ad slot (#55): labelled, 280px reserved, collapses when unfilled --- */
@@ -174,7 +177,7 @@ section.block{margin-top:44px}
 .sticker.bump{animation:bump .3s ease}
 @keyframes bump{50%{transform:rotate(-8deg) scale(1.08)}}
 .sticker-room{float:right;width:112px;height:58px}
-.hero h1{font-size:clamp(28px,9.4vw,40px);line-height:1.03;letter-spacing:-.03em;margin:22px 0 14px}
+.hero h1{overflow-wrap:normal;font-size:clamp(28px,9.4vw,40px);line-height:1.03;letter-spacing:-.03em;margin:22px 0 14px}
 .hero.mid h1{font-size:clamp(26px,8vw,36px)}
 .hero.long h1{font-size:clamp(23px,6.6vw,32px)}
 :lang(zh) h1{font-weight:900;letter-spacing:0;line-height:1.15}

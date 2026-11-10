@@ -32,7 +32,9 @@ SPRITE = File.read(File.join(ROOT_DIR, "data", "glyphs.svg")).sub(/\A.*?<svg[^>]
 def logo_symbol
   light = File.read(File.join(ROOT_DIR, "images/brand/logo.svg"))
   dark = File.read(File.join(ROOT_DIR, "images/brand/logo-dark.svg"))
-  view_box = light[/viewBox="([^"]+)"/, 1]
+  # The exported viewBox is the fill bbox; strokes reach 5.5 units past it, so pad 6 on every side.
+  x, y, w, hh = light[/viewBox="([^"]+)"/, 1].split.map(&:to_f)
+  view_box = [x - 6, y - 6, w + 12, hh + 12].map { |v| v.round(2) }.join(" ")
   a, b = light.split(/(?=<)/), dark.split(/(?=<)/)
   abort "ERROR: logo.svg and logo-dark.svg differ in structure" unless a.size == b.size
   body = a.zip(b).map { |x, y| x == y ? x : x.sub(/fill="[^"]+"/, 'fill="var(--ink)"') }.join
@@ -266,7 +268,7 @@ end
 
 def logo_svg(cls = "logo", label: nil)
   aria = label ? %(role="img" aria-label="#{label}") : %(aria-hidden="true")
-  %(<svg class="#{cls}" viewBox="#{LOGO_SYMBOL[/viewBox="([^"]+)"/, 1]}" width="240" height="84" #{aria}><use href="#logo"/></svg>)
+  %(<svg class="#{cls}" viewBox="#{LOGO_SYMBOL[/viewBox="([^"]+)"/, 1]}" width="240" height="89" #{aria}><use href="#logo"/></svg>)
 end
 
 def shell_top(lang)
@@ -346,6 +348,13 @@ end
 # ─────────────────────────────────────────────
 
 FAT_RE = /(cannabis-infused butter|canna-?butter|cannabisbutter|manteiga de cannabis|mantequilla de cannabis|大麻黄油)/i
+
+# Only long words may hyphenate (13+ letters, 12+ in German, where "Gummibärchen" overflows a 344px phone);
+# shorter ones move down whole, so "Cannabutter" is never split to fill the narrow line beside the sticker.
+def title_html(name, lang)
+  n = lang == "de" ? 12 : 13
+  h(name).gsub(/\p{Latin}{#{n},}/) { %(<span class="hy">#{$&}</span>) }
+end
 
 # Title size band by visual length (CJK ≈ 1.7 Latin chars), so the line count holds on every phone width.
 def title_class(name)
@@ -485,7 +494,7 @@ def build_recipe_page(recipe, lang)
     <main class="page">
     <section class="hero#{tc ? " #{tc}" : ""}" style="#{cat_vars(cat)}">#{cover(slug, cat, recipe["glyph"], :hero)}<a class="crumb" href="#{cat_url(lang, cat)}">#{h(cat_t)}</a>
     <a class="sticker" href="#dose" id="sticker"><b data-o="mgs">#{fmt_mg(mg, lang)}<small>mg</small></b><span>#{h(ui(lang, "calc.per"))}</span></a>
-    <span class="sticker-room" aria-hidden="true"></span><h1>#{h(name)}</h1>
+    <span class="sticker-room" aria-hidden="true"></span><h1>#{title_html(name, lang)}</h1>
     <div class="facts"><div><b>#{duration(lang, total)}</b><span>#{h(ui(lang, "recipe.total"))}</span></div><div><b data-o="n">#{n_i}</b><span>#{h(ui(lang, "recipe.makes"))}</span></div><div><b data-o="batch">#{fmt_mg(mg * n, lang)} mg</b><span>#{h(ui(lang, "calc.batch"))}</span></div></div>
     <p class="newbie">#{ICON[:warn]}<span data-o="newbie">#{newbie_html(lang, mg)}</span></p>
     <div class="cta"><a class="btn" href="#dose">#{ICON[:dial]}<span>#{h(ui(lang, "recipe.adjust"))}<small data-o="adj">#{h(adj_sub)}</small></span></a><a class="btn pri" href="#recipe">#{h(ui(lang, "recipe.jump"))}#{ICON[:down]}</a></div></section>
@@ -581,8 +590,8 @@ RASTER_CSS = <<~CSS.gsub(/\n\s*/, "")
   .cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);height:auto;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
   .og{width:1200px;height:630px}.og>svg.g{width:auto;height:var(--gh)}
   .sq{width:1200px;height:1200px}
-  .cv>svg.logo{left:64px;top:56px;right:auto;bottom:auto;width:300px;height:auto;aspect-ratio:358.75/126;transform:none;--ink:#1f1410}
-  h1{position:absolute;left:64px;bottom:64px;width:720px;margin:0;font-weight:800;font-size:76px;line-height:1.04;letter-spacing:-.03em;overflow-wrap:break-word;hyphens:auto}
+  .cv>svg.logo{left:64px;top:56px;right:auto;bottom:auto;width:300px;height:auto;aspect-ratio:370.75/138;transform:none;--ink:#1f1410}
+  h1{position:absolute;left:64px;bottom:64px;width:720px;margin:0;font-weight:800;font-size:76px;line-height:1.04;letter-spacing:-.03em;}.hy{hyphens:auto;-webkit-hyphens:auto}
   h1.mid{font-size:64px}h1.long{font-size:54px}:lang(zh) h1{font-weight:900;letter-spacing:0;line-height:1.18}
   .st{position:absolute;right:96px;bottom:96px;width:230px;height:230px;border-radius:50%;background:#1f1410;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);box-shadow:0 0 0 8px #fff;line-height:1;text-align:center}
   .st b{font-size:72px;font-weight:800;letter-spacing:-.03em}.st b small{font-size:30px;letter-spacing:0}.st span{font-size:22px;font-weight:700;margin-top:10px;max-width:170px;line-height:1.1;font-family:-apple-system,"PingFang SC",sans-serif}
@@ -598,7 +607,7 @@ def raster_jobs(recipe, lang, name, mg)
   pl = place(slug, :hero).map { |k, v| "--#{k}:#{v}" }.join(";")
   tc = title_class(name)
   og = %(<div class="cv og" style="#{cat_vars(cat)};#{pl}"><svg class="g" viewBox="0 0 100 100"><use href="#g-#{recipe["glyph"]}"/></svg>#{logo_svg}) +
-       %(<h1#{tc ? %( class="#{tc}") : ""}>#{h(name)}</h1><div class="st"><b>#{fmt_mg(mg, lang)}<small>mg</small></b><span>#{h(ui(lang, "calc.per"))}</span></div></div>)
+       %(<h1#{tc ? %( class="#{tc}") : ""}>#{title_html(name, lang)}</h1><div class="st"><b>#{fmt_mg(mg, lang)}<small>mg</small></b><span>#{h(ui(lang, "calc.per"))}</span></div></div>)
   add_raster("og/#{lang}/#{slug}.png", raster_page(lang, og), 1200, 630)
   return unless lang == "en"
   sq = %(<div class="cv sq" style="#{cat_vars(cat)};#{place(slug, :card).map { |k, v| "--#{k}:#{v}" }.join(";")}">#{glyph_svg(recipe["glyph"])}</div>)
