@@ -828,6 +828,8 @@ ALL_LANGS.each do |lang|
 end
 build_root_404
 puts "  /404.html (all languages)"
+build_about
+puts "  /about.html (English only; body kept, shell rebuilt)"
 
 # Recipe pages, category pages and search indexes for ALL languages, on the new shell (scripts/build_redesign.rb)
 puts "\nBuilding recipe and category pages for all languages..."
@@ -845,7 +847,7 @@ check_inbound_links
 puts "\nRendering og/schema rasters..."
 render_rasters
 
-puts "\nDone! Hand-maintained: about and contact (English only)."
+puts "\nDone! Hand-maintained: the about.html body and contact.html (English only)."
 
 puts
 exit 1 unless system("ruby", File.join(__dir__, "check_budget.rb"))

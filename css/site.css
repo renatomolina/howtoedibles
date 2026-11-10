@@ -449,6 +449,17 @@ html.q #home,html:not(.q) #results{display:none}
 .col>.facts{margin-top:26px}
 .col>.facts b{font-size:22px}
 .prose{margin-top:26px}
+/* about.html: the copy as prose, the 4 "how we check" points as numbered steps, the formula inline */
+.prose h2{font-size:24px;letter-spacing:-.02em;line-height:1.15;margin:40px 0 12px}
+.prose a{font-weight:600;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--orange)}
+.how{list-style:none;margin:14px 0 0;padding:0;counter-reset:h}
+.how li{counter-increment:h;position:relative;padding:14px 0 14px 54px;border-top:1px solid var(--line);font-size:17px;line-height:1.55}
+.how li::before{content:counter(h,decimal-leading-zero);position:absolute;left:0;top:14px;font:800 22px/1 var(--disp);color:var(--orange)}
+.how li strong{display:block;font-family:var(--disp);font-weight:800;font-size:17px;margin-bottom:2px}
+.fx-sm{display:block;padding:14px 16px;margin:12px 0}
+.fx-sm .eq{font-size:clamp(17px,5vw,22px)}
+.box.warn{display:block;border-color:var(--orange);background:rgba(242,114,66,.09)}
+.box.warn h2{display:flex;align-items:center;gap:8px;font-size:20px;margin:0 0 6px}
 .paypal{width:100%;min-height:60px;margin-top:22px;font-size:17px}
 .thanks{font-size:15px;color:var(--ink-2);text-align:center;margin:14px 0 0}
 

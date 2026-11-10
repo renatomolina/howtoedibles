@@ -234,13 +234,15 @@ end
 
 THEME_BOOT = %(<script>try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="dark"||t==="light"?t:matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}catch(e){}</script>)
 
-def shell_head(lang, title:, description:, page_path:, og_image:, og_title: title, og_type: "website", structured: nil, keywords: nil, indexed: true)
+def shell_head(lang, title:, description:, page_path:, og_image:, og_title: title, og_type: "website", structured: nil, keywords: nil, indexed: true, only_lang: false)
   canonical = "#{SITE}#{lang_prefix(lang)}/#{page_path}"
   ld = structured ? %(\n<script type="application/ld+json">#{structured}</script>) : ""
   kw = keywords ? %(\n<meta name="keywords" content="#{h(keywords)}">) : ""
   canon = indexed ? %(\n<link rel="canonical" href="#{canonical}">) : ""
   og_url = indexed ? %(\n<meta property="og:url" content="#{canonical}">) : ""
   alt = indexed ? "\n#{hreflang_tags(page_path).gsub(" />", ">")}" : ""
+  # a page that exists in one language only (about.html) points at itself, as before the redesign
+  alt = %(\n<link rel="alternate" hreflang="#{lang_html(lang)}" href="#{canonical}">\n<link rel="alternate" hreflang="x-default" href="#{canonical}">) if only_lang
   ads = indexed ? %(\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=#{AD_CLIENT}" crossorigin="anonymous"></script>) : ""
   <<~HTML
     <!DOCTYPE html>
@@ -844,6 +846,22 @@ end
 # ---- the root 404 (#60): GitHub Pages serves only /404.html, for every language. The English page is the live body;
 # the other four sit in <template>s and the one matching the URL's /pt|es|de|zh/ prefix replaces it before first paint.
 # No canonical, no hreflang, no AdSense (no ads on error pages). js/shell.js suggests recipes from the broken URL. ----
+
+# ---- about.html (English only; #61: the file stays the source of its own copy). The build keeps the page's title,
+# description, keywords and JSON-LD, rewraps the hand-maintained region between <!-- body --> markers in the shell,
+# and refreshes the counts in its facts row. Edit the copy inside the markers in about.html itself. ----
+
+def build_about
+  f = File.join(ROOT_DIR, "about.html")
+  src = File.read(f)
+  body = src[%r{<!-- body -->\n(.*?)<!-- /body -->}m, 1] or abort "ERROR: about.html has no <!-- body --> … <!-- /body --> region"
+  body = body.sub(/(data-count="recipes">)\d+/) { "#{$1}#{RECIPES.size}" }.sub(/(data-count="articles">)\d+/) { "#{$1}#{articles_in("en").size}" }
+  meta = ->(n) { CGI.unescapeHTML(src[/<meta name="#{n}" content="([^"]*)"/, 1].to_s) }
+  ld = src[%r{<script type="application/ld\+json">(.*?)</script>}m, 1]
+  head = shell_head("en", title: CGI.unescapeHTML(src[%r{<title>(.*?)</title>}m, 1]), description: meta.("description"), page_path: "about.html", og_image: SITE_OG,
+                    structured: ld && JSON.generate(JSON.parse(ld)), keywords: meta.("keywords"), only_lang: true)
+  write_file(f, head + shell_top("en") + "<!-- body -->\n#{body}<!-- /body -->\n" + shell_bottom("en", ""))
+end
 
 E404_POPULAR = %w[cannabutter pot-brownies gummy-bears pot-cookies].freeze
 
