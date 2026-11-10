@@ -43,7 +43,7 @@ h1,h2,h3{font-family:var(--disp);font-weight:800;overflow-wrap:break-word}
 .cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);height:auto;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
 
 /* --- masthead (in flow) + compact bar (fixed, slides in on scroll-up only) (#51) --- */
-.logo{display:block;height:auto;aspect-ratio:370.75/138}
+.logo{display:block;height:auto;aspect-ratio:432/164} /* = the viewBox of images/brand/logo.svg */
 .hdr{display:flex;align-items:center;justify-content:space-between;height:108px}
 .hdr .logo{width:min(240px,calc(100vw - 156px))}
 .tools{display:flex;gap:8px}

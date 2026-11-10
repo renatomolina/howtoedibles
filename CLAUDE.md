@@ -30,6 +30,10 @@ sh scripts/qa/lighthouse.sh   # mobile lab run, ads blocked: LCP ≤ 1.8 s, CLS 
 # Rebuild /fonts/unbounded-800.latin1.woff2 from the pinned upstream font (fontTools + brotli)
 python3 scripts/build_font.py
 
+# Rebuild the logo (images/brand/logo*.svg, logo.png, og-image.jpg) and the favicons/apple-touch icon
+# from one geometry, text outlined from the pinned Archivo Black (fontTools + rsvg-convert + magick)
+python3 scripts/build_logo.py
+
 # Render og/schema PNGs from tmp/rasters/jobs.json (headless Chrome, incremental)
 node scripts/render_rasters.mjs
 
