@@ -1,7 +1,7 @@
 // Gate: behaviour of the new recipe page and shell in headless Chrome (exit 1 on any failure).
 // Steppers, chips, typed locale decimals, reset, ?quantity=&potency=&portion=, the menu/search dialogs
 // closing on Back, the dialog switch keeping one history entry, and the theme key (Auto removes it).
-// Usage: python3 -m http.server 8781 (repo root) & node scripts/qa/interact.mjs
+// Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/interact.mjs
 import { spawn } from "node:child_process";
 const BASE = process.env.BASE || "http://127.0.0.1:8781", PORT = 9351, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-interact", "--no-first-run"], { stdio: "ignore" });
@@ -58,6 +58,46 @@ await ev(`document.querySelector("[data-theme-set=dark]").click()`);
 expect("Dark", await ev(`return [document.documentElement.dataset.theme, localStorage.getItem("theme")]`), ["dark", "dark"]);
 await ev(`document.querySelector("[data-theme-set=auto]").click()`);
 expect("Auto removes the key", await ev(`return localStorage.getItem("theme")`), null);
+
+// ---- special pages (#74) ----
+// calculator.html: 3.5 g · 14% · 50 = 7.8 mg (casual); the dose table row and the "with your numbers" line follow the card
+const calcRead = `return { mg: document.querySelector("#live .mg").textContent.trim(), row: document.querySelector(".dt tr[aria-current]")?.dataset.lvl, you: document.querySelectorAll(".dt .you").length, eq: document.querySelector("[data-o=eq]").textContent, reset: !document.querySelector("[data-reset]").hidden };`;
+await go("/calculator.html");
+expect("calculator static defaults", await ev(calcRead), { mg: "7.8 mg", row: "2", you: 1, eq: "10 × 3.5 × 14 × 0.8 ÷ 50 = 7.8 mg", reset: false });
+expect("calculator static panel equals dose.js render", await ev("return window.DOSE.check()"), true);
+await ev(`document.querySelector('.chip[data-k=g][data-v="28"]').click()`);
+expect("calculator 28 g → extreme row", await ev(calcRead), { mg: "63 mg", row: "5", you: 1, eq: "10 × 28 × 14 × 0.8 ÷ 50 = 63 mg", reset: true });
+await go("/de/calculator.html");
+expect("de calculator decimals", await ev(`return document.querySelector("[data-o=eq]").textContent`), "10 × 3,5 × 14 × 0,8 ÷ 50 = 7,8 mg");
+
+// homepage: the hero card is live; ?q= and the legacy ?search= show results instead of the shelves
+await go("/");
+expect("home static panel equals dose.js render", await ev("return window.DOSE.check()"), true);
+await ev(`document.querySelector('.chip[data-k=n][data-v="12"]').click()`);
+expect("home card is live", await ev(`return document.querySelector("#live .mg").textContent.trim()`), "33 mg");
+expect("home shelves: Essentials first, 8 shelves, ad after the 2nd", await ev(`return [document.querySelector(".shelf .sh h2").textContent.startsWith("Start with a base"), document.querySelectorAll(".shelf").length, document.querySelector(".shelf + .shelf + .ad") !== null]`), [true, 8, true]);
+const results = `await new Promise((r) => setTimeout(r, 500)); return { q: document.documentElement.classList.contains("q"), home: getComputedStyle(document.getElementById("home")).display, title: document.querySelector("#results h2").textContent, n: document.querySelectorAll("#qgrid .card").length, none: !document.getElementById("qnone").hidden, field: document.querySelector("#results input[name=q]").value };`;
+await go("/?q=brownie");
+const r1 = await ev(results);
+expect("?q=brownie", { ...r1, n: r1.n > 0 }, { q: true, home: "none", title: "Results for “brownie”", n: true, none: false, field: "brownie" });
+await go("/pt/?search=zzzz");
+expect("legacy ?search= with no match", await ev(results), { q: true, home: "none", title: "Resultados para “zzzz”", n: 0, none: true, field: "zzzz" });
+await go("/");
+await ev(`const i = document.querySelector(".hh input[name=q]"); i.value = "lemon"; i.click(); await new Promise((r) => setTimeout(r, 600));`);
+expect("home search field opens the sheet with its text", await ev(`return [document.getElementById("search").open, document.getElementById("q").value, document.querySelectorAll("#s-list li").length > 0]`), [true, "lemon", true]);
+
+// the root 404: language from the path, suggestions from the URL's words, no canonical
+await go("/pt/receitas/brigadeiro-de-maconha-xyz/");
+expect("pt 404", await ev(`await new Promise((r) => setTimeout(r, 500)); return [document.documentElement.lang, document.title, [...document.querySelectorAll("#e404 .nm")].some((n) => /Brigadeiro/.test(n.textContent)), !!document.querySelector("link[rel=canonical], link[hreflang]")]`), ["pt-BR", "Página Não Encontrada | HowToEdibles", true, false]);
+await go("/asdfgh");
+expect("404 with no match keeps the most-made recipes", await ev(`await new Promise((r) => setTimeout(r, 500)); return [document.documentElement.lang, document.querySelectorAll("#e404 .card").length, document.querySelector("#e404 h2").textContent]`), ["en", 4, "Most made recipes"]);
+
+// articles index: topic chips and search filter the static lists
+await go("/articles.html");
+await ev(`document.querySelector('.topics [data-topic="Health"]').click()`);
+expect("articles: Health chip", await ev(`return [document.getElementById("acount").textContent, document.getElementById("start").hidden, [...document.querySelectorAll("#alist li:not([hidden])")].every((l) => l.dataset.t === "Health")]`), ["12 articles", true, true]);
+await ev(`document.querySelector('.topics [data-topic=""]').click(); const q = document.getElementById("aq"); q.value = "sleep"; q.dispatchEvent(new Event("input"));`);
+expect("articles: search 'sleep'", await ev(`return [document.querySelectorAll("#alist li:not([hidden])").length > 0, document.getElementById("anone").hidden]`), [true, true]);
 
 expect("no JS errors", errs, []);
 ws.close(); chrome.kill();

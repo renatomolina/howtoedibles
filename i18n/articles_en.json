@@ -6,7 +6,64 @@
     "read_more_articles": "Read more articles",
     "breadcrumb_home": "Home",
     "breadcrumb_articles": "Articles",
-    "updated": "Updated"
+    "updated": "Updated",
+    "page_title": "Cannabis Articles & Guides | HowToEdibles",
+    "page_description": "Educational articles about cannabis edibles, topicals, pain relief, health benefits, dosing guides, and more. Learn everything you need to know about cooking with cannabis.",
+    "keywords": "cannabis edibles, cannabis articles, edibles guides, cannabis topicals, cannabis pain relief, edible dosage, cannabis health benefits, cannabis wellness, how to make edibles, cannabis recipes",
+    "hero_title": "Cannabis Articles & Guides",
+    "list_description": "Educational articles about cannabis edibles, topicals, health benefits, and more.",
+    "article_order": [
+      "benefits-of-edibles-compared-to-smoking",
+      "how-edibles-can-help-with-pain",
+      "why-flower-infusion-is-superior-to-extracts",
+      "how-to-make-cannabis-topicals",
+      "why-use-cannabis-topicals",
+      "is-cannabis-an-aphrodisiac",
+      "how-long-do-edibles-take-to-kick-in",
+      "microdosing-edibles",
+      "edibles-vs-tinctures",
+      "how-to-store-cannabis-edibles",
+      "science-of-decarboxylation",
+      "cannabis-and-sleep",
+      "cannabis-metabolism-and-appetite",
+      "cbd-vs-thc",
+      "cannabis-and-anxiety",
+      "cannabis-and-inflammation",
+      "history-of-cannabis-edibles",
+      "cannabis-edible-etiquette",
+      "how-420-became-symbol-for-cannabis",
+      "cannabis-and-creativity",
+      "cannabis-legalization-guide",
+      "cannabis-legalization-and-crime",
+      "global-cannabis-legalization",
+      "decriminalization-vs-legalization",
+      "cannabis-stocks-beginners-guide",
+      "future-of-cannabis-industry",
+      "how-a-cannabis-calculator-works",
+      "how-to-prevent-a-bad-trip",
+      "why-our-calculator-is-the-most-accurate",
+      "cannabis-and-alcohol",
+      "cannabis-and-drug-testing",
+      "cannabis-and-exercise",
+      "cannabis-and-gut-health",
+      "cannabis-and-immune-system",
+      "cannabis-and-meditation",
+      "cannabis-and-pets",
+      "cannabis-and-pregnancy",
+      "cannabis-and-ptsd",
+      "cannabis-dinner-party",
+      "cannabis-edibles-for-beginners",
+      "cannabis-edibles-for-chronic-pain",
+      "cannabis-for-seniors",
+      "cannabis-terpenes-explained",
+      "cannabis-tolerance-breaks",
+      "cooking-with-cbd-vs-thc",
+      "entourage-effect",
+      "how-to-read-cannabis-labels",
+      "indica-vs-sativa-edibles",
+      "traveling-with-cannabis-edibles",
+      "vegan-cannabis-edibles-guide"
+    ]
   },
   "articles": {
     "benefits-of-edibles-compared-to-smoking": {
@@ -76,7 +133,8 @@
           "slug": "how-to-prevent-a-bad-trip",
           "title": "How to prevent a bad trip"
         }
-      ]
+      ],
+      "short_title": "Benefits of edibles compared to smoking"
     },
     "cannabis-and-alcohol": {
       "title": "Cannabis and Alcohol: Understanding the Risks of Mixing",
@@ -220,7 +278,8 @@
           "title": "Cannabis and Sleep",
           "description": "Explore how cannabis affects sleep quality, REM cycles, and which cannabinoids work best for rest."
         }
-      ]
+      ],
+      "short_title": "Cannabis and anxiety: what the research says"
     },
     "cannabis-and-creativity": {
       "title": "Cannabis and Creativity: How Artists and Musicians Use the Plant",
@@ -290,7 +349,8 @@
           "title": "How 420 became the symbol",
           "description": "Discover the true origin story of 420 and how it became the universal symbol for cannabis culture."
         }
-      ]
+      ],
+      "short_title": "Cannabis and creativity"
     },
     "cannabis-and-drug-testing": {
       "title": "Cannabis and Drug Testing: How Long Do Edibles Stay in Your System?",
@@ -644,7 +704,8 @@
           "title": "CBD vs THC",
           "description": "Understand the key differences between CBD and THC, and how each cannabinoid affects the body."
         }
-      ]
+      ],
+      "short_title": "Can cannabis help with inflammation?"
     },
     "cannabis-and-meditation": {
       "title": "Cannabis and Meditation: Enhancing Mindfulness with Low-Dose Edibles",
@@ -1001,7 +1062,8 @@
           "title": "Is cannabis an aphrodisiac?",
           "description": "Explore the relationship between cannabis and sexual desire, arousal, and pleasure."
         }
-      ]
+      ],
+      "short_title": "Cannabis and sleep"
     },
     "cannabis-dinner-party": {
       "title": "How to Host a Cannabis Dinner Party: Dosing, Menu Planning, and Etiquette",
@@ -1069,7 +1131,8 @@
           "title": "History of cannabis edibles",
           "description": "Discover the rich history of cannabis-infused food and drink across cultures and centuries."
         }
-      ]
+      ],
+      "short_title": "How to Host a Cannabis Dinner Party"
     },
     "cannabis-edible-etiquette": {
       "title": "Cannabis Etiquette: The Unwritten Rules of Sharing Edibles",
@@ -1138,7 +1201,8 @@
           "title": "Microdosing edibles",
           "description": "Learn how small, controlled doses of cannabis edibles can enhance daily life without overwhelming effects."
         }
-      ]
+      ],
+      "short_title": "Cannabis etiquette: the rules of sharing edibles"
     },
     "cannabis-edibles-for-beginners": {
       "title": "Cannabis Edibles for Beginners: Your First-Time Complete Guide",
@@ -1278,7 +1342,8 @@
           "title": "Cannabis and inflammation",
           "description": "Explore the science behind cannabis as an anti-inflammatory and what it means for chronic conditions."
         }
-      ]
+      ],
+      "short_title": "Cannabis Edibles for Chronic Pain: Strains, Dosing, and Science"
     },
     "cannabis-for-seniors": {
       "title": "Cannabis for Seniors: A Complete Guide to Safe Edible Use After 60",
@@ -1420,7 +1485,8 @@
           "title": "Global cannabis legalization",
           "description": "Explore how countries around the world are approaching cannabis legalization and reform."
         }
-      ]
+      ],
+      "short_title": "How legalization has impacted crime rates"
     },
     "cannabis-legalization-guide": {
       "title": "Cannabis Legalization in the US: A State-by-State Overview",
@@ -1490,7 +1556,8 @@
           "title": "Global cannabis legalization",
           "description": "A look at how countries around the world are approaching cannabis legalization and reform."
         }
-      ]
+      ],
+      "short_title": "Cannabis legalization in the US"
     },
     "cannabis-metabolism-and-appetite": {
       "title": "How Cannabis Affects Your Metabolism and Appetite",
@@ -1562,7 +1629,8 @@
           "title": "Benefits of edibles compared to smoking",
           "description": "Find out why edibles offer a healthier, longer-lasting alternative to smoking cannabis."
         }
-      ]
+      ],
+      "short_title": "How cannabis affects your metabolism and appetite"
     },
     "cannabis-stocks-beginners-guide": {
       "title": "Cannabis Stocks 101: A Beginner's Guide to Investing in the Green Rush",
@@ -1631,7 +1699,8 @@
           "title": "Global cannabis legalization",
           "description": "Learn how countries around the world are approaching cannabis legalization and regulation."
         }
-      ]
+      ],
+      "short_title": "Cannabis stocks 101: a beginner's guide"
     },
     "cannabis-terpenes-explained": {
       "title": "Cannabis Terpenes Explained: How They Shape Your Edible Experience",
@@ -1840,7 +1909,8 @@
           "title": "Cannabis and anxiety",
           "description": "Explore how different cannabinoids and doses affect anxiety and what the research says."
         }
-      ]
+      ],
+      "short_title": "CBD vs THC: understanding the key differences"
     },
     "cooking-with-cbd-vs-thc": {
       "title": "Cooking with CBD vs THC: When to Use Each in Your Kitchen",
@@ -1978,7 +2048,8 @@
           "title": "Global cannabis legalization",
           "description": "An overview of cannabis legalization efforts around the world and how different countries approach reform."
         }
-      ]
+      ],
+      "short_title": "Decriminalization vs legalization"
     },
     "edibles-vs-tinctures": {
       "title": "Edibles vs Tinctures: Which Delivery Method Is Right for You?",
@@ -2047,7 +2118,8 @@
           "title": "Why flower infusion is superior to extracts",
           "description": "Discover why whole-flower infusions deliver a richer, more balanced experience than isolated extracts."
         }
-      ]
+      ],
+      "short_title": "Edibles vs tinctures"
     },
     "entourage-effect": {
       "title": "The Entourage Effect: Why Whole-Plant Cannabis Works Better",
@@ -2186,7 +2258,8 @@
           "title": "History of cannabis edibles",
           "description": "Explore the rich history of cannabis edibles, from ancient preparations to the modern dispensary shelf."
         }
-      ]
+      ],
+      "short_title": "The future of the cannabis industry"
     },
     "global-cannabis-legalization": {
       "title": "The Global Movement to Legalize Cannabis: Where Does the World Stand?",
@@ -2256,7 +2329,8 @@
           "title": "Cannabis legalization and crime",
           "description": "Explore the relationship between cannabis legalization and crime rates, from drug trafficking to public safety."
         }
-      ]
+      ],
+      "short_title": "The global movement to legalize cannabis"
     },
     "history-of-cannabis-edibles": {
       "title": "The History of Cannabis Edibles: From Ancient Times to Modern Kitchens",
@@ -2326,7 +2400,8 @@
           "title": "How 420 became the symbol for cannabis",
           "description": "Learn the true origin story behind 420 and how it grew from a secret code into a worldwide cultural phenomenon."
         }
-      ]
+      ],
+      "short_title": "The history of cannabis edibles"
     },
     "how-420-became-symbol-for-cannabis": {
       "title": "How 420 Became the Universal Symbol for Cannabis Culture",
@@ -2396,7 +2471,8 @@
           "title": "Cannabis etiquette",
           "description": "Learn the unwritten rules of sharing and consuming cannabis edibles in social settings."
         }
-      ]
+      ],
+      "short_title": "How 420 became the symbol for cannabis"
     },
     "how-a-cannabis-calculator-works": {
       "title": "How a Cannabis Calculator Works",
@@ -2465,7 +2541,8 @@
           "title": "The science of decarboxylation",
           "description": "Why you must decarb cannabis before cooking, and how to do it right for maximum potency."
         }
-      ]
+      ],
+      "short_title": "How a cannabis calculator works"
     },
     "how-edibles-can-help-with-pain": {
       "title": "How Edibles Can Help with Pain",
@@ -2534,7 +2611,8 @@
           "title": "Why flower infusion is superior to extracts for health",
           "description": "The health advantages of infusing whole cannabis flower versus using concentrates."
         }
-      ]
+      ],
+      "short_title": "How edibles can help with pain"
     },
     "how-long-do-edibles-take-to-kick-in": {
       "title": "How Long Do Edibles Take to Kick In? A Complete Timeline",
@@ -2603,7 +2681,8 @@
           "title": "Microdosing edibles",
           "description": "Discover how low-dose cannabis edibles can provide subtle benefits without an overwhelming high."
         }
-      ]
+      ],
+      "short_title": "How long do edibles take to kick in?"
     },
     "how-to-make-cannabis-topicals": {
       "title": "How to Make Cannabis Topicals",
@@ -2747,7 +2826,8 @@
             }
           ]
         }
-      ]
+      ],
+      "short_title": "How to make cannabis topicals"
     },
     "how-to-prevent-a-bad-trip": {
       "title": "How to Prevent a Bad Trip",
@@ -2804,7 +2884,8 @@
           "title": "Microdosing edibles",
           "description": "A beginner's guide to low-dose cannabis for subtle, functional benefits without the overwhelming high."
         }
-      ]
+      ],
+      "short_title": "How to prevent a bad trip"
     },
     "how-to-read-cannabis-labels": {
       "title": "How to Read Cannabis Edible Labels: A Consumer's Guide",
@@ -2941,7 +3022,8 @@
           "title": "Edibles vs tinctures",
           "description": "Compare the onset time, duration, and bioavailability of cannabis edibles and tinctures to find what works best for you."
         }
-      ]
+      ],
+      "short_title": "How to store cannabis edibles"
     },
     "indica-vs-sativa-edibles": {
       "title": "Indica vs Sativa Edibles: Does the Strain Really Matter?",
@@ -3083,7 +3165,8 @@
           "title": "Benefits of edibles compared to smoking",
           "description": "Find out why edibles offer a healthier, longer-lasting alternative to smoking cannabis."
         }
-      ]
+      ],
+      "short_title": "Is cannabis an aphrodisiac?"
     },
     "microdosing-edibles": {
       "title": "Microdosing Edibles: A Beginner's Guide to Low-Dose Cannabis",
@@ -3156,7 +3239,8 @@
           "title": "How to prevent a bad trip",
           "description": "Practical tips for staying comfortable and calm if you accidentally consume too much cannabis."
         }
-      ]
+      ],
+      "short_title": "Microdosing edibles: a beginner's guide"
     },
     "science-of-decarboxylation": {
       "title": "The Science Behind Decarboxylation: Why You Must Heat Your Cannabis",
@@ -3225,7 +3309,8 @@
           "title": "How to store cannabis edibles",
           "description": "Learn the best practices for storing your homemade edibles to preserve potency and freshness."
         }
-      ]
+      ],
+      "short_title": "The science behind decarboxylation"
     },
     "traveling-with-cannabis-edibles": {
       "title": "Traveling with Cannabis Edibles: Laws, Tips, and What to Avoid",
@@ -3431,7 +3516,8 @@
           "title": "How to make cannabis topicals",
           "description": "Step-by-step guide to making cannabis-infused topicals for localized relief."
         }
-      ]
+      ],
+      "short_title": "Why flower infusion is superior to extracts for health"
     },
     "why-our-calculator-is-the-most-accurate": {
       "title": "Why Our Cannabis Calculator Is the Most Accurate",
@@ -3504,7 +3590,8 @@
           "title": "The science of decarboxylation",
           "description": "Why you must decarb cannabis before cooking, and how to do it right for maximum potency."
         }
-      ]
+      ],
+      "short_title": "Why our cannabis calculator is the most accurate"
     },
     "why-use-cannabis-topicals": {
       "title": "Why Use Cannabis Topicals",
@@ -3570,7 +3657,8 @@
           "slug": "is-cannabis-an-aphrodisiac",
           "title": "Is cannabis an aphrodisiac?"
         }
-      ]
+      ],
+      "short_title": "Why use cannabis topicals?"
     }
   }
 }
