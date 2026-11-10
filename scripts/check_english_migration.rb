@@ -3,12 +3,14 @@
 # (default: master) on the fields that must not change: title, description,
 # keywords, canonical, hreflang, JSON-LD (parsed), visible hero/body text, h2 ids.
 #
-#   ruby scripts/check_english_migration.rb [ref] [file ...]
+#   ruby scripts/check_english_migration.rb [--head] [ref] [file ...]
+# --head skips visible text and h2 ids: the redesigned special pages (#74) keep only their head and JSON-LD.
 require "nokogiri"
 require "json"
 require "open3"
 
 ROOT = File.expand_path("..", __dir__)
+HEAD_ONLY = !ARGV.delete("--head").nil?
 ref = ARGV.first && !ARGV.first.end_with?(".html") ? ARGV.shift : "master"
 SPECIAL = %w[index.html calculator.html donate.html 404.html articles.html about.html contact.html]
 files = ARGV.empty? ? Dir.glob(File.join(ROOT, "*.html")).map { |f| File.basename(f) }.sort : ARGV
@@ -88,7 +90,7 @@ files.each do |f|
   a, an = fields(old)
   b, bn = fields(File.read(File.join(ROOT, f)))
   an.each { |k, v| puts "NOTE #{f} #{k}: #{v.inspect} → #{bn[k].inspect}" if v != bn[k] }
-  bad = a.keys.reject { |k| same?(k, a[k], b[k]) }
+  bad = a.keys.reject { |k| same?(k, a[k], b[k]) || (HEAD_ONLY && ["text", "h2 ids"].include?(k)) }
   next if bad.empty?
   failed += 1
   puts "FAIL #{f}"

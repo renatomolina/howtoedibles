@@ -3,14 +3,14 @@
 # new pages?" (#63 §2, §7). Sizes are gzipped as transferred (woff2 counted raw).
 # Called at the end of build_site.rb. Run alone: ruby scripts/check_budget.rb
 #
-# BLOCKING for pages on the new shell (recipes and category pages since Phase 1a/1b, #72/#73) and
+# BLOCKING for pages on the new shell (recipes and category pages since Phase 1a/1b, #72/#73; the special pages since Phase 2, #74) and
 # for the shared assets (site.css, the font, the search indexes). Pages still on the old shell
 # (Bootstrap/jQuery/Font Awesome CDN, the 237-link navbar) only warn; each phase that moves a page
 # type adds it to NEW_SHELL. BUDGET_STRICT=1 makes every warning fail too.
 require "zlib"
 
 STRICT_ALL = ENV["BUDGET_STRICT"] == "1"
-NEW_SHELL = %r{\A([a-z]{2}/)?(recipes|category)/}
+NEW_SHELL = %r{\A([a-z]{2}/)?((recipes|category)/|(index|calculator|donate|articles)\.html\z)|\A404\.html\z}
 ROOT = File.expand_path("..", __dir__)
 KB = 1024
 

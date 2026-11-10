@@ -19,13 +19,15 @@
   "homepage": {
     "title": "Edible Dosage Calculator | Cannabutter & Cannabis Recipes",
     "description": "Find out how potent your edibles are! This edible dosage calculator helps you cook and dose cannabis edibles responsibly.",
-    "hero_title": "Cannabis Edibles Recipes",
+    "hero_title": "Cannabis Edible Recipes & Dosage Calculator",
     "hero_sub": "Delicious recipes with a built-in dosage calculator so you always know what's in your food.",
     "popular_recipes": "Popular recipes",
     "no_results": "No recipes found. Try a different search.",
     "donate_cta_title": "Enjoying the recipes?",
     "donate_cta_text": "This site is free and ad-light — help us keep it that way.",
-    "donate_cta_btn": "Support us"
+    "donate_cta_btn": "Support us",
+    "keywords": "edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles",
+    "schema_description": "Cannabis edible recipes and dosage calculator. Learn how to cook with cannabis and dose edibles safely."
   },
   "calculator": {
     "page_title": "Edible Dosage Calculator — Calculate THC mg Per Serving | HowToEdibles",
@@ -76,7 +78,7 @@
     "dosage_extreme_desc": "Overwhelming for most people. Medical patients only.",
     "how_to_use_title": "How to Use the Calculator",
     "how_to_step_1": "Enter the <strong>grams of cannabis</strong> you plan to use.",
-    "how_to_step_2": "Set the <strong>THC percentage</strong> (check your dispensary label, or use the \"Not sure?\" guide).",
+    "how_to_step_2": "Set the <strong>THC percentage</strong> (check your dispensary label, or tap one of the presets under the field).",
     "how_to_step_3": "Enter the <strong>number of servings</strong> your recipe makes.",
     "how_to_step_4": "The calculator instantly shows <strong>mg THC per serving</strong> and total potency.",
     "how_math_works": "How does the math work? →",
@@ -84,7 +86,9 @@
     "try_recipe_sub": "Open any recipe to pre-fill the calculator with suggested amounts:",
     "all_recipes": "All recipes →",
     "faq_title": "Frequently Asked Questions",
-    "safety_note": "Always start low and go slow. Wait at least 2 hours before taking more. This calculator is for educational purposes only."
+    "safety_note": "Always start low and go slow. Wait at least 2 hours before taking more. This calculator is for educational purposes only.",
+    "keywords": "edible dosage calculator, THC mg calculator, cannabis edible potency, how to dose edibles, weed edible calculator",
+    "headline": "Cannabis Edible Dosage Calculator — Calculate THC mg Per Serving"
   },
   "calculator_js": {
     "gram": "gram",
@@ -182,7 +186,8 @@
     "thank_you": "Every contribution, big or small, is genuinely appreciated. Thank you for being part of this community.",
     "feature_calculator": "Free dosage calculator for everyone",
     "feature_recipes": "41+ tested cannabis recipes",
-    "feature_safety": "Harm reduction guides & safety tips"
+    "feature_safety": "Harm reduction guides & safety tips",
+    "keywords": "edible dosage calculator, cannabis edibles, how much weed for edibles, THC calculator, edible potency, marijuana edibles, cannabis dosage, weed edibles"
   },
   "articles": {
     "title": "Articles",

@@ -37,8 +37,8 @@ h1,h2,h3{font-family:var(--disp);font-weight:800;overflow-wrap:break-word}
 
 /* --- cover: category colour block + the recipe's dish-form glyph, cropped/rotated by slug (#58, #62).
        The build emits --cat-lt/--deep-lt/--cat-dk/--deep-dk inline; CSS picks --cat per theme. --- */
-.cv,.hero,.steps,.band,.chips a,.sh{--cat:var(--cat-lt);--cat-deep:var(--deep-lt)}
-[data-theme=dark] .cv,[data-theme=dark] .hero,[data-theme=dark] .steps,[data-theme=dark] .band,[data-theme=dark] .chips a,[data-theme=dark] .sh{--cat:var(--cat-dk);--cat-deep:var(--deep-dk)}
+.cv,.hero,.steps,.band,.chips a,.sh,.poster,.tone,.tsec{--cat:var(--cat-lt);--cat-deep:var(--deep-lt)}
+[data-theme=dark] :is(.cv,.hero,.steps,.band,.chips a,.sh,.poster,.tone,.tsec){--cat:var(--cat-dk);--cat-deep:var(--deep-dk)}
 .cv{display:block;position:relative;overflow:hidden;background:var(--cat);color:var(--on-cat);contain:paint}
 .cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);height:auto;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
 
@@ -116,14 +116,15 @@ dialog[open]{animation:sheet .22s cubic-bezier(.2,.8,.3,1)}
 
 /* --- footer (orange, ink text, no logo) --- */
 .ftr{margin-top:64px;background:var(--orange);color:#1f1410;padding:28px 0 calc(40px + env(safe-area-inset-bottom))}
-.ftr .cols{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+/* one <div> per group: heading across, links in 2 columns on phones; the 3 groups side by side from 720px */
+.ftr .cols>div{display:grid;grid-template-columns:1fr 1fr;gap:0 16px;align-content:start}
 .ftr h2{font-size:14px;margin:22px 0 4px;grid-column:1/-1}
 .ftr .cols a{display:block;padding:9px 0;font-weight:700;text-decoration:none;font-size:16px;line-height:1.3}
 .ftr .langs{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
 .ftr .langs a{border:2px solid #1f1410;border-radius:999px;padding:8px 14px;font-weight:700;text-decoration:none;font-size:15px}
 .ftr .langs a[aria-current]{background:#1f1410;color:#f27242}
 .ftr p{font-size:14px;margin:22px 0 0}
-@media (min-width:720px){.ftr .cols{grid-template-columns:repeat(3,1fr);grid-auto-flow:column;grid-template-rows:auto repeat(9,auto)}.ftr h2{grid-column:auto}}
+@media (min-width:720px){.ftr .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:0 16px}.ftr .cols>div{grid-template-columns:1fr}}
 
 /* --- buttons --- */
 .btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:6px 14px;border:2px solid var(--ink);border-radius:16px;font-weight:700;text-decoration:none;background:var(--paper);line-height:1.15;text-align:center;font-size:16px}
@@ -311,9 +312,166 @@ body.mini-on{--res-top:62px}
 .sh{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:40px 0 12px}
 .sh h2{font-size:22px;letter-spacing:-.02em;line-height:1.1;margin:0}
 
+/* ================= poster band: the header of every non-recipe page (#60) =================
+   A colour block like a cover; the "glyph" is an oversized, cropped typographic mark (mg, 404, the article count, free). */
+.poster{position:relative;overflow:hidden;contain:paint;margin:0 calc(-1 * var(--pad));padding:22px var(--pad) 26px;background:var(--cat);color:#1f1410;min-height:var(--band-h,0)}
+.poster .mk{position:absolute;right:var(--mx,-.06em);bottom:var(--my,-.2em);font:800 var(--ms,220px)/.78 var(--disp);letter-spacing:-.06em;color:var(--cat-deep);transform:rotate(var(--mr,-7deg));transform-origin:100% 100%;white-space:nowrap;pointer-events:none;user-select:none}
+.poster>*:not(.mk){position:relative}
+.tag{display:inline-block;font-size:13px;font-weight:700;border:2px solid #1f1410;border-radius:999px;padding:5px 12px;background:var(--cat);text-decoration:none;white-space:nowrap}
+.poster h1{font-size:clamp(30px,9vw,40px);line-height:1.04;letter-spacing:-.03em;margin:16px 0 10px;max-width:15ch}
+:lang(zh) .poster h1{letter-spacing:0;line-height:1.18}
+.poster .deck{margin:0;font-size:16px;line-height:1.45;max-width:30ch;font-weight:500}
+.poster .meta{margin:12px 0 0;font-size:13px;font-weight:700;opacity:.8}
+.poster.over{padding-bottom:58px} /* calculator.html: the card overlaps the band's bottom 34px */
+.lede{margin:28px 0 0;font-size:18px;line-height:1.5;color:var(--ink-2)}
+.prose p{margin:0 0 16px;font-size:18px;line-height:1.62}
+.box{display:flex;gap:12px;align-items:flex-start;margin:28px 0 0;padding:16px 18px;border:2px solid var(--ink);border-radius:20px}
+.box .icon{color:var(--orange)}
+.box p{margin:0;font-size:16px;line-height:1.5}
+.btns{display:grid;gap:10px;margin-top:18px}
+.or{display:flex;align-items:center;gap:12px;margin:18px 0 0;font-size:14px;color:var(--ink-2);font-weight:600}
+.or::before,.or::after{content:"";flex:1;border-top:1px solid var(--line)}
+.sbox{display:flex;align-items:center;gap:10px;height:56px;margin:12px 0 0;padding:0 8px 0 18px;border:2px solid var(--ink);border-radius:999px;background:var(--chip)}
+.sbox input{flex:1;min-width:0;height:100%;border:0;background:none;font-size:17px;outline:none;padding:0}
+.sbox input::placeholder{color:var(--ink-2)}
+.sbox input::-webkit-search-cancel-button{display:none}
+.sbox button{flex:none;height:40px;padding:0 16px;border:0;border-radius:999px;background:var(--ink);color:var(--paper);font-weight:700;font-size:15px}
+.sbox:focus-within{box-shadow:0 0 0 3px var(--ring)}
+.card .mt{display:block;font-size:13px;color:var(--ink-2);margin-top:2px}
+
+/* ================= homepage (#53: calculator hero, category tiles, shelves) ================= */
+.hh h1{font-size:clamp(27px,7.7vw,34px);line-height:1.04;letter-spacing:-.03em;margin:6px 0 16px}
+.hh h1 mark{background:linear-gradient(transparent 58%,var(--mark) 58%);color:inherit}
+.cq{margin:0;padding:14px 18px 0;background:var(--ink);color:var(--paper);font:800 15px/1.2 var(--disp)}
+.cq+.peek+.res{padding-top:10px}
+.home .tiles .cv{height:96px}
+.home>.sh,.shelf .sh{margin-top:40px}
+.sh h2{display:flex;align-items:center;gap:10px}
+.sh h2 i{flex:none;width:14px;height:14px;border-radius:50%;background:var(--cat)}
+.sh h2 small{display:block;margin-top:4px;font:400 14px/1.3 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;letter-spacing:0;color:var(--ink-2)}
+.sh>a{flex:none;font-weight:700;font-size:15px;white-space:nowrap;text-decoration-thickness:2px;text-underline-offset:3px}
+.strip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:var(--pad);scrollbar-width:none;margin:0 calc(-1 * var(--pad));padding:0 var(--pad) 4px}
+.strip::-webkit-scrollbar{display:none}
+.strip>*{flex:none;width:152px;scroll-snap-align:start}
+.strip .all{aspect-ratio:1;border-radius:20px;border:2px solid var(--ink);background:var(--chip);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;padding:10px;text-decoration:none;font-weight:700;text-align:center;line-height:1.2;overflow-wrap:anywhere}
+.strip .all b{font:800 30px/1 var(--disp)}
+.home .ad{margin-top:40px}
+html.q #home,html:not(.q) #results{display:none}
+.qh h2{font-size:26px;letter-spacing:-.02em;line-height:1.15;margin:6px 0 4px}
+.qh p{margin:0;color:var(--ink-2);font-size:15px}
+#qgrid{margin-top:20px}
+#qnone>p{margin:28px 0 14px;font-size:17px}
+
+/* ================= calculator.html (#54 card, #60 page) ================= */
+.over+.page>.rail{position:relative;z-index:2;margin-top:-34px}
+.over+.page>.rail>.block{margin-top:0}
+.newbie+.help{margin-top:12px}
+.dt{width:100%;border-collapse:collapse;font-size:15px;line-height:1.35;margin-top:10px}
+.dt th{text-align:left;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);padding:0 8px 8px;border-bottom:2px solid var(--ink);white-space:nowrap}
+:lang(zh) .dt th{text-transform:none}
+.dt td{padding:12px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.dt td:first-child{padding-left:14px;position:relative;font-weight:700;white-space:nowrap}
+.dt td:first-child::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:6px;border-radius:3px;background:var(--c)}
+.dt td:nth-child(2){font:800 14px/1.35 var(--disp);white-space:nowrap}
+.dt td:last-child{color:var(--ink-2)}
+.dt tr[aria-current] td{background:var(--ink);color:var(--paper)}
+.dt tr[aria-current] td:first-child{border-radius:12px 0 0 12px}
+.dt tr[aria-current] td:last-child{border-radius:0 12px 12px 0;color:var(--paper);opacity:.9}
+.dt .you{display:inline-block;margin-left:6px;font:700 11px/1 -apple-system,BlinkMacSystemFont,sans-serif;background:var(--c);color:#1f1410;padding:3px 6px;border-radius:999px;vertical-align:2px}
+@media (max-width:639px){ /* level + mg on one line, the effect under them (still a real <table>) */
+  .dt thead{display:none}
+  .dt tr{display:grid;grid-template-columns:1fr auto;position:relative;padding:12px 10px 12px 18px;border-bottom:1px solid var(--line);border-radius:14px}
+  .dt tr::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:6px;border-radius:3px;background:var(--c)}
+  .dt td,.dt td:first-child{padding:0;border:0;background:none!important;border-radius:0!important}
+  .dt td:first-child::before{content:none}
+  .dt td:last-child{grid-column:1/-1;margin-top:4px}
+  .dt tr[aria-current]{background:var(--ink);color:var(--paper)}
+  .dt tr[aria-current]::before{left:6px}
+}
+.fx{background:var(--ink);color:var(--paper);border-radius:24px;padding:20px 18px 18px;margin-top:14px}
+.fx .eq{margin:0;font:800 clamp(19px,5.3vw,30px)/1.15 var(--disp);letter-spacing:-.02em;display:flex;flex-wrap:wrap;gap:0 .28em;align-items:baseline}
+.fx .eq i{font-style:normal;color:var(--orange)}
+.fx dl{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;margin:16px 0 0;font-size:15px}
+.fx dt{font:800 15px/1.4 var(--disp);color:var(--orange)}
+.fx dd{margin:0;opacity:.88}
+.ex{border:2px solid var(--ink);border-radius:20px;padding:14px 16px;margin-top:12px}
+.ex.live{border-style:dashed}
+.ex small{display:block;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2)}
+.ex p{margin:4px 0 0;font:800 17px/1.4 var(--disp)}
+.ex p b{color:var(--orange);white-space:nowrap}
+#formula>.hint:last-child{margin-top:14px;font-size:15px;font-weight:700}
+.howto{list-style:none;margin:12px 0 0;padding:0;counter-reset:h}
+.howto li{counter-increment:h;display:flex;gap:14px;padding:12px 0;border-top:1px solid var(--line);font-size:17px;line-height:1.45}
+.howto li::before{content:counter(h);flex:none;width:36px;height:36px;border-radius:50%;background:var(--orange);color:#1f1410;display:grid;place-items:center;font:800 15px/1 var(--disp)}
+.bh>a{font-weight:700;font-size:15px;white-space:nowrap}
+
+/* ================= articles index (#60: cards for highlights, a slim list for the rest) ================= */
+.asearch{display:flex;align-items:center;gap:10px;height:56px;border:2px solid var(--ink);border-radius:999px;padding:0 18px;background:var(--paper);margin-top:-28px;position:relative;z-index:2;box-shadow:0 6px 0 var(--ink)}
+.asearch input{flex:1;min-width:0;border:0;background:none;outline:none;font-size:17px;height:100%;padding:0}
+.asearch:focus-within{box-shadow:0 6px 0 var(--ink),0 0 0 3px var(--ring)}
+.topics{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:22px calc(-1 * var(--pad)) 0;padding:2px var(--pad)}
+.topics::-webkit-scrollbar{display:none}
+.topics .chip{border-color:var(--ink);display:inline-flex;align-items:center}
+.topics .chip i{width:10px;height:10px;border-radius:50%;background:var(--cat);margin-right:6px}
+.topics .chip em{font-style:normal;font-weight:600;opacity:.6;margin-left:5px}
+.count{font-size:14px;font-weight:700;color:var(--ink-2);margin:14px 0 0}
+.start{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.start a,.lead{position:relative;overflow:hidden;contain:paint;display:flex;flex-direction:column;justify-content:flex-end;min-height:150px;border-radius:20px;padding:14px;background:var(--cat);color:#1f1410;text-decoration:none;min-width:0}
+.start .n,.lead .n{position:absolute;right:-.02em;top:-.2em;font:800 120px/1 var(--disp);color:var(--cat-deep);letter-spacing:-.06em;transform:rotate(-8deg)}
+.start b,.lead b{position:relative;font:800 16px/1.2 var(--disp);letter-spacing:-.01em;overflow-wrap:anywhere}
+.start small{position:relative;font-size:12px;font-weight:700;margin-top:6px;opacity:.75}
+:lang(de) :is(.start b,.lead b,.alist b){hyphens:auto;-webkit-hyphens:auto}
+.tsec{margin-top:40px}
+.tsec>h2{display:flex;align-items:center;gap:10px;font-size:22px;margin:0 0 12px}
+.tsec>h2 i{flex:none;width:14px;height:14px;border-radius:50%;background:var(--cat)}
+.tsec>h2 em{font:600 14px/1 -apple-system,BlinkMacSystemFont,sans-serif;font-style:normal;color:var(--ink-2);margin-left:auto}
+.leadl,.alist{list-style:none;margin:0;padding:0}
+.lead{padding:16px;margin-bottom:4px}
+.lead .n{font-size:170px;top:-.34em}
+.lead b{font-size:19px;max-width:88%}
+.lead>span:last-child{position:relative;font-size:14px;line-height:1.4;margin-top:6px;max-width:92%;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.alist a{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:56px;padding:10px 0;border-top:1px solid var(--line);text-decoration:none}
+.alist b{min-width:0;font-size:16px;font-weight:650;line-height:1.3;overflow-wrap:break-word}
+.alist .icon{width:18px;height:18px;color:var(--cat-deep)}
+.morel summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:52px;border-top:1px solid var(--line);font-weight:800;font-size:15px;cursor:pointer}
+.morel summary::-webkit-details-marker{display:none}
+.morel .pm{width:28px;height:28px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;transition:transform .2s}
+.morel .pm .icon{width:16px;height:16px}
+.morel[open] .pm{transform:rotate(45deg);background:var(--ink);color:var(--paper)}
+.none{margin:28px 0 0;font-size:17px}
+
+/* ================= 404 + donate ================= */
+.lost{--band-h:300px}
+.lost .mk{--ms:min(62vw,300px)}
+.lost h1{max-width:12ch}
+.url{display:inline-flex;max-width:100%;margin-top:14px;font:600 13px/1.3 ui-monospace,Menlo,monospace;background:rgba(31,20,16,.12);padding:6px 10px;border-radius:8px;overflow-wrap:anywhere}
+#e404+.sbox{margin-top:28px}
+.col>.facts{margin-top:26px}
+.col>.facts b{font-size:22px}
+.prose{margin-top:26px}
+/* about.html: the copy as prose, the 4 "how we check" points as numbered steps, the formula inline */
+.prose h2{font-size:24px;letter-spacing:-.02em;line-height:1.15;margin:40px 0 12px}
+.prose a{font-weight:600;text-decoration-thickness:2px;text-underline-offset:3px;text-decoration-color:var(--orange)}
+.how{list-style:none;margin:14px 0 0;padding:0;counter-reset:h}
+.how li{counter-increment:h;position:relative;padding:14px 0 14px 54px;border-top:1px solid var(--line);font-size:17px;line-height:1.55}
+.how li::before{content:counter(h,decimal-leading-zero);position:absolute;left:0;top:14px;font:800 22px/1 var(--disp);color:var(--orange)}
+.how li strong{display:block;font-family:var(--disp);font-weight:800;font-size:17px;margin-bottom:2px}
+.fx-sm{display:block;padding:14px 16px;margin:12px 0}
+.fx-sm .eq{font-size:clamp(17px,5vw,22px)}
+.box.warn{display:block;border-color:var(--orange);background:rgba(242,114,66,.09)}
+.box.warn h2{display:flex;align-items:center;gap:8px;font-size:20px;margin:0 0 6px}
+.paypal{width:100%;min-height:60px;margin-top:22px;font-size:17px}
+.thanks{font-size:15px;color:var(--ink-2);text-align:center;margin:14px 0 0}
+
 /* ================= tablet 720–999: rounded cover/band, ads stop bleeding ================= */
 @media (min-width:720px){
-  .hero .cv,.band{margin:0;border-radius:28px}
+  .hero .cv,.band,.poster{margin:0;border-radius:28px}
+  .poster{padding:30px 32px 36px}
+  .poster h1{font-size:46px;max-width:16ch}
+  .poster .deck{font-size:18px;max-width:36ch}
+  .g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .btns{grid-template-columns:1fr 1fr}
+  .topics{margin:22px 0 0;padding:2px 0;flex-wrap:wrap}
   .crumb{left:20px}
   .band{padding:28px 32px 30px}
   .band .back{left:32px;top:24px}
@@ -360,5 +518,28 @@ body.mini-on{--res-top:62px}
   .cats{grid-template-columns:repeat(8,minmax(0,1fr))}
   .tiles{grid-template-columns:repeat(4,minmax(0,1fr))}
   .learn{columns:2;column-gap:40px}
+  .poster{padding:36px 40px 44px}
+  .poster.over{padding-bottom:44px}
+  .poster h1{font-size:52px}
+  .poster .deck{max-width:40ch}
+  .over+.page{margin-top:32px}
+  .over+.page>.rail{margin-top:0;position:sticky}
+  .col{max-width:720px;margin:0 auto}
+  .lost{--band-h:360px}
+  .lost .mk{--ms:420px}
+  /* homepage: H1 + search on the left, the calculator card (compact rail styles) on the right */
+  .hh{display:grid;grid-template-columns:minmax(0,1fr) 420px;grid-template-rows:1fr auto auto auto 1fr;column-gap:56px;padding:8px 0 0}
+  .hh>h1{grid-row:2;font-size:56px}
+  .hh>.or{grid-row:3}
+  .hh>.sbox{grid-row:4}
+  .hh>.hcalc{grid-column:2;grid-row:1/-1}
+  .strip{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:22px;margin:0;padding:0;overflow:visible}
+  .strip>*{width:auto}
+  .strip>.card:nth-child(n+6){display:none}
+  .asearch{max-width:560px}
+  .tsecs{columns:2;column-gap:48px}
+  .tsec{break-inside:avoid;margin-top:0;padding-top:40px}
 }
+/* "Start here": 2 columns until the 4 titles fit side by side (pt/es/de were cut at 673–744px) */
+@media (min-width:800px){.start{grid-template-columns:repeat(4,minmax(0,1fr))}.start a{min-height:190px}}
 @supports (height:100svh){@media (min-width:1000px){.hero,.hero.mid,.hero.long{--hero-h:clamp(220px,calc(100svh - 400px),400px)}}}

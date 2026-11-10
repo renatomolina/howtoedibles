@@ -1,4 +1,4 @@
-// The recipe-page calculator (#54 A · Steppers, #59 peek + compact rail).
+// The calculator card (#54 A · Steppers, #59 peek + compact rail): recipe pages, the homepage hero and calculator.html (#74).
 // The build pre-renders the panel, peek, sticker, facts and hero lines from the recipe defaults
 // (scripts/build_redesign.rb: live_html, peek_html, newbie_html); this mirrors those helpers and only
 // re-renders on input, never the inputs themselves (the keyboard stays open).
@@ -46,6 +46,7 @@
       '<div class="lad" aria-hidden="true">' + lad + '<span class="mk" style="left:' + pos + '%"></span></div>' +
       '<div class="lvl"><b>' + esc(T.levels[i][0]) + "</b><span>" + RANGES[i] + " · " + esc(T.levels[i][1]) + "</span></div>" + splitHTML(x);
   }
+  function eqHTML(x) { return "10 × " + fmtG(x.g) + " × " + nf(x.s, 1) + " × " + nf(EFF, 1) + " ÷ " + x.n + " = <b>" + fmtMg(mgOf(x)) + " mg</b>"; }
   function peekHTML(x) {
     var mg = mgOf(x);
     return "<b>" + fmtMg(mg) + "<small> mg</small></b><span>" + esc(T.levels[lvl(mg)][0]) + "<small>" + esc(T.per) + " · " + esc(fill(T.inBatch, { mg: fmtMg(mg * x.n) })) + "</small></span>";
@@ -72,12 +73,21 @@
     set("g", fmtG(x.g));
     set("adj", esc(fill(T.adjustSub, { g: fmtG(x.g), p: nf(x.s, 1) })));
     set("newbie", newbieHTML(mg));
+    set("eq", eqHTML(x));
+    d.querySelectorAll("tr[data-lvl]").forEach(function (tr) { // calculator.html: the dose table follows the result
+      var on = +tr.dataset.lvl === lvl(mg), td = tr.firstElementChild, y = td.querySelector(".you");
+      if (on) tr.setAttribute("aria-current", "true"); else tr.removeAttribute("aria-current");
+      if (on && !y) td.insertAdjacentHTML("beforeend", '<span class="you">' + esc(T.you) + "</span>");
+      if (!on && y) y.remove();
+    });
     d.querySelectorAll("[data-unit=n]").forEach(function (el) { el.textContent = x.n === 1 ? T.serving : T.servings; });
     d.querySelectorAll("[data-in]").forEach(function (i) { if (i !== d.activeElement) i.value = i.dataset.in === "g" ? fmtG(x.g) : nf(x[i.dataset.in], 1); });
     d.querySelectorAll(".chip[data-k]").forEach(function (c) { c.setAttribute("aria-pressed", x[c.dataset.k] === +c.dataset.v); });
     d.querySelector("[data-reset]").hidden = !edited();
-    st.classList.toggle("edited", edited());
-    if (bump) { st.classList.remove("bump"); void st.offsetWidth; st.classList.add("bump"); }
+    if (st) {
+      st.classList.toggle("edited", edited());
+      if (bump) { st.classList.remove("bump"); void st.offsetWidth; st.classList.add("bump"); }
+    }
     measure();
   }
   function setK(k, v) {
@@ -124,8 +134,8 @@
   // QA hook (scripts/qa/devices.mjs): the static HTML must equal what this file renders for the defaults.
   D.check = function () {
     var z = { g: def.g, s: def.s, n: def.n };
-    function same(el, html) { var t = d.createElement("div"); t.innerHTML = html; return t.innerHTML === el.innerHTML; }
-    return same(live, liveHTML(z)) && same(peek, peekHTML(z)) && same(d.querySelector('[data-o="newbie"]'), newbieHTML(mgOf(z)));
+    function same(el, html) { if (!el) return true; var t = d.createElement("div"); t.innerHTML = html; return t.innerHTML === el.innerHTML; }
+    return same(live, liveHTML(z)) && same(peek, peekHTML(z)) && same(d.querySelector('[data-o="newbie"]'), newbieHTML(mgOf(z))) && same(d.querySelector('[data-o="eq"]'), eqHTML(z));
   };
   if (edited()) render(); else measure();
 })();

@@ -1,11 +1,11 @@
 #!/bin/sh
 # Gate: Lighthouse lab run (mobile preset, ads and analytics blocked) on the new page types, en + zh (#63 §1, §7).
 # Targets: LCP ≤ 1.8 s · CLS ≤ 0.02 · TBT ≤ 100 ms.
-# Usage: python3 -m http.server 8781 (repo root) & sh scripts/qa/lighthouse.sh [outdir]
+# Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & sh scripts/qa/lighthouse.sh [outdir]
 OUT=${1:-/tmp/hte-lighthouse}
 BASE=${BASE:-http://127.0.0.1:8781}
 mkdir -p "$OUT"
-for p in /recipes/pot-brownies/ /zh/recipes/pot-brownies/ /de/recipes/infused-keto-chocolate-avocado-mousse/ /category/desserts/ /zh/category/desserts/; do
+for p in /recipes/pot-brownies/ /zh/recipes/pot-brownies/ /de/recipes/infused-keto-chocolate-avocado-mousse/ /category/desserts/ /zh/category/desserts/ / /zh/ /calculator.html /zh/calculator.html /articles.html /donate.html; do
   name=$(echo "$p" | tr '/' '_')
   npx --yes lighthouse@13.6.0 "$BASE$p" --quiet --only-categories=performance \
     --blocked-url-patterns='*googlesyndication.com*' --blocked-url-patterns='*googletagmanager.com*' \
