@@ -28,21 +28,23 @@ AD_UNITS = { "recipe-mid" => "4353785890", "recipe-end" => "5475295879", "catego
 
 SPRITE = File.read(File.join(ROOT_DIR, "data", "glyphs.svg")).sub(/\A.*?<svg[^>]*>/m, "").sub(%r{</svg>\s*\z}, "").gsub(/<!--.*?-->\n?/m, "").strip
 
-# The C2 logo as one <symbol>: the wordmark is the only part that changes in dark mode
-# (logo.svg vs logo-dark.svg), so it takes var(--ink) and one symbol serves both themes.
+# The logo (scripts/build_logo.py) as one <symbol>: HOW TO is the only part that changes in dark mode
+# (logo.svg vs logo-dark.svg), so it takes var(--ink) and one symbol serves both themes. Its orange and green
+# become --logo-o/--logo-g (defaulting to the logo's own colours), so a cover colour can turn it all ink.
 def logo_symbol
   light = File.read(File.join(ROOT_DIR, "images/brand/logo.svg"))
   dark = File.read(File.join(ROOT_DIR, "images/brand/logo-dark.svg"))
-  # The exported viewBox is the fill bbox; strokes reach 5.5 units past it, so pad 6 on every side.
-  x, y, w, hh = light[/viewBox="([^"]+)"/, 1].split.map(&:to_f)
-  view_box = [x - 6, y - 6, w + 12, hh + 12].map { |v| v.round(2) }.join(" ")
+  view_box = light[/viewBox="([^"]+)"/, 1]
   a, b = light.split(/(?=<)/), dark.split(/(?=<)/)
   abort "ERROR: logo.svg and logo-dark.svg differ in structure" unless a.size == b.size
   body = a.zip(b).map { |x, y| x == y ? x : x.sub(/fill="[^"]+"/, 'fill="var(--ink)"') }.join
+  body = body.gsub(/(fill|stroke)="(#f5821f)"/) { %(#{$1}="var(--logo-o,#{$2})") }.gsub(/fill="(#79ab47)"/) { %(fill="var(--logo-g,#{$1})") }
   inner = body.sub(/\A.*?<svg[^>]*>/m, "").sub(%r{</svg>\s*\z}, "")
   %(<symbol id="logo" viewBox="#{view_box}">#{inner.strip}</symbol>)
 end
 LOGO_SYMBOL = logo_symbol
+_, _, lw, lh = LOGO_SYMBOL[/viewBox="([^"]+)"/, 1].split.map(&:to_f)
+LOGO_H = (240 * lh / lw).round # the <svg> height for a 240-wide logo; CSS keeps the same ratio (.logo aspect-ratio)
 SPRITE_HTML = %(<svg xmlns="http://www.w3.org/2000/svg" style="display:none">#{SPRITE}#{LOGO_SYMBOL}</svg>)
 
 ICON = {
@@ -275,7 +277,7 @@ end
 
 def logo_svg(cls = "logo", label: nil)
   aria = label ? %(role="img" aria-label="#{label}") : %(aria-hidden="true")
-  %(<svg class="#{cls}" viewBox="#{LOGO_SYMBOL[/viewBox="([^"]+)"/, 1]}" width="240" height="89" #{aria}><use href="#logo"/></svg>)
+  %(<svg class="#{cls}" viewBox="#{LOGO_SYMBOL[/viewBox="([^"]+)"/, 1]}" width="240" height="#{LOGO_H}" #{aria}><use href="#logo"/></svg>)
 end
 
 def shell_top(lang); "<body>\n#{SPRITE_HTML}\n" + masthead(lang); end
@@ -917,7 +919,7 @@ RASTER_CSS = <<~CSS.gsub(/\n\s*/, "")
   .cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);height:auto;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
   .og{width:1200px;height:630px}.og>svg.g{width:auto;height:var(--gh)}
   .sq{width:1200px;height:1200px}
-  .cv>svg.logo{left:64px;top:56px;right:auto;bottom:auto;width:300px;height:auto;aspect-ratio:370.75/138;transform:none;--ink:#1f1410}
+  .cv>svg.logo{left:64px;top:56px;right:auto;bottom:auto;width:300px;height:auto;aspect-ratio:432/164;transform:none;--ink:#1f1410;--logo-o:#1f1410;--logo-g:#1f1410}
   h1{position:absolute;left:64px;bottom:64px;width:720px;margin:0;font-weight:800;font-size:76px;line-height:1.04;letter-spacing:-.03em;}.hy{hyphens:auto;-webkit-hyphens:auto}
   h1.mid{font-size:64px}h1.long{font-size:54px}:lang(zh) h1{font-weight:900;letter-spacing:0;line-height:1.18}
   .st{position:absolute;right:96px;bottom:96px;width:230px;height:230px;border-radius:50%;background:#1f1410;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);box-shadow:0 0 0 8px #fff;line-height:1;text-align:center}
