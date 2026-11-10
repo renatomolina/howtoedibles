@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   if (searchInput) {
-    /* Pre-fill from ?search= URL param */
-    var urlTerm = new URLSearchParams(window.location.search).get('search');
+    /* Pre-fill from ?q= (the new search sheet) or the legacy ?search= */
+    var urlParams = new URLSearchParams(window.location.search), urlTerm = urlParams.get('q') || urlParams.get('search');
     if (urlTerm) { searchInput.value = urlTerm; }
 
     searchInput.addEventListener('input', filterCards);

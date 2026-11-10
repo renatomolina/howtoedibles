@@ -9,16 +9,23 @@ Fully static HTML site — no build framework, no bundler. Almost every page is 
 - **Hosting:** GitHub Pages (branch: master)
 - **Domain:** www.howtoedibles.com (CNAME file)
 - **Languages:** en (root), pt, es, de, zh — generated pages live in `/{lang}/`
-- **CSS:** Bootstrap 4.5.2 (CDN) + `/css/styles.css` (3.3k lines, custom)
+- **Two shells during the redesign (#71–#76):** recipe and category pages use the new shell (`/css/site.css`, `js/shell.js`, `js/dose.js`, no Bootstrap/jQuery/Font Awesome); every other page keeps the old one (Bootstrap 4.5.2 CDN + `/css/styles.css`) until its phase moves it
 - **JS:** Vanilla JS in `/js/` — no build step, no modules
-- **Images:** `/images/recipes/{slug}.jpg` — AI-generated via Gemini or SVG placeholders
+- **Images:** new-shell pages show covers (category colour + dish-form glyph from `data/glyphs.svg`, inlined), no photos. Share/schema images are rendered PNGs in `og/{lang}/{slug}.png` and `schema/{slug}.png`. The old pages still use `/images/recipes/{slug}.jpg`
 
 ## Key Commands
 
 ```bash
-# Rebuild all generated pages (translated homepages, recipes, articles, sitemap),
-# then run the page-weight budget (scripts/check_budget.rb; warn-only until Phase 1a)
+# Rebuild all generated pages (translated homepages, recipes, categories, articles, search indexes, sitemap),
+# run the inbound-link gate, render changed og/schema PNGs, then the page-weight budget
+# (scripts/check_budget.rb: blocking for new-shell pages, warn-only for old-shell pages)
 ruby scripts/build_site.rb
+
+# Redesign gates before merging (serve the repo first: python3 -m http.server 8781)
+node scripts/qa/devices.mjs   # 36 viewports × 5 langs × 3 recipes: overflow, first screen, dose readout, rail
+node scripts/qa/fit.mjs       # strings: cut-off text and wrapped one-line controls, incl. menu/search dialogs
+node scripts/qa/interact.mjs  # calculator, dialogs + Back, theme key
+sh scripts/qa/lighthouse.sh   # mobile lab run, ads blocked: LCP ≤ 1.8 s, CLS ≤ 0.02, TBT ≤ 100 ms
 
 # Rebuild /fonts/unbounded-800.latin1.woff2 from the pinned upstream font (fontTools + brotli)
 python3 scripts/build_font.py
@@ -43,10 +50,15 @@ ruby scripts/translate_recipes.rb
 ├── index.html            ← Homepage with recipe grid (hand-maintained)
 ├── calculator.html       ← Standalone dosage calculator page (hand-maintained)
 ├── *.html                ← 50 article pages (GENERATED from i18n/articles_en.json)
-├── recipes/              ← 237 recipe dirs, each with index.html
-├── css/styles.css        ← All custom CSS (dark mode, calculator, cards, etc.)
+├── recipes/              ← 237 recipe dirs, each with index.html (new shell)
+├── category/             ← 8 category pages (new shell)
+├── og/, schema/          ← Rendered share (1200×630, per language) and schema (1200×1200) PNGs
+├── css/site.css          ← New-shell CSS (tokens → reset → base → layout → components → pages)
+├── css/styles.css        ← Old-shell CSS (deleted in Phase 4)
 ├── js/
-│   ├── calculator.js     ← Dosage calculator logic
+│   ├── shell.js          ← New shell: theme, compact bar, menu/search dialogs, per-language search
+│   ├── dose.js           ← New recipe-page calculator (mirrors the build's static render)
+│   ├── calculator.js     ← Old dosage calculator (old-shell pages)
 │   ├── homepage.js       ← Search + client-side pagination (12/page)
 │   ├── dark-mode.js      ← Theme toggle (localStorage)
 │   ├── mobile-menu.js    ← Navbar collapse behavior
@@ -55,7 +67,10 @@ ruby scripts/translate_recipes.rb
 │   ├── recipes.json      ← Master recipe data (categories + recipes array)
 │   ├── recipes_text.json ← Full ingredient/instruction text for all recipes
 │   ├── recipe_enrichment.json ← Extended content (tips, variations, FAQ)
-│   ├── search-index.json ← Autocomplete index (237 recipes)
+│   ├── search-{lang}.json ← Per-language search index for the new shell's search sheet
+│   ├── search-index.json ← Old English-only autocomplete index (old-shell pages)
+│   ├── glyphs.svg        ← The 24 dish-form glyphs, inlined on every new-shell page
+│   ├── rasters-manifest.json ← Hashes of rendered og/schema PNGs (incremental re-render)
 │   └── batches/          ← Translation batch files (intermediate)
 ├── i18n/                 ← Translation JSON files
 │   ├── {lang}.json       ← UI strings per language
@@ -64,7 +79,7 @@ ruby scripts/translate_recipes.rb
 │   └── recipe_sections_{lang}.json ← Section templates
 ├── images/recipes/       ← 236 recipe JPGs
 ├── de/, es/, pt/, zh/    ← Generated translated page trees
-├── scripts/              ← Build and generation scripts
+├── scripts/              ← Build and generation scripts (`build_redesign.rb` = new shell + recipe/category templates; `qa/` = gates)
 └── tmp/                  ← Intermediate batch files (not deployed)
 ```
 
@@ -76,13 +91,17 @@ Everything on master is public on the site — never commit secrets, and keep `/
 - **Articles are generated** in all 5 languages from `i18n/articles_{lang}.json` — edit the JSON, never the article HTML (each generated file starts with a "Generated by" comment). `body_html` holds the article body; `<!-- toc -->` marks where the TOC goes.
 - 88 translated article pages (22 articles × pt/es/de/zh) are **frozen**: their `raw_main` is copied verbatim and only the shell is generated. Some have an English body and 28 have two articles stuck together; their fate belongs to the traffic map. They stay out of the sitemap and the articles indexes.
 - Hand-maintained (the build only refreshes hreflang on the first four): English `index.html`, `calculator.html`, `donate.html`, `404.html`, `articles.html`, `about.html`, `contact.html`. They are rebuilt in redesign Phase 2.
-- Recipe pages for ALL languages (including English) are generated by `build_site.rb`
+- Recipe and category pages for ALL languages (including English) are generated by `build_site.rb`, with templates in `scripts/build_redesign.rb`. Everything a crawler needs (the dose sticker, facts, beginner line, the calculator's result panel) is static HTML from the recipe defaults; JS only re-renders on input
+- The build fails if any recipe, in any language, has fewer than 2 static inbound links (its category page plus a "More {category}") or is missing from the sitemap
+- Cover colours come from `recipes.json` → `categories[].colors` and are emitted inline as `--cat-lt/--deep-lt/--cat-dk/--deep-dk`; CSS picks `--cat` per theme. Never emit `--cat` inline (it defeats dark mode)
+- Group recipes by `category_name`: `categories[].recipes` in `recipes.json` is stale
+- Ad slots go through `ad_slot` in `build_redesign.rb`; unit ids live in `AD_UNITS`
 - After changing article data or the article template, run `ruby scripts/check_english_migration.rb`. It checks that every English page still matches master on title, meta, canonical, hreflang, JSON-LD and visible text.
-- Dosage formula: `dosage_mg = (10 * grams * strength_percent * 0.8) / num_portions` (0.8 = `COOKING_EFFICIENCY` in `js/calculator.js` and `build_site.rb`; keep them in sync)
+- Dosage formula: `dosage_mg = (10 * grams * strength_percent * 0.8) / num_portions` (0.8 = `COOKING_EFFICIENCY` in `build_site.rb`, `js/dose.js` and `js/calculator.js`; keep them in sync. The dose ladder, the 5 mg fraction helper and number formatting are mirrored between `build_redesign.rb` and `js/dose.js`; `scripts/qa/devices.mjs` checks they render the same)
 - Recipe defaults (`suggested_quantity`) are capped so the default dose is ≤ 15 mg THC per serving
 - Recipe URLs: `/recipes/{slug}/` (directory with index.html)
-- Calculator reads `window.RECIPE_DEFAULTS` (injected inline per recipe page)
-- Dark mode uses `[data-theme="dark"]` CSS selectors, persisted in localStorage
+- The calculator reads `window.RECIPE_DEFAULTS` / `window.DOSE` (injected inline per recipe page); `?quantity=&potency=&portion=` still pre-fill it
+- Dark mode uses `[data-theme="dark"]` CSS selectors. The `theme` localStorage key holds `light` or `dark`; Auto removes the key (never write `auto`: the old `dark-mode.js` would apply it literally)
 - Categories: Desserts, Drinks, Snacks, Essentials, Lunch, Keto, Vegan, International
 
 ## Data Flow

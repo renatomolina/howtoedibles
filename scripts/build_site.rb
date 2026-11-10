@@ -1015,157 +1015,6 @@ def get_section_label(lang, key)
     RECIPE_SECTIONS.dig("en", "section_labels", key) || key
 end
 
-def build_recipe_intro(recipe, lang)
-  slug = recipe["slug"]
-  enrich = ENRICHMENT[slug] || {}
-  name = recipe_t(lang, slug, "name") || recipe["name"]
-  category = recipe["category_name"]
-  sub_cat = enrich["sub_category"] || "general"
-  base_fat = enrich["base_fat"] || "cannabutter"
-
-  tmpl = get_recipe_section_template(lang, category, sub_cat)
-  vars = { "name" => name.downcase, "base_fat" => base_fat, "cook_temp" => enrich["cook_temp"] || "350°F / 180°C", "category" => category }
-
-  intro_tmpl = tmpl["intro"] || ""
-  intro_text = interpolate(intro_tmpl, vars)
-
-  # Append per-recipe unique intro sentence
-  unique = recipe_t(lang, slug, "intro_unique") || enrich["intro_unique"] || ""
-  intro_text = "#{intro_text} #{unique}".strip
-  return "" if intro_text.empty?
-
-  <<~HTML
-    <div class="recipe-intro-section mb-4">
-      <p class="recipe-intro-text">#{intro_text}</p>
-    </div>
-  HTML
-end
-
-def build_recipe_enriched_sections(recipe, lang)
-  slug = recipe["slug"]
-  enrich = ENRICHMENT[slug] || {}
-  name = recipe_t(lang, slug, "name") || recipe["name"]
-  category = recipe["category_name"]
-  sub_cat = enrich["sub_category"] || "general"
-  base_fat = enrich["base_fat"] || "cannabutter"
-  cook_temp = enrich["cook_temp"] || "350°F / 180°C"
-
-  tmpl = get_recipe_section_template(lang, category, sub_cat)
-  vars = { "name" => name, "base_fat" => base_fat, "cook_temp" => cook_temp, "category" => category }
-
-  html = ""
-
-  # Dosing Tips
-  dosing_label = interpolate(get_section_label(lang, "dosing_tips"), vars)
-  tips = (tmpl["dosing_tips"] || []).map { |tip| interpolate(tip, vars) }
-  unique_dosing = recipe_t(lang, slug, "dosing_unique") || enrich["dosing_unique"]
-  tips << unique_dosing if unique_dosing && !unique_dosing.empty?
-  unless tips.empty?
-    items = tips.map { |tip| "<li>#{tip}</li>" }.join("\n      ")
-    html << <<~HTML
-      <div class="recipe-enriched-section mb-4">
-        <h2 class="recipe-enriched-title"><i class="fa fa-balance-scale" aria-hidden="true"></i> #{h(dosing_label)}</h2>
-        <ul class="recipe-enriched-list">
-          #{items}
-        </ul>
-      </div>
-    HTML
-  end
-
-  # Common Mistakes
-  mistakes_label = interpolate(get_section_label(lang, "common_mistakes"), vars)
-  mistakes = (tmpl["common_mistakes"] || []).map { |m| interpolate(m, vars) }
-  unless mistakes.empty?
-    items = mistakes.map { |m| "<li>#{m}</li>" }.join("\n      ")
-    html << <<~HTML
-      <div class="recipe-enriched-section mb-4">
-        <h2 class="recipe-enriched-title"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> #{h(mistakes_label)}</h2>
-        <ul class="recipe-enriched-list">
-          #{items}
-        </ul>
-      </div>
-    HTML
-  end
-
-  # Storage
-  storage_label = interpolate(get_section_label(lang, "storage"), vars)
-  storage = (tmpl["storage"] || []).map { |s| interpolate(s, vars) }
-  unique_storage = recipe_t(lang, slug, "storage_unique") || enrich["storage_unique"]
-  storage << unique_storage if unique_storage && !unique_storage.empty?
-  unless storage.empty?
-    items = storage.map { |s| "<li>#{s}</li>" }.join("\n      ")
-    html << <<~HTML
-      <div class="recipe-enriched-section mb-4">
-        <h2 class="recipe-enriched-title"><i class="fa fa-box" aria-hidden="true"></i> #{h(storage_label)}</h2>
-        <ul class="recipe-enriched-list">
-          #{items}
-        </ul>
-      </div>
-    HTML
-  end
-
-  # Variations
-  variations_label = interpolate(get_section_label(lang, "variations"), vars)
-  variations = (tmpl["variations"] || []).map { |v| interpolate(v, vars) }
-  unique_variation = recipe_t(lang, slug, "variation_unique") || enrich["variation_unique"]
-  variations << unique_variation if unique_variation && !unique_variation.empty?
-  unless variations.empty?
-    items = variations.map { |v| "<li>#{v}</li>" }.join("\n      ")
-    html << <<~HTML
-      <div class="recipe-enriched-section mb-4">
-        <h2 class="recipe-enriched-title"><i class="fa fa-lightbulb" aria-hidden="true"></i> #{h(variations_label)}</h2>
-        <ul class="recipe-enriched-list">
-          #{items}
-        </ul>
-      </div>
-    HTML
-  end
-
-  html
-end
-
-def build_recipe_faq(recipe, lang)
-  slug = recipe["slug"]
-  enrich = ENRICHMENT[slug] || {}
-  name = recipe_t(lang, slug, "name") || recipe["name"]
-  category = recipe["category_name"]
-  sub_cat = enrich["sub_category"] || "general"
-  base_fat = enrich["base_fat"] || "cannabutter"
-
-  tmpl = get_recipe_section_template(lang, category, sub_cat)
-  vars = { "name" => name, "base_fat" => base_fat, "cook_temp" => enrich["cook_temp"] || "350°F / 180°C", "category" => category }
-
-  faqs = tmpl["faq"] || []
-  return "" if faqs.empty?
-
-  faq_label = interpolate(get_section_label(lang, "faq"), vars)
-
-  items = faqs.each_with_index.map do |faq, i|
-    q = interpolate(faq["q"], vars)
-    a = interpolate(faq["a"], vars)
-    <<~FAQ
-      <div class="recipe-faq-item">
-        <button class="recipe-faq-question" data-target="recipe-faq-#{i}" aria-expanded="false">
-          #{h(q)}
-          <i class="fa fa-chevron-down recipe-faq-chevron" aria-hidden="true"></i>
-        </button>
-        <div class="recipe-faq-answer" id="recipe-faq-#{i}">
-          <p>#{h(a)}</p>
-        </div>
-      </div>
-    FAQ
-  end.join("")
-
-  <<~HTML
-    <div class="recipe-faq-section mb-4">
-      <h2 class="recipe-enriched-title"><i class="fa fa-question-circle" aria-hidden="true"></i> #{h(faq_label)}</h2>
-      <div class="recipe-faq">
-        #{items}
-      </div>
-    </div>
-  HTML
-end
-
 def build_recipe_faq_schema(recipe, lang)
   slug = recipe["slug"]
   enrich = ENRICHMENT[slug] || {}
@@ -1196,240 +1045,11 @@ def build_recipe_faq_schema(recipe, lang)
   }
 end
 
-def build_related_recipes(recipe, lang)
-  prefix = lang_prefix(lang)
-  cat = recipe["category_name"]
-  slug = recipe["slug"]
-  related = RECIPES.select { |r| r["category_name"] == cat && r["slug"] != slug }.sample(4, random: Random.new(Zlib.crc32(slug)))  # stable across builds
-  return "" if related.empty?
-
-  heading = lang == "en" ? "More #{cat} Recipes" : t(lang, "recipe_page", "related") || "Related Recipes"
-  cards = related.map do |r|
-    rname = recipe_t(lang, r["slug"], "name") || r["name"]
-    rdesc = recipe_t(lang, r["slug"], "description") || r["description"]
-    <<~CARD
-      <div class="col-6 col-md-3 mb-3">
-        <a href="#{prefix}/recipes/#{r["slug"]}/" class="card recipe-card h-100 text-decoration-none">
-          <img src="/images/recipes/#{r["slug"]}.jpg" alt="#{h(rname)}" class="card-img-top" loading="lazy" width="300" height="200" />
-          <div class="card-body p-2">
-            <h3 class="card-title small mb-0">#{h(rname)}</h3>
-          </div>
-        </a>
-      </div>
-    CARD
-  end
-
-  <<~HTML
-    <div class="related-recipes mt-4">
-      <h2 class="h5 mb-3"><i class="fa fa-utensils mr-2" aria-hidden="true"></i>#{h(heading)}</h2>
-      <div class="row">
-        #{cards.join}
-      </div>
-    </div>
-  HTML
-end
-
 # ─────────────────────────────────────────────
 # Recipe pages
 # ─────────────────────────────────────────────
 
 FLOWER_AMOUNT_RE = /(\d+(?:[.,]\d+)?)(\s*(?:gramas?\b|gramos?\b|Gramm\b|g\b|克))?(\s*(?:de\s+)?)(ground\s*weed|maconha triturada|erva moída|cannabis moída|marihuana molida|hierba molida|cannabis molida|gemahlenes Gras|gemahlenes Cannabis|研磨好的大麻|研磨大麻)/i
-
-def build_recipe_page(recipe, lang)
-  prefix = lang_prefix(lang)
-  slug = recipe["slug"]
-  name = recipe_t(lang, slug, "name") || recipe["name"]
-  desc = recipe_t(lang, slug, "description") || recipe["description"]
-  cat = recipe_t(lang, slug, "category_name") || recipe["category_name"]
-
-  title_suffix = t(lang, "recipe_page", "title_suffix")
-  title = "#{name} #{title_suffix}"
-  canonical = "https://www.howtoedibles.com#{prefix}/recipes/#{slug}/"
-  ingredients_label = t(lang, "recipe_page", "ingredients")
-  directions_label = t(lang, "recipe_page", "directions")
-
-  # Recipe defaults
-  qty = recipe["suggested_quantity"] || recipe["quantity"] || 3.5
-  por = recipe["suggested_portion"] || recipe["portion"] || 12
-  pot = recipe["potency"] || 14
-
-  # Ingredients & Directions — use translations if available, otherwise English HTML
-  translated_ings = recipe_t(lang, slug, "ingredients")
-  translated_ins = recipe_t(lang, slug, "instructions")
-
-  if translated_ings.is_a?(Array) && !translated_ings.empty?
-    items = translated_ings.map do |ing|
-      # Wrap the flower amount so the slider updates it; add "g" only when the text has no unit.
-      ing_html = ing.sub(FLOWER_AMOUNT_RE) do
-        unit, sep, term = $2, $3, $4
-        num = %w[pt es de].include?(lang) ? fmt_num(qty).tr(".", ",") : fmt_num(qty)  # always the recipe default
-        "<span id=\"grams-quantity-recipe\">#{num}</span>#{unit || '&nbsp;g'}#{sep.empty? && !unit ? ' ' : sep}#{term}"
-      end
-      "<li class=\"list-group-item\">#{ing_html}</li>"
-    end
-    ingredients_html = "<ul class=\"list-group\">\n\t#{items.join("\n\t")}\n</ul>\n"
-  else
-    ingredients_html = (recipe["ingredients"] || "").gsub(%r{(<span id="grams-quantity-recipe">)[^<]*(</span>)}) { "#{$1}#{fmt_num(qty)}#{$2}" }
-  end
-
-  if translated_ins.is_a?(Array) && !translated_ins.empty?
-    items = translated_ins.map { |step| "<li class=\"list-group-item\">#{step}</li>" }
-    steps_html = "<ul class=\"list-group\">\n\t#{items.join("\n\t")}\n</ul>\n"
-  else
-    steps_html = recipe["instructions"] || ""
-  end
-
-  # Enrichment data for this recipe
-  enrich = ENRICHMENT[slug] || {}
-
-  # Structured data — enriched Recipe schema
-  recipe_schema = {
-    "@context" => "https://schema.org", "@type" => "Recipe",
-    "name" => name, "description" => desc,
-    "image" => "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg",
-    "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
-    "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com" },
-    "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15",
-    "dateModified" => "2026-03-15",
-    "recipeCategory" => cat,
-    "recipeYield" => [fmt_num(por), "#{fmt_num(por)} servings"],
-    "recipeIngredient" => translated_ings.is_a?(Array) ? translated_ings.map { |s| decode_entities(s.gsub(/<[^>]+>/, "")) } : extract_list_items(recipe["ingredients"]),
-    "recipeInstructions" => (translated_ins.is_a?(Array) ? translated_ins : extract_list_items(recipe["instructions"])).each_with_index.map { |s, i| { "@type" => "HowToStep", "position" => i + 1, "text" => s } },
-    "url" => canonical
-  }
-
-  # Add enrichment fields to Recipe schema
-  recipe_schema["prepTime"] = enrich["prepTime"] if enrich["prepTime"]
-  recipe_schema["cookTime"] = enrich["cookTime"] if enrich["cookTime"]
-  recipe_schema["totalTime"] = enrich["totalTime"] if enrich["totalTime"]
-  recipe_schema["keywords"] = enrich["keywords"].join(", ") if enrich["keywords"]
-  if enrich["nutrition"]
-    cal = enrich["nutrition"]["calories"].to_s
-    cal = "#{cal} calories" unless cal =~ /cal/i
-    recipe_schema["nutrition"] = {
-      "@type" => "NutritionInformation",
-      "calories" => cal
-    }
-    recipe_schema["nutrition"]["fatContent"] = enrich["nutrition"]["fatContent"] if enrich["nutrition"]["fatContent"]
-  end
-
-  cat_url = "https://www.howtoedibles.com#{prefix}/?search=#{CGI.escape(cat)}"
-  sd_array = [
-    recipe_schema,
-    {
-      "@context" => "https://schema.org", "@type" => "BreadcrumbList",
-      "itemListElement" => [
-        { "@type" => "ListItem", "position" => 1, "name" => "Home", "item" => "https://www.howtoedibles.com#{prefix}/" },
-        { "@type" => "ListItem", "position" => 2, "name" => cat, "item" => cat_url },
-        { "@type" => "ListItem", "position" => 3, "name" => name }
-      ]
-    }
-  ]
-
-  # Add FAQPage schema
-  faq_schema = build_recipe_faq_schema(recipe, lang)
-  sd_array << faq_schema if faq_schema
-
-  structured = JSON.generate(sd_array)
-
-  og_image = "https://www.howtoedibles.com#{IMAGE_BASE}/#{slug}.jpg"
-
-  i18n_script = build_i18n_script(lang)
-
-  page = build_head(lang, title: title, description: desc, canonical: canonical,
-                    keywords: nil,
-                    structured_data: structured,
-                    extra_head: "")
-  # Override OG image for recipe
-  page.gsub!(%r{<meta property="og:image" content="[^"]*" />}, %(<meta property="og:image" content="#{og_image}" />))
-  page.gsub!(%r{<meta name="twitter:image" content="[^"]*" />}, %(<meta name="twitter:image" content="#{og_image}" />))
-  page.gsub!(%r{<meta property="og:type" content="website" />}, %(<meta property="og:type" content="article" />))
-
-  page << build_navbar(lang)
-  page << <<~HTML
-        <div class="container page-content">
-          <div class="row">
-      <div class="col-md-7 order-1 order-md-1 recipe-left-col">
-    #{LEADERBOARD_AD}
-
-    <div class="recipe-hero-img-wrap">
-      <img src="#{IMAGE_BASE}/#{slug}.jpg" alt="#{h(name)}" class="recipe-hero-img" />
-    </div>
-
-    <div class="recipe-header">
-      <span class="recipe-category-badge">#{h(cat)}</span>
-      <h1 class="recipe-page-title">#{h(name)}</h1>
-      <p class="recipe-page-description">#{h(desc)}</p>
-    </div>
-
-    #{build_recipe_intro(recipe, lang)}
-
-    <div class="recipe-section-card mb-4">
-      <div class="recipe-section-header">
-        <i class="fa fa-utensils" aria-hidden="true"></i>
-        <span>#{h(ingredients_label)}</span>
-      </div>
-      <div class="recipe-section-body">
-        #{ingredients_html}
-      </div>
-    </div>
-
-    <div class="recipe-section-card mb-4">
-      <div class="recipe-section-header">
-        <i class="fa fa-list-ol" aria-hidden="true"></i>
-        <span>#{h(directions_label)}</span>
-      </div>
-      <div class="recipe-section-body recipe-steps">
-        #{steps_html}
-      </div>
-    </div>
-
-    #{build_recipe_enriched_sections(recipe, lang)}
-    #{build_recipe_faq(recipe, lang)}
-
-      </div>
-      <div class="col-md-5 order-2 order-md-2 recipe-right-col">
-        <div class="calculator-panel mb-3">
-      <div class="calculator-panel-header">
-        <i class="fa fa-calculator" aria-hidden="true"></i>
-        <span>#{h(t(lang, "calculator", "calculate_your_dose"))}</span>
-      </div>
-      <div class="calculator-panel-body">
-    #{build_calculator_widget(lang, defaults: { quantity: qty, potency: pot, portion: por })}
-      </div>
-    </div>
-
-    #{build_dosage_panel(lang, style: :recipe, defaults: { quantity: qty, potency: pot, portion: por })}
-
-      </div>
-    </div>
-
-    #{build_related_recipes(recipe, lang)}
-
-        </div>
-  HTML
-  page << build_footer(lang)
-
-  extra = <<~JS
-    #{i18n_script}<script>
-      window.RECIPE_DEFAULTS = { quantity: #{qty}, portion: #{por.is_a?(Float) ? por : "#{por}.0"}, potency: #{pot} };
-    </script>
-    <script src="/js/calculator.js"></script>
-    <script>
-      document.querySelectorAll('.recipe-faq-question').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var target = document.getElementById(this.dataset.target);
-          var open = target.classList.toggle('open');
-          this.setAttribute('aria-expanded', open);
-          this.querySelector('.recipe-faq-chevron').style.transform = open ? 'rotate(180deg)' : '';
-        });
-      });
-    </script>
-  JS
-
-  page << build_scripts(lang, extra_scripts: extra)
-  write_file(output_path(lang, "recipes", slug, "index.html"), page)
-end
 
 # ─────────────────────────────────────────────
 # Donate page
@@ -1712,7 +1332,7 @@ def build_article_page(slug, lang)
     "dateModified" => date_mod,
     "author" => { "@type" => "Organization", "name" => "HowToEdibles Editorial Team", "url" => "https://www.howtoedibles.com/about.html" },
     "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => "https://www.howtoedibles.com",
-                     "logo" => { "@type" => "ImageObject", "url" => "https://www.howtoedibles.com/images/howtoedibleslogo.png" } },
+                     "logo" => { "@type" => "ImageObject", "url" => "https://www.howtoedibles.com/images/brand/logo.png" } },
     "mainEntityOfPage" => { "@type" => "WebPage", "@id" => canonical }
   }
 
@@ -1916,20 +1536,17 @@ def build_sitemap
     end
   end
 
-  # Recipe pages
-  RECIPES.each do |r|
-    lastmod = r["id"].to_i <= 140 ? "2026-03-15" : "2026-03-15"
+  # Recipe and category pages (all 5 languages each)
+  pages = RECIPES.map { |r| ["recipes/#{r["slug"]}/", "2026-03-15"] } +
+          CAT_ORDER.map { |c| ["category/#{CAT_BY_NAME[c]["slug"]}/", "2026-11-09"] }
+  pages.each do |path, lastmod|
     xhtml_links = ALL_LANGS.map do |l|
-      prefix = lang_prefix(l)
-      href = "https://www.howtoedibles.com#{prefix}/recipes/#{r["slug"]}/"
-      html_lang = lang_html(l)
-      %(    <xhtml:link rel="alternate" hreflang="#{html_lang}" href="#{href}" />)
+      %(    <xhtml:link rel="alternate" hreflang="#{lang_html(l)}" href="https://www.howtoedibles.com#{lang_prefix(l)}/#{path}" />)
     end
-    xhtml_links << %(    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/recipes/#{r["slug"]}/" />)
+    xhtml_links << %(    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.howtoedibles.com/#{path}" />)
 
     ALL_LANGS.each do |l|
-      prefix = lang_prefix(l)
-      loc = "https://www.howtoedibles.com#{prefix}/recipes/#{r["slug"]}/"
+      loc = "https://www.howtoedibles.com#{lang_prefix(l)}/#{path}"
       urls << "  <url>\n    <loc>#{loc}</loc>\n    <lastmod>#{lastmod}</lastmod>\n#{xhtml_links.join("\n")}\n  </url>"
     end
   end
@@ -1945,6 +1562,8 @@ def build_sitemap
   write_file(File.join(ROOT_DIR, "sitemap.xml"), sitemap)
   puts "  sitemap.xml (#{urls.count} URLs)"
 end
+
+require_relative "build_redesign" # the new shell + recipe/category templates
 
 # ═════════════════════════════════════════════
 # BUILD
@@ -1970,18 +1589,21 @@ ALL_LANGS.each do |lang|
   puts "  #{lang_prefix(lang)}/ articles (#{slugs.size} pages)"
 end
 
-# Build recipe pages for ALL languages (including English)
-puts "\nBuilding recipe pages for all languages..."
+# Recipe pages, category pages and search indexes for ALL languages, on the new shell (scripts/build_redesign.rb)
+puts "\nBuilding recipe and category pages for all languages..."
 RECIPE_LANGS.each do |lang|
-  RECIPES.each do |recipe|
-    build_recipe_page(recipe, lang)
-  end
-  label = lang == "en" ? "recipes/" : "#{lang}/recipes/"
-  puts "  #{label} (#{RECIPES.count} pages)"
+  RECIPES.each { |recipe| build_recipe_page(recipe, lang) }
+  CAT_ORDER.each { |cat| build_category_page(cat, lang) }
+  build_search_index(lang)
+  puts "  #{lang_prefix(lang)}/recipes/ (#{RECIPES.count}), #{lang_prefix(lang)}/category/ (#{CAT_ORDER.size}), data/search-#{lang}.json"
 end
 
 puts "\nBuilding sitemap..."
 build_sitemap
+check_inbound_links
+
+puts "\nRendering og/schema rasters..."
+render_rasters
 
 # Add hreflang tags to the hand-maintained English special pages (without overwriting content)
 puts "\nAdding hreflang tags to English pages..."
