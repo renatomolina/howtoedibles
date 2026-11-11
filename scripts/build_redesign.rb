@@ -462,7 +462,9 @@ def ingredient_html(lang, slug, line, qty)
   if (href = line[%r{<a [^>]*href="(/recipes/[^"/]+/)"}, 1])
     "#{line}<a class=\"make-first\" href=\"#{lang_prefix(lang)}#{href}\">#{h(first)}</a>"
   elsif line.match?(FAT_RE)
-    line.sub(FAT_RE) { %(<a href="#{lang_prefix(lang)}/recipes/cannabutter/">#{$1}</a><a class="make-first" href="#{lang_prefix(lang)}/recipes/cannabutter/">#{h(first)}</a>) }
+    # the button goes at the end, so a split line ("⅓ cup cannabutter + 3 tbsp butter") isn't cut in two
+    line.sub(FAT_RE) { %(<a href="#{lang_prefix(lang)}/recipes/cannabutter/">#{$1}</a>) } +
+      %(<a class="make-first" href="#{lang_prefix(lang)}/recipes/cannabutter/">#{h(first)}</a>)
   else
     line
   end
