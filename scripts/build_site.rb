@@ -215,36 +215,6 @@ def get_section_label(lang, key)
     RECIPE_SECTIONS.dig("en", "section_labels", key) || key
 end
 
-def build_recipe_faq_schema(recipe, lang)
-  slug = recipe["slug"]
-  enrich = ENRICHMENT[slug] || {}
-  name = recipe_t(lang, slug, "name") || recipe["name"]
-  category = recipe["category_name"]
-  sub_cat = enrich["sub_category"] || "general"
-  base_fat = enrich["base_fat"] || "cannabutter"
-
-  tmpl = get_recipe_section_template(lang, category, sub_cat)
-  vars = { "name" => name, "base_fat" => base_fat, "cook_temp" => enrich["cook_temp"] || "350°F / 180°C", "category" => category }
-
-  faqs = tmpl["faq"] || []
-  return nil if faqs.empty?
-
-  {
-    "@context" => "https://schema.org",
-    "@type" => "FAQPage",
-    "mainEntity" => faqs.map do |faq|
-      {
-        "@type" => "Question",
-        "name" => interpolate(faq["q"], vars),
-        "acceptedAnswer" => {
-          "@type" => "Answer",
-          "text" => interpolate(faq["a"], vars)
-        }
-      }
-    end
-  }
-end
-
 # ─────────────────────────────────────────────
 # Recipe pages
 # ─────────────────────────────────────────────
@@ -358,9 +328,15 @@ def real_lastmods(sitemap)
     loc = raw.sub(%r{\A#{SITE}/calculator\.html\z}, "#{SITE}#{EN_CALC}") # write_file moves it there
     path = loc.delete_prefix("#{SITE}/")
     file = File.join(ROOT_DIR, path.empty? || path.end_with?("/") ? "#{path}index.html" : path)
-    main = File.read(file)[%r{<main\b.*</main>}m] or abort "ERROR: #{file} (in the sitemap) has no <main>"
+    html = File.read(file)
+    main = html[%r{<main\b.*</main>}m] or abort "ERROR: #{file} (in the sitemap) has no <main>"
     hash = Digest::SHA1.hexdigest(main)
     seen[loc] = old[loc] && old[loc][0] == hash ? old[loc] : [hash, Date.today.iso8601]
+    # The Recipe JSON-LD's dateModified is the same day (it sits in <head>, so it doesn't move the hash)
+    if path.match?(%r{\A(?:[a-z]{2}/)?recipes/})
+      fixed = html.sub(/"dateModified":"[^"]*"/, %("dateModified":"#{seen[loc][1]}"))
+      File.write(file, fixed) unless fixed == html
+    end
     "<loc>#{raw}</loc>\n    <lastmod>#{seen[loc][1]}</lastmod>"
   end
   File.write(LASTMOD_FILE, JSON.pretty_generate(seen.sort.to_h) + "\n")
