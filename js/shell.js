@@ -22,11 +22,12 @@
   }, { passive: true });
 
   // ---- dialogs: each open pushes a history entry, so Back (and the iOS edge swipe) closes it ----
-  var switching = false;
+  // Switching sheets marks the one it closes: the "close" event fires later (a queued task), so a plain
+  // flag would already be reset and the handler would go Back and close the sheet that just opened.
   function open(id) {
     var cur = d.querySelector("dialog[open]"), dlg = d.getElementById(id);
     if (cur === dlg) return;
-    if (cur) { switching = true; cur.close(); switching = false; history.replaceState({ dlg: id }, ""); }
+    if (cur) { cur.dataset.switching = "1"; cur.close(); history.replaceState({ dlg: id }, ""); }
     else history.pushState({ dlg: id }, "");
     dlg.showModal();
     b.classList.add("locked");
@@ -34,7 +35,7 @@
   }
   d.querySelectorAll("dialog").forEach(function (dlg) {
     dlg.addEventListener("close", function () {
-      if (switching) return;
+      if (dlg.dataset.switching) { delete dlg.dataset.switching; return; }
       b.classList.remove("locked");
       if (history.state && history.state.dlg) history.back();
     });
