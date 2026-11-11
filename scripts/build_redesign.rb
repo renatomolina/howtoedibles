@@ -520,6 +520,16 @@ def calc_links(lang, reset)
   %(<a href="#{p}/calculator.html">#{h(ui(lang, "calc.full"))}</a><a href="#{p}/calculator.html#potency">#{h(ui(lang, "calc.guide"))}</a><button type="button" class="reset" data-reset hidden>#{h(ui(lang, reset))}</button>)
 end
 
+# Meta description (#88): the recipe's own sentence, plus servings · mg per serving · total time when that still fits
+# a search snippet (~155 Latin characters; CJK counts double). Recipes with no total time keep their sentence.
+def meta_description(lang, desc, n, mg, minutes)
+  return desc if minutes.zero?
+  hm = [[minutes / 60, ui(lang, "recipe.h")], [minutes % 60, ui(lang, "recipe.min")]].reject { |v, _| v.zero? }
+  time = hm.map { |v, u| lang == "zh" ? "#{v}#{u}" : "#{v} #{u}" }.join(lang == "zh" ? "" : " ")
+  full = [desc, ui(lang, "recipe.meta_facts", n: n, servings: servings_word(lang, n), mg: fmt_mg(mg, lang), t: time)].join(lang == "zh" ? "" : " ").strip
+  full.each_char.sum { |c| c.match?(/[　-鿿＀-￯]/) ? 2 : 1 } <= 155 ? full : desc
+end
+
 def build_recipe_page(recipe, lang)
   p = lang_prefix(lang)
   slug = recipe["slug"]
@@ -613,7 +623,7 @@ def build_recipe_page(recipe, lang)
   # Optional English SERP copy per recipe (#86, a CTR test): seo_title / seo_description in recipes.json, with
   # {mg} {n} {g} from the recipe defaults. The H1, the JSON-LD and the other languages keep the recipe's own copy.
   seo = ->(k) { (x = lang == "en" && recipe["seo_#{k}"]) && x.gsub("{mg}", fmt_mg(mg, lang)).gsub("{n}", n_i.to_s).gsub("{g}", fmt_g(g, lang)) }
-  page = shell_head(lang, title: seo.("title") ? "#{seo.("title")} | HowToEdibles" : "#{name} #{t(lang, "recipe_page", "title_suffix")}", description: seo.("description") || desc, page_path: page_path,
+  page = shell_head(lang, title: seo.("title") ? "#{seo.("title")} | HowToEdibles" : "#{name} #{t(lang, "recipe_page", "title_suffix")}", description: seo.("description") || meta_description(lang, desc, n_i, mg, total), page_path: page_path,
                     og_image: "#{SITE}/og/#{lang}/#{slug}.png", og_type: "article", structured: JSON.generate(ld))
   page << shell_top(lang) << main << shell_bottom(lang, page_path, scripts: scripts)
   write_file(output_path(lang, "recipes", slug, "index.html"), page)

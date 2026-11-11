@@ -307,7 +307,8 @@
       "tips": "Dosing tips",
       "questions": "Questions",
       "related": "More {c|lower}",
-      "make_first": "Make it first →"
+      "make_first": "Make it first →",
+      "meta_facts": "Makes {n} {servings}, {mg} mg THC per serving, ready in {t}."
     },
     "home": {
       "all_n": "All {n}",
