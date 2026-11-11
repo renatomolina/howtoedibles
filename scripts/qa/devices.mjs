@@ -1,6 +1,6 @@
 // Gate: device-matrix QA on the GENERATED pages (ported from the recipe-final prototype, #59; special pages from #74).
 // For 36 device viewports (visible area, browser bars removed) × 5 languages × 3 recipes (short, mid, longest title)
-// + the homepage, calculator.html, donate, the articles index and the 404:
+// + the homepage, calculator.html, donate, the articles index, the 404, 4 articles, and about/contact (English only):
 //  overflow – the page is wider than the screen, or an element's own text/input value sticks out of its box
 //  fold     – phones/tablets in portrait: the hero buttons end inside the first screen (home/calculator: the mg per
 //             serving; the other special pages: the H1); desktop: the H1 is visible
@@ -25,8 +25,10 @@ const D = [ // name, width, visible height, mobile?
   ["Laptop 1440×900", 1440, 789, 0], ["MacBook Air 13", 1470, 832, 0], ["MacBook Pro 14", 1512, 860, 0], ["MacBook Pro 16", 1728, 990, 0], ["Desktop 1920×1080", 1920, 969, 0], ["Desktop 2560×1440", 2560, 1329, 0],
 ];
 const LANGS = ["en", "pt", "es", "de", "zh"], RECIPES = ["pot-brownies", "cannabis-hot-chocolate", "infused-keto-chocolate-avocado-mousse"];
-// the last one is a missing URL: run with a server that answers with /404.html like GitHub Pages does
-const PAGES = ["/", "/calculator.html", "/donate.html", "/articles.html", "/recipes/easy-weed-brownies-recipe/"];
+// the 5th is a missing URL: run with a server that answers with /404.html like GitHub Pages does; then 4 articles (#75)
+const PAGES = ["/", "/calculator.html", "/donate.html", "/articles.html", "/recipes/easy-weed-brownies-recipe/",
+  "/cannabis-and-sleep.html", "/how-long-do-edibles-take-to-kick-in.html", "/how-to-prevent-a-bad-trip.html", "/how-to-make-cannabis-topicals.html"];
+const EN_ONLY = ["/about.html", "/contact.html"];
 const PORT = 9336, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-devices", "--no-first-run", "--hide-scrollbars"], { stdio: "ignore" });
 for (let i = 0; i < 50; i++) { try { await fetch(`http://127.0.0.1:${PORT}/json/version`); break; } catch { await sleep(200); } }
@@ -109,7 +111,7 @@ async function runDevice([name, w, h, mobile]) {
   await send("Emulation.setTouchEmulationEnabled", { enabled: !!mobile });
   await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: "reduce" }] });
   const rows = [], slug = (s) => s.replace(/[^a-z0-9]+/gi, "_");
-  for (const lang of LANGS) for (const r of [...RECIPES, ...PAGES]) {
+  for (const lang of LANGS) for (const r of [...RECIPES, ...PAGES, ...(lang === "en" ? EN_ONLY : [])]) {
     const page = r.startsWith("/");
     const loaded = new Promise((res) => { const f = (m) => m.method === "Page.loadEventFired" && (evs.splice(evs.indexOf(f), 1), res()); evs.push(f); });
     await send("Page.navigate", { url: `${BASE}${lang === "en" ? "" : "/" + lang}${page ? r : `/recipes/${r}/`}` });

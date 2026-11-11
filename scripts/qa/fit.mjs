@@ -23,6 +23,10 @@ const PAGES = [ // name, path (after the language prefix), setup run in the page
   ["home", "/", ""], ["results", "/?q=choc", "await new Promise((r) => setTimeout(r, 600));"], ["no-results", "/?search=zzzz", "await new Promise((r) => setTimeout(r, 600));"],
   ["calculator", "/calculator.html", ""], ["articles", "/articles.html", ""], ["donate", "/donate.html", ""],
   ["404", "/recipes/easy-weed-brownies-recipe/", "await new Promise((r) => setTimeout(r, 600));"],
+  // the articles (#75): long, table, DO/DON'T boxes, steps; about and contact exist in English only
+  ["article", "/cannabis-and-sleep.html", ""], ["article-table", "/how-long-do-edibles-take-to-kick-in.html", ""],
+  ["article-trip", "/how-to-prevent-a-bad-trip.html", ""], ["article-steps", "/how-to-make-cannabis-topicals.html", ""],
+  ["about", "/about.html", "", ["en"]], ["contact", "/contact.html", "", ["en"]], ["contact-sent", "/contact.html?sent=1", "", ["en"]],
 ];
 // controls that must stay on one line (each text node inside is checked separately, so a chip's value + label may stack by design)
 const ONE_LINE = ".tag, .sbox button, .dt th, .dt td:nth-child(2), .ex p b, .sh > a, button, .btn, .chip, .chips a, .seg > *, .txtbtn, .spill, .dot, .sticker, .eyebrow, .ad small, .cfoot a, .sh > a, .facts b, .facts span, .tiles small, .crumb, .reset, .langs a, .bh > a, .more, .help, .helpbox, .peek small, .peek b, .lvl b, .tot, .u, .back";
@@ -71,7 +75,7 @@ async function runVP([name, w, h, mobile]) {
   await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: "reduce" }] });
   const errs = []; evs.push((m) => m.method === "Runtime.exceptionThrown" && errs.push(m.params.exceptionDetails.exception?.description?.split("\n")[0]));
   const rows = [];
-  for (const [page, path, setup] of PAGES) for (const lang of LANGS) {
+  for (const [page, path, setup, only] of PAGES) for (const lang of only || LANGS) {
     errs.length = 0;
     const loaded = new Promise((r) => { const f = (m) => m.method === "Page.loadEventFired" && (evs.splice(evs.indexOf(f), 1), r()); evs.push(f); });
     await send("Page.navigate", { url: `${BASE}${lang === "en" ? "" : "/" + lang}${path}` });
@@ -92,7 +96,7 @@ async function runVP([name, w, h, mobile]) {
 const all = (await Promise.all(VP.map(runVP))).flat();
 writeFileSync(`${out}/report.json`, JSON.stringify(all, null, 1));
 const bad = all.filter((x) => x.cut.length || x.wrap.length || x.errs.length || /OVER/.test(x.fold || ""));
-console.log(`${all.length} combos (${PAGES.length} page states × ${LANGS.length} langs × ${VP.length} viewports) · ${bad.length} with a problem`);
+console.log(`${all.length} combos (${PAGES.length} page states × up to ${LANGS.length} langs × ${VP.length} viewports) · ${bad.length} with a problem`);
 for (const x of bad) console.log(`✗ ${x.vp.padEnd(22)} ${x.page.padEnd(11)} ${x.lang}  ${x.fold && x.fold !== "ok" ? x.fold + " " : ""}${[...x.errs.map((e) => "ERR " + e), ...x.cut.map((c) => "CUT " + c), ...x.wrap.map((c) => "WRAP " + c)].join(" | ")}`);
 chrome.kill();
 process.exit(bad.length ? 1 : 0);

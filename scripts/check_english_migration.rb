@@ -16,9 +16,11 @@ SPECIAL = %w[index.html calculator.html donate.html 404.html articles.html about
 files = ARGV.empty? ? Dir.glob(File.join(ROOT, "*.html")).map { |f| File.basename(f) }.sort : ARGV
 
 # Shell/frame that may change; everything else in <body> is content.
-FRAME = "nav.navbar, .site-search-bar, footer, script, noscript, .ad-container, " \
+FRAME = "nav.navbar, .site-search-bar, footer, script, noscript, .ad-container, aside.ad, " \
         ".article-breadcrumbs, .related-articles, .article-related, .article-body .text-center.mt-5, " \
         ".article-toc > h3, .article-toc > h4"
+# Articles changed shell in Phase 3 (#75), which moved the title area around: compare their content in a fixed order.
+ARTICLE_TEXT = %w[h1 .article-excerpt .article-meta .article-body]
 
 def norm(s)
   s.gsub(/\s+/, " ").strip
@@ -62,6 +64,7 @@ def fields(html)
   ld_objs, ld_notes = split_ld(ld)
   body = d.at("body").dup
   body.css(FRAME).each(&:remove)
+  text = body.at(".article-body") ? ARTICLE_TEXT.map { |s| body.css(s).map(&:text).join(" ") }.join(" ") : body.text
   [{
     "title" => d.at("title")&.text,
     "description" => d.at('meta[name="description"]')&.[]("content"),
@@ -69,7 +72,7 @@ def fields(html)
     "canonical" => d.at('link[rel="canonical"]')&.[]("href"),
     "hreflang" => d.css("link[hreflang]").map { |l| "#{l['hreflang']} #{l['href']}" }.sort,
     "json-ld" => ld_objs,
-    "text" => norm(body.text),  # compared without whitespace: old markup was partly minified
+    "text" => norm(text),  # compared without whitespace: old markup was partly minified
     "h2 ids" => d.css("h2[id]").map { |e| e["id"] }
   }, ld_notes]
 end
