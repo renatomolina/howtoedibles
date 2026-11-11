@@ -62,7 +62,7 @@ expect("Auto removes the key", await ev(`return localStorage.getItem("theme")`),
 // ---- special pages (#74) ----
 // calculator.html: 3.5 g · 14% · 50 = 7.8 mg (casual); the dose table row and the "with your numbers" line follow the card
 const calcRead = `return { mg: document.querySelector("#live .mg").textContent.trim(), row: document.querySelector(".dt tr[aria-current]")?.dataset.lvl, you: document.querySelectorAll(".dt .you").length, eq: document.querySelector("[data-o=eq]").textContent, reset: !document.querySelector("[data-reset]").hidden };`;
-await go("/calculator.html");
+await go("/edible-dosage-calculator/");
 expect("calculator static defaults", await ev(calcRead), { mg: "7.8 mg", row: "2", you: 1, eq: "10 × 3.5 × 14 × 0.8 ÷ 50 = 7.8 mg", reset: false });
 expect("calculator static panel equals dose.js render", await ev("return window.DOSE.check()"), true);
 await ev(`document.querySelector('.chip[data-k=g][data-v="28"]').click()`);

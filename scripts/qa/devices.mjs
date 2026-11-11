@@ -114,7 +114,7 @@ async function runDevice([name, w, h, mobile]) {
   for (const lang of LANGS) for (const r of [...RECIPES, ...PAGES, ...(lang === "en" ? EN_ONLY : [])]) {
     const page = r.startsWith("/");
     const loaded = new Promise((res) => { const f = (m) => m.method === "Page.loadEventFired" && (evs.splice(evs.indexOf(f), 1), res()); evs.push(f); });
-    await send("Page.navigate", { url: `${BASE}${lang === "en" ? "" : "/" + lang}${page ? r : `/recipes/${r}/`}` });
+    await send("Page.navigate", { url: `${BASE}${lang === "en" ? "" : "/" + lang}${page ? (lang === "en" && r === "/calculator.html" ? "/edible-dosage-calculator/" : r) : `/recipes/${r}/`}` });
     await Promise.race([loaded, sleep(10000)]);
     const v = await Promise.race([send("Runtime.evaluate", { expression: page ? PROBE2 : PROBE, awaitPromise: true, returnByValue: true }), sleep(20000).then(() => ({ result: { value: JSON.stringify({ bad: ["TIMEOUT"], nBad: 1 }) } }))]);
     const row = { device: name, vp: `${w}×${h}`, lang, r, ...JSON.parse(v.result?.value || `{"bad":["eval failed: ${(v.exceptionDetails?.exception?.description || "").slice(0, 80)}"],"nBad":1}`) };
