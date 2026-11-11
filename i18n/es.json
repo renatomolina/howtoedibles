@@ -302,7 +302,8 @@
       "tips": "Consejos de dosis",
       "questions": "Preguntas",
       "related": "Más {c|lower}",
-      "make_first": "Hazla primero →"
+      "make_first": "Hazla primero →",
+      "meta_facts": "Rinde {n} {servings}, {mg} mg de THC por porción, lista en {t}."
     },
     "home": {
       "all_n": "Todas ({n})",

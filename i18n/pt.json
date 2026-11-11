@@ -302,7 +302,8 @@
       "tips": "Dicas de dosagem",
       "questions": "Perguntas",
       "related": "Mais {c|lower}",
-      "make_first": "Faça antes →"
+      "make_first": "Faça antes →",
+      "meta_facts": "Rende {n} {servings}, {mg} mg de THC por porção, pronta em {t}."
     },
     "home": {
       "all_n": "Todas ({n})",

@@ -302,7 +302,8 @@
       "tips": "Dosierungstipps",
       "questions": "Fragen",
       "related": "Mehr {c}",
-      "make_first": "Zuerst machen →"
+      "make_first": "Zuerst machen →",
+      "meta_facts": "Ergibt {n} {servings}, {mg} mg THC pro Portion, fertig in {t}."
     },
     "home": {
       "all_n": "Alle {n}",

@@ -302,7 +302,8 @@
       "tips": "剂量提示",
       "questions": "常见问题",
       "related": "更多{c}",
-      "make_first": "先做这个 →"
+      "make_first": "先做这个 →",
+      "meta_facts": "可做{n}{servings}，每份{mg}毫克THC，约{t}完成。"
     },
     "home": {
       "all_n": "全部 {n}",
