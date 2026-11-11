@@ -282,7 +282,8 @@ def logo_svg(cls = "logo", label: nil)
   %(<svg class="#{cls}" viewBox="#{LOGO_SYMBOL[/viewBox="([^"]+)"/, 1]}" width="240" height="#{LOGO_H}" #{aria}><use href="#logo"/></svg>)
 end
 
-def shell_top(lang); "<body>\n#{SPRITE_HTML}\n" + masthead(lang); end
+# google-anno-skip: no ad intents (Google-inserted links in the text); Auto ads is off since 2026-11-11 (#75)
+def shell_top(lang); %(<body class="google-anno-skip">\n#{SPRITE_HTML}\n) + masthead(lang); end
 
 def masthead(lang)
   p = lang_prefix(lang)
