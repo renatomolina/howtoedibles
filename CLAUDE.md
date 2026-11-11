@@ -58,7 +58,7 @@ ruby scripts/translate_recipes.rb
 ├── *.html                ← 50 article pages (GENERATED from i18n/articles_en.json); about/contact (body hand-maintained)
 ├── recipes/              ← 237 recipe dirs, each with index.html
 ├── category/             ← 8 category pages
-├── og/, schema/          ← Rendered share (1200×630, per language) and schema (1200×1200) PNGs
+├── og/, schema/          ← Rendered share (1200×630, per language; articles in og/{lang}/a/) and schema (1200×1200) PNGs
 ├── css/site.css          ← All CSS (tokens → reset → base → layout → components → pages → article legacy-compat)
 ├── js/
 │   ├── shell.js          ← Theme, compact bar, menu/search dialogs, per-language search, home ?q= results, 404 suggestions
@@ -70,6 +70,7 @@ ruby scripts/translate_recipes.rb
 │   ├── search-{lang}.json ← Per-language search index for the search sheet
 │   ├── glyphs.svg        ← The 24 dish-form glyphs, inlined on every page
 │   ├── rasters-manifest.json ← Hashes of rendered og/schema PNGs (incremental re-render)
+│   ├── lastmod.json      ← Per sitemap URL: hash of its <main> + the day it last changed (the sitemap lastmod)
 │   └── batches/          ← Translation batch files (intermediate)
 ├── i18n/                 ← Translation JSON files
 │   ├── {lang}.json       ← UI strings per language

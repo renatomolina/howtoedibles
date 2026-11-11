@@ -976,7 +976,7 @@ def build_article_page(slug, lang)
   # hreflang as before the redesign (every language that has the file); the switcher skips frozen pages too
   langs = ALL_LANGS.select { |l| ARTICLE_I18N.dig(l, "articles", slug) }
   switch = ALL_LANGS.to_h { |l| x = ARTICLE_I18N.dig(l, "articles", slug); [l, l == lang || (x && (l == "en" || !x["raw_main"])) ? page_path : "articles.html"] }
-  head = ->(ld) { shell_head(lang, title: "#{title} | HowToEdibles", description: a["description"] || "", page_path: page_path, og_image: SITE_OG, og_title: title,
+  head = ->(ld, og = SITE_OG) { shell_head(lang, title: "#{title} | HowToEdibles", description: a["description"] || "", page_path: page_path, og_image: og, og_title: title,
                              og_type: "article", structured: ld, keywords: a["keywords"] || "", langs: langs) }
 
   # Frozen orphan page (#71): body and JSON-LD verbatim, no ad slots (it can hold two article bodies). Two zh ones
@@ -987,11 +987,12 @@ def build_article_page(slug, lang)
     return write_page(lang, page_path, head.(JSON.generate(a["schema"])), %(<main class="col art">\n#{raw}\n</main>\n), switch)
   end
 
+  card = article_card(lang, slug, a["short_title"] || title) # share card + Article image (#89)
   date_pub = a["date_published"] || "2026-03-05"
   date_mod = a["date_modified"] || date_pub
   ld = [
     { "@context" => "https://schema.org", "@type" => "Article", "headline" => title, "description" => a["description"] || "",
-      "datePublished" => date_pub, "dateModified" => date_mod,
+      "image" => card, "datePublished" => date_pub, "dateModified" => date_mod,
       "author" => { "@type" => "Organization", "name" => "HowToEdibles Editorial Team", "url" => "#{SITE}/about.html" },
       "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE, "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" } },
       "mainEntityOfPage" => { "@type" => "WebPage", "@id" => canonical } },
@@ -1035,7 +1036,7 @@ def build_article_page(slug, lang)
     <section class="block"><div class="bh"><h2>#{h(ui(lang, "article.first_batch"))}</h2><a href="#{p}/">#{h(ui(lang, "shell.all_recipes"))} →</a></div><div class="grid g4">#{starters}</div></section>
     </main>
   HTML
-  write_page(lang, page_path, head.(JSON.generate(ld)), main, switch)
+  write_page(lang, page_path, head.(JSON.generate(ld), card), main, switch)
 end
 
 def e404_body(lang)
@@ -1094,6 +1095,8 @@ RASTER_CSS = <<~CSS.gsub(/\n\s*/, "")
   h1{position:absolute;left:64px;bottom:64px;width:720px;margin:0;font-weight:800;font-size:76px;line-height:1.04;letter-spacing:-.03em;}.hy{hyphens:auto;-webkit-hyphens:auto}
   h1.mid{font-size:64px}h1.long{font-size:54px}:lang(zh) h1{font-weight:900;letter-spacing:0;line-height:1.18}
   .st{position:absolute;right:96px;bottom:96px;width:230px;height:230px;border-radius:50%;background:#1f1410;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);box-shadow:0 0 0 8px #fff;line-height:1;text-align:center}
+  .cv>.mk{position:absolute;right:-.04em;top:-.3em;font-size:620px;line-height:1;letter-spacing:-.06em;color:var(--cat-deep);transform:rotate(-8deg)}
+  h1.a{width:960px;font-size:64px}h1.a.mid{font-size:56px}h1.a.long{font-size:48px}
   .st b{font-size:72px;font-weight:800;letter-spacing:-.03em}.st b small{font-size:30px;letter-spacing:0}.st span{font-size:22px;font-weight:700;margin-top:10px;max-width:170px;line-height:1.1;font-family:-apple-system,"PingFang SC",sans-serif}
 CSS
 
@@ -1112,6 +1115,16 @@ def raster_jobs(recipe, lang, name, mg)
   return unless lang == "en"
   sq = %(<div class="cv sq" style="#{cat_vars(cat)};#{place(slug, :card).map { |k, v| "--#{k}:#{v}" }.join(";")}">#{glyph_svg(recipe["glyph"])}</div>)
   add_raster("schema/#{slug}.png", raster_page(lang, sq), 1200, 1200)
+end
+
+# Article share card (#89): the topic colour with the title's first letter as the mark (as on the articles index),
+# the logo and the title. It is also the Article JSON-LD image.
+def article_card(lang, slug, title)
+  n = title.each_char.sum { |c| c.match?(/[　-鿿]/) ? 1.7 : 1 }
+  cls = n > 60 ? "a long" : n > 38 ? "a mid" : "a"
+  html = %(<div class="cv og" style="#{cat_vars(TOPIC_COLOR[topic_of(slug)])}"><span class="mk">#{h(title.strip[0])}</span>#{logo_svg}<h1 class="#{cls}">#{title_html(title, lang)}</h1></div>)
+  add_raster("og/#{lang}/a/#{slug}.png", raster_page(lang, html), 1200, 630)
+  "#{SITE}/og/#{lang}/a/#{slug}.png"
 end
 
 def add_raster(out, html, w, h)
