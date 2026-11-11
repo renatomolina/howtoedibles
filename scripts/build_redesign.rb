@@ -21,11 +21,11 @@ HELP_URL = "https://bit.ly/helpimhavingabadtrip"
 SITE = "https://www.howtoedibles.com"
 LANG_LABEL = { "en" => "EN", "pt" => "PT", "es" => "ES", "de" => "DE", "zh" => "中文" }.freeze
 AD_CLIENT = "ca-pub-6354522716906819"
-# ponytail: the 8 per-position units (#55) aren't created in AdSense yet; until the owner sends their
-# ids, the two existing units stand in. Swap the ids here when they exist.
-AD_UNITS = { "recipe-mid" => "4353785890", "recipe-end" => "5475295879", "category" => "4353785890",
-              "home" => "4353785890", "calc-mid" => "4353785890", "calc-end" => "5475295879",
-              "article-mid" => "4353785890", "article-end" => "5475295879" }.freeze
+# One AdSense unit per position (#55), named like the key, so the Ad units report says which position earns.
+# The same units serve all 5 languages.
+AD_UNITS = { "recipe-mid" => "5319493367", "recipe-end" => "6436153975", "category" => "8412735570",
+              "home" => "3151515085", "calc-mid" => "3809990635", "calc-end" => "3543552279",
+              "article-mid" => "2038723901", "article-end" => "9534245553" }.freeze
 
 SPRITE = File.read(File.join(ROOT_DIR, "data", "glyphs.svg")).sub(/\A.*?<svg[^>]*>/m, "").sub(%r{</svg>\s*\z}, "").gsub(/<!--.*?-->\n?/m, "").strip
 
