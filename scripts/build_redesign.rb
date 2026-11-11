@@ -557,7 +557,10 @@ def build_recipe_page(recipe, lang)
 
   dose = { d: { g: g, s: s, n: n_i }, lang: lang, t: dose_strings(lang) }
   scripts = %(<script>window.DOSE=#{JSON.generate(dose)};</script>\n<script src="/js/dose.js" defer></script>\n)
-  page = shell_head(lang, title: "#{name} #{t(lang, "recipe_page", "title_suffix")}", description: desc, page_path: page_path,
+  # Optional English SERP copy per recipe (#86, a CTR test): seo_title / seo_description in recipes.json, with
+  # {mg} {n} {g} from the recipe defaults. The H1, the JSON-LD and the other languages keep the recipe's own copy.
+  seo = ->(k) { (x = lang == "en" && recipe["seo_#{k}"]) && x.gsub("{mg}", fmt_mg(mg, lang)).gsub("{n}", n_i.to_s).gsub("{g}", fmt_g(g, lang)) }
+  page = shell_head(lang, title: seo.("title") ? "#{seo.("title")} | HowToEdibles" : "#{name} #{t(lang, "recipe_page", "title_suffix")}", description: seo.("description") || desc, page_path: page_path,
                     og_image: "#{SITE}/og/#{lang}/#{slug}.png", og_type: "article", structured: JSON.generate(ld))
   page << shell_top(lang) << main << shell_bottom(lang, page_path, scripts: scripts)
   write_file(output_path(lang, "recipes", slug, "index.html"), page)
