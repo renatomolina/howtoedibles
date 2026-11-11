@@ -232,6 +232,7 @@ section.block{margin-top:44px}
 .fld:focus-within{box-shadow:0 0 0 3px var(--ring)}
 .fld input{width:100%;min-width:0;border:0;background:none;outline:none;text-align:right;font:800 28px/56px var(--disp);letter-spacing:-.02em;padding:0}
 .fld .u{flex:none;font-weight:700;font-size:15px;color:var(--ink-2);min-width:3.6em;white-space:nowrap}
+@media (max-width:379px){.fld .u{min-width:0}} /* two-decimal grams ("0.24") fit at 360px */
 @media (max-width:359px){.rnd{width:44px;height:44px}.stepper{gap:6px}.fld{padding:0 8px;gap:4px}.fld input{font-size:22px}.fld .u{min-width:0;font-size:13px}.ins{padding:6px 14px 14px}}
 .chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:10px -18px 0;padding:2px 18px}
 .chips::-webkit-scrollbar{display:none}
