@@ -122,10 +122,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -191,10 +187,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -235,10 +227,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "300 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "no_cook",
     "texture_type": "fried",
@@ -258,10 +246,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375F",
     "texture_type": "baked",
@@ -282,10 +266,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425F",
     "texture_type": "baked",
@@ -305,10 +285,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -328,10 +304,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabis-infused vegetable oil",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -351,10 +323,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused condensed milk",
     "cook_temp": "325F",
     "texture_type": "no_cook",
@@ -373,10 +341,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused condensed milk",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -395,10 +359,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -418,10 +378,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -441,10 +397,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375F",
     "texture_type": "baked",
@@ -463,10 +415,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -486,10 +434,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused heavy cream",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -509,10 +453,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425F",
     "texture_type": "baked",
@@ -532,10 +472,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "260 kcal",
-      "fatContent": "15 g"
-    },
     "base_fat": "infused heavy cream",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -576,10 +512,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "300 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "fried",
@@ -599,10 +531,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabis simple syrup",
     "cook_temp": "freeze",
     "texture_type": "frozen",
@@ -622,10 +550,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375F",
     "texture_type": "baked",
@@ -645,10 +569,6 @@
       "cannabis edible",
       "desserts"
     ],
-    "nutrition": {
-      "calories": "260 kcal",
-      "fatContent": "15 g"
-    },
     "base_fat": "infused coconut milk",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -668,10 +588,6 @@
       "cannabis edible",
       "drinks"
     ],
-    "nutrition": {
-      "calories": "120 kcal",
-      "fatContent": "5 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -690,10 +606,6 @@
       "cannabis edible",
       "drinks"
     ],
-    "nutrition": {
-      "calories": "120 kcal",
-      "fatContent": "5 g"
-    },
     "base_fat": "infused honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -734,10 +646,6 @@
       "cannabis edible",
       "drinks"
     ],
-    "nutrition": {
-      "calories": "120 kcal",
-      "fatContent": "5 g"
-    },
     "base_fat": "infused milk",
     "cook_temp": "simmer",
     "texture_type": "no_cook",
@@ -756,10 +664,6 @@
       "cannabis edible",
       "drinks"
     ],
-    "nutrition": {
-      "calories": "120 kcal",
-      "fatContent": "5 g"
-    },
     "base_fat": "infused milk",
     "cook_temp": "simmer",
     "texture_type": "no_cook",
@@ -802,10 +706,6 @@
       "cannabis edible",
       "drinks"
     ],
-    "nutrition": {
-      "calories": "120 kcal",
-      "fatContent": "5 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -847,10 +747,6 @@
       "cannabis edible",
       "snacks"
     ],
-    "nutrition": {
-      "calories": "150 kcal",
-      "fatContent": "11 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -870,10 +766,6 @@
       "cannabis edible",
       "snacks"
     ],
-    "nutrition": {
-      "calories": "200 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -893,10 +785,6 @@
       "cannabis edible",
       "snacks"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "medium heat (stovetop)",
     "texture_type": "baked",
@@ -916,10 +804,6 @@
       "cannabis edible",
       "snacks"
     ],
-    "nutrition": {
-      "calories": "200 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -938,10 +822,6 @@
       "cannabis edible",
       "snacks"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "baked",
@@ -960,10 +840,6 @@
       "cannabis edible",
       "snacks"
     ],
-    "nutrition": {
-      "calories": "150 kcal",
-      "fatContent": "11 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -982,10 +858,6 @@
       "cannabis edible",
       "snacks"
     ],
-    "nutrition": {
-      "calories": "200 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "300F",
     "texture_type": "no_cook",
@@ -1095,10 +967,6 @@
       "cannabis edible",
       "essentials"
     ],
-    "nutrition": {
-      "calories": "100 kcal",
-      "fatContent": "11 g"
-    },
     "base_fat": "infused condensed milk",
     "cook_temp": "simmer",
     "texture_type": "stovetop",
@@ -1140,10 +1008,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1163,10 +1027,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1186,10 +1046,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1209,10 +1065,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "400F",
     "texture_type": "baked",
@@ -1232,10 +1084,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "no_cook",
     "texture_type": "stovetop",
@@ -1254,10 +1102,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1277,10 +1121,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1301,10 +1141,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis sesame oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1324,10 +1160,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "baked",
@@ -1348,10 +1180,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -1372,10 +1200,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis sesame oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1395,10 +1219,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "simmer",
     "texture_type": "stovetop",
@@ -1419,10 +1239,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "300F",
     "texture_type": "baked",
@@ -1442,10 +1258,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -1465,10 +1277,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused heavy cream",
     "cook_temp": "400F",
     "texture_type": "stovetop",
@@ -1489,10 +1297,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "400F",
     "texture_type": "baked",
@@ -1512,10 +1316,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -1536,10 +1336,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "cannabis cream",
     "cook_temp": "simmer",
     "texture_type": "stovetop",
@@ -1560,10 +1356,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis sesame oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1583,10 +1375,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1606,10 +1394,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -1628,10 +1412,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "medium heat",
     "texture_type": "baked",
@@ -1651,10 +1431,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis sesame oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1673,10 +1449,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis olive oil",
     "cook_temp": "475°F / 245°C",
     "texture_type": "baked",
@@ -1696,10 +1468,6 @@
       "cannabis edible",
       "lunch"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis ghee",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -1719,10 +1487,6 @@
       "cannabis edible",
       "keto"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "simmer",
     "texture_type": "no_cook",
@@ -1766,10 +1530,6 @@
       "butter",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -1789,10 +1549,6 @@
       "bites",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -1812,10 +1568,6 @@
       "avocado",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -1835,10 +1587,6 @@
       "pizza",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -1858,10 +1606,6 @@
       "cannabis edible",
       "keto"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -1881,10 +1625,6 @@
       "bites",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "400F",
     "texture_type": "baked",
@@ -1904,10 +1644,6 @@
       "wings",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425F",
     "texture_type": "baked",
@@ -1927,10 +1663,6 @@
       "eggs",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "no_cook",
     "texture_type": "baked",
@@ -1950,10 +1682,6 @@
       "mushrooms",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375F",
     "texture_type": "baked",
@@ -1973,10 +1701,6 @@
       "chili",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "baked",
@@ -1996,10 +1720,6 @@
       "chips",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "225F",
     "texture_type": "baked",
@@ -2018,10 +1738,6 @@
       "waffles",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -2041,10 +1757,6 @@
       "patties",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "baked",
@@ -2064,10 +1776,6 @@
       "dip",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375F",
     "texture_type": "baked",
@@ -2087,10 +1795,6 @@
       "flour",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -2132,10 +1836,6 @@
       "sauce",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2155,10 +1855,6 @@
       "cannabis edible",
       "vegan"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2177,10 +1873,6 @@
       "pancakes",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "350F",
     "texture_type": "baked",
@@ -2201,10 +1893,6 @@
       "cannabis edible",
       "vegan"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2224,10 +1912,6 @@
       "cannabis edible",
       "vegan"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2247,10 +1931,6 @@
       "mousse",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "190 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -2270,10 +1950,6 @@
       "cheese",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2294,10 +1970,6 @@
       "cannabis edible",
       "vegan"
     ],
-    "nutrition": {
-      "calories": "190 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -2317,10 +1989,6 @@
       "cannabis edible",
       "vegan"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2340,10 +2008,6 @@
       "balls",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "190 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -2363,10 +2027,6 @@
       "zoodles",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2387,10 +2047,6 @@
       "cannabis edible",
       "vegan"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2410,10 +2066,6 @@
       "ice",
       "cannabis edible"
     ],
-    "nutrition": {
-      "calories": "190 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
@@ -2434,10 +2086,6 @@
       "cannabis edible",
       "vegan"
     ],
-    "nutrition": {
-      "calories": "240 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "425F",
     "texture_type": "stovetop",
@@ -2457,10 +2105,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis simple syrup",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2527,10 +2171,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2550,10 +2190,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis tincture",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2573,10 +2209,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis simple syrup",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2597,10 +2229,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2620,10 +2248,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2644,10 +2268,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis simple syrup",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2667,10 +2287,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2690,10 +2306,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis tincture",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2714,10 +2326,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2737,10 +2345,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis simple syrup",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2760,10 +2364,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2784,10 +2384,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2807,10 +2403,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis simple syrup",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2831,10 +2423,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2854,10 +2442,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis simple syrup",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2878,10 +2462,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2902,10 +2482,6 @@
       "cannabis edible",
       "mocktails"
     ],
-    "nutrition": {
-      "calories": "80 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
@@ -2924,10 +2500,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -2968,10 +2540,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "230 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "no-cook",
     "texture_type": "stovetop",
@@ -2990,10 +2558,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -3014,10 +2578,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "375°F / 190°C",
     "texture_type": "stovetop",
@@ -3037,10 +2597,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis coconut oil",
     "cook_temp": "no-cook",
     "texture_type": "stovetop",
@@ -3059,10 +2615,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "infused olive oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -3082,10 +2634,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis coconut oil",
     "cook_temp": "medium heat",
     "texture_type": "stovetop",
@@ -3104,10 +2652,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "230 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
@@ -3126,10 +2670,6 @@
       "cannabis edible",
       "international"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "stovetop",
@@ -3150,10 +2690,6 @@
       "infused nachos",
       "marijuana nachos"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "400°F / 200°C",
     "texture_type": "baked",
@@ -3173,10 +2709,6 @@
       "THC cheese dip",
       "infused queso"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Stovetop medium-low",
     "texture_type": "creamy",
@@ -3196,10 +2728,6 @@
       "THC jalapeños",
       "infused jalapeño poppers"
     ],
-    "nutrition": {
-      "calories": "150 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -3219,10 +2747,6 @@
       "THC pretzel bites",
       "infused soft pretzels"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "6 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425°F / 220°C",
     "texture_type": "baked",
@@ -3242,10 +2766,6 @@
       "THC bruschetta",
       "infused bruschetta"
     ],
-    "nutrition": {
-      "calories": "140 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "400°F / 200°C",
     "texture_type": "toasted",
@@ -3265,10 +2785,6 @@
       "THC artichoke dip",
       "infused spinach dip"
     ],
-    "nutrition": {
-      "calories": "190 kcal",
-      "fatContent": "15 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -3288,10 +2804,6 @@
       "THC deviled eggs",
       "infused deviled eggs"
     ],
-    "nutrition": {
-      "calories": "120 kcal",
-      "fatContent": "10 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "No baking required",
     "texture_type": "creamy",
@@ -3311,10 +2823,6 @@
       "THC cheese sticks",
       "infused mozzarella sticks"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C (frying)",
     "texture_type": "fried",
@@ -3334,10 +2842,6 @@
       "THC chicken dip",
       "infused buffalo chicken dip"
     ],
-    "nutrition": {
-      "calories": "210 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -3357,10 +2861,6 @@
       "THC garlic bread",
       "infused garlic bread"
     ],
-    "nutrition": {
-      "calories": "200 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "toasted",
@@ -3380,10 +2880,6 @@
       "THC onion rings",
       "infused onion rings"
     ],
-    "nutrition": {
-      "calories": "250 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C (frying)",
     "texture_type": "fried",
@@ -3403,10 +2899,6 @@
       "THC veggie rolls",
       "infused spring rolls"
     ],
-    "nutrition": {
-      "calories": "130 kcal",
-      "fatContent": "5 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "No cooking required",
     "texture_type": "fresh",
@@ -3426,10 +2918,6 @@
       "THC mushrooms",
       "infused stuffed mushrooms"
     ],
-    "nutrition": {
-      "calories": "110 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -3449,10 +2937,6 @@
       "THC peanut butter bites",
       "infused banana snacks"
     ],
-    "nutrition": {
-      "calories": "140 kcal",
-      "fatContent": "9 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "No baking required",
     "texture_type": "frozen",
@@ -3472,10 +2956,6 @@
       "THC zucchini fries",
       "infused zucchini fries"
     ],
-    "nutrition": {
-      "calories": "160 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425°F / 220°C",
     "texture_type": "baked",
@@ -3495,10 +2975,6 @@
       "THC sweet potato fries",
       "infused sweet potato fries"
     ],
-    "nutrition": {
-      "calories": "190 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "425°F / 220°C",
     "texture_type": "baked",
@@ -3518,10 +2994,6 @@
       "THC avocado fries",
       "infused avocado fries"
     ],
-    "nutrition": {
-      "calories": "200 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425°F / 220°C",
     "texture_type": "baked",
@@ -3541,10 +3013,6 @@
       "THC caprese",
       "infused caprese appetizer"
     ],
-    "nutrition": {
-      "calories": "110 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "No cooking required",
     "texture_type": "fresh",
@@ -3564,10 +3032,6 @@
       "THC loaded potato skins",
       "infused potato skins"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "400°F / 200°C",
     "texture_type": "baked",
@@ -3587,10 +3051,6 @@
       "THC tortilla chips",
       "infused chips"
     ],
-    "nutrition": {
-      "calories": "170 kcal",
-      "fatContent": "7 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -3659,10 +3119,6 @@
       "green dragon",
       "marijuana tincture"
     ],
-    "nutrition": {
-      "calories": "5 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "alcohol",
     "cook_temp": "240°F / 115°C (decarb)",
     "texture_type": "liquid",
@@ -3706,10 +3162,6 @@
       "infused hot sauce",
       "canna hot sauce"
     ],
-    "nutrition": {
-      "calories": "5 kcal",
-      "fatContent": "0 g"
-    },
     "base_fat": "decarbed flower",
     "cook_temp": "240°F / 115°C (decarb), stovetop medium",
     "texture_type": "liquid",
@@ -3729,10 +3181,6 @@
       "THC chinese food",
       "infused kung pao"
     ],
-    "nutrition": {
-      "calories": "420 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "medium-high heat",
     "texture_type": "stir_fry",
@@ -3752,10 +3200,6 @@
       "weed tofu recipe",
       "infused sichuan tofu"
     ],
-    "nutrition": {
-      "calories": "310 kcal",
-      "fatContent": "20 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "medium heat",
     "texture_type": "braised",
@@ -3775,10 +3219,6 @@
       "weed sweet sour",
       "infused pork recipe"
     ],
-    "nutrition": {
-      "calories": "450 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "medium heat",
     "texture_type": "fried",
@@ -3798,10 +3238,6 @@
       "weed sichuan noodles",
       "infused dan dan"
     ],
-    "nutrition": {
-      "calories": "480 kcal",
-      "fatContent": "24 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "no cook (sauce)",
     "texture_type": "noodles",
@@ -3821,10 +3257,6 @@
       "weed dumpling soup",
       "infused chinese soup"
     ],
-    "nutrition": {
-      "calories": "290 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "simmer",
     "texture_type": "soup",
@@ -3844,10 +3276,6 @@
       "weed char siu",
       "infused cantonese pork"
     ],
-    "nutrition": {
-      "calories": "380 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "325°F then 425°F",
     "texture_type": "roasted",
@@ -3867,10 +3295,6 @@
       "weed dim sum",
       "infused chinese dumplings"
     ],
-    "nutrition": {
-      "calories": "260 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "steam",
     "texture_type": "steamed",
@@ -3890,10 +3314,6 @@
       "weed chinese chicken",
       "infused sesame chicken"
     ],
-    "nutrition": {
-      "calories": "440 kcal",
-      "fatContent": "20 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "medium-low heat (sauce)",
     "texture_type": "fried",
@@ -3913,10 +3333,6 @@
       "weed chinese soup",
       "infused hot sour soup"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "simmer",
     "texture_type": "soup",
@@ -3936,10 +3352,6 @@
       "weed chinese pancakes",
       "infused scallion pancakes"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "medium heat",
     "texture_type": "pan_fried",
@@ -3959,10 +3371,6 @@
       "weed wiener schnitzel",
       "infused german schnitzel"
     ],
-    "nutrition": {
-      "calories": "480 kcal",
-      "fatContent": "24 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "medium heat",
     "texture_type": "fried",
@@ -3982,10 +3390,6 @@
       "weed german pancakes",
       "infused potato fritters"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "medium-high heat",
     "texture_type": "fried",
@@ -4005,10 +3409,6 @@
       "weed bratwurst",
       "infused german sausage"
     ],
-    "nutrition": {
-      "calories": "520 kcal",
-      "fatContent": "32 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "medium heat",
     "texture_type": "braised",
@@ -4028,10 +3428,6 @@
       "weed spätzle",
       "infused german mac cheese"
     ],
-    "nutrition": {
-      "calories": "520 kcal",
-      "fatContent": "28 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "medium-low heat",
     "texture_type": "baked",
@@ -4051,10 +3447,6 @@
       "weed strudel",
       "infused german pastry"
     ],
-    "nutrition": {
-      "calories": "340 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "325°F",
     "texture_type": "baked",
@@ -4074,10 +3466,6 @@
       "weed tarte flambée",
       "infused german pizza"
     ],
-    "nutrition": {
-      "calories": "380 kcal",
-      "fatContent": "20 g"
-    },
     "base_fat": "cannabis oil",
     "cook_temp": "475°F",
     "texture_type": "baked",
@@ -4097,10 +3485,6 @@
       "weed german street food",
       "infused sausage curry"
     ],
-    "nutrition": {
-      "calories": "460 kcal",
-      "fatContent": "28 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "medium heat",
     "texture_type": "pan_fried",
@@ -4120,10 +3504,6 @@
       "weed schwarzwälder",
       "infused cherry cake"
     ],
-    "nutrition": {
-      "calories": "420 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "325°F",
     "texture_type": "baked",
@@ -4143,10 +3523,6 @@
       "weed german pretzel",
       "infused bavarian brezel"
     ],
-    "nutrition": {
-      "calories": "310 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425°F",
     "texture_type": "baked",
@@ -4166,10 +3542,6 @@
       "weed german rouladen",
       "infused braised beef"
     ],
-    "nutrition": {
-      "calories": "420 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "low simmer",
     "texture_type": "braised",
@@ -4189,10 +3561,6 @@
       "weed golden milk",
       "infused turmeric drink"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabis coconut oil",
     "cook_temp": "low heat",
     "texture_type": "beverage",
@@ -4212,10 +3580,6 @@
       "weed rice drink",
       "infused cinnamon drink"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabis coconut oil",
     "cook_temp": "no cook",
     "texture_type": "beverage",
@@ -4235,10 +3599,6 @@
       "weed mulled wine",
       "infused spiced wine"
     ],
-    "nutrition": {
-      "calories": "210 kcal",
-      "fatContent": "2 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "low heat",
     "texture_type": "beverage",
@@ -4281,10 +3641,6 @@
       "weed lemonade tea",
       "infused arnold palmer"
     ],
-    "nutrition": {
-      "calories": "120 kcal",
-      "fatContent": "1 g"
-    },
     "base_fat": "cannabis honey",
     "cook_temp": "no cook",
     "texture_type": "beverage",
@@ -4304,10 +3660,6 @@
       "THC mexican food",
       "infused enchiladas"
     ],
-    "nutrition": {
-      "calories": "380 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -4327,10 +3679,6 @@
       "THC tamales",
       "infused Mexican food"
     ],
-    "nutrition": {
-      "calories": "290 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Steamed",
     "texture_type": "steamed",
@@ -4350,10 +3698,6 @@
       "THC breakfast",
       "infused Mexican breakfast"
     ],
-    "nutrition": {
-      "calories": "420 kcal",
-      "fatContent": "24 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium heat",
     "texture_type": "pan-fried",
@@ -4373,10 +3717,6 @@
       "THC Mexican corn",
       "infused elote"
     ],
-    "nutrition": {
-      "calories": "280 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Grilled / Boiled",
     "texture_type": "grilled",
@@ -4396,10 +3736,6 @@
       "THC churros",
       "infused Mexican dessert"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "9 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C (oil)",
     "texture_type": "fried",
@@ -4419,10 +3755,6 @@
       "THC Mexican soup",
       "infused pozole rojo"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "15 g"
-    },
     "base_fat": "cannabis-infused coconut oil",
     "cook_temp": "Low simmer",
     "texture_type": "simmered",
@@ -4442,10 +3774,6 @@
       "THC mole sauce",
       "infused Mexican chicken"
     ],
-    "nutrition": {
-      "calories": "440 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium then low simmer",
     "texture_type": "braised",
@@ -4465,10 +3793,6 @@
       "THC tostadas",
       "infused Mexican appetizer"
     ],
-    "nutrition": {
-      "calories": "310 kcal",
-      "fatContent": "17 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Low heat",
     "texture_type": "assembled",
@@ -4488,10 +3812,6 @@
       "THC birria",
       "infused quesabirria"
     ],
-    "nutrition": {
-      "calories": "480 kcal",
-      "fatContent": "26 g"
-    },
     "base_fat": "cannabis-infused cooking oil",
     "cook_temp": "Low braise / High griddle",
     "texture_type": "braised",
@@ -4511,10 +3831,6 @@
       "THC Mexican cake",
       "infused milk cake"
     ],
-    "nutrition": {
-      "calories": "360 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -4557,10 +3873,6 @@
       "THC cookies",
       "infused cinnamon cookies"
     ],
-    "nutrition": {
-      "calories": "160 kcal",
-      "fatContent": "7 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -4580,10 +3892,6 @@
       "THC pumpkin pie",
       "infused Thanksgiving pie"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425°F then 350°F / 220°C then 175°C",
     "texture_type": "baked",
@@ -4603,10 +3911,6 @@
       "THC cheesecake",
       "infused cheesecake bars"
     ],
-    "nutrition": {
-      "calories": "340 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "325°F / 165°C",
     "texture_type": "baked",
@@ -4626,10 +3930,6 @@
       "THC cookies",
       "infused oatmeal cookies"
     ],
-    "nutrition": {
-      "calories": "170 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -4649,10 +3949,6 @@
       "THC key lime pie",
       "infused citrus pie"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "20 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -4672,10 +3968,6 @@
       "THC breakfast",
       "infused french toast"
     ],
-    "nutrition": {
-      "calories": "340 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium-low heat",
     "texture_type": "pan-fried",
@@ -4695,10 +3987,6 @@
       "THC custard",
       "infused creme brulee"
     ],
-    "nutrition": {
-      "calories": "380 kcal",
-      "fatContent": "30 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "325°F / 165°C",
     "texture_type": "baked",
@@ -4718,10 +4006,6 @@
       "THC smores bars",
       "infused campfire bars"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C then broil",
     "texture_type": "baked",
@@ -4764,10 +4048,6 @@
       "THC bread pudding",
       "infused custard dessert"
     ],
-    "nutrition": {
-      "calories": "370 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -4787,10 +4067,6 @@
       "THC pecan pie",
       "infused holiday pie"
     ],
-    "nutrition": {
-      "calories": "450 kcal",
-      "fatContent": "24 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -4810,10 +4086,6 @@
       "THC banana pudding",
       "infused Southern dessert"
     ],
-    "nutrition": {
-      "calories": "330 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium stovetop",
     "texture_type": "chilled",
@@ -4856,10 +4128,6 @@
       "THC macarons",
       "infused French macarons"
     ],
-    "nutrition": {
-      "calories": "140 kcal",
-      "fatContent": "7 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "300°F / 150°C",
     "texture_type": "baked",
@@ -4879,10 +4147,6 @@
       "THC pasta",
       "infused mac and cheese"
     ],
-    "nutrition": {
-      "calories": "450 kcal",
-      "fatContent": "24 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -4902,10 +4166,6 @@
       "THC slow cooker",
       "infused pulled chicken"
     ],
-    "nutrition": {
-      "calories": "380 kcal",
-      "fatContent": "12 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "High slow cooker",
     "texture_type": "shredded",
@@ -4925,10 +4185,6 @@
       "THC shrimp",
       "infused garlic butter shrimp"
     ],
-    "nutrition": {
-      "calories": "320 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium-low heat",
     "texture_type": "sautéed",
@@ -4948,10 +4204,6 @@
       "THC fettuccine",
       "infused alfredo"
     ],
-    "nutrition": {
-      "calories": "520 kcal",
-      "fatContent": "28 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium-low heat",
     "texture_type": "creamy",
@@ -4971,10 +4223,6 @@
       "THC stew",
       "infused beef stew"
     ],
-    "nutrition": {
-      "calories": "420 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Low simmer",
     "texture_type": "braised",
@@ -4994,10 +4242,6 @@
       "THC soup",
       "infused french onion soup"
     ],
-    "nutrition": {
-      "calories": "350 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Broil for topping",
     "texture_type": "soup",
@@ -5017,10 +4261,6 @@
       "THC pot pie",
       "infused chicken pot pie"
     ],
-    "nutrition": {
-      "calories": "480 kcal",
-      "fatContent": "26 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -5040,10 +4280,6 @@
       "THC pasta bake",
       "infused lasagna"
     ],
-    "nutrition": {
-      "calories": "490 kcal",
-      "fatContent": "24 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -5063,10 +4299,6 @@
       "THC pasta",
       "infused spaghetti carbonara"
     ],
-    "nutrition": {
-      "calories": "510 kcal",
-      "fatContent": "26 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Off-heat",
     "texture_type": "creamy",
@@ -5086,10 +4318,6 @@
       "THC curry",
       "infused tikka masala"
     ],
-    "nutrition": {
-      "calories": "440 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium heat",
     "texture_type": "simmered",
@@ -5109,10 +4337,6 @@
       "THC tacos",
       "infused fish tacos"
     ],
-    "nutrition": {
-      "calories": "360 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium-high heat",
     "texture_type": "pan-fried",
@@ -5132,10 +4356,6 @@
       "THC rice bowl",
       "infused teriyaki"
     ],
-    "nutrition": {
-      "calories": "460 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium heat",
     "texture_type": "glazed",
@@ -5155,10 +4375,6 @@
       "THC stuffed peppers",
       "infused bell peppers"
     ],
-    "nutrition": {
-      "calories": "390 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -5178,10 +4394,6 @@
       "THC soup",
       "infused clam chowder"
     ],
-    "nutrition": {
-      "calories": "410 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium heat",
     "texture_type": "soup",
@@ -5201,10 +4413,6 @@
       "THC pie",
       "infused shepherds pie"
     ],
-    "nutrition": {
-      "calories": "470 kcal",
-      "fatContent": "22 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "400°F / 200°C",
     "texture_type": "baked",
@@ -5224,10 +4432,6 @@
       "THC keto breakfast",
       "infused egg muffins"
     ],
-    "nutrition": {
-      "calories": "180 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
@@ -5247,10 +4451,6 @@
       "THC keto curry",
       "infused keto chicken"
     ],
-    "nutrition": {
-      "calories": "420 kcal",
-      "fatContent": "28 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "Medium heat",
     "texture_type": "simmered",
@@ -5270,10 +4470,6 @@
       "THC keto dessert",
       "infused keto brownies"
     ],
-    "nutrition": {
-      "calories": "160 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "325°F / 163°C",
     "texture_type": "baked",
@@ -5293,10 +4489,6 @@
       "THC keto snack",
       "infused cheeseburger"
     ],
-    "nutrition": {
-      "calories": "220 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -5316,10 +4508,6 @@
       "THC keto wings",
       "infused chicken wings"
     ],
-    "nutrition": {
-      "calories": "380 kcal",
-      "fatContent": "28 g"
-    },
     "base_fat": "cannabutter",
     "cook_temp": "425°F / 218°C",
     "texture_type": "baked",
@@ -5339,10 +4527,6 @@
       "THC vegan noodles",
       "infused vegan pad thai"
     ],
-    "nutrition": {
-      "calories": "380 kcal",
-      "fatContent": "14 g"
-    },
     "base_fat": "cannabis-infused coconut oil",
     "cook_temp": "Medium-high heat",
     "texture_type": "stir-fried",
@@ -5362,10 +4546,6 @@
       "THC grain bowl",
       "infused vegan bowl"
     ],
-    "nutrition": {
-      "calories": "420 kcal",
-      "fatContent": "18 g"
-    },
     "base_fat": "cannabis-infused coconut oil",
     "cook_temp": "400°F / 200°C",
     "texture_type": "roasted",
@@ -5385,10 +4565,6 @@
       "THC vegan dinner",
       "infused vegan stuffed peppers"
     ],
-    "nutrition": {
-      "calories": "310 kcal",
-      "fatContent": "8 g"
-    },
     "base_fat": "cannabis-infused coconut oil",
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
@@ -5431,10 +4607,6 @@
       "THC vegan pasta",
       "infused mushroom stroganoff"
     ],
-    "nutrition": {
-      "calories": "400 kcal",
-      "fatContent": "16 g"
-    },
     "base_fat": "cannabis-infused coconut oil",
     "cook_temp": "Medium heat",
     "texture_type": "creamy",
