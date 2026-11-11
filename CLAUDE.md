@@ -84,7 +84,7 @@ ruby scripts/translate_recipes.rb
 ```
 
 `old_rails/` (legacy Rails 5.2 app) was removed from master on 2026-11-09 because GitHub Pages served it publicly, credentials included. It's gitignored if a local copy exists; it's still in git history.
-Everything on master is public on the site — never commit secrets, and keep `/edible-dosage-calculator/` and the Rails-era redirect stubs (`/categories/…`, `/desserts/…`, etc.).
+Everything on master is public on the site — never commit secrets, and keep the Rails-era redirect stubs (`/categories/…`, `/desserts/…`, etc.). The English calculator lives at its Rails-era URL `/edible-dosage-calculator/` (generated); `/calculator.html` is a redirect, and `write_file` rewrites every English link to it. The other languages keep `/{lang}/calculator.html`.
 
 ## Conventions
 
