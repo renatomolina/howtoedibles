@@ -805,7 +805,23 @@ def build_calc_page(lang)
             "author" => ORG, "publisher" => ORG.merge("logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" }), "image" => SITE_OG, "description" => desc }
   end
   head = shell_head(lang, title: c["page_title"], description: desc, page_path: "calculator.html", og_image: SITE_OG, structured: JSON.generate(ld), keywords: own(lang, "calculator", "keywords"))
-  write_page(lang, "calculator.html", head, main, "calculator.html", scripts: dose_script(lang, g, s, n))
+  write_page(lang, lang == "en" ? "edible-dosage-calculator/index.html" : "calculator.html", head, main, "calculator.html", scripts: dose_script(lang, g, s, n))
+  return unless lang == "en"
+  # the old English URL becomes the redirect (written directly: write_file would rewrite its target)
+  File.write(File.join(ROOT_DIR, "calculator.html"), <<~HTML)
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="refresh" content="0;url=#{EN_CALC}" />
+      <link rel="canonical" href="#{SITE}#{EN_CALC}" />
+      <title>Redirecting…</title>
+    </head>
+    <body>
+      <p>Redirecting to <a href="#{EN_CALC}">the calculator</a>…</p>
+    </body>
+    </html>
+  HTML
 end
 
 # ---- articles index (#60: "Start here" cards, then per topic a lead card + slim rows) ----

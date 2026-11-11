@@ -78,7 +78,7 @@ async function runVP([name, w, h, mobile]) {
   for (const [page, path, setup, only] of PAGES) for (const lang of only || LANGS) {
     errs.length = 0;
     const loaded = new Promise((r) => { const f = (m) => m.method === "Page.loadEventFired" && (evs.splice(evs.indexOf(f), 1), r()); evs.push(f); });
-    await send("Page.navigate", { url: `${BASE}${lang === "en" ? "" : "/" + lang}${path}` });
+    await send("Page.navigate", { url: `${BASE}${lang === "en" ? path.replace("/calculator.html", "/edible-dosage-calculator/") : "/" + lang + path}` });
     await Promise.race([loaded, sleep(8000)]);
     const v = await send("Runtime.evaluate", { expression: PROBE(setup), awaitPromise: true, returnByValue: true });
     const res = JSON.parse(v.result?.result?.value || `{"cut":["probe failed: ${(v.result?.exceptionDetails?.exception?.description || "").split("\n")[0].replace(/"/g, "'")}"],"wrap":[]}`);

@@ -145,7 +145,13 @@ def output_path(lang, *segments)
   end
 end
 
+# The English calculator is back at the URL it ranked on until the March 2026 migration; calculator.html redirects
+# there. Every link and absolute URL to /calculator.html (menus, bodies, about/contact, canonical, hreflang, the
+# sitemap) is rewritten once, here. The other languages keep /{lang}/calculator.html.
+EN_CALC = "/edible-dosage-calculator/"
+
 def write_file(path, content)
+  content = content.gsub(%r{(href="|https://www\.howtoedibles\.com)/calculator\.html}, "\\1#{EN_CALC}") if path.end_with?(".html", ".xml")
   FileUtils.mkdir_p(File.dirname(path))
   File.write(path, content)
 end

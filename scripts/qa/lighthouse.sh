@@ -5,7 +5,7 @@
 OUT=${1:-/tmp/hte-lighthouse}
 BASE=${BASE:-http://127.0.0.1:8781}
 mkdir -p "$OUT"
-for p in /recipes/pot-brownies/ /zh/recipes/pot-brownies/ /de/recipes/infused-keto-chocolate-avocado-mousse/ /category/desserts/ /zh/category/desserts/ / /zh/ /calculator.html /zh/calculator.html /articles.html /donate.html /cannabis-and-sleep.html /zh/cannabis-and-sleep.html /contact.html; do
+for p in /recipes/pot-brownies/ /zh/recipes/pot-brownies/ /de/recipes/infused-keto-chocolate-avocado-mousse/ /category/desserts/ /zh/category/desserts/ / /zh/ /edible-dosage-calculator/ /zh/calculator.html /articles.html /donate.html /cannabis-and-sleep.html /zh/cannabis-and-sleep.html /contact.html; do
   name=$(echo "$p" | tr '/' '_')
   npx --yes lighthouse@13.6.0 "$BASE$p" --quiet --only-categories=performance \
     --blocked-url-patterns='*googlesyndication.com*' --blocked-url-patterns='*googletagmanager.com*' \
