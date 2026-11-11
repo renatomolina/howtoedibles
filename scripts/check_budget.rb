@@ -3,14 +3,10 @@
 # new pages?" (#63 §2, §7). Sizes are gzipped as transferred (woff2 counted raw).
 # Called at the end of build_site.rb. Run alone: ruby scripts/check_budget.rb
 #
-# BLOCKING for pages on the new shell (recipes and category pages since Phase 1a/1b, #72/#73; the special pages since Phase 2, #74) and
-# for the shared assets (site.css, the font, the search indexes). Pages still on the old shell
-# (Bootstrap/jQuery/Font Awesome CDN, the 237-link navbar) only warn; each phase that moves a page
-# type adds it to NEW_SHELL. BUDGET_STRICT=1 makes every warning fail too.
+# BLOCKING for every page and the shared assets (site.css, the font, the search indexes): since
+# Phase 4 (#76) no page is left on the old shell.
 require "zlib"
 
-STRICT_ALL = ENV["BUDGET_STRICT"] == "1"
-NEW_SHELL = %r{\A([a-z]{2}/)?((recipes|category)/|[^/]+\.html\z)} # every page since Phase 3 (#75), except the redirect stubs
 ROOT = File.expand_path("..", __dir__)
 KB = 1024
 
@@ -40,13 +36,12 @@ def local_file(page, url)
   File.file?(file) ? file : nil
 end
 
-overs = Hash.new { |h, k| h[k] = [] }  # rule → [[detail, bytes]] (old-shell pages: warn)
-block = Hash.new { |h, k| h[k] = [] } # same, for new-shell pages and shared assets: fail
+block = Hash.new { |h, k| h[k] = [] } # rule → [[detail, bytes]]
 size_cache = Hash.new { |h, f| h[f] = f.end_with?(".woff2") ? File.size(f) : gz(f) }
 
 deployed("**/*.html").each do |page|
   html = File.read(File.join(ROOT, page))
-  hits = page.match?(NEW_SHELL) ? block : overs
+  hits = block
   home = page.match?(%r{\A([a-z]{2}/)?index\.html\z})
   html_gz = size_cache[File.join(ROOT, page)]
   limit = home ? BUDGET[:home_html] : BUDGET[:html]
@@ -88,7 +83,6 @@ report = lambda do |title, set|
     puts "  #{rule}: #{list.size} — e.g. #{worst.join(', ')}"
   end
 end
-report.("Budget FAILED (new-shell pages and shared assets):", block) unless block.empty?
-report.("Budget warnings (pages still on the old shell):", overs) unless overs.empty?
-puts "Budget: new-shell pages and shared assets within limits." if block.empty?
-exit(block.empty? && (overs.empty? || !STRICT_ALL) ? 0 : 1)
+report.("Budget FAILED:", block) unless block.empty?
+puts "Budget: every page and the shared assets within limits." if block.empty?
+exit(block.empty? ? 0 : 1)

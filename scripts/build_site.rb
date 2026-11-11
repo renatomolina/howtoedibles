@@ -7,13 +7,11 @@
 require "json"
 require "fileutils"
 require "cgi"
-require "zlib"
 require "date"
 
 ROOT_DIR   = File.expand_path("..", __dir__)
 DATA_FILE  = File.join(ROOT_DIR, "data", "recipes.json")
 I18N_DIR   = File.join(ROOT_DIR, "i18n")
-IMAGE_BASE = "/images/recipes"
 
 abort "ERROR: #{DATA_FILE} not found." unless File.exist?(DATA_FILE)
 
@@ -25,7 +23,7 @@ RECIPES    = data["recipes"]
 # i18n Loading
 # ─────────────────────────────────────────────
 
-LANGS = %w[pt es de zh]  # non-English only — English is hand-maintained
+LANGS = %w[pt es de zh]  # the translations (recipes_{lang}.json, the sitemap's article alternates)
 ALL_LANGS = %w[en pt es de zh]  # for hreflang tags
 RECIPE_LANGS = ALL_LANGS  # recipes now generated for all languages including English
 
@@ -114,12 +112,6 @@ def lang_prefix(lang)
   lang == "en" ? "" : "/#{lang}"
 end
 
-def extract_list_items(html_str)
-  return [] unless html_str.is_a?(String)
-  # Plain text for JSON-LD: strip tags and decode entities (&frac12;, &nbsp;, ...).
-  html_str.scan(/<li[^>]*>(.*?)<\/li>/m).map { |m| decode_entities(m[0].gsub(/<[^>]+>/, "")).strip }
-end
-
 NAMED_ENTITIES = { "nbsp" => " ", "frac12" => "½", "frac14" => "¼", "frac34" => "¾",
                    "frac13" => "⅓", "frac23" => "⅔", "frac18" => "⅛", "deg" => "°", "ndash" => "–",
                    "mdash" => "—", "times" => "×" }.freeze
@@ -183,7 +175,7 @@ def hreflang_tags(page_path, langs = ALL_LANGS)
   tags.join("\n  ")
 end
 
-COOKING_EFFICIENCY = 0.80  # must match COOKING_EFFICIENCY in js/calculator.js
+COOKING_EFFICIENCY = 0.80  # must match COOKING_EFFICIENCY in js/dose.js
 
 # ═════════════════════════════════════════════
 # PAGE BUILDERS

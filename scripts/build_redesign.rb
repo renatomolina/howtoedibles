@@ -556,7 +556,7 @@ def build_recipe_page(recipe, lang)
   HTML
 
   dose = { d: { g: g, s: s, n: n_i }, lang: lang, t: dose_strings(lang) }
-  scripts = %(<script>window.RECIPE_DEFAULTS={quantity:#{g},potency:#{s},portion:#{n_i}};window.DOSE=#{JSON.generate(dose)};</script>\n<script src="/js/dose.js" defer></script>\n)
+  scripts = %(<script>window.DOSE=#{JSON.generate(dose)};</script>\n<script src="/js/dose.js" defer></script>\n)
   page = shell_head(lang, title: "#{name} #{t(lang, "recipe_page", "title_suffix")}", description: desc, page_path: page_path,
                     og_image: "#{SITE}/og/#{lang}/#{slug}.png", og_type: "article", structured: JSON.generate(ld))
   page << shell_top(lang) << main << shell_bottom(lang, page_path, scripts: scripts)
