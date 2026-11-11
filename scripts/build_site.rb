@@ -8,6 +8,7 @@ require "json"
 require "fileutils"
 require "cgi"
 require "date"
+require "digest"
 
 ROOT_DIR   = File.expand_path("..", __dir__)
 DATA_FILE  = File.join(ROOT_DIR, "data", "recipes.json")
@@ -340,8 +341,30 @@ def build_sitemap
     </urlset>
   XML
 
+  sitemap = real_lastmods(sitemap)
   write_file(File.join(ROOT_DIR, "sitemap.xml"), sitemap)
   puts "  sitemap.xml (#{urls.count} URLs)"
+end
+
+# lastmod = the day a page's <main> last changed (#90), so a menu or footer tweak doesn't touch every URL.
+# data/lastmod.json keeps { url => [hash of <main>, date] }; a URL seen for the first time gets the build date.
+LASTMOD_FILE = File.join(ROOT_DIR, "data", "lastmod.json")
+
+def real_lastmods(sitemap)
+  old = File.exist?(LASTMOD_FILE) ? JSON.parse(File.read(LASTMOD_FILE)) : {}
+  seen = {}
+  out = sitemap.gsub(%r{<loc>([^<]+)</loc>\n    <lastmod>[^<]*</lastmod>}) do
+    raw = $1
+    loc = raw.sub(%r{\A#{SITE}/calculator\.html\z}, "#{SITE}#{EN_CALC}") # write_file moves it there
+    path = loc.delete_prefix("#{SITE}/")
+    file = File.join(ROOT_DIR, path.empty? || path.end_with?("/") ? "#{path}index.html" : path)
+    main = File.read(file)[%r{<main\b.*</main>}m] or abort "ERROR: #{file} (in the sitemap) has no <main>"
+    hash = Digest::SHA1.hexdigest(main)
+    seen[loc] = old[loc] && old[loc][0] == hash ? old[loc] : [hash, Date.today.iso8601]
+    "<loc>#{raw}</loc>\n    <lastmod>#{seen[loc][1]}</lastmod>"
+  end
+  File.write(LASTMOD_FILE, JSON.pretty_generate(seen.sort.to_h) + "\n")
+  out
 end
 
 require_relative "build_redesign" # the shell and every page template
