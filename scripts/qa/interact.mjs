@@ -21,16 +21,16 @@ let fails = 0;
 const expect = (name, got, want) => { const ok = JSON.stringify(got) === JSON.stringify(want); if (!ok) fails++; console.log(`${ok ? "✓" : "✗"} ${name}${ok ? "" : ` — got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`}`); };
 const read = `const q = (s) => document.querySelector(s).textContent.replace(/\\s+/g, " ").trim(); return { sticker: q("[data-o=mgs]"), batch: q("[data-o=batch]"), n: q("[data-o=n]"), adj: q("[data-o=adj]"), g: document.getElementById("in-g").value, reset: !document.querySelector("[data-reset]").hidden, edited: document.getElementById("sticker").classList.contains("edited") };`;
 
-// pot-brownies: 2.1 g · 14% · 16 servings → 14.7 mg (shows 15), 235 mg batch
+// pot-brownies: 2.13 g · 14% · 16 servings → 14.9 mg (shows 15), 239 mg batch (the field shows 2.1)
 await go("/recipes/pot-brownies/");
-expect("static defaults", await ev(read), { sticker: "15mg", batch: "235 mg", n: "16", adj: "2.1 g · 14% THC", g: "2.1", reset: false, edited: false });
+expect("static defaults", await ev(read), { sticker: "15mg", batch: "239 mg", n: "16", adj: "2.1 g · 14% THC", g: "2.1", reset: false, edited: false });
 expect("static panel equals dose.js render", await ev("return window.DOSE.check()"), true);
-await ev(`document.querySelector('[data-step=g][data-d="1"]').click()`); // 2.1 → 2.5 (snaps to the 0.5 grid)
+await ev(`document.querySelector('[data-step=g][data-d="1"]').click()`); // 2.13 → 2.5 (snaps to the 0.5 grid)
 expect("+ grams snaps to 0.5", await ev(read), { sticker: "18mg", batch: "280 mg", n: "16", adj: "2.5 g · 14% THC", g: "2.5", reset: true, edited: true });
 await ev(`document.querySelector('.chip[data-k=n][data-v="50"]').click()`);
 expect("servings chip 50", await ev(read), { sticker: "5.6mg", batch: "280 mg", n: "50", adj: "2.5 g · 14% THC", g: "2.5", reset: true, edited: true });
 await ev(`document.querySelector("[data-reset]").click()`);
-expect("reset", await ev(read), { sticker: "15mg", batch: "235 mg", n: "16", adj: "2.1 g · 14% THC", g: "2.1", reset: false, edited: false });
+expect("reset", await ev(read), { sticker: "15mg", batch: "239 mg", n: "16", adj: "2.1 g · 14% THC", g: "2.1", reset: false, edited: false });
 
 // de: typing "3,5" with a decimal comma, live on input (no blur)
 await go("/de/recipes/pot-brownies/");
