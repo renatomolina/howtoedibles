@@ -10,7 +10,7 @@
 require "zlib"
 
 STRICT_ALL = ENV["BUDGET_STRICT"] == "1"
-NEW_SHELL = %r{\A([a-z]{2}/)?((recipes|category)/|(index|calculator|donate|articles)\.html\z)|\A404\.html\z}
+NEW_SHELL = %r{\A([a-z]{2}/)?((recipes|category)/|[^/]+\.html\z)} # every page since Phase 3 (#75), except the redirect stubs
 ROOT = File.expand_path("..", __dir__)
 KB = 1024
 

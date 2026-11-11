@@ -24,7 +24,8 @@ AD_CLIENT = "ca-pub-6354522716906819"
 # ponytail: the 8 per-position units (#55) aren't created in AdSense yet; until the owner sends their
 # ids, the two existing units stand in. Swap the ids here when they exist.
 AD_UNITS = { "recipe-mid" => "4353785890", "recipe-end" => "5475295879", "category" => "4353785890",
-              "home" => "4353785890", "calc-mid" => "4353785890", "calc-end" => "5475295879" }.freeze
+              "home" => "4353785890", "calc-mid" => "4353785890", "calc-end" => "5475295879",
+              "article-mid" => "4353785890", "article-end" => "5475295879" }.freeze
 
 SPRITE = File.read(File.join(ROOT_DIR, "data", "glyphs.svg")).sub(/\A.*?<svg[^>]*>/m, "").sub(%r{</svg>\s*\z}, "").gsub(/<!--.*?-->\n?/m, "").strip
 
@@ -236,13 +237,14 @@ end
 
 THEME_BOOT = %(<script>try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="dark"||t==="light"?t:matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}catch(e){}</script>)
 
-def shell_head(lang, title:, description:, page_path:, og_image:, og_title: title, og_type: "website", structured: nil, keywords: nil, indexed: true, only_lang: false)
+def shell_head(lang, title:, description:, page_path:, og_image:, og_title: title, og_type: "website", structured: nil, keywords: nil, indexed: true, only_lang: false, langs: ALL_LANGS)
   canonical = "#{SITE}#{lang_prefix(lang)}/#{page_path}"
   ld = structured ? %(\n<script type="application/ld+json">#{structured}</script>) : ""
   kw = keywords ? %(\n<meta name="keywords" content="#{h(keywords)}">) : ""
   canon = indexed ? %(\n<link rel="canonical" href="#{canonical}">) : ""
   og_url = indexed ? %(\n<meta property="og:url" content="#{canonical}">) : ""
-  alt = indexed ? "\n#{hreflang_tags(page_path).gsub(" />", ">")}" : ""
+  tags = hreflang_tags(page_path, langs)
+  alt = indexed && !tags.empty? ? "\n#{tags.gsub(" />", ">")}" : ""
   # a page that exists in one language only (about.html) points at itself, as before the redesign
   alt = %(\n<link rel="alternate" hreflang="#{lang_html(lang)}" href="#{canonical}">\n<link rel="alternate" hreflang="x-default" href="#{canonical}">) if only_lang
   ads = indexed ? %(\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=#{AD_CLIENT}" crossorigin="anonymous"></script>) : ""
@@ -312,9 +314,18 @@ def search_dialog(lang)
   HTML
 end
 
+# The language switcher. page_path is one path for every language, or { lang => path } for pages
+# that don't exist in every language (an untranslated article points to that language's articles index).
+def lang_switch(lang, page_path)
+  ALL_LANGS.map do |l|
+    path = page_path.is_a?(Hash) ? page_path.fetch(l) : page_path
+    %(<a href="#{lang_prefix(l)}/#{path}" lang="#{lang_html(l)}" hreflang="#{lang_html(l)}"#{l == lang ? ' aria-current="true"' : ""}>#{LANG_LABEL[l]}</a>)
+  end.join
+end
+
 def menu_dialog(lang, page_path)
   p = lang_prefix(lang)
-  langs = ALL_LANGS.map { |l| %(<a href="#{lang_prefix(l)}/#{page_path}" lang="#{lang_html(l)}" hreflang="#{lang_html(l)}"#{l == lang ? ' aria-current="true"' : ""}>#{LANG_LABEL[l]}</a>) }.join
+  langs = lang_switch(lang, page_path)
   modes = %w[auto light dark].each_with_index.map { |m, i| %(<button type="button" data-theme-set="#{m}" aria-pressed="#{m == "auto"}">#{h(ui(lang, "shell.modes")[i])}</button>) }.join
   <<~HTML
     <dialog id="menu" aria-label="#{h(ui(lang, "shell.menu"))}"><div class="sheet-top"><div class="wrap mtop"><a href="#{p}/" aria-label="HowToEdibles">#{logo_svg}</a>
@@ -346,7 +357,7 @@ def footer_dialogs(lang, page_path)
   p = lang_prefix(lang)
   more = ui(lang, "shell.more_links")
   more_links = [["#{p}/calculator.html", more[0]], ["/about.html", more[1]], ["/contact.html", more[2]], ["#{p}/donate.html", more[3]]]
-  langs = ALL_LANGS.map { |l| %(<a href="#{lang_prefix(l)}/#{page_path}" lang="#{lang_html(l)}" hreflang="#{lang_html(l)}"#{l == lang ? ' aria-current="true"' : ""}>#{LANG_LABEL[l]}</a>) }.join
+  langs = lang_switch(lang, page_path)
   <<~HTML
     </div>
     <footer class="ftr"><div class="wrap">
@@ -849,23 +860,112 @@ end
 # the other four sit in <template>s and the one matching the URL's /pt|es|de|zh/ prefix replaces it before first paint.
 # No canonical, no hreflang, no AdSense (no ads on error pages). js/shell.js suggests recipes from the broken URL. ----
 
-# ---- about.html (English only; #61: the file stays the source of its own copy). The build keeps the page's title,
-# description, keywords and JSON-LD, rewraps the hand-maintained region between <!-- body --> markers in the shell,
-# and refreshes the counts in its facts row. Edit the copy inside the markers in about.html itself. ----
+# ---- about.html and contact.html (English only; #61: each file stays the source of its own copy). The build keeps the
+# page's title, description, keywords and JSON-LD, rewraps the hand-maintained region between <!-- body --> markers in
+# the shell, and refreshes the counts in about's facts row. Edit the copy inside the markers in the file itself. ----
 
-def build_about
-  f = File.join(ROOT_DIR, "about.html")
+def build_kept(file)
+  f = File.join(ROOT_DIR, file)
   src = File.read(f)
-  body = src[%r{<!-- body -->\n(.*?)<!-- /body -->}m, 1] or abort "ERROR: about.html has no <!-- body --> … <!-- /body --> region"
+  body = src[%r{<!-- body -->\n(.*?)<!-- /body -->}m, 1] or abort "ERROR: #{file} has no <!-- body --> … <!-- /body --> region"
   body = body.sub(/(data-count="recipes">)\d+/) { "#{$1}#{RECIPES.size}" }.sub(/(data-count="articles">)\d+/) { "#{$1}#{articles_in("en").size}" }
   meta = ->(n) { CGI.unescapeHTML(src[/<meta name="#{n}" content="([^"]*)"/, 1].to_s) }
   ld = src[%r{<script type="application/ld\+json">(.*?)</script>}m, 1]
-  head = shell_head("en", title: CGI.unescapeHTML(src[%r{<title>(.*?)</title>}m, 1]), description: meta.("description"), page_path: "about.html", og_image: SITE_OG,
+  head = shell_head("en", title: CGI.unescapeHTML(src[%r{<title>(.*?)</title>}m, 1]), description: meta.("description"), page_path: file, og_image: SITE_OG,
                     structured: ld && JSON.generate(JSON.parse(ld)), keywords: meta.("keywords"), only_lang: true)
   write_file(f, head + shell_top("en") + "<!-- body -->\n#{body}<!-- /body -->\n" + shell_bottom("en", ""))
 end
 
-E404_POPULAR = %w[cannabutter pot-brownies gummy-bears pot-cookies].freeze
+# The 4 starter recipes: the 404's suggestions with no URL match, and the articles' "Make your first batch".
+STARTERS = %w[cannabutter pot-brownies gummy-bears pot-cookies].freeze
+
+# ---- article pages (#60 "shell + type": no poster band). The body is injected unedited and styled only by the
+# legacy-compat block in site.css; the build adds the TOC, the internal-link prefixes and the ad slots. ----
+
+# #55: article-mid before the 3rd content H2 when the body has at least 4 (h2#sources doesn't count);
+# article-end before h2#sources, or at the end of the body. body_html never stores a slot.
+def article_slots(body, lang)
+  abort "ERROR: an article body stores an ad slot; the build places them (#55)" if body.include?("adsbygoogle")
+  h2s = body.to_enum(:scan, /<h2\b[^>]*>/).map { [$~.begin(0), $~[0]] }
+  sources = h2s.find { |_, tag| tag.match?(/\bid="sources"/) }
+  content = h2s - [sources]
+  at = [[sources ? sources[0] : body.size, "article-end"]]
+  at << [content[2][0], "article-mid"] if content.size >= 4
+  at.sort.reverse.each_with_object(body.dup) { |(i, unit), b| b.insert(i, "#{ad_slot(lang, unit)}\n") }
+end
+
+def build_article_page(slug, lang)
+  p = lang_prefix(lang)
+  ai = ARTICLE_I18N.dig(lang, "articles_index") || {}
+  a = ARTICLE_I18N.dig(lang, "articles", slug) or return
+  title = a["title"] || slug
+  page_path = "#{slug}.html"
+  canonical = "#{SITE}#{p}/#{page_path}"
+  arts = "#{p}/articles.html"
+  # hreflang as before the redesign (every language that has the file); the switcher skips frozen pages too
+  langs = ALL_LANGS.select { |l| ARTICLE_I18N.dig(l, "articles", slug) }
+  switch = ALL_LANGS.to_h { |l| x = ARTICLE_I18N.dig(l, "articles", slug); [l, l == lang || (x && (l == "en" || !x["raw_main"])) ? page_path : "articles.html"] }
+  head = ->(ld) { shell_head(lang, title: "#{title} | HowToEdibles", description: a["description"] || "", page_path: page_path, og_image: SITE_OG, og_title: title,
+                             og_type: "article", structured: ld, keywords: a["keywords"] || "", langs: langs) }
+
+  # Frozen orphan page (#71): body and JSON-LD verbatim, no ad slots (it can hold two article bodies). Two zh ones
+  # carry the old shell's <script>s (jQuery, Bootstrap, dark-mode.js), which would fight the new shell: dropped.
+  # ponytail: temporary until #44 publishes the 88 retranslations, which turns these into normal articles.
+  if a["raw_main"]
+    raw = a["raw_main"].gsub(%r{<script\b.*?</script>\s*}m, "")
+    return write_page(lang, page_path, head.(JSON.generate(a["schema"])), %(<main class="col art">\n#{raw}\n</main>\n), switch)
+  end
+
+  date_pub = a["date_published"] || "2026-03-05"
+  date_mod = a["date_modified"] || date_pub
+  ld = [
+    { "@context" => "https://schema.org", "@type" => "Article", "headline" => title, "description" => a["description"] || "",
+      "datePublished" => date_pub, "dateModified" => date_mod,
+      "author" => { "@type" => "Organization", "name" => "HowToEdibles Editorial Team", "url" => "#{SITE}/about.html" },
+      "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE, "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" } },
+      "mainEntityOfPage" => { "@type" => "WebPage", "@id" => canonical } },
+    { "@context" => "https://schema.org", "@type" => "BreadcrumbList", "itemListElement" => [
+      { "@type" => "ListItem", "position" => 1, "name" => ai["breadcrumb_home"] || "Home", "item" => "#{SITE}#{p}/" },
+      { "@type" => "ListItem", "position" => 2, "name" => ai["breadcrumb_articles"] || "Articles", "item" => "#{SITE}#{arts}" },
+      { "@type" => "ListItem", "position" => 3, "name" => title, "item" => canonical } ] },
+    *a["schema_extra"],
+  ]
+  faq = a["faq"] || []
+  ld << { "@context" => "https://schema.org", "@type" => "FAQPage", "mainEntity" => faq.map { |f| { "@type" => "Question", "name" => f["question"], "acceptedAnswer" => { "@type" => "Answer", "text" => f["answer"] } } } } unless faq.empty?
+
+  toc = a["toc"] || []
+  toc_html = toc.empty? ? "" : %(<div class="article-toc"><h4>#{h(ai["toc_title"] || "Table of Contents")}</h4><ul>#{toc.map { |x| %(<li><a href="##{x["id"]}">#{h(x["text"])}</a></li>) }.join}</ul></div>\n)
+  # Prefix internal links, but only to pages that exist in this language; otherwise keep the English URL (never a 404).
+  body = (a["body_html"] || "").gsub(/href="\/([^"\/]+)\.html(#[^"]*)?"/) do |m|
+    ARTICLE_I18N.dig(lang, "articles", $1) || %w[calculator donate articles].include?($1) ? %(href="#{p}/#{$1}.html#{$2}") : m
+  end
+  body = body.include?("<!-- toc -->") ? body.sub("<!-- toc -->", toc_html) : toc_html + body
+
+  related = (a["related"] || []).select { |r| ARTICLE_I18N.dig(lang, "articles", r["slug"]) }
+  related_html = related.empty? ? "" : %(<div class="related-articles"><h3>#{h(ai["related_title"] || "Related Articles")}</h3><div class="row">) +
+    related.map { |r| %(<div class="card"><h5 class="card-title"><a href="#{p}/#{r["slug"]}.html">#{h(r["title"])}</a></h5>#{r["description"] ? %(<p class="card-text">#{h(r["description"])}</p>) : ""}</div>) }.join + "</div></div>"
+
+  date = ->(d) { lang == "en" ? Date.parse(d).strftime("%B %-d, %Y") : d }
+  meta = [%(#{h(ai["byline"] || "By")} <a href="/about.html">HowToEdibles Editorial Team</a>), h(date.(date_pub))]
+  meta << "#{h(ai["updated"] || "Updated")} #{h(date.(date_mod))}" if a["show_updated"]
+  meta << h(a["read_time"] || "")
+  crumb = h(ai["breadcrumb_articles"] || "Articles")
+  starters = STARTERS.map { |s| card(RECIPES.find { |r| r["slug"] == s }, lang) }.join
+  main = <<~HTML
+    <main class="col art">
+    <header class="ahead tone" style="#{cat_vars(TOPIC_COLOR[topic_of(slug)])}"><nav class="crumbs" aria-label="#{crumb}"><a href="#{arts}">#{crumb}</a><span aria-hidden="true">›</span><span class="tag">#{h(a["category"])}</span></nav>
+    <h1>#{h(a["h1"] || title)}</h1><p class="lede article-excerpt">#{h(a["excerpt"])}</p><p class="byline article-meta">#{meta.map { |m| "<span>#{m}</span>" }.join}</p></header>
+    <article class="article-body">
+    #{article_slots(body, lang)}
+    <div class="text-center mt-5"><a href="#{arts}" class="btn btn-success">#{h(ai["read_more_articles"] || "Read more articles")}</a></div>
+    #{related_html}
+    </article>
+    <a class="band-calc next" href="#{p}/calculator.html"><span><b>#{h(ui(lang, "article.next_q"))}</b><span>#{h(ui(lang, "article.next_sub"))}</span></span><span class="go">#{ICON[:calc]}</span></a>
+    <section class="block"><div class="bh"><h2>#{h(ui(lang, "article.first_batch"))}</h2><a href="#{p}/">#{h(ui(lang, "shell.all_recipes"))} →</a></div><div class="grid g4">#{starters}</div></section>
+    </main>
+  HTML
+  write_page(lang, page_path, head.(JSON.generate(ld)), main, switch)
+end
 
 def e404_body(lang)
   p = lang_prefix(lang)
@@ -875,7 +975,7 @@ def e404_body(lang)
     <main>
     #{poster("Desserts", "404", inner, cls: "lost", mk: "--my:-.16em;--mx:-.05em;--mr:-9deg")}
     <div class="col">
-    <section class="block" id="e404" data-t="#{h(JSON.generate(et))}"><h2>#{h(ui(lang, "e404.popular"))}</h2><div class="grid g4">#{E404_POPULAR.map { |s| card(RECIPES.find { |r| r["slug"] == s }, lang) }.join}</div></section>
+    <section class="block" id="e404" data-t="#{h(JSON.generate(et))}"><h2>#{h(ui(lang, "e404.popular"))}</h2><div class="grid g4">#{STARTERS.map { |s| card(RECIPES.find { |r| r["slug"] == s }, lang) }.join}</div></section>
     #{search_form(lang)}
     <div class="btns"><a class="btn" href="#{p}/calculator.html">#{ICON[:calc]}#{h(ui(lang, "shell.calc_card"))}</a><a class="btn pri" href="#{p}/">#{h(ui(lang, "shell.all_recipes"))}</a></div>
     </div>
