@@ -544,7 +544,7 @@ def build_recipe_page(recipe, lang)
     "image" => schema_image(slug),
     "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE },
     "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE, "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" } },
-    "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15", "dateModified" => "2026-03-15",
+    "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15", "dateModified" => "2026-03-15", # real_lastmods (build_site.rb) rewrites it to the sitemap lastmod
     "recipeCategory" => recipe_t(lang, slug, "category_name") || cat,
     "recipeYield" => [fmt_num(n), "#{fmt_num(n)} servings"],
     "recipeIngredient" => (recipe_t(lang, slug, "ingredients") || ings).map(&plain), # the source text, as before the redesign
@@ -563,7 +563,9 @@ def build_recipe_page(recipe, lang)
     { "@type" => "ListItem", "position" => 2, "name" => recipe_t(lang, slug, "category_name") || cat, "item" => "#{SITE}#{cat_url(lang, cat)}" },
     { "@type" => "ListItem", "position" => 3, "name" => name },
   ] }
-  ld = [schema, crumbs, build_recipe_faq_schema(recipe, lang)].compact
+  # No FAQPage here: the recipe FAQ is category template text (the same questions on up to 26 pages),
+  # and Google only shows FAQ rich results for government and health sites. The visible FAQ stays.
+  ld = [schema, crumbs]
 
   # ---- long-tail sections (template text + the recipe's own sentences)
   sub = enrich["sub_category"] || "general"
