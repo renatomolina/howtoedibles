@@ -1,6 +1,6 @@
 /* HowToEdibles · site.css — the redesign stylesheet (#50). One plain file, no build, no nesting.
    Order: tokens → reset → base → layout → components → pages.
-   Pages still on the old shell keep /css/styles.css until their phase moves them. */
+   Every page uses it since Phase 3 (#75); article bodies keep their old markup, restyled by the legacy-compat block. */
 
 /* ================= tokens ================= */
 @font-face{font-family:Unbounded;src:url(/fonts/unbounded-800.latin1.woff2) format("woff2");font-weight:800;font-style:normal;font-display:optional;unicode-range:U+0000-00FF,U+2013-2014,U+2018-2019,U+201C-201D,U+2022,U+2026,U+20AC,U+2212,U+00BD,U+00BC,U+00BE}

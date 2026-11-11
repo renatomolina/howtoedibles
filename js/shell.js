@@ -1,10 +1,9 @@
 // The new shell (#51): theme, the scroll-up compact bar, the menu and search <dialog>s, per-language search,
 // plus the homepage's ?q= / ?search= results and the 404's suggestions (#74), which reuse the same index.
-// Pages on the old shell still use dark-mode.js / search-autocomplete.js; they share the "theme" key.
 (function () {
   var d = document, b = d.body, root = d.documentElement;
 
-  // ---- theme: Auto removes the key (the old dark-mode.js would apply "auto" literally) ----
+  // ---- theme: "light" / "dark" in localStorage; Auto removes the key ----
   var mq = matchMedia("(prefers-color-scheme: dark)");
   function stored() { try { var t = localStorage.getItem("theme"); return t === "dark" || t === "light" ? t : "auto"; } catch (e) { return "auto"; } }
   function applyTheme() {

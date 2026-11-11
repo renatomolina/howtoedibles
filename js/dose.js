@@ -2,7 +2,7 @@
 // The build pre-renders the panel, peek, sticker, facts and hero lines from the recipe defaults
 // (scripts/build_redesign.rb: live_html, peek_html, newbie_html); this mirrors those helpers and only
 // re-renders on input, never the inputs themselves (the keyboard stays open).
-// COOKING_EFFICIENCY must match build_site.rb and js/calculator.js.
+// COOKING_EFFICIENCY must match build_site.rb.
 (function () {
   var D = window.DOSE;
   if (!D) return;

@@ -9,23 +9,24 @@ Fully static HTML site — no build framework, no bundler. Almost every page is 
 - **Hosting:** GitHub Pages (branch: master)
 - **Domain:** www.howtoedibles.com (CNAME file)
 - **Languages:** en (root), pt, es, de, zh — generated pages live in `/{lang}/`
-- **Two shells during the redesign (#71–#76):** recipe and category pages use the new shell (`/css/site.css`, `js/shell.js`, `js/dose.js`, no Bootstrap/jQuery/Font Awesome); every other page keeps the old one (Bootstrap 4.5.2 CDN + `/css/styles.css`) until its phase moves it
+- **CSS:** one hand-written `/css/site.css` on every page (no Bootstrap, jQuery, Font Awesome or Google Fonts; the redesign #71–#76 finished in Phase 4). The one webfont is the self-hosted `/fonts/unbounded-800.latin1.woff2`
 - **JS:** Vanilla JS in `/js/` — no build step, no modules
-- **Images:** new-shell pages show covers (category colour + dish-form glyph from `data/glyphs.svg`, inlined), no photos. Share/schema images are rendered PNGs in `og/{lang}/{slug}.png` and `schema/{slug}.png`. The old pages still use `/images/recipes/{slug}.jpg`
+- **Images:** pages show covers (category colour + dish-form glyph from `data/glyphs.svg`, inlined), no photos. Share/schema images are rendered PNGs in `og/{lang}/{slug}.png` and `schema/{slug}.png`. The old recipe photos in `/images/recipes/` are no longer linked from any page; they're kept for image-search traffic
 
 ## Key Commands
 
 ```bash
 # Rebuild all generated pages (translated homepages, recipes, categories, articles, search indexes, sitemap),
 # run the inbound-link gate, render changed og/schema PNGs, then the page-weight budget
-# (scripts/check_budget.rb: blocking for new-shell pages, warn-only for old-shell pages)
+# (scripts/check_budget.rb, blocking on every page)
 ruby scripts/build_site.rb
 
-# Redesign gates before merging (serve the repo first: python3 -m http.server 8781)
-node scripts/qa/devices.mjs   # 36 viewports × 5 langs × 3 recipes: overflow, first screen, dose readout, rail
+# Gates before merging (serve the repo first: python3 -I scripts/qa/serve.py 8781, which answers missing paths with /404.html like Pages)
+node scripts/qa/devices.mjs   # 36 viewports × 5 langs × recipes, special pages, articles: overflow, first screen, dose readout, rail
 node scripts/qa/fit.mjs       # strings: cut-off text and wrapped one-line controls, incl. menu/search dialogs
 node scripts/qa/interact.mjs  # calculator, dialogs + Back, theme key
 sh scripts/qa/lighthouse.sh   # mobile lab run, ads blocked: LCP ≤ 1.8 s, CLS ≤ 0.02, TBT ≤ 100 ms
+ruby scripts/qa/slots.rb      # article ad slots follow the #55 rule in all 5 languages
 
 # Rebuild /fonts/unbounded-800.latin1.woff2 from the pinned upstream font (fontTools + brotli)
 python3 scripts/build_font.py
@@ -51,29 +52,23 @@ ruby scripts/translate_recipes.rb
 
 ```
 /                         ← English root
-├── index.html            ← Homepage: calculator card + category shelves; ?q= results (generated, new shell)
-├── calculator.html       ← Standalone dosage calculator page (generated, new shell)
+├── index.html            ← Homepage: calculator card + category shelves; ?q= results (generated)
+├── calculator.html       ← Standalone dosage calculator page (generated)
 ├── 404.html              ← The only 404 Pages serves: all 5 languages, picked from the path (generated)
-├── *.html                ← 50 article pages (GENERATED from i18n/articles_en.json)
-├── recipes/              ← 237 recipe dirs, each with index.html (new shell)
-├── category/             ← 8 category pages (new shell)
+├── *.html                ← 50 article pages (GENERATED from i18n/articles_en.json); about/contact (body hand-maintained)
+├── recipes/              ← 237 recipe dirs, each with index.html
+├── category/             ← 8 category pages
 ├── og/, schema/          ← Rendered share (1200×630, per language) and schema (1200×1200) PNGs
-├── css/site.css          ← New-shell CSS (tokens → reset → base → layout → components → pages)
-├── css/styles.css        ← Old-shell CSS (deleted in Phase 4)
+├── css/site.css          ← All CSS (tokens → reset → base → layout → components → pages → article legacy-compat)
 ├── js/
-│   ├── shell.js          ← New shell: theme, compact bar, menu/search dialogs, per-language search
-│   ├── dose.js           ← New recipe-page calculator (mirrors the build's static render)
-│   ├── calculator.js     ← Old dosage calculator (old-shell pages)
-│   ├── dark-mode.js      ← Theme toggle (localStorage)
-│   ├── mobile-menu.js    ← Navbar collapse behavior
-│   └── search-autocomplete.js  ← Fetches /data/search-index.json
+│   ├── shell.js          ← Theme, compact bar, menu/search dialogs, per-language search, home ?q= results, 404 suggestions
+│   └── dose.js           ← The calculator card on recipe pages, the homepage and calculator.html (mirrors the build's static render)
 ├── data/
 │   ├── recipes.json      ← Master recipe data (categories + recipes array)
 │   ├── recipes_text.json ← Full ingredient/instruction text for all recipes
 │   ├── recipe_enrichment.json ← Extended content (tips, variations, FAQ)
-│   ├── search-{lang}.json ← Per-language search index for the new shell's search sheet
-│   ├── search-index.json ← Old English-only autocomplete index (old-shell pages)
-│   ├── glyphs.svg        ← The 24 dish-form glyphs, inlined on every new-shell page
+│   ├── search-{lang}.json ← Per-language search index for the search sheet
+│   ├── glyphs.svg        ← The 24 dish-form glyphs, inlined on every page
 │   ├── rasters-manifest.json ← Hashes of rendered og/schema PNGs (incremental re-render)
 │   └── batches/          ← Translation batch files (intermediate)
 ├── i18n/                 ← Translation JSON files
@@ -81,9 +76,10 @@ ruby scripts/translate_recipes.rb
 │   ├── recipes_{lang}.json    ← Translated recipe fields
 │   ├── articles_{lang}.json   ← Article content, all 5 languages (en included)
 │   └── recipe_sections_{lang}.json ← Section templates
-├── images/recipes/       ← 236 recipe JPGs
+├── images/brand/         ← Logo SVG/PNG and the generic og-image (scripts/build_logo.py)
+├── images/recipes/       ← 236 old recipe JPGs (unlinked, kept for image search)
 ├── de/, es/, pt/, zh/    ← Generated translated page trees
-├── scripts/              ← Build and generation scripts (`build_redesign.rb` = new shell + recipe/category templates; `qa/` = gates)
+├── scripts/              ← Build and generation scripts (`build_site.rb` = data loading, sitemap, build order; `build_redesign.rb` = the shell and every page template; `qa/` = gates)
 └── tmp/                  ← Intermediate batch files (not deployed)
 ```
 
@@ -101,12 +97,12 @@ Everything on master is public on the site — never commit secrets, and keep `/
 - Cover colours come from `recipes.json` → `categories[].colors` and are emitted inline as `--cat-lt/--deep-lt/--cat-dk/--deep-dk`; CSS picks `--cat` per theme. Never emit `--cat` inline (it defeats dark mode)
 - Group recipes by `category_name`: `categories[].recipes` in `recipes.json` is stale
 - Ad slots go through `ad_slot` in `build_redesign.rb`; unit ids live in `AD_UNITS`
-- After changing article data or the article template, run `ruby scripts/check_english_migration.rb`. It checks that every English page still matches master on title, meta, canonical, hreflang, JSON-LD and visible text.
-- Dosage formula: `dosage_mg = (10 * grams * strength_percent * 0.8) / num_portions` (0.8 = `COOKING_EFFICIENCY` in `build_site.rb`, `js/dose.js` and `js/calculator.js`; keep them in sync. The dose ladder, the 5 mg fraction helper and number formatting are mirrored between `build_redesign.rb` and `js/dose.js`; `scripts/qa/devices.mjs` checks they render the same)
+- After changing article data or the article template, run `ruby scripts/check_english_migration.rb origin/master` (the local `master` ref goes stale). It checks that every English page still matches master on title, meta, canonical, hreflang, JSON-LD and visible text (`--head` skips the text).
+- Dosage formula: `dosage_mg = (10 * grams * strength_percent * 0.8) / num_portions` (0.8 = `COOKING_EFFICIENCY` in `build_site.rb` and `js/dose.js`; keep them in sync. The dose ladder, the 5 mg fraction helper and number formatting are mirrored between `build_redesign.rb` and `js/dose.js`; `scripts/qa/devices.mjs` checks they render the same)
 - Recipe defaults (`suggested_quantity`) are capped so the default dose is ≤ 15 mg THC per serving
 - Recipe URLs: `/recipes/{slug}/` (directory with index.html)
 - The calculator card (recipe pages, homepage, calculator.html) reads `window.DOSE` (injected inline per page); `?quantity=&potency=&portion=` still pre-fill it
-- Dark mode uses `[data-theme="dark"]` CSS selectors. The `theme` localStorage key holds `light` or `dark`; Auto removes the key (never write `auto`: the old `dark-mode.js` would apply it literally)
+- Dark mode uses `[data-theme="dark"]` CSS selectors. The `theme` localStorage key holds `light` or `dark`; Auto removes the key
 - Categories: Desserts, Drinks, Snacks, Essentials, Lunch, Keto, Vegan, International
 
 ## Data Flow
