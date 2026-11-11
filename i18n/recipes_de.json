@@ -147,7 +147,7 @@
     "description": "Eine verlockende Mischung aus gefrorenen Beeren, Obst und griechischem Joghurt. Erfrischend, aromatisch und einfach köstlich.",
     "category_name": "Getränke",
     "ingredients": [
-      "1-2 teaspoons infundiertes Kokosöl",
+      "2 TL infundiertes Kokosöl",
       "1 cup gefrorene Beerenmischung (Erdbeeren, Blaubeeren, Himbeeren)",
       "1 reife Banane",
       "1 cup Milch (Kuhmilch oder pflanzliche Alternative)",
@@ -1817,7 +1817,7 @@
     "category_name": "Desserts",
     "ingredients": [
       "Boden: 200g Butterkekse, zerbröselt",
-      "80g Cannabutter, geschmolzen",
+      "57g Cannabutter + 23g ungesalzene Butter, zusammen geschmolzen",
       "Füllung: 600g Frischkäse",
       "¾ cup feiner Zucker",
       "3 Eier",
@@ -1860,7 +1860,7 @@
     "category_name": "Desserts",
     "ingredients": [
       "Teig: 2½ cups Mehl",
-      "200g Cannabutter, kalt, gewürfelt",
+      "35g Cannabutter + 165g ungesalzene Butter, kalt, gewürfelt",
       "6-8 tbsp Eiswasser",
       "½ tsp Salz",
       "Füllung: 6 Äpfel, geschält und in Scheiben geschnitten",
@@ -1883,7 +1883,7 @@
     "category_name": "Desserts",
     "ingredients": [
       "100g Zartbitterschokolade",
-      "100g Cannabutter",
+      "18g Cannabutter + 82g ungesalzene Butter",
       "2 Eier + 2 Eigelb",
       "80g Puderzucker",
       "40g Mehl",
@@ -1903,7 +1903,7 @@
     "category_name": "Desserts",
     "ingredients": [
       "Boden: 1 cup Mehl",
-      "115g Cannabutter",
+      "75g Cannabutter + 40g ungesalzene Butter",
       "¼ cup Puderzucker",
       "Prise Salz",
       "Füllung: 3 Eier",
@@ -1927,7 +1927,7 @@
       "2 cups Mehl",
       "3 Eier",
       "1½ cups Zucker",
-      "1 cup Cannabis-Pflanzenöl",
+      "¼ Tasse infundiertes Kokosöl, geschmolzen + ¾ Tasse Pflanzenöl",
       "2 tsp Vanille",
       "3 cups geriebene Karotten",
       "1½ tsp Backpulver",
@@ -2050,7 +2050,7 @@
     "category_name": "Desserts",
     "ingredients": [
       "400g Filoteig",
-      "200g Cannabutter, geschmolzen",
+      "125g Cannabutter + 75g ungesalzene Butter, zusammen geschmolzen",
       "300g gemischte Walnüsse und Pistazien, gehackt",
       "1 tsp Zimt",
       "Sirup: 1 cup Zucker, 1 cup Wasser, ½ cup Honig, 1 tsp Rosenwasser"
@@ -2085,7 +2085,7 @@
     "category_name": "Desserts",
     "ingredients": [
       "Biskuits: 2 cups Mehl",
-      "115g Cannabutter, kalt",
+      "35g Cannabutter + 80g ungesalzene Butter, kalt",
       "2 tbsp Zucker",
       "1 tbsp Backpulver",
       "½ tsp Salz",
@@ -2125,7 +2125,7 @@
     "category_name": "Desserts",
     "ingredients": [
       "1 cup Wasser",
-      "115g Cannabutter",
+      "75g Cannabutter + 40g ungesalzene Butter",
       "1 tbsp Zucker",
       "½ tsp Salz",
       "1 cup Mehl",
@@ -2264,7 +2264,7 @@
     "category_name": "Mittagessen",
     "ingredients": [
       "500g Hähnchenhackfleisch",
-      "2 tbsp Cannabis-Sesamöl",
+      "1 EL infundiertes Kokosöl, geschmolzen + 1 EL geröstetes Sesamöl",
       "4 Knoblauchzehen",
       "2 Vogelaugenchilis",
       "2 tbsp Sojasauce",
@@ -2277,7 +2277,7 @@
     "instructions": [
       "Hähnchenhackfleisch in normalem Öl anbraten.",
       "Knoblauch und Chilis hinzufügen. Saucen und Zucker einrühren.",
-      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln, Basilikum unterheben. Über Reis servieren."
+      "Vom Herd nehmen: infundiertes Kokosöl und Sesamöl darüber träufeln, Basilikum unterheben. Über Reis servieren."
     ]
   },
   "infused-beef-tacos": {
@@ -2324,7 +2324,7 @@
     "category_name": "Mittagessen",
     "ingredients": [
       "1 großer Blumenkohl, geraspelt",
-      "2 tbsp Cannabis-Sesamöl",
+      "1 EL infundiertes Kokosöl, geschmolzen + 1 EL geröstetes Sesamöl",
       "3 Eier, verquirlt",
       "1 cup tiefgefrorene Erbsen und Mais",
       "3 Knoblauchzehen",
@@ -2335,7 +2335,7 @@
       "Blumenkohlreis 5 Min. anbraten. Beiseite stellen.",
       "Eier in der gleichen Pfanne als Rührei braten. Knoblauch und Gemüse hinzufügen.",
       "Blumenkohl zurück in die Pfanne geben; Sojasauce hinzufügen. Vermengen.",
-      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln. Garnieren."
+      "Vom Herd nehmen: infundiertes Kokosöl und Sesamöl darüber träufeln und durchmischen. Garnieren."
     ]
   },
   "cannabis-minestrone-soup": {
@@ -2489,7 +2489,7 @@
     "ingredients": [
       "3 Tassen Reis vom Vortag",
       "3 Eier, verquirlt",
-      "2 EL Cannabis-Sesamöl (mit der Cannabismenge aus dem Rechner)",
+      "1 EL infundiertes Kokosöl, geschmolzen + 1 EL geröstetes Sesamöl",
       "3 Knoblauchzehen",
       "1 Tasse tiefgekühlte Erbsen",
       "4 EL Sojasauce",
@@ -2499,7 +2499,7 @@
       "Reis in normalem Öl anbraten, bis er leicht knusprig ist.",
       "Zur Seite schieben; Eier darin verrühren.",
       "Knoblauch und Erbsen hinzufügen; alles durchschwenken. Sojasauce hinzugeben.",
-      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln. Garnieren."
+      "Vom Herd nehmen: infundiertes Kokosöl und Sesamöl darüber träufeln und durchmischen. Garnieren."
     ]
   },
   "cannabis-grilled-salmon": {
@@ -2569,7 +2569,7 @@
       "200g breite Reisnudeln, eingeweicht",
       "2 Eier",
       "150g Garnelen oder Tofu",
-      "2 EL Cannabis-Sesamöl (mit der Cannabismenge aus dem Rechner)",
+      "1½ TL infundiertes Kokosöl, geschmolzen + 1½ EL geröstetes Sesamöl",
       "3 EL Sojasauce",
       "2 EL Tamarindenpaste",
       "1 EL Zucker",
@@ -2579,7 +2579,7 @@
       "Garnelen oder Tofu anbraten. Eier in derselben Pfanne verrühren.",
       "Nudeln, Sojasauce, Tamarinde und Zucker hinzufügen. 2 Min. schwenken.",
       "Frühlingszwiebeln und Sojasprossen hinzufügen.",
-      "Vom Herd nehmen: Cannabis-Sesamöl darüber träufeln. Mit Erdnüssen und Limette servieren."
+      "Vom Herd nehmen: infundiertes Kokosöl und Sesamöl darüber träufeln und durchmischen. Mit Erdnüssen und Limette servieren."
     ]
   },
   "cannabis-pizza": {
@@ -2916,7 +2916,7 @@
       "1 Esslöffel Zucker",
       "4 Tassen Mehl",
       "1 Teelöffel Salz",
-      "3 Esslöffel geschmolzene Cannabisbutter (2 für den Teig, 1 zum Bestreichen)",
+      "2 Esslöffel Cannabisbutter + 1 Esslöffel ungesalzene Butter, getrennt geschmolzen (Cannabisbutter für den Teig, Butter zum Bestreichen)",
       "1/3 Tasse Natron (für das Wasserbad)",
       "Grobes Meersalz zum Bestreuen"
     ],
@@ -2926,7 +2926,8 @@
       "Den Ofen auf 220°C vorheizen. Backbleche mit Backpapier auslegen.",
       "Den Teig in 8 Teile teilen. Zu Strängen rollen und in 2,5 cm große Stücke schneiden.",
       "10 Tassen Wasser mit Natron aufkochen. Die Teigstücke portionsweise 30 Sekunden kochen.",
-      "Mit grobem Salz bestreuen und 12-15 Minuten goldbraun backen. Mit dem restlichen Esslöffel geschmolzener Cannabisbutter bestreichen und servieren."
+      "Mit grobem Salz bestreuen und 12-15 Minuten goldbraun backen.",
+      "Die heißen Brezelbissen mit der geschmolzenen ungesalzenen Butter bestreichen. Mit warmem Käsedip oder Senf servieren."
     ]
   },
   "infused-bruschetta": {
@@ -3054,7 +3055,7 @@
     "ingredients": [
       "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "1 großes französisches Baguette oder italienisches Brot",
-      "4 Esslöffel weiche Cannabisbutter",
+      "2 Esslöffel weiche Cannabisbutter + 2 Esslöffel weiche ungesalzene Butter",
       "4 Knoblauchzehen, fein gehackt",
       "2 Esslöffel frische Petersilie, fein gehackt",
       "1/4 Tasse geriebener Parmesan",
@@ -3063,7 +3064,7 @@
     ],
     "instructions": [
       "Den Ofen auf 190°C vorheizen. Ein Backblech mit Alufolie auslegen.",
-      "Die weiche Cannabisbutter mit Knoblauch, Petersilie, Parmesan, italienischen Kräutern und Salz vermischen.",
+      "Die weiche Cannabisbutter und die Butter mit Knoblauch, Petersilie, Parmesan, italienischen Kräutern und Salz gleichmäßig vermischen.",
       "Das Brot längs halbieren. Die Cannabisbutter-Mischung großzügig auf beiden Schnittflächen verteilen.",
       "Die Brothälften mit der Butterseite nach oben auf das Blech legen. 10-12 Minuten backen, bis die Ränder goldbraun sind.",
       "Für extra Knusprigkeit 1-2 Minuten unter dem Grill bräunen, dabei aufpassen, dass es nicht verbrennt.",
@@ -3198,7 +3199,7 @@
     "ingredients": [
       "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "3 große Süßkartoffeln, geschält und in Stäbchen geschnitten",
-      "3 Esslöffel geschmolzenes Cannabis-Kokosöl, plus 1 Esslöffel normales Öl zum Backen",
+      "2 Esslöffel Cannabis-Kokosöl + 1 Esslöffel Kokosöl, zusammen geschmolzen, plus 1 Esslöffel normales Öl zum Backen",
       "1 Esslöffel Speisestärke",
       "1 Teelöffel Räucherpaprika",
       "1/2 Teelöffel gemahlener Kreuzkümmel",
@@ -3268,7 +3269,7 @@
     "ingredients": [
       "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "6 mittelgroße mehligkochende Kartoffeln",
-      "3 Esslöffel geschmolzene Cannabisbutter",
+      "2 Esslöffel Cannabisbutter + 1 Esslöffel ungesalzene Butter, zusammen geschmolzen",
       "1 1/2 Tassen geriebener Cheddar-Käse",
       "6 Scheiben Speck, gekocht und zerbröselt",
       "1/2 Tasse Sauerrahm",

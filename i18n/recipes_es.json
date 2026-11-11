@@ -147,7 +147,7 @@
     "description": "Una tentadora fusión de frutos rojos congelados, frutas y yogur griego. Refrescante, sabroso e increíblemente delicioso.",
     "category_name": "Bebidas",
     "ingredients": [
-      "1-2 teaspoons de aceite de coco infusionado",
+      "2 cucharaditas de aceite de coco infusionado",
       "1 cup de mezcla de moras congeladas (fresas, arandanos, frambuesas)",
       "1 platano maduro",
       "1 cup de leche (de vaca o vegetal)",
@@ -1817,7 +1817,7 @@
     "category_name": "Postres",
     "ingredients": [
       "Base: 200g de galletas digestivas trituradas",
-      "80g de mantequilla de cannabis derretida",
+      "57g de mantequilla de cannabis + 23g de mantequilla sin sal, derretidas juntas",
       "Relleno: 600g de queso crema",
       "¾ cup de azúcar",
       "3 huevos",
@@ -1860,7 +1860,7 @@
     "category_name": "Postres",
     "ingredients": [
       "Masa: 2½ cups de harina",
-      "200g de mantequilla de cannabis fría en cubos",
+      "35g de mantequilla de cannabis + 165g de mantequilla sin sal, frías y en cubos",
       "6-8 tbsp de agua helada",
       "½ tsp de sal",
       "Relleno: 6 manzanas peladas y en rodajas",
@@ -1883,7 +1883,7 @@
     "category_name": "Postres",
     "ingredients": [
       "100g de chocolate amargo",
-      "100g de mantequilla de cannabis",
+      "18g de mantequilla de cannabis + 82g de mantequilla sin sal",
       "2 huevos + 2 yemas",
       "80g de azúcar glass",
       "40g de harina",
@@ -1903,7 +1903,7 @@
     "category_name": "Postres",
     "ingredients": [
       "Base: 1 cup de harina",
-      "115g de mantequilla de cannabis",
+      "75g de mantequilla de cannabis + 40g de mantequilla sin sal",
       "¼ cup de azúcar glass",
       "Pizca de sal",
       "Relleno: 3 huevos",
@@ -1927,7 +1927,7 @@
       "2 cups de harina",
       "3 huevos",
       "1½ cups de azúcar",
-      "1 cup de aceite vegetal de cannabis",
+      "¼ de taza de aceite de coco infusionado, derretido + ¾ de taza de aceite vegetal",
       "2 tsp de vainilla",
       "3 cups de zanahoria rallada",
       "1½ tsp de polvo para hornear",
@@ -2050,7 +2050,7 @@
     "category_name": "Postres",
     "ingredients": [
       "400g de masa filo",
-      "200g de mantequilla de cannabis derretida",
+      "125g de mantequilla de cannabis + 75g de mantequilla sin sal, derretidas juntas",
       "300g de nueces y pistachos picados",
       "1 tsp de canela",
       "Almíbar: 1 cup de azúcar, 1 cup de agua, ½ cup de miel, 1 tsp de agua de rosas"
@@ -2085,7 +2085,7 @@
     "category_name": "Postres",
     "ingredients": [
       "Bizcochos: 2 cups de harina",
-      "115g de mantequilla de cannabis fría",
+      "35g de mantequilla de cannabis + 80g de mantequilla sin sal, frías",
       "2 tbsp de azúcar",
       "1 tbsp de polvo para hornear",
       "½ tsp de sal",
@@ -2125,7 +2125,7 @@
     "category_name": "Postres",
     "ingredients": [
       "1 cup de agua",
-      "115g de mantequilla de cannabis",
+      "75g de mantequilla de cannabis + 40g de mantequilla sin sal",
       "1 tbsp de azúcar",
       "½ tsp de sal",
       "1 cup de harina",
@@ -2264,7 +2264,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "500g de pollo molido",
-      "2 tbsp de aceite de sésamo de cannabis",
+      "1 cucharada de aceite de coco infusionado, derretido + 1 cucharada de aceite de sésamo tostado",
       "4 dientes de ajo",
       "2 chiles ojo de pájaro",
       "2 tbsp de salsa de soya",
@@ -2277,7 +2277,7 @@
     "instructions": [
       "Dorar el pollo molido en aceite regular.",
       "Agregar el ajo y los chiles. Agregar las salsas y el azúcar.",
-      "Fuera del fuego: rociar el aceite de sésamo de cannabis, mezclar con la albahaca. Servir sobre arroz."
+      "Fuera del fuego: rociar el aceite de coco infusionado y el aceite de sésamo, mezclar con la albahaca. Servir sobre arroz."
     ]
   },
   "infused-beef-tacos": {
@@ -2324,7 +2324,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "1 coliflor grande procesada en arroz",
-      "2 tbsp de aceite de sésamo de cannabis",
+      "1 cucharada de aceite de coco infusionado, derretido + 1 cucharada de aceite de sésamo tostado",
       "3 huevos batidos",
       "1 cup de arvejas y maíz congelados",
       "3 dientes de ajo",
@@ -2335,7 +2335,7 @@
       "Saltear el arroz de coliflor 5 min. Reservar.",
       "Revolver los huevos en el mismo sartén. Agregar el ajo y las verduras.",
       "Regresar la coliflor; agregar la salsa de soya. Mezclar.",
-      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Decorar."
+      "Fuera del fuego: rociar el aceite de coco infusionado y el aceite de sésamo y mezclar. Decorar."
     ]
   },
   "cannabis-minestrone-soup": {
@@ -2489,7 +2489,7 @@
     "ingredients": [
       "3 cups de arroz cocido del día anterior",
       "3 huevos batidos",
-      "2 tbsp de aceite de sésamo de cannabis (con la cantidad de cannabis de la calculadora)",
+      "1 cucharada de aceite de coco infusionado, derretido + 1 cucharada de aceite de sésamo tostado",
       "3 dientes de ajo",
       "1 cup de arvejas congeladas",
       "4 tbsp de salsa de soya",
@@ -2499,7 +2499,7 @@
       "Saltear el arroz en aceite regular hasta que quede ligeramente crujiente.",
       "Apartar a un lado; revolver los huevos.",
       "Agregar el ajo y las arvejas; mezclar todo. Agregar la salsa de soya.",
-      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Decorar."
+      "Fuera del fuego: rociar el aceite de coco infusionado y el aceite de sésamo y mezclar. Decorar."
     ]
   },
   "cannabis-grilled-salmon": {
@@ -2569,7 +2569,7 @@
       "200g de fideos de arroz planos remojados",
       "2 huevos",
       "150g de camarones o tofu",
-      "2 tbsp de aceite de sésamo de cannabis (con la cantidad de cannabis de la calculadora)",
+      "1½ cucharaditas de aceite de coco infusionado, derretido + 1½ cucharadas de aceite de sésamo tostado",
       "3 tbsp de salsa de soya",
       "2 tbsp de pasta de tamarindo",
       "1 tbsp de azúcar",
@@ -2579,7 +2579,7 @@
       "Saltear los camarones o el tofu. Revolver los huevos en el mismo sartén.",
       "Agregar los fideos, la salsa de soya, el tamarindo y el azúcar. Mezclar 2 min.",
       "Agregar el cebollín y los brotes de soya.",
-      "Fuera del fuego: rociar el aceite de sésamo de cannabis. Servir con maní y limón."
+      "Fuera del fuego: rociar el aceite de coco infusionado y el aceite de sésamo y mezclar. Servir con maní y limón."
     ]
   },
   "cannabis-pizza": {
@@ -2916,7 +2916,7 @@
       "1 cucharada de azúcar",
       "4 tazas de harina de trigo",
       "1 cucharadita de sal",
-      "3 cucharadas de mantequilla de cannabis derretida (2 para la masa, 1 para untar)",
+      "2 cucharadas de mantequilla de cannabis + 1 cucharada de mantequilla sin sal, derretidas por separado (la de cannabis para la masa, la normal para untar)",
       "1/3 taza de bicarbonato de sodio (para el baño)",
       "Sal gruesa para decorar"
     ],
@@ -2926,7 +2926,8 @@
       "Precalienta el horno a 220°C. Cubre bandejas con papel pergamino.",
       "Divide la masa en 8 partes. Forma cordones y córtalos en trozos de 2,5 cm.",
       "Hierve 10 tazas de agua con el bicarbonato. Cocina los trozos en tandas por 30 segundos.",
-      "Espolvorea con sal gruesa y hornea por 12-15 minutos hasta dorar. Unta con la cucharada restante de mantequilla de cannabis y sirve."
+      "Espolvorea con sal gruesa y hornea por 12-15 minutos hasta dorar.",
+      "Unta los pretzels calientes con la mantequilla sin sal derretida. Sirve con salsa de queso tibia o mostaza."
     ]
   },
   "infused-bruschetta": {
@@ -3054,7 +3055,7 @@
     "ingredients": [
       "0,8 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "1 baguette francesa grande o pan italiano",
-      "4 cucharadas de mantequilla de cannabis ablandada",
+      "2 cucharadas de mantequilla de cannabis + 2 cucharadas de mantequilla sin sal, ablandadas",
       "4 dientes de ajo finamente picados",
       "2 cucharadas de perejil fresco picado",
       "1/4 taza de queso parmesano rallado",
@@ -3063,7 +3064,7 @@
     ],
     "instructions": [
       "Precalienta el horno a 190°C. Cubre una bandeja con papel aluminio.",
-      "Mezcla la mantequilla de cannabis con el ajo, perejil, parmesano, condimento italiano y sal.",
+      "Mezcla la mantequilla de cannabis y la mantequilla normal con el ajo, perejil, parmesano, condimento italiano y sal hasta que quede homogéneo.",
       "Corta el pan por la mitad a lo largo. Unta la mezcla generosamente en ambas mitades.",
       "Coloca las mitades con la mantequilla hacia arriba en la bandeja. Hornea por 10-12 minutos hasta dorar.",
       "Para más crocancia, gratina a temperatura alta por 1-2 minutos, vigilando que no se queme.",
@@ -3198,7 +3199,7 @@
     "ingredients": [
       "0,8 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "3 camotes grandes pelados y cortados en bastones",
-      "3 cucharadas de aceite de coco de cannabis derretido, más 1 cucharada de aceite normal para hornear",
+      "2 cucharadas de aceite de coco de cannabis + 1 cucharada de aceite de coco, derretidos juntos, más 1 cucharada de aceite normal para hornear",
       "1 cucharada de maicena",
       "1 cucharadita de pimentón ahumado",
       "1/2 cucharadita de comino molido",
@@ -3268,7 +3269,7 @@
     "ingredients": [
       "0,8 gramos de cannabis molida (usada para hacer la grasa infusionada de abajo)",
       "6 papas medianas",
-      "3 cucharadas de mantequilla de cannabis derretida",
+      "2 cucharadas de mantequilla de cannabis + 1 cucharada de mantequilla sin sal, derretidas juntas",
       "1 1/2 tazas de queso cheddar rallado",
       "6 rebanadas de tocino cocidas y desmenuzadas",
       "1/2 taza de crema agria",

@@ -147,7 +147,7 @@
     "description": "Uma fusão tentadora de frutas vermelhas congeladas, frutas frescas e iogurte grego. Refrescante, saboroso e absolutamente delicioso.",
     "category_name": "Bebidas",
     "ingredients": [
-      "1-2 teaspoons de óleo de coco infusionado",
+      "2 colheres de chá de óleo de coco infusionado",
       "1 cup de frutas vermelhas congeladas (morangos, mirtilos, framboesas)",
       "1 banana madura",
       "1 cup de leite (comum ou vegetal)",
@@ -1817,7 +1817,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "Base: 200g biscoitos digestivos triturados",
-      "80g manteiga de cannabis derretida",
+      "57g de manteiga de cannabis + 23g de manteiga sem sal, derretidas juntas",
       "Recheio: 600g cream cheese",
       "¾ cup açúcar refinado",
       "3 ovos",
@@ -1860,7 +1860,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "Massa: 2½ cups farinha de trigo",
-      "200g manteiga de cannabis gelada em cubos",
+      "35g de manteiga de cannabis + 165g de manteiga sem sal, geladas e em cubos",
       "6-8 tbsp água gelada",
       "½ tsp sal",
       "Recheio: 6 maçãs descascadas e fatiadas",
@@ -1883,7 +1883,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "100g chocolate amargo",
-      "100g manteiga de cannabis",
+      "18g de manteiga de cannabis + 82g de manteiga sem sal",
       "2 ovos + 2 gemas",
       "80g açúcar de confeiteiro",
       "40g farinha de trigo",
@@ -1903,7 +1903,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "Base: 1 cup farinha de trigo",
-      "115g manteiga de cannabis",
+      "75g de manteiga de cannabis + 40g de manteiga sem sal",
       "¼ cup açúcar de confeiteiro",
       "Pitada de sal",
       "Recheio: 3 ovos",
@@ -1927,7 +1927,7 @@
       "2 cups farinha de trigo",
       "3 ovos",
       "1½ cups açúcar",
-      "1 cup óleo vegetal de cannabis",
+      "¼ de xícara de óleo de coco infusionado, derretido + ¾ de xícara de óleo vegetal",
       "2 tsp baunilha",
       "3 cups cenoura ralada",
       "1½ tsp fermento em pó",
@@ -2050,7 +2050,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "400g massa phyllo",
-      "200g manteiga de cannabis derretida",
+      "125g de manteiga de cannabis + 75g de manteiga sem sal, derretidas juntas",
       "300g nozes e pistaches picados",
       "1 tsp canela",
       "Calda: 1 cup açúcar, 1 cup água, ½ cup mel, 1 tsp água de rosas"
@@ -2085,7 +2085,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "Biscoitos: 2 cups farinha de trigo",
-      "115g manteiga de cannabis gelada",
+      "35g de manteiga de cannabis + 80g de manteiga sem sal, geladas",
       "2 tbsp açúcar",
       "1 tbsp fermento em pó",
       "½ tsp sal",
@@ -2125,7 +2125,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "1 cup água",
-      "115g manteiga de cannabis",
+      "75g de manteiga de cannabis + 40g de manteiga sem sal",
       "1 tbsp açúcar",
       "½ tsp sal",
       "1 cup farinha de trigo",
@@ -2264,7 +2264,7 @@
     "category_name": "Almoço",
     "ingredients": [
       "500g frango moído",
-      "2 tbsp óleo de gergelim de cannabis",
+      "1 colher de sopa de óleo de coco infusionado, derretido + 1 colher de sopa de óleo de gergelim torrado",
       "4 dentes de alho",
       "2 pimentas dedo-de-moça",
       "2 tbsp molho de soja",
@@ -2277,7 +2277,7 @@
     "instructions": [
       "Doure o frango moído em óleo comum.",
       "Adicione o alho e as pimentas. Adicione os molhos e o açúcar.",
-      "Fora do fogo: regue com óleo de gergelim de cannabis, misture o manjericão. Sirva sobre arroz."
+      "Fora do fogo: regue com o óleo de coco infusionado e o óleo de gergelim, misture o manjericão. Sirva sobre arroz."
     ]
   },
   "infused-beef-tacos": {
@@ -2324,7 +2324,7 @@
     "category_name": "Almoço",
     "ingredients": [
       "1 couve-flor grande processada",
-      "2 tbsp óleo de gergelim de cannabis",
+      "1 colher de sopa de óleo de coco infusionado, derretido + 1 colher de sopa de óleo de gergelim torrado",
       "3 ovos batidos",
       "1 cup ervilhas e milho congelados",
       "3 dentes de alho",
@@ -2335,7 +2335,7 @@
       "Refogue o arroz de couve-flor por 5 min. Reserve.",
       "Mexe os ovos na mesma panela. Adicione o alho e os vegetais.",
       "Devolva a couve-flor; adicione o molho de soja. Misture.",
-      "Fora do fogo: regue com óleo de gergelim de cannabis. Decore."
+      "Fora do fogo: regue com o óleo de coco infusionado e o óleo de gergelim e misture. Decore."
     ]
   },
   "cannabis-minestrone-soup": {
@@ -2489,7 +2489,7 @@
     "ingredients": [
       "3 cups arroz cozido do dia anterior",
       "3 ovos batidos",
-      "2 tbsp óleo de gergelim de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de óleo de coco infusionado, derretido + 1 colher de sopa de óleo de gergelim torrado",
       "3 dentes de alho",
       "1 cup ervilhas congeladas",
       "4 tbsp molho de soja",
@@ -2499,7 +2499,7 @@
       "Refogue o arroz em óleo comum até ficar levemente crocante.",
       "Empurre para o lado; mexe os ovos.",
       "Adicione o alho e as ervilhas; misture tudo. Adicione o molho de soja.",
-      "Fora do fogo: regue com óleo de gergelim de cannabis. Decore."
+      "Fora do fogo: regue com o óleo de coco infusionado e o óleo de gergelim e misture. Decore."
     ]
   },
   "cannabis-grilled-salmon": {
@@ -2569,7 +2569,7 @@
       "200g macarrão de arroz largo, de molho",
       "2 ovos",
       "150g camarão ou tofu",
-      "2 tbsp óleo de gergelim de cannabis (com a quantidade de cannabis da calculadora)",
+      "1½ colher de chá de óleo de coco infusionado, derretido + 1½ colher de sopa de óleo de gergelim torrado",
       "3 tbsp molho de soja",
       "2 tbsp pasta de tamarindo",
       "1 tbsp açúcar",
@@ -2579,7 +2579,7 @@
       "Refogue o camarão ou tofu. Mexe os ovos na mesma panela.",
       "Adicione o macarrão, o molho de soja, o tamarindo e o açúcar. Misture por 2 min.",
       "Adicione a cebolinha e o broto de feijão.",
-      "Fora do fogo: regue com óleo de gergelim de cannabis. Sirva com amendoim e limão."
+      "Fora do fogo: regue com o óleo de coco infusionado e o óleo de gergelim e misture. Sirva com amendoim e limão."
     ]
   },
   "cannabis-pizza": {
@@ -2916,7 +2916,7 @@
       "1 colher de sopa de açúcar",
       "4 xícaras de farinha de trigo",
       "1 colher de chá de sal",
-      "3 colheres de sopa de manteiga de cannabis derretida (2 para a massa, 1 para pincelar)",
+      "2 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, derretidas separadamente (a de cannabis vai na massa, a comum para pincelar)",
       "1/3 xícara de bicarbonato de sódio (para o banho)",
       "Sal grosso para cobertura"
     ],
@@ -2926,7 +2926,8 @@
       "Pré-aqueça o forno a 220°C. Forre assadeiras com papel manteiga.",
       "Divida a massa em 8 partes. Enrole cada uma em cordões e corte em pedaços de 2,5 cm.",
       "Ferva 10 xícaras de água com o bicarbonato. Cozinhe os pedaços em lotes por 30 segundos cada.",
-      "Polvilhe com sal grosso e asse por 12-15 minutos até dourar. Pincele com a colher de sopa restante de manteiga de cannabis e sirva."
+      "Polvilhe com sal grosso e asse por 12-15 minutos até dourar.",
+      "Pincele os pretzels quentes com a manteiga sem sal derretida. Sirva com molho de queijo morno ou mostarda."
     ]
   },
   "infused-bruschetta": {
@@ -3054,7 +3055,7 @@
     "ingredients": [
       "0,8 gramas de cannabis moída (usada para fazer a gordura infundida abaixo)",
       "1 baguete francesa grande ou pão italiano",
-      "4 colheres de sopa de manteiga de cannabis amolecida",
+      "2 colheres de sopa de manteiga de cannabis + 2 colheres de sopa de manteiga sem sal, amolecidas",
       "4 dentes de alho finamente picados",
       "2 colheres de sopa de salsa fresca picada",
       "1/4 xícara de queijo parmesão ralado",
@@ -3063,7 +3064,7 @@
     ],
     "instructions": [
       "Pré-aqueça o forno a 190°C. Forre uma assadeira com papel alumínio.",
-      "Misture a manteiga de cannabis com o alho, salsa, parmesão, tempero italiano e sal.",
+      "Misture a manteiga de cannabis e a manteiga comum com o alho, salsa, parmesão, tempero italiano e sal até ficar homogêneo.",
       "Corte o pão ao meio no sentido do comprimento. Espalhe a mistura generosamente nas duas metades.",
       "Coloque as metades com a manteiga para cima na assadeira. Asse por 10-12 minutos até dourar.",
       "Para mais crocância, gratine em alta temperatura por 1-2 minutos, observando para não queimar.",
@@ -3198,7 +3199,7 @@
     "ingredients": [
       "0,8 gramas de cannabis moída (usada para fazer a gordura infundida abaixo)",
       "3 batatas-doces grandes descascadas e cortadas em palitos",
-      "3 colheres de sopa de óleo de coco de cannabis derretido, mais 1 colher de sopa de óleo comum para assar",
+      "2 colheres de sopa de óleo de coco de cannabis + 1 colher de sopa de óleo de coco, derretidos juntos, mais 1 colher de sopa de óleo comum para assar",
       "1 colher de sopa de amido de milho",
       "1 colher de chá de páprica defumada",
       "1/2 colher de chá de cominho moído",
@@ -3268,7 +3269,7 @@
     "ingredients": [
       "0,8 gramas de cannabis moída (usada para fazer a gordura infundida abaixo)",
       "6 batatas médias",
-      "3 colheres de sopa de manteiga de cannabis derretida",
+      "2 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, derretidas juntas",
       "1 1/2 xícaras de queijo cheddar ralado",
       "6 fatias de bacon cozidas e esfareladas",
       "1/2 xícara de creme azedo",
