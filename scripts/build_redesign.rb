@@ -190,9 +190,60 @@ end
 
 def glyph_svg(g); %(<svg viewBox="0 0 100 100" aria-hidden="true"><use href="#g-#{g}"/></svg>); end
 
-def cover(slug, cat, glyph, kind, inner = "")
+def cover(slug, cat, glyph, kind, inner = "", alt: "")
+  return %(<span class="cv ph" style="#{cat_vars(cat)}">#{photo_img(slug, kind, alt)}#{inner}</span>) if %i[hero card].include?(kind) && PHOTOS[slug]
   style = [cat_vars(cat), *place(slug, kind).map { |k, v| "--#{k}:#{v}" }].join(";")
   %(<span class="cv" style="#{style}">#{glyph_svg(glyph)}#{inner}</span>)
+end
+
+# ─────────────────────────────────────────────
+# Recipe photos (#57 §7): a reviewed master at images/photos/<slug>.jpg replaces the cover on the hero,
+# the cards and the schema image, if it passes the gate (≥ 1600 wide, aspect 1.25–1.40). Otherwise the
+# cover stays. Derivatives are built here with ImageMagick, only when missing or older than the master.
+# ─────────────────────────────────────────────
+
+PHOTO_DIR = File.join(ROOT_DIR, "images", "photos")
+PHOTO_W = [480, 800, 1200, 1600]  # 4:3 hero
+PHOTO_SQ = [400, 800]             # 1:1 cards
+SCHEMA_CROPS = { "1x1" => [1200, 1200], "4x3" => [1200, 900], "16x9" => [1200, 675] } # Google's Recipe ratios
+
+PHOTOS = Hash.new do |memo, slug|
+  src = File.join(PHOTO_DIR, "#{slug}.jpg")
+  memo[slug] = File.file?(src) && build_photo(slug, src)
+end
+
+def build_photo(slug, src)
+  w, h = IO.popen(["magick", "identify", "-format", "%w %h", src], &:read).split.map(&:to_i)
+  unless w >= 1600 && (1.25..1.40).cover?(w.to_f / h)
+    warn "  photo gate FAIL #{slug}: #{w}x#{h}, cover kept"
+    return false
+  end
+  outs = PHOTO_W.map { |x| ["#{slug}-#{x}.webp", x, x * 3 / 4, 78] } +
+         PHOTO_SQ.map { |x| ["#{slug}-sq-#{x}.webp", x, x, 78] } +
+         SCHEMA_CROPS.map { |k, (cw, ch)| ["#{slug}-#{k}.jpg", cw, ch, 85] }
+  outs.each do |name, ow, oh, q|
+    out = File.join(PHOTO_DIR, name)
+    next if File.file?(out) && File.mtime(out) >= File.mtime(src)
+    ok = system("magick", src, "-resize", "#{ow}x#{oh}^", "-gravity", "center", "-extent", "#{ow}x#{oh}",
+                "-strip", "-quality", q.to_s, out)
+    abort "ERROR: magick failed on #{name}" unless ok
+  end
+  true
+end
+
+def photo_img(slug, kind, alt)
+  base = "/images/photos/#{slug}"
+  if kind == :hero
+    set = PHOTO_W.map { |x| "#{base}-#{x}.webp #{x}w" }.join(", ")
+    %(<img src="#{base}-800.webp" srcset="#{set}" sizes="(min-width:1000px) 760px, 100vw" width="1600" height="1200" alt="#{h(alt)}" fetchpriority="high">)
+  else
+    set = PHOTO_SQ.map { |x| "#{base}-sq-#{x}.webp #{x}w" }.join(", ")
+    %(<img src="#{base}-sq-400.webp" srcset="#{set}" sizes="(min-width:720px) 240px, 46vw" width="800" height="800" alt="" loading="lazy" decoding="async">)
+  end
+end
+
+def schema_image(slug)
+  PHOTOS[slug] ? SCHEMA_CROPS.keys.map { |k| "#{SITE}/images/photos/#{slug}-#{k}.jpg" } : "#{SITE}/schema/#{slug}.png"
 end
 
 def cat_url(lang, cat); "#{lang_prefix(lang)}/category/#{CAT_BY_NAME.fetch(cat)["slug"]}/"; end
@@ -488,7 +539,7 @@ def build_recipe_page(recipe, lang)
   plain = ->(x) { decode_entities(x.gsub(/<[^>]+>/, "")).strip }
   schema = {
     "@context" => "https://schema.org", "@type" => "Recipe", "name" => name, "description" => desc,
-    "image" => "#{SITE}/schema/#{slug}.png",
+    "image" => schema_image(slug),
     "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE },
     "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE, "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" } },
     "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15", "dateModified" => "2026-03-15",
@@ -535,7 +586,7 @@ def build_recipe_page(recipe, lang)
 
   main = <<~HTML
     <main class="page">
-    <section class="hero#{tc ? " #{tc}" : ""}" style="#{cat_vars(cat)}">#{cover(slug, cat, recipe["glyph"], :hero)}<a class="crumb" href="#{cat_url(lang, cat)}">#{h(cat_t)}</a>
+    <section class="hero#{tc ? " #{tc}" : ""}" style="#{cat_vars(cat)}">#{cover(slug, cat, recipe["glyph"], :hero, alt: name)}<a class="crumb" href="#{cat_url(lang, cat)}">#{h(cat_t)}</a>
     <a class="sticker" href="#dose" id="sticker"><b data-o="mgs">#{fmt_mg(mg, lang)}<small>mg</small></b><span>#{h(ui(lang, "calc.per"))}</span></a>
     <span class="sticker-room" aria-hidden="true"></span><h1>#{title_html(name, lang)}</h1>
     <div class="facts"><div><b>#{duration(lang, total)}</b><span>#{h(ui(lang, "recipe.total"))}</span></div><div><b data-o="n">#{n_i}</b><span>#{h(ui(lang, "recipe.makes"))}</span></div><div><b data-o="batch">#{fmt_mg(mg * n, lang)} mg</b><span>#{h(ui(lang, "calc.batch"))}</span></div></div>
