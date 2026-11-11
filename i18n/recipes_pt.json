@@ -58,7 +58,7 @@
     "category_name": "Keto",
     "ingredients": [
       "1 cup de café coado",
-      "1 tablespoon de óleo de coco infusionado",
+      "1 tsp de óleo de coco infusionado + 2 tsp de óleo de coco",
       "1 tablespoon de manteiga sem sal",
       "Adoçante de sua preferência (opcional)"
     ],
@@ -125,7 +125,7 @@
       "1/2 cup de pinhões",
       "1/2 cup de queijo parmesão ralado",
       "2 dentes de alho picados",
-      "1/2 cup de azeite de oliva infusionado",
+      "⅓ cup de azeite de oliva infusionado + 3 tbsp de azeite de oliva",
       "Sal e pimenta a gosto",
       "1 pound de massa (ex: espaguete, penne ou fusilli)",
       "Queijo parmesão ralado para decorar"
@@ -239,7 +239,7 @@
     "ingredients": [
       "2 abacates maduros",
       "1/4 cup de cacau em pó sem açúcar",
-      "3 tbsp de óleo de coco infusionado",
+      "1 tbsp de óleo de coco infusionado + 2 tbsp de óleo de coco",
       "3 tbsp de eritritol em pó ou adoçante de sua preferência",
       "1/2 tsp de extrato de baunilha",
       "Pitada de sal",
@@ -285,7 +285,7 @@
     "description": "Experimente pura decadência com estas deliciosas trufas de chocolate. Uma jornada eufórica através de sabores ricos e aveludados te espera.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/2 cup de óleo de coco infusionado com cannabis",
+      "⅓ cup de óleo de coco infusionado com cannabis + 3 tbsp de óleo de coco",
       "1/2 cup de cacau em pó sem açúcar",
       "1/4 cup de xarope de bordo",
       "1 teaspoon de extrato de baunilha",
@@ -308,7 +308,7 @@
     "description": "Saboreie uma combinação de bananas maduras, ingredientes selecionados e uma infusão especial que transforma um clássico em um deleite elevado e irresistível.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/2 cup de manteiga de cannabis derretida",
+      "3 tbsp de manteiga de cannabis + ⅓ cup de manteiga sem sal, derretidas",
       "1 cup de açúcar refinado",
       "2 ovos grandes",
       "3 bananas maduras amassadas",
@@ -413,7 +413,7 @@
     "description": "Uma fusão encantadora de especiarias aromáticas, coco cremoso e cannabis infusionada. Eleve seus sentidos com legumes macios e proteína em um prato verdadeiramente inesquecível.",
     "category_name": "Almoço",
     "ingredients": [
-      "2 tbsp de óleo de coco infusionado com cannabis",
+      "1 tbsp de óleo de coco infusionado com cannabis + 1 tbsp de óleo de coco",
       "1 tbsp de óleo de coco comum ou óleo vegetal (para refogar)",
       "1 cebola finamente picada",
       "3 dentes de alho picados",
@@ -497,7 +497,7 @@
     "description": "Biscoitos com bordas crocantes, sabor rico e amanteigado de caramelo e grandes pedaços de chocolate.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/2 cup de manteiga de cannabis",
+      "⅓ cup de manteiga de cannabis + 3 tbsp de manteiga sem sal",
       "1/2 cup de açúcar refinado",
       "1/4 cup de açúcar mascavo",
       "2 teaspoons de extrato de baunilha",
@@ -524,7 +524,7 @@
     "description": "Contemple! A combinação perfeita de delícia e diversão.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/2 cup de manteiga de cannabis",
+      "⅓ cup de manteiga de cannabis + 3 tbsp de manteiga sem sal",
       "1 cup de açúcar (ou qualquer adoçante)",
       "2 ovos",
       "1 teaspoon de extrato de baunilha",
@@ -551,7 +551,7 @@
     "ingredients": [
       "2 fatias de pão",
       "2 fatias de queijo cheddar",
-      "2 tsp de manteiga de cannabis",
+      "1 tsp de manteiga de cannabis + 1 tsp de manteiga sem sal",
       "1 tbsp de manteiga"
     ],
     "instructions": [
@@ -677,7 +677,7 @@
     "description": "O petisco salgado perfeito para comer enquanto assiste seus filmes favoritos.",
     "category_name": "Petiscos",
     "ingredients": [
-      "1/4 cup de manteiga de cannabis, derretida",
+      "2 tbsp de manteiga de cannabis + 2 tbsp de manteiga sem sal, derretidas",
       "2 tbsp de óleo vegetal ou de coco (para estourar)",
       "⅓ - ⅔ cups de grãos de milho de pipoca",
       "Sal a gosto"
@@ -751,7 +751,7 @@
     "description": "Um chocolate quente rico e reconfortante feito com leite infusionado ou óleo de coco. Perfeito para noites frias ou para relaxar depois de um longo dia.",
     "category_name": "Bebidas",
     "ingredients": [
-      "2 cups de leite infusionado (veja a receita de Leite Infusionado)",
+      "1 cup de leite infusionado + 1 cup de leite (veja a receita de Leite Infusionado)",
       "3 tbsp de cacau em pó sem açúcar",
       "2 tbsp de açúcar ou adoçante de sua preferência",
       "Pitada de sal",
@@ -813,7 +813,7 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "1 cup de açúcar refinado",
-      "6 tbsp de manteiga de cannabis (veja a receita de Manteiga de Cannabis)",
+      "¼ cup de manteiga de cannabis + 2 tbsp de manteiga sem sal (veja a receita de Manteiga de Cannabis)",
       "1/2 cup de creme de leite fresco, em temperatura ambiente",
       "1 tsp de extrato de baunilha",
       "1/2 tsp de sal marinho"
@@ -946,7 +946,7 @@
     "description": "Brownies fudge ricos feitos com óleo de coco de cannabis — 100% à base de plantas.",
     "category_name": "Vegano",
     "ingredients": [
-      "1 cup de óleo de coco infusionado com cannabis",
+      "⅓ cup de óleo de coco infusionado com cannabis + ⅔ cup de óleo de coco",
       "1½ cups de açúcar demerara",
       "2 ovos de linhaça (2 tbsp de linhaça + 6 tbsp de água)",
       "1 tsp de baunilha",
@@ -1035,7 +1035,7 @@
     "description": "Curry reconfortante de coco com batata doce e grão-de-bico, feito com óleo de coco de cannabis.",
     "category_name": "Vegano",
     "ingredients": [
-      "2 colheres de sopa de óleo de coco de cannabis",
+      "1 colher de sopa de óleo de coco de cannabis + 1 colher de sopa de óleo de coco",
       "1 cebola",
       "3 dentes de alho",
       "1 colher de sopa de gengibre",
@@ -1082,7 +1082,7 @@
       "2 abacates maduros",
       "¼ xícara de cacau em pó",
       "¼ xícara de xarope de bordo",
-      "2 colheres de sopa de óleo de coco de cannabis",
+      "1 colher de sopa de óleo de coco de cannabis + 1 colher de sopa de óleo de coco",
       "1 colher de chá de baunilha",
       "Pitada de sal"
     ],
@@ -1121,7 +1121,7 @@
     "category_name": "Vegano",
     "ingredients": [
       "2 latas de leite de coco integral geladas durante a noite",
-      "3 colheres de sopa de óleo de coco de cannabis",
+      "2 colheres de sopa de óleo de coco de cannabis + 1 colher de sopa de óleo de coco",
       "½ xícara de xarope de bordo",
       "1 colher de chá de baunilha",
       "Pitada de sal"
@@ -1222,7 +1222,7 @@
     "category_name": "Vegano",
     "ingredients": [
       "4 bananas bem maduras congeladas",
-      "2 colheres de sopa de óleo de coco de cannabis",
+      "1 colher de sopa de óleo de coco de cannabis + 1 colher de sopa de óleo de coco",
       "1 colher de chá de baunilha",
       "Opcional: pasta de amendoim ou cacau"
     ],
@@ -1283,7 +1283,7 @@
       "1 colher de chá de fermento em pó",
       "1 colher de chá de alho em pó",
       "Sal e pimenta",
-      "3 colheres de sopa de manteiga de cannabis derretida",
+      "1 colher de sopa de manteiga de cannabis + 2 colheres de sopa de manteiga sem sal derretidas",
       "3 colheres de sopa de molho de pimenta",
       "1 colher de chá de vinagre de maçã"
     ],
@@ -1384,7 +1384,7 @@
       "1 xícara de farinha de amêndoas",
       "2 colheres de sopa de farinha de coco",
       "2 ovos",
-      "2 colheres de sopa de manteiga de cannabis derretida",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal derretidas",
       "¼ xícara de leite de amêndoas",
       "1 colher de chá de fermento em pó",
       "Pitada de sal",
@@ -1448,7 +1448,7 @@
     "ingredients": [
       "2 xícaras de farinha de amêndoas",
       "3 ovos",
-      "½ xícara de manteiga de cannabis derretida",
+      "¼ xícara de manteiga de cannabis + ¼ xícara de manteiga sem sal derretidas",
       "½ xícara de eritritol",
       "1 colher de chá de baunilha",
       "1 colher de chá de fermento em pó",
@@ -1468,14 +1468,14 @@
     "category_name": "Bebidas",
     "ingredients": [
       "Suco de 4 limões",
-      "2 colheres de sopa de calda simples de cannabis",
+      "1½ colher de sopa de mel infusionado com cannabis + 1½ colher de chá de mel",
       "1 xícara de água com gás",
       "Gelo",
       "Limão e hortelã para decorar"
     ],
     "instructions": [
-      "Prepare a calda de cannabis: dissolva açúcar em água no fogo, deixe esfriar e misture a tintura de cannabis.",
-      "Misture o suco de limão e a calda de cannabis.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Junte o suco de limão e a mistura de mel.",
       "Adicione gelo e complete com água com gás. Decore."
     ]
   },
@@ -1485,15 +1485,16 @@
     "category_name": "Bebidas",
     "ingredients": [
       "Suco de 2 limas",
-      "2 colheres de sopa de calda simples de cannabis",
+      "2 colheres de chá de mel infusionado com cannabis + 1½ colher de sopa de mel",
       "10 folhas frescas de hortelã",
       "½ xícara de água com gás",
       "Gelo",
       "Rodela de lima"
     ],
     "instructions": [
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Macere a hortelã em um copo.",
-      "Adicione gelo, suco de lima e calda de cannabis.",
+      "Adicione gelo, suco de lima e a mistura de mel.",
       "Complete com água com gás. Decore com lima."
     ]
   },
@@ -1504,13 +1505,14 @@
     "ingredients": [
       "½ pepino fatiado",
       "10 folhas de hortelã",
-      "2 tbsp xarope simples de cannabis",
+      "2 tsp mel infusionado com cannabis + 1½ tbsp mel",
       "Suco de 1 limão",
       "1 cup água com gás",
       "Gelo"
     ],
     "instructions": [
-      "Macere o pepino e a hortelã com o xarope e o suco de limão.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Macere o pepino e a hortelã com a mistura de mel e o suco de limão.",
       "Agite com gelo e coe.",
       "Complete com água com gás."
     ]
@@ -1555,13 +1557,14 @@
       "1 cup suco de manga",
       "1 cup suco de abacaxi",
       "½ cup suco de maracujá",
-      "2 tbsp xarope simples de cannabis",
+      "2 tbsp mel infusionado com cannabis",
       "Suco de 1 limão",
       "Água com gás",
       "Gelo"
     ],
     "instructions": [
-      "Misture os sucos, o xarope de cannabis e o limão em uma jarra.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Junte os sucos, a mistura de mel e o limão em uma jarra.",
       "Sirva sobre gelo e complete com água com gás."
     ]
   },
@@ -1572,13 +1575,14 @@
     "ingredients": [
       "6 morangos sem talo",
       "6 folhas de manjericão",
-      "2 tbsp mel de cannabis",
+      "2 tsp mel de cannabis + 1½ tbsp mel",
       "Suco de 1 limão",
       "Água com gás",
       "Gelo"
     ],
     "instructions": [
-      "Macere os morangos e o manjericão com o mel de cannabis e o limão.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Macere os morangos e o manjericão com a mistura de mel e o limão.",
       "Coe sobre gelo. Complete com água com gás."
     ]
   },
@@ -1607,13 +1611,13 @@
       "4 sachês de chá preto",
       "4 cups água quente",
       "2 pêssegos maduros fatiados",
-      "2 tbsp xarope simples de cannabis",
+      "2 tbsp mel infusionado com cannabis",
       "Suco de ½ limão",
       "Gelo"
     ],
     "instructions": [
       "Prepare o chá por 5 min. Adicione os pêssegos; esfrie e leve à geladeira por 1h.",
-      "Coe; misture o xarope de cannabis e o limão. Sirva sobre gelo."
+      "Coe. Misture o mel infusionado ao chá enquanto ainda estiver morno, até dissolver completamente; depois adicione o limão e deixe esfriar. Mexa novamente e sirva sobre gelo."
     ]
   },
   "infused-mango-lassi": {
@@ -1624,12 +1628,13 @@
       "2 cups manga madura",
       "1 cup iogurte",
       "½ cup leite",
-      "2 tbsp mel de cannabis",
+      "1½ tbsp mel de cannabis + 1½ tsp mel",
       "½ tsp cardamomo",
       "Pitada de sal"
     ],
     "instructions": [
-      "Bata todos os ingredientes até ficar homogêneo.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Bata a mistura de mel com todos os outros ingredientes até ficar homogêneo.",
       "Prove e ajuste. Despeje nos copos."
     ]
   },
@@ -1657,13 +1662,14 @@
     "ingredients": [
       "1 cup suco de abacaxi fresco",
       "1 inch gengibre ralado",
-      "2 tbsp mel de cannabis",
+      "1½ tbsp mel de cannabis + 1½ tsp mel",
       "Suco de 1 limão",
       "Água com gás",
       "Gelo"
     ],
     "instructions": [
-      "Misture o suco de abacaxi, o gengibre, o mel de cannabis e o limão. Coe.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Junte o suco de abacaxi, o gengibre, a mistura de mel e o limão. Coe.",
       "Sirva sobre gelo e complete com água com gás."
     ]
   },
@@ -1673,14 +1679,15 @@
     "category_name": "Bebidas",
     "ingredients": [
       "1 cup suco de cranberry",
-      "2 tbsp xarope simples de cannabis",
+      "1½ tbsp mel infusionado com cannabis + 1½ tsp mel",
       "Suco de ½ laranja",
       "Água com gás",
       "Gelo",
       "Cranberries, alecrim"
     ],
     "instructions": [
-      "Misture o suco de cranberry, o xarope de cannabis e o suco de laranja.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Junte o suco de cranberry, a mistura de mel e o suco de laranja.",
       "Adicione gelo e água com gás. Decore."
     ]
   },
@@ -1692,11 +1699,11 @@
       "1 tsp matcha em pó",
       "2 tbsp água quente",
       "1 cup leite de aveia gelado",
-      "2 tbsp mel de cannabis",
+      "2 tsp mel de cannabis + 1½ tbsp mel",
       "Gelo"
     ],
     "instructions": [
-      "Bata o matcha com água quente até ficar homogêneo. Adicione o mel de cannabis.",
+      "Bata o matcha com água quente até ficar homogêneo. Incorpore o mel de cannabis e o mel comum, batendo até dissolver completamente.",
       "Encha o copo com gelo e leite de aveia. Despeje o matcha por cima."
     ]
   },
@@ -1724,13 +1731,14 @@
     "ingredients": [
       "1 cup suco de cereja azeda",
       "Suco de 3 limões",
-      "2 tbsp xarope simples de cannabis",
+      "1½ tbsp mel infusionado com cannabis + 1½ tsp mel",
       "Água com gás",
       "Gelo",
       "Limão, cerejas"
     ],
     "instructions": [
-      "Misture o suco de cereja, o limão e o xarope de cannabis.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Junte o suco de cereja, o limão e a mistura de mel.",
       "Sirva sobre gelo e complete com água com gás. Decore."
     ]
   },
@@ -1758,13 +1766,13 @@
     "ingredients": [
       "1 cup mirtilos",
       "Suco de 4 limões",
-      "2 tbsp xarope simples de cannabis",
+      "2 tbsp mel infusionado com cannabis",
       "2 cups água gelada",
       "Gelo"
     ],
     "instructions": [
-      "Cozinhe os mirtilos com ¼ cup de água; coe.",
-      "Misture o suco de mirtilo, o limão, o xarope de cannabis e a água. Sirva sobre gelo."
+      "Cozinhe os mirtilos com ¼ cup de água; coe. Enquanto o suco ainda estiver morno, misture o mel infusionado até dissolver completamente.",
+      "Misture o suco de mirtilo com mel, o limão e a água. Mexa bem e sirva sobre gelo."
     ]
   },
   "cannabis-ginger-turmeric-tonic": {
@@ -1775,7 +1783,7 @@
       "1 inch gengibre ralado",
       "½ tsp cúrcuma",
       "Suco de 1 limão",
-      "2 tbsp mel de cannabis",
+      "1½ tbsp mel de cannabis + 1½ tsp mel",
       "1 cup água morna",
       "Pitada de pimenta-do-reino",
       "Água com gás"
@@ -1793,12 +1801,13 @@
       "1 cup água de coco",
       "Suco de 3 limões",
       "1 cup água com gás",
-      "2 tbsp mel de cannabis",
+      "1½ tbsp mel de cannabis + 1½ tsp mel",
       "Gelo",
       "Raspas de limão, flocos de coco"
     ],
     "instructions": [
-      "Misture a água de coco, o limão e o mel de cannabis até dissolver.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Junte a água de coco, o limão e a mistura de mel.",
       "Adicione água com gás sobre gelo. Decore."
     ]
   },
@@ -1976,7 +1985,7 @@
     "description": "Blondies com sabor de caramelo feitos com manteiga dourada de cannabis.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "½ cup manteiga de cannabis derretida",
+      "⅓ cup manteiga de cannabis + 3 tbsp manteiga sem sal, derretidas",
       "1 cup açúcar mascavo",
       "1 ovo + 1 gema",
       "1 tsp baunilha",
@@ -2027,7 +2036,7 @@
       "1½ tsp fermento em pó",
       "¼ tsp sal",
       "½ cup leite",
-      "4 tbsp manteiga de cannabis derretida"
+      "2 tbsp manteiga de cannabis + 2 tbsp manteiga sem sal derretidas"
     ],
     "instructions": [
       "Preaqueça o forno a 375°F. Misture os pêssegos com açúcar, limão e canela em uma travessa refratária.",
@@ -2158,12 +2167,13 @@
     "category_name": "Sobremesas",
     "ingredients": [
       "4 cups manga congelada",
-      "2 tbsp xarope simples de cannabis",
+      "2 tbsp mel infusionado com cannabis",
       "Suco de 1 limão",
       "Pitada de sal"
     ],
     "instructions": [
-      "Bata a manga congelada, o xarope de cannabis, o limão e o sal até ficar homogêneo.",
+      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Bata a manga congelada, a mistura de mel, o limão e o sal até ficar homogêneo.",
       "Sirva como sorvete cremoso ou congele por 1h para uma textura mais firme."
     ]
   },
@@ -2172,9 +2182,9 @@
     "description": "Rolinhos de canela fofinhos com recheio e glacê de manteiga de cannabis.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "Massa: 3 cups farinha de trigo, 2¼ tsp fermento biológico, ¼ cup açúcar, 1 tsp sal, ¾ cup leite morno, 2 ovos, ¼ cup manteiga de cannabis",
-      "Recheio: 4 tbsp manteiga de cannabis, ½ cup açúcar mascavo, 2 tbsp canela",
-      "Glacê: 1 cup açúcar de confeiteiro, 2 tbsp manteiga de cannabis, 2 tbsp leite"
+      "Massa: 3 cups farinha de trigo, 2¼ tsp fermento biológico, ¼ cup açúcar, 1 tsp sal, ¾ cup leite morno, 2 ovos, 1½ tbsp manteiga de cannabis + 2 tbsp manteiga sem sal",
+      "Recheio: 1½ tbsp manteiga de cannabis + 2 tbsp manteiga sem sal, ½ cup açúcar mascavo, 2 tbsp canela",
+      "Glacê: 1 cup açúcar de confeiteiro, 2 tsp manteiga de cannabis + 1½ tbsp manteiga sem sal, 2 tbsp leite"
     ],
     "instructions": [
       "Misture e sove a massa por 8 min. Deixe crescer por 1h.",
@@ -2498,7 +2508,7 @@
     "category_name": "Almoço",
     "ingredients": [
       "4 filés de salmão",
-      "2 tbsp manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 tbsp manteiga de cannabis + 1 tbsp manteiga sem sal",
       "2 dentes de alho picados",
       "1 tbsp endro fresco",
       "Raspas e suco de 1 limão",
@@ -2537,7 +2547,7 @@
     "category_name": "Almoço",
     "ingredients": [
       "4 tortilhas grandes de farinha",
-      "2 tbsp manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 tbsp manteiga de cannabis + 1 tbsp manteiga sem sal",
       "2 cups queijo cheddar ralado",
       "1 cup frango cozido ou feijão preto",
       "½ cebola roxa picada",
@@ -2730,7 +2740,7 @@
       "2 pacotes (200g) de polpa de açaí congelada",
       "1 banana congelada",
       "½ cup leite de amêndoas",
-      "1 tbsp óleo de coco infusionado derretido (com a quantidade de cannabis da calculadora)",
+      "1 tsp óleo de coco infusionado + 2 tsp óleo de coco, derretidos",
       "Coberturas: granola, banana fatiada, morangos, mel, coco ralado"
     ],
     "instructions": [
@@ -2771,7 +2781,7 @@
       "1 cup goma de tapioca hidratada",
       "Pitada de sal",
       "Recheio: coco ralado, mussarela ou queijo coalho",
-      "1 tbsp óleo de coco infusionado (com a quantidade de cannabis da calculadora)",
+      "2 tsp óleo de coco infusionado + 1 tsp óleo de coco",
       "Leite condensado (opcional)"
     ],
     "instructions": [
@@ -2807,7 +2817,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "3 cups farinha de trigo",
-      "½ cup manteiga de cannabis gelada em cubos (com a quantidade de cannabis da calculadora)",
+      "2 tbsp manteiga de cannabis + ⅓ cup manteiga sem sal, geladas e em cubos",
       "½ cup manteiga comum gelada em cubos",
       "2 gemas de ovo",
       "3–4 tbsp água gelada",
@@ -3399,7 +3409,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "500g de sobrecoxa de frango desossada, cortada em cubos",
-      "2 colheres de sopa de óleo infundido com cannabis, mais 1 colher de sopa de óleo de cozinha comum",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro, mais 1 colher de sopa de óleo de cozinha comum",
       "1/2 xícara de amendoins torrados",
       "8-10 pimentas vermelhas secas",
       "1 colher de chá de pimenta de Sichuan",
@@ -3429,7 +3439,7 @@
     "ingredients": [
       "400g de tofu macio, cortado em cubos",
       "150g de carne de porco moída",
-      "2 colheres de sopa de óleo infundido com cannabis, mais 1 colher de sopa de óleo de cozinha comum",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro, mais 1 colher de sopa de óleo de cozinha comum",
       "2 colheres de sopa de doubanjiang (pasta de pimenta)",
       "1 colher de sopa de feijão preto fermentado",
       "1 colher de chá de pimenta de Sichuan moída",
@@ -3455,7 +3465,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "500g de lombo de porco cortado em cubos",
-      "2 colheres de sopa de óleo infundido com cannabis",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro",
       "1/2 xícara de amido de milho",
       "1 ovo batido",
       "1 pimentão vermelho em cubos",
@@ -3484,7 +3494,7 @@
     "ingredients": [
       "300g de macarrão chinês de trigo fresco",
       "200g de carne de porco moída",
-      "2 colheres de sopa de óleo infundido com cannabis",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro",
       "2 colheres de sopa de pasta de gergelim chinesa",
       "1 colher de sopa de óleo de pimenta",
       "2 colheres de sopa de molho de soja",
@@ -3512,7 +3522,7 @@
       "200g de carne de porco moída",
       "100g de camarão cru descascado e picado",
       "1 pacote de massas para wonton",
-      "2 colheres de sopa de óleo infundido com cannabis",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro",
       "1 colher de sopa de molho de soja",
       "1 colher de chá de óleo de gergelim",
       "1 colher de chá de gengibre ralado",
@@ -3588,7 +3598,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "500g de sobrecoxa de frango desossada em pedaços",
-      "2 colheres de sopa de óleo infundido com cannabis",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro",
       "1/2 xícara de amido de milho",
       "1 ovo batido",
       "3 colheres de sopa de molho de soja",
@@ -3614,7 +3624,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 xícaras de caldo de frango ou legumes",
-      "2 colheres de sopa de óleo infundido com cannabis",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro",
       "150g de tofu firme em tiras finas",
       "1/2 xícara de cogumelos shiitake fatiados",
       "1/2 xícara de brotos de bambu em julienne",
@@ -3643,7 +3653,7 @@
     "ingredients": [
       "2 xícaras de farinha de trigo",
       "3/4 xícara de água fervente",
-      "2 colheres de sopa de óleo infundido com cannabis",
+      "1 colher de sopa de óleo infundido com cannabis + 1 colher de sopa de óleo neutro",
       "1 colher de sopa de óleo de gergelim",
       "1 colher de chá de sal",
       "1 xícara de cebolinhas picadas",
@@ -3666,7 +3676,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 costeletas de porco ou vitela desossadas (150g cada)",
-      "3 colheres de sopa de manteiga de cannabis",
+      "1 colher de sopa de manteiga de cannabis + 2 colheres de sopa de manteiga sem sal",
       "1 xícara de farinha de trigo",
       "2 ovos batidos",
       "1,5 xícara de farinha de rosca fina",
@@ -3692,7 +3702,7 @@
     "ingredients": [
       "800g de batatas, descascadas",
       "1 cebola média",
-      "2 colheres de sopa de manteiga de cannabis",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "2 ovos",
       "3 colheres de sopa de farinha de trigo",
       "1 colher de chá de sal",
@@ -3715,7 +3725,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 salsichas bratwurst frescas",
-      "2 colheres de sopa de manteiga de cannabis",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "500g de chucrute escorrido",
       "1 cebola média fatiada",
       "1 colher de chá de sementes de cominho",
@@ -3742,7 +3752,7 @@
       "3 xícaras de farinha de trigo",
       "4 ovos",
       "1/2 xícara de leite",
-      "3 colheres de sopa de manteiga de cannabis",
+      "2 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "200g de queijo Emmentaler ralado",
       "100g de queijo Gruyère ralado",
       "1 colher de chá de sal",
@@ -3766,7 +3776,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 maçãs grandes ácidas, descascadas e fatiadas",
-      "3 colheres de sopa de manteiga de cannabis derretida",
+      "2 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, derretidas",
       "6 folhas de massa phyllo descongeladas",
       "1/3 xícara de açúcar",
       "1 colher de chá de canela",
@@ -3817,7 +3827,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 salsichas bratwurst",
-      "2 colheres de sopa de manteiga de cannabis, mais 1 colher de sopa de óleo comum para selar",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, mais 1 colher de sopa de óleo comum para selar",
       "1 xícara de ketchup",
       "2 colheres de sopa de curry em pó",
       "1 colher de chá de páprica defumada",
@@ -3868,7 +3878,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 xícaras de farinha de pão",
-      "3 colheres de sopa de manteiga de cannabis derretida",
+      "2 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, derretidas",
       "1 sachê de fermento biológico seco (7g)",
       "1 xícara de água morna",
       "1 colher de sopa de açúcar",
@@ -3893,7 +3903,7 @@
     "category_name": "Internacional",
     "ingredients": [
       "4 fatias finas de alcatra (150g cada)",
-      "2 colheres de sopa de manteiga de cannabis, mais 1 colher de sopa de óleo comum para selar",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, mais 1 colher de sopa de óleo comum para selar",
       "4 colheres de chá de mostarda alemã",
       "4 fatias de bacon",
       "1 cebola grande em tiras",
@@ -3919,7 +3929,7 @@
     "category_name": "Bebidas",
     "ingredients": [
       "2 xícaras de leite integral ou leite de aveia",
-      "2 colheres de sopa de óleo de coco infundido com cannabis",
+      "2 colheres de chá de óleo de coco infundido com cannabis + 1½ colher de sopa de óleo de coco",
       "1 colher de chá de cúrcuma em pó",
       "1/2 colher de chá de canela em pó",
       "1/4 colher de chá de gengibre em pó",
@@ -3941,7 +3951,7 @@
     "category_name": "Bebidas",
     "ingredients": [
       "1 xícara de arroz branco de grão longo",
-      "2 colheres de sopa de óleo de coco infundido com cannabis",
+      "1 colher de sopa de óleo de coco infundido com cannabis + 1 colher de sopa de óleo de coco",
       "4 xícaras de água",
       "1 pau de canela",
       "1/2 xícara de açúcar",
@@ -3988,7 +3998,7 @@
     "category_name": "Bebidas",
     "ingredients": [
       "1 xícara de pedaços de abacaxi",
-      "2 colheres de sopa de óleo de coco infundido com cannabis",
+      "2 colheres de chá de óleo de coco infundido com cannabis + 1½ colher de sopa de óleo de coco",
       "1/2 xícara de creme de coco",
       "60ml de rum branco",
       "1 xícara de gelo",
@@ -4054,7 +4064,7 @@
     "description": "Tamales tradicionais infundidos com cannabis, feitos com massa de milho e recheio de porco temperado, cozidos no vapor em palha de milho para uma experiência mexicana autêntica.",
     "category_name": "Internacional",
     "ingredients": [
-      "1/4 xícara de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "3 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "2 xícaras de farinha de milho (masa harina)",
       "1 xícara de caldo de frango (morno)",
       "1/2 xícara de banha ou gordura vegetal",
@@ -4078,7 +4088,7 @@
     "description": "Chilaquiles fartos infundidos com cannabis, com chips de tortilha crocantes cozidos em molho verde, cobertos com crema e ovo frito para um café da manhã mexicano clássico.",
     "category_name": "Internacional",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "6 tortilhas de milho cortadas em triângulos e fritas (ou chips de tortilha)",
       "2 xícaras de salsa verde",
       "1/2 xícara de queijo fresco esfarelado",
@@ -4171,7 +4181,7 @@
     "description": "Frango com mole infundido com cannabis, com um molho complexo de pimentas secas, chocolate e especiarias — um clássico mexicano rico com dosagem controlada de THC.",
     "category_name": "Internacional",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora), mais 1 colher de sopa de óleo comum para selar",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, mais 1 colher de sopa de óleo comum para selar",
       "4 coxas de frango com osso",
       "3 pimentas ancho secas, sem talo e sementes",
       "2 pimentas pasilla secas, sem talo e sementes",
@@ -4318,7 +4328,7 @@
     "description": "Uma torta de abóbora infundida com cannabis, com especiarias reconfortantes, massa folhada e recheio aveludado, perfeita para reuniões de outono ou qualquer celebração.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/4 xícara de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "2 colheres de sopa de manteiga de cannabis + 2 colheres de sopa de manteiga sem sal",
       "1 massa de torta de 23 cm (não assada)",
       "1 lata (425 g) de purê de abóbora puro",
       "1 lata (395 g) de leite condensado",
@@ -4458,7 +4468,7 @@
     "description": "Barras s'mores pegajosas infundidas com cannabis, com base de bolacha, chocolate derretido e marshmallows tostados — sabor de fogueira com um toque medicinal.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/4 xícara de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "3 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "1/4 xícara de manteiga comum derretida",
       "2 xícaras de bolacha maisena triturada",
       "1/4 xícara de açúcar mascavo compactado",
@@ -4505,7 +4515,7 @@
     "description": "Pudim de pão rico infundido com cannabis, com cubos de brioche embebidos em creme temperado com especiarias e assado até dourar, servido quente com molho de baunilha.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/4 xícara de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "3 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "6 xícaras de pão brioche ou francês cortado em cubos (de um dia)",
       "2 xícaras de leite integral",
       "1 xícara de creme de leite fresco",
@@ -4624,7 +4634,7 @@
     "description": "Mac and cheese cremoso infundido com cannabis, feito com um molho rico de cheddar e manteiga de cannabis para uma refeição perfeitamente dosada.",
     "category_name": "Almoço",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "225g de macarrão cotovelo",
       "2 colheres de sopa de farinha de trigo",
       "2 xícaras de leite integral",
@@ -4674,7 +4684,7 @@
     "description": "Camarões suculentos infundidos com cannabis, salteados com manteiga de alho, limão e ervas para uma experiência saborosa e dosada.",
     "category_name": "Almoço",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "450g de camarões grandes, descascados e limpos",
       "4 dentes de alho picados",
       "2 colheres de sopa de manteiga comum",
@@ -4698,7 +4708,7 @@
     "description": "Frango Alfredo cremoso infundido com cannabis, com molho aveludado de parmesão feito com manteiga de cannabis para um prato de massa luxuoso.",
     "category_name": "Almoço",
     "ingredients": [
-      "3 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "2 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "340g de fettuccine",
       "2 peitos de frango sem osso e sem pele",
       "1 xícara de creme de leite fresco",
@@ -4748,7 +4758,7 @@
     "description": "Sopa de cebola francesa clássica infundida com cannabis, com cebolas caramelizadas, caldo rico e crosta de queijo gruyère gratinado.",
     "category_name": "Almoço",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "4 cebolas grandes amarelas, fatiadas finas",
       "4 xícaras de caldo de carne",
       "1/2 xícara de vinho branco seco",
@@ -4773,7 +4783,7 @@
     "description": "Torta de frango reconfortante infundida com cannabis, com crosta dourada e recheio cremoso de legumes feito com manteiga de cannabis.",
     "category_name": "Almoço",
     "ingredients": [
-      "1/3 xícara de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "2 colheres de sopa de manteiga de cannabis + 3 colheres de sopa de manteiga sem sal",
       "2 xícaras de frango cozido desfiado ou em cubos",
       "1 xícara de ervilhas e cenouras congeladas",
       "1/2 xícara de salsão picado",
@@ -4823,7 +4833,7 @@
     "description": "Carbonara autêntica infundida com cannabis, com pancetta crocante, gemas de ovo e queijo Pecorino, finalizada com manteiga de cannabis.",
     "category_name": "Almoço",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "340g de espaguete",
       "170g de pancetta ou guanciale em cubos",
       "3 gemas de ovo grandes",
@@ -4871,7 +4881,7 @@
     "description": "Tacos de peixe leves e refrescantes infundidos com cannabis, com bacalhau crocante, salada de repolho e um creme de manteiga de cannabis.",
     "category_name": "Almoço",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "450g de filés de bacalhau cortados em tiras",
       "8 tortilhas de milho pequenas",
       "1 xícara de repolho ralado",
@@ -4896,7 +4906,7 @@
     "description": "Bowl teriyaki vibrante infundido com cannabis com frango glaceado, arroz e legumes frescos, finalizado com molho teriyaki de manteiga de cannabis.",
     "category_name": "Almoço",
     "ingredients": [
-      "2 colheres de sopa de manteiga de cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
       "680g de coxas de frango sem osso",
       "1/3 xícara de molho de soja",
       "3 colheres de sopa de mel",
@@ -5045,7 +5055,7 @@
     "description": "Brownies de abacate keto fudgy infundidos com cannabis, com farinha de amêndoas, cacau e manteiga de cannabis para uma sobremesa low-carb.",
     "category_name": "Keto",
     "ingredients": [
-      "1/4 xícara de manteiga de cannabis derretida (com a quantidade de cannabis da calculadora)",
+      "3 colheres de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal, derretidas",
       "2 abacates maduros amassados",
       "1/2 xícara de cacau em pó sem açúcar",
       "1/3 xícara de farinha de amêndoas",
@@ -5120,7 +5130,7 @@
     "description": "Pad Thai vegano vibrante infundido com cannabis, com macarrão de arroz, tofu crocante e molho de tamarindo feito com óleo de coco de cannabis.",
     "category_name": "Vegano",
     "ingredients": [
-      "2 colheres de sopa de óleo de coco infundido com cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de óleo de coco infundido com cannabis + 1 colher de sopa de óleo de coco",
       "225g de macarrão de arroz plano",
       "400g de tofu extra firme, prensado e em cubos",
       "2 colheres de sopa de pasta de tamarindo",
@@ -5145,7 +5155,7 @@
     "description": "Buddha bowl vegano nutritivo infundido com cannabis, com grão-de-bico assado, quinoa e legumes, regado com molho tahini de óleo de cannabis.",
     "category_name": "Vegano",
     "ingredients": [
-      "2 colheres de sopa de óleo de coco infundido com cannabis (com a quantidade de cannabis da calculadora)",
+      "1 colher de sopa de óleo de coco infundido com cannabis + 1 colher de sopa de óleo de coco",
       "1 lata (425g) de grão-de-bico escorrido e lavado",
       "1 xícara de quinoa cozida",
       "1 batata-doce em cubos e assada",
@@ -5195,7 +5205,7 @@
     "description": "Cookies de aveia veganos macios infundidos com cannabis, com passas e canela, feitos com óleo de coco de cannabis para uma delícia saudável.",
     "category_name": "Vegano",
     "ingredients": [
-      "1/3 xícara de óleo de coco infundido com cannabis derretido (com a quantidade de cannabis da calculadora)",
+      "1/3 xícara de óleo de coco infundido com cannabis derretido",
       "1,5 xícaras de aveia em flocos",
       "3/4 xícara de farinha de trigo",
       "1/3 xícara de xarope de bordo",
