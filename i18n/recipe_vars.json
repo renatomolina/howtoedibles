@@ -1,0 +1,746 @@
+{
+  "pt": {
+    "base_fat": {
+      "alcohol": [
+        "álcool",
+        "m"
+      ],
+      "cannabis coconut oil": [
+        "óleo de coco de cannabis",
+        "m"
+      ],
+      "cannabis cream": [
+        "creme de leite de cannabis",
+        "m"
+      ],
+      "cannabis ghee": [
+        "ghee de cannabis",
+        "m"
+      ],
+      "cannabis honey": [
+        "mel de cannabis",
+        "m"
+      ],
+      "cannabis oil": [
+        "óleo de cannabis",
+        "m"
+      ],
+      "cannabis olive oil": [
+        "azeite de cannabis",
+        "m"
+      ],
+      "cannabis sesame oil": [
+        "óleo de gergelim de cannabis",
+        "m"
+      ],
+      "cannabis simple syrup": [
+        "xarope simples de cannabis",
+        "m"
+      ],
+      "cannabis tincture": [
+        "tintura de cannabis",
+        "f"
+      ],
+      "cannabis-infused coconut oil": [
+        "óleo de coco infusionado com cannabis",
+        "m"
+      ],
+      "cannabis-infused cooking oil": [
+        "óleo de cozinha infusionado com cannabis",
+        "m"
+      ],
+      "cannabis-infused vegetable oil": [
+        "óleo vegetal infusionado com cannabis",
+        "m"
+      ],
+      "cannabutter": [
+        "manteiga de cannabis",
+        "f"
+      ],
+      "decarbed flower": [
+        "flor descarboxilada",
+        "f"
+      ],
+      "decarboxylated cannabis flower": [
+        "flor de cannabis descarboxilada",
+        "f"
+      ],
+      "infused coconut milk": [
+        "leite de coco infusionado",
+        "m"
+      ],
+      "infused coconut oil": [
+        "óleo de coco infusionado",
+        "m"
+      ],
+      "infused condensed milk": [
+        "leite condensado infusionado",
+        "m"
+      ],
+      "infused ghee": [
+        "ghee infusionado",
+        "m"
+      ],
+      "infused heavy cream": [
+        "creme de leite fresco infusionado",
+        "m"
+      ],
+      "infused honey": [
+        "mel infusionado",
+        "m"
+      ],
+      "infused milk": [
+        "leite infusionado",
+        "m"
+      ],
+      "infused olive oil": [
+        "azeite infusionado",
+        "m"
+      ],
+      "infused whiskey": [
+        "uísque infusionado",
+        "m"
+      ],
+      "tincture": [
+        "tintura",
+        "f"
+      ]
+    },
+    "cook_temp": {
+      "225F": "225°F",
+      "240°F / 115°C (decarb)": "240°F / 115°C (descarboxilação)",
+      "240°F / 115°C (decarb), stovetop low": "240°F / 115°C (descarboxilação), fogo baixo no fogão",
+      "240°F / 115°C (decarb), stovetop medium": "240°F / 115°C (descarboxilação), fogo médio no fogão",
+      "300F": "300°F",
+      "300°F / 150°C": "300°F / 150°C",
+      "325F": "325°F",
+      "325°F": "325°F",
+      "325°F / 163°C": "325°F / 163°C",
+      "325°F / 165°C": "325°F / 165°C",
+      "325°F then 425°F": "325°F e depois 425°F",
+      "350F": "350°F",
+      "350°F / 175°C": "350°F / 175°C",
+      "350°F / 175°C (frying)": "350°F / 175°C (fritura)",
+      "350°F / 175°C (oil)": "350°F / 175°C (óleo)",
+      "350°F / 175°C then broil": "350°F / 175°C e depois no gratinador",
+      "375F": "375°F",
+      "375°F / 190°C": "375°F / 190°C",
+      "375°F / 190°C (frying)": "375°F / 190°C (fritura)",
+      "400F": "400°F",
+      "400°F / 200°C": "400°F / 200°C",
+      "425F": "425°F",
+      "425°F": "425°F",
+      "425°F / 218°C": "425°F / 218°C",
+      "425°F / 220°C": "425°F / 220°C",
+      "425°F then 350°F / 220°C then 175°C": "425°F e depois 350°F / 220°C e depois 175°C",
+      "475°F": "475°F",
+      "475°F / 245°C": "475°F / 245°C",
+      "Broil for topping": "gratinador para dourar a cobertura",
+      "Grilled / Boiled": "grelhado / cozido",
+      "High slow cooker": "potência alta na panela de cozimento lento",
+      "Low braise / High griddle": "fogo baixo para brasear / chapa em fogo alto",
+      "Low heat": "fogo baixo",
+      "Low simmer": "fervura branda",
+      "Medium heat": "fogo médio",
+      "Medium stovetop": "fogo médio no fogão",
+      "Medium then low simmer": "fogo médio e depois fervura branda",
+      "Medium-high heat": "fogo médio-alto",
+      "Medium-low heat": "fogo médio-baixo",
+      "No baking required": "sem ir ao forno",
+      "No cooking required": "sem cozimento",
+      "No-bake (melted chocolate)": "sem forno (chocolate derretido)",
+      "Off-heat": "fora do fogo",
+      "Steamed": "no vapor",
+      "Stovetop medium-low": "fogo médio-baixo no fogão",
+      "freeze": "no freezer",
+      "low heat": "fogo baixo",
+      "low heat (stovetop)": "fogo baixo (no fogão)",
+      "low simmer": "fervura branda",
+      "medium heat": "fogo médio",
+      "medium heat (stovetop)": "fogo médio (no fogão)",
+      "medium-high heat": "fogo médio-alto",
+      "medium-low heat": "fogo médio-baixo",
+      "medium-low heat (sauce)": "fogo médio-baixo (molho)",
+      "no cook": "sem cozimento",
+      "no cook (sauce)": "sem cozimento (molho)",
+      "no-cook": "sem cozimento",
+      "no_cook": "sem cozimento",
+      "simmer": "fogo baixo",
+      "steam": "no vapor",
+      "stovetop": "no fogão"
+    },
+    "agree": {
+      "f": {
+        "o": "a",
+        "O": "A",
+        "seu": "sua",
+        "Seu": "Sua",
+        "do": "da",
+        "no": "na",
+        "ao": "à",
+        "um": "uma",
+        "Um": "Uma",
+        "muito": "muita",
+        "pelo": "pela",
+        "este": "esta",
+        "esse": "essa"
+      }
+    }
+  },
+  "es": {
+    "base_fat": {
+      "alcohol": [
+        "alcohol",
+        "m"
+      ],
+      "cannabis coconut oil": [
+        "aceite de coco con cannabis",
+        "m"
+      ],
+      "cannabis cream": [
+        "crema de cannabis",
+        "f"
+      ],
+      "cannabis ghee": [
+        "ghee de cannabis",
+        "m"
+      ],
+      "cannabis honey": [
+        "miel de cannabis",
+        "f"
+      ],
+      "cannabis oil": [
+        "aceite de cannabis",
+        "m"
+      ],
+      "cannabis olive oil": [
+        "aceite de oliva con cannabis",
+        "m"
+      ],
+      "cannabis sesame oil": [
+        "aceite de sésamo con cannabis",
+        "m"
+      ],
+      "cannabis simple syrup": [
+        "jarabe simple de cannabis",
+        "m"
+      ],
+      "cannabis tincture": [
+        "tintura de cannabis",
+        "f"
+      ],
+      "cannabis-infused coconut oil": [
+        "aceite de coco infusionado con cannabis",
+        "m"
+      ],
+      "cannabis-infused cooking oil": [
+        "aceite de cocina infusionado con cannabis",
+        "m"
+      ],
+      "cannabis-infused vegetable oil": [
+        "aceite vegetal infusionado con cannabis",
+        "m"
+      ],
+      "cannabutter": [
+        "mantequilla de cannabis",
+        "f"
+      ],
+      "decarbed flower": [
+        "flor descarboxilada",
+        "f"
+      ],
+      "decarboxylated cannabis flower": [
+        "flor de cannabis descarboxilada",
+        "f"
+      ],
+      "infused coconut milk": [
+        "leche de coco infusionada",
+        "f"
+      ],
+      "infused coconut oil": [
+        "aceite de coco infusionado",
+        "m"
+      ],
+      "infused condensed milk": [
+        "leche condensada infusionada",
+        "f"
+      ],
+      "infused ghee": [
+        "ghee infusionado",
+        "m"
+      ],
+      "infused heavy cream": [
+        "crema para batir infusionada",
+        "f"
+      ],
+      "infused honey": [
+        "miel infusionada",
+        "f"
+      ],
+      "infused milk": [
+        "leche infusionada",
+        "f"
+      ],
+      "infused olive oil": [
+        "aceite de oliva infusionado",
+        "m"
+      ],
+      "infused whiskey": [
+        "whisky infusionado",
+        "m"
+      ],
+      "tincture": [
+        "tintura",
+        "f"
+      ]
+    },
+    "cook_temp": {
+      "225F": "225 °F",
+      "240°F / 115°C (decarb)": "240 °F / 115 °C (descarboxilación)",
+      "240°F / 115°C (decarb), stovetop low": "240 °F / 115 °C (descarboxilación) y fuego bajo en la estufa",
+      "240°F / 115°C (decarb), stovetop medium": "240 °F / 115 °C (descarboxilación) y fuego medio en la estufa",
+      "300F": "300 °F",
+      "300°F / 150°C": "300 °F / 150 °C",
+      "325F": "325 °F",
+      "325°F": "325 °F",
+      "325°F / 163°C": "325 °F / 163 °C",
+      "325°F / 165°C": "325 °F / 165 °C",
+      "325°F then 425°F": "325 °F y luego 425 °F",
+      "350F": "350 °F",
+      "350°F / 175°C": "350 °F / 175 °C",
+      "350°F / 175°C (frying)": "350 °F / 175 °C (para freír)",
+      "350°F / 175°C (oil)": "350 °F / 175 °C (aceite)",
+      "350°F / 175°C then broil": "350 °F / 175 °C y luego gratinado",
+      "375F": "375 °F",
+      "375°F / 190°C": "375 °F / 190 °C",
+      "375°F / 190°C (frying)": "375 °F / 190 °C (para freír)",
+      "400F": "400 °F",
+      "400°F / 200°C": "400 °F / 200 °C",
+      "425F": "425 °F",
+      "425°F": "425 °F",
+      "425°F / 218°C": "425 °F / 218 °C",
+      "425°F / 220°C": "425 °F / 220 °C",
+      "425°F then 350°F / 220°C then 175°C": "425 °F y luego 350 °F / 220 °C y luego 175 °C",
+      "475°F": "475 °F",
+      "475°F / 245°C": "475 °F / 245 °C",
+      "Broil for topping": "gratinado para la cobertura",
+      "Grilled / Boiled": "la parrilla o hervido",
+      "High slow cooker": "olla de cocción lenta en alto",
+      "Low braise / High griddle": "fuego bajo para el guiso y plancha bien caliente",
+      "Low heat": "fuego bajo",
+      "Low simmer": "fuego lento",
+      "Medium heat": "fuego medio",
+      "Medium stovetop": "fuego medio en la estufa",
+      "Medium then low simmer": "fuego medio y luego fuego lento",
+      "Medium-high heat": "fuego medio-alto",
+      "Medium-low heat": "fuego medio-bajo",
+      "No baking required": "sin horneado",
+      "No cooking required": "sin cocción",
+      "No-bake (melted chocolate)": "sin horneado (chocolate derretido)",
+      "Off-heat": "fuera del fuego",
+      "Steamed": "vapor",
+      "Stovetop medium-low": "fuego medio-bajo en la estufa",
+      "freeze": "congelación",
+      "low heat": "fuego bajo",
+      "low heat (stovetop)": "fuego bajo (en la estufa)",
+      "low simmer": "fuego lento",
+      "medium heat": "fuego medio",
+      "medium heat (stovetop)": "fuego medio (en la estufa)",
+      "medium-high heat": "fuego medio-alto",
+      "medium-low heat": "fuego medio-bajo",
+      "medium-low heat (sauce)": "fuego medio-bajo (salsa)",
+      "no cook": "sin cocción",
+      "no cook (sauce)": "sin cocción (salsa)",
+      "no-cook": "sin cocción",
+      "no_cook": "sin cocción",
+      "simmer": "fuego lento",
+      "steam": "vapor",
+      "stovetop": "la estufa"
+    },
+    "agree": {
+      "f": {
+        "el": "la",
+        "El": "La",
+        "del": "de la",
+        "al": "a la",
+        "un": "una",
+        "Un": "Una",
+        "demasiado": "demasiada",
+        "mucho": "mucha",
+        "este": "esta"
+      }
+    }
+  },
+  "de": {
+    "base_fat": {
+      "alcohol": [
+        "Alkohol",
+        "m"
+      ],
+      "cannabis coconut oil": [
+        "Cannabis-Kokosöl",
+        "n"
+      ],
+      "cannabis cream": [
+        "Cannabis-Sahne",
+        "f"
+      ],
+      "cannabis ghee": [
+        "Cannabis-Ghee",
+        "n"
+      ],
+      "cannabis honey": [
+        "Cannabis-Honig",
+        "m"
+      ],
+      "cannabis oil": [
+        "Cannabis-Öl",
+        "n"
+      ],
+      "cannabis olive oil": [
+        "Cannabis-Olivenöl",
+        "n"
+      ],
+      "cannabis sesame oil": [
+        "Cannabis-Sesamöl",
+        "n"
+      ],
+      "cannabis simple syrup": [
+        "Cannabis-Zuckersirup",
+        "m"
+      ],
+      "cannabis tincture": [
+        "Cannabis-Tinktur",
+        "f"
+      ],
+      "cannabis-infused coconut oil": [
+        "Cannabis-Kokosöl",
+        "n"
+      ],
+      "cannabis-infused cooking oil": [
+        "Cannabis-Speiseöl",
+        "n"
+      ],
+      "cannabis-infused vegetable oil": [
+        "Cannabis-Pflanzenöl",
+        "n"
+      ],
+      "cannabutter": [
+        "Cannabutter",
+        "f"
+      ],
+      "decarbed flower": [
+        "Cannabis (decarboxyliert)",
+        "n"
+      ],
+      "decarboxylated cannabis flower": [
+        "Cannabis (decarboxyliert)",
+        "n"
+      ],
+      "infused coconut milk": [
+        "Cannabis-Kokosmilch",
+        "f"
+      ],
+      "infused coconut oil": [
+        "Cannabis-Kokosöl",
+        "n"
+      ],
+      "infused condensed milk": [
+        "Cannabis-Kondensmilch",
+        "f"
+      ],
+      "infused ghee": [
+        "Cannabis-Ghee",
+        "n"
+      ],
+      "infused heavy cream": [
+        "Cannabis-Schlagsahne",
+        "f"
+      ],
+      "infused honey": [
+        "Cannabis-Honig",
+        "m"
+      ],
+      "infused milk": [
+        "Cannabis-Milch",
+        "f"
+      ],
+      "infused olive oil": [
+        "Cannabis-Olivenöl",
+        "n"
+      ],
+      "infused whiskey": [
+        "Cannabis-Whiskey",
+        "m"
+      ],
+      "tincture": [
+        "Cannabis-Tinktur",
+        "f"
+      ]
+    },
+    "cook_temp": {
+      "225F": "225 °F",
+      "240°F / 115°C (decarb)": "240 °F / 115 °C (Decarboxylierung)",
+      "240°F / 115°C (decarb), stovetop low": "240 °F / 115 °C (Decarboxylierung) und niedriger Herdhitze",
+      "240°F / 115°C (decarb), stovetop medium": "240 °F / 115 °C (Decarboxylierung) und mittlerer Herdhitze",
+      "300F": "300 °F",
+      "300°F / 150°C": "300 °F / 150 °C",
+      "325F": "325 °F",
+      "325°F": "325 °F",
+      "325°F / 163°C": "325 °F / 163 °C",
+      "325°F / 165°C": "325 °F / 165 °C",
+      "325°F then 425°F": "325 °F, dann 425 °F",
+      "350F": "350 °F",
+      "350°F / 175°C": "350 °F / 175 °C",
+      "350°F / 175°C (frying)": "350 °F / 175 °C (Frittieren)",
+      "350°F / 175°C (oil)": "350 °F / 175 °C (Öltemperatur)",
+      "350°F / 175°C then broil": "350 °F / 175 °C, dann Oberhitze",
+      "375F": "375 °F",
+      "375°F / 190°C": "375 °F / 190 °C",
+      "375°F / 190°C (frying)": "375 °F / 190 °C (Frittieren)",
+      "400F": "400 °F",
+      "400°F / 200°C": "400 °F / 200 °C",
+      "425F": "425 °F",
+      "425°F": "425 °F",
+      "425°F / 218°C": "425 °F / 218 °C",
+      "425°F / 220°C": "425 °F / 220 °C",
+      "425°F then 350°F / 220°C then 175°C": "425 °F, dann 350 °F / 220 °C, dann 175 °C",
+      "475°F": "475 °F",
+      "475°F / 245°C": "475 °F / 245 °C",
+      "Broil for topping": "Oberhitze für das Topping",
+      "Grilled / Boiled": "Grillen / Kochen",
+      "High slow cooker": "hoher Stufe im Slow Cooker",
+      "Low braise / High griddle": "sanftem Schmoren / hoher Hitze auf der Grillplatte",
+      "Low heat": "niedriger Hitze",
+      "Low simmer": "schwachem Köcheln",
+      "Medium heat": "mittlerer Hitze",
+      "Medium stovetop": "mittlerer Herdhitze",
+      "Medium then low simmer": "mittlerer Hitze, dann schwachem Köcheln",
+      "Medium-high heat": "mittlerer bis hoher Hitze",
+      "Medium-low heat": "mittlerer bis niedriger Hitze",
+      "No baking required": "Zubereitung ohne Backen",
+      "No cooking required": "Zubereitung ohne Garen",
+      "No-bake (melted chocolate)": "Zubereitung ohne Backen (geschmolzene Schokolade)",
+      "Off-heat": "ausgeschaltetem Herd",
+      "Steamed": "Dampfgaren",
+      "Stovetop medium-low": "mittlerer bis niedriger Herdhitze",
+      "freeze": "Tiefkühlen",
+      "low heat": "niedriger Hitze",
+      "low heat (stovetop)": "niedriger Hitze (Herd)",
+      "low simmer": "schwachem Köcheln",
+      "medium heat": "mittlerer Hitze",
+      "medium heat (stovetop)": "mittlerer Hitze (Herd)",
+      "medium-high heat": "mittlerer bis hoher Hitze",
+      "medium-low heat": "mittlerer bis niedriger Hitze",
+      "medium-low heat (sauce)": "mittlerer bis niedriger Hitze (Soße)",
+      "no cook": "Zubereitung ohne Garen",
+      "no cook (sauce)": "Zubereitung ohne Garen (Soße)",
+      "no-cook": "Zubereitung ohne Garen",
+      "no_cook": "Zubereitung ohne Garen",
+      "simmer": "sanftem Köcheln",
+      "steam": "Dampfgaren",
+      "stovetop": "Herdhitze"
+    },
+    "agree": {
+      "f": {
+        "das": "die",
+        "Das": "Die",
+        "dein": "deine",
+        "Dein": "Deine",
+        "deinem": "deiner",
+        "dem": "der",
+        "im": "in der",
+        "vom": "von der",
+        "zum": "zur",
+        "ein": "eine",
+        "geschmolzenem": "geschmolzener",
+        "hochwertiges": "hochwertige",
+        "gefiltertes,": "gefilterte,",
+        "infundiertes": "infundierte"
+      },
+      "m": {
+        "das": "den",
+        "Das": "Den",
+        "dein": "deinen",
+        "Dein": "Deinen",
+        "ein": "einen",
+        "hochwertiges": "hochwertigen",
+        "gefiltertes,": "gefilterten,",
+        "infundiertes": "infundierten"
+      }
+    }
+  },
+  "zh": {
+    "base_fat": {
+      "alcohol": [
+        "酒精",
+        ""
+      ],
+      "cannabis coconut oil": [
+        "大麻椰子油",
+        ""
+      ],
+      "cannabis cream": [
+        "大麻奶油",
+        ""
+      ],
+      "cannabis ghee": [
+        "大麻酥油",
+        ""
+      ],
+      "cannabis honey": [
+        "大麻蜂蜜",
+        ""
+      ],
+      "cannabis oil": [
+        "大麻油",
+        ""
+      ],
+      "cannabis olive oil": [
+        "大麻橄榄油",
+        ""
+      ],
+      "cannabis sesame oil": [
+        "大麻芝麻油",
+        ""
+      ],
+      "cannabis simple syrup": [
+        "大麻糖浆",
+        ""
+      ],
+      "cannabis tincture": [
+        "大麻酊剂",
+        ""
+      ],
+      "cannabis-infused coconut oil": [
+        "大麻注入椰子油",
+        ""
+      ],
+      "cannabis-infused cooking oil": [
+        "大麻注入食用油",
+        ""
+      ],
+      "cannabis-infused vegetable oil": [
+        "大麻注入植物油",
+        ""
+      ],
+      "cannabutter": [
+        "大麻黄油",
+        ""
+      ],
+      "decarbed flower": [
+        "脱羧大麻花",
+        ""
+      ],
+      "decarboxylated cannabis flower": [
+        "脱羧大麻花",
+        ""
+      ],
+      "infused coconut milk": [
+        "大麻椰奶",
+        ""
+      ],
+      "infused coconut oil": [
+        "大麻椰子油",
+        ""
+      ],
+      "infused condensed milk": [
+        "大麻炼乳",
+        ""
+      ],
+      "infused ghee": [
+        "大麻酥油",
+        ""
+      ],
+      "infused heavy cream": [
+        "大麻淡奶油",
+        ""
+      ],
+      "infused honey": [
+        "大麻蜂蜜",
+        ""
+      ],
+      "infused milk": [
+        "大麻牛奶",
+        ""
+      ],
+      "infused olive oil": [
+        "大麻橄榄油",
+        ""
+      ],
+      "infused whiskey": [
+        "大麻威士忌",
+        ""
+      ],
+      "tincture": [
+        "大麻酊剂",
+        ""
+      ]
+    },
+    "cook_temp": {
+      "225F": "225°F",
+      "240°F / 115°C (decarb)": "240°F / 115°C（脱羧）",
+      "240°F / 115°C (decarb), stovetop low": "240°F / 115°C（脱羧）、炉灶小火",
+      "240°F / 115°C (decarb), stovetop medium": "240°F / 115°C（脱羧）、炉灶中火",
+      "300F": "300°F",
+      "300°F / 150°C": "300°F / 150°C",
+      "325F": "325°F",
+      "325°F": "325°F",
+      "325°F / 163°C": "325°F / 163°C",
+      "325°F / 165°C": "325°F / 165°C",
+      "325°F then 425°F": "325°F再升至425°F",
+      "350F": "350°F",
+      "350°F / 175°C": "350°F / 175°C",
+      "350°F / 175°C (frying)": "350°F / 175°C（油炸）",
+      "350°F / 175°C (oil)": "350°F / 175°C（油温）",
+      "350°F / 175°C then broil": "350°F / 175°C再上火炙烤",
+      "375F": "375°F",
+      "375°F / 190°C": "375°F / 190°C",
+      "375°F / 190°C (frying)": "375°F / 190°C（油炸）",
+      "400F": "400°F",
+      "400°F / 200°C": "400°F / 200°C",
+      "425F": "425°F",
+      "425°F": "425°F",
+      "425°F / 218°C": "425°F / 218°C",
+      "425°F / 220°C": "425°F / 220°C",
+      "425°F then 350°F / 220°C then 175°C": "425°F再转350°F / 220°C再转175°C",
+      "475°F": "475°F",
+      "475°F / 245°C": "475°F / 245°C",
+      "Broil for topping": "上火炙烤表层",
+      "Grilled / Boiled": "烤制/水煮",
+      "High slow cooker": "慢炖锅高档",
+      "Low braise / High griddle": "小火慢炖/大火煎烤",
+      "Low heat": "小火",
+      "Low simmer": "小火慢炖",
+      "Medium heat": "中火",
+      "Medium stovetop": "炉灶中火",
+      "Medium then low simmer": "中火后转小火慢炖",
+      "Medium-high heat": "中大火",
+      "Medium-low heat": "中小火",
+      "No baking required": "免烤",
+      "No cooking required": "免煮",
+      "No-bake (melted chocolate)": "免烤（融化巧克力）",
+      "Off-heat": "离火",
+      "Steamed": "蒸制",
+      "Stovetop medium-low": "炉灶中小火",
+      "freeze": "冷冻",
+      "low heat": "小火",
+      "low heat (stovetop)": "小火（炉灶）",
+      "low simmer": "小火慢炖",
+      "medium heat": "中火",
+      "medium heat (stovetop)": "中火（炉灶）",
+      "medium-high heat": "中大火",
+      "medium-low heat": "中小火",
+      "medium-low heat (sauce)": "中小火（酱汁）",
+      "no cook": "免煮",
+      "no cook (sauce)": "免煮（酱汁）",
+      "no-cook": "免煮",
+      "no_cook": "免煮",
+      "simmer": "小火慢煮",
+      "steam": "蒸制",
+      "stovetop": "炉灶加热"
+    },
+    "agree": {
+    }
+  }
+}
