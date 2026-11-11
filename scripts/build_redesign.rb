@@ -542,8 +542,7 @@ def build_recipe_page(recipe, lang)
   schema = {
     "@context" => "https://schema.org", "@type" => "Recipe", "name" => name, "description" => desc,
     "image" => schema_image(slug),
-    "author" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE },
-    "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE, "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" } },
+    "author" => ORG, "publisher" => PUBLISHER,
     "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15", "dateModified" => "2026-03-15", # real_lastmods (build_site.rb) rewrites it to the sitemap lastmod
     "recipeCategory" => recipe_t(lang, slug, "category_name") || cat,
     "recipeYield" => [fmt_num(n), "#{fmt_num(n)} servings"],
@@ -671,7 +670,10 @@ end
 CALC_DEFAULT = [3.5, DEFAULT_THC, 50].freeze # calculator.html and the homepage card
 CALC_N_CHIPS = [12, 24, 50, 100].map { |v| [v, v.to_s, nil] }.freeze
 CALC_UPDATED = { "en" => "March 2026", "pt" => "março de 2026", "es" => "marzo de 2026", "de" => "März 2026", "zh" => "2026年3月" }.freeze
-ORG = { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE }.freeze
+# The organization is defined once, on the homepage (#107); every other page points at it by @id.
+ORG = { "@type" => "Organization", "@id" => "#{SITE}/#org", "name" => "HowToEdibles", "url" => SITE }.freeze
+PUBLISHER = ORG.merge("logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" }).freeze
+ORG_SAME_AS = %w[https://instagram.com/howtoedibles https://facebook.com/howtoedibles].freeze # the profiles about.html lists
 SITE_OG = "#{SITE}/images/brand/og-image.jpg"
 
 # A string only this language has (no English fallback): the English pages keep keywords and schema copy the others never had.
@@ -737,9 +739,10 @@ def build_home(lang)
     #{learn_block(lang)}
     </main>
   HTML
-  ld = { "@context" => "https://schema.org", "@type" => "WebSite", "name" => "HowToEdibles", "url" => lang == "en" ? SITE : "#{SITE}#{p}/",
-         "description" => own(lang, "homepage", "schema_description") || t(lang, "homepage", "description"),
-         "potentialAction" => { "@type" => "SearchAction", "target" => { "@type" => "EntryPoint", "urlTemplate" => "#{SITE}#{p}/?q={search_term_string}" }, "query-input" => "required name=search_term_string" } }
+  ld = [{ "@context" => "https://schema.org", "@type" => "WebSite", "name" => "HowToEdibles", "url" => lang == "en" ? SITE : "#{SITE}#{p}/",
+          "description" => own(lang, "homepage", "schema_description") || t(lang, "homepage", "description"), "publisher" => { "@id" => ORG["@id"] },
+          "potentialAction" => { "@type" => "SearchAction", "target" => { "@type" => "EntryPoint", "urlTemplate" => "#{SITE}#{p}/?q={search_term_string}" }, "query-input" => "required name=search_term_string" } },
+        { "@context" => "https://schema.org", **PUBLISHER, "foundingDate" => "2017", "sameAs" => ORG_SAME_AS }]
   head = shell_head(lang, title: t(lang, "homepage", "title"), description: t(lang, "homepage", "description"), page_path: "", og_image: SITE_OG,
                     structured: JSON.generate(ld), keywords: own(lang, "homepage", "keywords"))
   write_page(lang, "index.html", head, main, "", scripts: dose_script(lang, g, s, n))
@@ -804,7 +807,7 @@ def build_calc_page(lang)
   ]
   if (headline = own(lang, "calculator", "headline"))
     ld << { "@context" => "https://schema.org", "@type" => "Article", "headline" => headline, "url" => canonical, "datePublished" => "2017-03-01", "dateModified" => "2026-03-04",
-            "author" => ORG, "publisher" => ORG.merge("logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" }), "image" => SITE_OG, "description" => desc }
+            "author" => ORG, "publisher" => PUBLISHER, "image" => SITE_OG, "description" => desc }
   end
   head = shell_head(lang, title: c["page_title"], description: desc, page_path: "calculator.html", og_image: SITE_OG, structured: JSON.generate(ld), keywords: own(lang, "calculator", "keywords"))
   write_page(lang, lang == "en" ? "edible-dosage-calculator/index.html" : "calculator.html", head, main, "calculator.html", scripts: dose_script(lang, g, s, n))
@@ -998,7 +1001,7 @@ def build_article_page(slug, lang)
     { "@context" => "https://schema.org", "@type" => "Article", "headline" => title, "description" => a["description"] || "",
       "image" => card, "datePublished" => date_pub, "dateModified" => date_mod,
       "author" => { "@type" => "Organization", "name" => "HowToEdibles Editorial Team", "url" => "#{SITE}/about.html" },
-      "publisher" => { "@type" => "Organization", "name" => "HowToEdibles", "url" => SITE, "logo" => { "@type" => "ImageObject", "url" => "#{SITE}/images/brand/logo.png" } },
+      "publisher" => PUBLISHER,
       "mainEntityOfPage" => { "@type" => "WebPage", "@id" => canonical } },
     { "@context" => "https://schema.org", "@type" => "BreadcrumbList", "itemListElement" => [
       { "@type" => "ListItem", "position" => 1, "name" => ai["breadcrumb_home"] || "Home", "item" => "#{SITE}#{p}/" },
