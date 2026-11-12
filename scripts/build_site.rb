@@ -219,6 +219,8 @@ end
 TEMPLATE_CATEGORY_MAP = {}
 
 def get_recipe_section_template(lang, category, sub_category)
+  # "Desserts/stovetop" borrows another category's template (a Vegan pancake on the Desserts stovetop template)
+  category, sub_category = sub_category.split("/", 2) if sub_category.to_s.include?("/")
   cat = TEMPLATE_CATEGORY_MAP[category] || category
   sections = RECIPE_SECTIONS.dig(lang, "templates", cat, sub_category)
   sections || RECIPE_SECTIONS.dig("en", "templates", cat, sub_category) || {}

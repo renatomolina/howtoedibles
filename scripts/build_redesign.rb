@@ -205,6 +205,7 @@ end
 PHOTO_DIR = File.join(ROOT_DIR, "images", "photos")
 PHOTO_W = [480, 800, 1200, 1600]  # 4:3 hero
 PHOTO_SQ = [400, 800]             # 1:1 cards
+HERO_MAX_BYTES = 25_000           # cap for the 800 hero (mobile LCP)
 SCHEMA_CROPS = { "1x1" => [1200, 1200], "4x3" => [1200, 900], "16x9" => [1200, 675] } # Google's Recipe ratios
 
 PHOTOS = Hash.new do |memo, slug|
@@ -224,9 +225,12 @@ def build_photo(slug, src)
   outs.each do |name, ow, oh, q|
     out = File.join(PHOTO_DIR, name)
     next if File.file?(out) && File.mtime(out) >= File.mtime(src)
-    ok = system("magick", src, "-resize", "#{ow}x#{oh}^", "-gravity", "center", "-extent", "#{ow}x#{oh}",
-                "-strip", "-quality", q.to_s, out)
-    abort "ERROR: magick failed on #{name}" unless ok
+    enc = ->(*opt) { system("magick", src, "-resize", "#{ow}x#{oh}^", "-gravity", "center", "-extent", "#{ow}x#{oh}", "-strip", *opt, out) }
+    abort "ERROR: magick failed on #{name}" unless enc.("-quality", q.to_s)
+    # The 800 hero is the mobile LCP image; busy photos pass 25 KB at q78 and sit at the 1.8 s lab gate
+    if name == "#{slug}-800.webp" && File.size(out) > HERO_MAX_BYTES
+      abort "ERROR: magick failed on #{name}" unless enc.("-define", "webp:target-size=#{HERO_MAX_BYTES - 1000}")
+    end
   end
   true
 end

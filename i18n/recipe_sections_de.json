@@ -18,15 +18,15 @@
           "Bedenke, dass Backwaren 45-90 Minuten brauchen können, bis sie wirken, da sie erst verdaut werden müssen."
         ],
         "common_mistakes": [
-          "Das Backen bei Temperaturen über 350 F (175 C) über längere Zeiträume kann THC abbauen. Halte deinen Ofen bei oder unter %{cook_temp} und vermeide Überbacken.",
+          "Zu lange backen. Bei der Temperatur aus dem Rezept backen und schon ein paar Minuten vor der angegebenen Zeit prüfen; zusätzliche Minuten trocknen das Gebäck aus.",
           "Das Überspringen der Decarboxylierung vor dem Infundieren deines Fetts ist der häufigste Anfängerfehler und führt zu schwachen oder inaktiven Edibles.",
           "Wird das %{base_fat} nicht gleichmäßig in den Teig eingemischt, entstehen Hotspots, bei denen ein Stück extrem stark ist und ein anderes fast nichts enthält.",
           "Häufiges Öffnen der Ofentür verursacht Temperaturschwankungen, die sowohl das Backergebnis als auch die Erhaltung der Cannabinoide beeinträchtigen können."
         ],
         "storage": [
-          "Bewahre dein %{name} in einem luftdichten Behälter bei Raumtemperatur bis zu 5 Tage auf, oder im Kühlschrank bis zu zwei Wochen.",
-          "Für längere Aufbewahrung wickle einzelne Stücke fest in Frischhaltefolie und friere sie bis zu 3 Monate ein, ohne nennenswerten Potenzverlust.",
-          "Beschrifte deine Edibles immer deutlich mit Datum, verwendeter Sorte und ungefähren mg pro Portion, um versehentlichen Überkonsum zu vermeiden."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Tausche %{base_fat} gegen Cannabis-infundiertes Kokosöl für eine milchfreie Variante, die THC dennoch effektiv bindet.",
@@ -48,7 +48,7 @@
           },
           {
             "q": "Wie lange bleiben Cannabis-Backwaren potent?",
-            "a": "Bei richtiger Lagerung in einem luftdichten Behälter behalten Cannabis-Backwaren ihre volle Potenz etwa zwei Wochen bei Raumtemperatur. Eingefrorene Edibles können drei Monate oder länger potent bleiben. Hitze und Licht sind die größten Feinde der THC-Stabilität."
+            "a": "Länger, als sie frisch bleiben. THC baut sich durch Wärme, Licht und Luft nur langsam ab, deshalb wird das Gebäck vorher alt oder verdirbt. Luftdicht und kühl lagern, den Lagerhinweis dieses Rezepts beachten und einfrieren, was du nicht bald isst."
           },
           {
             "q": "Kann ich die Dosierung nach dem Backen anpassen?",
@@ -71,9 +71,9 @@
           "Direkt aus dem Gefrierschrank servieren, ohne 5-10 Minuten temperieren zu lassen, macht es zu hart zum Portionieren und erschwert genaues Dosieren."
         ],
         "storage": [
-          "Bewahre dein Cannabis-%{name} in einem versiegelten, gefrierfesten Behälter bei 0 F (-18 C) oder darunter auf, für bis zu 2 Monate bei voller Potenz.",
-          "Wickle einzelne Portionen in Backpapier ein, um Gefrierbrand zu vermeiden und das Entnehmen einer einzelnen Dosis zu erleichtern.",
-          "Beschrifte Behälter mit Datum, Gesamt-THC-Gehalt und Portionsgröße, damit jeder im Haushalt weiß, was er konsumiert."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Verwende Cannabis-infundierte Kokosmilch anstelle von Milchprodukten für ein veganes Tiefkühldessert mit hervorragenden THC-Bindungseigenschaften.",
@@ -118,9 +118,9 @@
           "Keine Formen zu verwenden oder keine einheitlichen Formgrößen zu verwenden bedeutet, dass jedes Konfektstück eine andere Dosis hat, was eine kontrollierte Einnahme unmöglich macht."
         ],
         "storage": [
-          "Bewahre Konfekt in einem luftdichten Behälter an einem kühlen, trockenen Ort auf. Die meisten Cannabis-Süßigkeiten halten je nach Zutaten 2-4 Wochen bei Raumtemperatur.",
-          "Schokoladenbasiertes Konfekt sollte unter 70 F (21 C) aufbewahrt werden, um Schmelzen und Fettreif zu vermeiden, der unappetitlich aussieht, aber die Potenz nicht beeinflusst.",
-          "Wickle jedes Stück einzeln in Wachspapier oder Bonbonpapier und beschrifte es deutlich mit der Dosis pro Stück."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Füge Terpenextrakte hinzu, die zu deiner Cannabissorte passen, für einen verstärkten Entourage-Effekt und ein abgestimmtes Geschmacksprofil.",
@@ -146,7 +146,7 @@
           },
           {
             "q": "Wie lange halten Cannabis-Gummibärchen?",
-            "a": "Cannabis-Gummibärchen halten in einem luftdichten Behälter im Kühlschrank 2-4 Wochen. Bei Raumtemperatur halten sie etwa eine Woche, bevor die Textur nachlässt. Eingefrorene Gummibärchen können mehrere Monate halten. Die Potenz bleibt stabil, solange sie vor Hitze und Licht geschützt werden."
+            "a": "Das hängt von den Zutaten ab, deshalb gilt der Lagerhinweis des jeweiligen Rezepts. Selbstgemachte Gelatine-Gummis halten sich am besten luftdicht im Kühlschrank, eingefroren noch länger. THC bleibt stabil, solange sie vor Wärme und Licht geschützt sind."
           }
         ]
       },
@@ -165,9 +165,9 @@
           "Das Überspringen der Ruhephasen zwischen den Faltungen macht den Teig zäh und verhindert eine ordentliche Schichtbildung."
         ],
         "storage": [
-          "Ungebackener Cannabis-Plunderteig kann 2 Tage im Kühlschrank aufbewahrt oder bis zu 1 Monat eingefroren werden, sodass du bei Bedarf frisch backen kannst.",
-          "Gebackenes Gebäck schmeckt am besten am selben Tag, hält sich aber in einem luftdichten Behälter 2-3 Tage. Für die beste Textur im Ofen bei 325 F (165 C) aufwärmen.",
-          "Beschrifte gefrorenen Teig mit dem gesamten THC-Gehalt und der Anzahl der Portionen, damit du beim späteren Backen genau dosieren kannst."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Verwende Cannabis-infundiertes Ghee für einen noch höheren Rauchpunkt und nussigeren Geschmack, der wunderbar in Blätterteig und Croissants funktioniert.",
@@ -212,9 +212,9 @@
           "Zu viel Cannabisfett verändert die Textur des Puddings von cremig zu fettig. Halte dich an das Fettverhältnis des Rezepts und gleiche aus, indem du stärker konzentrierte Infusionen verwendest."
         ],
         "storage": [
-          "Decke jeden Puddingbecher fest mit Frischhaltefolie ab, die direkt auf die Oberfläche gedrückt wird, um Hautbildung zu verhindern. Im Kühlschrank bis zu 5 Tage aufbewahren.",
-          "Cannabis-Puddings lassen sich nicht gut einfrieren, da die Textur beim Auftauen körnig wird. Bewahre sie stattdessen im Kühlschrank auf.",
-          "Wenn du für eine Feier vorbereitest, portioniere und beschrifte jeden Becher mit der Dosis, damit Gäste ihr Wohlfühlniveau wählen können."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Ersetze Kuhmilch durch Cannabis-infundierte Kokosmilch für eine vegane Variante, die eine natürliche Affinität zur Bindung von Cannabinoiden hat.",
@@ -254,14 +254,14 @@
         ],
         "common_mistakes": [
           "Überhitzung der Sahne- und %{base_fat}-Mischung führt dazu, dass die Eier beim Hinzufügen stocken, was die glatte Textur ruiniert und ungleichmäßige THC-Taschen erzeugt.",
-          "Backen bei Temperaturen über %{cook_temp} lässt den Pudding gerinnen und Blasen bilden, was sowohl Textur als auch Cannabinoid-Verteilung beeinträchtigt.",
+          "Die Creme zu heiß oder zu schnell garen. Im Wasserbad backen oder bei schwacher Hitze rühren, genau wie im Rezept; zu viel Hitze lässt die Eier gerinnen und das Fett austreten.",
           "Das Weglassen des Wasserbads beim Backen führt zu verkochten Rändern und roher Mitte, was eine ungleichmäßige Potenz in jeder Portion bedeutet.",
           "Das Cannabis-Fett direkt zu kalten Eiern geben, anstatt es langsam zu temperieren, führt zu Trennung und einem körnigen fertigen Pudding."
         ],
         "storage": [
-          "Decke jedes Puddingförmchen mit Frischhaltefolie ab und stelle es für bis zu 4 Tage in den Kühlschrank. Eierpuddings schmecken tatsächlich am besten nach einer Nacht im Kühlschrank.",
-          "Cannabis-Eierpuddings lassen sich nicht gut einfrieren, da die Eiproteine abgebaut werden, was nach dem Auftauen zu einer wässrigen, separierten Textur führt.",
-          "Beschrifte jedes Förmchen mit der Dosis und dem Datum. Wenn du Gästen servierst, stelle eine kleine Karte daneben, die den THC-Gehalt angibt."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite eine Cannabis-Crème brûlée zu, indem du eine dünne Zuckerkruste auf deinem gekühlten Cannabis-Eierpudding flambierst, für eine dramatische Präsentation.",
@@ -290,6 +290,78 @@
             "a": "Absolut. Flan verwendet die gleiche Puddingbasis mit einer Karamellschicht, und Cannabis-Butter oder -Sahne integriert sich perfekt. Panna Cotta verwendet Gelatine anstelle von Eiern, und Cannabis-Sahne ist eine ideale Basis. Beide sind ausgezeichnete Formate für präzise, elegante Cannabis-Dosierung."
           }
         ]
+      },
+      "no_bake": {
+        "intro": "Dieses Rezept für %{name} braucht keinen Ofen: Die Cannabis-Zutat wird unter die anderen Zutaten gemischt, und das Dessert wird im Kühlschrank fest. Desserts ohne Backen gehen schnell, und für eine gleichmäßige Dosis kommt es nur auf gutes Mischen an.",
+        "dosing_tips": [
+          "Die Cannabis-Zutat vollständig untermischen, solange die Masse noch weich ist, damit jedes Stück gleich viel abbekommt.",
+          "Gleichmäßig verstreichen oder schichten und in die Anzahl Portionen schneiden, die das Rezept angibt. Ungleiche Stücke bedeuten ungleiche Dosen.",
+          "Edibles können bis zu 2 Stunden brauchen, bis sie wirken. Warte mindestens 2 Stunden, bevor du mehr isst."
+        ],
+        "common_mistakes": [
+          "Das Cannabisfett sehr heiß zugeben. Geschmolzenes Fett kurz abkühlen lassen, bevor es auf Schokolade, Sahne oder Eier trifft, damit nichts klumpt, gerinnt oder stockt.",
+          "Schneiden, bevor es fest ist. Die volle Zeit aus dem Rezept kühlen und mit einem scharfen Messer in saubere, gleiche Portionen schneiden.",
+          "Vergessen, dass Cannabis drin ist. Desserts ohne Backen beschriften und getrennt von normalen Desserts aufbewahren."
+        ],
+        "storage": [
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
+        ],
+        "variations": [
+          "Für eine milchfreie Variante das infundierte Kokosöl der Seite statt Cannabutter nehmen, in derselben Menge, damit die Dosis gleich bleibt.",
+          "Ein Topping ohne Cannabis (Kakao, Obst, Nüsse) ändert den Geschmack, ohne die Dosis zu ändern."
+        ],
+        "faq": [
+          {
+            "q": "Kann ich Cannabisblüten direkt statt eines infundierten Fetts verwenden?",
+            "a": "Nein. Blüten verteilen sich in einem Dessert ohne Backen nicht gleichmäßig und machen es sandig. Stelle zuerst das infundierte Fett her; die Zutatenliste verlinkt darauf."
+          },
+          {
+            "q": "Warum muss das Cannabis decarboxyliert werden, wenn nichts gebacken wird?",
+            "a": "Rohes Cannabis enthält vor allem THCA, das erst nach dem Erhitzen wirkt. Die Grundrezepte der Seite enthalten diesen Schritt, das infundierte Fett ist also sofort verwendbar."
+          },
+          {
+            "q": "Wie bekommt jedes Stück die gleiche Dosis?",
+            "a": "Gut mischen, die Masse gleichmäßig dick andrücken oder schichten und genau in die Anzahl Portionen schneiden, mit der die Dosis berechnet ist. Am genauesten ist es, die Stücke zu wiegen."
+          }
+        ]
+      },
+      "stovetop": {
+        "intro": "Dieses Rezept für %{name} wird auf dem Herd zubereitet, nicht im Ofen. Die Cannabis-Zutat kommt in den Teig oder wird zum Schluss aufgepinselt; sie dient nicht als Brat- oder Frittierfett. Folge den Schritten, wo das Cannabis hineinkommt, und portioniere sorgfältig für eine gleichmäßige Dosis.",
+        "dosing_tips": [
+          "Die Cannabis-Zutat vor dem Garen vollständig in den Teig rühren, damit jedes Stück gleich viel abbekommt.",
+          "Für jedes Stück denselben Löffel oder dieselbe Kelle nehmen und genau die Anzahl Portionen machen, mit der die Dosis berechnet ist.",
+          "Edibles können bis zu 2 Stunden brauchen, bis sie wirken. Warte mindestens 2 Stunden, bevor du mehr isst."
+        ],
+        "common_mistakes": [
+          "Im infundierten Fett selbst braten oder frittieren. Nimm normale Butter oder normales Öl in Pfanne oder Fritteuse, wie im Rezept; das Cannabis gehört in den Teig oder obendrauf.",
+          "Den Teig stehen lassen, ohne umzurühren. Fett kann nach oben steigen, also vor jeder Kelle umrühren.",
+          "Den Überblick verlieren, weil es wie ein normales Frühstück oder Streetfood schmeckt. Zähle mit, wie viele Portionen du gegessen hast."
+        ],
+        "storage": [
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
+        ],
+        "variations": [
+          "Für eine milchfreie Variante das infundierte Kokosöl der Seite statt Cannabutter verwenden, in derselben Menge.",
+          "Mit einem Topping ohne Cannabis (Obst, Sirup, Zucker) servieren, um Geschmack ohne zusätzliches THC zu bekommen."
+        ],
+        "faq": [
+          {
+            "q": "Kann ich stattdessen in Cannabisöl frittieren?",
+            "a": "Keine gute Idee: Du bräuchtest viel mehr infundiertes Öl, als das Rezept dosiert, und wüsstest nicht, wie viel in jedem Stück landet. In normalem Öl frittieren und das Cannabis im Teig oder obendrauf lassen, wie beschrieben."
+          },
+          {
+            "q": "Zerstört das Garen auf dem Herd das THC?",
+            "a": "Nicht bei den Zeiten und Temperaturen in diesem Rezept. Das Innere des Teigs bleibt viel kühler als Pfanne oder Öl, und die Dosis auf dieser Seite berücksichtigt bereits einen Verlust beim Garen."
+          },
+          {
+            "q": "Kann ich sie vorbereiten?",
+            "a": "Frisch schmecken sie am besten. Reste innerhalb von 2 Stunden kühlen, den Lagerhinweis oben beachten und in einer trockenen Pfanne oder im Ofen aufwärmen."
+          }
+        ]
       }
     },
     "Snacks": {
@@ -302,15 +374,15 @@
           "Scharfe Snacks können den Cannabisgeschmack überdecken, verleiten aber möglicherweise dazu, mehr zu essen oder mehr zu trinken, was die Aufnahme beeinflussen kann."
         ],
         "common_mistakes": [
-          "Herzhafte Snacks bei zu hoher Temperatur backen, um sie knusprig zu bekommen. Bleibe unter %{cook_temp} oder füge %{base_fat} nach dem Garen hinzu.",
+          "Den Snack zu heiß garen, nachdem die Cannabis-Zutat drin ist. Halte dich an die Temperatur im Rezept oder gib die Cannabis-Zutat erst nach dem Garen dazu.",
           "Ungleichmäßiges Beschichten bedeutet, dass einige Stücke sehr potent sind, während andere kein Cannabis enthalten. Schwenke alles in einer Schüssel für gleichmäßige Verteilung.",
           "Eine große Schüssel Snackmischung herzustellen, ohne die Dosis pro Portion zu berechnen, führt zu unkontrolliertem Konsum.",
           "Zu wenig würzen, weil man denkt, Cannabis bringe Geschmack mit. Cannabis fügt eine Kräuternote hinzu, aber du brauchst trotzdem die volle Würze."
         ],
         "storage": [
-          "Bewahre herzhafte Cannabis-Snacks in einem luftdichten Behälter bei Raumtemperatur bis zu einer Woche auf. Feuchtigkeit ist der Feind der Knusprigkeit.",
-          "Lege ein Silikagel-Päckchen in den Behälter, um die Knusprigkeit zu erhalten und zu verhindern, dass das Cannabisfett ranzig wird.",
-          "Beschrifte den Behälter mit dem Gesamt-THC-Gehalt und der empfohlenen Portionsgröße, damit du verantwortungsvoll snacken kannst."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Verwende Cannabis-infundiertes Olivenöl anstelle von Butter für mediterrane herzhafte Snacks wie infundierte Cracker oder Grissini.",
@@ -355,9 +427,9 @@
           "Süße Snacks dort aufbewahren, wo Kinder oder Haustiere Zugang haben könnten. Cannabis-Edibles müssen immer sicher aufbewahrt werden."
         ],
         "storage": [
-          "Die meisten süßen Cannabis-Snacks lassen sich 1-2 Wochen in einem luftdichten Behälter bei Raumtemperatur aufbewahren, im Kühlschrank noch länger.",
-          "Schokoladenbasierte Produkte sollten unter 70 F (21 C) aufbewahrt werden, um Schmelzen zu verhindern. Kühlung verlängert die Haltbarkeit auf einen Monat.",
-          "Einzeln einwickeln und jedes Stück mit Dosis und Herstellungsdatum beschriften für sicheren, verantwortungsvollen Konsum."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Beträufle Cannabis-infundierte weiße Schokolade über Trockenfrüchte und Nüsse für eine elegante, leicht dosierbare Studentenfutter-Mischung.",
@@ -402,9 +474,9 @@
           "Den Dip zu lange bei Raumtemperatur stehen lassen. Milchbasierte Cannabis-Dips sollten kalt serviert und nach 2 Stunden zurück in den Kühlschrank gestellt werden."
         ],
         "storage": [
-          "Cannabis-Dips in verschlossenen Behältern im Kühlschrank bis zu 5 Tage aufbewahren. Vor erneutem Servieren gut umrühren, da sich Fett absetzt.",
-          "Hummus- und bohnenbasierte Cannabis-Dips lassen sich recht gut bis zu einem Monat einfrieren. Über Nacht im Kühlschrank auftauen.",
-          "Milchbasierte Dips wie Cannabis-Queso oder Frischkäse-Dips sollten nicht eingefroren werden, da die Textur erheblich leidet."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Mixe Cannabis-Kokosöl in Guacamole für einen veganen infundierten Dip, bei dem das Avocadofett jegliche Öligkeit überdeckt.",
@@ -449,9 +521,9 @@
           "Cannabis-Häppchen auf einem gemeinsamen Tisch ohne Beschriftung stehen lassen. Kennzeichne immer deutlich, dass sie THC enthalten, und gib die Dosis pro Stück an."
         ],
         "storage": [
-          "Lagere herzhafte Cannabis-Häppchen in einem luftdichten Behälter bei Raumtemperatur bis zu 5 Tage oder im Kühlschrank bis zu 10 Tage.",
-          "Friere gebackene herzhafte Häppchen für bis zu 2 Monate ein. Wärme sie im Ofen bei 150 °C (300 °F) für die beste Textur auf.",
-          "Beschrifte Aufbewahrungsbehälter mit dem gesamten THC und der Dosis pro Stück für einen sicheren, verantwortungsvollen Konsum."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Rolle Cannabis-%{base_fat} zu herzhaften Käsebällchen, die in Kräutern und Nüssen gewälzt werden, für eine elegante Vorspeise.",
@@ -496,9 +568,9 @@
           "Zu viel %{base_fat} im Verhältnis zu den anderen Zutaten verwenden, was ein fettiges Mundgefühl und einen überwältigenden Cannabis-Geschmack erzeugt."
         ],
         "storage": [
-          "Cannabis-Aufstriche in verschlossenen Behältern im Kühlschrank bis zu 7 Tage aufbewahren. 15 Minuten vor dem Servieren auf Raumtemperatur bringen für die beste Textur.",
-          "Nussbutter-basierte Cannabis-Aufstriche können an einem kühlen, dunklen Ort bis zu 2 Wochen bei Raumtemperatur gelagert werden.",
-          "Milchbasierte Cannabis-Aufstriche nicht einfrieren, da sie dazu neigen, sich zu trennen und nach dem Auftauen körnig zu werden."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Mixe %{base_fat} in gerösteten Paprika-Hummus für einen rauchigen, herzhaften Cannabis-Aufstrich mit natürlicher Emulgierung.",
@@ -539,13 +611,13 @@
         "common_mistakes": [
           "Fingerfood so klein zu machen, dass der Cannabis-Geschmack konzentriert ist, oder so groß, dass Leute nur die Hälfte essen und eine ungleichmäßige Dosis bekommen.",
           "%{base_fat} als äußere Glasur auftragen, die an Händen und Servietten abgerieben wird, wodurch die tatsächlich konsumierte Dosis reduziert wird.",
-          "Fingerfood bei Temperaturen über %{cook_temp} zu garen, um die Außenseite knusprig zu machen, was THC auf exponierten Oberflächen abbauen kann.",
+          "Fingerfood heißer oder länger garen als im Rezept, damit es knuspriger wird. Wenn es mehr Farbe braucht, vorher knusprig machen und das Cannabis erst ganz am Ende zugeben.",
           "Vergessen, Gäste mit diätetischen Einschränkungen bei der Wahl des Fingerfood-Formats zu berücksichtigen."
         ],
         "storage": [
-          "Die meisten Cannabis-Fingerfoods werden am besten frisch serviert. Bereite Komponenten im Voraus vor und stelle sie kurz vor dem Servieren zusammen.",
-          "Zusammengestelltes Cannabis-Fingerfood im Kühlschrank bis zu 24 Stunden fest abgedeckt aufbewahren, um Austrocknen zu verhindern.",
-          "Ungekochtes Cannabis-Fingerfood wie gefüllte Pilze oder Mini-Gebäck bis zu 6 Wochen einfrieren und dann frisch backen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Wickle mit Cannabis infundierten Käse in Parmaschinken und ein Basilikumblatt für ein elegantes, einzel-dosiertes Fingerfood im italienischen Stil.",
@@ -590,9 +662,9 @@
           "Annehmen, dass ein Cannabis-Teigmantel das THC beim Frittieren schützt. Auch teigummantelte Artikel erreichen Innentemperaturen, die Cannabinoide abbauen können."
         ],
         "storage": [
-          "Frittierte Cannabis-Snacks verlieren schnell ihren Crunch. Konsumiere sie innerhalb weniger Stunden für das beste Erlebnis.",
-          "Lagere übrig gebliebene Cannabis-Dip-Sauce separat im Kühlschrank bis zu einer Woche. Frittiere die Snacks erneut und trage die Sauce erneut auf.",
-          "Cannabis-Gewürzsalz oder mit Kief bestäubte Gewürzmischungen können in einem Glas aufbewahrt und bei Bedarf auf frisch frittierte Artikel gestreut werden."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite Cannabis-Buffalo-Sauce zu, indem du %{base_fat} mit scharfer Sauce schmelzt und frisch frittierte Wings oder Blumenkohl-Häppchen darin schwenkst.",
@@ -639,9 +711,9 @@
           "Zu viel Blüten im Verhältnis zum Fett verwenden. Ein Standardverhältnis ist 1 Tasse Fett auf 7-10 Gramm decarboxylierte Blüten. Mehr Blüten bedeuten nicht immer stärker."
         ],
         "storage": [
-          "Cannabisbutter hält sich in einem luftdichten Behälter im Kühlschrank bis zu 2 Wochen oder eingefroren 6 Monate ohne nennenswerten Potenzverlust.",
-          "Cannabisöl (Kokos, Olive) hält 2-3 Monate an einem kühlen, dunklen Ort. Kühlung verlängert dies weiter.",
-          "In undurchsichtigen Behältern aufbewahren oder in Folie wickeln, um vor Licht zu schützen, das Cannabinoide mit der Zeit abbaut."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Infundiere Kokosöl für eine vielseitige, milchfreie Option mit hervorragender THC-Bindung dank seines hohen Gehalts an gesättigten Fettsäuren.",
@@ -686,9 +758,9 @@
           "Zu kurz infundieren. Milch braucht mindestens 45-60 Minuten sanftes Köcheln, um Cannabinoide ausreichend zu extrahieren."
         ],
         "storage": [
-          "Cannabis-Milch und -Sahne sind verderblich. Gekühlt in einem verschlossenen Behälter aufbewahren und innerhalb von 5-7 Tagen verbrauchen.",
-          "Für längere Haltbarkeit Cannabis-Sahne in Eiswürfelformen einfrieren. Jeder Würfel entspricht ungefähr einem Esslöffel für einfaches Portionieren.",
-          "Cannabis-Milchprodukte niemals bei Raumtemperatur aufbewahren. Sie verderben genauso schnell wie normale Milch."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Infundiere Schlagsahne und schlage sie auf als Cannabis-Topping für Desserts, heiße Schokolade oder Kaffee.",
@@ -733,9 +805,9 @@
           "Annehmen, dass Cannabis-Zucker die gleiche Potenz wie Cannabis-Öl hat. Zucker-basierte Infusionen sind typischerweise weniger konzentriert und weniger effizient."
         ],
         "storage": [
-          "Cannabis-Honig lagert bei Raumtemperatur in einem verschlossenen Glas bis zu 6 Monate. Seine natürlichen antimikrobiellen Eigenschaften verhindern Verderb.",
-          "Cannabis-Zuckersirup hält sich im Kühlschrank bis zu 3 Wochen. Ein Schuss Wodka verlängert die Haltbarkeit auf 6 Wochen.",
-          "Cannabis-Zucker sollte in einem luftdichten Behälter an einem kühlen, trockenen Ort gelagert werden. Er hält sich mehrere Monate ohne Potenzverlust."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle Cannabis-infundierten Honig her, indem du Honig sanft mit decarboxyliertem Pflanzenmaterial oder Cannabis-Tinktur bei niedriger Hitze erwärmst, für ein goldenes, vielseitiges Süßungsmittel.",
@@ -757,7 +829,7 @@
           },
           {
             "q": "Wie lange hält sich Cannabis-Zuckersirup?",
-            "a": "Im Kühlschrank in einem verschlossenen Behälter hält sich Cannabis-Zuckersirup 2-3 Wochen. Ein Esslöffel Wodka pro Tasse Sirup verlängert die Haltbarkeit auf etwa 6 Wochen. Die Zuckerkonzentration hilft bei der Konservierung, aber Schimmel kann sich bei zu langer Lagerung entwickeln."
+            "a": "Wie jeder selbstgemachte Sirup gehört er luftdicht in den Kühlschrank und wird innerhalb der Zeit im Lagerhinweis des Rezepts verbraucht. Für längere Haltbarkeit im Eiswürfelbehälter einfrieren."
           },
           {
             "q": "Kann ich Cannabis-Ahornsirup herstellen?",
@@ -780,9 +852,9 @@
           "Tinktur in einer durchsichtigen Glasflasche lagern, in der Licht Cannabinoide abbaut. Verwende immer bernsteinfarbenes oder kobaltblaues Glas."
         ],
         "storage": [
-          "Lagere Cannabis-Tinktur in einer dunklen Glas-Pipettenflasche an einem kühlen, dunklen Ort. Richtig gelagert halten alkoholbasierte Tinkturen über ein Jahr.",
-          "Glycerin-basierte Tinkturen haben eine kürzere Haltbarkeit von 3-6 Monaten. Kühlung verlängert diese erheblich.",
-          "Beschrifte jede Flasche mit dem Datum, der Sorte, der geschätzten Gesamt-THC-Menge und mg pro ml für sicheren, informierten Gebrauch."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle eine Glycerin-basierte Tinktur für eine alkoholfreie Option her, die leicht süß und sanfter am Gaumen ist.",
@@ -827,9 +899,9 @@
           "Cannabis-Gewürze neben regulären ohne klare Beschriftung lagern, was zu versehentlichem Konsum durch Mitbewohner führt."
         ],
         "storage": [
-          "Die meisten Cannabis-Gewürze halten sich im Kühlschrank 2-4 Wochen, entsprechend der Haltbarkeit ihrer nicht-infundierten Gegenstücke.",
-          "Cannabis-infundierte Hot Sauce und essigbasierte Gewürze halten länger, bis zu 2-3 Monate im Kühlschrank, aufgrund ihres Säuregehalts.",
-          "Immer in deutlich beschrifteten Behältern lagern, idealerweise in einem separaten Bereich des Kühlschranks von regulären Gewürzen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Mixe %{base_fat} in Mayonnaise für eine Cannabis-Aioli, die auf Sandwiches, Burgern, Pommes und als Dip-Sauce funktioniert.",
@@ -876,9 +948,9 @@
           "Cannabis-Olivenöl zum scharfen Anbraten bei hoher Hitze verwenden. Heb das infundierte Öl zum Verfeinern und Beträufeln nach dem Kochen auf."
         ],
         "storage": [
-          "Bewahre übrig gebliebene Cannabis-Pasta- oder -Reisgerichte in luftdichten Behältern im Kühlschrank auf, bis zu 3 Tage. Die Stärke nimmt das Fett auf und hält die Wirkstärke stabil.",
-          "Erwärme sie schonend auf dem Herd bei niedriger Hitze oder in der Mikrowelle bei mittlerer Leistung, um das THC zu erhalten.",
-          "Friere Portionen in beschrifteten Behältern bis zu 2 Monate ein. Pasta-Soßen mit Cannabisfett lassen sich besonders gut einfrieren."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite Cannabis-Pesto zu, indem du %{base_fat} mit Basilikum, Pinienkernen, Knoblauch und Parmesan zu einer einfachen, wirksamen Pasta-Soße mixt.",
@@ -923,9 +995,9 @@
           "Cannabis-Suppe bei starkem Kochen aufzuwärmen. Erwärme immer schonend, um THC zu erhalten und zu verhindern, dass sich das Fett aus der Emulsion löst."
         ],
         "storage": [
-          "Cannabis-Suppe hält sich gut gekühlt 3-5 Tage im Kühlschrank. Das Fett wird im kalten Zustand fest an der Oberfläche, daher schonend erwärmen und gründlich umrühren.",
-          "Friere Portionen bis zu 3 Monate in beschrifteten Behältern ein. Über Nacht im Kühlschrank auftauen lassen, bevor du sie erwärmst.",
-          "Cremige Cannabis-Suppen können nach dem Einfrieren manchmal ausflocken. Nach dem Erwärmen mit einem Stabmixer pürieren, um die Konsistenz wiederherzustellen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Püriere Cannabis-Kokosöl in eine Thai-Kokossuppe für eine natürlich harmonische Kombination von Aromen und Fetten.",
@@ -970,9 +1042,9 @@
           "Einen großen Gemeinschaftssalat servieren, ohne die Dosis pro Portion zu berechnen. Richte stattdessen einzeln an mit abgemessenem Dressing."
         ],
         "storage": [
-          "Cannabis-Dressing hält sich gekühlt in einem Glas bis zu 2 Wochen. Vor jedem Gebrauch kräftig schütteln.",
-          "Angemachte Salate sollten sofort gegessen werden. Cannabis-Dressing lässt Blattgrün welken, wenn beides zusammen aufbewahrt wird.",
-          "Beschrifte dein Cannabis-Dressing deutlich und lagere es getrennt von normalem Dressing, um versehentlichen Verzehr zu vermeiden."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite eine Cannabis-Vinaigrette mit infundiertem Olivenöl, Balsamico-Essig, Dijon-Senf und Honig für ein klassisches Dressing zu.",
@@ -1017,9 +1089,9 @@
           "Zu viel Cannabis-Aufstrich verwenden und die anderen Sandwich-Aromen übertönen. Eine dünne, gleichmäßige Schicht reicht völlig aus."
         ],
         "storage": [
-          "Cannabis-Sandwiches sollten aus Gründen der Lebensmittelsicherheit innerhalb weniger Stunden verzehrt werden. Kühl stellen, wenn sie nicht sofort gegessen werden.",
-          "Der Cannabis-Aufstrich selbst hält sich gekühlt 1-2 Wochen. Bereite ihn im Voraus zu und trage ihn bei Bedarf auf frisches Brot auf.",
-          "Verpacke Cannabis-Sandwiches deutlich anders als normale. Verwende eine andere Verpackungsfarbe oder füge eine deutliche Beschriftung hinzu."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle Cannabis-Mayo her, indem du Cannabisöl mit einem Stabmixer in ein Eigelb emulgierst, für einen vielseitigen Sandwich-Aufstrich.",
@@ -1064,9 +1136,9 @@
           "Dazu viel Alkohol trinken. Cannabis und Alkohol verstärken sich gegenseitig, besonders wenn eine volle Mahlzeit die Verdauung verlangsamt."
         ],
         "storage": [
-          "Bewahre Reste von Cannabis-Hauptgerichten genauso auf wie die nicht-infundierte Variante. Innerhalb von 2 Stunden kühlen und innerhalb von 3-4 Tagen verzehren.",
-          "Beschrifte alle Reste deutlich mit der Cannabis-Dosis pro Portion, damit aufgewärmte Portionen sicher konsumiert werden.",
-          "Die meisten Cannabis-Soßen und -Glasuren lassen sich separat gut einfrieren, was dir die Möglichkeit gibt, zukünftige Mahlzeiten ohne erneutes Kochen zu infundieren."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle eine Cannabis-Kräuterbutter mit Kräutern und Knoblauch her und schmelze ein Stück davon über gegrilltem Steak, Hähnchen oder Fisch als finalen Schliff.",
@@ -1111,9 +1183,9 @@
           "Cannabis-Olivenöl zum scharfen Anbraten von Knoblauch oder Gemüse verwenden. Erst anbraten, dann mit Cannabis-Öl abseits der Hitze fertigstellen."
         ],
         "storage": [
-          "Übrig gebliebene Cannabis-Pasta in einem luftdichten Behälter im Kühlschrank bis zu 3 Tage aufbewahren. Die Stärke absorbiert die Sauce und hält die Dosis.",
-          "Vorsichtig auf dem Herd bei niedriger Hitze oder in der Mikrowelle bei 50 % Leistung aufwärmen, um THC zu erhalten.",
-          "Cannabis-Pasta-Saucen ohne Nudeln lassen sich hervorragend bis zu 2 Monate einfrieren. Auftauen und mit frisch gekochter Pasta schwenken."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite Cannabis-Aglio e Olio zu, indem du mit Knoblauch infundierte normale Olivenöl-Pasta mit einem Esslöffel Cannabis-Olivenöl pro Portion fertigstellst.",
@@ -1158,9 +1230,9 @@
           "So viel Cannabis-Aufstrich verwenden, dass er die anderen Aromen überwältigt und das Sandwich fettig macht."
         ],
         "storage": [
-          "Cannabis-Sandwiches sollten innerhalb weniger Stunden gegessen werden, um die beste Qualität zu gewährleisten. Sofort kühlen, wenn nicht sofort verzehrt wird.",
-          "Der Cannabis-Aufstrich selbst lagert gut für 1-2 Wochen im Kühlschrank. Nach Bedarf auf frisches Brot auftragen.",
-          "Cannabis-Sandwiches deutlich von normalen unterscheidbar einwickeln und beschriften, mit anderem Verpackungsmaterial oder einem sichtbaren Marker."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle Cannabis-infundierte Mayo her, indem du Cannabis-Öl mit einem Stabmixer in Eigelb emulgierst, für den ultimativen Sandwich-Aufstrich.",
@@ -1205,9 +1277,9 @@
           "Ein Cannabis-Hauptgericht mit Alkohol kombinieren. Die Kombination verstärkt beide Substanzen und kann Übelkeit und Angst verursachen."
         ],
         "storage": [
-          "Cannabis-Hauptgericht-Reste wie die nicht-infundierte Version aufbewahren. Innerhalb von 2 Stunden kühlen und innerhalb von 3-4 Tagen verbrauchen.",
-          "Alle Reste mit der Cannabis-Dosis pro Portion beschriften, damit aufgewärmte Portionen verantwortungsvoll konsumiert werden.",
-          "Cannabis-Saucen und -Glasuren lassen sich separat hervorragend bis zu 3 Monate einfrieren. Auftauen und zu frisch gekochtem Protein oder Gemüse hinzufügen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle eine Cannabis-Kräuterbutter her und schmelze ein abgemessenes Stück über Steak, Fisch oder Brathuhn als Finishing-Touch.",
@@ -1252,9 +1324,9 @@
           "Das Cannabis-Dressing bei der Berechnung des Gesamtkaloriengehalts und Fettgehalts deiner gesundheitsbewussten Bowl nicht berücksichtigen."
         ],
         "storage": [
-          "Zusammengestellte Cannabis-Bowls sollten frisch gegessen werden. Lagere das Cannabis-Dressing separat für bis zu 2 Wochen im Kühlschrank.",
-          "Bereite Getreide- und Gemüsekomponenten im Voraus vor und lagere sie ohne Dressing. Füge das Cannabis-Dressing frisch zur Essenszeit hinzu.",
-          "Cannabis-Tahini und Vinaigrette-Dressings lassen sich in kleinen Behältern gut 1-2 Monate einfrieren. Auftauen und vor Gebrauch schütteln."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite ein Cannabis-Tahini-Dressing mit Cannabis-Öl, Tahini, Zitrone und Knoblauch für ein nussiges, mediterranes Bowl-Topping zu.",
@@ -1301,9 +1373,9 @@
           "Zuckerfreie Schokoladenchips verwenden, die anders aufgehen oder schmelzen und so die Textur und Fettverteilung verändern."
         ],
         "storage": [
-          "Keto-Cannabis-Backwaren halten sich gekühlt bis zu einer Woche, dank ihres hohen Fett- und niedrigen Feuchtigkeitsgehalts.",
-          "Friere in Einzelportionen bis zu 2 Monate ein. Der hohe Fettgehalt schützt vor Gefrierbrand.",
-          "Bewahre sie in luftdichten Behältern auf, damit die Nussmehle keine Kühlschrankgerüche annehmen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Verwende Cannabis-MCT-Öl für ein geschmacksneutrales Fett, das sich in jedes Keto-Rezept einfügt und die Aufnahme verbessern kann.",
@@ -1348,9 +1420,9 @@
           "Keto-Süßigkeiten bei Zimmertemperatur aufbewahren, obwohl sie Frischkäse oder andere verderbliche Zutaten enthalten. Immer kühlen."
         ],
         "storage": [
-          "Keto-Cannabis-Süßigkeiten halten sich gekühlt 2 Wochen oder eingefroren bis zu 3 Monate in luftdichten Behältern.",
-          "Fat Bombs und Trüffel sollten im Kühlschrank gelagert und 5 Minuten vor dem Verzehr auf kühle Zimmertemperatur gebracht werden, um die beste Textur zu erzielen.",
-          "Lege Backpapier zwischen die einzelnen Stücke, um Zusammenkleben zu verhindern, und beschrifte sie mit der Dosis pro Stück."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle Cannabis-Erdnussbutter-Cups aus zuckerfreier Schokolade und Cannabis-Kokosöl in der Füllung her.",
@@ -1395,9 +1467,9 @@
           "Nicht kräftig genug würzen. Herzhafte Keto-Gerichte brauchen intensive Aromen, um die pflanzlichen Cannabis-Noten zu überdecken."
         ],
         "storage": [
-          "Herzhafte Keto-Cannabis-Gerichte halten sich gekühlt 3-4 Tage im Kühlschrank. Der hohe Fettgehalt hilft tatsächlich bei der Konservierung.",
-          "Cannabisbutter-Rollen lassen sich gut in Backpapier gewickelt 3 Monate einfrieren. Schneide bei Bedarf eine Scheibe für jede Mahlzeit ab.",
-          "Speck-Wickel oder Käse-basierte Cannabis-Keto-Snacks halten sich gut in verschlossenen Behältern im Kühlschrank für eine Woche."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Schmelze Cannabisbutter über ein dickes Steak oder eine gegrillte Hähnchenkeule, während es ruht, für ein müheloses infundiertes Gericht.",
@@ -1442,9 +1514,9 @@
           "Cannabis-Keto-Getränke mit intermittierendem Fasten auf nüchternen Magen zu kombinieren kann die Wirkung drastisch verstärken."
         ],
         "storage": [
-          "Cannabis-Keto-Getränke werden am besten frisch konsumiert. Varianten auf Milchbasis halten sich 2-3 Tage im Kühlschrank.",
-          "Stelle Cannabis-MCT-Öl- oder -Butter-Konzentrat her und bewahre es auf, dann gib es jedes Mal frisch in die Getränke.",
-          "Schüttle oder mixe aufbewahrte Keto-Cannabis-Getränke vor dem Verzehr, da eine Trennung unvermeidlich ist."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Mixe Cannabis-MCT-Öl in Bulletproof Coffee mit Weidebutter für das ultimative Keto-Morgenritual.",
@@ -1491,9 +1563,9 @@
           "Raffiniertes Kokosöl verwenden und den Geschmack verpassen. Unraffiniertes hat eine natürliche Süße, die viele vegane Backwaren aufwertet."
         ],
         "storage": [
-          "Vegane Cannabis-Backwaren halten sich oft etwas länger als solche mit Milchprodukten, da Kokosöl bei Raumtemperatur stabil ist. Luftdicht verschlossen bis zu einer Woche lagern.",
-          "Bis zu 3 Monate einfrieren. Vegane Backwaren tauen gut auf, da keine Milchproteine vorhanden sind, die sich zersetzen könnten.",
-          "Bei Raumtemperatur aufbewahren, es sei denn, das Rezept enthält verderbliche vegane Frischkäse oder ähnliche Zutaten."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Verwende mit Cannabis infundierte vegane Buttersticks für einen direkten 1:1-Austausch in jedem traditionellen Backrezept.",
@@ -1538,9 +1610,9 @@
           "Den starken Kokosgeschmack in unraffiniertem Cannabis-Kokosöl bei der Herstellung feiner Süßigkeiten nicht berücksichtigen."
         ],
         "storage": [
-          "Vegane Cannabis-Süßigkeiten aus Kokosöl werden im Kühlschrank fest und weichen bei Raumtemperatur auf. Je nach gewünschter Textur lagern.",
-          "Dunkle Schokoladen-Cannabis-Bruchschokolade hält sich bei Raumtemperatur in einer kühlen Küche. Unter 70 °F (21 °C) lagern für beste Textur.",
-          "Cannabis-Süßigkeiten auf Nussbutterbasis halten sich gekühlt 2-3 Wochen oder eingefroren 3 Monate."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle mit Cannabis infundiertes Dattelkaramell her, indem du Datteln, Cannabis-Kokosöl und eine Prise Salz für ein Vollwert-Süßungsmittel mixt.",
@@ -1585,9 +1657,9 @@
           "Zu wenig würzen. Vegane herzhafte Gerichte brauchen kräftige Aromen, und das gilt doppelt, wenn Cannabis im Spiel ist."
         ],
         "storage": [
-          "Vegane herzhafte Cannabis-Gerichte halten sich 3-5 Tage im Kühlschrank. Die pflanzlichen Zutaten halten sich generell gut.",
-          "Mit Cannabis infundiertes Tahini, Pesto und andere vegane Soßen lassen sich hervorragend für 2-3 Monate einfrieren.",
-          "Cannabis-Olivenöl in einer dunklen Glasflasche an einem kühlen Ort bis zu 3 Monate lagern."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Rühre Cannabis-Kokosöl in ein Thai- oder indisches Curry für eine natürliche Fettpaarung, die den Cannabis-Geschmack vollständig überdeckt.",
@@ -1632,9 +1704,9 @@
           "Sich zu sehr auf Cannabis als Geschmackselement verlassen. Vegane Hauptgerichte brauchen kräftige Würzung mit Gewürzen, Umami-Zutaten und Säure, um vollständig zu schmecken."
         ],
         "storage": [
-          "Vegane Cannabis-Hauptgerichte lagern gut im Kühlschrank für 3-5 Tage. Die pflanzlichen Zutaten halten sich gut.",
-          "Cannabis-infundierte vegane Saucen wie Curry, Pesto und Kokosnuss-Sahnesaucen lassen sich hervorragend bis zu 3 Monate einfrieren.",
-          "Alle Reste mit der Dosis pro Portion und dem Zubereitungsdatum für verantwortungsvollen Konsum beschriften."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Rühre Cannabis-Kokosöl in ein Thai- oder indisches Curry für eine natürliche Kombination, bei der Kokosgeschmack willkommen und erwartet ist.",
@@ -1679,9 +1751,9 @@
           "Cannabis-Kokosöl auf einer Getreide-Bowl verwenden, wo Kokosgeschmack nicht hingehört. Passe den Öltyp der Küche an."
         ],
         "storage": [
-          "Vegane Cannabis-Bowls sollten frisch gegessen werden. Bereite Komponenten im Voraus vor und füge den Cannabis-Nieselregen beim Servieren hinzu.",
-          "Cannabis-vegane Dressings lagern im Kühlschrank in verschlossenen Gläsern bis zu 2 Wochen. Vor Gebrauch gut schütteln.",
-          "Vorgekochtes Getreide, geröstetes Gemüse und zubereitete Hülsenfrüchte halten sich separat im Kühlschrank 4-5 Tage für schnelles Zusammenstellen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Baue eine Cannabis-Buddha-Bowl mit Quinoa, gerösteter Süßkartoffel, Kichererbsen, Grünzeug und einem Cannabis-Tahini-Nieselregen.",
@@ -1728,9 +1800,9 @@
           "Cannabis-Kokosöl in Rezepten verwenden, bei denen der Buttergeschmack wesentlich ist, wie Quindim. Passe die Fettart dem Rezept an."
         ],
         "storage": [
-          "Cannabis-Brigadeiros und ähnliche gerollte Süßigkeiten halten sich bis zu einer Woche gekühlt in einem luftdichten Behälter.",
-          "Viele brasilianische Cannabis-Süßigkeiten lassen sich gut für 2-3 Monate einfrieren. Im Kühlschrank auftauen, bevor sie serviert werden.",
-          "In Papier-Pralinenförmchen lagern und deutlich mit der Dosis pro Stück beschriften, besonders für Partys und Zusammenkünfte."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle Cannabis-Beijinhos her, indem du im Brigadeiro-Rezept Schokolade durch Kokos ersetzt und Cannabis-Kokosöl verwendest.",
@@ -1769,15 +1841,15 @@
           "Diese stärkehaltigen, fettigen Gerichte können den Wirkungseintritt auf 60-120 Minuten verzögern. Eine kontrollierte Portion essen und warten, bevor du mehr nimmst."
         ],
         "common_mistakes": [
-          "Mit Cannabis infundierten Teig in heißem Öl frittieren verschwendet THC, da es in das Frittieröl auslaugt. Stattdessen backen oder das Cannabis-Element nach dem Frittieren hinzufügen.",
+          "Cannabis-Teig in Öl frittieren, das du wiederverwenden willst. Coxinhas und andere infundierte Snacks in frischem, normalem Öl nur goldbraun frittieren und das Öl danach wegwerfen, da es einen Teil des Cannabisfetts aufnehmen kann.",
           "Cannabis-Fett zu Farofa bei starker Hitze auf dem Herd geben. Die Farofa zuerst kochen, dann Cannabis-Butter vom Herd einrühren.",
           "Pão-de-Queijo-Teig zu nass machen, indem extra Cannabis-Öl hinzugefügt wird, ohne eine andere Flüssigkeit zu reduzieren. Das Teigverhältnis ausgewogen halten.",
           "Das Cannabis-Fett nicht gründlich in die Füllung oder den Teig einmischen, was zu Hotspots der Potenz führt."
         ],
         "storage": [
-          "Cannabis-Pão de Queijo und ähnliche Snacks halten sich 3-4 Tage im Kühlschrank. Im Ofen bei 325 °F (165 °C) aufwärmen.",
-          "Ungebackene Cannabis-Pão-de-Queijo-Teigkugeln lassen sich hervorragend bis zu 2 Monate einfrieren. Direkt aus dem Gefrierschrank backen und einige Minuten mehr einplanen.",
-          "Cannabis-Farofa in einem luftdichten Behälter bei Raumtemperatur bis zu einer Woche lagern."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle Cannabis-Pão de Queijo her, indem du das normale Öl im Teig durch mit Cannabis infundiertes Öl für käsige, glutenfreie Häppchen ersetzt.",
@@ -1791,7 +1863,7 @@
           },
           {
             "q": "Ist es möglich, Cannabis-Coxinhas zu machen?",
-            "a": "Ja, aber vermeide das Frittieren in Cannabis-Öl. Bereite stattdessen den Coxinha-Teig oder die Füllung mit Cannabis-Butter zu, forme und paniere sie, dann backe sie bei %{cook_temp}. Backen statt Frittieren bewahrt das THC und ist tatsächlich eine leichtere, gesündere Zubereitung."
+            "a": "Ja. Die abgemessene Cannabutter in den Teig oder die Füllung geben, formen, panieren und in normalem Öl goldbraun frittieren oder für eine leichtere Variante auf einem geölten Blech backen. Den Teig nach Gewicht aufteilen, damit jede Coxinha die gleiche Dosis hat."
           },
           {
             "q": "Kann ich Cannabis zur Feijoada hinzufügen?",
@@ -1822,9 +1894,9 @@
           "Übermäßiges Saucieren, um den Cannabis-Geschmack zu überdecken, verwässert das Gericht. Richtig gefiltertes Cannabis-Öl in kleinen Mengen braucht minimale Überdeckung."
         ],
         "storage": [
-          "Cannabis-chinesische Reste im Kühlschrank bis zu 3 Tage aufbewahren. Die Saucen helfen, die Feuchtigkeit zu bewahren und das Cannabis-Öl zu halten.",
-          "Cannabis-Stir-Fry-Saucen können im Voraus zubereitet und 1-2 Wochen im Kühlschrank gelagert werden. Bei Bedarf zu frisch gekochten Gerichten hinzufügen.",
-          "Gebratener Reis und Nudelgerichte mit Cannabis-Öl lassen sich gut in der Mikrowelle bei mittlerer Leistung oder vorsichtig im Wok bei niedriger Hitze aufwärmen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite Cannabis-Dan-Dan-Nudeln zu, indem du Cannabis-Sesamöl und Chiliöl am Ende in die herzhafte, betäubende Sauce einrührst.",
@@ -1869,9 +1941,9 @@
           "Vergessen, dass deutscher Senf, Meerrettich und Sauerkraut ausgezeichnete Cannabis-Geschmacks-Überdecker sind. Würze kräftig."
         ],
         "storage": [
-          "Deutsche Cannabis-Gerichte wie Eintöpfe und Schmorbraten lagern gut für 3-5 Tage im Kühlschrank. Die Aromen verbessern sich oft über Nacht.",
-          "Cannabis-Butter für deutsche Küche lagert eingefroren bis zu 6 Monate. Schneide bei Bedarf Portionen ab.",
-          "Cannabis-Backwaren wie Strudel und Kuchen halten bei Raumtemperatur 3 Tage oder im Kühlschrank eine Woche."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Schmelze Cannabis-Butter über frisch gekochte Spätzle mit gebratenen Zwiebeln für eine klassische, wärmende Cannabis-Beilage.",
@@ -1916,9 +1988,9 @@
           "Cannabis-infundierten Käse unter einem Grill bei extremen Temperaturen schmelzen. Cannabis-Crema oder -Öl nach dem Grillen obenauf hinzufügen."
         ],
         "storage": [
-          "Cannabis-Salsas und mexikanische Saucen halten sich im Kühlschrank bis zu einer Woche. Die Säure von Tomaten und Limette hilft bei der Konservierung.",
-          "Cannabis-infundierte Crema lagert 5-7 Tage im Kühlschrank. Vor jeder Verwendung umrühren, da Trennung normal ist.",
-          "Cannabis-Mole-Sauce lässt sich hervorragend bis zu 3 Monate einfrieren. Auftauen und vor dem Servieren sanft erwärmen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Rühre Cannabis-Öl in warme Mole-Sauce für eine komplexe, tiefgründig aromatisierte Infusion, bei der Schokolade und Chilis Cannabis vollständig überdecken.",
@@ -1965,9 +2037,9 @@
           "Mit großen Mengen frischer Kräuter garnieren, ohne die Gäste zu informieren. Einige Kräuter interagieren mit Cannabinoiden und verändern das Erlebnis."
         ],
         "storage": [
-          "Cannabis-Zitrus-Mocktails schmecken am besten frisch. Die Zitrusfrüchte oxidieren und werden innerhalb von Stunden bitter.",
-          "Cannabis-Zuckersirup hält sich gekühlt 2 Wochen und kann bei Bedarf zu frischem Saft hinzugefügt werden.",
-          "Bereite die Nicht-Cannabis-Bestandteile vor und füge die Infusion erst kurz vor dem Servieren hinzu für den frischesten Geschmack."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle einen Cannabis-Zitrus-Shrub mit Essig, Zucker und Cannabis-Tinktur für eine komplexe, säuerliche Mixerbasis her.",
@@ -2012,9 +2084,9 @@
           "Den natürlichen Zuckergehalt in Früchten bei der Berechnung der gesamten Rezeptnährwerte nicht berücksichtigen."
         ],
         "storage": [
-          "Frische Cannabis-Fruchtgetränke oxidieren schnell. Innerhalb weniger Stunden konsumieren für besten Geschmack und Aussehen.",
-          "Cannabis-Fruchtmischungen in Eis-am-Stiel-Formen einfrieren für einen vorportionierten gefrorenen Snack, der sich 2 Monate hält.",
-          "Cannabis-Fruchtpüree-Basen können 2 Tage gekühlt aufbewahrt werden, bevor sie zu frischen Getränken hinzugefügt werden."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Schichte mit Cannabis infundierte Kokoscreme über einen nicht infundierten Fruchtsaft für ein wunderschönes Farbverlauf-Getränk mit der Dosis oben.",
@@ -2059,9 +2131,9 @@
           "Nicht richtig abseihen, was Pflanzenmaterial hinterlässt, das eine körnige, unangenehme Textur ergibt."
         ],
         "storage": [
-          "Kräuter-Cannabis-Tee schmeckt am besten frisch. Wiedererwärmen verändert das Kräuteraroma und kann zur Fettabscheidung führen.",
-          "Bereite eine konzentrierte Cannabis-Teebasis mit Fett zu, seihe ab und lagere sie bis zu 5 Tage gekühlt, um sie frischem Tee hinzuzufügen.",
-          "Trockene Kräuterteemischungen (ohne Cannabis-Fett) können monatelang in luftdichten Dosen gelagert werden. Cannabis-Fett jedes Mal frisch hinzufügen."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Bereite einen Cannabis-Chai zu, indem du Gewürze, Schwarztee, Cannabis-Butter und Milch für eine reichhaltige, aromatische Infusion zusammen köchelst.",
@@ -2106,9 +2178,9 @@
           "Verdampfung beim Köcheln nicht berücksichtigen. Wenn dein Getränk einreduziert, steigt die Konzentration pro Unze."
         ],
         "storage": [
-          "Heiße Cannabis-Getränke schmecken am besten frisch. Wenn du sie aufbewahren musst, bis zu 3 Tage gekühlt in einem verschlossenen Glas lagern und sanft erwärmen.",
-          "Bereite eine konzentrierte Cannabis-Milch- oder Sahne-Basis zu und lagere sie bis zu einer Woche im Kühlschrank, dann füge sie bei Bedarf frischen Getränken hinzu.",
-          "Cannabis-Getränke niemals unbeaufsichtigt oder unbeschriftet stehen lassen, wo andere sie für normale Getränke halten könnten."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Füge eine Prise Zimt, Muskatnuss oder Kardamom hinzu, um den Kräuter-Cannabis-Geschmack zu ergänzen und wärmende Gewürznoten hinzuzufügen.",
@@ -2134,7 +2206,7 @@
           },
           {
             "q": "Kann ich eine große Menge zubereiten und Portionen später aufwärmen?",
-            "a": "Du kannst eine mit Cannabis infundierte Milch- oder Sahne-Basis bis zu einer Woche gekühlt aufbewahren und sie frisch zubereiteten Getränken hinzufügen. Fertig zubereitete Getränke halten sich nicht so gut, da Tees und Kaffees in der Qualität nachlassen. Der Konzentrat-Ansatz gibt dir frischen Geschmack mit konsistenter Dosierung."
+            "a": "Ja, wenn du es kühl hältst. Das Getränk oder die Milchbasis innerhalb von 2 Stunden in den Kühlschrank stellen, innerhalb der Zeit im Lagerhinweis verbrauchen und sanft erwärmen, ohne es kochen zu lassen. Gut umrühren, da sich das Fett beim Abkühlen absetzt."
           }
         ]
       },
@@ -2153,9 +2225,9 @@
           "Annehmen, dass kalte Getränke langsamer wirken als heiße. Gemixter Getränke werden schnell verdaut und können in 20-40 Minuten wirken."
         ],
         "storage": [
-          "Cannabis-Kaltgetränke in verschlossenen Glasgefäßen bis zu 2 Tage im Kühlschrank aufbewahren. Vor dem Servieren gut schütteln, da eine Trennung unvermeidlich ist.",
-          "Cannabis-Getränke in Eiswürfelformen einfrieren für perfekt dosierte Ergänzungen zu zukünftigen Getränken.",
-          "Cannabis-Getränke immer deutlich beschriften und von normalen Getränken im Kühlschrank getrennt aufbewahren."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Verwende mit Cannabis infundierten Zuckersirup anstelle von Fett für eine glattere Textur, die sich perfekt in kalten Getränken auflöst.",
@@ -2200,9 +2272,9 @@
           "Gäste nicht warnen, dass Getränke Cannabis enthalten. Dies ist sowohl unsicher als auch an vielen Orten illegal. Immer klar beschriften und kommunizieren."
         ],
         "storage": [
-          "Mit Cannabis infundierte Spirituosen und Tinkturen, die in einer dunklen Glasflasche gelagert werden, halten sich mehrere Monate bei Raumtemperatur.",
-          "Vorgemischte Cannabis-Cocktails sollten am selben Tag konsumiert werden. Bei einigen Stunden Wartezeit kühlen.",
-          "Mit Cannabis infundierte Zuckersirupe halten sich bis zu 2 Wochen gekühlt und sind die vielseitigste Cocktailzutat."
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
           "Stelle einen mit Cannabis infundierten Zuckersirup her, indem du decarboxylierte Blüten in heißem Zuckerwasser ziehen lässt und dann für eine saubere Cocktailzutat abseihst.",
