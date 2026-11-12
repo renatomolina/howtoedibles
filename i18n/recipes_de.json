@@ -125,7 +125,7 @@
       "1/2 cup Pinienkerne",
       "1/2 cup geriebener Parmesan",
       "2 Knoblauchzehen, fein gehackt",
-      "⅓ cup infundiertes Olivenöl + 3 EL Olivenöl",
+      "1 EL infundiertes Olivenöl + 7½ EL Olivenöl",
       "Salz und Pfeffer nach Geschmack",
       "1 pound Pasta (z. B. Spaghetti, Penne oder Fusilli)",
       "Geriebener Parmesan zum Garnieren"
@@ -262,7 +262,7 @@
     "description": "Diese unwiderstehliche Guacamole vereint cremige Avocados, spritzigen Limettensaft, gewürfelte Tomaten, Zwiebeln und einen wunderbaren Kräuter-Twist.",
     "category_name": "Snacks",
     "ingredients": [
-      "2 tbsp infundiertes Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "2 reife Avocados",
       "1 tbsp Limettensaft",
       "1/4 cup fein gehackte Zwiebel",
@@ -443,20 +443,20 @@
     "description": "Wenn du ein großer Gummibärchen-Fan bist, hast du Glück!",
     "category_name": "Desserts",
     "ingredients": [
-      "1/4 cup infundiertes Kokosöl mit 3.5 Gramm Cannabis – Siehe das Rezept",
+      "¼ Tasse infundiertes Kokosöl",
       "1/2 tsp Sonnenblumen-/Sojalecithin",
       "1 oz geschmacksneutrale Gelatine",
-      "1/2 cup Wasser",
+      "½ Tasse kaltes Wasser",
       "1 Packung 6 oz Götterspeise (beliebige Geschmacksrichtung)",
-      "Gummibärchenform"
+      "Formen für 48 Gummibärchen und eine Pipette"
     ],
     "instructions": [
-      "Kombiniere in einem kleinen Topf bei mittlerer Hitze das Wasser und das infundierte Öl und verrühre beides mit einem Schneebesen, während du es zum Kochen bringst.",
-      "Rühre die geschmacksneutrale Gelatine portionsweise unter ständigem Rühren ein.",
-      "Rühre die aromatisierte Götterspeise ein und rühre etwa 5 Minuten weiter, bis die Mischung sprudelnd kocht.",
-      "Reduziere die Hitze auf niedrig, besprühe die Formen mit Kochspray. Fülle jede Form mit einem Tropfer oder Löffel bis zum Rand. Rühre die Mischung zwischendurch immer wieder um.",
-      "Stelle die Formen für 20 Minuten ins Gefrierfach oder für eine Stunde in den Kühlschrank, bis sie fest sind.",
-      "Löse die Gummibärchen aus den Formen und genieße sie sofort oder bewahre sie in luftdichten Behältern 2–3 Tage bei Zimmertemperatur auf. Zum längeren Aufbewahren einfrieren."
+      "Das kalte Wasser in einen kleinen Topf geben und die neutrale und die aromatisierte Gelatine darüberstreuen. 5 Minuten quellen lassen.",
+      "Bei schwacher Hitze rühren, bis sich die Gelatine vollständig aufgelöst hat und die Masse glatt ist. Nicht kochen lassen.",
+      "Das infundierte Kokosöl schmelzen und das Lecithin einrühren. 2 Minuten in die warme Gelatine schlagen, bis kein Öl mehr an der Oberfläche zu sehen ist.",
+      "Die Formen leicht einölen. Den Topf auf kleinster Stufe lassen, zwischendurch umrühren und mit der Pipette die gesamte Masse gleichmäßig auf 48 Mulden verteilen. Bleibt Masse übrig, enthält jedes Bärchen weniger als hier angegeben.",
+      "1 Stunde im Kühlschrank fest werden lassen, dann aus der Form lösen.",
+      "Eine Portion sind 3 Bärchen. Zum ersten Mal? Mit 1 Bärchen anfangen und 2 Stunden warten, bevor du mehr isst. Luftdicht im Kühlschrank aufbewahren."
     ]
   },
   "infused-spaghetti-bolognese": {
@@ -833,7 +833,7 @@
     "category_name": "Snacks",
     "ingredients": [
       "1 Dose (15 oz) Kichererbsen, abgetropft und abgespült",
-      "3 EL infundiertes Olivenöl (siehe Rezept für infundiertes Olivenöl)",
+      "2½ EL infundiertes Olivenöl + 1½ TL Olivenöl",
       "3 EL Tahini",
       "2 EL Zitronensaft",
       "1 Knoblauchzehe",
@@ -885,7 +885,7 @@
     "ingredients": [
       "2 Scheiben dickes Brot (Sauerteig oder Vollkorn)",
       "1 reife Avocado",
-      "1 EL infundiertes Olivenöl (siehe Rezept für infundiertes Olivenöl)",
+      "1½ TL infundiertes Olivenöl + 1½ TL Olivenöl",
       "Saft einer halben Zitrone",
       "Salz und Pfeffer nach Geschmack",
       "Chiliflocken, Everything-Bagel-Gewürz oder frische Kräuter zum Garnieren",
@@ -906,7 +906,7 @@
     "description": "Eine einfache Cannabis-Vinaigrette, die jeden Salat in eine infundierte Mahlzeit verwandelt.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "3 EL infundiertes Olivenöl (siehe Rezept für infundiertes Olivenöl)",
+      "1 EL infundiertes Olivenöl + 2 EL Olivenöl",
       "1 EL normales Olivenöl",
       "2 EL Apfelessig oder Rotweinessig",
       "1 TL Dijon-Senf",
@@ -997,7 +997,7 @@
       "1 TL Koriander",
       "½ TL Kurkuma",
       "4 Tassen Gemüsebrühe",
-      "2 EL Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "Salz, Zitrone"
     ],
     "instructions": [
@@ -1100,7 +1100,7 @@
     "ingredients": [
       "300g Makkaroni",
       "1 Tasse eingeweichte Cashewkerne",
-      "2 EL Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "3 EL Hefeflocken",
       "1 TL Knoblauchpulver",
       "1 TL Zwiebelpulver",
@@ -1138,7 +1138,7 @@
     "category_name": "Vegan",
     "ingredients": [
       "2 Dosen Kichererbsen",
-      "2 EL Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "1 Zwiebel",
       "4 Knoblauchzehen",
       "1 TL geräuchertes Paprikapulver",
@@ -1181,7 +1181,7 @@
     "ingredients": [
       "4 Zucchini, spiralisiert",
       "2 Tassen frisches Basilikum",
-      "3 EL Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 2 EL Olivenöl",
       "¼ Tasse Pinienkerne",
       "3 Knoblauchzehen",
       "1 EL Zitronensaft",
@@ -1200,7 +1200,7 @@
     "category_name": "Vegan",
     "ingredients": [
       "2 Dosen schwarze Bohnen",
-      "2 EL Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "1 Zwiebel",
       "4 Knoblauchzehen",
       "1 Jalapeño",
@@ -1245,7 +1245,7 @@
       "200g Brokkoliröschen",
       "2 EL Olivenöl",
       "1 TL italienische Kräutermischung",
-      "2 EL Cannabis-Olivenöl zum Fertigstellen",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl zum Fertigstellen",
       "Frisches Basilikum"
     ],
     "instructions": [
@@ -1340,7 +1340,7 @@
     "category_name": "Keto",
     "ingredients": [
       "500g Rinderhackfleisch",
-      "2 EL Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "1 Zwiebel",
       "4 Knoblauchzehen",
       "1 EL Chilipulver",
@@ -1363,7 +1363,7 @@
     "category_name": "Keto",
     "ingredients": [
       "2 Zucchini, sehr dünn geschnitten",
-      "2 EL Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "½ TL Knoblauchpulver",
       "½ TL Zwiebelpulver",
       "Salz, Pfeffer",
@@ -1539,14 +1539,14 @@
     "category_name": "Getränke",
     "ingredients": [
       "Saft von 4 Zitronen",
-      "2 tbsp Cannabis-Lavendelsirup",
+      "2 EL Lavendelsirup (Schritt 1) + 2½ EL infundierter Honig",
       "2 cups kaltes Wasser",
       "Eis",
       "Getrockneter Lavendel"
     ],
     "instructions": [
-      "Wasser, Zucker und Lavendel 10 Min. köcheln; abseihen; Cannabis-Tinktur hinzufügen.",
-      "Zitronensaft, Sirup und Wasser mischen. Über Eis gießen."
+      "Wasser, Zucker und Lavendel 10 Min. köcheln, abseihen und den Sirup abkühlen lassen.",
+      "Den infundierten Honig in 2 EL warmem Wasser vollständig auflösen, dann mit Zitronensaft, Sirup und Wasser mischen. Vor jedem Glas umrühren und über Eis gießen."
     ]
   },
   "infused-tropical-punch": {
@@ -2216,7 +2216,7 @@
     "description": "Eier pochiert in Cannabis-Tomatensauce.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 tbsp Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "1 tbsp normales Olivenöl (zum Anbraten)",
       "1 Zwiebel",
       "1 rote Paprika",
@@ -2241,7 +2241,7 @@
     "category_name": "Mittagessen",
     "ingredients": [
       "1½ cups Arborio-Reis",
-      "2 tbsp Cannabis-Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "1 Zwiebel",
       "3 Knoblauchzehen",
       "400g gemischte Pilze",
@@ -2310,7 +2310,7 @@
       "1 großer Romanasalat",
       "½ cup Parmesan, gehobelt",
       "Croutons",
-      "Dressing: 2 tbsp Cannabis-Olivenöl, 1 tbsp Zitronensaft, 1 tsp Dijon-Senf, 1 tsp Worcestersauce, 1 Knoblauchzehe, 3 tbsp Mayonnaise, Salz"
+      "Dressing: 1 EL infundiertes Olivenöl + 1 EL Olivenöl, 1 tbsp Zitronensaft, 1 tsp Dijon-Senf, 1 tsp Worcestersauce, 1 Knoblauchzehe, 3 tbsp Mayonnaise, Salz"
     ],
     "instructions": [
       "Alle Dressingzutaten verquirlen.",
@@ -2390,7 +2390,7 @@
       "½ rote Zwiebel, in Ringe geschnitten",
       "½ Tasse Kalamata-Oliven",
       "150g Feta, gewürfelt",
-      "Dressing: 3 EL Cannabis-Olivenöl, 1 EL Rotweinessig, 1 TL Oregano, Salz"
+      "Dressing: 1 EL infundiertes Olivenöl + 2 EL Olivenöl, 1 EL Rotweinessig, 1 TL Oregano, Salz"
     ],
     "instructions": [
       "Gemüse und Oliven vermengen.",
@@ -2429,7 +2429,7 @@
       "2 Tassen gekochter Reis",
       "1 Dose schwarze Bohnen",
       "1 Tasse Mais",
-      "Cannabis-Limetten-Dressing: Saft von 2 Limetten + 2 EL Cannabis-Olivenöl",
+      "Cannabis-Limetten-Dressing: Saft von 2 Limetten + 1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "Avocado, Salsa, Sauerrahm, Koriander"
     ],
     "instructions": [
@@ -2450,7 +2450,7 @@
       "1 TL Koriander",
       "2 EL Mehl",
       "Öl zum Frittieren",
-      "Cannabis-Tahini: 3 EL Tahini + 2 EL Cannabis-Olivenöl + Zitrone + Wasser",
+      "Cannabis-Tahini: 3 EL Tahini + 1 EL infundiertes Olivenöl + 1 EL Olivenöl + Zitrone + Wasser",
       "Fladenbrote, Salat, Tomate, Gurke"
     ],
     "instructions": [
@@ -2470,7 +2470,7 @@
       "4 Knoblauchzehen",
       "2 EL Olivenöl",
       "3 Tassen Gemüsebrühe",
-      "½ Tasse Cannabis-Sahne (mit der Cannabismenge aus dem Rechner)",
+      "½ Tasse Cannabis-Sahne",
       "1 TL Muskatnuss",
       "Salz, Pfeffer",
       "Geröstete Kürbiskerne"
@@ -2530,7 +2530,7 @@
       "3 große reife Tomaten, in Scheiben geschnitten",
       "250g frischer Mozzarella, in Scheiben geschnitten",
       "1 Bund frisches Basilikum",
-      "3 EL Cannabis-Olivenöl extra vergine (mit der Cannabismenge aus dem Rechner)",
+      "1 EL infundiertes Olivenöl + 2 EL Olivenöl",
       "1 EL Balsamico-Glasur",
       "Grobes Meersalz, schwarzer Pfeffer"
     ],
@@ -2591,7 +2591,7 @@
       "1 TL Trockenhefe",
       "½ TL Salz",
       "¾ Tasse warmes Wasser",
-      "2 EL Cannabis-Olivenöl (mit der Cannabismenge aus dem Rechner): 1 EL für den Teig, 1 EL zum Beträufeln",
+      "2 EL Cannabis-Olivenöl: 1 EL für den Teig, 1 EL zum Beträufeln",
       "Belag: ½ Tasse Tomatensauce, 150g Mozzarella, Belag nach Wahl",
       "Normales Olivenöl zum Einfetten des Blechs"
     ],
@@ -2617,7 +2617,7 @@
       "1 TL Kurkuma",
       "1 TL Garam Masala",
       "3 Tassen Wasser",
-      "2 EL Cannabis-Ghee (mit der Cannabismenge aus dem Rechner)",
+      "2 EL Cannabis-Ghee",
       "Salz, Koriander"
     ],
     "instructions": [
@@ -2641,7 +2641,7 @@
       "6 Knoblauchzehen, fein gehackt",
       "3 Lorbeerblätter",
       "Salz und schwarzer Pfeffer nach Geschmack",
-      "3 EL Cannabis-Olivenöl (mit der Cannabismenge aus dem Rechner)",
+      "2 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "Orangenscheiben zum Garnieren"
     ],
     "instructions": [
@@ -2659,7 +2659,7 @@
     "ingredients": [
       "1 Dose (14 oz) gezuckerte Kondensmilch",
       "2 EL ungesüßtes Kakaopulver",
-      "1 EL Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "1 EL Cannabutter",
       "1 Prise Salz",
       "Schokoladenstreusel zum Wälzen"
     ],
@@ -2678,7 +2678,7 @@
     "ingredients": [
       "2 Tassen geröstete ungesalzene Erdnüsse",
       "1 Tasse Zucker",
-      "1 EL Cannabutter, geschmolzen (mit der Cannabismenge aus dem Rechner)",
+      "1 EL Cannabutter, geschmolzen",
       "1 Prise Salz"
     ],
     "instructions": [
@@ -2697,7 +2697,7 @@
       "2 Tassen gekochtes, zerzupftes Hähnchenfleisch",
       "1 EL Frischkäse",
       "2 Tassen Hühnerbrühe",
-      "2 EL Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 EL Cannabutter",
       "2 Tassen Allzweckmehl",
       "Salz und Pfeffer nach Geschmack",
       "2 Eier, verquirlt",
@@ -2719,7 +2719,7 @@
     "ingredients": [
       "2 Tassen Tapiokamehl (Polvilho Azedo)",
       "½ Tasse Milch",
-      "¼ Tasse Cannabis-Olivenöl (mit der Cannabismenge aus dem Rechner)",
+      "¼ Tasse Cannabis-Olivenöl",
       "1 Ei",
       "1 Tasse geriebener Parmesan oder Minas-Käse",
       "½ TL Salz"
@@ -2762,7 +2762,7 @@
       "2 Tomaten, gehackt",
       "1 Dose (400ml) Kokosmilch",
       "2 EL Dendê-Öl (Palmöl)",
-      "2 EL Cannabis-Olivenöl (mit der Cannabismenge aus dem Rechner)",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "Frischer Koriander, Salz und Pfeffer"
     ],
     "instructions": [
@@ -2798,7 +2798,7 @@
     "category_name": "International",
     "ingredients": [
       "1 Dose (14 oz) gezuckerte Kondensmilch",
-      "1 EL Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "1 EL Cannabutter",
       "½ Tasse Kokosraspeln, plus mehr zum Wälzen",
       "1 Prise Salz",
       "Ganze Gewürznelken zur Dekoration"
@@ -2937,7 +2937,7 @@
     "ingredients": [
       "1,3 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "1 französisches Baguette, in 1-cm-Scheiben geschnitten",
-      "3 Esslöffel Cannabis-Olivenöl",
+      "2 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "4 große reife Tomaten, gewürfelt",
       "1/4 Tasse frisches Basilikum in feinen Streifen",
       "2 Knoblauchzehen, fein gehackt",
@@ -3109,11 +3109,11 @@
       "1 Salatgurke, in feine Streifen geschnitten",
       "1 Avocado, dünn geschnitten",
       "Frische Minz- und Korianderblätter",
-      "2 Esslöffel Cannabis-Sesamöl (für die Soße)",
+      "2 EL infundiertes Olivenöl + 1 EL geröstetes Sesamöl (für die Soße)",
       "3 Esslöffel Sojasauce, 1 Esslöffel Limettensaft, 1 Teelöffel Sriracha (für die Soße)"
     ],
     "instructions": [
-      "Für die Dippsoße Cannabis-Sesamöl, Sojasauce, Limettensaft und Sriracha verrühren. Beiseite stellen.",
+      "Für die Dippsoße infundiertes Olivenöl, Sesamöl, Sojasauce, Limettensaft und Sriracha verrühren. Beiseite stellen und vor dem Servieren noch einmal verrühren.",
       "Ein Reispapierblatt 10-15 Sekunden in warmes Wasser tauchen, bis es biegsam ist. Auf eine feuchte Fläche legen.",
       "Eine kleine Menge Nudeln, Rotkohl, Karotte, Gurke, Avocado, Minze und Koriander in die Mitte legen.",
       "Die untere Kante über die Füllung falten, die Seiten einschlagen und straff aufrollen.",
@@ -3292,7 +3292,7 @@
     "ingredients": [
       "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "10 Maistortillas, jeweils in 6 Dreiecke geschnitten",
-      "3 Esslöffel Cannabis-Olivenöl",
+      "2½ EL infundiertes Olivenöl + 1½ TL Olivenöl",
       "1 Teelöffel Meersalz",
       "1/2 Teelöffel gemahlener Kreuzkümmel",
       "4 große reife Tomaten, gewürfelt (für die Salsa)",
@@ -3575,7 +3575,7 @@
     "ingredients": [
       "250g Schweinehackfleisch",
       "150g rohe Garnelen, geschält und gewürfelt",
-      "2 Esslöffel Cannabis-infundiertes Öl",
+      "2 EL infundiertes Kokosöl, geschmolzen",
       "1 Esslöffel Sojasauce",
       "1 Teelöffel Sesamöl",
       "1 Teelöffel Austernsauce",
@@ -3585,7 +3585,7 @@
       "Sojasauce und Chili-Öl zum Dippen"
     ],
     "instructions": [
-      "Hackfleisch, Garnelen, Cannabis-Öl, Sojasauce, Sesamöl, Austernsauce, Ingwer und Frühlingszwiebeln gründlich vermengen.",
+      "Hackfleisch, Garnelen, das geschmolzene infundierte Kokosöl, Sojasauce, Sesamöl, Austernsauce, Ingwer und Frühlingszwiebeln gründlich vermengen.",
       "Einen Esslöffel Füllung auf jedes Teigblatt geben. Ränder befeuchten und mit Falten verschließen.",
       "Einen Bambuskorb mit Backpapier oder Kohlblättern auslegen.",
       "Die Teigtaschen mit Abstand anordnen. 8-10 Minuten über kochendem Wasser dämpfen.",
@@ -3803,7 +3803,7 @@
     "category_name": "International",
     "ingredients": [
       "250g Brotmehl",
-      "2 Esslöffel Cannabis-infundiertes Olivenöl",
+      "1 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "1/2 Tasse warmes Wasser",
       "Prise Salz",
       "200g Crème fraîche",
@@ -4041,7 +4041,7 @@
     "description": "Klassische Cannabis-Enchiladas, gefüllt mit gewürztem Hähnchen, übergossen mit roter Chilisauce und überbacken mit geschmolzenem Käse für ein sättigendes mexikanisches Abendessen.",
     "category_name": "International",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "8 Maistortillas",
       "2 Tassen gekochtes, zerkleinertes Hähnchenfleisch",
       "2 Tassen rote Enchilada-Sauce",
@@ -4111,7 +4111,7 @@
     "description": "Cannabis-infundierter mexikanischer Straßenmais, bestrichen mit cremiger Cannabutter, Cotija-Käse, Chilipulver und Limette für eine unwiderstehliche THC-infundierte Beilage.",
     "category_name": "International",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "6 frische Maiskolben, geschält",
       "1/3 Tasse Mayonnaise",
       "1/2 Tasse zerbröckelter Cotija-Käse",
@@ -4133,7 +4133,7 @@
     "description": "Goldene Cannabis-Churro-Häppchen mit Zimt und Zucker, aus mit Cannabutter angereichertem Teig frittiert und mit warmer Schokoladensauce serviert.",
     "category_name": "International",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "1 Tasse Wasser",
       "2 Esslöffel normale Butter",
       "2 Esslöffel Zucker",
@@ -4157,7 +4157,7 @@
     "description": "Ein wärmendes Cannabis-Pozole Rojo mit zartem Schweinefleisch, Hominy-Mais und einer aromatischen Brühe aus getrockneten Chilis — eine traditionelle mexikanische Suppe mit medizinischem Twist.",
     "category_name": "International",
     "ingredients": [
-      "2 Esslöffel Cannabis-Kokosöl (mit der Cannabismenge aus dem Rechner), plus 1 Esslöffel normales Öl zum Anbraten",
+      "2 Esslöffel Cannabis-Kokosöl, plus 1 Esslöffel normales Öl zum Anbraten",
       "700 g Schweineschulter, in 2,5 cm große Würfel geschnitten",
       "1 Dose (820 g) weißer Hominy-Mais, abgetropft und abgespült",
       "4 getrocknete Guajillo-Chilis, entstielt und entkernt",
@@ -4207,7 +4207,7 @@
     "description": "Knusprige Cannabis-Tostadas mit gewürzten Bohnen, frischen Toppings und einem Spritzer Cannabutter-Crema für eine schnelle und schmackhafte mexikanische Mahlzeit.",
     "category_name": "International",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "6 knusprige Tostada-Schalen",
       "1 Dose (425 g) Refried Beans",
       "1 Tasse geschnittener Kopfsalat",
@@ -4230,7 +4230,7 @@
     "description": "Zartes Cannabis-Birria-Rindfleisch in knusprigen, gedippten Tortillas mit geschmolzenem Käse, serviert mit einem reichhaltigen Consommé zum Dippen — das ultimative THC-Taco-Erlebnis.",
     "category_name": "International",
     "ingredients": [
-      "2 Esslöffel Cannabis-Speiseöl (mit der Cannabismenge aus dem Rechner), plus 1 Esslöffel normales Öl zum Anbraten",
+      "2 Esslöffel Cannabis-Speiseöl, plus 1 Esslöffel normales Öl zum Anbraten",
       "900 g Rinderschmorbraten, in große Stücke geschnitten",
       "4 getrocknete Guajillo-Chilis, entstielt und entkernt",
       "2 getrocknete Ancho-Chilis, entstielt und entkernt",
@@ -4255,7 +4255,7 @@
     "description": "Ein köstlicher Cannabis-Tres-Leches-Kuchen, getränkt in drei Milchsorten und mit Schlagsahne gekrönt — dieses ikonische mexikanische Dessert bietet ein butterweiches Genusserlebnis.",
     "category_name": "International",
     "ingredients": [
-      "1/4 Tasse Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "1/4 Tasse Cannabutter",
       "1 Tasse Weizenmehl",
       "5 große Eier, getrennt",
       "1 Tasse Zucker",
@@ -4280,7 +4280,7 @@
     "description": "Ein atemberaubender Cannabis-Red-Velvet-Kuchen mit zartem Krümel und würzigem Frischkäse-Frosting, perfekt dosiert für ein dekadentes Desserterlebnis.",
     "category_name": "Desserts",
     "ingredients": [
-      "1/4 Tasse Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "1/4 Tasse Cannabutter",
       "2 1/2 Tassen Weizenmehl",
       "1 1/2 Tassen Zucker",
       "1/2 Tasse weiche normale Butter",
@@ -4305,7 +4305,7 @@
     "description": "Weiche und zähe Cannabis-Snickerdoodle-Kekse, gewälzt in Zimtzucker, die den klassischen Komfort-Keks-Geschmack mit einem präzise dosierten THC-Boost liefern.",
     "category_name": "Desserts",
     "ingredients": [
-      "1/2 Tasse Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "1/2 Tasse Cannabutter",
       "1/2 Tasse weiche normale Butter",
       "1 1/2 Tassen Zucker",
       "2 große Eier",
@@ -4353,7 +4353,7 @@
     "description": "Cremige Cannabis-Erdbeer-Käsekuchen-Riegel mit butterigem Keksboden und frischem Erdbeerwirbel — ein perfekt portioniertes THC-Dessert.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "1 1/2 Tassen Kekskrümel (Butterkekse)",
       "1/4 Tasse geschmolzene normale Butter",
       "450 g weicher Frischkäse",
@@ -4377,7 +4377,7 @@
     "description": "Zähe Cannabis-Haferflockenkekse mit Rosinen, vollgepackt mit Haferflocken, saftigen Rosinen und warmen Gewürzen für eine gesunde, medizinische Variante eines zeitlosen Keksklassikers.",
     "category_name": "Desserts",
     "ingredients": [
-      "1/4 Tasse Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "1/4 Tasse Cannabutter",
       "1/2 Tasse weiche normale Butter",
       "3/4 Tasse fest gepackter brauner Zucker",
       "1/4 Tasse Zucker",
@@ -4402,7 +4402,7 @@
     "description": "Ein säuerlich-erfrischender Cannabis-Key-Lime-Pie mit butterigem Keksboden und seidiger Zitrusfüllung, gekrönt mit luftiger Schlagsahne.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "1 1/2 Tassen Kekskrümel (Butterkekse)",
       "1/3 Tasse geschmolzene normale Butter",
       "3 Eigelbe",
@@ -4425,7 +4425,7 @@
     "description": "Dicke Cannabis-French-Toast-Scheiben, getränkt in reichhaltiger Eiermischung und in Cannabutter goldbraun gebraten, serviert mit Ahornsirup und frischen Beeren.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "6 dicke Scheiben Brioche- oder Challah-Brot",
       "3 große Eier",
       "3/4 Tasse Vollmilch",
@@ -4448,7 +4448,7 @@
     "description": "Seidig-zarte Cannabis-Crème-Brûlée mit knuspriger karamellisierter Zuckerkruste für ein elegantes und präzise dosiertes THC-Dessert-Erlebnis.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "2 Tassen Schlagsahne",
       "5 große Eigelbe",
       "1/2 Tasse Zucker, plus extra für das Topping",
@@ -4491,7 +4491,7 @@
     "description": "Fluffige Cannabis-Schokoladen-Muffins mit zartem Krümel und geschmolzenen Schokoladenstückchen — ein perfekt portionierter THC-Genuss zum Frühstück oder als Snack.",
     "category_name": "Desserts",
     "ingredients": [
-      "1/4 Tasse Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "1/4 Tasse Cannabutter",
       "1/4 Tasse geschmolzene normale Butter",
       "2 Tassen Weizenmehl",
       "3/4 Tasse Zucker",
@@ -4541,7 +4541,7 @@
     "description": "Ein dekadenter Cannabis-Pekannuss-Pie mit klebrig-karamelligem Belag voller gerösteter Pekannüsse in einem butterigen Boden — ein Südstaaten-Klassiker mit THC-Infusion.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "1 ungebackener Pie-Boden (23 cm)",
       "1 Tasse heller Maissirup",
       "1 Tasse fest gepackter brauner Zucker",
@@ -4565,7 +4565,7 @@
     "description": "Cremiger geschichteter Cannabis-Bananenpudding mit Vanillekeksen, Bananenscheiben und einem üppigen hausgemachten Eierguss — ein Südstaaten-Favorit mit sanfter THC-Dosierung.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabutter",
       "3/4 Tasse Zucker",
       "1/3 Tasse Weizenmehl",
       "Prise Salz",
@@ -4589,7 +4589,7 @@
     "description": "Hausgemachte Cannabis-Erdnussbutter-Pralinen mit glatter Schokoladenhülle und süßem Erdnussbutterkern — einfach herzustellen und perfekt portioniert für gleichmäßige Dosierung.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabis-Kokosöl (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabis-Kokosöl",
       "2 Tassen Zartbitterschokoladen-Chips",
       "1 Tasse cremige Erdnussbutter",
       "1/2 Tasse Puderzucker",
@@ -4610,7 +4610,7 @@
     "description": "Zarte Cannabis-Macarons mit knusprigen Schalen, zähen Mitten und einer Cannabutter-Ganache-Füllung — ein elegantes THC-Konfekt für den abenteuerlustigen Bäcker.",
     "category_name": "Desserts",
     "ingredients": [
-      "2 Esslöffel Cannabutter (mit der Cannabismenge aus dem Rechner), für die Füllung",
+      "2 Esslöffel Cannabutter, für die Füllung",
       "1 Tasse Mandelmehl, gesiebt",
       "1 3/4 Tassen Puderzucker, gesiebt",
       "3 große Eiweiße, Raumtemperatur",
@@ -4660,7 +4660,7 @@
     "description": "Zartes, mit Cannabis infundiertes BBQ-Hähnchen, langsam gegart mit rauchiger Sauce und Cannabisbutter, perfekt für Sandwiches oder über Reis serviert.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "680g Hähnchenbrust ohne Knochen und Haut",
       "1 Tasse BBQ-Sauce",
       "1/4 Tasse Hühnerbrühe",
@@ -4733,7 +4733,7 @@
     "description": "Herzhafter, mit Cannabis infundierter Rindfleischeintopf mit Wurzelgemüse und kräftiger Sauce, verfeinert mit Cannabisbutter.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "680g Rindfleisch zum Schmoren, in 2,5cm Würfel geschnitten",
       "3 mittlere Kartoffeln, geschält und gewürfelt",
       "3 Karotten, geschält und in Scheiben geschnitten",
@@ -4809,7 +4809,7 @@
     "description": "Geschichtete Cannabis-Lasagne mit reichhaltiger Fleischsauce, cremiger Ricotta-Füllung und Cannabisbutter für ein klassisches italienisches Edible-Gericht.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "12 Lasagneplatten",
       "450g Rinderhackfleisch",
       "2 Tassen Marinara-Sauce",
@@ -4857,7 +4857,7 @@
     "description": "Aromatisches, mit Cannabis infundiertes Hähnchen Tikka Masala in cremiger Tomatensauce mit warmen Gewürzen und Cannabisbutter, serviert mit Basmatireis.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "680g Hähnchenoberkeulen ohne Knochen, gewürfelt",
       "1 Tasse Naturjoghurt",
       "1 Dose (400g) stückige Tomaten",
@@ -4932,7 +4932,7 @@
     "description": "Farbenfrohe, mit Cannabis infundierte gefüllte Paprika mit gewürztem Rindfleisch, Reis und geschmolzenem Käse, zubereitet mit Cannabisbutter.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner), geschmolzen, plus 1 Esslöffel normales Öl",
+      "2 Esslöffel Cannabisbutter, geschmolzen, plus 1 Esslöffel normales Öl",
       "6 große Paprikaschoten, Deckel entfernt und entkernt",
       "450g Rinderhackfleisch",
       "1 Tasse gekochter Reis",
@@ -4957,7 +4957,7 @@
     "description": "Dicke, cremige Cannabis-Muschelsuppe nach New-England-Art mit zarten Kartoffeln, rauchigem Speck und Cannabisbutter.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "2 Dosen (je 185g) gehackte Muscheln, Flüssigkeit aufbewahrt",
       "4 Scheiben Speck, gewürfelt",
       "2 mittlere Kartoffeln, geschält und gewürfelt",
@@ -4983,7 +4983,7 @@
     "description": "Klassischer, mit Cannabis infundierter Shepherd's Pie mit herzhaftem Lammhack, Mischgemüse und cremigem Kartoffelpüree aus Cannabisbutter.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "680g Lammhackfleisch",
       "4 große Kartoffeln, geschält und gewürfelt",
       "1 Tasse gefrorene Erbsen und Mais",
@@ -5008,7 +5008,7 @@
     "description": "Proteinreiche, mit Cannabis infundierte Keto-Eier-Muffins mit Käse, Speck und Gemüse, zubereitet mit Cannabisbutter für einen kohlenhydratarmen essbaren Snack.",
     "category_name": "Keto",
     "ingredients": [
-      "2 Esslöffel geschmolzene Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel geschmolzene Cannabisbutter",
       "8 große Eier",
       "4 Scheiben Speck, gebraten und zerbröselt",
       "1/2 Tasse geriebener Cheddar-Käse",
@@ -5031,7 +5031,7 @@
     "description": "Reichhaltiges, cremiges Cannabis-Keto-Butter-Chicken in gewürzter Tomatensauce mit Cannabisbutter für eine kohlenhydratarme, fettreiche essbare Mahlzeit.",
     "category_name": "Keto",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "680g Hähnchenoberkeulen ohne Knochen, gewürfelt",
       "1/2 Tasse Vollfett-Naturjoghurt",
       "1 Dose (400g) stückige Tomaten",
@@ -5081,7 +5081,7 @@
     "description": "Herzhafte Cannabis-Keto-Speck-Cheeseburger-Häppchen mit Hackfleisch, Käse und knusprigem Speck, zubereitet mit Cannabisbutter für kohlenhydratarmes Snacken.",
     "category_name": "Keto",
     "ingredients": [
-      "2 Esslöffel geschmolzene Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel geschmolzene Cannabisbutter",
       "450g Rinderhackfleisch",
       "6 Scheiben Speck, gebraten und zerbröselt",
       "1 Tasse geriebener Cheddar-Käse",
@@ -5106,7 +5106,7 @@
     "description": "Knusprige Cannabis-Keto-Knoblauch-Parmesan-Wings, goldbraun gebacken und in herzhafter Cannabisbutter-Knoblauchsauce geschwenkt.",
     "category_name": "Keto",
     "ingredients": [
-      "2 Esslöffel Cannabisbutter (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel Cannabisbutter",
       "900g Hähnchenflügel",
       "1/2 Tasse geriebener Parmesan",
       "4 Knoblauchzehen, fein gehackt",
@@ -5181,7 +5181,7 @@
     "description": "Farbenfrohe, mit Cannabis infundierte vegane gefüllte Paprika mit gewürztem Reis, schwarzen Bohnen und Mais, zubereitet mit Cannabis-Kokosöl.",
     "category_name": "Vegan",
     "ingredients": [
-      "2 Esslöffel mit Cannabis infundiertes Kokosöl (mit der Cannabismenge aus dem Rechner)",
+      "2 Esslöffel mit Cannabis infundiertes Kokosöl",
       "6 große Paprikaschoten, Deckel entfernt und entkernt",
       "1 Tasse gekochter brauner Reis",
       "1 Dose (425g) schwarze Bohnen, abgetropft und abgespült",
@@ -5232,7 +5232,7 @@
     "description": "Cremiges, mit Cannabis infundiertes veganes Pilz-Stroganoff mit reichhaltiger Cashew-Sahnesauce und Cannabis-Kokosöl, serviert über eifreien Nudeln.",
     "category_name": "Vegan",
     "ingredients": [
-      "2 Esslöffel mit Cannabis infundiertes Kokosöl (mit der Cannabismenge aus dem Rechner), plus 1 Esslöffel normales Öl zum Anbraten",
+      "2 Esslöffel mit Cannabis infundiertes Kokosöl, plus 1 Esslöffel normales Öl zum Anbraten",
       "450g gemischte Pilze (Champignons, Shiitake), geschnitten",
       "340g eifreie Nudeln",
       "1 Tasse rohe Cashewkerne, 2 Stunden eingeweicht",

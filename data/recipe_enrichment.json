@@ -2190,7 +2190,7 @@
       "cannabis edible",
       "mocktails"
     ],
-    "base_fat": "cannabis tincture",
+    "base_fat": "infused honey",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "citrus",
@@ -2899,7 +2899,7 @@
       "THC veggie rolls",
       "infused spring rolls"
     ],
-    "base_fat": "cannabis oil",
+    "base_fat": "infused olive oil",
     "cook_temp": "No cooking required",
     "texture_type": "fresh",
     "sub_category": "finger_food",
@@ -3295,7 +3295,7 @@
       "weed dim sum",
       "infused chinese dumplings"
     ],
-    "base_fat": "cannabis oil",
+    "base_fat": "infused coconut oil",
     "cook_temp": "steam",
     "texture_type": "steamed",
     "sub_category": "chinese",
