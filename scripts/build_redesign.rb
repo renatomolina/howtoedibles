@@ -573,14 +573,22 @@ def build_recipe_page(recipe, lang)
   # ---- long-tail sections (template text + the recipe's own sentences)
   sub = enrich["sub_category"] || "general"
   tmpl = get_recipe_section_template(lang, cat, sub)
-  vars = { "name" => name, "base_fat" => enrich["base_fat"] || "cannabutter", "cook_temp" => enrich["cook_temp"] || "350°F / 180°C", "category" => cat }
+  # #92: the translated templates get the fat, temperature and category in their language (i18n/recipe_vars.json),
+  # and the determiner before %{base_fat} agrees with the fat's gender (the templates assume pt/es masculine, de neuter).
+  fat_en, temp_en = enrich["base_fat"] || "cannabutter", enrich["cook_temp"] || "350°F / 180°C"
+  fat, gender = RECIPE_VARS.dig(lang, "base_fat", fat_en) || [fat_en]
+  vars = { "name" => name, "base_fat" => fat, "cook_temp" => RECIPE_VARS.dig(lang, "cook_temp", temp_en) || temp_en, "category" => category_t(lang, cat) }
+  agree = RECIPE_VARS.dig(lang, "agree", gender.to_s) || {}
+  # ponytail: word swap on the 2 words before the slot ("no seu" → "na sua"), not grammar; a German nominative after a masculine fat stays accusative
+  ip = ->(x, v = vars) { interpolate(x.is_a?(String) ? x.gsub(/(?:\S+ )?\S+(?= %\{base_fat\})/) { |w| w.split(" ").map { |y| agree[y] || y }.join(" ") } : x, v) }
   own = ->(k) { x = recipe_t(lang, slug, k) || enrich[k]; x && !x.empty? ? [x] : [] }
-  list = ->(k, u = nil) { (tmpl[k] || []).map { |x| interpolate(x, vars) } + (u ? own.(u) : []) }
-  label = ->(k) { interpolate(get_section_label(lang, k), vars) }
-  intro = "#{interpolate(tmpl["intro"] || "", vars.merge("name" => name.downcase))} #{own.("intro_unique").first}".strip
+  list = ->(k, u = nil) { (tmpl[k] || []).map { |x| ip.(x) } + (u ? own.(u) : []) }
+  label = ->(k) { ip.(get_section_label(lang, k)) }
+  # German capitalises nouns, so its recipe name keeps its case in the intro sentence
+  intro = "#{ip.(tmpl["intro"] || "", vars.merge("name" => lang == "de" ? name : name.downcase))} #{own.("intro_unique").first}".strip
   tips = list.("dosing_tips", "dosing_unique")
   accs = [["common_mistakes", list.("common_mistakes")], ["storage", list.("storage", "storage_unique")], ["variations", list.("variations", "variation_unique")]].reject { |_, l| l.empty? }
-  faqs = (tmpl["faq"] || []).map { |f| [interpolate(f["q"], vars), interpolate(f["a"], vars)] }
+  faqs = (tmpl["faq"] || []).map { |f| [ip.(f["q"]), ip.(f["a"])] }
   ul = ->(l) { %(<ul class="tips">#{l.map { |x| "<li>#{x}</li>" }.join}</ul>) }
   pm = %(<span class="pm">#{ICON[:plus]}</span>)
 

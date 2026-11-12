@@ -17,6 +17,8 @@ class Site
     @i18n = LANGS.drop(1).to_h { |l| [l, j.("i18n/recipes_#{l}.json")] }
     @sections = LANGS.to_h { |l| [l, j.("i18n/recipe_sections_#{l}.json")] }
     @by_slug = @recipes.to_h { |r| [r["slug"], r] }
+    vp = File.join(root, "i18n/recipe_vars.json")
+    @vars = File.exist?(vp) ? JSON.parse(File.read(vp)) : {}
   end
 
   def recipe(slug); @by_slug.fetch(slug); end
@@ -53,7 +55,9 @@ class Site
     sub = e["sub_category"] || "general"
     tcat, tsub = sub.include?("/") ? sub.split("/", 2) : [r["category_name"], sub]
     tmpl = @sections.dig(lang, "templates", tcat, tsub) || @sections.dig("en", "templates", tcat, tsub) || {}
-    vars = { "name" => name, "base_fat" => e["base_fat"] || "cannabutter", "cook_temp" => e["cook_temp"] || "350°F / 180°C", "category" => r["category_name"] }
+    # the translated value of %{base_fat}/%{cook_temp} (i18n/recipe_vars.json, #92), as the build does; English otherwise
+    fat_en, temp_en = e["base_fat"] || "cannabutter", e["cook_temp"] || "350°F / 180°C"
+    vars = { "name" => name, "base_fat" => (@vars.dig(lang, "base_fat", fat_en) || [fat_en])[0], "cook_temp" => @vars.dig(lang, "cook_temp", temp_en) || temp_en, "category" => r["category_name"] }
     ip = ->(x) { Site.plain(interpolate(x, vars)) }
     own = %w[intro_unique dosing_unique storage_unique variation_unique].to_h { |k| [k, Site.plain(rt(lang, slug, k) || e[k] || "")] }
     {

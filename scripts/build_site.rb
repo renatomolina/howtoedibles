@@ -77,8 +77,22 @@ ALL_LANGS.each do |lang|
   end
 end
 
-# Load per-recipe unique sentence translations
 RECIPE_I18N["en"] = {} # English recipes use data directly from recipes.json
+
+# #92: the per-recipe sentences (*_unique) are translated into recipes_{lang}.json with "unique_src", a hash of the
+# English they came from, and %{base_fat}/%{cook_temp} values into recipe_vars.json. When the English changes or
+# gains a value, the page falls back to English (or keeps the old translation), so say so instead of failing the build.
+UNIQUE_FIELDS = %w[intro_unique dosing_unique storage_unique variation_unique].freeze
+def unique_src(enrich)
+  Digest::SHA1.hexdigest(UNIQUE_FIELDS.map { |k| enrich[k].to_s }.join("\n"))
+end
+RECIPE_VARS = JSON.parse(File.read(File.join(I18N_DIR, "recipe_vars.json")))
+LANGS.each do |lang|
+  stale = ENRICHMENT.select { |slug, e| (s = RECIPE_I18N[lang].dig(slug, "unique_src")).nil? || s != unique_src(e) }.keys
+  missing = %w[base_fat cook_temp].flat_map { |k| ENRICHMENT.values.map { |e| e[k] }.compact.uniq.reject { |v| RECIPE_VARS.dig(lang, k, v) } }
+  warn "WARNING: #{lang}: *_unique translation missing or stale for #{stale.size} recipes: #{stale.first(12).join(", ")} (content/translations/recipes/BRIEF.md)" if stale.any?
+  warn "WARNING: #{lang}: no translation in i18n/recipe_vars.json for #{missing.uniq.join(" | ")} (content/translations/recipes/BRIEF.md)" if missing.any?
+end
 
 puts "Building site from #{RECIPES.count} recipes across #{CATEGORIES.count} categories in #{ALL_LANGS.count} languages..."
 puts "Recipe pages generated for ALL languages (en, pt, es, de, zh)."
