@@ -18,15 +18,15 @@
           "Lembre-se de que assados podem levar de 45-90 minutos para fazer efeito, pois precisam ser digeridos primeiro."
         ],
         "common_mistakes": [
-          "Assar a temperaturas acima de 350 F (175 C) por períodos prolongados pode degradar o THC. Mantenha o forno a %{cook_temp} ou abaixo e evite assar demais.",
+          "Assar demais. Asse na temperatura da receita e comece a conferir alguns minutos antes do tempo indicado; minutos a mais ressecam a massa.",
           "Pular a descarboxilação antes de infundir a gordura é o erro mais comum de iniciantes e resultará em comestíveis fracos ou inativos.",
           "Não misturar o %{base_fat} uniformemente na massa gera pontos de concentração onde um pedaço fica extremamente potente e outro praticamente sem nada.",
           "Abrir a porta do forno frequentemente causa flutuações de temperatura que podem afetar tanto o cozimento quanto a preservação dos canabinoides."
         ],
         "storage": [
-          "Armazene seu %{name} em um recipiente hermético em temperatura ambiente por até 5 dias, ou refrigere por até duas semanas.",
-          "Para armazenamento mais longo, embale cada pedaço bem apertado em filme plástico e congele por até 3 meses sem perda significativa de potência.",
-          "Sempre rotule seus comestíveis claramente com a data, a cepa utilizada e a dosagem aproximada em mg por porção para evitar consumo excessivo acidental."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Substitua o %{base_fat} por óleo de coco infundido com cannabis para uma versão sem laticínios que ainda liga o THC de forma eficaz.",
@@ -48,7 +48,7 @@
           },
           {
             "q": "Quanto tempo os assados com cannabis permanecem potentes?",
-            "a": "Quando armazenados adequadamente em um recipiente hermético, assados com cannabis mantêm sua potência total por cerca de duas semanas em temperatura ambiente. Comestíveis congelados podem permanecer potentes por três meses ou mais. Calor e luz são os principais inimigos da estabilidade do THC."
+            "a": "Mais do que eles se mantêm frescos. O THC se degrada devagar com calor, luz e ar, então o alimento fica velho ou estraga antes. Guarde bem fechado e em local fresco, siga a observação de armazenamento desta receita e congele o que não for comer logo."
           },
           {
             "q": "Posso ajustar a dosagem depois de assar?",
@@ -71,9 +71,9 @@
           "Servir diretamente do freezer sem deixar temperar por 5-10 minutos deixa muito duro para servir e difícil de porcionar com precisão."
         ],
         "storage": [
-          "Mantenha seu %{name} com cannabis em um recipiente vedado e próprio para freezer a 0 F (-18 C) ou menos por até 2 meses com potência total.",
-          "Embale porções individuais em papel manteiga para evitar queimadura de freezer e facilitar pegar uma dose individual.",
-          "Rotule os recipientes com a data, o conteúdo total de THC e o tamanho da porção para que qualquer pessoa na casa saiba o que está consumindo."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Use creme de coco infundido com cannabis em vez de laticínios para uma guloseima gelada vegana com excelentes propriedades de ligação ao THC.",
@@ -118,9 +118,9 @@
           "Não usar formas ou não usar formas de tamanho consistente significa que cada doce terá uma dose diferente, tornando impossível controlar o consumo."
         ],
         "storage": [
-          "Armazene os doces em um recipiente hermético em local fresco e seco. A maioria dos doces de cannabis dura de 2-4 semanas em temperatura ambiente, dependendo dos ingredientes.",
-          "Confeitaria à base de chocolate deve ser mantida abaixo de 70 F (21 C) para evitar derretimento e fat bloom, que pode parecer desagradável mas não afeta a potência.",
-          "Embale cada peça individualmente em papel manteiga ou papel de doce e rotule claramente com a dose por peça."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Adicione extratos de terpenos que combinem com a cepa de cannabis para um efeito entourage aprimorado e perfil de sabor coordenado.",
@@ -146,7 +146,7 @@
           },
           {
             "q": "Quanto tempo duram as gomas de cannabis?",
-            "a": "Gomas de cannabis armazenadas em recipiente hermético na geladeira duram de 2-4 semanas. Em temperatura ambiente duram cerca de uma semana antes que a textura se deteriore. Gomas congeladas podem durar vários meses. A potência permanece estável desde que sejam mantidas longe de calor e luz."
+            "a": "Depende dos ingredientes, então siga a observação de armazenamento de cada receita. Gomas caseiras de gelatina duram mais bem fechadas na geladeira, e congeladas duram ainda mais. O THC se mantém estável longe do calor e da luz."
           }
         ]
       },
@@ -165,9 +165,9 @@
           "Pular os períodos de descanso entre as dobras deixa a massa dura e impede a formação adequada das camadas."
         ],
         "storage": [
-          "Massa folhada de cannabis crua pode ser refrigerada por 2 dias ou congelada por até 1 mês, permitindo assar fresco sob demanda.",
-          "Folhados assados ficam melhores consumidos no mesmo dia, mas duram em recipiente hermético por 2-3 dias. Reaqueça no forno a 325 F (165 C) para melhor textura.",
-          "Rotule a massa congelada com o conteúdo total de THC e o número de porções para dosar com precisão quando for assar depois."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Use ghee infundido com cannabis para um ponto de fumaça ainda mais alto e sabor amanteigado que funciona perfeitamente em massa folhada e croissants.",
@@ -212,9 +212,9 @@
           "Usar gordura de cannabis em excesso muda a textura do pudim de cremosa para oleosa. Siga a proporção de gordura da receita e compense usando infusões mais concentradas."
         ],
         "storage": [
-          "Cubra cada pote de pudim com filme plástico pressionado diretamente contra a superfície para evitar a formação de película. Refrigere por até 5 dias.",
-          "Pudins com cannabis não congelam bem, pois a textura fica granulosa ao descongelar. Mantenha-os refrigerados.",
-          "Se preparar antecipadamente para uma reunião, porcione e rotule cada pote com a dose para que os convidados possam escolher seu nível de conforto."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Substitua o leite de vaca por leite de coco infundido com cannabis para uma versão vegana que tem afinidade natural para ligar canabinoides.",
@@ -254,14 +254,14 @@
         ],
         "common_mistakes": [
           "Superaquecer a mistura de creme e %{base_fat} faz os ovos coalharem quando adicionados, arruinando a textura suave e criando bolsas irregulares de THC.",
-          "Assar a temperaturas acima de %{cook_temp} faz o creme talhar e formar bolhas, afetando tanto a textura quanto a distribuição dos canabinoides.",
+          "Cozinhar o creme quente ou rápido demais. Asse em banho-maria ou mexa em fogo baixo, exatamente como diz a receita; calor demais talha os ovos e separa a gordura.",
           "Pular o banho-maria ao assar leva a bordas cozidas demais e centro cru, resultando em potência inconsistente em cada porção.",
           "Adicionar a gordura de cannabis diretamente aos ovos frios em vez de temperar lentamente resulta em separação e um creme granuloso."
         ],
         "storage": [
-          "Cubra cada ramequim com filme plástico e refrigere por até 4 dias. Cremes ficam melhores depois de uma noite na geladeira.",
-          "Cremes com cannabis não congelam bem porque as proteínas dos ovos se decompõem, resultando em uma textura aguada e separada ao descongelar.",
-          "Rotule cada ramequim com a dose e a data. Se servir para convidados, coloque um cartão ao lado indicando o conteúdo de THC."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça um creme brulee com cannabis torrificando uma fina camada de açúcar sobre seu creme gelado para uma apresentação dramática.",
@@ -290,6 +290,78 @@
             "a": "Com certeza. Flan usa a mesma base de creme com uma camada de caramelo, e manteiga ou creme com cannabis se integra perfeitamente. Panna cotta usa gelatina em vez de ovos, e creme com cannabis é uma base ideal. Ambos são excelentes veículos para dosagem precisa e elegante de cannabis."
           }
         ]
+      },
+      "no_bake": {
+        "intro": "Esta receita de %{name} não vai ao forno: o ingrediente com cannabis é misturado aos outros e a sobremesa firma na geladeira. Sobremesas sem forno são rápidas, e o único ponto crítico para a dose sair igual é misturar bem.",
+        "dosing_tips": [
+          "Misture o ingrediente com cannabis por completo enquanto a massa ainda está mole, para cada pedaço receber a mesma quantidade.",
+          "Espalhe ou monte as camadas por igual e corte no número de porções da receita. Pedaços desiguais dão doses desiguais.",
+          "Comestíveis podem levar até 2 horas para fazer efeito. Espere pelo menos 2 horas antes de comer mais."
+        ],
+        "common_mistakes": [
+          "Adicionar a gordura com cannabis muito quente. Deixe a gordura derretida amornar antes de juntar ao chocolate, creme ou ovos, para nada empelotar, talhar ou cozinhar.",
+          "Cortar antes de firmar. Deixe na geladeira pelo tempo todo da receita e corte com faca afiada em porções iguais.",
+          "Esquecer que tem cannabis. Deixe os doces sem forno etiquetados e longe das sobremesas comuns."
+        ],
+        "storage": [
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
+        ],
+        "variations": [
+          "Use o óleo de coco infusionado do site no lugar da manteiga de cannabis para uma versão sem lactose, na mesma quantidade, para a dose não mudar.",
+          "Acrescente uma cobertura sem cannabis (cacau, frutas, castanhas) para mudar o sabor sem mudar a dose."
+        ],
+        "faq": [
+          {
+            "q": "Posso usar a flor de cannabis direto, sem gordura infundida?",
+            "a": "Não. A flor não se distribui por igual numa sobremesa sem forno e deixa a textura arenosa. Faça antes a gordura infundida; a lista de ingredientes tem o link."
+          },
+          {
+            "q": "Por que a cannabis precisa ser descarboxilada se nada vai ao forno?",
+            "a": "A cannabis crua tem principalmente THCA, que não dá efeito até ser aquecido. As receitas-base do site já incluem essa etapa, então a gordura infundida está pronta para usar."
+          },
+          {
+            "q": "Como faço para cada pedaço ter a mesma dose?",
+            "a": "Misture bem, pressione ou monte a massa numa espessura uniforme e corte exatamente no número de porções usado no cálculo da dose. Pesar os pedaços é o jeito mais preciso."
+          }
+        ]
+      },
+      "stovetop": {
+        "intro": "Esta receita de %{name} é feita no fogão, não no forno. O ingrediente com cannabis vai na massa ou é pincelado no fim; ele não é a gordura de cozinhar ou de fritar. Siga os passos para saber onde entra a cannabis e porcione com cuidado para a dose sair igual.",
+        "dosing_tips": [
+          "Misture bem o ingrediente com cannabis na massa antes de começar a cozinhar, para cada unidade receber a mesma quantidade.",
+          "Use a mesma colher ou concha para cada unidade e faça exatamente o número de porções do cálculo da dose.",
+          "Comestíveis podem levar até 2 horas para fazer efeito. Espere pelo menos 2 horas antes de comer mais."
+        ],
+        "common_mistakes": [
+          "Cozinhar ou fritar na própria gordura infundida. Use manteiga ou óleo comum na frigideira ou na fritura, como diz a receita; a cannabis vai na massa ou por cima.",
+          "Deixar a massa parada sem mexer. A gordura pode subir, então mexa antes de cada concha ou colherada.",
+          "Perder a conta porque parece um café da manhã ou um doce de rua comum. Anote quantas porções você comeu."
+        ],
+        "storage": [
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
+        ],
+        "variations": [
+          "Faça uma versão sem lactose com o óleo de coco infusionado do site no lugar da manteiga de cannabis, na mesma quantidade.",
+          "Sirva com uma cobertura sem cannabis (frutas, calda, açúcar) para dar sabor sem acrescentar THC."
+        ],
+        "faq": [
+          {
+            "q": "Posso fritar no óleo com cannabis?",
+            "a": "Não é uma boa ideia: você precisaria de muito mais óleo infundido do que a receita usa, e não dá para saber quanto fica em cada unidade. Frite em óleo comum e mantenha a cannabis na massa ou por cima, como está escrito."
+          },
+          {
+            "q": "Cozinhar no fogão destrói o THC?",
+            "a": "Não nos tempos e temperaturas desta receita. O interior da massa fica bem mais frio que a frigideira ou o óleo, e a dose desta página já desconta uma parte perdida no cozimento."
+          },
+          {
+            "q": "Posso fazer com antecedência?",
+            "a": "O ideal é comer na hora. Leve as sobras à geladeira em até 2 horas, siga a observação de armazenamento acima e reaqueça numa frigideira seca ou no forno."
+          }
+        ]
       }
     },
     "Snacks": {
@@ -302,15 +374,15 @@
           "Petiscos apimentados podem mascarar o sabor da cannabis, mas também podem fazer você comer mais ou beber mais líquido, o que pode afetar a absorção."
         ],
         "common_mistakes": [
-          "Assar petiscos salgados em temperatura muito alta para deixá-los crocantes. Mantenha abaixo de %{cook_temp} ou adicione o %{base_fat} após o cozimento.",
+          "Cozinhar o petisco em temperatura alta demais depois de pôr o ingrediente com cannabis. Use a temperatura da receita ou acrescente o ingrediente com cannabis depois de cozinhar.",
           "Cobrir os itens de forma irregular significa que alguns pedaços ficam muito potentes enquanto outros não têm cannabis. Misture em uma tigela para distribuição uniforme.",
           "Fazer uma tigela grande de mix de petiscos sem calcular as doses por porção leva ao consumo descontrolado.",
           "Temperar de menos, achando que a cannabis adiciona sabor. A cannabis adiciona uma nota herbal, mas você ainda precisa temperar completamente."
         ],
         "storage": [
-          "Armazene petiscos salgados com cannabis em recipiente hermético em temperatura ambiente por até uma semana. A umidade é inimiga da crocância.",
-          "Inclua um sachê de sílica gel no recipiente para manter a crocância e evitar que a gordura de cannabis fique rançosa.",
-          "Rotule o recipiente com o conteúdo total de THC e o tamanho sugerido da porção para petiscar com responsabilidade."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Use azeite de oliva infundido com cannabis em vez de manteiga para petiscos salgados estilo mediterrâneo como crackers ou grissinis infundidos.",
@@ -355,9 +427,9 @@
           "Guardar petiscos doces onde crianças ou animais de estimação possam ter acesso. Comestíveis de cannabis devem sempre ser armazenados com segurança."
         ],
         "storage": [
-          "A maioria dos petiscos doces com cannabis se conserva bem em recipiente hermético por 1-2 semanas em temperatura ambiente, ou mais na geladeira.",
-          "Itens à base de chocolate devem ser armazenados abaixo de 70 F (21 C) para evitar derretimento. A refrigeração estende a validade para um mês.",
-          "Embale individualmente e rotule cada peça com a dose e a data de fabricação para consumo seguro e responsável."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Regue chocolate branco infundido com cannabis sobre frutas secas e nozes para um mix de trilha elegante e fácil de dosar.",
@@ -402,9 +474,9 @@
           "Deixar o molho em temperatura ambiente por muito tempo. Molhos de cannabis à base de laticínios devem ser servidos frios e devolvidos à geladeira após 2 horas."
         ],
         "storage": [
-          "Refrigere molhos de cannabis em recipientes vedados por até 5 dias. Mexa bem antes de servir novamente, pois a separação da gordura ocorre.",
-          "Homus e molhos à base de feijão com cannabis congelam razoavelmente bem por até um mês. Descongele na geladeira durante a noite.",
-          "Molhos à base de laticínios como queijo de cannabis ou molhos de cream cheese não devem ser congelados, pois a textura se degrada significativamente."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Misture óleo de coco com cannabis no guacamole para um molho infundido vegano onde a gordura do abacate mascara qualquer oleosidade.",
@@ -449,9 +521,9 @@
           "Deixar petiscos com cannabis em uma mesa comum sem rotulagem. Sempre indique claramente que contêm THC e informe a dose por unidade."
         ],
         "storage": [
-          "Armazene petiscos salgados com cannabis em um recipiente hermético em temperatura ambiente por até 5 dias, ou refrigere por até 10 dias.",
-          "Congele petiscos salgados assados por até 2 meses. Reaqueça no forno a 300 F (150 C) para melhor textura.",
-          "Rotule os recipientes com o THC total e a dose por unidade para consumo seguro e responsável."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Enrole %{base_fat} em bolinhas de queijo cobertas com ervas e nozes para um aperitivo elegante.",
@@ -496,9 +568,9 @@
           "Usar muito %{base_fat} em relação aos outros ingredientes, criando uma sensação gordurosa na boca e sabor de cannabis avassalador."
         ],
         "storage": [
-          "Refrigere pastas de cannabis em recipientes vedados por até 7 dias. Traga à temperatura ambiente por 15 minutos antes de servir para melhor textura.",
-          "Pastas de cannabis à base de pasta de amendoim podem ser armazenadas em temperatura ambiente por até 2 semanas em local fresco e escuro.",
-          "Não congele pastas de cannabis à base de laticínios, pois tendem a separar e ficar granulosas ao descongelar."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Misture %{base_fat} em homus de pimentão vermelho assado para uma pasta defumada e saborosa com emulsificação natural.",
@@ -539,13 +611,13 @@
         "common_mistakes": [
           "Fazer finger foods tão pequenos que o sabor de cannabis fica concentrado, ou tão grandes que as pessoas comem apenas metade e recebem uma dose inconsistente.",
           "Aplicar %{base_fat} como glacê externo que sai nas mãos e guardanapos, reduzindo a dose efetivamente consumida.",
-          "Cozinhar finger foods em temperaturas acima de %{cook_temp} para crispar o exterior pode degradar o THC nas superfícies expostas.",
+          "Cozinhar os petiscos mais quente ou por mais tempo do que a receita diz, para deixar crocante. Se precisar dourar mais, faça isso antes de pôr a cannabis, ou acrescente a cannabis no fim.",
           "Esquecer de considerar convidados com restrições alimentares ao escolher o formato de finger food."
         ],
         "storage": [
-          "A maioria dos finger foods com cannabis fica melhor servida fresca. Prepare os componentes antecipadamente e monte pouco antes de servir.",
-          "Refrigere finger foods com cannabis montados por até 24 horas, bem cobertos para evitar ressecamento.",
-          "Congele finger foods com cannabis não cozidos, como cogumelos recheados ou mini pastéis, por até 6 semanas e asse na hora."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Enrole queijo infundido com cannabis em presunto e uma folha de manjericão para um finger food elegante de estilo italiano com dose única.",
@@ -590,9 +662,9 @@
           "Presumir que uma massa de cannabis protege o THC durante a fritura. Mesmo itens empanados atingem temperaturas internas que podem degradar canabinoides."
         ],
         "storage": [
-          "Petiscos fritos com cannabis perdem a crocância rapidamente. Consuma em poucas horas para a melhor experiência.",
-          "Armazene o molho para mergulhar com cannabis separadamente na geladeira por até uma semana. Refrite os petiscos e reaplique.",
-          "Sal temperado com cannabis ou misturas de tempero com kief podem ser armazenados em um pote e polvilhados sobre itens recém-fritos sob demanda."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça molho buffalo com cannabis derretendo %{base_fat} com molho picante e misturando com asas ou pedaços de couve-flor recém-fritos.",
@@ -639,9 +711,9 @@
           "Usar flor demais em relação à gordura. Uma proporção padrão é 1 xícara de gordura para 7-10 gramas de flor descarboxilada. Mais flor nem sempre significa mais forte."
         ],
         "storage": [
-          "A manteiga de cannabis conserva-se refrigerada em recipiente hermético por até 2 semanas, ou congelada por 6 meses sem perda significativa de potência.",
-          "Óleo de cannabis (coco, oliva) conserva-se por 2-3 meses em local fresco e escuro. A refrigeração estende esse prazo.",
-          "Armazene em recipientes opacos ou embale em papel alumínio para proteger da luz, que degrada os canabinoides com o tempo."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Infunda óleo de coco para uma opção versátil e sem laticínios com excelente ligação ao THC devido ao seu alto teor de gordura saturada.",
@@ -686,9 +758,9 @@
           "Infundir por tempo muito curto. O leite precisa de pelo menos 45-60 minutos de fervura branda para extrair canabinoides adequadamente."
         ],
         "storage": [
-          "Leite e creme de cannabis são perecíveis. Armazene refrigerado em recipiente vedado e use dentro de 5-7 dias.",
-          "Para armazenamento mais longo, congele creme de cannabis em forminhas de gelo. Cada cubo é aproximadamente uma colher de sopa para fácil porcionamento.",
-          "Nunca armazene laticínios com cannabis em temperatura ambiente. Eles estragam na mesma velocidade que o leite comum."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Infunda creme de leite fresco e bata para fazer chantilly de cannabis para cobrir sobremesas, chocolate quente ou café.",
@@ -733,9 +805,9 @@
           "Presumir que açúcar com cannabis tem a mesma potência que óleo de cannabis. Infusões à base de açúcar são tipicamente menos concentradas e menos eficientes."
         ],
         "storage": [
-          "Mel com cannabis armazena em temperatura ambiente em um pote vedado por até 6 meses. Suas propriedades antimicrobianas naturais previnem deterioração.",
-          "Xarope simples com cannabis conserva-se refrigerado por até 3 semanas. Adicione um pouco de vodca para estender a validade para 6 semanas.",
-          "Açúcar com cannabis deve ser armazenado em um recipiente hermético em local fresco e seco. Conserva-se por vários meses sem perda de potência."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça mel infundido com cannabis aquecendo mel delicadamente com flor descarboxilada ou tintura de cannabis em fogo baixo para um adoçante dourado e versátil.",
@@ -757,7 +829,7 @@
           },
           {
             "q": "Quanto tempo dura o xarope simples com cannabis?",
-            "a": "Refrigerado em um recipiente vedado, o xarope simples com cannabis dura 2-3 semanas. Adicionar uma colher de sopa de vodca por xícara de xarope estende a validade para cerca de 6 semanas. A concentração de açúcar ajuda a preservar, mas mofo pode se desenvolver se deixado por muito tempo."
+            "a": "Como qualquer xarope caseiro, guarde bem fechado na geladeira e use dentro do prazo da observação de armazenamento da receita. Para durar mais, congele em forminhas de gelo."
           },
           {
             "q": "Posso fazer xarope de bordo com cannabis?",
@@ -780,9 +852,9 @@
           "Armazenar a tintura em frasco de vidro transparente onde a luz degrada os canabinoides. Sempre use vidro âmbar ou azul cobalto."
         ],
         "storage": [
-          "Armazene a tintura de cannabis em um frasco conta-gotas de vidro escuro em local fresco e escuro. Bem armazenadas, tinturas à base de álcool duram mais de um ano.",
-          "Tinturas à base de glicerina têm prazo de validade mais curto de 3-6 meses. A refrigeração estende isso significativamente.",
-          "Rotule cada frasco com a data, cepa, estimativa total de THC e mg por ml para uso seguro e informado."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça uma tintura à base de glicerina para uma opção sem álcool que é levemente doce e mais suave ao paladar.",
@@ -827,9 +899,9 @@
           "Guardar condimentos com cannabis junto com os comuns sem rotulagem clara leva a consumo acidental por colegas de casa."
         ],
         "storage": [
-          "A maioria dos condimentos com cannabis conserva-se refrigerada por 2-4 semanas, acompanhando o prazo de validade de suas versões sem infusão.",
-          "Molho picante e condimentos à base de vinagre com cannabis duram mais, até 2-3 meses refrigerados, devido à sua acidez.",
-          "Sempre armazene em recipientes claramente rotulados, idealmente em uma seção separada da geladeira dos condimentos comuns."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Misture %{base_fat} em maionese para um aioli com cannabis que funciona em sanduíches, hambúrgueres, batatas fritas e como molho para mergulhar.",
@@ -876,9 +948,9 @@
           "Usar azeite de cannabis para selar em fogo alto. Reserve o óleo infusionado para finalizar e regar após o cozimento."
         ],
         "storage": [
-          "Armazene sobras de massa ou arroz com cannabis em recipientes herméticos na geladeira por até 3 dias. O amido absorve a gordura, mantendo a potência estável.",
-          "Reaqueça delicadamente no fogão em fogo baixo ou no micro-ondas em potência média para preservar o THC.",
-          "Congele porções em recipientes rotulados por até 2 meses. Molhos de massa com gordura canábica congelam especialmente bem."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça pesto canábico batendo %{base_fat} com manjericão, pinoli, alho e parmesão para um molho de massa fácil e potente.",
@@ -923,9 +995,9 @@
           "Reaquecer sopa canábica em fervura rápida. Sempre reaqueça delicadamente para preservar o THC e evitar que a gordura se separe da emulsão."
         ],
         "storage": [
-          "A sopa canábica se conserva bem refrigerada por 3-5 dias. A gordura vai solidificar na superfície quando fria, então reaqueça delicadamente e mexa bem.",
-          "Congele porções por até 3 meses em recipientes rotulados. Descongele durante a noite na geladeira antes de reaquecer.",
-          "Sopas cremosas com cannabis podem se separar após o congelamento. Bata com um mixer de imersão após reaquecer para restaurar a textura."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Bata óleo de coco canábico em uma sopa tailandesa de coco para uma combinação naturalmente compatível de sabores e gorduras.",
@@ -970,9 +1042,9 @@
           "Servir uma salada grande para compartilhar sem calcular as doses por porção. Sirva individualmente com molho medido."
         ],
         "storage": [
-          "O molho canábico se conserva refrigerado em um pote por até 2 semanas. Agite vigorosamente antes de cada uso.",
-          "Saladas temperadas devem ser consumidas imediatamente. O molho canábico vai murchar as folhas se armazenados juntos.",
-          "Rotule seu molho canábico claramente e armazene separado dos molhos comuns para evitar consumo acidental."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça um vinagrete canábico com azeite infusionado, vinagre balsâmico, mostarda Dijon e mel para um molho clássico.",
@@ -1017,9 +1089,9 @@
           "Usar pasta canábica demais e encobrir os outros sabores do sanduíche. Uma camada fina e uniforme é tudo o que você precisa."
         ],
         "storage": [
-          "Sanduíches canábicos devem ser consumidos em poucas horas por questões de segurança alimentar. Refrigere se não for comer imediatamente.",
-          "A pasta canábica em si se conserva bem por 1-2 semanas refrigerada. Prepare com antecedência e aplique em pão fresco quando necessário.",
-          "Embale sanduíches canábicos de forma diferente dos comuns. Use uma embalagem de cor diferente ou adicione um rótulo claro."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça maionese canábica batendo óleo de cannabis em uma gema de ovo com um mixer de imersão para uma pasta versátil para sanduíches.",
@@ -1064,9 +1136,9 @@
           "Combinar com consumo excessivo de álcool. Cannabis e álcool intensificam um ao outro, especialmente com uma refeição completa retardando a digestão."
         ],
         "storage": [
-          "Armazene sobras de pratos principais canábicos como faria com a versão não infusionada. Refrigere em até 2 horas e consuma em 3-4 dias.",
-          "Rotule todas as sobras claramente com a dose de cannabis por porção para que porções reaquecidas sejam consumidas com segurança.",
-          "A maioria dos molhos e glacês canábicos congela bem separadamente, dando a opção de infusionar refeições futuras sem recozinhar."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça uma manteiga composta canábica com ervas e alho, depois derreta uma porção sobre bife, frango ou peixe grelhado como toque final.",
@@ -1111,9 +1183,9 @@
           "Usar azeite de oliva com cannabis para refogar alho ou vegetais em alta temperatura. Refogue primeiro e depois finalize com óleo de cannabis fora do fogo."
         ],
         "storage": [
-          "Armazene a massa com cannabis restante em um recipiente hermético na geladeira por até 3 dias. O amido absorve o molho e mantém a dose.",
-          "Reaqueça delicadamente no fogão em fogo baixo ou no micro-ondas a 50% de potência para preservar o THC.",
-          "Molhos de massa com cannabis sem os noodles congelam excelentemente por até 2 meses. Descongele e misture com massa recém-cozida."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça aglio e olio com cannabis finalizando a massa de azeite com alho com uma colher de sopa de azeite de cannabis por porção.",
@@ -1158,9 +1230,9 @@
           "Usar tanta pasta de cannabis que sobrecarrega os outros sabores e deixa o sanduíche gorduroso."
         ],
         "storage": [
-          "Sanduíches com cannabis devem ser consumidos em poucas horas para melhor qualidade. Refrigere imediatamente se não consumir na hora.",
-          "A pasta de cannabis em si conserva-se bem por 1-2 semanas refrigerada. Aplique em pão fresco conforme necessário.",
-          "Embale e rotule sanduíches com cannabis de forma distinta dos comuns usando material de embalagem diferente ou um marcador visível."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça maionese infundida com cannabis emulsificando óleo de cannabis em gema de ovo com um mixer de imersão para a pasta de sanduíche definitiva.",
@@ -1205,9 +1277,9 @@
           "Combinar um prato principal com cannabis com álcool. A combinação amplifica ambas as substâncias e pode causar náusea e ansiedade."
         ],
         "storage": [
-          "Armazene sobras de pratos principais com cannabis como faria com a versão sem infusão. Refrigere em até 2 horas e consuma em 3-4 dias.",
-          "Rotule todas as sobras com a dose de cannabis por porção para que porções reaquecidas sejam consumidas com responsabilidade.",
-          "Molhos e glacês com cannabis congelam bem separadamente por até 3 meses. Descongele e adicione a proteínas ou vegetais recém-cozidos."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça uma manteiga composta com cannabis e ervas e derreta uma porção medida sobre bife, peixe ou frango assado como toque de finalização.",
@@ -1252,9 +1324,9 @@
           "Não considerar o fio de cannabis ao calcular o conteúdo total de calorias e gordura do seu bowl saudável."
         ],
         "storage": [
-          "Bowls com cannabis montados devem ser consumidos frescos. Armazene o molho de cannabis separadamente por até 2 semanas refrigerado.",
-          "Prepare componentes de grãos e vegetais antecipadamente e armazene sem molho. Adicione o molho de cannabis fresco na hora da refeição.",
-          "Molhos de tahine e vinagrete com cannabis congelam bem em recipientes pequenos por 1-2 meses. Descongele e agite antes de usar."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça um molho de tahine com cannabis usando óleo de cannabis, tahine, limão e alho para uma cobertura de bowl de estilo mediterrâneo.",
@@ -1301,9 +1373,9 @@
           "Usar gotas de chocolate sem açúcar que incham ou derretem de forma diferente, alterando a textura e a distribuição de gordura."
         ],
         "storage": [
-          "Assados canábicos keto se conservam refrigerados por até uma semana devido ao alto teor de gordura e baixa umidade.",
-          "Congele em porções individuais por até 2 meses. O alto teor de gordura protege contra queimadura de congelamento.",
-          "Armazene em recipientes herméticos para evitar que as farinhas de oleaginosas absorvam odores da geladeira."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Use óleo MCT canábico para uma gordura sem sabor que se mistura em qualquer receita keto e pode melhorar a absorção.",
@@ -1348,9 +1420,9 @@
           "Armazenar doces keto em temperatura ambiente quando contêm cream cheese ou outros perecíveis. Refrigere sempre."
         ],
         "storage": [
-          "Doces canábicos keto se conservam refrigerados por 2 semanas ou congelados por até 3 meses em recipientes herméticos.",
-          "Fat bombs e trufas devem ser armazenadas na geladeira e trazidas à temperatura ambiente fresca por 5 minutos antes de comer para a melhor textura.",
-          "Coloque papel manteiga entre as camadas para evitar que grudem, e rotule com a dose por unidade."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça copinhos de amendoim canábicos usando chocolate sem açúcar e óleo de coco canábico no recheio.",
@@ -1395,9 +1467,9 @@
           "Não temperar de forma agressiva o suficiente. Pratos keto salgados precisam de sabores marcantes para mascarar as notas herbais da cannabis."
         ],
         "storage": [
-          "Pratos salgados canábicos keto se conservam refrigerados por 3-4 dias. O alto teor de gordura na verdade ajuda a preservar o alimento.",
-          "Rolos de manteiga composta canábica se embalam bem em papel manteiga e congelam por 3 meses. Corte uma porção para qualquer refeição.",
-          "Petiscos keto canábicos envoltos em bacon ou à base de queijo se conservam bem em recipientes fechados na geladeira por uma semana."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Derreta manteiga de cannabis sobre um bife grosso ou coxa de frango grelhada enquanto descansam para uma refeição infusionada sem esforço.",
@@ -1442,9 +1514,9 @@
           "Combinar bebidas canábicas keto com jejum intermitente de estômago vazio pode intensificar os efeitos drasticamente."
         ],
         "storage": [
-          "Bebidas canábicas keto são melhor consumidas frescas. Versões com laticínios duram 2-3 dias refrigeradas.",
-          "Prepare um concentrado de óleo MCT ou manteiga canábica e armazene, depois adicione fresco às bebidas a cada vez.",
-          "Agite ou bata bebidas canábicas keto armazenadas antes de consumir, pois a separação é inevitável."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Bata óleo MCT canábico em café bulletproof com manteiga de pasto para o ritual keto matinal definitivo.",
@@ -1491,9 +1563,9 @@
           "Usar óleo de coco refinado e perder o sabor. O não refinado tem uma doçura natural que realça muitos assados veganos."
         ],
         "storage": [
-          "Assados veganos com cannabis costumam durar um pouco mais que os com laticínios porque o óleo de coco é estável em temperatura ambiente. Armazene em recipiente hermético por até uma semana.",
-          "Congele por até 3 meses. Assados veganos descongelam bem, pois não há proteínas lácteas que se degradem.",
-          "Mantenha em temperatura ambiente, a menos que a receita contenha cream cheese vegano perecível ou ingredientes similares."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Use barras de manteiga vegana com cannabis para uma substituição direta 1:1 em qualquer receita tradicional de assados.",
@@ -1538,9 +1610,9 @@
           "Não considerar o sabor forte de coco do óleo de coco não refinado com cannabis ao fazer doces delicados."
         ],
         "storage": [
-          "Doces veganos com cannabis feitos com óleo de coco ficam firmes na geladeira e amolecem em temperatura ambiente. Armazene conforme a textura desejada.",
-          "Cascas de chocolate amargo com cannabis duram em temperatura ambiente em uma cozinha fresca. Armazene abaixo de 70 F (21 C) para melhor textura.",
-          "Doces com cannabis à base de pasta de oleaginosas duram refrigerados por 2-3 semanas ou congelados por 3 meses."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça caramelo de tâmara com cannabis misturando tâmaras, óleo de coco com cannabis e uma pitada de sal para um adoçante natural.",
@@ -1585,9 +1657,9 @@
           "Temperar pouco. Pratos veganos salgados precisam de sabores marcantes, e isso é duplamente verdadeiro quando há cannabis envolvida."
         ],
         "storage": [
-          "Pratos veganos salgados com cannabis duram 3-5 dias refrigerados. Os ingredientes à base de plantas geralmente conservam bem.",
-          "Tahine, pesto e outros molhos veganos com cannabis congelam perfeitamente por 2-3 meses.",
-          "Armazene azeite de oliva com cannabis em uma garrafa de vidro escuro em um armário fresco por até 3 meses."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Misture óleo de coco com cannabis em um curry tailandês ou indiano para uma combinação natural de gordura que mascara completamente o sabor da cannabis.",
@@ -1632,9 +1704,9 @@
           "Depender demais da cannabis como elemento de sabor. Pratos principais veganos precisam de tempero robusto com especiarias, ingredientes umami e acidez para ficarem completos."
         ],
         "storage": [
-          "Pratos principais veganos com cannabis conservam-se bem refrigerados por 3-5 dias. Os ingredientes à base de plantas se mantêm bem.",
-          "Molhos veganos com cannabis como curry, pesto e molhos de creme de coco congelam bem por até 3 meses.",
-          "Rotule todas as sobras com dose por porção e data de preparo para consumo responsável."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Misture óleo de coco com cannabis em um curry tailandês ou indiano para uma combinação natural onde o sabor de coco é bem-vindo e esperado.",
@@ -1679,9 +1751,9 @@
           "Usar óleo de coco com cannabis em um bowl de grãos onde o sabor de coco não combina. Combine o tipo de óleo com a culinária."
         ],
         "storage": [
-          "Bowls veganos com cannabis devem ser consumidos frescos. Prepare os componentes antecipadamente e adicione o fio de cannabis ao servir.",
-          "Molhos veganos com cannabis conservam-se refrigerados por até 2 semanas em potes vedados. Agite bem antes de usar.",
-          "Grãos pré-cozidos, vegetais assados e leguminosas preparadas conservam-se separadamente na geladeira por 4-5 dias para montagem rápida."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Monte um Buddha bowl com cannabis usando quinoa, batata-doce assada, grão-de-bico, folhas verdes e um fio de tahine com cannabis.",
@@ -1728,9 +1800,9 @@
           "Usar óleo de coco com cannabis em receitas onde o sabor de manteiga é essencial, como quindim. Combine o tipo de gordura com a receita."
         ],
         "storage": [
-          "Brigadeiros e docinhos enrolados com cannabis duram refrigerados por até uma semana em recipiente hermético.",
-          "Muitos doces brasileiros com cannabis congelam bem por 2-3 meses. Descongele na geladeira antes de servir.",
-          "Armazene em forminhas de papel e rotule claramente com a dose por unidade, especialmente para festas e confraternizações."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça beijinhos com cannabis substituindo o chocolate por coco na receita de brigadeiro e usando óleo de coco com cannabis.",
@@ -1769,15 +1841,15 @@
           "Esses pratos amiláceos e gordurosos podem atrasar o início dos efeitos para 60-120 minutos. Coma uma porção controlada e espere antes de repetir."
         ],
         "common_mistakes": [
-          "Fritar massa com cannabis em óleo quente desperdiça o THC, pois ele se dissolve no óleo de fritura. Asse em vez disso, ou adicione o elemento de cannabis após fritar.",
+          "Fritar massa com cannabis num óleo que você pretende reaproveitar. Frite coxinhas e outros salgados infundidos em óleo comum novo, só até dourar, e descarte esse óleo depois, porque ele pode absorver parte da gordura com cannabis.",
           "Adicionar gordura de cannabis à farofa em fogo alto no fogão. Cozinhe a farofa primeiro, depois misture a manteiga com cannabis com o fogo desligado.",
           "Fazer a massa do pão de queijo úmida demais ao adicionar óleo de cannabis extra sem reduzir outro líquido. Mantenha a proporção da massa equilibrada.",
           "Não misturar a gordura de cannabis no recheio ou na massa completamente, resultando em pontos concentrados de potência."
         ],
         "storage": [
-          "Pão de queijo e salgadinhos similares com cannabis duram refrigerados por 3-4 dias. Reaqueça no forno a 325 F (165 C).",
-          "Bolinhas de massa de pão de queijo com cannabis não assadas congelam perfeitamente por até 2 meses. Asse direto do congelador, adicionando alguns minutos extras.",
-          "Farofa com cannabis dura em recipiente hermético em temperatura ambiente por até uma semana."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça pão de queijo com cannabis substituindo o óleo comum na massa por óleo com cannabis para bolinhas de queijo sem glúten.",
@@ -1791,7 +1863,7 @@
           },
           {
             "q": "É possível fazer coxinhas com cannabis?",
-            "a": "Sim, mas evite fritar em óleo de cannabis. Em vez disso, faça a massa ou o recheio da coxinha com manteiga de cannabis, modele, empane e asse a %{cook_temp}. Assar em vez de fritar preserva o THC e é na verdade um preparo mais leve e saudável."
+            "a": "Sim. Coloque a manteiga de cannabis medida na massa ou no recheio, modele, empane e frite em óleo comum até dourar, ou asse numa assadeira untada para uma versão mais leve. Divida a massa por peso para cada coxinha ter a mesma dose."
           },
           {
             "q": "Posso adicionar cannabis à feijoada?",
@@ -1822,9 +1894,9 @@
           "Exagerar no molho para mascarar o sabor da cannabis dilui o prato. Óleo de cannabis bem coado em pequenas quantidades precisa de mascaramento mínimo."
         ],
         "storage": [
-          "Armazene sobras de pratos chineses com cannabis refrigerados por até 3 dias. Os molhos ajudam a preservar a umidade e reter o óleo de cannabis.",
-          "Molhos de stir-fry com cannabis podem ser preparados antecipadamente e armazenados por 1-2 semanas refrigerados. Adicione a pratos recém-cozidos sob demanda.",
-          "Arroz e macarrão fritos com óleo de cannabis reaquecem bem no micro-ondas em potência média ou delicadamente em um wok em fogo baixo."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça dan dan noodles com cannabis misturando óleo de gergelim com cannabis e óleo de pimenta no molho salgado e picante no final.",
@@ -1869,9 +1941,9 @@
           "Esquecer que mostarda alemã, raiz-forte e chucrute são excelentes mascaradores de sabor de cannabis. Tempere com ousadia."
         ],
         "storage": [
-          "Pratos alemães com cannabis como ensopados e carnes braseadas conservam-se bem por 3-5 dias refrigerados. Os sabores frequentemente melhoram de um dia para o outro.",
-          "Manteiga com cannabis para culinária alemã conserva-se congelada por até 6 meses. Corte porções conforme necessário.",
-          "Assados com cannabis como strudel e kuchen conservam-se em temperatura ambiente por 3 dias ou refrigerados por uma semana."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Derreta manteiga com cannabis sobre spaetzle recém-cozido com cebolas fritas para um acompanhamento clássico e reconfortante com cannabis.",
@@ -1916,9 +1988,9 @@
           "Derreter queijo infundido com cannabis sob um gratinador em temperatura extrema. Adicione crema ou óleo de cannabis por cima após gratinar."
         ],
         "storage": [
-          "Salsas e molhos mexicanos com cannabis conservam-se refrigerados por até uma semana. A acidez dos tomates e do limão ajuda na conservação.",
-          "Crema infundida com cannabis conserva-se por 5-7 dias refrigerada. Mexa antes de cada uso, pois separação é normal.",
-          "Molho mole com cannabis congela perfeitamente por até 3 meses. Descongele e aqueça delicadamente antes de servir."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Misture óleo de cannabis em molho mole quente para uma infusão complexa e profundamente saborosa onde o chocolate e as pimentas mascaram a cannabis completamente.",
@@ -1965,9 +2037,9 @@
           "Decorar com grandes quantidades de ervas frescas sem informar os convidados. Algumas ervas interagem com canabinoides e alteram a experiência."
         ],
         "storage": [
-          "Mocktails cítricos com cannabis são melhores servidos frescos. O cítrico oxida e fica amargo em poucas horas.",
-          "O xarope simples com cannabis dura refrigerado por 2 semanas e pode ser adicionado a suco fresco sob demanda.",
-          "Prepare os componentes sem cannabis antecipadamente e adicione a infusão na hora de servir para o sabor mais fresco."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça um shrub cítrico com cannabis usando vinagre, açúcar e tintura de cannabis para uma base de mistura complexa e ácida.",
@@ -2012,9 +2084,9 @@
           "Não considerar os açúcares naturais da fruta ao calcular a nutrição total da receita."
         ],
         "storage": [
-          "Bebidas frescas de fruta com cannabis oxidam rapidamente. Consuma em poucas horas para o melhor sabor e aparência.",
-          "Congele misturas de fruta com cannabis em forminhas de picolé para um petisco congelado pré-porcionado que dura 2 meses.",
-          "Bases de purê de fruta com cannabis podem ser refrigeradas por 2 dias antes de adicionar a bebidas frescas."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça camadas de creme de coco com cannabis sobre um suco de fruta não infundido para uma bebida gradiente bonita com a dose por cima.",
@@ -2059,9 +2131,9 @@
           "Não coar adequadamente, o que deixa material vegetal que dá uma textura arenosa e desagradável."
         ],
         "storage": [
-          "O chá herbal com cannabis é melhor consumido fresco. Reaquecer altera o perfil de sabor das ervas e pode causar separação da gordura.",
-          "Faça uma base concentrada de chá com cannabis e gordura, coe e guarde refrigerado por até 5 dias para adicionar ao chá fresco.",
-          "Misturas de chá herbal seco (sem a gordura de cannabis) podem ser armazenadas em latas herméticas por meses. Adicione a gordura de cannabis fresca a cada vez."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Faça um chai com cannabis cozinhando especiarias, chá preto, manteiga com cannabis e leite para uma infusão rica e aromática.",
@@ -2106,9 +2178,9 @@
           "Não considerar a evaporação ao cozinhar em fogo baixo. Se sua bebida reduzir, a concentração por dose aumenta."
         ],
         "storage": [
-          "Bebidas quentes com cannabis são melhores consumidas frescas. Se precisar armazenar, refrigere em um pote vedado por até 3 dias e reaqueça suavemente.",
-          "Prepare uma base concentrada de leite ou creme com cannabis e guarde refrigerada por até uma semana, depois adicione a bebidas frescas conforme necessário.",
-          "Nunca deixe bebidas com cannabis desacompanhadas ou sem rótulo onde outras pessoas possam confundi-las com bebidas comuns."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Adicione um toque de canela, noz-moscada ou cardamomo para complementar o sabor herbal da cannabis e adicionar notas de especiarias acolhedoras.",
@@ -2134,7 +2206,7 @@
           },
           {
             "q": "Posso fazer uma quantidade grande e reaquecer porções depois?",
-            "a": "Você pode guardar a base de leite ou creme com cannabis refrigerada por até uma semana e adicioná-la a bebidas recém-preparadas. Bebidas prontas não conservam tão bem porque chás e cafés perdem qualidade. A abordagem do concentrado proporciona sabor fresco com dosagem consistente."
+            "a": "Sim, se mantiver gelado. Leve a bebida ou a base de leite à geladeira em até 2 horas, use dentro do prazo da observação de armazenamento e reaqueça devagar, sem ferver. Mexa bem, porque a gordura se separa ao esfriar."
           }
         ]
       },
@@ -2153,9 +2225,9 @@
           "Presumir que bebidas frias fazem efeito mais devagar que as quentes. Bebidas batidas são digeridas rapidamente e podem fazer efeito em 20-40 minutos."
         ],
         "storage": [
-          "Armazene bebidas frias com cannabis em potes de vidro vedados na geladeira por até 2 dias. Agite bem antes de servir, pois a separação é inevitável.",
-          "Congele bebidas com cannabis em forminhas de gelo para adições perfeitamente dosadas a futuras bebidas.",
-          "Sempre rotule suas bebidas com cannabis de forma distinta e mantenha-as separadas das bebidas comuns na geladeira."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Use xarope simples com cannabis em vez de gordura para uma textura mais suave que se dissolve perfeitamente em bebidas frias.",
@@ -2200,9 +2272,9 @@
           "Não avisar os convidados que as bebidas contêm cannabis. Isso é inseguro e em muitos lugares ilegal. Sempre rotule e comunique claramente."
         ],
         "storage": [
-          "Destilados e tinturas com cannabis armazenados em garrafa de vidro escuro duram vários meses em temperatura ambiente.",
-          "Coquetéis pré-misturados com cannabis devem ser consumidos no mesmo dia em que foram preparados. Refrigere se mantiver por algumas horas.",
-          "Xaropes simples com cannabis duram refrigerados por até 2 semanas e são a adição mais versátil para coquetéis."
+          "Siga a observação de armazenamento no fim desta lista. Tudo o que leva laticínios, ovos, cream cheese, carne ou peixe vai para a geladeira em até 2 horas depois de pronto (1 hora se fizer mais de 32 °C).",
+          "Se a receita congela bem, congele porções individuais etiquetadas, para descongelar uma dose de cada vez.",
+          "Etiquete cada pote com a data e os mg por porção, e mantenha os comestíveis longe do alcance de crianças e animais."
         ],
         "variations": [
           "Crie um xarope simples com cannabis usando flor descarboxilada infundida em calda de açúcar quente, depois coe para um ingrediente limpo de coquetel.",
