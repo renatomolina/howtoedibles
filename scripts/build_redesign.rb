@@ -263,8 +263,20 @@ def card(r, lang)
   %(<a class="card" href="#{recipe_url(lang, r)}">#{cover(r["slug"], r["category_name"], r["glyph"], :card, dot)}<span class="nm">#{h(rname(r, lang))}</span></a>)
 end
 
+# Category photo (#57 variant B): the CAT_OG recipe's photo fades into the category colour on the band and the tiles.
+# The photos are shot on that colour, so they blend; the colour block and the name inside it keep it unlike a recipe card.
+def cat_photo(cat, kind)
+  s = CAT_OG[cat]
+  return nil unless PHOTOS[s]
+  base = "/images/photos/#{s}"
+  return %(<img src="#{base}-480.webp" width="480" height="360" alt="" loading="lazy" decoding="async">) if kind == :tile
+  %(<img src="#{base}-800.webp" srcset="#{PHOTO_W.map { |x| "#{base}-#{x}.webp #{x}w" }.join(", ")}" sizes="(min-width:1000px) 520px, (min-width:720px) 400px, 62vw" width="1600" height="1200" alt="" fetchpriority="high">)
+end
+
 def cat_tile(lang, cat, with_count: true)
   inner = %(<b>#{h(category_t(lang, cat))}</b>) + (with_count ? %(<small>#{h(ui(lang, "shell.n_recipes", n: RECIPES_BY_CAT[cat].size))}</small>) : "")
+  photo = cat_photo(cat, :tile)
+  return %(<a href="#{cat_url(lang, cat)}"><span class="cv" style="#{cat_vars(cat)}">#{photo}#{inner}</span></a>) if photo
   %(<a href="#{cat_url(lang, cat)}">#{cover(cat, cat, CAT_GLYPH[cat], :tile, inner)}</a>)
 end
 
@@ -655,9 +667,10 @@ def build_category_page(cat, lang)
   chips = %(<a href="#{p}/">#{h(ui(lang, "shell.all_recipes"))} <small>#{RECIPES.size}</small></a>) +
           CAT_ORDER.map { |c| %(<a href="#{cat_url(lang, c)}" style="#{cat_vars(c)}"#{c == cat ? ' aria-current="page"' : ""}><i></i>#{h(category_t(lang, c))} <small>#{RECIPES_BY_CAT[c].size}</small></a>) }.join
   support = ui(lang, "home.support").sub('href="#"', %(href="#{p}/donate.html"))
+  photo = cat_photo(cat, :band)
   main = <<~HTML
     <main>
-    <section class="band" style="#{cat_vars(cat)}">#{glyph_svg(CAT_GLYPH[cat])}<a class="back" href="#{p}/">← #{h(ui(lang, "shell.all_recipes"))}</a><h1>#{h(cat_t)}</h1><p>#{h(lede)}</p></section>
+    <section class="band#{photo ? " ph" : ""}" style="#{cat_vars(cat)}">#{photo || glyph_svg(CAT_GLYPH[cat])}<a class="back" href="#{p}/">← #{h(ui(lang, "shell.all_recipes"))}</a><h1>#{h(cat_t)}</h1><p>#{h(lede)}</p></section>
     <nav class="chips nav" aria-label="#{h(ui(lang, "shell.browse"))}">#{chips}</nav>
     <div class="grid">#{cells.join}</div>
     <div class="sh"><h2>#{h(ui(lang, "home.learn"))}</h2></div><ul class="learn">#{learn_links(lang).map { |u, n| %(<li><a href="#{u}">#{h(n)}</a></li>) }.join}</ul>
