@@ -263,8 +263,20 @@ def card(r, lang)
   %(<a class="card" href="#{recipe_url(lang, r)}">#{cover(r["slug"], r["category_name"], r["glyph"], :card, dot)}<span class="nm">#{h(rname(r, lang))}</span></a>)
 end
 
+# Category photo (#57 variant B): the CAT_OG recipe's photo fades into the category colour on the band and the tiles.
+# The photos are shot on that colour, so they blend; the colour block and the name inside it keep it unlike a recipe card.
+def cat_photo(cat, kind)
+  s = CAT_OG[cat]
+  return nil unless PHOTOS[s]
+  base = "/images/photos/#{s}"
+  return %(<img src="#{base}-480.webp" width="480" height="360" alt="" loading="lazy" decoding="async">) if kind == :tile
+  %(<img src="#{base}-800.webp" srcset="#{PHOTO_W.map { |x| "#{base}-#{x}.webp #{x}w" }.join(", ")}" sizes="(min-width:1000px) 520px, (min-width:720px) 400px, 62vw" width="1600" height="1200" alt="" fetchpriority="high">)
+end
+
 def cat_tile(lang, cat, with_count: true)
   inner = %(<b>#{h(category_t(lang, cat))}</b>) + (with_count ? %(<small>#{h(ui(lang, "shell.n_recipes", n: RECIPES_BY_CAT[cat].size))}</small>) : "")
+  photo = cat_photo(cat, :tile)
+  return %(<a href="#{cat_url(lang, cat)}"><span class="cv" style="#{cat_vars(cat)}">#{photo}#{inner}</span></a>) if photo
   %(<a href="#{cat_url(lang, cat)}">#{cover(cat, cat, CAT_GLYPH[cat], :tile, inner)}</a>)
 end
 
@@ -631,7 +643,7 @@ def build_recipe_page(recipe, lang)
   # {mg} {n} {g} from the recipe defaults. The H1, the JSON-LD and the other languages keep the recipe's own copy.
   seo = ->(k) { (x = lang == "en" && recipe["seo_#{k}"]) && x.gsub("{mg}", fmt_mg(mg, lang)).gsub("{n}", n_i.to_s).gsub("{g}", fmt_g(g, lang)) }
   page = shell_head(lang, title: seo.("title") ? "#{seo.("title")} | HowToEdibles" : "#{name} #{t(lang, "recipe_page", "title_suffix")}", description: seo.("description") || desc, page_path: page_path,
-                    og_image: "#{SITE}/og/#{lang}/#{slug}.png", og_type: "article", structured: JSON.generate(ld))
+                    og_image: "#{SITE}/#{recipe_og(lang, slug)}", og_type: "article", structured: JSON.generate(ld))
   page << shell_top(lang) << main << shell_bottom(lang, page_path, scripts: scripts)
   write_file(output_path(lang, "recipes", slug, "index.html"), page)
   raster_jobs(recipe, lang, name, mg)
@@ -655,9 +667,10 @@ def build_category_page(cat, lang)
   chips = %(<a href="#{p}/">#{h(ui(lang, "shell.all_recipes"))} <small>#{RECIPES.size}</small></a>) +
           CAT_ORDER.map { |c| %(<a href="#{cat_url(lang, c)}" style="#{cat_vars(c)}"#{c == cat ? ' aria-current="page"' : ""}><i></i>#{h(category_t(lang, c))} <small>#{RECIPES_BY_CAT[c].size}</small></a>) }.join
   support = ui(lang, "home.support").sub('href="#"', %(href="#{p}/donate.html"))
+  photo = cat_photo(cat, :band)
   main = <<~HTML
     <main>
-    <section class="band" style="#{cat_vars(cat)}">#{glyph_svg(CAT_GLYPH[cat])}<a class="back" href="#{p}/">← #{h(ui(lang, "shell.all_recipes"))}</a><h1>#{h(cat_t)}</h1><p>#{h(lede)}</p></section>
+    <section class="band#{photo ? " ph" : ""}" style="#{cat_vars(cat)}">#{photo || glyph_svg(CAT_GLYPH[cat])}<a class="back" href="#{p}/">← #{h(ui(lang, "shell.all_recipes"))}</a><h1>#{h(cat_t)}</h1><p>#{h(lede)}</p></section>
     <nav class="chips nav" aria-label="#{h(ui(lang, "shell.browse"))}">#{chips}</nav>
     <div class="grid">#{cells.join}</div>
     <div class="sh"><h2>#{h(ui(lang, "home.learn"))}</h2></div><ul class="learn">#{learn_links(lang).map { |u, n| %(<li><a href="#{u}">#{h(n)}</a></li>) }.join}</ul>
@@ -1114,6 +1127,7 @@ RASTER_CSS = <<~CSS.gsub(/\n\s*/, "")
   .cv{position:relative;overflow:hidden;display:block;background:var(--cat-lt);--cat:var(--cat-lt);--cat-deep:var(--deep-lt);color:#1f1410;font-family:Unbounded,"PingFang SC","Hiragino Sans GB","Noto Sans SC",sans-serif}
   .cv>svg{position:absolute;aspect-ratio:1;width:var(--gs);height:auto;right:var(--gx);bottom:var(--gy);transform:rotate(var(--gr))}
   .og{width:1200px;height:630px}.og>svg.g{width:auto;height:var(--gh)}
+  .og.ph>img{position:absolute;top:-36px;right:0;width:64%;height:calc(100% + 36px);object-fit:cover;-webkit-mask-image:linear-gradient(to right,transparent,#000 45%);mask-image:linear-gradient(to right,transparent,#000 45%)}
   .sq{width:1200px;height:1200px}
   .cv>svg.logo{left:64px;top:56px;right:auto;bottom:auto;width:300px;height:auto;aspect-ratio:432/164;transform:none;--ink:#1f1410;--logo-o:#1f1410;--logo-g:#1f1410}
   h1{position:absolute;left:64px;bottom:64px;width:720px;margin:0;font-weight:800;font-size:76px;line-height:1.04;letter-spacing:-.03em;}.hy{hyphens:auto;-webkit-hyphens:auto}
@@ -1121,6 +1135,7 @@ RASTER_CSS = <<~CSS.gsub(/\n\s*/, "")
   .st{position:absolute;right:96px;bottom:96px;width:230px;height:230px;border-radius:50%;background:#1f1410;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(-8deg);box-shadow:0 0 0 8px #fff;line-height:1;text-align:center}
   .cv>.mk{position:absolute;right:-.04em;top:-.3em;font-size:620px;line-height:1;letter-spacing:-.06em;color:var(--cat-deep);transform:rotate(-8deg)}
   h1.a{width:960px;font-size:64px}h1.a.mid{font-size:56px}h1.a.long{font-size:48px}
+  .og.ph .st{width:196px;height:196px;right:44px;bottom:44px}.og.ph .st b{font-size:62px!important}.og.ph .st b small{font-size:26px!important}.og.ph .st span{font-size:19px!important;margin-top:8px!important}
   .st b{font-size:72px;font-weight:800;letter-spacing:-.03em}.st b small{font-size:30px;letter-spacing:0}.st span{font-size:22px;font-weight:700;margin-top:10px;max-width:170px;line-height:1.1;font-family:-apple-system,"PingFang SC",sans-serif}
 CSS
 
@@ -1128,14 +1143,19 @@ def raster_page(lang, body)
   %(<!DOCTYPE html><html lang="#{lang_html(lang)}"><head><meta charset="utf-8"><style>#{RASTER_CSS}</style></head><body>#{SPRITE_HTML}#{body}</body></html>)
 end
 
+# A share card with a photo is a JPEG (a PNG of a photo weighs ~270 KB, past WhatsApp's ~300 KB preview limit)
+def recipe_og(lang, slug); "og/#{lang}/#{slug}.#{PHOTOS[slug] ? "jpg" : "png"}"; end
+
 def raster_jobs(recipe, lang, name, mg)
   slug = recipe["slug"]
   cat = recipe["category_name"]
   pl = place(slug, :hero).map { |k, v| "--#{k}:#{v}" }.join(";")
   tc = title_class(name)
-  og = %(<div class="cv og" style="#{cat_vars(cat)};#{pl}"><svg class="g" viewBox="0 0 100 100"><use href="#g-#{recipe["glyph"]}"/></svg>#{logo_svg}) +
+  # with a photo, it fades into the category colour on the right (as on the category band) instead of the glyph
+  art = PHOTOS[slug] ? %(<img src="/images/photos/#{slug}-1200.webp" alt="">) : %(<svg class="g" viewBox="0 0 100 100"><use href="#g-#{recipe["glyph"]}"/></svg>)
+  og = %(<div class="cv og#{PHOTOS[slug] ? " ph" : ""}" style="#{cat_vars(cat)};#{pl}">#{art}#{logo_svg}) +
        %(<h1#{tc ? %( class="#{tc}") : ""}>#{title_html(name, lang)}</h1><div class="st"><b>#{fmt_mg(mg, lang)}<small>mg</small></b><span>#{h(ui(lang, "calc.per"))}</span></div></div>)
-  add_raster("og/#{lang}/#{slug}.png", raster_page(lang, og), 1200, 630)
+  add_raster(recipe_og(lang, slug), raster_page(lang, og), 1200, 630)
   return unless lang == "en"
   sq = %(<div class="cv sq" style="#{cat_vars(cat)};#{place(slug, :card).map { |k, v| "--#{k}:#{v}" }.join(";")}">#{glyph_svg(recipe["glyph"])}</div>)
   add_raster("schema/#{slug}.png", raster_page(lang, sq), 1200, 1200)
@@ -1152,7 +1172,7 @@ def article_card(lang, slug, title)
 end
 
 def add_raster(out, html, w, h)
-  rel = "tmp/rasters/#{out.sub(/\.png\z/, ".html")}"
+  rel = "tmp/rasters/#{out.sub(/\.(png|jpg)\z/, ".html")}"
   write_file(File.join(ROOT_DIR, rel), html)
   RASTER_JOBS << { "out" => out, "html" => rel, "width" => w, "height" => h }
 end
