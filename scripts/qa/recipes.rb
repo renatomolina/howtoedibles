@@ -24,7 +24,7 @@ BASES = [ # [pattern, grams of flower per cup of the site base, label]
   [/(?:infused|cannabis[- ]infused|cannabis) (?:extra[- ]virgin )?olive oil/i, site.recipe("infused-olive-oil")["suggested_quantity"].to_f / (300 / 236.6), "olive oil"], # the base page: g of flower in 300 ml
   [/infused coconut oil|cannabis[- ]infused coconut oil|cannabis coconut oil/i, 6.4, "coconut oil"],
   [/canna-?oil|cannabis oil|infused oil|cannabis[- ]infused oil|(?:cannabis|infused|cannabis[- ]infused) (?:vegetable|cooking|sesame|avocado|canola|neutral) oil/i, 6.4, "oil with no site base (coconut-oil ratio)"],
-  [/infused ghee|cannabis ghee/i, 3.5, "ghee"],
+  [/infused ghee|cannabis ghee/i, site.recipe("infused-ghee")["suggested_quantity"].to_f / (site.recipe("infused-ghee")["suggested_portion"].to_f / 48), "ghee"], # its page: 1 cup butter -> ~¾ cup ghee (36 tsp)
   [/(?:infused|cannabis[- ]infused|cannabis) (?:whole )?(?:milk|heavy cream|cream|coconut milk|half-and-half)/i, 0.237, "milk/cream"],
   [/cannabis sugar|infused sugar/i, 6.4, "sugar"],
   [/cannabis flour|infused flour/i, 6.4, "flour"],

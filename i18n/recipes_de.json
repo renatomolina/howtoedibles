@@ -17,10 +17,10 @@
       "Beachte, dass die Cannabutter im Behälter einen leicht grünen Schimmer vom Cannabis haben sollte. Jetzt bist du bereit, einige mit Cannabis angereicherte Gerichte zuzubereiten!"
     ],
     "intro_unique": "Cannabutter ist die Grundzutat für Cannabis-Rezepte: Butter wird bei langsamem Köcheln auf niedriger Hitze mit decarboxylierten Blüten infundiert.",
-    "dosing_unique": "Berechne das gesamte THC deiner Ausgangsblüten, rechne mit einer Extraktionseffizienz von etwa 80 % und beschrifte das Glas mit mg pro Esslöffel.",
+    "dosing_unique": "Eine Portion ist 1 Teelöffel, etwa 15 mg bei 14 % THC; ein Esslöffel sind 3 Portionen. Beschrifte das Glas mit mg pro Teelöffel.",
     "storage_unique": "In einem verschlossenen Glas im Kühlschrank bis zu 3 Wochen aufbewahren oder in Silikonformen bis zu 6 Monate einfrieren.",
     "variation_unique": "Nimm Sauerrahmbutter nach europäischer Art mit höherem Fettgehalt – für vollmundigeren Geschmack und möglicherweise bessere THC-Extraktion.",
-    "unique_src": "b40b056dc349318fea9800acc79fc171a029e86e"
+    "unique_src": "9f68b019cc3995a1024a0b9c2f18420f45256881"
   },
   "infused-coconut-oil": {
     "name": "Infundiertes Kokosöl",
@@ -39,10 +39,10 @@
       "Fasse das Käsetuch zusammen und drücke die gesamte restliche Flüssigkeit aus."
     ],
     "intro_unique": "Infundiertes Kokosöl hat den höchsten Anteil an gesättigten Fettsäuren aller Speiseöle und bindet THC daher besonders effizient.",
-    "dosing_unique": "Gieß es in Eiswürfelformen aus Silikon – so hast du vorab abgemessene Esslöffelportionen, die sich leicht herauslösen und in Rezepten verwenden lassen.",
+    "dosing_unique": "Eine Portion ist 1 Teelöffel, etwa 15 mg bei 14 % THC; ein Esslöffel sind 3 Portionen. In Eiswürfelformen in Teelöffel-Portionen gießen und mit mg pro Teelöffel beschriften.",
     "storage_unique": "Kokosöl ist bei Raumtemperatur bis zu 3 Monate haltbar; für längere Lagerung bis zu 6 Monate in den Kühlschrank stellen.",
     "variation_unique": "Nimm raffiniertes Kokosöl für einen neutralen Geschmack in Rezepten, in denen du kein Kokosaroma möchtest.",
-    "unique_src": "3f55859bf567f9e8a61f4cd12bf4a14536451230"
+    "unique_src": "afc12623dfdb72b27e69ff0dc10352ff50b5daf3"
   },
   "infused-olive-oil": {
     "name": "Infundiertes Olivenöl",
@@ -62,10 +62,10 @@
       "Fasse das Käsetuch zusammen und drücke die gesamte restliche Flüssigkeit aus."
     ],
     "intro_unique": "Infundiertes Olivenöl mit Cannabis ist eine herzgesunde, vielseitige Basis für herzhafte Edibles, Dressings und jedes Rezept, das Speiseöl verlangt.",
-    "dosing_unique": "Notier den gesamten THC-Gehalt und teile ihn durch das Volumen in Esslöffeln; beschrifte die Flasche mit mg pro Esslöffel.",
+    "dosing_unique": "Eine Portion ist 1 Teelöffel, etwa 15 mg bei 14 % THC; ein Esslöffel sind 3 Portionen. Beschrifte die Flasche mit mg pro Teelöffel.",
     "storage_unique": "In einer dunklen Glasflasche in einem kühlen Schrank bis zu 3 Monate aufbewahren; Olivenöl wird weniger schnell ranzig als Butter.",
     "variation_unique": "Für ein aromatisiertes Finishing-Öl gibst du während der Infusion getrockneten Rosmarin und getrockneten Knoblauch dazu. Bewahre Öl mit frischem Knoblauch oder frischen Kräutern nie bei Raumtemperatur auf (Botulismusgefahr); wenn du frische Aromaten verwendest, im Kühlschrank lagern und innerhalb von 4 Tagen aufbrauchen.",
-    "unique_src": "6c4d5f95476178c7edfd1c800b835f2fc441be0c"
+    "unique_src": "daa9406e2bba1b05b04543f4758ae8e52fb0a585"
   },
   "infused-bulletproof-coffee": {
     "name": "Infundierter Bulletproof-Kaffee",
@@ -248,17 +248,17 @@
       "Lege dein Cannabis auf die Alufolie.",
       "Heize den Ofen auf 240&deg; F (115&deg; C) vor.",
       "Decarboxyliere dein Cannabis 30–40 Minuten bei 240&deg; F (115&deg; C).",
-      "Bestreiche die Graham Cracker mit Haselnussaufstrich.",
-      "Nimm dein Cannabis aus dem Ofen und streue es über den Haselnussaufstrich.",
-      "Mische das Cannabis in den Aufstrich und setze die Graham Cracker als Sandwich zusammen.",
+      "Das Gras aus dem Ofen nehmen und alles in die Haselnusscreme rühren, bis keine Krümel mehr zu sehen sind.",
+      "Die Creme gleichmäßig auf 6 der Keksquadrate verteilen, damit jeder Firecracker die gleiche Dosis bekommt.",
+      "Jedes mit einem der übrigen Quadrate bedecken, sodass 6 Sandwiches entstehen.",
       "Wickle den Firecracker in Alufolie ein und verschließe ihn.",
       "Backe ihn 15 Minuten bei 300&deg; F im Ofen."
     ],
     "intro_unique": "Firecrackers gehören zu den einfachsten Cannabis-Edibles überhaupt: Du brauchst nur Graham Cracker, Haselnussaufstrich und gemahlene, decarboxylierte Blüten.",
-    "dosing_unique": "Verteile eine genau abgewogene Menge decarboxyliertes Cannabis auf jedem Cracker und wickle ihn vor dem Backen fest in Alufolie.",
+    "dosing_unique": "Das gesamte decarboxylierte Gras in die Creme mischen, bevor du sie gleichmäßig auf die 6 Firecracker verteilst; ein Firecracker ist eine Portion.",
     "storage_unique": "Jeden Firecracker einzeln in Alufolie wickeln und bei Raumtemperatur bis zu 3 Tage aufbewahren.",
     "variation_unique": "Nimm Erdnussbutter statt Haselnussaufstrich und streu etwas Meersalz darüber – für eine süß-salzige Version.",
-    "unique_src": "e25421e5ff2b99783cbeeafb4ee8d859c264634a"
+    "unique_src": "2bd6e4768953a66c216a6c7de4fdc2312a11421e"
   },
   "infused-lemonade": {
     "name": "Infundierte Limonade",
@@ -273,7 +273,7 @@
       "Zitronenscheiben zum Garnieren"
     ],
     "instructions": [
-      "Vermische in einem Krug den frisch gepressten Zitronensaft, das kalte Wasser, den Kristallzucker und den mit Cannabis angereicherten Honig.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Vermische in einem Krug den frisch gepressten Zitronensaft, das kalte Wasser, den Kristallzucker und den mit Cannabis angereicherten Honig.",
       "Rühre gut um, bis sich der Zucker aufgelöst hat.",
       "Probiere die Limonade und passe die Süße an, indem du bei Bedarf mehr Zucker oder infundierten Honig hinzufügst.",
       "Gib Eiswürfel in den Krug, um die Limonade zu kühlen.",
@@ -750,7 +750,8 @@
     "ingredients": [
       "1/2 Tasse Kokosöl",
       "3.5 gemahlenes Cannabis",
-      "300 g Honig"
+      "300 g Honig",
+      "1 TL Sonnenblumen- oder Sojalecithin"
     ],
     "instructions": [
       "Dein Gras decarboxylieren – So geht's",
@@ -760,7 +761,7 @@
       "Das Einmachglas in einen Topf mit Wasser stellen und das Wasser bei niedriger bis mittlerer Hitze knapp unter dem Siedepunkt halten (ca. 200&deg; F – 95&deg; C), 2–3 Stunden lang; verdampftes Wasser nachfüllen.",
       "Den gesamten Inhalt des Glases durch ein Seihtuch über einem Metallsieb gießen.",
       "Das Seihtuch zusammennehmen und die restliche Flüssigkeit vollständig auspressen.",
-      "Das Kokosöl und den Honig im Mixer vermengen.",
+      "Das Lecithin in das noch warme, abgeseihte Öl rühren. Den Honig sanft erwärmen und mit dem Öl glatt und gleichmäßig mixen; das Glas vor jedem Gebrauch umrühren, da es sich trotzdem absetzen kann.",
       "Die gesamte Mischung in ein Einmachglas oder Mason Jar füllen und aufbewahren."
     ],
     "intro_unique": "Cannabis-Honig ist ein vielseitiger Vorrat für die Speisekammer: Du kannst ihn in Tee rühren, über Toast träufeln oder in jedem Rezept zum Süßen verwenden.",
@@ -881,10 +882,10 @@
       "Bei Raumtemperatur abkühlen lassen und dann in den Kühlschrank stellen. Das Ghee wird fest und hält sich bis zu 3 Monate."
     ],
     "intro_unique": "Infundiertes Ghee mit Cannabis ist geklärte Butter, aus der die Milchfeststoffe entfernt wurden – ein nussiges Fett mit hohem Rauchpunkt, perfekt zum Kochen.",
-    "dosing_unique": "Ghee ist dichter als Butter, also wiege deine Portionen ab, statt sie nach Volumen zu messen, damit die Dosierung stimmt.",
+    "dosing_unique": "Eine Portion ist 1 Teelöffel. 1 Tasse Butter ergibt etwa ¾ Tasse Ghee (36 Teelöffel), je etwa 11 mg bei 14 % THC; beschrifte das Glas mit mg pro Teelöffel.",
     "storage_unique": "In einem verschlossenen Glas bis zu 3 Monate im Kühlschrank aufbewahren; der geringe Wassergehalt macht es haltbar, aber infundiertes Ghee bleibt gekühlt am frischesten.",
     "variation_unique": "Infundiere es bei der Zubereitung mit Kurkuma und schwarzem Pfeffer – für goldenes Ghee mit entzündungshemmenden Eigenschaften.",
-    "unique_src": "f5fe9a5181ab1b87e540c6e668122ce06ad4200b"
+    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9"
   },
   "infused-condensed-milk": {
     "name": "Infundierte Kondensmilch",
@@ -924,17 +925,17 @@
       "Schlagsahne als Topping (optional)"
     ],
     "instructions": [
-      "Die infundierte Milch in einem kleinen Topf bei mittlerer bis niedriger Hitze erwärmen. Nicht kochen lassen.",
+      "Die infundierte Milch und die normale Milch zusammen in einem kleinen Topf bei mittlerer bis niedriger Hitze erwärmen. Nicht kochen lassen.",
       "Kakaopulver, Zucker und Salz einrühren, bis alles vollständig aufgelöst und glatt ist.",
       "Vanilleextrakt hinzufügen und umrühren.",
       "In Tassen gießen und bei Bedarf mit Schlagsahne toppen.",
       "Sofort servieren und langsam genießen – Edibles brauchen Zeit, um zu wirken."
     ],
     "intro_unique": "Samtige Cannabis-Heiße-Schokolade ist das ultimative Edible für kalte Tage: Kakao wird in sanft erwärmte infundierte Milch geschlagen – für eine gemütliche Tasse.",
-    "dosing_unique": "Erwärme nur die infundierte Milch, die du auch trinken willst – eine abgemessene Tasse pro Becher – und verquirle sie gründlich, damit die Cannabinoide gleichmäßig verteilt bleiben.",
+    "dosing_unique": "Beide Milchsorten zusammen erwärmen und gut verquirlen, dann gleichmäßig auf 2 Becher verteilen; ein Becher ist eine Portion.",
     "storage_unique": "Am besten frisch servieren; übrige heiße Schokolade kannst du im Kühlschrank aufbewahren und am nächsten Tag sanft erwärmen.",
     "variation_unique": "Toppe sie mit normalen Marshmallows und einer Prise Zimt; verzichte auf infundierte Toppings, denn deren Dosis käme zu der Dosis in der Milch noch hinzu.",
-    "unique_src": "efd452aa7dd59f19093795d795bbd36b511a98f5"
+    "unique_src": "59b568018b7b4abcb9901f09ece4f7bf3cec3971"
   },
   "infused-cold-brew": {
     "name": "Infundierter Cold Brew",
@@ -1809,7 +1810,7 @@
       "Zitrone und Minze zum Garnieren"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Zitronensaft und die Honigmischung vermischen.",
       "Eis hinzufügen, mit Sprudelwasser auffüllen. Garnieren."
     ],
@@ -1832,7 +1833,7 @@
       "Limettenspalte"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Minze in einem Glas zerdrücken.",
       "Eis, Limettensaft und die Honigmischung hinzufügen.",
       "Mit Sprudelwasser auffüllen. Mit Limette garnieren."
@@ -1856,7 +1857,7 @@
       "Eis"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Gurke und Minze mit der Honigmischung und Limettensaft zerdrücken.",
       "Mit Eis schütteln und abseihen.",
       "Mit Sprudelwasser auffüllen."
@@ -1879,7 +1880,7 @@
       "Frische Minze"
     ],
     "instructions": [
-      "Wassermelone, Cannabis-Honig, Limette und Salz glatt pürieren.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Wassermelone, Cannabis-Honig, Limette und Salz glatt pürieren.",
       "In Gläser füllen und mit Minze garnieren."
     ],
     "intro_unique": "Gefrorener Cannabis-Wassermelonen-Slush mixt gefrorene Wassermelone mit Cannabis-Honig und Limette zu einem eisigen, durstlöschenden Sommer-Mocktail.",
@@ -1901,7 +1902,7 @@
     ],
     "instructions": [
       "Wasser, Zucker und Lavendel 10 Min. köcheln, abseihen und den Sirup abkühlen lassen.",
-      "Den infundierten Honig in 2 EL warmem Wasser vollständig auflösen, dann mit Zitronensaft, Sirup und Wasser mischen. Vor jedem Glas umrühren und über Eis gießen."
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den infundierten Honig in 2 EL warmem Wasser vollständig auflösen, dann mit Zitronensaft, Sirup und Wasser mischen. Vor jedem Glas umrühren und über Eis gießen."
     ],
     "intro_unique": "Für Cannabis-Lavendel-Limonade zieht getrockneter Lavendel in einem Zuckersirup und wird dann mit Zitronensaft und Tinktur kombiniert – ein blumiges, beruhigendes Getränk.",
     "dosing_unique": "Rühre die Tinktur in den abgekühlten Lavendelsirup, damit sie gleichmäßig verteilt ist, und miss dann den Sirup für die Limonade ab.",
@@ -1923,7 +1924,7 @@
       "Eis"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Säfte, die Honigmischung und Limette in einem Krug mischen.",
       "Über Eis gießen und mit Sprudelwasser auffüllen."
     ],
@@ -1946,7 +1947,7 @@
       "Eis"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Erdbeeren und Basilikum mit der Honigmischung und Zitrone zerdrücken.",
       "Über Eis abseihen. Mit Sprudelwasser auffüllen."
     ],
@@ -1970,7 +1971,7 @@
     ],
     "instructions": [
       "Hibiskus 10 Min. ziehen lassen. Abseihen und abkühlen lassen.",
-      "Cannabis-Honig und Limette einrühren. Über Eis servieren."
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Cannabis-Honig und Limette einrühren. Über Eis servieren."
     ],
     "intro_unique": "Für den rubinroten infundierten Hibiskustee ziehen getrocknete Hibiskusblüten im Wasser und werden mit Cannabis-Honig gesüßt – ein herb-säuerlicher, erfrischender Eistee.",
     "dosing_unique": "Rühr den Cannabis-Honig in die ganze Menge, solange der Tee noch warm ist, damit er sich vollständig auflöst, und gieß dann gleich volle Gläser ein.",
@@ -1992,7 +1993,7 @@
     ],
     "instructions": [
       "Tee 5 Min. ziehen lassen. Pfirsiche hinzufügen; abkühlen lassen und 1 Stunde kalt stellen.",
-      "Abseihen. Den Cannabis-Honig in den noch warmen Tee einrühren, bis er sich vollständig aufgelöst hat, dann Zitrone hinzufügen und abkühlen lassen. Erneut umrühren und über Eis servieren."
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Abseihen. Den Cannabis-Honig in den noch warmen Tee einrühren, bis er sich vollständig aufgelöst hat, dann Zitrone hinzufügen und abkühlen lassen. Erneut umrühren und über Eis servieren."
     ],
     "intro_unique": "Für Cannabis-Pfirsich-Eistee zieht Schwarztee mit frischen Pfirsichscheiben und wird mit Cannabis-Zuckersirup vollendet – ein süßer Mocktail nach Südstaaten-Art.",
     "dosing_unique": "Rühre den Cannabis-Sirup in den abgeseihten, gekühlten Tee und gieße abgemessene Gläser ein – für eine gleichmäßige Dosierung.",
@@ -2013,7 +2014,7 @@
       "Prise Salz"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Die Honigmischung mit allen anderen Zutaten glatt pürieren.",
       "Abschmecken und anpassen. In Gläser füllen."
     ],
@@ -2058,7 +2059,7 @@
       "Eis"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Ananassaft, Ingwer, die Honigmischung und Limette mischen. Abseihen.",
       "Über Eis gießen und mit Sprudelwasser auffüllen."
     ],
@@ -2081,7 +2082,7 @@
       "Cranberries, Rosmarin"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Cranberrysaft, die Honigmischung und Orangensaft mischen.",
       "Eis und Sprudelwasser hinzufügen. Garnieren."
     ],
@@ -2103,7 +2104,7 @@
       "Eis"
     ],
     "instructions": [
-      "Matcha mit heißem Wasser glatt rühren. Den Cannabis-Honig und den normalen Honig einrühren, bis sie sich vollständig aufgelöst haben.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Matcha mit heißem Wasser glatt rühren. Den Cannabis-Honig und den normalen Honig einrühren, bis sie sich vollständig aufgelöst haben.",
       "Glas mit Eis und Hafermilch füllen. Matcha darüber gießen."
     ],
     "intro_unique": "Für den infundierten Matcha-Cooler wird Matcha mit eiskalter Hafermilch und Cannabis-Honig aufgeschlagen – ein erdiger, belebender grüner Drink.",
@@ -2125,7 +2126,7 @@
       "Minze"
     ],
     "instructions": [
-      "Maracuja, Zitrone und Cannabis-Honig verrühren, bis sich alles aufgelöst hat.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Maracuja, Zitrone und Cannabis-Honig verrühren, bis sich alles aufgelöst hat.",
       "Über Eis gießen und mit Sprudelwasser auffüllen. Garnieren."
     ],
     "intro_unique": "Tropische Cannabis-Maracuja-Limonade verbindet säuerliches Maracujamark mit frischem Zitronensaft und Cannabis-Honig zu einem exotischen, sonnigen Mocktail.",
@@ -2147,7 +2148,7 @@
       "Limette, Kirschen"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Kirschsaft, Limette und die Honigmischung mischen.",
       "Über Eis gießen und mit Sprudelwasser auffüllen. Garnieren."
     ],
@@ -2170,7 +2171,7 @@
       "Eis"
     ],
     "instructions": [
-      "Grünen Tee 3 Min. ziehen lassen. Cannabis-Honig warm einrühren.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Grünen Tee 3 Min. ziehen lassen. Cannabis-Honig warm einrühren.",
       "Minze und Zitrone hinzufügen. Abkühlen lassen, kalt stellen. Über Eis servieren."
     ],
     "intro_unique": "Für Cannabis-Minz-Grüntee zieht grüner Tee mit frischer Minze und Zitrone und wird mit Cannabis-Honig gesüßt – ein leichter, erfrischender Eistee.",
@@ -2191,7 +2192,7 @@
       "Eis"
     ],
     "instructions": [
-      "Blaubeeren mit ¼ cup Wasser köcheln lassen; abseihen. Den Cannabis-Honig in den noch warmen Saft einrühren, bis er sich vollständig aufgelöst hat.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Blaubeeren mit ¼ cup Wasser köcheln lassen; abseihen. Den Cannabis-Honig in den noch warmen Saft einrühren, bis er sich vollständig aufgelöst hat.",
       "Den Blaubeer-Honig-Saft mit Zitrone und Wasser mischen. Gut umrühren und über Eis servieren."
     ],
     "intro_unique": "Die leuchtende infundierte Blaubeer-Limonade mixt frische Blaubeeren mit Zitronensaft und Cannabis-Zuckersirup zu einem verblüffend violetten Mocktail.",
@@ -2214,7 +2215,7 @@
       "Sprudelwasser"
     ],
     "instructions": [
-      "Ingwer, Kurkuma, Zitrone und Cannabis-Honig in warmem Wasser verrühren.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Ingwer, Kurkuma, Zitrone und Cannabis-Honig in warmem Wasser verrühren.",
       "Abkühlen lassen, Eis hinzufügen, mit Sprudelwasser auffüllen. Schwarzen Pfeffer hinzufügen."
     ],
     "intro_unique": "Ein wärmendes Cannabis-Ingwer-Kurkuma-Tonic verbindet Ingwer und Kurkuma mit Cannabis-Honig und Zitrone zu einem Wellness-Mocktail.",
@@ -2236,7 +2237,7 @@
       "Limettenabrieb, Kokosflocken"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Kokoswasser, Limette und die Honigmischung verrühren.",
       "Sprudelwasser über Eis hinzufügen. Garnieren."
     ],
@@ -2692,7 +2693,7 @@
       "Prise Salz"
     ],
     "instructions": [
-      "Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig (und ggf. normalen Honig) in 2 EL warmes Wasser einrühren, bis er sich vollständig aufgelöst hat. Cannabis-Honig enthält Kokosöl, das in kalten Getränken fest wird. Deshalb immer zuerst warm auflösen und das Getränk vor dem Servieren gut umrühren oder schütteln.",
       "Gefrorene Mango, die Honigmischung, Limette und Salz glatt pürieren.",
       "Sofort als Softeis servieren oder 1 Stunde einfrieren für eine festere Konsistenz."
     ],
@@ -3247,7 +3248,7 @@
       "1 TL Kurkuma",
       "1 TL Garam Masala",
       "3 Tassen Wasser",
-      "2 EL Cannabis-Ghee",
+      "1½ EL Cannabis-Ghee + ½ EL Ghee",
       "Salz, Koriander"
     ],
     "instructions": [
@@ -3311,10 +3312,10 @@
       "In Mini-Pralinenförmchen setzen und bis zum Festwerden kalt stellen."
     ],
     "intro_unique": "Infundierte Brigadeiros sind beliebte brasilianische Schokotrüffel aus Kondensmilch, Kakao und Cannabutter, gerollt zu mundgerechten Kugeln.",
-    "dosing_unique": "Roll jeden Brigadeiro mit einem Teelöffelmaß auf die gleiche Größe, damit jedes Stück genau die gleiche Dosis hat.",
+    "dosing_unique": "Roll jeden Brigadeiro mit einem Teelöffelmaß auf die gleiche Größe, damit jedes Stück genau die gleiche Dosis hat. Eine Portion sind 3 Brigadeiros.",
     "storage_unique": "In Pralinenförmchen im Kühlschrank bis zu einer Woche aufbewahren; gekühlt werden sie perfekt fest.",
     "variation_unique": "Mit weißer Schokolade und Kokos statt Kakao entsteht eine Mischung aus Beijinho und Brigadeiro, die Prestígio heißt.",
-    "unique_src": "021e0b4a10bf44d69e7fe46b68517cbbec599213"
+    "unique_src": "64628f3650c047ddd4f9d0b12cf82600eef261ef"
   },
   "cannabis-pacoca": {
     "name": "Cannabis-Paçoca",
@@ -3334,10 +3335,10 @@
       "In einem luftdichten Behälter bei Raumtemperatur aufbewahren."
     ],
     "intro_unique": "Cannabis-Paçoca ist eine mürbe brasilianische Erdnusssüßigkeit aus gemahlenen gerösteten Erdnüssen, Zucker und geschmolzener Cannabutter, gepresst zu süßen Zylindern.",
-    "dosing_unique": "Drücke die Masse in eine Form und schneide sie nach Gewicht in gleiche Stücke – für eine einheitliche Dosis pro Stück.",
+    "dosing_unique": "Drücke die Masse in eine Form und schneide sie nach Gewicht in gleiche Stücke – für eine einheitliche Dosis pro Stück. Eine Portion sind 4 Stücke.",
     "storage_unique": "Bewahre sie luftdicht verschlossen bis zu 1 Woche bei Zimmertemperatur auf; die Süßigkeit bleibt mürbe und frisch.",
     "variation_unique": "Tauche die Unterseite jeder Paçoca in geschmolzene Zartbitterschokolade für eine Schoko-Erdnuss-Kombination.",
-    "unique_src": "17bb85cc5ea9ffefb904b565f39a750228de1cb8"
+    "unique_src": "7b2ac19feffcbabdb4a25610acbfe2f7a26073a8"
   },
   "infused-coxinha": {
     "name": "Infundierte Coxinha",
@@ -3486,10 +3487,10 @@
       "In Mini-Pralinenförmchen setzen und bis zum Servieren kalt stellen."
     ],
     "intro_unique": "Cannabis-Beijinhos sind zarte brasilianische Kokostrüffel aus Kondensmilch, Cannabutter und Kokosraspeln – der süßere Verwandte des Brigadeiro.",
-    "dosing_unique": "Forme jedes Beijinho mit einem Teelöffelmaß gleich groß und setze traditionell eine einzelne Gewürznelke obendrauf.",
+    "dosing_unique": "Forme jedes Beijinho mit einem Teelöffelmaß gleich groß und setze traditionell eine einzelne Gewürznelke obendrauf. Eine Portion sind 4 Beijinhos.",
     "storage_unique": "Bewahre sie in Pralinenförmchen bis zu einer Woche im Kühlschrank auf; kalt behalten sie ihre Form am besten.",
     "variation_unique": "Wälze sie in gerösteten Kokoschips statt normalen Raspeln für eine nussigere, kräftigere Hülle.",
-    "unique_src": "66dc560ee35a7bedcfd93408a16ef7c0d37293b0"
+    "unique_src": "c2acea3d7e5358510a33bb4f612203e1e5103654"
   },
   "infused-empadao": {
     "name": "Infundierter Empadão",
@@ -4110,7 +4111,7 @@
       "Den Zucker gleichmäßig in einer Glasauflaufform verteilen. Die abgeseihte Tinktur über den Zucker gießen und gründlich verrühren.",
       "In dünner Schicht verteilen und den Alkohol bei Raumtemperatur an einem gut belüfteten Ort, fern von offenen Flammen und Hitzequellen, 24-48 Stunden verdunsten lassen, gelegentlich umrühren.",
       "Wenn der Zucker vollständig trocken ist, alle Klumpen mit einer Gabel zerdrücken. Der Zucker hat eine leicht goldene Farbe.",
-      "In einem luftdichten Behälter an einem kühlen, dunklen Ort aufbewahren. Als 1:1-Ersatz für normalen Zucker verwenden."
+      "Luftdicht, kühl und dunkel lagern. Jeder Teelöffel enthält etwa 15 mg bei 14 % THC, also nicht 1:1 gegen Zucker tauschen: höchstens 1 Teelöffel pro Portion verwenden und den restlichen Zucker des Rezepts mit normalem Zucker ergänzen."
     ],
     "intro_unique": "Cannabis-Zucker ist eine fettfreie Infusionsmethode, mit der du THC in jedes Rezept oder Getränk bringst, in dem normaler Zucker verwendet wird.",
     "dosing_unique": "Teile die gesamte Zuckerausbeute durch die Anzahl der Teelöffel, um die Wirkstärke pro Teelöffel zu berechnen; fang mit 1 Teelöffel pro Portion an.",
@@ -4131,13 +4132,13 @@
       "Das decarboxylierte Cannabis vollständig abkühlen lassen. In einer Kaffeemühle oder Gewürzmühle zu einem sehr feinen Pulver mahlen.",
       "Das Mehl in eine große Schüssel sieben. Das Cannabispulver hinzufügen und gründlich verrühren.",
       "Die Mischung 2-3 Mal erneut sieben, um eine gleichmäßige Verteilung sicherzustellen. Das Mehl bekommt einen leicht grünlichen Ton.",
-      "In einem luftdichten Behälter an einem kühlen, dunklen Ort bis zu 3 Monate aufbewahren. Als teilweiser oder vollständiger Ersatz für normales Mehl verwenden."
+      "Das Cannabismehl luftdicht, kühl und dunkel bis zu 3 Monate lagern. Niemals roh essen: wie jedes Mehl backen oder kochen. Jeder Teelöffel enthält etwa 15 mg bei 14 % THC, also nicht das ganze Mehl eines Rezepts ersetzen: höchstens 1 Teelöffel pro Portion (¼ Tasse für 12 Portionen) und den Rest mit normalem Mehl."
     ],
     "intro_unique": "Cannabis-Mehl ist die einfachste Infusionsbasis überhaupt: Du brauchst nur decarboxyliertes Cannabis und Weizenmehl, die miteinander vermahlen werden.",
-    "dosing_unique": "Berechne das gesamte THC in deinem Cannabis und teile es durch die Anzahl der Tassen Mehl, um die Potenz pro Tasse zu bestimmen; ersetze anfangs nur einen Teil des normalen Mehls.",
+    "dosing_unique": "Eine Portion ist 1 Teelöffel Cannabismehl, etwa 15 mg bei 14 % THC; ersetze pro Portion nur so viel vom Mehl des Rezepts.",
     "storage_unique": "Bewahre es in einem verschlossenen Glas oder Beutel bis zu 6 Monate im Gefrierschrank auf, um die Potenz zu erhalten, oder bis zu 3 Monate in einer kühlen, dunklen Speisekammer.",
     "variation_unique": "Nimm Vollkornmehl oder Mandelmehl als Basis für eine glutenfreie oder proteinreiche Alternative.",
-    "unique_src": "b2395c0cc5d218bdb3261c55766150afc985b9fd"
+    "unique_src": "d1bfd1eb16f9287545d18fd0ab8ebc4de722b542"
   },
   "cannabis-tincture": {
     "name": "Cannabis-Tinktur",
@@ -4907,7 +4908,7 @@
     "instructions": [
       "Den Rotwein in einen großen Topf bei niedriger Hitze geben. Orangenscheiben, Nelken, Zimtstangen, Sternanis und Zucker hinzufügen.",
       "20 Minuten sanft erwärmen, die Temperatur unter 70°C halten — niemals kochen lassen.",
-      "Vom Herd nehmen und den Cannabis-Honig einrühren bis er sich vollständig aufgelöst hat.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Vom Herd nehmen und den Cannabis-Honig einrühren bis er sich vollständig aufgelöst hat.",
       "Den Weinbrand hinzufügen, falls gewünscht.",
       "Durch ein Sieb in hitzebeständige Gläser oder Tassen gießen. Mit Orange und Zimtstange garnieren.",
       "Langsam genießen — die Kombination aus Alkohol und THC verstärkt die Wirkung. 90 Minuten vor Nachschub warten."
@@ -4936,7 +4937,7 @@
       "Die Cannabis-Kokoscreme, Ananas, Rum, Zucker und Eis in den Mixer geben.",
       "30-45 Sekunden auf höchster Stufe mixen bis alles glatt und schaumig ist.",
       "In ein hohes Glas gießen. Mit Ananaskeil und Cocktailkirsche garnieren.",
-      "Dieses Rezept ergibt 2 Portionen — nicht beide auf einmal trinken. Alkohol und Cannabis zusammen verstärken die Wirkung — 90 Minuten zwischen den Portionen warten."
+      "Dieses Rezept ergibt 2 Portionen; trink nicht beide auf einmal. Alkohol verstärkt die Wirkung von THC, warte also mindestens 2 Stunden vor einem zweiten Glas."
     ],
     "intro_unique": "Diese Cannabis Piña Colada ist ein Tropenurlaub im Glas – gemixte Kokosnuss, Ananas und Rum mit einer sanften THC-Infusion für ultimative Strandstimmung.",
     "dosing_unique": "Das Cannabis-Kokosöl wird vor dem Mixen in die Kokoscreme emulgiert, sodass das THC gleichmäßig verteilt und im cremigen Tropendrink nicht herauszuschmecken ist.",
@@ -4960,7 +4961,7 @@
     "instructions": [
       "Starken schwarzen Tee aufbrühen und auf Raumtemperatur abkühlen lassen, dann kalt stellen.",
       "Limonade zubereiten: Zucker im Zitronensaft auflösen und kaltes Wasser hinzufügen.",
-      "Den Cannabis-Honig in die Limonade einrühren. Den Honig vorher leicht erwärmen für besseres Auflösen.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig in die Limonade einrühren. Den Honig vorher leicht erwärmen für besseres Auflösen.",
       "Hohe Gläser mit Eiswürfeln füllen. Den Eistee bis zur Hälfte eingießen.",
       "Mit der Cannabis-Limonade auffüllen. Vorsichtig umrühren.",
       "Mit Zitronenscheibe und Minze garnieren. Ein Glas pro Portion — 60 Minuten auf die Wirkung warten."
@@ -5657,8 +5658,8 @@
     "intro_unique": "Für diese selbst gemachten Cannabis-Erdnussbutter-Pralinen wird Cannabis-infundiertes Kokosöl in die Schokoladenhülle geschmolzen – eine zarte, perfekt dosierte Süßigkeit, die es mit jeder gekauften aufnimmt.",
     "dosing_unique": "Das Cannabis-Öl wird in die Schokolade gemischt und gleichmäßig auf 12 Pralinen verteilt, sodass jede eine genaue und konstante Dosis liefert.",
     "storage_unique": "Bewahre sie bis zu 2 Wochen im Kühlschrank auf oder friere sie bis zu 2 Monate ein; lass sie vor dem Essen 5 Minuten bei Zimmertemperatur stehen – dann ist die Textur am besten.",
-    "variation_unique": "Nimm Mandelmus oder Sonnenblumenkernmus für eine erdnussfreie Version, oder probier Zartbitterschokolade mit einer Prise Fleur de Sel obendrauf.",
-    "unique_src": "4f1bf897639ef3b6cc91d3e14d6343d66acaef0f"
+    "variation_unique": "Für eine nussfreie Variante Sonnenblumenkernmus nehmen (Mandelmus ist erdnussfrei, aber Mandeln sind Schalenfrüchte), oder Zartbitterschokolade mit etwas Fleur de Sel darauf.",
+    "unique_src": "1a4899099f760c44479a850eed6cadbec86aee35"
   },
   "cannabis-macarons": {
     "name": "Cannabis-Macarons",
