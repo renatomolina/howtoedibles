@@ -101,6 +101,7 @@ Everything on master is public on the site — never commit secrets, and keep th
 - After changing article data or the article template, run `ruby scripts/check_english_migration.rb origin/master` (the local `master` ref goes stale). It checks that every English page still matches master on title, meta, canonical, hreflang, JSON-LD and visible text (`--head` skips the text).
 - Dosage formula: `dosage_mg = (10 * grams * strength_percent * 0.8) / num_portions` (0.8 = `COOKING_EFFICIENCY` in `build_site.rb` and `js/dose.js`; keep them in sync. The dose ladder, the 5 mg fraction helper and number formatting are mirrored between `build_redesign.rb` and `js/dose.js`; `scripts/qa/devices.mjs` checks they render the same)
 - Recipe defaults (`suggested_quantity`) are capped so the default dose is ≤ 15 mg THC per serving
+- **Writing or editing a recipe: follow `content/RECIPE_STANDARD.md`** (dose from the site's own base, ≤ 15 mg, split fat; storage only in `storage_unique`; template by cooking method; 5-language parity). Check with `ruby scripts/qa/recipes.rb . --json /tmp/l1.json` (a report for now, not a gate; see `scripts/qa/recipes.rb`)
 - Recipe URLs: `/recipes/{slug}/` (directory with index.html)
 - The calculator card (recipe pages, homepage, calculator.html) reads `window.DOSE` (injected inline per page); `?quantity=&potency=&portion=` still pre-fill it
 - Dark mode uses `[data-theme="dark"]` CSS selectors. The `theme` localStorage key holds `light` or `dark`; Auto removes the key
