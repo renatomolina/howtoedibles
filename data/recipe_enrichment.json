@@ -692,7 +692,7 @@
     "texture_type": "no_cook",
     "sub_category": "hot_drinks",
     "intro_unique": "Velvety cannabis hot chocolate is the ultimate cold-weather edible, whisking cocoa into gently warmed infused milk for a cozy cup.",
-    "dosing_unique": "Warm only the infused milk you plan to drink, one measured cup per mug, and whisk thoroughly so the cannabinoids stay evenly mixed.",
+    "dosing_unique": "Warm both milks together and whisk well, then divide evenly between 2 mugs; one mug is one serving.",
     "storage_unique": "Best served fresh; leftover hot chocolate can be refrigerated and reheated gently the next day.",
     "variation_unique": "Top with regular marshmallows and a pinch of cinnamon; skip infused toppings, which stack on top of the dose already in the milk."
   },
@@ -734,7 +734,7 @@
     "texture_type": "baked",
     "sub_category": "savory_snacks",
     "intro_unique": "Firecrackers are one of the simplest cannabis edibles you can make, requiring only graham crackers, hazelnut spread, and decarbed ground flower.",
-    "dosing_unique": "Spread a precisely weighed amount of decarbed cannabis on each cracker and seal tightly in foil before baking.",
+    "dosing_unique": "Mix all of the decarbed weed into the spread before you divide it equally over the 6 firecrackers; one firecracker is one serving.",
     "storage_unique": "Wrap each firecracker individually in foil and store at room temperature for up to 3 days.",
     "variation_unique": "Use peanut butter instead of hazelnut spread and add a sprinkle of sea salt for a sweet-salty version."
   },
@@ -885,7 +885,7 @@
     "texture_type": "stovetop",
     "sub_category": "butter_oil",
     "intro_unique": "Cannabutter is the foundational cannabis ingredient, infusing butter with decarbed flower through a slow, low-heat simmer.",
-    "dosing_unique": "Calculate the total THC from your starting flower, account for extraction efficiency around 80%, and label the jar with mg per tablespoon.",
+    "dosing_unique": "One serving is 1 teaspoon, about 15 mg at 14% THC; a tablespoon is 3 servings. Label the jar with mg per teaspoon.",
     "storage_unique": "Store in a sealed glass jar in the fridge for up to 3 weeks or freeze in silicone molds for up to 6 months.",
     "variation_unique": "Use cultured European-style butter with higher fat content for a richer flavor and potentially better THC extraction."
   },
@@ -908,7 +908,7 @@
     "texture_type": "stovetop",
     "sub_category": "butter_oil",
     "intro_unique": "Cannabis-infused olive oil is a heart-healthy, versatile base for savory edibles, dressings, and any recipe calling for cooking oil.",
-    "dosing_unique": "Note the total THC content and divide by the volume in tablespoons; label the bottle with mg per tablespoon.",
+    "dosing_unique": "One serving is 1 teaspoon, about 15 mg at 14% THC; a tablespoon is 3 servings. Label the bottle with mg per teaspoon.",
     "storage_unique": "Store in a dark glass bottle in a cool cupboard for up to 3 months; olive oil resists rancidity better than butter.",
     "variation_unique": "For a flavored finishing oil, add dried rosemary and dried garlic during infusion. Never store oil with fresh garlic or fresh herbs at room temperature (botulism risk); if you use fresh aromatics, refrigerate and use within 4 days."
   },
@@ -931,7 +931,7 @@
     "texture_type": "stovetop",
     "sub_category": "butter_oil",
     "intro_unique": "Cannabis-infused coconut oil has the highest saturated fat content of any cooking oil, making it exceptionally efficient at binding THC.",
-    "dosing_unique": "Pour into silicone ice cube molds for pre-measured tablespoon portions that are easy to pop out and use in recipes.",
+    "dosing_unique": "One serving is 1 teaspoon, about 15 mg at 14% THC; a tablespoon is 3 servings. Pour it into ice-cube molds in teaspoon portions and label them with mg per teaspoon.",
     "storage_unique": "Coconut oil is shelf-stable at room temperature for up to 3 months; refrigerate for longer storage up to 6 months.",
     "variation_unique": "Use refined coconut oil for a neutral taste in recipes where you do not want coconut flavor."
   },
@@ -994,7 +994,7 @@
     "texture_type": "stovetop",
     "sub_category": "butter_oil",
     "intro_unique": "Cannabis-infused ghee is clarified butter with the milk solids removed, offering a nutty, high-smoke-point fat perfect for cooking.",
-    "dosing_unique": "Ghee is denser than butter, so weigh your portions rather than using volume measurements for accurate dosing.",
+    "dosing_unique": "One serving is 1 teaspoon. 1 cup of butter gives about ¾ cup of ghee (36 teaspoons), about 11 mg each at 14% THC; label the jar with mg per teaspoon.",
     "storage_unique": "Refrigerate in a sealed jar for up to 3 months; its low moisture content helps it keep, but infused ghee stays freshest cold.",
     "variation_unique": "Infuse with turmeric and black pepper during preparation for a golden ghee with anti-inflammatory properties."
   },
@@ -2527,7 +2527,7 @@
     "texture_type": "stovetop",
     "sub_category": "brazilian_sweet",
     "intro_unique": "Infused brigadeiros are beloved Brazilian chocolate truffles made from condensed milk, cocoa, and cannabutter rolled into bite-sized balls.",
-    "dosing_unique": "Roll each brigadeiro to the same size using a teaspoon measure so every piece has an identical dose.",
+    "dosing_unique": "Roll each brigadeiro to the same size using a teaspoon measure so every piece has an identical dose. One serving is 3 brigadeiros.",
     "storage_unique": "Store in petit four cups in the fridge for up to one week; they firm up perfectly when chilled.",
     "variation_unique": "Use white chocolate and coconut instead of cocoa for a beijinho-brigadeiro hybrid called prestígio."
   },
@@ -2545,7 +2545,7 @@
     "texture_type": "stovetop",
     "sub_category": "brazilian_sweet",
     "intro_unique": "Cannabis pacoca is a crumbly Brazilian peanut candy made with ground roasted peanuts, sugar, and melted cannabutter pressed into sweet cylinders.",
-    "dosing_unique": "Press the mixture into a mold and cut into equal pieces by weight for uniform dosing per candy.",
+    "dosing_unique": "Press the mixture into a mold and cut into equal pieces by weight for uniform dosing per candy. One serving is 4 pieces.",
     "storage_unique": "Store in an airtight container at room temperature for up to 1 week; the candy stays crumbly and fresh.",
     "variation_unique": "Dip the bottom of each pacoca in melted dark chocolate for a chocolate-peanut combination."
   },
@@ -2657,7 +2657,7 @@
     "texture_type": "stovetop",
     "sub_category": "brazilian_sweet",
     "intro_unique": "Cannabis beijinhos are delicate Brazilian coconut truffles made from condensed milk, cannabutter, and shredded coconut, a sweeter cousin to the brigadeiro.",
-    "dosing_unique": "Roll each beijinho to the same size using a teaspoon measure and top with a single clove for the traditional presentation.",
+    "dosing_unique": "Roll each beijinho to the same size using a teaspoon measure and top with a single clove for the traditional presentation. One serving is 4 beijinhos.",
     "storage_unique": "Refrigerate in petit four cups for up to one week; they hold their shape best when kept cold.",
     "variation_unique": "Roll in toasted coconut flakes instead of regular for a nuttier, more deeply flavored coating."
   },
@@ -3104,7 +3104,7 @@
     "texture_type": "dry",
     "sub_category": "butter_oil",
     "intro_unique": "Cannabis flour is the simplest infusion base you can make, requiring only decarboxylated cannabis and all-purpose flour blended together.",
-    "dosing_unique": "Calculate the total THC in your cannabis and divide by the number of cups of flour to determine potency per cup; replace only a portion of regular flour to start.",
+    "dosing_unique": "One serving is 1 teaspoon of cannabis flour, about 15 mg at 14% THC; replace only that much of a recipe's flour per serving.",
     "storage_unique": "Store in a sealed jar or bag in the freezer for up to 6 months to preserve potency, or in a cool dark pantry for up to 3 months.",
     "variation_unique": "Use whole wheat flour or almond flour as the base for a gluten-free or high-protein alternative."
   },
@@ -4116,7 +4116,7 @@
     "intro_unique": "These homemade cannabis peanut butter cups melt cannabis-infused coconut oil into the chocolate shell for a smooth, perfectly dosed confection that rivals any store-bought candy.",
     "dosing_unique": "The cannabis oil is mixed into the chocolate and evenly divided among 12 cups, so each peanut butter cup delivers a precise and consistent dose.",
     "storage_unique": "Store in the refrigerator for up to 2 weeks or freeze for up to 2 months; let sit at room temperature for 5 minutes before eating for the best texture.",
-    "variation_unique": "Use almond butter or sunflower seed butter for a nut-free version, or try dark chocolate and add a sprinkle of flaky sea salt on top."
+    "variation_unique": "For a nut-free version use sunflower seed butter (almond butter is peanut-free, but almonds are a tree nut), or try dark chocolate with a sprinkle of flaky sea salt on top."
   },
   "cannabis-macarons": {
     "prepTime": "PT40M",

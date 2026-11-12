@@ -17,10 +17,10 @@
       "Note que a manteiga de cannabis no recipiente deve ter uma tonalidade levemente esverdeada da cannabis. Agora você está pronto para preparar algumas refeições infusionadas com cannabis!"
     ],
     "intro_unique": "A manteiga de cannabis é o ingrediente-base da cozinha com cannabis: a manteiga é infusionada com flor descarboxilada num cozimento lento, em fogo baixo.",
-    "dosing_unique": "Calcule o THC total da flor que você usou, considere uma eficiência de extração de cerca de 80% e identifique o pote com os mg por colher de sopa.",
+    "dosing_unique": "Uma porção é 1 colher de chá, cerca de 15 mg com 14% de THC; 1 colher de sopa são 3 porções. Etiquete o pote com os mg por colher de chá.",
     "storage_unique": "Guarde num pote de vidro fechado na geladeira por até 3 semanas ou congele em forminhas de silicone por até 6 meses.",
     "variation_unique": "Use manteiga fermentada estilo europeu, com mais gordura, para um sabor mais rico e, possivelmente, uma extração de THC melhor.",
-    "unique_src": "b40b056dc349318fea9800acc79fc171a029e86e"
+    "unique_src": "9f68b019cc3995a1024a0b9c2f18420f45256881"
   },
   "infused-coconut-oil": {
     "name": "Óleo de Coco Infusionado",
@@ -39,10 +39,10 @@
       "Junte o pano de queijo e esprema todo o líquido restante."
     ],
     "intro_unique": "O óleo de coco infusionado com cannabis tem o maior teor de gordura saturada entre os óleos de cozinha, o que o torna excepcionalmente eficiente para se ligar ao THC.",
-    "dosing_unique": "Despeje em forminhas de gelo de silicone para ter porções de uma colher de sopa já medidas, fáceis de desenformar e usar nas receitas.",
+    "dosing_unique": "Uma porção é 1 colher de chá, cerca de 15 mg com 14% de THC; 1 colher de sopa são 3 porções. Despeje em forminhas de gelo em porções de 1 colher de chá e etiquete com os mg por colher de chá.",
     "storage_unique": "O óleo de coco pode ficar em temperatura ambiente por até 3 meses; para guardar por mais tempo, até 6 meses, leve à geladeira.",
     "variation_unique": "Use óleo de coco refinado para um sabor neutro nas receitas em que você não quer gosto de coco.",
-    "unique_src": "3f55859bf567f9e8a61f4cd12bf4a14536451230"
+    "unique_src": "afc12623dfdb72b27e69ff0dc10352ff50b5daf3"
   },
   "infused-olive-oil": {
     "name": "Azeite de Oliva Infusionado",
@@ -62,10 +62,10 @@
       "Junte o pano de queijo e esprema todo o líquido restante."
     ],
     "intro_unique": "O azeite de oliva infusionado com cannabis é uma base versátil e boa para o coração, para comestíveis salgados, molhos para salada e qualquer receita que peça óleo de cozinha.",
-    "dosing_unique": "Anote o teor total de THC e divida pelo volume em colheres de sopa; identifique a garrafa com os mg por colher de sopa.",
+    "dosing_unique": "Uma porção é 1 colher de chá, cerca de 15 mg com 14% de THC; 1 colher de sopa são 3 porções. Etiquete a garrafa com os mg por colher de chá.",
     "storage_unique": "Guarde numa garrafa de vidro escuro, num armário fresco, por até 3 meses; o azeite resiste à rancificação melhor que a manteiga.",
     "variation_unique": "Para um azeite aromatizado de finalização, acrescente alecrim seco e alho desidratado durante a infusão. Nunca guarde óleo com alho fresco ou ervas frescas em temperatura ambiente (risco de botulismo); se usar aromáticos frescos, mantenha na geladeira e use em até 4 dias.",
-    "unique_src": "6c4d5f95476178c7edfd1c800b835f2fc441be0c"
+    "unique_src": "daa9406e2bba1b05b04543f4758ae8e52fb0a585"
   },
   "infused-bulletproof-coffee": {
     "name": "Café Bulletproof Infusionado",
@@ -248,17 +248,17 @@
       "Coloque sua erva no papel alumínio.",
       "Preaqueça o forno a 240&deg; F (115&deg; C).",
       "Descarboxile sua erva por 30-40 minutos a 240&deg; F (115&deg; C).",
-      "Cubra os crackers com creme de avelã.",
-      "Retire sua erva do forno e polvilhe sobre o creme de avelã.",
-      "Misture a erva no creme e junte os crackers como um sanduíche.",
+      "Tire a erva do forno e misture toda ela no creme de avelã até não sobrar nenhum pontinho.",
+      "Divida o creme por igual entre 6 dos quadradinhos de biscoito, para cada firecracker ter a mesma dose.",
+      "Cubra cada um com um dos quadradinhos restantes para fazer 6 sanduíches.",
       "Embrulhe e sele o firecracker no papel alumínio.",
       "Torre no forno por 15 minutos a 300&deg; F."
     ],
     "intro_unique": "Os Fire Crackers estão entre os comestíveis de cannabis mais simples de fazer: só pedem biscoitos tipo cracker, creme de avelã e flor moída descarboxilada.",
-    "dosing_unique": "Espalhe uma quantidade de cannabis descarboxilada pesada com precisão sobre cada biscoito e feche bem no papel-alumínio antes de assar.",
+    "dosing_unique": "Misture toda a erva descarboxilada no creme antes de dividi-lo por igual entre os 6 firecrackers; um firecracker é uma porção.",
     "storage_unique": "Embrulhe cada Fire Cracker individualmente em papel-alumínio e guarde em temperatura ambiente por até 3 dias.",
     "variation_unique": "Use pasta de amendoim no lugar do creme de avelã e acrescente uma pitada de flor de sal para uma versão doce e salgada.",
-    "unique_src": "e25421e5ff2b99783cbeeafb4ee8d859c264634a"
+    "unique_src": "2bd6e4768953a66c216a6c7de4fdc2312a11421e"
   },
   "infused-lemonade": {
     "name": "Limonada Infusionada",
@@ -273,7 +273,7 @@
       "Fatias de limão para decorar"
     ],
     "instructions": [
-      "Em uma jarra, combine o suco de limão espremido na hora, a água gelada, o açúcar refinado e o mel infusionado com cannabis.",
+      "Mexa bem o pote de mel infusionado antes de medir. Em uma jarra, combine o suco de limão espremido na hora, a água gelada, o açúcar refinado e o mel infusionado com cannabis.",
       "Mexa bem até que o açúcar esteja dissolvido.",
       "Prove a limonada e ajuste a doçura adicionando mais açúcar ou mel infusionado com cannabis se desejar.",
       "Adicione cubos de gelo à jarra para gelar a limonada.",
@@ -750,7 +750,8 @@
     "ingredients": [
       "1/2 cup de óleo de coco",
       "3.5 de erva moída",
-      "300 g de mel"
+      "300 g de mel",
+      "1 colher de chá de lecitina de girassol ou de soja"
     ],
     "instructions": [
       "Descarboxile sua erva - Saiba como fazer",
@@ -760,7 +761,7 @@
       "Coloque o pote de conserva em uma panela com água e mantenha a água em fervura branda, em fogo baixo-médio (cerca de 200&deg; F - 95&deg; C), por 2-3 horas, completando a água conforme evaporar.",
       "Coloque todo o conteúdo do pote em um pano de queijo sobre um coador de metal.",
       "Junte o pano de queijo e esprema todo o líquido restante.",
-      "Adicione o óleo de coco e o mel no liquidificador.",
+      "Misture a lecitina no óleo coado ainda morno. Aqueça o mel devagar e bata com o óleo até ficar liso e homogêneo; mexa o pote antes de cada uso, porque ainda pode assentar.",
       "Coloque e armazene toda a mistura em um pote de conserva ou pote de vidro."
     ],
     "intro_unique": "O mel infusionado com cannabis é um item versátil da despensa, que você pode misturar no chá, regar sobre torradas ou usar como adoçante em qualquer receita.",
@@ -881,10 +882,10 @@
       "Deixe esfriar em temperatura ambiente, depois refrigere. O ghee vai solidificar e dura até 3 meses."
     ],
     "intro_unique": "O ghee infusionado com cannabis é manteiga clarificada sem os sólidos do leite: uma gordura de sabor amendoado e alto ponto de fumaça, perfeita para cozinhar.",
-    "dosing_unique": "O ghee é mais denso que a manteiga, então pese as porções em vez de usar medidas de volume, para uma dosagem precisa.",
+    "dosing_unique": "Uma porção é 1 colher de chá. 1 xícara de manteiga rende cerca de ¾ de xícara de ghee (36 colheres de chá), cerca de 11 mg cada com 14% de THC; etiquete o pote com os mg por colher de chá.",
     "storage_unique": "Guarde na geladeira num pote fechado por até 3 meses; o baixo teor de umidade ajuda na conservação, mas o ghee infusionado se mantém mais fresco no frio.",
     "variation_unique": "Infusione com cúrcuma e pimenta-do-reino durante o preparo para um ghee dourado com propriedades anti-inflamatórias.",
-    "unique_src": "f5fe9a5181ab1b87e540c6e668122ce06ad4200b"
+    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9"
   },
   "infused-condensed-milk": {
     "name": "Leite Condensado Infusionado",
@@ -924,17 +925,17 @@
       "Chantilly para cobertura (opcional)"
     ],
     "instructions": [
-      "Aqueça o leite infusionado em uma panela pequena em fogo médio-baixo. Não deixe ferver.",
+      "Aqueça o leite infusionado e o leite comum juntos em uma panela pequena em fogo médio-baixo. Não deixe ferver.",
       "Adicione o cacau em pó, o açúcar e o sal, mexendo com o fouet até dissolver completamente e ficar liso.",
       "Adicione o extrato de baunilha e mexa para combinar.",
       "Despeje nas canecas e cubra com chantilly se desejar.",
       "Sirva imediatamente e aproveite devagar — os comestíveis levam tempo para fazer efeito."
     ],
     "intro_unique": "O aveludado Chocolate Quente de Cannabis é o comestível definitivo para o frio, com cacau batido no leite infusionado aquecido delicadamente para uma xícara aconchegante.",
-    "dosing_unique": "Aqueça apenas o leite infusionado que você pretende beber, uma xícara medida por caneca, e bata bem para que os canabinoides fiquem misturados de forma uniforme.",
+    "dosing_unique": "Aqueça os dois leites juntos e bata bem, depois divida por igual em 2 canecas; cada caneca é uma porção.",
     "storage_unique": "Fica melhor servido na hora; o chocolate quente que sobrar pode ir à geladeira e ser reaquecido delicadamente no dia seguinte.",
     "variation_unique": "Cubra com marshmallows comuns e uma pitada de canela; evite coberturas infusionadas, que se somam à dose que já está no leite.",
-    "unique_src": "efd452aa7dd59f19093795d795bbd36b511a98f5"
+    "unique_src": "59b568018b7b4abcb9901f09ece4f7bf3cec3971"
   },
   "infused-cold-brew": {
     "name": "Cold Brew Infusionado",
@@ -1809,7 +1810,7 @@
       "Limão e hortelã para decorar"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Junte o suco de limão e a mistura de mel.",
       "Adicione gelo e complete com água com gás. Decore."
     ],
@@ -1832,7 +1833,7 @@
       "Rodela de lima"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Macere a hortelã em um copo.",
       "Adicione gelo, suco de lima e a mistura de mel.",
       "Complete com água com gás. Decore com lima."
@@ -1856,7 +1857,7 @@
       "Gelo"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Macere o pepino e a hortelã com a mistura de mel e o suco de limão.",
       "Agite com gelo e coe.",
       "Complete com água com gás."
@@ -1879,7 +1880,7 @@
       "Hortelã fresca"
     ],
     "instructions": [
-      "Bata a melancia, o mel de cannabis, o limão e o sal até ficar homogêneo.",
+      "Mexa bem o pote de mel infusionado antes de medir. Bata a melancia, o mel de cannabis, o limão e o sal até ficar homogêneo.",
       "Despeje nos copos e decore com hortelã."
     ],
     "intro_unique": "Geladíssima, a raspadinha de melancia infusionada bate melancia congelada com mel de cannabis e limão num mocktail de verão gelado e hidratante.",
@@ -1901,7 +1902,7 @@
     ],
     "instructions": [
       "Ferva em fogo baixo a água, o açúcar e a lavanda por 10 min; coe e deixe o xarope esfriar.",
-      "Dissolva bem o mel infusionado em 2 colheres de sopa de água morna e misture com o suco de limão, o xarope e a água. Mexa antes de servir cada copo sobre gelo."
+      "Mexa bem o pote de mel infusionado antes de medir. Dissolva bem o mel infusionado em 2 colheres de sopa de água morna e misture com o suco de limão, o xarope e a água. Mexa antes de servir cada copo sobre gelo."
     ],
     "intro_unique": "A Limonada de Lavanda com Cannabis faz uma infusão de lavanda seca em um xarope simples e a combina com suco de limão e tintura para uma bebida floral e calmante.",
     "dosing_unique": "Misture a tintura ao xarope de lavanda já frio para que fique bem incorporada, e depois meça o xarope na limonada.",
@@ -1923,7 +1924,7 @@
       "Gelo"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Junte os sucos, a mistura de mel e o limão em uma jarra.",
       "Sirva sobre gelo e complete com água com gás."
     ],
@@ -1946,7 +1947,7 @@
       "Gelo"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Macere os morangos e o manjericão com a mistura de mel e o limão.",
       "Coe sobre gelo. Complete com água com gás."
     ],
@@ -1970,7 +1971,7 @@
     ],
     "instructions": [
       "Deixe o hibisco em infusão por 10 min. Coe e deixe esfriar.",
-      "Misture o mel de cannabis e o limão. Sirva sobre gelo."
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel de cannabis e o limão. Sirva sobre gelo."
     ],
     "intro_unique": "Vermelho-rubi, o chá de hibisco infusionado é feito com flores de hibisco secas em infusão, adoçadas com mel de cannabis, numa bebida gelada azedinha e refrescante.",
     "dosing_unique": "Misture o mel de cannabis a todo o chá enquanto ele ainda está morno, para que se dissolva por completo, e depois sirva copos iguais.",
@@ -1992,7 +1993,7 @@
     ],
     "instructions": [
       "Prepare o chá por 5 min. Adicione os pêssegos; esfrie e leve à geladeira por 1h.",
-      "Coe. Misture o mel infusionado ao chá enquanto ainda estiver morno, até dissolver completamente; depois adicione o limão e deixe esfriar. Mexa novamente e sirva sobre gelo."
+      "Mexa bem o pote de mel infusionado antes de medir. Coe. Misture o mel infusionado ao chá enquanto ainda estiver morno, até dissolver completamente; depois adicione o limão e deixe esfriar. Mexa novamente e sirva sobre gelo."
     ],
     "intro_unique": "O Chá Gelado de Pêssego com Cannabis faz uma infusão de chá preto com pêssegos frescos fatiados e é finalizado com xarope simples de cannabis, um drinque doce sem álcool no estilo do sul dos EUA.",
     "dosing_unique": "Misture o xarope de cannabis ao chá coado e gelado e sirva copos medidos para uma dosagem uniforme.",
@@ -2013,7 +2014,7 @@
       "Pitada de sal"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Bata a mistura de mel com todos os outros ingredientes até ficar homogêneo.",
       "Prove e ajuste. Despeje nos copos."
     ],
@@ -2058,7 +2059,7 @@
       "Gelo"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Junte o suco de abacaxi, o gengibre, a mistura de mel e o limão. Coe.",
       "Sirva sobre gelo e complete com água com gás."
     ],
@@ -2081,7 +2082,7 @@
       "Cranberries, alecrim"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Junte o suco de cranberry, a mistura de mel e o suco de laranja.",
       "Adicione gelo e água com gás. Decore."
     ],
@@ -2103,7 +2104,7 @@
       "Gelo"
     ],
     "instructions": [
-      "Bata o matcha com água quente até ficar homogêneo. Incorpore o mel de cannabis e o mel comum, batendo até dissolver completamente.",
+      "Mexa bem o pote de mel infusionado antes de medir. Bata o matcha com água quente até ficar homogêneo. Incorpore o mel de cannabis e o mel comum, batendo até dissolver completamente.",
       "Encha o copo com gelo e leite de aveia. Despeje o matcha por cima."
     ],
     "intro_unique": "O matcha gelado infusionado bate matcha com leite de aveia gelado e mel de cannabis numa bebida verde, terrosa e energizante.",
@@ -2125,7 +2126,7 @@
       "Hortelã"
     ],
     "instructions": [
-      "Misture o maracujá, o limão e o mel de cannabis até dissolver.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o maracujá, o limão e o mel de cannabis até dissolver.",
       "Sirva sobre gelo e complete com água com gás. Decore."
     ],
     "intro_unique": "A tropical Limonada de Maracujá com Cannabis combina a polpa ácida do maracujá com suco de limão fresco e mel de cannabis, um drinque sem álcool exótico e ensolarado.",
@@ -2147,7 +2148,7 @@
       "Limão, cerejas"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Junte o suco de cereja, o limão e a mistura de mel.",
       "Sirva sobre gelo e complete com água com gás. Decore."
     ],
@@ -2170,7 +2171,7 @@
       "Gelo"
     ],
     "instructions": [
-      "Prepare o chá verde por 3 min. Misture o mel de cannabis enquanto ainda está quente.",
+      "Mexa bem o pote de mel infusionado antes de medir. Prepare o chá verde por 3 min. Misture o mel de cannabis enquanto ainda está quente.",
       "Adicione hortelã e limão. Esfrie, leve à geladeira. Sirva sobre gelo."
     ],
     "intro_unique": "O Chá Verde de Menta com Cannabis faz uma infusão de chá verde com hortelã fresca e limão e é adoçado com mel de cannabis, uma bebida gelada leve e refrescante.",
@@ -2191,7 +2192,7 @@
       "Gelo"
     ],
     "instructions": [
-      "Cozinhe os mirtilos com ¼ cup de água; coe. Enquanto o suco ainda estiver morno, misture o mel infusionado até dissolver completamente.",
+      "Mexa bem o pote de mel infusionado antes de medir. Cozinhe os mirtilos com ¼ cup de água; coe. Enquanto o suco ainda estiver morno, misture o mel infusionado até dissolver completamente.",
       "Misture o suco de mirtilo com mel, o limão e a água. Mexa bem e sirva sobre gelo."
     ],
     "intro_unique": "Vibrante, a limonada de mirtilo infusionada bate mirtilos frescos com suco de limão e xarope simples de cannabis num mocktail de um roxo deslumbrante.",
@@ -2214,7 +2215,7 @@
       "Água com gás"
     ],
     "instructions": [
-      "Combine o gengibre, a cúrcuma, o limão e o mel de cannabis na água morna.",
+      "Mexa bem o pote de mel infusionado antes de medir. Combine o gengibre, a cúrcuma, o limão e o mel de cannabis na água morna.",
       "Esfrie, adicione gelo e complete com água com gás. Adicione pimenta-do-reino."
     ],
     "intro_unique": "Um reconfortante Tônico de Gengibre e Cúrcuma com Cannabis combina gengibre e cúrcuma com mel de cannabis e limão para um drinque sem álcool com pegada de bem-estar.",
@@ -2236,7 +2237,7 @@
       "Raspas de limão, flocos de coco"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Junte a água de coco, o limão e a mistura de mel.",
       "Adicione água com gás sobre gelo. Decore."
     ],
@@ -2692,7 +2693,7 @@
       "Pitada de sal"
     ],
     "instructions": [
-      "Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
+      "Mexa bem o pote de mel infusionado antes de medir. Misture o mel infusionado (e o mel comum, se houver) em 2 colheres de sopa de água morna até dissolver completamente. O mel infusionado contém óleo de coco, que endurece em bebidas geladas, por isso sempre dissolva-o primeiro em líquido morno e depois mexa ou agite bem a bebida antes de servir.",
       "Bata a manga congelada, a mistura de mel, o limão e o sal até ficar homogêneo.",
       "Sirva como sorvete cremoso ou congele por 1h para uma textura mais firme."
     ],
@@ -3247,7 +3248,7 @@
       "1 tsp cúrcuma",
       "1 tsp garam masala",
       "3 cups água",
-      "2 tbsp ghee de cannabis",
+      "1½ colher de sopa de ghee de cannabis + ½ colher de sopa de ghee",
       "Sal, coentro"
     ],
     "instructions": [
@@ -3311,10 +3312,10 @@
       "Coloque em forminhas de papel e leve à geladeira até firmar."
     ],
     "intro_unique": "Os brigadeiros infusionados são os queridos docinhos de chocolate brasileiros, feitos com leite condensado, cacau e manteiga de cannabis e enrolados em bolinhas.",
-    "dosing_unique": "Enrole todos os brigadeiros do mesmo tamanho usando uma colher de chá medidora, para que cada um tenha exatamente a mesma dose.",
+    "dosing_unique": "Enrole todos os brigadeiros do mesmo tamanho usando uma colher de chá medidora, para que cada um tenha exatamente a mesma dose. Uma porção são 3 brigadeiros.",
     "storage_unique": "Guarde em forminhas de papel na geladeira por até uma semana; eles firmam perfeitamente quando gelados.",
     "variation_unique": "Use chocolate branco e coco no lugar do cacau para um híbrido de beijinho e brigadeiro chamado prestígio.",
-    "unique_src": "021e0b4a10bf44d69e7fe46b68517cbbec599213"
+    "unique_src": "64628f3650c047ddd4f9d0b12cf82600eef261ef"
   },
   "cannabis-pacoca": {
     "name": "Paçoca de Cannabis",
@@ -3334,10 +3335,10 @@
       "Guarde em um recipiente hermético em temperatura ambiente."
     ],
     "intro_unique": "A Paçoca de Cannabis é um doce brasileiro de amendoim que esfarela, feito com amendoim torrado moído, açúcar e manteiga de cannabis derretida, prensado em cilindros doces.",
-    "dosing_unique": "Pressione a mistura em uma forma e corte em pedaços iguais por peso, para uma dosagem uniforme por paçoca.",
+    "dosing_unique": "Pressione a mistura em uma forma e corte em pedaços iguais por peso, para uma dosagem uniforme por paçoca. Uma porção são 4 pedaços.",
     "storage_unique": "Guarde em um recipiente hermético em temperatura ambiente por até 1 semana; o doce continua esfarelando e fresquinho.",
     "variation_unique": "Mergulhe a base de cada paçoca em chocolate amargo derretido para uma combinação de chocolate e amendoim.",
-    "unique_src": "17bb85cc5ea9ffefb904b565f39a750228de1cb8"
+    "unique_src": "7b2ac19feffcbabdb4a25610acbfe2f7a26073a8"
   },
   "infused-coxinha": {
     "name": "Coxinha Infusionada",
@@ -3486,10 +3487,10 @@
       "Coloque em forminhas de papel e leve à geladeira até a hora de servir."
     ],
     "intro_unique": "Os Beijinhos de Cannabis são delicados docinhos brasileiros de coco feitos com leite condensado, manteiga de cannabis e coco ralado, o primo mais doce do brigadeiro.",
-    "dosing_unique": "Enrole cada beijinho do mesmo tamanho usando uma colher de chá como medida e finalize com um único cravo, como manda a tradição.",
+    "dosing_unique": "Enrole cada beijinho do mesmo tamanho usando uma colher de chá como medida e finalize com um único cravo, como manda a tradição. Uma porção são 4 beijinhos.",
     "storage_unique": "Guarde na geladeira em forminhas de papel por até uma semana; eles mantêm melhor o formato quando ficam gelados.",
     "variation_unique": "Passe em coco em flocos tostado em vez do coco comum para uma cobertura de sabor mais intenso e amendoado.",
-    "unique_src": "66dc560ee35a7bedcfd93408a16ef7c0d37293b0"
+    "unique_src": "c2acea3d7e5358510a33bb4f612203e1e5103654"
   },
   "infused-empadao": {
     "name": "Empadão Infusionado",
@@ -4110,7 +4111,7 @@
       "Num refratário de vidro, espalhe o açúcar uniformemente. Despeje a tintura coada sobre o açúcar e misture bem.",
       "Espalhe em camada fina e deixe o álcool evaporar em temperatura ambiente, em local bem ventilado e longe de chamas ou fontes de calor, por 24-48 horas, mexendo ocasionalmente.",
       "Quando estiver completamente seco, quebre os grumos com um garfo. O açúcar terá uma cor levemente dourada.",
-      "Guarde em recipiente hermético em local fresco e escuro. Use como substituto 1:1 do açúcar comum."
+      "Guarde em pote hermético em local fresco e escuro. Cada colher de chá tem cerca de 15 mg com 14% de THC, então não troque 1:1 pelo açúcar: use no máximo 1 colher de chá por porção e complete o açúcar da receita com açúcar comum."
     ],
     "intro_unique": "O açúcar de cannabis é um método de infusão sem gordura que permite adicionar THC a qualquer receita ou bebida que leve açúcar comum.",
     "dosing_unique": "Divida o rendimento total de açúcar pelo número de colheres de chá para calcular a potência de cada colher de chá; comece com 1 colher de chá por porção.",
@@ -4131,13 +4132,13 @@
       "Deixe a cannabis descarboxilada esfriar completamente. Triture até virar um pó muito fino usando um moedor de café ou especiarias.",
       "Peneire a farinha de trigo numa tigela grande. Adicione o pó de cannabis e misture bem.",
       "Peneire a mistura 2-3 vezes mais para garantir distribuição uniforme. A farinha terá um tom levemente esverdeado.",
-      "Guarde em recipiente hermético em local fresco e escuro por até 3 meses. Use como substituto parcial ou total da farinha comum em receitas de forno."
+      "Guarde a farinha de cannabis em pote hermético em local fresco e escuro por até 3 meses. Nunca coma crua: asse ou cozinhe como qualquer farinha. Cada colher de chá tem cerca de 15 mg com 14% de THC, então não substitua toda a farinha da receita: use no máximo 1 colher de chá por porção (¼ de xícara para 12 porções) e complete com farinha comum."
     ],
     "intro_unique": "A Farinha de Cannabis é a base de infusão mais simples que você pode fazer, exigindo apenas cannabis descarboxilada e farinha de trigo comum misturadas.",
-    "dosing_unique": "Calcule o THC total da sua cannabis e divida pelo número de xícaras de farinha para saber a potência por xícara; para começar, substitua só uma parte da farinha comum.",
+    "dosing_unique": "Uma porção é 1 colher de chá de farinha de cannabis, cerca de 15 mg com 14% de THC; substitua só essa quantidade da farinha da receita por porção.",
     "storage_unique": "Guarde em um pote ou saco fechado no freezer por até 6 meses para preservar a potência, ou em uma despensa fresca e escura por até 3 meses.",
     "variation_unique": "Use farinha de trigo integral ou farinha de amêndoa como base para uma alternativa sem glúten ou rica em proteínas.",
-    "unique_src": "b2395c0cc5d218bdb3261c55766150afc985b9fd"
+    "unique_src": "d1bfd1eb16f9287545d18fd0ab8ebc4de722b542"
   },
   "cannabis-tincture": {
     "name": "Tintura de Cannabis",
@@ -4907,7 +4908,7 @@
     "instructions": [
       "Despeje o vinho em uma panela grande em fogo baixo. Adicione laranja, cravos, canela, anis e açúcar.",
       "Aqueça suavemente por 20 minutos, mantendo abaixo de 70°C — nunca deixe ferver.",
-      "Retire do fogo e adicione o mel de cannabis até dissolver completamente.",
+      "Mexa bem o pote de mel infusionado antes de medir. Retire do fogo e adicione o mel de cannabis até dissolver completamente.",
       "Acrescente o conhaque se desejar.",
       "Coe e sirva em copos ou canecas resistentes ao calor, decorando com laranja e canela.",
       "Beba devagar — a combinação de álcool e THC intensifica os efeitos. Espere 90 minutos antes de repetir."
@@ -4936,7 +4937,7 @@
       "Adicione o creme de coco com cannabis, abacaxi, rum, açúcar e gelo ao liquidificador.",
       "Bata em velocidade alta por 30-45 segundos até ficar cremoso.",
       "Despeje em um copo alto. Decore com abacaxi e cereja.",
-      "Esta receita rende 2 porções — não beba ambas de uma vez. Espere 90 minutos entre as porções."
+      "Esta receita rende 2 porções; não beba as duas de uma vez. O álcool deixa o efeito do THC mais forte, então espere pelo menos 2 horas antes do segundo copo."
     ],
     "intro_unique": "Esta Piña Colada de Cannabis é uma fuga tropical no copo — coco, abacaxi e rum batidos com uma infusão suave de THC para o clima de praia definitivo.",
     "dosing_unique": "O óleo de coco de cannabis é emulsionado no creme de coco antes de bater, garantindo que o THC fique distribuído de forma uniforme e imperceptível na bebida tropical cremosa.",
@@ -4960,7 +4961,7 @@
     "instructions": [
       "Prepare o chá preto forte e deixe esfriar à temperatura ambiente, depois refrigere.",
       "Faça a limonada dissolvendo o açúcar no suco de limão e adicionando água gelada.",
-      "Dissolva o mel de cannabis na limonada. Aquecer levemente o mel antes ajuda a dissolver.",
+      "Mexa bem o pote de mel infusionado antes de medir. Dissolva o mel de cannabis na limonada. Aquecer levemente o mel antes ajuda a dissolver.",
       "Encha copos altos com gelo. Despeje o chá gelado até a metade.",
       "Complete com a limonada de cannabis. Mexa suavemente.",
       "Decore com rodela de limão e hortelã. Um copo por porção — espere 60 minutos antes de repetir."
@@ -5657,8 +5658,8 @@
     "intro_unique": "Estes Copinhos de Manteiga de Amendoim de Cannabis caseiros derretem óleo de coco infusionado com cannabis na casquinha de chocolate, um doce liso e bem dosado que não deixa nada a desejar aos de loja.",
     "dosing_unique": "O óleo de cannabis é misturado ao chocolate e dividido igualmente entre 12 copinhos, para que cada um tenha uma dose precisa e consistente.",
     "storage_unique": "Guarde na geladeira por até 2 semanas ou no freezer por até 2 meses; deixe 5 minutos em temperatura ambiente antes de comer para a melhor textura.",
-    "variation_unique": "Use pasta de amêndoa ou pasta de semente de girassol para uma versão sem amendoim, ou experimente chocolate amargo com flor de sal por cima.",
-    "unique_src": "4f1bf897639ef3b6cc91d3e14d6343d66acaef0f"
+    "variation_unique": "Para uma versão sem oleaginosas, use pasta de semente de girassol (a pasta de amêndoa não tem amendoim, mas amêndoa é uma oleaginosa), ou use chocolate amargo com flor de sal por cima.",
+    "unique_src": "1a4899099f760c44479a850eed6cadbec86aee35"
   },
   "cannabis-macarons": {
     "name": "Macarons de Cannabis",
