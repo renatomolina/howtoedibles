@@ -19,7 +19,7 @@ PAGES = LANGS.to_h { |l| [l, SLUGS.to_h { |s| [s, l == "en" ? EN[s] : site.page(
 # ───────── 1. dose (logic from tmp/wayfinder/dose_scan.rb) ─────────
 COOK = 0.8
 THC = File.read(File.join(root, "scripts/build_redesign.rb"))[/DEFAULT_THC\s*=\s*([\d.]+)/, 1].to_f
-BASES = [ # [pattern, grams of flower per cup of the site base, label]
+BASES = [ # [pattern, grams of flower per cup of the site base, label, grams of the base per cup (for lines in g)]
   [/cannabutter|canna-?butter|cannabis[- ]infused butter|cannabis butter|infused butter/i, 6.4, "cannabutter"],
   [/(?:infused|cannabis[- ]infused|cannabis) (?:extra[- ]virgin )?olive oil/i, site.recipe("infused-olive-oil")["suggested_quantity"].to_f / (300 / 236.6), "olive oil"], # the base page: g of flower in 300 ml
   [/infused coconut oil|cannabis[- ]infused coconut oil|cannabis coconut oil/i, 6.4, "coconut oil"],
@@ -29,8 +29,8 @@ BASES = [ # [pattern, grams of flower per cup of the site base, label]
   [/cannabis sugar|infused sugar/i, 6.4, "sugar"],
   [/cannabis flour|infused flour/i, 6.4, "flour"],
   [/tincture/i, 14.0, "tincture"],
-  [/infused honey|cannabis honey|cannabis-infused honey/i, 3.5 / 1.4, "honey"],
-  [/(?:infused|cannabis) condensed milk/i, 0.4 / 1.3, "condensed milk (1 tbsp cannabutter per can)"],
+  [/infused honey|cannabis honey|cannabis-infused honey/i, 3.5 / 1.4, "honey", 340],
+  [/(?:infused|cannabis) condensed milk/i, 0.4 / 1.3, "condensed milk (1 tbsp cannabutter per can)", 397 / 1.3], # a 14 oz can is ~1.3 cups
   [/(?:cannabis|infused)[\w -]{0,20}?(?:syrup|whiskey|vodka|rum|tequila|wine)/i, nil, "no site base"],
 ].freeze
 FRAC = { "½" => 0.5, "¼" => 0.25, "¾" => 0.75, "⅓" => 1.0 / 3, "⅔" => 2.0 / 3, "⅛" => 0.125 }.freeze
@@ -42,7 +42,7 @@ def num(s)
   return s.split("/").map(&:to_f).then { |a, b| a / b } if s.include?("/")
   s.chars.sum { |c| FRAC[c] || 0 } + s.to_f
 end
-def cups_before(t, re)
+def cups_before(t, re, g_per_cup = 227.0)
   pos = t =~ re or return nil
   m = t[0...pos].scan(/(?:(#{NUM})\s*-\s*)?(#{NUM})\s*(#{UNIT})/io).last or return nil
   n = num(m[1])
@@ -51,7 +51,7 @@ def cups_before(t, re)
   when /\At(able)?(bsp|blespoon)/, /tablespoon/ then n / 16.0
   when /\At(ea)?(sp|spoon)/, /teaspoon/ then n / 48.0
   when "ml" then n / 236.6
-  when "g", /\Agram/ then n / 227.0
+  when "g", /\Agram/ then n / g_per_cup
   when "oz", /\Aounce/ then n / 8.0
   when /\Astick/ then n / 2.0
   end
@@ -62,8 +62,8 @@ SLUGS.each do |slug|
   shown = 10 * p[:g] * THC * COOK / p[:n]
   fail!("1c dose shown > 15", slug, "all", "recipes.json suggested_*", format("shown %.1f mg > 15", shown)) if shown.round(1) > 15.0
   next if BASE_SLUGS.include?(slug)
-  direct = p[:ings].any? { |l| l.match?(FLOWER_LINE) && !l.match?(/infused|oil|butter/i) }
-  infused = p[:ings].filter_map { |l| (b = BASES.find { |re, _| l.match?(re) }) && [l, b, cups_before(l, b[0])] }
+  direct = p[:ings].any? { |l| l.match?(FLOWER_LINE) && !l.match?(/infused|oil|butter/i) && BASES.none? { |re, *| l.match?(re) } }
+  infused = p[:ings].filter_map { |l| (b = BASES.find { |re, _| l.match?(re) }) && [l, b, cups_before(l, b[0], b[3] || 227.0)] }
   next if direct
   if infused.empty?
     fail!("1d dose unknown", slug, "all", "ingredients", "no cannabis ingredient recognised: " + p[:ings].first(3).join(" | "))
