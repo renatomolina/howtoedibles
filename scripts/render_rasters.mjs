@@ -51,7 +51,7 @@ console.log(`render_rasters: ${todo.length} of ${jobs.length} to render`);
 
 if (todo.length) {
   // Static server over the repo, so pages use the same root-relative URLs as the site.
-  const TYPES = { ".html": "text/html", ".css": "text/css", ".woff2": "font/woff2", ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg" };
+  const TYPES = { ".html": "text/html", ".css": "text/css", ".woff2": "font/woff2", ".svg": "image/svg+xml", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp" };
   const server = createServer((req, res) => {
     const f = join(ROOT, normalize(decodeURIComponent(new URL(req.url, "http://x").pathname)));
     if (!f.startsWith(ROOT) || !existsSync(f)) { res.writeHead(404).end(); return; }
@@ -88,7 +88,7 @@ if (todo.length) {
       const fontsOk = (await send("Runtime.evaluate", { awaitPromise: true, returnByValue: true,
         expression: "document.fonts.ready.then(() => [...document.fonts].every((f) => f.status !== 'error'))" })).result.value;
       if (!fontsOk) throw new Error(`${job.html}: a font failed to load`);
-      const shot = await send("Page.captureScreenshot", { format: "png", clip: { x: 0, y: 0, width: job.width, height: job.height, scale: 1 } });
+      const shot = await send("Page.captureScreenshot", { ...(job.out.endsWith(".jpg") ? { format: "jpeg", quality: 84 } : { format: "png" }), clip: { x: 0, y: 0, width: job.width, height: job.height, scale: 1 } });
       mkdirSync(dirname(join(ROOT, job.out)), { recursive: true });
       writeFileSync(join(ROOT, job.out), Buffer.from(shot.data, "base64"));
       manifest[job.out] = job.hash;
