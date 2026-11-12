@@ -21,7 +21,7 @@ Fully static HTML site — no build framework, no bundler. Almost every page is 
 # (scripts/check_budget.rb, blocking on every page)
 ruby scripts/build_site.rb
 
-# Gates before merging (serve the repo first: python3 -I scripts/qa/serve.py 8781, which answers missing paths with /404.html like Pages)
+# Gates before merging (serve the repo first: python3 -I scripts/qa/serve.py 8781, which gzips text and answers missing paths with /404.html like Pages; lighthouse.sh needs the gzip; another port: BASE=http://127.0.0.1:PORT)
 node scripts/qa/devices.mjs   # 36 viewports × 5 langs × recipes, special pages, articles: overflow, first screen, dose readout, rail
 node scripts/qa/fit.mjs       # strings: cut-off text and wrapped one-line controls, incl. menu/search dialogs
 node scripts/qa/interact.mjs  # calculator, dialogs + Back, theme key
