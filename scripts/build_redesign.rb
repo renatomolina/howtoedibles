@@ -12,6 +12,10 @@ CAT_ORDER = %w[Desserts Drinks Snacks Essentials Lunch Keto Vegan International]
 CAT_BY_NAME = CATEGORIES.to_h { |c| [c["name"], c] }
 CAT_GLYPH = { "Desserts" => "cake", "Drinks" => "glass", "Snacks" => "chips", "Essentials" => "butter",
               "Lunch" => "bowl", "Keto" => "egg", "Vegan" => "salad", "International" => "dumpling" }.freeze
+# Share image of each category page: the photo of its most-impressed recipe (GSC Apr–Nov 2026, all languages)
+CAT_OG = { "Desserts" => "pot-brownies", "Drinks" => "cannabis-cucumber-mint-cooler", "Snacks" => "firecrackers",
+           "Essentials" => "cannabutter", "Lunch" => "cannabis-avocado-toast", "Keto" => "infused-coconut-fat-bombs",
+           "Vegan" => "cannabis-vegan-brownies", "International" => "infused-brigadeiro" }.freeze
 # Group by category_name: recipes.json → categories[].recipes is stale (137 of 237).
 RECIPES_BY_CAT = CAT_ORDER.to_h { |c| [c, RECIPES.select { |r| r["category_name"] == c }.sort_by { |r| [r["position"].to_i, r["id"].to_i] }] }
 abort "ERROR: recipes outside the 8 categories" unless RECIPES_BY_CAT.values.sum(&:size) == RECIPES.size
@@ -292,7 +296,7 @@ end
 
 THEME_BOOT = %(<script>try{var t=localStorage.getItem("theme");document.documentElement.dataset.theme=t==="dark"||t==="light"?t:matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}catch(e){}</script>)
 
-def shell_head(lang, title:, description:, page_path:, og_image:, og_title: title, og_type: "website", structured: nil, keywords: nil, indexed: true, only_lang: false, langs: ALL_LANGS)
+def shell_head(lang, title:, description:, page_path:, og_image:, og_h: 630, og_title: title, og_type: "website", structured: nil, keywords: nil, indexed: true, only_lang: false, langs: ALL_LANGS)
   canonical = "#{SITE}#{lang_prefix(lang)}/#{page_path}"
   ld = structured ? %(\n<script type="application/ld+json">#{structured}</script>) : ""
   kw = keywords ? %(\n<meta name="keywords" content="#{h(keywords)}">) : ""
@@ -319,7 +323,7 @@ def shell_head(lang, title:, description:, page_path:, og_image:, og_title: titl
     <meta property="og:description" content="#{h(description)}">
     <meta property="og:image" content="#{og_image}">
     <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">#{og_url}
+    <meta property="og:image:height" content="#{og_h}">#{og_url}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="#{h(og_title)}">
     <meta name="twitter:description" content="#{h(description)}">
@@ -669,8 +673,9 @@ def build_category_page(cat, lang)
       { "@type" => "ListItem", "position" => 2, "name" => cat_t } ] },
   ]
   desc = "#{lede} #{list.first(4).map { |r| rname(r, lang) }.join(", ")}…"
+  og = PHOTOS[CAT_OG[cat]] ? ["#{SITE}/images/photos/#{CAT_OG[cat]}-16x9.jpg", 675] : [SITE_OG, 630]
   page = shell_head(lang, title: "#{cat_t} · #{ui(lang, "shell.n_recipes", n: list.size)} | HowToEdibles", description: desc,
-                    page_path: page_path, og_image: "#{SITE}/images/brand/og-image.jpg", structured: JSON.generate(ld))
+                    page_path: page_path, og_image: og[0], og_h: og[1], structured: JSON.generate(ld))
   page << shell_top(lang) << main << shell_bottom(lang, page_path)
   write_file(output_path(lang, "category", slug, "index.html"), page)
 end
