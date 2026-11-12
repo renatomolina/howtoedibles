@@ -584,7 +584,8 @@ def build_recipe_page(recipe, lang)
   own = ->(k) { x = recipe_t(lang, slug, k) || enrich[k]; x && !x.empty? ? [x] : [] }
   list = ->(k, u = nil) { (tmpl[k] || []).map { |x| ip.(x) } + (u ? own.(u) : []) }
   label = ->(k) { ip.(get_section_label(lang, k)) }
-  intro = "#{ip.(tmpl["intro"] || "", vars.merge("name" => name.downcase))} #{own.("intro_unique").first}".strip
+  # German capitalises nouns, so its recipe name keeps its case in the intro sentence
+  intro = "#{ip.(tmpl["intro"] || "", vars.merge("name" => lang == "de" ? name : name.downcase))} #{own.("intro_unique").first}".strip
   tips = list.("dosing_tips", "dosing_unique")
   accs = [["common_mistakes", list.("common_mistakes")], ["storage", list.("storage", "storage_unique")], ["variations", list.("variations", "variation_unique")]].reject { |_, l| l.empty? }
   faqs = (tmpl["faq"] || []).map { |f| [ip.(f["q"]), ip.(f["a"])] }
