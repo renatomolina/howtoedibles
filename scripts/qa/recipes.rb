@@ -21,7 +21,7 @@ COOK = 0.8
 THC = File.read(File.join(root, "scripts/build_redesign.rb"))[/DEFAULT_THC\s*=\s*([\d.]+)/, 1].to_f
 BASES = [ # [pattern, grams of flower per cup of the site base, label]
   [/cannabutter|canna-?butter|cannabis[- ]infused butter|cannabis butter|infused butter/i, 6.4, "cannabutter"],
-  [/(?:infused|cannabis[- ]infused|cannabis) (?:extra[- ]virgin )?olive oil/i, 2.0 / 1.27, "olive oil"],
+  [/(?:infused|cannabis[- ]infused|cannabis) (?:extra[- ]virgin )?olive oil/i, site.recipe("infused-olive-oil")["suggested_quantity"].to_f / (300 / 236.6), "olive oil"], # the base page: g of flower in 300 ml
   [/infused coconut oil|cannabis[- ]infused coconut oil|cannabis coconut oil/i, 6.4, "coconut oil"],
   [/canna-?oil|cannabis oil|infused oil|cannabis[- ]infused oil|(?:cannabis|infused|cannabis[- ]infused) (?:vegetable|cooking|sesame|avocado|canola|neutral) oil/i, 6.4, "oil with no site base (coconut-oil ratio)"],
   [/infused ghee|cannabis ghee/i, 3.5, "ghee"],
