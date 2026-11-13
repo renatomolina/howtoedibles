@@ -2097,7 +2097,7 @@
         ]
       },
       "hot_drinks": {
-        "intro": "Dieses Cannabis-%{name}-Rezept mischt %{base_fat} in ein warmes, wohltuendes Getränk, das perfekt zum Entspannen und Abschalten ist. Heiße Cannabis-Getränke bieten eine behagliche Art, Edibles zu konsumieren, besonders in den kälteren Monaten. Die Wärme hilft dem infundierten Fett, sich aufzulösen und gleichmäßig zu verteilen, für eine konsistente Dosierung in jedem Schluck.",
+        "intro": "Dieses Cannabis-%{name}-Rezept mischt die Cannabis-Zutat in ein warmes, wohltuendes Getränk. Heiße Cannabis-Getränke bieten eine behagliche Art, Edibles zu konsumieren, besonders in den kälteren Monaten. Die Wärme hilft dem infundierten Fett, sich aufzulösen und gleichmäßig zu verteilen, für eine konsistente Dosierung in jedem Schluck.",
         "dosing_tips": [
           "Neu bei Edibles? Beginne mit etwa 5 mg und denke daran, dass auch ein heißes Getränk wie jedes Edible bis zu 2 Stunden brauchen kann, bis es wirkt.",
           "Verwende einen Milchaufschäumer oder Mixer, um %{base_fat} vollständig in dein heißes Getränk zu emulgieren, damit es nicht als ölige Schicht oben schwimmt.",

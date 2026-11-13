@@ -2097,7 +2097,7 @@
         ]
       },
       "hot_drinks": {
-        "intro": "Esta receta de %{name} con cannabis mezcla %{base_fat} en una bebida caliente y reconfortante perfecta para relajarse y descansar. Las bebidas calientes con cannabis ofrecen una forma acogedora de consumir comestibles, especialmente durante los meses más fríos. El calor ayuda a que la grasa infusionada se disuelva y se distribuya uniformemente para una dosificación consistente en cada sorbo.",
+        "intro": "Esta receta de %{name} con cannabis mezcla el ingrediente con cannabis en una bebida caliente y reconfortante. Las bebidas calientes con cannabis ofrecen una forma acogedora de consumir comestibles, especialmente durante los meses más fríos. El calor ayuda a que la grasa infusionada se disuelva y se distribuya uniformemente para una dosificación consistente en cada sorbo.",
         "dosing_tips": [
           "¿Primera vez con comestibles? Comienza con unos 5 mg y recuerda que una bebida caliente puede tardar hasta 2 horas en hacer efecto, como cualquier comestible.",
           "Usa un espumador de leche o licuadora para emulsionar completamente el %{base_fat} en tu bebida caliente para que no flote encima como una capa aceitosa.",

@@ -2097,7 +2097,7 @@
         ]
       },
       "hot_drinks": {
-        "intro": "This cannabis %{name} recipe blends %{base_fat} into a warm, soothing beverage perfect for relaxation and unwinding. Hot cannabis drinks provide a comforting way to consume edibles, especially during colder months. The warmth helps the infused fat dissolve and distribute evenly for consistent dosing in every sip.",
+        "intro": "This cannabis %{name} recipe blends %{base_fat} into a warm, comforting drink. Hot cannabis drinks provide a comforting way to consume edibles, especially during colder months. The warmth helps the infused fat dissolve and distribute evenly for consistent dosing in every sip.",
         "dosing_tips": [
           "New to edibles? Start with about 5 mg, and remember that a hot drink can still take up to 2 hours to kick in, like any edible.",
           "Use a milk frother or blender to fully emulsify the %{base_fat} into your hot drink so it does not float on top as an oily layer.",

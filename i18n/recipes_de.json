@@ -134,8 +134,8 @@
     "intro_unique": "Cannabis-Bulletproof-Kaffee mixt heißen Kaffee mit infundiertem Kokosöl und Butter aus Weidehaltung zu einem ketofreundlichen, belebenden Edible-Getränk.",
     "dosing_unique": "Gib in jede Tasse einen abgemessenen Esslöffel infundiertes Kokosöl und mix alles schaumig, damit es sich gleichmäßig verteilt.",
     "storage_unique": "Sofort trinken; beim Abkühlen bricht die Emulsion und die Fette trennen sich.",
-    "variation_unique": "Ein Esslöffel MCT-Öl und eine Prise Zimt sorgen für mehr Ketonproduktion und ein warmes, würziges Aroma.",
-    "unique_src": "7405fd015046c6ac20d7cc8f19da8ced8cf4bf88"
+    "variation_unique": "Ein Esslöffel MCT-Öl und eine Prise Zimt sorgen für eine vollere Tasse mit warmem, würzigem Aroma.",
+    "unique_src": "264ef9857b619f23fb63c9e2f60f68110617a472"
   },
   "infused-keto-peanut-butter-cookies": {
     "name": "Infundierte Keto-Erdnussbutter-Cookies",
@@ -337,7 +337,7 @@
   },
   "infused-lemonade": {
     "name": "Infundierte Limonade",
-    "description": "Genieße dieses belebende Getränk und erlebe eine harmonische Balance aus spritzigen Zitrusnoten und der entspannenden Wirkung von Cannabis.",
+    "description": "Genieße dieses belebende Getränk und erlebe eine harmonische Balance aus spritzigen Zitrusnoten und einer abgemessenen Dosis Cannabis.",
     "category_name": "Getränke",
     "ingredients": [
       "1 cup frisch gepresster Zitronensaft",
@@ -802,11 +802,11 @@
       "Backe 20 Minuten oder bis sich die Seiten gerade vom Rand der Form zu lösen beginnen.",
       "Vollständig abkühlen lassen, dann in 16 Quadrate schneiden; ein Quadrat ist eine Portion."
     ],
-    "intro_unique": "Saftige Cannabis-Brownies sind das berühmteste Edible aller Zeiten und verbinden intensiven Kakaogeschmack mit der entspannenden Wirkung von THC.",
+    "intro_unique": "Saftige Cannabis-Brownies sind das berühmteste Edible aller Zeiten und verbinden intensiven Kakaogeschmack mit einer abgemessenen Dosis THC.",
     "dosing_unique": "Schneide die Brownie-Platte direkt nach dem Herausnehmen aus dem Ofen in gleich große Quadrate vor, solange die Oberfläche noch weich ist.",
     "storage_unique": "Brownies in einem verschlossenen Behälter 4 Tage bei Raumtemperatur aufbewahren oder einzeln verpackt bis zu 3 Monate einfrieren.",
     "variation_unique": "Zieh vor dem Backen einen Streifen Frischkäseteig durch – so entsteht ein marmorierter Cheesecake-Brownie.",
-    "unique_src": "6951b15ac0702ba0b46e94ef7f0b76618e9df410",
+    "unique_src": "ab323e753f5d9d730319130e43b5a9f987d5ff59",
     "faq_unique": [
       {
         "q": "Wie viel Gras brauche ich für eine Form Hasch-Brownies?",
@@ -1009,8 +1009,8 @@
     "intro_unique": "Wärmender Cannabis-Chai verbindet aromatische Gewürze wie Kardamom, Zimt und Ingwer mit infundierter Milch zu einem wohltuenden heißen Edible.",
     "dosing_unique": "Bereite jeweils eine einzelne Portion mit einer abgemessenen Dosis infundierter Milch pro Tasse zu, damit du genau im Griff hast, wie viel du zu dir nimmst.",
     "storage_unique": "Für den besten Geschmack frisch aufbrühen; übrig gebliebenes Chai-Konzentrat ohne Milch hält sich im Kühlschrank bis zu 3 Tage.",
-    "variation_unique": "Mit einem Espresso-Shot wird daraus ein Dirty Chai Latte, der die wach machende Wirkung von Koffein mit der beruhigenden Wirkung von THC verbindet.",
-    "unique_src": "8413017a4b54cde968e6e91981f1ce38a94eaf6d"
+    "variation_unique": "Mit einem Espresso-Shot wird daraus ein Dirty Chai Latte mit Kaffeenote.",
+    "unique_src": "a360e34f0dde67df3643fd01d53ed78edea2d0b3"
   },
   "weed-infused-popcorn": {
     "name": "Infundiertes Popcorn",
@@ -4696,11 +4696,11 @@
       "Mit zerkleinerten Erdnüssen und Frühlingszwiebeln garnieren. Vor dem Essen alles vermengen.",
       "60-90 Minuten auf die Cannabis-Wirkung warten."
     ],
-    "intro_unique": "Diese Cannabis Dan Dan Nudeln verbinden eine reichhaltige, nussige Sesamsoße mit der wärmenden Wirkung von THC – ein Streetfood-Liebling auf neuem Niveau.",
+    "intro_unique": "Diese Cannabis Dan Dan Nudeln verbinden eine reichhaltige, nussige Sesamsoße mit einer abgemessenen Dosis THC – ein Streetfood-Liebling auf neuem Niveau.",
     "dosing_unique": "Das Cannabis-Öl wird direkt in die ungekochte Soße gemischt und kommt nie mit großer Hitze in Berührung – so bleibt möglichst viel THC erhalten.",
     "storage_unique": "Bewahre Soße und Schweinefleisch-Topping getrennt von den Nudeln bis zu 3 Tage im Kühlschrank auf – mische alles erst kurz vor dem Essen.",
     "variation_unique": "Nimm Udon- oder Ramen-Nudeln, wenn du keine chinesischen Weizennudeln bekommst, und gib gehackten Pak Choi für mehr Grün dazu.",
-    "unique_src": "290846bd7e23627828a65b8387fa123b1f6b6eb4"
+    "unique_src": "9f81be170ed97662b3861cd496a6553757d39d90"
   },
   "cannabis-wonton-soup": {
     "name": "Cannabis Wonton-Suppe",
@@ -5220,7 +5220,7 @@
   },
   "cannabis-horchata": {
     "name": "Cannabis Horchata",
-    "description": "Cremige und erfrischende Cannabis-infundierte Horchata aus Reis, Zimt und Vanille mit einer THC-Dosis — ein kühles, süßes Getränk zum Entspannen.",
+    "description": "Cremige und erfrischende Cannabis-infundierte Horchata aus Reis, Zimt und Vanille mit einer THC-Dosis — ein kühles, süßes Getränk nach mexikanischem Vorbild.",
     "category_name": "Getränke",
     "ingredients": [
       "1 Tasse Langkornreis",
@@ -5337,11 +5337,11 @@
       "Jedes Glas mit dem Eistee auffüllen und vorsichtig umrühren.",
       "Mit einer Zitronenscheibe und einem Zweig frischer Minze garnieren. Ein Glas pro Portion; warte 2 Stunden vor dem nächsten."
     ],
-    "intro_unique": "Ein Cannabis Arnold Palmer ist der perfekte Drink für die Veranda – halb Eistee, halb Limonade, infundiert mit THC-Honig für ein sanftes, erfrischendes High.",
+    "intro_unique": "Ein Cannabis Arnold Palmer ist der perfekte Drink für die Veranda – halb Eistee, halb Limonade, gesüßt mit einer abgemessenen Dosis THC-Honig.",
     "dosing_unique": "Die ganze Dosis steckt in der Limonade: Löse den Cannabis-Honig im warmen Wasser auf, rühre um und verteile die Limonade gleichmäßig auf die 4 Gläser, bevor du mit Tee auffüllst.",
     "storage_unique": "Bewahre Tee und Cannabis-Limonade getrennt bis zu 3 Tage im Kühlschrank auf – gieße beides erst beim Servieren über Eis zusammen, dann schmeckt es am frischesten.",
     "variation_unique": "Nimm grünen Tee oder Hibiskustee für ein anderes Aroma, oder gib einen Schuss Wodka dazu für eine alkoholische John-Daly-Version; Alkohol und Cannabis zusammen wirken stärker: Als Einsteiger trink ein halbes Glas und warte 2 Stunden.",
-    "unique_src": "67087fd00dda5ead910517dfe66871071c6ca47a"
+    "unique_src": "30144a509037882b500a739b6d22f2a3aa4f9245"
   },
   "cannabis-enchiladas": {
     "name": "Cannabis-Enchiladas",
