@@ -71,7 +71,7 @@ class Site
         "common_mistakes" => (tmpl["common_mistakes"] || []).map(&ip),
         "storage" => (tmpl["storage"] || []).map(&ip),
         "variations" => (tmpl["variations"] || []).map(&ip),
-        "faq" => (tmpl["faq"] || []).map { |f| "#{ip.(f["q"])} #{ip.(f["a"])}" },
+        "faq" => (tmpl["faq"] || []).select { |f| !f["only"] || f["only"].include?(slug) }.map { |f| "#{ip.(f["q"])} #{ip.(f["a"])}" },
       },
       own: own,
       raw_tmpl: tmpl,
