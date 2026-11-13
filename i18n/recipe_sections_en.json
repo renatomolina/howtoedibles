@@ -30,7 +30,7 @@
         ],
         "variations": [
           "Swap %{base_fat} for cannabis-infused coconut oil for a dairy-free version that still binds THC effectively.",
-          "Add a teaspoon of sunflower lecithin to your batter to improve THC absorption and create a more even distribution.",
+          "Add a teaspoon of sunflower lecithin to your batter to help the infused fat mix in evenly, so every piece gets the same dose.",
           "Try using a mix of CBD and THC-infused fat for a more balanced, less intoxicating effect that is great for daytime use."
         ],
         "faq": [
@@ -62,7 +62,7 @@
           "Frozen desserts are easy to over-consume because they taste so good and the cold masks the cannabis flavor. Stick to one measured portion.",
           "Blend your %{base_fat} into the liquid base thoroughly before freezing to prevent THC from separating or settling unevenly.",
           "Use exact measuring tools to portion your mixture before it sets, so every scoop or bar carries the same dose.",
-          "Cold treats can sometimes hit slightly faster on an empty stomach because the melting process begins digestion quickly."
+          "Frozen treats go down easily, so serve one portion at a time and wait 2 hours before having more."
         ],
         "common_mistakes": [
           "Not emulsifying the %{base_fat} properly causes it to separate during freezing, leaving some portions with no THC and others with too much.",
@@ -95,7 +95,7 @@
           },
           {
             "q": "How long before a frozen edible takes effect?",
-            "a": "Frozen edibles typically take 30-90 minutes to take effect as they need to melt and be digested. They may onset slightly faster than dense baked goods because the liquid base is digested more quickly. Always wait 2 hours before having more."
+            "a": "Like any edible, frozen treats can take up to 2 hours to kick in, because they still have to be digested. Always wait 2 hours before having more."
           },
           {
             "q": "Can I refreeze melted cannabis ice cream?",
@@ -109,7 +109,7 @@
           "Confections are ideal for precise dosing because you can use molds to create identical portions. Calculate total THC and divide by the number of molds.",
           "Mix the %{base_fat} in completely while the mixture is warm; in candies and gummies, a little sunflower lecithin helps it stay bound.",
           "Make every piece the same size so each one carries the same dose. If you're new, start with about 5 mg, even if that's part of a piece, and wait 2 hours.",
-          "Allow confections to set completely before consuming since eating warm candy can cause faster, more intense absorption."
+          "Allow confections to set completely before cutting, so every piece comes out the same size and the same dose."
         ],
         "common_mistakes": [
           "Heating sugar mixtures above 300 F (150 C) with cannabis fat already added will destroy a significant percentage of the THC. Add the infused fat after the candy reaches temperature and has cooled slightly.",
@@ -123,7 +123,7 @@
           "Label every container with the date and the mg per serving, and keep edibles out of reach of children and pets."
         ],
         "variations": [
-          "Add terpene extracts that match your cannabis strain for an enhanced entourage effect and coordinated flavor profile.",
+          "Add food-grade terpene flavorings that match your cannabis strain's aroma for a coordinated flavor profile.",
           "Use silicone molds in fun shapes to make your confections more appealing and to ensure consistent sizing for accurate dosing.",
           "Infuse white chocolate with cannabis oil for a milder-flavored confection that pairs well with fruit and nut additions."
         ],
@@ -195,7 +195,7 @@
           },
           {
             "q": "How long do cannabis pastries take to kick in?",
-            "a": "Rich, buttery pastries typically take 45-90 minutes to take effect. The high fat content can sometimes help absorption but the dense dough takes time to digest fully. Eat on a mildly full stomach for the most predictable experience."
+            "a": "Like any edible, pastries can take up to 2 hours to kick in, and a rich, buttery dough takes a while to digest. Eat one serving and wait at least 2 hours before having more."
           },
           {
             "q": "Can I use store-bought puff pastry and add cannabis?",
@@ -208,7 +208,7 @@
         "dosing_tips": [
           "Puddings are excellent for precise dosing because the liquid base mixes thoroughly. Stir continuously to ensure even distribution of %{base_fat}.",
           "Pour into individual ramekins or cups for pre-portioned servings with a known dose per container.",
-          "New to edibles? Start with about 5 mg. Puddings digest relatively quickly compared to dense baked goods, so effects may onset faster.",
+          "New to edibles? Start with about 5 mg. A soft pudding goes down fast, but it can still take up to 2 hours to kick in.",
           "If making a large batch, stir well before portioning since fat can rise to the top as the pudding cools."
         ],
         "common_mistakes": [
@@ -238,7 +238,7 @@
           },
           {
             "q": "Do cannabis puddings hit faster than brownies?",
-            "a": "Generally yes. Puddings are semi-liquid and easier to digest than dense baked goods, so onset can be 30-60 minutes versus 60-90 for brownies. However, individual metabolism varies significantly so always wait 2 hours before taking more."
+            "a": "Don't count on it. A pudding is softer than a brownie, but any edible can take up to 2 hours to kick in, and timing varies a lot from person to person. Always wait 2 hours before taking more."
           },
           {
             "q": "How do I make the cannabis taste less noticeable in pudding?",
@@ -383,7 +383,7 @@
           "Savory snacks are often eaten in handfuls, making portion control crucial. Pre-portion into individual servings of known dosage.",
           "Drizzle or toss snacks with a measured amount of %{base_fat} rather than dipping, which leads to uneven coating and dosing.",
           "When sharing, tell everyone how many mg one portion holds, and suggest that first-timers start with about 5 mg.",
-          "Spicy snacks can mask the cannabis taste but may also cause you to eat more or drink more liquid, which can affect absorption."
+          "Spicy snacks can mask the cannabis taste and make you reach for more, so portion them out before you start eating."
         ],
         "common_mistakes": [
           "Cooking the snack too hot after the %{base_fat} is in. Use the temperature in the recipe, or add the %{base_fat} after cooking.",
@@ -404,7 +404,7 @@
         "faq": [
           {
             "q": "Do savory edibles hit differently than sweet ones?",
-            "a": "The onset and effects are similar regardless of flavor, but savory snacks tend to be less calorie-dense and may be digested slightly faster. The main advantage is variety and personal preference. Many people find savory edibles easier to dose-control because they are less tempting to overeat."
+            "a": "The onset and effects are similar regardless of flavor: what matters is how much THC is in a serving. The main advantage is variety and personal preference. Many people find savory edibles easier to dose-control because they are less tempting to overeat."
           },
           {
             "q": "What spices pair well with cannabis flavor?",
@@ -450,7 +450,7 @@
           },
           {
             "q": "Are sweet edibles stronger than savory ones?",
-            "a": "Not inherently, but sugar can speed up THC absorption slightly because it triggers insulin release, which may help your body absorb cannabinoids faster. The main difference is that sweet edibles are easier to overeat, leading to accidental overconsumption."
+            "a": "No. A serving's strength depends on how much THC it holds, not on whether it is sweet or savory. The main difference is that sweet edibles are easier to overeat, leading to accidental overconsumption."
           }
         ]
       },
@@ -694,7 +694,7 @@
         "variations": [
           "Infuse coconut oil for a versatile, dairy-free option with excellent THC binding due to its high saturated fat content.",
           "Make cannabis ghee by clarifying the butter after infusion. It has a higher smoke point and longer shelf life than regular cannabis butter.",
-          "Try infusing MCT oil for faster absorption and a neutral flavor that works in any recipe."
+          "Try infusing MCT oil for a neutral flavor that stays liquid at room temperature and works in any recipe."
         ],
         "faq": [
           {
@@ -861,7 +861,7 @@
         "faq": [
           {
             "q": "What is the difference between alcohol and glycerin tinctures?",
-            "a": "Alcohol tinctures are more potent because ethanol extracts cannabinoids more efficiently. They have a longer shelf life and faster sublingual absorption. Glycerin tinctures are milder, slightly sweet, alcohol-free, and better for people who avoid alcohol, but they are less potent per volume."
+            "a": "Alcohol tinctures are more potent because ethanol extracts cannabinoids more efficiently. They also have a longer shelf life. Glycerin tinctures are milder, slightly sweet, alcohol-free, and better for people who avoid alcohol, but they are less potent per volume."
           },
           {
             "q": "How long does a cannabis tincture take to make?",
@@ -1024,7 +1024,7 @@
           "Stir the %{base_fat} into the soup after removing from heat and mix thoroughly. The liquid base distributes it evenly.",
           "Ladle equal portions to ensure consistent dosing. Use a measuring cup or ladle of known volume.",
           "Cream-based soups hold cannabis fat better than clear broths, where oil tends to float on top visibly.",
-          "New to edibles? Start with about 5 mg, part of a bowl. Warm liquids can onset faster than solid foods, sometimes in 30-60 minutes."
+          "New to edibles? Start with about 5 mg, part of a bowl. Soup goes down easily, but it can still take up to 2 hours to kick in."
         ],
         "common_mistakes": [
           "Adding cannabis fat to a rapidly boiling soup. Remove from heat or reduce to a bare simmer before stirring in %{base_fat}.",
@@ -1053,7 +1053,7 @@
           },
           {
             "q": "Are cannabis soups good for beginners?",
-            "a": "Excellent for beginners. The liquid form allows for very even dosing, and you can start with a small bowl. Soups are also comforting if you feel any anxiety, and the warm broth is soothing. They are one of the most user-friendly edible formats."
+            "a": "Excellent for beginners. The liquid form allows for very even dosing, and you can start with a small bowl. Warm, simple and easy to portion, soups are one of the most user-friendly edible formats."
           }
         ]
       },
@@ -1063,7 +1063,7 @@
           "Make the dressing separately and measure a specific amount per serving. One to two tablespoons of dressing per salad is typical.",
           "Calculate the THC per tablespoon of dressing and serve accordingly. This makes dosing very precise.",
           "Toss the salad thoroughly so every leaf is coated for even distribution rather than pooling at the bottom of the bowl.",
-          "Fat from dressings is absorbed relatively quickly. Expect onset in 30-60 minutes, faster than dense baked goods."
+          "A salad feels light, but like any edible it can take up to 2 hours to kick in. Wait at least 2 hours before having more."
         ],
         "common_mistakes": [
           "Making dressing too cannabis-forward. Balance with vinegar, citrus, mustard, and herbs to create a pleasant flavor.",
@@ -1184,7 +1184,7 @@
           },
           {
             "q": "Does eating a big meal make edibles weaker?",
-            "a": "A full meal slows digestion and can delay onset, making it feel weaker initially. However, the total THC absorbed is the same. The experience will be more gradual and often longer-lasting. Eating on a completely empty stomach produces faster, more intense but shorter effects."
+            "a": "A full meal can delay onset, so it may feel weaker at first. That's when people take more and end up with too much: eat one serving and wait at least 2 hours before having seconds."
           }
         ]
       },
@@ -1305,7 +1305,7 @@
           },
           {
             "q": "Does eating a big meal make the cannabis weaker?",
-            "a": "A full meal delays onset and makes the initial effect feel more gradual, but the total THC absorbed is the same. The experience tends to be milder in peak intensity but longer lasting. This can actually be preferable for a comfortable, sustained experience."
+            "a": "A full meal can delay onset, so it may feel weaker at first. That's when people take more and end up with too much: eat one serving and wait at least 2 hours before having seconds."
           }
         ]
       },
@@ -1345,7 +1345,7 @@
       "keto_baked": {
         "intro": "This cannabis %{name} recipe uses %{base_fat} with keto-friendly flours and sweeteners for a low-carb baked treat that fits your macros. Keto baking and cannabis are a perfect pairing because the high-fat ketogenic diet naturally incorporates the fats that carry THC. Enjoy your edible without breaking ketosis.",
         "dosing_tips": [
-          "Keto diets increase fat absorption, which may make edibles feel slightly stronger. Start with about 5 mg and wait 2 hours.",
+          "Keto baked goods dose like any other edible: start with about 5 mg and wait 2 hours.",
           "The high fat content of keto baked goods distributes THC very evenly, making dosing consistent across portions.",
           "Use almond or coconut flour recipes where %{base_fat} makes up a large proportion of the fat content for accurate calculations.",
           "Weigh portions on a kitchen scale since keto baked goods can be dense and small differences in size mean larger differences in dose."
@@ -1362,14 +1362,14 @@
           "Label every container with the date and the mg per serving, and keep edibles out of reach of children and pets."
         ],
         "variations": [
-          "Use cannabis-infused MCT oil for a flavorless fat that blends into any keto recipe and may enhance absorption.",
+          "Use cannabis-infused MCT oil for a flavorless fat that blends into any keto recipe.",
           "Add collagen peptides to cannabis keto muffins for a protein boost without affecting the carb count.",
           "Replace erythritol with monk fruit sweetener for a cleaner sweet taste alongside the cannabis flavor."
         ],
         "faq": [
           {
             "q": "Does ketosis affect how edibles feel?",
-            "a": "Some people report that edibles feel slightly stronger during ketosis because the body is efficiently processing fats. The higher fat intake also means better THC absorption. Start with a lower dose than normal until you know how your body responds in ketosis."
+            "a": "There is no good research on edibles during ketosis. Start with a lower dose than normal, about 5 mg, and wait 2 hours until you know how your body responds in ketosis."
           },
           {
             "q": "Will cannabis edibles kick me out of ketosis?",
@@ -1389,12 +1389,12 @@
         ]
       },
       "keto_sweet": {
-        "intro": "This cannabis %{name} recipe combines %{base_fat} with keto-approved sweeteners for a guilt-free treat that satisfies your sweet tooth while keeping carbs near zero. Sugar-free cannabis sweets are ideal for health-conscious consumers who want precise dosing without the sugar crash. The high-fat base ensures excellent THC delivery.",
+        "intro": "This cannabis %{name} recipe combines %{base_fat} with keto-approved sweeteners for a guilt-free treat that satisfies your sweet tooth while keeping carbs near zero. Sugar-free cannabis sweets suit low-carb eaters who still want precise dosing.",
         "dosing_tips": [
           "Keto sweets are often made in small portions like fat bombs or truffles. Calculate the dose per piece carefully since they are calorie-dense.",
-          "The high fat content of keto sweets means efficient THC absorption. Consider starting with about 5 mg.",
+          "Keto sweets are small and rich, so it is easy to eat two. Consider starting with about 5 mg.",
           "Use silicone molds to create identical portions with consistent weight and dose.",
-          "Sugar alcohols in keto sweeteners do not affect THC absorption, so dosing math is the same as with regular sweets."
+          "Sugar alcohols in keto sweeteners don't change the dosing math: the THC in a serving comes only from the cannabis ingredient."
         ],
         "common_mistakes": [
           "Over-sweetening with sugar alcohols to hide cannabis taste can cause digestive distress. Use a moderate amount and rely on cocoa or vanilla instead.",
@@ -1431,14 +1431,14 @@
           },
           {
             "q": "Are keto edibles more potent than regular ones?",
-            "a": "They can feel that way because the high fat content improves THC absorption and ketosis may enhance fat metabolism. Many keto edible consumers report needing a lower dose. Start low and adjust based on your personal experience."
+            "a": "Not by themselves. A serving's strength comes from the THC in the cannabis ingredient, the same math as any other edible. Start low and wait 2 hours before having more."
           }
         ]
       },
       "keto_savory": {
         "intro": "This cannabis %{name} recipe uses %{base_fat} in a savory, low-carb dish that delivers reliable dosing while keeping your ketogenic macros on track. Savory keto meals are naturally high in fat, making them ideal vehicles for cannabis infusions. From cheese crisps to cauliflower dishes, keto savory edibles are endlessly versatile.",
         "dosing_tips": [
-          "Fat-heavy keto meals absorb THC efficiently. Start with about 5 mg until you know how savory keto edibles affect you.",
+          "Savory keto meals are filling, which can delay the effect. Start with about 5 mg and wait 2 hours until you know how savory keto edibles affect you.",
           "Measure %{base_fat} precisely for each portion rather than adding it to the entire batch, especially for plated meals.",
           "Compound cannabis butters with herbs make dosing savory keto dishes elegant and precise. One pat equals one dose.",
           "Track your total fat intake including the cannabis fat within your daily keto macros to stay in ketosis."
@@ -1461,15 +1461,15 @@
         ],
         "faq": [
           {
-            "q": "Does the fat in keto meals affect THC absorption?",
-            "a": "Yes, positively. Higher fat meals significantly increase THC bioavailability. Studies show that consuming THC with a high-fat meal can increase absorption by up to three times. This is one reason keto edibles may feel stronger than low-fat alternatives."
+            "q": "Does the fat in keto meals make edibles stronger?",
+            "a": "The THC in a serving is set by the cannabis ingredient, not by the rest of the meal. A rich, fatty meal can change how fast the effect arrives, and that varies from person to person, so start with about 5 mg and wait 2 hours before having more."
           }
         ]
       },
       "keto_drink": {
-        "intro": "This cannabis %{name} recipe blends %{base_fat} into a creamy, keto-friendly beverage that keeps you in ketosis while delivering a smooth, controlled cannabis experience. Keto cannabis drinks leverage the high-fat ingredients already common in ketogenic diets, like MCT oil, heavy cream, and coconut milk. These are among the simplest and fastest-acting edibles you can make.",
+        "intro": "This cannabis %{name} recipe blends %{base_fat} into a creamy, keto-friendly beverage that keeps you in ketosis while delivering a smooth, controlled cannabis experience. Keto cannabis drinks leverage the high-fat ingredients already common in ketogenic diets, like MCT oil, heavy cream, and coconut milk. These are among the simplest edibles you can make.",
         "dosing_tips": [
-          "Keto drinks with MCT oil may onset faster than typical edibles because MCTs are metabolized more quickly. Start low at 5 mg.",
+          "A keto drink goes down fast, but it can still take up to 2 hours to kick in. Start low at 5 mg.",
           "Blend thoroughly with a frother or blender to create a creamy emulsion rather than an oily film on top.",
           "One drink equals one dose. Do not sip throughout the day without tracking your cumulative intake.",
           "Add cannabis fat to hot drinks to help emulsification. Cold keto drinks need a blender to combine properly."
@@ -1501,7 +1501,7 @@
           },
           {
             "q": "How fast do cannabis keto drinks take effect?",
-            "a": "Cannabis keto drinks can onset in 20-45 minutes, faster than most solid edibles. MCT oil in particular is absorbed rapidly and processed by the liver quickly. The liquid format and efficient fat also contribute to faster onset compared to eating a solid edible."
+            "a": "Like any edible, a keto drink can take up to 2 hours to kick in, and timing varies from person to person. Start with about 5 mg and wait 2 hours before having more."
           }
         ]
       }
@@ -1512,7 +1512,7 @@
         "dosing_tips": [
           "Cannabis coconut oil is the vegan baker's best friend. Its high saturated fat content extracts THC as effectively as dairy butter.",
           "Measure %{base_fat} by weight rather than volume for accuracy since coconut oil density changes with temperature.",
-          "New to edibles? Start with about 5 mg. Vegan baked goods may digest slightly faster due to the absence of dairy proteins.",
+          "New to edibles? Start with about 5 mg. Like any edible, vegan baked goods can take up to 2 hours to kick in.",
           "Use a flax egg or chia egg to bind without dairy, which does not affect THC distribution."
         ],
         "common_mistakes": [
@@ -1601,7 +1601,7 @@
         "dosing_tips": [
           "Drizzle a measured amount of cannabis oil over finished dishes rather than cooking with it for the most accurate dosing.",
           "Vegan savory dishes often use coconut oil or olive oil as the primary fat, both of which infuse well with cannabis.",
-          "If you're new, start with about 5 mg. Plant-based meals may digest slightly faster due to higher fiber content.",
+          "If you're new, start with about 5 mg. Like any edible, a plant-based meal can take up to 2 hours to kick in.",
           "Nutritional yeast, miso, and tamari add umami depth that pairs well with and masks the herbal cannabis flavor."
         ],
         "common_mistakes": [
@@ -1626,8 +1626,8 @@
             "a": "Cannabis-infused olive oil is the most versatile for savory applications. It has a complementary flavor, works as dressing, finishing oil, and in sauces. Cannabis coconut oil is better for Asian and tropical dishes where coconut flavor is welcome."
           },
           {
-            "q": "Does plant fiber affect THC absorption?",
-            "a": "High-fiber meals can slow digestion slightly, which may delay onset but extend duration. The effect is modest. The fat content of the meal matters more than the fiber for THC absorption. Ensure adequate fat in your vegan dish for proper cannabinoid delivery."
+            "q": "Does a high-fiber meal change how edibles feel?",
+            "a": "A big, filling meal can delay onset, so the effect may start later than you expect. Mix the cannabis oil evenly through the dish, eat one serving, and wait 2 hours before having more."
           },
           {
             "q": "Can I make cannabis-infused vegan cheese?",
@@ -1673,8 +1673,8 @@
             "a": "Absolutely. THC binds to fat regardless of animal or plant origin. As long as your vegan dish has adequate fat content, potency is identical. The key is using quality cannabis-infused oil and incorporating it properly."
           },
           {
-            "q": "Does high fiber in vegan meals affect THC absorption?",
-            "a": "High fiber can slow digestion slightly, potentially delaying onset by 15-30 minutes compared to low-fiber meals. However, the total THC absorbed remains the same. Some consumers prefer the gentler, more gradual onset that fiber-rich meals produce."
+            "q": "Does a high-fiber vegan meal change how edibles feel?",
+            "a": "A filling meal can delay onset, so the effect may start later than you expect. That's when people take more and end up with too much: eat one serving and wait 2 hours before having more."
           }
         ]
       },
@@ -1717,7 +1717,7 @@
           },
           {
             "q": "How do I make a warm cannabis vegan bowl?",
-            "a": "Cook all components with regular oil at proper temperatures, assemble the warm bowl, then drizzle the cannabis oil on top just before eating. The residual warmth of the food helps the oil absorb without reaching temperatures that degrade THC."
+            "a": "Cook all components with regular oil at proper temperatures, assemble the warm bowl, then drizzle the cannabis oil on top just before eating. That way the cannabis oil only meets the warmth of the food, never the heat of the pan."
           }
         ]
       }
@@ -1919,7 +1919,7 @@
         "intro": "This cannabis %{name} recipe infuses the vibrant, bold flavors of Mexican cuisine with %{base_fat} for an edible that celebrates chiles, spices, and traditional cooking techniques. Mexican food is ideal for cannabis infusion because its robust flavors, from smoky chipotles to tangy lime, completely overpower any herbal cannabis taste. Salsas, moles, and cremas make natural vehicles for precise dosing.",
         "dosing_tips": [
           "Stir cannabis oil into salsas, cremas, and guacamole at serving time for the most precise, per-tablespoon dosing.",
-          "Mexican dishes with cheese, sour cream, and avocado have high fat content that enhances THC absorption naturally.",
+          "Mexican dishes with cheese, sour cream, and avocado are rich and filling, which can delay the effect. Wait 2 hours before having more.",
           "New to edibles? Start with about 5 mg. Spicy foods can mask the onset of cannabis effects, so wait the full 2 hours before eating more.",
           "Cannabis-infused lard or manteca is traditional in Mexican cooking and integrates seamlessly into masa, beans, and sauces."
         ],
@@ -1949,7 +1949,7 @@
           },
           {
             "q": "Does spicy food affect how cannabis edibles feel?",
-            "a": "Capsaicin from chiles can increase blood flow and metabolism, which some consumers report intensifies or accelerates the onset of cannabis effects. The difference is usually subtle, but start with a lower dose if you are combining very spicy food with cannabis for the first time."
+            "a": "There is no good evidence that chiles change how THC works. Very spicy food can hide the cannabis taste, though, so portion the dish before serving and start with a lower dose if you are combining very spicy food with cannabis for the first time."
           }
         ]
       }
@@ -1960,7 +1960,7 @@
         "dosing_tips": [
           "Dissolve the %{base_fat} completely before the drink gets cold (infused honey goes into a little lukewarm water first), then stir before every pour.",
           "Pour equal glasses so guests know one drink equals one serving, and tell first-timers that about 5 mg is enough to start.",
-          "Citrus acids can speed up stomach emptying, potentially leading to slightly faster onset. Start low and wait 2 hours before having more.",
+          "A citrus drink goes down fast, but it can still take up to 2 hours to kick in. Start low and wait 2 hours before having more.",
           "Stir or shake vigorously to integrate the cannabis element fully. Separation is more visible in clear citrus drinks."
         ],
         "common_mistakes": [
@@ -1982,7 +1982,7 @@
         "faq": [
           {
             "q": "Does citrus acid affect THC potency?",
-            "a": "Citric acid does not degrade THC at the concentrations found in drinks. However, acid can accelerate gastric emptying, which may speed up absorption slightly. Your dose remains the same; it may just onset a bit faster."
+            "a": "Citric acid does not degrade THC at the concentrations found in drinks, so your dose stays the same. Stir or shake before pouring so every glass gets its share."
           },
           {
             "q": "What is the best cannabis product for citrus mocktails?",
@@ -2033,7 +2033,7 @@
           },
           {
             "q": "Does mango really enhance the cannabis high?",
-            "a": "Mangoes contain the terpene myrcene, which some claim enhances THC effects by helping it cross the blood-brain barrier more efficiently. Scientific evidence is limited, but many consumers report a noticeable effect. At minimum, mango is delicious and masks cannabis flavor well."
+            "a": "That's a popular claim: mangoes contain the terpene myrcene, which some say strengthens THC. There is no good evidence for it, so dose a mango drink like any other. Mango is still a great pairing: it's delicious and masks cannabis flavor well."
           },
           {
             "q": "Can I use frozen fruit for cannabis drinks?",
@@ -2045,12 +2045,12 @@
           },
           {
             "q": "Are cannabis smoothies a good way to consume edibles?",
-            "a": "Smoothies are one of the best edible formats. The blending creates a thorough emulsion, fruits mask the taste, and the liquid format means relatively fast onset. Add healthy fats like avocado or nut butter alongside cannabis oil for a nutritious, well-dosed drink."
+            "a": "Smoothies are one of the best edible formats. The blending creates a thorough emulsion and fruits mask the taste. Blend the cannabis oil in fully so every glass gets an even dose, and give it up to 2 hours to kick in."
           }
         ]
       },
       "herbal_tea": {
-        "intro": "This cannabis %{name} recipe steeps soothing herbs alongside %{base_fat} for a warm, calming infused tea that promotes relaxation and wellness. Herbal cannabis teas are one of the oldest and most traditional forms of cannabis consumption, used for centuries across many cultures. The gentle ritual of tea preparation adds to the mindful, therapeutic experience.",
+        "intro": "This cannabis %{name} recipe steeps herbs alongside %{base_fat} for a warm infused tea. Herbal cannabis teas are one of the oldest and most traditional forms of cannabis consumption, used for centuries across many cultures. The slow ritual of making and sipping tea suits an edible you should take your time with.",
         "dosing_tips": [
           "Cannabis is not water-soluble, so you must add a fat source like %{base_fat}, coconut oil, or whole milk to extract and carry the THC into your tea.",
           "Steep at 160-180 F (70-82 C) for 15-30 minutes to extract cannabinoids without scalding the milk or degrading delicate herbs.",
@@ -2070,7 +2070,7 @@
         ],
         "variations": [
           "Make a cannabis chai by simmering spices, black tea, cannabis butter, and milk for a rich, aromatic infusion.",
-          "Blend cannabis coconut oil into chamomile tea with honey for a deeply relaxing bedtime drink.",
+          "Blend cannabis coconut oil into chamomile tea with honey for a classic evening cup.",
           "Create a cannabis golden milk with turmeric, ginger, black pepper, and cannabis coconut oil in warm plant milk."
         ],
         "faq": [
@@ -2088,18 +2088,18 @@
           },
           {
             "q": "How long does it take for cannabis tea to work?",
-            "a": "Expect 30-90 minutes for full effect, similar to other edibles. Warm liquids may be absorbed slightly faster than solid foods. Sipping slowly over 20-30 minutes spreads out the absorption, which can produce a gentler, more gradual onset."
+            "a": "Like any edible, cannabis tea can take up to 2 hours to kick in. Wait 2 hours before having another cup."
           },
           {
             "q": "Can I use cannabis tea for sleep?",
-            "a": "Cannabis tea, especially with relaxing herbs like chamomile, valerian, or lavender, is an excellent bedtime ritual. THC combined with these calming herbs can promote drowsiness and relaxation. Use an indica strain if available, and keep the dose moderate to avoid next-morning grogginess."
+            "a": "We don't recommend cannabis tea as a sleep aid: trouble sleeping is a question for your doctor. If you drink it in the evening, keep the dose low, because an edible's effects can last for many hours."
           }
         ]
       },
       "hot_drinks": {
         "intro": "This cannabis %{name} recipe blends %{base_fat} into a warm, soothing beverage perfect for relaxation and unwinding. Hot cannabis drinks provide a comforting way to consume edibles, especially during colder months. The warmth helps the infused fat dissolve and distribute evenly for consistent dosing in every sip.",
         "dosing_tips": [
-          "New to edibles? Start with about 5 mg, and remember that liquid edibles can onset faster than solid foods, sometimes within 20-45 minutes.",
+          "New to edibles? Start with about 5 mg, and remember that a hot drink can still take up to 2 hours to kick in, like any edible.",
           "Use a milk frother or blender to fully emulsify the %{base_fat} into your hot drink so it does not float on top as an oily layer.",
           "If sharing a pot, stir thoroughly before each pour because the fat tends to rise to the surface as the drink sits.",
           "Sipping slowly over 30 minutes gives you better control over your experience than drinking the entire cup quickly."
@@ -2135,7 +2135,7 @@
           },
           {
             "q": "How fast do cannabis hot drinks take effect?",
-            "a": "Hot cannabis drinks can take effect in as little as 20-45 minutes, faster than most solid edibles. The warm liquid and dissolved fat are absorbed more quickly in the digestive system. Start with a low dose until you know how they affect you."
+            "a": "Like any edible, a hot drink can take up to 2 hours to kick in, even though it goes down fast. Start with a low dose and wait 2 hours before having more."
           },
           {
             "q": "Can I make a big batch and reheat portions later?",
@@ -2213,7 +2213,7 @@
         "faq": [
           {
             "q": "Is it safe to combine cannabis and alcohol?",
-            "a": "It can be done safely at low doses but requires caution. Alcohol increases THC absorption, making the cannabis hit harder and faster. Keep both doses very low, start with 2.5-5 mg THC and one standard drink equivalent, and wait to see how the combination affects you."
+            "a": "Mixing them adds to the risk: alcohol and cannabis together impair you more than either one alone. If you do combine them, keep both doses very low, start with 2.5-5 mg THC and one standard drink equivalent, and wait to see how the combination affects you."
           },
           {
             "q": "Can I infuse spirits directly with cannabis?",
@@ -2221,7 +2221,7 @@
           },
           {
             "q": "Why does the combination make me feel so much more intoxicated?",
-            "a": "Alcohol increases blood-brain barrier permeability and enhances THC absorption in the gut. This means you absorb more THC faster and it reaches your brain more efficiently. This is why much lower doses of both substances are recommended when combining."
+            "a": "Alcohol and THC each impair you, and together the impairment is greater than with either one alone. That's why much lower doses of both substances are recommended when combining."
           },
           {
             "q": "What cocktails work best with cannabis?",

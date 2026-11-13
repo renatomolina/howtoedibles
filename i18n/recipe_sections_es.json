@@ -30,7 +30,7 @@
         ],
         "variations": [
           "Sustituye el %{base_fat} por aceite de coco infusionado con cannabis para una versión sin lácteos que igualmente une el THC de manera efectiva.",
-          "Agrega una cucharadita de lecitina de girasol a tu masa para mejorar la absorción de THC y crear una distribución más uniforme.",
+          "Agrega una cucharadita de lecitina de girasol a tu masa para que la grasa con cannabis se mezcle de forma uniforme y cada porción tenga la misma dosis.",
           "Prueba usar una mezcla de grasa infusionada con CBD y THC para un efecto más equilibrado y menos intoxicante, ideal para el uso diurno."
         ],
         "faq": [
@@ -62,7 +62,7 @@
           "Los postres congelados son fáciles de consumir en exceso porque saben muy bien y el frío enmascara el sabor del cannabis. Limítate a una porción medida.",
           "Mezcla tu %{base_fat} en la base líquida a fondo antes de congelar para evitar que el THC se separe o se asiente de manera desigual.",
           "Usa herramientas de medición exactas para porcionar tu mezcla antes de que cuaje, de modo que cada bola o barra tenga la misma dosis.",
-          "Los postres fríos a veces pueden hacer efecto un poco más rápido con el estómago vacío porque el proceso de derretimiento inicia la digestión rápidamente."
+          "Los postres helados se comen con facilidad, así que sirve una porción a la vez y espera 2 horas antes de comer más."
         ],
         "common_mistakes": [
           "No emulsionar el %{base_fat} correctamente causa que se separe durante la congelación, dejando algunas porciones sin THC y otras con demasiado.",
@@ -95,7 +95,7 @@
           },
           {
             "q": "¿Cuánto tiempo tarda en hacer efecto un comestible congelado?",
-            "a": "Los comestibles congelados típicamente tardan entre 30 y 90 minutos en hacer efecto ya que necesitan derretirse y ser digeridos. Pueden comenzar a actuar un poco más rápido que los productos horneados densos porque la base líquida se digiere más rápidamente. Siempre espera 2 horas antes de consumir más."
+            "a": "Como cualquier comestible, los postres congelados pueden tardar hasta 2 horas en hacer efecto, porque aún tienen que digerirse. Siempre espera 2 horas antes de consumir más."
           },
           {
             "q": "¿Puedo volver a congelar helado de cannabis derretido?",
@@ -109,7 +109,7 @@
           "Las confecciones son ideales para una dosificación precisa porque puedes usar moldes para crear porciones idénticas. Calcula el THC total y divide entre el número de moldes.",
           "Mezcla el ingrediente con cannabis por completo mientras la mezcla está tibia; en caramelos y gomitas, un poco de lecitina de girasol ayuda a que se mantenga integrado.",
           "Haz todas las piezas del mismo tamaño para que cada una tenga la misma dosis. Si eres principiante, comienza con unos 5 mg, aunque eso sea parte de una pieza, y espera 2 horas.",
-          "Permite que las confecciones cuajen completamente antes de consumirlas ya que comer dulces calientes puede causar una absorción más rápida e intensa."
+          "Deja que las confecciones cuajen por completo antes de cortarlas, para que todas las piezas salgan del mismo tamaño y con la misma dosis."
         ],
         "common_mistakes": [
           "Calentar mezclas de azúcar por encima de 300 F (150 C) con la grasa de cannabis ya agregada destruirá un porcentaje significativo del THC. Agrega la grasa infusionada después de que el dulce alcance la temperatura y se haya enfriado ligeramente.",
@@ -123,7 +123,7 @@
           "Etiqueta cada recipiente con la fecha y los mg por porción, y guarda los comestibles fuera del alcance de niños y mascotas."
         ],
         "variations": [
-          "Agrega extractos de terpenos que coincidan con tu cepa de cannabis para un efecto séquito mejorado y un perfil de sabor coordinado.",
+          "Agrega saborizantes de terpenos de grado alimenticio que coincidan con el aroma de tu cepa de cannabis para un perfil de sabor coordinado.",
           "Usa moldes de silicona con formas divertidas para hacer tus confecciones más atractivas y asegurar un tamaño consistente para una dosificación precisa.",
           "Infusiona chocolate blanco con aceite de cannabis para una confección de sabor más suave que combina bien con frutas y frutos secos."
         ],
@@ -195,7 +195,7 @@
           },
           {
             "q": "¿Cuánto tardan los pasteles de cannabis en hacer efecto?",
-            "a": "Los pasteles ricos y mantecosos típicamente tardan entre 45 y 90 minutos en hacer efecto. El alto contenido de grasa a veces puede ayudar con la absorción, pero la masa densa tarda en digerirse completamente. Come con el estómago ligeramente lleno para la experiencia más predecible."
+            "a": "Como cualquier comestible, los pasteles pueden tardar hasta 2 horas en hacer efecto, y una masa rica y mantecosa tarda en digerirse. Come una porción y espera al menos 2 horas antes de comer más."
           },
           {
             "q": "¿Puedo usar masa de hojaldre comprada y agregarle cannabis?",
@@ -208,7 +208,7 @@
         "dosing_tips": [
           "Los pudines son excelentes para una dosificación precisa porque la base líquida se mezcla a fondo. Revuelve continuamente para asegurar una distribución uniforme del %{base_fat}.",
           "Vierte en ramequines o tazas individuales para porciones pre-dosificadas con una dosis conocida por recipiente.",
-          "¿Primera vez con comestibles? Comienza con unos 5 mg. Los pudines se digieren relativamente rápido comparados con los productos horneados densos, por lo que los efectos pueden comenzar más pronto.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg. Un pudín suave se come rápido, pero aun así puede tardar hasta 2 horas en hacer efecto.",
           "Si preparas un lote grande, revuelve bien antes de porcionar ya que la grasa puede subir a la superficie mientras el pudín se enfría."
         ],
         "common_mistakes": [
@@ -238,7 +238,7 @@
           },
           {
             "q": "¿Los pudines de cannabis hacen efecto más rápido que los brownies?",
-            "a": "Generalmente sí. Los pudines son semilíquidos y más fáciles de digerir que los productos horneados densos, por lo que el inicio puede ser de 30-60 minutos versus 60-90 para los brownies. Sin embargo, el metabolismo individual varía significativamente, así que siempre espera 2 horas antes de consumir más."
+            "a": "No cuentes con ello. Un pudín es más suave que un brownie, pero cualquier comestible puede tardar hasta 2 horas en hacer efecto, y el tiempo varía mucho de una persona a otra. Siempre espera 2 horas antes de consumir más."
           },
           {
             "q": "¿Cómo hago que el sabor a cannabis sea menos perceptible en el pudín?",
@@ -383,7 +383,7 @@
           "Los snacks salados a menudo se comen por puñados, haciendo que el control de porciones sea crucial. Pre-porciona en raciones individuales de dosis conocida.",
           "Rocía o mezcla los snacks con una cantidad medida de %{base_fat} en lugar de sumergirlos, lo cual lleva a un recubrimiento y dosificación desiguales.",
           "Cuando lo compartas, dile a todos cuántos mg contiene una porción y sugiere que los principiantes comiencen con unos 5 mg.",
-          "Los snacks picantes pueden enmascarar el sabor del cannabis pero también pueden hacer que comas más o bebas más líquido, lo cual puede afectar la absorción."
+          "Los snacks picantes pueden enmascarar el sabor del cannabis y hacer que quieras comer más, así que separa las porciones antes de empezar."
         ],
         "common_mistakes": [
           "Cocinar el aperitivo a temperatura demasiado alta después de añadir el ingrediente con cannabis. Usa la temperatura de la receta o añade el ingrediente con cannabis después de cocinar.",
@@ -404,7 +404,7 @@
         "faq": [
           {
             "q": "¿Los comestibles salados hacen efecto de manera diferente a los dulces?",
-            "a": "El inicio y los efectos son similares independientemente del sabor, pero los snacks salados tienden a ser menos densos en calorías y pueden digerirse un poco más rápido. La principal ventaja es la variedad y la preferencia personal. Muchas personas encuentran que los comestibles salados son más fáciles de controlar en dosis porque son menos tentadores para comer en exceso."
+            "a": "El inicio y los efectos son similares independientemente del sabor: lo que importa es cuánto THC hay en una porción. La principal ventaja es la variedad y la preferencia personal. Muchas personas encuentran que los comestibles salados son más fáciles de controlar en dosis porque son menos tentadores para comer en exceso."
           },
           {
             "q": "¿Qué especias combinan bien con el sabor del cannabis?",
@@ -450,7 +450,7 @@
           },
           {
             "q": "¿Los comestibles dulces son más fuertes que los salados?",
-            "a": "No inherentemente, pero el azúcar puede acelerar ligeramente la absorción de THC porque desencadena la liberación de insulina, lo que puede ayudar a tu cuerpo a absorber cannabinoides más rápido. La principal diferencia es que los comestibles dulces son más fáciles de comer en exceso, lo que lleva al consumo excesivo accidental."
+            "a": "No. La potencia de una porción depende de cuánto THC contiene, no de si es dulce o salada. La principal diferencia es que los comestibles dulces son más fáciles de comer en exceso, lo que lleva al consumo excesivo accidental."
           }
         ]
       },
@@ -694,7 +694,7 @@
         "variations": [
           "Infusiona aceite de coco para una opción versátil y sin lácteos con excelente unión al THC debido a su alto contenido de grasa saturada.",
           "Prepara ghee de cannabis clarificando la mantequilla después de la infusión. Tiene un punto de humo más alto y una vida útil más larga que la mantequilla de cannabis regular.",
-          "Prueba infusionar aceite MCT para una absorción más rápida y un sabor neutro que funciona en cualquier receta."
+          "Prueba infusionar aceite MCT para un sabor neutro que se mantiene líquido a temperatura ambiente y funciona en cualquier receta."
         ],
         "faq": [
           {
@@ -861,7 +861,7 @@
         "faq": [
           {
             "q": "¿Cuál es la diferencia entre tinturas de alcohol y glicerina?",
-            "a": "Las tinturas de alcohol son más potentes porque el etanol extrae cannabinoides más eficientemente. Tienen una vida útil más larga y absorción sublingual más rápida. Las tinturas de glicerina son más suaves, ligeramente dulces, sin alcohol y mejores para personas que evitan el alcohol, pero son menos potentes por volumen."
+            "a": "Las tinturas de alcohol son más potentes porque el etanol extrae cannabinoides más eficientemente. También tienen una vida útil más larga. Las tinturas de glicerina son más suaves, ligeramente dulces, sin alcohol y mejores para personas que evitan el alcohol, pero son menos potentes por volumen."
           },
           {
             "q": "¿Cuánto tiempo toma hacer una tintura de cannabis?",
@@ -1024,7 +1024,7 @@
           "Incorpora %{base_fat} a la sopa después de retirarla del fuego y mezcla bien. La base líquida la distribuye de manera uniforme.",
           "Sirve porciones iguales para asegurar una dosificación consistente. Usa una taza medidora o un cucharón de volumen conocido.",
           "Las sopas cremosas retienen la grasa de cannabis mejor que los caldos claros, donde el aceite tiende a flotar visiblemente en la superficie.",
-          "¿Primera vez con comestibles? Comienza con unos 5 mg, parte de un tazón. Los líquidos calientes pueden hacer efecto más rápido que los alimentos sólidos, a veces en 30-60 minutos."
+          "¿Primera vez con comestibles? Comienza con unos 5 mg, parte de un tazón. La sopa se toma fácilmente, pero aun así puede tardar hasta 2 horas en hacer efecto."
         ],
         "common_mistakes": [
           "Añadir la grasa de cannabis a una sopa hirviendo rápidamente. Retira del fuego o reduce a un hervor muy suave antes de incorporar %{base_fat}.",
@@ -1053,7 +1053,7 @@
           },
           {
             "q": "¿Las sopas con cannabis son buenas para principiantes?",
-            "a": "Excelentes para principiantes. La forma líquida permite una dosificación muy uniforme, y puedes comenzar con un tazón pequeño. Las sopas también son reconfortantes si sientes algo de ansiedad, y el caldo caliente es relajante. Son uno de los formatos de comestibles más fáciles de usar."
+            "a": "Excelentes para principiantes. La forma líquida permite una dosificación muy uniforme, y puedes comenzar con un tazón pequeño. Calientes, sencillas y fáciles de porcionar, las sopas son uno de los formatos de comestibles más fáciles de usar."
           }
         ]
       },
@@ -1063,7 +1063,7 @@
           "Prepara el aderezo por separado y mide una cantidad específica por porción. De una a dos cucharadas de aderezo por ensalada es lo habitual.",
           "Calcula el THC por cucharada de aderezo y sirve en consecuencia. Esto hace que la dosificación sea muy precisa.",
           "Mezcla la ensalada a fondo para que cada hoja quede cubierta y la distribución sea uniforme, en lugar de que se acumule en el fondo del tazón.",
-          "La grasa de los aderezos se absorbe relativamente rápido. Espera el inicio de efectos en 30-60 minutos, más rápido que los productos horneados densos."
+          "Una ensalada se siente ligera, pero como cualquier comestible puede tardar hasta 2 horas en hacer efecto. Espera al menos 2 horas antes de comer más."
         ],
         "common_mistakes": [
           "Hacer un aderezo con demasiado sabor a cannabis. Equilibra con vinagre, cítricos, mostaza y hierbas para crear un sabor agradable.",
@@ -1184,7 +1184,7 @@
           },
           {
             "q": "¿Comer una comida grande hace que los comestibles sean más débiles?",
-            "a": "Una comida completa ralentiza la digestión y puede retrasar el inicio, haciendo que parezca más débil al principio. Sin embargo, el THC total absorbido es el mismo. La experiencia será más gradual y generalmente más prolongada. Comer con el estómago completamente vacío produce efectos más rápidos e intensos, pero más cortos."
+            "a": "Una comida completa puede retrasar el inicio de los efectos, así que al principio puede parecer más débil. Ahí es cuando la gente come más y termina pasándose: come una porción y espera al menos 2 horas antes de repetir."
           }
         ]
       },
@@ -1305,7 +1305,7 @@
           },
           {
             "q": "¿Comer una comida grande hace que el cannabis sea más débil?",
-            "a": "Una comida completa retrasa el inicio y hace que el efecto inicial sea más gradual, pero el THC total absorbido es el mismo. La experiencia tiende a ser más suave en intensidad máxima pero más duradera. Esto puede ser preferible para una experiencia cómoda y sostenida."
+            "a": "Una comida completa puede retrasar el inicio de los efectos, así que al principio puede parecer más débil. Ahí es cuando la gente come más y termina pasándose: come una porción y espera al menos 2 horas antes de repetir."
           }
         ]
       },
@@ -1345,7 +1345,7 @@
       "keto_baked": {
         "intro": "Esta receta de %{name} con cannabis usa %{base_fat} con harinas y endulzantes keto para un bocadillo horneado bajo en carbohidratos que se ajusta a tus macros. La repostería keto y el cannabis son una combinación perfecta porque la dieta cetogénica alta en grasas incorpora naturalmente las grasas que transportan el THC. Disfruta tu comestible sin salir de la cetosis.",
         "dosing_tips": [
-          "Las dietas keto aumentan la absorción de grasa, lo que puede hacer que los comestibles se sientan ligeramente más fuertes. Comienza con unos 5 mg y espera 2 horas.",
+          "Los horneados keto se dosifican como cualquier otro comestible: comienza con unos 5 mg y espera 2 horas.",
           "El alto contenido de grasa de los productos horneados keto distribuye el THC de manera muy uniforme, haciendo que la dosificación sea consistente entre porciones.",
           "Usa recetas con harina de almendra o de coco donde %{base_fat} constituya una gran proporción del contenido de grasa para cálculos precisos.",
           "Pesa las porciones en una báscula de cocina, ya que los productos horneados keto pueden ser densos y pequeñas diferencias de tamaño significan diferencias mayores en la dosis."
@@ -1362,14 +1362,14 @@
           "Etiqueta cada recipiente con la fecha y los mg por porción, y guarda los comestibles fuera del alcance de niños y mascotas."
         ],
         "variations": [
-          "Usa aceite MCT infusionado con cannabis para una grasa sin sabor que se mezcla en cualquier receta keto y puede mejorar la absorción.",
+          "Usa aceite MCT infusionado con cannabis para una grasa sin sabor que se mezcla en cualquier receta keto.",
           "Añade péptidos de colágeno a los muffins keto con cannabis para un impulso de proteína sin afectar el conteo de carbohidratos.",
           "Reemplaza el eritritol con endulzante de fruta del monje para un sabor dulce más limpio junto al sabor del cannabis."
         ],
         "faq": [
           {
             "q": "¿La cetosis afecta cómo se sienten los comestibles?",
-            "a": "Algunas personas reportan que los comestibles se sienten ligeramente más fuertes durante la cetosis porque el cuerpo está procesando grasas de manera eficiente. La mayor ingesta de grasas también significa mejor absorción de THC. Comienza con una dosis más baja de lo normal hasta que sepas cómo responde tu cuerpo en cetosis."
+            "a": "No hay buenas investigaciones sobre comestibles durante la cetosis. Comienza con una dosis más baja de lo normal, unos 5 mg, y espera 2 horas hasta que sepas cómo responde tu cuerpo en cetosis."
           },
           {
             "q": "¿Los comestibles de cannabis me sacarán de la cetosis?",
@@ -1389,12 +1389,12 @@
         ]
       },
       "keto_sweet": {
-        "intro": "Esta receta de %{name} con cannabis combina %{base_fat} con endulzantes aprobados para keto para un dulce sin culpa que satisface tu antojo de algo dulce mientras mantiene los carbohidratos cerca de cero. Los dulces de cannabis sin azúcar son ideales para consumidores conscientes de su salud que quieren una dosificación precisa sin el bajón de azúcar. La base alta en grasa asegura una excelente entrega de THC.",
+        "intro": "Esta receta de %{name} con cannabis combina el ingrediente con cannabis y endulzantes aprobados para keto en un dulce sin culpa que satisface tu antojo de algo dulce mientras mantiene los carbohidratos cerca de cero. Los dulces de cannabis sin azúcar son ideales para quienes comen pocos carbohidratos y quieren una dosificación precisa.",
         "dosing_tips": [
           "Los dulces keto a menudo se hacen en porciones pequeñas como bombas de grasa o trufas. Calcula la dosis por pieza cuidadosamente ya que son densas en calorías.",
-          "El alto contenido de grasa de los dulces keto significa una absorción eficiente de THC. Considera comenzar con unos 5 mg.",
+          "Los dulces keto son pequeños y ricos, así que es fácil comerse dos. Considera comenzar con unos 5 mg.",
           "Usa moldes de silicona para crear porciones idénticas con peso y dosis consistentes.",
-          "Los alcoholes de azúcar en los endulzantes keto no afectan la absorción de THC, así que el cálculo de dosificación es el mismo que con dulces regulares."
+          "Los alcoholes de azúcar de los endulzantes keto no cambian el cálculo de la dosis: el THC de una porción viene solo del ingrediente con cannabis."
         ],
         "common_mistakes": [
           "Endulzar en exceso con alcoholes de azúcar para ocultar el sabor del cannabis puede causar malestar digestivo. Usa una cantidad moderada y confía en el cacao o la vainilla.",
@@ -1431,14 +1431,14 @@
           },
           {
             "q": "¿Los comestibles keto son más potentes que los regulares?",
-            "a": "Pueden sentirse así porque el alto contenido de grasa mejora la absorción de THC y la cetosis puede mejorar el metabolismo de grasas. Muchos consumidores de comestibles keto reportan necesitar una dosis menor. Comienza bajo y ajusta según tu experiencia personal."
+            "a": "No por sí solos. La potencia de una porción viene del THC del ingrediente con cannabis, el mismo cálculo que cualquier otro comestible. Comienza bajo y espera 2 horas antes de comer más."
           }
         ]
       },
       "keto_savory": {
         "intro": "Esta receta de %{name} con cannabis usa %{base_fat} en un plato salado y bajo en carbohidratos que ofrece una dosificación confiable mientras mantiene tus macros cetogénicos en orden. Las comidas saladas keto son naturalmente altas en grasa, haciéndolas vehículos ideales para las infusiones de cannabis. Desde crisps de queso hasta platos de coliflor, los comestibles salados keto son infinitamente versátiles.",
         "dosing_tips": [
-          "Las comidas keto ricas en grasa absorben el THC eficientemente. Comienza con unos 5 mg hasta que sepas cómo te afectan los comestibles salados keto.",
+          "Las comidas keto saladas son llenadoras, lo que puede retrasar el efecto. Comienza con unos 5 mg y espera 2 horas hasta que sepas cómo te afectan los comestibles salados keto.",
           "Mide %{base_fat} con precisión para cada porción en lugar de añadirlo a todo el lote, especialmente para comidas emplatadas.",
           "Las mantequillas compuestas con cannabis y hierbas hacen que dosificar platos salados keto sea elegante y preciso. Una porción de mantequilla equivale a una dosis.",
           "Registra tu ingesta total de grasa incluyendo la grasa de cannabis dentro de tus macros keto diarios para mantenerte en cetosis."
@@ -1461,15 +1461,15 @@
         ],
         "faq": [
           {
-            "q": "¿La grasa en las comidas keto afecta la absorción de THC?",
-            "a": "Sí, de manera positiva. Las comidas más altas en grasa aumentan significativamente la biodisponibilidad del THC. Los estudios muestran que consumir THC con una comida alta en grasa puede aumentar la absorción hasta tres veces. Esta es una de las razones por las que los comestibles keto pueden sentirse más fuertes que las alternativas bajas en grasa."
+            "q": "¿La grasa de las comidas keto hace más fuertes los comestibles?",
+            "a": "El THC de una porción lo define el ingrediente con cannabis, no el resto de la comida. Una comida rica en grasa puede cambiar qué tan rápido llega el efecto, y eso varía de una persona a otra, así que comienza con unos 5 mg y espera 2 horas antes de comer más."
           }
         ]
       },
       "keto_drink": {
-        "intro": "Esta receta de %{name} con cannabis mezcla %{base_fat} en una bebida cremosa y keto que te mantiene en cetosis mientras ofrece una experiencia de cannabis suave y controlada. Las bebidas keto con cannabis aprovechan los ingredientes altos en grasa ya comunes en las dietas cetogénicas, como el aceite MCT, la crema espesa y la leche de coco. Estas son de los comestibles más simples y de acción más rápida que puedes preparar.",
+        "intro": "Esta receta de %{name} con cannabis mezcla %{base_fat} en una bebida cremosa y keto que te mantiene en cetosis mientras ofrece una experiencia de cannabis suave y controlada. Las bebidas keto con cannabis aprovechan los ingredientes altos en grasa ya comunes en las dietas cetogénicas, como el aceite MCT, la crema espesa y la leche de coco. Estas son de los comestibles más simples que puedes preparar.",
         "dosing_tips": [
-          "Las bebidas keto con aceite MCT pueden hacer efecto más rápido que los comestibles típicos porque los MCTs se metabolizan más rápidamente. Comienza bajo con 5 mg.",
+          "Una bebida keto se toma rápido, pero aun así puede tardar hasta 2 horas en hacer efecto. Comienza bajo con 5 mg.",
           "Mezcla bien con un espumador o licuadora para crear una emulsión cremosa en lugar de una película aceitosa en la superficie.",
           "Una bebida equivale a una dosis. No sorbas a lo largo del día sin registrar tu consumo acumulado.",
           "Añade la grasa de cannabis a bebidas calientes para ayudar a la emulsificación. Las bebidas keto frías necesitan una licuadora para combinarse correctamente."
@@ -1501,7 +1501,7 @@
           },
           {
             "q": "¿Qué tan rápido hacen efecto las bebidas keto con cannabis?",
-            "a": "Las bebidas keto con cannabis pueden hacer efecto en 20-45 minutos, más rápido que la mayoría de los comestibles sólidos. El aceite MCT en particular se absorbe rápidamente y se procesa por el hígado con rapidez. El formato líquido y la grasa eficiente también contribuyen a un inicio más rápido en comparación con comer un comestible sólido."
+            "a": "Como cualquier comestible, una bebida keto puede tardar hasta 2 horas en hacer efecto, y el tiempo varía de una persona a otra. Comienza con unos 5 mg y espera 2 horas antes de tomar más."
           }
         ]
       }
@@ -1512,7 +1512,7 @@
         "dosing_tips": [
           "El aceite de coco con cannabis es el mejor aliado del repostero vegano. Su alto contenido de grasa saturada extrae el THC con la misma eficacia que la mantequilla de origen animal.",
           "Mide el %{base_fat} por peso en lugar de por volumen para mayor precisión, ya que la densidad del aceite de coco cambia con la temperatura.",
-          "¿Primera vez con comestibles? Comienza con unos 5 mg. Los horneados veganos pueden digerirse un poco más rápido debido a la ausencia de proteínas lácteas.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg. Como cualquier comestible, los horneados veganos pueden tardar hasta 2 horas en hacer efecto.",
           "Usa un huevo de linaza o de chía para aglutinar sin lácteos, lo cual no afecta la distribución del THC."
         ],
         "common_mistakes": [
@@ -1601,7 +1601,7 @@
         "dosing_tips": [
           "Rocía una cantidad medida de aceite de cannabis sobre los platos terminados en lugar de cocinar con él para una dosificación más precisa.",
           "Los platos veganos salados a menudo usan aceite de coco o aceite de oliva como grasa principal, ambos se infusionan bien con cannabis.",
-          "Si eres principiante, comienza con unos 5 mg. Las comidas a base de plantas pueden digerirse un poco más rápido debido al mayor contenido de fibra.",
+          "Si eres principiante, comienza con unos 5 mg. Como cualquier comestible, una comida a base de plantas puede tardar hasta 2 horas en hacer efecto.",
           "La levadura nutricional, el miso y el tamari añaden profundidad umami que combina bien con el sabor herbal del cannabis y lo enmascara."
         ],
         "common_mistakes": [
@@ -1626,8 +1626,8 @@
             "a": "El aceite de oliva infusionado con cannabis es el más versátil para aplicaciones saladas. Tiene un sabor complementario, funciona como aderezo, aceite de acabado y en salsas. El aceite de coco con cannabis es mejor para platos asiáticos y tropicales donde el sabor a coco es bienvenido."
           },
           {
-            "q": "¿La fibra vegetal afecta la absorción del THC?",
-            "a": "Las comidas con alto contenido de fibra pueden ralentizar ligeramente la digestión, lo que puede retrasar el inicio pero extender la duración. El efecto es modesto. El contenido de grasa de la comida importa más que la fibra para la absorción del THC. Asegura suficiente grasa en tu plato vegano para una entrega adecuada de cannabinoides."
+            "q": "¿Una comida alta en fibra cambia cómo se sienten los comestibles?",
+            "a": "Una comida abundante y llenadora puede retrasar el inicio, así que el efecto puede empezar más tarde de lo que esperas. Mezcla el aceite de cannabis de forma uniforme en el plato, come una porción y espera 2 horas antes de comer más."
           },
           {
             "q": "¿Puedo hacer queso vegano infusionado con cannabis?",
@@ -1673,8 +1673,8 @@
             "a": "Absolutamente. El THC se une a la grasa independientemente del origen animal o vegetal. Siempre que tu plato vegano tenga contenido de grasa adecuado, la potencia es idéntica. La clave es usar aceite infusionado con cannabis de calidad e incorporarlo correctamente."
           },
           {
-            "q": "¿La alta fibra en las comidas veganas afecta la absorción del THC?",
-            "a": "La alta fibra puede ralentizar ligeramente la digestión, potencialmente retrasando el inicio en 15-30 minutos comparado con comidas bajas en fibra. Sin embargo, el THC total absorbido permanece igual. Algunos consumidores prefieren el inicio más suave y gradual que las comidas ricas en fibra producen."
+            "q": "¿Una comida vegana alta en fibra cambia cómo se sienten los comestibles?",
+            "a": "Una comida llenadora puede retrasar el inicio, así que el efecto puede empezar más tarde de lo que esperas. Ahí es cuando la gente come más y termina pasándose: come una porción y espera 2 horas antes de comer más."
           }
         ]
       },
@@ -1717,7 +1717,7 @@
           },
           {
             "q": "¿Cómo hago un bowl vegano caliente con cannabis?",
-            "a": "Cocina todos los componentes con aceite regular a temperaturas adecuadas, ensambla el bowl caliente y luego rocía el aceite de cannabis por encima justo antes de comer. El calor residual de la comida ayuda al aceite a absorberse sin alcanzar temperaturas que degraden el THC."
+            "a": "Cocina todos los componentes con aceite regular a temperaturas adecuadas, ensambla el bowl caliente y luego rocía el aceite de cannabis por encima justo antes de comer. Así el aceite de cannabis solo toca el calor de la comida, nunca el de la sartén."
           }
         ]
       }
@@ -1919,7 +1919,7 @@
         "intro": "Esta receta de %{name} con cannabis infusiona los sabores vibrantes e intensos de la cocina mexicana con %{base_fat} para un comestible que celebra chiles, especias y técnicas culinarias tradicionales. La comida mexicana es ideal para la infusión de cannabis porque sus sabores robustos, desde chipotles ahumados hasta limón ácido, superan completamente cualquier sabor herbal del cannabis. Las salsas, moles y cremas son vehículos naturales para dosificación precisa.",
         "dosing_tips": [
           "Incorpora aceite de cannabis en salsas, cremas y guacamole al momento de servir para la dosificación más precisa por cucharada.",
-          "Los platos mexicanos con queso, crema agria y aguacate tienen alto contenido de grasa que mejora la absorción de THC naturalmente.",
+          "Los platos mexicanos con queso, crema agria y aguacate son ricos y llenadores, lo que puede retrasar el efecto. Espera 2 horas antes de comer más.",
           "¿Primera vez con comestibles? Comienza con unos 5 mg. Las comidas picantes pueden enmascarar el inicio de los efectos del cannabis, así que espera las 2 horas completas antes de comer más.",
           "La manteca infusionada con cannabis es tradicional en la cocina mexicana y se integra perfectamente en masa, frijoles y salsas."
         ],
@@ -1949,7 +1949,7 @@
           },
           {
             "q": "¿La comida picante afecta cómo se sienten los comestibles de cannabis?",
-            "a": "La capsaicina de los chiles puede aumentar el flujo sanguíneo y el metabolismo, lo que algunos consumidores reportan que intensifica o acelera el inicio de los efectos del cannabis. La diferencia suele ser sutil, pero comienza con una dosis más baja si combinas comida muy picante con cannabis por primera vez."
+            "a": "No hay buena evidencia de que los chiles cambien cómo actúa el THC. Pero la comida muy picante puede ocultar el sabor del cannabis, así que porciona el plato antes de servir y comienza con una dosis más baja si combinas comida muy picante con cannabis por primera vez."
           }
         ]
       }
@@ -1960,7 +1960,7 @@
         "dosing_tips": [
           "Disuelve el ingrediente con cannabis por completo antes de que la bebida se enfríe (la miel infusionada va primero en un poco de agua tibia) y remueve antes de servir cada vaso.",
           "Sirve vasos iguales para que los invitados sepan que una bebida equivale a una porción, y diles a los principiantes que unos 5 mg son suficientes para empezar.",
-          "Los ácidos cítricos pueden acelerar el vaciamiento estomacal, lo que potencialmente lleva a un inicio de efectos ligeramente más rápido. Comienza con poco y espera 2 horas antes de tomar más.",
+          "Una bebida cítrica se toma rápido, pero aun así puede tardar hasta 2 horas en hacer efecto. Comienza con poco y espera 2 horas antes de tomar más.",
           "Agita o revuelve vigorosamente para integrar completamente el elemento de cannabis. La separación es más visible en bebidas cítricas claras."
         ],
         "common_mistakes": [
@@ -1982,7 +1982,7 @@
         "faq": [
           {
             "q": "¿El ácido cítrico afecta la potencia del THC?",
-            "a": "El ácido cítrico no degrada el THC en las concentraciones que se encuentran en las bebidas. Sin embargo, el ácido puede acelerar el vaciamiento gástrico, lo que puede acelerar la absorción ligeramente. Tu dosis sigue siendo la misma; solo puede hacer efecto un poco más rápido."
+            "a": "El ácido cítrico no degrada el THC en las concentraciones que se encuentran en las bebidas, así que tu dosis sigue siendo la misma. Revuelve o agita antes de servir para que cada vaso reciba su parte."
           },
           {
             "q": "¿Cuál es el mejor producto de cannabis para mocktails cítricos?",
@@ -2033,7 +2033,7 @@
           },
           {
             "q": "¿El mango realmente potencia el efecto del cannabis?",
-            "a": "Los mangos contienen el terpeno mirceno, que algunos afirman que potencia los efectos del THC al ayudarlo a cruzar la barrera hematoencefálica de manera más eficiente. La evidencia científica es limitada, pero muchos consumidores reportan un efecto notable. Como mínimo, el mango es delicioso y enmascara bien el sabor del cannabis."
+            "a": "Es una afirmación popular: los mangos contienen el terpeno mirceno, que algunos dicen que potencia el THC. No hay buena evidencia de ello, así que dosifica una bebida de mango como cualquier otra. El mango sigue siendo una gran combinación: es delicioso y enmascara bien el sabor del cannabis."
           },
           {
             "q": "¿Puedo usar fruta congelada para bebidas con cannabis?",
@@ -2045,12 +2045,12 @@
           },
           {
             "q": "¿Son los smoothies con cannabis una buena forma de consumir comestibles?",
-            "a": "Los smoothies son uno de los mejores formatos de comestibles. El licuado crea una emulsión completa, las frutas enmascaran el sabor y el formato líquido significa un inicio de efectos relativamente rápido. Añade grasas saludables como aguacate o mantequilla de frutos secos junto con el aceite de cannabis para una bebida nutritiva y bien dosificada."
+            "a": "Los smoothies son uno de los mejores formatos de comestibles. El licuado crea una emulsión completa y las frutas enmascaran el sabor. Licúa bien el aceite de cannabis para que cada vaso reciba una dosis uniforme, y espera hasta 2 horas a que haga efecto."
           }
         ]
       },
       "herbal_tea": {
-        "intro": "Esta receta de %{name} con cannabis infusiona hierbas reconfortantes junto con %{base_fat} para un té caliente y relajante que promueve la relajación y el bienestar. Los tés herbales con cannabis son una de las formas más antiguas y tradicionales de consumo de cannabis, utilizados durante siglos en muchas culturas. El ritual pausado de la preparación del té se suma a la experiencia consciente y terapéutica.",
+        "intro": "Esta receta de %{name} con cannabis infusiona hierbas junto con el ingrediente con cannabis para un té caliente. Los tés herbales con cannabis son una de las formas más antiguas y tradicionales de consumo de cannabis, utilizados durante siglos en muchas culturas. El ritual pausado de preparar y sorber el té encaja con un comestible que pide calma.",
         "dosing_tips": [
           "El cannabis no es soluble en agua, por lo que debes añadir una fuente de grasa como %{base_fat}, aceite de coco o leche entera para extraer y transportar el THC a tu té.",
           "Infusiona a 160-180 °F (70-82 °C) durante 15-30 minutos para extraer cannabinoides sin quemar la leche ni degradar las hierbas delicadas.",
@@ -2070,7 +2070,7 @@
         ],
         "variations": [
           "Prepara un chai con cannabis cocinando a fuego lento especias, té negro, mantequilla de cannabis y leche para una infusión rica y aromática.",
-          "Mezcla aceite de coco con cannabis en té de manzanilla con miel para una bebida profundamente relajante antes de dormir.",
+          "Mezcla aceite de coco con cannabis en té de manzanilla con miel para una taza clásica de la noche.",
           "Crea una leche dorada con cannabis usando cúrcuma, jengibre, pimienta negra y aceite de coco con cannabis en leche vegetal caliente."
         ],
         "faq": [
@@ -2088,18 +2088,18 @@
           },
           {
             "q": "¿Cuánto tarda en hacer efecto el té de cannabis?",
-            "a": "Espera de 30 a 90 minutos para el efecto completo, similar a otros comestibles. Los líquidos calientes pueden absorberse ligeramente más rápido que los alimentos sólidos. Beber despacio durante 20-30 minutos distribuye la absorción, lo que puede producir un inicio más suave y gradual."
+            "a": "Como cualquier comestible, el té de cannabis puede tardar hasta 2 horas en hacer efecto. Espera 2 horas antes de tomar otra taza."
           },
           {
             "q": "¿Puedo usar té de cannabis para dormir?",
-            "a": "El té de cannabis, especialmente con hierbas relajantes como manzanilla, valeriana o lavanda, es un excelente ritual antes de dormir. El THC combinado con estas hierbas calmantes puede promover la somnolencia y la relajación. Usa una variedad indica si está disponible, y mantén la dosis moderada para evitar somnolencia a la mañana siguiente."
+            "a": "No recomendamos el té de cannabis como ayuda para dormir: los problemas de sueño son tema para tu médico. Si lo tomas por la noche, mantén la dosis baja, porque los efectos de un comestible pueden durar muchas horas."
           }
         ]
       },
       "hot_drinks": {
         "intro": "Esta receta de %{name} con cannabis mezcla %{base_fat} en una bebida caliente y reconfortante perfecta para relajarse y descansar. Las bebidas calientes con cannabis ofrecen una forma acogedora de consumir comestibles, especialmente durante los meses más fríos. El calor ayuda a que la grasa infusionada se disuelva y se distribuya uniformemente para una dosificación consistente en cada sorbo.",
         "dosing_tips": [
-          "¿Primera vez con comestibles? Comienza con unos 5 mg y recuerda que los comestibles líquidos pueden hacer efecto más rápido que los alimentos sólidos, a veces dentro de 20-45 minutos.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg y recuerda que una bebida caliente puede tardar hasta 2 horas en hacer efecto, como cualquier comestible.",
           "Usa un espumador de leche o licuadora para emulsionar completamente el %{base_fat} en tu bebida caliente para que no flote encima como una capa aceitosa.",
           "Si compartes una tetera, revuelve bien antes de cada servida porque la grasa tiende a subir a la superficie mientras la bebida reposa.",
           "Beber despacio durante 30 minutos te da mejor control sobre tu experiencia que tomar toda la taza rápidamente."
@@ -2135,7 +2135,7 @@
           },
           {
             "q": "¿Qué tan rápido hacen efecto las bebidas calientes con cannabis?",
-            "a": "Las bebidas calientes con cannabis pueden hacer efecto en tan solo 20-45 minutos, más rápido que la mayoría de los comestibles sólidos. El líquido caliente y la grasa disuelta se absorben más rápidamente en el sistema digestivo. Comienza con una dosis baja hasta que sepas cómo te afectan."
+            "a": "Como cualquier comestible, una bebida caliente puede tardar hasta 2 horas en hacer efecto, aunque se tome rápido. Comienza con una dosis baja y espera 2 horas antes de tomar más."
           },
           {
             "q": "¿Puedo preparar un lote grande y recalentar porciones después?",
@@ -2213,7 +2213,7 @@
         "faq": [
           {
             "q": "¿Es seguro combinar cannabis y alcohol?",
-            "a": "Se puede hacer de forma segura en dosis bajas pero requiere precaución. El alcohol aumenta la absorción de THC, haciendo que el cannabis pegue más fuerte y más rápido. Mantén ambas dosis muy bajas, comienza con 2.5-5 mg de THC y el equivalente a una bebida estándar, y espera para ver cómo te afecta la combinación."
+            "a": "Mezclarlos aumenta el riesgo: el alcohol y el cannabis juntos te afectan más que cada uno por separado. Si los combinas, mantén ambas dosis muy bajas, comienza con 2.5-5 mg de THC y el equivalente a una bebida estándar, y espera para ver cómo te afecta la combinación."
           },
           {
             "q": "¿Puedo infusionar licores directamente con cannabis?",
@@ -2221,7 +2221,7 @@
           },
           {
             "q": "¿Por qué la combinación me hace sentir mucho más intoxicado?",
-            "a": "El alcohol aumenta la permeabilidad de la barrera hematoencefálica y mejora la absorción del THC en el intestino. Esto significa que absorbes más THC más rápido y llega a tu cerebro de manera más eficiente. Por eso se recomiendan dosis mucho más bajas de ambas sustancias al combinarlas."
+            "a": "El alcohol y el THC te afectan cada uno por su cuenta, y juntos el efecto es mayor que con cualquiera de los dos por separado. Por eso se recomiendan dosis mucho más bajas de ambas sustancias al combinarlas."
           },
           {
             "q": "¿Qué cócteles funcionan mejor con cannabis?",

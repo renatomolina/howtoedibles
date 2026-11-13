@@ -30,7 +30,7 @@
         ],
         "variations": [
           "Tausche %{base_fat} gegen Cannabis-infundiertes Kokosöl für eine milchfreie Variante, die THC dennoch effektiv bindet.",
-          "Füge einen Teelöffel Sonnenblumenlecithin zu deinem Teig hinzu, um die THC-Aufnahme zu verbessern und eine gleichmäßigere Verteilung zu erzielen.",
+          "Füge einen Teelöffel Sonnenblumenlecithin zu deinem Teig hinzu, damit sich das Cannabis-Fett gleichmäßig verteilt und jedes Stück dieselbe Dosis hat.",
           "Probiere eine Mischung aus CBD- und THC-infundiertem Fett für einen ausgewogeneren, weniger berauschenden Effekt, der ideal für den Tagesgebrauch ist."
         ],
         "faq": [
@@ -62,7 +62,7 @@
           "Gefrorene Desserts werden leicht überkonsumiert, weil sie so gut schmecken und die Kälte den Cannabisgeschmack überdeckt. Halte dich an eine abgemessene Portion.",
           "Mixe dein %{base_fat} gründlich in die flüssige Basis, bevor du einfrierst, um zu verhindern, dass sich THC absetzt oder ungleichmäßig verteilt.",
           "Verwende exakte Messwerkzeuge, um deine Mischung vor dem Festwerden zu portionieren, damit jede Kugel und jeder Riegel die gleiche Dosis enthält.",
-          "Kalte Leckereien können auf nüchternen Magen manchmal etwas schneller wirken, weil der Schmelzvorgang die Verdauung schnell einleitet."
+          "Gefrorene Leckereien isst man schnell, also serviere eine Portion nach der anderen und warte 2 Stunden, bevor du mehr isst."
         ],
         "common_mistakes": [
           "Wird das %{base_fat} nicht richtig emulgiert, trennt es sich beim Einfrieren, sodass einige Portionen kein THC enthalten und andere zu viel.",
@@ -95,7 +95,7 @@
           },
           {
             "q": "Wie lange dauert es, bis ein gefrorenes Edible wirkt?",
-            "a": "Gefrorene Edibles brauchen typischerweise 30-90 Minuten, bis sie wirken, da sie schmelzen und verdaut werden müssen. Der Wirkungseintritt kann etwas schneller sein als bei dichten Backwaren, weil die flüssige Basis schneller verdaut wird. Warte immer 2 Stunden ab, bevor du mehr nimmst."
+            "a": "Wie jedes Edible können gefrorene Leckereien bis zu 2 Stunden brauchen, bis sie wirken, weil sie erst verdaut werden müssen. Warte immer 2 Stunden ab, bevor du mehr nimmst."
           },
           {
             "q": "Kann ich geschmolzenes Cannabis-Eis wieder einfrieren?",
@@ -109,7 +109,7 @@
           "Konfekt ist ideal für präzise Dosierung, da du Formen verwenden kannst, um identische Portionen herzustellen. Berechne das gesamte THC und teile durch die Anzahl der Formen.",
           "Rühre die Cannabis-Zutat vollständig ein, solange die Masse warm ist; bei Bonbons und Fruchtgummis hilft etwas Sonnenblumenlecithin, damit sie gebunden bleibt.",
           "Mach alle Stücke gleich groß, damit jedes die gleiche Dosis enthält. Wenn du neu dabei bist, beginne mit etwa 5 mg, auch wenn das nur ein Teil eines Stücks ist, und warte 2 Stunden.",
-          "Lass Konfekt vollständig fest werden, bevor du es konsumierst, da warme Süßigkeiten eine schnellere, intensivere Aufnahme verursachen können."
+          "Lass Konfekt vollständig fest werden, bevor du es schneidest, damit alle Stücke gleich groß werden und dieselbe Dosis haben."
         ],
         "common_mistakes": [
           "Das Erhitzen von Zuckermischungen über 300 F (150 C) mit bereits hinzugefügtem Cannabisfett zerstört einen erheblichen Prozentsatz des THC. Füge das infundierte Fett hinzu, nachdem die Süßigkeit die Temperatur erreicht hat und leicht abgekühlt ist.",
@@ -123,7 +123,7 @@
           "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
-          "Füge Terpenextrakte hinzu, die zu deiner Cannabissorte passen, für einen verstärkten Entourage-Effekt und ein abgestimmtes Geschmacksprofil.",
+          "Füge lebensmitteltaugliche Terpen-Aromen hinzu, die zum Duft deiner Cannabissorte passen, für ein abgestimmtes Geschmacksprofil.",
           "Verwende Silikonformen in lustigen Formen, um dein Konfekt ansprechender zu gestalten und eine einheitliche Größe für genaue Dosierung sicherzustellen.",
           "Infundiere weiße Schokolade mit Cannabisöl für ein milder schmeckendes Konfekt, das gut mit Frucht- und Nusszugaben harmoniert."
         ],
@@ -195,7 +195,7 @@
           },
           {
             "q": "Wie lange dauert es, bis Cannabis-Gebäck wirkt?",
-            "a": "Reichhaltiges, buttriges Gebäck braucht typischerweise 45-90 Minuten, bis es wirkt. Der hohe Fettgehalt kann manchmal die Aufnahme unterstützen, aber der dichte Teig braucht Zeit, um vollständig verdaut zu werden. Iss bei leicht gefülltem Magen für das berechenbarste Erlebnis."
+            "a": "Wie jedes Edible kann Gebäck bis zu 2 Stunden brauchen, bis es wirkt, und reichhaltiger, buttriger Teig braucht Zeit zum Verdauen. Iss eine Portion und warte mindestens 2 Stunden, bevor du mehr isst."
           },
           {
             "q": "Kann ich fertigen Blätterteig kaufen und Cannabis hinzufügen?",
@@ -208,7 +208,7 @@
         "dosing_tips": [
           "Puddings eignen sich hervorragend für präzise Dosierung, da sich die flüssige Basis gründlich mischen lässt. Rühre kontinuierlich, um eine gleichmäßige Verteilung des %{base_fat} sicherzustellen.",
           "Fülle in einzelne Förmchen oder Becher ab, für vorportionierte Portionen mit bekannter Dosis pro Behälter.",
-          "Neu bei Edibles? Beginne mit etwa 5 mg. Puddings werden im Vergleich zu dichten Backwaren relativ schnell verdaut, sodass die Wirkung schneller einsetzen kann.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg. Ein weicher Pudding ist schnell gegessen, kann aber trotzdem bis zu 2 Stunden brauchen, bis er wirkt.",
           "Wenn du eine große Menge zubereitest, rühre gut um, bevor du portionierst, da Fett beim Abkühlen des Puddings nach oben steigen kann."
         ],
         "common_mistakes": [
@@ -238,7 +238,7 @@
           },
           {
             "q": "Wirken Cannabis-Puddings schneller als Brownies?",
-            "a": "In der Regel ja. Puddings sind halbflüssig und leichter verdaulich als dichte Backwaren, sodass der Wirkungseintritt 30-60 Minuten statt 60-90 bei Brownies betragen kann. Allerdings variiert der individuelle Stoffwechsel erheblich, warte also immer 2 Stunden, bevor du mehr nimmst."
+            "a": "Verlass dich nicht darauf. Ein Pudding ist weicher als ein Brownie, aber jedes Edible kann bis zu 2 Stunden brauchen, bis es wirkt, und das ist von Mensch zu Mensch sehr verschieden. Warte immer 2 Stunden, bevor du mehr nimmst."
           },
           {
             "q": "Wie kann ich den Cannabisgeschmack im Pudding weniger auffällig machen?",
@@ -383,7 +383,7 @@
           "Herzhafte Snacks werden oft handvollweise gegessen, was Portionskontrolle entscheidend macht. Portioniere in einzelne Portionen mit bekannter Dosierung vor.",
           "Beträufle oder schwenke Snacks mit einer abgemessenen Menge %{base_fat}, anstatt sie einzutauchen, was zu ungleichmäßiger Beschichtung und Dosierung führt.",
           "Wenn du mit anderen teilst, sag allen, wie viele mg eine Portion enthält, und empfiehl Anfängern, mit etwa 5 mg zu beginnen.",
-          "Scharfe Snacks können den Cannabisgeschmack überdecken, verleiten aber möglicherweise dazu, mehr zu essen oder mehr zu trinken, was die Aufnahme beeinflussen kann."
+          "Scharfe Snacks können den Cannabis-Geschmack überdecken und dazu verleiten, mehr zu essen, also teile die Portionen ab, bevor du anfängst."
         ],
         "common_mistakes": [
           "Den Snack zu heiß garen, nachdem die Cannabis-Zutat drin ist. Halte dich an die Temperatur im Rezept oder gib die Cannabis-Zutat erst nach dem Garen dazu.",
@@ -404,7 +404,7 @@
         "faq": [
           {
             "q": "Wirken herzhafte Edibles anders als süße?",
-            "a": "Wirkungseintritt und Effekte sind unabhängig vom Geschmack ähnlich, aber herzhafte Snacks sind tendenziell weniger kalorienreich und können etwas schneller verdaut werden. Der Hauptvorteil ist Abwechslung und persönliche Vorliebe. Viele Menschen finden herzhafte Edibles einfacher zu dosieren, weil die Versuchung zum Überessen geringer ist."
+            "a": "Wirkungseintritt und Effekte sind unabhängig vom Geschmack ähnlich: Entscheidend ist, wie viel THC in einer Portion steckt. Der Hauptvorteil ist Abwechslung und persönliche Vorliebe. Viele Menschen finden herzhafte Edibles einfacher zu dosieren, weil die Versuchung zum Überessen geringer ist."
           },
           {
             "q": "Welche Gewürze passen gut zum Cannabisgeschmack?",
@@ -450,7 +450,7 @@
           },
           {
             "q": "Sind süße Edibles stärker als herzhafte?",
-            "a": "Nicht grundsätzlich, aber Zucker kann die THC-Aufnahme leicht beschleunigen, da er die Insulinausschüttung anregt, was deinem Körper helfen kann, Cannabinoide schneller aufzunehmen. Der Hauptunterschied ist, dass süße Edibles leichter überessen werden, was zu versehentlichem Überkonsum führt."
+            "a": "Nein. Wie stark eine Portion ist, hängt davon ab, wie viel THC sie enthält, nicht davon, ob sie süß oder herzhaft ist. Der Hauptunterschied ist, dass süße Edibles leichter überessen werden, was zu versehentlichem Überkonsum führt."
           }
         ]
       },
@@ -694,7 +694,7 @@
         "variations": [
           "Infundiere Kokosöl für eine vielseitige, milchfreie Option mit hervorragender THC-Bindung dank seines hohen Gehalts an gesättigten Fettsäuren.",
           "Stelle Cannabis-Ghee her, indem du die Butter nach der Infusion klärst. Es hat einen höheren Rauchpunkt und eine längere Haltbarkeit als normale Cannabisbutter.",
-          "Probiere MCT-Öl zu infundieren für schnellere Aufnahme und einen neutralen Geschmack, der in jedem Rezept funktioniert."
+          "Probiere, MCT-Öl zu infundieren: neutral im Geschmack, bei Zimmertemperatur flüssig und für jedes Rezept geeignet."
         ],
         "faq": [
           {
@@ -861,7 +861,7 @@
         "faq": [
           {
             "q": "Was ist der Unterschied zwischen Alkohol- und Glycerin-Tinkturen?",
-            "a": "Alkohol-Tinkturen sind potenter, weil Ethanol Cannabinoide effizienter extrahiert. Sie haben eine längere Haltbarkeit und schnellere sublinguale Aufnahme. Glycerin-Tinkturen sind milder, leicht süß, alkoholfrei und besser für Menschen, die Alkohol meiden, aber weniger potent pro Volumen."
+            "a": "Alkohol-Tinkturen sind potenter, weil Ethanol Cannabinoide effizienter extrahiert. Außerdem sind sie länger haltbar. Glycerin-Tinkturen sind milder, leicht süß, alkoholfrei und besser für Menschen, die Alkohol meiden, aber weniger potent pro Volumen."
           },
           {
             "q": "Wie lange dauert die Herstellung einer Cannabis-Tinktur?",
@@ -1024,7 +1024,7 @@
           "Rühre das %{base_fat} nach dem Entfernen von der Hitzequelle in die Suppe und mische gründlich durch. Die flüssige Basis verteilt es gleichmäßig.",
           "Schöpfe gleich große Portionen, um eine einheitliche Dosierung sicherzustellen. Verwende einen Messbecher oder eine Schöpfkelle mit bekanntem Volumen.",
           "Cremesuppen binden Cannabisfett besser als klare Brühen, bei denen das Öl sichtbar an der Oberfläche schwimmt.",
-          "Neu bei Edibles? Beginne mit etwa 5 mg, einem Teil einer Schüssel. Warme Flüssigkeiten können schneller wirken als feste Speisen, manchmal schon nach 30-60 Minuten."
+          "Neu bei Edibles? Beginne mit etwa 5 mg, einem Teil einer Schüssel. Suppe isst sich leicht, kann aber trotzdem bis zu 2 Stunden brauchen, bis sie wirkt."
         ],
         "common_mistakes": [
           "Cannabisfett in eine sprudelnd kochende Suppe geben. Nimm den Topf von der Herdplatte oder reduziere auf ein sanftes Köcheln, bevor du %{base_fat} einrührst.",
@@ -1053,7 +1053,7 @@
           },
           {
             "q": "Sind Cannabis-Suppen gut für Anfänger?",
-            "a": "Hervorragend für Anfänger. Die flüssige Form ermöglicht eine sehr gleichmäßige Dosierung, und du kannst mit einer kleinen Schüssel anfangen. Suppen sind auch wohltuend, wenn man Unruhe verspürt, und die warme Brühe wirkt beruhigend. Sie gehören zu den benutzerfreundlichsten Edible-Formaten."
+            "a": "Hervorragend für Anfänger. Die flüssige Form ermöglicht eine sehr gleichmäßige Dosierung, und du kannst mit einer kleinen Schüssel anfangen. Warm, einfach und leicht zu portionieren, gehören Suppen zu den benutzerfreundlichsten Edible-Formaten."
           }
         ]
       },
@@ -1063,7 +1063,7 @@
           "Bereite das Dressing separat zu und miss eine bestimmte Menge pro Portion ab. Ein bis zwei Esslöffel Dressing pro Salat sind üblich.",
           "Berechne das THC pro Esslöffel Dressing und portioniere entsprechend. So wird die Dosierung sehr präzise.",
           "Schwenke den Salat gründlich, damit jedes Blatt gleichmäßig benetzt ist und sich das Dressing nicht am Schüsselboden sammelt.",
-          "Fett aus Dressings wird relativ schnell aufgenommen. Rechne mit einem Wirkungseintritt nach 30-60 Minuten, schneller als bei dichten Backwaren."
+          "Ein Salat wirkt leicht, kann aber wie jedes Edible bis zu 2 Stunden brauchen, bis er wirkt. Warte mindestens 2 Stunden, bevor du mehr isst."
         ],
         "common_mistakes": [
           "Das Dressing zu sehr nach Cannabis schmecken lassen. Gleiche mit Essig, Zitrus, Senf und Kräutern aus, um ein angenehmes Aroma zu schaffen.",
@@ -1184,7 +1184,7 @@
           },
           {
             "q": "Macht eine große Mahlzeit die Edibles schwächer?",
-            "a": "Eine volle Mahlzeit verlangsamt die Verdauung und kann den Wirkungseintritt verzögern, wodurch es sich anfangs schwächer anfühlen kann. Die Gesamtmenge des aufgenommenen THC bleibt jedoch gleich. Das Erlebnis wird allmählicher und oft länger anhaltend. Auf völlig leeren Magen eingenommen, ist die Wirkung schneller und intensiver, aber kürzer."
+            "a": "Eine volle Mahlzeit kann den Wirkungseintritt verzögern, sodass es sich anfangs schwächer anfühlen kann. Genau dann essen viele nach und nehmen zu viel: Iss eine Portion und warte mindestens 2 Stunden, bevor du nachnimmst."
           }
         ]
       },
@@ -1305,7 +1305,7 @@
           },
           {
             "q": "Macht eine große Mahlzeit das Cannabis schwächer?",
-            "a": "Eine volle Mahlzeit verzögert den Wirkungseintritt und lässt die anfängliche Wirkung allmählicher erscheinen, aber die gesamte aufgenommene THC-Menge bleibt gleich. Das Erlebnis ist tendenziell milder in der Spitzenintensität, aber länger anhaltend. Das kann tatsächlich für eine angenehme, nachhaltige Erfahrung vorzuziehen sein."
+            "a": "Eine volle Mahlzeit kann den Wirkungseintritt verzögern, sodass es sich anfangs schwächer anfühlen kann. Genau dann essen viele nach und nehmen zu viel: Iss eine Portion und warte mindestens 2 Stunden, bevor du nachnimmst."
           }
         ]
       },
@@ -1345,7 +1345,7 @@
       "keto_baked": {
         "intro": "Dieses Cannabis-%{name}-Rezept verwendet %{base_fat} mit ketofreundlichen Mehlen und Süßungsmitteln für einen kohlenhydratarmen Backgenuss, der in deine Makros passt. Keto-Backen und Cannabis sind eine perfekte Kombination, da die fettreiche ketogene Ernährung von Natur aus die Fette enthält, die THC transportieren. Genieße dein Edible, ohne die Ketose zu unterbrechen.",
         "dosing_tips": [
-          "Keto-Diäten erhöhen die Fettaufnahme, was Edibles etwas stärker wirken lassen kann. Beginne mit etwa 5 mg und warte 2 Stunden.",
+          "Keto-Backwaren dosierst du wie jedes andere Edible: Beginne mit etwa 5 mg und warte 2 Stunden.",
           "Der hohe Fettgehalt von Keto-Backwaren verteilt THC sehr gleichmäßig, was die Dosierung über die Portionen hinweg konsistent macht.",
           "Verwende Rezepte mit Mandel- oder Kokosmehl, bei denen %{base_fat} einen großen Anteil des Fettgehalts ausmacht, für genaue Berechnungen.",
           "Wiege die Portionen mit einer Küchenwaage, da Keto-Backwaren dicht sein können und kleine Größenunterschiede größere Dosisunterschiede bedeuten."
@@ -1362,14 +1362,14 @@
           "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
-          "Verwende Cannabis-MCT-Öl für ein geschmacksneutrales Fett, das sich in jedes Keto-Rezept einfügt und die Aufnahme verbessern kann.",
+          "Verwende Cannabis-MCT-Öl für ein geschmacksneutrales Fett, das sich in jedes Keto-Rezept einfügt.",
           "Füge Kollagenpeptide zu Cannabis-Keto-Muffins hinzu für einen Protein-Boost ohne Auswirkung auf den Kohlenhydratgehalt.",
           "Ersetze Erythrit durch Mönchsfrucht-Süßungsmittel für einen reineren süßen Geschmack neben dem Cannabis-Aroma."
         ],
         "faq": [
           {
             "q": "Beeinflusst die Ketose, wie sich Edibles anfühlen?",
-            "a": "Manche Menschen berichten, dass Edibles in der Ketose etwas stärker wirken, weil der Körper Fette effizienter verarbeitet. Die höhere Fettaufnahme bedeutet auch eine bessere THC-Absorption. Beginne mit einer niedrigeren Dosis als gewöhnlich, bis du weißt, wie dein Körper in der Ketose reagiert."
+            "a": "Zu Edibles in der Ketose gibt es keine gute Forschung. Beginne mit einer niedrigeren Dosis als gewöhnlich, etwa 5 mg, und warte 2 Stunden, bis du weißt, wie dein Körper in der Ketose reagiert."
           },
           {
             "q": "Werfen Cannabis-Edibles mich aus der Ketose?",
@@ -1389,12 +1389,12 @@
         ]
       },
       "keto_sweet": {
-        "intro": "Dieses Cannabis-%{name}-Rezept kombiniert %{base_fat} mit ketozugelassenen Süßungsmitteln für eine genussvolle Nascherei ohne schlechtes Gewissen, die deinen Süßhunger stillt und gleichzeitig die Kohlenhydrate nahe null hält. Zuckerfreie Cannabis-Süßigkeiten sind ideal für gesundheitsbewusste Konsumenten, die präzise Dosierung ohne Zuckertief wollen. Die fettreiche Basis sorgt für eine ausgezeichnete THC-Aufnahme.",
+        "intro": "Dieses Cannabis-%{name}-Rezept kombiniert die Cannabis-Zutat mit ketozugelassenen Süßungsmitteln für eine Nascherei ohne schlechtes Gewissen, die deinen Süßhunger stillt und die Kohlenhydrate nahe null hält. Zuckerfreie Cannabis-Süßigkeiten passen zu allen, die wenig Kohlenhydrate essen und trotzdem präzise dosieren wollen.",
         "dosing_tips": [
           "Keto-Süßigkeiten werden oft in kleinen Portionen wie Fat Bombs oder Trüffeln hergestellt. Berechne die Dosis pro Stück sorgfältig, da sie kalorienreich sind.",
-          "Der hohe Fettgehalt von Keto-Süßigkeiten bedeutet eine effiziente THC-Aufnahme. Erwäge, mit etwa 5 mg zu beginnen.",
+          "Keto-Süßigkeiten sind klein und reichhaltig, da isst man schnell zwei. Erwäge, mit etwa 5 mg zu beginnen.",
           "Verwende Silikonformen, um identische Portionen mit gleichmäßigem Gewicht und gleicher Dosis herzustellen.",
-          "Zuckeralkohole in Keto-Süßungsmitteln beeinflussen die THC-Aufnahme nicht, daher ist die Dosierungsberechnung dieselbe wie bei normalen Süßigkeiten."
+          "Zuckeralkohole in Keto-Süßungsmitteln ändern nichts an der Dosierungsberechnung: Das THC einer Portion stammt nur aus der Cannabis-Zutat."
         ],
         "common_mistakes": [
           "Übermäßiges Süßen mit Zuckeralkoholen, um den Cannabis-Geschmack zu überdecken, kann Verdauungsbeschwerden verursachen. Verwende eine moderate Menge und setze stattdessen auf Kakao oder Vanille.",
@@ -1431,14 +1431,14 @@
           },
           {
             "q": "Sind Keto-Edibles wirksamer als normale?",
-            "a": "Sie können sich so anfühlen, weil der hohe Fettgehalt die THC-Aufnahme verbessert und die Ketose den Fettstoffwechsel verstärken kann. Viele Keto-Edible-Konsumenten berichten, dass sie eine niedrigere Dosis benötigen. Beginne niedrig und passe basierend auf deiner persönlichen Erfahrung an."
+            "a": "Nicht von sich aus. Die Stärke einer Portion kommt vom THC in der Cannabis-Zutat, dieselbe Rechnung wie bei jedem anderen Edible. Beginne niedrig und warte 2 Stunden, bevor du mehr nimmst."
           }
         ]
       },
       "keto_savory": {
         "intro": "Dieses Cannabis-%{name}-Rezept verwendet %{base_fat} in einem herzhaften, kohlenhydratarmen Gericht, das zuverlässige Dosierung liefert und gleichzeitig deine ketogenen Makros einhält. Herzhafte Keto-Mahlzeiten sind von Natur aus fettreich, was sie zu idealen Trägern für Cannabis-Infusionen macht. Von Käse-Chips bis zu Blumenkohl-Gerichten – herzhafte Keto-Edibles sind endlos vielseitig.",
         "dosing_tips": [
-          "Fettreiche Keto-Mahlzeiten absorbieren THC effizient. Beginne mit etwa 5 mg, bis du weißt, wie herzhafte Keto-Edibles auf dich wirken.",
+          "Herzhafte Keto-Mahlzeiten machen satt, was die Wirkung verzögern kann. Beginne mit etwa 5 mg und warte 2 Stunden, bis du weißt, wie herzhafte Keto-Edibles auf dich wirken.",
           "Miss %{base_fat} für jede Portion genau ab, anstatt es der gesamten Charge hinzuzufügen, besonders bei angerichteten Mahlzeiten.",
           "Zusammengesetzte Cannabisbutter mit Kräutern macht die Dosierung herzhafter Keto-Gerichte elegant und präzise. Ein Stück Butter entspricht einer Dosis.",
           "Tracke deine gesamte Fettaufnahme einschließlich des Cannabisfetts im Rahmen deiner täglichen Keto-Makros, um in der Ketose zu bleiben."
@@ -1461,15 +1461,15 @@
         ],
         "faq": [
           {
-            "q": "Beeinflusst das Fett in Keto-Mahlzeiten die THC-Aufnahme?",
-            "a": "Ja, positiv. Fettreichere Mahlzeiten erhöhen die THC-Bioverfügbarkeit erheblich. Studien zeigen, dass der Konsum von THC zusammen mit einer fettreichen Mahlzeit die Aufnahme um das bis zu Dreifache steigern kann. Das ist einer der Gründe, warum Keto-Edibles stärker wirken können als fettarme Alternativen."
+            "q": "Macht das Fett in Keto-Mahlzeiten Edibles stärker?",
+            "a": "Das THC einer Portion bestimmt die Cannabis-Zutat, nicht der Rest der Mahlzeit. Eine fettreiche Mahlzeit kann verändern, wie schnell die Wirkung einsetzt, und das ist von Mensch zu Mensch verschieden. Beginne also mit etwa 5 mg und warte 2 Stunden, bevor du mehr isst."
           }
         ]
       },
       "keto_drink": {
-        "intro": "Dieses Cannabis-%{name}-Rezept mixt %{base_fat} in ein cremiges, ketofreundliches Getränk, das dich in der Ketose hält und gleichzeitig ein sanftes, kontrolliertes Cannabis-Erlebnis liefert. Keto-Cannabis-Getränke nutzen die fettreichen Zutaten, die in ketogenen Diäten ohnehin üblich sind, wie MCT-Öl, Sahne und Kokosmilch. Sie gehören zu den einfachsten und am schnellsten wirkenden Edibles, die du herstellen kannst.",
+        "intro": "Dieses Cannabis-%{name}-Rezept mixt %{base_fat} in ein cremiges, ketofreundliches Getränk, das dich in der Ketose hält und gleichzeitig ein sanftes, kontrolliertes Cannabis-Erlebnis liefert. Keto-Cannabis-Getränke nutzen die fettreichen Zutaten, die in ketogenen Diäten ohnehin üblich sind, wie MCT-Öl, Sahne und Kokosmilch. Sie gehören zu den einfachsten Edibles, die du herstellen kannst.",
         "dosing_tips": [
-          "Keto-Getränke mit MCT-Öl können schneller wirken als typische Edibles, weil MCTs schneller verstoffwechselt werden. Beginne niedrig mit 5 mg.",
+          "Ein Keto-Getränk ist schnell getrunken, kann aber trotzdem bis zu 2 Stunden brauchen, bis es wirkt. Beginne niedrig mit 5 mg.",
           "Mixe gründlich mit einem Milchaufschäumer oder Mixer, um eine cremige Emulsion statt eines öligen Films obenauf zu erzeugen.",
           "Ein Getränk entspricht einer Dosis. Nippe nicht den ganzen Tag daran, ohne deine kumulative Aufnahme zu verfolgen.",
           "Gib Cannabisfett zu heißen Getränken, um die Emulgierung zu unterstützen. Kalte Keto-Getränke brauchen einen Mixer, um sich richtig zu verbinden."
@@ -1501,7 +1501,7 @@
           },
           {
             "q": "Wie schnell wirken Cannabis-Keto-Getränke?",
-            "a": "Cannabis-Keto-Getränke können bereits nach 20-45 Minuten wirken, schneller als die meisten festen Edibles. MCT-Öl im Besonderen wird schnell aufgenommen und von der Leber rasch verarbeitet. Das flüssige Format und das effiziente Fett tragen ebenfalls zu einem schnelleren Wirkungseintritt bei als bei einem festen Edible."
+            "a": "Wie jedes Edible kann ein Keto-Getränk bis zu 2 Stunden brauchen, bis es wirkt, und das ist von Mensch zu Mensch verschieden. Beginne mit etwa 5 mg und warte 2 Stunden, bevor du mehr trinkst."
           }
         ]
       }
@@ -1512,7 +1512,7 @@
         "dosing_tips": [
           "Cannabis-Kokosöl ist der beste Freund des veganen Bäckers. Sein hoher Gehalt an gesättigten Fettsäuren extrahiert THC genauso effektiv wie Milchbutter.",
           "Wiege %{base_fat} nach Gewicht statt nach Volumen ab, da sich die Dichte von Kokosöl je nach Temperatur verändert.",
-          "Neu bei Edibles? Beginne mit etwa 5 mg. Vegane Backwaren werden möglicherweise etwas schneller verdaut, da keine Milchproteine enthalten sind.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg. Wie jedes Edible können vegane Backwaren bis zu 2 Stunden brauchen, bis sie wirken.",
           "Verwende ein Leinsamen-Ei oder Chia-Ei als Bindemittel ohne Milchprodukte – dies beeinflusst die THC-Verteilung nicht."
         ],
         "common_mistakes": [
@@ -1601,7 +1601,7 @@
         "dosing_tips": [
           "Träufle eine abgemessene Menge Cannabis-Öl über fertige Gerichte, anstatt damit zu kochen, für die genaueste Dosierung.",
           "Vegane herzhafte Gerichte verwenden oft Kokosöl oder Olivenöl als Hauptfett, die sich beide gut mit Cannabis infundieren lassen.",
-          "Wenn du neu dabei bist, beginne mit etwa 5 mg. Pflanzliche Mahlzeiten werden aufgrund des höheren Ballaststoffgehalts möglicherweise etwas schneller verdaut.",
+          "Wenn du neu dabei bist, beginne mit etwa 5 mg. Wie jedes Edible kann eine pflanzliche Mahlzeit bis zu 2 Stunden brauchen, bis sie wirkt.",
           "Hefeflocken, Miso und Tamari verleihen Umami-Tiefe, die gut zum Cannabis passt und dessen Kräutergeschmack überdeckt."
         ],
         "common_mistakes": [
@@ -1626,8 +1626,8 @@
             "a": "Mit Cannabis infundiertes Olivenöl ist am vielseitigsten für herzhafte Anwendungen. Es hat einen komplementären Geschmack und eignet sich als Dressing, Finish-Öl und in Soßen. Cannabis-Kokosöl ist besser für asiatische und tropische Gerichte, bei denen Kokosgeschmack willkommen ist."
           },
           {
-            "q": "Beeinflusst pflanzliche Ballaststoffe die THC-Aufnahme?",
-            "a": "Ballaststoffreiche Mahlzeiten können die Verdauung leicht verlangsamen, was den Wirkungseintritt verzögern, aber die Dauer verlängern kann. Der Effekt ist gering. Der Fettgehalt der Mahlzeit ist wichtiger als die Ballaststoffe für die THC-Aufnahme. Stelle sicher, dass dein veganes Gericht genügend Fett enthält, damit die Cannabinoide richtig aufgenommen werden."
+            "q": "Verändert eine ballaststoffreiche Mahlzeit die Wirkung von Edibles?",
+            "a": "Eine große, sättigende Mahlzeit kann den Wirkungseintritt verzögern, sodass die Wirkung später einsetzt, als du erwartest. Verteile das Cannabis-Öl gleichmäßig im Gericht, iss eine Portion und warte 2 Stunden, bevor du mehr isst."
           },
           {
             "q": "Kann ich mit Cannabis infundierten veganen Käse herstellen?",
@@ -1673,8 +1673,8 @@
             "a": "Absolut. THC bindet an Fett unabhängig von tierischem oder pflanzlichem Ursprung. Solange dein veganes Gericht ausreichend Fettgehalt hat, ist die Potenz identisch. Der Schlüssel ist die Verwendung von hochwertigem Cannabis-infundiertem Öl und dessen richtige Integration."
           },
           {
-            "q": "Beeinflusst hoher Ballaststoffgehalt in veganen Mahlzeiten die THC-Aufnahme?",
-            "a": "Hoher Ballaststoffgehalt kann die Verdauung leicht verlangsamen und den Wirkungseintritt im Vergleich zu ballaststoffarmen Mahlzeiten um 15-30 Minuten verzögern. Die gesamte aufgenommene THC-Menge bleibt jedoch gleich. Einige Konsumenten bevorzugen den sanfteren, allmählicheren Wirkungseintritt, den ballaststoffreiche Mahlzeiten erzeugen."
+            "q": "Verändert eine ballaststoffreiche vegane Mahlzeit die Wirkung von Edibles?",
+            "a": "Eine sättigende Mahlzeit kann den Wirkungseintritt verzögern, sodass die Wirkung später einsetzt, als du erwartest. Genau dann essen viele nach und nehmen zu viel: Iss eine Portion und warte 2 Stunden, bevor du mehr isst."
           }
         ]
       },
@@ -1717,7 +1717,7 @@
           },
           {
             "q": "Wie mache ich eine warme Cannabis-vegane Bowl?",
-            "a": "Koche alle Komponenten mit normalem Öl bei richtigen Temperaturen, stelle die warme Bowl zusammen und träufle dann das Cannabis-Öl kurz vor dem Essen darüber. Die Restwärme des Essens hilft dem Öl, sich einzuziehen, ohne Temperaturen zu erreichen, die THC abbauen."
+            "a": "Koche alle Komponenten mit normalem Öl bei richtigen Temperaturen, stelle die warme Bowl zusammen und träufle dann das Cannabis-Öl kurz vor dem Essen darüber. So kommt das Cannabis-Öl nur mit der Wärme des Essens in Berührung, nie mit der Hitze der Pfanne."
           }
         ]
       }
@@ -1919,7 +1919,7 @@
         "intro": "Dieses Cannabis-%{name}-Rezept infundiert die lebhaften, kräftigen Aromen der mexikanischen Küche mit %{base_fat} für ein Edible, das Chilis, Gewürze und traditionelle Kochtechniken feiert. Mexikanisches Essen ist ideal für Cannabis-Infusionen, da seine intensiven Aromen, von rauchigen Chipotles bis zu säuerlicher Limette, jeden krautigen Cannabis-Geschmack vollständig überdecken. Salsas, Moles und Cremas sind natürliche Transportmittel für präzise Dosierung.",
         "dosing_tips": [
           "Rühre Cannabis-Öl beim Servieren in Salsas, Cremas und Guacamole für die präziseste Dosierung pro Esslöffel.",
-          "Mexikanische Gerichte mit Käse, Saurer Sahne und Avocado haben einen hohen Fettgehalt, der die THC-Absorption natürlich verbessert.",
+          "Mexikanische Gerichte mit Käse, Saurer Sahne und Avocado sind reichhaltig und sättigend, was die Wirkung verzögern kann. Warte 2 Stunden, bevor du mehr isst.",
           "Neu bei Edibles? Beginne mit etwa 5 mg. Scharfes Essen kann den Wirkungseintritt von Cannabis überdecken, also warte die vollen 2 Stunden, bevor du mehr isst.",
           "Cannabis-infundiertes Schmalz oder Manteca ist traditionell in der mexikanischen Küche und integriert sich nahtlos in Masa, Bohnen und Saucen."
         ],
@@ -1949,7 +1949,7 @@
           },
           {
             "q": "Beeinflusst scharfes Essen, wie sich Cannabis-Edibles anfühlen?",
-            "a": "Capsaicin aus Chilis kann die Durchblutung und den Stoffwechsel erhöhen, was einige Konsumenten als Intensivierung oder Beschleunigung des Cannabis-Wirkungseintritts wahrnehmen. Der Unterschied ist normalerweise subtil, aber beginne mit einer niedrigeren Dosis, wenn du zum ersten Mal sehr scharfes Essen mit Cannabis kombinierst."
+            "a": "Es gibt keine guten Belege dafür, dass Chilis die Wirkung von THC verändern. Sehr scharfes Essen kann aber den Cannabis-Geschmack überdecken, also portioniere das Gericht vor dem Servieren und beginne mit einer niedrigeren Dosis, wenn du zum ersten Mal sehr scharfes Essen mit Cannabis kombinierst."
           }
         ]
       }
@@ -1960,7 +1960,7 @@
         "dosing_tips": [
           "Löse die Cannabis-Zutat vollständig auf, bevor das Getränk kalt wird (infundierter Honig kommt zuerst in etwas warmes Wasser), und rühre vor jedem Einschenken um.",
           "Schenke gleich volle Gläser ein, damit die Gäste wissen, dass ein Getränk einer Portion entspricht, und sag Anfängern, dass etwa 5 mg für den Anfang reichen.",
-          "Zitronensäure kann die Magenentleerung beschleunigen, was möglicherweise zu einem etwas schnelleren Wirkungseintritt führt. Fange niedrig an und warte 2 Stunden, bevor du mehr trinkst.",
+          "Ein Zitrusgetränk ist schnell getrunken, kann aber trotzdem bis zu 2 Stunden brauchen, bis es wirkt. Fange niedrig an und warte 2 Stunden, bevor du mehr trinkst.",
           "Kräftig rühren oder schütteln, um das Cannabis-Element vollständig zu integrieren. Trennung ist bei klaren Zitrusgetränken deutlicher sichtbar."
         ],
         "common_mistakes": [
@@ -1982,7 +1982,7 @@
         "faq": [
           {
             "q": "Beeinflusst Zitronensäure die THC-Potenz?",
-            "a": "Zitronensäure baut THC bei den in Getränken vorkommenden Konzentrationen nicht ab. Allerdings kann Säure die Magenentleerung beschleunigen, was die Aufnahme leicht beschleunigen kann. Deine Dosis bleibt gleich; der Wirkungseintritt kann nur etwas schneller sein."
+            "a": "Zitronensäure baut THC bei den in Getränken vorkommenden Konzentrationen nicht ab, deine Dosis bleibt also gleich. Rühre oder schüttle vor dem Einschenken, damit jedes Glas seinen Anteil bekommt."
           },
           {
             "q": "Welches Cannabis-Produkt eignet sich am besten für Zitrus-Mocktails?",
@@ -2033,7 +2033,7 @@
           },
           {
             "q": "Verstärkt Mango wirklich den Cannabis-Rausch?",
-            "a": "Mangos enthalten das Terpen Myrcen, von dem einige behaupten, dass es die THC-Wirkung verstärkt, indem es ihm hilft, die Blut-Hirn-Schranke effizienter zu überwinden. Die wissenschaftliche Beweislage ist begrenzt, aber viele Konsumenten berichten von einem spürbaren Effekt. Zumindest ist Mango köstlich und überdeckt den Cannabis-Geschmack gut."
+            "a": "Das ist eine verbreitete Behauptung: Mangos enthalten das Terpen Myrcen, das angeblich THC verstärkt. Gute Belege dafür gibt es nicht, also dosiere ein Mango-Getränk wie jedes andere. Mango passt trotzdem hervorragend: Sie ist köstlich und überdeckt den Cannabis-Geschmack gut."
           },
           {
             "q": "Kann ich Tiefkühlobst für Cannabis-Getränke verwenden?",
@@ -2045,12 +2045,12 @@
           },
           {
             "q": "Sind Cannabis-Smoothies eine gute Art, Edibles zu konsumieren?",
-            "a": "Smoothies sind eines der besten Edible-Formate. Das Mixen erzeugt eine gründliche Emulsion, Früchte überdecken den Geschmack, und das Flüssigformat bedeutet relativ schnellen Wirkungseintritt. Füge gesunde Fette wie Avocado oder Nussbutter neben Cannabis-Öl hinzu für ein nahrhaftes, gut dosiertes Getränk."
+            "a": "Smoothies sind eines der besten Edible-Formate. Das Mixen erzeugt eine gründliche Emulsion, und Früchte überdecken den Geschmack. Mixe das Cannabis-Öl vollständig unter, damit jedes Glas eine gleichmäßige Dosis bekommt, und rechne mit bis zu 2 Stunden, bis es wirkt."
           }
         ]
       },
       "herbal_tea": {
-        "intro": "Dieses Cannabis-%{name}-Rezept lässt beruhigende Kräuter zusammen mit %{base_fat} ziehen und ergibt einen warmen, entspannenden infundierten Tee, der Entspannung und Wohlbefinden fördert. Kräuter-Cannabis-Tees sind eine der ältesten und traditionellsten Formen des Cannabis-Konsums, die seit Jahrhunderten in vielen Kulturen verwendet werden. Das sanfte Ritual der Teezubereitung trägt zum achtsamen, therapeutischen Erlebnis bei.",
+        "intro": "Dieses Cannabis-%{name}-Rezept lässt Kräuter zusammen mit der Cannabis-Zutat ziehen und ergibt einen warmen infundierten Tee. Kräuter-Cannabis-Tees sind eine der ältesten und traditionellsten Formen des Cannabis-Konsums, die seit Jahrhunderten in vielen Kulturen verwendet werden. Das ruhige Ritual, Tee zuzubereiten und langsam zu trinken, passt zu einem Edible, bei dem man sich Zeit lassen sollte.",
         "dosing_tips": [
           "Cannabis ist nicht wasserlöslich, daher musst du eine Fettquelle wie %{base_fat}, Kokosöl oder Vollmilch hinzufügen, um das THC zu extrahieren und in den Tee zu übertragen.",
           "Bei 160-180 °F (70-82 °C) für 15-30 Minuten ziehen lassen, um Cannabinoide zu extrahieren, ohne die Milch zu verbrühen oder empfindliche Kräuter zu beschädigen.",
@@ -2070,7 +2070,7 @@
         ],
         "variations": [
           "Bereite einen Cannabis-Chai zu, indem du Gewürze, Schwarztee, Cannabis-Butter und Milch für eine reichhaltige, aromatische Infusion zusammen köchelst.",
-          "Mixe Cannabis-Kokosöl in Kamillentee mit Honig für ein tief entspannendes Gute-Nacht-Getränk.",
+          "Mixe Cannabis-Kokosöl in Kamillentee mit Honig für eine klassische Abendtasse.",
           "Kreiere eine Cannabis-Goldene-Milch mit Kurkuma, Ingwer, schwarzem Pfeffer und Cannabis-Kokosöl in warmer Pflanzenmilch."
         ],
         "faq": [
@@ -2088,18 +2088,18 @@
           },
           {
             "q": "Wie lange dauert es, bis Cannabis-Tee wirkt?",
-            "a": "Rechne mit 30-90 Minuten für die volle Wirkung, ähnlich wie bei anderen Edibles. Warme Flüssigkeiten werden möglicherweise etwas schneller aufgenommen als feste Nahrung. Langsames Trinken über 20-30 Minuten verteilt die Aufnahme, was einen sanfteren, allmählicheren Wirkungseintritt erzeugen kann."
+            "a": "Wie jedes Edible kann Cannabis-Tee bis zu 2 Stunden brauchen, bis er wirkt. Warte 2 Stunden, bevor du eine weitere Tasse trinkst."
           },
           {
             "q": "Kann ich Cannabis-Tee zum Einschlafen verwenden?",
-            "a": "Cannabis-Tee, besonders mit entspannenden Kräutern wie Kamille, Baldrian oder Lavendel, ist ein hervorragendes Gute-Nacht-Ritual. THC in Kombination mit diesen beruhigenden Kräutern kann Schläfrigkeit und Entspannung fördern. Verwende nach Möglichkeit eine Indica-Sorte und halte die Dosis moderat, um Benommenheit am nächsten Morgen zu vermeiden."
+            "a": "Wir empfehlen Cannabis-Tee nicht als Schlafmittel: Schlafprobleme gehören in ärztliche Hände. Wenn du ihn abends trinkst, halte die Dosis niedrig, denn die Wirkung eines Edibles kann viele Stunden anhalten."
           }
         ]
       },
       "hot_drinks": {
         "intro": "Dieses Cannabis-%{name}-Rezept mischt %{base_fat} in ein warmes, wohltuendes Getränk, das perfekt zum Entspannen und Abschalten ist. Heiße Cannabis-Getränke bieten eine behagliche Art, Edibles zu konsumieren, besonders in den kälteren Monaten. Die Wärme hilft dem infundierten Fett, sich aufzulösen und gleichmäßig zu verteilen, für eine konsistente Dosierung in jedem Schluck.",
         "dosing_tips": [
-          "Neu bei Edibles? Beginne mit etwa 5 mg und denke daran, dass flüssige Edibles schneller wirken können als feste Nahrung, manchmal innerhalb von 20-45 Minuten.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg und denke daran, dass auch ein heißes Getränk wie jedes Edible bis zu 2 Stunden brauchen kann, bis es wirkt.",
           "Verwende einen Milchaufschäumer oder Mixer, um %{base_fat} vollständig in dein heißes Getränk zu emulgieren, damit es nicht als ölige Schicht oben schwimmt.",
           "Wenn du eine Kanne teilst, rühre vor jedem Eingießen gründlich um, da das Fett an die Oberfläche steigt, wenn das Getränk steht.",
           "Langsames Trinken über 30 Minuten gibt dir bessere Kontrolle über dein Erlebnis, als die gesamte Tasse schnell auszutrinken."
@@ -2135,7 +2135,7 @@
           },
           {
             "q": "Wie schnell wirken heiße Cannabis-Getränke?",
-            "a": "Heiße Cannabis-Getränke können in nur 20-45 Minuten wirken, schneller als die meisten festen Edibles. Die warme Flüssigkeit und das gelöste Fett werden im Verdauungssystem schneller aufgenommen. Beginne mit einer niedrigen Dosis, bis du weißt, wie sie auf dich wirken."
+            "a": "Wie jedes Edible kann ein heißes Getränk bis zu 2 Stunden brauchen, bis es wirkt, auch wenn es schnell getrunken ist. Beginne mit einer niedrigen Dosis und warte 2 Stunden, bevor du mehr trinkst."
           },
           {
             "q": "Kann ich eine große Menge zubereiten und Portionen später aufwärmen?",
@@ -2213,7 +2213,7 @@
         "faq": [
           {
             "q": "Ist es sicher, Cannabis und Alkohol zu kombinieren?",
-            "a": "Es kann bei niedrigen Dosen sicher gemacht werden, erfordert aber Vorsicht. Alkohol erhöht die THC-Aufnahme und lässt das Cannabis stärker und schneller wirken. Halte beide Dosen sehr niedrig, beginne mit 2.5-5 mg THC und einem Standardgetränk-Äquivalent, und warte ab, wie die Kombination auf dich wirkt."
+            "a": "Die Kombination erhöht das Risiko: Alkohol und Cannabis zusammen beeinträchtigen dich stärker als jedes für sich. Wenn du sie kombinierst, halte beide Dosen sehr niedrig, beginne mit 2.5-5 mg THC und einem Standardgetränk-Äquivalent, und warte ab, wie die Kombination auf dich wirkt."
           },
           {
             "q": "Kann ich Spirituosen direkt mit Cannabis infundieren?",
@@ -2221,7 +2221,7 @@
           },
           {
             "q": "Warum fühle ich mich durch die Kombination so viel berauschter?",
-            "a": "Alkohol erhöht die Durchlässigkeit der Blut-Hirn-Schranke und verbessert die THC-Aufnahme im Darm. Das bedeutet, du nimmst mehr THC schneller auf und es erreicht dein Gehirn effizienter. Deshalb werden viel niedrigere Dosen beider Substanzen bei Kombination empfohlen."
+            "a": "Alkohol und THC beeinträchtigen dich jeweils für sich, und zusammen ist die Beeinträchtigung größer als bei einem allein. Deshalb werden viel niedrigere Dosen beider Substanzen bei Kombination empfohlen."
           },
           {
             "q": "Welche Cocktails funktionieren am besten mit Cannabis?",
