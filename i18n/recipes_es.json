@@ -36,7 +36,8 @@
       "Sella el frasco de conserva muy bien.",
       "Coloca el frasco en una olla con agua y mantén el agua a fuego lento, bajo-medio (unos 200&deg; F - 95&deg; C), durante 2-3 horas, añadiendo agua a medida que se evapore.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador metalico.",
-      "Junta la manta de cielo y exprime todo el liquido restante."
+      "Junta la manta de cielo y exprime todo el liquido restante.",
+      "Deja enfriar, viértelo en un frasco limpio y etiquétalo con la fecha y los mg por cucharadita."
     ],
     "intro_unique": "El Aceite de Coco Infusionado con cannabis tiene el mayor contenido de grasa saturada de todos los aceites de cocina, lo que lo hace excepcionalmente eficiente para captar el THC.",
     "dosing_unique": "Una porción es 1 cucharadita, unos 15 mg con 14% de THC; 1 cucharada son 3 porciones. Viértelo en cubiteras en porciones de 1 cucharadita y etiquétalas con los mg por cucharadita.",
@@ -59,7 +60,8 @@
       "Sella el frasco de conserva muy bien.",
       "Coloca el frasco en una olla con agua y mantén el agua a fuego lento, bajo-medio (unos 200&deg; F - 95&deg; C), durante 2-3 horas, añadiendo agua a medida que se evapore.",
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador metalico.",
-      "Junta la manta de cielo y exprime todo el liquido restante."
+      "Junta la manta de cielo y exprime todo el liquido restante.",
+      "Viértelo en una botella oscura limpia y etiquétala con la fecha y los mg por cucharadita."
     ],
     "intro_unique": "El Aceite de Oliva Infusionado con cannabis es una base cardiosaludable y versátil para comestibles salados, aderezos y cualquier receta que pida aceite de cocina.",
     "dosing_unique": "Una porción es 1 cucharadita, unos 15 mg con 14% de THC; 1 cucharada son 3 porciones. Etiqueta la botella con los mg por cucharadita.",
@@ -104,19 +106,18 @@
     ],
     "instructions": [
       "Precalienta el horno a 350°F (175°C) y cubre una bandeja para hornear con papel pergamino.",
-      "En un tazon, combina la mantequilla de mani natural, el eritritol en polvo, el huevo, el extracto de vainilla, el aceite de coco infusionado con cannabis y la sal.",
+      "En un tazón, mezcla la mantequilla de maní natural, el aceite de coco infusionado con cannabis derretido, el eritritol en polvo, el extracto de vainilla y la sal; luego incorpora el huevo batiendo.",
       "Mezcla hasta que este bien combinado y se forme una masa.",
       "Divide la masa en 15 partes iguales (una cucharada colmada cada una) y forma bolitas. Cada galleta es una porción.",
       "Coloca las bolitas de masa en la bandeja preparada y aplanalas con un tenedor, haciendo un patron entrecruzado.",
-      "Hornea en el horno precalentado por 10-12 minutos o hasta que las galletas esten doradas en los bordes.",
-      "Retira del horno y deja que las galletas se enfrien en la bandeja por unos minutos antes de transferirlas a una rejilla para que se enfrien completamente.",
-      "Disfruta tus deliciosas galletas keto de mantequilla de mani infusionadas con cannabis!"
+      "Hornea en el horno precalentado por 8-10 minutos, hasta que estén firmes pero sin dorarse en los bordes.",
+      "Retira del horno y deja que las galletas se enfrien en la bandeja por unos minutos antes de transferirlas a una rejilla para que se enfrien completamente."
     ],
-    "intro_unique": "Estas Galletas Keto de Mantequilla de Maní Infusionadas de tres ingredientes usan mantequilla de maní, huevo y endulzante con aceite de coco infusionado para un comestible sin granos.",
-    "dosing_unique": "Porciona la masa con una cucharada medidora y aplánala con un tenedor para galletas uniformes con una dosis constante.",
+    "intro_unique": "Estas Galletas Keto de Mantequilla de Maní Infusionadas sin harina usan mantequilla de maní, huevo y endulzante con aceite de coco infusionado para un comestible sin granos.",
+    "dosing_unique": "Forma 15 bolitas iguales y aplánalas con un tenedor; una galleta es una porción.",
     "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente durante 3 días o refrigéralas hasta una semana.",
     "variation_unique": "Usa mantequilla de almendra en lugar de mantequilla de maní y presiona una chispa de chocolate sin azúcar en cada galleta antes de hornear.",
-    "unique_src": "31f6db31e81c49bf7d19a14bf85b483ac4aeb64a"
+    "unique_src": "6028f3bd76f5c79ac467335703d6560196ecb8e2"
   },
   "infused-coconut-fat-bombs": {
     "name": "Bombas de Grasa de Coco Infusionadas",
@@ -132,7 +133,7 @@
       "1/2 tsp de sal"
     ],
     "instructions": [
-      "En un tazon, combina el aceite de coco derretido, la mantequilla de coco, el aceite de coco infusionado con cannabis, el cacao en polvo sin azucar, el eritritol en polvo, el extracto de vainilla y la sal.",
+      "En una olla pequeña a fuego bajo, derrite juntos el aceite de coco, la mantequilla de coco y el aceite de coco infusionado con cannabis; retira del fuego e incorpora batiendo el cacao en polvo sin azúcar, el eritritol en polvo, el extracto de vainilla y la sal.",
       "Revuelve hasta que este bien combinado y suave.",
       "Vierte la mezcla por igual en 12 cavidades de un molde de silicona o una cubetera de hielo, unas 2 cucharadas en cada una.",
       "Coloca en el refrigerador o congelador para que solidifique por al menos 1 hora.",
@@ -168,8 +169,7 @@
       "Cocina la pasta siguiendo las instrucciones del paquete hasta que este al dente.",
       "Escurre la pasta cocida, reservando una pequena cantidad del agua de coccion.",
       "En un tazon grande, mezcla la pasta cocida con el pesto infusionado con cannabis. Si es necesario, agrega un poco del agua de coccion reservada para aflojar la salsa.",
-      "Reparte la pasta en 4 platos y espolvorea cada uno con un poco de queso parmesano rallado.",
-      "Disfruta este sabroso platillo de pasta infusionado con cannabis!"
+      "Reparte la pasta en 4 platos y espolvorea cada uno con un poco de queso parmesano rallado."
     ],
     "intro_unique": "La Pasta al Pesto Infusionada cubre la pasta al dente con una vibrante salsa de albahaca y aceite de oliva infusionado que sabe sorprendentemente parecida a la clásica.",
     "dosing_unique": "Mezcla el aceite de oliva infusionado con el pesto al final y combínalo con porciones de pasta pesadas para una dosis constante por plato.",
@@ -191,17 +191,17 @@
       "Opcional: un punado de kale para nutrientes adicionales"
     ],
     "instructions": [
-      "Coloca todos los ingredientes en una licuadora.",
-      "Licua a alta velocidad hasta que quede suave y cremoso.",
+      "Coloca las moras, el plátano, la leche, el yogur, la miel (y el kale) en una licuadora. Derrite el aceite de coco infusionado.",
+      "Licúa a alta velocidad y, con la licuadora en marcha, vierte poco a poco el aceite de coco infusionado derretido, hasta que quede suave y cremoso.",
       "Prueba y ajusta el dulzor agregando mas miel o jarabe de maple si lo deseas.",
       "Si el smoothie queda muy espeso, agrega un poco mas de leche y licua de nuevo hasta alcanzar la consistencia deseada.",
       "Sirve el smoothie de moras infusionado con cannabis en 2 vasos y disfruta de inmediato."
     ],
     "intro_unique": "Un vibrante Smoothie de Frutos Rojos Infusionado licuado con aceite de coco infusionado con cannabis ofrece un comestible frutal y bebible que hace efecto de forma suave.",
     "dosing_unique": "Derrite tu aceite de coco infusionado ya medido y viértelo en hilo en la licuadora mientras funciona, para que se mezcle de forma uniforme en lugar de solidificarse en grumitos sobre la fruta congelada.",
-    "storage_unique": "Bébelo de inmediato para la mejor textura; si hace falta, guárdalo en un frasco cerrado en el refrigerador hasta 4 horas.",
+    "storage_unique": "Bébelo de inmediato para la mejor textura; si hace falta, guárdalo en un frasco cerrado en el refrigerador hasta 4 horas y agítalo bien antes de beber.",
     "variation_unique": "Añade una medida de proteína en polvo y un puñado de espinaca para un smoothie de recuperación post-entrenamiento con beneficios extra.",
-    "unique_src": "4afd1ad7907eaae3d3b9a03591c92607ce0d5346"
+    "unique_src": "99a1b40b2e83defc0ddab00c56de31d0e48b66ec"
   },
   "infused-energy-bites": {
     "name": "Bocaditos de Energía Infusionados",
@@ -247,12 +247,13 @@
     "instructions": [
       "Coloca tu hierba sobre el papel aluminio.",
       "Precalienta tu horno a 240&deg; F (115&deg; C).",
-      "Descarboxila tu hierba durante 30-40 minutos a 240&deg; F (115&deg; C).",
+      "Descarboxila tu hierba durante 40 minutos a 240&deg; F (115&deg; C).",
       "Saca la hierba del horno y mézclala toda con la crema de avellanas hasta que no queden puntitos.",
       "Reparte la crema por igual entre 6 de los cuadrados de galleta, para que cada firecracker tenga la misma dosis.",
       "Cubre cada uno con uno de los cuadrados restantes para formar 6 sándwiches.",
       "Envuelve y sella el firecracker en papel aluminio.",
-      "Tuesta en el horno por 15 minutos a 300&deg; F."
+      "Sube el horno a 300&deg; F (150&deg; C).",
+      "Tuesta en el horno por 15 minutos a 300&deg; F. Deja enfriar antes de desenvolver."
     ],
     "intro_unique": "Los Fire Crackers son uno de los comestibles de cannabis más sencillos de preparar: solo necesitas galletas graham, crema de avellanas y flor molida descarboxilada.",
     "dosing_unique": "Mezcla toda la hierba descarboxilada con la crema antes de repartirla por igual entre los 6 firecrackers; un firecracker es una porción.",
@@ -276,10 +277,9 @@
       "Remueve bien el frasco de miel infusionada antes de medir. Disuelve la miel infusionada y el azúcar en 1 taza de agua tibia y viértelo en una jarra con el jugo de limón y las otras 3 tazas de agua fría.",
       "Revuelve bien hasta que el azucar se disuelva.",
       "Prueba la limonada y ajusta el dulzor agregando más azúcar si lo deseas (no más miel infusionada, que cambiaría la dosis).",
-      "Agrega cubos de hielo a la jarra para enfriar la limonada.",
+      "Pon el hielo en los vasos, no en la jarra.",
       "Revuelve de nuevo antes de servir.",
-      "Sirve la limonada infusionada con cannabis en 6 vasos y decora con rodajas de limon.",
-      "Disfruta sorbiendo los efectos refrescantes y estimulantes de la limonada infusionada con cannabis!"
+      "Sirve la limonada infusionada con cannabis en 6 vasos y decora con rodajas de limon."
     ],
     "intro_unique": "La refrescante Limonada Infusionada es una bebida veraniega sencilla y que gusta a todos, que esconde el sabor herbal detrás de un cítrico brillante.",
     "dosing_unique": "Disuelve la miel infusionada en un chorrito de agua tibia antes de añadirla a la jarra, y luego revuelve bien para que cada vaso servido contenga una dosis constante.",
@@ -358,7 +358,7 @@
       "Coberturas opcionales: nueces picadas, cacao en polvo, coco rallado"
     ],
     "instructions": [
-      "En un tazon apto para microondas, derrite el aceite de coco infusionado con cannabis.",
+      "En un tazón apto para microondas, derrite juntos el aceite de coco infusionado con cannabis y el aceite de coco normal.",
       "Agrega el cacao en polvo sin azucar, el jarabe de maple, el extracto de vainilla y la sal al aceite de coco derretido. Revuelve bien hasta que quede suave y combinado.",
       "Coloca la mezcla en el refrigerador por aproximadamente 1 hora o hasta que este lo suficientemente firme para manipular.",
       "Divide la mezcla en 20 porciones iguales y forma con cada una una trufa del tamaño de un bocado; una trufa es una porción.",
@@ -383,13 +383,13 @@
       "2 huevos grandes",
       "3 platanos maduros, machacados",
       "1 teaspoon de extracto de vainilla",
-      "1 1/2 cups de harina para todo uso",
+      "2 tazas de harina para todo uso",
       "1 teaspoon de bicarbonato de sodio",
       "1/2 teaspoon de sal"
     ],
     "instructions": [
       "Precalienta tu horno a 350°F (175°C). Engrasa un molde para pan de 9x5 pulgadas.",
-      "En un tazon grande, combina la mantequilla de cannabis derretida y el azucar granulada.",
+      "Derrite juntas la mantequilla de cannabis y la mantequilla sin sal; deja que se entibien y bátelas con el azúcar en un tazón grande.",
       "Agrega los huevos, los platanos machacados y el extracto de vainilla. Revuelve bien para combinar.",
       "En un tazon aparte, mezcla la harina para todo uso, el bicarbonato de sodio y la sal.",
       "Agrega gradualmente los ingredientes secos a la mezcla de platano, revolviendo hasta que apenas se combinen. Ten cuidado de no mezclar demasiado.",
@@ -486,8 +486,8 @@
       "Descarboxila tu hierba - Aprende como hacerlo",
       "Muele tu hierba finamente, quieres lograr una buena area de superficie de exposicion.",
       "Luego, agrega tu cannabis finamente molido directamente a la leche, coloca a fuego bajo y bate para combinar. Ten cuidado de que la mezcla no hierva!",
-      "Revuelve la mezcla de leche frecuentemente para evitar que se queme y deja que el cannabis y la leche hiervan a fuego lento por 30 minutos a una hora dependiendo de la potencia que prefieras.",
-      "Despues de 30 minutos a una hora, retira del fuego y deja reposar por 5-10 minutos para ayudar a que los cannabinoides se asienten en las celulas de grasa.",
+      "Revuelve la mezcla de leche frecuentemente para evitar que se queme y mantenla justo por debajo del hervor durante 45 minutos.",
+      "Luego retira del fuego y deja reposar por 5-10 minutos.",
       "Coloca la manta de cielo sobre la parte superior de un frasco mason grande u otro recipiente hermetico para liquidos, luego vierte la mezcla sobre la manta de cielo para colar todo el material vegetal.",
       "Cuando este lo suficientemente frio para manipular, exprime todo el liquido excedente de la manta de cielo en tu recipiente de almacenamiento.",
       "Sella bien tu recipiente, etiqueta con la fecha y los mg por media taza y guárdalo en el refrigerador, o congela en cubeteras de hielo para usar después. Una porción es ½ taza (120 ml); la receta rinde unas 8."
@@ -554,10 +554,10 @@
       "Una porción son 3 ositos. ¿Primera vez? Empieza con 1 osito y espera 2 horas antes de tomar más. Guárdalos en un recipiente hermético en la nevera."
     ],
     "intro_unique": "Los Ositos de Goma de cannabis caseros te permiten controlar la dosis exacta en miligramos por pieza y elegir tus propios sabores y colores de fruta.",
-    "dosing_unique": "Calcula el THC total de tu aceite de coco infusionado, divídelo entre el número de cavidades del molde y vierte la mezcla con pipeta con precisión en cada una.",
+    "dosing_unique": "Una porción son 3 ositos (unos 11 mg con 14% de THC); un osito tiene unos 3,7 mg. Usa toda la mezcla en las 48 cavidades para que cada osito reciba su parte.",
     "storage_unique": "Cubre las gomitas terminadas con una capa ligera de fécula de maíz y guárdalas en el refrigerador hasta 3 semanas para que no se peguen.",
     "variation_unique": "Usa jugo de cereza ácida en lugar de gelatina de sabor para una gomita ácida natural con sabor a fruta real y antioxidantes.",
-    "unique_src": "aa832615530d9ebbd1c5bcd7f1f01ab1f3913c53"
+    "unique_src": "0f253c3c2438ac734034466a4f67b198fd337c41"
   },
   "infused-spaghetti-bolognese": {
     "name": "Espagueti a la Boloñesa Infusionado",
@@ -614,14 +614,14 @@
     ],
     "instructions": [
       "Precalienta el horno a 350 F.",
-      "Calienta la mantequilla de cannabis en el microondas por unos 40 segundos. La mantequilla debe estar completamente derretida pero no caliente.",
-      "En un tazon grande, mezcla la mantequilla de cannabis con los azucares hasta que esten bien combinados.",
+      "Derrite juntas la mantequilla de cannabis y las 3 cucharadas de mantequilla sin sal (unos 40 segundos en el microondas). La mantequilla debe estar completamente derretida pero no caliente.",
+      "En un tazón grande, mezcla las mantequillas derretidas con los azúcares hasta que estén bien combinados.",
       "Incorpora la vainilla y el huevo hasta que esten integrados.",
       "Agrega la harina, el bicarbonato de sodio y la sal. Por favor lee la nota de la receta sobre como medir la harina correctamente.",
       "Mezcla la masa hasta que apenas se combine. La masa debe quedar suave y un poco pegajosa pero no demasiado.",
       "Incorpora las chispas de chocolate.",
       "Divide la masa en 20 bolitas iguales de unas 1,5 cucharadas (con una cuchara mediana para galletas) y coloca a 2 pulgadas de distancia en la bandeja para hornear. Una porción es una galleta.",
-      "Hornea por 7-10 minutos, o hasta que las galletas esten firmes. Quedaran infladas y todavia se veran un poco crudas en el centro."
+      "Hornea por 7-10 minutos, hasta que los bordes estén dorados. Quedarán infladas y todavía se verán un poco crudas en el centro. Déjalas enfriar 5 minutos en la bandeja y luego en una rejilla."
     ],
     "intro_unique": "Las clásicas Galletas de Cannabis, con centro suave y bordes crujientes, son el comestible casero por excelencia que nunca pasa de moda.",
     "dosing_unique": "Usa una cuchara para masa del tamaño de una cucharada y pesa cada bolita en una báscula de cocina para garantizar una dosis uniforme en toda la tanda.",
@@ -635,7 +635,7 @@
     "category_name": "Postres",
     "ingredients": [
       "⅓ cup de mantequilla de cannabis + 3 tbsp de mantequilla sin sal",
-      "1 cup de azucar (o cualquier endulzante)",
+      "1 taza de azúcar",
       "2 huevos",
       "1 teaspoon de extracto de vainilla",
       "1/4 teaspoon de polvo para hornear",
@@ -645,7 +645,7 @@
     ],
     "instructions": [
       "Precalienta el horno a 350&deg; F o 180&deg; C.",
-      "Mezcla la mantequilla derretida y el azucar hasta que esten bien combinados.",
+      "Derrite juntas la mantequilla de cannabis y la mantequilla a fuego bajo y mézclalas con el azúcar hasta que estén bien combinadas.",
       "Agrega los huevos y la vainilla; revuelve hasta que apenas se combinen.",
       "Mezcla todos los ingredientes secos en un tazon aparte.",
       "Incorpora los ingredientes secos a la mezcla de mantequilla y azucar.",
@@ -666,19 +666,19 @@
     "ingredients": [
       "2 rebanadas de pan",
       "2 rebanadas de queso cheddar",
-      "1 cdta de mantequilla de cannabis + 1 cdta de mantequilla sin sal",
+      "1 cdta de mantequilla de cannabis + 1 cdta de mantequilla sin sal, blandas y mezcladas",
       "1 cda de mantequilla"
     ],
     "instructions": [
-      "Unta la mantequilla regular de manera uniforme en un lado de ambas rebanadas de pan. Luego, unta la mantequilla de cannabis en el otro lado del pan.",
-      "Coloca la rebanada de queso cheddar sobre el lado con mantequilla de cannabis del pan. Junta las dos rebanadas de pan con el lado de la mantequilla de cannabis en el medio.",
+      "Unta la mantequilla regular de manera uniforme en un lado de ambas rebanadas de pan. Dales la vuelta y unta la mitad de la mezcla de mantequilla de cannabis en el lado sin mantequilla de cada una, hasta los bordes.",
+      "Coloca las rebanadas de queso cheddar sobre el lado con mantequilla de cannabis de una rebanada. Junta las dos rebanadas de pan con los lados de mantequilla de cannabis en el medio.",
       "A fuego medio, fríe el sándwich de queso hasta que el queso se haya derretido y ambos lados estén dorados, aproximadamente 3 minutos por lado."
     ],
     "intro_unique": "Un dorado y crujiente Sándwich de Queso a la Plancha Infusionado usa mantequilla de cannabis en el pan para un comestible salado, derretido y reconfortante.",
-    "dosing_unique": "Unta una cantidad medida de mantequilla de cannabis en cada rebanada de pan antes de dorarlo para que cada sándwich tenga una dosis constante.",
+    "dosing_unique": "Unta una cantidad medida de mantequilla de cannabis en cada rebanada de pan antes de dorarlo para que cada sándwich tenga una dosis constante. 1 porción = 1 sándwich.",
     "storage_unique": "Cómelo de inmediato para la mejor textura; el sándwich de queso no se conserva bien, pero la mantequilla de cannabis se puede preparar con anticipación.",
     "variation_unique": "Añade rodajas de tomate y un hilo de pesto entre las capas de queso para un sándwich de queso al estilo caprese.",
-    "unique_src": "691f5ea07dcaa6f50335ee6c9c87aa25eac1235c"
+    "unique_src": "1dadedbca8f29f91c89e7287ac6b9e8652a20522"
   },
   "gingerbread-cookies": {
     "name": "Galletas de Jengibre",
@@ -780,15 +780,15 @@
     ],
     "instructions": [
       "Descarboxila tu hierba - Aprende cómo hacerlo",
-      "Vierte la botella de whiskey en un frasco sellable (o saca un poco de whiskey para compensar el volumen agregado de la hierba) y agrega la hierba molida.",
+      "Vierte la botella de whiskey en un frasco sellable (saca más o menos el volumen que ocupa la hierba y resérvalo; esa parte no está infusionada) y agrega la hierba molida.",
       "Agita la botella y déjala reposar, lejos del sol, durante al menos 48 horas. Agítala al menos una vez al día hasta que alcance la potencia deseada - hasta un mes si es posible. Mientras más tiempo repose, más potente será.",
-      "Vierte la mezcla de whiskey en un recipiente de vidrio, usando una manta de cielo para colar toda la hierba molida del whiskey. Repite este paso si es necesario para colar todo el whiskey de la hierba molida, y desecha la hierba restante. Una porción es 15 ml (la botella rinde unas 50)."
+      "Vierte la mezcla de whiskey en un recipiente de vidrio, usando una manta de cielo para colar toda la hierba molida del whiskey. Repite este paso si es necesario para colar todo el whiskey de la hierba molida, y desecha la hierba restante. Una porción es 15 ml (la botella rinde unas 50). Etiqueta la botella con los mg por ½ oz."
     ],
     "intro_unique": "El Whiskey Infusionado con cannabis combina dos placeres para adultos en un solo destilado que se puede beber solo o mezclar en cócteles.",
-    "dosing_unique": "Empieza con una medida de media onza, ya que la combinación de alcohol y THC intensifica de manera significativa ambos efectos.",
+    "dosing_unique": "1 porción = ½ oz (15 ml), unos 15 mg con 14% de THC. La primera vez: más o menos una cucharadita (⅓ de porción), espera 2 horas y no tomes otro alcohol.",
     "storage_unique": "Guárdalo en una botella de vidrio oscuro, lejos de la luz solar y el calor; se conserva un año o más, aunque la potencia disminuye poco a poco con el tiempo.",
     "variation_unique": "Usa un bourbon ahumado y añade una rama de canela durante la infusión para un destilado de invierno cálido y especiado.",
-    "unique_src": "a1624412f9c75746e0c012a610e49651f7133bd3"
+    "unique_src": "439f6795ff446a81e1f80f564aeb08e0d1c04182"
   },
   "infused-chai": {
     "name": "Chai Infusionado",
@@ -834,9 +834,9 @@
     ],
     "intro_unique": "Las Palomitas Infusionadas con cannabis son un snack salado para noches de película en el que se rocía mantequilla de cannabis derretida sobre granos recién reventados.",
     "dosing_unique": "Mezcla las palomitas con las mantequillas derretidas en 2–3 tandas y repártelas en 6 cuencos iguales; un cuenco es una porción.",
-    "storage_unique": "Guárdalas en una bolsa de papel o un recipiente hermético a temperatura ambiente hasta 2 días; si hace falta, vuelve a dejarlas crujientes en el horno a temperatura baja.",
+    "storage_unique": "Guárdalas en una bolsa de papel o un recipiente hermético a temperatura ambiente hasta 2 días; etiqueta la bolsa y, si hace falta, vuelve a dejarlas crujientes en el horno a temperatura baja.",
     "variation_unique": "Mézclalas con levadura nutricional y ajo en polvo para unas palomitas de cannabis saladas con sabor a queso, sin lácteos.",
-    "unique_src": "94e471d9aa17c794b9768b4ec72c693380ec773d"
+    "unique_src": "e8367cfcd66653fc310a6d05fd8184324b900f18"
   },
   "infused-eggnog": {
     "name": "Ponche de Huevo Infusionado",
@@ -875,11 +875,12 @@
       "Frasco mason para almacenar"
     ],
     "instructions": [
+      "Descarboxila tu hierba - Aprende como hacerlo",
       "Derrite la mantequilla en una olla a fuego medio-bajo. Comenzará a hacer espuma y crepitar — eso es el agua evaporándose.",
-      "Una vez que el crepitar disminuya y los sólidos de la leche se asienten en el fondo y se pongan dorados, agrega tu cannabis descarboxilado.",
-      "Cocina a fuego lento al mínimo durante 45 minutos, revolviendo ocasionalmente. No dejes que se queme.",
+      "Una vez que el crepitar disminuya y los sólidos de la leche se asienten en el fondo y se pongan dorados, retira la espuma y agrega tu cannabis descarboxilado.",
+      "Mantenlo al fuego más bajo durante 45 minutos, por debajo de 93°C si tienes termómetro, revolviendo ocasionalmente. No dejes que se queme.",
       "Cuela a través de una manta de cielo hacia un frasco mason, exprimiendo toda la grasa.",
-      "Deja enfriar a temperatura ambiente, luego refrigera. El ghee se solidificará y se conserva hasta por 3 meses."
+      "Deja enfriar a temperatura ambiente, luego refrigera. El ghee se solidificará."
     ],
     "intro_unique": "El Ghee Infusionado con cannabis es mantequilla clarificada sin los sólidos lácteos, una grasa con sabor a nuez y alto punto de humo, perfecta para cocinar.",
     "dosing_unique": "Una porción es 1 cucharadita. 1 taza de mantequilla da unos ¾ de taza de ghee (36 cucharaditas), unos 11 mg cada una con 14% de THC; etiqueta el frasco con los mg por cucharadita.",
@@ -902,15 +903,15 @@
       "Asegúrate de que tu mantequilla de cannabis o aceite de coco infusionado esté listo. Si no, prepáralo primero.",
       "Vierte la leche condensada en una olla a fuego bajo.",
       "Agrega la mantequilla de cannabis o el aceite de coco infusionado y bate hasta que estén completamente combinados.",
-      "Sigue revolviendo a fuego bajo durante 10-15 minutos. No dejes que hierva.",
+      "Sigue revolviendo a fuego bajo hasta que la mantequilla se haya derretido por completo y la leche esté lisa. No dejes que hierva.",
       "Retira del fuego y deja enfriar un poco.",
-      "Transfiere a un frasco mason o recipiente hermético. Almacena en el refrigerador hasta por 2 semanas. Una porción es 1 cucharada (la receta rinde unas 20)."
+      "Transfiere a un frasco mason o recipiente hermético y refrigera. Una porción es 1 cucharada (la receta rinde unas 20)."
     ],
     "intro_unique": "La Leche Condensada Infusionada con cannabis es una base dulce y espesa, ideal para fudge, pastel tres leches y postres brasileños.",
     "dosing_unique": "Su consistencia espesa facilita medirla por cucharadas; anota los mg por cucharada en la lata o el frasco.",
-    "storage_unique": "Refrigérala en un frasco cerrado hasta 2 semanas; su alto contenido de azúcar actúa como conservante natural.",
+    "storage_unique": "Refrigérala en un frasco cerrado hasta 2 semanas.",
     "variation_unique": "Cocina la leche condensada infusionada en una cacerola de fondo grueso a fuego bajo, revolviendo constantemente, hasta que espese y tome color caramelo para obtener un dulce de leche infusionado. Nunca hiervas una lata cerrada, porque puede reventar.",
-    "unique_src": "b13fb5b12b7fa19407e7abad85d3a36ead41f100"
+    "unique_src": "824f731ef4efa2c7592c9713986ce137ce42f496"
   },
   "cannabis-hot-chocolate": {
     "name": "Chocolate Caliente de Cannabis",
@@ -926,9 +927,9 @@
     ],
     "instructions": [
       "Calienta la leche infusionada y la leche normal juntas en un cazo pequeño a fuego medio-bajo. No dejes que hierva.",
-      "Incorpora batiendo el cacao en polvo, el azúcar y la sal hasta que estén completamente disueltos y la mezcla esté suave.",
+      "Mezcla el cacao en polvo, el azúcar y la sal con un chorrito de la leche tibia hasta formar una pasta suave y luego incorpora la pasta a la olla batiendo.",
       "Agrega el extracto de vainilla y revuelve para combinar.",
-      "Vierte en tazas y decora con crema batida si lo deseas.",
+      "Bate de nuevo y reparte por igual entre 2 tazas; decora con crema batida si lo deseas.",
       "Sirve inmediatamente y disfruta despacio — los comestibles tardan en hacer efecto."
     ],
     "intro_unique": "El aterciopelado Chocolate Caliente de Cannabis es el comestible ideal para el frío: se bate el cacao en leche infusionada calentada con suavidad para una taza reconfortante.",
@@ -979,8 +980,7 @@
       "Agrega los malvaviscos y revuelve constantemente hasta que estén completamente derretidos y suaves. Retira del fuego.",
       "Rápidamente incorpora el cereal de arroz y la sal, mezclando hasta que todo esté cubierto.",
       "Vierte en el molde preparado y presiona con una espátula engrasada o con tus manos.",
-      "Deja enfriar completamente (aproximadamente 30 minutos), luego corta en 12 cuadros iguales.",
-      "Almacena en un recipiente hermético a temperatura ambiente hasta por 3 días."
+      "Deja enfriar completamente (aproximadamente 30 minutos), luego corta en 12 cuadros iguales (cuadrícula de 3 × 4); 1 porción = 1 cuadro."
     ],
     "intro_unique": "Estas nostálgicas Barras de Arroz Inflado con Cannabis reciben una versión para adultos con mantequilla de cannabis derretida directamente en la mezcla de malvaviscos, para una preparación fácil y sin horno.",
     "dosing_unique": "Presiona la mezcla en un molde forrado de medidas conocidas y córtala en una cuadrícula de piezas iguales para una dosis constante.",
@@ -1002,16 +1002,16 @@
     "instructions": [
       "Calienta el azúcar en una olla de fondo grueso a fuego medio, revolviendo constantemente con una cuchara de madera hasta que se derrita y tome un color ámbar.",
       "Una vez completamente derretida y ámbar, retira la olla del fuego e incorpora la crema para batir lentamente. La mezcla burbujeará vigorosamente — sigue revolviendo.",
-      "Cuando deje de burbujear, agrega la mantequilla de cannabis y revuelve hasta que esté suave. Añadirla después de la crema evita que la mantequilla infusionada toque el caramelo más caliente.",
-      "Retira del fuego y agrega el extracto de vainilla y la sal de mar.",
-      "Deja enfriar durante 10 minutos antes de usar. Almacena en un frasco en el refrigerador hasta por 2 semanas.",
-      "Recalienta suavemente antes de servir. Divide en 12 porciones y úsala como topping."
+      "Cuando deje de burbujear, agrega la mantequilla de cannabis y la mantequilla sin sal y revuelve hasta que esté suave. Añadirlas después de la crema evita que la mantequilla infusionada toque el caramelo más caliente.",
+      "Agrega el extracto de vainilla y la sal de mar.",
+      "Deja enfriar durante 10 minutos, luego vierte en un frasco y refrigera.",
+      "Recalienta suavemente y revuelve bien antes de servir. 1 porción = 2 cucharadas."
     ],
     "intro_unique": "La sedosa Salsa de Caramelo de Cannabis añade un chorrito dulce y mantecoso de THC al helado, la fruta o tus postres favoritos.",
-    "dosing_unique": "Mide las porciones con una cucharada y anota en el frasco la potencia total del lote dividida entre el número de cucharadas.",
+    "dosing_unique": "1 porción = 2 cucharadas rasas; el lote rinde 12 porciones. Revuelve antes de medir; anota en el frasco los mg por 2 cucharadas.",
     "storage_unique": "Refrigérala en una botella dosificadora hasta 2 semanas; recaliéntala suavemente en agua tibia antes de servirla.",
     "variation_unique": "Incorpora una cucharadita de café espresso en polvo durante la cocción para una salsa de caramelo y café que combina de maravilla con helado de vainilla.",
-    "unique_src": "993bbfd1fc760d37be800888c9e085e3fff0bb7a"
+    "unique_src": "e824ea917b6999992cf1a404fc48ec65ede25148"
   },
   "infused-hummus": {
     "name": "Hummus Infusionado",
@@ -1094,7 +1094,7 @@
       "Unta generosamente la mezcla de aguacate sobre el pan tostado.",
       "Mezcla el aceite de oliva infusionado con el normal y rocía la mitad sobre cada rebanada.",
       "Decora con hojuelas de chile, condimento o hierbas. Agrega un huevo pochado si lo deseas (con la yema bien cocida para embarazadas o personas inmunodeprimidas).",
-      "Rinde 2 porciones: una porción es una rebanada de pan tostado. Come con calma y espera al menos una hora antes de considerar otra porción."
+      "Rinde 2 porciones: una porción es una rebanada de pan tostado. Come con calma y espera 2 horas antes de comer otra porción."
     ],
     "intro_unique": "La Tostada de Aguacate con Cannabis eleva este clásico del brunch con aguacate machacado sobre pan de masa madre crujiente, terminado con un chorrito de aceite de oliva infusionado.",
     "dosing_unique": "Mezcla el aceite de oliva infusionado con el normal y rocía la mitad sobre cada rebanada; una rebanada es una porción.",
@@ -1157,7 +1157,7 @@
     "description": "Brownies ricos y densos hechos con aceite de coco de cannabis — 100% a base de plantas.",
     "category_name": "Vegano",
     "ingredients": [
-      "⅓ taza de aceite de coco infusionado con cannabis + ⅔ taza de aceite de coco",
+      "⅓ taza de aceite de coco infusionado con cannabis + ⅓ taza de aceite de coco",
       "1½ tazas de azúcar de caña",
       "2 huevos de linaza (2 cdas de linaza + 6 cdas de agua)",
       "1 cdta de vainilla",
@@ -1169,10 +1169,10 @@
     ],
     "instructions": [
       "Precalienta el horno a 350°F. Prepara los huevos de linaza; deja reposar 5 min.",
-      "Bate el aceite de cannabis, el azúcar, los huevos de linaza y la vainilla.",
+      "Derrite juntos el aceite de coco infusionado y el aceite de coco normal a fuego bajo; bátelos con el azúcar, los huevos de linaza y la vainilla.",
       "Incorpora la harina, el cacao, la sal y el polvo para hornear.",
       "Agrega las chispas de chocolate. Vierte en un molde engrasado de 8x8.",
-      "Hornea 25-30 min. Deja enfriar por completo y corta en 16 cuadrados; un cuadrado es una porción."
+      "Hornea 25-30 min, hasta que los bordes estén firmes y el centro se vea húmedo pero no crudo. Deja enfriar por completo y corta en 16 cuadrados; un cuadrado es una porción."
     ],
     "intro_unique": "Densos y melcochosos, estos Brownies Veganos de Cannabis usan huevos de linaza y aceite de coco infusionado para ofrecer un comestible vegetal indistinguible del original.",
     "dosing_unique": "Corta la plancha de brownie en cuadros iguales con una espátula de panadero y etiqueta cada pieza con su dosis para compartir de forma segura.",
@@ -1810,9 +1810,9 @@
       "Limón y menta para decorar"
     ],
     "instructions": [
-      "Remueve bien el frasco de miel infusionada antes de medir. Disuelve la miel infusionada (y la miel normal, si la usas) en 2 cucharadas de agua tibia hasta que se disuelva por completo. La miel infusionada contiene aceite de coco, que se endurece en las bebidas frías, así que siempre disuélvela primero en tibio y luego remueve o agita bien la bebida antes de servir.",
+      "Remueve bien el frasco de miel infusionada antes de medir. Disuelve la miel infusionada (y la miel normal, si la usas) en 2 cucharadas de agua tibia hasta que se disuelva por completo. La miel infusionada contiene aceite de coco, que se endurece en las bebidas frías, así que siempre disuélvela primero en tibio y luego remueve bien la bebida antes de servir (no la agites una vez que tenga el agua con gas).",
       "Combina el jugo de limón y la mezcla de miel.",
-      "Agrega hielo, completa con agua mineral. Decora."
+      "Reparte entre 2 vasos, agrega hielo y completa cada uno con ½ taza de agua mineral. Remueve suavemente y decora."
     ],
     "intro_unique": "La burbujeante Limonada con Gas de Cannabis combina jugo de limón fresco y agua mineral con miel infusionada, para un refresco festivo sin alcohol.",
     "dosing_unique": "Disuelve primero la miel infusionada en el agua tibia y luego reparte la limonada a partes iguales en los 2 vasos para que cada invitado reciba la misma dosis.",
@@ -1836,7 +1836,7 @@
       "Remueve bien el frasco de miel infusionada antes de medir. Disuelve la miel infusionada (y la miel normal, si la usas) en 2 cucharadas de agua tibia hasta que se disuelva por completo. La miel infusionada contiene aceite de coco, que se endurece en las bebidas frías, así que siempre disuélvela primero en tibio y luego remueve o agita bien la bebida antes de servir.",
       "Machaca la menta en un vaso.",
       "Agrega hielo, jugo de lima y la mezcla de miel.",
-      "Completa con agua mineral. Decora con lima."
+      "Completa con agua mineral, remueve una vez desde el fondo y decora con lima."
     ],
     "intro_unique": "Un Mojito Virgen Infusionado machaca menta fresca y limón con jarabe simple de cannabis y agua mineral para un mocktail fresco y herbal.",
     "dosing_unique": "Mide el jarabe simple de cannabis con una cucharada después de machacar la menta y el limón, para que cada vaso reciba la misma dosis.",
@@ -1976,8 +1976,8 @@
     "intro_unique": "El Té de Hibisco Infusionado, de un rojo rubí, se prepara con flores de hibisco secas endulzadas con miel de cannabis para una bebida helada ácida y refrescante.",
     "dosing_unique": "Incorpora la miel de cannabis a toda la tanda mientras el té todavía está tibio para que se disuelva por completo, y luego sirve vasos iguales.",
     "storage_unique": "Refrigera el té de hibisco endulzado hasta 4 días; revuélvelo antes de servir.",
-    "variation_unique": "Infusiónalo con una rama de canela y clavos enteros para un té de hibisco caliente y especiado, perfecto para las noches frías.",
-    "unique_src": "514c2bf4bc9306628dcf3d9f896f593b4c31fc87"
+    "variation_unique": "Infusiónalo con una rama de canela y clavos enteros para un té de hibisco caliente y especiado, perfecto para las noches frías; remueve antes de cada taza, porque el aceite de coco de la miel flota.",
+    "unique_src": "71b8952ec53e8977e61f0f16c93f67c0a7fc9acf"
   },
   "cannabis-peach-iced-tea": {
     "name": "Té Helado de Durazno con Cannabis",
@@ -1995,11 +1995,11 @@
       "Verter las 4 tazas de agua caliente sobre las bolsitas y dejar reposar 5 min. Retirar las bolsitas, agregar los duraznos y dejar reposar 15 min.",
       "Remueve bien el frasco de miel infusionada antes de medir. Colar. Incorporar la miel infusionada al té mientras aún esté tibio, hasta que se disuelva por completo; luego añadir el limón, dejar enfriar y refrigerar 1h. Remover de nuevo y servir en 4 vasos con hielo."
     ],
-    "intro_unique": "El Té Helado de Durazno con Cannabis infusiona té negro con duraznos frescos en rebanadas y se termina con jarabe simple de cannabis, para un mocktail dulce al estilo sureño.",
-    "dosing_unique": "Mezcla el jarabe de cannabis con el té colado y frío, y sirve vasos medidos para una dosis uniforme.",
-    "storage_unique": "Refrigéralo hasta 2 días; mézclalo antes de servir para que el jarabe se mantenga bien distribuido.",
-    "variation_unique": "Añade una ramita de romero y un chorrito de miel para un té de durazno herbal con aromas florales.",
-    "unique_src": "40bff9c99ee5da1f92d94bbf9311a0b6c69c4be0"
+    "intro_unique": "El Té Helado de Durazno con Cannabis infusiona té negro con duraznos frescos en rebanadas y se termina con miel infusionada, para un mocktail dulce al estilo sureño.",
+    "dosing_unique": "Disuelve la miel infusionada en el té mientras aún está tibio; en té frío, su aceite de coco se endurece en grumitos. Remueve antes de servir cada uno de los 4 vasos.",
+    "storage_unique": "Refrigéralo hasta 2 días; mézclalo antes de servir para que la miel infusionada se mantenga bien distribuida.",
+    "variation_unique": "Añade una ramita de romero y un chorrito de miel normal para un té de durazno herbal con aromas florales.",
+    "unique_src": "609a6fe453062ed203b38f5939eef2e02e59b847"
   },
   "infused-mango-lassi": {
     "name": "Mango Lassi Infusionado",
@@ -2130,10 +2130,10 @@
       "Remover, repartir en 3 vasos con hielo y completar con agua con gas. Decorar con menta."
     ],
     "intro_unique": "La tropical Limonada de Maracuyá con Cannabis combina pulpa ácida de maracuyá con jugo de limón fresco y miel de cannabis, para un mocktail exótico y soleado.",
-    "dosing_unique": "Mezcla la miel de cannabis con la base de limonada hasta que se disuelva por completo; cuela las semillas de maracuyá o déjalas para dar textura.",
-    "storage_unique": "Refrigérala hasta 2 días; mézclala antes de servir, ya que la pulpa de maracuyá se separa.",
+    "dosing_unique": "Disuelve la miel infusionada en agua tibia antes de que toque el jugo frío, y reparte la base por igual entre los 3 vasos antes de añadir el agua con gas.",
+    "storage_unique": "Refrigera la base sin el agua con gas hasta 2 días; remuévela y añade el agua con gas al servir.",
     "variation_unique": "Usa agua de coco en lugar de agua mineral para una limonada tropical de maracuyá y coco.",
-    "unique_src": "b9bf1dae190201efdae40f1ff3deb6401db2c65f"
+    "unique_src": "5187bf578e2ecf791c785800f66de80078db05ad"
   },
   "infused-cherry-limeade": {
     "name": "Limonada de Cereza Infusionada",
@@ -2150,13 +2150,13 @@
     "instructions": [
       "Remueve bien el frasco de miel infusionada antes de medir. Disolver la miel infusionada (y la miel normal, si se usa) en 2 cucharadas de agua tibia hasta que se disuelva por completo. La miel infusionada contiene aceite de coco, que se endurece en las bebidas frías, así que siempre hay que disolverla primero en tibio y luego remover o agitar bien la bebida antes de servir.",
       "Mezclar el jugo de cereza, el limón y la mezcla de miel.",
-      "Servir sobre hielo y completar con agua con gas. Decorar."
+      "Repartir entre 2 vasos con hielo, completar cada uno con agua con gas y remover suavemente. Decorar."
     ],
-    "intro_unique": "La intensa Limonada de Cereza Infusionada combina jugo de cereza ácida con limón fresco y jarabe simple de cannabis para un mocktail al estilo de las cafeterías retro.",
-    "dosing_unique": "Incorpora el jarabe de cannabis a la base de cereza y limón y sirve vasos iguales para una dosis constante por porción.",
+    "intro_unique": "La intensa Limonada de Cereza Infusionada combina jugo de cereza ácida con limón fresco y miel infusionada para un mocktail al estilo de las cafeterías retro.",
+    "dosing_unique": "Reparte la base de cereza, limón y miel por igual entre 2 vasos antes de añadir el hielo y el agua con gas. 1 porción = 1 vaso.",
     "storage_unique": "Refrigera la base de cereza y limón hasta 3 días; añade agua mineral y hielo al servir.",
     "variation_unique": "Usa cerezas negras dulces congeladas machacadas en el vaso para una limonada de cereza fresca, con trozos y más fruta.",
-    "unique_src": "413e141dad5b744cda3f380c4ae4047103d90afd"
+    "unique_src": "a041272e9dcd86d9a64bba628f23c33665bec4b9"
   },
   "cannabis-mint-green-tea": {
     "name": "Té Verde con Menta de Cannabis",
@@ -2165,7 +2165,7 @@
     "ingredients": [
       "3 bolsitas de té verde",
       "4 cups de agua caliente",
-      "2 tbsp de miel de cannabis",
+      "2 cucharadas de miel infusionada",
       "10 hojas de menta",
       "Jugo de 1 limón",
       "Hielo"
@@ -2176,10 +2176,10 @@
       "Agregar la menta y el limón. Enfriar, refrigerar. Remover y servir en 4 vasos con hielo."
     ],
     "intro_unique": "El Té Verde con Menta de Cannabis infusiona té verde con menta fresca y limón, y se endulza con miel de cannabis para una bebida helada ligera y refrescante.",
-    "dosing_unique": "Mezcla la miel de cannabis con todo el lote mientras el té está tibio para que se disuelva por completo, y luego sirve vasos iguales.",
+    "dosing_unique": "Mezcla la miel infusionada con todo el lote mientras el té está tibio para que se disuelva por completo; luego remueve otra vez y sirve 4 vasos iguales.",
     "storage_unique": "Refrigera el té preparado hasta 2 días; mézclalo antes de servir.",
     "variation_unique": "Usa hierbabuena y una tira de cáscara de naranja para un té de menta de inspiración marroquí.",
-    "unique_src": "8897b8d37af8ed5ee5fb85588384755162fea9cc"
+    "unique_src": "600bb392fe5759a910564f2cdcb42e40ed0c26fd"
   },
   "infused-blueberry-lemonade": {
     "name": "Limonada de Arándanos Azules Infusionada",
@@ -2240,13 +2240,13 @@
     "instructions": [
       "Remueve bien el frasco de miel infusionada antes de medir. Disolver la miel infusionada (y la miel normal, si se usa) en 2 cucharadas de agua tibia hasta que se disuelva por completo. La miel infusionada contiene aceite de coco, que se endurece en las bebidas frías, así que siempre hay que disolverla primero en tibio y luego remover o agitar bien la bebida antes de servir.",
       "Mezclar el agua de coco, el limón y la mezcla de miel.",
-      "Agregar agua con gas sobre hielo. Decorar."
+      "Repartir entre 2 vasos con hielo, completar cada uno con agua con gas, remover una vez y decorar."
     ],
     "intro_unique": "Una ligera Agua Fresca de Coco y Limón Infusionada mezcla agua de coco con jugo de limón fresco y miel de cannabis para un mocktail tropical e hidratante.",
     "dosing_unique": "Incorpora la miel de cannabis a la jarra hasta que se disuelva por completo; sirve vasos del mismo tamaño para una dosis constante.",
-    "storage_unique": "Refrigérala hasta 2 días; el agua de coco mantiene la bebida fresca y naturalmente dulce.",
+    "storage_unique": "Refrigera la base de agua de coco, limón y miel sin el agua con gas hasta 2 días; remuévela y añade el agua con gas al servir.",
     "variation_unique": "Añade menta fresca machacada y un chorrito de jugo de piña para un agua fresca inspirada en la piña colada.",
-    "unique_src": "ffe9ae5ac00e82e8a18c5068cf01d2e2bd182909"
+    "unique_src": "9970468d5ca3f4f1abc840b9b4b617482802bf78"
   },
   "cannabis-cheesecake": {
     "name": "Cheesecake de Cannabis",
@@ -2263,10 +2263,10 @@
       "2 tbsp de harina"
     ],
     "instructions": [
-      "Precalentar el horno a 325°F. Mezclar las galletas y la mantequilla de cannabis; presionar en un molde desmontable de 9 pulgadas.",
+      "Precalentar el horno a 325°F. Mezclar las galletas y la mantequilla de cannabis; presionar de manera pareja solo en el fondo de un molde desmontable de 9 pulgadas, con el mismo grosor en todas partes (todo el cannabis está en la base). Envolver bien el exterior del molde con papel de aluminio grueso para el baño maría.",
       "Batir el queso crema con el azúcar. Agregar los huevos uno a la vez.",
       "Incorporar la vainilla, la crema agria y la harina. Verter sobre la base.",
-      "Hornear en baño maría por 55-60 min. Dejar enfriar en el horno 1h.",
+      "Hornear en baño maría por 55-60 min, hasta que los bordes estén firmes y el centro aún tiemble. Dejar enfriar en el horno 1h.",
       "Refrigerar 4h antes de servir."
     ],
     "intro_unique": "Un cremoso cheesecake estilo Nueva York con mantequilla de cannabis en la base de galleta ofrece una experiencia comestible indulgente y de efecto gradual.",
@@ -2343,10 +2343,10 @@
     ],
     "instructions": [
       "Precalentar el horno a 425°F. Engrasar 4 ramequines.",
-      "Derretir el chocolate y la mantequilla de cannabis. Dejar enfriar un poco.",
+      "Derretir juntos el chocolate, la mantequilla de cannabis y la mantequilla a fuego bajo. Dejar enfriar un poco.",
       "Incorporar los huevos, las yemas y el azúcar glass. Agregar la harina y la sal envolviendo.",
       "Llenar los ramequines. Refrigerar 30 min.",
-      "Hornear 12-13 min. Reposar 1 min y desmoldar."
+      "Hornear 12-13 min, hasta que los bordes estén firmes pero el centro aún tiemble. Reposar 1 min y desmoldar."
     ],
     "intro_unique": "Estos Volcanes de Chocolate Infusionados individuales, con un centro fundido infusionado con cannabis, son un postre espectacular de calidad de restaurante hecho en casa.",
     "dosing_unique": "Prepara la masa en un solo tazón y repártela en partes iguales entre los ramekins usando una báscula de cocina para una dosis idéntica por pastelito.",
@@ -2360,26 +2360,26 @@
     "category_name": "Postres",
     "ingredients": [
       "Base: 1 cup de harina",
-      "75g de mantequilla de cannabis + 40g de mantequilla sin sal",
+      "75g de mantequilla de cannabis + 40g de mantequilla sin sal, blandas",
       "¼ cup de azúcar glass",
       "Pizca de sal",
       "Relleno: 3 huevos",
       "1 cup de azúcar",
-      "Jugo y ralladura de 3 limones",
+      "½ taza de jugo de limón + ralladura de 3 limones",
       "3 tbsp de harina",
       "Azúcar glass para espolvorear"
     ],
     "instructions": [
-      "Precalentar el horno a 350°F. Mezclar la harina de la base, las mantequillas, el azúcar glass y la sal hasta obtener una masa arenosa y presionarla en un molde de 8x8. Hornear 18 min.",
-      "Batir los huevos, el azúcar, el jugo y la ralladura de limón y las 3 cucharadas de harina. Verter sobre la base caliente.",
+      "Precalienta el horno a 350°F (175°C). Forra un molde de 8x8 con papel. Mezcla la harina, el azúcar glass y la sal e integra la mantequilla de cannabis y la mantequilla blandas hasta que quede arenoso. Presiona de manera pareja en el molde, para que la base tenga el mismo grosor en todas partes. Hornea 30–35 min, hasta que esté dorada.",
+      "Bate los huevos, el azúcar extrafino, el jugo y la ralladura de limón y las 3 cucharadas de harina. Vierte sobre la base caliente.",
       "Hornea 20-22 min hasta que cuaje. Deja enfriar y refrigera antes de 2 horas.",
       "Espolvorear con azúcar glass y cortar en 16 barras; una barra es una porción."
     ],
     "intro_unique": "Un ácido curd de limón sobre una mantecosa base de galleta infusionada con cannabis hace de estas barras una alternativa brillante y cítrica a los comestibles de chocolate.",
-    "dosing_unique": "Marca la placa en rectángulos uniformes antes de que el curd cuaje por completo, así cada barra tiene una dosis precisa e igual.",
-    "storage_unique": "Refrigéralas en una sola capa en un recipiente hermético hasta 5 días; espolvoréalas con azúcar glas justo antes de servir.",
+    "dosing_unique": "Una vez frías, córtalas en 16 cuadrados (4 × 4), limpiando el cuchillo entre cortes; cada cuadrado es una porción.",
+    "storage_unique": "Refrigéralas en una sola capa en un recipiente hermético hasta 4 días; espolvoréalas con azúcar glas justo antes de servir.",
     "variation_unique": "Sustituye por jugo de lima y añade una pizca de hojuelas de chile para una barra de lima picante con un toque de inspiración mexicana.",
-    "unique_src": "69242a628577050125fda9019f4d79bbad48e18d"
+    "unique_src": "1c1fc4c17b14bd5f90b1bcc4d8669ef204eada51"
   },
   "infused-carrot-cake": {
     "name": "Pastel de Zanahoria Infusionado",
@@ -2398,10 +2398,10 @@
       "Glaseado: 250g de queso crema, 1 cup de azúcar glass, 1 tsp de vainilla"
     ],
     "instructions": [
-      "Precalentar el horno a 350°F. Batir los huevos, el azúcar, el aceite de cannabis y la vainilla.",
-      "Incorporar la harina, el polvo para hornear, la canela, la nuez moscada y la zanahoria rallada envolviendo.",
-      "Hornear en dos moldes de 8 pulgadas por 30-35 min. Dejar enfriar completamente.",
-      "Batir el glaseado; rellenar y cubrir el pastel."
+      "Precalentar el horno a 350°F (175°C); engrasar y forrar dos moldes de 8 pulgadas. Mezclar el aceite de coco infusionado derretido con el aceite vegetal y batir con los huevos, el azúcar y la vainilla.",
+      "Incorporar la harina, el polvo para hornear, la canela, la nuez moscada y la zanahoria rallada envolviendo. Repartir la masa por igual entre los moldes (pesarlos).",
+      "Hornear 30-35 min, hasta que un palillo en el centro salga limpio o con algunas migas húmedas. Dejar enfriar completamente.",
+      "Batir el glaseado; rellenar y cubrir el pastel. Refrigerar."
     ],
     "intro_unique": "Un húmedo Pastel de Zanahoria Infusionado, hecho con aceite infusionado con cannabis y terminado con un clásico betún de queso crema, es un comestible de capas digno de celebración.",
     "dosing_unique": "El aceite infusionado está en las capas del pastel, así que córtalo en 12 rebanadas iguales con un cuchillo largo en lugar de calcular las porciones por el betún.",
@@ -2446,16 +2446,16 @@
       "Pizca de sal de mar"
     ],
     "instructions": [
-      "Derrite juntos el chocolate, la leche condensada con cannabis y la mantequilla de cannabis a fuego bajo, removiendo hasta que quede liso.",
+      "Derrite juntos el chocolate, la leche condensada con cannabis y la mantequilla de cannabis a fuego bajo, removiendo hasta que quede completamente liso y brillante.",
       "Incorporar la vainilla.",
-      "Verter en un molde de 8x8 forrado. Espolvorear sal de mar.",
+      "Vierte en un molde de 8x8 forrado con papel (fórralo antes de empezar). Alisa la superficie y espolvorea sal de mar.",
       "Refrigerar 3-4h. Cortar en 12 trozos (una cuadrícula de 3 × 4)."
     ],
     "intro_unique": "El Fudge Infusionado, intenso y denso, es un dulce sin horno que concentra un profundo sabor a chocolate en un cuadrito pequeño y decadente.",
     "dosing_unique": "Vierte en un molde de 20 x 20 cm forrado con papel y corta una cuadrícula de 3 × 4, con 12 trozos de unos 5 × 6,7 cm; una porción es 1 trozo.",
-    "storage_unique": "Refrigéralo en un recipiente hermético hasta 2 semanas o congélalo durante 3 meses; el fudge se descongela rápido a temperatura ambiente.",
+    "storage_unique": "Refrigéralo en un recipiente hermético hasta 2 semanas o congélalo hasta 1 mes; el fudge se descongela rápido a temperatura ambiente.",
     "variation_unique": "Pon una capa de fudge de mantequilla de maní sobre el fudge de chocolate para un dulce bicolor inspirado en Reese's.",
-    "unique_src": "c69639702b477babf5efa39565f6d886a2953fa3"
+    "unique_src": "eac9617ef5b449b47bbda1b3ae52d24fd99324eb"
   },
   "cannabis-blondies": {
     "name": "Blondies de Cannabis",
@@ -2472,9 +2472,9 @@
       "¾ cup de chispas de chocolate blanco"
     ],
     "instructions": [
-      "Precalentar el horno a 350°F. Batir la mantequilla de cannabis derretida con el azúcar morena. (No dores la mantequilla de cannabis: eso la calienta muy por encima de la temperatura que degrada el THC.)",
+      "Precalienta el horno a 350°F (175°C) y forra un molde de 8x8. Derrite juntas la mantequilla de cannabis y la mantequilla a fuego bajo, sin que se doren, y bátelas con el azúcar morena.",
       "Agregar el huevo, la yema y la vainilla. Incorporar la harina, el polvo para hornear, la sal y las chispas envolviendo.",
-      "Hornear en un molde de 8x8 forrado por 22-25 min. No sobrecocinar.",
+      "Vierte en el molde forrado y hornea 22-25 min, hasta que un palillo en el centro salga con algunas migas húmedas pero sin masa cruda.",
       "Dejar enfriar completamente antes de cortar."
     ],
     "intro_unique": "Los Blondies de Cannabis ofrecen la textura masticable y el sabor intenso a caramelo de un brownie sin el cacao, dejando que brille el sabor de la mantequilla de cannabis.",
@@ -2564,7 +2564,7 @@
     "category_name": "Postres",
     "ingredients": [
       "300g de chocolate amargo picado",
-      "1 cup de crema de cannabis",
+      "1 taza de crema de cannabis (hecha con la receta de leche infusionada)",
       "2 tbsp de mantequilla",
       "1 tsp de vainilla",
       "Pizca de sal",
@@ -2612,7 +2612,7 @@
     "description": "Sedoso pudín de crema italiano con crema de cannabis.",
     "category_name": "Postres",
     "ingredients": [
-      "2 cups de crema de cannabis",
+      "2 tazas de crema de cannabis (hecha con la receta de leche infusionada)",
       "¼ cup de azúcar",
       "2 tsp de vainilla",
       "2½ tsp de gelatina en polvo",
@@ -2623,7 +2623,7 @@
       "Hidratar la gelatina en agua fría por 5 min.",
       "Calentar la crema de cannabis con el azúcar hasta disolver. Fuera del fuego: incorporar la vainilla y la gelatina.",
       "Verter en 4 ramequines; cada ramequín es una porción. Refrigerar 4h o más.",
-      "Desmoldar en platos y servir con coulis de frutos rojos."
+      "Pon cada ramequín en agua tibia 1 minuto, pasa un cuchillo fino por el borde y desmolda en un plato. Sirve con coulis de frutos rojos."
     ],
     "intro_unique": "La sedosa Panna Cotta de Cannabis es un postre cremoso italiano que luce la crema infusionada en un dulce delicado que se deshace en la boca.",
     "dosing_unique": "Divide la mezcla de crema tibia en ramekins individuales usando una taza medidora, así cada porción contiene una dosis idéntica.",
@@ -2647,9 +2647,9 @@
       "Salsa de chocolate para servir"
     ],
     "instructions": [
-      "Hervir el agua, la mantequilla de cannabis, el azúcar y la sal. Agregar la harina; revolver hasta que se forme una masa.",
+      "Derrite juntas la mantequilla de cannabis y la mantequilla y llévalas a hervor con el agua, el azúcar y la sal. Agrega la harina; revuelve hasta que se forme una masa.",
       "Enfriar 5 min y luego batir los huevos uno a uno.",
-      "Con una manga, formar 16 churros del mismo largo directamente en el aceite caliente (350°F), por tandas. Freír 3-4 min hasta dorar. Una porción es un churro.",
+      "Con una manga, formar 16 churros del mismo largo directamente en el aceite normal caliente (375°F / 190°C), en tandas pequeñas. Freír unos 2 minutos por lado hasta dorar. Una porción es un churro.",
       "Revolcar en azúcar con canela. Servir con salsa de chocolate."
     ],
     "intro_unique": "Crujientes por fuera y suaves por dentro, estos Churros Infusionados con cannabis se fríen hasta quedar perfectamente dorados y se revuelcan en azúcar con canela.",
@@ -2666,7 +2666,7 @@
       "1 cup de harina",
       "2 huevos",
       "1½ cups de leche",
-      "2 tbsp de mantequilla de cannabis derretida",
+      "2 cucharadas de mantequilla de cannabis, derretida",
       "1 tbsp de azúcar",
       "1 tsp de vainilla",
       "Pizca de sal",
@@ -2694,15 +2694,15 @@
       "Pizca de sal"
     ],
     "instructions": [
-      "Remueve bien el frasco de miel infusionada antes de medir. Disolver la miel infusionada (y la miel normal, si se usa) en 2 cucharadas de agua tibia hasta que se disuelva por completo. La miel infusionada contiene aceite de coco, que se endurece en las bebidas frías, así que siempre hay que disolverla primero en tibio y luego remover o agitar bien la bebida antes de servir.",
+      "Remueve bien el frasco de miel infusionada antes de medir y disuelve las 2 cucharadas de miel infusionada en 2 cucharadas de agua tibia.",
       "Licuar el mango congelado, la mezcla de miel, el limón y la sal hasta obtener una mezcla suave.",
-      "Servir como helado suave o congelar 1h para una textura más firme."
+      "Reparte enseguida en 4 tazones y sirve como helado suave, o congela las 4 porciones 1h para una textura más firme. Cada tazón es una porción."
     ],
     "intro_unique": "El Sorbete de Mango Infusionado, sin lácteos, es un comestible helado y refrescante con dulzor tropical y una textura suave, fácil de servir con cuchara.",
-    "dosing_unique": "Licúa bien el jarabe de cannabis para que se reparta de forma uniforme en todo el sorbete; usa una cuchara para helado estándar al servir.",
+    "dosing_unique": "Licúa bien la mezcla de miel para que se reparta de forma uniforme en todo el sorbete y luego divídelo en 4 tazones iguales.",
     "storage_unique": "Guárdalo en un recipiente apto para congelador con plástico adherente presionado sobre la superficie para evitar cristales de hielo, hasta 2 meses.",
-    "variation_unique": "Añade un chorrito de jugo de limón y una pizca de Tajín para un sorbete de mango con chile de inspiración mexicana.",
-    "unique_src": "724e95d097209ce556357f43d94a57bbd541a4a0"
+    "variation_unique": "Añade una pizca de Tajín para un sorbete de mango con chile de inspiración mexicana.",
+    "unique_src": "b81b8302d87697ea9a8e94764c75363fedc1e901"
   },
   "cannabis-cinnamon-rolls": {
     "name": "Roles de Canela de Cannabis",
@@ -2710,14 +2710,14 @@
     "category_name": "Postres",
     "ingredients": [
       "Masa: 3 cups de harina, 2¼ tsp de levadura, ¼ cup de azúcar, 1 tsp de sal, ¾ cup de leche tibia, 2 huevos, 1½ tbsp de mantequilla de cannabis + 2 tbsp de mantequilla sin sal",
-      "Relleno: 1½ tbsp de mantequilla de cannabis + 2 tbsp de mantequilla sin sal, ½ cup de azúcar morena, 2 tbsp de canela",
-      "Glaseado: 1 cup de azúcar glass, 2 tsp de mantequilla de cannabis + 1½ tbsp de mantequilla sin sal, 2 tbsp de leche"
+      "Relleno: 6½ cucharaditas de mantequilla de cannabis + 2 cucharadas de mantequilla sin sal, blandas, ½ taza de azúcar morena, 2 cucharadas de canela",
+      "Glaseado: 1 taza de azúcar glass, 6½ cucharaditas de mantequilla sin sal derretida, 2 cucharadas de leche"
     ],
     "instructions": [
-      "Mezclar y amasar la masa por 8 min. Dejar levar 1h.",
-      "Estirar, untar con mantequilla de cannabis, azúcar morena y canela.",
+      "Entibia la leche. Mezcla la harina, la levadura, el azúcar y la sal; añade la leche, los huevos y la mantequilla de cannabis y la mantequilla blandas. Amasa 8 min hasta que esté lisa. Cubre y deja levar 1h, hasta que casi duplique su tamaño.",
+      "Estira la masa y unta de manera pareja las mantequillas blandas del relleno (mantequilla de cannabis y mantequilla mezcladas); luego espolvorea el azúcar morena y la canela.",
       "Enrollar bien apretado, cortar en 12 rollos; un rollo es una porción. Dejar levar 30 min. Hornear a 375°F por 20-25 min.",
-      "Glasear con el glaseado de cannabis mientras están calientes."
+      "Bate el azúcar glass, la mantequilla derretida y la leche hasta que quede suave; glasea los rollos calientes."
     ],
     "intro_unique": "Los Roles de Canela de Cannabis, suaves y esponjosos, con espirales de mantequilla infusionada con cannabis y terminados con un glaseado mantecoso, son un comestible indulgente para el brunch del fin de semana.",
     "dosing_unique": "Extiende la masa en un rectángulo uniforme y córtala en porciones iguales con hilo dental para obtener roles perfectamente parejos.",
@@ -3092,22 +3092,23 @@
       "3 tazas de arroz cocido del día anterior (refrigerado dentro de 1 hora después de cocinarlo)",
       "3 huevos batidos",
       "1 cucharada de aceite de coco infusionado, derretido + 1 cucharada de aceite de sésamo tostado",
-      "3 dientes de ajo",
-      "1 cup de arvejas congeladas",
-      "4 tbsp de salsa de soya",
+      "1 cucharada de aceite neutro, para saltear",
+      "3 dientes de ajo picados",
+      "1 taza de arvejas congeladas",
+      "4 cucharadas de salsa de soya",
       "Cebollín, semillas de sésamo"
     ],
     "instructions": [
-      "Saltear el arroz en aceite regular hasta que quede ligeramente crujiente.",
+      "Calienta el aceite neutro en un wok o sartén grande a fuego alto; saltea el arroz hasta que quede ligeramente crujiente.",
       "Apartar a un lado; revolver los huevos.",
       "Agregar el ajo y las arvejas; mezclar todo. Agregar la salsa de soya.",
-      "Fuera del fuego: rociar el aceite de coco infusionado y el aceite de sésamo y mezclar. Decorar."
+      "Fuera del fuego: rociar el aceite de coco infusionado y el aceite de sésamo y mezclar. Repartir en 4 tazones y decorar con cebollín y semillas de sésamo."
     ],
     "intro_unique": "El Arroz Frito con Huevo Infusionado es un comestible rápido para cualquier noche entre semana que transforma el arroz del día anterior con aceite infusionado, huevos revueltos y salsa de soya.",
-    "dosing_unique": "Rocía el aceite de sésamo infusionado sobre el arroz fuera del fuego, mezcla bien y luego divide en porciones iguales por peso.",
+    "dosing_unique": "Rocía el aceite de coco infusionado y el aceite de sésamo sobre el arroz fuera del fuego, mezcla bien y luego divide en 4 porciones iguales por peso. 1 porción = ¼ de la sartén.",
     "storage_unique": "Enfría las sobras rápido y refrigéralas antes de 1 hora; cómelas en un día y recaliéntalas solo una vez, hasta que humeen.",
     "variation_unique": "Añade salchicha china (lap cheong) en cubitos y cebollín para un arroz frito al estilo cantonés con profundidad agridulce.",
-    "unique_src": "478694abf5712bd3d943505bb11f2d2193fa6840"
+    "unique_src": "4af5acc22cea56dccad7b798fbffb5fea421c966"
   },
   "cannabis-grilled-salmon": {
     "name": "Salmón a la Plancha con Cannabis",
@@ -3309,7 +3310,7 @@
       "Combinar la leche condensada, el cacao en polvo, la mantequilla de cannabis y una pizca de sal en una olla a fuego medio-bajo.",
       "Revolver constantemente hasta que la mezcla espese y se despegue de los lados de la olla, aproximadamente 10-15 min.",
       "Transferir a un plato engrasado y dejar enfriar a temperatura ambiente.",
-      "Engrasar las manos con mantequilla, formar 24 bolitas del mismo tamaño y cubrir con chispas de chocolate.",
+      "Engrasar las manos con un poco de mantequilla normal (sin cannabis), formar 24 bolitas del mismo tamaño y cubrir con chispas de chocolate.",
       "Colocar en capacillos de mini cupcake y refrigerar hasta que estén firmes."
     ],
     "intro_unique": "Los Brigadeiros Infusionados son las queridas trufas de chocolate brasileñas hechas con leche condensada, cacao y mantequilla de cannabis, formadas en bolitas de un bocado.",
@@ -3556,7 +3557,7 @@
       "2 cucharadas de mantequilla de cannabis",
       "2 cucharadas de harina de trigo",
       "1 taza de leche entera",
-      "2 tazas de queso cheddar rallado",
+      "2 tazas (225 g) de queso cheddar fuerte, rallado del bloque",
       "1/2 taza de tomates en cubos con chiles verdes",
       "1/2 cucharadita de ajo en polvo",
       "1/4 cucharadita de pimentón ahumado",
@@ -3570,11 +3571,11 @@
       "Incorpora los tomates en cubos, el ajo en polvo y el pimentón ahumado.",
       "Sazona con sal y pimienta. Sirve caliente con nachos, pretzels o verduras."
     ],
-    "intro_unique": "Este aterciopelado Dip de Queso de Cannabis se prepara desde cero con cheddar de verdad y un roux de mantequilla de cannabis, para una entrada rica para compartir.",
+    "intro_unique": "Este aterciopelado Dip de Queso de Cannabis, un queso con cannabis, se prepara desde cero con cheddar de verdad y un roux de mantequilla de cannabis, para una entrada rica para compartir.",
     "dosing_unique": "Reparte el dip en 8 cuencos pequeños, uno por porción, y no lo dejes fuera más de 2 horas.",
     "storage_unique": "Guarda las sobras en un recipiente hermético en el refrigerador hasta 3 días y recaliéntalas suavemente en la estufa con un chorrito de leche.",
     "variation_unique": "Añade chorizo desmenuzado, jalapeños en cubos o un chorrito de cerveza para un queso fundido más contundente y con más profundidad de sabor.",
-    "unique_src": "c9cd89c34aed23710933befc91feef512152503c"
+    "unique_src": "c1c8d5acff7cc944d6e7b43d35b0314aa42e0282"
   },
   "infused-stuffed-jalapenos": {
     "name": "Jalapeños Rellenos Infusionados",
@@ -3898,7 +3899,7 @@
     ],
     "instructions": [
       "Cubre una bandeja con papel pergamino. Mezcla la mantequilla de maní con la mantequilla de cannabis derretida hasta integrar.",
-      "Unta una cucharadita de la mezcla de mantequilla de maní en una rodaja de plátano y cúbrela con otra rodaja. Repite con todas.",
+      "Coloca las rodajas de plátano en pares y cuenta los pares. Reparte toda la mezcla de mantequilla de maní con cannabis por igual entre ellos (una cuchara pequeña o una báscula ayudan) y cubre cada uno con su segunda rodaja.",
       "Congela por 30 minutos hasta que estén firmes.",
       "Derrite las chispas de chocolate con el aceite de coco en baño maría o microondas.",
       "Rocía el chocolate sobre los bocaditos congelados. Espolvorea con sal en escamas y maní triturado si deseas.",
@@ -4084,14 +4085,14 @@
     "ingredients": [
       "6,4 gramos de cannabis molida",
       "1 taza de azúcar granulada blanca",
-      "3 cucharadas de alcohol de alta graduación para la extracción de la tintura"
+      "Al menos 3 cucharadas de alcohol de alta graduación, lo suficiente para cubrir la flor"
     ],
     "instructions": [
       "Descarboxila la cannabis: Precalienta el horno a 115°C. Extiende la cannabis en una bandeja con papel pergamino y hornea por 40 minutos, removiendo a la mitad.",
-      "Coloca la cannabis descarboxilada en un frasco de vidrio y cúbrela con el alcohol. Cierra y agita vigorosamente por 5 minutos, luego cuela con tela fina.",
+      "Coloca la cannabis descarboxilada en un frasco de vidrio y vierte suficiente alcohol para cubrirla (al menos 3 cucharadas). Cierra y agita vigorosamente por 5 minutos, luego cuela con tela fina.",
       "En un molde de vidrio, extiende el azúcar uniformemente. Vierte la tintura colada sobre el azúcar y mezcla bien.",
       "Extiende en capa fina y deja evaporar el alcohol a temperatura ambiente, en un lugar bien ventilado y lejos de llamas o fuentes de calor, por 24-48 horas, removiendo ocasionalmente.",
-      "Cuando esté completamente seca, deshaz los grumos con un tenedor. El azúcar tendrá un color ligeramente dorado.",
+      "Cuando esté completamente seca, deshaz los grumos con un tenedor y remueve bien el azúcar para que cada cucharadita tenga la misma dosis. El azúcar tendrá un color ligeramente dorado.",
       "Guárdalo en un recipiente hermético en un lugar fresco y oscuro. Cada cucharadita tiene unos 15 mg con 14% de THC, así que no lo cambies 1:1 por azúcar: usa como máximo 1 cucharadita por porción y completa el azúcar de la receta con azúcar normal."
     ],
     "intro_unique": "El Azúcar de Cannabis es un método de infusión sin grasa que te permite añadir THC a cualquier receta o bebida en la que uses azúcar común.",
@@ -4113,13 +4114,13 @@
       "Deja enfriar completamente la cannabis descarboxilada. Muele hasta obtener un polvo muy fino usando un molinillo de café o especias.",
       "Cierne la harina de trigo en un tazón grande. Agrega el polvo de cannabis y mezcla bien.",
       "Cierne la mezcla 2-3 veces más para asegurar una distribución uniforme. La harina tendrá un tono ligeramente verdoso.",
-      "Guarda la harina de cannabis en un recipiente hermético en un lugar fresco y oscuro hasta 3 meses. Nunca la comas cruda: hornéala o cocínala como cualquier harina. Cada cucharadita tiene unos 15 mg con 14% de THC, así que no reemplaces toda la harina de la receta: usa como máximo 1 cucharadita por porción (¼ de taza para 12 porciones) y completa con harina normal."
+      "Guarda la harina de cannabis en un recipiente hermético en un lugar fresco y oscuro. Nunca la comas cruda: hornéala o cocínala como cualquier harina. Cada cucharadita tiene unos 15 mg con 14% de THC, así que no reemplaces toda la harina de la receta: usa como máximo 1 cucharadita por porción (¼ de taza para 12 porciones) y completa con harina normal."
     ],
     "intro_unique": "La Harina de Cannabis es la base de infusión más sencilla que puedes preparar: solo necesitas cannabis descarboxilado y harina de trigo de uso general bien mezclados.",
     "dosing_unique": "Una porción es 1 cucharadita de harina de cannabis, unos 15 mg con 14% de THC; reemplaza solo esa cantidad de la harina de la receta por porción.",
     "storage_unique": "Guárdala en un frasco o bolsa hermética en el congelador hasta 6 meses para preservar la potencia, o en una alacena fresca y oscura hasta 3 meses.",
-    "variation_unique": "Usa harina integral o harina de almendra como base para una alternativa sin gluten o alta en proteínas.",
-    "unique_src": "d1bfd1eb16f9287545d18fd0ab8ebc4de722b542"
+    "variation_unique": "Usa harina de almendra para una versión sin gluten, o harina integral para un sabor más a nuez.",
+    "unique_src": "161a704b39e8c5a898662e5e59232d171fa72000"
   },
   "cannabis-tincture": {
     "name": "Tintura de Cannabis",
@@ -4135,10 +4136,10 @@
     "instructions": [
       "Descarboxila la cannabis: Precalienta el horno a 115°C. Extiende la cannabis en una bandeja forrada y hornea por 40 minutos, removiendo a la mitad.",
       "Coloca la cannabis descarboxilada enfriada en un frasco de vidrio limpio. Vierte el alcohol hasta cubrir completamente. Trabaja lejos de llamas, estufas y calefactores: el vapor del alcohol de alta graduación se enciende con facilidad.",
-      "Cierra bien el frasco. Para extracción rápida, agita vigorosamente por 3-5 minutos. Para una tintura más fuerte, guarda en un lugar fresco y oscuro por 2-4 semanas, agitando diariamente.",
+      "Cierra bien el frasco. Para extracción rápida, agita por 3-5 minutos. Para una tintura más fuerte, guarda en un lugar fresco y oscuro por 2-4 semanas, agitando diariamente.",
       "Cuela la tintura con tela fina, exprimiendo para extraer todo el líquido. Desecha el material vegetal.",
       "Transfiere a un frasco cuentagotas de vidrio oscuro. Comienza con 1 mL bajo la lengua y espera 15-30 minutos.",
-      "Guarda en lugar fresco y oscuro. La tintura dura varios años si se almacena correctamente. Agita antes de usar."
+      "Guarda en lugar fresco y oscuro. Agita antes de usar."
     ],
     "intro_unique": "La Tintura de Cannabis es una de las preparaciones de cannabis más versátiles: permite dosificar por vía sublingual o añadirla fácilmente a prácticamente cualquier comida o bebida.",
     "dosing_unique": "Empieza con 1 mL (un gotero lleno) debajo de la lengua y espera al menos 30 minutos antes de tomar más; la absorción sublingual es más rápida que la de los comestibles.",
@@ -4822,7 +4823,7 @@
     "category_name": "Bebidas",
     "ingredients": [
       "2 tazas de leche entera o leche de avena",
-      "2 cucharaditas de aceite de coco infundido con cannabis + 1½ cucharadas de aceite de coco",
+      "2 cucharaditas de aceite de coco infundido con cannabis",
       "1 cucharadita de cúrcuma en polvo",
       "1/2 cucharadita de canela en polvo",
       "1/4 cucharadita de jengibre en polvo",
@@ -4832,9 +4833,9 @@
     "instructions": [
       "Calienta la leche en una cacerola a fuego bajo. No dejes que hierva.",
       "Agrega el aceite de coco de cannabis, cúrcuma, canela, jengibre y pimienta. Bate continuamente hasta incorporar.",
-      "Cocina suavemente 5 minutos, manteniendo la temperatura por debajo de 80°C.",
+      "Cocina suavemente 5 minutos, removiendo de vez en cuando, sin dejar que hierva.",
       "Retira del fuego y agrega miel o sirope de arce al gusto.",
-      "Vierte en tazas, colando si deseas una textura más suave.",
+      "Bate o espuma una vez más y vierte en 2 tazas iguales (colando, si quieres).",
       "Una taza por porción — espera 60-90 minutos antes de tomar otra."
     ],
     "intro_unique": "La Leche Dorada de Cannabis mezcla cúrcuma, canela y jengibre en leche tibia con aceite de coco con cannabis, para una bebida dorada y acogedora por la noche.",
@@ -4849,7 +4850,7 @@
     "category_name": "Bebidas",
     "ingredients": [
       "1 taza de arroz blanco de grano largo",
-      "1 cucharada de aceite de coco infundido con cannabis + 1 cucharada de aceite de coco",
+      "1 cucharada de aceite de coco infundido con cannabis",
       "4 tazas de agua",
       "1 rama de canela",
       "1/2 taza de azúcar",
@@ -4861,7 +4862,7 @@
       "Lava el arroz y déjalo en remojo con la rama de canela en 4 tazas de agua durante al menos 4 horas o toda la noche.",
       "Retira la canela. Licúa el arroz con el agua durante 2-3 minutos.",
       "Cuela con un colador fino o tela, presionando para extraer todo el líquido.",
-      "Derrite juntos el aceite de coco infusionado y el normal. Vuelve a poner la leche de arroz en la licuadora con el azúcar, la vainilla y la leche y, con la licuadora en marcha a velocidad baja, vierte el aceite tibio; licúa 30 segundos.",
+      "Entibia el aceite de coco infusionado hasta que esté líquido. Vuelve a poner la leche de arroz en la licuadora con el azúcar, la vainilla y la leche y, con la licuadora en marcha a velocidad baja, vierte el aceite tibio; licúa 30 segundos.",
       "Refrigera al menos 2 horas.",
       "Agita o licúa de nuevo unos segundos y sirve en 4 vasos con hielo. Espolvorea canela molida en cada vaso.",
       "Un vaso por porción. Espera 2 horas a que haga efecto antes de tomar más."
@@ -4906,7 +4907,7 @@
     "category_name": "Bebidas",
     "ingredients": [
       "1 taza de trozos de piña",
-      "2 cucharaditas de aceite de coco infundido con cannabis + 1½ cucharadas de aceite de coco",
+      "2 cucharaditas de aceite de coco infundido con cannabis",
       "1/2 taza de crema de coco",
       "60ml de ron blanco",
       "1 taza de hielo",
@@ -4917,7 +4918,7 @@
       "Calienta suavemente el aceite de coco de cannabis y mézclalo con la crema de coco hasta que esté suave.",
       "Agrega la crema de coco con cannabis, piña, ron, azúcar y hielo a la licuadora.",
       "Licúa a velocidad alta 30-45 segundos hasta que esté suave y espumoso.",
-      "Vierte en un vaso alto. Decora con piña y cereza.",
+      "Reparte por igual entre 2 vasos altos (licúa unos segundos más si empieza a separarse antes de servir el segundo). Decora con piña y cereza.",
       "Esta receta rinde 2 porciones; no bebas ambas a la vez. El alcohol hace que el THC pegue más fuerte, así que espera al menos 2 horas antes de un segundo vaso."
     ],
     "intro_unique": "Esta Piña Colada de Cannabis es una escapada tropical en un vaso: coco, piña y ron licuados con una suave infusión de THC para el mejor ambiente de playa.",
@@ -5084,15 +5085,15 @@
       "En una olla mediana, combina el agua, la mantequilla regular, la mantequilla de cannabis, el azúcar y la sal. Lleva a ebullición a fuego medio, revolviendo hasta que las mantequillas estén completamente derretidas.",
       "Retira del fuego y agrega la harina de una vez, mezclando vigorosamente hasta que se forme una bola de masa suave que se despegue de los lados de la olla.",
       "Deja enfriar la masa 2-3 minutos, luego bate los huevos uno a la vez hasta que la masa quede suave y brillante. Transfiere a una manga pastelera con boquilla de estrella.",
-      "Calienta el aceite vegetal a 175°C en una olla profunda. Extruye trozos de 3-5 cm de masa directamente en el aceite, cortando con tijeras. Fríe en tandas por 2-3 minutos hasta que estén dorados.",
+      "Calienta el aceite vegetal a 175°C en una olla profunda. Extruye trozos de 3-5 cm de masa directamente en el aceite, cortando con tijeras. Fríe unos pocos a la vez, para que el aceite se mantenga a 175°C, por 2-3 minutos hasta que estén dorados.",
       "Retira con una espumadera, escurre brevemente en papel absorbente y pasa inmediatamente por la mezcla de canela y azúcar.",
-      "Cuenta los churros y repártelos por igual en 8 porciones. Sirve calientes con salsa de chocolate para mojar."
+      "Cuenta los churros y repártelos por igual en 8 porciones. Sirve calientes con salsa de chocolate para mojar, si quieres (sin cannabis)."
     ],
-    "intro_unique": "Estos Mini Churros de Cannabis tienen todo el sabor a canela y azúcar de los churros tradicionales, con la mantequilla de cannabis integrada directamente en la masa tipo choux.",
+    "intro_unique": "Estos Mini Churros de Cannabis tienen todo el sabor a canela y azúcar de los churros tradicionales, con la mantequilla de cannabis mezclada directamente en la masa tipo choux.",
     "dosing_unique": "La mantequilla de cannabis se mezcla con la masa antes de freír, y hacer piezas uniformes del tamaño de un bocado asegura que cada churro tenga la misma dosis.",
     "storage_unique": "Los mini churros se disfrutan mejor frescos y calientes; guarda las sobras en un recipiente hermético y recaliéntalas en el horno a 350°F durante 5 minutos para recuperar lo crujiente.",
     "variation_unique": "Báñalos con dulce de leche o Nutella en lugar de salsa de chocolate, o espolvoréalos con matcha en polvo y azúcar para una combinación de sabores original.",
-    "unique_src": "b3d0dd7648e913b99a29058820c2a5a0aa813f02"
+    "unique_src": "8b1c1da886015f9b575ed4c5d7c31b9bdf9f091f"
   },
   "cannabis-pozole": {
     "name": "Pozole de Cannabis",
@@ -5247,7 +5248,7 @@
     "description": "Un impresionante pastel red velvet infusionado con cannabis, con miga tierna y cobertura de queso crema, perfectamente dosificado para una experiencia de postre decadente.",
     "category_name": "Postres",
     "ingredients": [
-      "1/4 taza de mantequilla de cannabis",
+      "1/4 taza de mantequilla de cannabis, ablandada",
       "2 1/2 tazas de harina de trigo",
       "1 1/2 tazas de azúcar granulada",
       "1/2 taza de mantequilla regular ablandada",
@@ -5256,12 +5257,13 @@
       "2 cucharadas de colorante rojo para alimentos",
       "2 cucharadas de cacao en polvo sin azúcar",
       "1 cucharadita de cada uno: extracto de vainilla, vinagre blanco, bicarbonato de sodio",
-      "225 g de queso crema, 1/2 taza de mantequilla, 3 tazas de azúcar glass (para la cobertura)"
+      "1 cucharadita de sal",
+      "340 g de queso crema, 3/4 taza de mantequilla, 4 1/2 tazas de azúcar glass, 2 cucharaditas de extracto de vainilla (para la cobertura)"
     ],
     "instructions": [
-      "Precalienta el horno a 175°C. Engrasa y enharina dos moldes redondos de 23 cm. Derrite la mantequilla de cannabis y deja enfriar ligeramente.",
-      "Bate la mantequilla regular ablandada, la mantequilla de cannabis derretida y el azúcar hasta que estén ligeras y esponjosas. Agrega los huevos uno a la vez y luego la vainilla.",
-      "Mezcla el cacao en polvo con el colorante rojo para formar una pasta y agrégala a la mezcla de mantequilla. Alterna agregando la harina y el suero de leche en tres adiciones, mezclando hasta incorporar.",
+      "Precalienta el horno a 175°C. Engrasa y enharina dos moldes redondos de 23 cm. Deja que la mantequilla de cannabis y la mantequilla regular se ablanden a temperatura ambiente.",
+      "Bate la mantequilla de cannabis y la mantequilla ablandadas con el azúcar hasta que estén ligeras y esponjosas. Agrega los huevos uno a la vez y luego la vainilla.",
+      "Mezcla el cacao en polvo con el colorante rojo para formar una pasta y agrégala a la mezcla de mantequilla. Mezcla la harina con la sal y alterna agregando la harina y el suero de leche en tres adiciones, mezclando hasta incorporar.",
       "Mezcla el vinagre con el bicarbonato de sodio e incorpóralo suavemente a la masa. Divide entre los moldes preparados.",
       "Hornea por 28-32 minutos hasta que un palillo salga limpio. Enfría en los moldes por 10 minutos, luego desmolda sobre rejillas para enfriar completamente.",
       "Para la cobertura, bate el queso crema y la mantequilla hasta que estén suaves, luego agrega gradualmente el azúcar glass y la vainilla. Cubre entre las capas y por todo el pastel. Refrigera hasta servir."
@@ -5269,15 +5271,15 @@
     "intro_unique": "Este Pastel Red Velvet de Cannabis combina la clásica miga ácida de suero de leche con mantequilla de cannabis, para un postre espectacular que se ve tan bien como sabe.",
     "dosing_unique": "La mantequilla de cannabis se bate con la masa y se divide entre dos capas de pastel, así cada una de las 12 rebanadas ofrece una dosis constante.",
     "storage_unique": "Guarda el pastel con betún en el refrigerador hasta 4 días; déjalo a temperatura ambiente 20 minutos antes de servir para la mejor textura.",
-    "variation_unique": "Prepara cupcakes red velvet para controlar más fácilmente las porciones, o añade una capa de mermelada de fresa entre las capas del pastel para un toque afrutado extra.",
-    "unique_src": "df9e9dcd4cafb547ee53ecacf643800abccc0cbd"
+    "variation_unique": "Hornea 12 cupcakes con la misma masa para que cada cupcake sea una porción (la misma dosis que una rebanada), o añade una capa de mermelada de fresa entre las capas del pastel para un toque afrutado extra.",
+    "unique_src": "32528a3308c9a116d7a2b349416a02d87eea1a20"
   },
   "cannabis-snickerdoodle-cookies": {
     "name": "Galletas Snickerdoodle de Cannabis",
     "description": "Galletas snickerdoodle suaves y masticables infusionadas con cannabis, rebozadas en azúcar con canela, ofreciendo el sabor clásico de galleta reconfortante con THC dosificado.",
     "category_name": "Postres",
     "ingredients": [
-      "1/2 taza de mantequilla de cannabis",
+      "1/2 taza de mantequilla de cannabis, blanda",
       "1/2 taza de mantequilla regular ablandada",
       "1 1/2 tazas de azúcar granulada",
       "2 huevos grandes",
@@ -5296,10 +5298,10 @@
       "Deja enfriar en la charola por 5 minutos antes de transferir a una rejilla. Rinde aproximadamente 24 galletas."
     ],
     "intro_unique": "Estas Galletas Snickerdoodle de Cannabis ofrecen la querida experiencia de una galleta ligeramente ácida y cubierta de canela, con mantequilla de cannabis mezclada en la masa para un antojo medicinal confiable.",
-    "dosing_unique": "La mantequilla de cannabis se distribuye de manera uniforme en la masa, y porcionarla en 24 galletas iguales te permite calcular fácilmente la dosis por galleta.",
-    "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente hasta 5 días, o congela las galletas horneadas hasta 2 meses.",
+    "dosing_unique": "La mantequilla de cannabis se distribuye de manera uniforme en la masa, y porcionarla en 24 galletas iguales te permite calcular fácilmente la dosis por galleta. Una galleta es una porción.",
+    "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente hasta 5 días, o congela las galletas horneadas para conservarlas más tiempo.",
     "variation_unique": "Añade un puñado de chispas de chocolate blanco para una versión más dulce, o rebózalas en mezcla de especias chai en lugar de azúcar con canela para un perfil de sabor único.",
-    "unique_src": "c4242d0958708d3275ea2f9c5b536a1b6a587433"
+    "unique_src": "33535ee9c6f51d4fefe3cf5e213be4de8e61c190"
   },
   "cannabis-pumpkin-pie": {
     "name": "Pay de Calabaza de Cannabis",
@@ -5405,7 +5407,7 @@
       "2 cucharadas de azúcar glass"
     ],
     "instructions": [
-      "Precalienta el horno a 175°C. Derrite la mantequilla de cannabis y la mantequilla regular juntas a fuego bajo. Mezcla con la galleta molida y presiona firmemente en el fondo y los lados de un molde de pay de 23 cm. Hornea por 8 minutos y deja enfriar.",
+      "Precalienta el horno a 175°C. Derrite la mantequilla de cannabis y la mantequilla regular juntas a fuego bajo. Mezcla con la galleta molida y presiona con firmeza y de manera pareja (usa el fondo de una taza medidora) en el fondo y los lados de un molde de pay de 23 cm. Hornea por 8 minutos y deja enfriar.",
       "Bate las yemas hasta que estén claras. Agrega la leche condensada, el jugo de limón key y la ralladura. Mezcla hasta que quede homogéneo y ligeramente espeso.",
       "Vierte el relleno en la base enfriada infusionada con cannabis.",
       "Hornea por 15 minutos hasta que el relleno esté firme. Aún debe tener un ligero movimiento en el centro. Deja enfriar a temperatura ambiente y refrigera por al menos 4 horas.",
@@ -5413,9 +5415,9 @@
     ],
     "intro_unique": "Este Pay de Limón Key de Cannabis tiene una base de galleta graham infusionada con mantequilla de cannabis que combina a la perfección con el relleno cítrico, cremoso y ácido, para un postre medicinal refrescante.",
     "dosing_unique": "La mantequilla de cannabis se hornea en la base y queda distribuida de manera uniforme, así cada una de las 8 rebanadas lleva la misma dosis.",
-    "storage_unique": "Mantenlo refrigerado hasta 3 días; el pay debe estar frío para tener la mejor textura. No lo congeles, ya que el relleno puede separarse.",
+    "storage_unique": "Mantenlo refrigerado hasta 3 días; el pay debe estar frío para tener la mejor textura.",
     "variation_unique": "Usa limones normales si no consigues limones key, o prepara tartaletas individuales en un molde para muffins para controlar mejor las porciones y lograr una presentación más elegante.",
-    "unique_src": "fea7fbd64954a9877fea1e6fa465e02721cf1357"
+    "unique_src": "2372546b99737be2126bc2d1b0735076527fbe19"
   },
   "cannabis-french-toast": {
     "name": "Tostadas Francesas de Cannabis",
@@ -5458,7 +5460,7 @@
       "Pizca de sal"
     ],
     "instructions": [
-      "Precalienta el horno a 165°C. Coloca 6 ramequines en una charola honda para hornear.",
+      "Precalienta el horno a 165°C. Coloca 6 ramequines (de ½ taza / 120 ml cada uno) en una charola honda para hornear.",
       "En una olla pequeña, calienta la crema y la mantequilla de cannabis a fuego medio-bajo hasta que la mantequilla se derrita completamente y la crema comience a humear. No dejes que hierva. Retira del fuego y agrega la vainilla.",
       "En un recipiente, bate las yemas, el azúcar y la sal hasta que estén suaves y claras. Vierte lentamente la crema infusionada con cannabis sobre la mezcla de huevos, batiendo constantemente para temperar los huevos.",
       "Cuela la natilla por un colador fino para eliminar grumos. Divide uniformemente entre los ramequines.",
@@ -5476,8 +5478,7 @@
     "description": "Barras s'mores pegajosas infusionadas con cannabis, con base de galleta, chocolate derretido y malvaviscos tostados — sabor de fogata con un toque medicinal.",
     "category_name": "Postres",
     "ingredients": [
-      "3 cucharadas de mantequilla de cannabis + 1 cucharada de mantequilla sin sal",
-      "1/4 taza de mantequilla regular derretida",
+      "3 cucharadas de mantequilla de cannabis + 5 cucharadas de mantequilla sin sal",
       "2 tazas de galleta molida tipo María",
       "1/4 taza de azúcar morena compacta",
       "2 tazas de chispas de chocolate semiamargo",
@@ -5485,8 +5486,8 @@
       "1/4 taza de crema para batir"
     ],
     "instructions": [
-      "Precalienta el horno a 175°C. Forra un molde de 23x23 cm con papel encerado.",
-      "Derrite la mantequilla de cannabis y la mantequilla regular juntas a fuego bajo. Mezcla con la galleta molida y el azúcar morena. Presiona firmemente en el fondo del molde preparado.",
+      "Precalienta el horno a 175°C. Forra un molde de 23x23 cm con papel de aluminio, dejando que sobresalga, y engrasa el aluminio.",
+      "Derrite juntas la mantequilla de cannabis y la mantequilla a fuego bajo. Mezcla con la galleta molida y el azúcar morena. Presiona con firmeza y de manera pareja en el fondo del molde preparado.",
       "Hornea la base por 8 minutos. Retira del horno y cambia a la función gratinador.",
       "Calienta las chispas de chocolate con la crema en el microondas en intervalos de 30 segundos, revolviendo entre cada uno, hasta que quede homogéneo. Vierte el chocolate uniformemente sobre la base caliente.",
       "Extiende los mini malvaviscos en una capa uniforme sobre el chocolate. Gratina por 1-2 minutos, vigilando constantemente, hasta que los malvaviscos estén dorados y tostados.",
@@ -5519,7 +5520,7 @@
       "Derrite la mantequilla de cannabis y la mantequilla regular juntas a fuego bajo. Deja enfriar ligeramente.",
       "En un recipiente grande, mezcla la harina, el azúcar, el polvo para hornear y la sal. En otro recipiente, bate los huevos, la leche, la vainilla y la mezcla de mantequillas derretidas infusionadas con cannabis.",
       "Vierte los ingredientes húmedos sobre los secos y mezcla hasta incorporar — no mezcles en exceso. Incorpora las chispas de chocolate.",
-      "Divide la masa uniformemente entre las 12 cavidades, llenando cada una aproximadamente 2/3.",
+      "Divide la masa uniformemente entre las 12 cavidades, llenando cada una aproximadamente 2/3. 1 porción = 1 muffin.",
       "Hornea por 18-22 minutos hasta que los topos estén dorados y un palillo salga limpio. Enfría en el molde por 5 minutos antes de transferir a una rejilla."
     ],
     "intro_unique": "Estos Muffins de Chispas de Chocolate de Cannabis son esponjosos, dorados y llenos de bolsitas de chocolate derretido: una forma perfectamente porcionada de disfrutar un horneado medicinal.",
@@ -5546,17 +5547,17 @@
     ],
     "instructions": [
       "Precalienta el horno a 175°C. Engrasa un molde de 23x33 cm con mantequilla regular.",
-      "Derrite la mantequilla de cannabis a fuego bajo. En un recipiente grande, mezcla la leche, la crema, los huevos, el azúcar, la mantequilla de cannabis derretida, la vainilla, la canela y la nuez moscada hasta combinar bien.",
+      "Calienta la leche y la crema con la mantequilla de cannabis y la mantequilla a fuego bajo, solo hasta que la mantequilla se derrita; no dejes que hierva. En un recipiente grande, bate los huevos, el azúcar, la vainilla, la canela y la nuez moscada, y luego incorpora poco a poco la mezcla de leche tibia.",
       "Extiende los cubos de pan en el molde preparado y distribuye las pasas encima si las usas. Vierte la mezcla de crema infusionada con cannabis uniformemente sobre el pan. Presiona el pan suavemente para ayudar a absorber el líquido.",
       "Deja reposar el budín por 15-20 minutos para que el pan absorba completamente la crema.",
       "Hornea por 45-50 minutos hasta que la superficie esté dorada y la crema esté firme. Un cuchillo insertado en el centro debe salir limpio, o el centro debe marcar 160°F (71°C).",
       "Deja enfriar 10 minutos. Sirve caliente, rociado con salsa de vainilla o bourbon y una bola de helado de vainilla."
     ],
     "intro_unique": "Este Budín de Pan de Cannabis transforma el pan del día anterior en un postre tibio de natilla especiada, con mantequilla de cannabis derretida en el líquido de remojo para un capricho medicinal indulgente.",
-    "dosing_unique": "La mantequilla de cannabis se disuelve en la natilla y empapa de manera uniforme los cubos de pan, así que cada una de las 10 porciones queda con la misma dosis.",
+    "dosing_unique": "La mantequilla de cannabis se disuelve en la natilla y empapa de manera uniforme los cubos de pan, así que cada una de las 10 porciones queda con la misma dosis. Corta en 10 trozos iguales (2 filas de 5); cada trozo es una porción.",
     "storage_unique": "Refrigera las sobras hasta 3 días y recalienta las porciones individuales en el microondas durante 30-45 segundos o en el horno a 325°F durante 10 minutos.",
     "variation_unique": "Añade chispas de chocolate y usa croissants en lugar de brioche para un budín de croissant con chocolate, o incorpora duraznos frescos y usa salsa de bourbon para una versión de estilo sureño.",
-    "unique_src": "a40ea0dadcd9df19fe022d8067afa9b332b92a1b"
+    "unique_src": "dc34a01238b868a231ce62e16590269d8ebe7c05"
   },
   "cannabis-pecan-pie": {
     "name": "Pay de Nuez de Cannabis",
@@ -5630,11 +5631,11 @@
       "1 cucharada de mantequilla regular derretida"
     ],
     "instructions": [
-      "Forra un molde de muffins de 12 cavidades con capacillos de papel (o usa un molde de mini muffins para copas más pequeñas).",
+      "Forra un molde de muffins de 12 cavidades con capacillos de papel.",
       "Derrite las chispas de chocolate con el aceite de coco infusionado con cannabis a baño María o en el microondas (en intervalos de 30 segundos, revolviendo entre cada uno) hasta que quede completamente homogéneo.",
       "Coloca aproximadamente 1 cucharada del chocolate infusionado con cannabis en cada capacillo y usa el dorso de la cuchara para empujar el chocolate ligeramente hacia los lados. Congela por 10 minutos hasta que esté firme.",
       "Mezcla la mantequilla de maní, el azúcar glass, la mantequilla derretida y la sal hasta que quede homogéneo. Forma 12 pequeños discos y coloca uno sobre cada capa de chocolate.",
-      "Vierte el chocolate restante sobre el relleno de mantequilla de maní, cubriéndolo completamente. Golpea el molde en la mesa para nivelar el chocolate.",
+      "Reparte el chocolate restante por igual entre las 12 copas, cubriendo completamente el relleno de mantequilla de maní. Golpea el molde en la mesa para nivelar el chocolate.",
       "Refrigera por al menos 1 hora hasta que esté completamente firme. Espolvorea con sal en hojuelas antes de servir si lo deseas. Almacena en el refrigerador."
     ],
     "intro_unique": "Estas Copas de Mantequilla de Maní de Cannabis caseras derriten aceite de coco infusionado con cannabis en la cubierta de chocolate, para un dulce suave y perfectamente dosificado que compite con cualquier golosina comprada.",
@@ -5741,7 +5742,7 @@
       "1 cucharada de mantequilla de cannabis + 1 cucharada de mantequilla sin sal",
       "450g de camarones grandes, pelados y desvenados (si están congelados, descongélalos en el refrigerador durante la noche)",
       "4 dientes de ajo picados",
-      "2 cucharadas de mantequilla regular",
+      "2 cucharadas de mantequilla regular (para sellar)",
       "Jugo de 1 limón",
       "1/4 taza de vino blanco seco",
       "2 cucharadas de perejil fresco picado",
@@ -5751,16 +5752,16 @@
     "instructions": [
       "Seca los camarones con papel de cocina y sazona con sal, pimienta y hojuelas de chile rojo.",
       "Derrite la mantequilla regular en una sartén grande a fuego alto. Cocina los camarones unos 2 minutos por lado, hasta que estén firmes, nacarados y opacos. Retira y reserva.",
-      "Reduce el fuego a medio-bajo. Agrega la mantequilla de cannabis y el ajo picado, revolviendo por 1 minuto hasta que esté aromático.",
+      "Reduce el fuego a medio-bajo. Agrega la mantequilla de cannabis, la 1 cucharada de mantequilla sin sal y el ajo picado, revolviendo por 1 minuto hasta que esté aromático. No dejes que el ajo se queme.",
       "Vierte el vino blanco y el jugo de limón, raspando los trozos dorados. Cocina por 2 minutos.",
       "Devuelve los camarones a la sartén y mezcla para cubrir con la salsa de mantequilla de cannabis y ajo.",
-      "Decora con perejil fresco y sirve inmediatamente con arroz o pan crujiente."
+      "Divide los camarones en 4 platos y reparte la salsa por igual sobre cada uno; 1 porción = ¼ de los camarones con su salsa. Decora con perejil fresco y sirve inmediatamente con arroz o pan crujiente."
     ],
     "intro_unique": "Estos Camarones al Ajillo con Mantequilla de Cannabis se cocinan en minutos y ofrecen un sabor lujoso y mantecoso, con mantequilla de cannabis perfectamente medida para una dosificación precisa.",
-    "dosing_unique": "La mantequilla de cannabis se añade a fuego medio-bajo con el ajo para preservar la potencia mientras se desarrolla el sabor.",
+    "dosing_unique": "Casi toda la dosis está en la salsa: repártela por igual sobre los 4 platos. Unos 11 mg por plato con 14% de THC.",
     "storage_unique": "Se sirven mejor recién hechos; los camarones sobrantes pueden refrigerarse por 1 día, pero pueden perder textura al recalentarlos.",
     "variation_unique": "Añade un chorrito de vino blanco o sírvelos sobre linguine para convertirlos en un scampi de cannabis completo.",
-    "unique_src": "37c12953c51527c0435eaca03bfed1a385204d21"
+    "unique_src": "48dd6315eb022f840673e50b27355377e192cf21"
   },
   "cannabis-chicken-alfredo": {
     "name": "Pollo Alfredo con Cannabis",
@@ -6197,7 +6198,7 @@
     "instructions": [
       "Precalienta el horno a 163°C. Forra un molde cuadrado de 20cm con papel para hornear.",
       "En un procesador de alimentos, licúa los aguacates machacados hasta que queden completamente suaves.",
-      "Agrega la mantequilla de cannabis derretida, huevos y extracto de vainilla. Licúa hasta combinar.",
+      "Derrite juntas la mantequilla de cannabis y la mantequilla a fuego bajo y deja que se entibien. Agrégalas al aguacate con los huevos y el extracto de vainilla; licúa hasta combinar.",
       "En un tazón separado, mezcla el cacao en polvo, harina de almendras, endulzante, bicarbonato y sal.",
       "Incorpora los ingredientes secos a la mezcla húmeda hasta que se combinen. No mezcles en exceso.",
       "Vierte la masa en el molde preparado y hornea por 20-25 minutos hasta que un palillo salga con migajas húmedas.",
@@ -6380,9 +6381,9 @@
       "En un tazón grande, mezcla la avena, harina, canela, bicarbonato y sal.",
       "En otro tazón, bate el aceite de coco infusionado con cannabis derretido, jarabe de arce, azúcar de coco y extracto de vainilla.",
       "Vierte los ingredientes húmedos en los secos y mezcla hasta combinar. Incorpora las pasas.",
-      "Coloca cucharadas en la bandeja, espaciando 5cm entre ellas. Aplana ligeramente con el dorso de una cuchara.",
+      "Divide la masa en 16 bolitas iguales (unas 2 cucharadas cada una) y colócalas en la bandeja, a 5cm de distancia. Aplana ligeramente con el dorso de una cuchara.",
       "Hornea por 12-14 minutos hasta que los bordes estén dorados. Deja enfriar en la bandeja 5 minutos antes de transferir a una rejilla.",
-      "Rinde aproximadamente 16 galletas. Divide el lote equitativamente para una dosificación consistente."
+      "Rinde 16 galletas; 1 porción = 1 galleta."
     ],
     "intro_unique": "Estas Galletas de Avena Veganas con Cannabis, suaves y masticables, se endulzan de forma natural con jarabe de arce y se infusionan con aceite de coco de cannabis para un comestible saludable.",
     "dosing_unique": "El aceite de coco de cannabis se derrite en los ingredientes húmedos, lo que asegura que cada galleta tenga la misma dosis.",

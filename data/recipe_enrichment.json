@@ -2,7 +2,7 @@
   "infused-banana-bread": {
     "prepTime": "PT15M",
     "cookTime": "PT55M",
-    "totalTime": "PT1H10M",
+    "totalTime": "PT1H20M",
     "keywords": [
       "banana",
       "bread",
@@ -108,7 +108,7 @@
     "texture_type": "no_cook",
     "sub_category": "confections",
     "intro_unique": "Homemade cannabis gummy bears let you control the exact milligram dose per piece while choosing your own fruit flavors and colors.",
-    "dosing_unique": "Calculate the total THC in your infused coconut oil, divide by the number of mold cavities, and pipette the mixture precisely into each mold.",
+    "dosing_unique": "One serving is 3 bears (about 11 mg at 14% THC); one bear is about 3.7 mg. Use all of the mixture across the 48 cavities so each bear gets its share.",
     "storage_unique": "Toss finished gummies in a light coating of cornstarch and store in the fridge for up to 3 weeks to prevent sticking.",
     "variation_unique": "Use tart cherry juice instead of flavored gelatin for a natural sour gummy with real fruit flavor and antioxidants."
   },
@@ -192,7 +192,7 @@
     "texture_type": "no_cook",
     "sub_category": "confections",
     "intro_unique": "Silky cannabis caramel sauce adds a sweet, buttery drizzle of THC to ice cream, fruit, or your favorite desserts.",
-    "dosing_unique": "Measure servings with a tablespoon and note the total batch potency divided by the number of tablespoons on the jar.",
+    "dosing_unique": "1 serving = 2 level tablespoons; the batch makes 12 servings. Stir before measuring; write the mg per 2 tbsp on the jar.",
     "storage_unique": "Refrigerate in a squeeze bottle for up to 2 weeks; reheat gently in warm water before drizzling.",
     "variation_unique": "Stir in a teaspoon of espresso powder while cooking for a coffee-caramel sauce that pairs beautifully with vanilla ice cream."
   },
@@ -290,8 +290,8 @@
     "texture_type": "baked",
     "sub_category": "baked_goods",
     "intro_unique": "Tangy lemon curd atop a buttery cannabis-infused shortbread crust makes these bars a bright, citrusy alternative to chocolate edibles.",
-    "dosing_unique": "Score the slab into uniform rectangles before the curd fully sets so each bar has a precise and equal dose.",
-    "storage_unique": "Refrigerate in a single layer in an airtight container for up to 5 days; dust with powdered sugar just before serving.",
+    "dosing_unique": "Cut into 16 squares (4 × 4) once chilled, wiping the knife between cuts; each square is one serving.",
+    "storage_unique": "Refrigerate in a single layer in an airtight container for up to 4 days; dust with powdered sugar just before serving.",
     "variation_unique": "Substitute lime juice and add a pinch of chili flakes for a spicy lime bar with a Mexican-inspired kick."
   },
   "infused-carrot-cake": {
@@ -347,7 +347,7 @@
     "sub_category": "no_bake",
     "intro_unique": "Rich, dense cannabis fudge is a no-bake confection that packs deep chocolate flavor into a small, decadent square.",
     "dosing_unique": "Pour into a parchment-lined 8x8 pan and cut a 3 × 4 grid of 12 pieces, about 2 × 2⅔ in each; one piece is one serving.",
-    "storage_unique": "Refrigerate in an airtight container for up to 2 weeks or freeze for 3 months; fudge thaws quickly at room temperature.",
+    "storage_unique": "Refrigerate in an airtight container for up to 2 weeks or freeze for up to 1 month; fudge thaws quickly at room temperature.",
     "variation_unique": "Layer peanut butter fudge on top of the chocolate fudge for a two-tone Reese's-inspired treat."
   },
   "cannabis-blondies": {
@@ -427,7 +427,7 @@
   "cannabis-chocolate-fondue": {
     "prepTime": "PT20M",
     "cookTime": "PT5M",
-    "totalTime": "PT15M",
+    "totalTime": "PT25M",
     "keywords": [
       "chocolate",
       "fondue",
@@ -536,9 +536,9 @@
     "texture_type": "frozen",
     "sub_category": "frozen",
     "intro_unique": "Dairy-free cannabis mango sorbet is a refreshing frozen edible with tropical sweetness and a smooth, scoopable texture.",
-    "dosing_unique": "Blend the cannabis syrup in thoroughly so it distributes evenly through the sorbet; use a standard scoop for serving.",
+    "dosing_unique": "Blend the honey mixture in thoroughly so it spreads evenly through the sorbet, then divide it into 4 equal bowls.",
     "storage_unique": "Store in a freezer-safe container with plastic wrap pressed on the surface to prevent ice crystals for up to 2 months.",
-    "variation_unique": "Add a squeeze of lime juice and a pinch of Tajin seasoning for a Mexican-inspired mango chile sorbet."
+    "variation_unique": "Add a pinch of Tajín seasoning for a Mexican-inspired mango chile sorbet."
   },
   "cannabis-cinnamon-rolls": {
     "prepTime": "PT25M",
@@ -594,7 +594,7 @@
     "sub_category": "cold_drinks",
     "intro_unique": "A vibrant berry smoothie blended with cannabis-infused coconut oil delivers a fruity, drinkable edible that kicks in smoothly.",
     "dosing_unique": "Melt your measured infused coconut oil and drizzle it into the blender while it runs so it mixes evenly instead of setting into flecks on the frozen fruit.",
-    "storage_unique": "Drink immediately for the best texture; if needed, store in a sealed jar in the fridge for up to 4 hours.",
+    "storage_unique": "Drink immediately for the best texture; if needed, store in a sealed jar in the fridge for up to 4 hours and shake well before drinking.",
     "variation_unique": "Add a scoop of protein powder and a handful of spinach for a post-workout recovery smoothie with benefits."
   },
   "infused-lemonade": {
@@ -633,7 +633,7 @@
     "texture_type": "no_cook",
     "sub_category": "alcoholic",
     "intro_unique": "Cannabis-infused whiskey combines two adult indulgences into one spirit that can be sipped neat or mixed into cocktails.",
-    "dosing_unique": "Start with a half-ounce pour since the combination of alcohol and THC intensifies both effects significantly.",
+    "dosing_unique": "1 serving = ½ oz (15 ml), about 15 mg at 14% THC. First time: about a teaspoon (⅓ serving), wait 2 hours, and don't add other alcohol.",
     "storage_unique": "Store in a dark glass bottle away from sunlight and heat; it keeps for a year or more, though potency slowly declines over time.",
     "variation_unique": "Use a smoky bourbon and add a cinnamon stick during infusion for a warming, spiced winter spirit."
   },
@@ -790,7 +790,7 @@
     "texture_type": "baked",
     "sub_category": "savory_snacks",
     "intro_unique": "A golden, crispy cannabis grilled cheese sandwich uses cannabutter on the bread for a savory, melty comfort food edible.",
-    "dosing_unique": "Spread a measured amount of cannabutter on each slice of bread before grilling so every sandwich is dosed consistently.",
+    "dosing_unique": "Spread a measured amount of cannabutter on each slice of bread before grilling so every sandwich is dosed consistently. 1 serving = 1 sandwich.",
     "storage_unique": "Eat immediately for the best texture; grilled cheese does not store well but the cannabutter can be prepped in advance.",
     "variation_unique": "Add sliced tomato and a drizzle of pesto between the cheese layers for a caprese-style grilled cheese."
   },
@@ -828,7 +828,7 @@
     "sub_category": "savory_snacks",
     "intro_unique": "Cannabis-infused popcorn is a savory movie-night snack where melted cannabutter is drizzled over freshly popped kernels.",
     "dosing_unique": "Toss the popcorn with the melted butters in 2–3 additions, then divide it into 6 equal bowls; one bowl is one serving.",
-    "storage_unique": "Store in a paper bag or airtight container at room temperature for up to 2 days; re-crisp in a low oven if needed.",
+    "storage_unique": "Store in a paper bag or airtight container at room temperature for up to 2 days; label the bag, and re-crisp in a low oven if needed.",
     "variation_unique": "Toss with nutritional yeast and garlic powder for a savory, cheese-flavored cannabis popcorn without dairy."
   },
   "infused-hummus": {
@@ -973,7 +973,7 @@
     "sub_category": "milk_cream",
     "intro_unique": "Cannabis-infused condensed milk is a sweet, thick base ideal for fudge, tres leches cake, and Brazilian desserts.",
     "dosing_unique": "The thick consistency makes it easy to measure by the tablespoon; note mg per tablespoon on the can or jar.",
-    "storage_unique": "Refrigerate in a sealed jar for up to 2 weeks; the high sugar content acts as a natural preservative.",
+    "storage_unique": "Refrigerate in a sealed jar for up to 2 weeks.",
     "variation_unique": "Cook the infused condensed milk in a heavy saucepan over low heat, stirring constantly, until it thickens and turns caramel-colored for an infused dulce de leche. Never boil a sealed can, which can burst."
   },
   "infused-ghee": {
@@ -1361,7 +1361,7 @@
     "texture_type": "stovetop",
     "sub_category": "pasta_rice",
     "intro_unique": "Cannabis egg fried rice is a quick weeknight edible that transforms day-old rice with infused oil, scrambled eggs, and soy sauce.",
-    "dosing_unique": "Drizzle the infused sesame oil over the rice off the heat, toss well, then divide into equal portions by weight.",
+    "dosing_unique": "Drizzle the infused coconut oil and the sesame oil over the rice off the heat, toss well, then divide into 4 equal portions by weight. 1 serving = ¼ of the pan.",
     "storage_unique": "Cool leftovers quickly and refrigerate within 1 hour; eat them within a day and reheat only once, until steaming hot.",
     "variation_unique": "Add diced Chinese sausage (lap cheong) and scallions for a Cantonese-style fried rice with sweet-savory depth."
   },
@@ -1534,8 +1534,8 @@
     "cook_temp": "350F",
     "texture_type": "baked",
     "sub_category": "keto_baked",
-    "intro_unique": "Three-ingredient keto cannabis cookies use peanut butter, egg, and sweetener with infused coconut oil for a grain-free edible.",
-    "dosing_unique": "Scoop dough with a tablespoon measure and flatten with a fork for uniform cookies with consistent dosing.",
+    "intro_unique": "Flourless keto cannabis cookies use peanut butter, egg, and sweetener with infused coconut oil for a grain-free edible.",
+    "dosing_unique": "Scoop 15 equal balls and flatten with a fork; one cookie is one serving.",
     "storage_unique": "Store in an airtight container at room temperature for 3 days or refrigerate for up to one week.",
     "variation_unique": "Use almond butter instead of peanut butter and press a sugar-free chocolate chip into each cookie before baking."
   },
@@ -2255,7 +2255,7 @@
     "intro_unique": "Ruby-red infused hibiscus tea steeps dried hibiscus flowers and sweetens them with cannabis honey for a tart, refreshing iced drink.",
     "dosing_unique": "Stir the cannabis honey into the whole batch while the tea is still warm so it dissolves completely, then pour equal glasses.",
     "storage_unique": "Refrigerate the sweetened hibiscus tea for up to 4 days; stir before pouring.",
-    "variation_unique": "Steep with a cinnamon stick and whole cloves for a warm, mulled hibiscus tea perfect for cold evenings."
+    "variation_unique": "Steep with a cinnamon stick and whole cloves for a warm, mulled hibiscus tea perfect for cold evenings; stir before each mug, as the honey's coconut oil floats."
   },
   "cannabis-peach-iced-tea": {
     "prepTime": "PT10M",
@@ -2272,10 +2272,10 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "cold_drinks",
-    "intro_unique": "Cannabis peach iced tea steeps black tea with fresh sliced peaches and finishes it with cannabis simple syrup for a sweet Southern-style mocktail.",
-    "dosing_unique": "Stir the cannabis syrup into the strained, chilled tea and pour measured glasses for even dosing.",
-    "storage_unique": "Refrigerate for up to 2 days; stir before serving so the syrup stays evenly mixed.",
-    "variation_unique": "Add a sprig of rosemary and a drizzle of honey for an herbal peach tea with floral aromatics."
+    "intro_unique": "Cannabis peach iced tea steeps black tea with fresh sliced peaches and finishes it with infused honey for a sweet Southern-style mocktail.",
+    "dosing_unique": "Dissolve the infused honey in the tea while it is still warm; added to cold tea, its coconut oil sets in flecks. Stir before each of the 4 glasses.",
+    "storage_unique": "Refrigerate for up to 2 days; stir before serving so the infused honey stays evenly mixed.",
+    "variation_unique": "Add a sprig of rosemary and a drizzle of plain honey for an herbal peach tea with floral aromatics."
   },
   "infused-mango-lassi": {
     "prepTime": "PT10M",
@@ -2389,8 +2389,8 @@
     "texture_type": "no_cook",
     "sub_category": "citrus",
     "intro_unique": "Tropical cannabis passion fruit lemonade combines tangy passion fruit pulp with fresh lemon juice and cannabis honey for an exotic, sunny mocktail.",
-    "dosing_unique": "Stir the cannabis honey into the lemonade base until fully dissolved; strain the passion fruit seeds or leave them for texture.",
-    "storage_unique": "Refrigerate for up to 2 days; stir before serving as the passion fruit pulp separates.",
+    "dosing_unique": "Dissolve the infused honey in warm water before it meets the cold juice, and split the base evenly among the 3 glasses before adding sparkling water.",
+    "storage_unique": "Refrigerate the base without the sparkling water for up to 2 days; stir it and add sparkling water when serving.",
     "variation_unique": "Use coconut water instead of sparkling water for a tropical passion fruit coconut lemonade."
   },
   "infused-cherry-limeade": {
@@ -2407,8 +2407,8 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "citrus",
-    "intro_unique": "Bold infused cherry limeade combines tart cherry juice with fresh lime and cannabis simple syrup for a retro-diner-style mocktail.",
-    "dosing_unique": "Stir the cannabis syrup into the cherry-lime base and pour equal glasses for consistent per-serving dosing.",
+    "intro_unique": "Bold infused cherry limeade combines tart cherry juice with fresh lime and infused honey for a retro-diner-style mocktail.",
+    "dosing_unique": "Divide the cherry–lime–honey base equally between 2 glasses before adding ice and sparkling water. 1 serving = 1 glass.",
     "storage_unique": "Refrigerate the cherry-lime base for up to 3 days; add sparkling water and ice when serving.",
     "variation_unique": "Use frozen dark sweet cherries muddled in the glass for a fresh, chunky cherry limeade with more fruit."
   },
@@ -2428,7 +2428,7 @@
     "texture_type": "no_cook",
     "sub_category": "cold_drinks",
     "intro_unique": "Cannabis mint green tea steeps green tea with fresh mint and lemon and is sweetened with cannabis honey for a light, refreshing iced drink.",
-    "dosing_unique": "Stir the cannabis honey into the whole batch while the tea is warm so it dissolves completely, then pour equal glasses.",
+    "dosing_unique": "Stir the infused honey into the whole batch while the tea is warm so it dissolves completely, then stir again and pour 4 equal glasses.",
     "storage_unique": "Refrigerate the brewed tea for up to 2 days; stir before pouring.",
     "variation_unique": "Use spearmint and a strip of orange zest for a Moroccan-inspired mint tea."
   },
@@ -2488,8 +2488,8 @@
     "sub_category": "fruity",
     "intro_unique": "A light infused coconut lime agua fresca blends coconut water with fresh lime juice and cannabis honey for a hydrating, tropical mocktail.",
     "dosing_unique": "Stir the cannabis honey into the pitcher until fully dissolved; pour equal-sized glasses for consistent dosing.",
-    "storage_unique": "Refrigerate for up to 2 days; the coconut water keeps the drink fresh and naturally sweet.",
-    "variation_unique": "Add muddled fresh mint and a splash of pineapple juice for a pina colada-inspired agua fresca."
+    "storage_unique": "Refrigerate the coconut water, lime and honey base without the sparkling water for up to 2 days; stir and add sparkling water when serving.",
+    "variation_unique": "Add muddled fresh mint and a splash of pineapple juice for a piña colada-inspired agua fresca."
   },
   "cannabis-feijoada": {
     "prepTime": "PT20M",
@@ -2713,7 +2713,7 @@
     "cook_temp": "Stovetop medium-low",
     "texture_type": "creamy",
     "sub_category": "dips_spreads",
-    "intro_unique": "This velvety cannabis cheese dip is made from scratch with real cheddar and a cannabutter roux for a rich, shareable appetizer.",
+    "intro_unique": "This velvety cannabis cheese dip, a cannabis queso, is made from scratch with real cheddar and a cannabutter roux for a rich, shareable appetizer.",
     "dosing_unique": "Divide the dip into 8 small bowls, one per serving, and don't leave it out for more than 2 hours.",
     "storage_unique": "Store leftovers in an airtight container in the fridge for up to 3 days and reheat gently on the stovetop with a splash of milk.",
     "variation_unique": "Add crumbled chorizo, diced jalapeños, or a splash of beer for a heartier queso with extra depth of flavor."
@@ -3106,7 +3106,7 @@
     "intro_unique": "Cannabis flour is the simplest infusion base you can make, requiring only decarboxylated cannabis and all-purpose flour blended together.",
     "dosing_unique": "One serving is 1 teaspoon of cannabis flour, about 15 mg at 14% THC; replace only that much of a recipe's flour per serving.",
     "storage_unique": "Store in a sealed jar or bag in the freezer for up to 6 months to preserve potency, or in a cool dark pantry for up to 3 months.",
-    "variation_unique": "Use whole wheat flour or almond flour as the base for a gluten-free or high-protein alternative."
+    "variation_unique": "Use almond flour for a gluten-free version, or whole wheat flour for a nuttier one."
   },
   "cannabis-tincture": {
     "prepTime": "PT15M",
@@ -3740,7 +3740,7 @@
     "cook_temp": "350°F / 175°C (oil)",
     "texture_type": "fried",
     "sub_category": "mexican",
-    "intro_unique": "These bite-sized cannabis churros pack all the cinnamon-sugar flavor of traditional churros with cannabutter baked right into the choux-style dough.",
+    "intro_unique": "These bite-sized cannabis churros pack all the cinnamon-sugar flavor of traditional churros with cannabutter mixed right into the choux-style dough.",
     "dosing_unique": "The cannabutter is mixed into the dough before frying, and making uniform bite-sized pieces ensures each churro carries an equal dose.",
     "storage_unique": "Churro bites are best eaten fresh and warm; store leftovers in an airtight container and reheat in a 350°F oven for 5 minutes to restore crispness.",
     "variation_unique": "Drizzle with dulce de leche or Nutella instead of chocolate sauce, or dust with matcha powder and sugar for a unique flavor combination."
@@ -3861,7 +3861,7 @@
     "intro_unique": "This cannabis red velvet cake pairs the classic tangy buttermilk crumb with cannabutter for a showstopping dessert that looks as good as it tastes.",
     "dosing_unique": "Cannabutter is creamed into the batter and divided between two cake layers, so each of the 12 slices delivers a consistent dose.",
     "storage_unique": "Store frosted cake in the refrigerator for up to 4 days; bring to room temperature for 20 minutes before serving for the best texture.",
-    "variation_unique": "Make red velvet cupcakes for easier portion control, or add a layer of strawberry jam between the cake layers for extra fruity richness."
+    "variation_unique": "Bake 12 cupcakes from the same batter so each cupcake is one serving (the same dose as a slice), or add a layer of strawberry jam between the cake layers for extra fruity richness."
   },
   "cannabis-snickerdoodle-cookies": {
     "prepTime": "PT15M",
@@ -3878,8 +3878,8 @@
     "texture_type": "baked",
     "sub_category": "baked_goods",
     "intro_unique": "These cannabis snickerdoodles deliver the beloved tangy, cinnamon-coated cookie experience with cannabutter blended into the dough for a reliable medicated treat.",
-    "dosing_unique": "The cannabutter is evenly distributed through the dough, and portioning into 24 equal cookies means you can easily calculate the dose per cookie.",
-    "storage_unique": "Store in an airtight container at room temperature for up to 5 days, or freeze baked cookies for up to 2 months.",
+    "dosing_unique": "The cannabutter is evenly distributed through the dough, and portioning into 24 equal cookies means you can easily calculate the dose per cookie. One cookie is one serving.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 5 days, or freeze baked cookies for longer storage.",
     "variation_unique": "Add a handful of white chocolate chips for a sweeter version, or roll in chai spice mix instead of cinnamon sugar for a unique flavor profile."
   },
   "cannabis-pumpkin-pie": {
@@ -3955,7 +3955,7 @@
     "sub_category": "baked_goods",
     "intro_unique": "This cannabis key lime pie features a cannabutter-infused graham crust that pairs perfectly with the tangy, creamy citrus filling for a refreshing medicated dessert.",
     "dosing_unique": "The cannabutter is baked into the crust and evenly distributed, so each of the 8 slices carries the same dose.",
-    "storage_unique": "Keep refrigerated for up to 3 days; the pie must stay cold for the best texture. Do not freeze, as the custard can separate.",
+    "storage_unique": "Keep refrigerated for up to 3 days; the pie must stay cold for the best texture.",
     "variation_unique": "Use regular limes if key limes are unavailable, or make individual tartlets in a muffin tin for easier portion control and a more elegant presentation."
   },
   "cannabis-french-toast": {
@@ -4018,7 +4018,7 @@
   "cannabis-chocolate-chip-muffins": {
     "prepTime": "PT10M",
     "cookTime": "PT22M",
-    "totalTime": "PT32M",
+    "totalTime": "PT37M",
     "keywords": [
       "cannabis chocolate chip muffins",
       "weed muffins",
@@ -4041,7 +4041,7 @@
   "cannabis-bread-pudding": {
     "prepTime": "PT15M",
     "cookTime": "PT50M",
-    "totalTime": "PT65M",
+    "totalTime": "PT1H35M",
     "keywords": [
       "cannabis bread pudding",
       "weed bread pudding",
@@ -4053,7 +4053,7 @@
     "texture_type": "baked",
     "sub_category": "custard",
     "intro_unique": "This cannabis bread pudding transforms day-old bread into a warm, spiced custard dessert with cannabutter melted into the soaking liquid for an indulgent medicated treat.",
-    "dosing_unique": "The cannabutter dissolves into the custard and soaks evenly into the bread cubes, making each of the 10 servings equally dosed.",
+    "dosing_unique": "The cannabutter dissolves into the custard and soaks evenly into the bread cubes, making each of the 10 servings equally dosed. Cut into 10 equal pieces (2 rows of 5); each piece is one serving.",
     "storage_unique": "Refrigerate leftovers for up to 3 days and reheat individual portions in the microwave for 30-45 seconds or in a 325°F oven for 10 minutes.",
     "variation_unique": "Add chocolate chips and use croissants instead of brioche for a chocolate croissant pudding, or fold in fresh peaches and use bourbon sauce for a Southern-style version."
   },
@@ -4190,7 +4190,7 @@
     "texture_type": "sautéed",
     "sub_category": "main_course",
     "intro_unique": "These cannabis garlic butter shrimp cook in minutes and deliver a luxurious, buttery flavor with perfectly measured cannabutter for precise dosing.",
-    "dosing_unique": "The cannabutter is added on medium-low heat with garlic to preserve potency while building flavor.",
+    "dosing_unique": "Most of the dose is in the sauce: spoon it evenly over the 4 plates. About 11 mg per plate at 14% THC.",
     "storage_unique": "Best served fresh; leftover shrimp can be refrigerated for 1 day but may lose texture when reheated.",
     "variation_unique": "Add a splash of white wine or serve over linguine to turn this into a full cannabis scampi."
   },
