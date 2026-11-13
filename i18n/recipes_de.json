@@ -675,8 +675,8 @@
     "intro_unique": "Mit selbst gemachten Cannabis-Gummibärchen bestimmst du die genaue Milligramm-Dosis pro Stück und wählst Fruchtgeschmack und Farben selbst.",
     "dosing_unique": "Eine Portion sind 3 Bären (etwa 11 mg bei 14 % THC); ein Bär hat etwa 3,7 mg. Verteile die ganze Masse auf die 48 Mulden, damit jeder Bär seinen Anteil bekommt.",
     "storage_unique": "Die fertigen Gummibärchen leicht in Speisestärke wälzen und im Kühlschrank bis zu 3 Wochen aufbewahren, damit sie nicht zusammenkleben.",
-    "variation_unique": "Nimm Sauerkirschsaft statt aromatisierter Gelatine – für natürlich saure Gummibärchen mit echtem Fruchtgeschmack und Antioxidantien.",
-    "unique_src": "0f253c3c2438ac734034466a4f67b198fd337c41",
+    "variation_unique": "Nimm Sauerkirschsaft statt aromatisierter Gelatine – für natürlich saure Gummibärchen mit echtem Fruchtgeschmack.",
+    "unique_src": "c827f4b3008e00d0ef8527584aa8886b0ff1911e",
     "faq_unique": [
       {
         "q": "Wie macht man Cannabis-Gummibärchen?",
@@ -1079,8 +1079,8 @@
     "intro_unique": "Infundiertes Ghee mit Cannabis ist geklärte Butter, aus der die Milchfeststoffe entfernt wurden – ein nussiges Fett mit hohem Rauchpunkt, perfekt zum Kochen.",
     "dosing_unique": "Eine Portion ist 1 Teelöffel. 1 Tasse Butter ergibt etwa ¾ Tasse Ghee (36 Teelöffel), je etwa 11 mg bei 14 % THC; beschrifte das Glas mit mg pro Teelöffel.",
     "storage_unique": "In einem verschlossenen Glas bis zu 3 Monate im Kühlschrank aufbewahren; der geringe Wassergehalt macht es haltbar, aber infundiertes Ghee bleibt gekühlt am frischesten.",
-    "variation_unique": "Infundiere es bei der Zubereitung mit Kurkuma und schwarzem Pfeffer – für goldenes Ghee mit entzündungshemmenden Eigenschaften.",
-    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9",
+    "variation_unique": "Infundiere es bei der Zubereitung mit Kurkuma und schwarzem Pfeffer – für goldenes, erdiges Ghee.",
+    "unique_src": "577b928dd6f00d74f762bf31cf7006de17ffb68d",
     "faq_unique": [
       {
         "q": "Kann ich Cannabutter mit Ghee statt Butter machen?",
@@ -2350,8 +2350,8 @@
     "intro_unique": "Der spritzige infundierte Ananas-Ingwer-Fizz kombiniert frischen Ananassaft und geriebenen Ingwer mit Cannabis-Honig und Sprudelwasser – ein prickelnder, scharf-süßer Mocktail.",
     "dosing_unique": "Lös den Cannabis-Honig vor dem Abseihen vollständig in der Saftbasis auf, gieß dann gleich volle Gläser ein und füll sie mit Sprudelwasser auf.",
     "storage_unique": "Sofort servieren; das Sprudelwasser verliert nach dem Mischen schnell seine Kohlensäure.",
-    "variation_unique": "Ein Schuss Kurkumasaft und eine Prise schwarzer Pfeffer ergeben einen entzündungshemmenden goldenen Fizz.",
-    "unique_src": "f1bd40c09601e8fe610f9ec952fae4d972ea652e"
+    "variation_unique": "Ein Schuss Kurkumasaft und eine Prise schwarzer Pfeffer ergeben einen goldenen, erdigen Fizz.",
+    "unique_src": "94571aa5fe4b9ed674aa503a656b1fa4cfd1abfc"
   },
   "cannabis-cranberry-spritzer": {
     "name": "Cannabis-Cranberry-Spritzer",
@@ -2488,7 +2488,7 @@
   },
   "cannabis-ginger-turmeric-tonic": {
     "name": "Cannabis-Ingwer-Kurkuma-Tonic",
-    "description": "Wellness-Tonic mit Ingwer, Kurkuma und Cannabis-Honig.",
+    "description": "Wärmendes Tonic mit Ingwer, Kurkuma und Cannabis-Honig.",
     "category_name": "Getränke",
     "ingredients": [
       "1 inch Ingwer, gerieben",
@@ -2503,11 +2503,11 @@
       "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Ingwer, Kurkuma, Zitrone und Cannabis-Honig in warmem Wasser verrühren.",
       "Abkühlen lassen, umrühren und auf 2 Gläser mit Eis verteilen; mit Sprudelwasser auffüllen. Schwarzen Pfeffer hinzufügen."
     ],
-    "intro_unique": "Ein wärmendes Cannabis-Ingwer-Kurkuma-Tonic verbindet Ingwer und Kurkuma mit Cannabis-Honig und Zitrone zu einem Wellness-Mocktail.",
+    "intro_unique": "Ein wärmendes Cannabis-Ingwer-Kurkuma-Tonic verbindet Ingwer und Kurkuma mit Cannabis-Honig und Zitrone zu einem scharf-frischen Mocktail.",
     "dosing_unique": "Löse den Cannabis-Honig vollständig im warmen Wasser auf, bevor es abkühlt, und verteile das Tonic dann auf gleich große Gläser.",
     "storage_unique": "Bewahre die Ingwer-Kurkuma-Basis bis zu 3 Tage im Kühlschrank auf; rühre sie gut um und gib beim Servieren Sprudelwasser dazu.",
-    "variation_unique": "Gib eine Prise Cayennepfeffer und Apfelessig dazu für ein immunstärkendes Tonic nach Art des Fire Cider.",
-    "unique_src": "1cb8c69a928490cda248df04ab683aaa22679c91"
+    "variation_unique": "Gib eine Prise Cayennepfeffer und Apfelessig dazu für ein feuriges Tonic nach Art des Fire Cider.",
+    "unique_src": "ca1131b185ed81d37ad5ae32cde1959f73819979"
   },
   "infused-coconut-lime-agua-fresca": {
     "name": "Infundierte Kokos-Limetten-Agua-Fresca",
@@ -5193,7 +5193,7 @@
   },
   "cannabis-golden-milk": {
     "name": "Cannabis Goldene Milch",
-    "description": "Wohltuende Cannabis-infundierte Goldene Milch mit Kurkuma, Ingwer, Zimt und Cannabis-Kokosöl — ein warmes, entzündungshemmendes THC-Getränk zur Entspannung.",
+    "description": "Wohltuende Cannabis-infundierte Goldene Milch mit Kurkuma, Ingwer, Zimt und Cannabis-Kokosöl — ein warmes, würziges THC-Getränk für kalte Abende.",
     "category_name": "Getränke",
     "ingredients": [
       "2 Tassen Vollmilch oder Hafermilch",
@@ -5213,10 +5213,10 @@
       "Eine Tasse pro Portion — 60-90 Minuten vor einer weiteren warten."
     ],
     "intro_unique": "Cannabis Goldene Milch verbindet Kurkuma, Zimt und Ingwer mit warmer Milch und Cannabis-Kokosöl – ein gemütlicher, goldener Abenddrink.",
-    "dosing_unique": "Das Cannabis-Kokosöl wird bei niedriger Temperatur in die warme Milch geschlagen; so bleibt das THC intakt, und der Fettgehalt sorgt für eine optimale Aufnahme.",
+    "dosing_unique": "Das Cannabis-Kokosöl wird bei niedriger Temperatur in die warme Milch geschlagen; so bleibt das THC intakt und verteilt sich gleichmäßig in der Milch.",
     "storage_unique": "Bewahre sie bis zu 2 Tage im Kühlschrank auf und erwärme sie sanft auf dem Herd – schüttle oder verquirle sie vorher gut, da sich das Öl absetzen kann.",
     "variation_unique": "Gib einen Shot Espresso dazu für einen Cannabis-Kurkuma-Latte, oder nimm Kokosmilch für eine komplett vegane, milchfreie Version.",
-    "unique_src": "8fbdacc0c4470b27ea8e081c3cd43e4071063374"
+    "unique_src": "7b4d8f8a50a5623248fe7fe227c24e75d3c55f5d"
   },
   "cannabis-horchata": {
     "name": "Cannabis Horchata",
@@ -5486,7 +5486,7 @@
   },
   "cannabis-pozole": {
     "name": "Cannabis-Pozole",
-    "description": "Ein wärmendes Cannabis-Pozole Rojo mit zartem Schweinefleisch, Hominy-Mais und einer aromatischen Brühe aus getrockneten Chilis — eine traditionelle mexikanische Suppe mit medizinischem Twist.",
+    "description": "Ein wärmendes Cannabis-Pozole Rojo mit zartem Schweinefleisch, Hominy-Mais und einer aromatischen Brühe aus getrockneten Chilis — eine traditionelle mexikanische Suppe mit Cannabis-Twist.",
     "category_name": "International",
     "ingredients": [
       "2 Esslöffel Cannabis-Kokosöl, plus 1 Esslöffel normales Öl zum Anbraten",
@@ -5767,7 +5767,7 @@
   },
   "cannabis-oatmeal-raisin-cookies": {
     "name": "Cannabis-Haferflockenkekse mit Rosinen",
-    "description": "Zähe Cannabis-Haferflockenkekse mit Rosinen, vollgepackt mit Haferflocken, saftigen Rosinen und warmen Gewürzen für eine gesunde, medizinische Variante eines zeitlosen Keksklassikers.",
+    "description": "Zähe Cannabis-Haferflockenkekse mit Rosinen, vollgepackt mit Haferflocken, saftigen Rosinen und warmen Gewürzen für eine bodenständige Cannabis-Variante eines zeitlosen Keksklassikers.",
     "category_name": "Desserts",
     "ingredients": [
       "6 EL Cannabutter, weich",
@@ -5879,7 +5879,7 @@
   },
   "cannabis-smores-bars": {
     "name": "Cannabis-S'mores-Riegel",
-    "description": "Klebrige Cannabis-S'mores-Riegel mit Keksboden, geschmolzener Schokolade und gerösteten Marshmallows — Lagerfeuergeschmack mit medizinischem Twist.",
+    "description": "Klebrige Cannabis-S'mores-Riegel mit Keksboden, geschmolzener Schokolade und gerösteten Marshmallows — Lagerfeuergeschmack mit Cannabis-Twist.",
     "category_name": "Desserts",
     "ingredients": [
       "3 EL Cannabutter + 5 EL ungesalzene Butter",

@@ -166,7 +166,7 @@
     "intro_unique": "Homemade cannabis gummy bears let you control the exact milligram dose per piece while choosing your own fruit flavors and colors.",
     "dosing_unique": "One serving is 3 bears (about 11 mg at 14% THC); one bear is about 3.7 mg. Use all of the mixture across the 48 cavities so each bear gets its share.",
     "storage_unique": "Toss finished gummies in a light coating of cornstarch and store in the fridge for up to 3 weeks to prevent sticking.",
-    "variation_unique": "Use tart cherry juice instead of flavored gelatin for a natural sour gummy with real fruit flavor and antioxidants.",
+    "variation_unique": "Use tart cherry juice instead of flavored gelatin for a natural sour gummy with real fruit flavor.",
     "faq_unique": [
       {
         "q": "How do you make weed gummies?",
@@ -1220,7 +1220,7 @@
     "intro_unique": "Cannabis-infused ghee is clarified butter with the milk solids removed, offering a nutty, high-smoke-point fat perfect for cooking.",
     "dosing_unique": "One serving is 1 teaspoon. 1 cup of butter gives about ¾ cup of ghee (36 teaspoons), about 11 mg each at 14% THC; label the jar with mg per teaspoon.",
     "storage_unique": "Refrigerate in a sealed jar for up to 3 months; its low moisture content helps it keep, but infused ghee stays freshest cold.",
-    "variation_unique": "Infuse with turmeric and black pepper during preparation for a golden ghee with anti-inflammatory properties.",
+    "variation_unique": "Infuse with turmeric and black pepper during preparation for a golden, earthy ghee.",
     "faq_unique": [
       {
         "q": "Can I use ghee instead of butter to make cannabutter?",
@@ -2627,7 +2627,7 @@
     "intro_unique": "Zesty infused pineapple ginger fizz combines fresh pineapple juice and grated ginger with cannabis honey and sparkling water for a bubbly, spicy-sweet mocktail.",
     "dosing_unique": "Dissolve the cannabis honey completely in the juice base before straining, then pour equal glasses and top with sparkling water.",
     "storage_unique": "Serve immediately; the sparkling water loses its fizz quickly once mixed.",
-    "variation_unique": "Add a splash of turmeric juice and a pinch of black pepper for an anti-inflammatory golden fizz."
+    "variation_unique": "Add a splash of turmeric juice and a pinch of black pepper for a golden, earthy fizz."
   },
   "cannabis-cranberry-spritzer": {
     "prepTime": "PT10M",
@@ -2760,10 +2760,10 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "cold_drinks",
-    "intro_unique": "A warming cannabis ginger turmeric tonic combines ginger and turmeric with cannabis honey and lemon for a wellness-style mocktail.",
+    "intro_unique": "A warming cannabis ginger turmeric tonic combines ginger and turmeric with cannabis honey and lemon for a spicy, zesty mocktail.",
     "dosing_unique": "Dissolve the cannabis honey completely in the warm water before cooling, then divide the tonic into equal glasses.",
     "storage_unique": "Refrigerate the ginger-turmeric base for up to 3 days; stir well and add sparkling water when serving.",
-    "variation_unique": "Add a pinch of cayenne pepper and apple cider vinegar for a fire cider-inspired immune-boosting tonic."
+    "variation_unique": "Add a pinch of cayenne pepper and apple cider vinegar for a fiery, fire cider-inspired tonic."
   },
   "infused-coconut-lime-agua-fresca": {
     "prepTime": "PT10M",
@@ -3916,7 +3916,7 @@
     "texture_type": "beverage",
     "sub_category": "hot_drinks",
     "intro_unique": "Cannabis golden milk blends turmeric, cinnamon, and ginger into warm milk with cannabis coconut oil for a cozy, golden evening drink.",
-    "dosing_unique": "Cannabis coconut oil is whisked into the warm milk at low temperature, keeping THC intact while the fat content ensures optimal absorption.",
+    "dosing_unique": "Cannabis coconut oil is whisked into the warm milk at low temperature, keeping THC intact and spreading it evenly through the milk.",
     "storage_unique": "Refrigerate for up to 2 days and gently reheat on the stove — shake or whisk well before reheating as the oil may separate.",
     "variation_unique": "Add a shot of espresso for a cannabis turmeric latte, or use coconut milk for a fully vegan, dairy-free version."
   },

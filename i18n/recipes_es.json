@@ -675,8 +675,8 @@
     "intro_unique": "Los Ositos de Goma de cannabis caseros te permiten controlar la dosis exacta en miligramos por pieza y elegir tus propios sabores y colores de fruta.",
     "dosing_unique": "Una porción son 3 ositos (unos 11 mg con 14% de THC); un osito tiene unos 3,7 mg. Usa toda la mezcla en las 48 cavidades para que cada osito reciba su parte.",
     "storage_unique": "Cubre las gomitas terminadas con una capa ligera de fécula de maíz y guárdalas en el refrigerador hasta 3 semanas para que no se peguen.",
-    "variation_unique": "Usa jugo de cereza ácida en lugar de gelatina de sabor para una gomita ácida natural con sabor a fruta real y antioxidantes.",
-    "unique_src": "0f253c3c2438ac734034466a4f67b198fd337c41",
+    "variation_unique": "Usa jugo de cereza ácida en lugar de gelatina de sabor para una gomita ácida natural con sabor a fruta real.",
+    "unique_src": "c827f4b3008e00d0ef8527584aa8886b0ff1911e",
     "faq_unique": [
       {
         "q": "¿Cómo se hacen gomitas de marihuana?",
@@ -1079,8 +1079,8 @@
     "intro_unique": "El Ghee Infusionado con cannabis es mantequilla clarificada sin los sólidos lácteos, una grasa con sabor a nuez y alto punto de humo, perfecta para cocinar.",
     "dosing_unique": "Una porción es 1 cucharadita. 1 taza de mantequilla da unos ¾ de taza de ghee (36 cucharaditas), unos 11 mg cada una con 14% de THC; etiqueta el frasco con los mg por cucharadita.",
     "storage_unique": "Refrigéralo en un frasco cerrado hasta 3 meses; su bajo contenido de humedad ayuda a conservarlo, pero el ghee infusionado se mantiene más fresco en frío.",
-    "variation_unique": "Infusiónalo con cúrcuma y pimienta negra durante la preparación para obtener un ghee dorado con propiedades antiinflamatorias.",
-    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9",
+    "variation_unique": "Infusiónalo con cúrcuma y pimienta negra durante la preparación para obtener un ghee dorado y terroso.",
+    "unique_src": "577b928dd6f00d74f762bf31cf7006de17ffb68d",
     "faq_unique": [
       {
         "q": "¿Puedo usar ghee en lugar de mantequilla para hacer mantequilla de cannabis?",
@@ -2350,8 +2350,8 @@
     "intro_unique": "El chispeante Fizz de Piña y Jengibre Infusionado combina jugo de piña fresco y jengibre rallado con miel de cannabis y agua mineral para un mocktail burbujeante, picante y dulce.",
     "dosing_unique": "Disuelve por completo la miel de cannabis en la base de jugo antes de colar, y luego sirve vasos iguales y complétalos con agua mineral.",
     "storage_unique": "Sírvelo de inmediato; el agua mineral pierde el gas rápidamente una vez mezclada.",
-    "variation_unique": "Añade un chorrito de jugo de cúrcuma y una pizca de pimienta negra para un fizz dorado antiinflamatorio.",
-    "unique_src": "f1bd40c09601e8fe610f9ec952fae4d972ea652e"
+    "variation_unique": "Añade un chorrito de jugo de cúrcuma y una pizca de pimienta negra para un fizz dorado y terroso.",
+    "unique_src": "94571aa5fe4b9ed674aa503a656b1fa4cfd1abfc"
   },
   "cannabis-cranberry-spritzer": {
     "name": "Spritzer de Arándano con Cannabis",
@@ -2488,7 +2488,7 @@
   },
   "cannabis-ginger-turmeric-tonic": {
     "name": "Tónico de Jengibre y Cúrcuma con Cannabis",
-    "description": "Tónico de bienestar con jengibre, cúrcuma y miel de cannabis.",
+    "description": "Tónico reconfortante con jengibre, cúrcuma y miel de cannabis.",
     "category_name": "Bebidas",
     "ingredients": [
       "1 inch de jengibre rallado",
@@ -2503,11 +2503,11 @@
       "Remueve bien el frasco de miel infusionada antes de medir. Combinar el jengibre, la cúrcuma, el limón y la miel de cannabis en agua tibia.",
       "Enfriar, remover y repartir en 2 vasos con hielo; completar con agua con gas. Agregar pimienta negra."
     ],
-    "intro_unique": "Un reconfortante Tónico de Jengibre y Cúrcuma con Cannabis combina jengibre y cúrcuma con miel de cannabis y limón, para un mocktail de estilo bienestar.",
+    "intro_unique": "Un reconfortante Tónico de Jengibre y Cúrcuma con Cannabis combina jengibre y cúrcuma con miel de cannabis y limón, para un mocktail picante y cítrico.",
     "dosing_unique": "Disuelve por completo la miel de cannabis en el agua tibia antes de enfriar, y luego divide el tónico en vasos iguales.",
     "storage_unique": "Refrigera la base de jengibre y cúrcuma hasta 3 días; mezcla bien y añade agua mineral al servir.",
-    "variation_unique": "Añade una pizca de pimienta de cayena y vinagre de manzana para un tónico inspirado en el fire cider, pensado para reforzar las defensas.",
-    "unique_src": "1cb8c69a928490cda248df04ab683aaa22679c91"
+    "variation_unique": "Añade una pizca de pimienta de cayena y vinagre de manzana para un tónico picante inspirado en el fire cider.",
+    "unique_src": "ca1131b185ed81d37ad5ae32cde1959f73819979"
   },
   "infused-coconut-lime-agua-fresca": {
     "name": "Agua Fresca de Coco y Limón Infusionada",
@@ -5193,7 +5193,7 @@
   },
   "cannabis-golden-milk": {
     "name": "Leche Dorada de Cannabis",
-    "description": "Reconfortante leche dorada infundida con cannabis, hecha con cúrcuma, jengibre, canela y aceite de coco de cannabis — una bebida caliente antiinflamatoria con THC.",
+    "description": "Reconfortante leche dorada infundida con cannabis, hecha con cúrcuma, jengibre, canela y aceite de coco de cannabis — una bebida caliente y especiada con THC para noches frías.",
     "category_name": "Bebidas",
     "ingredients": [
       "2 tazas de leche entera o leche de avena",
@@ -5213,10 +5213,10 @@
       "Una taza por porción — espera 60-90 minutos antes de tomar otra."
     ],
     "intro_unique": "La Leche Dorada de Cannabis mezcla cúrcuma, canela y jengibre en leche tibia con aceite de coco con cannabis, para una bebida dorada y acogedora por la noche.",
-    "dosing_unique": "El aceite de coco con cannabis se bate en la leche tibia a baja temperatura, lo que mantiene intacto el THC mientras el contenido de grasa asegura una absorción óptima.",
+    "dosing_unique": "El aceite de coco con cannabis se bate en la leche tibia a baja temperatura, lo que mantiene intacto el THC y lo reparte de forma uniforme en la leche.",
     "storage_unique": "Refrigérala hasta 2 días y recaliéntala suavemente en la estufa; agítala o bátela bien antes de recalentar, ya que el aceite puede separarse.",
     "variation_unique": "Añade un shot de espresso para un latte de cúrcuma con cannabis, o usa leche de coco para una versión totalmente vegana y sin lácteos.",
-    "unique_src": "8fbdacc0c4470b27ea8e081c3cd43e4071063374"
+    "unique_src": "7b4d8f8a50a5623248fe7fe227c24e75d3c55f5d"
   },
   "cannabis-horchata": {
     "name": "Horchata de Cannabis",
@@ -5422,7 +5422,7 @@
       "En una sartén aparte, fríe los huevos a tu gusto.",
       "Divide los chilaquiles entre los platos, cubre cada uno con un huevo frito, queso fresco desmoronado, un chorrito de crema, cebolla picada, aguacate en rebanadas y cilantro fresco."
     ],
-    "intro_unique": "Los Chilaquiles de Cannabis convierten un desayuno mexicano rápido en un antojo medicinal mañanero, con mantequilla de cannabis derretida directamente en la salsa verde.",
+    "intro_unique": "Los Chilaquiles de Cannabis convierten un desayuno mexicano rápido en un antojo mañanero con cannabis, con mantequilla de cannabis derretida directamente en la salsa verde.",
     "dosing_unique": "La mantequilla de cannabis se disuelve en la salsa caliente y cubre todos los totopos de manera uniforme, lo que facilita dividirlos en porciones iguales.",
     "storage_unique": "Los chilaquiles se sirven mejor al momento, ya que los totopos siguen ablandándose; prepara la mezcla de salsa con anticipación y guárdala en el refrigerador hasta 2 días.",
     "variation_unique": "Usa salsa roja en lugar de verde para unos chilaquiles rojos, o corónalos con pollo deshebrado o carnitas para una comida más contundente.",
@@ -5449,7 +5449,7 @@
       "Rueda o espolvorea cada elote con queso cotija desmoronado, luego espolvorea con chile en polvo. Exprime jugo de limón encima y decora con cilantro picado.",
       "Sirve inmediatamente mientras estén calientes. Cada elote representa una porción."
     ],
-    "intro_unique": "El Elote de Cannabis eleva el clásico elote callejero mexicano al mezclar mantequilla de cannabis en la cobertura cremosa, para una guarnición asada, ácida, medicinal e irresistible.",
+    "intro_unique": "El Elote de Cannabis eleva el clásico elote callejero mexicano al mezclar mantequilla de cannabis en la cobertura cremosa, para una guarnición asada, ácida e irresistible con cannabis.",
     "dosing_unique": "Cada elote se pincela individualmente con una cantidad medida de la mezcla de mantequilla de cannabis y mayonesa, para una dosis constante por porción.",
     "storage_unique": "El elote se sirve mejor recién hecho; sin embargo, puedes desgranar el maíz sobrante y guardarlo en el refrigerador por 2 días para usarlo en ensaladas.",
     "variation_unique": "Prepara esquites desgranando el elote y mezclando los granos con la mayonesa infusionada, o añade un toque de chipotle para un sabor ahumado.",
@@ -5486,7 +5486,7 @@
   },
   "cannabis-pozole": {
     "name": "Pozole de Cannabis",
-    "description": "Un reconfortante pozole rojo infusionado con cannabis, con cerdo tierno, maíz pozolero y un caldo rico de chiles secos — una sopa tradicional mexicana con un toque medicinal.",
+    "description": "Un reconfortante pozole rojo infusionado con cannabis, con cerdo tierno, maíz pozolero y un caldo rico de chiles secos — una sopa tradicional mexicana con un toque de cannabis.",
     "category_name": "Internacional",
     "ingredients": [
       "2 cucharadas de aceite de coco infusionado con cannabis, más 1 cucharada de aceite normal para sellar",
@@ -5701,7 +5701,7 @@
       "Hornea por 10-12 minutos hasta que los bordes estén firmes pero los centros aún ligeramente suaves. Las galletas se firmarán al enfriar.",
       "Deja enfriar en la charola por 5 minutos antes de transferir a una rejilla. Rinde aproximadamente 24 galletas."
     ],
-    "intro_unique": "Estas Galletas Snickerdoodle de Cannabis ofrecen la querida experiencia de una galleta ligeramente ácida y cubierta de canela, con mantequilla de cannabis mezclada en la masa para un antojo medicinal confiable.",
+    "intro_unique": "Estas Galletas Snickerdoodle de Cannabis ofrecen la querida experiencia de una galleta ligeramente ácida y cubierta de canela, con mantequilla de cannabis mezclada en la masa para un antojo con cannabis confiable.",
     "dosing_unique": "La mantequilla de cannabis se distribuye de manera uniforme en la masa, y porcionarla en 24 galletas iguales te permite calcular fácilmente la dosis por galleta. Una galleta es una porción.",
     "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente hasta 5 días, o congela las galletas horneadas para conservarlas más tiempo.",
     "variation_unique": "Añade un puñado de chispas de chocolate blanco para una versión más dulce, o rebózalas en mezcla de especias chai en lugar de azúcar con canela para un perfil de sabor único.",
@@ -5767,7 +5767,7 @@
   },
   "cannabis-oatmeal-raisin-cookies": {
     "name": "Galletas de Avena y Pasas de Cannabis",
-    "description": "Galletas masticables de avena y pasas infusionadas con cannabis, repletas de avena, pasas y especias cálidas para un deleite saludable y medicinal.",
+    "description": "Galletas masticables de avena y pasas infusionadas con cannabis, repletas de avena, pasas y especias cálidas para un deleite casero con cannabis.",
     "category_name": "Postres",
     "ingredients": [
       "6 cucharadas de mantequilla de cannabis ablandada",
@@ -5789,7 +5789,7 @@
       "Hornea por 10-13 minutos hasta que los bordes estén dorados pero los centros aún ligeramente suaves.",
       "Enfría en la charola por 5 minutos y transfiere a una rejilla. Rinde aproximadamente 24 galletas."
     ],
-    "intro_unique": "Estas Galletas de Avena y Pasas de Cannabis combinan avena sustanciosa y pasas jugosas con mantequilla de cannabis, para una galleta casera que ofrece una experiencia medicinal confiable.",
+    "intro_unique": "Estas Galletas de Avena y Pasas de Cannabis combinan avena sustanciosa y pasas jugosas con mantequilla de cannabis, para una galleta casera que ofrece una experiencia con cannabis confiable.",
     "dosing_unique": "La mantequilla de cannabis se bate con la masa y queda distribuida de manera uniforme; formar 24 galletas iguales hace que calcular tu dosis por galleta sea muy sencillo. Una galleta es una porción.",
     "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente hasta 4 días, o congela las bolitas de masa y hornéalas frescas cuando las necesites.",
     "variation_unique": "Sustituye las pasas por arándanos rojos secos y chispas de chocolate blanco, o añade nueces picadas para más crujiente y un sabor a nuez.",
@@ -5817,7 +5817,7 @@
       "Hornea por 15 minutos hasta que el relleno esté firme. Aún debe tener un ligero movimiento en el centro. Deja enfriar a temperatura ambiente y refrigera por al menos 4 horas.",
       "Antes de servir, bate la crema con el azúcar glass hasta formar picos firmes. Extiende o decora sobre el pay frío. Decora con ralladura de limón o rebanadas delgadas de limón."
     ],
-    "intro_unique": "Este Pay de Limón Key de Cannabis tiene una base de galleta graham infusionada con mantequilla de cannabis que combina a la perfección con el relleno cítrico, cremoso y ácido, para un postre medicinal refrescante.",
+    "intro_unique": "Este Pay de Limón Key de Cannabis tiene una base de galleta graham infusionada con mantequilla de cannabis que combina a la perfección con el relleno cítrico, cremoso y ácido, para un postre refrescante con cannabis.",
     "dosing_unique": "La mantequilla de cannabis se hornea en la base y queda distribuida de manera uniforme, así cada una de las 8 rebanadas lleva la misma dosis.",
     "storage_unique": "Mantenlo refrigerado hasta 3 días; el pay debe estar frío para tener la mejor textura.",
     "variation_unique": "Usa limones normales si no consigues limones key, o prepara tartaletas individuales en un molde para muffins para controlar mejor las porciones y lograr una presentación más elegante.",
@@ -5845,7 +5845,7 @@
       "Cocina el pan remojado en la mantequilla regular por 3-4 minutos por lado hasta que esté dorado y cocido por dentro.",
       "Unta cada rebanada caliente de manera uniforme con la mantequilla de cannabis derretida y sirve inmediatamente, cubierto con jarabe de arce, frutas frescas y una espolvoreada de azúcar glass."
     ],
-    "intro_unique": "Las Tostadas Francesas de Cannabis convierten un desayuno tranquilo de fin de semana en un capricho medicinal, con cada rebanada dorada pincelada con mantequilla de cannabis derretida.",
+    "intro_unique": "Las Tostadas Francesas de Cannabis convierten un desayuno tranquilo de fin de semana en un capricho con cannabis, con cada rebanada dorada pincelada con mantequilla de cannabis derretida.",
     "dosing_unique": "La mantequilla de cannabis se pincela sobre las rebanadas después de cocinarlas en lugar de usarla en la sartén, así cada una de las seis rebanadas recibe una parte igual y medida.",
     "storage_unique": "Se sirven mejor al momento; si es necesario, mantenlas calientes en el horno a 200°F sobre una rejilla mientras cocinas las rebanadas restantes.",
     "variation_unique": "Usa pan de canela con pasas o pan de plátano para más sabor, o prepara tostadas francesas rellenas untando queso crema y mermelada entre dos rebanadas antes de remojarlas.",
@@ -5879,7 +5879,7 @@
   },
   "cannabis-smores-bars": {
     "name": "Barras S'mores de Cannabis",
-    "description": "Barras s'mores pegajosas infusionadas con cannabis, con base de galleta, chocolate derretido y malvaviscos tostados — sabor de fogata con un toque medicinal.",
+    "description": "Barras s'mores pegajosas infusionadas con cannabis, con base de galleta, chocolate derretido y malvaviscos tostados — sabor de fogata con un toque de cannabis.",
     "category_name": "Postres",
     "ingredients": [
       "3 cucharadas de mantequilla de cannabis + 5 cucharadas de mantequilla sin sal",
@@ -5972,7 +5972,7 @@
       "Hornea por 45-50 minutos hasta que la superficie esté dorada y la crema esté firme. Un cuchillo insertado en el centro debe salir limpio, o el centro debe marcar 160°F (71°C).",
       "Deja enfriar 10 minutos. Sirve caliente, rociado con salsa de vainilla o bourbon y una bola de helado de vainilla."
     ],
-    "intro_unique": "Este Budín de Pan de Cannabis transforma el pan del día anterior en un postre tibio de natilla especiada, con mantequilla de cannabis derretida en el líquido de remojo para un capricho medicinal indulgente.",
+    "intro_unique": "Este Budín de Pan de Cannabis transforma el pan del día anterior en un postre tibio de natilla especiada, con mantequilla de cannabis derretida en el líquido de remojo para un capricho indulgente con cannabis.",
     "dosing_unique": "La mantequilla de cannabis se disuelve en la natilla y empapa de manera uniforme los cubos de pan, así que cada una de las 10 porciones queda con la misma dosis. Corta en 10 trozos iguales (2 filas de 5); cada trozo es una porción.",
     "storage_unique": "Refrigera las sobras hasta 3 días y recalienta las porciones individuales en el microondas durante 30-45 segundos o en el horno a 325°F durante 10 minutos.",
     "variation_unique": "Añade chispas de chocolate y usa croissants en lugar de brioche para un budín de croissant con chocolate, o incorpora duraznos frescos y usa salsa de bourbon para una versión de estilo sureño.",
