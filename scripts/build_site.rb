@@ -86,9 +86,16 @@ UNIQUE_FIELDS = %w[intro_unique dosing_unique storage_unique variation_unique].f
 def unique_src(enrich)
   Digest::SHA1.hexdigest(UNIQUE_FIELDS.map { |k| enrich[k].to_s }.join("\n"))
 end
+# #116: the recipe's own FAQ (faq_unique: [{q, a}]) has its own hash, so PRs that rewrite the 4 fields above don't stale it.
+# A translated page without it shows only the template FAQ: never English questions on a translated page.
+def faq_src(enrich)
+  Digest::SHA1.hexdigest(JSON.generate(enrich["faq_unique"]))
+end
 RECIPE_VARS = JSON.parse(File.read(File.join(I18N_DIR, "recipe_vars.json")))
 LANGS.each do |lang|
   stale = ENRICHMENT.select { |slug, e| (s = RECIPE_I18N[lang].dig(slug, "unique_src")).nil? || s != unique_src(e) }.keys
+  faq = ENRICHMENT.select { |slug, e| e["faq_unique"] && RECIPE_I18N[lang].dig(slug, "faq_src") != faq_src(e) }.keys
+  warn "WARNING: #{lang}: faq_unique translation missing or stale for #{faq.size} recipes: #{faq.first(12).join(", ")}" if faq.any?
   missing = %w[base_fat cook_temp].flat_map { |k| ENRICHMENT.values.map { |e| e[k] }.compact.uniq.reject { |v| RECIPE_VARS.dig(lang, k, v) } }
   warn "WARNING: #{lang}: *_unique translation missing or stale for #{stale.size} recipes: #{stale.first(12).join(", ")} (content/translations/recipes/BRIEF.md)" if stale.any?
   warn "WARNING: #{lang}: no translation in i18n/recipe_vars.json for #{missing.uniq.join(" | ")} (content/translations/recipes/BRIEF.md)" if missing.any?

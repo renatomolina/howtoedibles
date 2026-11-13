@@ -9,7 +9,7 @@ Check your work with `ruby scripts/qa/recipes.rb .`: pass/fail per recipe and la
 | What | File |
 |---|---|
 | English name, description, ingredients, steps (HTML `<li>`), `suggested_quantity` (g of flower), `suggested_portion` (servings), category | `data/recipes.json` |
-| Times, `base_fat`, `cook_temp`, `sub_category` (which template), the recipe's own sentences: `intro_unique`, `dosing_unique`, `storage_unique`, `variation_unique` | `data/recipe_enrichment.json` |
+| Times, `base_fat`, `cook_temp`, `sub_category` (which template), the recipe's own sentences: `intro_unique`, `dosing_unique`, `storage_unique`, `variation_unique`, and its own FAQ `faq_unique` (`[{"q", "a"}]`, plain text, shown before the template FAQ) | `data/recipe_enrichment.json` |
 | pt/es/de/zh name, description, ingredients, steps: **one line per English line, same order, same count** | `i18n/recipes_{lang}.json` |
 | Template text shared by every recipe of a `category/sub_category` (intro, tips, mistakes, storage, variations, FAQ) | `i18n/recipe_sections_{lang}.json` |
 
@@ -101,7 +101,9 @@ A template line lands on every recipe of its sub-category. Before you write one,
 
 - **Same lines:** `ingredients` and `instructions` have the same number of lines as English, in the same order, with the same numbers. Converted units are fine (°F → °C, cup → ml, in → cm).
 - **No English left over:** "1 cup de manteiga" fails. Use the language's own units and words.
-- **The own sentences** (`intro_unique`, `dosing_unique`, `storage_unique`, `variation_unique`) belong in `i18n/recipes_{lang}.json` too. Today they fall back to English on every translated page (#92).
+- **The own sentences** (`intro_unique`, `dosing_unique`, `storage_unique`, `variation_unique`) belong in `i18n/recipes_{lang}.json` too, with `unique_src` = SHA1 of the 4 English fields joined by "\n". Without a translation they fall back to English (#92).
+- **The own FAQ** (`faq_unique`) goes in `i18n/recipes_{lang}.json` with the same questions in the same order, and `faq_src` = SHA1 of `JSON.generate` of the English `faq_unique`. Without a translation the page shows only the template FAQ, never English questions (#116). The build warns when either hash is stale.
+- **FAQ answers follow the same rules as any own sentence:** no shelf life (that is `storage_unique`), the dose matches the sticker, no health claims.
 
 ## 8. Before the PR
 
