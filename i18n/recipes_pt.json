@@ -134,8 +134,8 @@
     "intro_unique": "O café bulletproof com cannabis bate café quente com óleo de coco infusionado e manteiga de vacas criadas a pasto, numa bebida comestível energizante e compatível com a dieta keto.",
     "dosing_unique": "Adicione uma colher de sopa medida de óleo de coco infusionado a cada xícara e bata até espumar, para uma distribuição uniforme.",
     "storage_unique": "Beba na hora; a emulsão se desfaz conforme esfria e as gorduras se separam.",
-    "variation_unique": "Acrescente uma colher de sopa de óleo MCT e uma pitada de canela para estimular a produção de cetonas e dar um sabor quente de especiaria.",
-    "unique_src": "7405fd015046c6ac20d7cc8f19da8ced8cf4bf88"
+    "variation_unique": "Acrescente uma colher de sopa de óleo MCT e uma pitada de canela para uma xícara mais encorpada, com sabor quente de especiaria.",
+    "unique_src": "264ef9857b619f23fb63c9e2f60f68110617a472"
   },
   "infused-keto-peanut-butter-cookies": {
     "name": "Cookies Keto de Amendoim Infusionados",
@@ -337,7 +337,7 @@
   },
   "infused-lemonade": {
     "name": "Limonada Infusionada",
-    "description": "Saboreie esta bebida revigorante para experimentar um equilíbrio harmonioso entre notas cítricas e os efeitos relaxantes da cannabis.",
+    "description": "Saboreie esta bebida revigorante para experimentar um equilíbrio harmonioso entre notas cítricas e uma dose medida de cannabis.",
     "category_name": "Bebidas",
     "ingredients": [
       "1 cup de suco de limão espremido na hora",
@@ -802,11 +802,11 @@
       "Asse por 20 minutos ou até que as bordas comecem a se soltar da forma.",
       "Deixe esfriar completamente e corte em 16 quadrados; um quadrado é uma porção."
     ],
-    "intro_unique": "Úmidos e densos, os brownies de cannabis são o comestível mais icônico de todos os tempos, combinando o sabor intenso do cacau com os efeitos relaxantes do THC.",
+    "intro_unique": "Úmidos e densos, os brownies de cannabis são o comestível mais icônico de todos os tempos, combinando o sabor intenso do cacau com uma dose medida de THC.",
     "dosing_unique": "Marque quadrados iguais no brownie logo depois de tirar do forno, enquanto a superfície ainda está macia.",
     "storage_unique": "Guarde os brownies num recipiente fechado em temperatura ambiente por 4 dias, ou embrulhe individualmente e congele por até 3 meses.",
     "variation_unique": "Faça um redemoinho de massa de cream cheese antes de assar para criar um híbrido marmorizado de cheesecake e brownie.",
-    "unique_src": "6951b15ac0702ba0b46e94ef7f0b76618e9df410",
+    "unique_src": "ab323e753f5d9d730319130e43b5a9f987d5ff59",
     "faq_unique": [
       {
         "q": "Quanta maconha preciso para uma forma de brownie de maconha?",
@@ -1009,8 +1009,8 @@
     "intro_unique": "Reconfortante, o chai infusionado combina especiarias aromáticas como cardamomo, canela e gengibre com leite infusionado numa bebida quente e calmante.",
     "dosing_unique": "Prepare uma porção de cada vez, com uma dose medida de leite infusionado por xícara, para manter um controle preciso do que você consome.",
     "storage_unique": "Prepare na hora para o melhor sabor; o concentrado de chai que sobrar, sem leite, pode ficar na geladeira por até 3 dias.",
-    "variation_unique": "Acrescente uma dose de espresso para um dirty chai latte, que combina o estado de alerta da cafeína com os efeitos calmantes do THC.",
-    "unique_src": "8413017a4b54cde968e6e91981f1ce38a94eaf6d"
+    "variation_unique": "Acrescente uma dose de espresso para um dirty chai latte com um toque de café.",
+    "unique_src": "a360e34f0dde67df3643fd01d53ed78edea2d0b3"
   },
   "weed-infused-popcorn": {
     "name": "Pipoca Infusionada",
@@ -1124,7 +1124,7 @@
   },
   "cannabis-hot-chocolate": {
     "name": "Chocolate Quente de Cannabis",
-    "description": "Um chocolate quente rico e reconfortante feito com leite infusionado ou óleo de coco. Perfeito para noites frias ou para relaxar depois de um longo dia.",
+    "description": "Um chocolate quente rico e reconfortante feito com leite infusionado ou óleo de coco. Perfeito para noites frias.",
     "category_name": "Bebidas",
     "ingredients": [
       "1 cup de leite infusionado + 1 cup de leite (veja a receita de Leite Infusionado)",
@@ -4696,11 +4696,11 @@
       "Decore com amendoins e cebolinhas. Misture tudo antes de comer.",
       "Aguarde 60-90 minutos para os efeitos da cannabis se manifestarem."
     ],
-    "intro_unique": "Este Macarrão Dan Dan de Cannabis combina um molho de gergelim rico e amendoado com o efeito aconchegante do THC — um favorito da comida de rua levado a outro patamar.",
+    "intro_unique": "Este Macarrão Dan Dan de Cannabis combina um molho de gergelim rico e amendoado com uma dose medida de THC — um favorito da comida de rua levado a outro patamar.",
     "dosing_unique": "O óleo de cannabis é misturado direto no molho cru, o que garante a máxima preservação do THC, já que ele nunca vai ao fogo alto.",
     "storage_unique": "Guarde o molho e a cobertura de porco separados do macarrão na geladeira por até 3 dias — misture tudo na hora de comer.",
     "variation_unique": "Use macarrão udon ou lámen se não encontrar macarrão de trigo chinês, e acrescente bok choy picado para mais verdes.",
-    "unique_src": "290846bd7e23627828a65b8387fa123b1f6b6eb4"
+    "unique_src": "9f81be170ed97662b3861cd496a6553757d39d90"
   },
   "cannabis-wonton-soup": {
     "name": "Sopa de Wonton de Cannabis",
@@ -5220,7 +5220,7 @@
   },
   "cannabis-horchata": {
     "name": "Horchata de Cannabis",
-    "description": "Horchata cremosa e refrescante infundida com cannabis, feita de arroz, canela e baunilha com uma dose de THC — uma bebida gelada doce e relaxante.",
+    "description": "Horchata cremosa e refrescante infundida com cannabis, feita de arroz, canela e baunilha com uma dose de THC — uma bebida gelada e doce de inspiração mexicana.",
     "category_name": "Bebidas",
     "ingredients": [
       "1 xícara de arroz branco de grão longo",
@@ -5249,7 +5249,7 @@
   },
   "cannabis-mulled-wine": {
     "name": "Vinho Quente de Cannabis",
-    "description": "Vinho quente aromático infundido com cannabis, com especiarias, cítricos e mel de cannabis — um coquetel festivo e relaxante com THC para noites frias.",
+    "description": "Vinho quente aromático infundido com cannabis, com especiarias, cítricos e mel de cannabis — um coquetel festivo com THC para noites frias.",
     "category_name": "Bebidas",
     "ingredients": [
       "1 garrafa (750ml) de vinho tinto seco",
@@ -5337,11 +5337,11 @@
       "Complete cada copo com o chá gelado e mexa de leve.",
       "Decore com uma rodela de limão e um raminho de hortelã. Um copo por porção; espere 2 horas antes de tomar outro."
     ],
-    "intro_unique": "Um Arnold Palmer de Cannabis é a bebida perfeita para a varanda — metade chá gelado, metade limonada, tudo infusionado com mel de THC para um efeito suave e refrescante.",
+    "intro_unique": "Um Arnold Palmer de Cannabis é a bebida perfeita para a varanda — metade chá gelado, metade limonada, adoçado com uma dose medida de mel de THC.",
     "dosing_unique": "A dose está toda na limonada: dissolva o mel infusionado na água morna, mexa e divida a limonada igualmente entre os 4 copos antes de completar com o chá.",
     "storage_unique": "Mantenha o chá e a limonada de cannabis na geladeira, separados, por até 3 dias — misture sobre gelo na hora de servir para um sabor mais fresco.",
     "variation_unique": "Use chá verde ou chá de hibisco para outro perfil de sabor, ou acrescente um toque de vodca para a versão alcoólica John Daly; álcool e cannabis juntos batem mais forte, então, se você é iniciante, tome meio copo e espere 2 horas.",
-    "unique_src": "67087fd00dda5ead910517dfe66871071c6ca47a"
+    "unique_src": "30144a509037882b500a739b6d22f2a3aa4f9245"
   },
   "cannabis-enchiladas": {
     "name": "Enchiladas de Cannabis",

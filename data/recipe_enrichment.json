@@ -126,7 +126,7 @@
     "cook_temp": "350F",
     "texture_type": "baked",
     "sub_category": "baked_goods",
-    "intro_unique": "Fudgy cannabis brownies are the most iconic edible of all time, combining deep cocoa flavor with the relaxing effects of THC.",
+    "intro_unique": "Fudgy cannabis brownies are the most iconic edible of all time, combining deep cocoa flavor with a measured dose of THC.",
     "dosing_unique": "Score the brownie slab into equal squares immediately after removing from the oven while the surface is still soft.",
     "storage_unique": "Keep brownies in a sealed container at room temperature for 4 days, or individually wrap and freeze for up to 3 months.",
     "variation_unique": "Swirl in a ribbon of cream cheese batter before baking to create a marbled cheesecake-brownie hybrid.",
@@ -793,7 +793,7 @@
     "intro_unique": "Warming cannabis chai combines aromatic spices like cardamom, cinnamon, and ginger with infused milk for a soothing hot edible.",
     "dosing_unique": "Prepare a single serving using one measured dose of infused milk per cup to maintain precise control over your intake.",
     "storage_unique": "Brew fresh for the best flavor; leftover chai concentrate without milk can be refrigerated for up to 3 days.",
-    "variation_unique": "Add a shot of espresso for a dirty chai latte that combines caffeine alertness with the calming effects of THC."
+    "variation_unique": "Add a shot of espresso for a dirty chai latte with a coffee kick."
   },
   "infused-eggnog": {
     "prepTime": "PT5M",
@@ -1732,7 +1732,7 @@
     "intro_unique": "Cannabis bulletproof coffee blends hot coffee with infused coconut oil and grass-fed butter for a keto-friendly, energizing edible drink.",
     "dosing_unique": "Add a measured tablespoon of infused coconut oil to each cup and blend until frothy for even distribution.",
     "storage_unique": "Drink immediately; the emulsion breaks down as it cools and the fats separate.",
-    "variation_unique": "Add a tablespoon of MCT oil and a dash of cinnamon for enhanced ketone production and warm spice flavor."
+    "variation_unique": "Add a tablespoon of MCT oil and a dash of cinnamon for a richer cup with warm spice flavor."
   },
   "infused-coconut-fat-bombs": {
     "prepTime": "PT15M",
@@ -3592,7 +3592,7 @@
     "cook_temp": "no cook (sauce)",
     "texture_type": "noodles",
     "sub_category": "chinese",
-    "intro_unique": "These cannabis dan dan noodles combine a rich, nutty sesame sauce with the warming buzz of THC — a street food favorite elevated to new heights.",
+    "intro_unique": "These cannabis dan dan noodles combine a rich, nutty sesame sauce with a measured dose of THC — a street food favorite elevated to new heights.",
     "dosing_unique": "Cannabis oil is mixed directly into the uncooked sauce, ensuring maximum THC preservation since it never touches high heat.",
     "storage_unique": "Store the sauce and pork topping separately from the noodles in the fridge for up to 3 days — toss together when ready to eat.",
     "variation_unique": "Use udon or ramen noodles if Chinese wheat noodles are unavailable, and add chopped bok choy for extra greens."
@@ -4009,7 +4009,7 @@
     "cook_temp": "no cook",
     "texture_type": "beverage",
     "sub_category": "cold_drinks",
-    "intro_unique": "A cannabis Arnold Palmer is the perfect porch sipper — half iced tea, half lemonade, all infused with THC honey for a mellow, refreshing buzz.",
+    "intro_unique": "A cannabis Arnold Palmer is the perfect porch sipper — half iced tea, half lemonade, sweetened with a measured dose of THC honey.",
     "dosing_unique": "The dose is all in the lemonade: dissolve the infused honey in the warm water, stir, and share the lemonade equally among the 4 glasses before topping with tea.",
     "storage_unique": "Keep the tea and cannabis lemonade refrigerated separately for up to 3 days — combine over ice when ready to serve for the freshest taste.",
     "variation_unique": "Use green tea or hibiscus tea for a different flavor profile, or add a splash of vodka for a boozy John Daly version; alcohol and cannabis together hit harder, so if you're new, have half a glass and wait 2 hours."
