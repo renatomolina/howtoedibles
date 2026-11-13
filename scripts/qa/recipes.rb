@@ -393,7 +393,7 @@ SLUGS.each do |slug|
   n = p[:n].round
   t = (p[:steps] + p[:own].values + p[:ings]).join(" ")
   ok = n == 1 ||
-       t.match?(/\b(one|1|each|a) (serving|portion|dose)\s+(is|=|equals|of)\b/i) ||
+       t.match?(/\b(one|1|each|a) (serving|portion|dose)\s+(?:(?:is|equals|of)\b|=)/i) ||
        t.match?(/\bper (#{UNITW})\b/io) && t.match?(/\b#{n}\b/) ||
        t.scan(/\b(?:into|makes?|yields?|serves|fill|between)\s+(?:about\s+)?(\d+)(?:\s*(?:-|–|to)\s*(\d+))?\s+(?:equal\s+|even\s+|small\s+|large\s+|bite-sized\s+|\w+\s+)?(#{UNITW})\b/io).any? { |a, b, _| (a.to_i..(b || a).to_i).cover?(n) } ||
        t.scan(/\b(\d+)(?:\s*(?:-|–|to)\s*(\d+))?\s+(?:equal\s+|even\s+|small\s+|\w+\s+)?(#{UNITW})\b/io).any? { |a, b, _| (a.to_i..(b || a).to_i).cover?(n) && n > 2 }

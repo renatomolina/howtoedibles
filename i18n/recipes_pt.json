@@ -209,30 +209,29 @@
     "category_name": "Petiscos",
     "ingredients": [
       "1 cup de aveia em flocos",
-      "1/2 cup de pasta de castanha (como pasta de amêndoa ou de amendoim)",
+      "7 colheres de sopa de pasta de castanha (½ xícara menos 1 colher de sopa), como pasta de amêndoa ou de amendoim",
       "1/3 cup de mel ou xarope de bordo",
       "1/4 cup de linhaça moída",
       "1/4 cup de gotas de chocolate pequenas",
       "1/4 cup de coco ralado",
       "1 teaspoon de extrato de baunilha",
-      "1 tbsp de óleo de coco infusionado",
+      "2 colheres de sopa de óleo de coco infusionado, derretido",
       "Pitada de sal"
     ],
     "instructions": [
-      "Em uma tigela grande, combine todos os ingredientes: aveia em flocos, pasta de castanha, mel ou xarope de bordo, linhaça moída, gotas de chocolate pequenas, coco ralado, extrato de baunilha, óleo de coco infusionado e uma pitada de sal.",
+      "Em uma tigela grande, misture o óleo de coco infusionado derretido com a pasta de castanha, o mel ou xarope de bordo e o extrato de baunilha até ficar completamente liso. Junte a aveia em flocos, a linhaça moída, as gotas de chocolate pequenas, o coco ralado e uma pitada de sal.",
       "Mexa bem até que todos os ingredientes estejam uniformemente combinados.",
       "Cubra a tigela e coloque na geladeira por 30 minutos para a mistura firmar.",
-      "Após resfriar, retire a mistura da geladeira e enrole em bolinhas pequenas usando as mãos.",
+      "Após resfriar, retire a mistura da geladeira e divida em 16 bolinhas iguais (pese a mistura e divida por 16), enrolando-as com as mãos.",
       "Coloque as bolinhas energéticas infusionadas com cannabis em uma assadeira forrada com papel manteiga.",
       "Refrigere as bolinhas energéticas por mais 1-2 horas para firmar.",
-      "Quando estiverem firmes, transfira as bolinhas energéticas para um recipiente hermético e armazene na geladeira.",
-      "Aproveite as bolinhas energéticas infusionadas com cannabis como um lanche nutritivo e saboroso!"
+      "Quando estiverem firmes, transfira as bolinhas energéticas para um recipiente hermético e armazene na geladeira."
     ],
     "intro_unique": "Sem forno, as bolinhas energéticas infusionadas levam aveia, pasta de oleaginosas e mel: um comestível portátil e rico em proteína para dosar em qualquer lugar.",
-    "dosing_unique": "Modele cada bolinha com uma colher de sopa medidora e pese na balança para garantir a mesma dose em toda a fornada.",
+    "dosing_unique": "Divida a mistura em 16 bolinhas iguais pelo peso; 1 porção = 2 bolinhas.",
     "storage_unique": "Guarde na geladeira num recipiente fechado por até uma semana ou congele por 2 meses; descongele por 5 minutos antes de comer.",
     "variation_unique": "Acrescente uma colherada de cacau em pó e minigotas de chocolate para uma bolinha energética com sabor de massa de brownie.",
-    "unique_src": "35ad0009d09273d3b5925a4ae869cdaefd39bf29"
+    "unique_src": "ca8dc920deea172dd36131d991e81f9a7918b9d3"
   },
   "firecrackers": {
     "name": "Fire Crackers",
@@ -748,7 +747,7 @@
     "description": "O mel infusionado é uma ótima maneira de adicionar cannabis às suas bebidas ou sobremesas favoritas.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/2 cup de óleo de coco",
+      "½ xícara (120 ml) de óleo de coco",
       "3.5 de erva moída",
       "300 g de mel",
       "1 colher de chá de lecitina de girassol ou de soja"
@@ -762,13 +761,13 @@
       "Coloque todo o conteúdo do pote em um pano de queijo sobre um coador de metal.",
       "Junte o pano de queijo e esprema todo o líquido restante.",
       "Misture a lecitina no óleo coado ainda morno. Aqueça o mel devagar e bata com o óleo até ficar liso e homogêneo; mexa o pote antes de cada uso, porque ainda pode assentar.",
-      "Coloque e armazene toda a mistura em um pote de conserva ou pote de vidro."
+      "Despeje num pote limpo, feche e rotule."
     ],
     "intro_unique": "O mel infusionado com cannabis é um item versátil da despensa, que você pode misturar no chá, regar sobre torradas ou usar como adoçante em qualquer receita.",
-    "dosing_unique": "Meça o mel às colheres de chá e anote os mg por colher de chá no rótulo do pote, para sempre saber quanto está consumindo.",
+    "dosing_unique": "1 porção = 1 colher de chá, cerca de 6 mg com 14% de THC; 15 mg são cerca de 2½ colheres de chá. Anote os mg por colher de chá no rótulo do pote.",
     "storage_unique": "Guarde num pote de vidro escuro fechado, num armário fresco, por até 3 meses (é o óleo de coco, e não o mel, que limita a validade); mexa antes de cada uso.",
     "variation_unique": "Acrescente uma colher de chá de lavanda seca ou alecrim seco ao pote durante a infusão para um sabor herbal que combina com a cannabis; evite ervas frescas, que trazem umidade.",
-    "unique_src": "9fa59d80b3fbb9998e2aee756738f8e3fdf46228"
+    "unique_src": "f88dd8ca12bbe8fac630f7bc220bdd9787d7b3d2"
   },
   "infused-whiskey": {
     "name": "Whiskey Infusionado",
@@ -1136,7 +1135,7 @@
     "ingredients": [
       "200g de chocolate amargo (85% cacau ou mais para keto)",
       "1 tbsp de manteiga de cannabis amolecida",
-      "1/4 cup de coberturas: flocos de sal marinho, castanhas picadas, cranberries secas ou nibs de cacau"
+      "1/4 xícara de coberturas: flocos de sal marinho, castanhas picadas, nibs de cacau ou cranberries secas (não são keto)"
     ],
     "instructions": [
       "Derreta o chocolate amargo em uma tigela resistente ao calor sobre uma panela de água fervente (banho-maria), mexendo até ficar liso.",
@@ -1144,13 +1143,13 @@
       "Forre uma assadeira com papel manteiga. Despeje a mistura de chocolate e espalhe em uma camada uniforme de cerca de 1/4 de polegada de espessura.",
       "Rapidamente polvilhe as coberturas de sua escolha sobre a superfície.",
       "Refrigere por pelo menos 30 minutos até ficar completamente firme.",
-      "Quebre em 12 pedaços aproximadamente iguais. Armazene na geladeira em um recipiente hermético por até 2 semanas."
+      "Quebre nas marcas em 12 pedaços iguais; 1 porção = 3 pedaços."
     ],
-    "intro_unique": "A casca de chocolate infusionada é um doce keto simples e sem forno: o chocolate infusionado derretido é espalhado em camada fina e coberto com castanhas e sementes.",
-    "dosing_unique": "Espalhe o chocolate numa espessura uniforme sobre uma assadeira forrada com papel-manteiga e marque pedaços iguais antes que endureça por completo.",
+    "intro_unique": "A casca de chocolate infusionada é um doce keto simples e sem forno: o chocolate infusionado derretido é espalhado em camada fina e coberto com castanhas, nibs de cacau ou sal marinho.",
+    "dosing_unique": "Espalhe o chocolate numa espessura uniforme sobre uma assadeira forrada com papel-manteiga e marque uma grade de 3 × 4, com 12 pedaços, antes que endureça por completo; 1 porção = 3 pedaços.",
     "storage_unique": "Guarde na geladeira por até 2 semanas; gelada, a casca quebra certinho nas linhas marcadas.",
     "variation_unique": "Use chocolate branco com morangos liofilizados e pistache triturado para uma casca colorida e frutada.",
-    "unique_src": "4ed8a7095dbb6881c20d94d244a81e03d63775f9"
+    "unique_src": "caaf29354398a1e119d504b3ca79ce5c5c38848b"
   },
   "cannabis-vegan-brownies": {
     "name": "Brownies Veganos de Cannabis",
@@ -2493,20 +2492,20 @@
       "Pitada de sal",
       "½ cup leite",
       "1 ovo",
-      "1 tbsp manteiga de cannabis derretida",
+      "2 colheres de sopa de manteiga de cannabis, derretida e levemente amornada",
       "Óleo para fritar",
-      "Cobertura: ½ cup açúcar, 1 tsp canela, 1 tbsp manteiga de cannabis derretida"
+      "Cobertura: ½ xícara de açúcar, 1 colher de chá de canela, 1 colher de sopa de manteiga sem sal derretida"
     ],
     "instructions": [
-      "Misture os ingredientes secos. Bata o leite, o ovo e a manteiga de cannabis; junte aos secos.",
-      "Aqueça o óleo a 350°F. Coloque colheradas de massa; frite por 2-3 min até dourar.",
-      "Escorra, pincele com manteiga de cannabis e passe no açúcar com canela."
+      "Misture os ingredientes secos. Bata o leite e o ovo em temperatura ambiente e depois a manteiga de cannabis derretida até ficar liso; junte aos secos, mexendo só até incorporar.",
+      "Aqueça o óleo a 350°F. Coloque 20 colheres de sopa rasas de massa, poucas de cada vez; frite por 2-3 min até dourar.",
+      "Escorra rapidamente, pincele com a manteiga derretida e passe no açúcar com canela ainda morno."
     ],
     "intro_unique": "Do tamanho de uma mordida, estes bolinhos de berlim infusionados são fritos até dourar e passados no açúcar com canela, um comestível divertido para compartilhar.",
-    "dosing_unique": "Coloque colheres de sopa rasas de massa para que todos os bolinhos fiquem do mesmo tamanho, e pincele cada um com a mesma quantidade de manteiga de cannabis.",
+    "dosing_unique": "Coloque 20 colheres de sopa rasas de massa para que todos os bolinhos fiquem do mesmo tamanho; 1 porção = 2 bolinhos.",
     "storage_unique": "Melhor comer no mesmo dia; guarde as sobras num saco de papel em temperatura ambiente por até 24 horas.",
     "variation_unique": "Recheie os bolinhos com creme de confeiteiro de baunilha usando um saco de confeitar, para um centro no estilo Boston cream.",
-    "unique_src": "67ee19e7ce87a180929d59ca81f586e58dad82c9"
+    "unique_src": "6089ec094961209ce3e2c8b1fcf171635f905619"
   },
   "cannabis-peach-cobbler": {
     "name": "Cobbler de Pêssego de Cannabis",
@@ -4160,13 +4159,13 @@
       "Adicione a cannabis descarboxilada diretamente à panela. Cozinhe em fogo mínimo por 30 minutos, mexendo ocasionalmente. Não deixe ferver.",
       "Retire do fogo e deixe a mistura repousar por mais 10 minutos.",
       "Coe com peneira fina forrada com gaze para um frasco limpo. Esprema a gaze para extrair todo o xarope.",
-      "Deixe esfriar antes de fechar. Guarde na geladeira por até 2 meses. Agite bem antes de usar."
+      "Deixe esfriar antes de fechar. Guarde na geladeira. Agite bem antes de usar."
     ],
     "intro_unique": "O Xarope de Bordo de Cannabis combina o calor do maple puro com os efeitos do THC, criando um adoçante infusionado versátil para o café da manhã, a confeitaria e coquetéis.",
-    "dosing_unique": "Meça as porções de uma colher de sopa com cuidado; a gordura infusionada se distribui de forma uniforme pelo xarope quando agitado, então sempre agite a garrafa antes de servir.",
+    "dosing_unique": "1 porção = 1 colher de sopa (o lote rende cerca de 19), cerca de 12 mg com 14% de THC. A gordura infusionada se distribui de forma uniforme pelo xarope quando agitado, então sempre agite a garrafa antes de servir.",
     "storage_unique": "Guarde na geladeira em uma garrafa de vidro fechada por até 2 meses; a manteiga pode solidificar no frio, então aqueça a garrafa em água quente antes de usar.",
     "variation_unique": "Acrescente um pau de canela ou uma fava de baunilha durante a fervura para mais sabor, ou use xarope de bordo âmbar escuro para um gosto mais encorpado.",
-    "unique_src": "73a6448e5334db51d848130e1c7d098963d07077"
+    "unique_src": "17d9d216a6607320ccdbd01f1e98dd90e72e5dc2"
   },
   "cannabis-hot-sauce": {
     "name": "Molho de Pimenta de Cannabis",
@@ -5363,8 +5362,8 @@
     "description": "Biscoitos mastigáveis de aveia e passas infundidos com cannabis, repletos de aveia, passas e especiarias quentes para um deleite saudável e medicinal.",
     "category_name": "Sobremesas",
     "ingredients": [
-      "1/4 xícara de manteiga de cannabis",
-      "1/2 xícara de manteiga comum amolecida",
+      "6 colheres de sopa de manteiga de cannabis amolecida",
+      "6 colheres de sopa de manteiga comum amolecida",
       "3/4 xícara de açúcar mascavo compactado",
       "1/4 xícara de açúcar refinado",
       "1 ovo grande",
@@ -5378,15 +5377,15 @@
       "Pré-aqueça o forno a 175°C. Forre as assadeiras com papel manteiga.",
       "Bata a manteiga comum amolecida, a manteiga de cannabis amolecida, o açúcar mascavo e o açúcar refinado até ficarem fofos. Adicione o ovo e o extrato de baunilha.",
       "Misture a farinha, o bicarbonato de sódio, a canela e o sal. Incorpore os ingredientes secos à mistura de manteiga até combinado. Adicione a aveia e as passas.",
-      "Coloque colheradas arredondadas de massa nas assadeiras preparadas, com espaço de 5 cm entre elas.",
+      "Divida a massa em 24 bolinhas iguais (pese a massa e divida por 24, cerca de 2 colheres de sopa cada) e coloque nas assadeiras preparadas, com espaço de 5 cm entre elas.",
       "Asse por 10-13 minutos até as bordas ficarem douradas, mas os centros ainda levemente macios.",
       "Esfrie na assadeira por 5 minutos e transfira para uma grade. Rende aproximadamente 24 biscoitos."
     ],
     "intro_unique": "Estes Biscoitos de Aveia e Passas de Cannabis combinam aveia encorpada e passas suculentas com manteiga de cannabis, um biscoito caseiro que entrega uma experiência medicinal confiável.",
-    "dosing_unique": "A manteiga de cannabis é batida na massa e distribuída de forma uniforme; porcionar 24 biscoitos iguais torna simples calcular a sua dose por biscoito.",
-    "storage_unique": "Guarde em um recipiente hermético em temperatura ambiente por até 5 dias, ou congele as bolinhas de massa e asse frescas conforme precisar.",
+    "dosing_unique": "A manteiga de cannabis é batida na massa e distribuída de forma uniforme; porcionar 24 biscoitos iguais torna simples calcular a sua dose por biscoito. Um biscoito é uma porção.",
+    "storage_unique": "Guarde em um recipiente hermético em temperatura ambiente por até 4 dias, ou congele as bolinhas de massa e asse frescas conforme precisar.",
     "variation_unique": "Substitua as passas por cranberries secas e gotas de chocolate branco, ou acrescente nozes picadas para mais crocância e sabor amendoado.",
-    "unique_src": "e2c0c2851c55dd6b37b81b56bebe874e8c33aa45"
+    "unique_src": "b0bd036e5c48885563e0e318049f02bd85502744"
   },
   "cannabis-key-lime-pie": {
     "name": "Torta de Limão Key de Cannabis",
