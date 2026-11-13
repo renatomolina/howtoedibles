@@ -5,8 +5,8 @@
 //  fold – recipe pages, portrait phones: the hero buttons end inside the first screen
 //  errs – uncaught JS errors
 // Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/fit.mjs [outdir]   (BASE=… to change the server)
-import { spawn } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
+import { chrome, sleep } from "./chrome.mjs";
 const out = process.argv[2] || "/tmp/hte-fit";
 mkdirSync(out, { recursive: true });
 const BASE = process.env.BASE || "http://127.0.0.1:8781";
@@ -30,9 +30,7 @@ const PAGES = [ // name, path (after the language prefix), setup run in the page
 ];
 // controls that must stay on one line (each text node inside is checked separately, so a chip's value + label may stack by design)
 const ONE_LINE = ".tag, .sbox button, .dt th, .dt td:nth-child(2), .ex p b, .sh > a, button, .btn, .chip, .chips a, .seg > *, .txtbtn, .spill, .dot, .sticker, .eyebrow, .ad small, .cfoot a, .sh > a, .facts b, .facts span, .tiles small, .crumb, .reset, .langs a, .bh > a, .more, .help, .helpbox, .peek small, .peek b, .lvl b, .tot, .u, .back";
-const PORT = 9347, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-fit", "--no-first-run", "--hide-scrollbars"], { stdio: "ignore" });
-for (let i = 0; i < 50; i++) { try { await fetch(`http://127.0.0.1:${PORT}/json/version`); break; } catch { await sleep(200); } }
+const browser = await chrome("fit");
 
 const PROBE = (setup) => `(async () => {
   await document.fonts.ready; ${setup} await new Promise((f) => setTimeout(f, 250));
@@ -63,13 +61,7 @@ const PROBE = (setup) => `(async () => {
 })()`.replace("ONE_LINE", JSON.stringify(ONE_LINE));
 
 async function runVP([name, w, h, mobile]) {
-  const target = await (await fetch(`http://127.0.0.1:${PORT}/json/new?about:blank`, { method: "PUT" })).json();
-  const ws = new WebSocket(target.webSocketDebuggerUrl);
-  await new Promise((r) => (ws.onopen = r));
-  let id = 0; const pend = new Map(), evs = [];
-  ws.onmessage = (e) => { const m = JSON.parse(e.data); if (m.id && pend.has(m.id)) { pend.get(m.id)(m); pend.delete(m.id); } else evs.forEach((f) => f(m)); };
-  const send = (method, params = {}) => new Promise((r) => { pend.set(++id, r); ws.send(JSON.stringify({ id, method, params })); });
-  await send("Page.enable"); await send("Runtime.enable"); await send("Network.enable"); await send("Network.setCacheDisabled", { cacheDisabled: true });
+  const { send, evs, close } = await browser.tab();
   await send("Emulation.setDeviceMetricsOverride", { width: w, height: h, deviceScaleFactor: 1, mobile: !!mobile });
   await send("Emulation.setTouchEmulationEnabled", { enabled: !!mobile });
   await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: "reduce" }] });
@@ -81,15 +73,15 @@ async function runVP([name, w, h, mobile]) {
     await send("Page.navigate", { url: `${BASE}${lang === "en" ? path.replace("/calculator.html", "/edible-dosage-calculator/") : "/" + lang + path}` });
     await Promise.race([loaded, sleep(8000)]);
     const v = await send("Runtime.evaluate", { expression: PROBE(setup), awaitPromise: true, returnByValue: true });
-    const res = JSON.parse(v.result?.result?.value || `{"cut":["probe failed: ${(v.result?.exceptionDetails?.exception?.description || "").split("\n")[0].replace(/"/g, "'")}"],"wrap":[]}`);
+    const res = JSON.parse(v.result?.value || `{"cut":["probe failed: ${(v.exceptionDetails?.exception?.description || "").split("\n")[0].replace(/"/g, "'")}"],"wrap":[]}`);
     const row = { vp: `${name} ${w}×${h}`, page, path, lang, ...res, errs: [...errs] };
     rows.push(row);
     if (row.cut.length || row.wrap.length || row.errs.length || /OVER/.test(row.fold || "")) {
       const s = await send("Page.captureScreenshot", { format: "jpeg", quality: 60 });
-      writeFileSync(`${out}/${w}_${page}_${lang}.jpg`, Buffer.from(s.result.data, "base64"));
+      writeFileSync(`${out}/${w}_${page}_${lang}.jpg`, Buffer.from(s.data, "base64"));
     }
   }
-  ws.close(); await fetch(`http://127.0.0.1:${PORT}/json/close/${target.id}`);
+  await close();
   return rows;
 }
 
@@ -98,5 +90,5 @@ writeFileSync(`${out}/report.json`, JSON.stringify(all, null, 1));
 const bad = all.filter((x) => x.cut.length || x.wrap.length || x.errs.length || /OVER/.test(x.fold || ""));
 console.log(`${all.length} combos (${PAGES.length} page states × up to ${LANGS.length} langs × ${VP.length} viewports) · ${bad.length} with a problem`);
 for (const x of bad) console.log(`✗ ${x.vp.padEnd(22)} ${x.page.padEnd(11)} ${x.lang}  ${x.fold && x.fold !== "ok" ? x.fold + " " : ""}${[...x.errs.map((e) => "ERR " + e), ...x.cut.map((c) => "CUT " + c), ...x.wrap.map((c) => "WRAP " + c)].join(" | ")}`);
-chrome.kill();
+browser.kill();
 process.exit(bad.length ? 1 : 0);

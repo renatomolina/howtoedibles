@@ -22,11 +22,15 @@ Fully static HTML site — no build framework, no bundler. Almost every page is 
 ruby scripts/build_site.rb
 
 # Gates before merging (serve the repo first: python3 -I scripts/qa/serve.py 8781, which gzips text and answers missing paths with /404.html like Pages; lighthouse.sh needs the gzip; another port: BASE=http://127.0.0.1:PORT)
-node scripts/qa/devices.mjs   # 36 viewports × 5 langs × recipes, special pages, articles: overflow, first screen, dose readout, rail
-node scripts/qa/fit.mjs       # strings: cut-off text and wrapped one-line controls, incl. menu/search dialogs
-node scripts/qa/interact.mjs  # calculator, dialogs + Back, theme key
-sh scripts/qa/lighthouse.sh   # mobile lab run, ads blocked: LCP ≤ 1.8 s, CLS ≤ 0.02, TBT ≤ 100 ms
+# Every PR:
+node scripts/qa/titles.mjs    # ~30 s: every recipe H1 × 5 langs at 344/390/1000 px: no word sticks out, buttons in the first screen
 ruby scripts/qa/slots.rb      # article ad slots follow the #55 rule in all 5 languages
+# PRs that touch the look (scripts/build_redesign.rb, css/, js/, i18n/{lang}.json, fonts/, data/glyphs.svg, images/brand/), ~5 min:
+node scripts/qa/devices.mjs   # ~50 s: 36 viewports × 5 langs × recipes, special pages, articles: overflow, first screen, dose readout, rail
+node scripts/qa/fit.mjs       # ~50 s: strings: cut-off text and wrapped one-line controls, incl. menu/search dialogs
+node scripts/qa/interact.mjs  # calculator, dialogs + Back, theme key
+sh scripts/qa/lighthouse.sh   # ~3 min: mobile lab run, ads blocked: LCP ≤ 1.8 s, CLS ≤ 0.02, TBT ≤ 100 ms
+# The .mjs gates share scripts/qa/chrome.mjs: own Chrome per run (safe in parallel sessions), ads blocked, 20 s CDP timeout
 
 # Rebuild /fonts/unbounded-800.latin1.woff2 from the pinned upstream font (fontTools + brotli)
 python3 scripts/build_font.py
