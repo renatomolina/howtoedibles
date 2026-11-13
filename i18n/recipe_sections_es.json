@@ -107,7 +107,7 @@
         "intro": "Esta receta de %{name} con cannabis transforma %{base_fat} en una confección elegante y dosificada con precisión que luce tan bien como sabe. Los dulces y confecciones son perfectos para micro-dosificación ya que cada pieza puede hacerse con especificaciones exactas. Domina el arte de hacer dulces con cannabis con nuestra guía detallada.",
         "dosing_tips": [
           "Las confecciones son ideales para una dosificación precisa porque puedes usar moldes para crear porciones idénticas. Calcula el THC total y divide entre el número de moldes.",
-          "Usa aceite de coco infusionado con cannabis o %{base_fat} y agrega lecitina de girasol para mejorar la unión en las recetas de dulces.",
+          "Mezcla el ingrediente con cannabis por completo mientras la mezcla está tibia; en caramelos y gomitas, un poco de lecitina de girasol ayuda a que se mantenga integrado.",
           "Haz todas las piezas del mismo tamaño para que cada una tenga la misma dosis. Si eres principiante, comienza con unos 5 mg, aunque eso sea parte de una pieza, y espera 2 horas.",
           "Permite que las confecciones cuajen completamente antes de consumirlas ya que comer dulces calientes puede causar una absorción más rápida e intensa."
         ],
@@ -583,7 +583,7 @@
           },
           {
             "q": "¿Se pueden calentar los untables de cannabis para mojar?",
-            "a": "Calentar suavemente hasta la temperatura de servir está bien y no degradará el THC. Mantén por debajo de 200 F (93 C). Los dips calientes de queso y fondue con cannabis son deliciosos; solo calienta lentamente y revuelve con frecuencia para mantener la emulsión.",
+            "a": "Sí. Caliéntalo despacio hasta la temperatura de servir, removiendo a menudo para que quede liso, y no dejes que hierva.",
             "only": [
               "cannabis-cheese-dip"
             ]
@@ -684,7 +684,7 @@
           "Saltarse la descarboxilación es el error número uno. El cannabis crudo contiene THCA que no es psicoactivo. Caliéntalo a 240 F (115 C) durante 40 minutos primero.",
           "Cocinar la infusión a temperatura demasiado alta. Mantenla a fuego suave, 160-200 F (70-93 C), nunca a hervor fuerte.",
           "No colar a fondo. Exprime la gasa para extraer toda la grasa infusionada, pero no fuerces el material vegetal a través.",
-          "Usar demasiada flor en relación con la grasa. Una proporción estándar es 1 taza de grasa por 7-10 gramos de flor descarboxilada. Más flor no siempre significa más potencia."
+          "Cambiar la proporción de flor y grasa sin actualizar la dosis. Todas las recetas del sitio parten de la proporción de la receta base; si usas más o menos flor, pon los nuevos gramos en la calculadora."
         ],
         "storage": [
           "Sigue la nota de conservación al final de esta lista. Todo lo que lleve lácteos, huevo, queso crema, carne o pescado va a la nevera antes de 2 horas después de cocinarlo (1 hora si hace más de 32 °C).",
@@ -699,7 +699,7 @@
         "faq": [
           {
             "q": "¿Cuál es la mejor grasa para la infusión de cannabis?",
-            "a": "El aceite de coco y la mantequilla son las mejores opciones porque su alto contenido de grasa saturada une el THC de manera más efectiva. El aceite de coco supera ligeramente a la mantequilla en eficiencia de extracción y vida útil. El aceite de oliva también funciona pero tiene un menor contenido de grasa saturada.",
+            "a": "La mantequilla y el aceite de coco son los más comunes; el aceite de oliva también funciona. Elige la grasa que va con lo que vas a cocinar; la dosis depende de cuánta flor lleva cada taza de grasa, y cada receta base lo indica.",
             "only": [
               "cannabutter",
               "infused-coconut-oil",
@@ -840,7 +840,7 @@
           "Usa un gotero graduado para medir cada dosis en mililitros. Calcula el THC total del lote y divide por el volumen total para precisión en mg por ml.",
           "Para uso sublingual, mantén la tintura bajo la lengua por 60-90 segundos antes de tragar. Los efectos pueden comenzar en 15-30 minutos de esta manera.",
           "Al añadir tintura a alimentos, los efectos siguen el tiempo normal de comestibles de 45-90 minutos ya que pasa por la digestión.",
-          "Comienza con 0.25-0.5 ml de una tintura estándar y aumenta gradualmente. Las tinturas son concentradas y fáciles de sobredosificar."
+          "Empieza con unos 5 mg, una fracción de una porción: las tinturas son concentradas y es fácil pasarse."
         ],
         "common_mistakes": [
           "Usar alcohol de baja graduación para la extracción produce una tintura débil. Usa etanol alimentario de 190 proof para máxima extracción de cannabinoides.",
@@ -884,7 +884,7 @@
       "condiment": {
         "intro": "Esta receta de %{name} con cannabis infusiona un condimento cotidiano con %{base_fat} para una forma sencilla de añadir una dosis medida de THC a cualquier comida. Los condimentos con cannabis son la conveniencia definitiva en %{category} porque los preparas una vez y los usas durante semanas, convirtiendo comidas ordinarias en experiencias comestibles con una simple cucharada o chorrito.",
         "dosing_tips": [
-          "Calcula el THC total en el lote del condimento y divide por el número de porciones de una cucharada para la dosificación por uso.",
+          "Calcula el THC total del lote de condimento y divide entre el número de porciones que da la receta; esta página muestra el tamaño de la porción.",
           "Mide el condimento con una cuchara en lugar de verterlo, para saber cuántas porciones estás consumiendo; unos 5 mg son una dosis para la primera vez.",
           "Agita o revuelve tu condimento con cannabis antes de cada uso ya que la grasa infusionada puede separarse con el tiempo.",
           "Lleva un registro de tu consumo de condimento a lo largo del día si lo usas en múltiples comidas para evitar sobredosificación accidental."
@@ -921,6 +921,47 @@
           {
             "q": "¿Puedo llevar condimentos de cannabis a una barbacoa?",
             "a": "Puedes llevarlos para uso personal, pero nunca los pongas disponibles sin etiquetado extremadamente claro. Mantenlos en un recipiente separado y distinto, lejos de los condimentos regulares. Comparte solo con adultos informados y que hayan dado su consentimiento y que entiendan la dosis por porción."
+          }
+        ]
+      },
+      "dry_base": {
+        "intro": "Esta receta de %{name} lleva cannabis descarboxilado en un ingrediente seco de la despensa, para que midas el THC por cucharadas en lugar de derretir una grasa. Es un ingrediente fuerte, no un cambio uno por uno: una cucharadita rasa es una porción.",
+        "dosing_tips": [
+          "La página muestra los mg de una cucharadita rasa; esa cucharadita es una porción.",
+          "Usa como máximo una cucharadita por porción del plato que prepares y completa el resto de la receta con el ingrediente normal.",
+          "Remueve o agita el frasco antes de medir, para que cada cucharada tenga la misma parte del cannabis.",
+          "¿Primera vez con comestibles? Empieza con unos 5 mg, un tercio de cucharadita, y espera 2 horas antes de tomar más."
+        ],
+        "common_mistakes": [
+          "Cambiarlo uno por uno por el ingrediente normal. Una taza entera tiene decenas de porciones.",
+          "Medir con la cuchara colmada. Enrasa cada cucharadita con un cuchillo para que la dosis coincida con la página.",
+          "Saltarse la descarboxilación. La flor cruda es casi toda THCA, que no tiene efecto; esta receta la calienta antes en el horno.",
+          "Dejar que se humedezca. La humedad forma grumos, y los grumos hacen que la dosis de cada cucharada sea desigual; guarda el frasco cerrado y seco."
+        ],
+        "storage": [
+          "Sigue la nota de conservación al final de esta lista. Todo lo que lleve lácteos, huevo, queso crema, carne o pescado va a la nevera antes de 2 horas después de cocinarlo (1 hora si hace más de 32 °C).",
+          "Si la receta se congela bien, congela porciones individuales etiquetadas para descongelar una dosis cada vez.",
+          "Etiqueta cada recipiente con la fecha y los mg por porción, y guarda los comestibles fuera del alcance de niños y mascotas."
+        ],
+        "variations": [
+          "Úsalo en una receta con un número conocido de porciones, una cucharadita rasa por porción, para que la dosis de la calculadora siga siendo correcta.",
+          "Mezcla primero la cantidad medida con el resto de los ingredientes secos, para que se reparta por igual en la masa."
+        ],
+        "faq": [
+          {
+            "q": "¿Puedo usar %{name} en lugar de todo el ingrediente normal?",
+            "a": "No. Una cucharadita rasa es una porción, así que una taza entera tiene decenas de porciones. Usa una cucharadita por porción y el ingrediente normal para el resto."
+          },
+          {
+            "q": "¿Puedo comer la harina de cannabis cruda?",
+            "a": "No. La harina cruda puede tener bacterias dañinas, por eso la FDA dice que nunca se coma cruda, ni siquiera en masa de galletas. Usa la harina de cannabis solo en recetas horneadas o cocinadas.",
+            "only": [
+              "cannabis-flour"
+            ]
+          },
+          {
+            "q": "¿Por qué descarboxilar la flor antes?",
+            "a": "El cannabis crudo es casi todo THCA, que no tiene efecto psicoactivo. Calentarlo en el horno lo convierte en THC, y el frasco terminado ya se puede medir."
           }
         ]
       }
@@ -1475,7 +1516,7 @@
           "Usa un huevo de linaza o de chía para aglutinar sin lácteos, lo cual no afecta la distribución del THC."
         ],
         "common_mistakes": [
-          "Sustituir el aceite de coco con cannabis 1:1 por mantequilla sin ajustar el contenido líquido. El aceite de coco no contiene agua, a diferencia de la mantequilla que tiene aproximadamente un 15% de agua.",
+          "Cambiar la cantidad de grasa infusionada o normal. Usa exactamente lo que indica la receta, para que la dosis y la textura salgan bien.",
           "Mezclar en exceso las masas veganas con aceite de coco crea una textura densa y pesada. Mezcla solo hasta integrar.",
           "Hornear a una temperatura demasiado alta porque las masas veganas se doran de forma diferente. Mantén la temperatura a %{cook_temp} y vigila de cerca.",
           "Usar aceite de coco refinado y perderte el sabor. El aceite sin refinar tiene una dulzura natural que realza muchos horneados veganos."
@@ -1685,10 +1726,10 @@
       "brazilian_sweet": {
         "intro": "Esta receta de %{name} con cannabis infusiona las queridas tradiciones de dulces brasileños con %{base_fat} para un postre tropical y potente que celebra la rica herencia culinaria de Brasil. Los dulces brasileños como brigadeiros, beijinhos y postres de coco son naturalmente altos en grasa, lo que los convierte en vehículos ideales para la infusión de cannabis. Experimenta un sabor de Brasil con un toque cuidadosamente dosificado.",
         "dosing_tips": [
-          "Los dulces brasileños como los brigadeiros se enrollan en bolitas individuales, haciendo de cada una una dosis precisamente porcionada. Calcula los mg por bolita.",
+          "Reparte por igual: los dulces en bolitas deben ser todos del mismo tamaño, y la receta dice cuántos son una porción.",
           "Los dulces a base de leche condensada integran la mantequilla de cannabis o el aceite de coco de forma suave. Revuelve continuamente mientras cocinas para una distribución uniforme.",
           "Los dulces brasileños son ricos y la gente suele comer varios en las fiestas, así que revisa cuántos mg contiene una pieza, comienza con unos 5 mg y espera 2 horas.",
-          "El alto contenido de azúcar y grasa en los dulces brasileños puede retrasar el inicio de efectos a 60-90 minutos. Ten paciencia y no comas en exceso."
+          "El alto contenido de azúcar y grasa puede retrasar el efecto. Ten paciencia: espera 2 horas antes de comer más."
         ],
         "common_mistakes": [
           "Cocinar leche condensada con grasa de cannabis a fuego demasiado alto. Los dulces brasileños requieren cocción lenta a fuego bajo. Mantén el fuego suave para preservar el THC.",
@@ -1709,7 +1750,7 @@
         "faq": [
           {
             "q": "¿Puedo hacer brigadeiros con cannabis?",
-            "a": "Por supuesto, los brigadeiros son uno de los mejores dulces brasileños para la infusión de cannabis. Reemplaza parte de la mantequilla regular con mantequilla de cannabis y cocina la mezcla de leche condensada a fuego lento, revolviendo constantemente. Enrolla en bolitas y cubre con chispas de chocolate. Cada bolita es una dosis individual perfecta.",
+            "a": "Por supuesto, el brigadeiro es uno de los dulces brasileños que mejor van con cannabis. Cocina la leche condensada con la mantequilla de cannabis a fuego bajo, removiendo sin parar, luego forma bolitas iguales y rebózalas en chispas. La receta dice cuántas bolitas son una porción.",
             "only": [
               "infused-brigadeiro"
             ]
@@ -1917,16 +1958,16 @@
       "citrus": {
         "intro": "Esta receta de %{name} con cannabis combina %{base_fat} con sabores cítricos brillantes para una bebida refrescante sin alcohol, infusionada y perfecta para ocasiones sociales. Los mocktails cítricos son de los mejores para enmascarar el sabor del cannabis gracias a su acidez intensa y sus aceites aromáticos. Disfruta de una bebida sofisticada con cannabis sin el alcohol.",
         "dosing_tips": [
-          "Usa jarabe simple infusionado con cannabis o tintura para un mocktail cítrico más limpio. Las infusiones a base de grasa pueden crear una película aceitosa en bebidas ácidas.",
+          "Disuelve el ingrediente con cannabis por completo antes de que la bebida se enfríe (la miel infusionada va primero en un poco de agua tibia) y remueve antes de servir cada vaso.",
           "Sirve vasos iguales para que los invitados sepan que una bebida equivale a una porción, y diles a los principiantes que unos 5 mg son suficientes para empezar.",
           "Los ácidos cítricos pueden acelerar el vaciamiento estomacal, lo que potencialmente lleva a un inicio de efectos ligeramente más rápido. Comienza con poco y espera 2 horas antes de tomar más.",
           "Agita o revuelve vigorosamente para integrar completamente el elemento de cannabis. La separación es más visible en bebidas cítricas claras."
         ],
         "common_mistakes": [
-          "Usar infusiones de cannabis a base de grasa en bebidas cítricas claras crea gotas aceitosas visibles. Las tinturas o extractos hidrosolubles funcionan mucho mejor.",
+          "Echar el ingrediente con cannabis directamente en el jugo helado. Todo lo que lleva aceite se solidifica en grumitos que se llevan la dosis; disuélvelo antes en un poco de líquido tibio y remueve antes de servir.",
           "Agregar demasiado jugo de cítricos enmascara el cannabis pero también diluye la dosis. Mide ambos con cuidado.",
           "Hacer un ponche grande por lotes sin calcular la dosificación por vaso lleva a una inconsistencia peligrosa.",
-          "Decorar con grandes cantidades de hierbas frescas sin informar a los invitados. Algunas hierbas interactúan con los cannabinoides y alteran la experiencia."
+          "Servir vasos de distintos tamaños. Mide cada vaso para que todos lleven la misma parte de la dosis."
         ],
         "storage": [
           "Sigue la nota de conservación al final de esta lista. Todo lo que lleve lácteos, huevo, queso crema, carne o pescado va a la nevera antes de 2 horas después de cocinarlo (1 hora si hace más de 32 °C).",
@@ -1945,11 +1986,11 @@
           },
           {
             "q": "¿Cuál es el mejor producto de cannabis para mocktails cítricos?",
-            "a": "Las emulsiones de THC hidrosolubles son ideales porque se mezclan completamente sin separación aceitosa. La tintura de cannabis es la siguiente mejor opción. Si solo tienes infusiones a base de grasa, mezcla con un emulsionante como la lecitina o usa una base cremosa para disimular el aceite."
+            "a": "El de la receta. La dosis de esta página solo vale para su propio ingrediente con cannabis, así que usa la receta base del sitio que enlaza, disuélvelo bien y remueve antes de servir."
           },
           {
             "q": "¿Puedo hacer limonada con cannabis para una fiesta?",
-            "a": "Sí, pero dosifica con cuidado. Prepara un lote grande de limonada sin cannabis y proporciona jarabe simple con cannabis aparte para que cada persona añada su propia dosis. Esto es más seguro que pre-dosificar una jarra comunitaria donde las porciones son inconsistentes."
+            "a": "Sí, pero no pongas la dosis en una jarra compartida. Prepara la limonada normal en la jarra y añade el ingrediente con cannabis vaso por vaso, en la medida de la receta, para que cada vaso tenga una porción conocida."
           },
           {
             "q": "¿Por qué mi bebida cítrica con cannabis sabe amarga?",
@@ -2064,7 +2105,7 @@
           "Beber despacio durante 30 minutos te da mejor control sobre tu experiencia que tomar toda la taza rápidamente."
         ],
         "common_mistakes": [
-          "Añadir %{base_fat} a un líquido hirviendo puede causar que se queme y desarrolle un sabor amargo. Deja que el líquido se enfríe a aproximadamente 160-180 °F (70-82 °C) antes de incorporar la grasa.",
+          "Hervir la bebida cuando ya lleva el ingrediente con cannabis. Caliéntala despacio y retírala del fuego antes de que hierva, para que no se queme ni amargue.",
           "Omitir la emulsión deja una película aceitosa encima que sabe desagradable y significa que los primeros sorbos tienen la mayor parte del THC mientras los últimos casi no tienen.",
           "Hacer bebidas demasiado fuertes porque saben suaves cuando están calientes. Los efectos te alcanzan gradualmente. Siempre calcula y mide la dosis con precisión.",
           "No considerar la evaporación al cocinar a fuego lento. Si tu bebida se reduce, la concentración por onza aumenta."
@@ -2082,7 +2123,7 @@
         "faq": [
           {
             "q": "¿El calor de una bebida caliente destruirá el THC?",
-            "a": "Las temperaturas normales para beber de 140-180 °F (60-82 °C) no degradarán el THC. El THC comienza a degradarse alrededor de 315 °F (157 °C). Mientras no hiervas tu bebida durante un período prolongado con la grasa de cannabis dentro, la potencia se preserva."
+            "a": "No a la temperatura de beber. Calienta la bebida despacio y no la dejes hirviendo con el ingrediente con cannabis dentro."
           },
           {
             "q": "¿Por qué mi latte con cannabis sabe aceitoso?",
@@ -2103,18 +2144,18 @@
         ]
       },
       "cold_drinks": {
-        "intro": "Esta refrescante receta de %{name} con cannabis incorpora %{base_fat} en una bebida helada perfecta para días cálidos y reuniones sociales. Las bebidas frías con cannabis son una forma discreta y agradable de consumir comestibles con control preciso de la dosis. Licuar asegura que la grasa infusionada se distribuya uniformemente para efectos consistentes en cada vaso.",
+        "intro": "Esta refrescante receta de %{name} con cannabis lleva el ingrediente con cannabis a una bebida fría, perfecta para días de calor y reuniones. Las bebidas frías son una forma discreta de tomar comestibles con una dosis conocida en cada vaso, siempre que ese ingrediente esté bien disuelto y la bebida se remueva antes de servir.",
         "dosing_tips": [
-          "Mezcla tu %{base_fat} en la base de la bebida con una licuadora de inmersión o de vaso para una distribución suave y uniforme.",
+          "Incorpora el ingrediente con cannabis por completo antes de que la bebida se enfríe: disuelve la miel infusionada primero en un poco de agua tibia y licúa o bate el aceite en la bebida, como indica la receta.",
           "Las bebidas frías son fáciles de tomar rápidamente. Sirve porciones iguales, bebe a sorbos lentos y espera 2 horas antes de tomar otra.",
           "Si preparas una ponchera o jarra, revuelve antes de cada servida ya que la grasa se separa más notablemente en líquidos fríos.",
-          "Considera usar productos de THC hidrosolubles para bebidas frías ya que se mezclan de forma más natural que las infusiones a base de grasa."
+          "Sirve un vaso por porción, como lo divide la receta, en lugar de beber de una jarra compartida."
         ],
         "common_mistakes": [
-          "Las infusiones de cannabis a base de grasa se agrupan y se separan en líquidos fríos. Debes licuar vigorosamente o usar un emulsionante para prevenir una capa aceitosa.",
+          "Echar el ingrediente con cannabis directamente sobre el hielo. Todo lo que lleva aceite (la miel infusionada tiene aceite de coco) se solidifica en grumitos con el frío y se lleva la dosis; mézclalo mientras está tibio y remueve antes de servir.",
           "Hacer una jarra entera sin calcular la dosificación por vaso lleva a porciones inconsistentes y potencialmente peligrosas.",
           "Añadir hielo diluye la bebida con el tiempo, lo que cambia la concentración por sorbo. Ten esto en cuenta o sirve sobre fruta congelada en su lugar.",
-          "Asumir que las bebidas frías hacen efecto más lento que las calientes. Las bebidas licuadas se digieren rápidamente y pueden hacer efecto en 20-40 minutos."
+          "Creer que una bebida fría hace efecto rápido y tomar otra. Los comestibles pueden tardar hasta 2 horas en hacer efecto, también las bebidas; espera ese tiempo antes de otro vaso."
         ],
         "storage": [
           "Sigue la nota de conservación al final de esta lista. Todo lo que lleve lácteos, huevo, queso crema, carne o pescado va a la nevera antes de 2 horas después de cocinarlo (1 hora si hace más de 32 °C).",
@@ -2122,14 +2163,14 @@
           "Etiqueta cada recipiente con la fecha y los mg por porción, y guarda los comestibles fuera del alcance de niños y mascotas."
         ],
         "variations": [
-          "Usa jarabe simple infusionado con cannabis en lugar de grasa para una textura más suave que se disuelve perfectamente en bebidas frías.",
+          "Endulza más al gusto con miel o azúcar normal; nunca añadas más del ingrediente con cannabis, porque subiría la dosis.",
           "Licúa fruta congelada con leche de coco con cannabis para una bebida estilo smoothie que enmascara los sabores herbales de forma natural.",
-          "Añade una cucharada de crema de coco infusionada con cannabis a la limonada para una bebida infusionada cremosa estilo Arnold Palmer."
+          "Decora con fruta fresca, menta o una pizca de especias; los toppings sin cannabis cambian el sabor, no la dosis."
         ],
         "faq": [
           {
             "q": "¿Cómo prevengo la textura aceitosa en las bebidas frías con cannabis?",
-            "a": "Usa una licuadora de alta velocidad para crear una emulsión y añade una pequeña cantidad de lecitina. Alternativamente, usa productos de THC hidrosolubles diseñados para bebidas. Los jarabes simples y tinturas infusionados con cannabis también se mezclan más suavemente que las grasas en líquidos fríos."
+            "a": "Mezcla el ingrediente con cannabis mientras está tibio: disuelve la miel infusionada en un poco de agua tibia y licúa o bate los aceites en la bebida antes del hielo. Luego remueve antes de cada sorbo, porque el aceite de coco se endurece con el frío."
           },
           {
             "q": "¿Puedo usar tintura de cannabis en bebidas frías?",
@@ -2137,11 +2178,11 @@
           },
           {
             "q": "¿Las bebidas frías con cannabis funcionan tan rápido como las calientes?",
-            "a": "Las bebidas frías licuadas pueden hacer efecto bastante rápido, a veces en 20-40 minutos, porque el licuado descompone todo en partículas fácilmente digeribles. Las bebidas más espesas tipo smoothie pueden tardar un poco más que los jugos delgados."
+            "a": "No cuentes con ello. Cualquier comestible, bebida fría o caliente, puede tardar hasta 2 horas en hacer efecto, así que espera ese tiempo antes de tomar más."
           },
           {
             "q": "¿Puedo carbonatar una bebida con cannabis?",
-            "a": "Sí, pero añade la carbonatación como último paso y hazlo con cuidado. Las infusiones a base de grasa pueden causar espuma excesiva cuando se carbonatan. Los extractos de THC hidrosolubles funcionan mucho mejor para bebidas carbonatadas. Nunca agites vigorosamente una bebida carbonatada con cannabis."
+            "a": "Sí. Añade el agua con gas al final, cuando el ingrediente con cannabis esté totalmente disuelto, y remueve suavemente en lugar de agitar. La dosis del vaso no cambia."
           }
         ]
       },
@@ -2150,13 +2191,13 @@
         "dosing_tips": [
           "El alcohol hace que el THC pegue más fuerte. Si eres nuevo en el cannabis o en mezclarlo con alcohol, toma media porción, evita otras bebidas alcohólicas y espera 2 horas antes de tomar más.",
           "El cannabis y el alcohol son sinérgicos. El efecto combinado es más fuerte que cualquiera de los dos solos, así que peca de precavido.",
-          "Usa tintura de cannabis para cócteles con alcohol ya que se mezcla de manera más fluida que las infusiones a base de grasa.",
+          "Agita o remueve antes de servir para que cada vaso lleve la misma dosis.",
           "Sirve estas bebidas despacio y ofrece alternativas sin infusionar para que los invitados puedan elegir su nivel de comodidad."
         ],
         "common_mistakes": [
           "Tratar un cóctel con cannabis como una bebida regular y tomar varias rondas. Un cóctel con cannabis debería ser el límite para la mayoría de las personas debido a los efectos combinados.",
           "Usar alcohol a máxima graduación con una dosis completa de cannabis crea una experiencia peligrosamente intensa que puede causar náuseas severas y ansiedad.",
-          "Las infusiones de cannabis a base de grasa se separan en licores claros y se ven poco apetitosas. Usa tinturas o jarabes simples infusionados para cócteles.",
+          "Servir a ojo. Mide el ingrediente con cannabis de cada bebida exactamente como dice la receta.",
           "No advertir a los invitados que las bebidas contienen cannabis. Esto es tanto inseguro como en muchos lugares ilegal. Siempre etiqueta y comunica claramente."
         ],
         "storage": [
@@ -2188,7 +2229,7 @@
           },
           {
             "q": "¿Cuánto tarda en hacer efecto un cóctel con cannabis?",
-            "a": "Más rápido que cualquiera de las sustancias sola. El alcohol acelera la absorción del THC y puedes sentir los efectos combinados dentro de 15-30 minutos. La porción de cannabis seguirá aumentando hasta por 90 minutos mientras el efecto del alcohol sigue su línea de tiempo normal. Ve muy despacio."
+            "a": "Antes y más fuerte que cada uno por separado. El cannabis sigue haciendo efecto hasta 2 horas, así que espera ese tiempo antes de otra bebida y ve muy despacio."
           }
         ]
       }
