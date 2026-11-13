@@ -490,7 +490,7 @@
       "Nimm die Mischung nach 30 Minuten bis einer Stunde vom Herd und lass sie 5–10 Minuten ruhen, damit sich die Cannabinoide in den Fettzellen absetzen können.",
       "Lege ein Käsetuch über ein großes Einmachglas oder einen anderen luftdichten Flüssigkeitsbehälter und gieße die Mischung durch das Käsetuch, um alle Pflanzenreste herauszufiltern.",
       "Wenn es kühl genug zum Anfassen ist, drücke die gesamte überschüssige Flüssigkeit aus dem Käsetuch in den Behälter.",
-      "Verschließe den Behälter fest, beschrifte ihn mit dem Inhalt und dem Verfallsdatum (dasselbe Datum wie auf der Milchverpackung) oder friere ihn in Eiswürfelformen für die spätere Verwendung ein. Eine Portion ist ½ Tasse (120 ml); die Menge ergibt etwa 8."
+      "Verschließe den Behälter fest, beschrifte ihn mit dem Datum und den mg pro halbe Tasse und stell ihn in den Kühlschrank, oder friere ihn in Eiswürfelformen für die spätere Verwendung ein. Eine Portion ist ½ Tasse (120 ml); die Menge ergibt etwa 8."
     ],
     "intro_unique": "Infundierte Milch mit Cannabis ist eine flüssige Basis für Heißgetränke, Müsli und Backrezepte, die das THC gleichmäßig in der Milch verteilt.",
     "dosing_unique": "Nimm Vollmilch für den höchsten Fettgehalt und die beste Extraktion; miss Portionen in halben Tassen ab und notiere die Wirkstärke auf dem Etikett.",
@@ -1093,7 +1093,7 @@
       "Mit einer Gabel zerdrücken. Zitronensaft, Salz und Pfeffer hinzufügen. Kurz vermischen – stückig lassen.",
       "Die Avocado-Mischung großzügig auf dem getoasteten Brot verteilen.",
       "Infundiertes und normales Olivenöl mischen und je die Hälfte über jede Scheibe träufeln.",
-      "Mit Chiliflocken, Gewürzen oder Kräutern garnieren. Bei Bedarf ein pochiertes Ei dazugeben.",
+      "Mit Chiliflocken, Gewürzen oder Kräutern garnieren. Bei Bedarf ein pochiertes Ei dazugeben (für Schwangere oder Immungeschwächte mit fest gegartem Eigelb).",
       "Ergibt 2 Portionen: Eine Portion ist eine Scheibe Toast. Achtsam essen und mindestens eine Stunde warten, bevor du eine weitere Portion in Betracht ziehst."
     ],
     "intro_unique": "Cannabis-Avocado-Toast hebt den Brunch-Klassiker auf ein neues Level: zerdrückte Avocado auf knusprigem Sauerteigbrot, vollendet mit einem Schuss infundiertem Olivenöl.",
@@ -2506,8 +2506,8 @@
     "intro_unique": "Mundgerechte Cannabis-Donut-Löcher werden goldbraun frittiert und in Zimtzucker gewälzt – ein lustiges Edible zum Teilen.",
     "dosing_unique": "Gib den Teig in gestrichenen Esslöffeln ins Fett, damit jedes Donut-Loch gleich groß wird, und bestreiche jedes mit der gleichen Menge Cannabutter.",
     "storage_unique": "Am besten am selben Tag essen; Reste in einer Papiertüte bei Raumtemperatur bis zu 24 Stunden aufbewahren.",
-    "variation_unique": "Füll die Donut-Löcher mit einem Spritzbeutel mit Vanille-Konditorcreme – für einen Kern im Boston-Cream-Stil.",
-    "unique_src": "67ee19e7ce87a180929d59ca81f586e58dad82c9"
+    "variation_unique": "Füll die Donut-Löcher mit einem Spritzbeutel mit Vanille-Konditorcreme – für einen Kern im Boston-Cream-Stil. Konditorcreme enthält Milch und Eier, also gefüllte Donut-Löcher innerhalb von 2 Stunden in den Kühlschrank stellen.",
+    "unique_src": "5636c74d0df54511030fc32a7a03a9ae8b12ed8b"
   },
   "cannabis-peach-cobbler": {
     "name": "Cannabis-Pfirsich-Cobbler",
@@ -3089,7 +3089,7 @@
     "description": "Schneller Ei-Bratreis mit Cannabis-Sesamöl.",
     "category_name": "Mittagessen",
     "ingredients": [
-      "3 Tassen Reis vom Vortag",
+      "3 Tassen Reis vom Vortag (innerhalb von 1 Stunde nach dem Kochen gekühlt)",
       "3 Eier, verquirlt",
       "1 EL infundiertes Kokosöl, geschmolzen + 1 EL geröstetes Sesamöl",
       "3 Knoblauchzehen",
@@ -4177,18 +4177,18 @@
       "7 Gramm gemahlenes Cannabis",
       "450g frische rote Chilischoten (Cayenne, Fresno oder gemischt), Stiele entfernt",
       "4 Knoblauchzehen, geschält",
-      "1 Tasse Weißweinessig",
+      "1 Tasse Weißweinessig (5 % Säure)",
       "2 Esslöffel Olivenöl (normal, nicht infundiert)",
       "1 Teelöffel Salz",
       "1 Teelöffel Zucker"
     ],
     "instructions": [
       "Cannabis decarboxylieren: Den Ofen auf 115°C vorheizen. Das Cannabis auf einem ausgelegten Blech verteilen und 40 Minuten backen, nach der Hälfte umrühren.",
-      "Die Chilischoten grob hacken. In einem Topf mit Knoblauch, Essig, Salz und Zucker aufkochen, dann 20 Minuten bei niedriger Hitze köcheln lassen.",
-      "Vom Herd nehmen und etwas abkühlen lassen. In einen Mixer geben zusammen mit dem Olivenöl und dem decarboxylierten Cannabis.",
+      "Mit Handschuhen die Chilischoten grob hacken. In einem Topf mit Knoblauch, Essig, Salz und Zucker aufkochen, dann 20 Minuten bei niedriger Hitze köcheln lassen.",
+      "Vom Herd nehmen und etwas abkühlen lassen. In einen Mixer geben zusammen mit dem Olivenöl und dem decarboxylierten Cannabis; den Stopfen im Deckel herausnehmen und die Öffnung mit einem Tuch abdecken, damit der Dampf entweichen kann.",
       "Auf höchster Stufe 2-3 Minuten mixen, bis alles vollständig glatt ist.",
-      "Für eine glatte Soße durch ein feines Sieb passieren, oder für eine gröbere Textur ungesiebt lassen. Salz und Essig nach Geschmack anpassen.",
-      "In sterilisierte Glasflaschen füllen. Im Kühlschrank bis zu 6 Monate aufbewahren. Der Geschmack verbessert sich nach einigen Tagen Ruhezeit. Eine Portion ist 1 Teelöffel (die Menge ergibt etwa 96)."
+      "Für eine glatte Soße durch ein feines Sieb passieren, oder für eine gröbere Textur ungesiebt lassen. Salz nach Geschmack anpassen; mehr Essig geht, aber nie weniger.",
+      "In sterilisierte Glasflaschen füllen. Im Kühlschrank aufbewahren und vor jedem Gebrauch schütteln. Der Geschmack verbessert sich nach einigen Tagen Ruhezeit. Eine Portion ist 1 Teelöffel (die Menge ergibt etwa 96)."
     ],
     "intro_unique": "Diese Cannabis-Scharfe-Soße verbindet feurige Chilis mit decarboxyliertem Cannabis und Olivenöl zu einer Würzsoße, die Wings, Tacos, Eiern und mehr Schärfe und THC verleiht.",
     "dosing_unique": "Eine typische Portion ist 1 Teelöffel; berechne das gesamte THC in deiner Charge und teile es durch die Anzahl der Teelöffel, die sie ergibt, um die Potenz pro Portion zu erhalten. Beim Abseihen geht mit dem Pflanzenmaterial auch ein Teil des THC verloren, betrachte den Wert des Rechners also als obere Schätzung.",
@@ -4869,8 +4869,8 @@
     "intro_unique": "Cannabis Horchata ist ein kühles, cremiges Getränk aus Reis und Zimt mit THC – erfrischend, süß und perfekt für einen entspannten Nachmittag oder Abend.",
     "dosing_unique": "Das Cannabis-Kokosöl wird abseits der Hitze in die pürierte Reismilch geschlagen und emulgiert vollständig – für eine glatte Textur und eine gleichmäßige THC-Verteilung in jedem Glas.",
     "storage_unique": "Bewahre sie im Kühlschrank auf und schüttle sie vor jedem Eingießen gut – die Reismilch setzt sich natürlich ab, und das Getränk bleibt bis zu 3 Tage frisch.",
-    "variation_unique": "Gib einen Schuss Rum dazu für eine Cocktail-Version für Erwachsene, oder mixe eine gefrorene Banane hinein für eine dickere, smoothieartige Konsistenz.",
-    "unique_src": "e86784199505624570b650a9ed5f70544d4bbc46"
+    "variation_unique": "Mixe eine gefrorene Banane hinein für eine dickere, smoothieartige Konsistenz, oder gib einen Schuss Rum dazu für eine Version für Erwachsene; Alkohol und Cannabis zusammen wirken stärker: Als Einsteiger trink ein halbes Glas und warte 2 Stunden.",
+    "unique_src": "8c3ece81fb630d5c03438bef7da30fa53c4572e1"
   },
   "cannabis-mulled-wine": {
     "name": "Cannabis Glühwein",
@@ -4950,8 +4950,8 @@
     "intro_unique": "Ein Cannabis Arnold Palmer ist der perfekte Drink für die Veranda – halb Eistee, halb Limonade, infundiert mit THC-Honig für ein sanftes, erfrischendes High.",
     "dosing_unique": "Cannabis-infundierter Honig wird im Limonadenanteil des Drinks aufgelöst und verteilt das THC gleichmäßig – ganz ohne öligen Film oder Nachgeschmack.",
     "storage_unique": "Bewahre Tee und Cannabis-Limonade getrennt bis zu 3 Tage im Kühlschrank auf – gieße beides erst beim Servieren über Eis zusammen, dann schmeckt es am frischesten.",
-    "variation_unique": "Nimm grünen Tee oder Hibiskustee für ein anderes Aroma, oder gib einen Schuss Wodka dazu für eine alkoholische John-Daly-Version.",
-    "unique_src": "9d02ea2f0053950ba12794da3d31322a76e7b554"
+    "variation_unique": "Nimm grünen Tee oder Hibiskustee für ein anderes Aroma, oder gib einen Schuss Wodka dazu für eine alkoholische John-Daly-Version; Alkohol und Cannabis zusammen wirken stärker: Als Einsteiger trink ein halbes Glas und warte 2 Stunden.",
+    "unique_src": "80aef69d858219fb8abaced9c45894125e79bd24"
   },
   "cannabis-enchiladas": {
     "name": "Cannabis-Enchiladas",
@@ -5549,7 +5549,7 @@
       "Die Cannabutter bei niedriger Hitze schmelzen. In einer großen Schüssel Milch, Sahne, Eier, Zucker, geschmolzene Cannabutter, Vanille, Zimt und Muskatnuss gut verrühren.",
       "Die Brotwürfel in der vorbereiteten Auflaufform verteilen und die Rosinen darüber streuen, falls gewünscht. Die Cannabis-Eiermischung gleichmäßig über das Brot gießen. Das Brot leicht andrücken, damit es die Flüssigkeit aufnimmt.",
       "Den Pudding 15-20 Minuten ruhen lassen, damit das Brot den Eierguss vollständig aufnimmt.",
-      "45-50 Minuten backen, bis die Oberfläche goldbraun ist und der Eierguss gestockt ist. Ein Messer in der Mitte sollte sauber herauskommen.",
+      "45-50 Minuten backen, bis die Oberfläche goldbraun ist und der Eierguss gestockt ist. Ein Messer in der Mitte sollte sauber herauskommen, oder die Mitte zeigt 160°F (71°C).",
       "10 Minuten abkühlen lassen. Warm servieren, mit Vanille- oder Bourbon-Sauce beträufelt und einer Kugel Vanilleeis."
     ],
     "intro_unique": "Dieser Cannabis-Brotpudding verwandelt altbackenes Brot in ein warmes, gewürztes Eiercreme-Dessert; die Cannabutter ist in der Tränkflüssigkeit geschmolzen – ein üppiger infundierter Genuss.",
@@ -5739,7 +5739,7 @@
     "category_name": "Mittagessen",
     "ingredients": [
       "1 Esslöffel Cannabisbutter + 1 Esslöffel ungesalzene Butter",
-      "450g große Garnelen, geschält und entdarmt",
+      "450g große Garnelen, geschält und entdarmt (gefroren: über Nacht im Kühlschrank auftauen)",
       "4 Knoblauchzehen, fein gehackt",
       "2 Esslöffel normale Butter",
       "Saft von 1 Zitrone",
@@ -5750,7 +5750,7 @@
     ],
     "instructions": [
       "Garnelen mit Küchenpapier trocken tupfen und mit Salz, Pfeffer und Chiliflocken würzen.",
-      "Normale Butter in einer großen Pfanne bei hoher Hitze schmelzen. Garnelen 2 Minuten pro Seite braten, bis sie rosa sind. Herausnehmen und beiseite stellen.",
+      "Normale Butter in einer großen Pfanne bei hoher Hitze schmelzen. Garnelen etwa 2 Minuten pro Seite braten, bis sie fest, perlmuttartig und undurchsichtig sind. Herausnehmen und beiseite stellen.",
       "Hitze auf mittlere-niedrige Stufe reduzieren. Cannabisbutter und gehackten Knoblauch in die Pfanne geben und 1 Minute rühren, bis es duftet.",
       "Weißwein und Zitronensaft einrühren und den Bratensatz lösen. 2 Minuten köcheln lassen.",
       "Garnelen zurück in die Pfanne geben und in der Cannabis-Knoblauchbutter-Sauce schwenken.",
