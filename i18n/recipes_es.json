@@ -1040,7 +1040,7 @@
       "1 taza de leche infusionada",
       "4 huevos (preferiblemente pasteurizados, ya que las claras no se cocinan)",
       "6 cdas de azúcar",
-      "1 taza de crema para batir",
+      "1 taza de crema de cannabis (hecha con la receta de leche infusionada)",
       "1 cdta de nuez moscada rallada",
       "6 cdas de bourbon (opcional)",
       "Canela para decorar"
@@ -1048,15 +1048,15 @@
     "instructions": [
       "Separa las yemas de las claras de huevo.",
       "En un tazón, bate las yemas con 5 cucharadas del azúcar hasta que se vean pálidas y el azúcar esté completamente disuelto.",
-      "En una olla mediana, a fuego alto, combina la leche, la crema para batir y la nuez moscada y lleva justo a ebullición, revolviendo ocasionalmente. Retira del fuego y lentamente tempera la mezcla caliente con la mezcla de yemas y azúcar. Luego regresa todo a la olla y calienta hasta que la mezcla alcance los 160 grados F. Retira del fuego, agrega el bourbon/whiskey, vierte en un tazón mediano y refrigera.",
+      "En una olla mediana, a fuego alto, combina la leche infusionada, la crema de cannabis y la nuez moscada y lleva justo a ebullición, revolviendo ocasionalmente. Retira del fuego y lentamente tempera la mezcla caliente con la mezcla de yemas y azúcar. Luego regresa todo a la olla y calienta hasta que la mezcla alcance los 160 grados F. Retira del fuego, agrega el bourbon/whiskey, vierte en un tazón mediano y refrigera.",
       "En un tazón mediano, bate las claras de huevo hasta formar picos suaves. Con la batidora funcionando, agrega gradualmente 1 cucharada de azúcar y bate hasta formar picos firmes. Incorpora las claras batidas a la mezcla refrigerada.",
-      "Sirve en la cantidad de tazas que definiste como porciones en la calculadora para mantener tu dosis consistente, ¡y decora con canela!"
+      "Remueve y sirve en 6 vasitos de unos 120 ml cada uno; un vasito es una porción. Decora con canela."
     ],
     "intro_unique": "El rico y cremoso Ponche de Huevo Infusionado es una bebida festiva de temporada que combina especias cálidas con crema infusionada.",
-    "dosing_unique": "Sirve el ponche de huevo en porciones de 4 onzas, ya que por lo rico y potente que es conviene usar vasos más pequeños.",
+    "dosing_unique": "Sirve 6 vasitos iguales de unos 120 ml; cada uno es una porción. Con el bourbon, el alcohol hace que el THC pegue más fuerte: si eres principiante, toma medio vasito y espera 2 horas.",
     "storage_unique": "Refrigéralo en una botella cerrada hasta 3 días; agítalo bien antes de servir, ya que la mezcla se separa.",
     "variation_unique": "Espolvorea nuez moscada recién rallada y un hilo de salsa de caramelo por encima para una presentación navideña más elegante.",
-    "unique_src": "12c8463e149ec51d6064fc05eb2dd7e82f34aeac"
+    "unique_src": "67c2c95a7c3bd5b5155b722236582e77e1c398e1"
   },
   "infused-ghee": {
     "name": "Ghee Infusionado",
@@ -2864,14 +2864,14 @@
     "ingredients": [
       "300g de chocolate amargo picado",
       "1 taza de crema de cannabis (hecha con la receta de leche infusionada)",
-      "2 tbsp de mantequilla",
+      "1 cucharada de mantequilla de cannabis + 1 cucharada de mantequilla",
       "1 tsp de vainilla",
       "Pizca de sal",
       "Para mojar: fresas, plátano, malvaviscos, pretzels"
     ],
     "instructions": [
       "Calentar la crema de cannabis hasta que humee. Retirar del fuego; agregar el chocolate.",
-      "Reposar 2 min y revolver hasta que quede suave. Agregar la mantequilla, la vainilla y la sal.",
+      "Reposar 2 min y revolver hasta que quede suave. Agregar la mantequilla de cannabis, la mantequilla, la vainilla y la sal.",
       "Transferir a una olla de fondue y servir con los acompañamientos. El fondue rinde unas 2 tazas; una porción es ⅓ de taza, así que repartirlo en 6 tacitas, una por invitado."
     ],
     "intro_unique": "La Fondue de Chocolate de Cannabis convierte cualquier reunión en una experiencia comestible interactiva, donde los invitados sumergen fruta y golosinas en chocolate tibio infusionado.",
@@ -3302,23 +3302,23 @@
       "1kg de tomates roma cortados por la mitad",
       "1 cebolla en cuartos",
       "6 dientes de ajo",
-      "2 tbsp de aceite de oliva",
+      "1 cucharada de aceite de oliva + 1 cucharada de aceite de oliva infusionado",
       "1 cup de caldo de verduras",
       "½ cup de crema de cannabis",
       "1 tsp de azúcar",
       "Sal, pimienta, albahaca"
     ],
     "instructions": [
-      "Mezclar los tomates, la cebolla y el ajo con el aceite de oliva y asar a 400°F por 40 min.",
+      "Mezclar los tomates, la cebolla y el ajo con el aceite de oliva normal y asar a 400°F por 40 min.",
       "Licuar con el caldo hasta obtener una mezcla suave.",
-      "Incorporar la crema de cannabis y el azúcar; calentar a fuego bajo.",
+      "Incorporar la crema de cannabis, el aceite de oliva infusionado y el azúcar; calentar a fuego bajo sin que hierva.",
       "Sazonar con sal y pimienta, servir en 4 tazones y decorar con albahaca fresca."
     ],
     "intro_unique": "El aterciopelado Bisque de Tomate Infusionado licúa tomates asados con crema infusionada para una sopa suave y reconfortante con un final intenso.",
-    "dosing_unique": "Incorpora la crema infusionada a la sopa licuada y sírvela en tazones con una taza medidora para una dosis precisa por porción.",
+    "dosing_unique": "Incorpora la crema y el aceite de oliva infusionados a la sopa licuada y sirve 4 tazones iguales con una taza medidora; cada tazón es una porción.",
     "storage_unique": "Refrigéralo hasta 4 días o congélalo durante 2 meses; recaliéntalo con suavidad sin que hierva para preservar la crema.",
     "variation_unique": "Asa los tomates con ajo y pimentón ahumado antes de licuar para un perfil de sabor más ahumado y profundo.",
-    "unique_src": "e854962f875a4bf41570e4373cb90fcf21e1f196"
+    "unique_src": "23e063279b729505d4a8bf932f16dec395945508"
   },
   "cannabis-chicken-burrito-bowl": {
     "name": "Bowl de Burrito de Pollo con Cannabis",
@@ -3379,7 +3379,7 @@
       "1 calabaza butternut grande cortada por la mitad",
       "1 cebolla en cuartos",
       "4 dientes de ajo",
-      "2 tbsp de aceite de oliva",
+      "1 cucharada de aceite de oliva + 1 cucharada de aceite de oliva infusionado",
       "3 cups de caldo de verduras",
       "½ cup de crema de cannabis",
       "1 tsp de nuez moscada",
@@ -3387,16 +3387,16 @@
       "Semillas de calabaza tostadas"
     ],
     "instructions": [
-      "Pincelar la calabaza, la cebolla y el ajo con el aceite de oliva y asar a 400°F por 45 min.",
+      "Pincelar la calabaza, la cebolla y el ajo con el aceite de oliva normal y asar a 400°F por 45 min.",
       "Sacar la pulpa de la calabaza de la cáscara y licuarla con la cebolla, el ajo y el caldo hasta obtener una mezcla suave.",
-      "Incorporar la crema de cannabis y la nuez moscada; calentar suavemente.",
+      "Incorporar la crema de cannabis, el aceite de oliva infusionado y la nuez moscada; calentar suavemente.",
       "Sazonar con sal y pimienta, servir en 4 tazones y decorar con semillas de calabaza."
     ],
     "intro_unique": "La sedosa Sopa de Calabaza Butternut de Cannabis asa la calabaza hasta caramelizarla y luego la licúa con crema infusionada, para un tazón naturalmente dulce.",
-    "dosing_unique": "Incorpora la crema infusionada a la sopa licuada y sirve con cucharones medidos para que cada tazón tenga la misma dosis.",
+    "dosing_unique": "Incorpora la crema y el aceite de oliva infusionados a la sopa licuada y sirve 4 tazones iguales con cucharones medidos; cada tazón es una porción.",
     "storage_unique": "Refrigérala hasta 4 días o congélala hasta 2 meses; la sopa se recalienta de maravilla sin perder textura.",
     "variation_unique": "Añade una cucharadita de curry en polvo y un toque de crema de coco para una sopa de calabaza butternut de inspiración tailandesa.",
-    "unique_src": "f52076d46b631c57478256427dd47bd1b93e6f52"
+    "unique_src": "ec34775a08bcace728ecdc3348ce2fa375bba7e4"
   },
   "infused-egg-fried-rice": {
     "name": "Arroz Frito con Huevo Infusionado",
@@ -3689,9 +3689,9 @@
     "instructions": [
       "Sazonar el pollo desmenuzado con queso crema, sal y pimienta. Reservar.",
       "En una olla, hervir el caldo y la mantequilla de cannabis. Agregar la harina de golpe, revolviendo vigorosamente hasta que la masa forme una bola. Dejar enfriar.",
-      "Tomar una porción de masa, aplanar en la palma, agregar el relleno de pollo y dar forma de gota.",
+      "Dividir la masa en 20 trozos iguales (pesarlos para que la dosis sea pareja). Aplanar uno en la palma, agregar el relleno de pollo y dar forma de gota.",
       "Pasar por huevo batido y luego por pan rallado.",
-      "Freír a 350°F hasta dorar, aproximadamente 3-4 min. Escurrir sobre papel absorbente."
+      "Freír a 350°F hasta dorar, aproximadamente 3-4 min. Escurrir sobre papel absorbente. Una porción son 2 coxinhas."
     ],
     "intro_unique": "Las Coxinhas Infusionadas son croquetas brasileñas en forma de gota, con una masa de mantequilla de cannabis que envuelve pollo deshebrado sazonado, fritas hasta quedar doradas.",
     "dosing_unique": "Forma cada coxinha del mismo tamaño usando una báscula de cocina y fríelas en tandas para una dosis constante.",
@@ -3926,13 +3926,13 @@
       "Rellena generosamente cada mitad de jalapeño con la mezcla de queso.",
       "Envuelve cada jalapeño relleno con media rebanada de tocino y sujeta con un palillo.",
       "Coloca en la rejilla y hornea por 25-30 minutos hasta que el tocino esté crujiente.",
-      "Deja enfriar 5 minutos antes de servir. Una porción es una mitad de jalapeño (24 en total)."
+      "Deja enfriar 5 minutos antes de servir. Una porción son 3 mitades de jalapeño (8 porciones con las 24 mitades)."
     ],
     "intro_unique": "Estos Jalapeños Rellenos Infusionados, envueltos en tocino, combinan un cremoso relleno de queso con una sutil infusión de mantequilla de cannabis, para una entrada con un toque picante que gusta a todos.",
-    "dosing_unique": "La mantequilla de cannabis se mezcla con el relleno de queso crema, así que cada mitad de jalapeño relleno aporta una dosis precisa y uniforme.",
+    "dosing_unique": "La mantequilla de cannabis se mezcla con el relleno de queso crema, así que cada mitad de jalapeño lleva la misma parte; 3 mitades son una porción.",
     "storage_unique": "Ármalos y refrigéralos sin hornear hasta con 24 horas de anticipación; hornéalos directamente desde el refrigerador, añadiendo 5 minutos más al tiempo de cocción.",
     "variation_unique": "Para una versión más suave, usa mini pimientos dulces en lugar de jalapeños, o añade carne de cangrejo al relleno para un toque de lujo.",
-    "unique_src": "e36385d92a5c4bf9142e820e075afb15c2918dd3"
+    "unique_src": "3db8b24669fb919d4563bc5b2ddf6d3488fafeb3"
   },
   "cannabis-pretzel-bites": {
     "name": "Mini Pretzels de Cannabis",

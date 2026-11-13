@@ -809,7 +809,7 @@
     "texture_type": "no_cook",
     "sub_category": "cold_drinks",
     "intro_unique": "Rich, creamy cannabis eggnog is a festive holiday beverage that blends warm spices with infused cream for a seasonal treat.",
-    "dosing_unique": "Portion eggnog into 4-ounce servings since its richness and potency make smaller glasses more appropriate.",
+    "dosing_unique": "Pour 6 equal cups of about 4 oz; each cup is one serving. With the bourbon, alcohol makes THC hit harder: if you're new, have half a cup and wait 2 hours.",
     "storage_unique": "Refrigerate in a sealed bottle for up to 3 days; shake well before pouring as the mixture separates.",
     "variation_unique": "Sprinkle freshly grated nutmeg and a drizzle of caramel sauce on top for an elevated holiday presentation."
   },
@@ -1520,7 +1520,7 @@
     "texture_type": "stovetop",
     "sub_category": "soup",
     "intro_unique": "Velvety cannabis tomato bisque blends roasted tomatoes with infused cream for a smooth, warming soup with a rich finish.",
-    "dosing_unique": "Stir infused cream into the blended soup and ladle into bowls using a measured cup for precise per-serving dosing.",
+    "dosing_unique": "Stir the infused cream and the infused olive oil into the blended soup, then ladle 4 equal bowls with a measuring cup; each bowl is one serving.",
     "storage_unique": "Refrigerate for up to 4 days or freeze for 2 months; reheat gently without boiling to preserve the cream.",
     "variation_unique": "Roast the tomatoes with garlic and smoked paprika before blending for a smokier, deeper flavor profile."
   },
@@ -1579,7 +1579,7 @@
     "texture_type": "stovetop",
     "sub_category": "soup",
     "intro_unique": "Silky cannabis butternut squash soup roasts the squash until caramelized, then blends it with infused cream for a naturally sweet bowl.",
-    "dosing_unique": "Stir infused cream into the blended soup and serve in measured ladles so each bowl has the same dose.",
+    "dosing_unique": "Stir the infused cream and the infused olive oil into the blended soup, then ladle 4 equal bowls; each bowl is one serving.",
     "storage_unique": "Refrigerate for up to 4 days or freeze for up to 2 months; soup reheats beautifully without losing texture.",
     "variation_unique": "Add a teaspoon of curry powder and a swirl of coconut cream for a Thai-inspired butternut squash soup."
   },
@@ -3041,7 +3041,7 @@
     "texture_type": "baked",
     "sub_category": "finger_food",
     "intro_unique": "These bacon-wrapped cannabis stuffed jalapeños combine creamy cheese filling with a subtle cannabutter infusion for a crowd-pleasing appetizer with a kick.",
-    "dosing_unique": "The cannabutter is blended into the cream cheese filling, so each stuffed jalapeño half delivers a precise and even dose.",
+    "dosing_unique": "The cannabutter is blended into the cream cheese filling, so every jalapeño half carries the same share; 3 halves are one serving.",
     "storage_unique": "Assemble and refrigerate unbaked for up to 24 hours in advance; bake directly from the fridge, adding 5 extra minutes to the cooking time.",
     "variation_unique": "For a milder version, use mini sweet peppers instead of jalapeños, or add crab meat to the filling for a luxurious twist."
   },
