@@ -121,6 +121,7 @@ SLUGS.each do |slug|
   infl = p[:ings].grep(/cannab|infused|tincture|weed|canna/i).join(" ")
   key = fat[/butter|coconut|olive|ghee|milk|cream|honey|sugar|syrup|tincture|whiskey|sesame|vegetable|flower|condensed|oil/i].to_s.downcase
   key = "butter|cannabutter" if key == "butter"
+  key = FLOWER_LINE.source if key == "flower" # "decarbed flower" = the direct-flower line ("6.6 grams ground weed")
   unless key.empty? || infl.match?(/#{key}/i) || BASE_SLUGS.include?(slug)
     fail!("2 template contradicts", slug, "all", "enrichment base_fat", "templates name '#{fat}' but the recipe's infused ingredient is: #{infl[0, 120]}")
   end

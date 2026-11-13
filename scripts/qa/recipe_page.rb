@@ -19,6 +19,8 @@ class Site
     @by_slug = @recipes.to_h { |r| [r["slug"], r] }
     vp = File.join(root, "i18n/recipe_vars.json")
     @vars = File.exist?(vp) ? JSON.parse(File.read(vp)) : {}
+    # %{category} is the translated name, as the build's category_t does
+    @cats = LANGS.to_h { |l| [l, j.("i18n/#{l}.json")["categories"] || {}] }
   end
 
   def recipe(slug); @by_slug.fetch(slug); end
@@ -57,7 +59,7 @@ class Site
     tmpl = @sections.dig(lang, "templates", tcat, tsub) || @sections.dig("en", "templates", tcat, tsub) || {}
     # the translated value of %{base_fat}/%{cook_temp} (i18n/recipe_vars.json, #92), as the build does; English otherwise
     fat_en, temp_en = e["base_fat"] || "cannabutter", e["cook_temp"] || "350°F / 180°C"
-    vars = { "name" => name, "base_fat" => (@vars.dig(lang, "base_fat", fat_en) || [fat_en])[0], "cook_temp" => @vars.dig(lang, "cook_temp", temp_en) || temp_en, "category" => r["category_name"] }
+    vars = { "name" => name, "base_fat" => (@vars.dig(lang, "base_fat", fat_en) || [fat_en])[0], "cook_temp" => @vars.dig(lang, "cook_temp", temp_en) || temp_en, "category" => @cats[lang][r["category_name"]] || r["category_name"] }
     ip = ->(x) { Site.plain(interpolate(x, vars)) }
     own = %w[intro_unique dosing_unique storage_unique variation_unique].to_h { |k| [k, Site.plain(rt(lang, slug, k) || e[k] || "")] }
     # #116: the own FAQ, as the build shows it (no English fallback on translated pages)

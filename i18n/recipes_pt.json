@@ -4497,14 +4497,14 @@
       "Coloque a cannabis descarboxilada resfriada num frasco de vidro limpo. Despeje o álcool sobre a cannabis até cobrir completamente. Trabalhe longe de chamas, fogão e aquecedores: o vapor do álcool de cereais pega fogo com facilidade.",
       "Feche bem o frasco. Para extração rápida, agite por 3-5 minutos. Para uma tintura mais forte, guarde em local fresco e escuro por 2-4 semanas, agitando diariamente.",
       "Coe a tintura com gaze ou peneira fina, espremendo para extrair todo o líquido. Descarte o material vegetal.",
-      "Transfira para um frasco conta-gotas de vidro escuro. Comece com 1 mL sob a língua e espere 15-30 minutos para avaliar os efeitos.",
+      "Transfira para um frasco conta-gotas de vidro escuro. Comece com 1 mL sob a língua e espere 2 horas para avaliar os efeitos antes de tomar mais.",
       "Guarde em local fresco e escuro. Agite antes de usar."
     ],
     "intro_unique": "A tintura de cannabis é um dos preparos de cannabis mais versáteis: permite a dosagem sublingual ou pode ser adicionada facilmente a praticamente qualquer comida ou bebida.",
-    "dosing_unique": "Comece com 1 mL (um conta-gotas cheio) debaixo da língua e espere pelo menos 30 minutos antes de tomar mais; a absorção sublingual é mais rápida que a dos comestíveis.",
+    "dosing_unique": "Comece com 1 mL (um conta-gotas cheio) debaixo da língua e espere pelo menos 2 horas antes de tomar mais; a absorção sublingual é mais rápida que a dos comestíveis.",
     "storage_unique": "Guarde num frasco conta-gotas de vidro escuro, em local fresco e escuro; o álcool de alta graduação age como conservante e dá à tintura uma validade de vários anos.",
     "variation_unique": "Para uma opção sem álcool, use o óleo de coco infusionado ou o mel infusionado do site; não evapore o álcool em casa, porque o vapor é inflamável.",
-    "unique_src": "fc2e42360f97adb2b9513c13b7b7005840ce936e"
+    "unique_src": "3a5c5b332dc14a0d00da87b8d2252ee260c74ede"
   },
   "cannabis-maple-syrup": {
     "name": "Xarope de Bordo de Cannabis",
@@ -5242,10 +5242,10 @@
       "Um copo por porção. Espere 2 horas pelo efeito antes de tomar mais."
     ],
     "intro_unique": "A Horchata de Cannabis é uma bebida gelada e cremosa de arroz e canela com THC — refrescante, doce e perfeita para uma tarde ou noite tranquila.",
-    "dosing_unique": "O óleo de coco de cannabis é batido no leite de arroz já batido, fora do fogo, emulsionando por completo para uma textura lisa e uma distribuição uniforme do THC em cada copo.",
+    "dosing_unique": "Bata o óleo de coco de cannabis morno no leite de arroz adoçado com o liquidificador ligado; o óleo de coco endurece abaixo de cerca de 24 °C, então misturá-lo ao leite de arroz frio deixa pontinhos de gordura que carregam a dose.",
     "storage_unique": "Mantenha na geladeira e agite bem antes de cada dose servida — o leite de arroz assenta naturalmente, e a bebida se conserva fresca por até 3 dias.",
     "variation_unique": "Bata com uma banana congelada para uma consistência mais espessa, de smoothie, ou acrescente um pouco de rum para uma versão para adultos; álcool e cannabis juntos batem mais forte, então, se você é iniciante, tome meio copo e espere 2 horas.",
-    "unique_src": "8c3ece81fb630d5c03438bef7da30fa53c4572e1"
+    "unique_src": "7b293ee756cd4e16b6b8c0f80417baac211ca515"
   },
   "cannabis-mulled-wine": {
     "name": "Vinho Quente de Cannabis",
@@ -5338,10 +5338,10 @@
       "Decore com uma rodela de limão e um raminho de hortelã. Um copo por porção; espere 2 horas antes de tomar outro."
     ],
     "intro_unique": "Um Arnold Palmer de Cannabis é a bebida perfeita para a varanda — metade chá gelado, metade limonada, tudo infusionado com mel de THC para um efeito suave e refrescante.",
-    "dosing_unique": "O mel infusionado com cannabis é dissolvido na parte da limonada, distribuindo o THC de forma uniforme sem textura oleosa nem gosto residual.",
+    "dosing_unique": "A dose está toda na limonada: dissolva o mel infusionado na água morna, mexa e divida a limonada igualmente entre os 4 copos antes de completar com o chá.",
     "storage_unique": "Mantenha o chá e a limonada de cannabis na geladeira, separados, por até 3 dias — misture sobre gelo na hora de servir para um sabor mais fresco.",
     "variation_unique": "Use chá verde ou chá de hibisco para outro perfil de sabor, ou acrescente um toque de vodca para a versão alcoólica John Daly; álcool e cannabis juntos batem mais forte, então, se você é iniciante, tome meio copo e espere 2 horas.",
-    "unique_src": "80aef69d858219fb8abaced9c45894125e79bd24"
+    "unique_src": "67087fd00dda5ead910517dfe66871071c6ca47a"
   },
   "cannabis-enchiladas": {
     "name": "Enchiladas de Cannabis",
