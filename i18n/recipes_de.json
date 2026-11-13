@@ -20,7 +20,22 @@
     "dosing_unique": "Eine Portion ist 1 Teelöffel, etwa 15 mg bei 14 % THC; ein Esslöffel sind 3 Portionen. Beschrifte das Glas mit mg pro Teelöffel.",
     "storage_unique": "In einem verschlossenen Glas im Kühlschrank bis zu 3 Wochen aufbewahren oder in Silikonformen bis zu 6 Monate einfrieren.",
     "variation_unique": "Nimm Sauerrahmbutter nach europäischer Art mit höherem Fettgehalt – für vollmundigeren Geschmack und möglicherweise bessere THC-Extraktion.",
-    "unique_src": "9f68b019cc3995a1024a0b9c2f18420f45256881"
+    "unique_src": "9f68b019cc3995a1024a0b9c2f18420f45256881",
+    "faq_unique": [
+      {
+        "q": "Welches Mischverhältnis hat die Cannabutter?",
+        "a": "Dieses Rezept verwendet 6,4 g decarboxylierte Blüten pro Tasse (2 Stangen) Butter. Bei 14 % THC sind das etwa 15 mg pro Teelöffel. Alle Rezepte auf dieser Seite gehen von diesem Verhältnis aus; für eine stärkere oder schwächere Butter änderst du die Gramm im Rechner oben."
+      },
+      {
+        "q": "Wie viel Cannabutter ist eine Dosis?",
+        "a": "Ein Teelöffel dieser Charge ist eine Portion, etwa 15 mg; ein Esslöffel sind 3 Portionen. Neu bei Edibles? Fang mit ⅓ Teelöffel (etwa 5 mg) an und warte 2 Stunden, bevor du mehr nimmst."
+      },
+      {
+        "q": "Kann ich Cannabutter mit Ghee machen?",
+        "a": "Ja: Genau das macht unser Rezept für infundiertes Ghee. Ghee enthält kein Wasser und keine Milchfeststoffe, also lässt du das Wasser weg und hältst die Hitze sehr niedrig. Es verwendet weniger Blüten pro Tasse, prüfe dort also die eigene Dosis pro Teelöffel."
+      }
+    ],
+    "faq_src": "917550b5d7ba99591f678c3da26be5c756ab8d74"
   },
   "infused-coconut-oil": {
     "name": "Infundiertes Kokosöl",
@@ -42,7 +57,22 @@
     "dosing_unique": "Eine Portion ist 1 Teelöffel, etwa 15 mg bei 14 % THC; ein Esslöffel sind 3 Portionen. In Eiswürfelformen in Teelöffel-Portionen gießen und mit mg pro Teelöffel beschriften.",
     "storage_unique": "Kokosöl ist bei Raumtemperatur bis zu 3 Monate haltbar; für längere Lagerung bis zu 6 Monate in den Kühlschrank stellen.",
     "variation_unique": "Nimm raffiniertes Kokosöl für einen neutralen Geschmack in Rezepten, in denen du kein Kokosaroma möchtest.",
-    "unique_src": "afc12623dfdb72b27e69ff0dc10352ff50b5daf3"
+    "unique_src": "afc12623dfdb72b27e69ff0dc10352ff50b5daf3",
+    "faq_unique": [
+      {
+        "q": "Wie viel THC steckt in einem Teelöffel dieses Öls?",
+        "a": "Etwa 15 mg: 3,2 g Blüten mit 14 % in ½ Tasse Öl. Ein Esslöffel ist das 3-Fache, miss also in Teelöffeln ab."
+      },
+      {
+        "q": "Mein Öl ist fest geworden. Hat es an Wirkung verloren?",
+        "a": "Nein. Kokosöl wird fest, wenn es kühl ist. Schmilz es sanft im warmen Wasserbad und rühr um, bevor du abmisst, damit jeder Löffel die gleiche Dosis hat."
+      },
+      {
+        "q": "Kann ich es statt Cannabutter verwenden?",
+        "a": "Ja. Unsere beiden Basen enthalten 6,4 g Blüten pro Tasse, Löffel für Löffel ist die Dosis also gleich. Nimm das Öl für vegane oder milchfreie Rezepte, etwa die Gummibärchen und die veganen Brownies."
+      }
+    ],
+    "faq_src": "ee573ed5a95dccab102352fcefecd686047b20ce"
   },
   "infused-olive-oil": {
     "name": "Infundiertes Olivenöl",
@@ -65,7 +95,22 @@
     "dosing_unique": "Eine Portion ist 1 Teelöffel, etwa 15 mg bei 14 % THC; ein Esslöffel sind 3 Portionen. Beschrifte die Flasche mit mg pro Teelöffel.",
     "storage_unique": "In einer dunklen Glasflasche in einem kühlen Schrank bis zu 3 Monate aufbewahren; Olivenöl wird weniger schnell ranzig als Butter.",
     "variation_unique": "Für ein aromatisiertes Finishing-Öl gibst du während der Infusion getrockneten Rosmarin und getrockneten Knoblauch dazu. Bewahre Öl mit frischem Knoblauch oder frischen Kräutern nie bei Raumtemperatur auf (Botulismusgefahr); wenn du frische Aromaten verwendest, im Kühlschrank lagern und innerhalb von 4 Tagen aufbrauchen.",
-    "unique_src": "daa9406e2bba1b05b04543f4758ae8e52fb0a585"
+    "unique_src": "daa9406e2bba1b05b04543f4758ae8e52fb0a585",
+    "faq_unique": [
+      {
+        "q": "Wie viel THC steckt in einem Teelöffel dieses Öls?",
+        "a": "Etwa 15 mg: 8 g Blüten mit 14 % in 300 ml Olivenöl. Ein Esslöffel ist das 3-Fache, miss also in Teelöffeln ab."
+      },
+      {
+        "q": "Kann ich mit infundiertem Olivenöl kochen oder braten?",
+        "a": "Nimm es vor allem zum Verfeinern fertiger Gerichte (Dressings, Saucen, über den Teller geträufelt) oder zum schonenden Garen. Die Dosis jeder Portion hängt davon ab, wie viel Öl auf den Teller kommt, also miss es ab."
+      },
+      {
+        "q": "Natives Olivenöl extra oder normales Olivenöl?",
+        "a": "Beide lassen sich gleich infundieren. Natives Olivenöl extra bringt mehr Geschmack zum Verfeinern; normales Olivenöl schmeckt neutraler."
+      }
+    ],
+    "faq_src": "7cb3424522a53cf1963659f852d488c2f26501a5"
   },
   "infused-bulletproof-coffee": {
     "name": "Infundierter Bulletproof-Kaffee",
@@ -144,7 +189,22 @@
     "dosing_unique": "Fülle die Masse mit einer Messpipette oder einem kleinen Löffel in Silikon-Pralinenformen, damit jede Fat Bomb genau gleich dosiert ist.",
     "storage_unique": "Im Gefrierfach bis zu 3 Monate haltbar; gefroren aufbewahren, da sie bei Raumtemperatur schnell schmelzen.",
     "variation_unique": "Eine Schicht zuckerfreie Zartbitterschokolade auf jeder Fat Bomb ergibt eine Leckerei im Stil eines Bounty-Riegels.",
-    "unique_src": "e435fa245e987acc1a6a084f70d31eb0a5c56fe6"
+    "unique_src": "e435fa245e987acc1a6a084f70d31eb0a5c56fe6",
+    "faq_unique": [
+      {
+        "q": "Wie viele Fat Bombs kann ich essen?",
+        "a": "Eine ist eine Portion, etwa 7,5 mg. Beim ersten Mal iss eine und warte 2 Stunden, bevor du an eine zweite denkst. Zwei auf einmal sind etwa 15 mg, das Maximum, das wir für eine Portion angeben."
+      },
+      {
+        "q": "Warum schmilzt man die Kokosbutter?",
+        "a": "Sie ist bei Raumtemperatur fest. Schmilz sie vor dem Mischen mit den Kokosölen, sonst bleibt die Masse klumpig und jedes Stück hat am Ende eine andere Dosis."
+      },
+      {
+        "q": "Warum sind meine Fat Bombs geschmolzen?",
+        "a": "Sie bestehen fast nur aus Kokosöl, das in der Wärme weich wird. Nimm sie erst kurz vor dem Essen aus dem Gefrierfach."
+      }
+    ],
+    "faq_src": "4d21c94f39a7d9c53f92270a70aa377ad3956c50"
   },
   "infused-pesto-pasta": {
     "name": "Infundierte Pesto-Pasta",
@@ -258,7 +318,22 @@
     "dosing_unique": "Das gesamte decarboxylierte Gras in die Creme mischen, bevor du sie gleichmäßig auf die 6 Firecracker verteilst; ein Firecracker ist eine Portion.",
     "storage_unique": "Jeden Firecracker einzeln in Alufolie wickeln und bei Raumtemperatur bis zu 3 Tage aufbewahren.",
     "variation_unique": "Nimm Erdnussbutter statt Haselnussaufstrich und streu etwas Meersalz darüber – für eine süß-salzige Version.",
-    "unique_src": "2bd6e4768953a66c216a6c7de4fdc2312a11421e"
+    "unique_src": "2bd6e4768953a66c216a6c7de4fdc2312a11421e",
+    "faq_unique": [
+      {
+        "q": "Muss ich das Gras für Firecrackers decarboxylieren?",
+        "a": "Ja. Rohe Blüten enthalten vor allem THCA, und das macht nicht high. Dieses Rezept decarboxyliert sie zuerst bei 240°F (115°C); die 15 Minuten bei 300°F wärmen nur das Sandwich."
+      },
+      {
+        "q": "Wie stark ist ein Firecracker?",
+        "a": "0,8 g Blüten mit 14 % auf 6 Firecracker sind etwa 15 mg pro Stück. Beim ersten Mal iss ein Drittel davon (etwa 5 mg) und warte 2 Stunden, bevor du mehr nimmst: Edibles brauchen eine Weile, bis sie wirken."
+      },
+      {
+        "q": "Nutella oder Erdnussbutter?",
+        "a": "Beides geht. Es sind beides fettreiche Aufstriche, die das THC aufnehmen, und die Dosis kommt von den 0,8 g Blüten, nicht vom Aufstrich. Rühr alle Blüten in die gesamte Menge Aufstrich, bevor du ihn aufteilst."
+      }
+    ],
+    "faq_src": "770ceb200ce5b97819c6508b73d99e32d304da5d"
   },
   "infused-lemonade": {
     "name": "Infundierte Limonade",
@@ -371,7 +446,22 @@
     "dosing_unique": "Portioniere die gekühlte Masse mit einem kleinen Portionierer, damit jeder Trüffel genau gleich viel infundiertes Kokosöl enthält.",
     "storage_unique": "Die Trüffel zwischen Lagen von Wachspapier in einem luftdichten Behälter schichten und bis zu 2 Wochen im Kühlschrank aufbewahren.",
     "variation_unique": "Wälze die fertigen Trüffel in Matchapulver, zerstoßenen gefriergetrockneten Himbeeren oder gerösteten Kokosraspeln – für ganz unterschiedliche Geschmacksrichtungen.",
-    "unique_src": "74d6b934b9fa59b4deaa8188b7c9d5a90a3e1d6d"
+    "unique_src": "74d6b934b9fa59b4deaa8188b7c9d5a90a3e1d6d",
+    "faq_unique": [
+      {
+        "q": "Wie viele Trüffel ergibt das Rezept, und wie stark ist jeder?",
+        "a": "Roll 20 gleich große Trüffel; ein Trüffel ist eine Portion, etwa 12 mg bei 14 % THC. Beim ersten Mal iss ein Drittel davon und warte 2 Stunden."
+      },
+      {
+        "q": "Kann ich Cannabutter statt infundiertem Kokosöl nehmen?",
+        "a": "Ja. Unsere beiden Basen haben pro Tasse die gleiche Stärke, die Dosis ändert sich also nicht. Die Trüffel schmecken dann nach Butter und sind nicht mehr milchfrei."
+      },
+      {
+        "q": "Warum schmelzen meine Trüffel in der Hand?",
+        "a": "Sie werden mit Kokosöl gemacht, das durch die Wärme deiner Hände weich wird. Roll sie schnell mit kalten Händen oder einem Kugelausstecher und serviere sie direkt aus dem Kühlschrank."
+      }
+    ],
+    "faq_src": "b1935ea969f90f5206cedf3676409dc9a46f31f0"
   },
   "infused-banana-bread": {
     "name": "Infundiertes Bananenbrot",
@@ -402,7 +492,22 @@
     "dosing_unique": "Schneide den Laib in 10 gleich große Scheiben und beschrifte jede mit der Dosis pro Scheibe, damit niemand zu viel isst.",
     "storage_unique": "Einzelne Scheiben in Backpapier wickeln und bis zu 3 Monate einfrieren; vor dem Essen 20 Minuten bei Raumtemperatur auftauen lassen.",
     "variation_unique": "Heb Zartbitter-Schokotropfen und Walnüsse unter – das ergibt einen kräftigeren Geschmack, der besonders gut zu den Cannabis-Noten passt.",
-    "unique_src": "39c1dc76af8c9a6bcf531c13c23ed0e0710594d4"
+    "unique_src": "39c1dc76af8c9a6bcf531c13c23ed0e0710594d4",
+    "faq_unique": [
+      {
+        "q": "Wie stark ist eine Scheibe?",
+        "a": "Etwa 13 mg THC: 3 Esslöffel unserer Cannabutter in einem Laib, geschnitten in 10 gleiche Scheiben. Beim ersten Mal iss ein Drittel einer Scheibe und warte 2 Stunden."
+      },
+      {
+        "q": "Woran erkenne ich, dass die Mitte durch ist?",
+        "a": "Stich einen langen Zahnstocher in die Mitte: Er sollte mit ein paar feuchten Krümeln, aber ohne flüssigen Teig herauskommen. Wird die Oberfläche zuerst braun, deck sie locker mit Alufolie ab und back weiter."
+      },
+      {
+        "q": "Ist das die Cannabissorte Banana Bread?",
+        "a": "Nein. Das ist ein selbst gebackenes Bananenbrot mit Cannabutter; seine Stärke hängt von deiner Butter ab, nicht vom Namen einer Sorte."
+      }
+    ],
+    "faq_src": "6be631707f446cfc5341e56c57ce5b3bfa7b743d"
   },
   "infused-keto-cheesecake-bites": {
     "name": "Infundierte Keto-Cheesecake-Häppchen",
@@ -496,7 +601,22 @@
     "dosing_unique": "Nimm Vollmilch für den höchsten Fettgehalt und die beste Extraktion; miss Portionen in halben Tassen ab und notiere die Wirkstärke auf dem Etikett.",
     "storage_unique": "Gekühlt aufbewahren und innerhalb von 5 Tagen verbrauchen – genauso lange wie normale Milch; vor jeder Verwendung schütteln.",
     "variation_unique": "Nimm Schlagsahne statt Milch – für eine gehaltvollere Infusion mit höherem Fettgehalt und cremigerem Mundgefühl.",
-    "unique_src": "66dbfe7a1434b20f0e3a62de8818f1c8f80ccb34"
+    "unique_src": "66dbfe7a1434b20f0e3a62de8818f1c8f80ccb34",
+    "faq_unique": [
+      {
+        "q": "Kann man Milch mit THC infundieren?",
+        "a": "Ja. THC bindet sich an Fett, also nimm Vollmilch oder Sahne. Magermilch oder Mandelmilch enthält weniger Fett, und die tatsächliche Dosis liegt dann unter der berechneten."
+      },
+      {
+        "q": "Wie viel THC steckt in einer halben Tasse?",
+        "a": "Mit 1 g Blüten mit 14 % pro Liter etwa 14 mg in ½ Tasse (125 ml). Beim ersten Mal trink ein Drittel davon und warte 2 Stunden."
+      },
+      {
+        "q": "Warum vor jeder Verwendung schütteln?",
+        "a": "Das Fett, das das THC trägt, steigt im Kühlschrank nach oben. Schüttle gut, damit jedes Eingießen die gleiche Dosis liefert."
+      }
+    ],
+    "faq_src": "f9b2f9bebb027851e2f449387c38bf7a49ef6a41"
   },
   "infused-coconut-curry": {
     "name": "Infundiertes Kokos-Curry",
@@ -557,7 +677,22 @@
     "dosing_unique": "Berechne das gesamte THC in deinem infundierten Kokosöl, teile es durch die Anzahl der Formmulden und fülle die Masse mit einer Pipette genau in jede Mulde.",
     "storage_unique": "Die fertigen Gummibärchen leicht in Speisestärke wälzen und im Kühlschrank bis zu 3 Wochen aufbewahren, damit sie nicht zusammenkleben.",
     "variation_unique": "Nimm Sauerkirschsaft statt aromatisierter Gelatine – für natürlich saure Gummibärchen mit echtem Fruchtgeschmack und Antioxidantien.",
-    "unique_src": "aa832615530d9ebbd1c5bcd7f1f01ab1f3913c53"
+    "unique_src": "aa832615530d9ebbd1c5bcd7f1f01ab1f3913c53",
+    "faq_unique": [
+      {
+        "q": "Wie macht man Cannabis-Gummibärchen?",
+        "a": "Mach zuerst unser infundiertes Kokosöl. Dann lässt du die Gelatine in kaltem Wasser quellen, löst sie bei niedriger Hitze auf und schlägst das geschmolzene Öl mit dem Lecithin unter, bevor du die Formen füllst. Das Lecithin hält das Öl in der Gelatine gebunden."
+      },
+      {
+        "q": "Wie viele mg stecken in einem Gummibärchen?",
+        "a": "Etwa 3,7 mg pro Bärchen bei 14 % THC: ¼ Tasse unseres infundierten Kokosöls auf 48 Bärchen. Eine Portion sind 3 Bärchen, etwa 11 mg. Füll alle 48 Mulden; bleibt Masse übrig, enthält jedes Bärchen weniger."
+      },
+      {
+        "q": "Kann ich sie stärker machen?",
+        "a": "Nicht mit mehr Öl: Über diese Menge hinaus bleibt es nicht in der Gelatine gebunden. Mach stattdessen ein stärkeres infundiertes Kokosöl (mehr Blüten in der Basis) und gib die neuen Gramm in den Rechner ein."
+      }
+    ],
+    "faq_src": "18bdd6966556173e53bb7ae04a62ecb17b05247b"
   },
   "infused-spaghetti-bolognese": {
     "name": "Infundierte Spaghetti Bolognese",
@@ -627,7 +762,22 @@
     "dosing_unique": "Nimm einen Teigportionierer in Esslöffelgröße und wiege jede Kugel auf einer Küchenwaage ab, damit die Dosis in der ganzen Charge gleich ist.",
     "storage_unique": "In einem verschlossenen Glas bis zu 5 Tage bei Raumtemperatur aufbewahren oder die gebackenen Cookies in einem Gefrierbeutel 2 Monate einfrieren.",
     "variation_unique": "Ersetze die Schokotropfen durch Erdnussbutter-Drops und streu vor dem Backen eine Prise Meersalz darüber – für eine süß-salzige Note.",
-    "unique_src": "5e786e584c0215c68fd10a1b6e2adc34f33b04b7"
+    "unique_src": "5e786e584c0215c68fd10a1b6e2adc34f33b04b7",
+    "faq_unique": [
+      {
+        "q": "Wie viele Hasch-Cookies ergibt das Rezept, und wie stark ist jeder?",
+        "a": "Teile den Teig in 20 gleich große Kugeln; ein Cookie ist eine Portion, etwa 12 mg bei 14 % THC, aus ⅓ Tasse unserer Cannabutter. Beim ersten Mal iss ein Drittel eines Cookies und warte 2 Stunden."
+      },
+      {
+        "q": "Warum schmilzt man die Cannabutter mit der normalen Butter?",
+        "a": "Wenn beide Fette zusammen schmelzen, verteilt sich das THC in der ganzen Butter, bevor sie auf den Zucker trifft, und jede Teigkugel bekommt den gleichen Anteil."
+      },
+      {
+        "q": "Meine Cookies sind flach oder trocken geworden. Was ist schiefgelaufen?",
+        "a": "Meist zu viel Mehl oder zu lange im Ofen. Löffle das Mehl in die Tasse und streich es glatt, und nimm die Cookies heraus, solange die Mitte noch weich aussieht; beim Abkühlen werden sie fest."
+      }
+    ],
+    "faq_src": "18cb7564674b532a629fae7046d10ee08e6deac8"
   },
   "pot-brownies": {
     "name": "Hasch-Brownies",
@@ -657,7 +807,22 @@
     "dosing_unique": "Schneide die Brownie-Platte direkt nach dem Herausnehmen aus dem Ofen in gleich große Quadrate vor, solange die Oberfläche noch weich ist.",
     "storage_unique": "Brownies in einem verschlossenen Behälter 4 Tage bei Raumtemperatur aufbewahren oder einzeln verpackt bis zu 3 Monate einfrieren.",
     "variation_unique": "Zieh vor dem Backen einen Streifen Frischkäseteig durch – so entsteht ein marmorierter Cheesecake-Brownie.",
-    "unique_src": "6951b15ac0702ba0b46e94ef7f0b76618e9df410"
+    "unique_src": "6951b15ac0702ba0b46e94ef7f0b76618e9df410",
+    "faq_unique": [
+      {
+        "q": "Wie viel Gras brauche ich für eine Form Hasch-Brownies?",
+        "a": "Diese Form braucht ⅓ Tasse unserer Cannabutter, darin stecken etwa 2,1 g Blüten. Bei 14 % THC sind das etwa 15 mg in jedem der 16 Stücke. Ändere die Gramm oder den THC-Anteil im Rechner oben, und alle Zahlen passen sich an."
+      },
+      {
+        "q": "Kann ich sie stärker machen?",
+        "a": "Nimm mehr Cannabutter statt der normalen Butter, bis hin zur ganzen Menge, und prüfe im Rechner die neuen mg pro Stück. Ein Stück mit mehr als 15 mg ist für die meisten Menschen viel; schneide lieber kleinere Stücke."
+      },
+      {
+        "q": "Warum sind meine Brownies zu schwach oder ungleichmäßig?",
+        "a": "Meist war die Cannabutter nicht ganz geschmolzen und untergerührt, oder die Stücke waren nicht gleich groß. Schmilz sie mit der normalen Butter, rühr sie vollständig in den Zucker ein, lass die Form abkühlen und schneide ein Raster von 4 × 4."
+      }
+    ],
+    "faq_src": "2ae02a6267bf3b33386c2cc9e36a8fd67a91e1e9"
   },
   "infused-grilled-cheese": {
     "name": "Infundiertes Grilled-Cheese-Sandwich",
@@ -768,7 +933,22 @@
     "dosing_unique": "Miss den Honig teelöffelweise ab und notier die mg pro Teelöffel auf dem Etikett, damit du immer weißt, wie viel du zu dir nimmst.",
     "storage_unique": "In einem verschlossenen dunklen Glas in einem kühlen Schrank bis zu 3 Monate aufbewahren (die Haltbarkeit begrenzt das Kokosöl, nicht der Honig); vor jeder Verwendung umrühren.",
     "variation_unique": "Gib während der Infusion einen Teelöffel getrockneten Lavendel oder getrockneten Rosmarin ins Glas – das ergibt ein Kräuteraroma, das gut zum Cannabis passt; frische Kräuter meiden, sie bringen Feuchtigkeit hinein.",
-    "unique_src": "9fa59d80b3fbb9998e2aee756738f8e3fdf46228"
+    "unique_src": "9fa59d80b3fbb9998e2aee756738f8e3fdf46228",
+    "faq_unique": [
+      {
+        "q": "Wie infundiert man Honig mit Gras?",
+        "a": "THC löst sich in Fett, nicht in Honig. Deshalb infundiert dieses Rezept die Blüten zuerst in Kokosöl und mixt das Öl dann mit Lecithin in warmen Honig. So bleibt das THC im ganzen Glas verteilt."
+      },
+      {
+        "q": "Wie viel THC steckt in einem Teelöffel?",
+        "a": "Etwa 5 mg pro Teelöffel bei 14 % THC. Eine Portion von 15 mg sind etwa 3 Teelöffel; beim ersten Mal nimm 1 Teelöffel und warte 2 Stunden."
+      },
+      {
+        "q": "Das Öl ist nach oben gestiegen und fest geworden. Was jetzt?",
+        "a": "Stell das Glas in heißes Wasser, bis das Öl schmilzt, und rühr um, bis alles gleichmäßig ist, bevor du abmisst. Sonst ist der oberste Löffel viel stärker als der Rest."
+      }
+    ],
+    "faq_src": "cb1acdee515f80a4970f4d2d794ac7df55b34de0"
   },
   "infused-whiskey": {
     "name": "Infundierter Whiskey",
@@ -788,7 +968,22 @@
     "dosing_unique": "Fang mit einer halben Unze an, denn die Kombination aus Alkohol und THC verstärkt beide Wirkungen deutlich.",
     "storage_unique": "In einer dunklen Glasflasche vor Sonnenlicht und Wärme geschützt aufbewahren; er hält sich ein Jahr oder länger, verliert mit der Zeit aber langsam an Wirkstärke.",
     "variation_unique": "Nimm einen rauchigen Bourbon und gib während der Infusion eine Zimtstange dazu – für eine wärmende, würzige Winter-Spirituose.",
-    "unique_src": "a1624412f9c75746e0c012a610e49651f7133bd3"
+    "unique_src": "a1624412f9c75746e0c012a610e49651f7133bd3",
+    "faq_unique": [
+      {
+        "q": "Wie viel THC steckt in einem Shot von ½ oz?",
+        "a": "Etwa 15 mg pro ½ oz (15 ml): 6,6 g Blüten mit 14 % in einer 750-ml-Flasche. Beim ersten Mal trink einen Teelöffel und warte 2 Stunden, bevor du mehr Alkoholisches trinkst."
+      },
+      {
+        "q": "Wird er stärker, wenn er länger zieht?",
+        "a": "Er kann etwas mehr herauslösen, bis zu dem, was die Blüten enthalten. Die Zahl auf dieser Seite ist das Maximum, das du erwarten solltest, rechne also nicht mit mehr."
+      },
+      {
+        "q": "Muss ich das Gras decarboxylieren?",
+        "a": "Ja. Alkohol erhitzt die Blüten nicht, und ohne Decarboxylierung bleibt das THC in seiner Säureform, die nicht wirkt."
+      }
+    ],
+    "faq_src": "ed840806166f94102f4bd5717f08f3fd0485d62d"
   },
   "infused-chai": {
     "name": "Infundierter Chai",
@@ -885,7 +1080,22 @@
     "dosing_unique": "Eine Portion ist 1 Teelöffel. 1 Tasse Butter ergibt etwa ¾ Tasse Ghee (36 Teelöffel), je etwa 11 mg bei 14 % THC; beschrifte das Glas mit mg pro Teelöffel.",
     "storage_unique": "In einem verschlossenen Glas bis zu 3 Monate im Kühlschrank aufbewahren; der geringe Wassergehalt macht es haltbar, aber infundiertes Ghee bleibt gekühlt am frischesten.",
     "variation_unique": "Infundiere es bei der Zubereitung mit Kurkuma und schwarzem Pfeffer – für goldenes Ghee mit entzündungshemmenden Eigenschaften.",
-    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9"
+    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9",
+    "faq_unique": [
+      {
+        "q": "Kann ich Cannabutter mit Ghee statt Butter machen?",
+        "a": "Ja, genau das ist dieses Rezept. Ghee ist Butter ohne Wasser und Milchfeststoffe, und es bindet THC genauso gut. Halte die Hitze sehr niedrig: Ohne Wasser im Topf wird es heißer als Butter."
+      },
+      {
+        "q": "Warum ist es schwächer als unsere Cannabutter?",
+        "a": "Es verwendet 3,5 g Blüten pro Tasse Butter, und diese Tasse kocht auf etwa ¾ Tasse Ghee ein: etwa 11 mg pro Teelöffel, gegenüber 15 mg bei der Cannabutter. Es ist dafür gedacht, löffelweise in herzhaften Gerichten verwendet zu werden, etwa im Linsen-Dal."
+      },
+      {
+        "q": "Gebe ich die Blüten vor oder nach dem Klären dazu?",
+        "a": "Danach. Lass die Butter klären, bis das Knistern aufhört, reduziere die Hitze und gib erst dann die Blüten dazu, damit sie nicht bei den Milchfeststoffen liegen, die am Boden braun werden."
+      }
+    ],
+    "faq_src": "888ddd9af112ab48c84d8ece213c9a5c8067f591"
   },
   "infused-condensed-milk": {
     "name": "Infundierte Kondensmilch",
@@ -935,7 +1145,22 @@
     "dosing_unique": "Beide Milchsorten zusammen erwärmen und gut verquirlen, dann gleichmäßig auf 2 Becher verteilen; ein Becher ist eine Portion.",
     "storage_unique": "Am besten frisch servieren; übrige heiße Schokolade kannst du im Kühlschrank aufbewahren und am nächsten Tag sanft erwärmen.",
     "variation_unique": "Toppe sie mit normalen Marshmallows und einer Prise Zimt; verzichte auf infundierte Toppings, denn deren Dosis käme zu der Dosis in der Milch noch hinzu.",
-    "unique_src": "59b568018b7b4abcb9901f09ece4f7bf3cec3971"
+    "unique_src": "59b568018b7b4abcb9901f09ece4f7bf3cec3971",
+    "faq_unique": [
+      {
+        "q": "Für wie viele Becher reicht eine Tasse infundierte Milch?",
+        "a": "Für zwei. Das Rezept mischt 1 Tasse infundierte Milch mit 1 Tasse normaler Milch und verteilt sie auf 2 Becher, je etwa 13 mg. Eine ganze Tasse infundierte Milch in einem Becher verdoppelt die Dosis."
+      },
+      {
+        "q": "Kann ich Cannabis-Tinktur statt infundierter Milch nehmen?",
+        "a": "Die Dosis auf dieser Seite stimmt nur für unsere infundierte Milch. Mit Tinktur nimm unser Tinktur-Rezept und den Rechner, um auszurechnen, wie viel in jeden Becher kommt, und gib sie nicht zusätzlich zur infundierten Milch dazu."
+      },
+      {
+        "q": "Wie vermeide ich Kakaoklümpchen?",
+        "a": "Verrühre Kakao und Zucker zuerst mit etwas warmer Milch zu einer Paste und schlag dann den Rest der Milch unter."
+      }
+    ],
+    "faq_src": "eda87d2dc2590ca3e88d22eaf402d5d6124c0b50"
   },
   "infused-cold-brew": {
     "name": "Infundierter Cold Brew",
@@ -986,7 +1211,22 @@
     "dosing_unique": "Drück die Masse in eine ausgelegte Form mit bekannten Maßen und schneide sie in ein Raster aus gleich großen Stücken, damit die Dosis gleich bleibt.",
     "storage_unique": "Jedes Quadrat einzeln in Frischhaltefolie wickeln und bei Raumtemperatur bis zu 3 Tage aufbewahren.",
     "variation_unique": "Misch eine Handvoll Mini-M&Ms unter oder träufle geschmolzene Zartbitterschokolade darüber – für extra Genuss.",
-    "unique_src": "be0842a15891c8e2b1f05f92610be71cd3b37321"
+    "unique_src": "be0842a15891c8e2b1f05f92610be71cd3b37321",
+    "faq_unique": [
+      {
+        "q": "Rice Krispie Treats oder Rice Crispy Treats: Ist das dasselbe Rezept?",
+        "a": "Ja. „Rice Crispy Treats“ sind dieselben Riegel ohne Backen (bei uns Cannabis-Reiswaffeln): geschmolzene Butter und Marshmallows, verrührt mit knusprigen Reispuffs. Jede Marke Reispuffs funktioniert, und die Dosis ändert sich nicht."
+      },
+      {
+        "q": "Kann ich infundiertes Kokosöl statt Cannabutter nehmen?",
+        "a": "Ja. Nimm 3 Esslöffel unseres infundierten Kokosöls; es hat pro Esslöffel die gleiche Stärke wie unsere Cannabutter, also bleibt jedes Stück bei etwa 11 mg."
+      },
+      {
+        "q": "Wie bekomme ich 12 gleiche Dosen?",
+        "a": "Drück die Masse gleichmäßig dick in die 9×13-Zoll-Form, lass sie fest werden und schneide ein Raster von 3 × 4. Am genauesten ist es, die Stücke zu wiegen."
+      }
+    ],
+    "faq_src": "dff77c9814ce14f5eb8f99c76ab16eeabcf6a57d"
   },
   "cannabis-caramel-sauce": {
     "name": "Cannabis-Karamellsauce",
@@ -1178,7 +1418,22 @@
     "dosing_unique": "Schneide die Brownie-Platte mit einem Teigschaber in gleich große Quadrate und beschrifte jedes Stück mit seiner Dosis, damit du sicher teilen kannst.",
     "storage_unique": "Luftdicht verpackt 3 Tage bei Raumtemperatur lagern oder einzeln verpackt 2 Monate einfrieren.",
     "variation_unique": "Zieh vor dem Backen etwas Mandelmus durch die Oberfläche, so entsteht ein nussiger, marmorierter veganer Brownie.",
-    "unique_src": "8dab8a57afebb2e1735a5eaa5e3ca2da8372b024"
+    "unique_src": "8dab8a57afebb2e1735a5eaa5e3ca2da8372b024",
+    "faq_unique": [
+      {
+        "q": "Muss ich das Kokosöl schmelzen?",
+        "a": "Ja. Kokosöl ist bei Raumtemperatur fest; schmilz das infundierte und das normale Öl zusammen, damit sich das THC im ganzen Fett verteilt, bevor du den Zucker dazugibst."
+      },
+      {
+        "q": "Wie schneide ich 16 gleiche Dosen?",
+        "a": "Lass die Form vollständig abkühlen und schneide dann ein Raster von 4 × 4. Jedes Stück ist eine Portion mit etwa 15 mg; beim ersten Mal iss ein Drittel eines Stücks und warte 2 Stunden."
+      },
+      {
+        "q": "Kann ich stattdessen Cannabutter nehmen?",
+        "a": "Ja, aber dann sind es keine veganen Cannabis-Brownies mehr. ⅓ Tasse unserer Cannabutter hat die gleiche Stärke wie ⅓ Tasse unseres infundierten Kokosöls, die Dosis bleibt also gleich."
+      }
+    ],
+    "faq_src": "cd323a7d566e150a99b0a51812d921b295ba07ce"
   },
   "infused-vegan-cheese-sauce": {
     "name": "Infundierte vegane Käsesauce",
@@ -1838,11 +2093,26 @@
       "Eis, Limettensaft und die Honigmischung hinzufügen.",
       "Mit Sprudelwasser auffüllen. Mit Limette garnieren."
     ],
-    "intro_unique": "Für den infundierten Virgin Mojito werden frische Minze und Limette mit Cannabis-Zuckersirup zerstoßen und mit Sprudelwasser aufgefüllt – ein frischer, kräuteriger Mocktail.",
-    "dosing_unique": "Miss den Cannabis-Zuckersirup nach dem Zerstoßen von Minze und Limette mit einem Esslöffel ab, damit jedes Glas die gleiche Dosis bekommt.",
+    "intro_unique": "Für den infundierten Virgin Mojito werden frische Minze und Limette mit infundiertem Honig zerstoßen und mit Sprudelwasser aufgefüllt – ein frischer, kräuteriger Mocktail.",
+    "dosing_unique": "Miss die 2 Teelöffel infundierten Honig genau ab und löse sie auf, bevor du die Limette dazugibst; das ganze Glas ist eine Portion.",
     "storage_unique": "Zubereiten und sofort servieren; die Minze welkt und das Sprudelwasser wird schal, wenn der Drink steht.",
     "variation_unique": "Zerstoße frische Wassermelonenstücke mit der Minze – für einen Wassermelonen-Virgin-Mojito mit natürlicher rosa Farbe.",
-    "unique_src": "7fa4e6d2cb7e5872f454b5b6b134c0ed88aef8e0"
+    "unique_src": "0f17a044476b3cd1eaeeee37ebcb43b2b8d5fee4",
+    "faq_unique": [
+      {
+        "q": "Kann ich Rum dazugeben?",
+        "a": "Kannst du, aber Alkohol und Cannabis zusammen wirken viel stärker als jedes für sich. Trink ein Glas und warte mindestens 2 Stunden vor dem nächsten; wenn du neu dabei bist, trink ein halbes Glas."
+      },
+      {
+        "q": "Warum wird der Honig in warmem Wasser aufgelöst?",
+        "a": "Kalter Honig vermischt sich nicht mit eiskaltem Limettensaft und bleibt mitsamt der Dosis am Boden des Glases. Vorher aufgelöst, verteilt er sich. Rühr vor dem Trinken um, denn das Kokosöl im Honig wird auf dem Eis fest."
+      },
+      {
+        "q": "Kann ich einen Krug machen?",
+        "a": "Zerstoße Minze und Limette im Krug, aber gib die 2 Teelöffel infundierten Honig direkt in jedes Glas. So enthält jedes Glas genau eine bekannte Portion."
+      }
+    ],
+    "faq_src": "a2d5b92a71c376d186e97e6c9521409acf9d075f"
   },
   "cannabis-cucumber-mint-cooler": {
     "name": "Cannabis-Gurken-Minz-Cooler",
@@ -1862,11 +2132,26 @@
       "Mit Eis schütteln und abseihen.",
       "Mit Sprudelwasser auffüllen."
     ],
-    "intro_unique": "Für einen Cannabis-Gurken-Minz-Cooler werden kühle Gurke und frische Minze mit Cannabis-Zuckersirup zerstoßen – ein beruhigender Mocktail wie im Spa.",
-    "dosing_unique": "Miss den Cannabis-Zuckersirup vor dem Zerstoßen mit einem Esslöffel ab, damit das Glas eine exakte Dosis bekommt.",
+    "intro_unique": "Für einen Cannabis-Gurken-Minz-Cooler werden kühle Gurke und frische Minze mit infundiertem Honig und Limette zerstoßen – ein Mocktail wie im Spa.",
+    "dosing_unique": "Miss die 2 Teelöffel infundierten Honig genau ab und löse sie vor dem Zerstoßen auf; das ganze Glas ist eine Portion.",
     "storage_unique": "Bewahre die zerstoßene Gurken-Minz-Basis ohne Cannabis-Sirup bis zu 24 Stunden im Kühlschrank auf; gib Sirup und Eis erst beim Servieren dazu.",
     "variation_unique": "Gib ein paar Scheiben frische Jalapeño dazu für einen scharfen Gurken-Cooler mit überraschendem Kick.",
-    "unique_src": "9446c6b3c0d11efd6be4a61a4120767a086a5984"
+    "unique_src": "fc0598d3af4b07126560968442e61b598f30e252",
+    "faq_unique": [
+      {
+        "q": "Warum löst man den infundierten Honig zuerst in warmem Wasser auf?",
+        "a": "Kalter Limettensaft und Eis machen Honig zäh, und er sinkt mitsamt der Dosis auf den Boden. Vorher in 2 Esslöffeln warmem Wasser aufgelöst, verteilt er sich im Drink. Rühr vor jedem Schluck um, denn das Kokosöl im Honig wird in der Kälte fest."
+      },
+      {
+        "q": "Kann ich einen Krug für eine Party machen?",
+        "a": "Zerstoße Gurke und Minze vorab, aber gib den infundierten Honig Glas für Glas dazu: 2 Teelöffel pro Glas sind eine Portion. Ein gemeinsamer Krug kann nicht jedem Glas die gleiche Dosis geben."
+      },
+      {
+        "q": "Kann ich eine andere Cannabis-Basis nehmen?",
+        "a": "Nicht in derselben Menge. Jede Basis auf unserer Seite hat eine andere Stärke, und diese Dosis stimmt nur für 2 Teelöffel unseres infundierten Honigs."
+      }
+    ],
+    "faq_src": "ee7505ed32abc958aadf3f1279febc34e1bf6951"
   },
   "infused-watermelon-slush": {
     "name": "Infundierter Wassermelonen-Slush",
@@ -2272,7 +2557,22 @@
     "dosing_unique": "Schneide den Käsekuchen mit einem heißen Messer in 12 gleiche Stücke – für saubere Schnitte und eine vorhersehbare Potenz pro Stück.",
     "storage_unique": "Lege Frischhaltefolie direkt auf die Oberfläche und bewahre ihn bis zu 5 Tage im Kühlschrank auf, oder friere Stücke 2 Monate ein.",
     "variation_unique": "Toppe ihn mit frischem Beerenkompott für einen Farbklecks und frische Säure.",
-    "unique_src": "461ffa400a974d76cbc51c6db4d8ae655d581a87"
+    "unique_src": "461ffa400a974d76cbc51c6db4d8ae655d581a87",
+    "faq_unique": [
+      {
+        "q": "Warum ist das Cannabis nur im Boden?",
+        "a": "Cannabutter lässt sich am besten in den buttrigen Keksboden einarbeiten, und die cremige Füllung bleibt unverändert. Drück den Boden gleichmäßig an und schneide 12 gleiche Stücke, damit jedes die gleichen 15 mg enthält, und iss den Boden mit: Dort steckt die Dosis."
+      },
+      {
+        "q": "Muss ich die Springform für das Wasserbad einwickeln?",
+        "a": "Ja. Springformen sind undicht; wickle die Außenseite fest in starke Alufolie, damit kein Wasser an den Boden kommt, der das ganze Cannabis enthält."
+      },
+      {
+        "q": "Woran erkenne ich, dass er fertig ist?",
+        "a": "Die Ränder sehen fest aus und die Mitte wackelt noch leicht, wenn du an die Form stößt; er wird während der Stunde im Ofen und der 4 Stunden im Kühlschrank fest."
+      }
+    ],
+    "faq_src": "88886849c58c9394a47985b22475c1bafb80a45a"
   },
   "infused-tiramisu": {
     "name": "Infundiertes Tiramisu",
@@ -2655,7 +2955,22 @@
     "dosing_unique": "Spritz den Churro-Teig mit einer Sterntülle immer in gleicher Länge und frittiere ihn in gleich großen Portionen, damit die Dosis einheitlich bleibt.",
     "storage_unique": "Churros frisch essen, dann ist die Textur am besten; zum Aufbewahren in einer Papiertüte lagern und 5 Minuten im 375F heißen Ofen wieder knusprig machen.",
     "variation_unique": "Dazu passt eine Schokoladensauce mit Zimt zum Dippen oder Dulce de Leche.",
-    "unique_src": "2c84ea55654a51be184483657e9ad5b936ba1b2d"
+    "unique_src": "2c84ea55654a51be184483657e9ad5b936ba1b2d",
+    "faq_unique": [
+      {
+        "q": "Warum ist die Cannabutter im Teig und nicht im Frittieröl?",
+        "a": "Niemand weiß, wie viel Frittieröl jeder Churro aufsaugt, und du bräuchtest viel mehr Cannabis. Im Teig ergibt sich die Dosis jeder Portion aus dem Rezept. Frittiere in normalem Öl."
+      },
+      {
+        "q": "Wie viele Churros sind eine Portion?",
+        "a": "Spritz den Teig zu gleich langen Churros und zähl sie; eine Portion ist 1/16 des Teigs. Machst du mehr oder weniger, gib die Zahl im Rechner oben ein."
+      },
+      {
+        "q": "Warum lässt man den Teig abkühlen, bevor die Eier hineinkommen?",
+        "a": "Zu heißer Teig lässt die Eier sofort stocken, und der Teig trennt sich. Nach fünf Minuten ist er noch warm genug, um die Eier aufzunehmen."
+      }
+    ],
+    "faq_src": "bec901e4c96ebbb4d728b2201e1c49005df9b832"
   },
   "cannabis-crepes": {
     "name": "Cannabis-Crêpes",
@@ -3314,8 +3629,23 @@
     "intro_unique": "Infundierte Brigadeiros sind beliebte brasilianische Schokotrüffel aus Kondensmilch, Kakao und Cannabutter, gerollt zu mundgerechten Kugeln.",
     "dosing_unique": "Roll jeden Brigadeiro mit einem Teelöffelmaß auf die gleiche Größe, damit jedes Stück genau die gleiche Dosis hat. Eine Portion sind 3 Brigadeiros.",
     "storage_unique": "In Pralinenförmchen im Kühlschrank bis zu einer Woche aufbewahren; gekühlt werden sie perfekt fest.",
-    "variation_unique": "Mit weißer Schokolade und Kokos statt Kakao entsteht eine Mischung aus Beijinho und Brigadeiro, die Prestígio heißt.",
-    "unique_src": "64628f3650c047ddd4f9d0b12cf82600eef261ef"
+    "variation_unique": "Nimm Kokosraspeln statt Kakao und wälze die Kugeln in Kokos – so entsteht Beijinho, der Kokos-Cousin des Brigadeiro.",
+    "unique_src": "8d35216c7fe002a505921f139df9cdf3f297da34",
+    "faq_unique": [
+      {
+        "q": "Wie viele Brigadeiros kann ich essen?",
+        "a": "Roll 24 gleich große Kugeln; eine Portion sind 3 Brigadeiros, etwa 6 mg, jede Kugel ist also eine Mikrodosis von etwa 2 mg. Auf einer Party verliert man leicht den Überblick, also leg die Cannabis-Brigadeiros in Förmchen einer anderen Farbe."
+      },
+      {
+        "q": "Woran erkenne ich, dass der Brigadeiro fertig gekocht ist?",
+        "a": "Wie bei einem normalen Brigadeiro: Rühr ununterbrochen bei mittlerer bis niedriger Hitze, bis sich die Masse vom Topf löst und du beim Durchziehen des Löffels kurz den Boden siehst."
+      },
+      {
+        "q": "Dürfen Brigadeiros außerhalb des Kühlschranks stehen?",
+        "a": "Sie enthalten Kondensmilch und Butter: Lass sie nicht länger als 2 Stunden auf dem Tisch stehen und bewahre den Rest im Kühlschrank auf."
+      }
+    ],
+    "faq_src": "9620ec5a93ae3217d4f075e876dfef8c32ea2995"
   },
   "cannabis-pacoca": {
     "name": "Cannabis-Paçoca",
@@ -4097,7 +4427,22 @@
     "dosing_unique": "Teile die gesamte Zuckerausbeute durch die Anzahl der Teelöffel, um die Wirkstärke pro Teelöffel zu berechnen; fang mit 1 Teelöffel pro Portion an.",
     "storage_unique": "In einem luftdichten Glas kühl und dunkel im Vorratsschrank bis zu 6 Monate lagern; vor Feuchtigkeit schützen, damit er nicht verklumpt.",
     "variation_unique": "Für Cannabis-Puderzucker mixt du den infundierten Zucker mit einem Esslöffel Speisestärke; mit derselben Technik kannst du auch braunen Zucker infundieren.",
-    "unique_src": "298b0cc4c9435a22b7f0669fd431412b013e7f5b"
+    "unique_src": "298b0cc4c9435a22b7f0669fd431412b013e7f5b",
+    "faq_unique": [
+      {
+        "q": "Wie viel THC steckt in einem Teelöffel Cannabis-Zucker?",
+        "a": "Etwa 15 mg pro gestrichenem Teelöffel: 6,4 g Blüten mit 14 % in 1 Tasse Zucker. Beim ersten Mal nimm ⅓ Teelöffel (etwa 5 mg) und warte 2 Stunden."
+      },
+      {
+        "q": "Kann ich den ganzen Zucker in einem Kuchen durch Cannabis-Zucker ersetzen?",
+        "a": "Nein. Die ganze Tasse enthält etwa 717 mg. Nimm nur so viele Teelöffel, wie der Kuchen Stücke hat, höchstens 1 pro Stück, und ergänze den Rest mit normalem Zucker."
+      },
+      {
+        "q": "Warum ist mein Zucker klumpig oder feucht?",
+        "a": "Der Alkohol ist noch nicht ganz verdunstet. Verteile ihn dünner, rühr um und lass ihn länger trocknen, fern von Hitze und offenen Flammen. Füll ihn erst ab, wenn er locker und trocken ist."
+      }
+    ],
+    "faq_src": "9fe6d26ca4c3c43bcfb876e70a025fc6452b1426"
   },
   "cannabis-flour": {
     "name": "Cannabis-Mehl",
@@ -4118,7 +4463,22 @@
     "dosing_unique": "Eine Portion ist 1 Teelöffel Cannabismehl, etwa 15 mg bei 14 % THC; ersetze pro Portion nur so viel vom Mehl des Rezepts.",
     "storage_unique": "Bewahre es in einem verschlossenen Glas oder Beutel bis zu 6 Monate im Gefrierschrank auf, um die Potenz zu erhalten, oder bis zu 3 Monate in einer kühlen, dunklen Speisekammer.",
     "variation_unique": "Nimm Vollkornmehl oder Mandelmehl als Basis für eine glutenfreie oder proteinreiche Alternative.",
-    "unique_src": "d1bfd1eb16f9287545d18fd0ab8ebc4de722b542"
+    "unique_src": "d1bfd1eb16f9287545d18fd0ab8ebc4de722b542",
+    "faq_unique": [
+      {
+        "q": "Wie viel THC steckt in einem Teelöffel dieses Mehls?",
+        "a": "Etwa 15 mg: 6,4 g Blüten mit 14 % in 1 Tasse Mehl. Die ganze Tasse enthält etwa 717 mg, ersetze also nie das gesamte Mehl eines Rezepts damit."
+      },
+      {
+        "q": "Kann ich es in rohem Keksteig oder Süßem ohne Backen verwenden?",
+        "a": "Nein. Mehl ist eine rohe Zutat, und die FDA rät, es nie roh zu essen. Verwende es nur in Rezepten, die du backst oder kochst."
+      },
+      {
+        "q": "Cannabis-Mehl oder Cannabutter: Was ist besser?",
+        "a": "Für die meisten Rezepte Cannabutter oder infundiertes Kokosöl: Das THC steckt schon im Fett, und der Pflanzengeschmack ist milder. Das Mehl ist für Rezepte gedacht, die nicht genug Fett zum Austauschen haben."
+      }
+    ],
+    "faq_src": "2a77006b1b7e4225e187219cb9fe1a781478ceaf"
   },
   "cannabis-tincture": {
     "name": "Cannabis-Tinktur",
@@ -4166,7 +4526,22 @@
     "dosing_unique": "Miss Esslöffelportionen sorgfältig ab; das infundierte Fett verteilt sich beim Schütteln gleichmäßig im Sirup, also schüttle die Flasche vor dem Ausgießen immer.",
     "storage_unique": "Bewahre ihn in einer verschlossenen Glasflasche bis zu 2 Monate im Kühlschrank auf; die Butter kann in der Kälte fest werden, also stelle die Flasche vor der Verwendung in heißes Wasser.",
     "variation_unique": "Gib beim Köcheln eine Zimtstange oder Vanilleschote dazu für mehr Aroma, oder nimm dunklen Ahornsirup (Dark Amber) für einen kräftigeren Geschmack.",
-    "unique_src": "73a6448e5334db51d848130e1c7d098963d07077"
+    "unique_src": "73a6448e5334db51d848130e1c7d098963d07077",
+    "faq_unique": [
+      {
+        "q": "Warum kommt Butter in das Rezept?",
+        "a": "THC löst sich in Fett, nicht in Zucker. Die 3 Esslöffel Butter (oder Kokosöl) halten das THC im Sirup."
+      },
+      {
+        "q": "Der Sirup hat nach dem Kühlschrank oben eine feste Schicht.",
+        "a": "Das ist die Butter, die fest wird. Stell die Flasche in heißes Wasser und schüttle sie gut, bevor du eingießt, sonst ist der erste Löffel stärker als der Rest."
+      },
+      {
+        "q": "Wozu kann ich ihn verwenden?",
+        "a": "Pfannkuchen, Waffeln, Haferbrei oder Arme Ritter: Miss den Sirup esslöffelweise ab und gib keine anderen infundierten Toppings dazu, denn deren Dosis kommt zu seiner noch hinzu."
+      }
+    ],
+    "faq_src": "7a2c19476f87bbbb9d2a4ee9850c4f04c0e8d240"
   },
   "cannabis-hot-sauce": {
     "name": "Cannabis-Scharfe-Soße",
@@ -4923,7 +5298,22 @@
     "dosing_unique": "Das Cannabis-Kokosöl wird vor dem Mixen in die Kokoscreme emulgiert, sodass das THC gleichmäßig verteilt und im cremigen Tropendrink nicht herauszuschmecken ist.",
     "storage_unique": "Am besten direkt nach dem Mixen servieren – trennt sich die Mischung, bringt sie ein kurzes erneutes Mixen mit frischem Eis sofort wieder zusammen.",
     "variation_unique": "Mach eine alkoholfreie Virgin Colada, indem du den Rum weglässt, oder gib frische Mangostücke dazu für einen tropischen Mango-Colada-Twist.",
-    "unique_src": "b7a4528249df4cf36f2db287f658b79af9bbaf6d"
+    "unique_src": "b7a4528249df4cf36f2db287f658b79af9bbaf6d",
+    "faq_unique": [
+      {
+        "q": "Kann ich beide Gläser trinken?",
+        "a": "Nicht auf einmal. Das Rezept ergibt 2 Portionen, jede mit der oben angegebenen Dosis. Alkohol und Cannabis zusammen können sich viel stärker anfühlen als jedes für sich: Trink ein Glas und warte 2 Stunden."
+      },
+      {
+        "q": "Wie mache ich sie ohne Alkohol?",
+        "a": "Lass den Rum weg und gib etwas mehr Ananas dazu. Das THC pro Glas ändert sich nicht, denn es steckt im infundierten Öl."
+      },
+      {
+        "q": "Warum mixt man das Öl zuerst mit der Kokoscreme?",
+        "a": "Kokosöl allein wird auf dem Eis zu kleinen festen Stückchen. Zuerst in die Kokoscreme geschlagen, verteilt es sich im Drink, und beide Gläser bekommen die gleiche Dosis."
+      }
+    ],
+    "faq_src": "648a9a25e290750fd1efdd236161677f43ff318f"
   },
   "cannabis-arnold-palmer": {
     "name": "Cannabis Arnold Palmer",
@@ -5269,7 +5659,22 @@
     "dosing_unique": "Die Cannabutter wird in den Teig eingerührt und auf zwei Böden verteilt, sodass jedes der 12 Stücke eine konstante Dosis liefert.",
     "storage_unique": "Bewahre den Kuchen mit Frosting bis zu 4 Tage im Kühlschrank auf; lass ihn vor dem Servieren 20 Minuten bei Zimmertemperatur stehen – für die beste Textur.",
     "variation_unique": "Backe Red-Velvet-Cupcakes für eine einfachere Portionskontrolle, oder gib eine Schicht Erdbeermarmelade zwischen die Böden für extra fruchtige Fülle.",
-    "unique_src": "df9e9dcd4cafb547ee53ecacf643800abccc0cbd"
+    "unique_src": "df9e9dcd4cafb547ee53ecacf643800abccc0cbd",
+    "faq_unique": [
+      {
+        "q": "Ist auch im Frosting Cannabis?",
+        "a": "Nein, nur im Kuchenteig (¼ Tasse Cannabutter). Jedes Stück bekommt gleich viel Kuchen, also schneide 12 gleiche Stücke für je etwa 15 mg."
+      },
+      {
+        "q": "Muss er in den Kühlschrank?",
+        "a": "Ja. Das Frischkäse-Frosting muss innerhalb von 2 Stunden in den Kühlschrank. Lass ein Stück vor dem Essen 20 Minuten stehen, dann ist die Textur weicher."
+      },
+      {
+        "q": "Ist das die Cannabissorte Red Velvet Cake?",
+        "a": "Nein. Das ist ein selbst gebackener Red-Velvet-Kuchen mit Cannabutter; seine Stärke hängt von deiner Butter ab, nicht vom Namen einer Sorte."
+      }
+    ],
+    "faq_src": "7007cd293a49f77ac07e3523d04c4d680583ab86"
   },
   "cannabis-snickerdoodle-cookies": {
     "name": "Cannabis-Snickerdoodle-Kekse",
@@ -5521,11 +5926,26 @@
       "Den Teig gleichmäßig auf die 12 Muffinförmchen verteilen, jedes etwa 2/3 voll.",
       "18-22 Minuten backen, bis die Oberfläche goldbraun ist und ein Zahnstocher sauber herauskommt. 5 Minuten in der Form abkühlen lassen, dann auf ein Kuchengitter setzen."
     ],
-    "intro_unique": "Diese Cannabis-Schokoladen-Muffins sind fluffig, goldbraun und voller geschmolzener Schokostückchen – eine perfekt portionierte Art, infundiertes Gebäck zu genießen.",
+    "intro_unique": "Diese Cannabis-Muffins sind fluffig, goldbraun und voller geschmolzener Schokostückchen – eine perfekt portionierte Art, Cannabis-Gebäck zu genießen.",
     "dosing_unique": "Die Cannabutter verteilt sich gleichmäßig im Teig, der auf 12 Muffins aufgeteilt wird – so lässt sich die Dosis pro Muffin einfach berechnen.",
     "storage_unique": "Bewahre sie luftdicht verschlossen 2 Tage bei Zimmertemperatur auf, oder friere einzeln verpackte Muffins bis zu 2 Monate ein.",
     "variation_unique": "Gib Streusel obendrauf für mehr Textur, oder ersetze die Schokodrops durch Blaubeeren und Zitronenabrieb für einen frischen Sommermuffin.",
-    "unique_src": "3357630d7589cdeca9c63bc1a1d014f9ca2a2364"
+    "unique_src": "ec242386369f0ff695d7a576a9a6ecff54f012fc",
+    "faq_unique": [
+      {
+        "q": "Wie stark ist ein Cannabis-Muffin?",
+        "a": "Etwa 15 mg THC: ¼ Tasse unserer Cannabutter, verteilt auf 12 Muffins. Beim ersten Mal iss ein Drittel eines Muffins und warte 2 Stunden."
+      },
+      {
+        "q": "Kann ich mit diesem Teig Blaubeer- oder andere Cannabis-Muffins backen?",
+        "a": "Ja. Ersetze die Schokodrops durch 1 Tasse Beeren oder gehackte Nüsse; die Cannabutter und die 12 Mulden bleiben gleich, die Dosis ändert sich also nicht."
+      },
+      {
+        "q": "Warum schmilzt man die Cannabutter mit der normalen Butter?",
+        "a": "Damit sich das THC im ganzen Fett verteilt, bevor es in den Teig kommt. Wenn du dann jede Mulde gleich hoch füllst, bekommt jeder Muffin die gleiche Dosis."
+      }
+    ],
+    "faq_src": "046f010996a46936008501e220bd271bb28924ef"
   },
   "cannabis-bread-pudding": {
     "name": "Cannabis-Brotpudding",
@@ -5640,7 +6060,22 @@
     "dosing_unique": "Das Cannabis-Öl wird in die Schokolade gemischt und gleichmäßig auf 12 Pralinen verteilt, sodass jede eine genaue und konstante Dosis liefert.",
     "storage_unique": "Bewahre sie bis zu 2 Wochen im Kühlschrank auf oder friere sie bis zu 2 Monate ein; lass sie vor dem Essen 5 Minuten bei Zimmertemperatur stehen – dann ist die Textur am besten.",
     "variation_unique": "Für eine nussfreie Variante Sonnenblumenkernmus nehmen (Mandelmus ist erdnussfrei, aber Mandeln sind Schalenfrüchte), oder Zartbitterschokolade mit etwas Fleur de Sel darauf.",
-    "unique_src": "1a4899099f760c44479a850eed6cadbec86aee35"
+    "unique_src": "1a4899099f760c44479a850eed6cadbec86aee35",
+    "faq_unique": [
+      {
+        "q": "Steckt das THC in der Schokolade oder in der Füllung?",
+        "a": "In der Schokolade: Das infundierte Kokosöl wird mit den Schokoladen-Chips geschmolzen. Verteile die Schokolade also gleichmäßig auf die 12 Förmchen. Die Erdnussbutterfüllung enthält kein Cannabis."
+      },
+      {
+        "q": "Kann ich Mini-Erdnussbutter-Pralinen machen?",
+        "a": "Ja, aber dann bekommst du mehr Stücke, jedes mit weniger THC, als die Dosisangabe sagt. Zähl die Stücke und gib die Zahl im Rechner oben als Portionen ein, um die tatsächliche Dosis zu sehen."
+      },
+      {
+        "q": "Warum sollen sie vor dem Essen 5 Minuten stehen?",
+        "a": "Schokolade mit Kokosöl ist direkt aus dem Kühlschrank hart und wird in der Hand schnell weich. Nach fünf Minuten lässt sich die Hülle leicht abbeißen, ohne zu schmelzen."
+      }
+    ],
+    "faq_src": "7e8de0973b6f0c0c5a86171b866856b8f8fa0e13"
   },
   "cannabis-macarons": {
     "name": "Cannabis-Macarons",
@@ -6383,11 +6818,26 @@
       "12-14 Minuten backen, bis die Ränder goldbraun sind. 5 Minuten auf dem Blech abkühlen lassen, dann auf ein Gitter setzen.",
       "Ergibt ca. 16 Kekse. Charge gleichmäßig aufteilen für konsistente Dosierung."
     ],
-    "intro_unique": "Diese weichen veganen Cannabis-Haferkekse sind natürlich mit Ahornsirup gesüßt und mit Cannabis-Kokosöl infundiert – ein vollwertiges Edible zum Naschen.",
+    "intro_unique": "Diese weichen veganen Haferkekse sind natürlich mit Ahornsirup gesüßt und mit Cannabis-infundiertem Kokosöl gemacht – ein vollwertiges Edible zum Naschen.",
     "dosing_unique": "Das Cannabis-Kokosöl wird geschmolzen und mit den feuchten Zutaten vermischt, damit jeder Keks die gleiche Dosis enthält.",
     "storage_unique": "Luftdicht verpackt bei Raumtemperatur bis zu 5 Tage aufbewahren oder bis zu 3 Monate einfrieren.",
     "variation_unique": "Ersetze die Rosinen durch Zartbitter-Schokotropfen, oder gib Kokosraspeln und getrocknete Cranberries dazu.",
-    "unique_src": "71a390774cd781e4460137a67459beea83c685fb"
+    "unique_src": "2ec484b4d4c0dd26d3ac6bdf74c43cc9d23b8d34",
+    "faq_unique": [
+      {
+        "q": "Kann ich diese Haferkekse mit Cannabutter backen?",
+        "a": "Ja. ⅓ Tasse unserer Cannabutter hat die gleiche Stärke wie ⅓ Tasse unseres infundierten Kokosöls, die Dosis bleibt also gleich; die Kekse sind dann aber nicht mehr vegan."
+      },
+      {
+        "q": "Wie groß sollte jeder Keks sein?",
+        "a": "Teile den Teig in 16 gleich große Kugeln; ein Keks ist eine Portion mit etwa 15 mg. Beim ersten Mal iss ein Drittel und warte 2 Stunden."
+      },
+      {
+        "q": "Kann ich zarte Haferflocken nehmen?",
+        "a": "Ja. Zarte Haferflocken ergeben einen weicheren, weniger bissfesten Keks als kernige. Die Dosis ändert sich nicht."
+      }
+    ],
+    "faq_src": "d4f6f424c329aca0a03fc0583a17e8e99b04dc6d"
   },
   "cannabis-vegan-mushroom-stroganoff": {
     "name": "Cannabis Veganes Pilz-Stroganoff",

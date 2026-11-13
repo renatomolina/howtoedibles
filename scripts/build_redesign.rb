@@ -604,7 +604,9 @@ def build_recipe_page(recipe, lang)
   intro = "#{ip.(tmpl["intro"] || "", vars.merge("name" => lang == "de" ? name : name.downcase))} #{own.("intro_unique").first}".strip
   tips = list.("dosing_tips", "dosing_unique")
   accs = [["common_mistakes", list.("common_mistakes")], ["storage", list.("storage", "storage_unique")], ["variations", list.("variations", "variation_unique")]].reject { |_, l| l.empty? }
-  faqs = (tmpl["faq"] || []).map { |f| [ip.(f["q"]), ip.(f["a"])] }
+  # #116: the recipe's own questions first (plain text, no template vars), then the template's
+  own_faq = lang == "en" ? enrich["faq_unique"] : recipe_t(lang, slug, "faq_unique")
+  faqs = (own_faq || []).map { |f| [f["q"], f["a"]] } + (tmpl["faq"] || []).map { |f| [ip.(f["q"]), ip.(f["a"])] }
   ul = ->(l) { %(<ul class="tips">#{l.map { |x| "<li>#{x}</li>" }.join}</ul>) }
   pm = %(<span class="pm">#{ICON[:plus]}</span>)
 

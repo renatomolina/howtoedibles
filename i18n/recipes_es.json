@@ -20,7 +20,22 @@
     "dosing_unique": "Una porción es 1 cucharadita, unos 15 mg con 14% de THC; 1 cucharada son 3 porciones. Etiqueta el frasco con los mg por cucharadita.",
     "storage_unique": "Guárdala en un frasco de vidrio cerrado en el refrigerador hasta 3 semanas, o congélala en moldes de silicona hasta 6 meses.",
     "variation_unique": "Usa mantequilla cultivada estilo europeo, con mayor contenido de grasa, para un sabor más rico y posiblemente una mejor extracción de THC.",
-    "unique_src": "9f68b019cc3995a1024a0b9c2f18420f45256881"
+    "unique_src": "9f68b019cc3995a1024a0b9c2f18420f45256881",
+    "faq_unique": [
+      {
+        "q": "¿Cuál es la proporción de la mantequilla de cannabis?",
+        "a": "Esta receta usa 6,4 g de flor descarboxilada por taza (2 barras) de mantequilla. Con 14% de THC, eso da unos 15 mg por cucharadita. Todas las recetas del sitio parten de esta proporción; para una mantequilla más fuerte o más suave, cambia los gramos en la calculadora de arriba."
+      },
+      {
+        "q": "¿Cuánta mantequilla de cannabis es una dosis?",
+        "a": "Una cucharadita de esta tanda es una porción, unos 15 mg; una cucharada son 3 porciones. ¿Eres nuevo con los comestibles? Empieza con ⅓ de cucharadita (unos 5 mg) y espera 2 horas antes de comer más."
+      },
+      {
+        "q": "¿Puedo usar ghee para hacer mantequilla de cannabis?",
+        "a": "Sí: la receta de ghee infusionado del sitio hace exactamente eso. El ghee no tiene agua ni sólidos lácteos, así que no se agrega agua y el fuego se mantiene muy bajo. Lleva menos flor por taza, así que revisa su propia dosis por cucharadita."
+      }
+    ],
+    "faq_src": "917550b5d7ba99591f678c3da26be5c756ab8d74"
   },
   "infused-coconut-oil": {
     "name": "Aceite de Coco Infusionado",
@@ -42,7 +57,22 @@
     "dosing_unique": "Una porción es 1 cucharadita, unos 15 mg con 14% de THC; 1 cucharada son 3 porciones. Viértelo en cubiteras en porciones de 1 cucharadita y etiquétalas con los mg por cucharadita.",
     "storage_unique": "El aceite de coco se conserva estable a temperatura ambiente hasta 3 meses; refrigéralo para guardarlo más tiempo, hasta 6 meses.",
     "variation_unique": "Usa aceite de coco refinado para un sabor neutro en recetas donde no quieras sabor a coco.",
-    "unique_src": "afc12623dfdb72b27e69ff0dc10352ff50b5daf3"
+    "unique_src": "afc12623dfdb72b27e69ff0dc10352ff50b5daf3",
+    "faq_unique": [
+      {
+        "q": "¿Cuánto THC tiene una cucharadita de este aceite?",
+        "a": "Unos 15 mg: 3,2 g de flor al 14% en ½ taza de aceite. Una cucharada es 3 veces eso, así que mide en cucharaditas."
+      },
+      {
+        "q": "Mi aceite se solidificó. ¿Perdió potencia?",
+        "a": "No. El aceite de coco se endurece cuando está fresco. Derrítelo con suavidad en agua tibia y revuélvelo antes de medir, para que cada medida tenga la misma dosis."
+      },
+      {
+        "q": "¿Puedo usarlo en lugar de la mantequilla de cannabis?",
+        "a": "Sí. Las dos bases del sitio tienen 6,4 g de flor por taza, así que, cucharada por cucharada, la dosis es la misma. Usa el aceite en recetas veganas o sin lácteos, como los ositos de goma y los brownies veganos."
+      }
+    ],
+    "faq_src": "ee573ed5a95dccab102352fcefecd686047b20ce"
   },
   "infused-olive-oil": {
     "name": "Aceite de Oliva Infusionado",
@@ -65,7 +95,22 @@
     "dosing_unique": "Una porción es 1 cucharadita, unos 15 mg con 14% de THC; 1 cucharada son 3 porciones. Etiqueta la botella con los mg por cucharadita.",
     "storage_unique": "Guárdalo en una botella de vidrio oscuro en una alacena fresca hasta 3 meses; el aceite de oliva resiste el enranciamiento mejor que la mantequilla.",
     "variation_unique": "Para un aceite saborizado de acabado, añade romero seco y ajo seco durante la infusión. Nunca guardes aceite con ajo fresco o hierbas frescas a temperatura ambiente (riesgo de botulismo); si usas aromáticos frescos, refrigéralo y úsalo en un plazo de 4 días.",
-    "unique_src": "daa9406e2bba1b05b04543f4758ae8e52fb0a585"
+    "unique_src": "daa9406e2bba1b05b04543f4758ae8e52fb0a585",
+    "faq_unique": [
+      {
+        "q": "¿Cuánto THC tiene una cucharadita de este aceite?",
+        "a": "Unos 15 mg: 8 g de flor al 14% en 300 ml de aceite de oliva. Una cucharada es 3 veces eso, así que mide en cucharaditas."
+      },
+      {
+        "q": "¿Puedo cocinar o freír con aceite de oliva infusionado?",
+        "a": "Úsalo sobre todo para terminar platos (aderezos, salsas, un chorrito sobre el plato) o para cocinar a fuego suave. La dosis de cada porción depende de cuánto aceite va en el plato, así que mídelo."
+      },
+      {
+        "q": "¿Aceite de oliva extra virgen o normal?",
+        "a": "Los dos se infusionan igual. El extra virgen da más sabor para terminar platos; el aceite de oliva normal tiene un sabor más neutro."
+      }
+    ],
+    "faq_src": "7cb3424522a53cf1963659f852d488c2f26501a5"
   },
   "infused-bulletproof-coffee": {
     "name": "Café Bulletproof Infusionado",
@@ -144,7 +189,22 @@
     "dosing_unique": "Viértelas en moldes de silicona para dulces con una pipeta medida o una cucharita para que cada bomba de grasa tenga una dosis idéntica.",
     "storage_unique": "Guárdalas en el congelador hasta 3 meses; mantenlas congeladas, ya que se derriten rápido a temperatura ambiente.",
     "variation_unique": "Añade una capa de chocolate amargo sin azúcar encima de cada bomba de grasa para un bocado inspirado en la barra Bounty.",
-    "unique_src": "e435fa245e987acc1a6a084f70d31eb0a5c56fe6"
+    "unique_src": "e435fa245e987acc1a6a084f70d31eb0a5c56fe6",
+    "faq_unique": [
+      {
+        "q": "¿Cuántas bombas de grasa puedo comer?",
+        "a": "Una es una porción, unos 7,5 mg. La primera vez, come una y espera 2 horas antes de pensar en otra. Dos a la vez son unos 15 mg, lo máximo que el sitio da en una porción."
+      },
+      {
+        "q": "¿Por qué derretir la mantequilla de coco?",
+        "a": "Es sólida a temperatura ambiente. Derrítela con los aceites de coco antes de mezclar, o la mezcla queda grumosa y cada pieza termina con una dosis distinta."
+      },
+      {
+        "q": "¿Por qué se derritieron mis bombas de grasa?",
+        "a": "Son casi todo aceite de coco, que se ablanda con el calor. Sácalas del congelador justo antes de comerlas."
+      }
+    ],
+    "faq_src": "4d21c94f39a7d9c53f92270a70aa377ad3956c50"
   },
   "infused-pesto-pasta": {
     "name": "Pasta al Pesto Infusionada",
@@ -258,7 +318,22 @@
     "dosing_unique": "Mezcla toda la hierba descarboxilada con la crema antes de repartirla por igual entre los 6 firecrackers; un firecracker es una porción.",
     "storage_unique": "Envuelve cada fire cracker por separado en papel aluminio y guárdalos a temperatura ambiente hasta 3 días.",
     "variation_unique": "Usa mantequilla de maní en lugar de crema de avellanas y añade una pizca de sal de mar para una versión dulce y salada.",
-    "unique_src": "2bd6e4768953a66c216a6c7de4fdc2312a11421e"
+    "unique_src": "2bd6e4768953a66c216a6c7de4fdc2312a11421e",
+    "faq_unique": [
+      {
+        "q": "¿Tengo que descarboxilar la marihuana para los firecrackers?",
+        "a": "Sí. La flor cruda es sobre todo THCA, que no produce efecto psicoactivo. Esta receta primero la descarboxila a 240°F (115°C); los 15 minutos a 300°F solo calientan el sándwich."
+      },
+      {
+        "q": "¿Qué tan fuerte es un firecracker?",
+        "a": "0,8 g de flor al 14% repartidos en 6 firecrackers dan unos 15 mg cada uno. La primera vez, come un tercio de uno (unos 5 mg) y espera 2 horas antes de comer más: los comestibles tardan en hacer efecto."
+      },
+      {
+        "q": "¿Nutella o mantequilla de maní?",
+        "a": "Cualquiera de las dos. Ambas son cremas grasas que transportan el THC, y la dosis viene de los 0,8 g de flor, no de la crema. Mezcla toda la flor con toda la crema antes de repartirla."
+      }
+    ],
+    "faq_src": "770ceb200ce5b97819c6508b73d99e32d304da5d"
   },
   "infused-lemonade": {
     "name": "Limonada Infusionada",
@@ -371,7 +446,22 @@
     "dosing_unique": "Usa una cuchara para galletas pequeña para porcionar la mezcla fría, de modo que cada trufa tenga una cantidad idéntica de aceite de coco infusionado.",
     "storage_unique": "Acomoda las trufas entre hojas de papel encerado en un recipiente hermético y refrigéralas hasta 2 semanas.",
     "variation_unique": "Reboza las trufas terminadas en matcha en polvo, frambuesas liofilizadas trituradas o coco tostado para perfiles de sabor distintos.",
-    "unique_src": "74d6b934b9fa59b4deaa8188b7c9d5a90a3e1d6d"
+    "unique_src": "74d6b934b9fa59b4deaa8188b7c9d5a90a3e1d6d",
+    "faq_unique": [
+      {
+        "q": "¿Cuántas trufas de marihuana salen y qué tan fuerte es cada una?",
+        "a": "Forma 20 trufas iguales; una trufa es una porción, unos 12 mg con 14% de THC. La primera vez, come un tercio de una y espera 2 horas."
+      },
+      {
+        "q": "¿Puedo usar mantequilla de cannabis en lugar de aceite de coco infusionado?",
+        "a": "Sí. Las dos bases del sitio tienen la misma potencia por taza, así que la dosis no cambia. Las trufas saben a mantequilla y ya no son sin lácteos."
+      },
+      {
+        "q": "¿Por qué se me derriten las trufas en la mano?",
+        "a": "Están hechas con aceite de coco, que se ablanda con el calor de las manos. Fórmalas rápido con las manos frías o con un sacabolas, y sírvelas recién salidas del refrigerador."
+      }
+    ],
+    "faq_src": "b1935ea969f90f5206cedf3676409dc9a46f31f0"
   },
   "infused-banana-bread": {
     "name": "Pan de Banana Infusionado",
@@ -402,7 +492,22 @@
     "dosing_unique": "Corta el pan en 10 rebanadas iguales y etiqueta cada una con la dosis por rebanada para evitar el consumo excesivo.",
     "storage_unique": "Envuelve las rebanadas una por una en papel pergamino y congélalas hasta 3 meses; descongélalas a temperatura ambiente durante 20 minutos antes de comer.",
     "variation_unique": "Incorpora chispas de chocolate amargo y nueces para un sabor más rico que combina especialmente bien con las notas del cannabis.",
-    "unique_src": "39c1dc76af8c9a6bcf531c13c23ed0e0710594d4"
+    "unique_src": "39c1dc76af8c9a6bcf531c13c23ed0e0710594d4",
+    "faq_unique": [
+      {
+        "q": "¿Qué tan fuerte es una rebanada?",
+        "a": "Unos 13 mg de THC: 3 cucharadas de la mantequilla de cannabis del sitio en un pan cortado en 10 rebanadas iguales. La primera vez, come un tercio de rebanada y espera 2 horas."
+      },
+      {
+        "q": "¿Cómo sé si el centro está cocido?",
+        "a": "Inserta un palillo largo en el centro: debe salir con algunas migas húmedas pero sin masa cruda. Si la superficie se dora antes, cúbrela sin apretar con papel aluminio y sigue horneando."
+      },
+      {
+        "q": "¿Es la variedad Banana Bread?",
+        "a": "No. Es un pan de banana casero hecho con mantequilla de cannabis; su potencia depende de tu mantequilla, no del nombre de una variedad."
+      }
+    ],
+    "faq_src": "6be631707f446cfc5341e56c57ce5b3bfa7b743d"
   },
   "infused-keto-cheesecake-bites": {
     "name": "Bocaditos de Cheesecake Keto Infusionados",
@@ -496,7 +601,22 @@
     "dosing_unique": "Usa leche entera para el mayor contenido de grasa y la mejor extracción; mide las porciones en medias tazas con la potencia etiquetada.",
     "storage_unique": "Refrigérala y úsala en un plazo de 5 días, la misma vida útil que la leche común; agítala antes de cada uso.",
     "variation_unique": "Usa crema para batir en lugar de leche para una infusión más rica, con mayor contenido de grasa y una sensación en boca más cremosa.",
-    "unique_src": "66dbfe7a1434b20f0e3a62de8818f1c8f80ccb34"
+    "unique_src": "66dbfe7a1434b20f0e3a62de8818f1c8f80ccb34",
+    "faq_unique": [
+      {
+        "q": "¿Se puede infusionar leche con THC?",
+        "a": "Sí. El THC se une a la grasa, así que usa leche entera o crema. La leche descremada o la de almendra tienen menos grasa, y la dosis real queda por debajo de la calculada."
+      },
+      {
+        "q": "¿Cuánto THC tiene media taza?",
+        "a": "Con 1 g de flor al 14% por litro, unos 14 mg en ½ taza (125 ml). La primera vez, bebe un tercio de eso y espera 2 horas."
+      },
+      {
+        "q": "¿Por qué agitarla antes de cada uso?",
+        "a": "La grasa, que lleva el THC, sube a la superficie en el refrigerador. Agítala bien para que cada vez que sirvas tenga la misma dosis."
+      }
+    ],
+    "faq_src": "f9b2f9bebb027851e2f449387c38bf7a49ef6a41"
   },
   "infused-coconut-curry": {
     "name": "Curry de Coco Infusionado",
@@ -557,7 +677,22 @@
     "dosing_unique": "Calcula el THC total de tu aceite de coco infusionado, divídelo entre el número de cavidades del molde y vierte la mezcla con pipeta con precisión en cada una.",
     "storage_unique": "Cubre las gomitas terminadas con una capa ligera de fécula de maíz y guárdalas en el refrigerador hasta 3 semanas para que no se peguen.",
     "variation_unique": "Usa jugo de cereza ácida en lugar de gelatina de sabor para una gomita ácida natural con sabor a fruta real y antioxidantes.",
-    "unique_src": "aa832615530d9ebbd1c5bcd7f1f01ab1f3913c53"
+    "unique_src": "aa832615530d9ebbd1c5bcd7f1f01ab1f3913c53",
+    "faq_unique": [
+      {
+        "q": "¿Cómo se hacen gomitas de marihuana?",
+        "a": "Primero prepara el aceite de coco infusionado del sitio; luego hidrata la gelatina en agua fría, disuélvela a fuego bajo e incorpora con el batidor el aceite derretido junto con la lecitina antes de llenar los moldes. La lecitina mantiene el aceite mezclado con la gelatina."
+      },
+      {
+        "q": "¿Cuántos mg tiene cada osito de goma?",
+        "a": "Unos 3,7 mg por osito con 14% de THC: ¼ de taza del aceite de coco infusionado del sitio repartido en 48 ositos. Una porción son 3 ositos, unos 11 mg. Llena las 48 cavidades; si sobra mezcla, cada osito lleva menos."
+      },
+      {
+        "q": "¿Puedo hacerlos más fuertes?",
+        "a": "No agregando más aceite: por encima de esta cantidad no se mantiene mezclado con la gelatina. Mejor prepara un aceite de coco infusionado más fuerte (con más flor en la base) e ingresa los nuevos gramos en la calculadora."
+      }
+    ],
+    "faq_src": "18bdd6966556173e53bb7ae04a62ecb17b05247b"
   },
   "infused-spaghetti-bolognese": {
     "name": "Espagueti a la Boloñesa Infusionado",
@@ -627,7 +762,22 @@
     "dosing_unique": "Usa una cuchara para masa del tamaño de una cucharada y pesa cada bolita en una báscula de cocina para garantizar una dosis uniforme en toda la tanda.",
     "storage_unique": "Guárdalas en un frasco cerrado a temperatura ambiente hasta 5 días, o congela las galletas horneadas en una bolsa con cierre durante 2 meses.",
     "variation_unique": "Cambia las chispas de chocolate por chispas de mantequilla de maní y añade una pizca de sal de mar encima antes de hornear para un toque dulce y salado.",
-    "unique_src": "5e786e584c0215c68fd10a1b6e2adc34f33b04b7"
+    "unique_src": "5e786e584c0215c68fd10a1b6e2adc34f33b04b7",
+    "faq_unique": [
+      {
+        "q": "¿Cuántas galletas salen y qué tan fuerte es cada una?",
+        "a": "Divide la masa en 20 bolitas iguales; una galleta es una porción, unos 12 mg con 14% de THC, a partir de ⅓ de taza de la mantequilla de cannabis del sitio. La primera vez, come un tercio de galleta y espera 2 horas."
+      },
+      {
+        "q": "¿Por qué derretir la mantequilla de cannabis con la mantequilla normal?",
+        "a": "Cuando las dos grasas se derriten juntas, el THC se reparte por toda la mantequilla antes de encontrarse con el azúcar, así cada bolita de masa recibe la misma parte."
+      },
+      {
+        "q": "Mis galletas quedaron planas o secas. ¿Qué salió mal?",
+        "a": "Normalmente, demasiada harina o demasiado tiempo en el horno. Pon la harina en la taza con una cuchara y nivélala, y saca las galletas cuando el centro todavía se vea suave; terminan de cuajar al enfriarse."
+      }
+    ],
+    "faq_src": "18cb7564674b532a629fae7046d10ee08e6deac8"
   },
   "pot-brownies": {
     "name": "Brownies de Cannabis",
@@ -657,7 +807,22 @@
     "dosing_unique": "Marca cuadros iguales en la plancha de brownie inmediatamente después de sacarla del horno, mientras la superficie todavía está suave.",
     "storage_unique": "Guarda los brownies en un recipiente cerrado a temperatura ambiente durante 4 días, o envuélvelos uno por uno y congélalos hasta 3 meses.",
     "variation_unique": "Haz un remolino de masa de queso crema antes de hornear para crear un híbrido marmoleado de cheesecake y brownie.",
-    "unique_src": "6951b15ac0702ba0b46e94ef7f0b76618e9df410"
+    "unique_src": "6951b15ac0702ba0b46e94ef7f0b76618e9df410",
+    "faq_unique": [
+      {
+        "q": "¿Cuánta marihuana necesito para un molde de brownies de marihuana?",
+        "a": "Este molde lleva ⅓ de taza de la mantequilla de cannabis del sitio, que contiene unos 2,1 g de flor. Con 14% de THC, eso da unos 15 mg en cada uno de los 16 cuadros. Cambia los gramos o el % de THC en la calculadora de arriba y todos los números se actualizan."
+      },
+      {
+        "q": "¿Puedo hacerlos más fuertes?",
+        "a": "Usa más mantequilla de cannabis en lugar de la mantequilla normal, hasta reemplazarla toda, y revisa los nuevos mg por cuadro en la calculadora. Un cuadro de más de 15 mg es mucho para la mayoría de las personas; mejor corta piezas más pequeñas."
+      },
+      {
+        "q": "¿Por qué mis brownies salen poco potentes o disparejos?",
+        "a": "Normalmente porque la mantequilla de cannabis no se derritió ni se incorporó por completo, o porque los cuadros no se cortaron iguales. Derrítela junto con la mantequilla normal, mézclala por completo con el azúcar, deja enfriar el molde y córtalo en una cuadrícula de 4 × 4."
+      }
+    ],
+    "faq_src": "2ae02a6267bf3b33386c2cc9e36a8fd67a91e1e9"
   },
   "infused-grilled-cheese": {
     "name": "Sándwich de Queso a la Plancha Infusionado",
@@ -768,7 +933,22 @@
     "dosing_unique": "Mide la miel por cucharaditas y anota los mg por cucharadita en la etiqueta del frasco para saber siempre cuánto consumes.",
     "storage_unique": "Guárdala en un frasco de vidrio oscuro cerrado en una alacena fresca hasta 3 meses (es el aceite de coco, no la miel, lo que limita su vida útil); revuélvela antes de cada uso.",
     "variation_unique": "Añade una cucharadita de lavanda seca o romero seco al frasco durante la infusión para un sabor herbal que complementa al cannabis; evita las hierbas frescas, que aportan humedad.",
-    "unique_src": "9fa59d80b3fbb9998e2aee756738f8e3fdf46228"
+    "unique_src": "9fa59d80b3fbb9998e2aee756738f8e3fdf46228",
+    "faq_unique": [
+      {
+        "q": "¿Cómo se infusiona miel con marihuana?",
+        "a": "El THC se disuelve en grasa, no en miel, así que esta receta primero infusiona la flor en aceite de coco y luego mezcla el aceite con miel tibia y lecitina. Así el THC queda repartido por todo el frasco."
+      },
+      {
+        "q": "¿Cuánto THC tiene una cucharadita?",
+        "a": "Unos 5 mg por cucharadita con 14% de THC. Una porción de 15 mg son unas 3 cucharaditas; la primera vez, toma 1 cucharadita y espera 2 horas."
+      },
+      {
+        "q": "El aceite subió a la superficie y se endureció. ¿Y ahora qué?",
+        "a": "Calienta el frasco en agua caliente hasta que el aceite se derrita y revuelve hasta que quede uniforme antes de medir. Si no, la primera cucharada es mucho más fuerte que el resto."
+      }
+    ],
+    "faq_src": "cb1acdee515f80a4970f4d2d794ac7df55b34de0"
   },
   "infused-whiskey": {
     "name": "Whiskey Infusionado",
@@ -788,7 +968,22 @@
     "dosing_unique": "Empieza con una medida de media onza, ya que la combinación de alcohol y THC intensifica de manera significativa ambos efectos.",
     "storage_unique": "Guárdalo en una botella de vidrio oscuro, lejos de la luz solar y el calor; se conserva un año o más, aunque la potencia disminuye poco a poco con el tiempo.",
     "variation_unique": "Usa un bourbon ahumado y añade una rama de canela durante la infusión para un destilado de invierno cálido y especiado.",
-    "unique_src": "a1624412f9c75746e0c012a610e49651f7133bd3"
+    "unique_src": "a1624412f9c75746e0c012a610e49651f7133bd3",
+    "faq_unique": [
+      {
+        "q": "¿Cuánto THC tiene un trago de ½ onza?",
+        "a": "Unos 15 mg por ½ onza (15 ml): 6,6 g de flor al 14% en una botella de 750 ml. La primera vez, toma una cucharadita y espera 2 horas antes de beber más de cualquier bebida alcohólica."
+      },
+      {
+        "q": "¿Dejarlo más tiempo en infusión lo hace más fuerte?",
+        "a": "Puede extraer un poco más, hasta lo que contiene la flor. El número de la página es lo máximo que debes esperar, así que no cuentes con más."
+      },
+      {
+        "q": "¿Tengo que descarboxilar la marihuana?",
+        "a": "Sí. El alcohol no calienta la flor, y sin descarboxilar el THC se queda en su forma ácida, que no tiene efecto."
+      }
+    ],
+    "faq_src": "ed840806166f94102f4bd5717f08f3fd0485d62d"
   },
   "infused-chai": {
     "name": "Chai Infusionado",
@@ -885,7 +1080,22 @@
     "dosing_unique": "Una porción es 1 cucharadita. 1 taza de mantequilla da unos ¾ de taza de ghee (36 cucharaditas), unos 11 mg cada una con 14% de THC; etiqueta el frasco con los mg por cucharadita.",
     "storage_unique": "Refrigéralo en un frasco cerrado hasta 3 meses; su bajo contenido de humedad ayuda a conservarlo, pero el ghee infusionado se mantiene más fresco en frío.",
     "variation_unique": "Infusiónalo con cúrcuma y pimienta negra durante la preparación para obtener un ghee dorado con propiedades antiinflamatorias.",
-    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9"
+    "unique_src": "f2cd751d3cb7f793d96bcbcddd2ecf21eec132a9",
+    "faq_unique": [
+      {
+        "q": "¿Puedo usar ghee en lugar de mantequilla para hacer mantequilla de cannabis?",
+        "a": "Sí, esa es esta receta. El ghee es mantequilla sin el agua ni los sólidos lácteos, y retiene el THC igual de bien. Mantén el fuego muy bajo: sin agua en la olla, se calienta más que la mantequilla."
+      },
+      {
+        "q": "¿Por qué es menos potente que la mantequilla de cannabis del sitio?",
+        "a": "Lleva 3,5 g de flor por taza de mantequilla, y esa taza se reduce a unos ¾ de taza de ghee: unos 11 mg por cucharadita, frente a 15 mg de la mantequilla de cannabis. Está pensado para usarse por cucharadas en platos salados, como el dal de lentejas."
+      },
+      {
+        "q": "¿Agrego la flor antes o después de clarificar?",
+        "a": "Después. Deja que la mantequilla se clarifique hasta que deje de chisporrotear, baja el fuego y solo entonces agrega la flor, para que no quede junto a los sólidos lácteos que se doran en el fondo."
+      }
+    ],
+    "faq_src": "888ddd9af112ab48c84d8ece213c9a5c8067f591"
   },
   "infused-condensed-milk": {
     "name": "Leche Condensada Infusionada",
@@ -935,7 +1145,22 @@
     "dosing_unique": "Calienta las dos leches juntas y bate bien, luego reparte por igual en 2 tazas; cada taza es una porción.",
     "storage_unique": "Se sirve mejor recién hecho; el chocolate caliente sobrante puede refrigerarse y recalentarse suavemente al día siguiente.",
     "variation_unique": "Corónalo con malvaviscos normales y una pizca de canela; evita las coberturas infusionadas, que se suman a la dosis que ya tiene la leche.",
-    "unique_src": "59b568018b7b4abcb9901f09ece4f7bf3cec3971"
+    "unique_src": "59b568018b7b4abcb9901f09ece4f7bf3cec3971",
+    "faq_unique": [
+      {
+        "q": "¿Cuántas tazas de chocolate rinde una taza de leche infusionada?",
+        "a": "Dos. La receta mezcla 1 taza de leche infusionada con 1 taza de leche normal y la reparte entre 2 tazas para servir, unos 13 mg cada una. Si pones una taza entera de leche infusionada en una sola taza, duplicas la dosis."
+      },
+      {
+        "q": "¿Puedo usar tintura de cannabis en lugar de leche infusionada?",
+        "a": "La dosis de esta página solo es correcta con la leche infusionada del sitio. Si usas tintura, usa la receta de tintura del sitio y la calculadora para calcular cuánta va en cada taza, y no la agregues además de la leche infusionada."
+      },
+      {
+        "q": "¿Cómo evito los grumos de cacao?",
+        "a": "Primero bate el cacao y el azúcar con un poco de la leche tibia hasta formar una pasta; luego incorpora el resto de la leche batiendo."
+      }
+    ],
+    "faq_src": "eda87d2dc2590ca3e88d22eaf402d5d6124c0b50"
   },
   "infused-cold-brew": {
     "name": "Cold Brew Infusionado",
@@ -986,7 +1211,22 @@
     "dosing_unique": "Presiona la mezcla en un molde forrado de medidas conocidas y córtala en una cuadrícula de piezas iguales para una dosis constante.",
     "storage_unique": "Envuelve cada cuadro por separado en plástico adherente y guárdalos a temperatura ambiente hasta 3 días.",
     "variation_unique": "Añade un puñado de mini M&M's o rocía chocolate amargo derretido por encima para hacerlas aún más irresistibles.",
-    "unique_src": "be0842a15891c8e2b1f05f92610be71cd3b37321"
+    "unique_src": "be0842a15891c8e2b1f05f92610be71cd3b37321",
+    "faq_unique": [
+      {
+        "q": "Rice Krispie treats o rice crispy treats: ¿es la misma receta?",
+        "a": "Sí. \"Rice crispy treats\" es otra forma de escribir las mismas barras sin horno: mantequilla derretida y malvaviscos mezclados con cereal de arroz inflado. Sirve cualquier marca de cereal de arroz inflado, y la dosis no cambia."
+      },
+      {
+        "q": "¿Puedo usar aceite de coco infusionado en lugar de mantequilla de cannabis?",
+        "a": "Sí. Usa 3 cucharadas del aceite de coco infusionado del sitio; tiene la misma potencia por cucharada que su mantequilla de cannabis, así que cada cuadro sigue teniendo unos 11 mg."
+      },
+      {
+        "q": "¿Cómo obtengo 12 dosis iguales?",
+        "a": "Presiona la mezcla con un grosor parejo en el molde de 9×13, déjala cuajar y córtala en una cuadrícula de 3 × 4. Pesar los cuadros es la forma más precisa."
+      }
+    ],
+    "faq_src": "dff77c9814ce14f5eb8f99c76ab16eeabcf6a57d"
   },
   "cannabis-caramel-sauce": {
     "name": "Salsa de Caramelo de Cannabis",
@@ -1178,7 +1418,22 @@
     "dosing_unique": "Corta la plancha de brownie en cuadros iguales con una espátula de panadero y etiqueta cada pieza con su dosis para compartir de forma segura.",
     "storage_unique": "Guárdalos en un recipiente hermético a temperatura ambiente durante 3 días, o envuélvelos uno por uno y congélalos durante 2 meses.",
     "variation_unique": "Añade un remolino de mantequilla de almendra por encima antes de hornear para un brownie vegano marmoleado y con sabor a nuez.",
-    "unique_src": "8dab8a57afebb2e1735a5eaa5e3ca2da8372b024"
+    "unique_src": "8dab8a57afebb2e1735a5eaa5e3ca2da8372b024",
+    "faq_unique": [
+      {
+        "q": "¿Tengo que derretir el aceite de coco?",
+        "a": "Sí. El aceite de coco es sólido a temperatura ambiente; derrite juntos el aceite infusionado y el normal para que el THC se reparta por toda la grasa antes de agregar el azúcar."
+      },
+      {
+        "q": "¿Cómo corto 16 dosis iguales?",
+        "a": "Deja enfriar el molde por completo y córtalo en una cuadrícula de 4 × 4. Cada cuadro es una porción de unos 15 mg; la primera vez, come un tercio de cuadro y espera 2 horas."
+      },
+      {
+        "q": "¿Puedo usar mantequilla de cannabis?",
+        "a": "Sí, pero dejan de ser veganos. ⅓ de taza de la mantequilla de cannabis del sitio tiene la misma potencia que ⅓ de taza de su aceite de coco infusionado, así que la dosis no cambia."
+      }
+    ],
+    "faq_src": "cd323a7d566e150a99b0a51812d921b295ba07ce"
   },
   "infused-vegan-cheese-sauce": {
     "name": "Salsa de Queso Vegano Infusionada",
@@ -1838,11 +2093,26 @@
       "Agrega hielo, jugo de lima y la mezcla de miel.",
       "Completa con agua mineral. Decora con lima."
     ],
-    "intro_unique": "Un Mojito Virgen Infusionado machaca menta fresca y limón con jarabe simple de cannabis y agua mineral para un mocktail fresco y herbal.",
-    "dosing_unique": "Mide el jarabe simple de cannabis con una cucharada después de machacar la menta y el limón, para que cada vaso reciba la misma dosis.",
+    "intro_unique": "Un mojito virgen infusionado machaca menta fresca y lima con miel infusionada y agua mineral con gas, para una bebida sin alcohol fresca y herbal.",
+    "dosing_unique": "Mide exactamente las 2 cucharaditas de miel infusionada y disuélvelas antes de agregar la lima; el vaso entero es una porción.",
     "storage_unique": "Prepáralo y sírvelo de inmediato; la menta se marchita y el agua mineral pierde el gas si se deja reposar.",
     "variation_unique": "Machaca trozos de sandía fresca junto con la menta para un mojito virgen de sandía con un color rosa natural.",
-    "unique_src": "7fa4e6d2cb7e5872f454b5b6b134c0ed88aef8e0"
+    "unique_src": "0f17a044476b3cd1eaeeee37ebcb43b2b8d5fee4",
+    "faq_unique": [
+      {
+        "q": "¿Puedo agregarle ron?",
+        "a": "Puedes, pero el alcohol y el cannabis juntos pegan mucho más fuerte que cada uno por separado. Toma una bebida y espera al menos 2 horas antes de otra; si eres principiante, bebe medio vaso."
+      },
+      {
+        "q": "¿Por qué se disuelve la miel en agua tibia?",
+        "a": "La miel fría no se mezcla con la lima helada y se queda en el fondo del vaso, y la dosis con ella. Disuelta primero, se reparte. Revuelve antes de beber, porque el aceite de coco de la miel se endurece con el hielo."
+      },
+      {
+        "q": "¿Puedo preparar una jarra?",
+        "a": "Machaca la menta y la lima en la jarra, pero agrega las 2 cucharaditas de miel infusionada directamente en cada vaso. Así cada vaso tiene una porción conocida."
+      }
+    ],
+    "faq_src": "a2d5b92a71c376d186e97e6c9521409acf9d075f"
   },
   "cannabis-cucumber-mint-cooler": {
     "name": "Refresco de Pepino y Menta con Cannabis",
@@ -1862,11 +2132,26 @@
       "Agitar con hielo y colar.",
       "Completar con agua con gas."
     ],
-    "intro_unique": "Un Refresco de Pepino y Menta con Cannabis machaca pepino fresco y menta con jarabe simple de cannabis, para un mocktail relajante digno de spa.",
-    "dosing_unique": "Mide el jarabe simple de cannabis con una cucharada antes de machacar, así el vaso recibe una dosis exacta.",
+    "intro_unique": "Un refresco de pepino y menta con cannabis machaca pepino fresco y menta fresca con miel infusionada y limón, para una bebida sin alcohol digna de spa.",
+    "dosing_unique": "Mide exactamente las 2 cucharaditas de miel infusionada y disuélvelas antes de machacar; el vaso entero es una porción.",
     "storage_unique": "Refrigera la base machacada de pepino y menta sin el jarabe de cannabis hasta 24 horas; añade el jarabe y el hielo al servir.",
     "variation_unique": "Añade unas rodajas de jalapeño fresco para un refresco de pepino picante con un toque sorprendente.",
-    "unique_src": "9446c6b3c0d11efd6be4a61a4120767a086a5984"
+    "unique_src": "fc0598d3af4b07126560968442e61b598f30e252",
+    "faq_unique": [
+      {
+        "q": "¿Por qué disolver primero la miel infusionada en agua tibia?",
+        "a": "El jugo de limón frío y el hielo espesan la miel, y se va al fondo junto con la dosis. Si primero la disuelves en 2 cucharadas de agua tibia, se reparte por toda la bebida. Revuelve antes de cada sorbo, porque el aceite de coco de la miel se endurece con el frío."
+      },
+      {
+        "q": "¿Puedo preparar una jarra para una fiesta?",
+        "a": "Machaca el pepino y la menta con anticipación, pero agrega la miel infusionada vaso por vaso: 2 cucharaditas por vaso son una porción. Una jarra compartida no puede dar a cada vaso la misma dosis."
+      },
+      {
+        "q": "¿Puedo usar otra base de cannabis?",
+        "a": "No en la misma cantidad. Cada base del sitio tiene una potencia distinta, y esta dosis solo es correcta para 2 cucharaditas de la miel infusionada del sitio."
+      }
+    ],
+    "faq_src": "ee7505ed32abc958aadf3f1279febc34e1bf6951"
   },
   "infused-watermelon-slush": {
     "name": "Granizado de Sandía Infusionado",
@@ -2272,7 +2557,22 @@
     "dosing_unique": "Corta el cheesecake en 12 porciones iguales con un cuchillo caliente para obtener cortes limpios y una potencia predecible por rebanada.",
     "storage_unique": "Cúbrelo con plástico adherente pegado directamente a la superficie y refrigéralo hasta 5 días, o congela las rebanadas por 2 meses.",
     "variation_unique": "Corónalo con una compota de frutos rojos frescos para darle color y un toque ácido.",
-    "unique_src": "461ffa400a974d76cbc51c6db4d8ae655d581a87"
+    "unique_src": "461ffa400a974d76cbc51c6db4d8ae655d581a87",
+    "faq_unique": [
+      {
+        "q": "¿Por qué el cannabis va solo en la base?",
+        "a": "La mantequilla de cannabis se mezcla mejor con la base de galleta y mantequilla, y el relleno cremoso no cambia. Presiona la base de manera pareja y corta 12 rebanadas iguales para que cada una lleve los mismos 15 mg, y cómete la base: ahí está la dosis."
+      },
+      {
+        "q": "¿Tengo que envolver el molde desmontable para el baño María?",
+        "a": "Sí. Los moldes desmontables dejan pasar agua; envuelve bien el exterior con papel aluminio grueso para que no llegue agua a la base, que lleva todo el cannabis."
+      },
+      {
+        "q": "¿Cómo sé si está listo?",
+        "a": "Los bordes se ven firmes y el centro todavía tiembla un poco cuando mueves el molde; termina de cuajar durante la hora en el horno y las 4 horas en el refrigerador."
+      }
+    ],
+    "faq_src": "88886849c58c9394a47985b22475c1bafb80a45a"
   },
   "infused-tiramisu": {
     "name": "Tiramisú Infusionado",
@@ -2655,7 +2955,22 @@
     "dosing_unique": "Forma los churros del mismo largo con una duya de estrella y fríelos en tandas del mismo tamaño para una dosis uniforme.",
     "storage_unique": "Come los churros recién hechos para la mejor textura; si los guardas, mantenlos en una bolsa de papel y vuelve a dejarlos crujientes en el horno a 375F durante 5 minutos.",
     "variation_unique": "Sírvelos con una salsa de chocolate con canela para mojar o con dulce de leche.",
-    "unique_src": "2c84ea55654a51be184483657e9ad5b936ba1b2d"
+    "unique_src": "2c84ea55654a51be184483657e9ad5b936ba1b2d",
+    "faq_unique": [
+      {
+        "q": "¿Por qué la mantequilla de cannabis va en la masa y no en el aceite de freír?",
+        "a": "Nadie sabe cuánto aceite absorbe cada churro, y se necesitaría mucho más cannabis. En la masa, la dosis de cada porción sale de la receta. Fríelos en aceite normal."
+      },
+      {
+        "q": "¿Cuántos churros de marihuana son una porción?",
+        "a": "Forma con la duya churros del mismo largo y cuéntalos; una porción es 1/16 de la masa. Si te salen más o menos, ingresa el número en la calculadora de arriba."
+      },
+      {
+        "q": "¿Por qué enfriar la masa antes de agregar los huevos?",
+        "a": "Si la masa está demasiado caliente, cuece los huevos al contacto y se corta. Cinco minutos la dejan lo bastante tibia para incorporar los huevos."
+      }
+    ],
+    "faq_src": "bec901e4c96ebbb4d728b2201e1c49005df9b832"
   },
   "cannabis-crepes": {
     "name": "Crepas de Cannabis",
@@ -3314,8 +3629,23 @@
     "intro_unique": "Los Brigadeiros Infusionados son las queridas trufas de chocolate brasileñas hechas con leche condensada, cacao y mantequilla de cannabis, formadas en bolitas de un bocado.",
     "dosing_unique": "Forma cada brigadeiro del mismo tamaño con una cucharadita medidora para que cada pieza tenga una dosis idéntica. Una porción son 3 brigadeiros.",
     "storage_unique": "Guárdalos en capacillos en el refrigerador hasta una semana; quedan perfectamente firmes al enfriarse.",
-    "variation_unique": "Usa chocolate blanco y coco en lugar de cacao para un híbrido de beijinho y brigadeiro llamado prestígio.",
-    "unique_src": "64628f3650c047ddd4f9d0b12cf82600eef261ef"
+    "variation_unique": "Usa coco rallado deshidratado en lugar de cacao y reboza las bolitas en coco para hacer beijinho, el primo de coco del brigadeiro.",
+    "unique_src": "8d35216c7fe002a505921f139df9cdf3f297da34",
+    "faq_unique": [
+      {
+        "q": "¿Cuántos brigadeiros puedo comer?",
+        "a": "Forma 24 bolitas iguales; una porción son 3 brigadeiros, unos 6 mg, así que cada bolita es una microdosis de unos 2 mg. En una fiesta es fácil perder la cuenta, así que pon los brigadeiros con cannabis en capacillos de otro color."
+      },
+      {
+        "q": "¿Cómo sé si el brigadeiro está listo?",
+        "a": "Igual que un brigadeiro normal: revuelve sin parar a fuego medio-bajo hasta que la mezcla se despegue de la olla y, al pasar la cuchara, se vea el fondo por un momento."
+      },
+      {
+        "q": "¿Los brigadeiros pueden quedarse fuera del refrigerador?",
+        "a": "Llevan leche condensada y mantequilla: déjalos en la mesa no más de 2 horas y guarda el resto en el refrigerador."
+      }
+    ],
+    "faq_src": "9620ec5a93ae3217d4f075e876dfef8c32ea2995"
   },
   "cannabis-pacoca": {
     "name": "Paçoca de Cannabis",
@@ -4097,7 +4427,22 @@
     "dosing_unique": "Divide el rendimiento total de azúcar entre el número de cucharaditas para calcular la potencia por cucharadita; empieza con 1 cucharadita por porción.",
     "storage_unique": "Guárdala en un frasco de vidrio hermético en una alacena fresca y oscura hasta 6 meses; mantenla lejos de la humedad para que no se apelmace.",
     "variation_unique": "Prepara azúcar glas de cannabis licuando el azúcar infusionado con una cucharada de fécula de maíz, o infusiona azúcar morena con la misma técnica.",
-    "unique_src": "298b0cc4c9435a22b7f0669fd431412b013e7f5b"
+    "unique_src": "298b0cc4c9435a22b7f0669fd431412b013e7f5b",
+    "faq_unique": [
+      {
+        "q": "¿Cuánto THC tiene una cucharadita de azúcar de cannabis?",
+        "a": "Unos 15 mg por cucharadita rasa: 6,4 g de flor al 14% en 1 taza de azúcar. La primera vez, usa ⅓ de cucharadita (unos 5 mg) y espera 2 horas."
+      },
+      {
+        "q": "¿Puedo reemplazar todo el azúcar de un pastel con azúcar de cannabis?",
+        "a": "No. La taza entera contiene unos 717 mg. Usa solo tantas cucharaditas como rebanadas tenga el pastel, como máximo 1 por rebanada, y completa el resto con azúcar normal."
+      },
+      {
+        "q": "¿Por qué mi azúcar está apelmazada o húmeda?",
+        "a": "El alcohol no se ha evaporado por completo. Extiéndela en una capa más fina, revuélvela y déjala secar más tiempo, lejos del calor y de las llamas. Guárdala solo cuando esté suelta y seca."
+      }
+    ],
+    "faq_src": "9fe6d26ca4c3c43bcfb876e70a025fc6452b1426"
   },
   "cannabis-flour": {
     "name": "Harina de Cannabis",
@@ -4118,7 +4463,22 @@
     "dosing_unique": "Una porción es 1 cucharadita de harina de cannabis, unos 15 mg con 14% de THC; reemplaza solo esa cantidad de la harina de la receta por porción.",
     "storage_unique": "Guárdala en un frasco o bolsa hermética en el congelador hasta 6 meses para preservar la potencia, o en una alacena fresca y oscura hasta 3 meses.",
     "variation_unique": "Usa harina integral o harina de almendra como base para una alternativa sin gluten o alta en proteínas.",
-    "unique_src": "d1bfd1eb16f9287545d18fd0ab8ebc4de722b542"
+    "unique_src": "d1bfd1eb16f9287545d18fd0ab8ebc4de722b542",
+    "faq_unique": [
+      {
+        "q": "¿Cuánto THC tiene una cucharadita de esta harina?",
+        "a": "Unos 15 mg: 6,4 g de flor al 14% en 1 taza de harina. La taza entera contiene unos 717 mg, así que nunca reemplaces con ella toda la harina de una receta."
+      },
+      {
+        "q": "¿Puedo usarla en masa de galletas cruda o en postres sin horno?",
+        "a": "No. La harina es un ingrediente crudo y la FDA dice que nunca se debe comer cruda. Úsala solo en recetas que se horneen o se cocinen."
+      },
+      {
+        "q": "¿Harina de cannabis o mantequilla de cannabis: cuál es mejor?",
+        "a": "Para la mayoría de las recetas, la mantequilla de cannabis o el aceite de coco infusionado: el THC ya está en la grasa y el sabor a planta es más suave. La harina es para recetas que no tienen suficiente grasa para reemplazar."
+      }
+    ],
+    "faq_src": "2a77006b1b7e4225e187219cb9fe1a781478ceaf"
   },
   "cannabis-tincture": {
     "name": "Tintura de Cannabis",
@@ -4166,7 +4526,22 @@
     "dosing_unique": "Mide con cuidado las porciones por cucharada; la grasa infusionada se distribuye de manera uniforme en el jarabe al agitarlo, así que agita siempre la botella antes de servir.",
     "storage_unique": "Refrigéralo en una botella de vidrio hermética hasta 2 meses; la mantequilla puede solidificarse con el frío, así que calienta la botella en agua caliente antes de usarlo.",
     "variation_unique": "Añade una rama de canela o una vaina de vainilla durante la cocción a fuego lento para más sabor, o usa jarabe de arce ámbar oscuro para un gusto más intenso.",
-    "unique_src": "73a6448e5334db51d848130e1c7d098963d07077"
+    "unique_src": "73a6448e5334db51d848130e1c7d098963d07077",
+    "faq_unique": [
+      {
+        "q": "¿Por qué la receta lleva mantequilla?",
+        "a": "El THC se disuelve en grasa, no en azúcar. Las 3 cucharadas de mantequilla (o aceite de coco) retienen el THC dentro del jarabe."
+      },
+      {
+        "q": "El jarabe tiene una capa dura encima después de estar en el refrigerador.",
+        "a": "Es la mantequilla que se solidificó. Pon la botella en agua caliente y agítala bien antes de servir, o la primera cucharada será más fuerte que el resto."
+      },
+      {
+        "q": "¿Con qué lo puedo usar?",
+        "a": "Panqueques, wafles, avena o pan francés: mide el jarabe por cucharadas y no agregues otras coberturas infusionadas, que suman su dosis a la del jarabe."
+      }
+    ],
+    "faq_src": "7a2c19476f87bbbb9d2a4ee9850c4f04c0e8d240"
   },
   "cannabis-hot-sauce": {
     "name": "Salsa Picante de Cannabis",
@@ -4923,7 +5298,22 @@
     "dosing_unique": "El aceite de coco con cannabis se emulsiona en la crema de coco antes de licuar, lo que asegura que el THC quede distribuido de manera uniforme e imperceptible en la cremosa bebida tropical.",
     "storage_unique": "Se sirve mejor justo después de licuarla; si la mezcla se separa, una licuada rápida con hielo fresco la vuelve a integrar.",
     "variation_unique": "Prepárala sin alcohol omitiendo el ron, o añade trozos de mango fresco para un toque tropical de mango colada.",
-    "unique_src": "b7a4528249df4cf36f2db287f658b79af9bbaf6d"
+    "unique_src": "b7a4528249df4cf36f2db287f658b79af9bbaf6d",
+    "faq_unique": [
+      {
+        "q": "¿Puedo tomarme los dos vasos?",
+        "a": "No a la vez. La receta da 2 porciones, cada una con la dosis de la etiqueta. El alcohol y el cannabis juntos pueden sentirse mucho más fuertes que cada uno por separado: toma un vaso y espera 2 horas."
+      },
+      {
+        "q": "¿Cómo la preparo sin alcohol?",
+        "a": "Omite el ron y agrega un poco más de piña. El THC por vaso no cambia, porque está en el aceite infusionado."
+      },
+      {
+        "q": "¿Por qué mezclar primero el aceite con la crema de coco?",
+        "a": "El aceite de coco solo se solidifica en pedacitos al tocar el hielo. Si primero lo bates con la crema de coco, se reparte por toda la bebida y los dos vasos reciben la misma dosis."
+      }
+    ],
+    "faq_src": "648a9a25e290750fd1efdd236161677f43ff318f"
   },
   "cannabis-arnold-palmer": {
     "name": "Arnold Palmer de Cannabis",
@@ -5269,7 +5659,22 @@
     "dosing_unique": "La mantequilla de cannabis se bate con la masa y se divide entre dos capas de pastel, así cada una de las 12 rebanadas ofrece una dosis constante.",
     "storage_unique": "Guarda el pastel con betún en el refrigerador hasta 4 días; déjalo a temperatura ambiente 20 minutos antes de servir para la mejor textura.",
     "variation_unique": "Prepara cupcakes red velvet para controlar más fácilmente las porciones, o añade una capa de mermelada de fresa entre las capas del pastel para un toque afrutado extra.",
-    "unique_src": "df9e9dcd4cafb547ee53ecacf643800abccc0cbd"
+    "unique_src": "df9e9dcd4cafb547ee53ecacf643800abccc0cbd",
+    "faq_unique": [
+      {
+        "q": "¿El betún también lleva cannabis?",
+        "a": "No, solo la masa del pastel (¼ de taza de mantequilla de cannabis). Cada rebanada lleva la misma cantidad de pastel, así que corta 12 rebanadas iguales para unos 15 mg cada una."
+      },
+      {
+        "q": "¿Tiene que ir al refrigerador?",
+        "a": "Sí. El betún de queso crema debe ir al refrigerador antes de 2 horas. Deja reposar una rebanada 20 minutos antes de comerla para una textura más suave."
+      },
+      {
+        "q": "¿Es la variedad Red Velvet Cake?",
+        "a": "No. Es un pastel red velvet casero hecho con mantequilla de cannabis; su potencia depende de tu mantequilla, no del nombre de una variedad."
+      }
+    ],
+    "faq_src": "7007cd293a49f77ac07e3523d04c4d680583ab86"
   },
   "cannabis-snickerdoodle-cookies": {
     "name": "Galletas Snickerdoodle de Cannabis",
@@ -5521,11 +5926,26 @@
       "Divide la masa uniformemente entre las 12 cavidades, llenando cada una aproximadamente 2/3.",
       "Hornea por 18-22 minutos hasta que los topos estén dorados y un palillo salga limpio. Enfría en el molde por 5 minutos antes de transferir a una rejilla."
     ],
-    "intro_unique": "Estos Muffins de Chispas de Chocolate de Cannabis son esponjosos, dorados y llenos de bolsitas de chocolate derretido: una forma perfectamente porcionada de disfrutar un horneado medicinal.",
+    "intro_unique": "Estos muffins de marihuana son esponjosos, dorados y llenos de bolsitas de chocolate derretido: una forma perfectamente porcionada de disfrutar un horneado con cannabis.",
     "dosing_unique": "La mantequilla de cannabis se distribuye de manera uniforme en la masa y se divide en 12 muffins, lo que hace fácil calcular la dosis por muffin.",
     "storage_unique": "Guárdalos en un recipiente hermético a temperatura ambiente por 2 días, o congela los muffins envueltos individualmente hasta 2 meses.",
     "variation_unique": "Añade una cobertura de streusel para más textura, o cambia las chispas de chocolate por arándanos azules y ralladura de limón para un muffin fresco de verano.",
-    "unique_src": "3357630d7589cdeca9c63bc1a1d014f9ca2a2364"
+    "unique_src": "ec242386369f0ff695d7a576a9a6ecff54f012fc",
+    "faq_unique": [
+      {
+        "q": "¿Qué tan fuerte es un muffin de marihuana?",
+        "a": "Unos 15 mg de THC: ¼ de taza de la mantequilla de cannabis del sitio repartida en 12 muffins. La primera vez, come un tercio de muffin y espera 2 horas."
+      },
+      {
+        "q": "¿Puedo hacer muffins de marihuana de arándanos u otros sabores con esta masa?",
+        "a": "Sí. Cambia las chispas de chocolate por 1 taza de frutos rojos o nueces picadas; la mantequilla de cannabis y los 12 capacillos siguen igual, así que la dosis no cambia."
+      },
+      {
+        "q": "¿Por qué derretir la mantequilla de cannabis con la mantequilla normal?",
+        "a": "Para que el THC se reparta por toda la grasa antes de ir a la masa. Luego, si llenas cada capacillo hasta el mismo nivel, cada muffin tiene la misma dosis."
+      }
+    ],
+    "faq_src": "046f010996a46936008501e220bd271bb28924ef"
   },
   "cannabis-bread-pudding": {
     "name": "Budín de Pan de Cannabis",
@@ -5640,7 +6060,22 @@
     "dosing_unique": "El aceite de cannabis se mezcla con el chocolate y se divide en partes iguales entre 12 copas, así cada copa de mantequilla de maní ofrece una dosis precisa y constante.",
     "storage_unique": "Guárdalas en el refrigerador hasta 2 semanas o congélalas hasta 2 meses; déjalas a temperatura ambiente 5 minutos antes de comerlas para la mejor textura.",
     "variation_unique": "Para una versión sin frutos secos, usa crema de semillas de girasol (la crema de almendra no lleva cacahuate, pero la almendra es un fruto seco), o prueba chocolate amargo con escamas de sal por encima.",
-    "unique_src": "1a4899099f760c44479a850eed6cadbec86aee35"
+    "unique_src": "1a4899099f760c44479a850eed6cadbec86aee35",
+    "faq_unique": [
+      {
+        "q": "¿El THC está en el chocolate o en el relleno?",
+        "a": "En el chocolate: el aceite de coco infusionado se derrite con las chispas. Por eso, reparte el chocolate en partes iguales entre las 12 copas. El relleno de mantequilla de maní no lleva cannabis."
+      },
+      {
+        "q": "¿Puedo hacer mini copas de mantequilla de maní?",
+        "a": "Sí, pero obtendrás más piezas, cada una con menos THC del que indica la etiqueta de dosis. Cuenta las piezas e ingresa ese número como porciones en la calculadora de arriba para ver la dosis real."
+      },
+      {
+        "q": "¿Por qué dejarlas reposar 5 minutos antes de comerlas?",
+        "a": "El chocolate con aceite de coco está duro recién salido del refrigerador y se ablanda rápido en la mano. Cinco minutos hacen que la cubierta sea fácil de morder sin que se derrita."
+      }
+    ],
+    "faq_src": "7e8de0973b6f0c0c5a86171b866856b8f8fa0e13"
   },
   "cannabis-macarons": {
     "name": "Macarons de Cannabis",
@@ -6383,11 +6818,26 @@
       "Hornea por 12-14 minutos hasta que los bordes estén dorados. Deja enfriar en la bandeja 5 minutos antes de transferir a una rejilla.",
       "Rinde aproximadamente 16 galletas. Divide el lote equitativamente para una dosificación consistente."
     ],
-    "intro_unique": "Estas Galletas de Avena Veganas con Cannabis, suaves y masticables, se endulzan de forma natural con jarabe de arce y se infusionan con aceite de coco de cannabis para un comestible saludable.",
+    "intro_unique": "Estas galletas de avena veganas, suaves y masticables, se endulzan de forma natural con jarabe de arce y se preparan con aceite de coco infusionado con cannabis, para un comestible casero y sencillo.",
     "dosing_unique": "El aceite de coco de cannabis se derrite en los ingredientes húmedos, lo que asegura que cada galleta tenga la misma dosis.",
     "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente hasta 5 días, o congélalas hasta 3 meses.",
     "variation_unique": "Cambia las pasas por chispas de chocolate amargo, o añade coco rallado y arándanos rojos deshidratados.",
-    "unique_src": "71a390774cd781e4460137a67459beea83c685fb"
+    "unique_src": "2ec484b4d4c0dd26d3ac6bdf74c43cc9d23b8d34",
+    "faq_unique": [
+      {
+        "q": "¿Puedo hacer estas galletas de avena con mantequilla de cannabis?",
+        "a": "Sí. ⅓ de taza de la mantequilla de cannabis del sitio tiene la misma potencia que ⅓ de taza de su aceite de coco infusionado, así que la dosis no cambia; las galletas ya no son veganas."
+      },
+      {
+        "q": "¿De qué tamaño debe ser cada galleta?",
+        "a": "Divide la masa en 16 bolitas iguales; una galleta es una porción de unos 15 mg. La primera vez, come un tercio y espera 2 horas."
+      },
+      {
+        "q": "¿Puedo usar avena instantánea?",
+        "a": "Sí. La avena instantánea da una galleta más suave y menos masticable que la avena en hojuelas. La dosis no cambia."
+      }
+    ],
+    "faq_src": "d4f6f424c329aca0a03fc0583a17e8e99b04dc6d"
   },
   "cannabis-vegan-mushroom-stroganoff": {
     "name": "Strogonoff de Champiñones Vegano con Cannabis",

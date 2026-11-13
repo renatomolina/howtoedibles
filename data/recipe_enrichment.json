@@ -20,7 +20,21 @@
     "intro_unique": "This moist banana bread uses overripe bananas to mask the herbal taste of cannabutter, making it one of the most beginner-friendly edibles you can bake.",
     "dosing_unique": "Slice the loaf into 10 even pieces and label each with the per-slice dosage to avoid overconsumption.",
     "storage_unique": "Wrap individual slices in parchment paper and freeze for up to 3 months; thaw at room temperature for 20 minutes before eating.",
-    "variation_unique": "Fold in dark chocolate chips and walnuts for a richer flavor that pairs especially well with the cannabis undertones."
+    "variation_unique": "Fold in dark chocolate chips and walnuts for a richer flavor that pairs especially well with the cannabis undertones.",
+    "faq_unique": [
+      {
+        "q": "How strong is one slice?",
+        "a": "About 13 mg THC: 3 tbsp of the site's cannabutter in one loaf cut into 10 equal slices. First time, eat a third of a slice and wait 2 hours."
+      },
+      {
+        "q": "How do I know the middle is done?",
+        "a": "Push a long toothpick into the centre: it should come out with a few moist crumbs but no wet batter. If the top browns first, cover it loosely with foil and keep baking."
+      },
+      {
+        "q": "Is this the Banana Bread strain?",
+        "a": "No. This is a homemade banana bread made with cannabutter; its strength depends on your butter, not on a strain name."
+      }
+    ]
   },
   "infused-chocolate-truffles": {
     "prepTime": "PT20M",
@@ -43,7 +57,21 @@
     "intro_unique": "These hand-rolled chocolate truffles deliver precise single servings of cannabis in a rich cocoa bite that melts on your tongue.",
     "dosing_unique": "Use a small cookie scoop to portion the chilled mixture so every truffle contains an identical amount of infused coconut oil.",
     "storage_unique": "Layer truffles between sheets of wax paper in an airtight container and refrigerate for up to 2 weeks.",
-    "variation_unique": "Roll finished truffles in matcha powder, crushed freeze-dried raspberries, or toasted coconut for distinct flavor profiles."
+    "variation_unique": "Roll finished truffles in matcha powder, crushed freeze-dried raspberries, or toasted coconut for distinct flavor profiles.",
+    "faq_unique": [
+      {
+        "q": "How many truffles does this make, and how strong is each?",
+        "a": "Roll 20 equal truffles; one truffle is one serving, about 12 mg at 14% THC. First time, eat a third of one and wait 2 hours."
+      },
+      {
+        "q": "Can I use cannabutter instead of infused coconut oil?",
+        "a": "Yes. The site's two bases have the same strength per cup, so the dose doesn't change. The truffles taste of butter and are no longer dairy-free."
+      },
+      {
+        "q": "Why do my truffles melt in my hand?",
+        "a": "They're made with coconut oil, which softens with the warmth of your hands. Roll them fast with cold hands or a melon baller, and serve them straight from the fridge."
+      }
+    ]
   },
   "pot-cookies": {
     "prepTime": "PT15M",
@@ -65,7 +93,21 @@
     "intro_unique": "Classic cannabis cookies with a chewy center and crisp edges are the quintessential homemade edible that never goes out of style.",
     "dosing_unique": "Use a tablespoon-sized dough scoop and weigh each ball on a kitchen scale to guarantee uniform dosing across the batch.",
     "storage_unique": "Store in a sealed jar at room temperature for up to 5 days, or freeze baked cookies in a zip-lock bag for 2 months.",
-    "variation_unique": "Swap chocolate chips for peanut butter chips and add a pinch of sea salt on top before baking for a sweet-salty twist."
+    "variation_unique": "Swap chocolate chips for peanut butter chips and add a pinch of sea salt on top before baking for a sweet-salty twist.",
+    "faq_unique": [
+      {
+        "q": "How many cookies does this make, and how strong is each?",
+        "a": "Divide the dough into 20 equal balls; one cookie is one serving, about 12 mg at 14% THC, from ⅓ cup of the site's cannabutter. First time, eat a third of a cookie and wait 2 hours."
+      },
+      {
+        "q": "Why melt the cannabutter with the regular butter?",
+        "a": "When the two fats melt together, the THC spreads through all the butter before it meets the sugar, so each ball of dough gets the same share."
+      },
+      {
+        "q": "My cookies came out flat or dry. What went wrong?",
+        "a": "Usually too much flour or too long in the oven. Spoon the flour into the cup and level it, and take the cookies out while the middle still looks soft; they set as they cool."
+      }
+    ]
   },
   "pot-brownies": {
     "prepTime": "PT15M",
@@ -87,7 +129,21 @@
     "intro_unique": "Fudgy cannabis brownies are the most iconic edible of all time, combining deep cocoa flavor with the relaxing effects of THC.",
     "dosing_unique": "Score the brownie slab into equal squares immediately after removing from the oven while the surface is still soft.",
     "storage_unique": "Keep brownies in a sealed container at room temperature for 4 days, or individually wrap and freeze for up to 3 months.",
-    "variation_unique": "Swirl in a ribbon of cream cheese batter before baking to create a marbled cheesecake-brownie hybrid."
+    "variation_unique": "Swirl in a ribbon of cream cheese batter before baking to create a marbled cheesecake-brownie hybrid.",
+    "faq_unique": [
+      {
+        "q": "How much weed do I need for a pan of pot brownies?",
+        "a": "This pan uses ⅓ cup of the site's cannabutter, which holds about 2.1 g of flower. At 14% THC that's about 15 mg in each of 16 squares. Change the grams or the THC % in the calculator above and every number updates."
+      },
+      {
+        "q": "Can I make them stronger?",
+        "a": "Use more cannabutter in place of the plain butter, up to all of it, and check the new mg per square in the calculator. A square above 15 mg is a lot for most people; cut smaller pieces instead."
+      },
+      {
+        "q": "Why are my brownies weak or uneven?",
+        "a": "Usually the cannabutter wasn't fully melted and stirred in, or the squares weren't cut equal. Melt it with the plain butter, mix it into the sugar completely, let the pan cool and cut a 4 × 4 grid."
+      }
+    ]
   },
   "gummy-bears": {
     "prepTime": "PT20M",
@@ -110,7 +166,21 @@
     "intro_unique": "Homemade cannabis gummy bears let you control the exact milligram dose per piece while choosing your own fruit flavors and colors.",
     "dosing_unique": "Calculate the total THC in your infused coconut oil, divide by the number of mold cavities, and pipette the mixture precisely into each mold.",
     "storage_unique": "Toss finished gummies in a light coating of cornstarch and store in the fridge for up to 3 weeks to prevent sticking.",
-    "variation_unique": "Use tart cherry juice instead of flavored gelatin for a natural sour gummy with real fruit flavor and antioxidants."
+    "variation_unique": "Use tart cherry juice instead of flavored gelatin for a natural sour gummy with real fruit flavor and antioxidants.",
+    "faq_unique": [
+      {
+        "q": "How do you make weed gummies?",
+        "a": "Make the site's infused coconut oil first, then bloom gelatin in cold water, dissolve it over low heat, and whisk in the melted oil with lecithin before filling the molds. The lecithin keeps the oil mixed into the gelatin."
+      },
+      {
+        "q": "How many mg are in each gummy bear?",
+        "a": "About 3.7 mg per bear at 14% THC: ¼ cup of the site's infused coconut oil over 48 bears. One serving is 3 bears, about 11 mg. Fill all 48 cavities; leftover mixture means each bear holds less."
+      },
+      {
+        "q": "Can I make them stronger?",
+        "a": "Not by adding more oil: past this amount it won't stay mixed into the gelatin. Make a stronger infused coconut oil instead (more flower in the base) and enter the new grams in the calculator."
+      }
+    ]
   },
   "gingerbread-cookies": {
     "prepTime": "PT15M",
@@ -151,7 +221,21 @@
     "intro_unique": "Cannabis-infused honey is a versatile pantry staple you can stir into tea, drizzle over toast, or use as a sweetener in any recipe.",
     "dosing_unique": "Measure honey by the teaspoon and note the mg per teaspoon on the jar label so you always know your intake.",
     "storage_unique": "Keep in a sealed dark glass jar in a cool cupboard for up to 3 months (the coconut oil, not the honey, limits shelf life); stir before each use.",
-    "variation_unique": "Add a teaspoon of dried lavender or dried rosemary to the jar during infusion for an herbal flavor that complements the cannabis; avoid fresh herbs, which add moisture."
+    "variation_unique": "Add a teaspoon of dried lavender or dried rosemary to the jar during infusion for an herbal flavor that complements the cannabis; avoid fresh herbs, which add moisture.",
+    "faq_unique": [
+      {
+        "q": "How do you infuse honey with weed?",
+        "a": "THC dissolves in fat, not in honey, so this recipe infuses the flower in coconut oil first and then blends the oil into warm honey with lecithin. That keeps the THC spread through the jar."
+      },
+      {
+        "q": "How much THC is in a teaspoon?",
+        "a": "About 5 mg per teaspoon at 14% THC. A 15 mg serving is about 3 teaspoons; first time, take 1 teaspoon and wait 2 hours."
+      },
+      {
+        "q": "The oil rose to the top and hardened. Now what?",
+        "a": "Warm the jar in hot water until the oil melts and stir until even before you measure. Otherwise the top spoonful is much stronger than the rest."
+      }
+    ]
   },
   "weed-rice-krispie-treats": {
     "prepTime": "PT15M",
@@ -175,7 +259,21 @@
     "intro_unique": "These nostalgic rice krispie treats get an adult upgrade with cannabutter melted directly into the marshmallow mixture for easy, no-bake preparation.",
     "dosing_unique": "Press the mixture into a lined pan of known dimensions and cut into a grid of equal pieces for consistent dosing.",
     "storage_unique": "Wrap each square individually in plastic wrap and store at room temperature for up to 3 days.",
-    "variation_unique": "Mix in a handful of mini M&Ms or drizzle melted dark chocolate over the top for extra indulgence."
+    "variation_unique": "Mix in a handful of mini M&Ms or drizzle melted dark chocolate over the top for extra indulgence.",
+    "faq_unique": [
+      {
+        "q": "Rice Krispie or rice crispy treats: is it the same recipe?",
+        "a": "Yes. \"Rice crispy treats\" is the same no-bake bar: melted butter and marshmallows stirred into crisp rice cereal. Any brand of crisp rice cereal works, and the dose doesn't change."
+      },
+      {
+        "q": "Can I use infused coconut oil instead of cannabutter?",
+        "a": "Yes. Use 3 tbsp of the site's infused coconut oil; it has the same strength per tablespoon as its cannabutter, so each square stays about 11 mg."
+      },
+      {
+        "q": "How do I get 12 equal doses?",
+        "a": "Press the mix to an even thickness in the 9×13 pan, let it set, and cut a 3 × 4 grid. Weighing the squares is the most precise way."
+      }
+    ]
   },
   "cannabis-caramel-sauce": {
     "prepTime": "PT20M",
@@ -216,7 +314,21 @@
     "intro_unique": "A creamy New York-style cheesecake with cannabutter in the buttery biscuit crust delivers an indulgent, slow-onset edible experience.",
     "dosing_unique": "Slice the cheesecake into 12 equal portions using a hot knife for clean cuts and predictable per-slice potency.",
     "storage_unique": "Cover with plastic wrap pressed directly on the surface and refrigerate for up to 5 days, or freeze slices for 2 months.",
-    "variation_unique": "Top with a fresh berry compote for a burst of color and tartness."
+    "variation_unique": "Top with a fresh berry compote for a burst of color and tartness.",
+    "faq_unique": [
+      {
+        "q": "Why is the cannabis only in the crust?",
+        "a": "Cannabutter mixes best into the buttery biscuit base, and the creamy filling stays unchanged. Press the crust evenly and cut 12 equal slices so each carries the same 15 mg, and eat the crust: that's where the dose is."
+      },
+      {
+        "q": "Do I need to wrap the springform for the water bath?",
+        "a": "Yes. Springform pans leak; wrap the outside tightly in heavy-duty foil so no water reaches the crust, which holds all the cannabis."
+      },
+      {
+        "q": "How do I know it's done?",
+        "a": "The edges look set and the centre still wobbles slightly when you nudge the pan; it firms up during the hour in the oven and the 4 hours in the fridge."
+      }
+    ]
   },
   "infused-tiramisu": {
     "prepTime": "PT20M",
@@ -501,7 +613,21 @@
     "intro_unique": "Crispy on the outside and soft within, these cannabis-infused churros are fried to golden perfection and rolled in cinnamon sugar.",
     "dosing_unique": "Pipe churro dough to the same length using a star tip and fry in batches of equal size for uniform dosing.",
     "storage_unique": "Eat churros fresh for the best texture; if storing, keep in a paper bag and re-crisp in a 375F oven for 5 minutes.",
-    "variation_unique": "Serve with a cinnamon-spiced chocolate dipping sauce or dulce de leche."
+    "variation_unique": "Serve with a cinnamon-spiced chocolate dipping sauce or dulce de leche.",
+    "faq_unique": [
+      {
+        "q": "Why is the cannabutter in the dough and not in the frying oil?",
+        "a": "Nobody knows how much frying oil each churro soaks up, and you'd need far more cannabis. In the dough, each serving's dose comes from the recipe. Fry in plain oil."
+      },
+      {
+        "q": "How many churros are one serving?",
+        "a": "Pipe the dough into churros of the same length and count them; one serving is 1/16 of the dough. If you make more or fewer, enter the number in the calculator above."
+      },
+      {
+        "q": "Why cool the dough before adding the eggs?",
+        "a": "Dough that's too hot cooks the eggs on contact and the dough splits. Five minutes leaves it warm enough to take in the eggs."
+      }
+    ]
   },
   "cannabis-crepes": {
     "prepTime": "PT20M",
@@ -635,7 +761,21 @@
     "intro_unique": "Cannabis-infused whiskey combines two adult indulgences into one spirit that can be sipped neat or mixed into cocktails.",
     "dosing_unique": "Start with a half-ounce pour since the combination of alcohol and THC intensifies both effects significantly.",
     "storage_unique": "Store in a dark glass bottle away from sunlight and heat; it keeps for a year or more, though potency slowly declines over time.",
-    "variation_unique": "Use a smoky bourbon and add a cinnamon stick during infusion for a warming, spiced winter spirit."
+    "variation_unique": "Use a smoky bourbon and add a cinnamon stick during infusion for a warming, spiced winter spirit.",
+    "faq_unique": [
+      {
+        "q": "How much THC is in a ½ oz shot?",
+        "a": "About 15 mg per ½ oz (15 ml): 6.6 g of 14% flower in a 750 ml bottle. First time, have a teaspoon and wait 2 hours before drinking more of anything alcoholic."
+      },
+      {
+        "q": "Does a longer soak make it stronger?",
+        "a": "It can pull out a little more, up to what the flower holds. The page's number is the most you should expect, so don't count on more."
+      },
+      {
+        "q": "Do I need to decarb the weed?",
+        "a": "Yes. Alcohol doesn't heat the flower, and without the decarb the THC stays in its acid form, which has no effect."
+      }
+    ]
   },
   "infused-chai": {
     "prepTime": "PT5M",
@@ -694,7 +834,21 @@
     "intro_unique": "Velvety cannabis hot chocolate is the ultimate cold-weather edible, whisking cocoa into gently warmed infused milk for a cozy cup.",
     "dosing_unique": "Warm both milks together and whisk well, then divide evenly between 2 mugs; one mug is one serving.",
     "storage_unique": "Best served fresh; leftover hot chocolate can be refrigerated and reheated gently the next day.",
-    "variation_unique": "Top with regular marshmallows and a pinch of cinnamon; skip infused toppings, which stack on top of the dose already in the milk."
+    "variation_unique": "Top with regular marshmallows and a pinch of cinnamon; skip infused toppings, which stack on top of the dose already in the milk.",
+    "faq_unique": [
+      {
+        "q": "How many mugs does a cup of infused milk make?",
+        "a": "Two. The recipe mixes 1 cup of infused milk with 1 cup of plain milk and divides it between 2 mugs, about 13 mg each. A whole cup of infused milk in one mug doubles the dose."
+      },
+      {
+        "q": "Can I use cannabis tincture instead of infused milk?",
+        "a": "This page's dose is only right for the site's infused milk. With tincture, use the site's tincture recipe and the calculator to work out how much goes in each mug, and don't add it on top of the infused milk."
+      },
+      {
+        "q": "How do I avoid lumps of cocoa?",
+        "a": "Whisk the cocoa and sugar with a little of the warm milk into a paste first, then whisk in the rest of the milk."
+      }
+    ]
   },
   "infused-cold-brew": {
     "prepTime": "PT10M",
@@ -736,7 +890,21 @@
     "intro_unique": "Firecrackers are one of the simplest cannabis edibles you can make, requiring only graham crackers, hazelnut spread, and decarbed ground flower.",
     "dosing_unique": "Mix all of the decarbed weed into the spread before you divide it equally over the 6 firecrackers; one firecracker is one serving.",
     "storage_unique": "Wrap each firecracker individually in foil and store at room temperature for up to 3 days.",
-    "variation_unique": "Use peanut butter instead of hazelnut spread and add a sprinkle of sea salt for a sweet-salty version."
+    "variation_unique": "Use peanut butter instead of hazelnut spread and add a sprinkle of sea salt for a sweet-salty version.",
+    "faq_unique": [
+      {
+        "q": "Do I have to decarb the weed for firecrackers?",
+        "a": "Yes. Raw flower is mostly THCA, which doesn't get you high. This recipe decarbs it first at 240°F (115°C); the 15 minutes at 300°F only warm the sandwich."
+      },
+      {
+        "q": "How strong is one firecracker?",
+        "a": "0.8 g of 14% flower over 6 firecrackers is about 15 mg each. First time, eat a third of one (about 5 mg) and wait 2 hours before more: edibles take a while to kick in."
+      },
+      {
+        "q": "Nutella or peanut butter?",
+        "a": "Either. Both are fatty spreads that carry the THC, and the dose comes from the 0.8 g of flower, not the spread. Stir all the flower into the whole amount of spread before you divide it."
+      }
+    ]
   },
   "infused-guacamole": {
     "prepTime": "PT10M",
@@ -887,7 +1055,21 @@
     "intro_unique": "Cannabutter is the foundational cannabis ingredient, infusing butter with decarbed flower through a slow, low-heat simmer.",
     "dosing_unique": "One serving is 1 teaspoon, about 15 mg at 14% THC; a tablespoon is 3 servings. Label the jar with mg per teaspoon.",
     "storage_unique": "Store in a sealed glass jar in the fridge for up to 3 weeks or freeze in silicone molds for up to 6 months.",
-    "variation_unique": "Use cultured European-style butter with higher fat content for a richer flavor and potentially better THC extraction."
+    "variation_unique": "Use cultured European-style butter with higher fat content for a richer flavor and potentially better THC extraction.",
+    "faq_unique": [
+      {
+        "q": "What's the cannabutter ratio?",
+        "a": "This recipe uses 6.4 g of decarbed flower per cup (2 sticks) of butter. At 14% THC that's about 15 mg per teaspoon. Every recipe on this site assumes this ratio; for a stronger or weaker butter, change the grams in the calculator above."
+      },
+      {
+        "q": "How much cannabutter is one dose?",
+        "a": "One teaspoon of this batch is one serving, about 15 mg; a tablespoon is 3 servings. New to edibles? Start with ⅓ teaspoon (about 5 mg) and wait 2 hours before having more."
+      },
+      {
+        "q": "Can I use ghee to make cannabutter?",
+        "a": "Yes: the site's infused ghee recipe does exactly that. Ghee has no water or milk solids, so you skip the water and keep the heat very low. It uses less flower per cup, so check its own dose per teaspoon."
+      }
+    ]
   },
   "infused-olive-oil": {
     "prepTime": "PT10M",
@@ -910,7 +1092,21 @@
     "intro_unique": "Cannabis-infused olive oil is a heart-healthy, versatile base for savory edibles, dressings, and any recipe calling for cooking oil.",
     "dosing_unique": "One serving is 1 teaspoon, about 15 mg at 14% THC; a tablespoon is 3 servings. Label the bottle with mg per teaspoon.",
     "storage_unique": "Store in a dark glass bottle in a cool cupboard for up to 3 months; olive oil resists rancidity better than butter.",
-    "variation_unique": "For a flavored finishing oil, add dried rosemary and dried garlic during infusion. Never store oil with fresh garlic or fresh herbs at room temperature (botulism risk); if you use fresh aromatics, refrigerate and use within 4 days."
+    "variation_unique": "For a flavored finishing oil, add dried rosemary and dried garlic during infusion. Never store oil with fresh garlic or fresh herbs at room temperature (botulism risk); if you use fresh aromatics, refrigerate and use within 4 days.",
+    "faq_unique": [
+      {
+        "q": "How much THC is in a teaspoon of this oil?",
+        "a": "About 15 mg: 8 g of 14% flower in 300 ml of olive oil. A tablespoon is 3 times that, so measure in teaspoons."
+      },
+      {
+        "q": "Can I cook or fry with infused olive oil?",
+        "a": "Use it mostly to finish dishes (dressings, sauces, drizzled over the plate) or for gentle cooking. Each serving's dose comes from how much oil goes on the plate, so measure it."
+      },
+      {
+        "q": "Extra virgin or regular olive oil?",
+        "a": "Both infuse the same way. Extra virgin gives more flavour for finishing dishes; regular olive oil tastes more neutral."
+      }
+    ]
   },
   "infused-coconut-oil": {
     "prepTime": "PT10M",
@@ -933,7 +1129,21 @@
     "intro_unique": "Cannabis-infused coconut oil has the highest saturated fat content of any cooking oil, making it exceptionally efficient at binding THC.",
     "dosing_unique": "One serving is 1 teaspoon, about 15 mg at 14% THC; a tablespoon is 3 servings. Pour it into ice-cube molds in teaspoon portions and label them with mg per teaspoon.",
     "storage_unique": "Coconut oil is shelf-stable at room temperature for up to 3 months; refrigerate for longer storage up to 6 months.",
-    "variation_unique": "Use refined coconut oil for a neutral taste in recipes where you do not want coconut flavor."
+    "variation_unique": "Use refined coconut oil for a neutral taste in recipes where you do not want coconut flavor.",
+    "faq_unique": [
+      {
+        "q": "How much THC is in a teaspoon of this oil?",
+        "a": "About 15 mg: 3.2 g of 14% flower in ½ cup of oil. A tablespoon is 3 times that, so measure in teaspoons."
+      },
+      {
+        "q": "My oil went solid. Did it lose potency?",
+        "a": "No. Coconut oil hardens when it's cool. Melt it gently in warm water and stir before you measure, so every spoonful has the same dose."
+      },
+      {
+        "q": "Can I use it instead of cannabutter?",
+        "a": "Yes. Both of the site's bases hold 6.4 g of flower per cup, so spoon for spoon the dose is the same. Use the oil for vegan or dairy-free recipes, like the gummy bears and the vegan brownies."
+      }
+    ]
   },
   "infused-milk": {
     "prepTime": "PT10M",
@@ -955,7 +1165,21 @@
     "intro_unique": "Cannabis-infused milk provides a liquid base for hot drinks, cereals, and baking that distributes THC evenly throughout dairy.",
     "dosing_unique": "Use whole milk for the highest fat content and best extraction; measure servings in half-cup portions with labeled potency.",
     "storage_unique": "Refrigerate and use within 5 days, the same shelf life as regular milk; shake before each use.",
-    "variation_unique": "Use heavy cream instead of milk for a richer infusion with higher fat content and a creamier mouthfeel."
+    "variation_unique": "Use heavy cream instead of milk for a richer infusion with higher fat content and a creamier mouthfeel.",
+    "faq_unique": [
+      {
+        "q": "Can you infuse milk with THC?",
+        "a": "Yes. THC binds to fat, so use whole milk or cream. Skim or almond milk holds less fat, and the real dose ends up below the calculated one."
+      },
+      {
+        "q": "How much THC is in half a cup?",
+        "a": "With 1 g of 14% flower per litre, about 14 mg in ½ cup (125 ml). First time, drink a third of that and wait 2 hours."
+      },
+      {
+        "q": "Why shake it before each use?",
+        "a": "The fat, which carries the THC, rises to the top in the fridge. Shake well so every pour has the same dose."
+      }
+    ]
   },
   "infused-condensed-milk": {
     "prepTime": "PT10M",
@@ -996,7 +1220,21 @@
     "intro_unique": "Cannabis-infused ghee is clarified butter with the milk solids removed, offering a nutty, high-smoke-point fat perfect for cooking.",
     "dosing_unique": "One serving is 1 teaspoon. 1 cup of butter gives about ¾ cup of ghee (36 teaspoons), about 11 mg each at 14% THC; label the jar with mg per teaspoon.",
     "storage_unique": "Refrigerate in a sealed jar for up to 3 months; its low moisture content helps it keep, but infused ghee stays freshest cold.",
-    "variation_unique": "Infuse with turmeric and black pepper during preparation for a golden ghee with anti-inflammatory properties."
+    "variation_unique": "Infuse with turmeric and black pepper during preparation for a golden ghee with anti-inflammatory properties.",
+    "faq_unique": [
+      {
+        "q": "Can I use ghee instead of butter to make cannabutter?",
+        "a": "Yes, that's this recipe. Ghee is butter without the water and milk solids, and it holds THC just as well. Keep the heat very low: with no water in the pan it gets hotter than butter does."
+      },
+      {
+        "q": "Why is it weaker than the site's cannabutter?",
+        "a": "It uses 3.5 g of flower per cup of butter, and that cup cooks down to about ¾ cup of ghee: about 11 mg per teaspoon, against 15 mg for the cannabutter. It's meant to be used by the spoonful in savory dishes, like the lentil dal."
+      },
+      {
+        "q": "Do I add the flower before or after clarifying?",
+        "a": "After. Let the butter clarify until the crackling stops, lower the heat, and only then add the flower, so it doesn't sit with the milk solids browning on the bottom."
+      }
+    ]
   },
   "infused-pesto-pasta": {
     "prepTime": "PT10M",
@@ -1518,7 +1756,21 @@
     "intro_unique": "Cannabis coconut fat bombs are bite-sized keto treats that pack infused coconut oil into a sweet, high-fat snack.",
     "dosing_unique": "Pour into silicone candy molds using a measured pipette or small spoon so each fat bomb is identically dosed.",
     "storage_unique": "Store in the freezer for up to 3 months; keep frozen as they melt quickly at room temperature.",
-    "variation_unique": "Add a layer of sugar-free dark chocolate on top of each fat bomb for a bounty bar-inspired treat."
+    "variation_unique": "Add a layer of sugar-free dark chocolate on top of each fat bomb for a bounty bar-inspired treat.",
+    "faq_unique": [
+      {
+        "q": "How many fat bombs can I eat?",
+        "a": "One is one serving, about 7.5 mg. First time, eat one and wait 2 hours before thinking about another. Two at once is about 15 mg, the most the site gives in one serving."
+      },
+      {
+        "q": "Why melt the coconut butter?",
+        "a": "It's solid at room temperature. Melt it with the coconut oils before mixing, or the mixture stays lumpy and each piece ends up with a different dose."
+      },
+      {
+        "q": "Why did my fat bombs melt?",
+        "a": "They're almost all coconut oil, which softens in the warmth. Take them out of the freezer just before eating."
+      }
+    ]
   },
   "infused-keto-peanut-butter-cookies": {
     "prepTime": "PT15M",
@@ -1824,7 +2076,21 @@
     "intro_unique": "Dense, fudgy cannabis vegan brownies use flax eggs and infused coconut oil to deliver a plant-based edible indistinguishable from the original.",
     "dosing_unique": "Cut the brownie slab into equal squares with a bench scraper and label each piece with its dose for safe sharing.",
     "storage_unique": "Store in an airtight container at room temperature for 3 days or freeze individually wrapped for 2 months.",
-    "variation_unique": "Add a swirl of almond butter on top before baking for a nutty, marbled vegan brownie."
+    "variation_unique": "Add a swirl of almond butter on top before baking for a nutty, marbled vegan brownie.",
+    "faq_unique": [
+      {
+        "q": "Do I need to melt the coconut oil?",
+        "a": "Yes. Coconut oil is solid at room temperature; melt the infused and plain oil together so the THC is spread through all the fat before you add the sugar."
+      },
+      {
+        "q": "How do I cut 16 equal doses?",
+        "a": "Let the pan cool completely, then cut a 4 × 4 grid. Each square is one serving of about 15 mg; first time, eat a third of a square and wait 2 hours."
+      },
+      {
+        "q": "Can I use cannabutter instead?",
+        "a": "Yes, but they're no longer vegan. ⅓ cup of the site's cannabutter has the same strength as ⅓ cup of its infused coconut oil, so the dose stays the same."
+      }
+    ]
   },
   "infused-vegan-cheese-sauce": {
     "prepTime": "PT15M",
@@ -2132,10 +2398,24 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "cold_drinks",
-    "intro_unique": "An infused virgin mojito muddles fresh mint and lime with cannabis simple syrup and sparkling water for a crisp, herbaceous mocktail.",
-    "dosing_unique": "Measure the cannabis simple syrup with a tablespoon after muddling the mint and lime so each glass gets the same dose.",
+    "intro_unique": "An infused virgin mojito muddles fresh mint and lime with infused honey and sparkling water for a crisp, herbaceous mocktail.",
+    "dosing_unique": "Measure the 2 teaspoons of infused honey exactly and dissolve them before adding the lime; the whole glass is one serving.",
     "storage_unique": "Prepare and serve immediately; the mint wilts and the sparkling water flattens if left standing.",
-    "variation_unique": "Muddle fresh watermelon chunks along with the mint for a watermelon virgin mojito with natural pink color."
+    "variation_unique": "Muddle fresh watermelon chunks along with the mint for a watermelon virgin mojito with natural pink color.",
+    "faq_unique": [
+      {
+        "q": "Can I add rum?",
+        "a": "You can, but alcohol and cannabis together hit much harder than either alone. Have one drink and wait at least 2 hours before another; if you're new, drink half a glass."
+      },
+      {
+        "q": "Why is the honey dissolved in warm water?",
+        "a": "Cold honey doesn't mix with ice-cold lime and stays at the bottom of the glass, and the dose with it. Dissolved first, it spreads. Stir before drinking, because the honey's coconut oil firms up on the ice."
+      },
+      {
+        "q": "Can I make a pitcher?",
+        "a": "Muddle the mint and lime in the pitcher, but add the 2 teaspoons of infused honey straight into each glass. That way every glass holds one known serving."
+      }
+    ]
   },
   "cannabis-cucumber-mint-cooler": {
     "prepTime": "PT10M",
@@ -2156,10 +2436,24 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "cold_drinks",
-    "intro_unique": "A cannabis cucumber mint cooler muddles cool cucumber and fresh mint with cannabis simple syrup for a spa-like, calming mocktail.",
-    "dosing_unique": "Measure the cannabis simple syrup with a tablespoon before muddling so the glass gets an exact dose.",
+    "intro_unique": "A cannabis cucumber mint cooler muddles cool cucumber and fresh mint with infused honey and lime for a spa-like mocktail.",
+    "dosing_unique": "Measure the 2 teaspoons of infused honey exactly and dissolve them before muddling; the whole glass is one serving.",
     "storage_unique": "Refrigerate the muddled cucumber-mint base without the cannabis syrup for up to 24 hours; add the syrup and ice when serving.",
-    "variation_unique": "Add a few slices of fresh jalapeno for a spicy cucumber cooler with a surprising kick."
+    "variation_unique": "Add a few slices of fresh jalapeno for a spicy cucumber cooler with a surprising kick.",
+    "faq_unique": [
+      {
+        "q": "Why dissolve the infused honey in warm water first?",
+        "a": "Cold lime juice and ice turn honey thick, and it sinks to the bottom with the dose. Dissolved first in 2 tbsp of warm water, it spreads through the drink. Stir before each sip, since the honey's coconut oil firms up in the cold."
+      },
+      {
+        "q": "Can I make a pitcher for a party?",
+        "a": "Muddle the cucumber and mint ahead, but add the infused honey glass by glass: 2 teaspoons per glass is one serving. A shared pitcher can't give every glass the same dose."
+      },
+      {
+        "q": "Can I use another cannabis base?",
+        "a": "Not in the same amount. Each base on the site has a different strength, and this dose is only right for 2 teaspoons of the site's infused honey."
+      }
+    ]
   },
   "infused-watermelon-slush": {
     "prepTime": "PT10M",
@@ -2529,7 +2823,21 @@
     "intro_unique": "Infused brigadeiros are beloved Brazilian chocolate truffles made from condensed milk, cocoa, and cannabutter rolled into bite-sized balls.",
     "dosing_unique": "Roll each brigadeiro to the same size using a teaspoon measure so every piece has an identical dose. One serving is 3 brigadeiros.",
     "storage_unique": "Store in petit four cups in the fridge for up to one week; they firm up perfectly when chilled.",
-    "variation_unique": "Use white chocolate and coconut instead of cocoa for a beijinho-brigadeiro hybrid called prestígio."
+    "variation_unique": "Use desiccated coconut instead of cocoa and roll the balls in coconut to make beijinho, the coconut cousin of brigadeiro.",
+    "faq_unique": [
+      {
+        "q": "How many brigadeiros can I eat?",
+        "a": "Roll 24 equal balls; one serving is 3 brigadeiros, about 6 mg, so each ball is a microdose of about 2 mg. At a party it's easy to lose count, so put the cannabis brigadeiros in liners of a different colour."
+      },
+      {
+        "q": "How do I know the brigadeiro is cooked?",
+        "a": "The same as a regular brigadeiro: stir without stopping over medium-low heat until the mixture pulls away from the pan and, when you drag the spoon, you can see the bottom for a moment."
+      },
+      {
+        "q": "Can brigadeiros stay out of the fridge?",
+        "a": "They contain condensed milk and butter: leave them on the table for no more than 2 hours and keep the rest in the fridge."
+      }
+    ]
   },
   "cannabis-pacoca": {
     "prepTime": "PT15M",
@@ -3082,7 +3390,21 @@
     "intro_unique": "Cannabis sugar is a fat-free infusion method that lets you add THC to any recipe or beverage where regular sugar is used.",
     "dosing_unique": "Divide the total sugar yield by the number of teaspoons to calculate per-teaspoon potency; start with 1 teaspoon per serving.",
     "storage_unique": "Store in an airtight glass jar in a cool, dark pantry for up to 6 months; keep away from moisture to prevent clumping.",
-    "variation_unique": "Make cannabis powdered sugar by blending the infused sugar with a tablespoon of cornstarch, or infuse brown sugar using the same technique."
+    "variation_unique": "Make cannabis powdered sugar by blending the infused sugar with a tablespoon of cornstarch, or infuse brown sugar using the same technique.",
+    "faq_unique": [
+      {
+        "q": "How much THC is in a teaspoon of cannabis sugar?",
+        "a": "About 15 mg per level teaspoon: 6.4 g of 14% flower in 1 cup of sugar. First time, use ⅓ teaspoon (about 5 mg) and wait 2 hours."
+      },
+      {
+        "q": "Can I replace all the sugar in a cake with cannabis sugar?",
+        "a": "No. The whole cup holds about 717 mg. Use only as many teaspoons as the cake has slices, at most 1 per slice, and make up the rest with plain sugar."
+      },
+      {
+        "q": "Why is my sugar clumpy or damp?",
+        "a": "The alcohol hasn't fully evaporated. Spread it thinner, stir, and let it dry longer, away from heat and flames. Store it only once it's loose and dry."
+      }
+    ]
   },
   "cannabis-flour": {
     "prepTime": "PT10M",
@@ -3106,7 +3428,21 @@
     "intro_unique": "Cannabis flour is the simplest infusion base you can make, requiring only decarboxylated cannabis and all-purpose flour blended together.",
     "dosing_unique": "One serving is 1 teaspoon of cannabis flour, about 15 mg at 14% THC; replace only that much of a recipe's flour per serving.",
     "storage_unique": "Store in a sealed jar or bag in the freezer for up to 6 months to preserve potency, or in a cool dark pantry for up to 3 months.",
-    "variation_unique": "Use whole wheat flour or almond flour as the base for a gluten-free or high-protein alternative."
+    "variation_unique": "Use whole wheat flour or almond flour as the base for a gluten-free or high-protein alternative.",
+    "faq_unique": [
+      {
+        "q": "How much THC is in a teaspoon of this flour?",
+        "a": "About 15 mg: 6.4 g of 14% flower in 1 cup of flour. The whole cup holds about 717 mg, so never replace all the flour in a recipe with it."
+      },
+      {
+        "q": "Can I use it in raw cookie dough or no-bake treats?",
+        "a": "No. Flour is a raw ingredient and the FDA says never to eat it raw. Use it only in recipes you bake or cook."
+      },
+      {
+        "q": "Cannabis flour or cannabutter: which is better?",
+        "a": "For most recipes, cannabutter or infused coconut oil: the THC is already in the fat and the plant taste is milder. The flour is for recipes without enough fat to swap."
+      }
+    ]
   },
   "cannabis-tincture": {
     "prepTime": "PT15M",
@@ -3149,7 +3485,21 @@
     "intro_unique": "Cannabis maple syrup combines the warmth of pure maple with the effects of THC, creating a versatile infused sweetener for breakfast, baking, and cocktails.",
     "dosing_unique": "Measure tablespoon servings carefully; the infused fat distributes evenly through the syrup when shaken, so always shake the bottle before pouring.",
     "storage_unique": "Refrigerate in a sealed glass bottle for up to 2 months; the butter may solidify when cold, so warm the bottle in hot water before use.",
-    "variation_unique": "Add a cinnamon stick or vanilla bean during the simmering step for extra flavor, or use dark amber maple syrup for a more robust taste."
+    "variation_unique": "Add a cinnamon stick or vanilla bean during the simmering step for extra flavor, or use dark amber maple syrup for a more robust taste.",
+    "faq_unique": [
+      {
+        "q": "Why does the recipe use butter?",
+        "a": "THC dissolves in fat, not in sugar. The 3 tablespoons of butter (or coconut oil) hold the THC inside the syrup."
+      },
+      {
+        "q": "The syrup has a hard layer on top after the fridge.",
+        "a": "That's the butter setting. Stand the bottle in hot water and shake well before pouring, or the first spoonful will be stronger than the rest."
+      },
+      {
+        "q": "What can I use it on?",
+        "a": "Pancakes, waffles, oatmeal or French toast: measure the syrup by the tablespoon and don't add other infused toppings, which stack on top of its dose."
+      }
+    ]
   },
   "cannabis-hot-sauce": {
     "prepTime": "PT15M",
@@ -3629,7 +3979,21 @@
     "intro_unique": "This cannabis Piña Colada is a tropical escape in a glass — blended coconut, pineapple, and rum with a smooth THC infusion for the ultimate beach vibes.",
     "dosing_unique": "Cannabis coconut oil is emulsified into the coconut cream before blending, ensuring THC is evenly distributed and undetectable in the creamy tropical drink.",
     "storage_unique": "Best served immediately after blending — if the mixture separates, a quick re-blend with fresh ice brings it right back together.",
-    "variation_unique": "Make it a virgin colada by omitting the rum, or add fresh mango chunks for a tropical mango-colada twist."
+    "variation_unique": "Make it a virgin colada by omitting the rum, or add fresh mango chunks for a tropical mango-colada twist.",
+    "faq_unique": [
+      {
+        "q": "Can I drink both glasses?",
+        "a": "Not at once. The recipe makes 2 servings, each with the sticker's dose. Alcohol and cannabis together can feel much stronger than either alone: have one glass and wait 2 hours."
+      },
+      {
+        "q": "How do I make it without alcohol?",
+        "a": "Leave out the rum and add a little more pineapple. The THC per glass doesn't change, because it's in the infused oil."
+      },
+      {
+        "q": "Why blend the oil with the coconut cream first?",
+        "a": "Coconut oil on its own sets into little bits when it hits the ice. Whisked into the coconut cream first, it spreads through the drink and both glasses get the same dose."
+      }
+    ]
   },
   "cannabis-arnold-palmer": {
     "prepTime": "PT15M",
@@ -3861,7 +4225,21 @@
     "intro_unique": "This cannabis red velvet cake pairs the classic tangy buttermilk crumb with cannabutter for a showstopping dessert that looks as good as it tastes.",
     "dosing_unique": "Cannabutter is creamed into the batter and divided between two cake layers, so each of the 12 slices delivers a consistent dose.",
     "storage_unique": "Store frosted cake in the refrigerator for up to 4 days; bring to room temperature for 20 minutes before serving for the best texture.",
-    "variation_unique": "Make red velvet cupcakes for easier portion control, or add a layer of strawberry jam between the cake layers for extra fruity richness."
+    "variation_unique": "Make red velvet cupcakes for easier portion control, or add a layer of strawberry jam between the cake layers for extra fruity richness.",
+    "faq_unique": [
+      {
+        "q": "Is there cannabis in the frosting too?",
+        "a": "No, only in the cake batter (¼ cup of cannabutter). Every slice gets the same amount of cake, so cut 12 equal slices for about 15 mg each."
+      },
+      {
+        "q": "Does it have to go in the fridge?",
+        "a": "Yes. The cream cheese frosting must go into the fridge within 2 hours. Let a slice sit 20 minutes before eating for a softer texture."
+      },
+      {
+        "q": "Is this the Red Velvet Cake strain?",
+        "a": "No. This is a homemade red velvet cake made with cannabutter; its strength depends on your butter, not on a strain name."
+      }
+    ]
   },
   "cannabis-snickerdoodle-cookies": {
     "prepTime": "PT15M",
@@ -4033,10 +4411,24 @@
     "cook_temp": "375°F / 190°C",
     "texture_type": "baked",
     "sub_category": "baked_goods",
-    "intro_unique": "These cannabis chocolate chip muffins are fluffy, golden, and loaded with melted chocolate pockets — a perfectly portioned way to enjoy a medicated baked treat.",
+    "intro_unique": "These weed muffins are fluffy, golden, and loaded with melted chocolate pockets: a perfectly portioned way to enjoy a cannabis baked treat.",
     "dosing_unique": "The cannabutter is distributed evenly through the batter and divided into 12 muffins, making per-muffin dosing simple to calculate.",
     "storage_unique": "Store in an airtight container at room temperature for 2 days, or freeze individually wrapped muffins for up to 2 months.",
-    "variation_unique": "Add a streusel crumb topping for extra texture, or swap chocolate chips for blueberries and lemon zest for a fresh summer muffin."
+    "variation_unique": "Add a streusel crumb topping for extra texture, or swap chocolate chips for blueberries and lemon zest for a fresh summer muffin.",
+    "faq_unique": [
+      {
+        "q": "How strong is one weed muffin?",
+        "a": "About 15 mg THC: ¼ cup of the site's cannabutter split over 12 muffins. First time, eat a third of a muffin and wait 2 hours."
+      },
+      {
+        "q": "Can I make blueberry or other weed muffins with this batter?",
+        "a": "Yes. Swap the chocolate chips for 1 cup of berries or chopped nuts; the cannabutter and the 12 cups stay the same, so the dose doesn't change."
+      },
+      {
+        "q": "Why melt the cannabutter with the regular butter?",
+        "a": "So the THC is spread through all the fat before it goes into the batter. Then filling every cup to the same level gives every muffin the same dose."
+      }
+    ]
   },
   "cannabis-bread-pudding": {
     "prepTime": "PT15M",
@@ -4116,7 +4508,21 @@
     "intro_unique": "These homemade cannabis peanut butter cups melt cannabis-infused coconut oil into the chocolate shell for a smooth, perfectly dosed confection that rivals any store-bought candy.",
     "dosing_unique": "The cannabis oil is mixed into the chocolate and evenly divided among 12 cups, so each peanut butter cup delivers a precise and consistent dose.",
     "storage_unique": "Store in the refrigerator for up to 2 weeks or freeze for up to 2 months; let sit at room temperature for 5 minutes before eating for the best texture.",
-    "variation_unique": "For a nut-free version use sunflower seed butter (almond butter is peanut-free, but almonds are a tree nut), or try dark chocolate with a sprinkle of flaky sea salt on top."
+    "variation_unique": "For a nut-free version use sunflower seed butter (almond butter is peanut-free, but almonds are a tree nut), or try dark chocolate with a sprinkle of flaky sea salt on top.",
+    "faq_unique": [
+      {
+        "q": "Is the THC in the chocolate or in the filling?",
+        "a": "In the chocolate: the infused coconut oil is melted with the chips. So divide the chocolate equally among the 12 cups. The peanut butter filling has no cannabis."
+      },
+      {
+        "q": "Can I make mini peanut butter cups?",
+        "a": "Yes, but you'll get more pieces, each with less THC than the sticker says. Count the pieces and enter that number as servings in the calculator above to see the real dose."
+      },
+      {
+        "q": "Why let them sit 5 minutes before eating?",
+        "a": "Chocolate with coconut oil is hard straight from the fridge and softens fast in your hand. Five minutes makes the shell easy to bite without melting."
+      }
+    ]
   },
   "cannabis-macarons": {
     "prepTime": "PT40M",
@@ -4592,10 +4998,24 @@
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
     "sub_category": "vegan_baked",
-    "intro_unique": "These chewy cannabis vegan oat cookies are naturally sweetened with maple syrup and infused with cannabis coconut oil for a wholesome edible treat.",
+    "intro_unique": "These chewy vegan oatmeal cookies are naturally sweetened with maple syrup and made with cannabis-infused coconut oil for a wholesome edible treat.",
     "dosing_unique": "Cannabis coconut oil is melted into the wet ingredients, ensuring each cookie contains an equal dose.",
     "storage_unique": "Store in an airtight container at room temperature for up to 5 days, or freeze for up to 3 months.",
-    "variation_unique": "Swap raisins for dark chocolate chips, or add shredded coconut and dried cranberries."
+    "variation_unique": "Swap raisins for dark chocolate chips, or add shredded coconut and dried cranberries.",
+    "faq_unique": [
+      {
+        "q": "Can I make these oatmeal cookies with cannabutter?",
+        "a": "Yes. ⅓ cup of the site's cannabutter has the same strength as ⅓ cup of its infused coconut oil, so the dose stays the same; the cookies are no longer vegan."
+      },
+      {
+        "q": "How big should each cookie be?",
+        "a": "Split the dough into 16 equal balls; one cookie is one serving of about 15 mg. First time, eat a third and wait 2 hours."
+      },
+      {
+        "q": "Can I use quick oats?",
+        "a": "Yes. Quick oats give a softer, less chewy cookie than rolled oats. The dose doesn't change."
+      }
+    ]
   },
   "cannabis-vegan-mushroom-stroganoff": {
     "prepTime": "PT15M",
