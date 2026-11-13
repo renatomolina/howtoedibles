@@ -60,6 +60,8 @@ class Site
     vars = { "name" => name, "base_fat" => (@vars.dig(lang, "base_fat", fat_en) || [fat_en])[0], "cook_temp" => @vars.dig(lang, "cook_temp", temp_en) || temp_en, "category" => r["category_name"] }
     ip = ->(x) { Site.plain(interpolate(x, vars)) }
     own = %w[intro_unique dosing_unique storage_unique variation_unique].to_h { |k| [k, Site.plain(rt(lang, slug, k) || e[k] || "")] }
+    # #116: the own FAQ, as the build shows it (no English fallback on translated pages)
+    own["faq_unique"] = Site.plain(((lang == "en" ? e["faq_unique"] : rt(lang, slug, "faq_unique")) || []).map { |f| "#{f["q"]} #{f["a"]}" }.join(" "))
     {
       slug: slug, lang: lang, name: name, cat: r["category_name"], sub: sub, enrich: e,
       g: r["suggested_quantity"].to_f, n: r["suggested_portion"].to_f,
