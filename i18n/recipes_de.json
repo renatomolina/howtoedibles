@@ -267,13 +267,13 @@
     "ingredients": [
       "1 cup frisch gepresster Zitronensaft",
       "4 cups kaltes Wasser",
-      "1/2 cup Kristallzucker",
-      "1-2 tsp infundierter Honig",
+      "¼ Tasse Zucker",
+      "¼ Tasse infundierter Honig",
       "Eiswürfel",
       "Zitronenscheiben zum Garnieren"
     ],
     "instructions": [
-      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Vermische in einem Krug den frisch gepressten Zitronensaft, das kalte Wasser, den Kristallzucker und den mit Cannabis angereicherten Honig.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den infundierten Honig und den Zucker in 1 Tasse warmem Wasser auflösen und mit dem Zitronensaft und den übrigen 3 Tassen kaltem Wasser in einen Krug gießen.",
       "Rühre gut um, bis sich der Zucker aufgelöst hat.",
       "Probiere die Limonade und passe die Süße an, indem du bei Bedarf mehr Zucker hinzufügst (keinen weiteren infundierten Honig, das würde die Dosis ändern).",
       "Gib Eiswürfel in den Krug, um die Limonade zu kühlen.",
@@ -825,7 +825,7 @@
     "ingredients": [
       "2 EL Cannabutter + 2 EL ungesalzene Butter, geschmolzen",
       "2 tbsp Pflanzen- oder Kokosöl (zum Poppen)",
-      "⅓ – ⅔ Tassen Popcorn-Maiskörner",
+      "½ Tasse Popcornmais",
       "Salz nach Geschmack"
     ],
     "instructions": [
@@ -833,10 +833,10 @@
       "Sobald die Körner anfangen zu poppen, den Topf ständig hin und her über der Flamme bewegen, bis das Poppen nachlässt. Sobald die Pops etwa 2 Sekunden auseinanderliegen, vom Herd nehmen und in eine Servierschüssel umfüllen. Abschmecken und bei Bedarf mit zusätzlichem Salz würzen. Die geschmolzene Cannabutter über das warme Popcorn träufeln und gut durchschwenken, damit alles gleichmäßig überzogen ist. Auf 6 Schüsseln verteilen; eine Schüssel ist eine Portion."
     ],
     "intro_unique": "Infundiertes Popcorn ist ein herzhafter Snack für den Filmabend, bei dem geschmolzene Cannabutter über frisch gepoppte Maiskörner geträufelt wird.",
-    "dosing_unique": "Schmilz eine abgemessene Menge Cannabutter und schwenk das Popcorn damit in einer großen Schüssel, damit es gleichmäßig überzogen und gleich dosiert ist.",
+    "dosing_unique": "Das Popcorn in 2–3 Etappen mit der geschmolzenen Butter vermengen und auf 6 gleiche Schalen verteilen; eine Schale ist eine Portion.",
     "storage_unique": "In einer Papiertüte oder einem luftdichten Behälter bei Raumtemperatur bis zu 2 Tage aufbewahren; bei Bedarf im Ofen bei niedriger Temperatur wieder knusprig machen.",
     "variation_unique": "Mit Hefeflocken und Knoblauchpulver bekommst du herzhaftes Cannabis-Popcorn mit Käsegeschmack, ganz ohne Milchprodukte.",
-    "unique_src": "6aced78a08728fca7d2a904a53f019dfe6c14ff9"
+    "unique_src": "94e471d9aa17c794b9768b4ec72c693380ec773d"
   },
   "infused-eggnog": {
     "name": "Infundierter Eierlikör",
@@ -1097,10 +1097,10 @@
       "Ergibt 2 Portionen: Eine Portion ist eine Scheibe Toast. Achtsam essen und mindestens eine Stunde warten, bevor du eine weitere Portion in Betracht ziehst."
     ],
     "intro_unique": "Cannabis-Avocado-Toast hebt den Brunch-Klassiker auf ein neues Level: zerdrückte Avocado auf knusprigem Sauerteigbrot, vollendet mit einem Schuss infundiertem Olivenöl.",
-    "dosing_unique": "Träufle den abgemessenen Esslöffel infundiertes Olivenöl gleichmäßig über beide Scheiben, sodass jede Portion die Hälfte bekommt.",
+    "dosing_unique": "Infundiertes und normales Olivenöl mischen und je die Hälfte über jede Scheibe träufeln; eine Scheibe ist eine Portion.",
     "storage_unique": "Bereite ihn zu und iss ihn sofort; Avocado-Toast lässt sich schlecht aufbewahren, das infundierte Öl kannst du aber vorab zubereiten.",
     "variation_unique": "Belege ihn mit einem pochierten Ei, Everything-Bagel-Gewürz und Chiliflocken für einen üppig belegten Avocado-Toast.",
-    "unique_src": "32e97bdba0fb219487925803ed7488ca8aab2e38"
+    "unique_src": "21b52d6716034370822b123651f9ed87ee8edc96"
   },
   "cannabis-salad-dressing": {
     "name": "Cannabis-Salatdressing",
@@ -1379,7 +1379,7 @@
     ],
     "instructions": [
       "Die feste Sahne von der Oberseite der Dosen abschöpfen und cremig schlagen.",
-      "Cannabis-Öl, Ahornsirup, Vanille und Salz unterheben.",
+      "Beide Kokosöle gerade flüssig schmelzen und mit Ahornsirup, Vanille und Salz unter die geschlagene Creme schlagen, bis alles glatt ist, damit sich das Öl verteilt, bevor es fest wird.",
       "4-6 Stunden einfrieren. 5 Min. antauen lassen, dann in 8 Kugeln portionieren; eine Kugel ist eine Portion."
     ],
     "intro_unique": "Für Cannabis-Kokosmilch-Eis wird die Creme von vollfetter Kokosmilch mit infundiertem Kokosöl aufgeschlagen – ein cremiges, milchfreies Eis-Edible ohne Eismaschine.",
@@ -2126,7 +2126,7 @@
       "Minze"
     ],
     "instructions": [
-      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Maracuja, Zitrone und Cannabis-Honig verrühren, bis sich alles aufgelöst hat.",
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den infundierten Honig in 2 EL warmem Wasser auflösen und mit der Passionsfrucht und der Zitrone mischen.",
       "Umrühren, auf 3 Gläser mit Eis verteilen und mit Sprudelwasser auffüllen. Mit Minze garnieren."
     ],
     "intro_unique": "Tropische Cannabis-Maracuja-Limonade verbindet säuerliches Maracujamark mit frischem Zitronensaft und Cannabis-Honig zu einem exotischen, sonnigen Mocktail.",
@@ -2336,7 +2336,7 @@
     "ingredients": [
       "100g Zartbitterschokolade",
       "18g Cannabutter + 82g ungesalzene Butter",
-      "2 Eier + 2 Eigelb",
+      "2 Eier + 2 Eigelb (am besten pasteurisiert, da die Mitte flüssig bleibt)",
       "80g Puderzucker",
       "40g Mehl",
       "Prise Salz"
@@ -2350,9 +2350,9 @@
     ],
     "intro_unique": "Kleine Schokoladen-Lavakuchen mit flüssigem, cannabisinfundiertem Kern – ein eindrucksvolles Dessert in Restaurantqualität für zu Hause.",
     "dosing_unique": "Bereite den Teig in einer einzigen Schüssel zu und verteile ihn mit einer Küchenwaage gleichmäßig auf die Förmchen, damit jeder Kuchen genau die gleiche Dosis hat.",
-    "storage_unique": "Gefüllte, ungebackene Förmchen bis zu 1 Monat einfrieren; direkt gefroren backen und 2 Minuten zur Backzeit dazugeben.",
+    "storage_unique": "Gebackene Reste innerhalb von 2 Stunden kühlen. Zum späteren Backen die gefüllten, ungebackenen Förmchen bis zu 1 Monat einfrieren und gefroren backen, 2 Minuten länger.",
     "variation_unique": "Drück ein kleines Stück weiße Schokolade in die Mitte jedes Kuchens – so entsteht ein flüssiger Kern aus zwei Schokoladen.",
-    "unique_src": "38efdf4e2d24aece2e2a51b5b833ec8f89a4d01c"
+    "unique_src": "3784e2d90c66c9ed0a4919f7c875263b3d319fb3"
   },
   "cannabis-lemon-bars": {
     "name": "Cannabis-Zitronenschnitten",
@@ -2372,7 +2372,7 @@
     "instructions": [
       "Ofen auf 350°F vorheizen. Mehl, beide Butter, Puderzucker und Salz für den Boden zu Streuseln verkneten und in eine 8x8-Form drücken. 18 Min. backen.",
       "Eier, feinen Zucker, Zitronensaft und -abrieb und die 3 EL Mehl verquirlen. Über den heißen Boden gießen.",
-      "20-22 Min. backen, bis die Füllung fest ist. Abkühlen lassen und kalt stellen.",
+      "20-22 Min. backen, bis die Füllung fest ist. Abkühlen lassen und innerhalb von 2 Stunden kühlen.",
       "Mit Puderzucker bestäuben und in 16 Riegel schneiden; ein Riegel ist eine Portion."
     ],
     "intro_unique": "Säuerliche Zitronencreme auf einem buttrigen, Cannabis-infundierten Mürbeteigboden macht diese Cannabis-Zitronenschnitten zu einer frischen, zitronigen Alternative zu Schoko-Edibles.",
@@ -2441,21 +2441,21 @@
     "ingredients": [
       "400g Zartbitterschokolade, gehackt",
       "400g Cannabis-Kondensmilch",
-      "2 tbsp Butter",
+      "2 EL Cannabutter",
       "1 tsp Vanille",
       "Prise Meersalz"
     ],
     "instructions": [
-      "Schokolade, Cannabis-Kondensmilch und Butter bei niedriger Hitze schmelzen.",
+      "Schokolade, Cannabis-Kondensmilch und Cannabutter zusammen bei schwacher Hitze schmelzen und glatt rühren.",
       "Vanille einrühren.",
       "In eine ausgelegte 8x8-Form gießen. Meersalz darüber streuen.",
       "3-4 Stunden kalt stellen. In Würfel schneiden."
     ],
     "intro_unique": "Reichhaltiges, dichtes Cannabis-Fudge ist eine Süßigkeit ohne Backen, die intensiven Schokoladengeschmack in ein kleines, dekadentes Quadrat packt.",
-    "dosing_unique": "Gieß die Masse in eine mit Backpapier ausgelegte Form bekannter Größe und schneide sie in ein exaktes Raster, damit jedes Stück die gleiche Dosis hat.",
+    "dosing_unique": "In eine mit Backpapier ausgelegte 20 x 20 cm Form gießen und in ein Raster von 6 × 6, also 36 Quadrate, schneiden; eine Portion sind 3 Quadrate.",
     "storage_unique": "In einem luftdichten Behälter bis zu 2 Wochen im Kühlschrank oder 3 Monate eingefroren haltbar; Fudge taut bei Raumtemperatur schnell auf.",
     "variation_unique": "Schichte Erdnussbutter-Fudge auf das Schokoladen-Fudge – für eine zweifarbige Leckerei im Reese's-Stil.",
-    "unique_src": "4624516781b294493cf49c5382537e37c3d74331"
+    "unique_src": "fad188c1f17754e37b49796de3ae09faf3f5811c"
   },
   "cannabis-blondies": {
     "name": "Cannabis-Blondies",
@@ -2576,10 +2576,10 @@
       "In einen Fonduetopf umfüllen und mit den Beilagen servieren. Das Fondue ergibt etwa 2 Tassen; eine Portion ist ⅓ Tasse, also auf 6 kleine Schälchen verteilen, eins pro Gast."
     ],
     "intro_unique": "Cannabis-Schokoladenfondue macht jedes Treffen zum interaktiven Edible-Erlebnis, bei dem die Gäste Obst und Leckereien in warme infundierte Schokolade tunken.",
-    "dosing_unique": "Berechne die gesamten mg im Fonduetopf und stelle kleine Dip-Schälchen bereit, damit jeder Gast seine Portion selbst bestimmt.",
+    "dosing_unique": "Das Fondue auf 6 kleine Schälchen verteilen, eines pro Gast; jedes Schälchen ist eine Portion. Fondue wegwerfen, in das schon getunkt wurde oder das länger als 2 Stunden draußen stand.",
     "storage_unique": "Bewahre übriges Fondue in einem verschlossenen Glas bis zu 4 Tage im Kühlschrank auf; erwärme es sanft im Wasserbad, damit es wieder glatt wird.",
     "variation_unique": "Nimm Zartbitterschokolade mit Chilipulver und einer Prise Cayennepfeffer für ein Fondue im Stil mexikanischer heißer Schokolade.",
-    "unique_src": "98bd94a96aaeadae4682dffda1b42f534e34e781"
+    "unique_src": "243d9603515de946cea690c1c9e2c5b4f036c38a"
   },
   "infused-strawberry-shortcake": {
     "name": "Infundierter Erdbeer-Shortcake",
@@ -3105,9 +3105,9 @@
     ],
     "intro_unique": "Cannabis-Ei-Bratreis ist ein schnelles Edible für den Feierabend, das Reis vom Vortag mit infundiertem Öl, Rührei und Sojasauce verwandelt.",
     "dosing_unique": "Träufle das infundierte Sesamöl abseits der Hitze über den Reis, vermenge alles gut und teile ihn dann nach Gewicht in gleiche Portionen.",
-    "storage_unique": "Bis zu 2 Tage im Kühlschrank haltbar; in einer sehr heißen Pfanne aufwärmen, damit er wieder leicht knusprig wird.",
+    "storage_unique": "Reste schnell abkühlen und innerhalb von 1 Stunde in den Kühlschrank stellen; innerhalb eines Tages essen und nur einmal erhitzen, bis sie dampfen.",
     "variation_unique": "Mit gewürfelter chinesischer Wurst (Lap Cheong) und Frühlingszwiebeln wird daraus kantonesischer Bratreis mit süß-herzhafter Tiefe.",
-    "unique_src": "85d059311dd5b5f93aa1a84b994a31da8dd4641a"
+    "unique_src": "478694abf5712bd3d943505bb11f2d2193fa6840"
   },
   "cannabis-grilled-salmon": {
     "name": "Cannabis-Gegrillter-Lachs",
@@ -3524,7 +3524,6 @@
     "description": "Knusprige Tortilla-Chips beladen mit geschmolzenem Käse, gewürztem Fleisch und Cannabisbutter für einen teilbaren Snack mit perfekter Dosierung.",
     "category_name": "Snacks",
     "ingredients": [
-      "1,3 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "1 große Tüte Tortilla-Chips",
       "2 Esslöffel geschmolzene Cannabisbutter",
       "2 Tassen geriebener Cheddar-Käse",
@@ -3554,7 +3553,6 @@
     "description": "Ein cremiger, samtiger Käse-Dip mit echtem Cheddar und Cannabisbutter, perfekt zum Dippen von Chips, Brezeln oder frischem Gemüse.",
     "category_name": "Snacks",
     "ingredients": [
-      "1,3 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "2 Esslöffel Cannabisbutter",
       "2 Esslöffel Mehl",
       "1 Tasse Vollmilch",
@@ -3573,17 +3571,16 @@
       "Mit Salz und Pfeffer abschmecken. Warm servieren mit Chips, Brezeln oder Gemüse."
     ],
     "intro_unique": "Dieser samtige Cannabis-Käse-Dip wird von Grund auf mit echtem Cheddar und einer Cannabutter-Mehlschwitze zubereitet – eine reichhaltige Vorspeise zum Teilen.",
-    "dosing_unique": "Die Cannabutter verteilt sich gleichmäßig in der Mehlschwitze, sodass jede Portion Dip eine konstante Dosis enthält.",
+    "dosing_unique": "Den Dip auf 8 kleine Schalen verteilen, eine pro Portion, und nicht länger als 2 Stunden stehen lassen.",
     "storage_unique": "Bewahre Reste luftdicht verschlossen bis zu 3 Tage im Kühlschrank auf und erwärme sie sanft auf dem Herd mit einem Schuss Milch.",
     "variation_unique": "Gib zerbröselte Chorizo, gewürfelte Jalapeños oder einen Schuss Bier dazu für einen herzhafteren Queso mit mehr Tiefe.",
-    "unique_src": "2e9a5ce6f87d5cb9f391386f535d61743fabfe92"
+    "unique_src": "c9cd89c34aed23710933befc91feef512152503c"
   },
   "infused-stuffed-jalapenos": {
     "name": "Infundierte gefüllte Jalapeños",
     "description": "Knusprige, cremige Cannabis-Jalapeños gefüllt mit Frischkäse und Cheddar, in Speck gewickelt für einen unwiderstehlichen Partysnack.",
     "category_name": "Snacks",
     "ingredients": [
-      "3,2 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "12 große Jalapeños, halbiert und entkernt",
       "230g Frischkäse, weich",
       "1 Tasse geriebener Cheddar-Käse",
@@ -3612,7 +3609,6 @@
     "description": "Weiche, zähe Brezel-Häppchen mit Cannabisbutter im Teig, bestreut mit grobem Salz und serviert mit warmem Käse-Dip.",
     "category_name": "Snacks",
     "ingredients": [
-      "1,3 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "1 1/2 Tassen lauwarmes Wasser (43°C)",
       "1 Päckchen Trockenhefe (7g)",
       "1 Esslöffel Zucker",
@@ -3642,7 +3638,6 @@
     "description": "Klassische italienische Bruschetta verfeinert mit Cannabis-Olivenöl, reifen Tomaten und frischem Basilikum auf gerösteten Baguettescheiben.",
     "category_name": "Snacks",
     "ingredients": [
-      "1,3 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "1 französisches Baguette, in 1-cm-Scheiben geschnitten",
       "2 EL infundiertes Olivenöl + 1 EL Olivenöl",
       "4 große reife Tomaten, gewürfelt",
@@ -3669,7 +3664,6 @@
     "description": "Ein warmer, sprudelnder Spinat-Artischocken-Dip mit Cannabisbutter, Frischkäse und Parmesan, ideal zum Teilen bei jeder Zusammenkunft.",
     "category_name": "Snacks",
     "ingredients": [
-      "1 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "2 Esslöffel Cannabisbutter",
       "230g Frischkäse, weich",
       "1/2 Tasse Sauerrahm",
@@ -3699,7 +3693,6 @@
     "description": "Klassische gefüllte Eier mit Cannabisbutter, Dijon-Senf und Räucherpaprika für einen diskreten und eleganten Snack.",
     "category_name": "Snacks",
     "ingredients": [
-      "1 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "12 große Eier, hartgekocht und geschält",
       "2 Esslöffel weiche Cannabisbutter",
       "3 Esslöffel Mayonnaise",
@@ -3714,7 +3707,7 @@
       "Die Eigelbe mit einer Gabel fein zerdrücken. Cannabisbutter, Mayonnaise, Senf, Essig und Räucherpaprika hinzufügen.",
       "Alles glatt und cremig verrühren. Mit Salz und Pfeffer abschmecken.",
       "Die Füllung mit einem Spritzbeutel oder Löffel gleichmäßig in die Eihälften verteilen.",
-      "Mit Räucherpaprika und Schnittlauch garnieren. Bis zum Servieren kühlen."
+      "Mit Räucherpaprika und Schnittlauch garnieren. Bis zum Servieren kühlen. Eine Portion sind 3 gefüllte Hälften (insgesamt 24 Hälften)."
     ],
     "intro_unique": "Diese infundierten gefüllten Eier sind eine diskrete und elegante Art, Edibles zu genießen – die Cannabutter verschmilzt nahtlos mit der klassischen cremigen Eigelbfüllung.",
     "dosing_unique": "Verteile die mit Cannabutter angereicherte Füllung gleichmäßig auf die Eiweißhälften, damit jedes Stück genau die gleiche Dosis hat.",
@@ -3727,7 +3720,6 @@
     "description": "Goldbraune, knusprige Mozzarella-Sticks mit Cannabisbutter in der Panade und schmelzendem Käse im Inneren.",
     "category_name": "Snacks",
     "ingredients": [
-      "1 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "12 Mozzarella-Käsestangen",
       "1 Tasse Mehl",
       "3 große Eier, verquirlt",
@@ -3756,7 +3748,6 @@
     "description": "Ein heißer, würziger Buffalo-Chicken-Dip mit Cannabisbutter, Frischkäse und scharfer Soße für einen wirkungsvollen Party-Snack.",
     "category_name": "Snacks",
     "ingredients": [
-      "1 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "2 Tassen gekochtes, zerzupftes Hähnchen",
       "230g Frischkäse, weich",
       "1/2 Tasse Buffalo-Soße",
@@ -3785,7 +3776,6 @@
     "description": "Buttriges, aromatisches Knoblauchbrot mit Cannabisbutter, frischem Knoblauch und Petersilie, goldbraun getoastet als einfacher und köstlicher Snack.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "1 großes französisches Baguette oder italienisches Brot",
       "2 Esslöffel weiche Cannabisbutter + 2 Esslöffel weiche ungesalzene Butter",
       "4 Knoblauchzehen, fein gehackt",
@@ -3813,7 +3803,6 @@
     "description": "Knusprige Zwiebelringe mit einem leichten Bierteig, verfeinert mit Cannabisbutter, goldbraun frittiert für einen süchtig machenden Snack.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "2 große süße Zwiebeln, in 1 cm dicke Ringe geschnitten",
       "1 Tasse Mehl",
       "1/2 Tasse Speisestärke",
@@ -3843,7 +3832,6 @@
     "description": "Leichte, frische Gemüse-Frühlingsrollen mit knackigem Gemüse und einer Cannabis-Öl-Dippsoße für einen gesunden, infundierten Snack.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "8 Reispapierblätter",
       "1 Tasse gekochte und abgekühlte Reisnudeln",
       "1 Tasse fein gehobelter Rotkohl",
@@ -3872,7 +3860,6 @@
     "description": "Herzhafte, mit Cannabisbutter zubereitete Champignons, gefüllt mit italienischer Wurst und Frischkäse, goldbraun gebacken als elegante Vorspeise.",
     "category_name": "Snacks",
     "ingredients": [
-      "1 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "20 große Champignons, Stiele entfernt",
       "2 Esslöffel geschmolzene Cannabisbutter",
       "250g italienische Bratwurst, ohne Haut",
@@ -3901,7 +3888,6 @@
     "description": "Einfache, tiefgekühlte Cannabis-Erdnussbutter-Bananen-Häppchen mit Schokoladenüberzug für einen gesunden, süßen Snack ohne Backen.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "3 große reife Bananen, in 1-cm-Scheiben geschnitten",
       "1/2 Tasse natürliche Erdnussbutter",
       "2 Esslöffel geschmolzene Cannabisbutter",
@@ -3916,7 +3902,7 @@
       "30 Minuten einfrieren, bis sie fest sind.",
       "Schokoladen-Chips mit Kokosöl im Wasserbad oder in der Mikrowelle schmelzen.",
       "Die geschmolzene Schokolade über die gefrorenen Häppchen träufeln. Mit Flockensalz und gehackten Erdnüssen bestreuen.",
-      "10 Minuten im Gefrierfach fest werden lassen. In einem luftdichten Behälter im Gefrierfach aufbewahren."
+      "10 Minuten im Gefrierfach fest werden lassen. Die Happen in 8 gleiche Teile aufteilen; ein Teil ist eine Portion. In einem luftdichten Behälter im Gefrierfach aufbewahren."
     ],
     "intro_unique": "Diese Cannabis-Erdnussbutter-Bananen-Häppchen ohne Backen sind ein gesunder, leckerer Snack aus dem Gefrierfach, mit Cannabutter in der Erdnussbutterfüllung.",
     "dosing_unique": "Misch die Cannabutter gründlich unter die Erdnussbutter und verteile sie gleichmäßig auf die Bananen-Sandwiches, damit jedes Häppchen die gleiche Dosis hat.",
@@ -3929,7 +3915,6 @@
     "description": "Knusprig gebackene Zucchini-Pommes mit Parmesan-Panko-Panade und Cannabisbutter als gesündere Alternative zu klassischen Pommes.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "4 mittelgroße Zucchini, in Stäbchen geschnitten",
       "1/2 Tasse Mehl",
       "2 große Eier, verquirlt",
@@ -3959,7 +3944,6 @@
     "description": "Knusprige Süßkartoffel-Pommes in Cannabis-Kokosöl mit rauchigen Gewürzen gebacken für eine natürlich süße, infundierte Beilage.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "3 große Süßkartoffeln, geschält und in Stäbchen geschnitten",
       "2 Esslöffel Cannabis-Kokosöl + 1 Esslöffel Kokosöl, zusammen geschmolzen, plus 1 Esslöffel normales Öl zum Backen",
       "1 Esslöffel Speisestärke",
@@ -3987,7 +3971,6 @@
     "description": "Außen knusprig, innen cremig – Avocado-Pommes mit Panko-Panade und Cannabisbutter für einen einzigartigen infundierten Snack.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "3 feste reife Avocados, entkernt und in Spalten geschnitten",
       "1/2 Tasse Mehl",
       "2 große Eier, verquirlt",
@@ -4017,7 +4000,6 @@
     "description": "Elegante Caprese-Spieße mit frischem Mozzarella, Kirschtomaten und Basilikum, beträufelt mit Cannabis-Olivenöl und Balsamico-Glasur.",
     "category_name": "Snacks",
     "ingredients": [
-      "1 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "20 Kirschtomaten",
       "20 kleine Mozzarellakugeln",
       "20 frische Basilikumblätter",
@@ -4044,7 +4026,6 @@
     "description": "Knusprige Kartoffelschalen mit Cannabisbutter bestrichen und gefüllt mit geschmolzenem Cheddar, knusprigem Speck und Sauerrahm.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "6 mittelgroße mehligkochende Kartoffeln",
       "2 Esslöffel Cannabisbutter + 1 Esslöffel ungesalzene Butter, zusammen geschmolzen",
       "1 1/2 Tassen geriebener Cheddar-Käse",
@@ -4072,7 +4053,6 @@
     "description": "Hausgemachte Cannabis-Tortilla-Chips mit Cannabis-Olivenöl gebacken, dazu frische hausgemachte Salsa für einen klassischen infundierten Snack.",
     "category_name": "Snacks",
     "ingredients": [
-      "0,8 Gramm gemahlenes Cannabis (zur Herstellung des unten genannten infundierten Fetts)",
       "10 Maistortillas, jeweils in 6 Dreiecke geschnitten",
       "2½ EL infundiertes Olivenöl + 1½ TL Olivenöl",
       "1 Teelöffel Meersalz",
@@ -4154,7 +4134,7 @@
     ],
     "instructions": [
       "Cannabis decarboxylieren: Den Ofen auf 115°C vorheizen. Das Cannabis auf einem ausgelegten Blech verteilen und 40 Minuten backen, nach der Hälfte umrühren.",
-      "Das abgekühlte decarboxylierte Cannabis in ein sauberes Einmachglas geben. Den Alkohol darüber gießen, bis das Cannabis vollständig bedeckt ist.",
+      "Das abgekühlte decarboxylierte Cannabis in ein sauberes Einmachglas geben. Den Alkohol darüber gießen, bis das Cannabis vollständig bedeckt ist. Arbeite fern von offenen Flammen, Herd und Heizgeräten: Dämpfe von hochprozentigem Alkohol entzünden sich leicht.",
       "Das Glas fest verschließen. Für eine Schnellextraktion 3-5 Minuten kräftig schütteln. Für eine stärkere Tinktur 2-4 Wochen an einem kühlen, dunklen Ort lagern und täglich schütteln.",
       "Die Tinktur durch ein Käsetuch oder feines Sieb abseihen und gut auspressen. Das Pflanzenmaterial entsorgen.",
       "In ein dunkles Glasfläschchen mit Pipette umfüllen. Mit 1 mL unter der Zunge beginnen und 15-30 Minuten auf die Wirkung warten.",
@@ -4163,8 +4143,8 @@
     "intro_unique": "Cannabis-Tinktur ist eine der vielseitigsten Cannabis-Zubereitungen: Du kannst sie sublingual dosieren oder ganz einfach fast jedem Essen oder Getränk zufügen.",
     "dosing_unique": "Fang mit 1 ml (einer vollen Pipette) unter der Zunge an und warte mindestens 30 Minuten, bevor du mehr nimmst; die Aufnahme unter der Zunge geht schneller als bei Edibles.",
     "storage_unique": "In einer dunklen Pipettenflasche aus Glas kühl und dunkel lagern; der hochprozentige Alkohol wirkt konservierend, sodass die Tinktur mehrere Jahre haltbar ist.",
-    "variation_unique": "Für eine alkoholfreie Version lässt du den Alkohol nach dem Abseihen bei niedriger Hitze verdampfen und mischst das Konzentrat mit MCT-Öl oder Glycerin.",
-    "unique_src": "bc5498f179ce03a3587380eefd8ff4221f0049d9"
+    "variation_unique": "Für eine alkoholfreie Variante nimm das infundierte Kokosöl oder den infundierten Honig der Seite; den Alkohol zu Hause nicht verdampfen, die Dämpfe sind brennbar.",
+    "unique_src": "fc2e42360f97adb2b9513c13b7b7005840ce936e"
   },
   "cannabis-maple-syrup": {
     "name": "Cannabis-Ahornsirup",
@@ -4212,9 +4192,9 @@
     ],
     "intro_unique": "Diese Cannabis-Scharfe-Soße verbindet feurige Chilis mit decarboxyliertem Cannabis und Olivenöl zu einer Würzsoße, die Wings, Tacos, Eiern und mehr Schärfe und THC verleiht.",
     "dosing_unique": "Eine typische Portion ist 1 Teelöffel; berechne das gesamte THC in deiner Charge und teile es durch die Anzahl der Teelöffel, die sie ergibt, um die Potenz pro Portion zu erhalten. Beim Abseihen geht mit dem Pflanzenmaterial auch ein Teil des THC verloren, betrachte den Wert des Rechners also als obere Schätzung.",
-    "storage_unique": "Bewahre sie in sterilisierten Glasflaschen bis zu 6 Monate im Kühlschrank auf; die Essigbasis wirkt als natürliches Konservierungsmittel, und der Geschmack vertieft sich mit der Zeit.",
+    "storage_unique": "In einer sauberen, gut verschlossenen Flasche im Kühlschrank aufbewahren und innerhalb von 4 Tagen verbrauchen; den Rest portionsweise einfrieren. Selbstgemachte Soße mit Öl ist nicht lagerstabil, also nie bei Raumtemperatur aufbewahren.",
     "variation_unique": "Nimm Habaneros für eine fruchtigere und schärfere Soße, oder gib gerösteten Knoblauch und Mango dazu für eine süß-scharfe Version.",
-    "unique_src": "495ef0e93fd6898e416fbd92a338872f12efa813"
+    "unique_src": "75f7c5c909cc4b79a72e35635d194027870b6f80"
   },
   "cannabis-kung-pao-chicken": {
     "name": "Cannabis Kung Pao Hähnchen",
@@ -4881,10 +4861,10 @@
       "Den Reis waschen und mit der Zimtstange in 4 Tassen Wasser mindestens 4 Stunden oder über Nacht einweichen.",
       "Die Zimtstange entfernen. Den Reis mit dem Einweichwasser 2-3 Minuten im Mixer pürieren.",
       "Durch ein feines Sieb oder Tuch passieren und gut ausdrücken.",
-      "Das Cannabis-Kokosöl leicht erwärmen und zusammen mit Zucker, Vanille und Milch einrühren.",
+      "Infundiertes und normales Kokosöl zusammen schmelzen. Die Reismilch mit Zucker, Vanille und Milch zurück in den Mixer geben und bei laufendem Mixer auf niedriger Stufe das warme Öl einfließen lassen; 30 Sekunden mixen.",
       "Mindestens 2 Stunden kalt stellen.",
-      "Gut umrühren und über Eis servieren. Mit Zimt bestäuben.",
-      "Ein Glas pro Portion. 60-90 Minuten auf die Wirkung warten."
+      "Noch einmal kurz schütteln oder mixen, dann auf 4 Gläser mit Eis verteilen. Jedes Glas mit etwas gemahlenem Zimt bestäuben.",
+      "Ein Glas pro Portion. Warte 2 Stunden auf die Wirkung, bevor du mehr trinkst."
     ],
     "intro_unique": "Cannabis Horchata ist ein kühles, cremiges Getränk aus Reis und Zimt mit THC – erfrischend, süß und perfekt für einen entspannten Nachmittag oder Abend.",
     "dosing_unique": "Das Cannabis-Kokosöl wird abseits der Hitze in die pürierte Reismilch geschlagen und emulgiert vollständig – für eine glatte Textur und eine gleichmäßige THC-Verteilung in jedem Glas.",
@@ -4962,10 +4942,10 @@
     "instructions": [
       "Starken schwarzen Tee aufbrühen und auf Raumtemperatur abkühlen lassen, dann kalt stellen.",
       "Limonade zubereiten: Zucker im Zitronensaft auflösen und kaltes Wasser hinzufügen.",
-      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den Cannabis-Honig in die Limonade einrühren. Den Honig vorher leicht erwärmen für besseres Auflösen.",
-      "Hohe Gläser mit Eiswürfeln füllen. Den Eistee bis zur Hälfte eingießen.",
-      "Mit der Cannabis-Limonade auffüllen. Vorsichtig umrühren.",
-      "Mit Zitronenscheibe und Minze garnieren. Ein Glas pro Portion — 60 Minuten auf die Wirkung warten."
+      "Das Glas mit dem infundierten Honig vor dem Abmessen gut umrühren. Den infundierten Honig in 2 EL warmem Wasser auflösen und vollständig unter die Limonade rühren.",
+      "4 hohe Gläser mit Eis füllen und zuerst die Cannabis-Limonade gleichmäßig darauf verteilen.",
+      "Jedes Glas mit dem Eistee auffüllen und vorsichtig umrühren.",
+      "Mit einer Zitronenscheibe und einem Zweig frischer Minze garnieren. Ein Glas pro Portion; warte 2 Stunden vor dem nächsten."
     ],
     "intro_unique": "Ein Cannabis Arnold Palmer ist der perfekte Drink für die Veranda – halb Eistee, halb Limonade, infundiert mit THC-Honig für ein sanftes, erfrischendes High.",
     "dosing_unique": "Cannabis-infundierter Honig wird im Limonadenanteil des Drinks aufgelöst und verteilt das THC gleichmäßig – ganz ohne öligen Film oder Nachgeschmack.",
@@ -5311,7 +5291,7 @@
       "Den Ofen auf 175°C vorheizen. Backbleche mit Backpapier auslegen.",
       "Die weiche normale Butter, die weiche Cannabutter und den Zucker cremig schlagen. Die Eier einzeln hinzufügen.",
       "In einer separaten Schüssel Mehl, Weinstein, Natron und Salz vermengen. Die trockenen Zutaten nach und nach zur Buttermischung geben, bis ein weicher Teig entsteht.",
-      "Den Teig zu 2,5 cm großen Kugeln formen und jede in der Zimt-Zucker-Mischung wälzen. Mit 5 cm Abstand auf die vorbereiteten Backbleche setzen.",
+      "Den Teig wiegen und in 24 gleich große Kugeln teilen, jede in Zimtzucker wälzen. Mit 5 cm Abstand auf die vorbereiteten Bleche setzen.",
       "10-12 Minuten backen, bis die Ränder fest sind, die Mitte aber noch leicht weich ist. Die Kekse werden beim Abkühlen fester.",
       "5 Minuten auf dem Backblech abkühlen lassen, dann auf ein Kuchengitter setzen. Ergibt etwa 24 Kekse."
     ],
@@ -5510,7 +5490,7 @@
       "Den Boden 8 Minuten backen. Aus dem Ofen nehmen und auf Grillfunktion umstellen.",
       "Die Schokoladenchips mit der Sahne in einer mikrowellengeeigneten Schüssel in 30-Sekunden-Intervallen erhitzen und zwischendurch umrühren, bis alles glatt ist. Die Schokolade gleichmäßig über den warmen Boden gießen.",
       "Die Mini-Marshmallows gleichmäßig über der Schokolade verteilen. 1-2 Minuten unter dem Grill bräunen, dabei ständig beobachten, bis die Marshmallows goldbraun und geröstet sind.",
-      "Vollständig abkühlen lassen, bevor man in 9 Riegel schneidet für gleichmäßige Dosierung. Bei Raumtemperatur aufbewahren."
+      "Vollständig abkühlen lassen und in 9 Riegel schneiden, damit die Dosis gleich ist. Reste innerhalb von 2 Stunden in den Kühlschrank stellen."
     ],
     "intro_unique": "Diese Cannabis-S'mores-Riegel fangen Lagerfeuer-Nostalgie ein: ein Graham-Cracker-Boden mit Cannabutter, geschichtet mit kräftiger Schokolade und gerösteten Marshmallows.",
     "dosing_unique": "Die gesamte Cannabutter steckt im Boden – wenn du in 9 gleiche Riegel schneidest, hat also jede Portion dieselbe Dosis.",
@@ -5613,21 +5593,22 @@
     "category_name": "Desserts",
     "ingredients": [
       "2 Esslöffel Cannabutter",
-      "3/4 Tasse Zucker",
+      "1/2 Tasse Zucker",
       "1/3 Tasse Weizenmehl",
       "Prise Salz",
-      "3 große Eier, getrennt",
+      "3 große Eigelb",
       "2 Tassen Vollmilch",
       "1 Teelöffel Vanilleextrakt",
       "1 Packung (310 g) Vanillekekse",
-      "4-5 reife Bananen, in Scheiben geschnitten"
+      "4-5 reife Bananen, in Scheiben geschnitten",
+      "Schlagsahne zum Bedecken"
     ],
     "instructions": [
       "In einem mittelgroßen Topf 1/2 Tasse Zucker, Mehl und Salz vermischen. In einer separaten Schüssel die Eigelbe mit der Milch verquirlen.",
       "Die Milchmischung nach und nach zu den trockenen Zutaten rühren. Bei mittlerer Hitze unter ständigem Rühren kochen, bis der Pudding eindickt und zu blubbern beginnt, etwa 8-10 Minuten.",
       "Vom Herd nehmen und die Cannabutter und Vanille einrühren, bis die Cannabutter vollständig geschmolzen und eingearbeitet ist. Den Cannabis-Pudding leicht abkühlen lassen.",
-      "In einer Trifle-Schüssel oder einer 23x33 cm Form Vanillekekse, Bananenscheiben und warmen Pudding schichten. Die Schichten 2-3 Mal wiederholen, mit Pudding obenauf abschließen.",
-      "Die Eiweiße mit dem restlichen 1/4 Tasse Zucker zu steifen Spitzen schlagen. Die Baisermasse über den Pudding streichen und 2-3 Minuten unter dem Grill goldbraun gratinieren, oder das Baiser weglassen und stattdessen Schlagsahne verwenden.",
+      "Auf 10 Gläser verteilen: in jedem Kekse, Bananenscheiben und warme Creme schichten und mit Creme abschließen, damit jedes Glas gleich viel von der Creme mit der Dosis bekommt.",
+      "Kurz vor dem Servieren jedes Glas mit Schlagsahne bedecken.",
       "Mindestens 4 Stunden kühlen, damit sich die Aromen verbinden und die Kekse weich werden."
     ],
     "intro_unique": "Dieser Cannabis-Bananenpudding schichtet hausgemachte, mit Cannabutter infundierte Vanillecreme zwischen Vanillekekse und frische Bananen – ein cremiger, tröstlicher Klassiker aus den Südstaaten.",

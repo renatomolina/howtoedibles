@@ -272,7 +272,7 @@
     "sub_category": "baked_goods",
     "intro_unique": "Individual chocolate lava cakes with a molten cannabis-infused center create a dramatic restaurant-quality dessert at home.",
     "dosing_unique": "Prepare the batter in a single bowl and divide evenly among ramekins using a kitchen scale for identical per-cake dosing.",
-    "storage_unique": "Freeze unbaked filled ramekins for up to 1 month; bake directly from frozen, adding 2 extra minutes to the cook time.",
+    "storage_unique": "Refrigerate baked leftovers within 2 hours. To bake later, freeze unbaked filled ramekins for up to 1 month and bake from frozen, adding 2 extra minutes.",
     "variation_unique": "Add a small square of white chocolate in the center of each cake for a dual-chocolate molten core."
   },
   "cannabis-lemon-bars": {
@@ -344,9 +344,9 @@
     "base_fat": "infused condensed milk",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
-    "sub_category": "confections",
+    "sub_category": "no_bake",
     "intro_unique": "Rich, dense cannabis fudge is a no-bake confection that packs deep chocolate flavor into a small, decadent square.",
-    "dosing_unique": "Pour into a parchment-lined pan of known size and cut into a precise grid so each piece has an equal dose.",
+    "dosing_unique": "Pour into a parchment-lined 8x8 pan and cut a 6 × 6 grid of 36 squares; one serving is 3 squares.",
     "storage_unique": "Refrigerate in an airtight container for up to 2 weeks or freeze for 3 months; fudge thaws quickly at room temperature.",
     "variation_unique": "Layer peanut butter fudge on top of the chocolate fudge for a two-tone Reese's-inspired treat."
   },
@@ -439,7 +439,7 @@
     "texture_type": "no_cook",
     "sub_category": "confections",
     "intro_unique": "Cannabis chocolate fondue turns any gathering into an interactive edible experience where guests dip fruit and treats into warm infused chocolate.",
-    "dosing_unique": "Calculate the total mg in the fondue pot and provide small dipping cups so each guest controls their own portion.",
+    "dosing_unique": "Pour the fondue into 6 small cups, one per guest; each cup is one serving. Throw away fondue that has been dipped into or left out for more than 2 hours.",
     "storage_unique": "Refrigerate leftover fondue in a sealed jar for up to 4 days; reheat gently in a double boiler to restore the smooth texture.",
     "variation_unique": "Use dark chocolate with chili powder and a pinch of cayenne for a Mexican hot chocolate-style fondue."
   },
@@ -827,7 +827,7 @@
     "texture_type": "baked",
     "sub_category": "savory_snacks",
     "intro_unique": "Cannabis-infused popcorn is a savory movie-night snack where melted cannabutter is drizzled over freshly popped kernels.",
-    "dosing_unique": "Melt a measured amount of cannabutter and toss with the popcorn in a large bowl for even coating and consistent dosing.",
+    "dosing_unique": "Toss the popcorn with the melted butters in 2–3 additions, then divide it into 6 equal bowls; one bowl is one serving.",
     "storage_unique": "Store in a paper bag or airtight container at room temperature for up to 2 days; re-crisp in a low oven if needed.",
     "variation_unique": "Toss with nutritional yeast and garlic powder for a savory, cheese-flavored cannabis popcorn without dairy."
   },
@@ -1066,11 +1066,11 @@
       "lunch"
     ],
     "base_fat": "infused olive oil",
-    "cook_temp": "400F",
+    "cook_temp": "no cook",
     "texture_type": "baked",
     "sub_category": "sandwich_wrap",
     "intro_unique": "Cannabis avocado toast elevates the brunch staple with mashed avocado on crusty sourdough, finished with a drizzle of infused olive oil.",
-    "dosing_unique": "Drizzle the measured tablespoon of infused olive oil evenly over both slices so each serving gets half.",
+    "dosing_unique": "Mix the infused and plain olive oil, then drizzle half over each slice; one slice is one serving.",
     "storage_unique": "Prepare and eat immediately; avocado toast does not store well, but the infused oil can be prepped in advance.",
     "variation_unique": "Top with a poached egg, everything bagel seasoning, and red pepper flakes for a loaded avocado toast."
   },
@@ -1356,13 +1356,13 @@
       "cannabis edible",
       "lunch"
     ],
-    "base_fat": "cannabis sesame oil",
+    "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "stovetop",
     "sub_category": "pasta_rice",
     "intro_unique": "Cannabis egg fried rice is a quick weeknight edible that transforms day-old rice with infused oil, scrambled eggs, and soy sauce.",
     "dosing_unique": "Drizzle the infused sesame oil over the rice off the heat, toss well, then divide into equal portions by weight.",
-    "storage_unique": "Refrigerate for up to 2 days; reheat in a very hot skillet to restore the slightly crispy texture.",
+    "storage_unique": "Cool leftovers quickly and refrigerate within 1 hour; eat them within a day and reheat only once, until steaming hot.",
     "variation_unique": "Add diced Chinese sausage (lap cheong) and scallions for a Cantonese-style fried rice with sweet-savory depth."
   },
   "cannabis-grilled-salmon": {
@@ -2714,7 +2714,7 @@
     "texture_type": "creamy",
     "sub_category": "dips_spreads",
     "intro_unique": "This velvety cannabis cheese dip is made from scratch with real cheddar and a cannabutter roux for a rich, shareable appetizer.",
-    "dosing_unique": "The cannabutter is evenly distributed throughout the roux base, ensuring each serving of dip contains a consistent dose.",
+    "dosing_unique": "Divide the dip into 8 small bowls, one per serving, and don't leave it out for more than 2 hours.",
     "storage_unique": "Store leftovers in an airtight container in the fridge for up to 3 days and reheat gently on the stovetop with a splash of milk.",
     "variation_unique": "Add crumbled chorizo, diced jalapeños, or a splash of beer for a heartier queso with extra depth of flavor."
   },
@@ -3126,7 +3126,7 @@
     "intro_unique": "Cannabis tincture is one of the most versatile cannabis preparations, allowing sublingual dosing or easy addition to virtually any food or beverage.",
     "dosing_unique": "Start with 1 mL (one full dropper) under the tongue and wait at least 30 minutes before taking more; sublingual absorption is faster than edibles.",
     "storage_unique": "Store in a dark glass dropper bottle in a cool, dark place; the high-proof alcohol acts as a preservative, giving the tincture a shelf life of several years.",
-    "variation_unique": "For an alcohol-free version, evaporate the alcohol on low heat after straining and mix the concentrate with MCT oil or glycerin."
+    "variation_unique": "For an alcohol-free option, use the site's infused coconut oil or infused honey instead; don't boil off the alcohol at home, since its vapour is flammable."
   },
   "cannabis-maple-syrup": {
     "prepTime": "PT10M",
@@ -3168,7 +3168,7 @@
     "sub_category": "condiment",
     "intro_unique": "This cannabis hot sauce blends fiery chili peppers with decarboxylated cannabis and olive oil for a condiment that adds both heat and THC to wings, tacos, eggs, and more.",
     "dosing_unique": "A typical serving is 1 teaspoon; calculate the total THC in your batch and divide by the number of teaspoons yielded for per-serving potency. Straining removes some plant material along with part of the THC, so treat the calculator figure as an upper estimate.",
-    "storage_unique": "Store in sterilized glass bottles in the refrigerator for up to 6 months; the vinegar base acts as a natural preservative and the flavor deepens over time.",
+    "storage_unique": "Keep it in a clean, sealed bottle in the fridge and use within 4 days; freeze the rest in portions. A homemade sauce with oil isn't shelf-stable, so never keep it at room temperature.",
     "variation_unique": "Use habaneros for a fruitier and hotter sauce, or add roasted garlic and mango for a sweet-heat version."
   },
   "cannabis-kung-pao-chicken": {
