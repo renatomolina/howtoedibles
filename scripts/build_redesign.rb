@@ -464,12 +464,13 @@ end
 
 def duration(lang, m)
   return "–" if m.zero?
+  return "#{(m / 60.0).round} #{ui(lang, "recipe.h")}" if m >= 1440 # a day or more: whole hours ("26 Std. 10" is too wide at 360px)
   m >= 60 ? "#{m / 60} #{ui(lang, "recipe.h")}#{m % 60 > 0 ? " #{m % 60}" : ""}" : "#{m} #{ui(lang, "recipe.min")}"
 end
 
 def iso_minutes(s)
-  md = /PT(?:(\d+)H)?(?:(\d+)M)?/.match(s.to_s)
-  md ? md[1].to_i * 60 + md[2].to_i : 0
+  md = /\AP(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?)?\z/.match(s.to_s)
+  md ? md[1].to_i * 1440 + md[2].to_i * 60 + md[3].to_i : 0
 end
 
 # One ingredient/step line as a tap-to-strike checkbox. Inner HTML is our own data (links, the flower span).
@@ -566,7 +567,7 @@ def build_recipe_page(recipe, lang)
     "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15", "dateModified" => "2026-03-15", # real_lastmods (build_site.rb) rewrites it to the sitemap lastmod
     "recipeCategory" => recipe_t(lang, slug, "category_name") || cat,
     "recipeYield" => [fmt_num(n), "#{fmt_num(n)} servings"],
-    "recipeIngredient" => (recipe_t(lang, slug, "ingredients") || ings).map(&plain), # the source text, as before the redesign
+    "recipeIngredient" => ings.map(&plain), # with the flower grams filled in, as on the page (the translations store a bare, stale number)
     "recipeInstructions" => steps.each_with_index.map { |x, i| { "@type" => "HowToStep", "position" => i + 1, "text" => (recipe_t(lang, slug, "instructions") ? x : plain.(x)) } },
     "url" => canonical,
   }

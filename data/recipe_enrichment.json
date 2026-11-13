@@ -148,7 +148,7 @@
   "gummy-bears": {
     "prepTime": "PT20M",
     "cookTime": "PT15M",
-    "totalTime": "PT35M",
+    "totalTime": "PT1H35M",
     "keywords": [
       "gummy",
       "bears",
@@ -497,7 +497,7 @@
     "intro_unique": "Bite-sized cannabis donut holes are fried until golden and tossed in cinnamon sugar for a fun, shareable edible treat.",
     "dosing_unique": "Drop level tablespoons of batter so each donut hole is the same size, and brush each with the same amount of cannabis butter.",
     "storage_unique": "Best eaten the same day; store leftovers in a paper bag at room temperature for up to 24 hours.",
-    "variation_unique": "Fill the donut holes with vanilla pastry cream using a piping bag for a Boston cream-style center."
+    "variation_unique": "Fill the donut holes with vanilla pastry cream using a piping bag for a Boston cream-style center. Pastry cream is made with milk and eggs, so refrigerate filled donut holes within 2 hours."
   },
   "cannabis-peach-cobbler": {
     "prepTime": "PT15M",
@@ -643,7 +643,7 @@
     "texture_type": "fried",
     "sub_category": "stovetop",
     "intro_unique": "Thin, delicate cannabis crepes can be filled with sweet or savory fillings, making them a versatile vehicle for your infusion.",
-    "dosing_unique": "Use exactly 3 tablespoons of batter per crepe and swirl evenly so the cannabutter is distributed uniformly in each one.",
+    "dosing_unique": "Use exactly ¼ cup of batter per crepe (10 crepes in all) and swirl evenly so the cannabutter is distributed uniformly in each one.",
     "storage_unique": "Stack cooled crepes between sheets of parchment and refrigerate for 2 days or freeze for up to 1 month.",
     "variation_unique": "Fill with Nutella and sliced bananas for a classic Parisian street-food combination with an infused twist."
   },
@@ -1038,7 +1038,7 @@
   "cannabutter": {
     "prepTime": "PT10M",
     "cookTime": "PT3H",
-    "totalTime": "PT3H10M",
+    "totalTime": "PT11H10M",
     "keywords": [
       "cannabutter",
       "cannabis edible",
@@ -1148,7 +1148,7 @@
   "infused-milk": {
     "prepTime": "PT10M",
     "cookTime": "PT45M",
-    "totalTime": "PT55M",
+    "totalTime": "PT1H30M",
     "keywords": [
       "milk",
       "cannabis edible",
@@ -1637,7 +1637,7 @@
     "texture_type": "no_cook",
     "sub_category": "salad",
     "intro_unique": "Cannabis caprese salad drizzles infused olive oil over fresh mozzarella, ripe tomatoes, and fragrant basil for a simple Italian appetizer.",
-    "dosing_unique": "Drizzle a measured teaspoon of infused oil over each individual plate for clean, consistent dosing.",
+    "dosing_unique": "Mix the infused oil with the plain olive oil and drizzle it evenly over the 4 plates for clean, consistent dosing.",
     "storage_unique": "Assemble and serve immediately; store the infused oil separately and slice ingredients fresh each time.",
     "variation_unique": "Use burrata instead of mozzarella and add a drizzle of aged balsamic reduction for an elevated presentation."
   },
@@ -1882,7 +1882,7 @@
     "texture_type": "baked",
     "sub_category": "keto_savory",
     "intro_unique": "Crispy cannabis keto bacon bites roll bacon around a cream cheese filling infused with cannabis butter for a savory, high-fat appetizer.",
-    "dosing_unique": "Spread a measured teaspoon of the infused cream cheese mixture on each bacon strip for uniform dosing.",
+    "dosing_unique": "Divide the infused cream cheese mixture evenly among the 12 bacon strips, about 2 teaspoons each, for uniform dosing.",
     "storage_unique": "Refrigerate for up to 3 days; reheat in a 350F oven for 5 minutes to re-crisp the bacon.",
     "variation_unique": "Add diced jalapeno to the cream cheese filling for a spicy, popper-style bacon bite."
   },
@@ -2279,7 +2279,7 @@
     "texture_type": "no_cook",
     "sub_category": "vegan_sweet",
     "intro_unique": "Cannabis vegan protein balls combine plant protein powder, oats, and infused coconut oil into no-bake bites for post-workout recovery.",
-    "dosing_unique": "Roll each ball using a tablespoon measure and weigh on a scale for uniform dosing across the batch.",
+    "dosing_unique": "Weigh the whole mixture, divide the weight by 20 and roll every ball to that weight for uniform dosing across the batch.",
     "storage_unique": "Refrigerate for up to one week or freeze for up to 2 months; they hold together well straight from the freezer.",
     "variation_unique": "Roll in shredded coconut or cacao powder for different coatings that add flavor and visual variety."
   },
@@ -2375,8 +2375,8 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "citrus",
-    "intro_unique": "Bubbly cannabis sparkling lemonade combines fresh lemon juice and sparkling water with cannabis tincture for a festive, alcohol-free refresher.",
-    "dosing_unique": "Measure the cannabis simple syrup into each glass individually so every guest gets the same dose.",
+    "intro_unique": "Bubbly cannabis sparkling lemonade combines fresh lemon juice and sparkling water with infused honey for a festive, alcohol-free refresher.",
+    "dosing_unique": "Dissolve the infused honey in the warm water first, then divide the lemonade equally between the 2 glasses so each guest gets the same dose.",
     "storage_unique": "Mix fresh for each serving; sparkling water goes flat within an hour if stored.",
     "variation_unique": "Add a splash of elderflower syrup and garnish with a sprig of thyme for a botanical sparkling lemonade."
   },
@@ -2507,9 +2507,9 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "fruity",
-    "intro_unique": "Cannabis tropical punch combines mango, pineapple, and passion fruit juices with cannabis simple syrup for a vibrant mocktail.",
-    "dosing_unique": "Stir the cannabis syrup thoroughly into the juice base and pour equal glasses before topping with sparkling water.",
-    "storage_unique": "Refrigerate the punch base for up to 2 days; stir before serving so the syrup stays evenly mixed.",
+    "intro_unique": "Cannabis tropical punch combines mango, pineapple, and passion fruit juices with infused honey for a vibrant mocktail.",
+    "dosing_unique": "Stir the dissolved infused honey thoroughly into the juice base and pour equal glasses before topping with sparkling water.",
+    "storage_unique": "Refrigerate the punch base for up to 2 days; stir before serving so the infused honey stays evenly mixed.",
     "variation_unique": "Float scoops of mango sorbet in the punch bowl for a creamy, tropical float effect."
   },
   "cannabis-strawberry-basil-smash": {
@@ -2528,7 +2528,7 @@
     "texture_type": "no_cook",
     "sub_category": "fruity",
     "intro_unique": "A cannabis strawberry basil smash muddles ripe strawberries with fresh basil and cannabis honey for a sweet, herbaceous mocktail with depth.",
-    "dosing_unique": "Measure the cannabis honey with a tablespoon and muddle it in with the fruit and basil so it dissolves fully.",
+    "dosing_unique": "Measure the cannabis honey with a teaspoon, dissolve it in the warm water first, then muddle it in with the fruit and basil.",
     "storage_unique": "Serve immediately; muddled strawberries oxidize and lose their vibrant color within an hour.",
     "variation_unique": "Add a splash of balsamic vinegar for an Italian-inspired strawberry basil drink with savory undertones."
   },
@@ -2740,9 +2740,9 @@
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "citrus",
-    "intro_unique": "Vibrant infused blueberry lemonade blends fresh blueberries with lemon juice and cannabis simple syrup for a stunning purple mocktail.",
-    "dosing_unique": "Stir the cannabis syrup into the strained blueberry lemonade and pour equal glasses for even distribution.",
-    "storage_unique": "Refrigerate for up to 2 days; stir before serving so the syrup stays evenly mixed.",
+    "intro_unique": "Vibrant infused blueberry lemonade blends fresh blueberries with lemon juice and infused honey for a stunning purple mocktail.",
+    "dosing_unique": "Stir the infused honey into the warm strained blueberry juice until fully dissolved, then stir the lemonade well and pour equal glasses for even distribution.",
+    "storage_unique": "Refrigerate for up to 2 days; stir before serving so the infused honey stays evenly mixed.",
     "variation_unique": "Add a splash of coconut cream for a creamy blueberry lemonade smoothie with a tropical twist."
   },
   "cannabis-ginger-turmeric-tonic": {
@@ -3307,7 +3307,7 @@
     "texture_type": "baked",
     "sub_category": "fried_snacks",
     "intro_unique": "These cannabis avocado fries feature a crispy panko coating with cannabutter, encasing creamy avocado wedges for a unique and Instagram-worthy infused snack.",
-    "dosing_unique": "The cannabutter is in the egg wash that coats each wedge, so divide the total number of fries by your intended dose to calculate per-piece potency.",
+    "dosing_unique": "The cannabutter is in the egg wash that coats each wedge, so coat every wedge evenly and divide the fries equally among the 6 plates; one plate is one serving.",
     "storage_unique": "Avocado fries must be served immediately after baking as the avocado will discolor and soften if stored; prepare the breading station in advance for quick assembly.",
     "variation_unique": "Use firm plantain slices instead of avocado for a tropical twist, or season the breadcrumbs with everything bagel seasoning for added flavor."
   },
@@ -3896,7 +3896,7 @@
     "cook_temp": "low simmer",
     "texture_type": "braised",
     "sub_category": "german",
-    "intro_unique": "Cannabis Rouladen are beef rolls stuffed with bacon, pickles, and mustard, slowly braised in cannabutter-enriched gravy until meltingly tender and THC-infused.",
+    "intro_unique": "Cannabis Rouladen are beef rolls stuffed with bacon, pickles, and mustard, slowly braised until meltingly tender and served in a rich gravy finished with cannabutter.",
     "dosing_unique": "The cannabutter is whisked into the finished gravy off the heat, so it skips both the sear and the long braise; ladle gravy evenly over each roll.",
     "storage_unique": "The rouladen and gravy actually taste better the next day — refrigerate for up to 4 days and reheat gently in the gravy.",
     "variation_unique": "Try turkey or pork cutlets pounded thin as a lighter alternative, or add a strip of roasted red pepper inside each roll for color."
@@ -3937,7 +3937,7 @@
     "intro_unique": "Cannabis horchata is a cool, creamy rice-and-cinnamon drink laced with THC — refreshing, sweet, and perfect for a relaxed afternoon or evening.",
     "dosing_unique": "The cannabis coconut oil is whisked into the blended rice milk off heat, fully emulsifying for smooth texture and even THC distribution in every glass.",
     "storage_unique": "Keep refrigerated and shake well before each pour — the rice milk naturally settles and the drink stays fresh for up to 3 days.",
-    "variation_unique": "Add a splash of rum for an adult cocktail version, or blend in a frozen banana for a thicker, smoothie-like consistency."
+    "variation_unique": "Blend in a frozen banana for a thicker, smoothie-like consistency, or add a splash of rum for an adult version; alcohol and cannabis together hit harder, so if you're new, have half a glass and wait 2 hours."
   },
   "cannabis-mulled-wine": {
     "prepTime": "PT5M",
@@ -3956,7 +3956,7 @@
     "intro_unique": "Cannabis mulled wine fills the room with the scent of cinnamon and cloves while delivering a gentle THC warmth that pairs beautifully with the spiced red wine.",
     "dosing_unique": "Cannabis-infused honey is stirred in after the wine is removed from heat, ensuring no THC is lost to excessive temperature during the mulling process.",
     "storage_unique": "Reheat gently on the stove the next day, never boiling — keeps refrigerated for up to 3 days in a sealed bottle.",
-    "variation_unique": "Use white wine with elderflower and lemon for a lighter spring version, or substitute apple cider for an alcohol-free alternative."
+    "variation_unique": "Use white wine with elderflower and lemon for a lighter spring version, or swap the wine for unfiltered apple juice for an alcohol-free alternative."
   },
   "cannabis-pina-colada": {
     "prepTime": "PT10M",
@@ -4012,7 +4012,7 @@
     "intro_unique": "A cannabis Arnold Palmer is the perfect porch sipper — half iced tea, half lemonade, all infused with THC honey for a mellow, refreshing buzz.",
     "dosing_unique": "Cannabis-infused honey is dissolved into the lemonade portion of the drink, distributing THC evenly without any oily texture or aftertaste.",
     "storage_unique": "Keep the tea and cannabis lemonade refrigerated separately for up to 3 days — combine over ice when ready to serve for the freshest taste.",
-    "variation_unique": "Use green tea or hibiscus tea for a different flavor profile, or add a splash of vodka for a boozy John Daly version."
+    "variation_unique": "Use green tea or hibiscus tea for a different flavor profile, or add a splash of vodka for a boozy John Daly version; alcohol and cannabis together hit harder, so if you're new, have half a glass and wait 2 hours."
   },
   "cannabis-enchiladas": {
     "prepTime": "PT20M",
@@ -4188,7 +4188,7 @@
   "cannabis-tres-leches-cake": {
     "prepTime": "PT20M",
     "cookTime": "PT30M",
-    "totalTime": "PT50M",
+    "totalTime": "PT5H50M",
     "keywords": [
       "cannabis tres leches",
       "weed tres leches cake",
@@ -4263,7 +4263,7 @@
   "cannabis-pumpkin-pie": {
     "prepTime": "PT15M",
     "cookTime": "PT55M",
-    "totalTime": "PT70M",
+    "totalTime": "PT4H10M",
     "keywords": [
       "cannabis pumpkin pie",
       "weed pumpkin pie",
@@ -4282,7 +4282,7 @@
   "cannabis-strawberry-cheesecake-bars": {
     "prepTime": "PT20M",
     "cookTime": "PT40M",
-    "totalTime": "PT60M",
+    "totalTime": "PT5H50M",
     "keywords": [
       "cannabis cheesecake bars",
       "weed strawberry cheesecake",
@@ -4320,7 +4320,7 @@
   "cannabis-key-lime-pie": {
     "prepTime": "PT20M",
     "cookTime": "PT23M",
-    "totalTime": "PT43M",
+    "totalTime": "PT5H45M",
     "keywords": [
       "cannabis key lime pie",
       "weed key lime pie",
@@ -4358,7 +4358,7 @@
   "cannabis-creme-brulee": {
     "prepTime": "PT15M",
     "cookTime": "PT45M",
-    "totalTime": "PT60M",
+    "totalTime": "PT5H5M",
     "keywords": [
       "cannabis creme brulee",
       "weed creme brulee",
@@ -4452,7 +4452,7 @@
   "cannabis-pecan-pie": {
     "prepTime": "PT15M",
     "cookTime": "PT55M",
-    "totalTime": "PT70M",
+    "totalTime": "PT3H15M",
     "keywords": [
       "cannabis pecan pie",
       "weed pecan pie",
@@ -4471,7 +4471,7 @@
   "cannabis-banana-pudding": {
     "prepTime": "PT20M",
     "cookTime": "PT15M",
-    "totalTime": "PT35M",
+    "totalTime": "PT4H35M",
     "keywords": [
       "cannabis banana pudding",
       "weed banana pudding",
@@ -4490,7 +4490,7 @@
   "cannabis-peanut-butter-cups": {
     "prepTime": "PT20M",
     "cookTime": "PT5M",
-    "totalTime": "PT25M",
+    "totalTime": "PT1H35M",
     "keywords": [
       "cannabis peanut butter cups",
       "weed peanut butter cups",
@@ -4527,7 +4527,7 @@
   "cannabis-macarons": {
     "prepTime": "PT40M",
     "cookTime": "PT18M",
-    "totalTime": "PT58M",
+    "totalTime": "P1DT2H10M",
     "keywords": [
       "cannabis macarons",
       "weed macarons",
@@ -4539,7 +4539,7 @@
     "texture_type": "baked",
     "sub_category": "confections",
     "intro_unique": "These cannabis macarons feature delicate almond meringue shells filled with a cannabutter white chocolate ganache for an elegant, precisely dosed French confection.",
-    "dosing_unique": "The cannabutter is incorporated into the ganache filling and divided among 12 filled macarons, so each piece delivers a consistent, calculable dose.",
+    "dosing_unique": "The cannabutter is incorporated into the ganache filling and divided among the 24 filled macarons; one serving is 2 macarons, so each serving delivers a consistent, calculable dose.",
     "storage_unique": "Refrigerate filled macarons in an airtight container for up to 5 days; they reach their best texture after resting in the fridge for 24 hours.",
     "variation_unique": "Flavor the ganache with raspberry puree, matcha powder, or espresso for different varieties, or use dark chocolate instead of white for a more intense filling."
   },
@@ -4564,8 +4564,8 @@
   },
   "cannabis-bbq-pulled-chicken": {
     "prepTime": "PT10M",
-    "cookTime": "PT4H",
-    "totalTime": "PT4H10M",
+    "cookTime": "PT6H",
+    "totalTime": "PT6H30M",
     "keywords": [
       "cannabis pulled chicken",
       "weed BBQ chicken",

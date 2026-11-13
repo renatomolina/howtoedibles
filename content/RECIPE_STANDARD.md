@@ -53,7 +53,7 @@ Rules:
 
 - **Proportions** stay within what a trusted source uses for that kind of dish (King Arthur, Serious Eats, Bon Appétit). Cite the source in the PR when you change proportions; don't invent numbers.
 - **Pan size, time and temperature** fit each other: a thinner layer in a bigger pan bakes faster.
-- **Every listed ingredient appears in a step**, and every step-time is in `totalTime`, chilling and overnight included. `totalTime` is ISO `PT#H#M`: no days (`P2D` shows as 5 min).
+- **Every listed ingredient appears in a step**, and every step-time is in `totalTime`, chilling and overnight included. `totalTime` is an ISO duration, `PT#H#M` or `P#DT#H#M` (no weeks or seconds).
 - **Steps in order and complete:** melt the butter before "mix the melted butter", cool before cutting, bloom gelatin before heating it.
 - **Even dose:** mix the infused fat in fully; for drinks, stir or shake before pouring; for candy and gummies, an emulsifier (lecithin) in a step, not just in the list.
 - **Say what one serving is**, in a step or `dosing_unique`: "cut into 16 squares", "1 serving = 1 teaspoon", "pour into 2 glasses". The number must equal `suggested_portion`.
