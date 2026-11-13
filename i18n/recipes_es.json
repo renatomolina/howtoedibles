@@ -490,7 +490,7 @@
       "Despues de 30 minutos a una hora, retira del fuego y deja reposar por 5-10 minutos para ayudar a que los cannabinoides se asienten en las celulas de grasa.",
       "Coloca la manta de cielo sobre la parte superior de un frasco mason grande u otro recipiente hermetico para liquidos, luego vierte la mezcla sobre la manta de cielo para colar todo el material vegetal.",
       "Cuando este lo suficientemente frio para manipular, exprime todo el liquido excedente de la manta de cielo en tu recipiente de almacenamiento.",
-      "Sella bien tu recipiente, etiqueta con su contenido y fecha de vencimiento (la misma fecha que aparecia en el envase de leche) o congela en cubeteras de hielo para usar despues."
+      "Sella bien tu recipiente, etiqueta con la fecha y los mg por media taza y guárdalo en el refrigerador, o congela en cubeteras de hielo para usar después."
     ],
     "intro_unique": "La Leche Infusionada con cannabis es una base líquida para bebidas calientes, cereales y repostería que reparte el THC de forma uniforme en el lácteo.",
     "dosing_unique": "Usa leche entera para el mayor contenido de grasa y la mejor extracción; mide las porciones en medias tazas con la potencia etiquetada.",
@@ -1093,7 +1093,7 @@
       "Machaca con un tenedor. Agrega el jugo de limón, sal y pimienta. Mezcla brevemente — déjalo con trozos.",
       "Unta generosamente la mezcla de aguacate sobre el pan tostado.",
       "Rocía el aceite de oliva infusionado por encima.",
-      "Decora con hojuelas de chile, condimento o hierbas. Agrega un huevo pochado si lo deseas.",
+      "Decora con hojuelas de chile, condimento o hierbas. Agrega un huevo pochado si lo deseas (con la yema bien cocida para embarazadas o personas inmunodeprimidas).",
       "Rinde 2 porciones. Come con calma y espera al menos una hora antes de considerar otra porción."
     ],
     "intro_unique": "La Tostada de Aguacate con Cannabis eleva este clásico del brunch con aguacate machacado sobre pan de masa madre crujiente, terminado con un chorrito de aceite de oliva infusionado.",
@@ -2505,8 +2505,8 @@
     "intro_unique": "Las Bolitas de Dona Infusionadas, de un bocado, se fríen hasta dorarse y se revuelcan en azúcar con canela para un comestible divertido y fácil de compartir.",
     "dosing_unique": "Deja caer cucharadas rasas de masa para que cada bolita tenga el mismo tamaño, y barniza cada una con la misma cantidad de mantequilla de cannabis.",
     "storage_unique": "Lo mejor es comerlas el mismo día; guarda las sobras en una bolsa de papel a temperatura ambiente hasta 24 horas.",
-    "variation_unique": "Rellena las bolitas con crema pastelera de vainilla usando una manga para un centro al estilo Boston cream.",
-    "unique_src": "67ee19e7ce87a180929d59ca81f586e58dad82c9"
+    "variation_unique": "Rellena las bolitas con crema pastelera de vainilla usando una manga para un centro al estilo Boston cream. La crema pastelera lleva leche y huevo, así que refrigera las bolitas rellenas antes de 2 horas.",
+    "unique_src": "5636c74d0df54511030fc32a7a03a9ae8b12ed8b"
   },
   "cannabis-peach-cobbler": {
     "name": "Cobbler de Durazno de Cannabis",
@@ -3088,7 +3088,7 @@
     "description": "Rápido arroz frito con huevo y aceite de sésamo de cannabis.",
     "category_name": "Almuerzo",
     "ingredients": [
-      "3 cups de arroz cocido del día anterior",
+      "3 tazas de arroz cocido del día anterior (refrigerado dentro de 1 hora después de cocinarlo)",
       "3 huevos batidos",
       "1 cucharada de aceite de coco infusionado, derretido + 1 cucharada de aceite de sésamo tostado",
       "3 dientes de ajo",
@@ -4176,18 +4176,18 @@
       "7 gramos de cannabis molida",
       "450g de chiles rojos frescos (cayena, Fresno o mixtos), sin tallos",
       "4 dientes de ajo pelados",
-      "1 taza de vinagre blanco",
+      "1 taza de vinagre blanco (5% de acidez)",
       "2 cucharadas de aceite de oliva (normal, sin infusionar)",
       "1 cucharadita de sal",
       "1 cucharadita de azúcar"
     ],
     "instructions": [
       "Descarboxila la cannabis: Precalienta el horno a 115°C. Extiende la cannabis en una bandeja forrada y hornea por 40 minutos, removiendo a la mitad.",
-      "Pica los chiles en trozos gruesos. Combina en una cacerola con ajo, vinagre, sal y azúcar. Hierve y luego cocina a fuego bajo por 20 minutos.",
-      "Retira del fuego y deja enfriar un poco. Transfiere a una licuadora con el aceite de oliva y la cannabis descarboxilada.",
+      "Usa guantes y pica los chiles en trozos gruesos. Combina en una cacerola con ajo, vinagre, sal y azúcar. Hierve y luego cocina a fuego bajo por 20 minutos.",
+      "Retira del fuego y deja enfriar un poco. Transfiere a una licuadora con el aceite de oliva y la cannabis descarboxilada; quita el tapón central de la tapa y cubre la abertura con un paño para que salga el vapor.",
       "Licúa a velocidad alta hasta lograr una consistencia completamente suave, unos 2-3 minutos.",
-      "Cuela con colador fino para una salsa suave, o déjala sin colar para una textura más rústica. Ajusta sal y vinagre al gusto.",
-      "Transfiere a botellas de vidrio esterilizadas. Guarda en el refrigerador por hasta 6 meses. El sabor mejora tras unos días de reposo."
+      "Cuela con colador fino para una salsa suave, o déjala sin colar para una textura más rústica. Ajusta la sal al gusto; puedes añadir más vinagre, pero nunca menos.",
+      "Transfiere a botellas de vidrio esterilizadas. Guárdala en el refrigerador y agita antes de cada uso. El sabor mejora tras unos días de reposo."
     ],
     "intro_unique": "Esta Salsa Picante de Cannabis combina chiles picosos con cannabis descarboxilado y aceite de oliva, para un condimento que aporta picor y THC a alitas, tacos, huevos y mucho más.",
     "dosing_unique": "Una porción típica es 1 cucharadita; calcula el THC total de tu lote y divídelo entre el número de cucharaditas que rinde para obtener la potencia por porción. Al colar se elimina parte del material vegetal junto con parte del THC, así que toma la cifra de la calculadora como una estimación máxima.",
@@ -4868,8 +4868,8 @@
     "intro_unique": "La Horchata de Cannabis es una bebida fresca y cremosa de arroz y canela con THC: refrescante, dulce y perfecta para una tarde o noche relajada.",
     "dosing_unique": "El aceite de coco con cannabis se bate con la leche de arroz licuada fuera del fuego, emulsionándose por completo para una textura suave y una distribución uniforme del THC en cada vaso.",
     "storage_unique": "Mantenla refrigerada y agítala bien antes de cada vaso; la leche de arroz se asienta de forma natural y la bebida se mantiene fresca hasta 3 días.",
-    "variation_unique": "Añade un chorrito de ron para una versión de cóctel para adultos, o licúala con un plátano congelado para una consistencia más espesa, tipo smoothie.",
-    "unique_src": "e86784199505624570b650a9ed5f70544d4bbc46"
+    "variation_unique": "Licúala con un plátano congelado para una consistencia más espesa, tipo smoothie, o añade un chorrito de ron para una versión para adultos; el alcohol y el cannabis juntos pegan más fuerte, así que, si eres principiante, toma medio vaso y espera 2 horas.",
+    "unique_src": "8c3ece81fb630d5c03438bef7da30fa53c4572e1"
   },
   "cannabis-mulled-wine": {
     "name": "Vino Caliente de Cannabis",
@@ -4949,8 +4949,8 @@
     "intro_unique": "Un Arnold Palmer de Cannabis es la bebida perfecta para el porche: mitad té helado, mitad limonada, todo infusionado con miel de THC para un efecto suave y refrescante.",
     "dosing_unique": "La miel infusionada con cannabis se disuelve en la parte de limonada de la bebida, distribuyendo el THC de manera uniforme sin textura aceitosa ni regusto.",
     "storage_unique": "Guarda el té y la limonada de cannabis por separado en el refrigerador hasta 3 días; combínalos sobre hielo al momento de servir para un sabor más fresco.",
-    "variation_unique": "Usa té verde o de jamaica para un perfil de sabor distinto, o añade un chorrito de vodka para una versión con alcohol al estilo John Daly.",
-    "unique_src": "9d02ea2f0053950ba12794da3d31322a76e7b554"
+    "variation_unique": "Usa té verde o de jamaica para un perfil de sabor distinto, o añade un chorrito de vodka para una versión con alcohol al estilo John Daly; el alcohol y el cannabis juntos pegan más fuerte, así que, si eres principiante, toma medio vaso y espera 2 horas.",
+    "unique_src": "80aef69d858219fb8abaced9c45894125e79bd24"
   },
   "cannabis-enchiladas": {
     "name": "Enchiladas de Cannabis",
@@ -5548,7 +5548,7 @@
       "Derrite la mantequilla de cannabis a fuego bajo. En un recipiente grande, mezcla la leche, la crema, los huevos, el azúcar, la mantequilla de cannabis derretida, la vainilla, la canela y la nuez moscada hasta combinar bien.",
       "Extiende los cubos de pan en el molde preparado y distribuye las pasas encima si las usas. Vierte la mezcla de crema infusionada con cannabis uniformemente sobre el pan. Presiona el pan suavemente para ayudar a absorber el líquido.",
       "Deja reposar el budín por 15-20 minutos para que el pan absorba completamente la crema.",
-      "Hornea por 45-50 minutos hasta que la superficie esté dorada y la crema esté firme. Un cuchillo insertado en el centro debe salir limpio.",
+      "Hornea por 45-50 minutos hasta que la superficie esté dorada y la crema esté firme. Un cuchillo insertado en el centro debe salir limpio, o el centro debe marcar 160°F (71°C).",
       "Deja enfriar 10 minutos. Sirve caliente, rociado con salsa de vainilla o bourbon y una bola de helado de vainilla."
     ],
     "intro_unique": "Este Budín de Pan de Cannabis transforma el pan del día anterior en un postre tibio de natilla especiada, con mantequilla de cannabis derretida en el líquido de remojo para un capricho medicinal indulgente.",
@@ -5738,7 +5738,7 @@
     "category_name": "Almuerzo",
     "ingredients": [
       "1 cucharada de mantequilla de cannabis + 1 cucharada de mantequilla sin sal",
-      "450g de camarones grandes, pelados y desvenados",
+      "450g de camarones grandes, pelados y desvenados (si están congelados, descongélalos en el refrigerador durante la noche)",
       "4 dientes de ajo picados",
       "2 cucharadas de mantequilla regular",
       "Jugo de 1 limón",
@@ -5749,7 +5749,7 @@
     ],
     "instructions": [
       "Seca los camarones con papel de cocina y sazona con sal, pimienta y hojuelas de chile rojo.",
-      "Derrite la mantequilla regular en una sartén grande a fuego alto. Cocina los camarones 2 minutos por lado hasta que estén rosados. Retira y reserva.",
+      "Derrite la mantequilla regular en una sartén grande a fuego alto. Cocina los camarones unos 2 minutos por lado, hasta que estén firmes, nacarados y opacos. Retira y reserva.",
       "Reduce el fuego a medio-bajo. Agrega la mantequilla de cannabis y el ajo picado, revolviendo por 1 minuto hasta que esté aromático.",
       "Vierte el vino blanco y el jugo de limón, raspando los trozos dorados. Cocina por 2 minutos.",
       "Devuelve los camarones a la sartén y mezcla para cubrir con la salsa de mantequilla de cannabis y ajo.",
