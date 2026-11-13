@@ -107,7 +107,7 @@
         "intro": "This cannabis %{name} recipe transforms %{base_fat} into an elegant, precisely dosed confection that looks as good as it tastes. Candies and confections are perfect for micro-dosing since each piece can be made to exact specifications. Master the art of cannabis candy making with our detailed guide.",
         "dosing_tips": [
           "Confections are ideal for precise dosing because you can use molds to create identical portions. Calculate total THC and divide by the number of molds.",
-          "Use cannabis-infused coconut oil or %{base_fat} and add sunflower lecithin to improve binding in candy recipes.",
+          "Mix the %{base_fat} in completely while the mixture is warm; in candies and gummies, a little sunflower lecithin helps it stay bound.",
           "Keep individual confection doses between 2.5-10 mg for casual consumers. Smaller pieces make it easier to find your ideal dose.",
           "Allow confections to set completely before consuming since eating warm candy can cause faster, more intense absorption."
         ],
@@ -583,7 +583,7 @@
           },
           {
             "q": "Can cannabis spreads be heated for dipping?",
-            "a": "Gentle warming to serving temperature is fine and will not degrade THC. Keep below 200 F (93 C). Warm cannabis cheese dips and fondue are delicious, just heat slowly and stir frequently to maintain the emulsion.",
+            "a": "Yes. Warm it gently to serving temperature, stirring often to keep it smooth, and don't let it boil.",
             "only": [
               "cannabis-cheese-dip"
             ]
@@ -684,7 +684,7 @@
           "Skipping decarboxylation is the number one mistake. Raw cannabis contains THCA which is not psychoactive. Heat it at 240 F (115 C) for 40 minutes first.",
           "Cooking the infusion at too high a temperature. Keep it at a gentle simmer, 160-200 F (70-93 C), never a rolling boil.",
           "Not straining thoroughly. Squeeze the cheesecloth to get all the infused fat out, but do not force plant material through.",
-          "Using too much flower relative to fat. A standard ratio is 1 cup of fat to 7-10 grams of decarbed flower. More flower does not always mean stronger."
+          "Changing the flower-to-fat ratio without updating the dose. Every recipe on this site assumes the base recipe's own ratio; if you use more or less flower, enter the new grams in the calculator."
         ],
         "storage": [
           "Follow the storage note at the end of this list. Anything made with dairy, eggs, cream cheese, meat or fish goes into the fridge within 2 hours of cooking (1 hour above 90°F / 32°C).",
@@ -699,7 +699,7 @@
         "faq": [
           {
             "q": "What is the best fat for cannabis infusion?",
-            "a": "Coconut oil and butter are the top choices because their high saturated fat content binds THC most effectively. Coconut oil edges out butter slightly in extraction efficiency and shelf life. Olive oil works too but has a lower saturated fat content.",
+            "a": "Butter and coconut oil are the most common; olive oil works too. Pick the fat that suits what you'll cook; the dose depends on how much flower goes into each cup of fat, which each base recipe gives.",
             "only": [
               "cannabutter",
               "infused-coconut-oil",
@@ -840,7 +840,7 @@
           "Use a graduated dropper to measure each dose in milliliters. Calculate the total THC in your batch and divide by the total volume for mg-per-ml accuracy.",
           "For sublingual use, hold the tincture under your tongue for 60-90 seconds before swallowing. Effects can onset in 15-30 minutes this way.",
           "When adding tincture to food, effects follow normal edible timing of 45-90 minutes since it goes through digestion.",
-          "Start with 0.25-0.5 ml of a standard tincture and titrate up gradually. Tinctures are concentrated and easy to overdose."
+          "Start with about 5 mg, a fraction of one serving: tinctures are concentrated and easy to overdose."
         ],
         "common_mistakes": [
           "Using low-proof alcohol for extraction produces a weak tincture. Use 190-proof food-grade ethanol for maximum cannabinoid extraction.",
@@ -884,7 +884,7 @@
       "condiment": {
         "intro": "This cannabis %{name} recipe infuses an everyday condiment with %{base_fat} for an effortless way to add a measured dose of THC to any meal. Cannabis condiments are the ultimate %{category} convenience because you prepare them once and use them for weeks, turning ordinary meals into edible experiences with a simple squeeze or spoonful.",
         "dosing_tips": [
-          "Calculate the total THC in your condiment batch and divide by the number of tablespoon-sized servings for per-use dosing.",
+          "Calculate the total THC in your condiment batch and divide by the number of servings the recipe gives; this page shows the serving size.",
           "A single tablespoon of cannabis condiment per meal is typically sufficient for a standard 5-10 mg dose.",
           "Shake or stir your cannabis condiment before each use since the infused fat can separate over time.",
           "Track your condiment consumption throughout the day if using it on multiple meals to avoid accidental over-dosing."
@@ -921,6 +921,47 @@
           {
             "q": "Can I take cannabis condiments to a barbecue?",
             "a": "You can bring them for personal use, but never set them out without extremely clear labeling. Keep them in a separate, distinct container away from regular condiments. Only share with informed, consenting adults who understand the dose per serving."
+          }
+        ]
+      },
+      "dry_base": {
+        "intro": "This %{name} recipe carries decarboxylated cannabis in a dry pantry ingredient, so you measure THC by the spoonful instead of melting a fat. It's a strong ingredient, not a one-for-one swap: one level teaspoon is one serving.",
+        "dosing_tips": [
+          "The page shows the mg in one level teaspoon; that teaspoon is one serving.",
+          "Use at most one teaspoon per serving of the dish you make, and make up the rest of the recipe with the plain ingredient.",
+          "Stir or shake the jar before measuring, so every spoonful holds the same share of the cannabis.",
+          "New to edibles? Start with about 5 mg, a third of a teaspoon, and wait 2 hours before having more."
+        ],
+        "common_mistakes": [
+          "Swapping it one-for-one for the plain ingredient. A whole cup holds dozens of servings.",
+          "Measuring heaped spoons. Level each teaspoon with a knife so the dose matches the page.",
+          "Skipping the decarb. Raw flower is mostly THCA, which has no effect; this recipe heats it in the oven first.",
+          "Letting it get damp. Moisture makes it clump, and clumps make the dose in each spoonful uneven; keep the jar sealed and dry."
+        ],
+        "storage": [
+          "Follow the storage note at the end of this list. Anything made with dairy, eggs, cream cheese, meat or fish goes into the fridge within 2 hours of cooking (1 hour above 90°F / 32°C).",
+          "If the recipe freezes well, freeze single, labelled portions so you can thaw one dose at a time.",
+          "Label every container with the date and the mg per serving, and keep edibles out of reach of children and pets."
+        ],
+        "variations": [
+          "Use it in a recipe with a known number of servings, one level teaspoon per serving, so the calculator's dose stays right.",
+          "Whisk the measured amount into the rest of the dry ingredients first, so it spreads evenly through the dough or batter."
+        ],
+        "faq": [
+          {
+            "q": "Can I use %{name} in place of all the plain ingredient?",
+            "a": "No. One level teaspoon is one serving, so a whole cup holds dozens of servings. Use one teaspoon per serving and the plain ingredient for the rest."
+          },
+          {
+            "q": "Can I eat cannabis flour raw?",
+            "a": "No. Raw flour can carry harmful bacteria, so the FDA says never to eat it raw, cookie dough included. Use cannabis flour only in recipes you bake or cook.",
+            "only": [
+              "cannabis-flour"
+            ]
+          },
+          {
+            "q": "Why decarb the flower first?",
+            "a": "Raw cannabis is mostly THCA, which has no psychoactive effect. Heating it in the oven turns it into THC, so the finished jar is ready to measure."
           }
         ]
       }
@@ -1475,7 +1516,7 @@
           "Use a flax egg or chia egg to bind without dairy, which does not affect THC distribution."
         ],
         "common_mistakes": [
-          "Substituting cannabis coconut oil 1:1 for butter without adjusting liquid content. Coconut oil has no water content unlike butter which is about 15% water.",
+          "Changing the amount of infused or plain fat. Use exactly what the recipe lists, so both the dose and the texture stay right.",
           "Overmixing vegan batters with coconut oil creates a dense, heavy texture. Mix until just combined.",
           "Baking at too high a temperature because vegan batters brown differently. Stick to %{cook_temp} and watch closely.",
           "Using refined coconut oil and missing out on flavor. Unrefined has a natural sweetness that enhances many vegan bakes."
@@ -1685,10 +1726,10 @@
       "brazilian_sweet": {
         "intro": "This cannabis %{name} recipe infuses beloved Brazilian sweet traditions with %{base_fat} for a tropical, potent treat that celebrates Brazil's rich culinary heritage. Brazilian sweets like brigadeiros, beijinhos, and coconut desserts are naturally high in fat, making them ideal vehicles for cannabis infusion. Experience a taste of Brazil with a carefully dosed twist.",
         "dosing_tips": [
-          "Brazilian sweets like brigadeiros are rolled into individual balls, making each one a precisely portioned dose. Calculate mg per ball.",
+          "Portion it evenly: rolled sweets should all be the same size, and the recipe says how many make one serving.",
           "Condensed milk-based sweets integrate cannabis butter or coconut oil smoothly. Stir continuously while cooking for even distribution.",
           "Start with 5-10 mg per piece. Brazilian sweets are rich and people often eat several at parties, so keep individual doses low.",
-          "The high sugar and fat content in Brazilian sweets can delay onset to 60-90 minutes. Be patient and do not overindulge."
+          "The high sugar and fat content can delay the onset. Be patient: wait 2 hours before having more."
         ],
         "common_mistakes": [
           "Cooking condensed milk with cannabis fat at too high a heat. Brazilian sweets require low, slow cooking. Keep the heat gentle to preserve THC.",
@@ -1709,7 +1750,7 @@
         "faq": [
           {
             "q": "Can I make cannabis brigadeiros?",
-            "a": "Absolutely, brigadeiros are one of the best Brazilian sweets for cannabis infusion. Replace part of the regular butter with cannabis butter and cook the condensed milk mixture over low heat, stirring constantly. Roll into balls and coat in sprinkles. Each ball is a perfect single dose.",
+            "a": "Absolutely, brigadeiros are one of the best Brazilian sweets for cannabis infusion. Cook the condensed milk with the cannabis butter over low heat, stirring constantly, then roll into equal balls and coat in sprinkles. The recipe says how many balls make one serving.",
             "only": [
               "infused-brigadeiro"
             ]
@@ -1917,16 +1958,16 @@
       "citrus": {
         "intro": "This cannabis %{name} recipe blends %{base_fat} with bright citrus flavors for a refreshing, non-alcoholic infused drink that is perfect for social occasions. Citrus mocktails are among the best at masking cannabis flavor thanks to their bold acidity and aromatic oils. Enjoy a sophisticated cannabis beverage without the alcohol.",
         "dosing_tips": [
-          "Use cannabis-infused simple syrup or tincture for the cleanest citrus mocktail. Fat-based infusions can create an oily film in acidic drinks.",
+          "Dissolve the %{base_fat} completely before the drink gets cold (infused honey goes into a little lukewarm water first), then stir before every pour.",
           "Aim for 5-10 mg per drink and serve in standard cocktail portions so guests know one drink equals one dose.",
           "Citrus acids can speed up stomach emptying, potentially leading to slightly faster onset. Start low and wait at least 60 minutes.",
           "Stir or shake vigorously to integrate the cannabis element fully. Separation is more visible in clear citrus drinks."
         ],
         "common_mistakes": [
-          "Using fat-based cannabis infusions in clear citrus drinks creates visible oily droplets. Tinctures or water-soluble extracts work much better.",
+          "Adding the %{base_fat} straight to ice-cold juice. Anything with oil in it sets into flecks that carry the dose; dissolve it in a little lukewarm liquid first and stir before pouring.",
           "Adding too much citrus juice masks the cannabis but also dilutes the dose. Measure both carefully.",
           "Making a large batch punch without calculating per-cup dosage leads to dangerous inconsistency.",
-          "Garnishing with large amounts of fresh herbs without informing guests. Some herbs interact with cannabinoids and alter the experience."
+          "Pouring glasses of different sizes. Measure each glass so every one carries the same share of the dose."
         ],
         "storage": [
           "Follow the storage note at the end of this list. Anything made with dairy, eggs, cream cheese, meat or fish goes into the fridge within 2 hours of cooking (1 hour above 90°F / 32°C).",
@@ -1945,11 +1986,11 @@
           },
           {
             "q": "What is the best cannabis product for citrus mocktails?",
-            "a": "Water-soluble THC emulsions are ideal because they mix completely without oily separation. Cannabis tincture is the next best option. If you only have fat-based infusions, blend with an emulsifier like lecithin or use a creamy base to hide the oil."
+            "a": "The one in the recipe. This page's dose is right only for its own cannabis ingredient, so use the site's base recipe it links to, dissolve it fully and stir before pouring."
           },
           {
             "q": "Can I make cannabis lemonade for a party?",
-            "a": "Yes, but dose carefully. Make a large batch of plain lemonade and provide cannabis simple syrup on the side so each person can add their own dose. This is safer than pre-dosing a communal pitcher where servings are inconsistent."
+            "a": "Yes, but don't dose a shared pitcher. Make the plain lemonade in the pitcher and add the cannabis ingredient glass by glass, as the recipe measures it, so every glass holds one known serving."
           },
           {
             "q": "Why does my cannabis citrus drink taste bitter?",
@@ -2064,7 +2105,7 @@
           "Sipping slowly over 30 minutes gives you better control over your experience than drinking the entire cup quickly."
         ],
         "common_mistakes": [
-          "Adding %{base_fat} to boiling liquid can cause it to scald and develop a bitter taste. Let the liquid cool to about 160-180 F (70-82 C) before stirring in the fat.",
+          "Boiling the drink once the %{base_fat} is in. Warm it gently and take it off the heat before it boils, so it doesn't scald or turn bitter.",
           "Skipping emulsification leaves an oily film on top that tastes unpleasant and means the first sips have most of the THC while the last sips have almost none.",
           "Making drinks too strong because they taste mild when warm. The effects sneak up on you. Always calculate and measure the dose precisely.",
           "Not accounting for evaporation when simmering. If your drink reduces, the concentration per ounce increases."
@@ -2082,7 +2123,7 @@
         "faq": [
           {
             "q": "Will the heat from a hot drink destroy the THC?",
-            "a": "Normal drinking temperatures of 140-180 F (60-82 C) will not degrade THC. THC begins degrading around 315 F (157 C). As long as you are not boiling your drink for an extended period with the cannabis fat in it, potency is preserved."
+            "a": "Not at drinking temperature. Warm the drink gently and don't keep it boiling with the cannabis ingredient in it."
           },
           {
             "q": "Why does my cannabis latte taste oily?",
@@ -2103,18 +2144,18 @@
         ]
       },
       "cold_drinks": {
-        "intro": "This refreshing cannabis %{name} recipe incorporates %{base_fat} into a chilled beverage that is perfect for warm days and social gatherings. Cold cannabis drinks are a discreet, enjoyable way to consume edibles with precise dose control. Blending ensures the infused fat is evenly distributed for consistent effects in every glass.",
+        "intro": "This refreshing cannabis %{name} recipe brings %{base_fat} into a chilled drink that is perfect for warm days and social gatherings. Cold cannabis drinks are a discreet way to enjoy edibles with a known dose in every glass, as long as the cannabis ingredient is fully dissolved and the drink is stirred before pouring.",
         "dosing_tips": [
-          "Blend your %{base_fat} into the drink base with an immersion blender or countertop blender for smooth, even distribution.",
+          "Mix the %{base_fat} in completely before the drink gets cold: dissolve infused honey in a little lukewarm water first, and blend or whisk an oil into the drink, as the recipe says.",
           "Cold drinks are easy to gulp down quickly. Measure each serving carefully at 5-10 mg and pace yourself.",
           "If making a punch bowl or pitcher, stir before every pour since fat separates more noticeably in cold liquids.",
-          "Consider using water-soluble THC products for cold drinks as they mix more naturally than fat-based infusions."
+          "Pour one glass per serving, as the recipe divides it, rather than sipping from a shared jug."
         ],
         "common_mistakes": [
-          "Fat-based cannabis infusions clump and separate in cold liquids. You must blend vigorously or use an emulsifier to prevent an oily layer.",
+          "Adding the %{base_fat} straight to ice. Anything with oil in it (infused honey has coconut oil) sets into flecks in the cold and takes the dose with it; mix it in before the drink is chilled and stir before pouring.",
           "Making an entire pitcher without calculating per-glass dosage leads to inconsistent and potentially dangerous servings.",
           "Adding ice dilutes the drink over time, which changes the concentration per sip. Account for this or serve over frozen fruit instead.",
-          "Assuming cold drinks hit slower than hot ones. Blended drinks digest quickly and can onset in 20-40 minutes."
+          "Assuming a cold drink works fast and having a second one. Edibles can take up to 2 hours to kick in, drinks included; wait that long before another glass."
         ],
         "storage": [
           "Follow the storage note at the end of this list. Anything made with dairy, eggs, cream cheese, meat or fish goes into the fridge within 2 hours of cooking (1 hour above 90°F / 32°C).",
@@ -2122,14 +2163,14 @@
           "Label every container with the date and the mg per serving, and keep edibles out of reach of children and pets."
         ],
         "variations": [
-          "Use cannabis-infused simple syrup instead of fat for a smoother texture that dissolves perfectly in cold drinks.",
+          "Sweeten with more plain honey or sugar to taste; never add more of the cannabis ingredient, which would raise the dose.",
           "Blend frozen fruit with cannabis coconut milk for a smoothie-style drink that masks herbal flavors naturally.",
-          "Add a scoop of cannabis-infused coconut cream to lemonade for a creamy Arnold Palmer-style infused beverage."
+          "Garnish with fresh fruit, mint or a pinch of spice; toppings without cannabis change the flavour, not the dose."
         ],
         "faq": [
           {
             "q": "How do I prevent the oily texture in cold cannabis drinks?",
-            "a": "Use a high-speed blender to create an emulsion, and add a small amount of lecithin. Alternatively, use water-soluble THC products designed for beverages. Cannabis-infused simple syrups and tinctures also mix more smoothly than fats in cold liquids."
+            "a": "Mix the cannabis ingredient in while it's warm: dissolve infused honey in a little warm water, and blend or whisk oils into the drink before adding ice. Then stir before every sip, because coconut oil firms up in the cold."
           },
           {
             "q": "Can I use cannabis tincture in cold drinks?",
@@ -2137,11 +2178,11 @@
           },
           {
             "q": "Do cold cannabis drinks work as fast as hot ones?",
-            "a": "Blended cold drinks can actually onset quite quickly, sometimes in 20-40 minutes, because the blending breaks everything into easily digestible particles. Thicker smoothie-style drinks may take a bit longer than thin juices."
+            "a": "Don't count on it. Any edible, cold drink or hot, can take up to 2 hours to kick in, so wait that long before having more."
           },
           {
             "q": "Can I carbonate a cannabis drink?",
-            "a": "Yes, but add carbonation as the last step and be gentle. Fat-based infusions can cause excessive foaming when carbonated. Water-soluble THC extracts work much better for carbonated drinks. Never shake a carbonated cannabis drink vigorously."
+            "a": "Yes. Add the sparkling water last, after the cannabis ingredient is fully dissolved, and stir gently rather than shaking. The dose in the glass doesn't change."
           }
         ]
       },
@@ -2150,13 +2191,13 @@
         "dosing_tips": [
           "Alcohol makes THC hit harder. If you're new to cannabis or to mixing it with alcohol, have half a serving, skip other drinks, and wait 2 hours before more.",
           "Cannabis and alcohol are synergistic. The combined effect is stronger than either one alone, so err heavily on the side of caution.",
-          "Use cannabis tincture for alcohol-based cocktails as it mixes more seamlessly than fat-based infusions.",
+          "Shake or stir before pouring so every glass carries the same dose.",
           "Serve these drinks slowly and provide non-infused alternatives so guests can choose their comfort level."
         ],
         "common_mistakes": [
           "Treating a cannabis cocktail like a regular drink and having multiple rounds. One cannabis cocktail should be the limit for most people due to the combined effects.",
           "Using full-strength alcohol with a full-strength cannabis dose creates a dangerously intense experience that can cause severe nausea and anxiety.",
-          "Fat-based cannabis infusions separate in clear spirits and look unappetizing. Use tinctures or infused simple syrups for cocktails.",
+          "Pouring by eye. Measure the cannabis ingredient for each drink exactly as the recipe says.",
           "Not warning guests that drinks contain cannabis. This is both unsafe and in many places illegal. Always clearly label and communicate."
         ],
         "storage": [
@@ -2188,7 +2229,7 @@
           },
           {
             "q": "How long until a cannabis cocktail takes effect?",
-            "a": "Faster than either substance alone. The alcohol speeds THC absorption and you may feel combined effects within 15-30 minutes. The cannabis portion will continue to build for up to 90 minutes while the alcohol effect follows its normal timeline. Go very slow."
+            "a": "Sooner and stronger than either one alone. The cannabis keeps building for up to 2 hours, so wait that long before another drink, and go very slow."
           }
         ]
       }

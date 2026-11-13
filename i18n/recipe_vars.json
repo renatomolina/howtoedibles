@@ -104,6 +104,14 @@
       "tincture": [
         "tintura",
         "f"
+      ],
+      "cannabis flour": [
+        "farinha de cannabis",
+        "f"
+      ],
+      "cannabis sugar": [
+        "açúcar de cannabis",
+        "m"
       ]
     },
     "cook_temp": {
@@ -292,6 +300,14 @@
       "tincture": [
         "tintura",
         "f"
+      ],
+      "cannabis flour": [
+        "harina de cannabis",
+        "f"
+      ],
+      "cannabis sugar": [
+        "azúcar de cannabis",
+        "m"
       ]
     },
     "cook_temp": {
@@ -476,6 +492,14 @@
       "tincture": [
         "Cannabis-Tinktur",
         "f"
+      ],
+      "cannabis flour": [
+        "Cannabis-Mehl",
+        "n"
+      ],
+      "cannabis sugar": [
+        "Cannabis-Zucker",
+        "m"
       ]
     },
     "cook_temp": {
@@ -674,6 +698,14 @@
       ],
       "tincture": [
         "大麻酊剂",
+        ""
+      ],
+      "cannabis flour": [
+        "大麻面粉",
+        ""
+      ],
+      "cannabis sugar": [
+        "大麻糖",
         ""
       ]
     },

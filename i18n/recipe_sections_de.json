@@ -107,7 +107,7 @@
         "intro": "Dieses Cannabis-%{name}-Rezept verwandelt %{base_fat} in eine elegante, präzise dosierte Konfektware, die so gut aussieht, wie sie schmeckt. Süßigkeiten und Konfekt eignen sich perfekt für Mikrodosierung, da jedes Stück nach exakten Vorgaben hergestellt werden kann. Meistere die Kunst der Cannabis-Süßigkeitenherstellung mit unserer detaillierten Anleitung.",
         "dosing_tips": [
           "Konfekt ist ideal für präzise Dosierung, da du Formen verwenden kannst, um identische Portionen herzustellen. Berechne das gesamte THC und teile durch die Anzahl der Formen.",
-          "Verwende Cannabis-infundiertes Kokosöl oder %{base_fat} und füge Sonnenblumenlecithin hinzu, um die Bindung in Süßigkeitenrezepten zu verbessern.",
+          "Rühre die Cannabis-Zutat vollständig ein, solange die Masse warm ist; bei Bonbons und Fruchtgummis hilft etwas Sonnenblumenlecithin, damit sie gebunden bleibt.",
           "Halte die Dosis einzelner Konfektstücke zwischen 2.5-10 mg für Gelegenheitskonsumenten. Kleinere Stücke erleichtern das Finden der idealen Dosis.",
           "Lass Konfekt vollständig fest werden, bevor du es konsumierst, da warme Süßigkeiten eine schnellere, intensivere Aufnahme verursachen können."
         ],
@@ -583,7 +583,7 @@
           },
           {
             "q": "Können Cannabis-Aufstriche zum Dippen erwärmt werden?",
-            "a": "Sanftes Erwärmen auf Serviertemperatur ist in Ordnung und baut kein THC ab. Bleibe unter 93 °C (200 °F). Warme Cannabis-Käsedips und Fondue sind köstlich, nur langsam erhitzen und häufig umrühren, um die Emulsion aufrechtzuerhalten.",
+            "a": "Ja. Erwärme ihn langsam auf Serviertemperatur, rühre oft um, damit er glatt bleibt, und lass ihn nicht kochen.",
             "only": [
               "cannabis-cheese-dip"
             ]
@@ -684,7 +684,7 @@
           "Das Überspringen der Decarboxylierung ist der Fehler Nummer eins. Rohes Cannabis enthält THCA, das nicht psychoaktiv ist. Erhitze es zuerst 40 Minuten bei 240 F (115 C).",
           "Die Infusion bei zu hoher Temperatur kochen. Halte sie auf einem sanften Simmern, 160-200 F (70-93 C), niemals sprudelnd kochen.",
           "Nicht gründlich genug abseihen. Drücke das Käsetuch aus, um das gesamte infundierte Fett zu gewinnen, aber drücke kein Pflanzenmaterial hindurch.",
-          "Zu viel Blüten im Verhältnis zum Fett verwenden. Ein Standardverhältnis ist 1 Tasse Fett auf 7-10 Gramm decarboxylierte Blüten. Mehr Blüten bedeuten nicht immer stärker."
+          "Das Verhältnis von Blüten zu Fett ändern, ohne die Dosis anzupassen. Alle Rezepte hier gehen vom Verhältnis des Grundrezepts aus; wenn du mehr oder weniger Blüten nimmst, gib die neuen Gramm in den Rechner ein."
         ],
         "storage": [
           "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
@@ -699,7 +699,7 @@
         "faq": [
           {
             "q": "Welches Fett eignet sich am besten für die Cannabis-Infusion?",
-            "a": "Kokosöl und Butter sind die erste Wahl, da ihr hoher Gehalt an gesättigten Fettsäuren THC am effektivsten bindet. Kokosöl liegt bei der Extraktionseffizienz und Haltbarkeit leicht vor Butter. Olivenöl funktioniert ebenfalls, hat aber einen geringeren Anteil an gesättigten Fettsäuren.",
+            "a": "Butter und Kokosöl sind am gängigsten; Olivenöl geht auch. Nimm das Fett, das zu deinem Gericht passt; die Dosis hängt davon ab, wie viel Blüten in jede Tasse Fett kommen, und das steht in jedem Grundrezept.",
             "only": [
               "cannabutter",
               "infused-coconut-oil",
@@ -840,7 +840,7 @@
           "Verwende eine graduierte Pipette, um jede Dosis in Millilitern abzumessen. Berechne das gesamte THC in deiner Charge und teile es durch das Gesamtvolumen für mg-pro-ml-Genauigkeit.",
           "Für sublinguale Verwendung halte die Tinktur 60-90 Sekunden unter der Zunge, bevor du sie schluckst. Die Wirkung kann so in 15-30 Minuten einsetzen.",
           "Wenn du Tinktur zu Essen hinzufügst, folgt die Wirkung dem normalen Edible-Zeitrahmen von 45-90 Minuten, da sie durch die Verdauung geht.",
-          "Beginne mit 0,25-0,5 ml einer Standard-Tinktur und steigere allmählich. Tinkturen sind konzentriert und leicht zu überdosieren."
+          "Fang mit etwa 5 mg an, einem Bruchteil einer Portion: Tinkturen sind konzentriert und leicht zu überdosieren."
         ],
         "common_mistakes": [
           "Alkohol mit niedrigem Alkoholgehalt für die Extraktion verwenden ergibt eine schwache Tinktur. Verwende 190-proof lebensmitteltauglichen Ethanol für maximale Cannabinoid-Extraktion.",
@@ -884,7 +884,7 @@
       "condiment": {
         "intro": "Dieses Cannabis-%{name}-Rezept infundiert ein alltägliches Gewürz mit %{base_fat} für eine mühelose Möglichkeit, jeder Mahlzeit eine abgemessene Dosis THC hinzuzufügen. Cannabis-Gewürze und -Saucen sind die ultimative %{category}-Bequemlichkeit, weil du sie einmal zubereitest und wochenlang verwendest, wobei gewöhnliche Mahlzeiten mit einem einfachen Spritzer oder Löffel zu Edible-Erlebnissen werden.",
         "dosing_tips": [
-          "Berechne das gesamte THC in deiner Gewürz-Charge und teile es durch die Anzahl der esslöffelgroßen Portionen für die Dosis pro Verwendung.",
+          "Berechne das gesamte THC deiner Charge und teile es durch die Zahl der Portionen, die das Rezept ergibt; diese Seite zeigt die Portionsgröße.",
           "Ein einzelner Esslöffel Cannabis-Gewürz pro Mahlzeit reicht typischerweise für eine Standard-Dosis von 5-10 mg.",
           "Schüttle oder rühre dein Cannabis-Gewürz vor jeder Verwendung, da sich das infundierte Fett mit der Zeit trennen kann.",
           "Verfolge deinen Gewürz-Konsum über den Tag, wenn du es bei mehreren Mahlzeiten verwendest, um versehentliche Überdosierung zu vermeiden."
@@ -921,6 +921,47 @@
           {
             "q": "Kann ich Cannabis-Gewürze zum Grillen mitnehmen?",
             "a": "Du kannst sie für den persönlichen Gebrauch mitbringen, aber stelle sie niemals ohne extrem deutliche Beschriftung bereit. Bewahre sie in einem separaten, deutlich unterscheidbaren Behälter abseits von regulären Gewürzen auf. Teile nur mit informierten, einwilligenden Erwachsenen, die die Dosis pro Portion verstehen."
+          }
+        ]
+      },
+      "dry_base": {
+        "intro": "Dieses %{name}-Rezept bringt decarboxyliertes Cannabis in eine trockene Vorratszutat, damit du THC löffelweise abmessen kannst, statt Fett zu schmelzen. Es ist eine starke Zutat, kein Ersatz eins zu eins: Ein gestrichener Teelöffel ist eine Portion.",
+        "dosing_tips": [
+          "Die Seite zeigt die mg in einem gestrichenen Teelöffel; dieser Teelöffel ist eine Portion.",
+          "Nimm höchstens einen Teelöffel pro Portion des Gerichts, das du machst, und ergänze den Rest des Rezepts mit der normalen Zutat.",
+          "Rühre oder schüttle das Glas vor dem Abmessen, damit jeder Löffel denselben Anteil Cannabis enthält.",
+          "Neu bei Edibles? Fang mit etwa 5 mg an, einem Drittel Teelöffel, und warte 2 Stunden, bevor du mehr nimmst."
+        ],
+        "common_mistakes": [
+          "Sie eins zu eins gegen die normale Zutat tauschen. Eine ganze Tasse enthält Dutzende Portionen.",
+          "Gehäufte Löffel abmessen. Streich jeden Teelöffel mit einem Messer glatt, damit die Dosis zur Seite passt.",
+          "Das Decarboxylieren auslassen. Rohe Blüten bestehen fast nur aus THCA, das nicht wirkt; dieses Rezept erhitzt sie zuerst im Ofen.",
+          "Sie feucht werden lassen. Feuchtigkeit lässt sie verklumpen, und Klumpen machen die Dosis pro Löffel ungleich; halte das Glas verschlossen und trocken."
+        ],
+        "storage": [
+          "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
+          "Wenn sich das Rezept einfrieren lässt, friere einzelne, beschriftete Portionen ein, damit du jeweils nur eine Dosis auftaust.",
+          "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
+        ],
+        "variations": [
+          "Verwende sie in einem Rezept mit bekannter Portionszahl, ein gestrichener Teelöffel pro Portion, damit die Dosis im Rechner stimmt.",
+          "Verrühre die abgemessene Menge zuerst mit den übrigen trockenen Zutaten, damit sie sich gleichmäßig im Teig verteilt."
+        ],
+        "faq": [
+          {
+            "q": "Kann ich %{name} statt der ganzen normalen Zutat verwenden?",
+            "a": "Nein. Ein gestrichener Teelöffel ist eine Portion, eine ganze Tasse enthält also Dutzende Portionen. Nimm einen Teelöffel pro Portion und für den Rest die normale Zutat."
+          },
+          {
+            "q": "Kann ich Cannabis-Mehl roh essen?",
+            "a": "Nein. Rohes Mehl kann schädliche Bakterien enthalten, deshalb rät die FDA, es nie roh zu essen, auch nicht in Keksteig. Verwende Cannabis-Mehl nur in Rezepten, die du backst oder kochst.",
+            "only": [
+              "cannabis-flour"
+            ]
+          },
+          {
+            "q": "Warum die Blüten zuerst decarboxylieren?",
+            "a": "Rohes Cannabis besteht fast nur aus THCA, das nicht psychoaktiv wirkt. Das Erhitzen im Ofen wandelt es in THC um, sodass das fertige Glas sofort abgemessen werden kann."
           }
         ]
       }
@@ -1475,7 +1516,7 @@
           "Verwende ein Leinsamen-Ei oder Chia-Ei als Bindemittel ohne Milchprodukte – dies beeinflusst die THC-Verteilung nicht."
         ],
         "common_mistakes": [
-          "Cannabis-Kokosöl 1:1 gegen Butter austauschen, ohne den Flüssigkeitsgehalt anzupassen. Kokosöl enthält kein Wasser, während Butter etwa 15 % Wasser enthält.",
+          "Die Menge an infundiertem oder normalem Fett ändern. Nimm genau, was im Rezept steht, damit Dosis und Konsistenz stimmen.",
           "Vegane Teige mit Kokosöl zu stark rühren erzeugt eine dichte, schwere Textur. Nur rühren, bis alles gerade verbunden ist.",
           "Bei zu hoher Temperatur backen, weil vegane Teige anders bräunen. Halte dich an %{cook_temp} und beobachte genau.",
           "Raffiniertes Kokosöl verwenden und den Geschmack verpassen. Unraffiniertes hat eine natürliche Süße, die viele vegane Backwaren aufwertet."
@@ -1685,10 +1726,10 @@
       "brazilian_sweet": {
         "intro": "Dieses Cannabis-%{name}-Rezept verbindet beliebte brasilianische Süßigkeitentraditionen mit %{base_fat} für ein tropisches, potentes Leckerei, das Brasiliens reiches kulinarisches Erbe feiert. Brasilianische Süßigkeiten wie Brigadeiros, Beijinhos und Kokosdesserts sind von Natur aus fettreich und eignen sich daher ideal als Träger für Cannabis-Infusionen. Erlebe einen Hauch von Brasilien mit einer sorgfältig dosierten Note.",
         "dosing_tips": [
-          "Brasilianische Süßigkeiten wie Brigadeiros werden zu einzelnen Kugeln gerollt, wodurch jede eine präzise portionierte Dosis ist. Berechne die mg pro Kugel.",
+          "Teile gleichmäßig auf: Gerollte Süßigkeiten sollten alle gleich groß sein, und das Rezept sagt, wie viele eine Portion sind.",
           "Süßigkeiten auf Kondensmilchbasis integrieren Cannabis-Butter oder Kokosöl problemlos. Rühre beim Kochen ständig um, um eine gleichmäßige Verteilung zu gewährleisten.",
           "Beginne mit 5-10 mg pro Stück. Brasilianische Süßigkeiten sind gehaltvoll und auf Festen isst man oft mehrere, also halte die Einzeldosen niedrig.",
-          "Der hohe Zucker- und Fettgehalt brasilianischer Süßigkeiten kann den Wirkungseintritt auf 60-90 Minuten verzögern. Sei geduldig und übertreibe es nicht."
+          "Der hohe Zucker- und Fettgehalt kann die Wirkung verzögern. Hab Geduld: Warte 2 Stunden, bevor du mehr isst."
         ],
         "common_mistakes": [
           "Kondensmilch mit Cannabis-Fett bei zu hoher Hitze kochen. Brasilianische Süßigkeiten erfordern langsames, sanftes Kochen. Halte die Hitze niedrig, um THC zu bewahren.",
@@ -1709,7 +1750,7 @@
         "faq": [
           {
             "q": "Kann ich Cannabis-Brigadeiros machen?",
-            "a": "Absolut, Brigadeiros sind eine der besten brasilianischen Süßigkeiten für Cannabis-Infusion. Ersetze einen Teil der normalen Butter durch Cannabis-Butter und koche die Kondensmilch-Mischung bei niedriger Hitze unter ständigem Rühren. Zu Kugeln rollen und mit Streuseln bestreuen. Jede Kugel ist eine perfekte Einzeldosis.",
+            "a": "Auf jeden Fall, Brigadeiros gehören zu den besten brasilianischen Süßigkeiten für Cannabis. Koche die Kondensmilch mit der Cannabutter bei niedriger Hitze unter ständigem Rühren, roll dann gleich große Kugeln und wälze sie in Streuseln. Das Rezept sagt, wie viele Kugeln eine Portion sind.",
             "only": [
               "infused-brigadeiro"
             ]
@@ -1917,16 +1958,16 @@
       "citrus": {
         "intro": "Dieses Cannabis-%{name}-Rezept verbindet %{base_fat} mit frischen Zitrusaromen zu einem erfrischenden, alkoholfreien infundierten Getränk, das perfekt für gesellige Anlässe ist. Zitrus-Mocktails gehören zu den besten, um den Cannabis-Geschmack zu überdecken, dank ihrer ausgeprägten Säure und aromatischen Öle. Genieße ein anspruchsvolles Cannabis-Getränk ohne Alkohol.",
         "dosing_tips": [
-          "Verwende mit Cannabis infundierten Zuckersirup oder Tinktur für den saubersten Zitrus-Mocktail. Fettbasierte Infusionen können in sauren Getränken einen öligen Film erzeugen.",
+          "Löse die Cannabis-Zutat vollständig auf, bevor das Getränk kalt wird (infundierter Honig kommt zuerst in etwas warmes Wasser), und rühre vor jedem Einschenken um.",
           "Ziele auf 5-10 mg pro Getränk ab und serviere in Standard-Cocktailportionen, damit die Gäste wissen, dass ein Getränk einer Dosis entspricht.",
           "Zitronensäure kann die Magenentleerung beschleunigen, was möglicherweise zu einem etwas schnelleren Wirkungseintritt führt. Fange niedrig an und warte mindestens 60 Minuten.",
           "Kräftig rühren oder schütteln, um das Cannabis-Element vollständig zu integrieren. Trennung ist bei klaren Zitrusgetränken deutlicher sichtbar."
         ],
         "common_mistakes": [
-          "Fettbasierte Cannabis-Infusionen in klaren Zitrusgetränken erzeugen sichtbare Öltröpfchen. Tinkturen oder wasserlösliche Extrakte funktionieren viel besser.",
+          "Die Cannabis-Zutat direkt in eiskalten Saft geben. Alles mit Öl darin wird zu kleinen Flocken, die die Dosis tragen; löse sie zuerst in etwas warmer Flüssigkeit auf und rühre vor dem Einschenken um.",
           "Zu viel Zitrussaft überdeckt das Cannabis, verdünnt aber auch die Dosis. Beides sorgfältig abmessen.",
           "Einen großen Bowle-Ansatz machen, ohne die Dosierung pro Tasse zu berechnen, führt zu gefährlicher Inkonsistenz.",
-          "Mit großen Mengen frischer Kräuter garnieren, ohne die Gäste zu informieren. Einige Kräuter interagieren mit Cannabinoiden und verändern das Erlebnis."
+          "Unterschiedlich große Gläser einschenken. Miss jedes Glas ab, damit jedes denselben Anteil der Dosis enthält."
         ],
         "storage": [
           "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
@@ -1945,11 +1986,11 @@
           },
           {
             "q": "Welches Cannabis-Produkt eignet sich am besten für Zitrus-Mocktails?",
-            "a": "Wasserlösliche THC-Emulsionen sind ideal, da sie sich vollständig ohne ölige Trennung mischen. Cannabis-Tinktur ist die nächstbeste Option. Wenn du nur fettbasierte Infusionen hast, mixe mit einem Emulgator wie Lecithin oder verwende eine cremige Basis, um das Öl zu verbergen."
+            "a": "Die aus dem Rezept. Die Dosis auf dieser Seite gilt nur für ihre eigene Cannabis-Zutat, also nimm unser verlinktes Grundrezept, löse sie vollständig auf und rühre vor dem Einschenken um."
           },
           {
             "q": "Kann ich Cannabis-Limonade für eine Party machen?",
-            "a": "Ja, aber dosiere sorgfältig. Stelle einen großen Ansatz normaler Limonade her und biete Cannabis-Zuckersirup separat an, damit jede Person ihre eigene Dosis hinzufügen kann. Das ist sicherer als einen gemeinsamen Krug vorzudosieren, bei dem die Portionen inkonsistent sind."
+            "a": "Ja, aber dosiere keinen gemeinsamen Krug. Mach die normale Limonade im Krug und gib die Cannabis-Zutat Glas für Glas dazu, so abgemessen wie im Rezept, damit jedes Glas eine bekannte Portion enthält."
           },
           {
             "q": "Warum schmeckt mein Cannabis-Zitrusgetränk bitter?",
@@ -2064,7 +2105,7 @@
           "Langsames Trinken über 30 Minuten gibt dir bessere Kontrolle über dein Erlebnis, als die gesamte Tasse schnell auszutrinken."
         ],
         "common_mistakes": [
-          "%{base_fat} zu kochender Flüssigkeit hinzuzufügen kann zum Anbrennen führen und einen bitteren Geschmack entwickeln. Die Flüssigkeit auf etwa 160-180 °F (70-82 °C) abkühlen lassen, bevor das Fett eingerührt wird.",
+          "Das Getränk kochen, wenn die Cannabis-Zutat schon drin ist. Erwärme es sanft und nimm es vom Herd, bevor es kocht, damit es nicht anbrennt oder bitter wird.",
           "Ohne Emulgierung bleibt ein öliger Film auf der Oberfläche, der unangenehm schmeckt und bedeutet, dass die ersten Schlucke den Großteil des THC enthalten, während die letzten Schlucke fast keines haben.",
           "Getränke zu stark machen, weil sie warm mild schmecken. Die Wirkung schleicht sich an. Immer die Dosis genau berechnen und abmessen.",
           "Verdampfung beim Köcheln nicht berücksichtigen. Wenn dein Getränk einreduziert, steigt die Konzentration pro Unze."
@@ -2082,7 +2123,7 @@
         "faq": [
           {
             "q": "Zerstört die Hitze eines heißen Getränks das THC?",
-            "a": "Normale Trinktemperaturen von 140-180 °F (60-82 °C) bauen THC nicht ab. THC beginnt sich bei etwa 315 °F (157 °C) zu zersetzen. Solange du dein Getränk nicht über einen längeren Zeitraum mit dem Cannabis-Fett darin kochst, bleibt die Potenz erhalten."
+            "a": "Nicht bei Trinktemperatur. Erwärme das Getränk sanft und lass es nicht mit der Cannabis-Zutat darin kochen."
           },
           {
             "q": "Warum schmeckt mein Cannabis-Latte ölig?",
@@ -2103,18 +2144,18 @@
         ]
       },
       "cold_drinks": {
-        "intro": "Dieses erfrischende Cannabis-%{name}-Rezept integriert %{base_fat} in ein gekühltes Getränk, das perfekt für warme Tage und gesellige Zusammenkünfte ist. Kalte Cannabis-Getränke sind eine diskrete, angenehme Art, Edibles mit präziser Dosierungskontrolle zu konsumieren. Das Mixen stellt sicher, dass das infundierte Fett gleichmäßig verteilt ist, für konsistente Wirkung in jedem Glas.",
+        "intro": "Dieses erfrischende Cannabis-%{name}-Rezept bringt die Cannabis-Zutat in ein gekühltes Getränk, perfekt für warme Tage und gesellige Runden. Kalte Getränke sind eine diskrete Art, Edibles mit einer bekannten Dosis in jedem Glas zu genießen, solange die Zutat vollständig aufgelöst ist und das Getränk vor dem Einschenken umgerührt wird.",
         "dosing_tips": [
-          "Mixe dein %{base_fat} mit einem Stabmixer oder Standmixer in die Getränkebasis für eine gleichmäßige Verteilung.",
+          "Arbeite die Cannabis-Zutat vollständig ein, bevor das Getränk kalt wird: Löse infundierten Honig zuerst in etwas warmem Wasser auf und mixe oder verquirle Öl ins Getränk, wie es im Rezept steht.",
           "Kalte Getränke werden leicht schnell ausgetrunken. Jede Portion sorgfältig auf 5-10 mg abmessen und sich Zeit lassen.",
           "Wenn du eine Bowle oder einen Krug zubereitest, rühre vor jedem Einschenken um, da sich Fett in kalten Flüssigkeiten deutlicher absetzt.",
-          "Erwäge die Verwendung wasserlöslicher THC-Produkte für kalte Getränke, da sie sich natürlicher mischen als fettbasierte Infusionen."
+          "Schenk ein Glas pro Portion ein, so wie das Rezept aufteilt, statt aus einem gemeinsamen Krug zu trinken."
         ],
         "common_mistakes": [
-          "Fettbasierte Cannabis-Infusionen verklumpen und trennen sich in kalten Flüssigkeiten. Du musst kräftig mixen oder einen Emulgator verwenden, um eine ölige Schicht zu verhindern.",
+          "Die Cannabis-Zutat direkt aufs Eis geben. Alles mit Öl darin (infundierter Honig enthält Kokosöl) wird in der Kälte zu Flocken und nimmt die Dosis mit; misch sie ein, solange sie warm ist, und rühre vor dem Einschenken um.",
           "Einen ganzen Krug zubereiten, ohne die Dosierung pro Glas zu berechnen, führt zu inkonsistenten und potenziell gefährlichen Portionen.",
           "Eis verdünnt das Getränk im Laufe der Zeit, was die Konzentration pro Schluck verändert. Dies berücksichtigen oder stattdessen über gefrorene Früchte servieren.",
-          "Annehmen, dass kalte Getränke langsamer wirken als heiße. Gemixter Getränke werden schnell verdaut und können in 20-40 Minuten wirken."
+          "Glauben, ein kaltes Getränk wirke schnell, und ein zweites trinken. Edibles können bis zu 2 Stunden brauchen, auch Getränke; warte so lange vor dem nächsten Glas."
         ],
         "storage": [
           "Halte dich an den Lagerhinweis am Ende dieser Liste. Alles mit Milchprodukten, Eiern, Frischkäse, Fleisch oder Fisch muss innerhalb von 2 Stunden nach dem Kochen in den Kühlschrank (bei über 32 °C innerhalb von 1 Stunde).",
@@ -2122,14 +2163,14 @@
           "Beschrifte jeden Behälter mit Datum und mg pro Portion und bewahre Edibles außer Reichweite von Kindern und Haustieren auf."
         ],
         "variations": [
-          "Verwende mit Cannabis infundierten Zuckersirup anstelle von Fett für eine glattere Textur, die sich perfekt in kalten Getränken auflöst.",
+          "Süße nach Geschmack mit mehr normalem Honig oder Zucker nach; gib nie mehr von der Cannabis-Zutat dazu, das würde die Dosis erhöhen.",
           "Mixe Tiefkühlobst mit Cannabis-Kokosmilch für ein Smoothie-artiges Getränk, das Kräuteraromen natürlich überdeckt.",
-          "Füge einen Löffel mit Cannabis infundierter Kokoscreme zur Limonade hinzu für ein cremiges Arnold-Palmer-artiges infundiertes Getränk."
+          "Garniere mit frischem Obst, Minze oder einer Prise Gewürz; Toppings ohne Cannabis ändern den Geschmack, nicht die Dosis."
         ],
         "faq": [
           {
             "q": "Wie verhindere ich die ölige Textur in kalten Cannabis-Getränken?",
-            "a": "Verwende einen Hochleistungsmixer, um eine Emulsion zu erzeugen, und füge eine kleine Menge Lecithin hinzu. Alternativ verwende wasserlösliche THC-Produkte, die für Getränke konzipiert sind. Mit Cannabis infundierte Zuckersirupe und Tinkturen mischen sich ebenfalls glatter als Fette in kalten Flüssigkeiten."
+            "a": "Misch die Cannabis-Zutat ein, solange sie warm ist: Löse infundierten Honig in etwas warmem Wasser auf und mixe oder verquirle Öle vor dem Eis ins Getränk. Rühre dann vor jedem Schluck um, denn Kokosöl wird in der Kälte fest."
           },
           {
             "q": "Kann ich Cannabis-Tinktur in kalten Getränken verwenden?",
@@ -2137,11 +2178,11 @@
           },
           {
             "q": "Wirken kalte Cannabis-Getränke genauso schnell wie heiße?",
-            "a": "Gemixter kalte Getränke können tatsächlich recht schnell wirken, manchmal in 20-40 Minuten, da das Mixen alles in leicht verdauliche Partikel zerkleinert. Dickere Smoothie-artige Getränke können etwas länger dauern als dünne Säfte."
+            "a": "Verlass dich nicht darauf. Jedes Edible, ob kaltes oder heißes Getränk, kann bis zu 2 Stunden brauchen, also warte so lange, bevor du mehr nimmst."
           },
           {
             "q": "Kann ich ein Cannabis-Getränk mit Kohlensäure versetzen?",
-            "a": "Ja, aber füge die Kohlensäure als letzten Schritt hinzu und sei behutsam. Fettbasierte Infusionen können bei Kohlensäure übermäßiges Schäumen verursachen. Wasserlösliche THC-Extrakte funktionieren viel besser für kohlensäurehaltige Getränke. Schüttle ein kohlensäurehaltiges Cannabis-Getränk niemals kräftig."
+            "a": "Ja. Gib das Sprudelwasser zuletzt dazu, wenn die Cannabis-Zutat vollständig aufgelöst ist, und rühre sanft um, statt zu schütteln. Die Dosis im Glas ändert sich nicht."
           }
         ]
       },
@@ -2150,13 +2191,13 @@
         "dosing_tips": [
           "Alkohol verstärkt die Wirkung von THC. Wenn du neu bei Cannabis bist oder es noch nie mit Alkohol kombiniert hast, nimm eine halbe Portion, verzichte auf weitere alkoholische Getränke und warte 2 Stunden, bevor du mehr nimmst.",
           "Cannabis und Alkohol wirken synergistisch. Die kombinierte Wirkung ist stärker als jede einzelne, also sei auf der sicheren Seite besonders vorsichtig.",
-          "Verwende Cannabis-Tinktur für alkoholbasierte Cocktails, da sie sich nahtloser mischt als fettbasierte Infusionen.",
+          "Schüttle oder rühre vor dem Einschenken, damit jedes Glas dieselbe Dosis enthält.",
           "Serviere diese Getränke langsam und biete nicht infundierte Alternativen an, damit Gäste ihren Komfortlevel wählen können."
         ],
         "common_mistakes": [
           "Einen Cannabis-Cocktail wie ein normales Getränk behandeln und mehrere Runden trinken. Ein Cannabis-Cocktail sollte für die meisten Menschen das Limit sein, aufgrund der kombinierten Wirkung.",
           "Vollstärkigen Alkohol mit einer vollen Cannabis-Dosis zu verwenden erzeugt ein gefährlich intensives Erlebnis, das schwere Übelkeit und Angst verursachen kann.",
-          "Fettbasierte Cannabis-Infusionen trennen sich in klaren Spirituosen und sehen unappetitlich aus. Verwende Tinkturen oder infundierte Zuckersirupe für Cocktails.",
+          "Nach Augenmaß einschenken. Miss die Cannabis-Zutat für jeden Drink genau so ab, wie es im Rezept steht.",
           "Gäste nicht warnen, dass Getränke Cannabis enthalten. Dies ist sowohl unsicher als auch an vielen Orten illegal. Immer klar beschriften und kommunizieren."
         ],
         "storage": [
@@ -2188,7 +2229,7 @@
           },
           {
             "q": "Wie lange dauert es, bis ein Cannabis-Cocktail wirkt?",
-            "a": "Schneller als jede Substanz allein. Der Alkohol beschleunigt die THC-Aufnahme und du kannst die kombinierten Effekte innerhalb von 15-30 Minuten spüren. Der Cannabis-Anteil baut sich weiter über bis zu 90 Minuten auf, während die Alkoholwirkung ihrem normalen Zeitablauf folgt. Gehe sehr langsam vor."
+            "a": "Früher und stärker als jedes allein. Das Cannabis wirkt bis zu 2 Stunden lang immer stärker, also warte so lange vor dem nächsten Drink und mach ganz langsam."
           }
         ]
       }
