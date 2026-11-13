@@ -12,7 +12,7 @@
       "baked_goods": {
         "intro": "This easy cannabis %{name} recipe uses %{base_fat} for a consistent, potent infusion that bakes beautifully at %{cook_temp}. Baked goods are one of the most popular ways to enjoy edibles because the fat binds perfectly with THC. Follow our step-by-step guide to get reliable dosing every time.",
         "dosing_tips": [
-          "Start with 5-10 mg of THC per serving when baking for the first time, and wait at least 90 minutes before consuming more.",
+          "New to edibles? Start with about 5 mg of THC, a fraction of one serving, and wait 2 hours before eating more.",
           "Mix your %{base_fat} thoroughly into the batter to ensure even distribution of THC across every piece.",
           "Use our calculator to determine the total milligrams in your %{base_fat}, then divide by the number of portions you plan to cut.",
           "Remember that baked goods can take 45-90 minutes to take effect because they must be digested first."
@@ -61,7 +61,7 @@
         "dosing_tips": [
           "Frozen desserts are easy to over-consume because they taste so good and the cold masks the cannabis flavor. Stick to one measured portion.",
           "Blend your %{base_fat} into the liquid base thoroughly before freezing to prevent THC from separating or settling unevenly.",
-          "Aim for 5-10 mg per scoop or bar and use exact measuring tools to portion your mixture before it sets.",
+          "Use exact measuring tools to portion your mixture before it sets, so every scoop or bar carries the same dose.",
           "Cold treats can sometimes hit slightly faster on an empty stomach because the melting process begins digestion quickly."
         ],
         "common_mistakes": [
@@ -95,7 +95,7 @@
           },
           {
             "q": "How long before a frozen edible takes effect?",
-            "a": "Frozen edibles typically take 30-90 minutes to take effect as they need to melt and be digested. They may onset slightly faster than dense baked goods because the liquid base is digested more quickly. Always wait the full 90 minutes before having more."
+            "a": "Frozen edibles typically take 30-90 minutes to take effect as they need to melt and be digested. They may onset slightly faster than dense baked goods because the liquid base is digested more quickly. Always wait 2 hours before having more."
           },
           {
             "q": "Can I refreeze melted cannabis ice cream?",
@@ -108,7 +108,7 @@
         "dosing_tips": [
           "Confections are ideal for precise dosing because you can use molds to create identical portions. Calculate total THC and divide by the number of molds.",
           "Use cannabis-infused coconut oil or %{base_fat} and add sunflower lecithin to improve binding in candy recipes.",
-          "Keep individual confection doses between 2.5-10 mg for casual consumers. Smaller pieces make it easier to find your ideal dose.",
+          "Make every piece the same size so each one carries the same dose. If you're new, start with about 5 mg, even if that's part of a piece, and wait 2 hours.",
           "Allow confections to set completely before consuming since eating warm candy can cause faster, more intense absorption."
         ],
         "common_mistakes": [
@@ -208,7 +208,7 @@
         "dosing_tips": [
           "Puddings are excellent for precise dosing because the liquid base mixes thoroughly. Stir continuously to ensure even distribution of %{base_fat}.",
           "Pour into individual ramekins or cups for pre-portioned servings with a known dose per container.",
-          "Start with 5-10 mg per serving. Puddings digest relatively quickly compared to dense baked goods, so effects may onset faster.",
+          "New to edibles? Start with about 5 mg. Puddings digest relatively quickly compared to dense baked goods, so effects may onset faster.",
           "If making a large batch, stir well before portioning since fat can rise to the top as the pudding cools."
         ],
         "common_mistakes": [
@@ -238,7 +238,7 @@
           },
           {
             "q": "Do cannabis puddings hit faster than brownies?",
-            "a": "Generally yes. Puddings are semi-liquid and easier to digest than dense baked goods, so onset can be 30-60 minutes versus 60-90 for brownies. However, individual metabolism varies significantly so always wait at least 90 minutes before taking more."
+            "a": "Generally yes. Puddings are semi-liquid and easier to digest than dense baked goods, so onset can be 30-60 minutes versus 60-90 for brownies. However, individual metabolism varies significantly so always wait 2 hours before taking more."
           },
           {
             "q": "How do I make the cannabis taste less noticeable in pudding?",
@@ -255,7 +255,7 @@
         "dosing_tips": [
           "Whisk %{base_fat} into the warm cream base before adding eggs to ensure the cannabis fat is fully emulsified throughout the custard.",
           "Pour into individual ramekins for pre-portioned servings with a precise, known dose per cup.",
-          "Aim for 5-10 mg per ramekin. Custards are rich and eaten slowly, so effects build gradually over 60-90 minutes.",
+          "If you're new, start with about 5 mg, part of a ramekin. Custards are rich and eaten slowly, so effects build gradually over 60-90 minutes.",
           "Strain the custard mixture through a fine sieve before baking to remove any lumps and guarantee even THC distribution."
         ],
         "common_mistakes": [
@@ -382,7 +382,7 @@
         "dosing_tips": [
           "Savory snacks are often eaten in handfuls, making portion control crucial. Pre-portion into individual servings of known dosage.",
           "Drizzle or toss snacks with a measured amount of %{base_fat} rather than dipping, which leads to uneven coating and dosing.",
-          "Aim for 5-10 mg per snack portion and clearly communicate this when sharing with others.",
+          "When sharing, tell everyone how many mg one portion holds, and suggest that first-timers start with about 5 mg.",
           "Spicy snacks can mask the cannabis taste but may also cause you to eat more or drink more liquid, which can affect absorption."
         ],
         "common_mistakes": [
@@ -417,7 +417,7 @@
         "dosing_tips": [
           "Sweet snacks are the most likely edible to be overeaten. Pre-portion into individual packages with the dose written on each.",
           "Mix %{base_fat} thoroughly into the warm sweet base before it sets to ensure each bite has an even amount of THC.",
-          "For bite-sized sweets, aim for 2.5-5 mg per piece so people can easily adjust their dose by eating more or fewer pieces.",
+          "Bite-sized sweets make the dose easy to adjust: start with about 5 mg and wait 2 hours before eating more pieces.",
           "Chocolate and caramel are excellent vehicles for cannabis because their strong flavors cover the herbal taste completely."
         ],
         "common_mistakes": [
@@ -505,7 +505,7 @@
         "intro": "This cannabis %{name} recipe uses %{base_fat} to craft bite-sized savory morsels that are perfect for portion-controlled dosing at %{cook_temp}. Savory bites are the ideal cannabis %{category} format because each piece is individually sized for a precise, consistent dose. These flavorful little bites pack bold seasoning that complements the herbal notes of cannabis.",
         "dosing_tips": [
           "Calculate total THC in your %{base_fat} batch and divide by the exact number of bites you form for precise per-piece dosing.",
-          "Keep each bite at 2.5-5 mg so guests can eat one or two and stay within a comfortable range.",
+          "Small bites make the dose easy to adjust: guests can start with about 5 mg and wait 2 hours before having another.",
           "Use a small cookie scoop or tablespoon measure to ensure every bite is the same size and therefore the same dose.",
           "Savory bites are snackable and easy to overeat. Set out a controlled number per person and store the rest."
         ],
@@ -528,7 +528,7 @@
         "faq": [
           {
             "q": "How many cannabis savory bites should I eat?",
-            "a": "Start with one bite and wait at least 90 minutes before having another. If each bite is 5 mg, one is a standard starter dose. Savory bites are designed for easy portion control, but you must exercise discipline and track your intake."
+            "a": "Start with about 5 mg and wait 2 hours before having another bite. Savory bites are designed for easy portion control, but you must exercise discipline and track your intake."
           },
           {
             "q": "Can I make cannabis %{name} in advance for a party?",
@@ -597,10 +597,10 @@
       "finger_food": {
         "intro": "This cannabis %{name} recipe incorporates %{base_fat} into handheld, no-utensil-needed bites that make dosing social and fun. Cannabis finger foods are ideal for gatherings because each piece is self-contained with a known dose, eliminating the guesswork of shared dishes. Bold flavors and creative presentations make these %{category} options a hit.",
         "dosing_tips": [
-          "Design each finger food piece to contain exactly one dose of 5-10 mg for straightforward consumption tracking.",
+          "Make every piece the same size so each one carries the same dose, which keeps tracking straightforward.",
           "Wrap, stuff, or encase the cannabis element inside the finger food so the THC is sealed in and evenly distributed.",
           "Provide a tray card listing ingredients, allergens, and the exact THC dose per piece for responsible serving.",
-          "Finger foods are often eaten quickly in social settings. Remind guests that effects take 60-90 minutes before eating more."
+          "Finger foods are often eaten quickly in social settings. Remind guests that effects can take up to 2 hours, so they should wait that long before eating more."
         ],
         "common_mistakes": [
           "Making finger foods so small that the cannabis flavor is concentrated, or so large that people only eat half and get an inconsistent dose.",
@@ -631,7 +631,7 @@
           },
           {
             "q": "How many cannabis finger foods should I serve per person?",
-            "a": "Limit to one or two pieces per person depending on the dose per piece. If each piece is 5 mg, two pieces equal a standard 10 mg dose. Always provide ample non-infused finger foods alongside the cannabis options."
+            "a": "Check how many mg one piece holds: first-timers should stop at about 5 mg and wait 2 hours. Always provide ample non-infused finger foods alongside the cannabis options."
           },
           {
             "q": "Do cannabis finger foods work for micro-dosing?",
@@ -673,12 +673,12 @@
     },
     "Essentials": {
       "butter_oil": {
-        "intro": "This cannabis %{name} recipe is the foundation of all cannabis cooking, teaching you to infuse %{base_fat} with maximum potency and clean flavor. Cannabis butter and oil are the building blocks that you will use in countless edible recipes. Master this essential technique and you will have consistent, reliable infusions every time.",
+        "intro": "This %{name} recipe is the foundation of all cannabis cooking: it shows you how to get maximum potency and clean flavor from your flower. Cannabis butter and oil are the building blocks that you will use in countless edible recipes. Master this essential technique and you will have consistent, reliable infusions every time.",
         "dosing_tips": [
           "Calculate potency by multiplying the THC percentage of your flower by the weight in milligrams, then multiply by your expected extraction efficiency (typically 60-80%).",
           "Label every batch with the date, strain, amount of flower used, and estimated mg per tablespoon for safe usage in recipes.",
           "Start with a known strain from a licensed source so the THC percentage on the label gives you a reliable starting point for calculations.",
-          "Test a small amount of your finished infusion before cooking a whole recipe. Take half a teaspoon and wait 90 minutes to gauge potency."
+          "Test a small amount of your finished infusion before cooking a whole recipe. Take about 5 mg worth (the page shows how much one teaspoon holds) and wait 2 hours to gauge potency."
         ],
         "common_mistakes": [
           "Skipping decarboxylation is the number one mistake. Raw cannabis contains THCA which is not psychoactive. Heat it at 240 F (115 C) for 40 minutes first.",
@@ -800,7 +800,7 @@
         "intro": "This cannabis %{name} recipe creates a versatile infused sweetener using %{base_fat} that you can add to beverages, drizzle over food, or use in any recipe calling for a liquid sweetener. Cannabis sweeteners are a foundational %{category} item that every edible maker should have on hand. Once prepared, they make dosing everyday foods effortless and precise.",
         "dosing_tips": [
           "Calculate the total THC in your batch and divide by the number of teaspoon or tablespoon servings to know the exact dose per measure.",
-          "Start with one teaspoon in your coffee or tea and wait 60-90 minutes to gauge potency before adding more next time.",
+          "Start with about 5 mg (the page shows how much one teaspoon holds) in your coffee or tea and wait 2 hours to gauge potency before adding more next time.",
           "Use a squeeze bottle or dropper for precise dispensing. Every drop should deliver a consistent, known amount of THC.",
           "Cannabis sweeteners can be deceptively potent because they are concentrated. Always measure rather than free-pouring."
         ],
@@ -885,7 +885,7 @@
         "intro": "This cannabis %{name} recipe infuses an everyday condiment with %{base_fat} for an effortless way to add a measured dose of THC to any meal. Cannabis condiments are the ultimate %{category} convenience because you prepare them once and use them for weeks, turning ordinary meals into edible experiences with a simple squeeze or spoonful.",
         "dosing_tips": [
           "Calculate the total THC in your condiment batch and divide by the number of tablespoon-sized servings for per-use dosing.",
-          "A single tablespoon of cannabis condiment per meal is typically sufficient for a standard 5-10 mg dose.",
+          "Measure the condiment with a spoon rather than pouring, so you know how many servings you're having; about 5 mg is a first-time dose.",
           "Shake or stir your cannabis condiment before each use since the infused fat can separate over time.",
           "Track your condiment consumption throughout the day if using it on multiple meals to avoid accidental over-dosing."
         ],
@@ -932,7 +932,7 @@
           "Add %{base_fat} to the sauce or finish rather than the cooking water so none of the THC is discarded when you drain the pasta.",
           "Calculate your dose per plate, not per pot. Divide the total THC in your %{base_fat} by the number of servings.",
           "Toss the finished dish thoroughly to distribute the cannabis fat evenly across all portions.",
-          "A typical lunch portion should be 5-10 mg. These are filling meals, so effects may take longer to onset, around 60-90 minutes."
+          "These are filling meals, so effects may take longer to onset, around 60-90 minutes. Wait 2 hours before having seconds."
         ],
         "common_mistakes": [
           "Adding cannabis oil to boiling pasta water wastes it since most goes down the drain. Stir it into the sauce or drizzle after plating.",
@@ -983,7 +983,7 @@
           "Stir the %{base_fat} into the soup after removing from heat and mix thoroughly. The liquid base distributes it evenly.",
           "Ladle equal portions to ensure consistent dosing. Use a measuring cup or ladle of known volume.",
           "Cream-based soups hold cannabis fat better than clear broths, where oil tends to float on top visibly.",
-          "Start with 5-10 mg per bowl. Warm liquids can onset faster than solid foods, sometimes in 30-60 minutes."
+          "New to edibles? Start with about 5 mg, part of a bowl. Warm liquids can onset faster than solid foods, sometimes in 30-60 minutes."
         ],
         "common_mistakes": [
           "Adding cannabis fat to a rapidly boiling soup. Remove from heat or reduce to a bare simmer before stirring in %{base_fat}.",
@@ -1064,7 +1064,7 @@
         "dosing_tips": [
           "Spread a measured amount of cannabis butter or mayo on the bread. One tablespoon per sandwich is usually sufficient for a single dose.",
           "Calculate mg per tablespoon of your cannabis spread and apply consistently to each sandwich.",
-          "Cannabis spreads are a gateway to precise micro-dosing. Use half a teaspoon for a mild 2-3 mg dose, or a full tablespoon for a standard 5-10 mg.",
+          "Cannabis spreads make precise dosing easy: measure the spread with a spoon, exactly as the recipe says, rather than spreading by eye.",
           "The protein, fat, and carbs in a sandwich provide a slow, steady digestion that produces gradual, long-lasting effects."
         ],
         "common_mistakes": [
@@ -1110,7 +1110,7 @@
           "Add %{base_fat} to the sauce, glaze, or finish of your main dish rather than to the main cooking fat to avoid high-heat degradation.",
           "Plate individually and add a measured amount of cannabis finishing sauce to each plate for precise dosing.",
           "Full meals slow digestion, so expect onset in 60-120 minutes. The effects may last longer than lighter edibles.",
-          "Keep the per-serving dose at 5-10 mg since the large volume of food will already cause a slow, steady release of THC."
+          "The large volume of food causes a slow, steady release of THC, so wait 2 hours before having more."
         ],
         "common_mistakes": [
           "Adding cannabis fat to the pan for searing or sauteing at high heat destroys a large percentage of the THC. Reserve it for finishing.",
@@ -1152,7 +1152,7 @@
         "dosing_tips": [
           "Stir %{base_fat} into the finished sauce off the heat and toss with the pasta to distribute THC evenly across each serving.",
           "Divide the total THC in your %{base_fat} by the number of plated portions for accurate per-plate dosing.",
-          "A single tablespoon of cannabis butter or oil per serving is usually enough for a 5-10 mg dose in a pasta dish.",
+          "Divide the sauced pasta evenly among the plates so every serving carries the same amount of cannabis butter or oil.",
           "Rich, creamy pasta sauces slow digestion. Expect onset in 60-120 minutes for a gradual, long-lasting experience."
         ],
         "common_mistakes": [
@@ -1193,7 +1193,7 @@
       "sandwich": {
         "intro": "This cannabis %{name} recipe layers %{base_fat} into a hearty, handheld meal that delivers a consistent dose in every bite. Cannabis sandwiches are among the most practical %{category} edibles because they require zero cooking skill and the spread format ensures even THC distribution. Build your perfect infused sandwich with our guide.",
         "dosing_tips": [
-          "Spread a measured tablespoon of cannabis butter, mayo, or spread on the bread for a consistent 5-10 mg dose per sandwich.",
+          "Spread a measured amount of the cannabis butter, mayo or spread on each sandwich, exactly as the recipe says, for a consistent dose per sandwich.",
           "Calculate the mg per tablespoon of your %{base_fat} and apply the same amount to each sandwich you make.",
           "Spread the cannabis fat edge-to-edge across the entire bread slice so every bite delivers an equal portion of the dose.",
           "Sandwiches combine protein, fat, and carbs for slow, steady digestion. Expect onset in 60-90 minutes with effects lasting 4-6 hours."
@@ -1231,7 +1231,7 @@
           "Add %{base_fat} to the sauce, glaze, or finishing step rather than to the primary cooking fat to avoid heat degradation.",
           "Plate individually and drizzle a measured amount of cannabis finishing sauce on each plate for precise per-person dosing.",
           "Full dinner portions slow digestion considerably. Expect onset in 60-120 minutes with a prolonged duration of 4-8 hours.",
-          "Keep per-serving doses at 5-10 mg since the volume of food already creates a slow, sustained release of THC."
+          "The volume of food creates a slow, sustained release of THC, so wait 2 hours before having more."
         ],
         "common_mistakes": [
           "Using cannabis fat as the primary pan-searing oil. Searing temperatures exceed 400 F (200 C) and will destroy most THC. Sear with regular oil and finish with cannabis fat.",
@@ -1272,7 +1272,7 @@
         "intro": "This cannabis %{name} recipe drizzles %{base_fat} over a nutrient-packed bowl of grains, proteins, and vegetables for a balanced, fully dosed %{category} meal. Cannabis bowls are a modern, health-conscious edible format where the finishing drizzle or dressing delivers a precise dose without any cooking complications. Build your bowl, add the cannabis element, and enjoy.",
         "dosing_tips": [
           "Drizzle a measured amount of cannabis oil or tahini dressing over the finished bowl for precise, visible dosing.",
-          "One tablespoon of cannabis dressing per bowl is typically a standard 5-10 mg dose. Measure with a spoon rather than pouring.",
+          "Divide the cannabis dressing evenly among the bowls. Measure with a spoon rather than pouring.",
           "Toss or mix the bowl thoroughly after adding the cannabis drizzle to distribute the dose across all components.",
           "Grain bowls with fiber and protein create slow digestion. Effects typically onset in 60-90 minutes and last 4-6 hours."
         ],
@@ -1304,7 +1304,7 @@
       "keto_baked": {
         "intro": "This cannabis %{name} recipe uses %{base_fat} with keto-friendly flours and sweeteners for a low-carb baked treat that fits your macros. Keto baking and cannabis are a perfect pairing because the high-fat ketogenic diet naturally incorporates the fats that carry THC. Enjoy your edible without breaking ketosis.",
         "dosing_tips": [
-          "Keto diets increase fat absorption, which may make edibles feel slightly stronger. Start with a lower dose of 5 mg per serving.",
+          "Keto diets increase fat absorption, which may make edibles feel slightly stronger. Start with about 5 mg and wait 2 hours.",
           "The high fat content of keto baked goods distributes THC very evenly, making dosing consistent across portions.",
           "Use almond or coconut flour recipes where %{base_fat} makes up a large proportion of the fat content for accurate calculations.",
           "Weigh portions on a kitchen scale since keto baked goods can be dense and small differences in size mean larger differences in dose."
@@ -1351,7 +1351,7 @@
         "intro": "This cannabis %{name} recipe combines %{base_fat} with keto-approved sweeteners for a guilt-free treat that satisfies your sweet tooth while keeping carbs near zero. Sugar-free cannabis sweets are ideal for health-conscious consumers who want precise dosing without the sugar crash. The high-fat base ensures excellent THC delivery.",
         "dosing_tips": [
           "Keto sweets are often made in small portions like fat bombs or truffles. Calculate the dose per piece carefully since they are calorie-dense.",
-          "The high fat content of keto sweets means efficient THC absorption. Consider starting at 5 mg per piece.",
+          "The high fat content of keto sweets means efficient THC absorption. Consider starting with about 5 mg.",
           "Use silicone molds to create identical portions with consistent weight and dose.",
           "Sugar alcohols in keto sweeteners do not affect THC absorption, so dosing math is the same as with regular sweets."
         ],
@@ -1397,7 +1397,7 @@
       "keto_savory": {
         "intro": "This cannabis %{name} recipe uses %{base_fat} in a savory, low-carb dish that delivers reliable dosing while keeping your ketogenic macros on track. Savory keto meals are naturally high in fat, making them ideal vehicles for cannabis infusions. From cheese crisps to cauliflower dishes, keto savory edibles are endlessly versatile.",
         "dosing_tips": [
-          "Fat-heavy keto meals absorb THC efficiently. Start with 5-7 mg per serving until you know how savory keto edibles affect you.",
+          "Fat-heavy keto meals absorb THC efficiently. Start with about 5 mg until you know how savory keto edibles affect you.",
           "Measure %{base_fat} precisely for each portion rather than adding it to the entire batch, especially for plated meals.",
           "Compound cannabis butters with herbs make dosing savory keto dishes elegant and precise. One pat equals one dose.",
           "Track your total fat intake including the cannabis fat within your daily keto macros to stay in ketosis."
@@ -1471,7 +1471,7 @@
         "dosing_tips": [
           "Cannabis coconut oil is the vegan baker's best friend. Its high saturated fat content extracts THC as effectively as dairy butter.",
           "Measure %{base_fat} by weight rather than volume for accuracy since coconut oil density changes with temperature.",
-          "Start with 5-10 mg per serving. Vegan baked goods may digest slightly faster due to the absence of dairy proteins.",
+          "New to edibles? Start with about 5 mg. Vegan baked goods may digest slightly faster due to the absence of dairy proteins.",
           "Use a flax egg or chia egg to bind without dairy, which does not affect THC distribution."
         ],
         "common_mistakes": [
@@ -1560,7 +1560,7 @@
         "dosing_tips": [
           "Drizzle a measured amount of cannabis oil over finished dishes rather than cooking with it for the most accurate dosing.",
           "Vegan savory dishes often use coconut oil or olive oil as the primary fat, both of which infuse well with cannabis.",
-          "Keep servings at 5-10 mg. Plant-based meals may digest slightly faster due to higher fiber content.",
+          "If you're new, start with about 5 mg. Plant-based meals may digest slightly faster due to higher fiber content.",
           "Nutritional yeast, miso, and tamari add umami depth that pairs well with and masks the herbal cannabis flavor."
         ],
         "common_mistakes": [
@@ -1604,7 +1604,7 @@
           "Add %{base_fat} as a finishing drizzle or stir it into the sauce after cooking. Plant-based sauces with coconut milk or nut cream integrate cannabis fat smoothly.",
           "Plate individually and add a measured tablespoon of cannabis oil to each serving for accurate per-person dosing.",
           "Vegan mains with high fiber may slightly delay onset. Expect 60-120 minutes for full effect.",
-          "Keep doses at 5-10 mg per serving. The substantial volume of a main course produces a gradual, sustained cannabis experience."
+          "The substantial volume of a main course produces a gradual, sustained cannabis experience, so wait 2 hours before having more."
         ],
         "common_mistakes": [
           "Stir-frying or searing tofu and vegetables in cannabis oil at high heat destroys THC. Cook with regular oil and finish with cannabis fat.",
@@ -1640,7 +1640,7 @@
       "vegan_bowl": {
         "intro": "This cannabis %{name} recipe drizzles %{base_fat} over a vibrant, plant-powered bowl brimming with grains, legumes, and fresh vegetables. Cannabis vegan bowls are the intersection of health-conscious eating and precise edible dosing, where a measured drizzle of infused oil transforms a nutritious meal into a perfectly controlled cannabis experience.",
         "dosing_tips": [
-          "Measure one tablespoon of cannabis dressing or oil per bowl for a consistent 5-10 mg dose that you can track.",
+          "Divide the cannabis dressing or oil evenly among the bowls with a measuring spoon, for a consistent dose that you can track.",
           "Toss or stir the bowl thoroughly after adding the cannabis drizzle to ensure every bite delivers an even share of THC.",
           "Fiber-rich vegan bowls slow digestion. Plan for 60-90 minutes onset with effects lasting 4-6 hours.",
           "If using a cannabis vinaigrette, shake it vigorously before each use as oil and vinegar separate quickly."
@@ -1687,7 +1687,7 @@
         "dosing_tips": [
           "Brazilian sweets like brigadeiros are rolled into individual balls, making each one a precisely portioned dose. Calculate mg per ball.",
           "Condensed milk-based sweets integrate cannabis butter or coconut oil smoothly. Stir continuously while cooking for even distribution.",
-          "Start with 5-10 mg per piece. Brazilian sweets are rich and people often eat several at parties, so keep individual doses low.",
+          "Brazilian sweets are rich and people often eat several at parties, so check how many mg one piece holds, start with about 5 mg and wait 2 hours.",
           "The high sugar and fat content in Brazilian sweets can delay onset to 60-90 minutes. Be patient and do not overindulge."
         ],
         "common_mistakes": [
@@ -1738,7 +1738,7 @@
       "brazilian_savory": {
         "intro": "This cannabis %{name} recipe brings the bold, savory flavors of Brazilian cuisine together with %{base_fat} for a hearty, infused meal that is deeply satisfying. Brazilian savory dishes like pao de queijo, coxinhas, and farofa use generous amounts of fat, making them perfect candidates for cannabis infusion. Enjoy Brazilian comfort food with a measured, consistent dose.",
         "dosing_tips": [
-          "Brazilian savory snacks are often eaten in multiples. If making coxinhas or pao de queijo, keep each piece at 2.5-5 mg so eating 2-3 stays within a safe range.",
+          "Brazilian savory snacks are often eaten in multiples. Check how many mg one piece holds before having a second; about 5 mg is a first-time dose.",
           "Mix %{base_fat} into the dough or filling thoroughly. Brazilian cheese bread dough, for example, incorporates oil homogeneously.",
           "Calculate total THC in the batch and divide by the number of pieces. Weigh dough portions for consistency.",
           "These starchy, fatty dishes can delay onset to 60-120 minutes. Eat a controlled portion and wait before having more."
@@ -1879,7 +1879,7 @@
         "dosing_tips": [
           "Stir cannabis oil into salsas, cremas, and guacamole at serving time for the most precise, per-tablespoon dosing.",
           "Mexican dishes with cheese, sour cream, and avocado have high fat content that enhances THC absorption naturally.",
-          "Start with 5-10 mg per serving. Spicy foods can mask the onset of cannabis effects, so wait the full 90 minutes before eating more.",
+          "New to edibles? Start with about 5 mg. Spicy foods can mask the onset of cannabis effects, so wait the full 2 hours before eating more.",
           "Cannabis-infused lard or manteca is traditional in Mexican cooking and integrates seamlessly into masa, beans, and sauces."
         ],
         "common_mistakes": [
@@ -1918,8 +1918,8 @@
         "intro": "This cannabis %{name} recipe blends %{base_fat} with bright citrus flavors for a refreshing, non-alcoholic infused drink that is perfect for social occasions. Citrus mocktails are among the best at masking cannabis flavor thanks to their bold acidity and aromatic oils. Enjoy a sophisticated cannabis beverage without the alcohol.",
         "dosing_tips": [
           "Use cannabis-infused simple syrup or tincture for the cleanest citrus mocktail. Fat-based infusions can create an oily film in acidic drinks.",
-          "Aim for 5-10 mg per drink and serve in standard cocktail portions so guests know one drink equals one dose.",
-          "Citrus acids can speed up stomach emptying, potentially leading to slightly faster onset. Start low and wait at least 60 minutes.",
+          "Pour equal glasses so guests know one drink equals one serving, and tell first-timers that about 5 mg is enough to start.",
+          "Citrus acids can speed up stomach emptying, potentially leading to slightly faster onset. Start low and wait 2 hours before having more.",
           "Stir or shake vigorously to integrate the cannabis element fully. Separation is more visible in clear citrus drinks."
         ],
         "common_mistakes": [
@@ -1966,7 +1966,7 @@
         "dosing_tips": [
           "Blend fruit thoroughly with your cannabis infusion to create a smooth emulsion where the dose is evenly distributed.",
           "Thick, smoothie-style fruity drinks hold fat-based cannabis infusions better than thin juices. Add banana or mango for body.",
-          "Keep doses at 5-10 mg per serving. Fruity drinks are easy to overconsume because they taste like dessert.",
+          "Fruity drinks are easy to overconsume because they taste like dessert: sip slowly and wait 2 hours before pouring another.",
           "If making a batch, serve in pre-measured portions rather than from a communal pitcher."
         ],
         "common_mistakes": [
@@ -2058,7 +2058,7 @@
       "hot_drinks": {
         "intro": "This cannabis %{name} recipe blends %{base_fat} into a warm, soothing beverage perfect for relaxation and unwinding. Hot cannabis drinks provide a comforting way to consume edibles, especially during colder months. The warmth helps the infused fat dissolve and distribute evenly for consistent dosing in every sip.",
         "dosing_tips": [
-          "Start with 5-10 mg per cup and remember that liquid edibles can onset faster than solid foods, sometimes within 20-45 minutes.",
+          "New to edibles? Start with about 5 mg, and remember that liquid edibles can onset faster than solid foods, sometimes within 20-45 minutes.",
           "Use a milk frother or blender to fully emulsify the %{base_fat} into your hot drink so it does not float on top as an oily layer.",
           "If sharing a pot, stir thoroughly before each pour because the fat tends to rise to the surface as the drink sits.",
           "Sipping slowly over 30 minutes gives you better control over your experience than drinking the entire cup quickly."
@@ -2106,7 +2106,7 @@
         "intro": "This refreshing cannabis %{name} recipe incorporates %{base_fat} into a chilled beverage that is perfect for warm days and social gatherings. Cold cannabis drinks are a discreet, enjoyable way to consume edibles with precise dose control. Blending ensures the infused fat is evenly distributed for consistent effects in every glass.",
         "dosing_tips": [
           "Blend your %{base_fat} into the drink base with an immersion blender or countertop blender for smooth, even distribution.",
-          "Cold drinks are easy to gulp down quickly. Measure each serving carefully at 5-10 mg and pace yourself.",
+          "Cold drinks are easy to gulp down quickly. Pour equal servings, sip slowly and wait 2 hours before having another.",
           "If making a punch bowl or pitcher, stir before every pour since fat separates more noticeably in cold liquids.",
           "Consider using water-soluble THC products for cold drinks as they mix more naturally than fat-based infusions."
         ],

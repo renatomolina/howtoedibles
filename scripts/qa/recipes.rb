@@ -193,26 +193,30 @@ SLUGS.each do |slug|
 end
 
 # ───────── 4. internal coherence ─────────
-def iso_min(s); md = /PT(?:(\d+)H)?(?:(\d+)M)?/.match(s.to_s); md ? md[1].to_i * 60 + md[2].to_i : 0; end
+def iso_min(s); md = /\AP(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?)?\z/.match(s.to_s); md ? md[1].to_i * 1440 + md[2].to_i * 60 + md[3].to_i : 0; end # = build_redesign.rb#iso_minutes
 STEPDUR = /(\d+(?:\.\d+)?|[½¼¾]|an?|one|two|three|four|five|six)(?:\s*(?:-|–|to)\s*(\d+(?:\.\d+)?))?\s*(?:more\s+|additional\s+|full\s+)?(minutes?|mins?|hours?|hrs?)\b/i
 SLUGS.each do |slug|
   p = EN[slug]
   e = p[:enrich]
   total = iso_min(e["totalTime"]).nonzero? || iso_min(e["prepTime"]) + iso_min(e["cookTime"])
-  fail!("4a total time", slug, "all", "enrichment totalTime", "totalTime #{e["totalTime"]} isn't PTxHyM: the page shows #{total} min") if e["totalTime"].to_s.match?(/\dD|P\d+W/) || (e["totalTime"] && !e["totalTime"].start_with?("PT"))
+  %w[prepTime cookTime totalTime].each { |k| e[k] && !e[k].match?(/\AP(?:\d+D)?(?:T(?:\d+H)?(?:\d+M)?)?\z/) && fail!("4a total time", slug, "all", "enrichment #{k}", "#{k} #{e[k]} isn't P#DT#H#M: the page shows no time") }
   sum = 0
   hits = []
   p[:steps].each do |s|
     next if s.match?(/\b(store|keeps?|lasts?|up to \d+ (days|weeks)|will keep)\b/i) && !s.match?(/\b(bake|cook|simmer|chill|freeze|refrigerate) (for|until)/i)
+    # onset advice ("allow 60-90 minutes for full effects") isn't kitchen time
+    s = s.split(/(?<=[.!?])\s+/).reject { |x| x.match?(/\beffects?\b|before (having|consuming|eating) (more|another|a second|additional)|additional portions|second portion/i) }.join(" ")
+      .gsub(/(\d+)\s*minutes?\s+to\s+an?\s+hour/i, '\1-60 minutes') # one range, not 30 min + 1 h
     s.scan(/(.{0,30}?)(?<![\d.,])#{STEPDUR}/io).each do |pre, a, _b, u|
-      next if pre.match?(/every|up to|within|wait(ing)?( at least)?|before (eating|consuming|having)|after eating|take|onset|effects?|last|another|per|each side.*per|repeat/i)
+      next if pre.match?(/every|up to|within|wait(ing)?( at least)?|before (eating|consuming|having)|after\b|take|onset|effects?|last|another|per|each side.*per|repeat/i)
+      next if pre.match?(/\bor\b[^,.;]{0,15}\z/i) # an alternative: "on low for 6 hours or high for 3 hours"
       v = to_n(a) || 0
       v = { "½" => 0.5, "¼" => 0.25, "¾" => 0.75 }[a] || v
       m = u.start_with?("h") ? v * 60 : v
       sum += m
       hits << "#{a} #{u}"
     end
-    if s.match?(/\bovernight\b/i)
+    if s.match?(/\bovernight\b/i) && !s.match?(/(minutes?|hours?)\s+or\s+overnight/i) # "4 hours or overnight": 4 hours is the time
       sum += 480
       hits << "overnight"
     end
@@ -393,7 +397,7 @@ SLUGS.each do |slug|
   n = p[:n].round
   t = (p[:steps] + p[:own].values + p[:ings]).join(" ")
   ok = n == 1 ||
-       t.match?(/\b(one|1|each|a) (serving|portion|dose)\s+(is|=|equals|of)\b/i) ||
+       t.match?(/\b(one|1|each|a) (serving|portion|dose)\s+(?:(?:is|equals|of)\b|=)/i) ||
        t.match?(/\bper (#{UNITW})\b/io) && t.match?(/\b#{n}\b/) ||
        t.scan(/\b(?:into|makes?|yields?|serves|fill|between)\s+(?:about\s+)?(\d+)(?:\s*(?:-|–|to)\s*(\d+))?\s+(?:equal\s+|even\s+|small\s+|large\s+|bite-sized\s+|\w+\s+)?(#{UNITW})\b/io).any? { |a, b, _| (a.to_i..(b || a).to_i).cover?(n) } ||
        t.scan(/\b(\d+)(?:\s*(?:-|–|to)\s*(\d+))?\s+(?:equal\s+|even\s+|small\s+|\w+\s+)?(#{UNITW})\b/io).any? { |a, b, _| (a.to_i..(b || a).to_i).cover?(n) && n > 2 }
