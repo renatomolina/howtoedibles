@@ -2748,13 +2748,13 @@
       "Derrite juntos el chocolate, la leche condensada con cannabis y la mantequilla de cannabis a fuego bajo, removiendo hasta que quede liso.",
       "Incorporar la vainilla.",
       "Verter en un molde de 8x8 forrado. Espolvorear sal de mar.",
-      "Refrigerar 3-4h. Cortar en cuadros."
+      "Refrigerar 3-4h. Cortar en 12 trozos (una cuadrícula de 3 × 4)."
     ],
     "intro_unique": "El Fudge Infusionado, intenso y denso, es un dulce sin horno que concentra un profundo sabor a chocolate en un cuadrito pequeño y decadente.",
-    "dosing_unique": "Vierte en un molde de 20 x 20 cm forrado con papel y corta una cuadrícula de 6 × 6, con 36 cuadrados; una porción son 3 cuadrados.",
+    "dosing_unique": "Vierte en un molde de 20 x 20 cm forrado con papel y corta una cuadrícula de 3 × 4, con 12 trozos de unos 5 × 6,7 cm; una porción es 1 trozo.",
     "storage_unique": "Refrigéralo en un recipiente hermético hasta 2 semanas o congélalo durante 3 meses; el fudge se descongela rápido a temperatura ambiente.",
     "variation_unique": "Pon una capa de fudge de mantequilla de maní sobre el fudge de chocolate para un dulce bicolor inspirado en Reese's.",
-    "unique_src": "fad188c1f17754e37b49796de3ae09faf3f5811c"
+    "unique_src": "c69639702b477babf5efa39565f6d886a2953fa3"
   },
   "cannabis-blondies": {
     "name": "Blondies de Cannabis",
