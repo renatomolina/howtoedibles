@@ -269,30 +269,29 @@
     "category_name": "Snacks",
     "ingredients": [
       "1 cup Haferflocken",
-      "1/2 cup Nussbutter (z. B. Mandelbutter oder Erdnussbutter)",
+      "7 EL Nussbutter (½ Tasse minus 1 EL), z. B. Mandelbutter oder Erdnussbutter",
       "1/3 cup Honig oder Ahornsirup",
       "1/4 cup gemahlene Leinsamen",
       "1/4 cup Mini-Schokotropfen",
       "1/4 cup Kokosraspel",
       "1 teaspoon Vanilleextrakt",
-      "1 tbsp infundiertes Kokosöl",
+      "2 EL infundiertes Kokosöl, geschmolzen",
       "Prise Salz"
     ],
     "instructions": [
-      "Vermische in einer großen Rührschüssel alle Zutaten: Haferflocken, Nussbutter, Honig oder Ahornsirup, gemahlene Leinsamen, Mini-Schokotropfen, Kokosraspel, Vanilleextrakt, infundiertes Kokosöl und eine Prise Salz.",
+      "Rühre in einer großen Schüssel das geschmolzene infundierte Kokosöl mit Nussbutter, Honig oder Ahornsirup und Vanilleextrakt völlig glatt. Dann Haferflocken, gemahlene Leinsamen, Mini-Schokotropfen, Kokosraspel und eine Prise Salz dazugeben.",
       "Rühre gut um, bis alle Zutaten gleichmäßig vermengt sind.",
       "Decke die Schüssel ab und stelle sie für 30 Minuten in den Kühlschrank, damit die Mischung fest wird.",
-      "Nimm die Mischung nach dem Kühlen aus dem Kühlschrank und forme mit den Händen kleine, mundgerechte Kugeln.",
+      "Nimm die Mischung nach dem Kühlen aus dem Kühlschrank und teile sie in 16 gleich große Kugeln (Mischung wiegen und durch 16 teilen), die du mit den Händen formst.",
       "Lege die mit Cannabis angereicherten Energy Bites auf ein mit Backpapier ausgelegtes Backblech.",
       "Stelle die Energy Bites für weitere 1–2 Stunden in den Kühlschrank, damit sie fest werden.",
-      "Sobald sie fest sind, gib die Energy Bites in einen luftdichten Behälter und bewahre sie im Kühlschrank auf.",
-      "Genieße die mit Cannabis angereicherten Energy Bites als nahrhaften und leckeren Snack!"
+      "Sobald sie fest sind, gib die Energy Bites in einen luftdichten Behälter und bewahre sie im Kühlschrank auf."
     ],
     "intro_unique": "Cannabis-Energy-Bites ohne Backen, voller Haferflocken, Nussmus und Honig, sind ein proteinreiches Edible zum Mitnehmen für die Dosierung unterwegs.",
-    "dosing_unique": "Forme jeden Bite mit einem Esslöffelmaß und wiege ihn auf einer Waage ab, damit die Dosis in der ganzen Charge garantiert gleich ist.",
+    "dosing_unique": "Teile die Mischung nach Gewicht in 16 gleich große Kugeln; 1 Portion = 2 Bites.",
     "storage_unique": "In einem verschlossenen Behälter bis zu einer Woche im Kühlschrank oder 2 Monate eingefroren haltbar; vor dem Essen 5 Minuten antauen lassen.",
     "variation_unique": "Mit einer Portion Kakaopulver und Mini-Schokotropfen schmecken die Energy Bites wie Brownie-Teig.",
-    "unique_src": "35ad0009d09273d3b5925a4ae869cdaefd39bf29"
+    "unique_src": "ca8dc920deea172dd36131d991e81f9a7918b9d3"
   },
   "firecrackers": {
     "name": "Firecrackers",
@@ -927,13 +926,13 @@
       "Den gesamten Inhalt des Glases durch ein Seihtuch über einem Metallsieb gießen.",
       "Das Seihtuch zusammennehmen und die restliche Flüssigkeit vollständig auspressen.",
       "Das Lecithin in das noch warme, abgeseihte Öl rühren. Den Honig sanft erwärmen und mit dem Öl glatt und gleichmäßig mixen; das Glas vor jedem Gebrauch umrühren, da es sich trotzdem absetzen kann.",
-      "Die gesamte Mischung in ein Einmachglas oder Mason Jar füllen und aufbewahren."
+      "In ein sauberes Glas füllen, verschließen und beschriften."
     ],
     "intro_unique": "Cannabis-Honig ist ein vielseitiger Vorrat für die Speisekammer: Du kannst ihn in Tee rühren, über Toast träufeln oder in jedem Rezept zum Süßen verwenden.",
-    "dosing_unique": "Miss den Honig teelöffelweise ab und notier die mg pro Teelöffel auf dem Etikett, damit du immer weißt, wie viel du zu dir nimmst.",
+    "dosing_unique": "1 Portion = 1 Teelöffel, etwa 6 mg bei 14 % THC; 15 mg sind etwa 2½ Teelöffel. Notier die mg pro Teelöffel auf dem Etikett.",
     "storage_unique": "In einem verschlossenen dunklen Glas in einem kühlen Schrank bis zu 3 Monate aufbewahren (die Haltbarkeit begrenzt das Kokosöl, nicht der Honig); vor jeder Verwendung umrühren.",
     "variation_unique": "Gib während der Infusion einen Teelöffel getrockneten Lavendel oder getrockneten Rosmarin ins Glas – das ergibt ein Kräuteraroma, das gut zum Cannabis passt; frische Kräuter meiden, sie bringen Feuchtigkeit hinein.",
-    "unique_src": "9fa59d80b3fbb9998e2aee756738f8e3fdf46228",
+    "unique_src": "f88dd8ca12bbe8fac630f7bc220bdd9787d7b3d2",
     "faq_unique": [
       {
         "q": "Wie infundiert man Honig mit Gras?",
@@ -941,14 +940,14 @@
       },
       {
         "q": "Wie viel THC steckt in einem Teelöffel?",
-        "a": "Etwa 5 mg pro Teelöffel bei 14 % THC. Eine Portion von 15 mg sind etwa 3 Teelöffel; beim ersten Mal nimm 1 Teelöffel und warte 2 Stunden."
+        "a": "Etwa 6 mg pro Teelöffel bei 14 % THC, und eine Portion ist 1 Teelöffel. Beim ersten Mal nimm 1 Teelöffel und warte 2 Stunden, bevor du mehr nimmst."
       },
       {
         "q": "Das Öl ist nach oben gestiegen und fest geworden. Was jetzt?",
         "a": "Stell das Glas in heißes Wasser, bis das Öl schmilzt, und rühr um, bis alles gleichmäßig ist, bevor du abmisst. Sonst ist der oberste Löffel viel stärker als der Rest."
       }
     ],
-    "faq_src": "cb1acdee515f80a4970f4d2d794ac7df55b34de0"
+    "faq_src": "ea9d89b89a5e7e56884ba3dff5ee9f6f109c3bee"
   },
   "infused-whiskey": {
     "name": "Infundierter Whiskey",
@@ -1376,7 +1375,7 @@
     "ingredients": [
       "200g Zartbitterschokolade (85% Kakao oder höher für Keto)",
       "1 EL Cannabutter, weich (siehe Cannabutter-Rezept)",
-      "1/4 Tasse Toppings: Meersalzflocken, gehackte Nüsse, getrocknete Cranberries oder Kakaonibs"
+      "1/4 Tasse Toppings: Meersalzflocken, gehackte Nüsse, Kakaonibs oder getrocknete Cranberries (nicht keto)"
     ],
     "instructions": [
       "Zartbitterschokolade in einer hitzebeständigen Schüssel über einem Topf mit köchelndem Wasser (Wasserbad) schmelzen und rühren, bis sie glatt ist.",
@@ -1384,13 +1383,13 @@
       "Ein Backblech mit Backpapier auslegen. Die Schokoladenmischung ausgießen und zu einer gleichmäßigen Schicht von etwa 1/4 Zoll Dicke verteilen.",
       "Schnell die gewählten Toppings über die Oberfläche streuen.",
       "Mindestens 30 Minuten im Kühlschrank fest werden lassen, bis die Schokolade vollständig ausgehärtet ist.",
-      "In 12 etwa gleich große Stücke brechen. Im Kühlschrank in einem luftdichten Behälter bis zu 2 Wochen aufbewahren."
+      "An den eingeritzten Linien in 12 gleich große Stücke brechen; 1 Portion = 3 Stücke."
     ],
-    "intro_unique": "Infundierte Schokoladenbruchstücke sind eine einfache Keto-Leckerei ohne Backen: Geschmolzene infundierte Schokolade wird dünn ausgestrichen und mit Nüssen und Samen bestreut.",
-    "dosing_unique": "Streich die Schokolade gleichmäßig dick auf ein mit Backpapier ausgelegtes Blech und ritze sie in gleich große Stücke ein, bevor sie ganz fest wird.",
+    "intro_unique": "Infundierte Schokoladenbruchstücke sind eine einfache Keto-Leckerei ohne Backen: Geschmolzene infundierte Schokolade wird dünn ausgestrichen und mit Nüssen, Kakaonibs oder Meersalz bestreut.",
+    "dosing_unique": "Streich die Schokolade gleichmäßig dick auf ein mit Backpapier ausgelegtes Blech und ritze ein Raster von 3 × 4, also 12 Stücke, ein, bevor sie ganz fest wird; 1 Portion = 3 Stücke.",
     "storage_unique": "Im Kühlschrank bis zu 2 Wochen haltbar; kalt bricht die Schokolade sauber an den eingeritzten Linien.",
     "variation_unique": "Nimm weiße Schokolade mit gefriergetrockneten Erdbeeren und gehackten Pistazien – für eine bunte, fruchtige Variante.",
-    "unique_src": "4ed8a7095dbb6881c20d94d244a81e03d63775f9"
+    "unique_src": "caaf29354398a1e119d504b3ca79ce5c5c38848b"
   },
   "cannabis-vegan-brownies": {
     "name": "Vegane Cannabis-Brownies",
@@ -2794,20 +2793,20 @@
       "Prise Salz",
       "½ cup Milch",
       "1 Ei",
-      "1 tbsp Cannabutter, geschmolzen",
+      "2 EL Cannabutter, geschmolzen und leicht abgekühlt",
       "Öl zum Frittieren",
-      "Hülle: ½ cup Zucker, 1 tsp Zimt, 1 tbsp Cannabutter, geschmolzen"
+      "Hülle: ½ Tasse Zucker, 1 TL Zimt, 1 EL ungesalzene Butter, geschmolzen"
     ],
     "instructions": [
-      "Trockene Zutaten mischen. Milch, Ei und Cannabutter verquirlen; zu den trockenen Zutaten geben.",
-      "Öl auf 350°F erhitzen. Esslöffelweise Teig hineingeben; 2-3 Min. goldbraun frittieren.",
-      "Abtropfen lassen, mit Cannabutter bestreichen, in Zimtzucker wälzen."
+      "Trockene Zutaten mischen. Zimmerwarme Milch und Ei verquirlen, dann die geschmolzene Cannabutter glatt einrühren; nur so lange unter die trockenen Zutaten rühren, bis alles verbunden ist.",
+      "Öl auf 350°F erhitzen. 20 gestrichene Esslöffel Teig portionsweise hineingeben; 2-3 Min. goldbraun frittieren.",
+      "Kurz abtropfen lassen, mit der geschmolzenen Butter bestreichen und noch warm in Zimtzucker wälzen."
     ],
     "intro_unique": "Mundgerechte Cannabis-Donut-Löcher werden goldbraun frittiert und in Zimtzucker gewälzt – ein lustiges Edible zum Teilen.",
-    "dosing_unique": "Gib den Teig in gestrichenen Esslöffeln ins Fett, damit jedes Donut-Loch gleich groß wird, und bestreiche jedes mit der gleichen Menge Cannabutter.",
+    "dosing_unique": "Gib 20 gestrichene Esslöffel Teig ins Fett, damit jedes Donut-Loch gleich groß wird; 1 Portion = 2 Donut-Löcher.",
     "storage_unique": "Am besten am selben Tag essen; Reste in einer Papiertüte bei Raumtemperatur bis zu 24 Stunden aufbewahren.",
     "variation_unique": "Füll die Donut-Löcher mit einem Spritzbeutel mit Vanille-Konditorcreme – für einen Kern im Boston-Cream-Stil. Konditorcreme enthält Milch und Eier, also gefüllte Donut-Löcher innerhalb von 2 Stunden in den Kühlschrank stellen.",
-    "unique_src": "5636c74d0df54511030fc32a7a03a9ae8b12ed8b"
+    "unique_src": "0f4f06b11f024c99e3c21da5760dd5c23cc8e95e"
   },
   "cannabis-peach-cobbler": {
     "name": "Cannabis-Pfirsich-Cobbler",
@@ -4522,13 +4521,13 @@
       "Das decarboxylierte Cannabis direkt in den Topf geben. Bei niedrigster Hitze 30 Minuten köcheln lassen und gelegentlich umrühren. Nicht kochen lassen.",
       "Vom Herd nehmen und die Mischung weitere 10 Minuten ziehen lassen.",
       "Durch ein mit Käsetuch ausgelegtes feines Sieb in ein sauberes Glas abseihen. Das Tuch gut auspressen.",
-      "Abkühlen lassen, dann verschließen. Im Kühlschrank bis zu 2 Monate aufbewahren. Vor Gebrauch gut schütteln."
+      "Abkühlen lassen, dann verschließen. Im Kühlschrank aufbewahren. Vor Gebrauch gut schütteln."
     ],
     "intro_unique": "Cannabis-Ahornsirup verbindet die Wärme von reinem Ahorn mit der Wirkung von THC – ein vielseitiges infundiertes Süßungsmittel für Frühstück, Backen und Cocktails.",
-    "dosing_unique": "Miss Esslöffelportionen sorgfältig ab; das infundierte Fett verteilt sich beim Schütteln gleichmäßig im Sirup, also schüttle die Flasche vor dem Ausgießen immer.",
+    "dosing_unique": "1 Portion = 1 Esslöffel (die Menge ergibt etwa 19), etwa 12 mg bei 14 % THC. Das infundierte Fett verteilt sich beim Schütteln gleichmäßig im Sirup, also schüttle die Flasche vor dem Ausgießen immer.",
     "storage_unique": "Bewahre ihn in einer verschlossenen Glasflasche bis zu 2 Monate im Kühlschrank auf; die Butter kann in der Kälte fest werden, also stelle die Flasche vor der Verwendung in heißes Wasser.",
     "variation_unique": "Gib beim Köcheln eine Zimtstange oder Vanilleschote dazu für mehr Aroma, oder nimm dunklen Ahornsirup (Dark Amber) für einen kräftigeren Geschmack.",
-    "unique_src": "73a6448e5334db51d848130e1c7d098963d07077",
+    "unique_src": "17d9d216a6607320ccdbd01f1e98dd90e72e5dc2",
     "faq_unique": [
       {
         "q": "Warum kommt Butter in das Rezept?",
@@ -5771,8 +5770,8 @@
     "description": "Zähe Cannabis-Haferflockenkekse mit Rosinen, vollgepackt mit Haferflocken, saftigen Rosinen und warmen Gewürzen für eine gesunde, medizinische Variante eines zeitlosen Keksklassikers.",
     "category_name": "Desserts",
     "ingredients": [
-      "1/4 Tasse Cannabutter",
-      "1/2 Tasse weiche normale Butter",
+      "6 EL Cannabutter, weich",
+      "6 EL weiche normale Butter",
       "3/4 Tasse fest gepackter brauner Zucker",
       "1/4 Tasse Zucker",
       "1 großes Ei",
@@ -5786,15 +5785,15 @@
       "Den Ofen auf 175°C vorheizen. Backbleche mit Backpapier auslegen.",
       "Die weiche normale Butter, die weiche Cannabutter, den braunen Zucker und den weißen Zucker cremig schlagen. Das Ei und den Vanilleextrakt einrühren.",
       "Mehl, Natron, Zimt und Salz vermischen. Die trockenen Zutaten unter die Buttermischung rühren, bis alles verbunden ist. Die Haferflocken und Rosinen unterheben.",
-      "Gehäufte Esslöffel Teig auf die vorbereiteten Backbleche setzen, mit 5 cm Abstand.",
+      "Den Teig in 24 gleich große Kugeln teilen (Teig wiegen und durch 24 teilen, je etwa 2 Esslöffel) und mit 5 cm Abstand auf die vorbereiteten Backbleche setzen.",
       "10-13 Minuten backen, bis die Ränder goldbraun sind, die Mitte aber noch leicht weich ist.",
       "5 Minuten auf dem Backblech abkühlen lassen, dann auf ein Kuchengitter setzen. Ergibt etwa 24 Kekse."
     ],
     "intro_unique": "Diese Cannabis-Haferflockenkekse mit Rosinen verbinden kernige Haferflocken und saftige Rosinen mit Cannabutter – ein bodenständiger Keks mit verlässlicher Wirkung.",
-    "dosing_unique": "Die Cannabutter wird cremig in den Teig eingearbeitet und verteilt sich gleichmäßig; wenn du 24 gleiche Kekse portionierst, lässt sich die Dosis pro Keks ganz einfach berechnen.",
-    "storage_unique": "Bewahre sie luftdicht verschlossen bis zu 5 Tage bei Zimmertemperatur auf, oder friere die Teigkugeln ein und backe sie bei Bedarf frisch.",
+    "dosing_unique": "Die Cannabutter wird cremig in den Teig eingearbeitet und verteilt sich gleichmäßig; wenn du 24 gleiche Kekse portionierst, lässt sich die Dosis pro Keks ganz einfach berechnen. Ein Keks ist eine Portion.",
+    "storage_unique": "Bewahre sie luftdicht verschlossen bis zu 4 Tage bei Zimmertemperatur auf, oder friere die Teigkugeln ein und backe sie bei Bedarf frisch.",
     "variation_unique": "Ersetze die Rosinen durch getrocknete Cranberrys und weiße Schokodrops, oder gib gehackte Walnüsse für mehr Biss und ein nussiges Aroma dazu.",
-    "unique_src": "e2c0c2851c55dd6b37b81b56bebe874e8c33aa45"
+    "unique_src": "b0bd036e5c48885563e0e318049f02bd85502744"
   },
   "cannabis-key-lime-pie": {
     "name": "Cannabis-Key-Lime-Pie",

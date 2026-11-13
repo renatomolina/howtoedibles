@@ -219,7 +219,7 @@
     "texture_type": "no_cook",
     "sub_category": "confections",
     "intro_unique": "Cannabis-infused honey is a versatile pantry staple you can stir into tea, drizzle over toast, or use as a sweetener in any recipe.",
-    "dosing_unique": "Measure honey by the teaspoon and note the mg per teaspoon on the jar label so you always know your intake.",
+    "dosing_unique": "1 serving = 1 teaspoon, about 6 mg at 14% THC; 15 mg is about 2½ teaspoons. Note the mg per teaspoon on the jar label.",
     "storage_unique": "Keep in a sealed dark glass jar in a cool cupboard for up to 3 months (the coconut oil, not the honey, limits shelf life); stir before each use.",
     "variation_unique": "Add a teaspoon of dried lavender or dried rosemary to the jar during infusion for an herbal flavor that complements the cannabis; avoid fresh herbs, which add moisture.",
     "faq_unique": [
@@ -229,7 +229,7 @@
       },
       {
         "q": "How much THC is in a teaspoon?",
-        "a": "About 5 mg per teaspoon at 14% THC. A 15 mg serving is about 3 teaspoons; first time, take 1 teaspoon and wait 2 hours."
+        "a": "About 6 mg per teaspoon at 14% THC, and one serving is 1 teaspoon. First time, take 1 teaspoon and wait 2 hours before more."
       },
       {
         "q": "The oil rose to the top and hardened. Now what?",
@@ -495,7 +495,7 @@
     "texture_type": "baked",
     "sub_category": "stovetop",
     "intro_unique": "Bite-sized cannabis donut holes are fried until golden and tossed in cinnamon sugar for a fun, shareable edible treat.",
-    "dosing_unique": "Drop level tablespoons of batter so each donut hole is the same size, and brush each with the same amount of cannabis butter.",
+    "dosing_unique": "Drop 20 level tablespoons of batter so each donut hole is the same size; 1 serving = 2 donut holes.",
     "storage_unique": "Best eaten the same day; store leftovers in a paper bag at room temperature for up to 24 hours.",
     "variation_unique": "Fill the donut holes with vanilla pastry cream using a piping bag for a Boston cream-style center. Pastry cream is made with milk and eggs, so refrigerate filled donut holes within 2 hours."
   },
@@ -939,7 +939,7 @@
     "texture_type": "no_cook",
     "sub_category": "sweet_snacks",
     "intro_unique": "No-bake cannabis energy bites packed with oats, nut butter, and honey provide a portable, protein-rich edible for on-the-go dosing.",
-    "dosing_unique": "Roll each bite using a tablespoon measure and weigh on a scale to guarantee identical dosing across the batch.",
+    "dosing_unique": "Roll 16 equal balls, weighing the mixture to split it evenly; 1 serving = 2 bites.",
     "storage_unique": "Refrigerate in a sealed container for up to one week or freeze for 2 months; thaw for 5 minutes before eating.",
     "variation_unique": "Add a scoop of cocoa powder and mini chocolate chips for a brownie batter-flavored energy bite."
   },
@@ -1862,8 +1862,8 @@
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
     "sub_category": "keto_sweet",
-    "intro_unique": "Cannabis chocolate bark is a simple no-bake keto treat that spreads melted infused chocolate thin and tops it with nuts and seeds.",
-    "dosing_unique": "Spread chocolate to a uniform thickness on a parchment-lined sheet and score into equal pieces before it fully sets.",
+    "intro_unique": "Cannabis chocolate bark is a simple no-bake keto treat that spreads melted infused chocolate thin and tops it with nuts, cacao nibs or sea salt.",
+    "dosing_unique": "Spread chocolate to a uniform thickness on a parchment-lined sheet and score a 3 × 4 grid of 12 pieces before it fully sets; 1 serving = 3 pieces.",
     "storage_unique": "Store in the fridge for up to 2 weeks; the bark snaps cleanly along scored lines when cold.",
     "variation_unique": "Use white chocolate with freeze-dried strawberries and crushed pistachios for a colorful, fruity bark."
   },
@@ -3483,7 +3483,7 @@
     "texture_type": "liquid",
     "sub_category": "sweetener",
     "intro_unique": "Cannabis maple syrup combines the warmth of pure maple with the effects of THC, creating a versatile infused sweetener for breakfast, baking, and cocktails.",
-    "dosing_unique": "Measure tablespoon servings carefully; the infused fat distributes evenly through the syrup when shaken, so always shake the bottle before pouring.",
+    "dosing_unique": "1 serving = 1 tablespoon (the batch makes about 19), about 12 mg at 14% THC. The infused fat distributes evenly through the syrup when shaken, so always shake the bottle before pouring.",
     "storage_unique": "Refrigerate in a sealed glass bottle for up to 2 months; the butter may solidify when cold, so warm the bottle in hot water before use.",
     "variation_unique": "Add a cinnamon stick or vanilla bean during the simmering step for extra flavor, or use dark amber maple syrup for a more robust taste.",
     "faq_unique": [
@@ -4312,9 +4312,9 @@
     "cook_temp": "350°F / 175°C",
     "texture_type": "baked",
     "sub_category": "baked_goods",
-    "intro_unique": "These cannabis oatmeal raisin cookies combine hearty oats and plump raisins with cannabutter for a wholesome cookie that delivers a reliable medicated experience.",
-    "dosing_unique": "Cannabutter is creamed into the dough and evenly distributed; scooping 24 equal cookies makes calculating your per-cookie dose straightforward.",
-    "storage_unique": "Store in an airtight container at room temperature for up to 5 days, or freeze the dough balls and bake fresh as needed.",
+    "intro_unique": "These weed oatmeal raisin cookies combine hearty oats and plump raisins with cannabutter for a wholesome cookie that delivers a reliable medicated experience.",
+    "dosing_unique": "Cannabutter is creamed into the dough and evenly distributed; scooping 24 equal cookies makes calculating your per-cookie dose straightforward. One cookie is one serving.",
+    "storage_unique": "Store in an airtight container at room temperature for up to 4 days, or freeze the dough balls and bake fresh as needed.",
     "variation_unique": "Substitute dried cranberries and white chocolate chips for the raisins, or add chopped walnuts for extra crunch and a nutty flavor."
   },
   "cannabis-key-lime-pie": {

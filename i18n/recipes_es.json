@@ -269,30 +269,29 @@
     "category_name": "Bocadillos",
     "ingredients": [
       "1 cup de avena en hojuelas",
-      "1/2 cup de mantequilla de nuez (como mantequilla de almendra o de mani)",
+      "7 cucharadas de mantequilla de nuez (½ taza menos 1 cucharada), como mantequilla de almendra o de maní",
       "1/3 cup de miel o jarabe de maple",
       "1/4 cup de linaza molida",
       "1/4 cup de mini chispas de chocolate",
       "1/4 cup de coco rallado",
       "1 teaspoon de extracto de vainilla",
-      "1 tbsp de aceite de coco infusionado",
+      "2 cucharadas de aceite de coco infusionado, derretido",
       "Pizca de sal"
     ],
     "instructions": [
-      "En un tazon grande, combina todos los ingredientes: avena en hojuelas, mantequilla de nuez, miel o jarabe de maple, linaza molida, mini chispas de chocolate, coco rallado, extracto de vainilla, aceite de coco infusionado con cannabis y una pizca de sal.",
+      "En un tazón grande, mezcla el aceite de coco infusionado derretido con la mantequilla de nuez, la miel o jarabe de maple y el extracto de vainilla hasta que quede completamente liso. Agrega la avena en hojuelas, la linaza molida, las mini chispas de chocolate, el coco rallado y una pizca de sal.",
       "Revuelve bien hasta que todos los ingredientes esten uniformemente combinados.",
       "Tapa el tazon y coloca en el refrigerador por 30 minutos para que la mezcla se endurezca.",
-      "Despues de enfriar, saca la mezcla del refrigerador y forma pequenas bolitas del tamano de un bocado con las manos.",
+      "Después de enfriar, saca la mezcla del refrigerador y divídela en 16 bolitas iguales (pesa la mezcla y divide entre 16), formándolas con las manos.",
       "Coloca las bolitas de energia infusionadas con cannabis en una bandeja cubierta con papel pergamino.",
       "Refrigera las bolitas de energia por 1-2 horas mas para que se asienten y endurezcan.",
-      "Una vez firmes, transfiere las bolitas de energia a un recipiente hermetico y guardalas en el refrigerador.",
-      "Disfruta las bolitas de energia infusionadas con cannabis como un snack nutritivo y delicioso!"
+      "Una vez firmes, transfiere las bolitas de energia a un recipiente hermetico y guardalas en el refrigerador."
     ],
     "intro_unique": "Los Bocaditos de Energía Infusionados, sin horno y llenos de avena, crema de frutos secos y miel, son un comestible portátil y rico en proteína para dosificar sobre la marcha.",
-    "dosing_unique": "Forma cada bocadito con una cucharada medidora y pésalo en una báscula para garantizar una dosis idéntica en toda la tanda.",
+    "dosing_unique": "Divide la mezcla en 16 bolitas iguales por peso; 1 porción = 2 bocaditos.",
     "storage_unique": "Refrigéralos en un recipiente cerrado hasta una semana o congélalos durante 2 meses; descongélalos 5 minutos antes de comer.",
     "variation_unique": "Añade una medida de cacao en polvo y mini chispas de chocolate para un bocadito de energía con sabor a masa de brownie.",
-    "unique_src": "35ad0009d09273d3b5925a4ae869cdaefd39bf29"
+    "unique_src": "ca8dc920deea172dd36131d991e81f9a7918b9d3"
   },
   "firecrackers": {
     "name": "Fire Crackers",
@@ -927,13 +926,13 @@
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
       "Aprieta la manta de cielo y exprime todo el líquido restante.",
       "Mezcla la lecitina con el aceite colado aún tibio. Calienta la miel suavemente y bátela con el aceite hasta que quede lisa y homogénea; remueve el frasco antes de cada uso, porque aún puede asentarse.",
-      "Vierte y almacena toda la mezcla en un frasco hermético o frasco mason."
+      "Vierte en un frasco limpio, ciérralo y etiquétalo."
     ],
     "intro_unique": "La Miel Infusionada con cannabis es un básico de despensa versátil que puedes añadir al té, rociar sobre pan tostado o usar como endulzante en cualquier receta.",
-    "dosing_unique": "Mide la miel por cucharaditas y anota los mg por cucharadita en la etiqueta del frasco para saber siempre cuánto consumes.",
+    "dosing_unique": "1 porción = 1 cucharadita, unos 6 mg con 14% de THC; 15 mg son unas 2½ cucharaditas. Anota los mg por cucharadita en la etiqueta del frasco.",
     "storage_unique": "Guárdala en un frasco de vidrio oscuro cerrado en una alacena fresca hasta 3 meses (es el aceite de coco, no la miel, lo que limita su vida útil); revuélvela antes de cada uso.",
     "variation_unique": "Añade una cucharadita de lavanda seca o romero seco al frasco durante la infusión para un sabor herbal que complementa al cannabis; evita las hierbas frescas, que aportan humedad.",
-    "unique_src": "9fa59d80b3fbb9998e2aee756738f8e3fdf46228",
+    "unique_src": "f88dd8ca12bbe8fac630f7bc220bdd9787d7b3d2",
     "faq_unique": [
       {
         "q": "¿Cómo se infusiona miel con marihuana?",
@@ -941,14 +940,14 @@
       },
       {
         "q": "¿Cuánto THC tiene una cucharadita?",
-        "a": "Unos 5 mg por cucharadita con 14% de THC. Una porción de 15 mg son unas 3 cucharaditas; la primera vez, toma 1 cucharadita y espera 2 horas."
+        "a": "Unos 6 mg por cucharadita con 14% de THC, y una porción es 1 cucharadita. La primera vez, toma 1 cucharadita y espera 2 horas antes de tomar más."
       },
       {
         "q": "El aceite subió a la superficie y se endureció. ¿Y ahora qué?",
         "a": "Calienta el frasco en agua caliente hasta que el aceite se derrita y revuelve hasta que quede uniforme antes de medir. Si no, la primera cucharada es mucho más fuerte que el resto."
       }
     ],
-    "faq_src": "cb1acdee515f80a4970f4d2d794ac7df55b34de0"
+    "faq_src": "ea9d89b89a5e7e56884ba3dff5ee9f6f109c3bee"
   },
   "infused-whiskey": {
     "name": "Whiskey Infusionado",
@@ -1376,7 +1375,7 @@
     "ingredients": [
       "200g de chocolate oscuro (85% cacao o más para keto)",
       "1 cda de mantequilla de cannabis, suavizada",
-      "1/4 taza de toppings: hojuelas de sal de mar, nueces picadas, arándanos deshidratados o nibs de cacao"
+      "1/4 taza de toppings: hojuelas de sal de mar, nueces picadas, nibs de cacao o arándanos deshidratados (no son keto)"
     ],
     "instructions": [
       "Derrite el chocolate oscuro en un tazón resistente al calor sobre una olla con agua hirviendo a fuego lento (baño maría), revolviendo hasta que esté suave.",
@@ -1384,13 +1383,13 @@
       "Forra una bandeja para hornear con papel pergamino. Vierte la mezcla de chocolate y extiéndela en una capa uniforme de aproximadamente 1/4 de pulgada de grosor.",
       "Rápidamente espolvorea los toppings elegidos sobre la superficie.",
       "Refrigera durante al menos 30 minutos hasta que esté completamente firme.",
-      "Rompe en 12 pedazos aproximadamente iguales. Almacena en el refrigerador en un recipiente hermético hasta por 2 semanas."
+      "Rompe por las marcas en 12 piezas iguales; 1 porción = 3 piezas."
     ],
-    "intro_unique": "La Corteza de Chocolate Infusionada es un sencillo antojo keto sin horno: se extiende chocolate infusionado derretido en una capa delgada y se cubre con nueces y semillas.",
-    "dosing_unique": "Extiende el chocolate a un grosor uniforme sobre una charola forrada con papel pergamino y marca piezas iguales antes de que cuaje por completo.",
+    "intro_unique": "La Corteza de Chocolate Infusionada es un sencillo antojo keto sin horno: se extiende chocolate infusionado derretido en una capa delgada y se cubre con nueces, nibs de cacao o sal de mar.",
+    "dosing_unique": "Extiende el chocolate a un grosor uniforme sobre una charola forrada con papel pergamino y marca una cuadrícula de 3 × 4, con 12 piezas, antes de que cuaje por completo; 1 porción = 3 piezas.",
     "storage_unique": "Guárdala en el refrigerador hasta 2 semanas; cuando está fría, la corteza se parte limpiamente por las líneas marcadas.",
     "variation_unique": "Usa chocolate blanco con fresas liofilizadas y pistaches triturados para una corteza colorida y frutal.",
-    "unique_src": "4ed8a7095dbb6881c20d94d244a81e03d63775f9"
+    "unique_src": "caaf29354398a1e119d504b3ca79ce5c5c38848b"
   },
   "cannabis-vegan-brownies": {
     "name": "Brownies Veganos de Cannabis",
@@ -2794,20 +2793,20 @@
       "Pizca de sal",
       "½ cup de leche",
       "1 huevo",
-      "1 tbsp de mantequilla de cannabis derretida",
+      "2 cucharadas de mantequilla de cannabis, derretida y ligeramente enfriada",
       "Aceite para freír",
-      "Cobertura: ½ cup de azúcar, 1 tsp de canela, 1 tbsp de mantequilla de cannabis derretida"
+      "Cobertura: ½ taza de azúcar, 1 cucharadita de canela, 1 cucharada de mantequilla sin sal derretida"
     ],
     "instructions": [
-      "Mezclar los ingredientes secos. Batir la leche, el huevo y la mantequilla de cannabis; agregar a los secos.",
-      "Calentar el aceite a 350°F. Echar cucharadas de masa; freír 2-3 min hasta dorar.",
-      "Escurrir, pincelar con mantequilla de cannabis y revolcar en azúcar con canela."
+      "Mezclar los ingredientes secos. Batir la leche y el huevo a temperatura ambiente y luego incorporar la mantequilla de cannabis derretida hasta que quede liso; agregar a los secos y mezclar solo hasta integrar.",
+      "Calentar el aceite a 350°F. Echar 20 cucharadas rasas de masa, unas pocas a la vez; freír 2-3 min hasta dorar.",
+      "Escurrir brevemente, pincelar con la mantequilla derretida y revolcar en azúcar con canela mientras estén tibios."
     ],
     "intro_unique": "Las Bolitas de Dona Infusionadas, de un bocado, se fríen hasta dorarse y se revuelcan en azúcar con canela para un comestible divertido y fácil de compartir.",
-    "dosing_unique": "Deja caer cucharadas rasas de masa para que cada bolita tenga el mismo tamaño, y barniza cada una con la misma cantidad de mantequilla de cannabis.",
+    "dosing_unique": "Echa 20 cucharadas rasas de masa para que cada bolita tenga el mismo tamaño; 1 porción = 2 bolitas.",
     "storage_unique": "Lo mejor es comerlas el mismo día; guarda las sobras en una bolsa de papel a temperatura ambiente hasta 24 horas.",
     "variation_unique": "Rellena las bolitas con crema pastelera de vainilla usando una manga para un centro al estilo Boston cream. La crema pastelera lleva leche y huevo, así que refrigera las bolitas rellenas antes de 2 horas.",
-    "unique_src": "5636c74d0df54511030fc32a7a03a9ae8b12ed8b"
+    "unique_src": "0f4f06b11f024c99e3c21da5760dd5c23cc8e95e"
   },
   "cannabis-peach-cobbler": {
     "name": "Cobbler de Durazno de Cannabis",
@@ -4522,13 +4521,13 @@
       "Añade la cannabis descarboxilada. Cocina a fuego mínimo por 30 minutos, removiendo ocasionalmente. No dejes que hierva.",
       "Retira del fuego y deja reposar 10 minutos más.",
       "Cuela con colador fino forrado con tela hacia un frasco limpio. Exprime para extraer todo el jarabe.",
-      "Deja enfriar antes de cerrar. Guarda en el refrigerador por hasta 2 meses. Agita bien antes de cada uso."
+      "Deja enfriar antes de cerrar. Guarda en el refrigerador. Agita bien antes de cada uso."
     ],
     "intro_unique": "El Jarabe de Arce de Cannabis combina la calidez del maple puro con los efectos del THC, creando un endulzante infusionado versátil para el desayuno, la repostería y los cócteles.",
-    "dosing_unique": "Mide con cuidado las porciones por cucharada; la grasa infusionada se distribuye de manera uniforme en el jarabe al agitarlo, así que agita siempre la botella antes de servir.",
+    "dosing_unique": "1 porción = 1 cucharada (la tanda rinde unas 19), unos 12 mg con 14% de THC. La grasa infusionada se distribuye de manera uniforme en el jarabe al agitarlo, así que agita siempre la botella antes de servir.",
     "storage_unique": "Refrigéralo en una botella de vidrio hermética hasta 2 meses; la mantequilla puede solidificarse con el frío, así que calienta la botella en agua caliente antes de usarlo.",
     "variation_unique": "Añade una rama de canela o una vaina de vainilla durante la cocción a fuego lento para más sabor, o usa jarabe de arce ámbar oscuro para un gusto más intenso.",
-    "unique_src": "73a6448e5334db51d848130e1c7d098963d07077",
+    "unique_src": "17d9d216a6607320ccdbd01f1e98dd90e72e5dc2",
     "faq_unique": [
       {
         "q": "¿Por qué la receta lleva mantequilla?",
@@ -5771,8 +5770,8 @@
     "description": "Galletas masticables de avena y pasas infusionadas con cannabis, repletas de avena, pasas y especias cálidas para un deleite saludable y medicinal.",
     "category_name": "Postres",
     "ingredients": [
-      "1/4 taza de mantequilla de cannabis",
-      "1/2 taza de mantequilla regular ablandada",
+      "6 cucharadas de mantequilla de cannabis ablandada",
+      "6 cucharadas de mantequilla regular ablandada",
       "3/4 taza de azúcar morena compacta",
       "1/4 taza de azúcar granulada",
       "1 huevo grande",
@@ -5786,15 +5785,15 @@
       "Precalienta el horno a 175°C. Forra las charolas para hornear con papel encerado.",
       "Bate la mantequilla regular ablandada, la mantequilla de cannabis ablandada, el azúcar morena y el azúcar granulada hasta que estén esponjosas. Agrega el huevo y el extracto de vainilla.",
       "Mezcla la harina, el bicarbonato de sodio, la canela y la sal. Incorpora los ingredientes secos a la mezcla de mantequilla hasta combinar. Agrega la avena y las pasas.",
-      "Coloca cucharadas redondeadas de masa en las charolas preparadas, con 5 cm de espacio entre cada una.",
+      "Divide la masa en 24 bolitas iguales (pesa la masa y divide entre 24, unas 2 cucharadas cada una) y colócalas en las charolas preparadas, con 5 cm de espacio entre cada una.",
       "Hornea por 10-13 minutos hasta que los bordes estén dorados pero los centros aún ligeramente suaves.",
       "Enfría en la charola por 5 minutos y transfiere a una rejilla. Rinde aproximadamente 24 galletas."
     ],
     "intro_unique": "Estas Galletas de Avena y Pasas de Cannabis combinan avena sustanciosa y pasas jugosas con mantequilla de cannabis, para una galleta casera que ofrece una experiencia medicinal confiable.",
-    "dosing_unique": "La mantequilla de cannabis se bate con la masa y queda distribuida de manera uniforme; formar 24 galletas iguales hace que calcular tu dosis por galleta sea muy sencillo.",
-    "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente hasta 5 días, o congela las bolitas de masa y hornéalas frescas cuando las necesites.",
+    "dosing_unique": "La mantequilla de cannabis se bate con la masa y queda distribuida de manera uniforme; formar 24 galletas iguales hace que calcular tu dosis por galleta sea muy sencillo. Una galleta es una porción.",
+    "storage_unique": "Guárdalas en un recipiente hermético a temperatura ambiente hasta 4 días, o congela las bolitas de masa y hornéalas frescas cuando las necesites.",
     "variation_unique": "Sustituye las pasas por arándanos rojos secos y chispas de chocolate blanco, o añade nueces picadas para más crujiente y un sabor a nuez.",
-    "unique_src": "e2c0c2851c55dd6b37b81b56bebe874e8c33aa45"
+    "unique_src": "b0bd036e5c48885563e0e318049f02bd85502744"
   },
   "cannabis-key-lime-pie": {
     "name": "Pay de Limón Key de Cannabis",
