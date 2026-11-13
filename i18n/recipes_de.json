@@ -2134,9 +2134,9 @@
     ],
     "intro_unique": "Für einen Cannabis-Gurken-Minz-Cooler werden kühle Gurke und frische Minze mit infundiertem Honig und Limette zerstoßen – ein Mocktail wie im Spa.",
     "dosing_unique": "Miss die 2 Teelöffel infundierten Honig genau ab und löse sie vor dem Zerstoßen auf; das ganze Glas ist eine Portion.",
-    "storage_unique": "Bewahre die zerstoßene Gurken-Minz-Basis ohne Cannabis-Sirup bis zu 24 Stunden im Kühlschrank auf; gib Sirup und Eis erst beim Servieren dazu.",
+    "storage_unique": "Bewahre die zerstoßene Gurken-Minz-Basis ohne den infundierten Honig bis zu 24 Stunden im Kühlschrank auf; gib den infundierten Honig und das Eis erst beim Servieren dazu.",
     "variation_unique": "Gib ein paar Scheiben frische Jalapeño dazu für einen scharfen Gurken-Cooler mit überraschendem Kick.",
-    "unique_src": "fc0598d3af4b07126560968442e61b598f30e252",
+    "unique_src": "8fdfaacd464eecdd1ca5f6a8f05e6df4681f778b",
     "faq_unique": [
       {
         "q": "Warum löst man den infundierten Honig zuerst in warmem Wasser auf?",
@@ -5929,9 +5929,9 @@
     ],
     "intro_unique": "Diese Cannabis-Muffins sind fluffig, goldbraun und voller geschmolzener Schokostückchen – eine perfekt portionierte Art, Cannabis-Gebäck zu genießen.",
     "dosing_unique": "Die Cannabutter verteilt sich gleichmäßig im Teig, der auf 12 Muffins aufgeteilt wird – so lässt sich die Dosis pro Muffin einfach berechnen.",
-    "storage_unique": "Bewahre sie luftdicht verschlossen 2 Tage bei Zimmertemperatur auf, oder friere einzeln verpackte Muffins bis zu 2 Monate ein.",
+    "storage_unique": "Bewahre sie luftdicht verschlossen 2 Tage bei Zimmertemperatur auf, oder friere einzeln verpackte Muffins bis zu 1 Monat ein.",
     "variation_unique": "Gib Streusel obendrauf für mehr Textur, oder ersetze die Schokodrops durch Blaubeeren und Zitronenabrieb für einen frischen Sommermuffin.",
-    "unique_src": "ec242386369f0ff695d7a576a9a6ecff54f012fc",
+    "unique_src": "669cb2e4d058b29303251efac6faa06d917e18f4",
     "faq_unique": [
       {
         "q": "Wie stark ist ein Cannabis-Muffin?",
@@ -6821,9 +6821,9 @@
     ],
     "intro_unique": "Diese weichen veganen Haferkekse sind natürlich mit Ahornsirup gesüßt und mit Cannabis-infundiertem Kokosöl gemacht – ein vollwertiges Edible zum Naschen.",
     "dosing_unique": "Das Cannabis-Kokosöl wird geschmolzen und mit den feuchten Zutaten vermischt, damit jeder Keks die gleiche Dosis enthält.",
-    "storage_unique": "Luftdicht verpackt bei Raumtemperatur bis zu 5 Tage aufbewahren oder bis zu 3 Monate einfrieren.",
+    "storage_unique": "Luftdicht verpackt bei Raumtemperatur bis zu 4 Tage aufbewahren oder bis zu 3 Monate einfrieren.",
     "variation_unique": "Ersetze die Rosinen durch Zartbitter-Schokotropfen, oder gib Kokosraspeln und getrocknete Cranberries dazu.",
-    "unique_src": "2ec484b4d4c0dd26d3ac6bdf74c43cc9d23b8d34",
+    "unique_src": "b1f9dddf8bc8946d6eafbb8943f502505bf81b6f",
     "faq_unique": [
       {
         "q": "Kann ich diese Haferkekse mit Cannabutter backen?",
