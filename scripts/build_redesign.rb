@@ -566,7 +566,7 @@ def build_recipe_page(recipe, lang)
     "datePublished" => recipe["id"].to_i <= 140 ? "2024-06-01" : "2026-03-15", "dateModified" => "2026-03-15", # real_lastmods (build_site.rb) rewrites it to the sitemap lastmod
     "recipeCategory" => recipe_t(lang, slug, "category_name") || cat,
     "recipeYield" => [fmt_num(n), "#{fmt_num(n)} servings"],
-    "recipeIngredient" => (recipe_t(lang, slug, "ingredients") || ings).map(&plain), # the source text, as before the redesign
+    "recipeIngredient" => ings.map(&plain), # with the flower grams filled in, as on the page (the translations store a bare, stale number)
     "recipeInstructions" => steps.each_with_index.map { |x, i| { "@type" => "HowToStep", "position" => i + 1, "text" => (recipe_t(lang, slug, "instructions") ? x : plain.(x)) } },
     "url" => canonical,
   }
