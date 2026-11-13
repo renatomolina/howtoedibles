@@ -4497,14 +4497,14 @@
       "Das abgekühlte decarboxylierte Cannabis in ein sauberes Einmachglas geben. Den Alkohol darüber gießen, bis das Cannabis vollständig bedeckt ist. Arbeite fern von offenen Flammen, Herd und Heizgeräten: Dämpfe von hochprozentigem Alkohol entzünden sich leicht.",
       "Das Glas fest verschließen. Für eine Schnellextraktion 3-5 Minuten schütteln. Für eine stärkere Tinktur 2-4 Wochen an einem kühlen, dunklen Ort lagern und täglich schütteln.",
       "Die Tinktur durch ein Käsetuch oder feines Sieb abseihen und gut auspressen. Das Pflanzenmaterial entsorgen.",
-      "In ein dunkles Glasfläschchen mit Pipette umfüllen. Mit 1 mL unter der Zunge beginnen und 15-30 Minuten auf die Wirkung warten.",
+      "In ein dunkles Glasfläschchen mit Pipette umfüllen. Mit 1 mL unter der Zunge beginnen und 2 Stunden auf die Wirkung warten, bevor du mehr nimmst.",
       "An einem kühlen, dunklen Ort aufbewahren. Vor Gebrauch schütteln."
     ],
     "intro_unique": "Cannabis-Tinktur ist eine der vielseitigsten Cannabis-Zubereitungen: Du kannst sie sublingual dosieren oder ganz einfach fast jedem Essen oder Getränk zufügen.",
-    "dosing_unique": "Fang mit 1 ml (einer vollen Pipette) unter der Zunge an und warte mindestens 30 Minuten, bevor du mehr nimmst; die Aufnahme unter der Zunge geht schneller als bei Edibles.",
+    "dosing_unique": "Fang mit 1 ml (einer vollen Pipette) unter der Zunge an und warte mindestens 2 Stunden, bevor du mehr nimmst; die Aufnahme unter der Zunge geht schneller als bei Edibles.",
     "storage_unique": "In einer dunklen Pipettenflasche aus Glas kühl und dunkel lagern; der hochprozentige Alkohol wirkt konservierend, sodass die Tinktur mehrere Jahre haltbar ist.",
     "variation_unique": "Für eine alkoholfreie Variante nimm das infundierte Kokosöl oder den infundierten Honig der Seite; den Alkohol zu Hause nicht verdampfen, die Dämpfe sind brennbar.",
-    "unique_src": "fc2e42360f97adb2b9513c13b7b7005840ce936e"
+    "unique_src": "3a5c5b332dc14a0d00da87b8d2252ee260c74ede"
   },
   "cannabis-maple-syrup": {
     "name": "Cannabis-Ahornsirup",
@@ -5242,10 +5242,10 @@
       "Ein Glas pro Portion. Warte 2 Stunden auf die Wirkung, bevor du mehr trinkst."
     ],
     "intro_unique": "Cannabis Horchata ist ein kühles, cremiges Getränk aus Reis und Zimt mit THC – erfrischend, süß und perfekt für einen entspannten Nachmittag oder Abend.",
-    "dosing_unique": "Das Cannabis-Kokosöl wird abseits der Hitze in die pürierte Reismilch geschlagen und emulgiert vollständig – für eine glatte Textur und eine gleichmäßige THC-Verteilung in jedem Glas.",
+    "dosing_unique": "Gib das warme Cannabis-Kokosöl bei laufendem Mixer in die gesüßte Reismilch; Kokosöl wird unter etwa 24 °C fest, in kalter Reismilch bilden sich also Fettflöckchen, in denen die Dosis steckt.",
     "storage_unique": "Bewahre sie im Kühlschrank auf und schüttle sie vor jedem Eingießen gut – die Reismilch setzt sich natürlich ab, und das Getränk bleibt bis zu 3 Tage frisch.",
     "variation_unique": "Mixe eine gefrorene Banane hinein für eine dickere, smoothieartige Konsistenz, oder gib einen Schuss Rum dazu für eine Version für Erwachsene; Alkohol und Cannabis zusammen wirken stärker: Als Einsteiger trink ein halbes Glas und warte 2 Stunden.",
-    "unique_src": "8c3ece81fb630d5c03438bef7da30fa53c4572e1"
+    "unique_src": "7b293ee756cd4e16b6b8c0f80417baac211ca515"
   },
   "cannabis-mulled-wine": {
     "name": "Cannabis Glühwein",
@@ -5338,10 +5338,10 @@
       "Mit einer Zitronenscheibe und einem Zweig frischer Minze garnieren. Ein Glas pro Portion; warte 2 Stunden vor dem nächsten."
     ],
     "intro_unique": "Ein Cannabis Arnold Palmer ist der perfekte Drink für die Veranda – halb Eistee, halb Limonade, infundiert mit THC-Honig für ein sanftes, erfrischendes High.",
-    "dosing_unique": "Cannabis-infundierter Honig wird im Limonadenanteil des Drinks aufgelöst und verteilt das THC gleichmäßig – ganz ohne öligen Film oder Nachgeschmack.",
+    "dosing_unique": "Die ganze Dosis steckt in der Limonade: Löse den Cannabis-Honig im warmen Wasser auf, rühre um und verteile die Limonade gleichmäßig auf die 4 Gläser, bevor du mit Tee auffüllst.",
     "storage_unique": "Bewahre Tee und Cannabis-Limonade getrennt bis zu 3 Tage im Kühlschrank auf – gieße beides erst beim Servieren über Eis zusammen, dann schmeckt es am frischesten.",
     "variation_unique": "Nimm grünen Tee oder Hibiskustee für ein anderes Aroma, oder gib einen Schuss Wodka dazu für eine alkoholische John-Daly-Version; Alkohol und Cannabis zusammen wirken stärker: Als Einsteiger trink ein halbes Glas und warte 2 Stunden.",
-    "unique_src": "80aef69d858219fb8abaced9c45894125e79bd24"
+    "unique_src": "67087fd00dda5ead910517dfe66871071c6ca47a"
   },
   "cannabis-enchiladas": {
     "name": "Cannabis-Enchiladas",

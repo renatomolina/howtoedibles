@@ -214,10 +214,10 @@
       "calories": "220 kcal",
       "fatContent": "12 g"
     },
-    "base_fat": "infused honey",
+    "base_fat": "infused coconut oil",
     "cook_temp": "stovetop",
     "texture_type": "no_cook",
-    "sub_category": "confections",
+    "sub_category": "Essentials/sweetener",
     "intro_unique": "Cannabis-infused honey is a versatile pantry staple you can stir into tea, drizzle over toast, or use as a sweetener in any recipe.",
     "dosing_unique": "1 serving = 1 teaspoon, about 6 mg at 14% THC; 15 mg is about 2½ teaspoons. Note the mg per teaspoon on the jar label.",
     "storage_unique": "Keep in a sealed dark glass jar in a cool cupboard for up to 3 months (the coconut oil, not the honey, limits shelf life); stir before each use.",
@@ -754,7 +754,7 @@
       "calories": "120 kcal",
       "fatContent": "5 g"
     },
-    "base_fat": "infused whiskey",
+    "base_fat": "decarbed flower",
     "cook_temp": "no_cook",
     "texture_type": "no_cook",
     "sub_category": "alcoholic",
@@ -3460,7 +3460,7 @@
     "texture_type": "liquid",
     "sub_category": "tincture",
     "intro_unique": "Cannabis tincture is one of the most versatile cannabis preparations, allowing sublingual dosing or easy addition to virtually any food or beverage.",
-    "dosing_unique": "Start with 1 mL (one full dropper) under the tongue and wait at least 30 minutes before taking more; sublingual absorption is faster than edibles.",
+    "dosing_unique": "Start with 1 mL (one full dropper) under the tongue and wait at least 2 hours before taking more; sublingual absorption is faster than edibles.",
     "storage_unique": "Store in a dark glass dropper bottle in a cool, dark place; the high-proof alcohol acts as a preservative, giving the tincture a shelf life of several years.",
     "variation_unique": "For an alcohol-free option, use the site's infused coconut oil or infused honey instead; don't boil off the alcohol at home, since its vapour is flammable."
   },
@@ -3935,7 +3935,7 @@
     "texture_type": "beverage",
     "sub_category": "cold_drinks",
     "intro_unique": "Cannabis horchata is a cool, creamy rice-and-cinnamon drink laced with THC — refreshing, sweet, and perfect for a relaxed afternoon or evening.",
-    "dosing_unique": "The cannabis coconut oil is whisked into the blended rice milk off heat, fully emulsifying for smooth texture and even THC distribution in every glass.",
+    "dosing_unique": "Blend the warm cannabis coconut oil into the sweetened rice milk with the blender running; coconut oil sets below about 75°F (24°C), so whisking it into cold rice milk leaves flecks that carry the dose.",
     "storage_unique": "Keep refrigerated and shake well before each pour — the rice milk naturally settles and the drink stays fresh for up to 3 days.",
     "variation_unique": "Blend in a frozen banana for a thicker, smoothie-like consistency, or add a splash of rum for an adult version; alcohol and cannabis together hit harder, so if you're new, have half a glass and wait 2 hours."
   },
@@ -4010,7 +4010,7 @@
     "texture_type": "beverage",
     "sub_category": "cold_drinks",
     "intro_unique": "A cannabis Arnold Palmer is the perfect porch sipper — half iced tea, half lemonade, all infused with THC honey for a mellow, refreshing buzz.",
-    "dosing_unique": "Cannabis-infused honey is dissolved into the lemonade portion of the drink, distributing THC evenly without any oily texture or aftertaste.",
+    "dosing_unique": "The dose is all in the lemonade: dissolve the infused honey in the warm water, stir, and share the lemonade equally among the 4 glasses before topping with tea.",
     "storage_unique": "Keep the tea and cannabis lemonade refrigerated separately for up to 3 days — combine over ice when ready to serve for the freshest taste.",
     "variation_unique": "Use green tea or hibiscus tea for a different flavor profile, or add a splash of vodka for a boozy John Daly version; alcohol and cannabis together hit harder, so if you're new, have half a glass and wait 2 hours."
   },
