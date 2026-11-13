@@ -222,17 +222,17 @@
       "En un tazon grande, combina todos los ingredientes: avena en hojuelas, mantequilla de nuez, miel o jarabe de maple, linaza molida, mini chispas de chocolate, coco rallado, extracto de vainilla, aceite de coco infusionado con cannabis y una pizca de sal.",
       "Revuelve bien hasta que todos los ingredientes esten uniformemente combinados.",
       "Tapa el tazon y coloca en el refrigerador por 30 minutos para que la mezcla se endurezca.",
-      "Despues de enfriar, saca la mezcla del refrigerador y forma 16 bolitas iguales con las manos; una bolita es una porción.",
+      "Despues de enfriar, saca la mezcla del refrigerador y forma pequenas bolitas del tamano de un bocado con las manos.",
       "Coloca las bolitas de energia infusionadas con cannabis en una bandeja cubierta con papel pergamino.",
       "Refrigera las bolitas de energia por 1-2 horas mas para que se asienten y endurezcan.",
       "Una vez firmes, transfiere las bolitas de energia a un recipiente hermetico y guardalas en el refrigerador.",
       "Disfruta las bolitas de energia infusionadas con cannabis como un snack nutritivo y delicioso!"
     ],
     "intro_unique": "Los Bocaditos de Energía Infusionados, sin horno y llenos de avena, crema de frutos secos y miel, son un comestible portátil y rico en proteína para dosificar sobre la marcha.",
-    "dosing_unique": "Pesa toda la mezcla, divide el peso entre 16 y forma cada bocadito con ese peso para garantizar una dosis idéntica en toda la tanda.",
+    "dosing_unique": "Forma cada bocadito con una cucharada medidora y pésalo en una báscula para garantizar una dosis idéntica en toda la tanda.",
     "storage_unique": "Refrigéralos en un recipiente cerrado hasta una semana o congélalos durante 2 meses; descongélalos 5 minutos antes de comer.",
     "variation_unique": "Añade una medida de cacao en polvo y mini chispas de chocolate para un bocadito de energía con sabor a masa de brownie.",
-    "unique_src": "726faa5b069672e961e65340e7f5f316bd685c4e"
+    "unique_src": "35ad0009d09273d3b5925a4ae869cdaefd39bf29"
   },
   "firecrackers": {
     "name": "Fire Crackers",
@@ -762,7 +762,7 @@
       "Vierte todo el contenido del frasco en una manta de cielo sobre un colador de metal.",
       "Aprieta la manta de cielo y exprime todo el líquido restante.",
       "Mezcla la lecitina con el aceite colado aún tibio. Calienta la miel suavemente y bátela con el aceite hasta que quede lisa y homogénea; remueve el frasco antes de cada uso, porque aún puede asentarse.",
-      "Vierte y almacena toda la mezcla en un frasco hermético o frasco mason. Una porción es 1 cucharadita (el frasco rinde unas 72)."
+      "Vierte y almacena toda la mezcla en un frasco hermético o frasco mason."
     ],
     "intro_unique": "La Miel Infusionada con cannabis es un básico de despensa versátil que puedes añadir al té, rociar sobre pan tostado o usar como endulzante en cualquier receta.",
     "dosing_unique": "Mide la miel por cucharaditas y anota los mg por cucharadita en la etiqueta del frasco para saber siempre cuánto consumes.",
@@ -1144,7 +1144,7 @@
       "Forra una bandeja para hornear con papel pergamino. Vierte la mezcla de chocolate y extiéndela en una capa uniforme de aproximadamente 1/4 de pulgada de grosor.",
       "Rápidamente espolvorea los toppings elegidos sobre la superficie.",
       "Refrigera durante al menos 30 minutos hasta que esté completamente firme.",
-      "Corta o rompe en 12 pedazos iguales; cada pedazo es una porción. Almacena en el refrigerador en un recipiente hermético hasta por 2 semanas."
+      "Rompe en 12 pedazos aproximadamente iguales. Almacena en el refrigerador en un recipiente hermético hasta por 2 semanas."
     ],
     "intro_unique": "La Corteza de Chocolate Infusionada es un sencillo antojo keto sin horno: se extiende chocolate infusionado derretido en una capa delgada y se cubre con nueces y semillas.",
     "dosing_unique": "Extiende el chocolate a un grosor uniforme sobre una charola forrada con papel pergamino y marca piezas iguales antes de que cuaje por completo.",
@@ -2500,8 +2500,8 @@
     ],
     "instructions": [
       "Mezclar los ingredientes secos. Batir la leche, el huevo y la mantequilla de cannabis; agregar a los secos.",
-      "Calentar el aceite a 350°F. Echar cucharadas rasas de masa, por tandas, hasta hacer 20 buñuelos; freír 2-3 min hasta dorar.",
-      "Escurrir, pincelar con mantequilla de cannabis y revolcar en azúcar con canela. Una porción es un buñuelo."
+      "Calentar el aceite a 350°F. Echar cucharadas de masa; freír 2-3 min hasta dorar.",
+      "Escurrir, pincelar con mantequilla de cannabis y revolcar en azúcar con canela."
     ],
     "intro_unique": "Las Bolitas de Dona Infusionadas, de un bocado, se fríen hasta dorarse y se revuelcan en azúcar con canela para un comestible divertido y fácil de compartir.",
     "dosing_unique": "Deja caer cucharadas rasas de masa para que cada bolita tenga el mismo tamaño, y barniza cada una con la misma cantidad de mantequilla de cannabis.",
@@ -4161,7 +4161,7 @@
       "Añade la cannabis descarboxilada. Cocina a fuego mínimo por 30 minutos, removiendo ocasionalmente. No dejes que hierva.",
       "Retira del fuego y deja reposar 10 minutos más.",
       "Cuela con colador fino forrado con tela hacia un frasco limpio. Exprime para extraer todo el jarabe.",
-      "Deja enfriar antes de cerrar. Guarda en el refrigerador por hasta 2 meses. Agita bien antes de cada uso. Una porción es 1 cucharada (la receta rinde unas 16)."
+      "Deja enfriar antes de cerrar. Guarda en el refrigerador por hasta 2 meses. Agita bien antes de cada uso."
     ],
     "intro_unique": "El Jarabe de Arce de Cannabis combina la calidez del maple puro con los efectos del THC, creando un endulzante infusionado versátil para el desayuno, la repostería y los cócteles.",
     "dosing_unique": "Mide con cuidado las porciones por cucharada; la grasa infusionada se distribuye de manera uniforme en el jarabe al agitarlo, así que agita siempre la botella antes de servir.",

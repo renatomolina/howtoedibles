@@ -222,17 +222,17 @@
       "Vermische in einer großen Rührschüssel alle Zutaten: Haferflocken, Nussbutter, Honig oder Ahornsirup, gemahlene Leinsamen, Mini-Schokotropfen, Kokosraspel, Vanilleextrakt, infundiertes Kokosöl und eine Prise Salz.",
       "Rühre gut um, bis alle Zutaten gleichmäßig vermengt sind.",
       "Decke die Schüssel ab und stelle sie für 30 Minuten in den Kühlschrank, damit die Mischung fest wird.",
-      "Nimm die Mischung nach dem Kühlen aus dem Kühlschrank und forme mit den Händen 16 gleich große Kugeln; eine Kugel ist eine Portion.",
+      "Nimm die Mischung nach dem Kühlen aus dem Kühlschrank und forme mit den Händen kleine, mundgerechte Kugeln.",
       "Lege die mit Cannabis angereicherten Energy Bites auf ein mit Backpapier ausgelegtes Backblech.",
       "Stelle die Energy Bites für weitere 1–2 Stunden in den Kühlschrank, damit sie fest werden.",
       "Sobald sie fest sind, gib die Energy Bites in einen luftdichten Behälter und bewahre sie im Kühlschrank auf.",
       "Genieße die mit Cannabis angereicherten Energy Bites als nahrhaften und leckeren Snack!"
     ],
     "intro_unique": "Cannabis-Energy-Bites ohne Backen, voller Haferflocken, Nussmus und Honig, sind ein proteinreiches Edible zum Mitnehmen für die Dosierung unterwegs.",
-    "dosing_unique": "Wiege die ganze Mischung, teile das Gewicht durch 16 und forme jeden Bite auf genau dieses Gewicht, damit die Dosis in der ganzen Charge garantiert gleich ist.",
+    "dosing_unique": "Forme jeden Bite mit einem Esslöffelmaß und wiege ihn auf einer Waage ab, damit die Dosis in der ganzen Charge garantiert gleich ist.",
     "storage_unique": "In einem verschlossenen Behälter bis zu einer Woche im Kühlschrank oder 2 Monate eingefroren haltbar; vor dem Essen 5 Minuten antauen lassen.",
     "variation_unique": "Mit einer Portion Kakaopulver und Mini-Schokotropfen schmecken die Energy Bites wie Brownie-Teig.",
-    "unique_src": "726faa5b069672e961e65340e7f5f316bd685c4e"
+    "unique_src": "35ad0009d09273d3b5925a4ae869cdaefd39bf29"
   },
   "firecrackers": {
     "name": "Firecrackers",
@@ -762,7 +762,7 @@
       "Den gesamten Inhalt des Glases durch ein Seihtuch über einem Metallsieb gießen.",
       "Das Seihtuch zusammennehmen und die restliche Flüssigkeit vollständig auspressen.",
       "Das Lecithin in das noch warme, abgeseihte Öl rühren. Den Honig sanft erwärmen und mit dem Öl glatt und gleichmäßig mixen; das Glas vor jedem Gebrauch umrühren, da es sich trotzdem absetzen kann.",
-      "Die gesamte Mischung in ein Einmachglas oder Mason Jar füllen und aufbewahren. Eine Portion ist 1 Teelöffel (das Glas ergibt etwa 72)."
+      "Die gesamte Mischung in ein Einmachglas oder Mason Jar füllen und aufbewahren."
     ],
     "intro_unique": "Cannabis-Honig ist ein vielseitiger Vorrat für die Speisekammer: Du kannst ihn in Tee rühren, über Toast träufeln oder in jedem Rezept zum Süßen verwenden.",
     "dosing_unique": "Miss den Honig teelöffelweise ab und notier die mg pro Teelöffel auf dem Etikett, damit du immer weißt, wie viel du zu dir nimmst.",
@@ -1144,7 +1144,7 @@
       "Ein Backblech mit Backpapier auslegen. Die Schokoladenmischung ausgießen und zu einer gleichmäßigen Schicht von etwa 1/4 Zoll Dicke verteilen.",
       "Schnell die gewählten Toppings über die Oberfläche streuen.",
       "Mindestens 30 Minuten im Kühlschrank fest werden lassen, bis die Schokolade vollständig ausgehärtet ist.",
-      "In 12 gleich große Stücke schneiden oder brechen; ein Stück ist eine Portion. Im Kühlschrank in einem luftdichten Behälter bis zu 2 Wochen aufbewahren."
+      "In 12 etwa gleich große Stücke brechen. Im Kühlschrank in einem luftdichten Behälter bis zu 2 Wochen aufbewahren."
     ],
     "intro_unique": "Infundierte Schokoladenbruchstücke sind eine einfache Keto-Leckerei ohne Backen: Geschmolzene infundierte Schokolade wird dünn ausgestrichen und mit Nüssen und Samen bestreut.",
     "dosing_unique": "Streich die Schokolade gleichmäßig dick auf ein mit Backpapier ausgelegtes Blech und ritze sie in gleich große Stücke ein, bevor sie ganz fest wird.",
@@ -2500,8 +2500,8 @@
     ],
     "instructions": [
       "Trockene Zutaten mischen. Milch, Ei und Cannabutter verquirlen; zu den trockenen Zutaten geben.",
-      "Öl auf 350°F erhitzen. Gestrichene Esslöffel Teig portionsweise hineingeben, 20 Stück insgesamt; 2-3 Min. goldbraun frittieren.",
-      "Abtropfen lassen, mit Cannabutter bestreichen, in Zimtzucker wälzen. Eine Portion ist ein Donut-Bällchen."
+      "Öl auf 350°F erhitzen. Esslöffelweise Teig hineingeben; 2-3 Min. goldbraun frittieren.",
+      "Abtropfen lassen, mit Cannabutter bestreichen, in Zimtzucker wälzen."
     ],
     "intro_unique": "Mundgerechte Cannabis-Donut-Löcher werden goldbraun frittiert und in Zimtzucker gewälzt – ein lustiges Edible zum Teilen.",
     "dosing_unique": "Gib den Teig in gestrichenen Esslöffeln ins Fett, damit jedes Donut-Loch gleich groß wird, und bestreiche jedes mit der gleichen Menge Cannabutter.",
@@ -4161,7 +4161,7 @@
       "Das decarboxylierte Cannabis direkt in den Topf geben. Bei niedrigster Hitze 30 Minuten köcheln lassen und gelegentlich umrühren. Nicht kochen lassen.",
       "Vom Herd nehmen und die Mischung weitere 10 Minuten ziehen lassen.",
       "Durch ein mit Käsetuch ausgelegtes feines Sieb in ein sauberes Glas abseihen. Das Tuch gut auspressen.",
-      "Abkühlen lassen, dann verschließen. Im Kühlschrank bis zu 2 Monate aufbewahren. Vor Gebrauch gut schütteln. Eine Portion ist 1 Esslöffel (die Menge ergibt etwa 16)."
+      "Abkühlen lassen, dann verschließen. Im Kühlschrank bis zu 2 Monate aufbewahren. Vor Gebrauch gut schütteln."
     ],
     "intro_unique": "Cannabis-Ahornsirup verbindet die Wärme von reinem Ahorn mit der Wirkung von THC – ein vielseitiges infundiertes Süßungsmittel für Frühstück, Backen und Cocktails.",
     "dosing_unique": "Miss Esslöffelportionen sorgfältig ab; das infundierte Fett verteilt sich beim Schütteln gleichmäßig im Sirup, also schüttle die Flasche vor dem Ausgießen immer.",
