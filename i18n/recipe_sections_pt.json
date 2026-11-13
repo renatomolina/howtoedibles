@@ -133,20 +133,26 @@
             "a": "Óleo de coco infundido com cannabis é a melhor escolha para a maioria das confeitarias porque solidifica em temperatura ambiente e tem sabor neutro. Para confeitaria à base de chocolate, manteiga de cannabis funciona muito bem. Ambos ligam o THC de forma eficaz e se integram suavemente em receitas de doces."
           },
           {
-            "q": "Posso fazer balas duras com cannabis?",
-            "a": "Sim, mas você deve adicionar o óleo de cannabis depois que a mistura de açúcar tiver esfriado para cerca de 250 F (121 C) para evitar degradação do THC. Use tintura de cannabis ou um óleo bem concentrado para não adicionar líquido demais à mistura do doce, o que pode causar cristalização."
-          },
-          {
             "q": "Como evito que meus chocolates com cannabis fiquem esbranquiçados?",
-            "a": "O esbranquiçamento ocorre quando o chocolate não é temperado adequadamente. Aqueça o chocolate lentamente, misture o óleo de cannabis na temperatura correta e depois esfrie gradualmente. Usar banho-maria e um termômetro mantém o processo controlado e produz um brilho profissional."
+            "a": "O esbranquiçamento ocorre quando o chocolate não é temperado adequadamente. Aqueça o chocolate lentamente, misture o óleo de cannabis na temperatura correta e depois esfrie gradualmente. Usar banho-maria e um termômetro mantém o processo controlado e produz um brilho profissional.",
+            "only": [
+              "infused-chocolate-truffles",
+              "cannabis-peanut-butter-cups"
+            ]
           },
           {
             "q": "Por que minhas gomas têm uma camada oleosa por cima?",
-            "a": "Isso acontece quando a gordura de cannabis não emulsifica com a mistura de gelatina. Adicione uma pequena quantidade de lecitina de girassol como emulsificante e mexa continuamente enquanto a mistura estiver quente. Despejar nas formas rapidamente antes que comece a endurecer também ajuda."
+            "a": "Isso acontece quando a gordura de cannabis não emulsifica com a mistura de gelatina. Adicione uma pequena quantidade de lecitina de girassol como emulsificante e mexa continuamente enquanto a mistura estiver quente. Despejar nas formas rapidamente antes que comece a endurecer também ajuda.",
+            "only": [
+              "gummy-bears"
+            ]
           },
           {
             "q": "Quanto tempo duram as gomas de cannabis?",
-            "a": "Depende dos ingredientes, então siga a observação de armazenamento de cada receita. Gomas caseiras de gelatina duram mais bem fechadas na geladeira, e congeladas duram ainda mais. O THC se mantém estável longe do calor e da luz."
+            "a": "Depende dos ingredientes, então siga a observação de armazenamento de cada receita. Gomas caseiras de gelatina duram mais bem fechadas na geladeira, e congeladas duram ainda mais. O THC se mantém estável longe do calor e da luz.",
+            "only": [
+              "gummy-bears"
+            ]
           }
         ]
       },
@@ -271,7 +277,10 @@
         "faq": [
           {
             "q": "Por que meu %{name} com cannabis talhou no forno?",
-            "a": "O talhamento acontece quando o creme é assado em temperatura muito alta ou por tempo demais. Sempre use banho-maria a %{cook_temp} e verifique o ponto antes. O centro deve tremer levemente como gelatina quando pronto. A gordura de cannabis não causa talhamento; é puramente uma questão de calor."
+            "a": "O talhamento acontece quando o creme é assado em temperatura muito alta ou por tempo demais. Sempre use banho-maria a %{cook_temp} e verifique o ponto antes. O centro deve tremer levemente como gelatina quando pronto. A gordura de cannabis não causa talhamento; é puramente uma questão de calor.",
+            "only": [
+              "cannabis-creme-brulee"
+            ]
           },
           {
             "q": "Posso usar creme de leite infundido com cannabis em vez de manteiga no creme?",
@@ -283,11 +292,10 @@
           },
           {
             "q": "O banho-maria afeta a potência do THC?",
-            "a": "Não, o banho-maria é essencial e não afeta o THC de forma alguma. Ele simplesmente regula a temperatura do forno ao redor do creme, mantendo-a suave e uniforme. Esse calor indireto na verdade protege os canabinoides melhor do que o calor seco direto do forno."
-          },
-          {
-            "q": "Posso fazer flan ou panna cotta com cannabis?",
-            "a": "Com certeza. Flan usa a mesma base de creme com uma camada de caramelo, e manteiga ou creme com cannabis se integra perfeitamente. Panna cotta usa gelatina em vez de ovos, e creme com cannabis é uma base ideal. Ambos são excelentes veículos para dosagem precisa e elegante de cannabis."
+            "a": "Não, o banho-maria é essencial e não afeta o THC de forma alguma. Ele simplesmente regula a temperatura do forno ao redor do creme, mantendo-a suave e uniforme. Esse calor indireto na verdade protege os canabinoides melhor do que o calor seco direto do forno.",
+            "only": [
+              "cannabis-creme-brulee"
+            ]
           }
         ]
       },
@@ -351,7 +359,11 @@
         "faq": [
           {
             "q": "Posso fritar no óleo com cannabis?",
-            "a": "Não é uma boa ideia: você precisaria de muito mais óleo infundido do que a receita usa, e não dá para saber quanto fica em cada unidade. Frite em óleo comum e mantenha a cannabis na massa ou por cima, como está escrito."
+            "a": "Não é uma boa ideia: você precisaria de muito mais óleo infundido do que a receita usa, e não dá para saber quanto fica em cada unidade. Frite em óleo comum e mantenha a cannabis na massa ou por cima, como está escrito.",
+            "only": [
+              "infused-donut-holes",
+              "infused-churros"
+            ]
           },
           {
             "q": "Cozinhar no fogão destrói o THC?",
@@ -391,24 +403,12 @@
         ],
         "faq": [
           {
-            "q": "Posso adicionar cannabis a chips ou crackers depois de assados?",
-            "a": "Sim, e muitas vezes essa é a melhor abordagem. Regue os petiscos quentes com %{base_fat} derretido e temperos após assar. Isso evita degradação pelo calor e dá melhor controle sobre a cobertura. Misture delicadamente em uma tigela para distribuição uniforme."
-          },
-          {
             "q": "Comestíveis salgados fazem efeito diferente dos doces?",
             "a": "O início e os efeitos são semelhantes independentemente do sabor, mas petiscos salgados tendem a ser menos calóricos e podem ser digeridos um pouco mais rápido. A principal vantagem é a variedade e a preferência pessoal. Muitas pessoas acham que comestíveis salgados são mais fáceis de controlar a dose porque são menos tentadores para comer em excesso."
           },
           {
             "q": "Quais especiarias combinam bem com o sabor da cannabis?",
             "a": "Ervas como alecrim, tomilho e orégano complementam os terpenos da cannabis naturalmente. Alho em pó, páprica defumada e cominho também funcionam bem. Perfis de temperos marcantes disfarçam as notas herbais da cannabis enquanto criam um sabor complexo e agradável."
-          },
-          {
-            "q": "Posso usar óleo de cannabis em uma fritadeira?",
-            "a": "Não, temperaturas de fritura de 350-375 F (175-190 C) degradarão o THC, e você desperdiçaria a maior parte do óleo de cannabis caro na fritadeira. Em vez disso, frite em óleo comum e depois regue ou misture com óleo de cannabis após o cozimento."
-          },
-          {
-            "q": "Como faço pipoca com cannabis?",
-            "a": "Estoure seu milho usando qualquer método, depois regue %{base_fat} derretido sobre a pipoca enquanto mistura. Adicione sal e temperos imediatamente para que grudem na gordura. Calcule o THC total na manteiga que adicionar e divida pelo número de porções que separar."
           }
         ]
       },
@@ -438,20 +438,15 @@
         ],
         "faq": [
           {
-            "q": "Qual é o melhor chocolate para usar em doces com cannabis?",
-            "a": "Chocolate amargo com 60-70% de cacau tem sabor forte o suficiente para mascarar o gosto de cannabis e contém gorduras naturais que se misturam bem com óleo de cannabis. Chocolate ao leite também funciona, mas o sabor é mais suave. Sempre use chocolate de qualidade e derreta-o delicadamente."
-          },
-          {
             "q": "Posso usar açúcar de cannabis em vez de gordura em petiscos doces?",
             "a": "O açúcar de cannabis pode ser feito evaporando uma tintura sobre açúcar granulado. Funciona em receitas onde o açúcar dissolve, mas a potência geralmente é menor e menos consistente que infusões à base de gordura. É melhor como ingrediente complementar em vez de ser o principal veículo de cannabis."
           },
           {
             "q": "Como faço guloseimas de cannabis sem forno?",
-            "a": "Derreta seu %{base_fat} e misture com ingredientes como aveia, pasta de amendoim, gotas de chocolate e mel. Pressione em uma forma ou enrole em bolinhas e refrigere até endurecer. Métodos sem forno preservam 100% do THC, pois não há exposição ao calor após a descarboxilação."
-          },
-          {
-            "q": "Por que meus caramelos de cannabis têm gosto de queimado?",
-            "a": "A manteiga de cannabis tem sólidos do leite que queimam nas altas temperaturas necessárias para o caramelo. Ou clarifique sua manteiga de cannabis primeiro removendo os sólidos do leite, ou use óleo de coco infundido com cannabis que tem um ponto de fumaça mais alto. Monitore as temperaturas cuidadosamente com um termômetro de doces."
+            "a": "Derreta seu %{base_fat} e misture com ingredientes como aveia, pasta de amendoim, gotas de chocolate e mel. Pressione em uma forma ou enrole em bolinhas e refrigere até endurecer. Métodos sem forno preservam 100% do THC, pois não há exposição ao calor após a descarboxilação.",
+            "only": [
+              "infused-energy-bites"
+            ]
           },
           {
             "q": "Comestíveis doces são mais fortes que os salgados?",
@@ -546,10 +541,6 @@
           {
             "q": "Petiscos salgados são melhores que doces para dosagem?",
             "a": "Petiscos salgados são excelentes para dosagem porque são menos tentadores de comer em excesso do que doces. As pessoas tendem a comer doces impulsivamente, enquanto petiscos salgados são consumidos de forma mais consciente. Ambos podem ser dosados com precisão com preparo adequado."
-          },
-          {
-            "q": "Posso usar air fryer para petiscos salgados com cannabis?",
-            "a": "Air fryers circulam ar muito quente que pode degradar o THC nas superfícies expostas. Se usar air fryer, monte os petiscos com a gordura de cannabis selada por dentro, ou adicione óleo de cannabis como um fio após o preparo. Mantenha as temperaturas a 325 F (165 C) ou abaixo."
           }
         ]
       },
@@ -592,7 +583,10 @@
           },
           {
             "q": "Pastas de cannabis podem ser aquecidas para mergulhar?",
-            "a": "Aquecer levemente até a temperatura de servir é tranquilo e não degrada o THC. Mantenha abaixo de 200 F (93 C). Molhos quentes de queijo e fondue com cannabis são deliciosos; apenas aqueça lentamente e mexa frequentemente para manter a emulsão."
+            "a": "Aquecer levemente até a temperatura de servir é tranquilo e não degrada o THC. Mantenha abaixo de 200 F (93 C). Molhos quentes de queijo e fondue com cannabis são deliciosos; apenas aqueça lentamente e mexa frequentemente para manter a emulsão.",
+            "only": [
+              "cannabis-cheese-dip"
+            ]
           },
           {
             "q": "Como sirvo pastas de cannabis de forma responsável em uma reunião?",
@@ -627,15 +621,13 @@
         "faq": [
           {
             "q": "Como garanto dosagem uniforme nos finger foods com cannabis?",
-            "a": "A chave é incorporar o %{base_fat} em um recheio, pasta ou massa que você então porciona igualmente. Pese cada unidade em uma balança de cozinha para consistência. Evite regar óleo de cannabis por cima, o que leva a distribuição irregular."
-          },
-          {
-            "q": "Quais são os melhores finger foods com cannabis para iniciantes?",
-            "a": "Tâmaras recheadas com pasta de amendoim com cannabis, bolinhas de queijo com cannabis e bruschetta com azeite de cannabis são simples e fáceis. Exigem habilidade culinária mínima e os sabores marcantes mascaram o gosto da cannabis efetivamente."
-          },
-          {
-            "q": "Posso fazer finger foods com cannabis sem cozinhar?",
-            "a": "Com certeza. Rolinhos de wrap com cream cheese com cannabis, talos de aipo recheados com pasta de amendoim com cannabis e torradinhas com pasta de cannabis são opções sem cozimento que preservam a potência total do THC, já que não há exposição ao calor."
+            "a": "A chave é incorporar o %{base_fat} em um recheio, pasta ou massa que você então porciona igualmente. Pese cada unidade em uma balança de cozinha para consistência. Evite regar óleo de cannabis por cima, o que leva a distribuição irregular.",
+            "only": [
+              "infused-stuffed-jalapenos",
+              "infused-deviled-eggs",
+              "cannabis-stuffed-mushrooms",
+              "infused-peanut-butter-banana-bites"
+            ]
           },
           {
             "q": "Quantos finger foods com cannabis devo servir por pessoa?",
@@ -673,24 +665,8 @@
         ],
         "faq": [
           {
-            "q": "Posso fritar qualquer coisa diretamente em óleo de cannabis?",
-            "a": "Não é recomendado. Temperaturas de fritura excedem 350 F (175 C), o que degrada rapidamente o THC. Você desperdiçaria óleo de cannabis caro e obteria efeitos mínimos. Sempre frite em óleo comum e adicione o elemento de cannabis depois como molho, fio ou mistura."
-          },
-          {
-            "q": "Como faço batata frita ou chips com cannabis?",
-            "a": "Frite as batatas em óleo comum até ficarem crocantes, depois escorra e misture imediatamente com %{base_fat} derretido e sal temperado. A superfície quente absorve a gordura de cannabis, e o sal e temperos mascaram qualquer sabor herbal. Calcule a dose por porção."
-          },
-          {
-            "q": "O óleo de cannabis vai deixar meu %{name} frito encharcado?",
-            "a": "Somente se você usar demais. Um fio leve ou uma mistura com uma pequena quantidade de manteiga de cannabis derretida não compromete a crocância. Aplique enquanto os itens estão quentes para que a gordura seja absorvida na superfície em vez de ficar por cima. Menos é mais."
-          },
-          {
             "q": "Qual o melhor molho de cannabis para petiscos fritos?",
             "a": "Molho ranch com cannabis, aioli de alho com cannabis e mostarda com mel e cannabis são excelentes opções. Os sabores marcantes e cremosos mascaram o sabor da cannabis, e cada porção de molho pode ser medida com precisão para dosagem consistente."
-          },
-          {
-            "q": "Posso usar air fryer para petiscos com cannabis?",
-            "a": "Air fryers usam temperaturas de 350-400 F (175-200 C), então não cubra os itens com óleo de cannabis antes de usar a air fryer. Em vez disso, prepare na air fryer com óleo comum e depois misture os itens prontos com %{base_fat} ou sirva com um molho de cannabis para mergulhar."
           }
         ]
       }
@@ -723,23 +699,50 @@
         "faq": [
           {
             "q": "Qual é a melhor gordura para infusão de cannabis?",
-            "a": "Óleo de coco e manteiga são as melhores escolhas porque seu alto teor de gordura saturada liga o THC de forma mais eficaz. O óleo de coco supera ligeiramente a manteiga em eficiência de extração e vida útil. O azeite de oliva também funciona, mas tem menor teor de gordura saturada."
+            "a": "Óleo de coco e manteiga são as melhores escolhas porque seu alto teor de gordura saturada liga o THC de forma mais eficaz. O óleo de coco supera ligeiramente a manteiga em eficiência de extração e vida útil. O azeite de oliva também funciona, mas tem menor teor de gordura saturada.",
+            "only": [
+              "cannabutter",
+              "infused-coconut-oil",
+              "infused-olive-oil",
+              "infused-ghee"
+            ]
           },
           {
             "q": "Quanto tempo devo cozinhar a infusão?",
-            "a": "Baixa e lenta é a chave. Ferva em fogo brando a 160-200 F (70-93 C) por 2-4 horas no fogão, ou 4-6 horas em panela elétrica na configuração baixa. Tempos de infusão mais longos em temperaturas baixas extraem mais canabinoides sem degradá-los."
+            "a": "Baixa e lenta é a chave. Ferva em fogo brando a 160-200 F (70-93 C) por 2-4 horas no fogão, ou 4-6 horas em panela elétrica na configuração baixa. Tempos de infusão mais longos em temperaturas baixas extraem mais canabinoides sem degradá-los.",
+            "only": [
+              "cannabutter",
+              "infused-coconut-oil",
+              "infused-olive-oil",
+              "infused-ghee"
+            ]
           },
           {
             "q": "Por que minha manteiga de cannabis ficou verde e amarga?",
-            "a": "A cor verde excessiva e o amargor vêm da extração de clorofila e matéria vegetal. Cozinhe em temperaturas mais baixas, não ferva, e evite moer a flor muito fina. Uma moagem grossa com calor suave produz uma manteiga de sabor mais suave e dourada."
+            "a": "A cor verde excessiva e o amargor vêm da extração de clorofila e matéria vegetal. Cozinhe em temperaturas mais baixas, não ferva, e evite moer a flor muito fina. Uma moagem grossa com calor suave produz uma manteiga de sabor mais suave e dourada.",
+            "only": [
+              "cannabutter",
+              "infused-coconut-oil",
+              "infused-olive-oil",
+              "infused-ghee"
+            ]
           },
           {
             "q": "Preciso adicionar água ao fazer manteiga de cannabis?",
-            "a": "Adicionar água à panela durante a infusão ajuda a regular a temperatura e previne queimaduras. A água se separa da manteiga quando resfriada na geladeira e pode ser descartada. Essa técnica produz uma manteiga de sabor mais limpo com menos impurezas."
+            "a": "Adicionar água à panela durante a infusão ajuda a regular a temperatura e previne queimaduras. A água se separa da manteiga quando resfriada na geladeira e pode ser descartada. Essa técnica produz uma manteiga de sabor mais limpo com menos impurezas.",
+            "only": [
+              "cannabutter"
+            ]
           },
           {
             "q": "Posso fazer óleo de cannabis em uma panela elétrica?",
-            "a": "Sim, uma panela elétrica na configuração baixa é um dos melhores métodos porque mantém uma temperatura baixa e constante por horas. Combine a flor descarboxilada com o óleo, coloque no baixo e deixe por 4-6 horas mexendo ocasionalmente. É praticamente infalível."
+            "a": "Sim, uma panela elétrica na configuração baixa é um dos melhores métodos porque mantém uma temperatura baixa e constante por horas. Combine a flor descarboxilada com o óleo, coloque no baixo e deixe por 4-6 horas mexendo ocasionalmente. É praticamente infalível.",
+            "only": [
+              "cannabutter",
+              "infused-coconut-oil",
+              "infused-olive-oil",
+              "infused-ghee"
+            ]
           }
         ]
       },
@@ -786,7 +789,10 @@
           },
           {
             "q": "Como faço para coar leite de cannabis?",
-            "a": "Use uma peneira fina forrada com pano de queijo. Despeje o leite lentamente e esprema o pano de queijo delicadamente para extrair todo o líquido. Para um resultado extra suave, coe duas vezes. Não pressione com muita força ou vai empurrar matéria vegetal através do pano."
+            "a": "Use uma peneira fina forrada com pano de queijo. Despeje o leite lentamente e esprema o pano de queijo delicadamente para extrair todo o líquido. Para um resultado extra suave, coe duas vezes. Não pressione com muita força ou vai empurrar matéria vegetal através do pano.",
+            "only": [
+              "infused-milk"
+            ]
           }
         ]
       },
@@ -816,24 +822,15 @@
         ],
         "faq": [
           {
-            "q": "Como faço mel com cannabis?",
-            "a": "Aqueça mel delicadamente até 160 F (70 C), misture a flor descarboxilada moída, mantenha em fogo baixo por 40 minutos mexendo frequentemente e depois coe em pano de queijo. Alternativamente, misture tintura de cannabis diretamente no mel para um processo mais simples com cálculos de dose mais fáceis."
-          },
-          {
             "q": "Posso usar %{name} com cannabis em receitas de forno?",
             "a": "Sim, mas apenas em receitas onde o adoçante não é exposto a temperaturas acima de 300 F (150 C) por períodos prolongados. Funciona melhor em receitas sem forno, coberturas, glacês e bebidas. Para assados, adicione o adoçante de cannabis após assar como um fio por cima."
           },
           {
-            "q": "Mel com cannabis ou manteiga com cannabis é mais versátil?",
-            "a": "A manteiga com cannabis é mais versátil para cozinhar e assar, enquanto o mel com cannabis se destaca em bebidas, fios e aplicações sem calor. Idealmente, tenha ambos na sua cozinha canábica. Eles servem propósitos diferentes e se complementam."
-          },
-          {
             "q": "Quanto tempo dura o xarope simples com cannabis?",
-            "a": "Como qualquer xarope caseiro, guarde bem fechado na geladeira e use dentro do prazo da observação de armazenamento da receita. Para durar mais, congele em forminhas de gelo."
-          },
-          {
-            "q": "Posso fazer xarope de bordo com cannabis?",
-            "a": "Sim, aqueça xarope de bordo real delicadamente e misture tintura de cannabis ou óleo de cannabis bem coado com lecitina. O sabor forte do xarope de bordo mascara as notas de cannabis perfeitamente. Calcule a dose por colher de sopa e use em panquecas, mingau de aveia ou coquetéis."
+            "a": "Como qualquer xarope caseiro, guarde bem fechado na geladeira e use dentro do prazo da observação de armazenamento da receita. Para durar mais, congele em forminhas de gelo.",
+            "only": [
+              "cannabis-maple-syrup"
+            ]
           }
         ]
       },
@@ -914,10 +911,6 @@
             "a": "Condimentos à base de óleo e gordura são os mais fáceis: maionese, pesto, molhos para salada e molhos à base de manteiga. Eles naturalmente incorporam gordura de cannabis sem problemas de separação. Condimentos à base de água como ketchup e mostarda requerem um emulsificante como lecitina."
           },
           {
-            "q": "Posso fazer ketchup ou mostarda com cannabis?",
-            "a": "Sim, misture óleo de cannabis com uma gota de lecitina no ketchup ou mostarda. Os sabores fortes e ácidos desses condimentos mascaram bem o gosto da cannabis. Misture bem e agite antes de cada uso, pois alguma separação é normal."
-          },
-          {
             "q": "Como doso condimentos com cannabis com precisão?",
             "a": "Calcule o THC total do lote, meça o volume total e determine os mg por colher de sopa. Depois use uma colher medidora cada vez que servir em vez de espremer livremente. Consistência na medição é a chave para dosagem confiável com condimentos."
           },
@@ -959,16 +952,16 @@
         ],
         "faq": [
           {
-            "q": "Cozinhar o molho da massa vai destruir o THC?",
-            "a": "O cozimento suave em temperaturas normais de molho, cerca de 200 F (93 C), é seguro para o THC. O segredo é adicionar seu %{base_fat} nos últimos minutos ou após retirar do fogo. Evite fervura rápida com a gordura canábica já no molho."
-          },
-          {
             "q": "Dá para sentir o gosto da cannabis em pratos de massa?",
             "a": "Em molhos de massa bem temperados com alho, ervas, queijo ou tomate, o sabor da cannabis geralmente é indetectável. Os sabores marcantes de molhos italianos e asiáticos mascaram as notas herbais perfeitamente. Essa é uma das razões pelas quais pratos salgados são ótimos para comestíveis."
           },
           {
             "q": "É melhor usar azeite ou manteiga de cannabis para massa?",
-            "a": "Ambos funcionam bem. A manteiga de cannabis é ideal para molhos à base de creme e para finalizar pratos. O azeite de cannabis combina com aglio e olio, pesto e molhos à base de tomate. Escolha com base no perfil de sabor do seu prato."
+            "a": "Ambos funcionam bem. A manteiga de cannabis é ideal para molhos à base de creme e para finalizar pratos. O azeite de cannabis combina com aglio e olio, pesto e molhos à base de tomate. Escolha com base no perfil de sabor do seu prato.",
+            "only": [
+              "infused-pesto-pasta",
+              "infused-spaghetti-bolognese"
+            ]
           },
           {
             "q": "Quanto tempo leva para uma refeição de massa canábica fazer efeito?",
@@ -976,7 +969,11 @@
           },
           {
             "q": "Posso fazer arroz frito com cannabis?",
-            "a": "Sim, mas adicione o óleo de cannabis no final. Refogue com óleo comum em fogo alto, depois reduza o fogo e regue com %{base_fat} no final. Misture bem e sirva imediatamente. Isso preserva a potência enquanto dá ao arroz frito a selagem em alta temperatura que ele precisa."
+            "a": "Sim, mas adicione o óleo de cannabis no final. Refogue com óleo comum em fogo alto, depois reduza o fogo e regue com %{base_fat} no final. Misture bem e sirva imediatamente. Isso preserva a potência enquanto dá ao arroz frito a selagem em alta temperatura que ele precisa.",
+            "only": [
+              "infused-cauliflower-fried-rice",
+              "infused-egg-fried-rice"
+            ]
           }
         ]
       },
@@ -1010,20 +1007,12 @@
             "a": "A gordura flutua naturalmente em líquidos à base de água. Para sopas de caldo, adicione um pouco de lecitina para criar uma emulsão, ou escolha receitas de sopa cremosa onde a gordura do leite ajuda a incorporar o óleo de cannabis. Uma batida rápida com um mixer de imersão geralmente resolve o problema."
           },
           {
-            "q": "Posso adicionar cannabis em sopa de lata?",
-            "a": "Sim, aqueça a sopa delicadamente e misture uma quantidade medida de %{base_fat} antes de servir. Este é um dos comestíveis de cannabis mais simples possíveis. Sopas creme funcionam melhor porque o teor de gordura existente ajuda o óleo de cannabis a se integrar."
-          },
-          {
             "q": "Cozinhar em fogo brando por muito tempo reduz a potência do THC na sopa?",
             "a": "Temperaturas normais de cozimento em fogo brando, cerca de 200 F (93 C), são seguras para o THC. No entanto, para maior precaução, adicione a gordura canábica nos últimos 15-20 minutos de cozimento ou logo antes de servir. Isso dá tempo suficiente para misturar sem exposição prolongada ao calor."
           },
           {
             "q": "Sopas canábicas são boas para iniciantes?",
             "a": "Excelentes para iniciantes. A forma líquida permite uma dosagem muito uniforme, e você pode começar com uma tigela pequena. Sopas também são reconfortantes se você sentir alguma ansiedade, e o caldo quente é calmante. Elas são um dos formatos de comestíveis mais amigáveis para quem está começando."
-          },
-          {
-            "q": "Posso fazer ramen canábico?",
-            "a": "Com certeza. O caldo rico e gorduroso do ramen é perfeito para óleo de cannabis. Adicione uma colher de chá de %{base_fat} em cada tigela e misture no caldo quente. O óleo de gergelim, missô e outros sabores marcantes do ramen mascaram completamente o gosto da cannabis."
           }
         ]
       },
@@ -1055,10 +1044,6 @@
           {
             "q": "Azeite de cannabis é bom para molho de salada?",
             "a": "O azeite de oliva infusionado com cannabis é provavelmente a melhor opção para molhos de salada. Tem um perfil de sabor complementar, se mistura naturalmente com ingredientes de vinagrete e nunca é aquecido durante o uso, preservando toda a potência. O azeite extra virgem também tem um sabor robusto que mascara a cannabis."
-          },
-          {
-            "q": "Posso usar gordura canábica em uma salada morna?",
-            "a": "Sim, saladas mornas e bowls de grãos são ótimos para molhos canábicos. Regue o molho canábico morno sobre vegetais assados, grãos e folhas. O calor suave não degrada o THC e ajuda a gordura a se distribuir e ser absorvida."
           },
           {
             "q": "Como esconder o sabor de cannabis no molho?",
@@ -1100,24 +1085,22 @@
         ],
         "faq": [
           {
-            "q": "Qual é a melhor pasta canábica para sanduíches?",
-            "a": "A manteiga de cannabis é a escolha clássica e funciona com a maioria dos sanduíches. A maionese canábica é mais versátil e tem um sabor mais suave. O homus canábico funciona bem para wraps. Escolha com base no estilo do sanduíche e na sua preferência de sabor."
-          },
-          {
-            "q": "Posso grelhar um sanduíche canábico?",
-            "a": "Sim, mas o calor moderado é fundamental. A temperatura padrão de um queijo quente não degrada o THC. Para maior precaução, grelhe o pão com manteiga comum, depois abra e adicione a pasta canábica no interior quente antes de fechar e servir."
-          },
-          {
-            "q": "Wraps ou sanduíches são melhores para pastas canábicas?",
-            "a": "Wraps tendem a distribuir a pasta mais uniformemente porque você pode cobrir toda a tortilha antes de enrolar. Sanduíches podem ter mordidas das bordas sem pasta. Ambos funcionam bem, mas wraps dão uma dose mais consistente por mordida."
-          },
-          {
             "q": "Quanto tempo duram os efeitos de um sanduíche canábico?",
-            "a": "Um sanduíche canábico, sendo uma refeição completa, normalmente produz efeitos que duram de 4-6 horas com início em cerca de 60-90 minutos. A combinação de proteína, gordura e carboidratos cria uma digestão lenta e sustentada que produz um aumento e declínio graduais."
+            "a": "Um sanduíche canábico, sendo uma refeição completa, normalmente produz efeitos que duram de 4-6 horas com início em cerca de 60-90 minutos. A combinação de proteína, gordura e carboidratos cria uma digestão lenta e sustentada que produz um aumento e declínio graduais.",
+            "only": [
+              "cannabis-avocado-toast",
+              "infused-pulled-pork-sliders",
+              "infused-falafel-wrap"
+            ]
           },
           {
             "q": "Posso levar um sanduíche canábico para o trabalho?",
-            "a": "Não recomendamos consumir cannabis no trabalho ou antes de trabalhar, pois prejudica a função cognitiva e pode violar políticas do local de trabalho ou leis. Comestíveis de cannabis são melhor aproveitados em um ambiente seguro e confortável onde você possa relaxar e não tenha responsabilidades por várias horas."
+            "a": "Não recomendamos consumir cannabis no trabalho ou antes de trabalhar, pois prejudica a função cognitiva e pode violar políticas do local de trabalho ou leis. Comestíveis de cannabis são melhor aproveitados em um ambiente seguro e confortável onde você possa relaxar e não tenha responsabilidades por várias horas.",
+            "only": [
+              "cannabis-avocado-toast",
+              "infused-pulled-pork-sliders",
+              "infused-falafel-wrap"
+            ]
           }
         ]
       },
@@ -1161,10 +1144,6 @@
           {
             "q": "Comer uma refeição grande enfraquece os comestíveis?",
             "a": "Uma refeição completa retarda a digestão e pode atrasar o início dos efeitos, fazendo parecer mais fraco inicialmente. No entanto, o total de THC absorvido é o mesmo. A experiência será mais gradual e geralmente mais duradoura. Comer com o estômago completamente vazio produz efeitos mais rápidos e intensos, porém mais curtos."
-          },
-          {
-            "q": "Posso usar gordura canábica em receitas de panela elétrica?",
-            "a": "Adicione perto do final. Panelas elétricas em fogo baixo funcionam a cerca de 190 F (88 C), o que é seguro para o THC, mas horas de exposição ainda podem degradar alguns canabinoides. Misture a gordura canábica nos últimos 30 minutos de cozimento para a melhor preservação da potência."
           }
         ]
       },
@@ -1208,10 +1187,6 @@
           {
             "q": "Manteiga ou azeite de cannabis é melhor para massa?",
             "a": "A manteiga com cannabis é perfeita para molhos de creme, carbonara e para finalizar pratos. O azeite de oliva com cannabis combina com preparações de alho, pesto e à base de tomate. Escolha com base no estilo de massa que você está fazendo."
-          },
-          {
-            "q": "Posso fazer mac and cheese com cannabis?",
-            "a": "Sim, misture %{base_fat} no molho de queijo após retirar do fogo. Os sabores do queijo e dos laticínios mascaram completamente qualquer gosto de cannabis. Calcule sua dose com base no número de porções e adicione a gordura ao molho, não à água da massa."
           }
         ]
       },
@@ -1241,20 +1216,8 @@
         ],
         "faq": [
           {
-            "q": "Qual a melhor pasta para um %{name} com cannabis?",
-            "a": "A manteiga com cannabis é clássica e funciona com quase tudo. Maionese com cannabis é mais versátil para sanduíches frios. Homus e guacamole com cannabis são excelentes opções à base de plantas. Escolha a pasta que melhor complementa seus ingredientes de recheio."
-          },
-          {
-            "q": "Posso grelhar um sanduíche com cannabis sem perder THC?",
-            "a": "Sim, temperaturas moderadas de grelha são seguras. Para garantia extra, grelhe com manteiga comum do lado de fora, depois abra o sanduíche e aplique a pasta de cannabis no interior quente antes de fechar e servir."
-          },
-          {
             "q": "Wraps são melhores que pão para sanduíches com cannabis?",
             "a": "Wraps oferecem distribuição de dose um pouco mais uniforme porque você cobre toda a superfície da tortilha antes de enrolar. Com pão fatiado, as bordas podem ter menos pasta. Ambos os formatos funcionam bem para comestíveis de cannabis."
-          },
-          {
-            "q": "Como faço um sanduíche club com cannabis para um grupo?",
-            "a": "Aplique uma quantidade medida de pasta de cannabis em cada sanduíche individualmente em vez de fazer um lote grande. Isso garante que cada pessoa receba uma dose conhecida e consistente. Forneça sanduíches sem infusão ao lado para que os convidados possam escolher."
           },
           {
             "q": "Posso preparar sanduíches com cannabis antecipadamente?",
@@ -1287,10 +1250,6 @@
           "Misture %{base_fat} em um molho de frigideira ou molho de carne no último momento para um acompanhamento rico e potente de qualquer proteína."
         ],
         "faq": [
-          {
-            "q": "Qual a melhor forma de adicionar cannabis a um prato principal?",
-            "a": "Molhos de finalização, manteigas compostas e fios de azeite são o padrão ouro. Cozinhe seu prato principal normalmente e depois introduza o elemento de cannabis no final. Isso protege o THC do calor e dá controle preciso sobre a dose de cada prato."
-          },
           {
             "q": "O sabor da cannabis vai dominar meu %{name}?",
             "a": "Não se você usar %{base_fat} bem coado em um molho de sabor marcante. Alho, ervas, especiarias, queijo, reduções de vinho e cítricos mascaram notas herbais da cannabis efetivamente. Quanto mais rico o molho, menos detectável a cannabis."
@@ -1335,24 +1294,8 @@
         ],
         "faq": [
           {
-            "q": "Qual o melhor molho de cannabis para bowls?",
-            "a": "Tahine com cannabis, vinagrete de azeite de oliva com cannabis e molho de abacate com cannabis são excelentes escolhas. Escolha um molho que complemente os ingredientes do seu bowl. Molhos de sabor marcante mascaram notas herbais da cannabis enquanto adicionam riqueza."
-          },
-          {
-            "q": "Posso preparar bowls com cannabis antecipadamente?",
-            "a": "Prepare todos os componentes antecipadamente, mas mantenha o molho de cannabis separado até servir. Isso evita que fique encharcado e garante que cada bowl receba uma dose recém-medida. O molho em si conserva-se bem por semanas."
-          },
-          {
             "q": "Bowls com cannabis são saudáveis?",
             "a": "Um bowl bem montado com grãos integrais, proteína magra e muitos vegetais é um dos formatos de comestível mais saudáveis. O óleo de cannabis adiciona algumas calorias e gordura, mas muito menos que um brownie ou cookie. É uma forma nutritiva de apreciar comestíveis."
-          },
-          {
-            "q": "Como adiciono cannabis a um burrito bowl?",
-            "a": "Cubra seu burrito bowl com creme azedo infundido com cannabis, guacamole com cannabis ou um fio de molho picante com cannabis. Essas adições tipo condimento são fáceis de medir e os sabores fortes Tex-Mex mascaram completamente qualquer gosto de cannabis."
-          },
-          {
-            "q": "Posso usar molho de cannabis em um bowl frio?",
-            "a": "Sim, molhos de cannabis funcionam perfeitamente em bowls frios, já que não há calor para degradar o THC. Bowls frios com molho de cannabis preservam 100% da potência dos canabinoides da sua infusão. Agite ou mexa o molho antes de regar."
           }
         ]
       }
@@ -1396,12 +1339,11 @@
             "a": "A farinha de amêndoa é a mais versátil e produz resultados mais próximos da confeitaria tradicional. A farinha de coco é muito absorvente e precisa de mais ovos e gordura. Uma mistura das duas frequentemente dá a melhor textura. Ambas funcionam bem com gordura canábica."
           },
           {
-            "q": "Posso usar óleo MCT canábico em fat bombs?",
-            "a": "Com certeza. Fat bombs são um dos melhores veículos keto para cannabis porque são pequenas, porcionadas com precisão e já ricas em gordura. Misture óleo MCT canábico com manteiga de cacau, pasta de oleaginosa e adoçante keto, depois despeje em forminhas para dosagem exata."
-          },
-          {
             "q": "Por que meus biscoitos canábicos keto ficam achatados e gordurosos?",
-            "a": "Massas keto com gordura demais e poucos agentes de ligação se espalham excessivamente. Adicione um ovo extra ou uma colher de sopa de psyllium em pó para melhorar a estrutura. Resfriar a massa por 30 minutos antes de assar também ajuda os biscoitos a manterem a forma."
+            "a": "Massas keto com gordura demais e poucos agentes de ligação se espalham excessivamente. Adicione um ovo extra ou uma colher de sopa de psyllium em pó para melhorar a estrutura. Resfriar a massa por 30 minutos antes de assar também ajuda os biscoitos a manterem a forma.",
+            "only": [
+              "infused-keto-peanut-butter-cookies"
+            ]
           }
         ]
       },
@@ -1435,12 +1377,12 @@
             "a": "Fruta-dos-monges e alulose são geralmente considerados os adoçantes keto com sabor mais natural. O eritritol pode ter um efeito refrescante que alguns acham estranho com cannabis. A alulose carameliza como açúcar, sendo ótima para aplicações de caramelo e toffee."
           },
           {
-            "q": "Posso fazer gomas canábicas sem açúcar no keto?",
-            "a": "Sim, use gelatina ou ágar com mistura de bebida saborizada sem açúcar e tintura de cannabis ou óleo MCT com lecitina. Gomas keto usam eritritol ou alulose em vez de açúcar. Elas se firmam de forma ligeiramente diferente das gomas com açúcar, mas o conceito é o mesmo."
-          },
-          {
             "q": "Por que meus chocolates canábicos keto ficam com gosto de cera?",
-            "a": "Excesso de óleo de coco ou manteiga de cacau sem temperagem adequada cria uma sensação cerosa. Use uma proporção maior de cacau em relação à gordura, tempere seu chocolate aquecendo e resfriando em temperaturas específicas, e adicione a gordura canábica gradualmente enquanto mexe continuamente."
+            "a": "Excesso de óleo de coco ou manteiga de cacau sem temperagem adequada cria uma sensação cerosa. Use uma proporção maior de cacau em relação à gordura, tempere seu chocolate aquecendo e resfriando em temperaturas específicas, e adicione a gordura canábica gradualmente enquanto mexe continuamente.",
+            "only": [
+              "infused-coconut-fat-bombs",
+              "infused-chocolate-bark"
+            ]
           },
           {
             "q": "Quantos carboidratos tem a manteiga de cannabis?",
@@ -1478,24 +1420,8 @@
         ],
         "faq": [
           {
-            "q": "Quais são os melhores alimentos keto para infusionar com cannabis?",
-            "a": "Qualquer alimento rico em gordura e saboroso funciona bem. As melhores opções incluem chips de queijo, itens envoltos em bacon, mac and cheese de couve-flor, pizza de massa fathead e carnes regadas com manteiga. O segredo é que o prato já contenha gordura para que a adição de cannabis pareça natural."
-          },
-          {
-            "q": "Posso adicionar óleo de cannabis ao meu café bulletproof?",
-            "a": "Com certeza. Café bulletproof é um excelente veículo keto para cannabis. Bata óleo MCT ou manteiga de cannabis no seu café quente com um espumador. A gordura emulsifica no café, e os efeitos podem começar mais rápido porque calorias líquidas são digeridas rapidamente."
-          },
-          {
             "q": "A gordura nas refeições keto afeta a absorção de THC?",
             "a": "Sim, positivamente. Refeições com mais gordura aumentam significativamente a biodisponibilidade do THC. Estudos mostram que consumir THC com uma refeição rica em gordura pode aumentar a absorção em até três vezes. Esta é uma das razões pelas quais comestíveis keto podem parecer mais fortes que alternativas com pouca gordura."
-          },
-          {
-            "q": "Posso usar gordura canábica para fazer chips de queijo?",
-            "a": "Pincele ou regue uma pequena quantidade de óleo de cannabis no queijo antes de assar em temperatura moderada. A gordura do queijo e o óleo de cannabis se fundem bem. Mantenha o forno a 350 F (175 C) ou menos e observe de perto, pois o queijo queima rapidamente."
-          },
-          {
-            "q": "É possível fazer bacon canábico?",
-            "a": "Você pode pincelar bacon com óleo de cannabis antes de assar em temperatura moderada, ou mais efetivamente, cozinhar o bacon normalmente e envolvê-lo em manteiga de cannabis derretida. Fritar diretamente em fogo alto com gordura canábica é desperdício porque degrada o THC nas temperaturas de fritura."
           }
         ]
       },
@@ -1529,20 +1455,12 @@
             "a": "Sim, o óleo MCT canábico é ideal para bebidas keto porque é sem sabor, se mistura facilmente, não adiciona carboidratos e os MCTs são metabolizados rapidamente para energia. Ele emulsifica melhor que manteiga na maioria das bebidas e contribui para a produção de cetonas."
           },
           {
-            "q": "Posso colocar manteiga de cannabis no chá?",
-            "a": "Sim, manteiga de cannabis no chá é uma preparação tradicional conhecida como bhang em algumas culturas. Bata bem para emulsificar, ou use um espumador de imersão. Adicionar um pouco de creme ajuda a manteiga a se integrar mais suavemente ao chá."
-          },
-          {
             "q": "Uma bebida keto canábica vai quebrar meu jejum?",
             "a": "Sim, qualquer ingestão calórica incluindo gordura quebra um jejum estrito. Se pratica jejum intermitente, programe sua bebida keto canábica dentro da sua janela alimentar. A gordura na bebida iniciará a digestão e encerrará o estado de jejum."
           },
           {
             "q": "Quão rápido as bebidas keto canábicas fazem efeito?",
             "a": "Bebidas keto canábicas podem fazer efeito em 20-45 minutos, mais rápido que a maioria dos comestíveis sólidos. O óleo MCT em particular é absorvido rapidamente e processado pelo fígado com rapidez. O formato líquido e a gordura eficiente também contribuem para um início mais rápido comparado a comer um comestível sólido."
-          },
-          {
-            "q": "Posso adicionar creme canábico a um smoothie keto?",
-            "a": "Com certeza. Bata creme canábico com ingredientes low-carb como abacate, espinafre, pasta de oleaginosa e cacau sem açúcar. Adicione gelo e adoçante keto para um smoothie espesso e cremoso. Acompanhe os carboidratos de todos os seus ingredientes para ficar dentro do seu limite diário."
           }
         ]
       }
@@ -1622,15 +1540,10 @@
         "faq": [
           {
             "q": "Qual o melhor chocolate vegano para doces com cannabis?",
-            "a": "Procure chocolate amargo com 60-70% de cacau que liste manteiga de cacau como a gordura principal. Marcas que usam óleo de coco em vez de gordura do leite combinam de forma mais natural com o óleo de coco com cannabis. Verifique o rótulo, pois nem todo chocolate amargo é vegano."
-          },
-          {
-            "q": "Posso fazer caramelo vegano com cannabis?",
-            "a": "Sim, use creme de coco integral com açúcar de coco e óleo de coco com cannabis. Cozinhe em fogo baixo até engrossar. O caramelo vegano tem uma textura ligeiramente diferente, mas é delicioso. O sabor de coco combina perfeitamente com a cannabis e adiciona uma doçura exótica."
-          },
-          {
-            "q": "Como faço chocolate com cannabis sem temperar?",
-            "a": "Derreta gotas de chocolate, misture o óleo de cannabis e despeje em forminhas. Embora não esteja perfeitamente temperado, fica ótimo mesmo assim. Guarde na geladeira para um estalo firme. Para melhores resultados sem temperagem tradicional, derreta dois terços do chocolate, misture o terço final para uma temperagem rústica."
+            "a": "Procure chocolate amargo com 60-70% de cacau que liste manteiga de cacau como a gordura principal. Marcas que usam óleo de coco em vez de gordura do leite combinam de forma mais natural com o óleo de coco com cannabis. Verifique o rótulo, pois nem todo chocolate amargo é vegano.",
+            "only": [
+              "cannabis-vegan-chocolate-mousse"
+            ]
           },
           {
             "q": "Doces veganos com cannabis derretem mais rápido?",
@@ -1672,20 +1585,16 @@
             "a": "O azeite de oliva com cannabis é o mais versátil para aplicações salgadas. Tem um sabor complementar, funciona como molho para salada, azeite de finalização e em molhos. O óleo de coco com cannabis é melhor para pratos asiáticos e tropicais onde o sabor de coco é bem-vindo."
           },
           {
-            "q": "Posso adicionar cannabis a pratos com tofu?",
-            "a": "Sim, marine ou glaceie o tofu com uma mistura contendo óleo de cannabis. Pressione e asse o tofu primeiro para dar textura, depois misture em um molho com cannabis. O tofu absorve bem sabores e óleos, sendo um excelente veículo para infusão de cannabis."
-          },
-          {
             "q": "As fibras vegetais afetam a absorção do THC?",
             "a": "Refeições ricas em fibras podem desacelerar ligeiramente a digestão, o que pode atrasar o início dos efeitos, mas estender a duração. O efeito é modesto. O teor de gordura da refeição importa mais que as fibras para a absorção do THC. Garanta gordura adequada no seu prato vegano para a entrega adequada dos canabinoides."
           },
           {
             "q": "Posso fazer queijo vegano com cannabis?",
-            "a": "Sim, queijos veganos à base de castanha de caju ou coco são excelentes veículos para óleo de cannabis. Bata castanhas de caju hidratadas com óleo de coco com cannabis, levedura nutricional, suco de limão e alho. O teor de gordura se integra perfeitamente e o sabor salgado forte mascara as notas de cannabis."
-          },
-          {
-            "q": "Como faço para infundir um stir-fry vegano com cannabis?",
-            "a": "Cozinhe seu stir-fry em fogo alto com óleo comum, depois reduza para fogo baixo e regue óleo de gergelim com cannabis ou óleo de coco com cannabis sobre o prato finalizado. Misture para cobrir. Isso preserva o THC enquanto proporciona o selamento em alta temperatura que os stir-fries precisam."
+            "a": "Sim, queijos veganos à base de castanha de caju ou coco são excelentes veículos para óleo de cannabis. Bata castanhas de caju hidratadas com óleo de coco com cannabis, levedura nutricional, suco de limão e alho. O teor de gordura se integra perfeitamente e o sabor salgado forte mascara as notas de cannabis.",
+            "only": [
+              "infused-vegan-cheese-sauce",
+              "infused-vegan-mac-and-cheese"
+            ]
           }
         ]
       },
@@ -1721,14 +1630,6 @@
           {
             "q": "Pratos principais veganos com cannabis são tão potentes quanto os à base de carne?",
             "a": "Com certeza. O THC se liga à gordura independentemente da origem animal ou vegetal. Desde que seu prato vegano tenha teor de gordura adequado, a potência é idêntica. A chave é usar óleo infundido com cannabis de qualidade e incorporá-lo adequadamente."
-          },
-          {
-            "q": "Posso adicionar cannabis a um hambúrguer vegetal?",
-            "a": "Sim, misture óleo de cannabis na mistura do hambúrguer antes de cozinhar em calor moderado, ou melhor ainda, cubra o hambúrguer pronto com aioli ou molho com cannabis. A abordagem de finalização preserva o THC enquanto permite cozinhar o hambúrguer adequadamente."
-          },
-          {
-            "q": "Como faço um jantar de bife vegano com cannabis?",
-            "a": "Sele seu bife de couve-flor, cogumelo portobello ou bife vegetal comercial com óleo comum, depois cubra com uma manteiga de ervas de cannabis feita com manteiga vegana e óleo de cannabis. A manteiga de finalização derrete sobre a superfície quente para uma apresentação bonita e dosagem uniforme."
           },
           {
             "q": "O alto teor de fibras nas refeições veganas afeta a absorção do THC?",
@@ -1776,10 +1677,6 @@
           {
             "q": "Como faço um bowl vegano quente com cannabis?",
             "a": "Cozinhe todos os componentes com óleo comum em temperaturas adequadas, monte o bowl quente e depois regue o óleo de cannabis por cima antes de comer. O calor residual da comida ajuda o óleo a ser absorvido sem atingir temperaturas que degradam o THC."
-          },
-          {
-            "q": "Posso adicionar cannabis a um smoothie bowl?",
-            "a": "Sim, bata óleo de coco ou MCT com cannabis diretamente na base do smoothie com frutas congeladas e leite vegetal. A mixagem cria uma emulsão completa para dosagem uniforme. Cubra com granola, sementes e frutas para um bowl de café da manhã completo com cannabis."
           }
         ]
       }
@@ -1812,19 +1709,25 @@
         "faq": [
           {
             "q": "Posso fazer brigadeiros com cannabis?",
-            "a": "Com certeza, brigadeiros são um dos melhores doces brasileiros para infusão de cannabis. Substitua parte da manteiga comum por manteiga com cannabis e cozinhe a mistura de leite condensado em fogo baixo, mexendo constantemente. Enrole em bolinhas e cubra com granulado. Cada bolinha é uma dose individual perfeita."
-          },
-          {
-            "q": "Quais doces brasileiros funcionam melhor com cannabis?",
-            "a": "Brigadeiros, beijinhos e cocada são as melhores escolhas porque são ricos em gordura, porcionados individualmente e têm sabores fortes que mascaram a cannabis. Pudim também funciona bem com creme com cannabis. Evite doces delicados onde o sabor da cannabis dominaria."
+            "a": "Com certeza, brigadeiros são um dos melhores doces brasileiros para infusão de cannabis. Substitua parte da manteiga comum por manteiga com cannabis e cozinhe a mistura de leite condensado em fogo baixo, mexendo constantemente. Enrole em bolinhas e cubra com granulado. Cada bolinha é uma dose individual perfeita.",
+            "only": [
+              "infused-brigadeiro"
+            ]
           },
           {
             "q": "O leite condensado afeta a potência do THC?",
-            "a": "Não, o leite condensado não degrada o THC. O cozimento lento em fogo médio-baixo para reduzir a mistura está dentro da faixa segura. Apenas evite ferver vigorosamente e adicione a gordura de cannabis no início para que se integre completamente ao leite condensado."
+            "a": "Não, o leite condensado não degrada o THC. O cozimento lento em fogo médio-baixo para reduzir a mistura está dentro da faixa segura. Apenas evite ferver vigorosamente e adicione a gordura de cannabis no início para que se integre completamente ao leite condensado.",
+            "only": [
+              "infused-brigadeiro",
+              "cannabis-beijinho"
+            ]
           },
           {
             "q": "Posso usar óleo de coco com cannabis em sobremesas brasileiras de coco?",
-            "a": "Sim, o óleo de coco com cannabis é perfeito para sobremesas brasileiras de coco como cocada, beijinhos e pudim de coco. O sabor de coco já é parte integrante dessas receitas, então o óleo infundido se incorpora naturalmente. É uma das combinações mais naturais de cannabis na culinária brasileira."
+            "a": "Sim, o óleo de coco com cannabis é perfeito para sobremesas brasileiras de coco como cocada, beijinhos e pudim de coco. O sabor de coco já é parte integrante dessas receitas, então o óleo infundido se incorpora naturalmente. É uma das combinações mais naturais de cannabis na culinária brasileira.",
+            "only": [
+              "cannabis-beijinho"
+            ]
           },
           {
             "q": "Como sirvo doces brasileiros com cannabis em uma festa?",
@@ -1859,23 +1762,21 @@
         "faq": [
           {
             "q": "Posso fazer pão de queijo com cannabis?",
-            "a": "Sim, o pão de queijo é excelente para infusão de cannabis. A receita tradicionalmente usa óleo, que você pode substituir por óleo com cannabis. A massa de polvilho integra o óleo completamente, e o sabor forte do queijo mascara qualquer nota herbal. Asse em temperatura moderada para preservar a potência."
+            "a": "Sim, o pão de queijo é excelente para infusão de cannabis. A receita tradicionalmente usa óleo, que você pode substituir por óleo com cannabis. A massa de polvilho integra o óleo completamente, e o sabor forte do queijo mascara qualquer nota herbal. Asse em temperatura moderada para preservar a potência.",
+            "only": [
+              "cannabis-pao-de-queijo"
+            ]
           },
           {
             "q": "É possível fazer coxinhas com cannabis?",
-            "a": "Sim. Coloque a manteiga de cannabis medida na massa ou no recheio, modele, empane e frite em óleo comum até dourar, ou asse numa assadeira untada para uma versão mais leve. Divida a massa por peso para cada coxinha ter a mesma dose."
-          },
-          {
-            "q": "Posso adicionar cannabis à feijoada?",
-            "a": "Misture óleo de cannabis na sua porção individual de feijoada em vez de na panela toda. O caldo rico e gorduroso de feijão e carne de porco é um veículo ideal porque os sabores fortes e o alto teor de gordura mascaram e absorvem a cannabis perfeitamente."
+            "a": "Sim. Coloque a manteiga de cannabis medida na massa ou no recheio, modele, empane e frite em óleo comum até dourar, ou asse numa assadeira untada para uma versão mais leve. Divida a massa por peso para cada coxinha ter a mesma dose.",
+            "only": [
+              "infused-coxinha"
+            ]
           },
           {
             "q": "Qual a melhor gordura para receitas brasileiras com cannabis?",
             "a": "A manteiga com cannabis é a mais versátil para a culinária salgada brasileira. O azeite de oliva com cannabis funciona para regar sobre pratos finalizados. O óleo de coco com cannabis é usado em algumas receitas do nordeste brasileiro. Combine a gordura de cannabis com o que a receita original pede."
-          },
-          {
-            "q": "Como faço a dosagem da farofa com cannabis?",
-            "a": "Misture uma quantidade calculada de manteiga com cannabis na farofa pronta e sirva por colherada. Uma a duas colheres de sopa de farofa é uma porção típica de acompanhamento. Calcule os mg por colher de sopa para poder servir doses precisas como acompanhamento."
           }
         ]
       },
@@ -1906,7 +1807,12 @@
         "faq": [
           {
             "q": "Posso usar óleo de cannabis em um wok?",
-            "a": "Não para o refogado inicial. Cozimento em wok requer calor extremamente alto que destrói o THC quase instantaneamente. Em vez disso, faça todo o cozimento em alta temperatura com óleo comum, depois desligue o fogo e misture o óleo de cannabis como etapa final antes de servir."
+            "a": "Não para o refogado inicial. Cozimento em wok requer calor extremamente alto que destrói o THC quase instantaneamente. Em vez disso, faça todo o cozimento em alta temperatura com óleo comum, depois desligue o fogo e misture o óleo de cannabis como etapa final antes de servir.",
+            "only": [
+              "cannabis-kung-pao-chicken",
+              "cannabis-mapo-tofu",
+              "cannabis-sweet-and-sour-pork"
+            ]
           },
           {
             "q": "Qual óleo de cannabis funciona melhor para culinária chinesa?",
@@ -1914,11 +1820,11 @@
           },
           {
             "q": "Posso fazer dumplings ou gyoza com cannabis?",
-            "a": "Sim, adicione óleo de cannabis ao recheio em vez da massa ou do óleo de cozimento. O recheio permanece em temperaturas internas moderadas durante o cozimento a vapor ou fritura na panela. Sirva com um molho de soja e gengibre com cannabis para uma dose adicional medida."
-          },
-          {
-            "q": "Como infundo um hot pot chinês com cannabis?",
-            "a": "Adicione óleo de gergelim com cannabis ao molho de mergulho individual de cada pessoa em vez do caldo comunitário. Isso permite que cada convidado controle sua dose com precisão. Óleo de pimenta com cannabis também funciona excelentemente como condimento de hot pot."
+            "a": "Sim, adicione óleo de cannabis ao recheio em vez da massa ou do óleo de cozimento. O recheio permanece em temperaturas internas moderadas durante o cozimento a vapor ou fritura na panela. Sirva com um molho de soja e gengibre com cannabis para uma dose adicional medida.",
+            "only": [
+              "cannabis-dim-sum-dumplings",
+              "cannabis-wonton-soup"
+            ]
           },
           {
             "q": "O molho de soja afeta o THC no meu %{name} com cannabis?",
@@ -1953,23 +1859,18 @@
         "faq": [
           {
             "q": "Posso fazer schnitzel com cannabis?",
-            "a": "Sim, mas não frite na manteiga com cannabis. Frite seu schnitzel empanado em manteiga ou óleo comum até dourar, depois retire do fogo e regue uma quantidade medida de manteiga com cannabis por cima. O calor residual derrete a manteiga na cobertura crocante perfeitamente."
-          },
-          {
-            "q": "Quais pratos alemães funcionam melhor com manteiga de cannabis?",
-            "a": "Spaetzle, bolinhos de batata, molho de rouladen, salada de batata quente e assados como kuchen e strudel são ideais. Qualquer prato onde manteiga é um ingrediente de finalização funciona perfeitamente. A culinária alemã usa manteiga extensivamente, tornando a integração de cannabis natural."
-          },
-          {
-            "q": "Posso adicionar cannabis à sopa de queijo com cerveja alemã?",
-            "a": "Sim, misture manteiga com cannabis na sopa finalizada após retirar do fogo. A base rica de queijo e o sabor forte da cerveja mascaram completamente qualquer gosto de cannabis. Este é um dos pratos alemães mais eficazes para esconder sabores de cannabis."
-          },
-          {
-            "q": "Como faço chucrute com cannabis?",
-            "a": "Aqueça seu chucrute delicadamente e misture manteiga com cannabis antes de servir. O sabor ácido e fermentado do chucrute é forte o suficiente para superar qualquer nota herbal de cannabis. Não ferva o chucrute por muito tempo após adicionar a gordura de cannabis."
+            "a": "Sim, mas não frite na manteiga com cannabis. Frite seu schnitzel empanado em manteiga ou óleo comum até dourar, depois retire do fogo e regue uma quantidade medida de manteiga com cannabis por cima. O calor residual derrete a manteiga na cobertura crocante perfeitamente.",
+            "only": [
+              "cannabis-schnitzel"
+            ]
           },
           {
             "q": "Sobremesas alemãs com cannabis são pesadas demais?",
-            "a": "Sobremesas alemãs como strudel e kuchen são ricas, mas tipicamente servidas em porções modestas, tornando o controle de dose simples. Use manteiga com cannabis nas camadas de massa ou no recheio e calcule a dose por fatia. Os sabores amanteigados e frutados complementam bem a cannabis."
+            "a": "Sobremesas alemãs como strudel e kuchen são ricas, mas tipicamente servidas em porções modestas, tornando o controle de dose simples. Use manteiga com cannabis nas camadas de massa ou no recheio e calcule a dose por fatia. Os sabores amanteigados e frutados complementam bem a cannabis.",
+            "only": [
+              "cannabis-apfelstrudel",
+              "cannabis-black-forest-cake"
+            ]
           }
         ]
       },
@@ -2000,23 +1901,14 @@
         "faq": [
           {
             "q": "Posso fazer tamales com cannabis?",
-            "a": "Sim, tamales são um dos melhores veículos mexicanos para cannabis. A massa tradicionalmente contém banha, que você pode substituir por banha infundida com cannabis. O processo de cozimento a vapor atinge apenas cerca de 212 F (100 C), o que preserva o THC. Cada tamal é uma dose perfeitamente porcionada."
-          },
-          {
-            "q": "Quais pratos mexicanos funcionam melhor para infusão de cannabis?",
-            "a": "Tamales, enchiladas com crema de cannabis, tacos com guacamole de cannabis e qualquer prato com molho mole são as melhores escolhas. Pratos com componentes ricos em gordura integram cannabis naturalmente. Evite pratos que dependem de fritura como método principal de cozimento."
-          },
-          {
-            "q": "Posso adicionar cannabis ao guacamole?",
-            "a": "Com certeza. Abacate é rico em gorduras saudáveis que se misturam perfeitamente com óleo de cannabis. Misture uma quantidade medida de óleo de cannabis no guacamole pronto e mexa bem. Os sabores de limão, coentro e pimenta mascaram completamente qualquer nota herbal de cannabis."
+            "a": "Sim, tamales são um dos melhores veículos mexicanos para cannabis. A massa tradicionalmente contém banha, que você pode substituir por banha infundida com cannabis. O processo de cozimento a vapor atinge apenas cerca de 212 F (100 C), o que preserva o THC. Cada tamal é uma dose perfeitamente porcionada.",
+            "only": [
+              "cannabis-tamales"
+            ]
           },
           {
             "q": "Comida apimentada afeta como os comestíveis de cannabis funcionam?",
             "a": "A capsaicina das pimentas pode aumentar o fluxo sanguíneo e o metabolismo, o que alguns consumidores relatam que intensifica ou acelera o início dos efeitos da cannabis. A diferença geralmente é sutil, mas comece com uma dose menor se estiver combinando comida muito apimentada com cannabis pela primeira vez."
-          },
-          {
-            "q": "Como faço chocolate quente mexicano com cannabis?",
-            "a": "Aqueça leite delicadamente com chocolate mexicano, um pau de canela e uma pitada de pimenta caiena. Retire do fogo e misture %{base_fat}. Bata vigorosamente com um molinillo ou espumador. O chocolate, a canela e a pimenta mascaram completamente qualquer sabor de cannabis para uma bebida tradicional e reconfortante."
           }
         ]
       }
@@ -2246,10 +2138,6 @@
           {
             "q": "Bebidas frias com cannabis fazem efeito tão rápido quanto as quentes?",
             "a": "Bebidas frias batidas podem fazer efeito bem rápido, às vezes em 20-40 minutos, porque a batida quebra tudo em partículas facilmente digeríveis. Bebidas mais grossas tipo smoothie podem levar um pouco mais de tempo que sucos ralos."
-          },
-          {
-            "q": "Como faço limonada com cannabis sem gosto oleoso?",
-            "a": "A melhor abordagem é xarope simples com cannabis ou um produto de THC hidrossolúvel. Se usar %{base_fat}, bata com uma pequena quantidade de creme de coco primeiro para criar uma emulsão, depois misture na limonada. O creme mascara o gosto oleoso."
           },
           {
             "q": "Posso carbonatar uma bebida com cannabis?",
