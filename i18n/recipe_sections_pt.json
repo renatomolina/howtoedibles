@@ -856,7 +856,7 @@
         "variations": [
           "Faça uma tintura à base de glicerina para uma opção sem álcool que é levemente doce e mais suave ao paladar.",
           "Crie uma tintura de extração rápida congelando tanto o álcool quanto a flor descarboxilada, depois combinando por uma extração curta de 3 minutos para minimizar a clorofila.",
-          "Reduza uma tintura alcoólica delicadamente em fogo baixo para criar um extrato concentrado de cannabis conhecido como FECO (Óleo de Extração Completa de Cannabis)."
+          "Misture uma dose medida numa bebida ou numa colher de mel, em vez de tomar debaixo da língua."
         ],
         "faq": [
           {
@@ -869,7 +869,7 @@
           },
           {
             "q": "Posso evaporar o álcool da minha tintura?",
-            "a": "Sim, aquecer a tintura delicadamente em uma área bem ventilada evapora o álcool e concentra os canabinoides. Nunca use chama aberta perto de vapores de álcool. O resultado é um concentrado espesso e potente que pode ser usado em cápsulas, comestíveis ou aplicado topicamente."
+            "a": "Não é seguro fazer em casa: o álcool de cereais solta vapor inflamável mesmo em temperatura ambiente, e aquecer piora isso. Se quiser sem álcool, faça o óleo de coco ou o mel infusionado do site."
           },
           {
             "q": "Por que minha tintura tem um gosto tão forte?",
@@ -2148,7 +2148,7 @@
       "alcoholic": {
         "intro": "Esta receita de %{name} com cannabis combina %{base_fat} com destilados ou ingredientes de coquetel para uma bebida adulta sofisticada com efeitos tanto do álcool quanto do THC. Combinar cannabis e álcool requer cautela extra, pois ambos são psicoativos e podem intensificar os efeitos um do outro. Domine o equilíbrio de sabor e dosagem com nosso guia detalhado.",
         "dosing_tips": [
-          "Reduza significativamente tanto a dose de álcool quanto de THC ao combiná-los. Mire em no máximo 5 mg de THC e o equivalente a uma dose padrão de bebida alcoólica.",
+          "O álcool deixa o efeito do THC mais forte. Se você é novo na cannabis ou em misturá-la com álcool, tome meia porção, não beba outras bebidas alcoólicas e espere 2 horas antes de tomar mais.",
           "Cannabis e álcool são sinérgicos. O efeito combinado é mais forte que qualquer um isoladamente, então erre bastante pelo lado da cautela.",
           "Use tintura de cannabis para coquetéis à base de álcool, pois ela se mistura mais facilmente que infusões à base de gordura.",
           "Sirva essas bebidas lentamente e ofereça alternativas não infundidas para que os convidados possam escolher seu nível de conforto."

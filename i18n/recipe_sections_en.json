@@ -856,7 +856,7 @@
         "variations": [
           "Make a glycerin-based tincture for an alcohol-free option that is slightly sweet and gentler on the palate.",
           "Create a fast-wash tincture by freezing both the alcohol and decarbed flower, then combining for a short 3-minute extraction to minimize chlorophyll.",
-          "Reduce an alcohol tincture gently on low heat to create a concentrated cannabis extract known as FECO (Full Extract Cannabis Oil)."
+          "Stir a measured dose into a drink or a spoonful of honey instead of taking it under the tongue."
         ],
         "faq": [
           {
@@ -869,7 +869,7 @@
           },
           {
             "q": "Can I evaporate the alcohol from my tincture?",
-            "a": "Yes, gently warming the tincture in a well-ventilated area evaporates the alcohol and concentrates the cannabinoids. Never use open flame near alcohol vapors. The result is a thick, potent concentrate that can be used in capsules, edibles, or applied topically."
+            "a": "It isn't safe to do at home: high-proof alcohol gives off flammable vapour even at room temperature, and heating it makes that worse. If you want no alcohol, make the site's infused coconut oil or honey instead."
           },
           {
             "q": "Why does my tincture taste so harsh?",
@@ -2148,7 +2148,7 @@
       "alcoholic": {
         "intro": "This cannabis %{name} recipe pairs %{base_fat} with spirits or cocktail ingredients for a sophisticated adult beverage with both alcohol and THC effects. Combining cannabis and alcohol requires extra caution since both are psychoactive and can intensify each other's effects. Master the balance of flavor and dosing with our detailed guide.",
         "dosing_tips": [
-          "Significantly reduce both your alcohol and THC doses when combining them. Aim for no more than 5 mg THC and one standard drink equivalent.",
+          "Alcohol makes THC hit harder. If you're new to cannabis or to mixing it with alcohol, have half a serving, skip other drinks, and wait 2 hours before more.",
           "Cannabis and alcohol are synergistic. The combined effect is stronger than either one alone, so err heavily on the side of caution.",
           "Use cannabis tincture for alcohol-based cocktails as it mixes more seamlessly than fat-based infusions.",
           "Serve these drinks slowly and provide non-infused alternatives so guests can choose their comfort level."
