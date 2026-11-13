@@ -1040,7 +1040,7 @@
       "1 cup de leite infusionado",
       "4 ovos (de preferência pasteurizados, pois as claras não são cozidas)",
       "6 tbsp de açúcar",
-      "1 cup de creme de leite fresco",
+      "1 xícara de creme de leite de cannabis (feito com a receita de leite infusionado)",
       "1 tsp de noz-moscada ralada",
       "6 tbsp de bourbon (opcional)",
       "Canela para decorar"
@@ -1048,15 +1048,15 @@
     "instructions": [
       "Separe as gemas das claras.",
       "Em uma tigela, bata as gemas com 5 colheres de sopa do açúcar até ficarem pálidas e o açúcar estar completamente dissolvido.",
-      "Em uma panela média, em fogo alto, combine o leite, o creme de leite e a noz-moscada e leve quase à fervura, mexendo ocasionalmente. Retire do fogo e incorpore lentamente a mistura quente na mistura de gemas e açúcar. Depois, retorne tudo à panela e aqueça até a mistura atingir 160 graus F. Retire do fogo, adicione o bourbon/whiskey, despeje em uma tigela média e coloque na geladeira para gelar.",
+      "Em uma panela média, em fogo alto, combine o leite infusionado, o creme de leite de cannabis e a noz-moscada e leve quase à fervura, mexendo ocasionalmente. Retire do fogo e incorpore lentamente a mistura quente na mistura de gemas e açúcar. Depois, retorne tudo à panela e aqueça até a mistura atingir 160 graus F. Retire do fogo, adicione o bourbon/whiskey, despeje em uma tigela média e coloque na geladeira para gelar.",
       "Em uma tigela média, bata as claras até formar picos suaves. Com a batedeira ligada, adicione gradualmente 1 tablespoon de açúcar e bata até formar picos firmes. Incorpore as claras batidas na mistura gelada.",
-      "Sirva em quantas xícaras você definiu como porções na calculadora para manter sua dose consistente e decore com canela!"
+      "Mexa e sirva em 6 copinhos de cerca de ½ xícara (120 ml) cada; um copinho é uma porção. Decore com canela."
     ],
     "intro_unique": "Rico e cremoso, o eggnog infusionado é uma bebida festiva de fim de ano que combina especiarias com creme de leite infusionado, um mimo da estação.",
-    "dosing_unique": "Sirva o eggnog em porções de 4 onças, já que a riqueza e a potência dele pedem copos menores.",
+    "dosing_unique": "Sirva 6 copinhos iguais de cerca de 120 ml; cada um é uma porção. Com o bourbon, o álcool faz o THC bater mais forte: se você é iniciante, tome meio copinho e espere 2 horas.",
     "storage_unique": "Guarde na geladeira numa garrafa fechada por até 3 dias; agite bem antes de servir, pois a mistura se separa.",
     "variation_unique": "Polvilhe noz-moscada ralada na hora e um fio de calda de caramelo por cima para uma apresentação festiva mais caprichada.",
-    "unique_src": "12c8463e149ec51d6064fc05eb2dd7e82f34aeac"
+    "unique_src": "67c2c95a7c3bd5b5155b722236582e77e1c398e1"
   },
   "infused-ghee": {
     "name": "Ghee Infusionado",
@@ -2864,14 +2864,14 @@
     "ingredients": [
       "300g chocolate amargo picado",
       "1 xícara de creme de leite de cannabis (feito com a receita de leite infusionado)",
-      "2 tbsp manteiga",
+      "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga",
       "1 tsp baunilha",
       "Pitada de sal",
       "Para mergulhar: morangos, banana, marshmallows, pretzels"
     ],
     "instructions": [
       "Aqueça o creme de cannabis até começar a soltar vapor. Retire do fogo; adicione o chocolate.",
-      "Espere 2 min e mexa até ficar homogêneo. Adicione manteiga, baunilha e sal.",
+      "Espere 2 min e mexa até ficar homogêneo. Adicione a manteiga de cannabis, a manteiga, a baunilha e o sal.",
       "Transfira para a panela de fondue e sirva com os acompanhamentos. O fondue rende cerca de 2 xícaras; uma porção é ⅓ de xícara, então distribua em 6 potinhos, um por convidado."
     ],
     "intro_unique": "O Fondue de Chocolate de Cannabis transforma qualquer encontro em uma experiência comestível interativa, em que os convidados mergulham frutas e guloseimas no chocolate quente infusionado.",
@@ -3302,23 +3302,23 @@
       "1kg tomates italianos cortados ao meio",
       "1 cebola em quartos",
       "6 dentes de alho",
-      "2 tbsp azeite de oliva",
+      "1 colher de sopa de azeite de oliva + 1 colher de sopa de azeite de oliva infusionado",
       "1 cup caldo de legumes",
       "½ cup creme de cannabis",
       "1 tsp açúcar",
       "Sal, pimenta, manjericão"
     ],
     "instructions": [
-      "Misture os tomates, a cebola e o alho com o azeite e asse a 400°F por 40 min.",
+      "Misture os tomates, a cebola e o alho com o azeite comum e asse a 400°F por 40 min.",
       "Bata com o caldo até ficar homogêneo.",
-      "Misture o creme de cannabis e o açúcar; aqueça em fogo baixo.",
+      "Misture o creme de cannabis, o azeite infusionado e o açúcar; aqueça em fogo baixo, sem ferver.",
       "Tempere com sal e pimenta, sirva em 4 tigelas e decore com manjericão fresco."
     ],
     "intro_unique": "Aveludado, o bisque de tomate infusionado bate tomates assados com creme de leite infusionado numa sopa lisa e reconfortante, de final encorpado.",
-    "dosing_unique": "Misture o creme infusionado à sopa já batida e sirva nas tigelas com um copo medidor, para uma dose precisa por porção.",
+    "dosing_unique": "Misture o creme e o azeite infusionados à sopa já batida e sirva 4 tigelas iguais com um copo medidor; cada tigela é uma porção.",
     "storage_unique": "Guarde na geladeira por até 4 dias ou congele por 2 meses; reaqueça com cuidado, sem ferver, para preservar o creme.",
     "variation_unique": "Asse os tomates com alho e páprica defumada antes de bater para um sabor mais defumado e profundo.",
-    "unique_src": "e854962f875a4bf41570e4373cb90fcf21e1f196"
+    "unique_src": "23e063279b729505d4a8bf932f16dec395945508"
   },
   "cannabis-chicken-burrito-bowl": {
     "name": "Burrito Bowl de Frango com Cannabis",
@@ -3379,7 +3379,7 @@
       "1 abóbora butternut grande cortada ao meio",
       "1 cebola em quartos",
       "4 dentes de alho",
-      "2 tbsp azeite de oliva",
+      "1 colher de sopa de azeite de oliva + 1 colher de sopa de azeite de oliva infusionado",
       "3 cups caldo de legumes",
       "½ cup creme de cannabis",
       "1 tsp noz-moscada",
@@ -3387,16 +3387,16 @@
       "Sementes de abóbora tostadas"
     ],
     "instructions": [
-      "Pincele a abóbora, a cebola e o alho com o azeite e asse a 400°F por 45 min.",
+      "Pincele a abóbora, a cebola e o alho com o azeite comum e asse a 400°F por 45 min.",
       "Retire a polpa da abóbora da casca e bata com a cebola, o alho e o caldo até ficar homogêneo.",
-      "Misture o creme de cannabis e a noz-moscada; aqueça delicadamente.",
+      "Misture o creme de cannabis, o azeite infusionado e a noz-moscada; aqueça delicadamente.",
       "Tempere com sal e pimenta, sirva em 4 tigelas e decore com sementes de abóbora."
     ],
     "intro_unique": "A aveludada Sopa de Abóbora com Cannabis assa a abóbora até caramelizar e depois a bate com creme infusionado, resultando em uma tigela naturalmente adocicada.",
-    "dosing_unique": "Misture o creme infusionado à sopa já batida e sirva com conchas medidas para que cada tigela tenha a mesma dose.",
+    "dosing_unique": "Misture o creme e o azeite infusionados à sopa já batida e sirva 4 tigelas iguais com conchas medidas; cada tigela é uma porção.",
     "storage_unique": "Guarde na geladeira por até 4 dias ou no freezer por até 2 meses; a sopa reaquece muito bem sem perder a textura.",
     "variation_unique": "Acrescente uma colher de chá de curry em pó e um fio de creme de coco para uma sopa de abóbora com inspiração tailandesa.",
-    "unique_src": "f52076d46b631c57478256427dd47bd1b93e6f52"
+    "unique_src": "ec34775a08bcace728ecdc3348ce2fa375bba7e4"
   },
   "infused-egg-fried-rice": {
     "name": "Arroz Frito com Ovo Infusionado",
@@ -3689,9 +3689,9 @@
     "instructions": [
       "Tempere o frango desfiado com cream cheese, sal e pimenta. Reserve.",
       "Em uma panela, ferva o caldo e a manteiga de cannabis. Adicione a farinha de uma vez, mexendo vigorosamente até formar uma bola de massa. Deixe esfriar.",
-      "Pegue uma porção de massa, achate na palma da mão, coloque o recheio de frango e modele em formato de gota.",
+      "Divida a massa em 20 pedaços iguais (pese-os para a dose ficar igual). Achate um na palma da mão, coloque o recheio de frango e modele em formato de gota.",
       "Passe no ovo batido e depois na farinha de rosca.",
-      "Frite a 350°F até dourar, cerca de 3–4 min. Escorra em papel toalha."
+      "Frite a 350°F até dourar, cerca de 3–4 min. Escorra em papel toalha. Uma porção são 2 coxinhas."
     ],
     "intro_unique": "As coxinhas infusionadas são salgadinhos brasileiros em formato de gota, com uma massa feita com manteiga de cannabis envolvendo frango desfiado temperado, fritos até dourar.",
     "dosing_unique": "Modele todas as coxinhas do mesmo tamanho usando uma balança de cozinha e frite em levas, para uma dose consistente.",
@@ -3926,13 +3926,13 @@
       "Recheie cada metade de jalapeño generosamente com a mistura de queijo.",
       "Envolva cada jalapeño recheado com meia fatia de bacon e prenda com um palito.",
       "Coloque na grelha e asse por 25-30 minutos até o bacon ficar crocante.",
-      "Deixe esfriar por 5 minutos antes de servir. Uma porção é uma metade de jalapeño (24 no total)."
+      "Deixe esfriar por 5 minutos antes de servir. Uma porção são 3 metades de jalapeño (8 porções com as 24 metades)."
     ],
     "intro_unique": "Envoltos em bacon, estes jalapeños recheados infusionados combinam um recheio cremoso de queijo com uma infusão sutil de manteiga de cannabis, num petisco picante que agrada a todos.",
-    "dosing_unique": "A manteiga de cannabis é batida no recheio de cream cheese, então cada metade de jalapeño recheada traz uma dose precisa e uniforme.",
+    "dosing_unique": "A manteiga de cannabis é batida no recheio de cream cheese, então cada metade de jalapeño leva a mesma parte; 3 metades são uma porção.",
     "storage_unique": "Monte e guarde na geladeira sem assar com até 24 horas de antecedência; asse direto da geladeira, acrescentando 5 minutos ao tempo de forno.",
     "variation_unique": "Para uma versão mais suave, use minipimentões doces no lugar dos jalapeños, ou acrescente carne de caranguejo ao recheio para um toque luxuoso.",
-    "unique_src": "e36385d92a5c4bf9142e820e075afb15c2918dd3"
+    "unique_src": "3db8b24669fb919d4563bc5b2ddf6d3488fafeb3"
   },
   "cannabis-pretzel-bites": {
     "name": "Mini Pretzels de Cannabis",

@@ -1040,7 +1040,7 @@
       "1 Tasse infundierte Milch",
       "4 Eier (am besten pasteurisiert, da das Eiweiß nicht erhitzt wird)",
       "6 EL Zucker",
-      "1 Tasse Schlagsahne",
+      "1 Tasse Cannabis-Sahne (nach dem Rezept für infundierte Milch)",
       "1 TL geriebene Muskatnuss",
       "6 EL Bourbon (optional)",
       "Zimt zum Garnieren"
@@ -1048,15 +1048,15 @@
     "instructions": [
       "Das Eigelb vom Eiweiß trennen.",
       "In einer Schüssel das Eigelb mit 5 EL des Zuckers schlagen, bis es blass aussieht und der Zucker vollständig aufgelöst ist.",
-      "In einem mittelgroßen Topf bei starker Hitze die Milch, Schlagsahne und Muskatnuss kombinieren und unter gelegentlichem Rühren gerade zum Kochen bringen. Vom Herd nehmen und die heiße Mischung langsam in die Eigelb-Zucker-Mischung einrühren. Dann alles zurück in den Topf geben und erhitzen, bis die Mischung 160 Grad F erreicht. Vom Herd nehmen, den Bourbon/Whiskey einrühren, in eine mittelgroße Rührschüssel gießen und zum Abkühlen in den Kühlschrank stellen.",
+      "In einem mittelgroßen Topf bei starker Hitze die infundierte Milch, die Cannabis-Sahne und die Muskatnuss kombinieren und unter gelegentlichem Rühren gerade zum Kochen bringen. Vom Herd nehmen und die heiße Mischung langsam in die Eigelb-Zucker-Mischung einrühren. Dann alles zurück in den Topf geben und erhitzen, bis die Mischung 160 Grad F erreicht. Vom Herd nehmen, den Bourbon/Whiskey einrühren, in eine mittelgroße Rührschüssel gießen und zum Abkühlen in den Kühlschrank stellen.",
       "In einer mittelgroßen Rührschüssel das Eiweiß zu weichen Spitzen schlagen. Bei laufendem Mixer nach und nach 1 Esslöffel Zucker hinzufügen und zu steifen Spitzen schlagen. Das Eiweiß in die gekühlte Mischung einrühren.",
-      "In so viele Tassen servieren, wie du im Rechner als Portionen festgelegt hast, um die Dosierung konsistent zu halten, und mit Zimt garnieren!"
+      "Umrühren und auf 6 kleine Gläser zu je etwa 120 ml verteilen; ein Glas ist eine Portion. Mit Zimt garnieren."
     ],
     "intro_unique": "Reichhaltiger, cremiger Cannabis-Eierlikör ist ein festliches Getränk für die Feiertage, das wärmende Gewürze mit infundierter Sahne verbindet.",
-    "dosing_unique": "Schenk den Eierlikör in Portionen von 4 Unzen aus, denn weil er so gehaltvoll und stark ist, sind kleinere Gläser angemessener.",
+    "dosing_unique": "Verteile ihn auf 6 gleiche Gläser zu etwa 120 ml; jedes ist eine Portion. Mit Bourbon wirkt THC stärker: Wenn du neu bist, trink ein halbes Glas und warte 2 Stunden.",
     "storage_unique": "In einer verschlossenen Flasche bis zu 3 Tage im Kühlschrank aufbewahren; vor dem Einschenken gut schütteln, da sich die Mischung trennt.",
     "variation_unique": "Frisch geriebene Muskatnuss und etwas Karamellsauce obendrauf sorgen für eine festliche Präsentation.",
-    "unique_src": "12c8463e149ec51d6064fc05eb2dd7e82f34aeac"
+    "unique_src": "67c2c95a7c3bd5b5155b722236582e77e1c398e1"
   },
   "infused-ghee": {
     "name": "Infundiertes Ghee",
@@ -2864,14 +2864,14 @@
     "ingredients": [
       "300g Zartbitterschokolade, gehackt",
       "1 Tasse Cannabis-Sahne (nach dem Rezept für infundierte Milch)",
-      "2 tbsp Butter",
+      "1 EL Cannabutter + 1 EL Butter",
       "1 tsp Vanille",
       "Prise Salz",
       "Zum Eintauchen: Erdbeeren, Banane, Marshmallows, Brezeln"
     ],
     "instructions": [
       "Cannabis-Sahne erhitzen, bis sie dampft. Vom Herd nehmen; Schokolade hinzufügen.",
-      "2 Min. ruhen lassen, dann glatt rühren. Butter, Vanille und Salz hinzufügen.",
+      "2 Min. ruhen lassen, dann glatt rühren. Cannabutter, Butter, Vanille und Salz hinzufügen.",
       "In einen Fonduetopf umfüllen und mit den Beilagen servieren. Das Fondue ergibt etwa 2 Tassen; eine Portion ist ⅓ Tasse, also auf 6 kleine Schälchen verteilen, eins pro Gast."
     ],
     "intro_unique": "Cannabis-Schokoladenfondue macht jedes Treffen zum interaktiven Edible-Erlebnis, bei dem die Gäste Obst und Leckereien in warme infundierte Schokolade tunken.",
@@ -3302,23 +3302,23 @@
       "1kg Roma-Tomaten, halbiert",
       "1 Zwiebel, geviertelt",
       "6 Knoblauchzehen",
-      "2 EL Olivenöl",
+      "1 EL Olivenöl + 1 EL infundiertes Olivenöl",
       "1 Tasse Gemüsebrühe",
       "½ Tasse Cannabis-Sahne",
       "1 TL Zucker",
       "Salz, Pfeffer, Basilikum"
     ],
     "instructions": [
-      "Tomaten, Zwiebel und Knoblauch mit dem Olivenöl vermengen und bei 400°F 40 Min. rösten.",
+      "Tomaten, Zwiebel und Knoblauch mit dem normalen Olivenöl vermengen und bei 400°F 40 Min. rösten.",
       "Mit Brühe glatt pürieren.",
-      "Cannabis-Sahne und Zucker einrühren; bei niedriger Hitze erwärmen.",
+      "Cannabis-Sahne, infundiertes Olivenöl und Zucker einrühren; bei niedriger Hitze erwärmen, nicht kochen lassen.",
       "Mit Salz und Pfeffer würzen, auf 4 Schüsseln verteilen und mit frischem Basilikum garnieren."
     ],
     "intro_unique": "Samtige Cannabis-Tomaten-Bisque mixt geröstete Tomaten mit infundierter Sahne zu einer glatten, wärmenden Suppe mit vollmundigem Abgang.",
-    "dosing_unique": "Rühr die infundierte Sahne in die pürierte Suppe und schöpf sie mit einem Messbecher in die Schüsseln, damit jede Portion genau dosiert ist.",
+    "dosing_unique": "Rühr die infundierte Sahne und das infundierte Olivenöl in die pürierte Suppe und schöpf mit einem Messbecher 4 gleiche Schüsseln; jede Schüssel ist eine Portion.",
     "storage_unique": "Bis zu 4 Tage im Kühlschrank oder 2 Monate eingefroren haltbar; schonend und ohne Aufkochen erwärmen, damit die Sahne nicht leidet.",
     "variation_unique": "Röste die Tomaten vor dem Pürieren mit Knoblauch und geräuchertem Paprikapulver – für ein rauchigeres, tieferes Aroma.",
-    "unique_src": "e854962f875a4bf41570e4373cb90fcf21e1f196"
+    "unique_src": "23e063279b729505d4a8bf932f16dec395945508"
   },
   "cannabis-chicken-burrito-bowl": {
     "name": "Cannabis-Hähnchen-Burrito-Bowl",
@@ -3379,7 +3379,7 @@
       "1 großer Butternut-Kürbis, halbiert",
       "1 Zwiebel, geviertelt",
       "4 Knoblauchzehen",
-      "2 EL Olivenöl",
+      "1 EL Olivenöl + 1 EL infundiertes Olivenöl",
       "3 Tassen Gemüsebrühe",
       "½ Tasse Cannabis-Sahne",
       "1 TL Muskatnuss",
@@ -3387,16 +3387,16 @@
       "Geröstete Kürbiskerne"
     ],
     "instructions": [
-      "Kürbis, Zwiebel und Knoblauch mit dem Olivenöl bestreichen und bei 400°F 45 Min. rösten.",
+      "Kürbis, Zwiebel und Knoblauch mit dem normalen Olivenöl bestreichen und bei 400°F 45 Min. rösten.",
       "Das Kürbisfleisch aus der Schale lösen und mit Zwiebel, Knoblauch und Brühe glatt pürieren.",
-      "Cannabis-Sahne und Muskatnuss einrühren; sanft erwärmen.",
+      "Cannabis-Sahne, infundiertes Olivenöl und Muskatnuss einrühren; sanft erwärmen.",
       "Mit Salz und Pfeffer würzen, auf 4 Schüsseln verteilen und mit Kürbiskernen garnieren."
     ],
     "intro_unique": "Für die samtige Cannabis-Butternut-Kürbissuppe wird der Kürbis geröstet, bis er karamellisiert, und dann mit infundierter Sahne püriert – eine natürlich süße Schüssel.",
-    "dosing_unique": "Rühre die infundierte Sahne in die pürierte Suppe und serviere sie mit abgemessenen Kellen, damit jede Schüssel dieselbe Dosis hat.",
+    "dosing_unique": "Rühre die infundierte Sahne und das infundierte Olivenöl in die pürierte Suppe und verteile sie mit abgemessenen Kellen auf 4 gleiche Schüsseln; jede Schüssel ist eine Portion.",
     "storage_unique": "Bewahre sie bis zu 4 Tage im Kühlschrank auf oder friere sie bis zu 2 Monate ein; die Suppe lässt sich wunderbar aufwärmen, ohne an Textur zu verlieren.",
     "variation_unique": "Gib einen Teelöffel Currypulver und einen Schwung Kokoscreme dazu für eine thailändisch inspirierte Butternut-Kürbissuppe.",
-    "unique_src": "f52076d46b631c57478256427dd47bd1b93e6f52"
+    "unique_src": "ec34775a08bcace728ecdc3348ce2fa375bba7e4"
   },
   "infused-egg-fried-rice": {
     "name": "Infundierter Ei-Bratreis",
@@ -3689,9 +3689,9 @@
     "instructions": [
       "Zerzupftes Hähnchen mit Frischkäse, Salz und Pfeffer würzen. Beiseitestellen.",
       "In einem Topf Brühe und Cannabutter zum Kochen bringen. Mehl auf einmal hinzufügen und kräftig rühren, bis sich ein Teigkloß bildet. Abkühlen lassen.",
-      "Eine Portion Teig nehmen, in der Handfläche flach drücken, Hähnchenfüllung hineingeben und zu einer Tropfenform modellieren.",
+      "Den Teig in 20 gleiche Stücke teilen (abwiegen, damit die Dosis gleich ist). Eines in der Handfläche flach drücken, Hähnchenfüllung hineingeben und zu einer Tropfenform modellieren.",
       "In verquirltem Ei wenden, dann in Paniermehl wälzen.",
-      "Bei 350°F goldbraun frittieren, ca. 3–4 Min. Auf Küchenpapier abtropfen lassen."
+      "Bei 350°F goldbraun frittieren, ca. 3–4 Min. Auf Küchenpapier abtropfen lassen. Eine Portion sind 2 Coxinhas."
     ],
     "intro_unique": "Infundierte Coxinhas sind tropfenförmige brasilianische Kroketten: Ein Teig mit Cannabutter umhüllt gewürztes, zerzupftes Hähnchen, dann wird alles goldbraun frittiert.",
     "dosing_unique": "Forme jede Coxinha mit einer Küchenwaage auf die gleiche Größe und frittiere sie portionsweise, damit die Dosis gleich bleibt.",
@@ -3926,13 +3926,13 @@
       "Jede Jalapeño-Hälfte großzügig mit der Käsemischung füllen.",
       "Jede gefüllte Jalapeño mit einer halben Speckscheibe umwickeln und mit einem Zahnstocher fixieren.",
       "Auf das Gitterrost legen und 25-30 Minuten backen, bis der Speck knusprig ist.",
-      "5 Minuten abkühlen lassen vor dem Servieren. Eine Portion ist eine Jalapeño-Hälfte (insgesamt 24)."
+      "5 Minuten abkühlen lassen vor dem Servieren. Eine Portion sind 3 Jalapeño-Hälften (8 Portionen aus den 24 Hälften)."
     ],
     "intro_unique": "Diese mit Speck umwickelten gefüllten Cannabis-Jalapeños verbinden eine cremige Käsefüllung mit einer dezenten Cannabutter-Infusion – eine Vorspeise mit Schärfe, die allen schmeckt.",
-    "dosing_unique": "Die Cannabutter wird unter die Frischkäsefüllung gemixt, sodass jede gefüllte Jalapeño-Hälfte eine genaue und gleichmäßige Dosis liefert.",
+    "dosing_unique": "Die Cannabutter wird unter die Frischkäsefüllung gemixt, sodass jede Jalapeño-Hälfte den gleichen Anteil hat; 3 Hälften sind eine Portion.",
     "storage_unique": "Bis zu 24 Stunden vorher füllen und ungebacken kühlen; direkt aus dem Kühlschrank backen und 5 Minuten zur Backzeit dazugeben.",
     "variation_unique": "Für eine mildere Version nimmst du Mini-Paprika statt Jalapeños, oder du gibst für einen edlen Twist Krabbenfleisch in die Füllung.",
-    "unique_src": "e36385d92a5c4bf9142e820e075afb15c2918dd3"
+    "unique_src": "3db8b24669fb919d4563bc5b2ddf6d3488fafeb3"
   },
   "cannabis-pretzel-bites": {
     "name": "Cannabis-Brezel-Häppchen",
