@@ -12,7 +12,7 @@
       "baked_goods": {
         "intro": "Esta sencilla receta de %{name} con cannabis utiliza %{base_fat} para lograr una infusión consistente y potente que hornea perfectamente a %{cook_temp}. Los productos horneados son una de las formas más populares de disfrutar comestibles porque la grasa se une perfectamente con el THC. Sigue nuestra guía paso a paso para obtener una dosificación confiable en cada preparación.",
         "dosing_tips": [
-          "Comienza con 5-10 mg de THC por porción cuando hornees por primera vez, y espera al menos 90 minutos antes de consumir más.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg de THC, una fracción de una porción, y espera 2 horas antes de comer más.",
           "Mezcla tu %{base_fat} a fondo en la masa para asegurar una distribución uniforme del THC en cada porción.",
           "Usa nuestra calculadora para determinar los miligramos totales en tu %{base_fat} y luego divide entre el número de porciones que planeas cortar.",
           "Recuerda que los productos horneados pueden tardar entre 45 y 90 minutos en hacer efecto porque primero deben ser digeridos."
@@ -61,7 +61,7 @@
         "dosing_tips": [
           "Los postres congelados son fáciles de consumir en exceso porque saben muy bien y el frío enmascara el sabor del cannabis. Limítate a una porción medida.",
           "Mezcla tu %{base_fat} en la base líquida a fondo antes de congelar para evitar que el THC se separe o se asiente de manera desigual.",
-          "Apunta a 5-10 mg por bola o barra y usa herramientas de medición exactas para porcionar tu mezcla antes de que cuaje.",
+          "Usa herramientas de medición exactas para porcionar tu mezcla antes de que cuaje, de modo que cada bola o barra tenga la misma dosis.",
           "Los postres fríos a veces pueden hacer efecto un poco más rápido con el estómago vacío porque el proceso de derretimiento inicia la digestión rápidamente."
         ],
         "common_mistakes": [
@@ -95,7 +95,7 @@
           },
           {
             "q": "¿Cuánto tiempo tarda en hacer efecto un comestible congelado?",
-            "a": "Los comestibles congelados típicamente tardan entre 30 y 90 minutos en hacer efecto ya que necesitan derretirse y ser digeridos. Pueden comenzar a actuar un poco más rápido que los productos horneados densos porque la base líquida se digiere más rápidamente. Siempre espera los 90 minutos completos antes de consumir más."
+            "a": "Los comestibles congelados típicamente tardan entre 30 y 90 minutos en hacer efecto ya que necesitan derretirse y ser digeridos. Pueden comenzar a actuar un poco más rápido que los productos horneados densos porque la base líquida se digiere más rápidamente. Siempre espera 2 horas antes de consumir más."
           },
           {
             "q": "¿Puedo volver a congelar helado de cannabis derretido?",
@@ -108,7 +108,7 @@
         "dosing_tips": [
           "Las confecciones son ideales para una dosificación precisa porque puedes usar moldes para crear porciones idénticas. Calcula el THC total y divide entre el número de moldes.",
           "Usa aceite de coco infusionado con cannabis o %{base_fat} y agrega lecitina de girasol para mejorar la unión en las recetas de dulces.",
-          "Mantén las dosis individuales de confecciones entre 2.5-10 mg para consumidores casuales. Las piezas más pequeñas facilitan encontrar tu dosis ideal.",
+          "Haz todas las piezas del mismo tamaño para que cada una tenga la misma dosis. Si eres principiante, comienza con unos 5 mg, aunque eso sea parte de una pieza, y espera 2 horas.",
           "Permite que las confecciones cuajen completamente antes de consumirlas ya que comer dulces calientes puede causar una absorción más rápida e intensa."
         ],
         "common_mistakes": [
@@ -208,7 +208,7 @@
         "dosing_tips": [
           "Los pudines son excelentes para una dosificación precisa porque la base líquida se mezcla a fondo. Revuelve continuamente para asegurar una distribución uniforme del %{base_fat}.",
           "Vierte en ramequines o tazas individuales para porciones pre-dosificadas con una dosis conocida por recipiente.",
-          "Comienza con 5-10 mg por porción. Los pudines se digieren relativamente rápido comparados con los productos horneados densos, por lo que los efectos pueden comenzar más pronto.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg. Los pudines se digieren relativamente rápido comparados con los productos horneados densos, por lo que los efectos pueden comenzar más pronto.",
           "Si preparas un lote grande, revuelve bien antes de porcionar ya que la grasa puede subir a la superficie mientras el pudín se enfría."
         ],
         "common_mistakes": [
@@ -238,7 +238,7 @@
           },
           {
             "q": "¿Los pudines de cannabis hacen efecto más rápido que los brownies?",
-            "a": "Generalmente sí. Los pudines son semilíquidos y más fáciles de digerir que los productos horneados densos, por lo que el inicio puede ser de 30-60 minutos versus 60-90 para los brownies. Sin embargo, el metabolismo individual varía significativamente, así que siempre espera al menos 90 minutos antes de consumir más."
+            "a": "Generalmente sí. Los pudines son semilíquidos y más fáciles de digerir que los productos horneados densos, por lo que el inicio puede ser de 30-60 minutos versus 60-90 para los brownies. Sin embargo, el metabolismo individual varía significativamente, así que siempre espera 2 horas antes de consumir más."
           },
           {
             "q": "¿Cómo hago que el sabor a cannabis sea menos perceptible en el pudín?",
@@ -255,7 +255,7 @@
         "dosing_tips": [
           "Bate el %{base_fat} en la crema tibia antes de añadir los huevos para asegurar que la grasa de cannabis esté completamente emulsionada en todo el flan.",
           "Vierte en ramequines individuales para porciones pre-dosificadas con una dosis precisa y conocida por recipiente.",
-          "Apunta a 5-10 mg por ramequín. Los flanes son ricos y se comen lentamente, así que los efectos se acumulan gradualmente durante 60-90 minutos.",
+          "Si eres principiante, comienza con unos 5 mg, parte de un ramequín. Los flanes son ricos y se comen lentamente, así que los efectos se acumulan gradualmente durante 60-90 minutos.",
           "Cuela la mezcla del flan por un colador fino antes de hornear para eliminar grumos y garantizar una distribución uniforme del THC."
         ],
         "common_mistakes": [
@@ -382,7 +382,7 @@
         "dosing_tips": [
           "Los snacks salados a menudo se comen por puñados, haciendo que el control de porciones sea crucial. Pre-porciona en raciones individuales de dosis conocida.",
           "Rocía o mezcla los snacks con una cantidad medida de %{base_fat} en lugar de sumergirlos, lo cual lleva a un recubrimiento y dosificación desiguales.",
-          "Apunta a 5-10 mg por porción de snack y comunica esto claramente cuando lo compartas con otros.",
+          "Cuando lo compartas, dile a todos cuántos mg contiene una porción y sugiere que los principiantes comiencen con unos 5 mg.",
           "Los snacks picantes pueden enmascarar el sabor del cannabis pero también pueden hacer que comas más o bebas más líquido, lo cual puede afectar la absorción."
         ],
         "common_mistakes": [
@@ -417,7 +417,7 @@
         "dosing_tips": [
           "Los snacks dulces son los comestibles con mayor probabilidad de ser consumidos en exceso. Pre-porciona en paquetes individuales con la dosis escrita en cada uno.",
           "Mezcla el %{base_fat} a fondo en la base dulce caliente antes de que cuaje para asegurar que cada bocado tenga una cantidad uniforme de THC.",
-          "Para dulces pequeños, apunta a 2.5-5 mg por pieza para que las personas puedan ajustar fácilmente su dosis comiendo más o menos piezas.",
+          "Los dulces pequeños facilitan ajustar la dosis: comienza con unos 5 mg y espera 2 horas antes de comer más piezas.",
           "El chocolate y el caramelo son vehículos excelentes para el cannabis porque sus sabores fuertes cubren el sabor herbal por completo."
         ],
         "common_mistakes": [
@@ -505,7 +505,7 @@
         "intro": "Esta receta de %{name} con cannabis usa %{base_fat} para crear bocaditos salados en porciones individuales, perfectos para una dosificación controlada a %{cook_temp}. Los bocaditos salados son el formato ideal de %{category} con cannabis porque cada pieza tiene un tamaño individual para una dosis precisa y consistente. Estos sabrosos bocaditos llevan condimentos intensos que complementan las notas herbales del cannabis.",
         "dosing_tips": [
           "Calcula el THC total en tu lote de %{base_fat} y divide por el número exacto de porciones para una dosificación precisa por pieza.",
-          "Mantén cada bocadito en 2.5-5 mg para que los invitados puedan comer uno o dos y se mantengan en un rango cómodo.",
+          "Los bocaditos pequeños facilitan ajustar la dosis: los invitados pueden comenzar con unos 5 mg y esperar 2 horas antes de comer otro.",
           "Usa una cucharita para galletas o una cuchara medidora para asegurar que cada bocadito sea del mismo tamaño y por lo tanto la misma dosis.",
           "Los bocaditos salados son fáciles de comer en exceso. Separa una cantidad controlada por persona y guarda el resto."
         ],
@@ -528,7 +528,7 @@
         "faq": [
           {
             "q": "¿Cuántos bocaditos salados con cannabis debo comer?",
-            "a": "Empieza con uno y espera al menos 90 minutos antes de comer otro. Si cada bocadito tiene 5 mg, uno es una dosis inicial estándar. Los bocaditos salados están diseñados para un fácil control de porciones, pero debes tener disciplina y llevar un registro de tu consumo."
+            "a": "Empieza con unos 5 mg y espera 2 horas antes de comer otro bocadito. Los bocaditos salados están diseñados para un fácil control de porciones, pero debes tener disciplina y llevar un registro de tu consumo."
           },
           {
             "q": "¿Puedo hacer %{name} con cannabis con anticipación para una fiesta?",
@@ -597,10 +597,10 @@
       "finger_food": {
         "intro": "Esta receta de %{name} con cannabis incorpora %{base_fat} en bocaditos para comer con la mano, sin necesidad de cubiertos, que hacen de la dosificación algo social y divertido. Los finger foods con cannabis son ideales para reuniones porque cada pieza es independiente con una dosis conocida, eliminando las conjeturas de los platos compartidos. Sabores intensos y presentaciones creativas hacen de estas opciones de %{category} un éxito.",
         "dosing_tips": [
-          "Diseña cada pieza de finger food para que contenga exactamente una dosis de 5-10 mg para un seguimiento directo del consumo.",
+          "Haz todas las piezas de finger food del mismo tamaño para que cada una tenga la misma dosis, lo que facilita el seguimiento del consumo.",
           "Envuelve, rellena o encapsula el elemento de cannabis dentro del finger food para que el THC quede sellado y distribuido uniformemente.",
           "Proporciona una tarjeta en la bandeja listando ingredientes, alérgenos y la dosis exacta de THC por pieza para servir con responsabilidad.",
-          "Los finger foods a menudo se comen rápidamente en entornos sociales. Recuerda a los invitados que los efectos tardan 60-90 minutos antes de comer más."
+          "Los finger foods a menudo se comen rápidamente en entornos sociales. Recuerda a los invitados que los efectos pueden tardar hasta 2 horas, así que deben esperar ese tiempo antes de comer más."
         ],
         "common_mistakes": [
           "Hacer finger foods tan pequeños que el sabor a cannabis se concentra, o tan grandes que la gente solo come la mitad y recibe una dosis inconsistente.",
@@ -631,7 +631,7 @@
           },
           {
             "q": "¿Cuántos finger foods con cannabis debo servir por persona?",
-            "a": "Limita a una o dos piezas por persona dependiendo de la dosis por pieza. Si cada pieza tiene 5 mg, dos piezas equivalen a una dosis estándar de 10 mg. Siempre proporciona abundantes finger foods sin infusionar junto con las opciones con cannabis."
+            "a": "Revisa cuántos mg contiene una pieza: los principiantes deben detenerse en unos 5 mg y esperar 2 horas. Siempre proporciona abundantes finger foods sin infusionar junto con las opciones con cannabis."
           },
           {
             "q": "¿Los finger foods con cannabis funcionan para microdosificación?",
@@ -673,12 +673,12 @@
     },
     "Essentials": {
       "butter_oil": {
-        "intro": "Esta receta de %{name} con cannabis es la base de toda la cocina cannábica, enseñándote a infusionar %{base_fat} con máxima potencia y sabor limpio. La mantequilla y el aceite de cannabis son los pilares fundamentales que usarás en innumerables recetas de comestibles. Domina esta técnica esencial y tendrás infusiones consistentes y confiables en cada preparación.",
+        "intro": "Esta receta de %{name} es la base de toda la cocina cannábica: te muestra cómo obtener máxima potencia y sabor limpio de tu flor. La mantequilla y el aceite de cannabis son los pilares fundamentales que usarás en innumerables recetas de comestibles. Domina esta técnica esencial y tendrás infusiones consistentes y confiables en cada preparación.",
         "dosing_tips": [
           "Calcula la potencia multiplicando el porcentaje de THC de tu flor por el peso en miligramos, luego multiplica por tu eficiencia de extracción esperada (típicamente 60-80%).",
           "Etiqueta cada lote con la fecha, la cepa, la cantidad de flor utilizada y los mg estimados por cucharada para un uso seguro en recetas.",
           "Comienza con una cepa conocida de una fuente autorizada para que el porcentaje de THC en la etiqueta te dé un punto de partida confiable para los cálculos.",
-          "Prueba una pequeña cantidad de tu infusión terminada antes de cocinar una receta completa. Toma media cucharadita y espera 90 minutos para evaluar la potencia."
+          "Prueba una pequeña cantidad de tu infusión terminada antes de cocinar una receta completa. Toma el equivalente a unos 5 mg (la página muestra cuánto contiene una cucharadita) y espera 2 horas para evaluar la potencia."
         ],
         "common_mistakes": [
           "Saltarse la descarboxilación es el error número uno. El cannabis crudo contiene THCA que no es psicoactivo. Caliéntalo a 240 F (115 C) durante 40 minutos primero.",
@@ -800,7 +800,7 @@
         "intro": "Esta receta de %{name} con cannabis crea un endulzante infusionado versátil usando %{base_fat} que puedes añadir a bebidas, rociar sobre alimentos o usar en cualquier receta que requiera un endulzante líquido. Los endulzantes con cannabis son un elemento fundamental de %{category} que todo cocinero de comestibles debería tener a mano. Una vez preparados, hacen que la dosificación de alimentos cotidianos sea fácil y precisa.",
         "dosing_tips": [
           "Calcula el THC total de tu lote y divide por el número de porciones de cucharadita o cucharada para saber la dosis exacta por medida.",
-          "Comienza con una cucharadita en tu café o té y espera 60-90 minutos para evaluar la potencia antes de añadir más la próxima vez.",
+          "Comienza con unos 5 mg (la página muestra cuánto contiene una cucharadita) en tu café o té y espera 2 horas para evaluar la potencia antes de añadir más la próxima vez.",
           "Usa un frasco con boquilla o gotero para dispensar con precisión. Cada gota debe entregar una cantidad consistente y conocida de THC.",
           "Los endulzantes con cannabis pueden ser engañosamente potentes porque están concentrados. Siempre mide en lugar de verter libremente."
         ],
@@ -885,7 +885,7 @@
         "intro": "Esta receta de %{name} con cannabis infusiona un condimento cotidiano con %{base_fat} para una forma sencilla de añadir una dosis medida de THC a cualquier comida. Los condimentos con cannabis son la conveniencia definitiva en %{category} porque los preparas una vez y los usas durante semanas, convirtiendo comidas ordinarias en experiencias comestibles con una simple cucharada o chorrito.",
         "dosing_tips": [
           "Calcula el THC total en el lote del condimento y divide por el número de porciones de una cucharada para la dosificación por uso.",
-          "Una sola cucharada de condimento con cannabis por comida es típicamente suficiente para una dosis estándar de 5-10 mg.",
+          "Mide el condimento con una cuchara en lugar de verterlo, para saber cuántas porciones estás consumiendo; unos 5 mg son una dosis para la primera vez.",
           "Agita o revuelve tu condimento con cannabis antes de cada uso ya que la grasa infusionada puede separarse con el tiempo.",
           "Lleva un registro de tu consumo de condimento a lo largo del día si lo usas en múltiples comidas para evitar sobredosificación accidental."
         ],
@@ -932,7 +932,7 @@
           "Añade %{base_fat} a la salsa o al final de la preparación en lugar de al agua de cocción, para que no se pierda THC al escurrir la pasta.",
           "Calcula tu dosis por plato, no por olla. Divide el THC total de tu %{base_fat} entre el número de porciones.",
           "Mezcla bien el plato terminado para distribuir la grasa cannábica de manera uniforme en todas las porciones.",
-          "Una porción típica de almuerzo debería ser de 5-10 mg. Estas comidas son llenadoras, así que los efectos pueden tardar más en aparecer, alrededor de 60-90 minutos."
+          "Estas comidas son llenadoras, así que los efectos pueden tardar más en aparecer, alrededor de 60-90 minutos. Espera 2 horas antes de repetir."
         ],
         "common_mistakes": [
           "Añadir aceite de cannabis al agua hirviendo de la pasta lo desperdicia, ya que la mayor parte se va por el desagüe. Mézclalo con la salsa o rocíalo después de emplatar.",
@@ -983,7 +983,7 @@
           "Incorpora %{base_fat} a la sopa después de retirarla del fuego y mezcla bien. La base líquida la distribuye de manera uniforme.",
           "Sirve porciones iguales para asegurar una dosificación consistente. Usa una taza medidora o un cucharón de volumen conocido.",
           "Las sopas cremosas retienen la grasa de cannabis mejor que los caldos claros, donde el aceite tiende a flotar visiblemente en la superficie.",
-          "Comienza con 5-10 mg por tazón. Los líquidos calientes pueden hacer efecto más rápido que los alimentos sólidos, a veces en 30-60 minutos."
+          "¿Primera vez con comestibles? Comienza con unos 5 mg, parte de un tazón. Los líquidos calientes pueden hacer efecto más rápido que los alimentos sólidos, a veces en 30-60 minutos."
         ],
         "common_mistakes": [
           "Añadir la grasa de cannabis a una sopa hirviendo rápidamente. Retira del fuego o reduce a un hervor muy suave antes de incorporar %{base_fat}.",
@@ -1064,7 +1064,7 @@
         "dosing_tips": [
           "Unta una cantidad medida de mantequilla o mayonesa con cannabis sobre el pan. Una cucharada por sándwich suele ser suficiente para una dosis individual.",
           "Calcula los mg por cucharada de tu untable de cannabis y aplícalo de manera consistente en cada sándwich.",
-          "Los untables de cannabis son una puerta de entrada a la microdosificación precisa. Usa media cucharadita para una dosis suave de 2-3 mg, o una cucharada completa para una dosis estándar de 5-10 mg.",
+          "Los untables de cannabis facilitan la dosificación precisa: mide el untable con una cuchara, exactamente como indica la receta, en lugar de untar a ojo.",
           "La proteína, la grasa y los carbohidratos de un sándwich proporcionan una digestión lenta y constante que produce efectos graduales y duraderos."
         ],
         "common_mistakes": [
@@ -1110,7 +1110,7 @@
           "Añade %{base_fat} a la salsa, glaseado o acabado de tu plato principal en lugar de a la grasa de cocción principal para evitar la degradación por calor alto.",
           "Emplata individualmente y añade una cantidad medida de salsa de terminación con cannabis a cada plato para una dosificación precisa.",
           "Las comidas completas ralentizan la digestión, así que espera el inicio de efectos en 60-120 minutos. Los efectos pueden durar más que con comestibles más ligeros.",
-          "Mantén la dosis por porción en 5-10 mg, ya que el gran volumen de comida proporcionará una liberación lenta y constante de THC."
+          "El gran volumen de comida proporciona una liberación lenta y constante de THC, así que espera 2 horas antes de comer más."
         ],
         "common_mistakes": [
           "Añadir grasa de cannabis a la sartén para sellar o saltear a fuego alto destruye un gran porcentaje del THC. Resérvala para el acabado.",
@@ -1152,7 +1152,7 @@
         "dosing_tips": [
           "Incorpora el %{base_fat} en la salsa terminada fuera del fuego y mezcla con la pasta para distribuir el THC uniformemente en cada porción.",
           "Divide el THC total de tu %{base_fat} por el número de platos servidos para una dosificación precisa por plato.",
-          "Una sola cucharada de mantequilla o aceite con cannabis por porción generalmente es suficiente para una dosis de 5-10 mg en un plato de pasta.",
+          "Divide la pasta con salsa en partes iguales entre los platos para que cada porción tenga la misma cantidad de mantequilla o aceite con cannabis.",
           "Las salsas de pasta ricas y cremosas ralentizan la digestión. Espera el inicio de efectos en 60-120 minutos para una experiencia gradual y duradera."
         ],
         "common_mistakes": [
@@ -1193,7 +1193,7 @@
       "sandwich": {
         "intro": "Esta receta de %{name} con cannabis incorpora %{base_fat} en capas en una comida abundante para comer con las manos que entrega una dosis consistente en cada mordida. Los sándwiches con cannabis son uno de los comestibles de %{category} más prácticos porque no requieren habilidad culinaria y el formato de untable asegura una distribución uniforme del THC. Arma tu sándwich infusionado perfecto con nuestra guía.",
         "dosing_tips": [
-          "Unta una cucharada medida de mantequilla, mayonesa o untable con cannabis en el pan para una dosis consistente de 5-10 mg por sándwich.",
+          "Unta una cantidad medida de mantequilla, mayonesa o untable con cannabis en cada sándwich, exactamente como indica la receta, para una dosis consistente por sándwich.",
           "Calcula los mg por cucharada de tu %{base_fat} y aplica la misma cantidad en cada sándwich que hagas.",
           "Unta la grasa de cannabis de borde a borde en toda la rebanada de pan para que cada mordida entregue una porción igual de la dosis.",
           "Los sándwiches combinan proteína, grasa y carbohidratos para una digestión lenta y constante. Espera el inicio de efectos en 60-90 minutos con duración de 4-6 horas."
@@ -1231,7 +1231,7 @@
           "Añade %{base_fat} a la salsa, glaseado o paso de acabado en lugar de la grasa principal de cocción para evitar degradación por calor.",
           "Sirve individualmente y rocía una cantidad medida de salsa de acabado con cannabis en cada plato para dosificación precisa por persona.",
           "Las porciones completas de cena ralentizan considerablemente la digestión. Espera el inicio de efectos en 60-120 minutos con una duración prolongada de 4-8 horas.",
-          "Mantén las dosis por porción en 5-10 mg ya que el volumen de comida ya crea una liberación lenta y sostenida de THC."
+          "El volumen de comida crea una liberación lenta y sostenida de THC, así que espera 2 horas antes de comer más."
         ],
         "common_mistakes": [
           "Usar grasa de cannabis como aceite principal para sellar. Las temperaturas de sellado superan los 400 F (200 C) y destruirán la mayoría del THC. Sella con aceite regular y finaliza con grasa de cannabis.",
@@ -1272,7 +1272,7 @@
         "intro": "Esta receta de %{name} con cannabis rocía %{base_fat} sobre un bowl repleto de nutrientes con granos, proteínas y verduras para una comida equilibrada y completamente dosificada de %{category}. Los bowls con cannabis son un formato moderno y consciente de la salud donde el chorrito de acabado o aderezo entrega una dosis precisa sin complicaciones culinarias. Arma tu bowl, añade el elemento de cannabis y disfruta.",
         "dosing_tips": [
           "Rocía una cantidad medida de aceite de cannabis o aderezo de tahini sobre el bowl terminado para una dosificación precisa y visible.",
-          "Una cucharada de aderezo con cannabis por bowl es típicamente una dosis estándar de 5-10 mg. Mide con una cuchara en lugar de verter.",
+          "Divide el aderezo con cannabis en partes iguales entre los bowls. Mide con una cuchara en lugar de verter.",
           "Mezcla o revuelve el bowl completamente después de añadir el chorrito de cannabis para distribuir la dosis en todos los componentes.",
           "Los bowls de granos con fibra y proteína crean una digestión lenta. Los efectos típicamente comienzan en 60-90 minutos y duran 4-6 horas."
         ],
@@ -1304,7 +1304,7 @@
       "keto_baked": {
         "intro": "Esta receta de %{name} con cannabis usa %{base_fat} con harinas y endulzantes keto para un bocadillo horneado bajo en carbohidratos que se ajusta a tus macros. La repostería keto y el cannabis son una combinación perfecta porque la dieta cetogénica alta en grasas incorpora naturalmente las grasas que transportan el THC. Disfruta tu comestible sin salir de la cetosis.",
         "dosing_tips": [
-          "Las dietas keto aumentan la absorción de grasa, lo que puede hacer que los comestibles se sientan ligeramente más fuertes. Comienza con una dosis más baja de 5 mg por porción.",
+          "Las dietas keto aumentan la absorción de grasa, lo que puede hacer que los comestibles se sientan ligeramente más fuertes. Comienza con unos 5 mg y espera 2 horas.",
           "El alto contenido de grasa de los productos horneados keto distribuye el THC de manera muy uniforme, haciendo que la dosificación sea consistente entre porciones.",
           "Usa recetas con harina de almendra o de coco donde %{base_fat} constituya una gran proporción del contenido de grasa para cálculos precisos.",
           "Pesa las porciones en una báscula de cocina, ya que los productos horneados keto pueden ser densos y pequeñas diferencias de tamaño significan diferencias mayores en la dosis."
@@ -1351,7 +1351,7 @@
         "intro": "Esta receta de %{name} con cannabis combina %{base_fat} con endulzantes aprobados para keto para un dulce sin culpa que satisface tu antojo de algo dulce mientras mantiene los carbohidratos cerca de cero. Los dulces de cannabis sin azúcar son ideales para consumidores conscientes de su salud que quieren una dosificación precisa sin el bajón de azúcar. La base alta en grasa asegura una excelente entrega de THC.",
         "dosing_tips": [
           "Los dulces keto a menudo se hacen en porciones pequeñas como bombas de grasa o trufas. Calcula la dosis por pieza cuidadosamente ya que son densas en calorías.",
-          "El alto contenido de grasa de los dulces keto significa una absorción eficiente de THC. Considera comenzar con 5 mg por pieza.",
+          "El alto contenido de grasa de los dulces keto significa una absorción eficiente de THC. Considera comenzar con unos 5 mg.",
           "Usa moldes de silicona para crear porciones idénticas con peso y dosis consistentes.",
           "Los alcoholes de azúcar en los endulzantes keto no afectan la absorción de THC, así que el cálculo de dosificación es el mismo que con dulces regulares."
         ],
@@ -1397,7 +1397,7 @@
       "keto_savory": {
         "intro": "Esta receta de %{name} con cannabis usa %{base_fat} en un plato salado y bajo en carbohidratos que ofrece una dosificación confiable mientras mantiene tus macros cetogénicos en orden. Las comidas saladas keto son naturalmente altas en grasa, haciéndolas vehículos ideales para las infusiones de cannabis. Desde crisps de queso hasta platos de coliflor, los comestibles salados keto son infinitamente versátiles.",
         "dosing_tips": [
-          "Las comidas keto ricas en grasa absorben el THC eficientemente. Comienza con 5-7 mg por porción hasta que sepas cómo te afectan los comestibles salados keto.",
+          "Las comidas keto ricas en grasa absorben el THC eficientemente. Comienza con unos 5 mg hasta que sepas cómo te afectan los comestibles salados keto.",
           "Mide %{base_fat} con precisión para cada porción en lugar de añadirlo a todo el lote, especialmente para comidas emplatadas.",
           "Las mantequillas compuestas con cannabis y hierbas hacen que dosificar platos salados keto sea elegante y preciso. Una porción de mantequilla equivale a una dosis.",
           "Registra tu ingesta total de grasa incluyendo la grasa de cannabis dentro de tus macros keto diarios para mantenerte en cetosis."
@@ -1471,7 +1471,7 @@
         "dosing_tips": [
           "El aceite de coco con cannabis es el mejor aliado del repostero vegano. Su alto contenido de grasa saturada extrae el THC con la misma eficacia que la mantequilla de origen animal.",
           "Mide el %{base_fat} por peso en lugar de por volumen para mayor precisión, ya que la densidad del aceite de coco cambia con la temperatura.",
-          "Comienza con 5-10 mg por porción. Los horneados veganos pueden digerirse un poco más rápido debido a la ausencia de proteínas lácteas.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg. Los horneados veganos pueden digerirse un poco más rápido debido a la ausencia de proteínas lácteas.",
           "Usa un huevo de linaza o de chía para aglutinar sin lácteos, lo cual no afecta la distribución del THC."
         ],
         "common_mistakes": [
@@ -1560,7 +1560,7 @@
         "dosing_tips": [
           "Rocía una cantidad medida de aceite de cannabis sobre los platos terminados en lugar de cocinar con él para una dosificación más precisa.",
           "Los platos veganos salados a menudo usan aceite de coco o aceite de oliva como grasa principal, ambos se infusionan bien con cannabis.",
-          "Mantén las porciones en 5-10 mg. Las comidas a base de plantas pueden digerirse un poco más rápido debido al mayor contenido de fibra.",
+          "Si eres principiante, comienza con unos 5 mg. Las comidas a base de plantas pueden digerirse un poco más rápido debido al mayor contenido de fibra.",
           "La levadura nutricional, el miso y el tamari añaden profundidad umami que combina bien con el sabor herbal del cannabis y lo enmascara."
         ],
         "common_mistakes": [
@@ -1604,7 +1604,7 @@
           "Añade %{base_fat} como chorrito de acabado o incorpóralo en la salsa después de cocinar. Las salsas a base de plantas con leche de coco o crema de frutos secos integran la grasa de cannabis suavemente.",
           "Sirve individualmente y añade una cucharada medida de aceite de cannabis a cada porción para dosificación precisa por persona.",
           "Los platos principales veganos con alta fibra pueden retrasar ligeramente el inicio de efectos. Espera 60-120 minutos para el efecto completo.",
-          "Mantén las dosis en 5-10 mg por porción. El volumen sustancial de un plato principal produce una experiencia de cannabis gradual y sostenida."
+          "El volumen sustancial de un plato principal produce una experiencia de cannabis gradual y sostenida, así que espera 2 horas antes de comer más."
         ],
         "common_mistakes": [
           "Saltear o sellar tofu y verduras en aceite de cannabis a fuego alto destruye el THC. Cocina con aceite regular y finaliza con grasa de cannabis.",
@@ -1640,7 +1640,7 @@
       "vegan_bowl": {
         "intro": "Esta receta de %{name} con cannabis rocía %{base_fat} sobre un bowl vibrante y lleno de plantas rebosante de granos, legumbres y verduras frescas. Los bowls veganos con cannabis son la intersección de la alimentación consciente y la dosificación precisa de comestibles, donde un chorrito medido de aceite infusionado transforma una comida nutritiva en una experiencia de cannabis perfectamente controlada.",
         "dosing_tips": [
-          "Mide una cucharada de aderezo o aceite de cannabis por bowl para una dosis consistente de 5-10 mg que puedas registrar.",
+          "Divide el aderezo o aceite de cannabis en partes iguales entre los bowls con una cuchara medidora, para una dosis consistente que puedas registrar.",
           "Mezcla o revuelve el bowl completamente después de añadir el chorrito de cannabis para asegurar que cada bocado entregue una porción uniforme de THC.",
           "Los bowls veganos ricos en fibra ralentizan la digestión. Planifica 60-90 minutos de inicio con efectos que duran 4-6 horas.",
           "Si usas una vinagreta con cannabis, agítala vigorosamente antes de cada uso ya que el aceite y el vinagre se separan rápidamente."
@@ -1687,7 +1687,7 @@
         "dosing_tips": [
           "Los dulces brasileños como los brigadeiros se enrollan en bolitas individuales, haciendo de cada una una dosis precisamente porcionada. Calcula los mg por bolita.",
           "Los dulces a base de leche condensada integran la mantequilla de cannabis o el aceite de coco de forma suave. Revuelve continuamente mientras cocinas para una distribución uniforme.",
-          "Comienza con 5-10 mg por pieza. Los dulces brasileños son ricos y la gente suele comer varios en las fiestas, así que mantén las dosis individuales bajas.",
+          "Los dulces brasileños son ricos y la gente suele comer varios en las fiestas, así que revisa cuántos mg contiene una pieza, comienza con unos 5 mg y espera 2 horas.",
           "El alto contenido de azúcar y grasa en los dulces brasileños puede retrasar el inicio de efectos a 60-90 minutos. Ten paciencia y no comas en exceso."
         ],
         "common_mistakes": [
@@ -1738,7 +1738,7 @@
       "brazilian_savory": {
         "intro": "Esta receta de %{name} con cannabis reúne los sabores intensos y salados de la cocina brasileña junto con %{base_fat} para una comida contundente e infusionada que es profundamente satisfactoria. Los platos salados brasileños como pão de queijo, coxinhas y farofa usan cantidades generosas de grasa, lo que los hace candidatos perfectos para la infusión de cannabis. Disfruta de la comida reconfortante brasileña con una dosis medida y consistente.",
         "dosing_tips": [
-          "Los bocadillos salados brasileños suelen comerse en cantidad. Si preparas coxinhas o pão de queijo, mantén cada pieza en 2.5-5 mg para que comer 2-3 se mantenga dentro de un rango seguro.",
+          "Los bocadillos salados brasileños suelen comerse en cantidad. Revisa cuántos mg contiene una pieza antes de comer la segunda; unos 5 mg son una dosis para la primera vez.",
           "Mezcla %{base_fat} en la masa o relleno de forma completa. La masa de pan de queso brasileño, por ejemplo, incorpora el aceite de manera homogénea.",
           "Calcula el THC total en el lote y divide por el número de piezas. Pesa las porciones de masa para lograr consistencia.",
           "Estos platos con almidón y grasa pueden retrasar el inicio de efectos a 60-120 minutos. Come una porción controlada y espera antes de repetir."
@@ -1879,7 +1879,7 @@
         "dosing_tips": [
           "Incorpora aceite de cannabis en salsas, cremas y guacamole al momento de servir para la dosificación más precisa por cucharada.",
           "Los platos mexicanos con queso, crema agria y aguacate tienen alto contenido de grasa que mejora la absorción de THC naturalmente.",
-          "Comienza con 5-10 mg por porción. Las comidas picantes pueden enmascarar el inicio de los efectos del cannabis, así que espera los 90 minutos completos antes de comer más.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg. Las comidas picantes pueden enmascarar el inicio de los efectos del cannabis, así que espera las 2 horas completas antes de comer más.",
           "La manteca infusionada con cannabis es tradicional en la cocina mexicana y se integra perfectamente en masa, frijoles y salsas."
         ],
         "common_mistakes": [
@@ -1918,8 +1918,8 @@
         "intro": "Esta receta de %{name} con cannabis combina %{base_fat} con sabores cítricos brillantes para una bebida refrescante sin alcohol, infusionada y perfecta para ocasiones sociales. Los mocktails cítricos son de los mejores para enmascarar el sabor del cannabis gracias a su acidez intensa y sus aceites aromáticos. Disfruta de una bebida sofisticada con cannabis sin el alcohol.",
         "dosing_tips": [
           "Usa jarabe simple infusionado con cannabis o tintura para un mocktail cítrico más limpio. Las infusiones a base de grasa pueden crear una película aceitosa en bebidas ácidas.",
-          "Apunta a 5-10 mg por bebida y sirve en porciones estándar de cóctel para que los invitados sepan que una bebida equivale a una dosis.",
-          "Los ácidos cítricos pueden acelerar el vaciamiento estomacal, lo que potencialmente lleva a un inicio de efectos ligeramente más rápido. Comienza con poco y espera al menos 60 minutos.",
+          "Sirve vasos iguales para que los invitados sepan que una bebida equivale a una porción, y diles a los principiantes que unos 5 mg son suficientes para empezar.",
+          "Los ácidos cítricos pueden acelerar el vaciamiento estomacal, lo que potencialmente lleva a un inicio de efectos ligeramente más rápido. Comienza con poco y espera 2 horas antes de tomar más.",
           "Agita o revuelve vigorosamente para integrar completamente el elemento de cannabis. La separación es más visible en bebidas cítricas claras."
         ],
         "common_mistakes": [
@@ -1966,7 +1966,7 @@
         "dosing_tips": [
           "Licúa bien la fruta con tu infusión de cannabis para crear una emulsión suave donde la dosis se distribuye uniformemente.",
           "Las bebidas frutales espesas tipo smoothie retienen mejor las infusiones de cannabis a base de grasa que los jugos delgados. Añade plátano o mango para dar cuerpo.",
-          "Mantén las dosis en 5-10 mg por porción. Las bebidas frutales son fáciles de consumir en exceso porque saben a postre.",
+          "Las bebidas frutales son fáciles de consumir en exceso porque saben a postre: bebe a sorbos lentos y espera 2 horas antes de servirte otra.",
           "Si preparas un lote, sirve en porciones pre-medidas en lugar de desde una jarra comunitaria."
         ],
         "common_mistakes": [
@@ -2058,7 +2058,7 @@
       "hot_drinks": {
         "intro": "Esta receta de %{name} con cannabis mezcla %{base_fat} en una bebida caliente y reconfortante perfecta para relajarse y descansar. Las bebidas calientes con cannabis ofrecen una forma acogedora de consumir comestibles, especialmente durante los meses más fríos. El calor ayuda a que la grasa infusionada se disuelva y se distribuya uniformemente para una dosificación consistente en cada sorbo.",
         "dosing_tips": [
-          "Comienza con 5-10 mg por taza y recuerda que los comestibles líquidos pueden hacer efecto más rápido que los alimentos sólidos, a veces dentro de 20-45 minutos.",
+          "¿Primera vez con comestibles? Comienza con unos 5 mg y recuerda que los comestibles líquidos pueden hacer efecto más rápido que los alimentos sólidos, a veces dentro de 20-45 minutos.",
           "Usa un espumador de leche o licuadora para emulsionar completamente el %{base_fat} en tu bebida caliente para que no flote encima como una capa aceitosa.",
           "Si compartes una tetera, revuelve bien antes de cada servida porque la grasa tiende a subir a la superficie mientras la bebida reposa.",
           "Beber despacio durante 30 minutos te da mejor control sobre tu experiencia que tomar toda la taza rápidamente."
@@ -2106,7 +2106,7 @@
         "intro": "Esta refrescante receta de %{name} con cannabis incorpora %{base_fat} en una bebida helada perfecta para días cálidos y reuniones sociales. Las bebidas frías con cannabis son una forma discreta y agradable de consumir comestibles con control preciso de la dosis. Licuar asegura que la grasa infusionada se distribuya uniformemente para efectos consistentes en cada vaso.",
         "dosing_tips": [
           "Mezcla tu %{base_fat} en la base de la bebida con una licuadora de inmersión o de vaso para una distribución suave y uniforme.",
-          "Las bebidas frías son fáciles de tomar rápidamente. Mide cada porción cuidadosamente a 5-10 mg y tómatelo con calma.",
+          "Las bebidas frías son fáciles de tomar rápidamente. Sirve porciones iguales, bebe a sorbos lentos y espera 2 horas antes de tomar otra.",
           "Si preparas una ponchera o jarra, revuelve antes de cada servida ya que la grasa se separa más notablemente en líquidos fríos.",
           "Considera usar productos de THC hidrosolubles para bebidas frías ya que se mezclan de forma más natural que las infusiones a base de grasa."
         ],

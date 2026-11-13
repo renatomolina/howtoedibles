@@ -12,7 +12,7 @@
       "baked_goods": {
         "intro": "Dieses einfache Cannabis-%{name}-Rezept verwendet %{base_fat} für eine gleichmäßige, potente Infusion, die bei %{cook_temp} wunderbar backt. Backwaren gehören zu den beliebtesten Arten, Edibles zu genießen, da das Fett perfekt mit THC bindet. Folge unserer Schritt-für-Schritt-Anleitung für eine zuverlässige Dosierung bei jedem Mal.",
         "dosing_tips": [
-          "Beginne beim ersten Backen mit 5-10 mg THC pro Portion und warte mindestens 90 Minuten, bevor du mehr konsumierst.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg THC, einem Bruchteil einer Portion, und warte 2 Stunden, bevor du mehr isst.",
           "Rühre dein %{base_fat} gründlich in den Teig ein, um eine gleichmäßige Verteilung von THC in jedem Stück sicherzustellen.",
           "Verwende unseren Rechner, um die Gesamtmilligramm in deinem %{base_fat} zu bestimmen, und teile dann durch die Anzahl der Portionen, die du schneiden möchtest.",
           "Bedenke, dass Backwaren 45-90 Minuten brauchen können, bis sie wirken, da sie erst verdaut werden müssen."
@@ -61,7 +61,7 @@
         "dosing_tips": [
           "Gefrorene Desserts werden leicht überkonsumiert, weil sie so gut schmecken und die Kälte den Cannabisgeschmack überdeckt. Halte dich an eine abgemessene Portion.",
           "Mixe dein %{base_fat} gründlich in die flüssige Basis, bevor du einfrierst, um zu verhindern, dass sich THC absetzt oder ungleichmäßig verteilt.",
-          "Ziele auf 5-10 mg pro Kugel oder Riegel ab und verwende exakte Messwerkzeuge, um deine Mischung vor dem Festwerden zu portionieren.",
+          "Verwende exakte Messwerkzeuge, um deine Mischung vor dem Festwerden zu portionieren, damit jede Kugel und jeder Riegel die gleiche Dosis enthält.",
           "Kalte Leckereien können auf nüchternen Magen manchmal etwas schneller wirken, weil der Schmelzvorgang die Verdauung schnell einleitet."
         ],
         "common_mistakes": [
@@ -95,7 +95,7 @@
           },
           {
             "q": "Wie lange dauert es, bis ein gefrorenes Edible wirkt?",
-            "a": "Gefrorene Edibles brauchen typischerweise 30-90 Minuten, bis sie wirken, da sie schmelzen und verdaut werden müssen. Der Wirkungseintritt kann etwas schneller sein als bei dichten Backwaren, weil die flüssige Basis schneller verdaut wird. Warte immer die vollen 90 Minuten ab, bevor du mehr nimmst."
+            "a": "Gefrorene Edibles brauchen typischerweise 30-90 Minuten, bis sie wirken, da sie schmelzen und verdaut werden müssen. Der Wirkungseintritt kann etwas schneller sein als bei dichten Backwaren, weil die flüssige Basis schneller verdaut wird. Warte immer 2 Stunden ab, bevor du mehr nimmst."
           },
           {
             "q": "Kann ich geschmolzenes Cannabis-Eis wieder einfrieren?",
@@ -108,7 +108,7 @@
         "dosing_tips": [
           "Konfekt ist ideal für präzise Dosierung, da du Formen verwenden kannst, um identische Portionen herzustellen. Berechne das gesamte THC und teile durch die Anzahl der Formen.",
           "Verwende Cannabis-infundiertes Kokosöl oder %{base_fat} und füge Sonnenblumenlecithin hinzu, um die Bindung in Süßigkeitenrezepten zu verbessern.",
-          "Halte die Dosis einzelner Konfektstücke zwischen 2.5-10 mg für Gelegenheitskonsumenten. Kleinere Stücke erleichtern das Finden der idealen Dosis.",
+          "Mach alle Stücke gleich groß, damit jedes die gleiche Dosis enthält. Wenn du neu dabei bist, beginne mit etwa 5 mg, auch wenn das nur ein Teil eines Stücks ist, und warte 2 Stunden.",
           "Lass Konfekt vollständig fest werden, bevor du es konsumierst, da warme Süßigkeiten eine schnellere, intensivere Aufnahme verursachen können."
         ],
         "common_mistakes": [
@@ -208,7 +208,7 @@
         "dosing_tips": [
           "Puddings eignen sich hervorragend für präzise Dosierung, da sich die flüssige Basis gründlich mischen lässt. Rühre kontinuierlich, um eine gleichmäßige Verteilung des %{base_fat} sicherzustellen.",
           "Fülle in einzelne Förmchen oder Becher ab, für vorportionierte Portionen mit bekannter Dosis pro Behälter.",
-          "Beginne mit 5-10 mg pro Portion. Puddings werden im Vergleich zu dichten Backwaren relativ schnell verdaut, sodass die Wirkung schneller einsetzen kann.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg. Puddings werden im Vergleich zu dichten Backwaren relativ schnell verdaut, sodass die Wirkung schneller einsetzen kann.",
           "Wenn du eine große Menge zubereitest, rühre gut um, bevor du portionierst, da Fett beim Abkühlen des Puddings nach oben steigen kann."
         ],
         "common_mistakes": [
@@ -238,7 +238,7 @@
           },
           {
             "q": "Wirken Cannabis-Puddings schneller als Brownies?",
-            "a": "In der Regel ja. Puddings sind halbflüssig und leichter verdaulich als dichte Backwaren, sodass der Wirkungseintritt 30-60 Minuten statt 60-90 bei Brownies betragen kann. Allerdings variiert der individuelle Stoffwechsel erheblich, warte also immer mindestens 90 Minuten, bevor du mehr nimmst."
+            "a": "In der Regel ja. Puddings sind halbflüssig und leichter verdaulich als dichte Backwaren, sodass der Wirkungseintritt 30-60 Minuten statt 60-90 bei Brownies betragen kann. Allerdings variiert der individuelle Stoffwechsel erheblich, warte also immer 2 Stunden, bevor du mehr nimmst."
           },
           {
             "q": "Wie kann ich den Cannabisgeschmack im Pudding weniger auffällig machen?",
@@ -255,7 +255,7 @@
         "dosing_tips": [
           "Rühre %{base_fat} in die warme Sahnebasis, bevor du die Eier hinzufügst, um sicherzustellen, dass das Cannabis-Fett im gesamten Pudding vollständig emulgiert ist.",
           "Fülle den Pudding in einzelne Förmchen, um vorportionierte Portionen mit einer präzisen, bekannten Dosis pro Portion zu erhalten.",
-          "Ziele auf 5-10 mg pro Förmchen ab. Eierpuddings sind reichhaltig und werden langsam gegessen, sodass die Wirkung sich allmählich über 60-90 Minuten aufbaut.",
+          "Wenn du neu dabei bist, beginne mit etwa 5 mg, einem Teil eines Förmchens. Eierpuddings sind reichhaltig und werden langsam gegessen, sodass die Wirkung sich allmählich über 60-90 Minuten aufbaut.",
           "Gieße die Puddingmischung vor dem Backen durch ein feines Sieb, um Klümpchen zu entfernen und eine gleichmäßige THC-Verteilung zu garantieren."
         ],
         "common_mistakes": [
@@ -382,7 +382,7 @@
         "dosing_tips": [
           "Herzhafte Snacks werden oft handvollweise gegessen, was Portionskontrolle entscheidend macht. Portioniere in einzelne Portionen mit bekannter Dosierung vor.",
           "Beträufle oder schwenke Snacks mit einer abgemessenen Menge %{base_fat}, anstatt sie einzutauchen, was zu ungleichmäßiger Beschichtung und Dosierung führt.",
-          "Ziele auf 5-10 mg pro Snackportion ab und kommuniziere dies deutlich, wenn du mit anderen teilst.",
+          "Wenn du mit anderen teilst, sag allen, wie viele mg eine Portion enthält, und empfiehl Anfängern, mit etwa 5 mg zu beginnen.",
           "Scharfe Snacks können den Cannabisgeschmack überdecken, verleiten aber möglicherweise dazu, mehr zu essen oder mehr zu trinken, was die Aufnahme beeinflussen kann."
         ],
         "common_mistakes": [
@@ -417,7 +417,7 @@
         "dosing_tips": [
           "Süße Snacks werden am ehesten von allen Edibles übermäßig gegessen. Portioniere in einzelne Päckchen vor und schreibe die Dosis auf jedes.",
           "Mische %{base_fat} gründlich in die warme süße Basis, bevor sie fest wird, um sicherzustellen, dass jeder Bissen eine gleichmäßige Menge THC enthält.",
-          "Für mundgerechte Süßigkeiten ziele auf 2.5-5 mg pro Stück ab, damit man die Dosis leicht anpassen kann, indem man mehr oder weniger Stücke isst.",
+          "Mit mundgerechten Süßigkeiten lässt sich die Dosis leicht anpassen: Beginne mit etwa 5 mg und warte 2 Stunden, bevor du weitere Stücke isst.",
           "Schokolade und Karamell sind ausgezeichnete Träger für Cannabis, weil ihre starken Aromen den Kräutergeschmack vollständig überdecken."
         ],
         "common_mistakes": [
@@ -505,7 +505,7 @@
         "intro": "Dieses Cannabis-%{name}-Rezept verwendet %{base_fat}, um mundgerechte herzhafte Häppchen herzustellen, die perfekt für portionskontrollierte Dosierung bei %{cook_temp} sind. Herzhafte Häppchen sind das ideale Cannabis-%{category}-Format, da jedes Stück individuell für eine präzise, gleichmäßige Dosis portioniert ist. Diese geschmackvollen kleinen Bissen bieten kräftige Würze, die die Kräuternoten von Cannabis ergänzt.",
         "dosing_tips": [
           "Berechne das gesamte THC in deiner %{base_fat}-Charge und teile es durch die genaue Anzahl der geformten Häppchen für eine präzise Dosierung pro Stück.",
-          "Halte jedes Häppchen bei 2,5-5 mg, damit Gäste ein oder zwei essen können und in einem angenehmen Bereich bleiben.",
+          "Kleine Häppchen machen es leicht, die Dosis anzupassen: Gäste können mit etwa 5 mg beginnen und 2 Stunden warten, bevor sie ein weiteres essen.",
           "Verwende einen kleinen Keksausstecher oder Esslöffel, um sicherzustellen, dass jedes Häppchen gleich groß und daher gleich dosiert ist.",
           "Herzhafte Häppchen sind snackbar und leicht zu überessen. Stelle eine kontrollierte Anzahl pro Person bereit und lagere den Rest."
         ],
@@ -528,7 +528,7 @@
         "faq": [
           {
             "q": "Wie viele herzhafte Cannabis-Häppchen sollte ich essen?",
-            "a": "Beginne mit einem Häppchen und warte mindestens 90 Minuten, bevor du ein weiteres isst. Wenn jedes Häppchen 5 mg enthält, ist eines eine Standard-Anfangsdosis. Herzhafte Häppchen sind für einfache Portionskontrolle konzipiert, aber du musst Disziplin üben und deinen Konsum verfolgen."
+            "a": "Beginne mit etwa 5 mg und warte 2 Stunden, bevor du ein weiteres Häppchen isst. Herzhafte Häppchen sind für einfache Portionskontrolle konzipiert, aber du musst Disziplin üben und deinen Konsum verfolgen."
           },
           {
             "q": "Kann ich Cannabis-%{name} im Voraus für eine Party zubereiten?",
@@ -597,10 +597,10 @@
       "finger_food": {
         "intro": "Dieses Cannabis-%{name}-Rezept integriert %{base_fat} in handliche Häppchen ohne Besteck, die das Dosieren gesellig und unterhaltsam machen. Cannabis-Fingerfood ist ideal für Zusammenkünfte, da jedes Stück in sich geschlossen mit einer bekannten Dosis ist, was das Rätselraten bei geteilten Gerichten eliminiert. Kräftige Aromen und kreative Präsentationen machen diese %{category}-Optionen zum Highlight.",
         "dosing_tips": [
-          "Gestalte jedes Fingerfood-Stück so, dass es genau eine Dosis von 5-10 mg enthält, für eine unkomplizierte Konsumverfolgung.",
+          "Mach alle Fingerfood-Stücke gleich groß, damit jedes die gleiche Dosis enthält – das macht die Konsumverfolgung unkompliziert.",
           "Wickle, fülle oder umschließe das Cannabis-Element im Fingerfood, damit das THC eingeschlossen und gleichmäßig verteilt ist.",
           "Stelle eine Tablettkarte mit Zutaten, Allergenen und der genauen THC-Dosis pro Stück für verantwortungsvolles Servieren bereit.",
-          "Fingerfood wird in geselliger Runde oft schnell gegessen. Erinnere Gäste daran, dass die Wirkung 60-90 Minuten braucht, bevor sie mehr essen."
+          "Fingerfood wird in geselliger Runde oft schnell gegessen. Erinnere Gäste daran, dass die Wirkung bis zu 2 Stunden brauchen kann, also sollten sie so lange warten, bevor sie mehr essen."
         ],
         "common_mistakes": [
           "Fingerfood so klein zu machen, dass der Cannabis-Geschmack konzentriert ist, oder so groß, dass Leute nur die Hälfte essen und eine ungleichmäßige Dosis bekommen.",
@@ -631,7 +631,7 @@
           },
           {
             "q": "Wie viel Cannabis-Fingerfood sollte ich pro Person servieren?",
-            "a": "Beschränke dich auf ein oder zwei Stücke pro Person, abhängig von der Dosis pro Stück. Wenn jedes Stück 5 mg enthält, ergeben zwei Stücke eine Standard-Dosis von 10 mg. Biete immer reichlich nicht-infundiertes Fingerfood neben den Cannabis-Optionen an."
+            "a": "Prüfe, wie viele mg ein Stück enthält: Anfänger sollten bei etwa 5 mg aufhören und 2 Stunden warten. Biete immer reichlich nicht-infundiertes Fingerfood neben den Cannabis-Optionen an."
           },
           {
             "q": "Eignen sich Cannabis-Fingerfoods zum Mikrodosieren?",
@@ -673,12 +673,12 @@
     },
     "Essentials": {
       "butter_oil": {
-        "intro": "Dieses Cannabis-%{name}-Rezept ist das Fundament jeder Cannabis-Küche und lehrt dich, %{base_fat} mit maximaler Potenz und sauberem Geschmack zu infundieren. Cannabisbutter und -öl sind die Grundbausteine, die du in unzähligen Edible-Rezepten verwenden wirst. Meistere diese essentielle Technik und du erhältst jedes Mal konsistente, zuverlässige Infusionen.",
+        "intro": "Dieses %{name}-Rezept ist das Fundament jeder Cannabis-Küche: Es zeigt dir, wie du maximale Potenz und sauberen Geschmack aus deinen Blüten holst. Cannabisbutter und -öl sind die Grundbausteine, die du in unzähligen Edible-Rezepten verwenden wirst. Meistere diese essentielle Technik und du erhältst jedes Mal konsistente, zuverlässige Infusionen.",
         "dosing_tips": [
           "Berechne die Potenz, indem du den THC-Prozentsatz deiner Blüten mit dem Gewicht in Milligramm multiplizierst und dann mit deiner erwarteten Extraktionseffizienz (typischerweise 60-80 %) multiplizierst.",
           "Beschrifte jede Charge mit Datum, Sorte, verwendeter Blütenmenge und geschätzten mg pro Esslöffel für sichere Verwendung in Rezepten.",
           "Beginne mit einer bekannten Sorte aus einer lizenzierten Quelle, damit der THC-Prozentsatz auf dem Etikett einen zuverlässigen Ausgangspunkt für Berechnungen bietet.",
-          "Teste eine kleine Menge deiner fertigen Infusion, bevor du ein ganzes Rezept kochst. Nimm einen halben Teelöffel und warte 90 Minuten, um die Potenz einzuschätzen."
+          "Teste eine kleine Menge deiner fertigen Infusion, bevor du ein ganzes Rezept kochst. Nimm so viel, dass es etwa 5 mg entspricht (die Seite zeigt, wie viel ein Teelöffel enthält), und warte 2 Stunden, um die Potenz einzuschätzen."
         ],
         "common_mistakes": [
           "Das Überspringen der Decarboxylierung ist der Fehler Nummer eins. Rohes Cannabis enthält THCA, das nicht psychoaktiv ist. Erhitze es zuerst 40 Minuten bei 240 F (115 C).",
@@ -800,7 +800,7 @@
         "intro": "Dieses Cannabis-%{name}-Rezept erzeugt ein vielseitiges infundiertes Süßungsmittel mit %{base_fat}, das du zu Getränken hinzufügen, über Speisen träufeln oder in jedem Rezept verwenden kannst, das ein flüssiges Süßungsmittel verlangt. Cannabis-Süßungsmittel sind ein grundlegender %{category}-Artikel, den jeder Edible-Hersteller vorrätig haben sollte. Einmal zubereitet, machen sie das Dosieren von Alltagsspeisen mühelos und präzise.",
         "dosing_tips": [
           "Berechne das gesamte THC in deiner Charge und teile es durch die Anzahl der Teelöffel- oder Esslöffel-Portionen, um die genaue Dosis pro Maßeinheit zu kennen.",
-          "Beginne mit einem Teelöffel in deinem Kaffee oder Tee und warte 60-90 Minuten, um die Potenz einzuschätzen, bevor du beim nächsten Mal mehr hinzufügst.",
+          "Beginne mit etwa 5 mg (die Seite zeigt, wie viel ein Teelöffel enthält) in deinem Kaffee oder Tee und warte 2 Stunden, um die Potenz einzuschätzen, bevor du beim nächsten Mal mehr hinzufügst.",
           "Verwende eine Quetschflasche oder Pipette für präzises Dosieren. Jeder Tropfen sollte eine gleichmäßige, bekannte Menge THC liefern.",
           "Cannabis-Süßungsmittel können trügerisch potent sein, da sie konzentriert sind. Messe immer ab, anstatt frei zu gießen."
         ],
@@ -885,7 +885,7 @@
         "intro": "Dieses Cannabis-%{name}-Rezept infundiert ein alltägliches Gewürz mit %{base_fat} für eine mühelose Möglichkeit, jeder Mahlzeit eine abgemessene Dosis THC hinzuzufügen. Cannabis-Gewürze und -Saucen sind die ultimative %{category}-Bequemlichkeit, weil du sie einmal zubereitest und wochenlang verwendest, wobei gewöhnliche Mahlzeiten mit einem einfachen Spritzer oder Löffel zu Edible-Erlebnissen werden.",
         "dosing_tips": [
           "Berechne das gesamte THC in deiner Gewürz-Charge und teile es durch die Anzahl der esslöffelgroßen Portionen für die Dosis pro Verwendung.",
-          "Ein einzelner Esslöffel Cannabis-Gewürz pro Mahlzeit reicht typischerweise für eine Standard-Dosis von 5-10 mg.",
+          "Miss das Gewürz mit einem Löffel ab, statt es zu gießen, damit du weißt, wie viele Portionen du isst; etwa 5 mg sind die Dosis fürs erste Mal.",
           "Schüttle oder rühre dein Cannabis-Gewürz vor jeder Verwendung, da sich das infundierte Fett mit der Zeit trennen kann.",
           "Verfolge deinen Gewürz-Konsum über den Tag, wenn du es bei mehreren Mahlzeiten verwendest, um versehentliche Überdosierung zu vermeiden."
         ],
@@ -932,7 +932,7 @@
           "Gib %{base_fat} zur Soße oder zum Schluss hinzu, nicht ins Kochwasser, damit kein THC verloren geht, wenn du die Pasta abgießt.",
           "Berechne deine Dosis pro Teller, nicht pro Topf. Teile das gesamte THC in deinem %{base_fat} durch die Anzahl der Portionen.",
           "Schwenke das fertige Gericht gründlich, damit sich das Cannabisfett gleichmäßig auf alle Portionen verteilt.",
-          "Eine typische Mittagsportion sollte 5-10 mg betragen. Diese Gerichte sind sehr sättigend, daher kann die Wirkung länger auf sich warten lassen – etwa 60-90 Minuten."
+          "Diese Gerichte sind sehr sättigend, daher kann die Wirkung länger auf sich warten lassen – etwa 60-90 Minuten. Warte 2 Stunden, bevor du dir einen Nachschlag nimmst."
         ],
         "common_mistakes": [
           "Cannabisöl ins kochende Nudelwasser zu geben ist Verschwendung, da das meiste im Abguss landet. Rühre es stattdessen in die Soße oder träufle es nach dem Anrichten darüber.",
@@ -983,7 +983,7 @@
           "Rühre das %{base_fat} nach dem Entfernen von der Hitzequelle in die Suppe und mische gründlich durch. Die flüssige Basis verteilt es gleichmäßig.",
           "Schöpfe gleich große Portionen, um eine einheitliche Dosierung sicherzustellen. Verwende einen Messbecher oder eine Schöpfkelle mit bekanntem Volumen.",
           "Cremesuppen binden Cannabisfett besser als klare Brühen, bei denen das Öl sichtbar an der Oberfläche schwimmt.",
-          "Beginne mit 5-10 mg pro Schüssel. Warme Flüssigkeiten können schneller wirken als feste Speisen, manchmal schon nach 30-60 Minuten."
+          "Neu bei Edibles? Beginne mit etwa 5 mg, einem Teil einer Schüssel. Warme Flüssigkeiten können schneller wirken als feste Speisen, manchmal schon nach 30-60 Minuten."
         ],
         "common_mistakes": [
           "Cannabisfett in eine sprudelnd kochende Suppe geben. Nimm den Topf von der Herdplatte oder reduziere auf ein sanftes Köcheln, bevor du %{base_fat} einrührst.",
@@ -1064,7 +1064,7 @@
         "dosing_tips": [
           "Verteile eine abgemessene Menge Cannabis-Butter oder -Mayo auf dem Brot. Ein Esslöffel pro Sandwich reicht für eine Einzeldosis in der Regel aus.",
           "Berechne die mg pro Esslöffel deines Cannabis-Aufstrichs und trage ihn gleichmäßig auf jedes Sandwich auf.",
-          "Cannabis-Aufstriche sind ein Einstieg in präzises Mikrodosieren. Verwende einen halben Teelöffel für eine milde Dosis von 2-3 mg oder einen vollen Esslöffel für die Standarddosis von 5-10 mg.",
+          "Cannabis-Aufstriche machen präzises Dosieren leicht: Miss den Aufstrich mit einem Löffel ab, genau wie im Rezept angegeben, statt nach Augenmaß zu streichen.",
           "Das Eiweiß, Fett und die Kohlenhydrate im Sandwich sorgen für eine langsame, gleichmäßige Verdauung, die allmähliche, lang anhaltende Wirkung erzeugt."
         ],
         "common_mistakes": [
@@ -1110,7 +1110,7 @@
           "Gib %{base_fat} zur Soße, Glasur oder zum Abschluss deines Hauptgerichts, anstatt es als Bratfett zu verwenden, um den Abbau durch hohe Hitze zu vermeiden.",
           "Richte einzeln an und gib eine abgemessene Menge Cannabis-Finishsoße auf jeden Teller für eine präzise Dosierung.",
           "Vollständige Mahlzeiten verlangsamen die Verdauung, daher rechne mit einem Wirkungseintritt nach 60-120 Minuten. Die Wirkung kann länger anhalten als bei leichteren Edibles.",
-          "Halte die Dosis pro Portion bei 5-10 mg, da das große Nahrungsvolumen bereits eine langsame, gleichmäßige Freisetzung von THC bewirkt."
+          "Das große Nahrungsvolumen bewirkt eine langsame, gleichmäßige Freisetzung von THC, also warte 2 Stunden, bevor du mehr isst."
         ],
         "common_mistakes": [
           "Cannabisfett zum scharfen Anbraten oder Sautieren bei hoher Hitze in die Pfanne zu geben zerstört einen großen Teil des THC. Hebe es zum Verfeinern auf.",
@@ -1152,7 +1152,7 @@
         "dosing_tips": [
           "Rühre %{base_fat} in die fertige Sauce abseits der Hitze und schwenke sie mit der Pasta, um das THC gleichmäßig auf jede Portion zu verteilen.",
           "Teile das gesamte THC in deinem %{base_fat} durch die Anzahl der angerichteten Portionen für eine genaue Dosierung pro Teller.",
-          "Ein einzelner Esslöffel Cannabis-Butter oder -Öl pro Portion reicht normalerweise für eine 5-10 mg Dosis in einem Pasta-Gericht.",
+          "Verteile die Pasta mit Sauce gleichmäßig auf die Teller, damit jede Portion die gleiche Menge Cannabis-Butter oder -Öl enthält.",
           "Reichhaltige, cremige Pasta-Saucen verlangsamen die Verdauung. Rechne mit einem Wirkungseintritt in 60-120 Minuten für eine allmähliche, lang anhaltende Erfahrung."
         ],
         "common_mistakes": [
@@ -1193,7 +1193,7 @@
       "sandwich": {
         "intro": "Dieses Cannabis-%{name}-Rezept schichtet %{base_fat} in eine herzhafte, handliche Mahlzeit, die in jedem Bissen eine gleichmäßige Dosis liefert. Cannabis-Sandwiches gehören zu den praktischsten %{category}-Edibles, da sie keinerlei Kochkenntnisse erfordern und das Aufstrichformat eine gleichmäßige THC-Verteilung gewährleistet. Baue dein perfektes infundiertes Sandwich mit unserem Leitfaden.",
         "dosing_tips": [
-          "Verteile einen abgemessenen Esslöffel Cannabis-Butter, -Mayo oder -Aufstrich auf dem Brot für eine gleichmäßige 5-10 mg Dosis pro Sandwich.",
+          "Verteile eine abgemessene Menge Cannabis-Butter, -Mayo oder -Aufstrich auf jedem Sandwich, genau wie im Rezept angegeben, für eine gleichmäßige Dosis pro Sandwich.",
           "Berechne die mg pro Esslöffel deines %{base_fat} und trage die gleiche Menge auf jedes Sandwich auf.",
           "Verteile das Cannabis-Fett von Rand zu Rand über die gesamte Brotscheibe, damit jeder Bissen einen gleichen Anteil der Dosis liefert.",
           "Sandwiches kombinieren Protein, Fett und Kohlenhydrate für langsame, gleichmäßige Verdauung. Rechne mit einem Wirkungseintritt in 60-90 Minuten mit Effekten, die 4-6 Stunden anhalten."
@@ -1231,7 +1231,7 @@
           "Füge %{base_fat} zur Sauce, Glasur oder zum Finishing-Schritt hinzu, nicht zum primären Kochfett, um Hitzeabbau zu vermeiden.",
           "Richte individuell an und träufle eine abgemessene Menge Cannabis-Finishing-Sauce auf jeden Teller für präzise Pro-Person-Dosierung.",
           "Volle Abendessen-Portionen verlangsamen die Verdauung erheblich. Rechne mit einem Wirkungseintritt in 60-120 Minuten mit einer verlängerten Dauer von 4-8 Stunden.",
-          "Halte die Dosis pro Portion bei 5-10 mg, da das Volumen des Essens bereits eine langsame, anhaltende Freisetzung von THC erzeugt."
+          "Das Volumen des Essens erzeugt eine langsame, anhaltende Freisetzung von THC, also warte 2 Stunden, bevor du mehr isst."
         ],
         "common_mistakes": [
           "Cannabis-Fett als primäres Bratöl verwenden. Brattemperaturen übersteigen 200 °C (400 °F) und zerstören das meiste THC. Mit normalem Öl anbraten und mit Cannabis-Fett fertigstellen.",
@@ -1272,7 +1272,7 @@
         "intro": "Dieses Cannabis-%{name}-Rezept träufelt %{base_fat} über eine nährstoffreiche Bowl aus Getreide, Proteinen und Gemüse für eine ausgewogene, vollständig dosierte %{category}-Mahlzeit. Cannabis-Bowls sind ein modernes, gesundheitsbewusstes Edible-Format, bei dem der abschließende Nieselregen oder das Dressing eine präzise Dosis ohne Kochkomplikationen liefert. Baue deine Bowl, füge das Cannabis-Element hinzu und genieße.",
         "dosing_tips": [
           "Träufle eine abgemessene Menge Cannabis-Öl oder Tahini-Dressing über die fertige Bowl für eine präzise, sichtbare Dosierung.",
-          "Ein Esslöffel Cannabis-Dressing pro Bowl ist typischerweise eine Standard-Dosis von 5-10 mg. Mit einem Löffel abmessen statt gießen.",
+          "Verteile das Cannabis-Dressing gleichmäßig auf die Bowls. Mit einem Löffel abmessen statt gießen.",
           "Schwenke oder mische die Bowl gründlich nach dem Hinzufügen des Cannabis-Nieselregens, um die Dosis auf alle Komponenten zu verteilen.",
           "Getreide-Bowls mit Ballaststoffen und Protein erzeugen langsame Verdauung. Wirkungseintritt typischerweise in 60-90 Minuten mit Effekten, die 4-6 Stunden anhalten."
         ],
@@ -1304,7 +1304,7 @@
       "keto_baked": {
         "intro": "Dieses Cannabis-%{name}-Rezept verwendet %{base_fat} mit ketofreundlichen Mehlen und Süßungsmitteln für einen kohlenhydratarmen Backgenuss, der in deine Makros passt. Keto-Backen und Cannabis sind eine perfekte Kombination, da die fettreiche ketogene Ernährung von Natur aus die Fette enthält, die THC transportieren. Genieße dein Edible, ohne die Ketose zu unterbrechen.",
         "dosing_tips": [
-          "Keto-Diäten erhöhen die Fettaufnahme, was Edibles etwas stärker wirken lassen kann. Beginne mit einer niedrigeren Dosis von 5 mg pro Portion.",
+          "Keto-Diäten erhöhen die Fettaufnahme, was Edibles etwas stärker wirken lassen kann. Beginne mit etwa 5 mg und warte 2 Stunden.",
           "Der hohe Fettgehalt von Keto-Backwaren verteilt THC sehr gleichmäßig, was die Dosierung über die Portionen hinweg konsistent macht.",
           "Verwende Rezepte mit Mandel- oder Kokosmehl, bei denen %{base_fat} einen großen Anteil des Fettgehalts ausmacht, für genaue Berechnungen.",
           "Wiege die Portionen mit einer Küchenwaage, da Keto-Backwaren dicht sein können und kleine Größenunterschiede größere Dosisunterschiede bedeuten."
@@ -1351,7 +1351,7 @@
         "intro": "Dieses Cannabis-%{name}-Rezept kombiniert %{base_fat} mit ketozugelassenen Süßungsmitteln für eine genussvolle Nascherei ohne schlechtes Gewissen, die deinen Süßhunger stillt und gleichzeitig die Kohlenhydrate nahe null hält. Zuckerfreie Cannabis-Süßigkeiten sind ideal für gesundheitsbewusste Konsumenten, die präzise Dosierung ohne Zuckertief wollen. Die fettreiche Basis sorgt für eine ausgezeichnete THC-Aufnahme.",
         "dosing_tips": [
           "Keto-Süßigkeiten werden oft in kleinen Portionen wie Fat Bombs oder Trüffeln hergestellt. Berechne die Dosis pro Stück sorgfältig, da sie kalorienreich sind.",
-          "Der hohe Fettgehalt von Keto-Süßigkeiten bedeutet eine effiziente THC-Aufnahme. Erwäge, mit 5 mg pro Stück zu beginnen.",
+          "Der hohe Fettgehalt von Keto-Süßigkeiten bedeutet eine effiziente THC-Aufnahme. Erwäge, mit etwa 5 mg zu beginnen.",
           "Verwende Silikonformen, um identische Portionen mit gleichmäßigem Gewicht und gleicher Dosis herzustellen.",
           "Zuckeralkohole in Keto-Süßungsmitteln beeinflussen die THC-Aufnahme nicht, daher ist die Dosierungsberechnung dieselbe wie bei normalen Süßigkeiten."
         ],
@@ -1397,7 +1397,7 @@
       "keto_savory": {
         "intro": "Dieses Cannabis-%{name}-Rezept verwendet %{base_fat} in einem herzhaften, kohlenhydratarmen Gericht, das zuverlässige Dosierung liefert und gleichzeitig deine ketogenen Makros einhält. Herzhafte Keto-Mahlzeiten sind von Natur aus fettreich, was sie zu idealen Trägern für Cannabis-Infusionen macht. Von Käse-Chips bis zu Blumenkohl-Gerichten – herzhafte Keto-Edibles sind endlos vielseitig.",
         "dosing_tips": [
-          "Fettreiche Keto-Mahlzeiten absorbieren THC effizient. Beginne mit 5-7 mg pro Portion, bis du weißt, wie herzhafte Keto-Edibles auf dich wirken.",
+          "Fettreiche Keto-Mahlzeiten absorbieren THC effizient. Beginne mit etwa 5 mg, bis du weißt, wie herzhafte Keto-Edibles auf dich wirken.",
           "Miss %{base_fat} für jede Portion genau ab, anstatt es der gesamten Charge hinzuzufügen, besonders bei angerichteten Mahlzeiten.",
           "Zusammengesetzte Cannabisbutter mit Kräutern macht die Dosierung herzhafter Keto-Gerichte elegant und präzise. Ein Stück Butter entspricht einer Dosis.",
           "Tracke deine gesamte Fettaufnahme einschließlich des Cannabisfetts im Rahmen deiner täglichen Keto-Makros, um in der Ketose zu bleiben."
@@ -1471,7 +1471,7 @@
         "dosing_tips": [
           "Cannabis-Kokosöl ist der beste Freund des veganen Bäckers. Sein hoher Gehalt an gesättigten Fettsäuren extrahiert THC genauso effektiv wie Milchbutter.",
           "Wiege %{base_fat} nach Gewicht statt nach Volumen ab, da sich die Dichte von Kokosöl je nach Temperatur verändert.",
-          "Beginne mit 5-10 mg pro Portion. Vegane Backwaren werden möglicherweise etwas schneller verdaut, da keine Milchproteine enthalten sind.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg. Vegane Backwaren werden möglicherweise etwas schneller verdaut, da keine Milchproteine enthalten sind.",
           "Verwende ein Leinsamen-Ei oder Chia-Ei als Bindemittel ohne Milchprodukte – dies beeinflusst die THC-Verteilung nicht."
         ],
         "common_mistakes": [
@@ -1560,7 +1560,7 @@
         "dosing_tips": [
           "Träufle eine abgemessene Menge Cannabis-Öl über fertige Gerichte, anstatt damit zu kochen, für die genaueste Dosierung.",
           "Vegane herzhafte Gerichte verwenden oft Kokosöl oder Olivenöl als Hauptfett, die sich beide gut mit Cannabis infundieren lassen.",
-          "Halte die Portionen bei 5-10 mg. Pflanzliche Mahlzeiten werden aufgrund des höheren Ballaststoffgehalts möglicherweise etwas schneller verdaut.",
+          "Wenn du neu dabei bist, beginne mit etwa 5 mg. Pflanzliche Mahlzeiten werden aufgrund des höheren Ballaststoffgehalts möglicherweise etwas schneller verdaut.",
           "Hefeflocken, Miso und Tamari verleihen Umami-Tiefe, die gut zum Cannabis passt und dessen Kräutergeschmack überdeckt."
         ],
         "common_mistakes": [
@@ -1604,7 +1604,7 @@
           "Füge %{base_fat} als Finishing-Nieselregen hinzu oder rühre es nach dem Kochen in die Sauce. Pflanzliche Saucen mit Kokosmilch oder Nusscreme integrieren Cannabis-Fett glatt.",
           "Richte individuell an und füge einen abgemessenen Esslöffel Cannabis-Öl zu jeder Portion für eine genaue Pro-Person-Dosierung hinzu.",
           "Vegane Hauptgerichte mit hohem Ballaststoffgehalt können den Wirkungseintritt leicht verzögern. Rechne mit 60-120 Minuten für die volle Wirkung.",
-          "Halte die Dosis bei 5-10 mg pro Portion. Das beträchtliche Volumen eines Hauptgerichts erzeugt eine allmähliche, nachhaltige Cannabis-Erfahrung."
+          "Das beträchtliche Volumen eines Hauptgerichts erzeugt eine allmähliche, nachhaltige Cannabis-Erfahrung, also warte 2 Stunden, bevor du mehr isst."
         ],
         "common_mistakes": [
           "Tofu und Gemüse in Cannabis-Öl bei starker Hitze anbraten, zerstört THC. Mit normalem Öl kochen und mit Cannabis-Fett fertigstellen.",
@@ -1640,7 +1640,7 @@
       "vegan_bowl": {
         "intro": "Dieses Cannabis-%{name}-Rezept träufelt %{base_fat} über eine lebhafte, pflanzenbasierte Bowl voller Getreide, Hülsenfrüchte und frischem Gemüse. Cannabis-vegane Bowls sind die Schnittstelle von gesundheitsbewusster Ernährung und präziser Edible-Dosierung, wo ein abgemessener Nieselregen infundierten Öls eine nahrhafte Mahlzeit in eine perfekt kontrollierte Cannabis-Erfahrung verwandelt.",
         "dosing_tips": [
-          "Messe einen Esslöffel Cannabis-Dressing oder -Öl pro Bowl für eine gleichmäßige 5-10 mg Dosis ab, die du verfolgen kannst.",
+          "Verteile das Cannabis-Dressing oder -Öl mit einem Messlöffel gleichmäßig auf die Bowls, für eine konstante Dosis, die du verfolgen kannst.",
           "Schwenke oder rühre die Bowl gründlich nach dem Hinzufügen des Cannabis-Nieselregens, um sicherzustellen, dass jeder Bissen einen gleichmäßigen Anteil THC liefert.",
           "Ballaststoffreiche vegane Bowls verlangsamen die Verdauung. Plane 60-90 Minuten für den Wirkungseintritt ein, mit Effekten, die 4-6 Stunden anhalten.",
           "Wenn du ein Cannabis-Vinaigrette verwendest, schüttle es vor jeder Verwendung kräftig, da sich Öl und Essig schnell trennen."
@@ -1687,7 +1687,7 @@
         "dosing_tips": [
           "Brasilianische Süßigkeiten wie Brigadeiros werden zu einzelnen Kugeln gerollt, wodurch jede eine präzise portionierte Dosis ist. Berechne die mg pro Kugel.",
           "Süßigkeiten auf Kondensmilchbasis integrieren Cannabis-Butter oder Kokosöl problemlos. Rühre beim Kochen ständig um, um eine gleichmäßige Verteilung zu gewährleisten.",
-          "Beginne mit 5-10 mg pro Stück. Brasilianische Süßigkeiten sind gehaltvoll und auf Festen isst man oft mehrere, also halte die Einzeldosen niedrig.",
+          "Brasilianische Süßigkeiten sind gehaltvoll und auf Festen isst man oft mehrere, also prüfe, wie viele mg ein Stück enthält, beginne mit etwa 5 mg und warte 2 Stunden.",
           "Der hohe Zucker- und Fettgehalt brasilianischer Süßigkeiten kann den Wirkungseintritt auf 60-90 Minuten verzögern. Sei geduldig und übertreibe es nicht."
         ],
         "common_mistakes": [
@@ -1738,7 +1738,7 @@
       "brazilian_savory": {
         "intro": "Dieses Cannabis-%{name}-Rezept vereint die kräftigen, herzhaften Aromen der brasilianischen Küche mit %{base_fat} für eine herzhafte, infundierte Mahlzeit, die zutiefst befriedigend ist. Brasilianische herzhafte Gerichte wie Pão de Queijo, Coxinhas und Farofa verwenden großzügige Mengen Fett und eignen sich daher perfekt für Cannabis-Infusion. Genieße brasilianisches Comfort Food mit einer gemessenen, konsistenten Dosis.",
         "dosing_tips": [
-          "Brasilianische herzhafte Snacks werden oft in größerer Menge gegessen. Wenn du Coxinhas oder Pão de Queijo machst, halte jedes Stück bei 2.5-5 mg, damit das Essen von 2-3 Stück im sicheren Bereich bleibt.",
+          "Brasilianische herzhafte Snacks werden oft in größerer Menge gegessen. Prüfe, wie viele mg ein Stück enthält, bevor du ein zweites isst; etwa 5 mg sind die Dosis fürs erste Mal.",
           "Mische %{base_fat} gründlich in den Teig oder die Füllung. Käsebrötchenteig zum Beispiel nimmt Öl homogen auf.",
           "Berechne das gesamte THC in der Charge und teile durch die Anzahl der Stücke. Teigportionen für Konsistenz abwiegen.",
           "Diese stärkehaltigen, fettigen Gerichte können den Wirkungseintritt auf 60-120 Minuten verzögern. Eine kontrollierte Portion essen und warten, bevor du mehr nimmst."
@@ -1879,7 +1879,7 @@
         "dosing_tips": [
           "Rühre Cannabis-Öl beim Servieren in Salsas, Cremas und Guacamole für die präziseste Dosierung pro Esslöffel.",
           "Mexikanische Gerichte mit Käse, Saurer Sahne und Avocado haben einen hohen Fettgehalt, der die THC-Absorption natürlich verbessert.",
-          "Beginne mit 5-10 mg pro Portion. Scharfes Essen kann den Wirkungseintritt von Cannabis überdecken, also warte die vollen 90 Minuten, bevor du mehr isst.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg. Scharfes Essen kann den Wirkungseintritt von Cannabis überdecken, also warte die vollen 2 Stunden, bevor du mehr isst.",
           "Cannabis-infundiertes Schmalz oder Manteca ist traditionell in der mexikanischen Küche und integriert sich nahtlos in Masa, Bohnen und Saucen."
         ],
         "common_mistakes": [
@@ -1918,8 +1918,8 @@
         "intro": "Dieses Cannabis-%{name}-Rezept verbindet %{base_fat} mit frischen Zitrusaromen zu einem erfrischenden, alkoholfreien infundierten Getränk, das perfekt für gesellige Anlässe ist. Zitrus-Mocktails gehören zu den besten, um den Cannabis-Geschmack zu überdecken, dank ihrer ausgeprägten Säure und aromatischen Öle. Genieße ein anspruchsvolles Cannabis-Getränk ohne Alkohol.",
         "dosing_tips": [
           "Verwende mit Cannabis infundierten Zuckersirup oder Tinktur für den saubersten Zitrus-Mocktail. Fettbasierte Infusionen können in sauren Getränken einen öligen Film erzeugen.",
-          "Ziele auf 5-10 mg pro Getränk ab und serviere in Standard-Cocktailportionen, damit die Gäste wissen, dass ein Getränk einer Dosis entspricht.",
-          "Zitronensäure kann die Magenentleerung beschleunigen, was möglicherweise zu einem etwas schnelleren Wirkungseintritt führt. Fange niedrig an und warte mindestens 60 Minuten.",
+          "Schenke gleich volle Gläser ein, damit die Gäste wissen, dass ein Getränk einer Portion entspricht, und sag Anfängern, dass etwa 5 mg für den Anfang reichen.",
+          "Zitronensäure kann die Magenentleerung beschleunigen, was möglicherweise zu einem etwas schnelleren Wirkungseintritt führt. Fange niedrig an und warte 2 Stunden, bevor du mehr trinkst.",
           "Kräftig rühren oder schütteln, um das Cannabis-Element vollständig zu integrieren. Trennung ist bei klaren Zitrusgetränken deutlicher sichtbar."
         ],
         "common_mistakes": [
@@ -1966,7 +1966,7 @@
         "dosing_tips": [
           "Mixe Obst gründlich mit deiner Cannabis-Infusion, um eine gleichmäßige Emulsion zu erzeugen, in der die Dosis gleichmäßig verteilt ist.",
           "Dickflüssige Smoothie-artige Fruchtgetränke halten fettbasierte Cannabis-Infusionen besser als dünne Säfte. Füge Banane oder Mango für mehr Körper hinzu.",
-          "Halte die Dosis bei 5-10 mg pro Portion. Fruchtige Getränke werden leicht zu viel konsumiert, weil sie wie Dessert schmecken.",
+          "Fruchtige Getränke werden leicht zu viel konsumiert, weil sie wie Dessert schmecken: Trink langsam und warte 2 Stunden, bevor du dir ein weiteres einschenkst.",
           "Wenn du eine größere Menge zubereitest, serviere in vorabgemessenen Portionen statt aus einem gemeinsamen Krug."
         ],
         "common_mistakes": [
@@ -2058,7 +2058,7 @@
       "hot_drinks": {
         "intro": "Dieses Cannabis-%{name}-Rezept mischt %{base_fat} in ein warmes, wohltuendes Getränk, das perfekt zum Entspannen und Abschalten ist. Heiße Cannabis-Getränke bieten eine behagliche Art, Edibles zu konsumieren, besonders in den kälteren Monaten. Die Wärme hilft dem infundierten Fett, sich aufzulösen und gleichmäßig zu verteilen, für eine konsistente Dosierung in jedem Schluck.",
         "dosing_tips": [
-          "Beginne mit 5-10 mg pro Tasse und denke daran, dass flüssige Edibles schneller wirken können als feste Nahrung, manchmal innerhalb von 20-45 Minuten.",
+          "Neu bei Edibles? Beginne mit etwa 5 mg und denke daran, dass flüssige Edibles schneller wirken können als feste Nahrung, manchmal innerhalb von 20-45 Minuten.",
           "Verwende einen Milchaufschäumer oder Mixer, um %{base_fat} vollständig in dein heißes Getränk zu emulgieren, damit es nicht als ölige Schicht oben schwimmt.",
           "Wenn du eine Kanne teilst, rühre vor jedem Eingießen gründlich um, da das Fett an die Oberfläche steigt, wenn das Getränk steht.",
           "Langsames Trinken über 30 Minuten gibt dir bessere Kontrolle über dein Erlebnis, als die gesamte Tasse schnell auszutrinken."
@@ -2106,7 +2106,7 @@
         "intro": "Dieses erfrischende Cannabis-%{name}-Rezept integriert %{base_fat} in ein gekühltes Getränk, das perfekt für warme Tage und gesellige Zusammenkünfte ist. Kalte Cannabis-Getränke sind eine diskrete, angenehme Art, Edibles mit präziser Dosierungskontrolle zu konsumieren. Das Mixen stellt sicher, dass das infundierte Fett gleichmäßig verteilt ist, für konsistente Wirkung in jedem Glas.",
         "dosing_tips": [
           "Mixe dein %{base_fat} mit einem Stabmixer oder Standmixer in die Getränkebasis für eine gleichmäßige Verteilung.",
-          "Kalte Getränke werden leicht schnell ausgetrunken. Jede Portion sorgfältig auf 5-10 mg abmessen und sich Zeit lassen.",
+          "Kalte Getränke werden leicht schnell ausgetrunken. Gleich große Portionen einschenken, langsam trinken und 2 Stunden warten, bevor man ein weiteres nimmt.",
           "Wenn du eine Bowle oder einen Krug zubereitest, rühre vor jedem Einschenken um, da sich Fett in kalten Flüssigkeiten deutlicher absetzt.",
           "Erwäge die Verwendung wasserlöslicher THC-Produkte für kalte Getränke, da sie sich natürlicher mischen als fettbasierte Infusionen."
         ],
