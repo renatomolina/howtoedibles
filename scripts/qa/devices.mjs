@@ -9,8 +9,8 @@
 //  static   – the build's pre-rendered dose panel equals what js/dose.js renders (window.DOSE.check())
 // Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/devices.mjs [outdir]   (BASE=… to change the server)
 // Needs Google Chrome; no npm deps.
-import { spawn } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
+import { chrome, sleep } from "./chrome.mjs";
 const out = process.argv[2] || "/tmp/hte-devices";
 mkdirSync(out, { recursive: true });
 const BASE = process.env.BASE || "http://127.0.0.1:8781";
@@ -29,9 +29,7 @@ const LANGS = ["en", "pt", "es", "de", "zh"], RECIPES = ["pot-brownies", "cannab
 const PAGES = ["/", "/calculator.html", "/donate.html", "/articles.html", "/recipes/easy-weed-brownies-recipe/",
   "/cannabis-and-sleep.html", "/how-long-do-edibles-take-to-kick-in.html", "/how-to-prevent-a-bad-trip.html", "/how-to-make-cannabis-topicals.html"];
 const EN_ONLY = ["/about.html", "/contact.html"];
-const PORT = 9336, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-devices", "--no-first-run", "--hide-scrollbars"], { stdio: "ignore" });
-for (let i = 0; i < 50; i++) { try { await fetch(`http://127.0.0.1:${PORT}/json/version`); break; } catch { await sleep(200); } }
+const browser = await chrome("devices");
 
 // runs inside the loaded page (setTimeout, not rAF: rAF hangs in background tabs)
 const PROBE = `(async () => {
@@ -100,13 +98,7 @@ const PROBE2 = `(async () => {
 })()`;
 
 async function runDevice([name, w, h, mobile]) {
-  const target = await (await fetch(`http://127.0.0.1:${PORT}/json/new?about:blank`, { method: "PUT" })).json();
-  const ws = new WebSocket(target.webSocketDebuggerUrl);
-  await new Promise((r) => (ws.onopen = r));
-  let id = 0; const pend = new Map(), evs = [];
-  ws.onmessage = (e) => { const m = JSON.parse(e.data); if (m.id && pend.has(m.id)) { pend.get(m.id)(m.result); pend.delete(m.id); } else evs.forEach((f) => f(m)); };
-  const send = (method, params = {}) => new Promise((r) => { pend.set(++id, r); ws.send(JSON.stringify({ id, method, params })); });
-  await send("Page.enable"); await send("Network.enable"); await send("Network.setCacheDisabled", { cacheDisabled: true });
+  const { send, evs, close } = await browser.tab();
   await send("Emulation.setDeviceMetricsOverride", { width: w, height: h, deviceScaleFactor: 1, mobile: !!mobile });
   await send("Emulation.setTouchEmulationEnabled", { enabled: !!mobile });
   await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: "reduce" }] });
@@ -116,7 +108,7 @@ async function runDevice([name, w, h, mobile]) {
     const loaded = new Promise((res) => { const f = (m) => m.method === "Page.loadEventFired" && (evs.splice(evs.indexOf(f), 1), res()); evs.push(f); });
     await send("Page.navigate", { url: `${BASE}${lang === "en" ? "" : "/" + lang}${page ? (lang === "en" && r === "/calculator.html" ? "/edible-dosage-calculator/" : r) : `/recipes/${r}/`}` });
     await Promise.race([loaded, sleep(10000)]);
-    const v = await Promise.race([send("Runtime.evaluate", { expression: page ? PROBE2 : PROBE, awaitPromise: true, returnByValue: true }), sleep(20000).then(() => ({ result: { value: JSON.stringify({ bad: ["TIMEOUT"], nBad: 1 }) } }))]);
+    const v = await send("Runtime.evaluate", { expression: page ? PROBE2 : PROBE, awaitPromise: true, returnByValue: true }).catch(() => ({ result: { value: JSON.stringify({ bad: ["TIMEOUT"], nBad: 1 }) } }));
     const row = { device: name, vp: `${w}×${h}`, lang, r, ...JSON.parse(v.result?.value || `{"bad":["eval failed: ${(v.exceptionDetails?.exception?.description || "").slice(0, 80)}"],"nBad":1}`) };
     rows.push(row);
     if ((lang === "en" && (r === "pot-brownies" || page)) || (lang === "de" && r === "infused-keto-chocolate-avocado-mousse") || row.nBad || /OVER|MISSING|CUT|MISMATCH/.test(JSON.stringify(row))) {
@@ -124,12 +116,13 @@ async function runDevice([name, w, h, mobile]) {
       writeFileSync(`${out}/${slug(name)}__${lang}_${slug(page ? r : r.split("-").pop())}.jpg`, Buffer.from(s.data, "base64"));
     }
   }
-  ws.close(); await fetch(`http://127.0.0.1:${PORT}/json/close/${target.id}`);
+  await close();
   return rows;
 }
 
+// 12 devices at a time: 18 measured some H1s before the webfont applied (#133)
 const all = [];
-for (let i = 0; i < D.length; i += 6) (await Promise.all(D.slice(i, i + 6).map(runDevice))).forEach((rs) => all.push(...rs));
+for (let i = 0; i < D.length; i += 12) (await Promise.all(D.slice(i, i + 12).map(runDevice))).forEach((rs) => all.push(...rs));
 writeFileSync(`${out}/report.json`, JSON.stringify(all, null, 1));
 const isBad = (x) => x.nBad || /OVER|MISSING|CUT|MISMATCH/.test([x.fold, x.dose, x.rail, x.static].join(" "));
 const fails = all.filter(isBad);
@@ -139,5 +132,5 @@ for (const d of D) {
   console.log(`${f.length ? "✗" : "✓"} ${d[0].padEnd(24)} ${(d[1] + "×" + d[2]).padEnd(10)} fold ${rs.map((x) => x.fold?.split(" ")[0] ?? "-").filter((s) => s !== "ok").join(",") || "ok"} · dose ${[...new Set(rs.map((x) => x.dose))].join("/")}${rs[0].rail ? " · rail " + [...new Set(rs.map((x) => x.rail?.split(" ")[0]))].join("/") : ""}`);
   for (const x of f) console.log(`    ${x.lang} ${x.r}: ${[x.fold, x.dose, x.rail, x.static].filter((s) => /OVER|MISSING|CUT|MISMATCH/.test(s || "")).join(" ")} ${(x.bad || []).join(" | ")}`);
 }
-chrome.kill();
+browser.kill();
 process.exit(fails.length ? 1 : 0);

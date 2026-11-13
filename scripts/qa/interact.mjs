@@ -2,20 +2,12 @@
 // Steppers, chips, typed locale decimals, reset, ?quantity=&potency=&portion=, the menu/search dialogs
 // closing on Back, the dialog switch keeping one history entry, and the theme key (Auto removes it).
 // Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/interact.mjs
-import { spawn } from "node:child_process";
-const BASE = process.env.BASE || "http://127.0.0.1:8781", PORT = 9351, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-interact", "--no-first-run"], { stdio: "ignore" });
-for (let i = 0; i < 50; i++) { try { await fetch(`http://127.0.0.1:${PORT}/json/version`); break; } catch { await sleep(200); } }
-const target = await (await fetch(`http://127.0.0.1:${PORT}/json/new?about:blank`, { method: "PUT" })).json();
-const ws = new WebSocket(target.webSocketDebuggerUrl);
-await new Promise((r) => (ws.onopen = r));
-let id = 0; const pend = new Map(), evs = [], errs = [];
-ws.onmessage = (e) => { const m = JSON.parse(e.data); if (m.id && pend.has(m.id)) { pend.get(m.id)(m.result); pend.delete(m.id); } else evs.forEach((f) => f(m)); };
-const send = (method, params = {}) => new Promise((r) => { pend.set(++id, r); ws.send(JSON.stringify({ id, method, params })); });
-await send("Page.enable"); await send("Runtime.enable"); await send("Network.enable"); await send("Network.setCacheDisabled", { cacheDisabled: true });
+import { chrome, sleep } from "./chrome.mjs";
+const BASE = process.env.BASE || "http://127.0.0.1:8781";
+const browser = await chrome("interact"), { send, evs, close } = await browser.tab(), errs = [];
 evs.push((m) => m.method === "Runtime.exceptionThrown" && errs.push(m.params.exceptionDetails.exception?.description?.split("\n")[0]));
 await send("Emulation.setDeviceMetricsOverride", { width: 390, height: 664, deviceScaleFactor: 1, mobile: true });
-const go = async (path) => { const l = new Promise((r) => { const f = (m) => m.method === "Page.loadEventFired" && (evs.splice(evs.indexOf(f), 1), r()); evs.push(f); }); await send("Page.navigate", { url: BASE + path }); await l; await sleep(300); };
+const go = async (path) => { const l = new Promise((r) => { const f = (m) => m.method === "Page.loadEventFired" && (evs.splice(evs.indexOf(f), 1), r()); evs.push(f); }); await send("Page.navigate", { url: BASE + path }); await Promise.race([l, sleep(10000)]); await sleep(300); };
 const ev = async (expr) => (await send("Runtime.evaluate", { expression: `(async () => { ${expr} })()`, awaitPromise: true, returnByValue: true })).result?.value;
 let fails = 0;
 const expect = (name, got, want) => { const ok = JSON.stringify(got) === JSON.stringify(want); if (!ok) fails++; console.log(`${ok ? "✓" : "✗"} ${name}${ok ? "" : ` — got ${JSON.stringify(got)}, want ${JSON.stringify(want)}`}`); };
@@ -100,5 +92,5 @@ await ev(`document.querySelector('.topics [data-topic=""]').click(); const q = d
 expect("articles: search 'sleep'", await ev(`return [document.querySelectorAll("#alist li:not([hidden])").length > 0, document.getElementById("anone").hidden]`), [true, true]);
 
 expect("no JS errors", errs, []);
-ws.close(); chrome.kill();
+await close(); browser.kill();
 process.exit(fails ? 1 : 0);
