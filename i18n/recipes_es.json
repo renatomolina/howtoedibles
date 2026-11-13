@@ -1483,9 +1483,9 @@
     ],
     "intro_unique": "La contundente Sopa de Lentejas con Cannabis cocina lentejas a fuego lento con verduras aromáticas y se termina con un chorrito de aceite de oliva infusionado, para un comestible vegano nutritivo.",
     "dosing_unique": "Incorpora el aceite infusionado a la sopa terminada y sírvela en tazones con un cucharón medido para dosificar por porción.",
-    "storage_unique": "Refrigérala hasta 5 días o congélala hasta 3 meses; la sopa de lentejas se congela excepcionalmente bien.",
+    "storage_unique": "Refrigérala hasta 4 días o congélala hasta 3 meses; la sopa de lentejas se congela excepcionalmente bien.",
     "variation_unique": "Añade un chorrito de limón y un puñado de perejil fresco antes de servir para darle frescura y color.",
-    "unique_src": "c3da58d548d9dbcf1996f2450bec4c6a66559180"
+    "unique_src": "8b887ae9751a00d062c5c075d5f0cf90559ee96b"
   },
   "infused-vegan-pancakes": {
     "name": "Panqueques Veganos Infusionados",
@@ -1665,9 +1665,9 @@
     ],
     "intro_unique": "El Guiso de Garbanzos Infusionado cocina a fuego lento garbanzos con tomates y especias cálidas, y se termina con aceite de oliva infusionado para un comestible vegano y sustancioso.",
     "dosing_unique": "Incorpora bien el aceite infusionado al guiso terminado fuera del fuego y luego sirve porciones iguales con cucharón para que cada tazón reciba la misma dosis.",
-    "storage_unique": "Refrigéralo hasta 5 días o congélalo durante 3 meses; el guiso incluso mejora de sabor al día siguiente.",
+    "storage_unique": "Refrigéralo hasta 4 días o congélalo durante 3 meses; el guiso incluso mejora de sabor al día siguiente.",
     "variation_unique": "Añade limón en conserva y aceitunas verdes para una variación de tajín de garbanzos de inspiración marroquí.",
-    "unique_src": "1168704f75ab8249cca5b95531eaa48ec6abf96a"
+    "unique_src": "6b119ef7b8610061e7f506085bba1bd415aae436"
   },
   "cannabis-vegan-protein-balls": {
     "name": "Bolitas de Proteína Veganas de Cannabis",
@@ -1742,9 +1742,9 @@
     ],
     "intro_unique": "La ahumada Sopa de Frijoles Negros con Cannabis combina frijoles negros cocidos a fuego lento con comino y aceite de oliva infusionado, para un comestible vegano espeso y rico en proteínas.",
     "dosing_unique": "Incorpora el aceite infusionado a la sopa terminada y sirve con cucharones medidos; licuarla parcialmente le da una consistencia más espesa y uniforme.",
-    "storage_unique": "Refrigérala hasta 5 días o congélala hasta 3 meses; la sopa se espesa al enfriarse, así que añade agua al recalentarla.",
+    "storage_unique": "Refrigérala hasta 4 días o congélala hasta 3 meses; la sopa se espesa al enfriarse, así que añade agua al recalentarla.",
     "variation_unique": "Corona cada tazón con aguacate en cubos, una cucharada de crema agria vegana y una pizca de pimentón ahumado.",
-    "unique_src": "69789cd79ac3522d2fb8181ba362e03e3895ccb7"
+    "unique_src": "27a4323a50b726cf99e3b4d460220202c0972a25"
   },
   "infused-vegan-banana-ice-cream": {
     "name": "Helado Vegano de Banana Infusionado",

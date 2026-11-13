@@ -1483,9 +1483,9 @@
     ],
     "intro_unique": "A farta Sopa de Lentilha com Cannabis cozinha lentilhas com legumes aromáticos e é finalizada com um fio de azeite infusionado, um comestível vegano e nutritivo.",
     "dosing_unique": "Misture o óleo infusionado à sopa pronta e sirva nas tigelas com uma concha medida, para dosar cada porção.",
-    "storage_unique": "Guarde na geladeira por até 5 dias ou no freezer por até 3 meses; a sopa de lentilha congela excepcionalmente bem.",
+    "storage_unique": "Guarde na geladeira por até 4 dias ou no freezer por até 3 meses; a sopa de lentilha congela excepcionalmente bem.",
     "variation_unique": "Acrescente um pouco de suco de limão e um punhado de salsinha fresca antes de servir, para mais frescor e cor.",
-    "unique_src": "c3da58d548d9dbcf1996f2450bec4c6a66559180"
+    "unique_src": "8b887ae9751a00d062c5c075d5f0cf90559ee96b"
   },
   "infused-vegan-pancakes": {
     "name": "Panquecas Veganas Infusionadas",
@@ -1665,9 +1665,9 @@
     ],
     "intro_unique": "O ensopado de grão-de-bico infusionado cozinha grão-de-bico em fogo baixo com tomates e especiarias, finalizado com azeite infusionado, num comestível vegano substancioso.",
     "dosing_unique": "Misture bem o azeite infusionado ao ensopado pronto, fora do fogo, e sirva porções iguais com a concha, para que cada tigela tenha a mesma dose.",
-    "storage_unique": "Guarde na geladeira por até 5 dias ou congele por 3 meses; o ensopado fica ainda mais saboroso no dia seguinte.",
+    "storage_unique": "Guarde na geladeira por até 4 dias ou congele por 3 meses; o ensopado fica ainda mais saboroso no dia seguinte.",
     "variation_unique": "Acrescente limão em conserva e azeitonas verdes para uma variação de tagine de grão-de-bico de inspiração marroquina.",
-    "unique_src": "1168704f75ab8249cca5b95531eaa48ec6abf96a"
+    "unique_src": "6b119ef7b8610061e7f506085bba1bd415aae436"
   },
   "cannabis-vegan-protein-balls": {
     "name": "Bolinhas de Proteína Veganas com Cannabis",
@@ -1742,9 +1742,9 @@
     ],
     "intro_unique": "A defumada Sopa de Feijão Preto com Cannabis bate feijão preto cozido com cominho e azeite infusionado, resultando em um comestível vegano espesso e rico em proteínas.",
     "dosing_unique": "Misture o óleo infusionado à sopa pronta e sirva com conchas medidas; bater só parte da sopa deixa a consistência mais espessa e uniforme.",
-    "storage_unique": "Guarde na geladeira por até 5 dias ou no freezer por até 3 meses; a sopa engrossa ao esfriar, então acrescente água ao reaquecer.",
+    "storage_unique": "Guarde na geladeira por até 4 dias ou no freezer por até 3 meses; a sopa engrossa ao esfriar, então acrescente água ao reaquecer.",
     "variation_unique": "Finalize cada tigela com abacate em cubos, uma colherada de creme azedo vegano e uma pitada de páprica defumada.",
-    "unique_src": "69789cd79ac3522d2fb8181ba362e03e3895ccb7"
+    "unique_src": "27a4323a50b726cf99e3b4d460220202c0972a25"
   },
   "infused-vegan-banana-ice-cream": {
     "name": "Sorvete Vegano de Banana Infusionado",

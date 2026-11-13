@@ -1483,9 +1483,9 @@
     ],
     "intro_unique": "Für herzhafte Cannabis-Linsensuppe köcheln Linsen mit aromatischem Gemüse, vollendet mit einem Schuss infundiertem Olivenöl – ein nahrhaftes veganes Edible.",
     "dosing_unique": "Rühre das infundierte Öl in die fertige Suppe und fülle sie mit einer abgemessenen Kelle in Schüsseln – für eine Dosis pro Portion.",
-    "storage_unique": "Bewahre sie bis zu 5 Tage im Kühlschrank auf oder friere sie bis zu 3 Monate ein; Linsensuppe lässt sich hervorragend einfrieren.",
+    "storage_unique": "Bewahre sie bis zu 4 Tage im Kühlschrank auf oder friere sie bis zu 3 Monate ein; Linsensuppe lässt sich hervorragend einfrieren.",
     "variation_unique": "Gib vor dem Servieren einen Spritzer Zitrone und eine Handvoll frische Petersilie für Frische und Farbe dazu.",
-    "unique_src": "c3da58d548d9dbcf1996f2450bec4c6a66559180"
+    "unique_src": "8b887ae9751a00d062c5c075d5f0cf90559ee96b"
   },
   "infused-vegan-pancakes": {
     "name": "Infundierte vegane Pfannkuchen",
@@ -1665,9 +1665,9 @@
     ],
     "intro_unique": "Beim Cannabis-Kichererbseneintopf köcheln Kichererbsen mit Tomaten und wärmenden Gewürzen; abgerundet mit infundiertem Olivenöl ergibt das ein herzhaftes veganes Edible.",
     "dosing_unique": "Rühr das infundierte Öl abseits der Hitze gründlich in den fertigen Eintopf und schöpfe dann gleich große Portionen, damit jede Schüssel die gleiche Dosis bekommt.",
-    "storage_unique": "Bis zu 5 Tage im Kühlschrank oder 3 Monate eingefroren haltbar; am nächsten Tag schmeckt der Eintopf sogar noch besser.",
+    "storage_unique": "Bis zu 4 Tage im Kühlschrank oder 3 Monate eingefroren haltbar; am nächsten Tag schmeckt der Eintopf sogar noch besser.",
     "variation_unique": "Mit Salzzitrone und grünen Oliven wird daraus eine marokkanisch inspirierte Kichererbsen-Tajine.",
-    "unique_src": "1168704f75ab8249cca5b95531eaa48ec6abf96a"
+    "unique_src": "6b119ef7b8610061e7f506085bba1bd415aae436"
   },
   "cannabis-vegan-protein-balls": {
     "name": "Vegane Cannabis-Proteinbällchen",
@@ -1742,9 +1742,9 @@
     ],
     "intro_unique": "Rauchige Cannabis-Schwarze-Bohnen-Suppe verbindet geköchelte schwarze Bohnen mit Kreuzkümmel und infundiertem Olivenöl zu einem dicken, proteinreichen veganen Edible.",
     "dosing_unique": "Rühre das infundierte Öl in die fertige Suppe und serviere sie mit abgemessenen Kellen; wenn du sie teilweise pürierst, wird die Konsistenz dicker und gleichmäßiger.",
-    "storage_unique": "Bewahre sie bis zu 5 Tage im Kühlschrank auf oder friere sie bis zu 3 Monate ein; beim Abkühlen dickt die Suppe ein, also gib beim Aufwärmen Wasser dazu.",
+    "storage_unique": "Bewahre sie bis zu 4 Tage im Kühlschrank auf oder friere sie bis zu 3 Monate ein; beim Abkühlen dickt die Suppe ein, also gib beim Aufwärmen Wasser dazu.",
     "variation_unique": "Toppe jede Schüssel mit Avocadowürfeln, einem Klecks veganer saurer Sahne und etwas geräuchertem Paprikapulver.",
-    "unique_src": "69789cd79ac3522d2fb8181ba362e03e3895ccb7"
+    "unique_src": "27a4323a50b726cf99e3b4d460220202c0972a25"
   },
   "infused-vegan-banana-ice-cream": {
     "name": "Infundiertes veganes Bananeneis",
