@@ -489,7 +489,7 @@
       "Após 30 minutos a uma hora, retire do fogo e deixe descansar por 5-10 minutos para ajudar os canabinoides a se fixarem nas células de gordura.",
       "Coloque um pano de queijo sobre a boca de um pote de vidro grande ou outro recipiente hermético para líquidos e despeje a mistura pelo pano de queijo para coar todo o material vegetal.",
       "Quando estiver frio o suficiente para manusear, esprema todo o líquido excedente do pano de queijo para dentro do recipiente de armazenamento.",
-      "Feche bem o recipiente, etiquete com o conteúdo e a data de validade (a mesma data que estava na embalagem do leite) ou congele em formas de gelo para uso posterior."
+      "Feche bem o recipiente, etiquete com a data e os mg por meia xícara e guarde na geladeira, ou congele em formas de gelo para uso posterior."
     ],
     "intro_unique": "O leite infusionado com cannabis é uma base líquida para bebidas quentes, cereais e receitas de forno que distribui o THC por igual no laticínio.",
     "dosing_unique": "Use leite integral, que tem mais gordura e rende a melhor extração; meça as porções em meia xícara, com a potência indicada no rótulo.",
@@ -1092,7 +1092,7 @@
       "Amasse com um garfo. Adicione o suco de limão, sal e pimenta. Misture brevemente — mantenha pedaçudo.",
       "Espalhe a mistura de abacate generosamente sobre o pão torrado.",
       "Regue o azeite de oliva infusionado por cima.",
-      "Decore com flocos de pimenta, tempero ou ervas. Adicione um ovo pochê se desejar.",
+      "Decore com flocos de pimenta, tempero ou ervas. Adicione um ovo pochê se desejar (com a gema bem cozida para grávidas ou pessoas imunossuprimidas).",
       "Serve 2 pessoas. Coma com atenção e espere pelo menos uma hora antes de considerar outra porção."
     ],
     "intro_unique": "A Torrada de Abacate com Cannabis eleva o clássico do brunch com abacate amassado sobre pão de fermentação natural crocante, finalizado com um fio de azeite infusionado.",
@@ -2504,8 +2504,8 @@
     "intro_unique": "Do tamanho de uma mordida, estes bolinhos de berlim infusionados são fritos até dourar e passados no açúcar com canela, um comestível divertido para compartilhar.",
     "dosing_unique": "Coloque 20 colheres de sopa rasas de massa para que todos os bolinhos fiquem do mesmo tamanho; 1 porção = 2 bolinhos.",
     "storage_unique": "Melhor comer no mesmo dia; guarde as sobras num saco de papel em temperatura ambiente por até 24 horas.",
-    "variation_unique": "Recheie os bolinhos com creme de confeiteiro de baunilha usando um saco de confeitar, para um centro no estilo Boston cream.",
-    "unique_src": "6089ec094961209ce3e2c8b1fcf171635f905619"
+    "variation_unique": "Recheie os bolinhos com creme de confeiteiro de baunilha usando um saco de confeitar, para um centro no estilo Boston cream. O creme de confeiteiro leva leite e ovos, então leve os bolinhos recheados à geladeira em até 2 horas.",
+    "unique_src": "0f4f06b11f024c99e3c21da5760dd5c23cc8e95e"
   },
   "cannabis-peach-cobbler": {
     "name": "Cobbler de Pêssego de Cannabis",
@@ -3087,7 +3087,7 @@
     "description": "Arroz frito rápido com ovo e óleo de gergelim de cannabis.",
     "category_name": "Almoço",
     "ingredients": [
-      "3 cups arroz cozido do dia anterior",
+      "3 xícaras de arroz cozido do dia anterior (refrigerado até 1 hora depois de cozido)",
       "3 ovos batidos",
       "1 colher de sopa de óleo de coco infusionado, derretido + 1 colher de sopa de óleo de gergelim torrado",
       "3 dentes de alho",
@@ -4175,18 +4175,18 @@
       "7 gramas de cannabis moída",
       "450g de pimentas vermelhas frescas (cayenne, dedo-de-moça ou mistas), sem talos",
       "4 dentes de alho descascados",
-      "1 xícara de vinagre branco",
+      "1 xícara de vinagre branco (acidez de 5%)",
       "2 colheres de sopa de azeite de oliva (comum, não infundido)",
       "1 colher de chá de sal",
       "1 colher de chá de açúcar"
     ],
     "instructions": [
       "Descarboxile a cannabis: Pré-aqueça o forno a 115°C. Espalhe a cannabis num tabuleiro forrado e asse por 40 minutos, mexendo na metade.",
-      "Pique as pimentas grosseiramente. Misture numa panela com alho, vinagre, sal e açúcar. Ferva e depois cozinhe em fogo baixo por 20 minutos.",
-      "Retire do fogo e deixe esfriar um pouco. Transfira para um liquidificador com o azeite e a cannabis descarboxilada.",
+      "Use luvas e pique as pimentas grosseiramente. Misture numa panela com alho, vinagre, sal e açúcar. Ferva e depois cozinhe em fogo baixo por 20 minutos.",
+      "Retire do fogo e deixe esfriar um pouco. Transfira para um liquidificador com o azeite e a cannabis descarboxilada; tire a tampinha central da tampa e cubra a abertura com um pano para o vapor sair.",
       "Bata em alta velocidade até ficar completamente homogêneo, por 2-3 minutos.",
-      "Coe numa peneira fina para um molho suave, ou deixe sem coar para uma textura mais rústica. Ajuste sal e vinagre a gosto.",
-      "Transfira para garrafas de vidro esterilizadas. Guarde na geladeira por até 6 meses. O sabor melhora após alguns dias de descanso."
+      "Coe numa peneira fina para um molho suave, ou deixe sem coar para uma textura mais rústica. Ajuste o sal a gosto; pode pôr mais vinagre, mas nunca menos.",
+      "Transfira para garrafas de vidro esterilizadas. Guarde na geladeira e agite antes de cada uso. O sabor melhora após alguns dias de descanso."
     ],
     "intro_unique": "Este Molho de Pimenta de Cannabis mistura pimentas ardidas com cannabis descarboxilada e azeite, um condimento que adiciona ardência e THC a asinhas, tacos, ovos e muito mais.",
     "dosing_unique": "Uma porção típica é 1 colher de chá; calcule o THC total do seu lote e divida pelo número de colheres de chá que ele rendeu para saber a potência por porção. Coar remove parte do material vegetal junto com parte do THC, então trate o número da calculadora como uma estimativa máxima.",
@@ -4867,8 +4867,8 @@
     "intro_unique": "A Horchata de Cannabis é uma bebida gelada e cremosa de arroz e canela com THC — refrescante, doce e perfeita para uma tarde ou noite tranquila.",
     "dosing_unique": "O óleo de coco de cannabis é batido no leite de arroz já batido, fora do fogo, emulsionando por completo para uma textura lisa e uma distribuição uniforme do THC em cada copo.",
     "storage_unique": "Mantenha na geladeira e agite bem antes de cada dose servida — o leite de arroz assenta naturalmente, e a bebida se conserva fresca por até 3 dias.",
-    "variation_unique": "Acrescente um pouco de rum para uma versão de coquetel para adultos, ou bata com uma banana congelada para uma consistência mais espessa, de smoothie.",
-    "unique_src": "e86784199505624570b650a9ed5f70544d4bbc46"
+    "variation_unique": "Bata com uma banana congelada para uma consistência mais espessa, de smoothie, ou acrescente um pouco de rum para uma versão para adultos; álcool e cannabis juntos batem mais forte, então, se você é iniciante, tome meio copo e espere 2 horas.",
+    "unique_src": "8c3ece81fb630d5c03438bef7da30fa53c4572e1"
   },
   "cannabis-mulled-wine": {
     "name": "Vinho Quente de Cannabis",
@@ -4948,8 +4948,8 @@
     "intro_unique": "Um Arnold Palmer de Cannabis é a bebida perfeita para a varanda — metade chá gelado, metade limonada, tudo infusionado com mel de THC para um efeito suave e refrescante.",
     "dosing_unique": "O mel infusionado com cannabis é dissolvido na parte da limonada, distribuindo o THC de forma uniforme sem textura oleosa nem gosto residual.",
     "storage_unique": "Mantenha o chá e a limonada de cannabis na geladeira, separados, por até 3 dias — misture sobre gelo na hora de servir para um sabor mais fresco.",
-    "variation_unique": "Use chá verde ou chá de hibisco para outro perfil de sabor, ou acrescente um toque de vodca para a versão alcoólica John Daly.",
-    "unique_src": "9d02ea2f0053950ba12794da3d31322a76e7b554"
+    "variation_unique": "Use chá verde ou chá de hibisco para outro perfil de sabor, ou acrescente um toque de vodca para a versão alcoólica John Daly; álcool e cannabis juntos batem mais forte, então, se você é iniciante, tome meio copo e espere 2 horas.",
+    "unique_src": "80aef69d858219fb8abaced9c45894125e79bd24"
   },
   "cannabis-enchiladas": {
     "name": "Enchiladas de Cannabis",
@@ -5547,7 +5547,7 @@
       "Derreta a manteiga de cannabis em fogo baixo. Em uma tigela grande, misture o leite, o creme de leite, os ovos, o açúcar, a manteiga de cannabis derretida, a baunilha, a canela e a noz-moscada até ficar bem combinado.",
       "Espalhe os cubos de pão na assadeira preparada e distribua as passas por cima, se usar. Despeje a mistura de creme infundida com cannabis uniformemente sobre o pão. Pressione o pão delicadamente para ajudar a absorver o líquido.",
       "Deixe o pudim descansar por 15-20 minutos para o pão absorver completamente o creme.",
-      "Asse por 45-50 minutos até o topo ficar dourado e o creme estar firme. Uma faca inserida no centro deve sair limpa.",
+      "Asse por 45-50 minutos até o topo ficar dourado e o creme estar firme. Uma faca inserida no centro deve sair limpa, ou o centro deve marcar 160°F (71°C).",
       "Deixe esfriar por 10 minutos. Sirva quente, regado com molho de baunilha ou bourbon e uma bola de sorvete de baunilha."
     ],
     "intro_unique": "Este Pudim de Pão de Cannabis transforma pão amanhecido em uma sobremesa quente de creme com especiarias, com manteiga de cannabis derretida no líquido em que o pão fica de molho, para um doce medicinal indulgente.",
@@ -5737,7 +5737,7 @@
     "category_name": "Almoço",
     "ingredients": [
       "1 colher de sopa de manteiga de cannabis + 1 colher de sopa de manteiga sem sal",
-      "450g de camarões grandes, descascados e limpos",
+      "450g de camarões grandes, descascados e limpos (se congelados, descongele na geladeira de um dia para o outro)",
       "4 dentes de alho picados",
       "2 colheres de sopa de manteiga comum",
       "Suco de 1 limão siciliano",
@@ -5748,7 +5748,7 @@
     ],
     "instructions": [
       "Seque os camarões com papel toalha e tempere com sal, pimenta e flocos de pimenta vermelha.",
-      "Derreta a manteiga comum em uma frigideira grande em fogo alto. Cozinhe os camarões por 2 minutos de cada lado até ficarem rosados. Retire e reserve.",
+      "Derreta a manteiga comum em uma frigideira grande em fogo alto. Cozinhe os camarões cerca de 2 minutos de cada lado, até ficarem firmes, perolados e opacos. Retire e reserve.",
       "Reduza o fogo para médio-baixo. Adicione a manteiga de cannabis e o alho picado, mexendo por 1 minuto até ficar aromático.",
       "Despeje o vinho branco e o suco de limão, raspando os pedaços dourados. Cozinhe por 2 minutos.",
       "Devolva os camarões à frigideira e misture para cobrir com o molho de manteiga de cannabis e alho.",
