@@ -464,12 +464,13 @@ end
 
 def duration(lang, m)
   return "–" if m.zero?
+  return "#{(m / 60.0).round} #{ui(lang, "recipe.h")}" if m >= 1440 # a day or more: whole hours ("26 Std. 10" is too wide at 360px)
   m >= 60 ? "#{m / 60} #{ui(lang, "recipe.h")}#{m % 60 > 0 ? " #{m % 60}" : ""}" : "#{m} #{ui(lang, "recipe.min")}"
 end
 
 def iso_minutes(s)
-  md = /PT(?:(\d+)H)?(?:(\d+)M)?/.match(s.to_s)
-  md ? md[1].to_i * 60 + md[2].to_i : 0
+  md = /\AP(?:(\d+)D)?(?:T(?:(\d+)H)?(?:(\d+)M)?)?\z/.match(s.to_s)
+  md ? md[1].to_i * 1440 + md[2].to_i * 60 + md[3].to_i : 0
 end
 
 # One ingredient/step line as a tap-to-strike checkbox. Inner HTML is our own data (links, the flower span).
