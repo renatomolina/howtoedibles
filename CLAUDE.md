@@ -28,6 +28,12 @@ node scripts/qa/interact.mjs  # calculator, dialogs + Back, theme key
 sh scripts/qa/lighthouse.sh   # mobile lab run, ads blocked: LCP ≤ 1.8 s, CLS ≤ 0.02, TBT ≤ 100 ms
 ruby scripts/qa/slots.rb      # article ad slots follow the #55 rule in all 5 languages
 
+# Parallel sessions: devices/fit/interact default to Chrome debug ports 9336/9347/9351, profiles /tmp/hte-qa-{devices,fit,interact}
+# and BASE http://127.0.0.1:8781, so two runs of the same script collide. Give each run its own server, Chrome port and profile
+# (and outdir, the first argument of devices/fit):
+python3 -I scripts/qa/serve.py 8791 &
+BASE=http://127.0.0.1:8791 PORT=9436 USER_DATA_DIR=/tmp/hte-qa-devices-8791 node scripts/qa/devices.mjs /tmp/hte-devices-8791
+
 # Rebuild /fonts/unbounded-800.latin1.woff2 from the pinned upstream font (fontTools + brotli)
 python3 scripts/build_font.py
 

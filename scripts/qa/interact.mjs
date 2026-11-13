@@ -1,10 +1,10 @@
 // Gate: behaviour of the new recipe page and shell in headless Chrome (exit 1 on any failure).
 // Steppers, chips, typed locale decimals, reset, ?quantity=&potency=&portion=, the menu/search dialogs
 // closing on Back, the dialog switch keeping one history entry, and the theme key (Auto removes it).
-// Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/interact.mjs
+// Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/interact.mjs (env: BASE = server, PORT = Chrome debug port, USER_DATA_DIR = Chrome profile)
 import { spawn } from "node:child_process";
-const BASE = process.env.BASE || "http://127.0.0.1:8781", PORT = 9351, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-interact", "--no-first-run"], { stdio: "ignore" });
+const BASE = process.env.BASE || "http://127.0.0.1:8781", PORT = +process.env.PORT || 9351, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, `--user-data-dir=${process.env.USER_DATA_DIR || "/tmp/hte-qa-interact"}`, "--no-first-run"], { stdio: "ignore" });
 for (let i = 0; i < 50; i++) { try { await fetch(`http://127.0.0.1:${PORT}/json/version`); break; } catch { await sleep(200); } }
 const target = await (await fetch(`http://127.0.0.1:${PORT}/json/new?about:blank`, { method: "PUT" })).json();
 const ws = new WebSocket(target.webSocketDebuggerUrl);

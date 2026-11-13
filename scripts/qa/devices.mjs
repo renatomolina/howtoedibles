@@ -7,7 +7,7 @@
 //  dose     – while cooking, the dose readout (panel or 56px peek) is on screen
 //  rail     – ≥1000px: the whole sticky rail can be reached
 //  static   – the build's pre-rendered dose panel equals what js/dose.js renders (window.DOSE.check())
-// Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/devices.mjs [outdir]   (BASE=… to change the server)
+// Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/devices.mjs [outdir]   (env: BASE = server, PORT = Chrome debug port, USER_DATA_DIR = Chrome profile)
 // Needs Google Chrome; no npm deps.
 import { spawn } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
@@ -29,8 +29,8 @@ const LANGS = ["en", "pt", "es", "de", "zh"], RECIPES = ["pot-brownies", "cannab
 const PAGES = ["/", "/calculator.html", "/donate.html", "/articles.html", "/recipes/easy-weed-brownies-recipe/",
   "/cannabis-and-sleep.html", "/how-long-do-edibles-take-to-kick-in.html", "/how-to-prevent-a-bad-trip.html", "/how-to-make-cannabis-topicals.html"];
 const EN_ONLY = ["/about.html", "/contact.html"];
-const PORT = 9336, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-devices", "--no-first-run", "--hide-scrollbars"], { stdio: "ignore" });
+const PORT = +process.env.PORT || 9336, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, `--user-data-dir=${process.env.USER_DATA_DIR || "/tmp/hte-qa-devices"}`, "--no-first-run", "--hide-scrollbars"], { stdio: "ignore" });
 for (let i = 0; i < 50; i++) { try { await fetch(`http://127.0.0.1:${PORT}/json/version`); break; } catch { await sleep(200); } }
 
 // runs inside the loaded page (setTimeout, not rAF: rAF hangs in background tabs)

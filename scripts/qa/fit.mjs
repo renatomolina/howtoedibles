@@ -4,7 +4,7 @@
 //  wrap – a one-line control (button, chip, sticker, eyebrow, segmented control, ad label, footer pill…) breaks onto 2+ lines
 //  fold – recipe pages, portrait phones: the hero buttons end inside the first screen
 //  errs – uncaught JS errors
-// Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/fit.mjs [outdir]   (BASE=… to change the server)
+// Usage: python3 -I scripts/qa/serve.py 8781 (repo root) & node scripts/qa/fit.mjs [outdir]   (env: BASE = server, PORT = Chrome debug port, USER_DATA_DIR = Chrome profile)
 import { spawn } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
 const out = process.argv[2] || "/tmp/hte-fit";
@@ -30,8 +30,8 @@ const PAGES = [ // name, path (after the language prefix), setup run in the page
 ];
 // controls that must stay on one line (each text node inside is checked separately, so a chip's value + label may stack by design)
 const ONE_LINE = ".tag, .sbox button, .dt th, .dt td:nth-child(2), .ex p b, .sh > a, button, .btn, .chip, .chips a, .seg > *, .txtbtn, .spill, .dot, .sticker, .eyebrow, .ad small, .cfoot a, .sh > a, .facts b, .facts span, .tiles small, .crumb, .reset, .langs a, .bh > a, .more, .help, .helpbox, .peek small, .peek b, .lvl b, .tot, .u, .back";
-const PORT = 9347, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, "--user-data-dir=/tmp/hte-qa-fit", "--no-first-run", "--hide-scrollbars"], { stdio: "ignore" });
+const PORT = +process.env.PORT || 9347, sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const chrome = spawn("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", ["--headless=new", `--remote-debugging-port=${PORT}`, `--user-data-dir=${process.env.USER_DATA_DIR || "/tmp/hte-qa-fit"}`, "--no-first-run", "--hide-scrollbars"], { stdio: "ignore" });
 for (let i = 0; i < 50; i++) { try { await fetch(`http://127.0.0.1:${PORT}/json/version`); break; } catch { await sleep(200); } }
 
 const PROBE = (setup) => `(async () => {
