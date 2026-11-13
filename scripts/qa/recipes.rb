@@ -132,7 +132,7 @@ ROOM = { "en" => /room temperature|room temp\b|on the counter|countertop|cool,? 
          "pt" => /temperatura ambiente|local fresco e seco|despensa/i, "es" => /temperatura ambiente|lugar fresco y seco|despensa/i,
          "de" => /Raumtemperatur|Zimmertemperatur|kühlen,? trockenen Ort|Speisekammer/i, "zh" => /室温|常温|阴凉干燥|阴凉处/ }.freeze
 FRIDGE = { "en" => /refrigerat|fridge/i, "pt" => /geladeira|refrigera/i, "es" => /refrigera|nevera/i, "de" => /Kühlschrank|gekühlt|kühl lagern/i, "zh" => /冰箱|冷藏/ }.freeze
-FREEZE = { "en" => /freez|frozen/i, "pt" => /congel/i, "es" => /congel/i, "de" => /gefrier|einfrier|tiefkühl/i, "zh" => /冷冻|冰冻/ }.freeze
+FREEZE = { "en" => /freez|frozen/i, "pt" => /congel|freezer/i, "es" => /congel/i, "de" => /gefrier|einfrier|tiefkühl|\bfrier\w*|gefroren/i, "zh" => /冷冻|冰冻/ }.freeze
 WORDNUM = { "a" => 1, "an" => 1, "one" => 1, "two" => 2, "three" => 3, "four" => 4, "five" => 5, "six" => 6, "seven" => 7, "ten" => 10, "several" => 3, "few" => 3,
             "um" => 1, "uma" => 1, "dois" => 2, "duas" => 2, "três" => 3, "quatro" => 4, "cinco" => 5, "un" => 1, "una" => 1, "dos" => 2, "tres" => 3, "cuatro" => 4,
             "ein" => 1, "eine" => 1, "einen" => 1, "zwei" => 2, "drei" => 3, "vier" => 4, "fünf" => 5, "一" => 1, "两" => 2, "二" => 2, "三" => 3, "四" => 4, "五" => 5, "六" => 6, "七" => 7 }.freeze

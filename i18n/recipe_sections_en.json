@@ -443,7 +443,7 @@
           },
           {
             "q": "How do I make no-bake cannabis treats?",
-            "a": "Melt your %{base_fat} and mix it with ingredients like oats, nut butter, chocolate chips, and honey. Press into a pan or roll into balls, then refrigerate until set. No-bake methods preserve 100% of the THC since there is no heat exposure after decarboxylation.",
+            "a": "Melt your %{base_fat} and mix it with ingredients like oats, nut butter, chocolate chips, and honey. Press into a pan or roll into balls, then refrigerate until set. No-bake treats skip the oven, so the infused fat only meets the gentle heat of melting.",
             "only": [
               "infused-energy-bites"
             ]
