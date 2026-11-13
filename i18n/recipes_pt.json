@@ -2448,13 +2448,13 @@
       "Derreta juntos o chocolate, o leite condensado com cannabis e a manteiga de cannabis em fogo baixo, mexendo até ficar liso.",
       "Misture a baunilha.",
       "Despeje em uma forma 8x8 forrada. Polvilhe sal marinho.",
-      "Leve à geladeira por 3-4h. Corte em quadrados."
+      "Leve à geladeira por 3-4h. Corte em 12 pedaços (uma grade de 3 × 4)."
     ],
     "intro_unique": "Rico e denso, o fudge infusionado é um doce sem forno que concentra um sabor intenso de chocolate num quadradinho pequeno e indulgente.",
-    "dosing_unique": "Despeje numa forma de 20 x 20 cm forrada com papel manteiga e corte uma grade de 6 × 6, com 36 quadrados; uma porção são 3 quadrados.",
+    "dosing_unique": "Despeje numa forma de 20 x 20 cm forrada com papel manteiga e corte uma grade de 3 × 4, com 12 pedaços de cerca de 5 × 6,7 cm; uma porção é 1 pedaço.",
     "storage_unique": "Guarde na geladeira em recipiente hermético por até 2 semanas ou congele por 3 meses; o fudge descongela rápido em temperatura ambiente.",
     "variation_unique": "Faça uma camada de fudge de pasta de amendoim sobre o fudge de chocolate para um doce bicolor inspirado no Reese's.",
-    "unique_src": "fad188c1f17754e37b49796de3ae09faf3f5811c"
+    "unique_src": "c69639702b477babf5efa39565f6d886a2953fa3"
   },
   "cannabis-blondies": {
     "name": "Blondies de Cannabis",
